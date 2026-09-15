@@ -1,0 +1,67 @@
+{
+  "id": "XTRA-07",
+  "classification": "historical source (acquired archival scan) with a reversible editorial framing derivative",
+  "asset_plan_status": "Script-only supplement (original_family SCRIPT-SUPPLEMENT). Not an original ASSET_PLAN.md row; distinct from HIST-11 (retail box).",
+  "script_sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [122, 128],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual brief and narration context (literal excerpt in evidence/source-excerpts.md)"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [125, 131],
+      "relationship": "working script; same wording at these lines as of branch point 1b578f6; not edited"
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "original media",
+      "url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd/media-disc01.png",
+      "local": "source/original.png",
+      "sha256": "765b153c92588f544ac63513868f5c0cffab1e39a7f99e1c61ac8a497e43aad8",
+      "accessed": "2026-09-15",
+      "record": "evidence/source.json"
+    },
+    {
+      "role": "identity corroboration (inspected, not delivered)",
+      "url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd/cdcover-front.png",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "identity corroboration (inspected, not delivered)",
+      "url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd/cdcover-back.png",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "identity corroboration (inspected, not delivered)",
+      "url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd/cdcover-inside.png",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "bitness context",
+      "url": "https://jeffpar.github.io/kbarchive/kb/150/Q150423/",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "host rights statement",
+      "url": "https://help.archive.org/help/rights/",
+      "accessed": "2026-09-15"
+    }
+  ],
+  "derived_files": [
+    {"path": "exports/editorial-frame.png", "from": "source/original.png", "by": "src/render_frame.py", "parameters": "evidence/framing.json"},
+    {"path": "proofs/editorial-frame-720.png", "from": "exports/editorial-frame.png", "by": "src/render_frame.py"},
+    {"path": "evidence/label-crop.png", "from": "source/original.png", "by": "src/render_frame.py", "note": "1:1 crop of the printed label text, box [1900,850,2500,1250]"}
+  ],
+  "authored_additions": [
+    "Framing choices only: dark ground #111318 (production-bible dark code background), ellipse mask of blank scanner bed, safe-area sizing. No authored text, labels or captions appear in the image."
+  ],
+  "producer_decisions": [],
+  "search_log": {
+    "wikimedia_commons": "File-namespace searches (\"Visual Basic\", \"Visual Basic 4\", Visual Basic 4.0, Microsoft Visual Basic floppy / CD-ROM / disk, Visual Basic installation disks) and Category:Visual Basic: no VB4 media photo.",
+    "internet_archive": "advancedsearch on titles containing visual basic 4 / 4.0 / vb4 and Microsoft Visual Basic software/image items; file lists inspected for 12 VB4 items; 7 candidate image files downloaded (image files only) and viewed. See evidence/source.json rejected_candidates.",
+    "web": "General searches surfaced WinWorld, WorthPoint and eBay listings; not used (seller or third-party photos with unclear rights, and ticket forbids relying on seller descriptions)."
+  }
+}

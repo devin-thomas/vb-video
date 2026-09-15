@@ -1,12 +1,15 @@
 {
   "id": "XTRA-07",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "worker for Archive Extras Manager (vb-25), branch ticket/XTRA-07",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: no licence or permission for the Internet Archive scan (scanner unknown) or the Microsoft disc label artwork; rights_status unresolved (RQ-XTRA-07-1)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Historical proof produced: acquired scan of the Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM plus a 1920x1080 editorial frame.",
+    "Release stays blocked until the review deck records a rights decision. Review questions RQ-XTRA-07-1..3 are in evidence/claim-checks.json."
   ]
 }

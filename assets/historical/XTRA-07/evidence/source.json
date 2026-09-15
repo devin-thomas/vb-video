@@ -1,0 +1,71 @@
+{
+  "title": "Microsoft Visual Basic Enterprise Edition, Version 4.0 — CD-ROM disc label (flatbed scan, file media-disc01.png)",
+  "creator": {
+    "depicted_work": "Microsoft Corporation (disc label artwork and text; label reads \"© 1991–1995 Microsoft Corporation. All rights reserved.\")",
+    "scan": "Unknown individual scanner. Uploaded to the Internet Archive by the account displayed as \"RetroGreekCollection\"; the item page names no photographer/scanner and no creator field is set."
+  },
+  "source_url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd/media-disc01.png",
+  "item_page_url": "https://archive.org/details/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd",
+  "archive_item": {
+    "identifier": "microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd",
+    "item_title": "Microsoft Visual Basic 4.0 Enterprise (4.00.2422) (1996-02-02) [English] (CD)",
+    "collections": ["clearancebin_unsorted", "clearancebin"],
+    "addeddate": "2022-04-20 17:55:15",
+    "publicdate": "2022-04-20 17:55:15",
+    "description": "Title only; no description, no license URL, no rights field.",
+    "file_last_modified_http": "Wed, 20 Apr 2022 17:55:28 GMT",
+    "other_files_inspected": ["cdcover-front.png", "cdcover-back.png", "cdcover-inside.png"],
+    "files_not_downloaded": ["Disc01.iso (disk image; out of bounds for this ticket)"]
+  },
+  "original_date": "Scan uploaded 2022-04-20 (scan creation date unknown).",
+  "depicted_object_date": "Disc printed code \"0296\" (Microsoft MMYY print code, read as February 1996 — inference, see claim-checks C4); copyright line 1991–1995. Item title date 1996-02-02 is the uploader's label and is not independently verified.",
+  "depicted_event_date": null,
+  "access_date": "2026-09-15",
+  "access_time_utc": "2026-09-15T20:32:21+00:00",
+  "access_method": "Anonymous HTTPS GET of the single image file (no account, no terms acceptance, no CAPTCHA). The disk image in the same item was not downloaded.",
+  "identity_evidence": {
+    "read_from_image": [
+      "Microsoft",
+      "Microsoft Visual Basic",
+      "Enterprise Edition",
+      "Programming System for Windows Platforms",
+      "Designed for Microsoft Windows 95 (logo)",
+      "© 1991–1995 Microsoft Corporation. All rights reserved.",
+      "Version 4.0",
+      "Disc Assy. 2031056-010",
+      "0296 Part No. 69944"
+    ],
+    "medium": "CD-ROM (single 120 mm optical disc; clear centre hub ring visible). Not a floppy set.",
+    "edition": "Enterprise Edition (printed on the disc).",
+    "bitness": "Not printed on the disc label. The label says only \"Designed for Windows 95\" and \"Programming System for Windows Platforms\". Microsoft KB Q150423 lists Enterprise Edition 4.0 as both 16-bit and 32-bit products; which of those this disc installs cannot be read from the image, so no bitness is claimed.",
+    "language": "English (label text); item title says [English].",
+    "evidence_crop": "evidence/label-crop.png",
+    "corroboration_same_item": "cdcover-front.png reads \"Microsoft Visual Basic Enterprise Edition\" with the Designed for Windows 95 logo; cdcover-back.png spine reads \"Microsoft Visual Basic, Enterprise Edition, Version 4.0\" (0895 Part No. 64579); cdcover-inside.png refers to \"the README.HLP file in the root directory of the Visual Basic CD\" (0895 Part No. 64577). Jewel-case inserts carry 0895 codes while the disc carries 0296, so the inserts and disc may come from different print runs; the insert scans are not part of this delivery."
+  },
+  "original_file": "source/original.png",
+  "original_dimensions": {"width": 2932, "height": 2948, "mode": "RGB", "dpi": null},
+  "original_bytes": 8029368,
+  "original_sha256": "765b153c92588f544ac63513868f5c0cffab1e39a7f99e1c61ac8a497e43aad8",
+  "original_md5": "7f282de718057015c0fb1fcea02f6d3d",
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "rights_status": "unresolved",
+  "credit_text": "Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM (Microsoft Corporation, © 1991–1995). Scan: Internet Archive item \"microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd\", uploaded by RetroGreekCollection. Rights not cleared.",
+  "transformations": [
+    "source/original.png is byte-identical to the downloaded file (SHA-256 and MD5 above).",
+    "exports/editorial-frame.png: anti-aliased ellipse mask fitted to the disc rim removes only blank white scanner bed; uniform LANCZOS scale to 936 px disc height; centred on #111318 1920x1080. No stretch, grade, retouch or overlay. Parameters in evidence/framing.json; script src/render_frame.py."
+  ],
+  "rejected_candidates": [
+    {"url": "https://archive.org/details/microsoft-visual-basic-4.0-professional-4.00.2422-english-cd", "file": "cover-disc.jpg", "reading": "Microsoft Visual Basic Professional Edition, Version 4.0, 0296 Part No. 69929", "reason": "643x650 JPEG with visible compression; too small for a 1080p frame. Same rights situation."},
+    {"url": "https://archive.org/details/microsoft-visual-basic-4.0-enterprise", "file": "microsoft-visual-basic-4.0-enterprise.png", "reading": "Same Enterprise disc design (Part No. 69944)", "reason": "980x980 duplicate of the selected design at lower resolution."},
+    {"url": "https://archive.org/details/ms-select-vb40-eng", "file": "VB4_US.png", "reading": "Microsoft Select, May 1996, Application Pool: Visual Basic for Windows Standard, Professional, and Enterprise Edition, CD-ROM, NOT FOR RESALE", "reason": "Volume-licence disc for licensed customers only; not what a store buyer received."},
+    {"url": "https://archive.org/details/ms-vc40-rc2", "file": "VB4.png", "reading": "Visual Basic Version 4.0, RC-2 August 1995, Not for resale", "reason": "Pre-release candidate disc, not retail installation media (although it is the only teal VB4 disc found)."},
+    {"url": "https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995", "file": "00cover.jpg", "reading": "not used", "reason": "400x387 thumbnail-sized cover image."},
+    {"url": "https://commons.wikimedia.org/", "file": null, "reading": "Searched File: namespace for \"Visual Basic\", \"Visual Basic 4\", VB floppy/CD/disk terms and Category:Visual Basic (53 members)", "reason": "No photo or scan of VB4 installation media found on Wikimedia Commons."}
+  ],
+  "notes": [
+    "Distinct from HIST-11 (Visual Basic 4 retail box): this asset shows only the disc label, not the box. The jewel-case front cover scan was inspected for identity only and is not delivered.",
+    "Uploader contact details present in the archive metadata API were deliberately not recorded."
+  ]
+}

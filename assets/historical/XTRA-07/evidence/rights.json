@@ -1,0 +1,25 @@
+{
+  "asset": "source/original.png and its derivative exports/editorial-frame.png",
+  "rights_holders": [
+    {"layer": "disc label artwork, logos and text", "holder": "Microsoft Corporation", "basis": "Printed notice \"© 1991–1995 Microsoft Corporation. All rights reserved.\"; Microsoft and Visual Basic trademarks (jewel-case back notice)."},
+    {"layer": "scan (photographic reproduction)", "holder": "unknown", "basis": "Uploaded to the Internet Archive by RetroGreekCollection on 2022-04-20; no scanner/photographer, licence or rights statement on the item."}
+  ],
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "host_terms": {
+    "source": "https://help.archive.org/help/rights/",
+    "accessed": "2026-09-15",
+    "summary": "The Internet Archive states it does not guarantee the copyright status of items and that users must determine rights themselves. Archive availability is not a licence.",
+    "terms_accepted": false
+  },
+  "fair_use_or_other_exception": "Not assessed by this agent. Possible editorial/commentary use of a photographed product label is a legal judgement, not an evidence question.",
+  "rights_status": "unresolved",
+  "release_status": "blocked",
+  "credit_text": "Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM (Microsoft Corporation, © 1991–1995). Scan: Internet Archive item \"microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd\", uploaded by RetroGreekCollection. Rights not cleared.",
+  "handoff": "Review question RQ-XTRA-07-1: a human decides whether to (a) rely on an editorial/fair-use position for showing the Microsoft label artwork via this anonymous scan, (b) replace it with a production-owned photo of a physically owned VB4 disc (removes the scanner layer; Microsoft label rights remain), or (c) cut the visual. No account, payment, permission request or terms acceptance was made.",
+  "notes": [
+    "No watermark was present or removed.",
+    "Nothing here clears rights silently: rights_status stays unresolved until a recorded human decision."
+  ]
+}

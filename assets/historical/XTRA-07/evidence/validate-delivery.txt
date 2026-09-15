@@ -1,0 +1,13 @@
+$ python tools/validate_delivery.py --id XTRA-07
+{
+  "id": "XTRA-07",
+  "ok": true,
+  "errors": [],
+  "limitations": [
+    "No OCR or visual quality judgment.",
+    "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+    "No historical, semantic, or legal clearance.",
+    "Manual 1080p/720p review remains required."
+  ]
+}
+exit=0

@@ -1,0 +1,250 @@
+{
+  "id": "XTRA-07",
+  "title": "Visual Basic 4 installation media",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (acquired archival scan) with reversible editorial framing",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 5474,
+      "sha256": "6500cfdaa7ccbb6e98e69f587acb76f86991e5b413452f98d56e7dd4d7f2752d"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 2308,
+      "sha256": "3484d8454630c4b2da58f5f8f6d81f6f57d9be46fe15e1d1aad7caffa00df176"
+    },
+    {
+      "path": "evidence/label-crop.png",
+      "role": "identity evidence crop (1:1 from original)",
+      "bytes": 408021,
+      "sha256": "a3b7b5d64c7e04d8da11cef5244e0a04127f75b0dc10070361518f30b6892b16"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3650,
+      "sha256": "17ed8335652b42a8509871ad84c4d8e30b1769b3a2913a676ef39a3fffe4ae59"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 2067,
+      "sha256": "25b485cc774c75c430cd4cb1a3ac22eeec322ee8d84ae9d190e1eb0f341175c0"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2098,
+      "sha256": "fdda3a3e69e9b120a1d4bece940f4a1b9fa5cd61e3dd7100dd239c1950c9adf8"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6743,
+      "sha256": "890e4b80ceb620ff37d17de89f6f8ec2fcf6ffe527d895cc26467468615d70ec"
+    },
+    {
+      "path": "evidence/validate-delivery.txt",
+      "role": "evidence / QA",
+      "bytes": 360,
+      "sha256": "95dfdb0dce9fcd28fb3e8b65f32b8d81226be6aa2128da4f957ac34952841a82"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame variant (derived: uniform scale, scanner-bed mask, dark ground)",
+      "bytes": 1106691,
+      "sha256": "ed8a5515aec3c7c5469e15ae557c265408d8385b81e9c8f0b2906d9a8172eb5f"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 512194,
+      "sha256": "b8e73cb6c38a8b14596619696f26edb9a54658ff77bf89ea87b4ac627f122263"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6204,
+      "sha256": "1b2ae2b06b5ffd3564c22d153ca52fa102c9960d28d618ae5187b70b59b53920"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original (byte-identical Internet Archive download)",
+      "bytes": 8029368,
+      "sha256": "765b153c92588f544ac63513868f5c0cffab1e39a7f99e1c61ac8a497e43aad8"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "framing script (exact reproduction)",
+      "bytes": 6336,
+      "sha256": "4d2d01e90cf288375e4f4ea948eb393f7e79c678b608bb4ddde6883d5cc897f7"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.png"
+      ],
+      "native_size": [
+        2932,
+        2948
+      ]
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.png",
+      "proof_720": "proofs/editorial-frame-720.png",
+      "parameters": "evidence/framing.json",
+      "timing": "still; holds for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        122,
+        128
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual brief and narration context (script-only supplement, not an asset-plan row)"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd/media-disc01.png",
+      "item_page": "https://archive.org/details/microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd",
+      "accessed": "2026-09-15",
+      "sha256": "765b153c92588f544ac63513868f5c0cffab1e39a7f99e1c61ac8a497e43aad8",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "derived_from": "source/original.png"
+    },
+    {
+      "path": "evidence/label-crop.png",
+      "relationship": "derivative crop",
+      "derived_from": "source/original.png"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical source (rights unresolved)",
+      "credit": "Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM (Microsoft Corporation, © 1991–1995). Scan: Internet Archive item \"microsoft-visual-basic-4.0-enterprise-4.00.2422-1996-02-02-english-cd\", uploaded by RetroGreekCollection. Rights not cleared."
+    }
+  ],
+  "tests": [
+    {
+      "test": "original byte-identical to archive file",
+      "result": "passed",
+      "detail": "SHA-256 765b153c92588f544ac63513868f5c0cffab1e39a7f99e1c61ac8a497e43aad8; MD5 7f282de718057015c0fb1fcea02f6d3d equals archive.org published md5 for media-disc01.png (8029368 bytes)"
+    },
+    {
+      "test": "uniform scale (no stretch)",
+      "result": "passed",
+      "detail": {
+        "uniform_factor": 0.32613240418118467,
+        "resized_to": [
+          938,
+          936
+        ],
+        "x_over_y_factor_ratio": 1.000393905611297,
+        "resample": "LANCZOS"
+      }
+    },
+    {
+      "test": "mask hides scanner bed only",
+      "result": "passed",
+      "detail": {
+        "framing_check": {
+          "count": 205,
+          "within_2pct_of_rim": 142,
+          "min_normalized_distance": 0.9989878786436646,
+          "darkest_luminance": 0,
+          "interpretation": "Pixels far outside the rim (normalized distance > 1.02) are dust specks on the scanner bed; any pixel within 2% of the rim is reported so a clipped disc edge cannot pass unnoticed."
+        },
+        "near_rim_luminance_range": [
+          229,
+          234
+        ],
+        "history": "raw bbox inflated by dust specks (render 1); 3 px padding shaved rim edge (render 2); ray sampling + 3x rim crops chose 10 px (render 3)"
+      }
+    },
+    {
+      "test": "PNG dimensions",
+      "result": "passed",
+      "detail": {
+        "source/original.png": [
+          2932,
+          2948
+        ],
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "test": "safe area",
+      "result": "passed",
+      "detail": "ground colour #111318 at canvas corners and at y=71 / y=1008; disc occupies x 491..1429, y 72..1007"
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed exports/editorial-frame.png 1:1 plus 4x rim crops: whole disc intact, all label text legible, no stretch/colour shift/overlay, clean rim with no scanner crescent.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png 1:1: title, edition, wordmark clear; copyright and part-number lines readable (soft)."
+    },
+    {
+      "test": "privacy scan of text outputs (local account name, e-mail addresses)",
+      "result": "passed",
+      "hits": []
+    },
+    {
+      "test": "python tools/validate_delivery.py --id XTRA-07",
+      "result": "see evidence/validate-delivery.txt",
+      "note": "Verbatim stdout of the first validator run; the validator was re-run after this file was added and delivery.json rebuilt."
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "shell": "PowerShell 7.6.6",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "render_command": "python assets/historical/XTRA-07/src/render_frame.py",
+    "shared_render_pipeline_used": false,
+    "fonts_used": null,
+    "network_used": "HTTPS GET of image files and metadata from archive.org during acquisition only; rendering is offline",
+    "installs_performed": false
+  },
+  "notes": [
+    "Subject read from the disc: Microsoft Visual Basic Enterprise Edition, Version 4.0, CD-ROM, Part No. 69944, print code 0296. Bitness not printed.",
+    "Distinct from HIST-11 (retail box). Jewel-case scans were inspected for identity only and are not delivered.",
+    "Review questions RQ-XTRA-07-1..3 in evidence/claim-checks.json. Release stays blocked until a recorded rights decision."
+  ]
+}
