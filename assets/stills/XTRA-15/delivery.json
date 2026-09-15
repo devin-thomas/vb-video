@@ -1,0 +1,214 @@
+{
+  "id": "XTRA-15",
+  "title": "Windows XP office / legacy VB6 scene",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "authored reconstruction",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 445,
+      "sha256": "ab16aefc06a19b87d70d46aef91860a61547ec3d3f737e110870d93ef15d80b4"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3949,
+      "sha256": "03d3447d5133acd8cfff7758a229ce02beb42b3e43c30a51fe6a72c6afc60799"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2886,
+      "sha256": "d6ffb186b86b9cce2281843bc886335b57411482b5559dfd3f61964f48a1ef2e"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "06a59d52d4f7b51f24330701f63ba53877a205ebb7163796f8b2b573e5dc235e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1781,
+      "sha256": "000a956571378d48cd887844434e45d661332380d64feb9713bdf13cc4d9bf68"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 32677,
+      "sha256": "ae734e0f011cfbc14cacf5bd719ab789a0caf6848679be6b407dd926d333957a"
+    },
+    {
+      "path": "exports/legacy-scene.png",
+      "role": "rendered still",
+      "bytes": 149205,
+      "sha256": "d4ecda40056e9ca42e148534e1e8c85a6eb938b2711818119732ec013bc8647c"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 149205,
+      "sha256": "d4ecda40056e9ca42e148534e1e8c85a6eb938b2711818119732ec013bc8647c"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 123324,
+      "sha256": "7d17ba3a43903f06ee156ec24db3971b719052339368c748107d7ecaf9d8aa20"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2826,
+      "sha256": "f61d1ee45a7b91e7f3013a2b313107952cef3e1ae82345c6bb8ec5a71280db7b"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1355,
+      "sha256": "3846ccafe49b1c484a6f404898d24819895abc06a1700187614a78daa06efadb"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1379,
+      "sha256": "fbb1effa88a3995baa1ca258ccd23664eb93b168e13d9a5f768081a8c5f82ba2"
+    },
+    {
+      "path": "src/build.py",
+      "role": "editable source",
+      "bytes": 14665,
+      "sha256": "f742d9d80126b201c9cb9e6ff057ea28ddb15eaae6c4e74c6f445ffdffb3a44d"
+    },
+    {
+      "path": "src/copy.txt",
+      "role": "editable source",
+      "bytes": 747,
+      "sha256": "9a83ecb125257fc0908ce0f1024931f40e50a063edfbbe42d99ef2256448e711"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 157817,
+      "sha256": "1fcd5360347904f00e4afdce37ba2398b3cd6f9b22b3f390de1a9f44d7603842"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 155849,
+      "sha256": "2bd06a01eb554e15f36237ed5cb916a8f3dfec8f4bcc965ad13fa6a8217512a2"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 547,
+      "sha256": "21bbe50efcb9c6e94fa1a60590cc16d45cfabf97692e026bdaa35b9d04468757"
+    },
+    {
+      "path": "src/variant-legacy-scene.svg",
+      "role": "editable source",
+      "bytes": 155849,
+      "sha256": "2bd06a01eb554e15f36237ed5cb916a8f3dfec8f4bcc965ad13fa6a8217512a2"
+    }
+  ],
+  "variants": [
+    {
+      "name": "legacy-scene",
+      "files": [
+        "exports/legacy-scene.png",
+        "src/variant-legacy-scene.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        691,
+        693
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (VISUAL cue at line 693)"
+    },
+    {
+      "path": "../../historical/XTRA-11/source/original.jpg",
+      "asset": "XTRA-11",
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+      "relationship": "historical original from a produced upstream asset; uniformly scaled, not cropped"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "A 640 × 360 thumbnail, not every full-resolution animation frame.",
+        "status": "No obvious composition issue found at overview size; editorial and final frame-by-frame review remain."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R01",
+    "R11",
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Authored reconstruction: Windows XP desktop with a legacy VB business application.",
+    "Application source: XTRA-11 (INVOICE-IT for Windows v2.06, Eastern Digital Resources, 1993). VB provenance: publisher documentation names Visual Basic 2.0 and VBRUN200.DLL.",
+    "Desktop: generic XP appearance with plain blue background (no Bliss wallpaper; rights unclear).",
+    "Explicitly labeled \"Reconstruction\" on screen. Not a documentary photograph.",
+    "Internal proof only; release blocked under R01, R11, R14 pending the review deck.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

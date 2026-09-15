@@ -1,0 +1,23 @@
+{
+  "id": "XTRA-15",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Find/verify the documentary candidate or propose a documented reconstruction plan.",
+    "Record rights and the editorial decision before final composition.",
+    "Deliver the accepted scene and original/evidence layers."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "legacy-scene"
+  ],
+  "motion_model": "Still asset: one state held for editorial timing."
+}

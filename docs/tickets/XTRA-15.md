@@ -94,3 +94,11 @@ Microsoft estimated that by the late 1990s, there were more lines of Visual Basi
 
 **[VISUAL: An old Windows XP machine in an office setting, running a VB6 app. The wallpaper is Bliss. The form has that very specific VB6 look — gray controls, 3D borders.]**
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/stills/XTRA-15/delivery.json) · [QA and remaining decisions](../../assets/stills/XTRA-15/qa.md) · [Live state](../../assets/stills/XTRA-15/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

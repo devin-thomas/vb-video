@@ -1,0 +1,33 @@
+{
+  "id": "XTRA-15",
+  "title": "Windows XP office / legacy VB6 scene",
+  "requirements": [
+    "Preferred route: authenticated office/XP/VB6 application image with clear provenance and permitted reuse.",
+    "Alternative, only with producer approval: an explicitly labeled reconstruction using a verified application source and original office/monitor framing. Do not label it a documentary photo.",
+    "The source asks for Bliss wallpaper; do not assume wallpaper or screenshot rights. Record its exact provenance or request approval for an alternative.",
+    "Remove the stale “today in 2024” claim from no source automatically; R01 determines any approved temporal wording. Avoid identifiable private business data."
+  ],
+  "beats": [
+    "Find/verify the documentary candidate or propose a documented reconstruction plan.",
+    "Record rights and the editorial decision before final composition.",
+    "Deliver the accepted scene and original/evidence layers."
+  ],
+  "checks": [
+    "Actual photo, software screenshot, and reconstruction are distinguishable in metadata.",
+    "The VB6 identification is supported independently of gray controls.",
+    "No unsupported present-day usage claim is baked in."
+  ],
+  "copy": "",
+  "refs": [
+    [
+      "SCRIPT.md",
+      691,
+      693
+    ]
+  ],
+  "gates": [
+    "R01",
+    "R11",
+    "R14"
+  ]
+}

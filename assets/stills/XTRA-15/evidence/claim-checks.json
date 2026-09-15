@@ -1,0 +1,43 @@
+{
+  "id": "XTRA-15",
+  "gates": [
+    {
+      "gate": "R01",
+      "title": "Stale 'today' dates",
+      "status": "open",
+      "applies_to_this_asset": true,
+      "evidence": "The narration at SCRIPT.md:691 says 'still running today -- in 2024.' This visual does not contain any temporal wording. No date claim is baked into the reconstruction. The R01 decision about how to handle the stale 2024 reference in narration is deferred to the producer/Writing Lead.",
+      "action_taken": "No temporal wording added to the visual. The reconstruction contains no year or 'today' reference.",
+      "review_question": "XTRA-15-RQ1: The narration says 'still running today -- in 2024.' The visual avoids this wording entirely. Should the narration date be updated, or is the visual's silence on dates sufficient? Route to Writing Lead.",
+      "resolution": null
+    },
+    {
+      "gate": "R11",
+      "title": "Popularity, installed base, prices, and real VB applications",
+      "status": "open",
+      "applies_to_this_asset": true,
+      "evidence": "The reconstruction uses XTRA-11 (INVOICE-IT for Windows) as the on-screen application. XTRA-11's VB provenance is documented via the publisher's own RELEASE.TXT and HELP.TXT files (Visual Basic 2.0, VBRUN200.DLL). However, the source script at line 691 refers to 'VB6 applications', while the actual documented provenance is VB 2.0, not VB6. The VB identification is supported independently of gray controls (by the publisher's documentation), but it is VB 2.0, not VB6.",
+      "action_taken": "The reconstruction label states 'VB 2.0 provenance' on screen. The metadata and evidence files record that this is VB 2.0. No claim is made that this is a VB6 application.",
+      "review_question": "XTRA-15-RQ2: The script calls for a 'VB6 app' but the best available documented VB application (XTRA-11) is VB 2.0. The reconstruction labels it accurately as VB 2.0. Is this acceptable for the video, or does the Writing Lead/producer want a different approach?",
+      "resolution": null
+    },
+    {
+      "gate": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "open",
+      "applies_to_this_asset": true,
+      "evidence": "The XTRA-11 upstream original (Internet Archive screenshot of INVOICE-IT for Windows) has no license or rights statement on the archive item. XTRA-11's own evidence/rights.json records rights_status as 'unclear: release blocked pending review.' The reconstruction's authored elements (XP desktop, taskbar, window chrome, labels) are original production artwork. The embedded XTRA-11 screenshot inherits its upstream rights status.",
+      "action_taken": "Release remains blocked. The reconstruction is an internal proof only. No publication or release is claimed.",
+      "review_question": "XTRA-15-RQ3: The embedded XTRA-11 screenshot has unclear rights (no license on the Internet Archive item). The reconstruction's authored elements are original. Release is blocked pending the review deck's rights decision on XTRA-11.",
+      "resolution": null
+    }
+  ],
+  "acceptance_checks": {
+    "photo_vs_screenshot_vs_reconstruction_distinguishable": true,
+    "how": "Metadata classifies this as 'authored reconstruction'. On-screen label reads 'RECONSTRUCTION'. evidence/provenance.json classification is 'authored reconstruction'. No documentary-photo or software-screenshot claim is made.",
+    "vb_identification_independent_of_gray_controls": true,
+    "how_vb": "VB provenance comes from the publisher's own documentation (RELEASE.TXT: 'Recompiled program using Visual BASIC 2.0'; HELP.TXT and MANUAL.WRI: 'running under Visual BASIC version 2.0'; requires VBRUN200.DLL). This is independent of visual appearance.",
+    "no_present_day_usage_claim": true,
+    "how_no_claim": "No 'today', '2024', or present-day assertion appears in the visual. The reconstruction shows the app without temporal context."
+  }
+}

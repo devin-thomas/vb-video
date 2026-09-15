@@ -1,0 +1,16 @@
+# XTRA-15 on-screen copy (authored reconstruction, not from sources/)
+
+Scene: Windows XP desktop running a legacy VB business application.
+
+On-screen elements (all authored reconstruction, not documentary):
+  - Windows XP Luna-style desktop with plain blue background (no Bliss wallpaper)
+  - XP taskbar with Start button, app button, clock
+  - INVOICE-IT FOR WINDOWS application in XP window chrome
+  - Application content: XTRA-11 upstream screenshot (unmodified pixel content)
+
+Labels:
+  RECONSTRUCTION
+  Authored scene  |  App source: INVOICE-IT for Windows (XTRA-11, VB 2.0 provenance)
+  Not a documentary photograph. Windows XP desktop is a stylistic reconstruction.
+
+No present-day usage claim, no "today in 2024" wording, no business data.

@@ -1,0 +1,49 @@
+{
+  "id": "XTRA-15",
+  "classification": "authored reconstruction",
+  "description": "A Windows XP desktop scene showing a legacy VB business application. The desktop environment is an authored stylistic reconstruction; the application screenshot is from a produced upstream asset (XTRA-11). This is not a documentary photograph.",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [691, 693],
+      "sha256_note": "See build.json for the exact hash at build time.",
+      "relationship": "source creative brief (VISUAL cue at line 693)",
+      "content_used": "The visual direction: 'An old Windows XP machine in an office setting, running a VB6 app. The wallpaper is Bliss. The form has that very specific VB6 look -- gray controls, 3D borders.'"
+    },
+    {
+      "path": "../../historical/XTRA-11/source/original.jpg",
+      "asset": "XTRA-11",
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+      "bytes": 66785,
+      "relationship": "historical original from a produced upstream asset; uniformly scaled via Pillow LANCZOS, not cropped",
+      "upstream_provenance": "INVOICE-IT for Windows v2.06 (Eastern Digital Resources, 1993). Internet Archive Software Library automated emulator screenshot. See XTRA-11 evidence/source.json for the full provenance record.",
+      "vb_provenance": "Publisher documentation: 'Recompiled program using Visual BASIC 2.0'; requires VBRUN200.DLL. This is VB 2.0, not VB6."
+    }
+  ],
+  "authored_additions": [
+    "Windows XP Luna-style desktop with plain blue background (no Bliss wallpaper)",
+    "XP-style taskbar with Start button, application button, system clock",
+    "XP Luna-style window chrome (blue title bar, control buttons) around the application",
+    "Monitor bezel framing (thin dark border around the desktop area)",
+    "'RECONSTRUCTION' label and source attribution text"
+  ],
+  "editorial_decisions": [
+    {
+      "decision": "reconstruction_approach",
+      "rationale": "No documentary photo of a Windows XP machine running a documented VB6 application was found with clear provenance and permitted reuse. The producer approved an explicitly labeled reconstruction.",
+      "approved_by": "producer (project owner)"
+    },
+    {
+      "decision": "no_bliss_wallpaper",
+      "rationale": "The Bliss wallpaper rights are unclear. A plain/generic XP desktop blue background is used instead.",
+      "approved_by": "producer (project owner)"
+    },
+    {
+      "decision": "xtra_11_as_app_source",
+      "rationale": "XTRA-11 (INVOICE-IT for Windows) is used as the on-screen application. Its VB provenance is documented via the publisher's own files (Visual Basic 2.0, VBRUN200.DLL). Note: this is VB 2.0, not VB6 as the script states.",
+      "approved_by": "producer (project owner)"
+    }
+  ],
+  "font_files_distributed": false,
+  "remote_assets": []
+}

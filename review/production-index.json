@@ -828,5 +828,18 @@
       "R09",
       "R14"
     ]
+  },
+  {
+    "id": "XTRA-15",
+    "title": "Windows XP office / legacy VB6 scene",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R01",
+      "R11",
+      "R14"
+    ]
   }
 ]

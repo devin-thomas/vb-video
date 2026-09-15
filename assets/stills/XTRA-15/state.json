@@ -1,12 +1,23 @@
 {
   "id": "XTRA-15",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Worker (Claude Opus 4.6), branch ticket/XTRA-15",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R01: stale 'today in 2024' narration wording; visual avoids temporal claims but the narration decision is open.",
+    "R11: script says 'VB6 app' but documented app source (XTRA-11) is VB 2.0; reconstruction labels it accurately.",
+    "R14: XTRA-11 upstream screenshot has unclear rights (no license on the Internet Archive item); release blocked."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
-  ]
+    "Produced: authored reconstruction of Windows XP desktop with legacy VB application (INVOICE-IT for Windows, XTRA-11).",
+    "XP desktop uses plain blue background (no Bliss wallpaper; rights unclear).",
+    "On-screen 'RECONSTRUCTION' label distinguishes this from a documentary photograph.",
+    "VB provenance comes from the publisher's documentation (VB 2.0, VBRUN200.DLL), not from visual appearance.",
+    "Internal proof only; release blocked under R01, R11, R14 pending the review deck.",
+    "Full-size (1920x1080) and 720p manual visual review completed.",
+    "validate_delivery.py passes."
+  ],
+  "owner": "Worker (Claude Opus 4.6), branch ticket/XTRA-15"
 }
