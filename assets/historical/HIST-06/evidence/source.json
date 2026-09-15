@@ -1,0 +1,77 @@
+{
+  "id": "HIST-06",
+  "provenance_classification": "historical source (third-party archive file, acquired unmodified)",
+  "title": "Applesoft BASIC",
+  "title_source": "Commons file name and its Description field",
+  "creator": {
+    "uploader": "Vadimr (Wikimedia Commons user)",
+    "stated_source": "Own work (Screenshot)",
+    "author_field": "Empty; it holds only the placeholder comment from the upload form. Commons files it under 'Media lacking author information' and 'Files with no machine-readable author'.",
+    "software_shown": "Applesoft BASIC (Apple Computer), identified by its ] prompt (see identification)"
+  },
+  "original_publication_date": "2008-08-30T15:46:55Z (Commons upload; the page gives no creation date)",
+  "depicted_event_date": null,
+  "depicted_event_date_note": "Unknown. The screenshot was made on or before its 2008-08-30 upload; the page does not say when, or on which machine or emulator.",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+  "source_short_url": "https://commons.wikimedia.org/w/index.php?curid=4662064",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Applesoft_BASIC.png",
+  "access_date": "2026-09-15",
+  "acquisition": {
+    "method": "Anonymous HTTPS GET of the original file URL with curl 8.21.0. No account, sign-in, payment, CAPTCHA, or terms click-through.",
+    "file_versions_on_commons": 1,
+    "bytes": 2744,
+    "sha1": "8cf8db2260f1676a052623235afa33fd14505641",
+    "sha1_matches_commons_api": true,
+    "sha256": "69df4c7f0b3e4271f12311bc0e06e5d61cadffee4b2870875d2034a7cf6bda4e",
+    "server_last_modified": "Wed, 08 Oct 2014 16:18:04 GMT",
+    "archival_corroboration": "The Wayback Machine holds 47 captures of this image URL, the first on 2012-08-02 (20120802152813). Their CDX digest RT4NWITA6FTWUBJGEMRVV6RT7UKFAVSB is the base-32 SHA-1 of the file acquired here, so these exact bytes have been published since at least 2012. The file page was captured on 2015-01-27, 2016-12-25 and 2025-06-29.",
+    "preserved_source_page": [
+      "evidence/source-page/commons-file-page.html",
+      "evidence/source-page/commons-wikitext.txt",
+      "evidence/source-page/commons-imageinfo.json",
+      "evidence/source-page/commons-revisions.json",
+      "evidence/source-page/commons-upload-log.json",
+      "evidence/source-page/wayback-cdx-file-page.json",
+      "evidence/source-page/wayback-cdx-image.json"
+    ]
+  },
+  "original_dimensions": [560, 384],
+  "original_format": "PNG, RGBA (alpha 255 everywhere), exactly two colours: #32FF32 green (6,236 px) and #000000 black (208,804 px)",
+  "visible_content": {
+    "transcription": [
+      "HELLO, WORLD!        (inverse video: black text on a green bar)",
+      "",
+      "]LIST",
+      "",
+      "10  HOME",
+      "20  INVERSE",
+      "30  PRINT \"HELLO, WORLD!\"",
+      "40  NORMAL",
+      "50  PRINT  CHR$ (7)",
+      "",
+      "]                    (followed by a solid block cursor)"
+    ],
+    "reading": "Someone ran a five-line Hello World program (HOME cleared the screen, so the RUN command is gone), then typed LIST at the prompt. The screen is not a power-on or boot screen."
+  },
+  "identification": {
+    "software": "Applesoft BASIC. Established: Apple's documentation defines ] as the Applesoft prompt and > as the Integer BASIC prompt, and HOME, INVERSE and NORMAL are Applesoft statements (evidence/source-excerpts.md, sections 3-4).",
+    "hardware_model": "Not established. Nothing on screen names a model. Uppercase-only text and the 40-column layout fit the Apple II, II Plus, and a IIe in uppercase mode alike.",
+    "rom_or_emulator": "Not established. The 560x384 two-colour raster is exactly the 280x192 Apple text screen doubled, which is typical of emulator output, but the page does not name an emulator, ROM set, or real hardware.",
+    "boot_banner": "Absent. An Autostart ROM cold start clears the screen and shows a machine-name banner top centre before BASIC starts (Apple II Reference Manual, 1979; OCR reads 'APPLE II'). No banner appears in this image.",
+    "label_allowed_by_evidence": "Applesoft BASIC prompt on an Apple II-family text screen (model and emulator unknown)",
+    "label_not_supported": "Apple II boot screen; Apple II Plus; any specific ROM revision"
+  },
+  "transformations": [
+    "source/original.png: none (byte-identical to the Commons original).",
+    "exports/editorial-frame.png: flattened to RGB (alpha was fully opaque), enlarged exactly 2x with nearest-neighbour sampling to 1120x768, centred at (400,156) on a 1920x1080 #111318 canvas. No crop, no recolour, no annotation. Recorded and verified reversible in evidence/framing.json."
+  ],
+  "license": {
+    "short_name": "Public domain",
+    "commons_templates": ["{{PD-self}}", "{{free screenshot|license=}}"],
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "screenshot_policy_url": "https://commons.wikimedia.org/wiki/Commons:Screenshots",
+    "attribution_required_per_commons": false
+  },
+  "rights_status": "unresolved: Commons public-domain label recorded, not independently cleared (see evidence/rights.json)",
+  "credit_text": "\"Applesoft BASIC\" screenshot by Wikimedia Commons user Vadimr, released into the public domain (PD-self). https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png"
+}

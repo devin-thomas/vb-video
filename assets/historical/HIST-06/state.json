@@ -1,12 +1,16 @@
 {
   "id": "HIST-06",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Claude Code (Opus 5), worker for Historical Screenshots Manager vb-7a",
+  "updated_at": "2026-09-15T20:56:33+00:00",
+  "blockers": [
+    "R14: Commons PD-self label recorded but not cleared (empty Author field; screenshot threshold-of-originality question)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Historical proof delivered: Commons Applesoft BASIC screenshot plus reversible editorial frame; see delivery.json and qa.md.",
+    "Image shows the Applesoft ] prompt, not a power-on boot screen; model/ROM/emulator not established.",
+    "Review questions: R14 rights; whether the montage accepts a non-boot prompt screen; optional Writing Lead wording on Apple II vs Apple II Plus."
   ]
 }

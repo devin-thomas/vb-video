@@ -1,0 +1,93 @@
+{
+  "id": "HIST-06",
+  "target": "An authentic Apple II-family screen showing the Applesoft BASIC prompt, ideally the power-on (boot) screen with its hardware/ROM context identified.",
+  "exact_target_found": false,
+  "why": "No image found in the permitted archives shows an identified Apple II model at power-on. The Apple II Reference Manual (1979) describes an Autostart ROM cold start that shows a machine-name banner top centre (OCR reads 'APPLE II') and then, with no disk controller, the ] prompt; no freely licensed capture of that screen turned up. The best available image shows the Applesoft prompt but is not a boot screen.",
+  "access_date": "2026-09-15",
+  "search_log": [
+    "Wikimedia Commons full-text file search: 'Apple II BASIC prompt' (only PDFs, no screenshots), 'Applesoft' (found File:Applesoft BASIC.png).",
+    "Commons category listing: Category:Apple II screenshots (43 files) and Category:Text-only screenshots of BASIC (29 files). All files were triaged by title and description, and the BASIC and monitor text screens were examined further (below). No file is titled or described as an Apple II power-on or boot-to-BASIC screen; the others are graphics tests, DOS/ProDOS screens, or program screenshots.",
+    "English Wikipedia images on 'Applesoft BASIC', 'Apple II', 'Apple II Plus', 'Apple IIe', and 'Integer BASIC'. Only 'Applesoft BASIC' uses a screen image, and it is the same Commons file.",
+    "Internet Archive text search for Applesoft and Apple II reference manuals. These are used as documentary evidence for the prompt and boot behaviour only; their scanned pages are copyrighted Apple publications and were not taken as imagery.",
+    "Further Commons searches ('Apple II startup screen', 'Apple ][ boot', 'Apple IIe BASIC', 'Apple II Plus screen', 'Apple II screenshot') were throttled with HTTP 429. The two category listings above cover the same holdings."
+  ],
+  "selected": {
+    "rank": 1,
+    "title": "File:Applesoft BASIC.png",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Applesoft_BASIC.png",
+    "creator": "Vadimr (Commons uploader, 'Own work (Screenshot)')",
+    "native_size": [560, 384],
+    "license_evidence": "{{PD-self}}; {{free screenshot|license=}}",
+    "access_barrier": "none",
+    "acquisition_status": "acquired as source/original.png",
+    "image_inspected": true,
+    "strengths": "Shows the Applesoft ] prompt that the script names; clean native raster; single file version; archived byte-identical since 2012.",
+    "deficiencies": [
+      "Not a boot screen: shows a typed Hello World program after RUN and LIST.",
+      "No model, ROM, or emulator identified.",
+      "Rights rest on an uploader PD-self claim with an empty Author field (R14 review question)."
+    ]
+  },
+  "alternates": [
+    {
+      "rank": 2,
+      "title": "File:Integer BASIC.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Integer_BASIC.png",
+      "creator": "Vadimr (Commons uploader, 'Own work')",
+      "uploaded": "2008-08-28T14:21:33Z",
+      "native_size": [560, 384],
+      "sha1": "d1d1bbdfa08fcb00d76709b4600e5bff9c725c32",
+      "license_evidence": "{{PD-self}}; {{free screenshot|license=}}",
+      "access_barrier": "none",
+      "acquisition_status": "not acquired",
+      "image_inspected": false,
+      "inspection_note": "Triaged from its file page and API metadata; the image download was throttled (HTTP 429).",
+      "deficiencies": [
+        "Its title and description say Integer BASIC, whose prompt is >, not Applesoft's ]. Using it would mislabel the script's 'Applesoft BASIC'.",
+        "Same unresolved PD-self and unknown-emulator questions as the selected file."
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "File:Apple DOS.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Apple_DOS.png",
+      "creator": "Author field reads 'Apple DOS'; uploader Beao (2010-04-21). Source: 'Cropped from http://del.typepad.com/.a/6a00d8341d32ef53ef011168a1b085970c-pi'",
+      "native_size": [231, 36],
+      "sha1": "624fd4c40a503c141387ed863c1b660f3b3abb0e",
+      "license_evidence": "{{PD-text}}",
+      "access_barrier": "none",
+      "acquisition_status": "downloaded to scratch for inspection only; not delivered",
+      "image_inspected": true,
+      "visible_content": "]RUN / HELLO, APPLE II HERE",
+      "deficiencies": [
+        "Only 231x36: a two-line crop that would need about 8x enlargement to read on a 1080p frame.",
+        "Cropped from a third-party blog image whose own creator and terms are unrecorded; the rights chain is weaker than the selected file's.",
+        "Not a boot screen, and no model identified."
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "File:Apple II Monitor.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Apple_II_Monitor.png",
+      "creator": "Vadimr (Commons uploader, 'Own work (Own screenshot)')",
+      "native_size": [560, 384],
+      "sha1": "feb0c8d4789a2e82710d9453bf6768ffdbaaba7c",
+      "license_evidence": "{{PD-self}}; {{free screenshot|license=freeware}}",
+      "access_barrier": "none",
+      "acquisition_status": "not acquired",
+      "image_inspected": false,
+      "inspection_note": "Triaged from its file page and API metadata; the image download was throttled (HTTP 429).",
+      "deficiencies": [
+        "Described as the machine-code monitor, whose prompt is *, not a BASIC prompt."
+      ]
+    }
+  ],
+  "rejected_by_metadata": [
+    {
+      "title": "File:Apple--.jpg",
+      "reason": "Described as 'Older Apple II logo' (1600x1200 photo, CC BY-SA 3.0, AppleMacReporter), not a BASIC screen."
+    }
+  ],
+  "better_source_route": "A real capture of an Apple II Plus cold start (machine-name banner, then ]) would need an emulator plus an Apple ROM image, or real hardware. Neither is available here, and downloading and running an emulator and Apple ROMs is outside this worker's authorization (see the boundary need in qa.md)."
+}

@@ -1,0 +1,16 @@
+== {{int:filedesc}} ==
+{{Information
+|Description=Applesoft BASIC
+|Source={{own}} (Screenshot)
+|Date=
+|Author=<!-- software author / developer team -->
+|Permission={{free screenshot|license=}}
+|other_versions=
+}}
+
+== {{int:license-header}} ==
+{{PD-self}}
+
+[[Category:Text-only screenshots of BASIC]]
+[[Category:Hello World source code]]
+[[Category:Apple II screenshots]]

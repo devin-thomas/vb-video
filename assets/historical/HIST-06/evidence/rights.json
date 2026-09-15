@@ -1,0 +1,40 @@
+{
+  "id": "HIST-06",
+  "file": "source/original.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+  "access_date": "2026-09-15",
+  "rights_holder_or_creator": "Screenshot: Wikimedia Commons user Vadimr (uploader, 'Own work'). Software shown: Applesoft BASIC, Apple Computer. The five-line program typed on screen: uploader.",
+  "file_specific_terms": {
+    "license_short_name": "Public domain",
+    "templates": ["{{PD-self}}", "{{free screenshot|license=}}"],
+    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "related_policy_urls": [
+      "https://commons.wikimedia.org/wiki/Template:Free_screenshot",
+      "https://commons.wikimedia.org/wiki/Commons:Screenshots"
+    ],
+    "commons_extmetadata": {
+      "LicenseShortName": "Public domain",
+      "UsageTerms": "Public domain",
+      "AttributionRequired": "false",
+      "Copyrighted": "False",
+      "Restrictions": ""
+    },
+    "applies_to": "This file itself (checked on its own file page and in the API record, not only the host site)."
+  },
+  "access_method": "Anonymous public download; no account, payment, CAPTCHA, gated download, or terms acceptance.",
+  "watermark": "none",
+  "credit_text": "\"Applesoft BASIC\" screenshot by Wikimedia Commons user Vadimr, released into the public domain (PD-self). https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+  "rights_status": "unresolved",
+  "why_not_cleared": [
+    "PD-self is the uploader's own declaration. The Author field is empty and Commons flags the file as lacking author information; no one has verified the uploader's claim.",
+    "The Free screenshot template says the image either has no copyright-eligible software visuals or carries a free license; its license= parameter is empty, so it relies on the first branch. Whether Applesoft's text output and the Apple II character glyphs are below the threshold of originality is a legal judgement this ticket cannot make.",
+    "If the capture came from an emulator, the ROM set used is unrecorded. That does not change what is visible, but it is part of the chain."
+  ],
+  "not_a_concern": [
+    "No trademark or logo is visible; the image shows only BASIC text.",
+    "No personal data is visible."
+  ],
+  "review_question": "R14: may the video use this Commons PD-self text-mode screenshot, credited as recorded, without further clearance?",
+  "decision": null,
+  "approver": null
+}
