@@ -1,0 +1,357 @@
+{
+  "id": "TERM-05",
+  "captured_utc": "2026-09-15T15:07:53+00:00",
+  "capture_method": "Actual local terminal session. Commands were typed into a real conhost.exe window running pwsh via WriteConsoleInput; raw PNGs are unedited PrintWindow images of that window; buffer text was read back with ReadConsoleOutputCharacter.",
+  "os": "Windows-11-10.0.26200-SP0",
+  "terminal": {
+    "host": "conhost.exe (launched directly)",
+    "window_class": "ConsoleWindowClass",
+    "shell": "pwsh",
+    "cols": 100,
+    "rows": 30,
+    "buffer_rows": 32766,
+    "font": "Consolas",
+    "font_px": 28,
+    "window_title_set_to": "PowerShell",
+    "psreadline": "PredictionSource None (no history suggestions on screen); HistorySaveStyle SaveNothing",
+    "prompt": "PS <folder>> — a custom prompt that hides the long absolute path and logs each history entry to prompt-log.jsonl; it prints nothing else",
+    "extra_path": [],
+    "startup_script": "[IO.File]::WriteAllText('build-pack\\VB_Asset_Delivery\\assets\\TERM-05\\work\\.console.pid', \"$PID\")\nImport-Module PSReadLine\nSet-PSReadLineOption -PredictionSource None -HistorySaveStyle SaveNothing\nfunction global:prompt {\n  $ok = $?; $code = $global:LASTEXITCODE\n  $h = Get-History -Count 1\n  if ($h -and $h.Id -ne $global:__captureLast) {\n    $global:__captureLast = $h.Id\n    $rec = [ordered]@{ id = $h.Id; command = $h.CommandLine; status = \"$($h.ExecutionStatus)\"; succeeded = $ok;\n      last_exit_code = $code; start_utc = $h.StartExecutionTime.ToUniversalTime().ToString('o');\n      end_utc = $h.EndExecutionTime.ToUniversalTime().ToString('o');\n      seconds = [math]::Round(($h.EndExecutionTime - $h.StartExecutionTime).TotalSeconds, 3) }\n    [IO.File]::AppendAllText('build-pack\\VB_Asset_Delivery\\assets\\TERM-05\\work\\prompt-log.jsonl', (ConvertTo-Json $rec -Compress) + \"`n\")\n  }\n  $global:LASTEXITCODE = $code\n  'PS ' + (Split-Path -Leaf $PWD) + '> '\n}\n$Host.UI.RawUI.WindowTitle = 'PowerShell'\nSet-Location -LiteralPath 'build-pack\\VB_Asset_Delivery\\assets\\TERM-05\\work\\War'\nClear-Host"
+  },
+  "dotnet_sdk_version": "10.0.303",
+  "working_directory": "build-pack/VB_Asset_Delivery/assets/TERM-05/work/War",
+  "pre_session_steps": [
+    "copied frozen harness War.vbproj and Program.vb into build-pack/VB_Asset_Delivery/assets/TERM-05/work/War; hashes verified"
+  ],
+  "source_sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+  "source_matches_original": true,
+  "commands": [
+    {
+      "id": 2,
+      "command": "dotnet build",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:07:55.9429080Z",
+      "end_utc": "2026-09-15T15:07:57.2751739Z",
+      "seconds": 1.332
+    },
+    {
+      "id": 3,
+      "command": "Clear-Host",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:07:59.1398116Z",
+      "end_utc": "2026-09-15T15:07:59.2108366Z",
+      "seconds": 0.071
+    },
+    {
+      "id": 4,
+      "command": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:08:00.8991783Z",
+      "end_utc": "2026-09-15T15:08:01.9406252Z",
+      "seconds": 1.041
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01-build.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "159acec106f4aff1d2ea2aeda0cabf3add93d005bf04d1a4e01dfa41e1ee79c8",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "dotnet build in this asset's private harness copy"
+    },
+    {
+      "file": "02-start.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "19a69030e31d64fec1a1435203ea47d0a1dc3d94de2bdcae8a58c002617e9bd0",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "Top of the live run: typed command, banner, 26/26 deal, first rounds"
+    },
+    {
+      "file": "03-first-war.png",
+      "visible_buffer_rows": [
+        16,
+        45
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "373dd3c709e61451696fef1db69ff88e86cd997418f465b6316f5f256a5662f5",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "First ** WAR! ** of the run (stdout line 22)"
+    },
+    {
+      "file": "04-end.png",
+      "visible_buffer_rows": [
+        2116,
+        2145
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "ba9d3d290188b6ac1e679f8dde37a45caf60c9a3f4723081e25c329c7ce07a28",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "Bottom of the live run: final result, totals, returned prompt"
+    }
+  ],
+  "driver_events": [
+    {
+      "t": 1.374,
+      "event": "session-start",
+      "pid": 37244,
+      "window_class": "ConsoleWindowClass"
+    },
+    {
+      "t": 2.029,
+      "event": "typed",
+      "text": "dotnet build"
+    },
+    {
+      "t": 3.935,
+      "event": "completed",
+      "text": "dotnet build",
+      "wall_seconds": 2.11
+    },
+    {
+      "t": 4.579,
+      "event": "screenshot",
+      "file": "01-build.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "159acec106f4aff1d2ea2aeda0cabf3add93d005bf04d1a4e01dfa41e1ee79c8",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 5.227,
+      "event": "typed",
+      "text": "Clear-Host"
+    },
+    {
+      "t": 6.079,
+      "event": "completed",
+      "text": "Clear-Host",
+      "wall_seconds": 1.047
+    },
+    {
+      "t": 6.987,
+      "event": "typed",
+      "text": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt"
+    },
+    {
+      "t": 8.591,
+      "event": "completed",
+      "text": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt",
+      "wall_seconds": 2.06
+    },
+    {
+      "t": 9.122,
+      "event": "scrolled",
+      "top": 0
+    },
+    {
+      "t": 9.759,
+      "event": "screenshot",
+      "file": "02-start.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "19a69030e31d64fec1a1435203ea47d0a1dc3d94de2bdcae8a58c002617e9bd0",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 10.261,
+      "event": "scrolled",
+      "top": 16
+    },
+    {
+      "t": 10.91,
+      "event": "screenshot",
+      "file": "03-first-war.png",
+      "visible_buffer_rows": [
+        16,
+        45
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "373dd3c709e61451696fef1db69ff88e86cd997418f465b6316f5f256a5662f5",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 11.411,
+      "event": "scrolled",
+      "top": 2116
+    },
+    {
+      "t": 12.058,
+      "event": "screenshot",
+      "file": "04-end.png",
+      "visible_buffer_rows": [
+        2116,
+        2145
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "ba9d3d290188b6ac1e679f8dde37a45caf60c9a3f4723081e25c329c7ce07a28",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 12.228,
+      "event": "typed",
+      "text": "exit"
+    },
+    {
+      "t": 27.282,
+      "event": "session-end"
+    }
+  ],
+  "run_command": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt",
+  "buffer_verification": {
+    "stdout_lines": 2144,
+    "first_buffer_row_of_stdout": 1,
+    "lines_lost_to_scrollback_limit": 0,
+    "lines_compared": 2144,
+    "mismatched_line_indexes": [],
+    "all_compared_lines_match": true
+  },
+  "run_stats": {
+    "result_line": "PLAYER 2 WINS THE WAR!",
+    "total_rounds_line": 1056,
+    "total_wars_line": 10,
+    "war_lines": 10,
+    "longest_chain_in_one_round": 1,
+    "draw_message_present": false,
+    "stdout_lines": 2144
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "id": "TERM-01",
+  "captured_utc": "2026-09-15T15:00:09+00:00",
+  "capture_method": "Actual local terminal session. Commands were typed into a real conhost.exe window running pwsh via WriteConsoleInput; raw PNGs are unedited PrintWindow images of that window; buffer text was read back with ReadConsoleOutputCharacter.",
+  "os": "Windows-11-10.0.26200-SP0",
+  "terminal": {
+    "host": "conhost.exe (launched directly)",
+    "window_class": "ConsoleWindowClass",
+    "shell": "pwsh",
+    "cols": 100,
+    "rows": 30,
+    "buffer_rows": 32766,
+    "font": "Consolas",
+    "font_px": 28,
+    "window_title_set_to": "PowerShell",
+    "psreadline": "PredictionSource None (no history suggestions on screen); HistorySaveStyle SaveNothing",
+    "prompt": "PS <folder>> — a custom prompt that hides the long absolute path and logs each history entry to prompt-log.jsonl; it prints nothing else",
+    "extra_path": [],
+    "startup_script": "[IO.File]::WriteAllText('build-pack\\VB_Asset_Delivery\\assets\\TERM-01\\work\\.console.pid', \"$PID\")\nImport-Module PSReadLine\nSet-PSReadLineOption -PredictionSource None -HistorySaveStyle SaveNothing\nfunction global:prompt {\n  $ok = $?; $code = $global:LASTEXITCODE\n  $h = Get-History -Count 1\n  if ($h -and $h.Id -ne $global:__captureLast) {\n    $global:__captureLast = $h.Id\n    $rec = [ordered]@{ id = $h.Id; command = $h.CommandLine; status = \"$($h.ExecutionStatus)\"; succeeded = $ok;\n      last_exit_code = $code; start_utc = $h.StartExecutionTime.ToUniversalTime().ToString('o');\n      end_utc = $h.EndExecutionTime.ToUniversalTime().ToString('o');\n      seconds = [math]::Round(($h.EndExecutionTime - $h.StartExecutionTime).TotalSeconds, 3) }\n    [IO.File]::AppendAllText('build-pack\\VB_Asset_Delivery\\assets\\TERM-01\\work\\prompt-log.jsonl', (ConvertTo-Json $rec -Compress) + \"`n\")\n  }\n  $global:LASTEXITCODE = $code\n  'PS ' + (Split-Path -Leaf $PWD) + '> '\n}\n$Host.UI.RawUI.WindowTitle = 'PowerShell'\nSet-Location -LiteralPath 'build-pack\\VB_Asset_Delivery\\assets\\TERM-01\\work\\War'\nClear-Host"
+  },
+  "dotnet_sdk_version": "10.0.303",
+  "working_directory": "build-pack/VB_Asset_Delivery/assets/TERM-01/work/War",
+  "pre_session_steps": [
+    "created empty directory build-pack/VB_Asset_Delivery/assets/TERM-01/work/War"
+  ],
+  "source_sha256": "af0ac08deb6915e3abb43b4e06be414bb71594dfff476a10025927d7487fb70e",
+  "source_matches_original": false,
+  "commands": [
+    {
+      "id": 2,
+      "command": "dotnet --version",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:00:11.7692898Z",
+      "end_utc": "2026-09-15T15:00:11.8929429Z",
+      "seconds": 0.124
+    },
+    {
+      "id": 3,
+      "command": "Get-ChildItem",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:00:13.9233156Z",
+      "end_utc": "2026-09-15T15:00:13.9370903Z",
+      "seconds": 0.014
+    },
+    {
+      "id": 4,
+      "command": "dotnet new console -lang VB",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:00:15.4978400Z",
+      "end_utc": "2026-09-15T15:00:16.6161842Z",
+      "seconds": 1.118
+    },
+    {
+      "id": 5,
+      "command": "Get-ChildItem",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:00:18.4002593Z",
+      "end_utc": "2026-09-15T15:00:18.4332516Z",
+      "seconds": 0.033
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01-dotnet-version.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "63b5840769f2cb71ee2e5c27fce5f377191bddf4b59631e7a3f205edbcff7f28",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "dotnet --version in the empty War directory"
+    },
+    {
+      "file": "02-dotnet-new.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "4c5c90b3f7d028188bc9c75bf6f66d4dc6d6121377cf3a18ede06fa14e643701",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "dotnet new console -lang VB succeeds in the same window"
+    },
+    {
+      "file": "03-scaffold-files.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "a95b1249c0bb775177909920dcfb2c596111d2d17c66ecaca54de55daf9c70fa",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ],
+      "label": "Directory listing after scaffolding: War.vbproj and Program.vb"
+    }
+  ],
+  "driver_events": [
+    {
+      "t": 1.374,
+      "event": "session-start",
+      "pid": 2496,
+      "window_class": "ConsoleWindowClass"
+    },
+    {
+      "t": 2.049,
+      "event": "typed",
+      "text": "dotnet --version"
+    },
+    {
+      "t": 2.9,
+      "event": "completed",
+      "text": "dotnet --version",
+      "wall_seconds": 1.075
+    },
+    {
+      "t": 3.544,
+      "event": "screenshot",
+      "file": "01-dotnet-version.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "63b5840769f2cb71ee2e5c27fce5f377191bddf4b59631e7a3f205edbcff7f28",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 4.204,
+      "event": "typed",
+      "text": "Get-ChildItem"
+    },
+    {
+      "t": 5.056,
+      "event": "completed",
+      "text": "Get-ChildItem",
+      "wall_seconds": 1.059
+    },
+    {
+      "t": 5.778,
+      "event": "typed",
+      "text": "dotnet new console -lang VB"
+    },
+    {
+      "t": 7.382,
+      "event": "completed",
+      "text": "dotnet new console -lang VB",
+      "wall_seconds": 1.875
+    },
+    {
+      "t": 8.021,
+      "event": "screenshot",
+      "file": "02-dotnet-new.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "4c5c90b3f7d028188bc9c75bf6f66d4dc6d6121377cf3a18ede06fa14e643701",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 8.681,
+      "event": "typed",
+      "text": "Get-ChildItem"
+    },
+    {
+      "t": 9.535,
+      "event": "completed",
+      "text": "Get-ChildItem",
+      "wall_seconds": 1.062
+    },
+    {
+      "t": 10.172,
+      "event": "screenshot",
+      "file": "03-scaffold-files.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1319,
+        872
+      ],
+      "sha256": "a95b1249c0bb775177909920dcfb2c596111d2d17c66ecaca54de55daf9c70fa",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        872
+      ]
+    },
+    {
+      "t": 10.341,
+      "event": "typed",
+      "text": "exit"
+    },
+    {
+      "t": 25.402,
+      "event": "session-end"
+    }
+  ],
+  "scaffold_files_sha256": {
+    "War.vbproj": "66562e68b6ccc6d4f9beea4c0f33adda422263c37bca683fa58a9bb21577f1d3",
+    "Program.vb": "af0ac08deb6915e3abb43b4e06be414bb71594dfff476a10025927d7487fb70e"
+  },
+  "matches_ops02_scaffold": {
+    "War.vbproj": true,
+    "Program.vb": true
+  },
+  "note": "This is the default template output. It does not contain the War game."
+}

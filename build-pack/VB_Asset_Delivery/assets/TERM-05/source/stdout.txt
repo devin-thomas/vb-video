@@ -1,0 +1,2144 @@
+=====================================
+   W A R   -   CPU vs CPU Simulator
+=====================================
+
+Cards dealt: Player 1 has 26, Player 2 has 26.
+
+Round 1: Player 1 plays Jack of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 2: Player 1 plays 9 of Spades, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 3: Player 1 plays 5 of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 4: Player 1 plays Ace of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 5: Player 1 plays 7 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 6: Player 1 plays 9 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 7: Player 1 plays 6 of Spades, Player 2 plays 7 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 8: Player 1 plays 9 of Diamonds, Player 2 plays 9 of Hearts.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 3 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (10 cards).
+Round 9: Player 1 plays 10 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 10: Player 1 plays 5 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 11: Player 1 plays Jack of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 12: Player 1 plays Queen of Diamonds, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 13: Player 1 plays Queen of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 14: Player 1 plays 10 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 15: Player 1 plays King of Diamonds, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 16: Player 1 plays King of Hearts, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 17: Player 1 plays King of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 18: Player 1 plays 6 of Diamonds, Player 2 plays 7 of Spades.
+        Player 2 wins the round (2 cards).
+Round 19: Player 1 plays King of Spades, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 20: Player 1 plays Ace of Clubs, Player 2 plays Queen of Spades.
+        Player 1 wins the round (2 cards).
+Round 21: Player 1 plays 6 of Clubs, Player 2 plays 6 of Hearts.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 5 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (10 cards).
+Round 22: Player 1 plays 4 of Hearts, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 23: Player 1 plays Ace of Hearts, Player 2 plays 9 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 24: Player 1 plays 2 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 25: Player 1 plays 10 of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 26: Player 1 plays 8 of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 27: Player 1 plays Jack of Clubs, Player 2 plays 9 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 28: Player 1 plays 3 of Spades, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 29: Player 1 plays Queen of Diamonds, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 30: Player 1 plays 4 of Clubs, Player 2 plays 5 of Spades.
+        Player 2 wins the round (2 cards).
+Round 31: Player 1 plays Queen of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 32: Player 1 plays 4 of Spades, Player 2 plays 7 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 33: Player 1 plays King of Diamonds, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 34: Player 1 plays 2 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 35: Player 1 plays King of Hearts, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 36: Player 1 plays 8 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 37: Player 1 plays King of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 38: Player 1 plays 5 of Hearts, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 39: Player 1 plays King of Spades, Player 2 plays 10 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 40: Player 1 plays 2 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 41: Player 1 plays Ace of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 42: Player 1 plays Queen of Spades, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 43: Player 1 plays Ace of Hearts, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 44: Player 1 plays 9 of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 45: Player 1 plays 10 of Clubs, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 46: Player 1 plays 6 of Spades, Player 2 plays 8 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 47: Player 1 plays 8 of Hearts, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 48: Player 1 plays 7 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 49: Player 1 plays Jack of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 50: Player 1 plays 9 of Diamonds, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 51: Player 1 plays Queen of Diamonds, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 52: Player 1 plays 3 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 53: Player 1 plays Queen of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 54: Player 1 plays 2 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 55: Player 1 plays King of Diamonds, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 56: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 57: Player 1 plays King of Hearts, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 58: Player 1 plays 3 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 59: Player 1 plays King of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 60: Player 1 plays 5 of Diamonds, Player 2 plays 5 of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 6 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (10 cards).
+Round 61: Player 1 plays Queen of Spades, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 62: Player 1 plays 7 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 63: Player 1 plays Ace of Hearts, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 64: Player 1 plays 6 of Clubs, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 65: Player 1 plays 9 of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 66: Player 1 plays 6 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 67: Player 1 plays Jack of Clubs, Player 2 plays 10 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 68: Player 1 plays 4 of Diamonds, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 69: Player 1 plays Queen of Diamonds, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 70: Player 1 plays 5 of Clubs, Player 2 plays 8 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 71: Player 1 plays Queen of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 72: Player 1 plays 4 of Hearts, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 73: Player 1 plays King of Diamonds, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 74: Player 1 plays 2 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 75: Player 1 plays King of Hearts, Player 2 plays 9 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 76: Player 1 plays 3 of Spades, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 77: Player 1 plays King of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 78: Player 1 plays 4 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 79: Player 1 plays Queen of Spades, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 80: Player 1 plays 8 of Spades, Player 2 plays 8 of Diamonds.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 2 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (10 cards).
+Round 81: Player 1 plays Jack of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 82: Player 1 plays 10 of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 83: Player 1 plays Queen of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 84: Player 1 plays 6 of Spades, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 85: Player 1 plays Queen of Clubs, Player 2 plays 10 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 86: Player 1 plays 8 of Hearts, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 87: Player 1 plays King of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 88: Player 1 plays 7 of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 89: Player 1 plays King of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 90: Player 1 plays 9 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 91: Player 1 plays King of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 92: Player 1 plays 3 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 93: Player 1 plays Queen of Spades, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 94: Player 1 plays 2 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 95: Player 1 plays Jack of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 96: Player 1 plays 5 of Diamonds, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 97: Player 1 plays 10 of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 98: Player 1 plays 5 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 99: Player 1 plays 6 of Spades, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 100: Player 1 plays 4 of Spades, Player 2 plays 8 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 101: Player 1 plays Queen of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 102: Player 1 plays 10 of Hearts, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 103: Player 1 plays 8 of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 104: Player 1 plays 7 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 105: Player 1 plays 7 of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 106: Player 1 plays 2 of Spades, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 107: Player 1 plays King of Hearts, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 108: Player 1 plays 6 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 109: Player 1 plays King of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 110: Player 1 plays 7 of Spades, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 111: Player 1 plays Queen of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 112: Player 1 plays 6 of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 113: Player 1 plays Jack of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 114: Player 1 plays 6 of Hearts, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 115: Player 1 plays 10 of Clubs, Player 2 plays 9 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 116: Player 1 plays 4 of Diamonds, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 117: Player 1 plays 6 of Spades, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 118: Player 1 plays 5 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 119: Player 1 plays Queen of Clubs, Player 2 plays Queen of Diamonds.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 7 of Clubs, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (10 cards).
+Round 120: Player 1 plays 3 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 121: Player 1 plays King of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 122: Player 1 plays 4 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 123: Player 1 plays King of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 124: Player 1 plays 8 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 125: Player 1 plays 6 of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 126: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 127: Player 1 plays Jack of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 128: Player 1 plays 5 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 129: Player 1 plays 10 of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 130: Player 1 plays 9 of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 131: Player 1 plays 4 of Diamonds, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 132: Player 1 plays 3 of Hearts, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 133: Player 1 plays 6 of Spades, Player 2 plays 7 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 134: Player 1 plays 2 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 135: Player 1 plays King of Hearts, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 136: Player 1 plays 3 of Clubs, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 137: Player 1 plays King of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 138: Player 1 plays 2 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 139: Player 1 plays 6 of Clubs, Player 2 plays 7 of Spades.
+        Player 2 wins the round (2 cards).
+Round 140: Player 1 plays 5 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 141: Player 1 plays Jack of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 142: Player 1 plays 5 of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 143: Player 1 plays 10 of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 144: Player 1 plays 4 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 145: Player 1 plays 9 of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 146: Player 1 plays 8 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 147: Player 1 plays King of Hearts, Player 2 plays Queen of Clubs.
+        Player 1 wins the round (2 cards).
+Round 148: Player 1 plays 2 of Spades, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 149: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 150: Player 1 plays 6 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 151: Player 1 plays 10 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 152: Player 1 plays 6 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 153: Player 1 plays 9 of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 154: Player 1 plays 5 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 155: Player 1 plays King of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 156: Player 1 plays Queen of Clubs, Player 2 plays 9 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 157: Player 1 plays King of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 158: Player 1 plays 4 of Hearts, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 159: Player 1 plays 10 of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 160: Player 1 plays 8 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 161: Player 1 plays 9 of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 162: Player 1 plays 2 of Clubs, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 163: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 164: Player 1 plays 7 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 165: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 166: Player 1 plays 9 of Diamonds, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 167: Player 1 plays King of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 168: Player 1 plays 3 of Spades, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 169: Player 1 plays 10 of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 170: Player 1 plays 4 of Clubs, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 171: Player 1 plays 9 of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 172: Player 1 plays 8 of Spades, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 173: Player 1 plays King of Hearts, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 174: Player 1 plays 3 of Diamonds, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 175: Player 1 plays Queen of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 176: Player 1 plays 5 of Hearts, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 177: Player 1 plays King of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 178: Player 1 plays 4 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 179: Player 1 plays 10 of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 180: Player 1 plays 3 of Hearts, Player 2 plays 7 of Spades.
+        Player 2 wins the round (2 cards).
+Round 181: Player 1 plays 9 of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 182: Player 1 plays 6 of Spades, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 183: Player 1 plays 8 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 184: Player 1 plays 7 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 185: Player 1 plays King of Hearts, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 186: Player 1 plays 2 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 187: Player 1 plays Queen of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 188: Player 1 plays 3 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 189: Player 1 plays King of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 190: Player 1 plays 2 of Diamonds, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 191: Player 1 plays 10 of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 192: Player 1 plays 6 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 193: Player 1 plays 9 of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 194: Player 1 plays 5 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 195: Player 1 plays King of Hearts, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 196: Player 1 plays 5 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 197: Player 1 plays Queen of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 198: Player 1 plays 4 of Spades, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 199: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 200: Player 1 plays 8 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 201: Player 1 plays 10 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 202: Player 1 plays 2 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 203: Player 1 plays 9 of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 204: Player 1 plays 6 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 205: Player 1 plays King of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 206: Player 1 plays 6 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 207: Player 1 plays Queen of Clubs, Player 2 plays 9 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 208: Player 1 plays 5 of Clubs, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 209: Player 1 plays King of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 210: Player 1 plays 4 of Hearts, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 211: Player 1 plays 10 of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 212: Player 1 plays 8 of Hearts, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 213: Player 1 plays 9 of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 214: Player 1 plays 2 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 215: Player 1 plays King of Hearts, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 216: Player 1 plays 7 of Clubs, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 217: Player 1 plays Queen of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 218: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 219: Player 1 plays King of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 220: Player 1 plays 3 of Spades, Player 2 plays 7 of Spades.
+        Player 2 wins the round (2 cards).
+Round 221: Player 1 plays 10 of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 222: Player 1 plays 4 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 223: Player 1 plays 9 of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 224: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 225: Player 1 plays King of Hearts, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 226: Player 1 plays 5 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 227: Player 1 plays Queen of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 228: Player 1 plays 4 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 229: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 230: Player 1 plays 7 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 231: Player 1 plays King of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 232: Player 1 plays 3 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 233: Player 1 plays 10 of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 234: Player 1 plays 6 of Spades, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 235: Player 1 plays 9 of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 236: Player 1 plays 8 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 237: Player 1 plays King of Hearts, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 238: Player 1 plays 7 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 239: Player 1 plays Queen of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 240: Player 1 plays 2 of Hearts, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 241: Player 1 plays 9 of Diamonds, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 242: Player 1 plays 3 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 243: Player 1 plays King of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 244: Player 1 plays 2 of Diamonds, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 245: Player 1 plays 10 of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 246: Player 1 plays 6 of Clubs, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 247: Player 1 plays 9 of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 248: Player 1 plays 5 of Diamonds, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 249: Player 1 plays King of Hearts, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 250: Player 1 plays 5 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 251: Player 1 plays Queen of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 252: Player 1 plays 4 of Spades, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 253: Player 1 plays 9 of Diamonds, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 254: Player 1 plays 8 of Clubs, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 255: Player 1 plays King of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 256: Player 1 plays 2 of Spades, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 257: Player 1 plays 10 of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 258: Player 1 plays 6 of Diamonds, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 259: Player 1 plays 9 of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 260: Player 1 plays 6 of Hearts, Player 2 plays 7 of Spades.
+        Player 2 wins the round (2 cards).
+Round 261: Player 1 plays King of Hearts, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 262: Player 1 plays 5 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 263: Player 1 plays Queen of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 264: Player 1 plays 4 of Hearts, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 265: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 266: Player 1 plays 8 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 267: Player 1 plays King of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 268: Player 1 plays 2 of Clubs, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 269: Player 1 plays 10 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 270: Player 1 plays 7 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 271: Player 1 plays 9 of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 272: Player 1 plays 3 of Spades, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 273: Player 1 plays King of Hearts, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 274: Player 1 plays 4 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 275: Player 1 plays Queen of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 276: Player 1 plays 3 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 277: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 278: Player 1 plays 5 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 279: Player 1 plays King of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 280: Player 1 plays 4 of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 281: Player 1 plays 10 of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 282: Player 1 plays 7 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 283: Player 1 plays 9 of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 284: Player 1 plays 3 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 285: Player 1 plays King of Hearts, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 286: Player 1 plays 6 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 287: Player 1 plays Queen of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 288: Player 1 plays 8 of Spades, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 289: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 290: Player 1 plays 7 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 291: Player 1 plays King of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 292: Player 1 plays 2 of Hearts, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 293: Player 1 plays 10 of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 294: Player 1 plays 3 of Clubs, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 295: Player 1 plays 9 of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 296: Player 1 plays 2 of Diamonds, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 297: Player 1 plays King of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 298: Player 1 plays 6 of Clubs, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 299: Player 1 plays Queen of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 300: Player 1 plays 5 of Diamonds, Player 2 plays 7 of Spades.
+        Player 2 wins the round (2 cards).
+Round 301: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 302: Player 1 plays 5 of Spades, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 303: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 304: Player 1 plays 4 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 305: Player 1 plays 10 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 306: Player 1 plays 8 of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 307: Player 1 plays 9 of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 308: Player 1 plays 2 of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 309: Player 1 plays King of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 310: Player 1 plays 6 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 311: Player 1 plays Queen of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 312: Player 1 plays 6 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 313: Player 1 plays 9 of Diamonds, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 314: Player 1 plays 5 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 315: Player 1 plays King of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 316: Player 1 plays 4 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 317: Player 1 plays 10 of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 318: Player 1 plays 8 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 319: Player 1 plays 9 of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 320: Player 1 plays 2 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 321: Player 1 plays King of Hearts, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 322: Player 1 plays 7 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 323: Player 1 plays Queen of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 324: Player 1 plays 3 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 325: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 326: Player 1 plays 4 of Clubs, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 327: Player 1 plays King of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 328: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 329: Player 1 plays 10 of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 330: Player 1 plays 5 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 331: Player 1 plays 9 of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 332: Player 1 plays 4 of Diamonds, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 333: Player 1 plays King of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 334: Player 1 plays 7 of Diamonds, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 335: Player 1 plays Queen of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 336: Player 1 plays 3 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 337: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 338: Player 1 plays 6 of Spades, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 339: Player 1 plays King of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 340: Player 1 plays 8 of Spades, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 341: Player 1 plays 10 of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 342: Player 1 plays 7 of Hearts, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 343: Player 1 plays 9 of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 344: Player 1 plays 2 of Hearts, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 345: Player 1 plays King of Hearts, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 346: Player 1 plays 3 of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 347: Player 1 plays Queen of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 348: Player 1 plays 2 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 349: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 350: Player 1 plays 6 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 351: Player 1 plays King of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 352: Player 1 plays 5 of Diamonds, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 353: Player 1 plays 8 of Spades, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 354: Player 1 plays 7 of Spades, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 355: Player 1 plays 10 of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 356: Player 1 plays 5 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 357: Player 1 plays 9 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 358: Player 1 plays 4 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 359: Player 1 plays King of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 360: Player 1 plays 8 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 361: Player 1 plays Queen of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 362: Player 1 plays 2 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 363: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 364: Player 1 plays 6 of Diamonds, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 365: Player 1 plays King of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 366: Player 1 plays 6 of Hearts, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 367: Player 1 plays 8 of Spades, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 368: Player 1 plays 5 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 369: Player 1 plays 10 of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 370: Player 1 plays 4 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 371: Player 1 plays 9 of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 372: Player 1 plays 8 of Hearts, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 373: Player 1 plays King of Hearts, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 374: Player 1 plays 2 of Clubs, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 375: Player 1 plays Queen of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 376: Player 1 plays 7 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 377: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 378: Player 1 plays 3 of Spades, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 379: Player 1 plays King of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 380: Player 1 plays 4 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 381: Player 1 plays 8 of Spades, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 382: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 383: Player 1 plays 10 of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 384: Player 1 plays 5 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 385: Player 1 plays 9 of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 386: Player 1 plays 4 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 387: Player 1 plays King of Hearts, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 388: Player 1 plays 7 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 389: Player 1 plays Queen of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 390: Player 1 plays 3 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 391: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 392: Player 1 plays 6 of Spades, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 393: Player 1 plays King of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 394: Player 1 plays 7 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 395: Player 1 plays 8 of Spades, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 396: Player 1 plays 2 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 397: Player 1 plays 10 of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 398: Player 1 plays 3 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 399: Player 1 plays 9 of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 400: Player 1 plays 2 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 401: Player 1 plays King of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 402: Player 1 plays 6 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 403: Player 1 plays Queen of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 404: Player 1 plays 5 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 405: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 406: Player 1 plays 7 of Spades, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 407: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 408: Player 1 plays 5 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 409: Player 1 plays 8 of Spades, Player 2 plays 8 of Hearts.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 9 of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (10 cards).
+Round 410: Player 1 plays 2 of Spades, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 411: Player 1 plays King of Hearts, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 412: Player 1 plays 6 of Diamonds, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 413: Player 1 plays Queen of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 414: Player 1 plays 6 of Hearts, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 415: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 416: Player 1 plays 5 of Clubs, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 417: Player 1 plays King of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 418: Player 1 plays 4 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 419: Player 1 plays 8 of Spades, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 420: Player 1 plays 8 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 421: Player 1 plays 4 of Spades, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 422: Player 1 plays 10 of Hearts, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 423: Player 1 plays 10 of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 424: Player 1 plays 2 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 425: Player 1 plays 8 of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 426: Player 1 plays Jack of Hearts, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 427: Player 1 plays 9 of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 428: Player 1 plays 7 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 429: Player 1 plays King of Hearts, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 430: Player 1 plays 3 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 431: Player 1 plays Queen of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 432: Player 1 plays 4 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 433: Player 1 plays 9 of Diamonds, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 434: Player 1 plays 3 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 435: Player 1 plays King of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 436: Player 1 plays 5 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 437: Player 1 plays 8 of Spades, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 438: Player 1 plays 4 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 439: Player 1 plays 10 of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 440: Player 1 plays 3 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 441: Player 1 plays 8 of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 442: Player 1 plays 6 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 443: Player 1 plays 9 of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 444: Player 1 plays 7 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 445: Player 1 plays King of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 446: Player 1 plays 2 of Hearts, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 447: Player 1 plays Queen of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 448: Player 1 plays 3 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 449: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 450: Player 1 plays 2 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 451: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 452: Player 1 plays 6 of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 453: Player 1 plays 8 of Spades, Player 2 plays 8 of Hearts.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 8 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (10 cards).
+Round 454: Player 1 plays 5 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 455: Player 1 plays 9 of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 456: Player 1 plays 2 of Spades, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 457: Player 1 plays King of Hearts, Player 2 plays Jack of Hearts.
+        Player 1 wins the round (2 cards).
+Round 458: Player 1 plays 6 of Diamonds, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 459: Player 1 plays Queen of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 460: Player 1 plays 6 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 461: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 462: Player 1 plays 5 of Clubs, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 463: Player 1 plays King of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 464: Player 1 plays 4 of Hearts, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 465: Player 1 plays 9 of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 466: Player 1 plays 2 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 467: Player 1 plays King of Hearts, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 468: Player 1 plays Jack of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 469: Player 1 plays Queen of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 470: Player 1 plays 7 of Clubs, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 471: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 472: Player 1 plays 3 of Spades, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 473: Player 1 plays King of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 474: Player 1 plays 4 of Clubs, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 475: Player 1 plays 9 of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 476: Player 1 plays 3 of Diamonds, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 477: Player 1 plays King of Hearts, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 478: Player 1 plays 5 of Hearts, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 479: Player 1 plays Queen of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 480: Player 1 plays 4 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 481: Player 1 plays 9 of Diamonds, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 482: Player 1 plays 3 of Hearts, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 483: Player 1 plays King of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 484: Player 1 plays 6 of Spades, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 485: Player 1 plays 9 of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 486: Player 1 plays 7 of Hearts, Player 2 plays 8 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 487: Player 1 plays King of Hearts, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 488: Player 1 plays 2 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 489: Player 1 plays Queen of Clubs, Player 2 plays 10 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 490: Player 1 plays 3 of Clubs, Player 2 plays 4 of Spades.
+        Player 2 wins the round (2 cards).
+Round 491: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 492: Player 1 plays 2 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 493: Player 1 plays King of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 494: Player 1 plays 6 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 495: Player 1 plays 9 of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 496: Player 1 plays 8 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 497: Player 1 plays King of Hearts, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 498: Player 1 plays 5 of Diamonds, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 499: Player 1 plays Queen of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 500: Player 1 plays 10 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 501: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 502: Player 1 plays 7 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 503: Player 1 plays King of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 504: Player 1 plays 8 of Clubs, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 505: Player 1 plays 9 of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 506: Player 1 plays 5 of Spades, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 507: Player 1 plays King of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 508: Player 1 plays 2 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 509: Player 1 plays Queen of Clubs, Player 2 plays Jack of Hearts.
+        Player 1 wins the round (2 cards).
+Round 510: Player 1 plays 6 of Diamonds, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 511: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 512: Player 1 plays 6 of Hearts, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 513: Player 1 plays King of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 514: Player 1 plays 5 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 515: Player 1 plays 9 of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 516: Player 1 plays 4 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 517: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 518: Player 1 plays 2 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 519: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 520: Player 1 plays Jack of Hearts, Player 2 plays 10 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 521: Player 1 plays 9 of Diamonds, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 522: Player 1 plays 7 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 523: Player 1 plays King of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 524: Player 1 plays 3 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 525: Player 1 plays 9 of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 526: Player 1 plays 4 of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 527: Player 1 plays King of Hearts, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 528: Player 1 plays 3 of Diamonds, Player 2 plays 8 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 529: Player 1 plays Queen of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 530: Player 1 plays 5 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 531: Player 1 plays Jack of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 532: Player 1 plays 10 of Diamonds, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 533: Player 1 plays 9 of Diamonds, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 534: Player 1 plays 4 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 535: Player 1 plays King of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 536: Player 1 plays 3 of Hearts, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 537: Player 1 plays 9 of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 538: Player 1 plays 6 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 539: Player 1 plays King of Hearts, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 540: Player 1 plays 7 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 541: Player 1 plays Queen of Clubs, Player 2 plays 10 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 542: Player 1 plays 2 of Hearts, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 543: Player 1 plays Jack of Hearts, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 544: Player 1 plays 3 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 545: Player 1 plays 10 of Diamonds, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 546: Player 1 plays 4 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 547: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 548: Player 1 plays 2 of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 549: Player 1 plays King of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 550: Player 1 plays 6 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 551: Player 1 plays 9 of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 552: Player 1 plays 8 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 553: Player 1 plays King of Hearts, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 554: Player 1 plays 5 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 555: Player 1 plays Queen of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 556: Player 1 plays 10 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 557: Player 1 plays Jack of Hearts, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 558: Player 1 plays 7 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 559: Player 1 plays 10 of Diamonds, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 560: Player 1 plays 8 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 561: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 562: Player 1 plays 5 of Spades, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 563: Player 1 plays King of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 564: Player 1 plays 2 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 565: Player 1 plays 9 of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 566: Player 1 plays 6 of Diamonds, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 567: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 568: Player 1 plays 6 of Hearts, Player 2 plays 8 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 569: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 570: Player 1 plays 5 of Clubs, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 571: Player 1 plays Jack of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 572: Player 1 plays 4 of Hearts, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 573: Player 1 plays 10 of Diamonds, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 574: Player 1 plays 2 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 575: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 576: Player 1 plays 7 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 577: Player 1 plays King of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 578: Player 1 plays 3 of Spades, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 579: Player 1 plays 9 of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 580: Player 1 plays 4 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 581: Player 1 plays King of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 582: Player 1 plays 3 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 583: Player 1 plays Queen of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 584: Player 1 plays 5 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 585: Player 1 plays Jack of Hearts, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 586: Player 1 plays 4 of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 587: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 588: Player 1 plays 3 of Hearts, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 589: Player 1 plays 9 of Diamonds, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 590: Player 1 plays 6 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 591: Player 1 plays King of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 592: Player 1 plays 7 of Hearts, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 593: Player 1 plays 9 of Clubs, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 594: Player 1 plays 2 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 595: Player 1 plays King of Hearts, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 596: Player 1 plays 3 of Clubs, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 597: Player 1 plays Queen of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 598: Player 1 plays 4 of Spades, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 599: Player 1 plays Jack of Hearts, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 600: Player 1 plays 2 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 601: Player 1 plays 10 of Diamonds, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 602: Player 1 plays 6 of Clubs, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 603: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 604: Player 1 plays 8 of Spades, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 605: Player 1 plays King of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 606: Player 1 plays 5 of Diamonds, Player 2 plays 8 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 607: Player 1 plays King of Hearts, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 608: Player 1 plays 7 of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 609: Player 1 plays Queen of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 610: Player 1 plays 8 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 611: Player 1 plays Jack of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 612: Player 1 plays 5 of Spades, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 613: Player 1 plays 10 of Diamonds, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 614: Player 1 plays 2 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 615: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 616: Player 1 plays 6 of Diamonds, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 617: Player 1 plays King of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 618: Player 1 plays 6 of Hearts, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 619: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 620: Player 1 plays 5 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 621: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 622: Player 1 plays 4 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 623: Player 1 plays 8 of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 624: Player 1 plays 7 of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 625: Player 1 plays Jack of Hearts, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 626: Player 1 plays 2 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 627: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 628: Player 1 plays 7 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 629: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 630: Player 1 plays 3 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 631: Player 1 plays King of Clubs, Player 2 plays 9 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 632: Player 1 plays 4 of Clubs, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 633: Player 1 plays King of Hearts, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 634: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 635: Player 1 plays Queen of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 636: Player 1 plays 5 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 637: Player 1 plays 8 of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 638: Player 1 plays 4 of Diamonds, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 639: Player 1 plays Jack of Hearts, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 640: Player 1 plays 3 of Hearts, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 641: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 642: Player 1 plays 6 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 643: Player 1 plays 9 of Diamonds, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 644: Player 1 plays 7 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 645: Player 1 plays King of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 646: Player 1 plays 9 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 647: Player 1 plays King of Hearts, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 648: Player 1 plays 2 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 649: Player 1 plays Queen of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 650: Player 1 plays 3 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 651: Player 1 plays 8 of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 652: Player 1 plays 4 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 653: Player 1 plays Jack of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 654: Player 1 plays 2 of Diamonds, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 655: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 656: Player 1 plays 6 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 657: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 658: Player 1 plays 8 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 659: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 660: Player 1 plays 5 of Diamonds, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 661: Player 1 plays 9 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 662: Player 1 plays 8 of Hearts, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 663: Player 1 plays King of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 664: Player 1 plays 7 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 665: Player 1 plays Queen of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 666: Player 1 plays 5 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 667: Player 1 plays 8 of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 668: Player 1 plays 2 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 669: Player 1 plays Jack of Hearts, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 670: Player 1 plays 6 of Diamonds, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 671: Player 1 plays 10 of Diamonds, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 672: Player 1 plays 6 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 673: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 674: Player 1 plays 5 of Clubs, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 675: Player 1 plays King of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 676: Player 1 plays 4 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 677: Player 1 plays 9 of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 678: Player 1 plays 7 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 679: Player 1 plays King of Hearts, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 680: Player 1 plays 2 of Clubs, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 681: Player 1 plays Queen of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 682: Player 1 plays 7 of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 683: Player 1 plays 8 of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 684: Player 1 plays 3 of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 685: Player 1 plays Jack of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 686: Player 1 plays 4 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 687: Player 1 plays 10 of Diamonds, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 688: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 689: Player 1 plays 9 of Diamonds, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 690: Player 1 plays 5 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 691: Player 1 plays King of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 692: Player 1 plays 4 of Diamonds, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 693: Player 1 plays 9 of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 694: Player 1 plays 3 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 695: Player 1 plays King of Hearts, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 696: Player 1 plays 6 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 697: Player 1 plays Queen of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 698: Player 1 plays 7 of Hearts, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 699: Player 1 plays 8 of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 700: Player 1 plays 2 of Hearts, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 701: Player 1 plays Jack of Hearts, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 702: Player 1 plays 3 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 703: Player 1 plays 10 of Diamonds, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 704: Player 1 plays 4 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 705: Player 1 plays 9 of Diamonds, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 706: Player 1 plays 2 of Diamonds, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 707: Player 1 plays King of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 708: Player 1 plays 6 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 709: Player 1 plays 9 of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 710: Player 1 plays 8 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 711: Player 1 plays King of Hearts, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 712: Player 1 plays 5 of Diamonds, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 713: Player 1 plays Queen of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 714: Player 1 plays 8 of Hearts, Player 2 plays 8 of Diamonds.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 5 of Spades, Player 2 plays Queen of Spades.
+        Player 2 wins the round (10 cards).
+Round 715: Player 1 plays 10 of Diamonds, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 716: Player 1 plays 2 of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 717: Player 1 plays 9 of Diamonds, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 718: Player 1 plays 6 of Diamonds, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 719: Player 1 plays King of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 720: Player 1 plays 6 of Hearts, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 721: Player 1 plays 9 of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 722: Player 1 plays 5 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 723: Player 1 plays King of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 724: Player 1 plays 4 of Hearts, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 725: Player 1 plays Queen of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 726: Player 1 plays 7 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 727: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 728: Player 1 plays 3 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 729: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 730: Player 1 plays 4 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 731: Player 1 plays King of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 732: Player 1 plays 3 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 733: Player 1 plays 9 of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 734: Player 1 plays 5 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 735: Player 1 plays King of Hearts, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 736: Player 1 plays 4 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 737: Player 1 plays Queen of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 738: Player 1 plays 3 of Hearts, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 739: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 740: Player 1 plays 6 of Spades, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 741: Player 1 plays 9 of Diamonds, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 742: Player 1 plays 7 of Hearts, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 743: Player 1 plays King of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 744: Player 1 plays 2 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 745: Player 1 plays 9 of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 746: Player 1 plays 3 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 747: Player 1 plays King of Hearts, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 748: Player 1 plays 4 of Spades, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 749: Player 1 plays Queen of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 750: Player 1 plays 2 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 751: Player 1 plays 10 of Diamonds, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 752: Player 1 plays 6 of Clubs, Player 2 plays 7 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 753: Player 1 plays 9 of Diamonds, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 754: Player 1 plays 8 of Spades, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 755: Player 1 plays King of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 756: Player 1 plays 5 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 757: Player 1 plays 9 of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 758: Player 1 plays 8 of Hearts, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 759: Player 1 plays King of Hearts, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 760: Player 1 plays 8 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 761: Player 1 plays 4 of Spades, Player 2 plays 5 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 762: Player 1 plays 2 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 763: Player 1 plays Queen of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 764: Player 1 plays 7 of Spades, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 765: Player 1 plays 9 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 766: Player 1 plays 5 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 767: Player 1 plays King of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 768: Player 1 plays 2 of Spades, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 769: Player 1 plays 9 of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 770: Player 1 plays 6 of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 771: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 772: Player 1 plays 6 of Hearts, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 773: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 774: Player 1 plays 4 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 775: Player 1 plays 9 of Diamonds, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 776: Player 1 plays 7 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 777: Player 1 plays King of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 778: Player 1 plays 3 of Spades, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 779: Player 1 plays 9 of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 780: Player 1 plays 4 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 781: Player 1 plays King of Hearts, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 782: Player 1 plays 3 of Diamonds, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 783: Player 1 plays Queen of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 784: Player 1 plays 5 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 785: Player 1 plays 9 of Diamonds, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 786: Player 1 plays 4 of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 787: Player 1 plays King of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 788: Player 1 plays 3 of Hearts, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 789: Player 1 plays 9 of Clubs, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 790: Player 1 plays 6 of Spades, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 791: Player 1 plays King of Hearts, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 792: Player 1 plays 7 of Hearts, Player 2 plays 7 of Clubs.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 3 of Clubs, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (10 cards).
+Round 793: Player 1 plays King of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 794: Player 1 plays 2 of Diamonds, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 795: Player 1 plays King of Hearts, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 796: Player 1 plays 6 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 797: Player 1 plays King of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 798: Player 1 plays 8 of Hearts, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 799: Player 1 plays King of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 800: Player 1 plays 8 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 801: Player 1 plays King of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 802: Player 1 plays 4 of Spades, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 803: Player 1 plays 8 of Hearts, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 804: Player 1 plays 5 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 805: Player 1 plays King of Hearts, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 806: Player 1 plays 2 of Clubs, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 807: Player 1 plays King of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 808: Player 1 plays 7 of Spades, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 809: Player 1 plays 8 of Hearts, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 810: Player 1 plays 5 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 811: Player 1 plays King of Hearts, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 812: Player 1 plays 2 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 813: Player 1 plays King of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 814: Player 1 plays 6 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 815: Player 1 plays 8 of Hearts, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 816: Player 1 plays 6 of Hearts, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 817: Player 1 plays King of Hearts, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 818: Player 1 plays 4 of Hearts, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 819: Player 1 plays King of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 820: Player 1 plays 7 of Diamonds, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 821: Player 1 plays 8 of Hearts, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 822: Player 1 plays 3 of Spades, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 823: Player 1 plays King of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 824: Player 1 plays 4 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 825: Player 1 plays King of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 826: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 827: Player 1 plays 8 of Hearts, Player 2 plays 9 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 828: Player 1 plays 5 of Hearts, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 829: Player 1 plays King of Hearts, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 830: Player 1 plays 4 of Diamonds, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 831: Player 1 plays King of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 832: Player 1 plays 3 of Hearts, Player 2 plays 7 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 833: Player 1 plays King of Hearts, Player 2 plays Queen of Clubs.
+        Player 1 wins the round (2 cards).
+Round 834: Player 1 plays 6 of Spades, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 835: Player 1 plays King of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 836: Player 1 plays 7 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 837: Player 1 plays King of Hearts, Player 2 plays 9 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 838: Player 1 plays Queen of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 839: Player 1 plays King of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 840: Player 1 plays 2 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 841: Player 1 plays King of Hearts, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 842: Player 1 plays 9 of Diamonds, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 843: Player 1 plays Queen of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 844: Player 1 plays 5 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 845: Player 1 plays King of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 846: Player 1 plays 3 of Clubs, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 847: Player 1 plays King of Hearts, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 848: Player 1 plays 2 of Diamonds, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 849: Player 1 plays Queen of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 850: Player 1 plays 6 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 851: Player 1 plays King of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 852: Player 1 plays 8 of Clubs, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 853: Player 1 plays King of Hearts, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 854: Player 1 plays 4 of Spades, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 855: Player 1 plays Queen of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 856: Player 1 plays 5 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 857: Player 1 plays King of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 858: Player 1 plays 2 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 859: Player 1 plays King of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 860: Player 1 plays 7 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 861: Player 1 plays Queen of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 862: Player 1 plays 5 of Spades, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 863: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 864: Player 1 plays 2 of Spades, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 865: Player 1 plays King of Hearts, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 866: Player 1 plays 6 of Diamonds, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 867: Player 1 plays Queen of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 868: Player 1 plays 6 of Hearts, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 869: Player 1 plays King of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 870: Player 1 plays 4 of Hearts, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 871: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 872: Player 1 plays 7 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 873: Player 1 plays Queen of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 874: Player 1 plays 3 of Spades, Player 2 plays 9 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 875: Player 1 plays King of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 876: Player 1 plays 4 of Clubs, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 877: Player 1 plays King of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 878: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 879: Player 1 plays Queen of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 880: Player 1 plays 8 of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 881: Player 1 plays King of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 882: Player 1 plays 5 of Hearts, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 883: Player 1 plays King of Hearts, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 884: Player 1 plays 4 of Diamonds, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 885: Player 1 plays Queen of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 886: Player 1 plays 3 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 887: Player 1 plays 8 of Hearts, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 888: Player 1 plays 7 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 889: Player 1 plays King of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 890: Player 1 plays 6 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 891: Player 1 plays King of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 892: Player 1 plays 7 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 893: Player 1 plays Queen of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 894: Player 1 plays 2 of Hearts, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 895: Player 1 plays King of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 896: Player 1 plays 5 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 897: Player 1 plays King of Hearts, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 898: Player 1 plays 3 of Clubs, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 899: Player 1 plays Queen of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 900: Player 1 plays 2 of Diamonds, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 901: Player 1 plays King of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 902: Player 1 plays 6 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 903: Player 1 plays King of Hearts, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 904: Player 1 plays 8 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 905: Player 1 plays Queen of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 906: Player 1 plays 4 of Spades, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 907: Player 1 plays King of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 908: Player 1 plays 5 of Clubs, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 909: Player 1 plays King of Hearts, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 910: Player 1 plays 2 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 911: Player 1 plays Queen of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 912: Player 1 plays 7 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 913: Player 1 plays King of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 914: Player 1 plays 5 of Spades, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 915: Player 1 plays King of Hearts, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 916: Player 1 plays 2 of Spades, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 917: Player 1 plays Queen of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 918: Player 1 plays 6 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 919: Player 1 plays King of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 920: Player 1 plays 6 of Hearts, Player 2 plays 9 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 921: Player 1 plays King of Hearts, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 922: Player 1 plays 4 of Hearts, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 923: Player 1 plays Queen of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 924: Player 1 plays 7 of Diamonds, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 925: Player 1 plays King of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 926: Player 1 plays 3 of Spades, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 927: Player 1 plays King of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 928: Player 1 plays 4 of Clubs, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 929: Player 1 plays Queen of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 930: Player 1 plays 3 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 931: Player 1 plays King of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 932: Player 1 plays 5 of Hearts, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 933: Player 1 plays King of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 934: Player 1 plays 4 of Diamonds, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 935: Player 1 plays Queen of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 936: Player 1 plays 3 of Hearts, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 937: Player 1 plays King of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 938: Player 1 plays 8 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 939: Player 1 plays King of Hearts, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 940: Player 1 plays 7 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 941: Player 1 plays Queen of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 942: Player 1 plays 6 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 943: Player 1 plays King of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 944: Player 1 plays 7 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 945: Player 1 plays King of Hearts, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 946: Player 1 plays 2 of Hearts, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 947: Player 1 plays Queen of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 948: Player 1 plays 5 of Diamonds, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 949: Player 1 plays King of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 950: Player 1 plays 3 of Clubs, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 951: Player 1 plays King of Hearts, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 952: Player 1 plays 2 of Diamonds, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 953: Player 1 plays Queen of Clubs, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 954: Player 1 plays 6 of Clubs, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 955: Player 1 plays King of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 956: Player 1 plays 8 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 957: Player 1 plays King of Hearts, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 958: Player 1 plays 4 of Spades, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 959: Player 1 plays Queen of Clubs, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 960: Player 1 plays 5 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 961: Player 1 plays King of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 962: Player 1 plays 2 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 963: Player 1 plays King of Hearts, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 964: Player 1 plays 7 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 965: Player 1 plays Queen of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 966: Player 1 plays 5 of Spades, Player 2 plays 9 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 967: Player 1 plays King of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 968: Player 1 plays 2 of Spades, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 969: Player 1 plays King of Hearts, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 970: Player 1 plays 6 of Diamonds, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 971: Player 1 plays Queen of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 972: Player 1 plays 6 of Hearts, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 973: Player 1 plays King of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 974: Player 1 plays 4 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 975: Player 1 plays King of Hearts, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 976: Player 1 plays 7 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 977: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 978: Player 1 plays 3 of Spades, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 979: Player 1 plays King of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 980: Player 1 plays 4 of Clubs, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 981: Player 1 plays King of Hearts, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 982: Player 1 plays 3 of Diamonds, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 983: Player 1 plays Queen of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 984: Player 1 plays 5 of Hearts, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 985: Player 1 plays King of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 986: Player 1 plays 4 of Diamonds, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 987: Player 1 plays King of Hearts, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 988: Player 1 plays 3 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 989: Player 1 plays Queen of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 990: Player 1 plays 8 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 991: Player 1 plays King of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 992: Player 1 plays 7 of Clubs, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 993: Player 1 plays King of Hearts, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 994: Player 1 plays 6 of Spades, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 995: Player 1 plays Queen of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 996: Player 1 plays 7 of Hearts, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 997: Player 1 plays King of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 998: Player 1 plays 2 of Hearts, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 999: Player 1 plays King of Hearts, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1000: Player 1 plays 5 of Diamonds, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 1001: Player 1 plays Queen of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1002: Player 1 plays 3 of Clubs, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1003: Player 1 plays King of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 1004: Player 1 plays 2 of Diamonds, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 1005: Player 1 plays King of Hearts, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1006: Player 1 plays 6 of Clubs, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 1007: Player 1 plays Queen of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1008: Player 1 plays 8 of Clubs, Player 2 plays 8 of Diamonds.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 5 of Clubs, Player 2 plays 9 of Clubs.
+        Player 2 wins the round (10 cards).
+Round 1009: Player 1 plays Queen of Clubs, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 1010: Player 1 plays 2 of Clubs, Player 2 plays 10 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1011: Player 1 plays Queen of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 1012: Player 1 plays 2 of Spades, Player 2 plays Jack of Hearts.
+        Player 2 wins the round (2 cards).
+Round 1013: Player 1 plays Queen of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1014: Player 1 plays 6 of Diamonds, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 1015: Player 1 plays Queen of Clubs, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1016: Player 1 plays 6 of Hearts, Player 2 plays Queen of Spades.
+        Player 2 wins the round (2 cards).
+Round 1017: Player 1 plays Queen of Clubs, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 1018: Player 1 plays 4 of Hearts, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 1019: Player 1 plays Queen of Clubs, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 1020: Player 1 plays 7 of Diamonds, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1021: Player 1 plays Queen of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1022: Player 1 plays 3 of Spades, Player 2 plays 10 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 1023: Player 1 plays Queen of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 1024: Player 1 plays 4 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 1025: Player 1 plays Queen of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1026: Player 1 plays 3 of Diamonds, Player 2 plays 9 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 1027: Player 1 plays Queen of Clubs, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 1028: Player 1 plays 5 of Hearts, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1029: Player 1 plays Queen of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1030: Player 1 plays 4 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 1031: Player 1 plays Queen of Clubs, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1032: Player 1 plays 3 of Hearts, Player 2 plays King of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1033: Player 1 plays Queen of Clubs, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1034: Player 1 plays 8 of Hearts, Player 2 plays Ace of Clubs.
+        Player 2 wins the round (2 cards).
+Round 1035: Player 1 plays Queen of Clubs, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 1036: Player 1 plays 7 of Clubs, Player 2 plays Queen of Hearts.
+        Player 2 wins the round (2 cards).
+Round 1037: Player 1 plays Queen of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1038: Player 1 plays 6 of Spades, Player 2 plays Ace of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1039: Player 1 plays Queen of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 1040: Player 1 plays 7 of Hearts, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 1041: Player 1 plays Queen of Clubs, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 1042: Player 1 plays 2 of Hearts, Player 2 plays 10 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 1043: Player 1 plays Queen of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1044: Player 1 plays 5 of Diamonds, Player 2 plays Jack of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1045: Player 1 plays Queen of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 1046: Player 1 plays 3 of Clubs, Player 2 plays Ace of Spades.
+        Player 2 wins the round (2 cards).
+Round 1047: Player 1 plays Queen of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1048: Player 1 plays 2 of Diamonds, Player 2 plays 9 of Spades.
+        Player 2 wins the round (2 cards).
+Round 1049: Player 1 plays Queen of Clubs, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 1050: Player 1 plays 6 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 1051: Player 1 plays Queen of Clubs, Player 2 plays King of Clubs.
+        Player 2 wins the round (2 cards).
+Round 1052: Player 1 plays 8 of Clubs, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 1053: Player 1 plays 8 of Clubs, Player 2 plays 4 of Spades.
+        Player 1 wins the round (2 cards).
+Round 1054: Player 1 plays 7 of Spades, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 1055: Player 1 plays 8 of Clubs, Player 2 plays King of Hearts.
+        Player 2 wins the round (2 cards).
+Round 1056: Player 1 plays 4 of Spades, Player 2 plays 5 of Spades.
+        Player 2 wins the round (2 cards).
+
+=====================================
+PLAYER 2 WINS THE WAR!
+Total rounds played : 1056
+Total wars fought    : 10
+=====================================

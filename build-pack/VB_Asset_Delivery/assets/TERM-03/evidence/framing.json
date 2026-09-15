@@ -1,0 +1,205 @@
+{
+  "id": "TERM-03",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#111318",
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "rule": "Raw capture pasted at 1:1 (downscaled only if larger than the safe area); outlines exist only on files whose name says highlight/focus/directives; settings-focus is an integer nearest-neighbour enlargement of a crop.",
+  "exports": [
+    {
+      "file": "framed.png",
+      "from": "viewport-01-lines-001-029.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        1,
+        29
+      ]
+    },
+    {
+      "file": "framed-02.png",
+      "from": "viewport-02-lines-026-054.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        26,
+        54
+      ]
+    },
+    {
+      "file": "framed-03.png",
+      "from": "viewport-03-lines-051-079.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        51,
+        79
+      ]
+    },
+    {
+      "file": "framed-04.png",
+      "from": "viewport-04-lines-076-104.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        76,
+        104
+      ]
+    },
+    {
+      "file": "framed-05.png",
+      "from": "viewport-05-lines-101-129.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        101,
+        129
+      ]
+    },
+    {
+      "file": "framed-06.png",
+      "from": "viewport-06-lines-126-154.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        126,
+        154
+      ]
+    },
+    {
+      "file": "framed-07.png",
+      "from": "viewport-07-lines-151-179.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        151,
+        179
+      ]
+    },
+    {
+      "file": "framed-08.png",
+      "from": "viewport-08-lines-176-204.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        176,
+        204
+      ]
+    },
+    {
+      "file": "framed-09.png",
+      "from": "viewport-09-lines-201-229.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        201,
+        229
+      ]
+    },
+    {
+      "file": "framed-10.png",
+      "from": "viewport-10-lines-226-254.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        226,
+        254
+      ]
+    },
+    {
+      "file": "framed-11.png",
+      "from": "viewport-11-lines-251-279.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        251,
+        279
+      ]
+    },
+    {
+      "file": "framed-12.png",
+      "from": "viewport-12-lines-257-285.png",
+      "offset": [
+        248,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false,
+      "lines": [
+        257,
+        285
+      ]
+    },
+    {
+      "file": "contact-sheet.png",
+      "size": [
+        1920,
+        1081
+      ],
+      "font": "Segoe UI (installed system font)"
+    }
+  ]
+}

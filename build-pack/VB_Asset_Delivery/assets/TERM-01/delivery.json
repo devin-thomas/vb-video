@@ -1,0 +1,291 @@
+{
+  "id": "TERM-01",
+  "title": "Project creation and actual SDK version",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "actual runtime capture",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/capture.json",
+      "role": "evidence / QA",
+      "bytes": 8401,
+      "sha256": "4325ba89615b1c21c440d43e60a22649225641c77b495342979eaa74fbce4e9d"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 591,
+      "sha256": "43d36a621a0b84b785bc1a051f287d615e4c8a4f8a8fde3fc8d91c00f83aa2dd"
+    },
+    {
+      "path": "evidence/commands.log",
+      "role": "evidence / QA",
+      "bytes": 754,
+      "sha256": "57b5dbea20eba1fe90b5386b6c941ca544059471058077321d8bb883ef66c58a"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 659,
+      "sha256": "f776611ebd0521a055e4f197a3fad3801574973c09ebca1ce8432ae8216509ca"
+    },
+    {
+      "path": "evidence/prompt-log.jsonl",
+      "role": "evidence / QA",
+      "bytes": 2180,
+      "sha256": "da3f660c0e4ff6ba578461c97f7e82e3fda8b07863e080f243e92606135fb3fb"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1663,
+      "sha256": "8b1eb6045441aec87d1f3a85fc9b6a9c817c0f2985d425494917d39e31581d4e"
+    },
+    {
+      "path": "evidence/scaffold/Program.vb",
+      "role": "evidence / QA",
+      "bytes": 134,
+      "sha256": "af0ac08deb6915e3abb43b4e06be414bb71594dfff476a10025927d7487fb70e"
+    },
+    {
+      "path": "evidence/scaffold/War.vbproj",
+      "role": "evidence / QA",
+      "bytes": 215,
+      "sha256": "66562e68b6ccc6d4f9beea4c0f33adda422263c37bca683fa58a9bb21577f1d3"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1418,
+      "sha256": "dd1676d9ba2474e20a278c7b89100e6cb1aebede194c5fbca4d3aff7f459650e"
+    },
+    {
+      "path": "evidence/viewport-text.json",
+      "role": "evidence / QA",
+      "bytes": 1971,
+      "sha256": "36e7fbfb2847adfdcd8bb29ce2b88b3c63bf4af1ed2c485ca04ab694c2b52f06"
+    },
+    {
+      "path": "exports/framed.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 56024,
+      "sha256": "74f7cdc45aa20a4346e7f3278c3001a48062d81d26635ebf9367afaa78274cd6"
+    },
+    {
+      "path": "proofs/framed-720.png",
+      "role": "720p review proof",
+      "bytes": 133388,
+      "sha256": "4bd6f7d226a87036b9d749fba93143f5af3665e8cc41b74c0665372bf0da4640"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3013,
+      "sha256": "2b18ee9a60211fe1ab27de53dfed94385e1d174e53441764a050fe35ec1ca150"
+    },
+    {
+      "path": "source/raw/01-dotnet-version.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 12426,
+      "sha256": "63b5840769f2cb71ee2e5c27fce5f377191bddf4b59631e7a3f205edbcff7f28"
+    },
+    {
+      "path": "source/raw/02-dotnet-new.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 32079,
+      "sha256": "4c5c90b3f7d028188bc9c75bf6f66d4dc6d6121377cf3a18ede06fa14e643701"
+    },
+    {
+      "path": "source/raw/03-scaffold-files.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 50163,
+      "sha256": "a95b1249c0bb775177909920dcfb2c596111d2d17c66ecaca54de55daf9c70fa"
+    },
+    {
+      "path": "source/scaffold-transcript.txt",
+      "role": "capture transcript / program output",
+      "bytes": 731,
+      "sha256": "87e54e9a500b04c695aca7b2f886addd973831cd82b3a96602106dbc5b183da2"
+    }
+  ],
+  "variants": [
+    {
+      "name": "raw",
+      "files": [
+        "source/raw/01-dotnet-version.png",
+        "source/raw/02-dotnet-new.png",
+        "source/raw/03-scaffold-files.png"
+      ],
+      "notes": "Unedited window captures in capture order."
+    },
+    {
+      "name": "framed",
+      "files": [
+        "exports/framed.png"
+      ],
+      "derived_from": "source/raw/03-scaffold-files.png"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        72,
+        72
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        144,
+        160
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        7,
+        8
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "context only; the default scaffold does not contain the game"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        28,
+        29
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "context only; the default scaffold does not contain the game"
+    }
+  ],
+  "credits": [
+    {
+      "type": "actual local capture",
+      "credit": "Screens captured from this production's own machine; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "native command exit codes (PowerShell history + $LASTEXITCODE at the next prompt)",
+      "result": "passed",
+      "failed": [],
+      "commands": [
+        {
+          "command": "dotnet --version",
+          "exit_code": 0,
+          "seconds": 0.124
+        },
+        {
+          "command": "Get-ChildItem",
+          "exit_code": 0,
+          "seconds": 0.014
+        },
+        {
+          "command": "dotnet new console -lang VB",
+          "exit_code": 0,
+          "seconds": 1.118
+        },
+        {
+          "command": "Get-ChildItem",
+          "exit_code": 0,
+          "seconds": 0.033
+        }
+      ]
+    },
+    {
+      "test": "scaffold files match the OPS-02 scaffold",
+      "result": "passed",
+      "detail": {
+        "War.vbproj": "66562e68b6ccc6d4f9beea4c0f33adda422263c37bca683fa58a9bb21577f1d3",
+        "Program.vb": "af0ac08deb6915e3abb43b4e06be414bb71594dfff476a10025927d7487fb70e"
+      }
+    },
+    {
+      "test": "transcript source",
+      "result": "passed",
+      "detail": "source/scaffold-transcript.txt is the console screen buffer read back after the last command."
+    },
+    {
+      "test": "PNG dimensions (raw native, exports 1920×1080, proofs 1280×720)",
+      "result": "passed",
+      "raw": {
+        "source/raw/01-dotnet-version.png": [
+          1319,
+          872
+        ],
+        "source/raw/02-dotnet-new.png": [
+          1319,
+          872
+        ],
+        "source/raw/03-scaffold-files.png": [
+          1319,
+          872
+        ]
+      },
+      "exports": {
+        "exports/framed.png": [
+          1920,
+          1080
+        ]
+      },
+      "proofs": {
+        "proofs/framed-720.png": [
+          1280,
+          720
+        ]
+      },
+      "bad": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed source/raw/01-dotnet-version.png, 02-dotnet-new.png, 03-scaffold-files.png (1319×872) and exports/framed.png (1920×1080). Text is sharp; `dotnet --version` → 10.0.303, the empty listing, template and restore success, and the Program.vb/War.vbproj listing are legible and unclipped; the window sits inside the safe area. Only the repository work path is visible; no notifications, other windows, or personal data.",
+      "proof_720": "Viewed proofs/framed-720.png (1280×720): every line stays readable, including the directory path."
+    },
+    {
+      "test": "privacy scan of text outputs",
+      "result": "passed",
+      "detail": "Searched every text output for the local account name and home-directory path (the values themselves are not written here).",
+      "hits": []
+    }
+  ],
+  "unresolved_gates": [
+    "R17"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "dotnet_sdk": "10.0.303",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "terminal": "Windows Console Host (conhost.exe) launched directly, not Windows Terminal",
+    "conhost_file_version": "10.0.26100.9444",
+    "shell": "PowerShell 7.6.6",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0",
+      "pywin32": "312"
+    },
+    "capture_api": "user32.PrintWindow(PW_RENDERFULLCONTENT) of the console window, cropped to DWM extended frame bounds",
+    "input_api": "kernel32 WriteConsoleInput key events into the attached console (no focus or global keystrokes)",
+    "transcript_api": "kernel32 ReadConsoleOutputCharacter over the console screen buffer",
+    "network_used": "only whatever dotnet itself performed; no downloads were requested",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Default template output only: its Program.vb is the Hello World scaffold, not the War game.",
+    "The visible directory path is the repository work folder; no personal path appears."
+  ]
+}

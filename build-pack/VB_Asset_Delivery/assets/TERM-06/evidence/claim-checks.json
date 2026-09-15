@@ -1,0 +1,30 @@
+{
+  "gates": [
+    {
+      "id": "R06",
+      "status": "blocked",
+      "evidence": [
+        "source/stdout.txt",
+        "evidence/run-stats.json"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "This run ended with a winner after 150 rounds, so the round-cap 'deck cycle detected' line does not appear. The counter/wording caveat still applies to any narration about draws. Awaiting producer decision."
+    },
+    {
+      "id": "R08",
+      "status": "blocked",
+      "evidence": [
+        "source/stdout.txt",
+        "evidence/run-stats.json",
+        "evidence/results-table.md",
+        "evidence/results-table.json"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Real totals from this run (PLAYER 2 WINS THE WAR!; 150 rounds; 10 wars) replace, not confirm, the script's sample results (418 rounds/10 wars, 347 rounds/13 wars). Narration quoting sample numbers still needs a producer decision."
+    }
+  ]
+}

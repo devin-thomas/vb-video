@@ -1,0 +1,13 @@
+{
+  "id": "TERM-06",
+  "command": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt",
+  "result_line": "PLAYER 2 WINS THE WAR!",
+  "total_rounds_line": 150,
+  "total_wars_line": 10,
+  "war_lines": 10,
+  "longest_chain_in_one_round": 2,
+  "draw_message_present": false,
+  "stdout_lines": 332,
+  "stdout_sha256": "7db51b66f27a01d32325f366ec184ecd19a1ca2000e712e29a21a42438f091ce",
+  "first_war_stdout_line": 42
+}

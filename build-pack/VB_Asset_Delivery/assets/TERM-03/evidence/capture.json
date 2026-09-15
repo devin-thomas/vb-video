@@ -1,0 +1,705 @@
+{
+  "id": "TERM-03",
+  "captured_utc": "2026-09-15T15:09:16+00:00",
+  "capture_method": "Actual local terminal session. Commands were typed into a real conhost.exe window running pwsh via WriteConsoleInput; raw PNGs are unedited PrintWindow images of that window; buffer text was read back with ReadConsoleOutputCharacter.",
+  "os": "Windows-11-10.0.26200-SP0",
+  "terminal": {
+    "host": "conhost.exe (launched directly)",
+    "window_class": "ConsoleWindowClass",
+    "shell": "pwsh",
+    "cols": 108,
+    "rows": 30,
+    "buffer_rows": 32766,
+    "font": "Consolas",
+    "font_px": 28,
+    "window_title_set_to": "PowerShell",
+    "psreadline": "PredictionSource None (no history suggestions on screen); HistorySaveStyle SaveNothing",
+    "prompt": "PS <folder>> — a custom prompt that hides the long absolute path and logs each history entry to prompt-log.jsonl; it prints nothing else",
+    "extra_path": [
+      "C:\\Program Files\\Git\\usr\\bin"
+    ],
+    "startup_script": "[IO.File]::WriteAllText('build-pack\\VB_Asset_Delivery\\assets\\TERM-03\\work\\.console.pid', \"$PID\")\nImport-Module PSReadLine\nSet-PSReadLineOption -PredictionSource None -HistorySaveStyle SaveNothing\nfunction global:prompt {\n  $ok = $?; $code = $global:LASTEXITCODE\n  $h = Get-History -Count 1\n  if ($h -and $h.Id -ne $global:__captureLast) {\n    $global:__captureLast = $h.Id\n    $rec = [ordered]@{ id = $h.Id; command = $h.CommandLine; status = \"$($h.ExecutionStatus)\"; succeeded = $ok;\n      last_exit_code = $code; start_utc = $h.StartExecutionTime.ToUniversalTime().ToString('o');\n      end_utc = $h.EndExecutionTime.ToUniversalTime().ToString('o');\n      seconds = [math]::Round(($h.EndExecutionTime - $h.StartExecutionTime).TotalSeconds, 3) }\n    [IO.File]::AppendAllText('build-pack\\VB_Asset_Delivery\\assets\\TERM-03\\work\\prompt-log.jsonl', (ConvertTo-Json $rec -Compress) + \"`n\")\n  }\n  $global:LASTEXITCODE = $code\n  'PS ' + (Split-Path -Leaf $PWD) + '> '\n}\n$env:Path = $env:Path + ';C:\\Program Files\\Git\\usr\\bin'\n$Host.UI.RawUI.WindowTitle = 'PowerShell'\nSet-Location -LiteralPath 'build-pack\\VB_Asset_Delivery\\assets\\TERM-03\\work\\War'\nClear-Host"
+  },
+  "dotnet_sdk_version": "10.0.303",
+  "working_directory": "build-pack/VB_Asset_Delivery/assets/TERM-03/work/War",
+  "pre_session_steps": [
+    "copied frozen harness War.vbproj and Program.vb into build-pack/VB_Asset_Delivery/assets/TERM-03/work/War; hashes verified"
+  ],
+  "source_sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+  "source_matches_original": true,
+  "commands": [
+    {
+      "id": 2,
+      "command": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:09:18.5970321Z",
+      "end_utc": "2026-09-15T15:09:30.2241691Z",
+      "seconds": 11.627
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "viewport-01-lines-001-029.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "87b2284545e287eaf54235e4e774e7463b116acaa6ab1fb5e12ea0d611a12645",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 1–29 in vim"
+    },
+    {
+      "file": "viewport-02-lines-026-054.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "f8c4b01d287cfbba14d1afe1ae523bbc8d4db55fc264f9faa24a8cc4c6f30f19",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 26–54 in vim"
+    },
+    {
+      "file": "viewport-03-lines-051-079.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "b533d60692e0d21e3eb2b940191756a754686091875d2dcd75f40bbb4690c53f",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 51–79 in vim"
+    },
+    {
+      "file": "viewport-04-lines-076-104.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "8c4a37734fd7478fbc931e287303920424447719fb528fd03a9b4ed7f015eea0",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 76–104 in vim"
+    },
+    {
+      "file": "viewport-05-lines-101-129.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "5d893b8428f6b91301683b8cf90d316fd08cda22be5df6e24ebd2791af7d30ab",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 101–129 in vim"
+    },
+    {
+      "file": "viewport-06-lines-126-154.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "527d823ef52af328389c4b69db48fe3d9eee819053aacae8fe4a5558335ffe2f",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 126–154 in vim"
+    },
+    {
+      "file": "viewport-07-lines-151-179.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "dd965da0b0eaf54b86b85ebc36f684d2bb2c28bc7b6f4606c3397c7d0b93f755",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 151–179 in vim"
+    },
+    {
+      "file": "viewport-08-lines-176-204.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "dfb8669b4ef08cb0d4c689efde58e7c8014def4368d4d40f8a652fefe7e8276e",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 176–204 in vim"
+    },
+    {
+      "file": "viewport-09-lines-201-229.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "0f6d20ca480bd6952ab6051ed8355743f5b1fff9a5db13b4248e32588369e465",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 201–229 in vim"
+    },
+    {
+      "file": "viewport-10-lines-226-254.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "65aa7f407eef87fc7238edf9bbaab265e5286818d35331e6de8cc71f4e559e7f",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 226–254 in vim"
+    },
+    {
+      "file": "viewport-11-lines-251-279.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "fe048ef061a59a1d0074c4756ff0641e9ec81769430736a2685ddbf4296e96c1",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 251–279 in vim"
+    },
+    {
+      "file": "viewport-12-lines-257-285.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "efac45598362acfe433830ef3910f00e26b4dae9ccc6685eaa67e8ae79e0b028",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ],
+      "label": "Program.vb lines 257–285 in vim"
+    }
+  ],
+  "driver_events": [
+    {
+      "t": 1.368,
+      "event": "session-start",
+      "pid": 39196,
+      "window_class": "ConsoleWindowClass"
+    },
+    {
+      "t": 1.834,
+      "event": "typed",
+      "text": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb"
+    },
+    {
+      "t": 3.31,
+      "event": "screenshot",
+      "file": "viewport-01-lines-001-029.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "87b2284545e287eaf54235e4e774e7463b116acaa6ab1fb5e12ea0d611a12645",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 4.231,
+      "event": "screenshot",
+      "file": "viewport-02-lines-026-054.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "f8c4b01d287cfbba14d1afe1ae523bbc8d4db55fc264f9faa24a8cc4c6f30f19",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 5.147,
+      "event": "screenshot",
+      "file": "viewport-03-lines-051-079.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "b533d60692e0d21e3eb2b940191756a754686091875d2dcd75f40bbb4690c53f",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 6.064,
+      "event": "screenshot",
+      "file": "viewport-04-lines-076-104.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "8c4a37734fd7478fbc931e287303920424447719fb528fd03a9b4ed7f015eea0",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 6.981,
+      "event": "screenshot",
+      "file": "viewport-05-lines-101-129.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "5d893b8428f6b91301683b8cf90d316fd08cda22be5df6e24ebd2791af7d30ab",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 7.897,
+      "event": "screenshot",
+      "file": "viewport-06-lines-126-154.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "527d823ef52af328389c4b69db48fe3d9eee819053aacae8fe4a5558335ffe2f",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 8.814,
+      "event": "screenshot",
+      "file": "viewport-07-lines-151-179.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "dd965da0b0eaf54b86b85ebc36f684d2bb2c28bc7b6f4606c3397c7d0b93f755",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 9.73,
+      "event": "screenshot",
+      "file": "viewport-08-lines-176-204.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "dfb8669b4ef08cb0d4c689efde58e7c8014def4368d4d40f8a652fefe7e8276e",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 10.649,
+      "event": "screenshot",
+      "file": "viewport-09-lines-201-229.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "0f6d20ca480bd6952ab6051ed8355743f5b1fff9a5db13b4248e32588369e465",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 11.564,
+      "event": "screenshot",
+      "file": "viewport-10-lines-226-254.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "65aa7f407eef87fc7238edf9bbaab265e5286818d35331e6de8cc71f4e559e7f",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 12.481,
+      "event": "screenshot",
+      "file": "viewport-11-lines-251-279.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "fe048ef061a59a1d0074c4756ff0641e9ec81769430736a2685ddbf4296e96c1",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 13.399,
+      "event": "screenshot",
+      "file": "viewport-12-lines-257-285.png",
+      "visible_buffer_rows": [
+        0,
+        29
+      ],
+      "size": [
+        1423,
+        872
+      ],
+      "sha256": "efac45598362acfe433830ef3910f00e26b4dae9ccc6685eaa67e8ae79e0b028",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1423,
+        872
+      ]
+    },
+    {
+      "t": 14.179,
+      "event": "typed",
+      "text": "exit"
+    },
+    {
+      "t": 29.211,
+      "event": "session-end"
+    }
+  ],
+  "editor": "vim (Git for Windows usr/bin) in the same conhost window",
+  "viewport_count": 12,
+  "complete_coverage": true
+}

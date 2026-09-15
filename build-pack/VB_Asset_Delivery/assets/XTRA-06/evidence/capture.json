@@ -1,0 +1,260 @@
+{
+  "id": "XTRA-06",
+  "captured_utc": "2026-09-15T15:12:27+00:00",
+  "capture_method": "Actual local terminal session. Commands were typed into a real conhost.exe window running pwsh via WriteConsoleInput; raw PNGs are unedited PrintWindow images of that window; buffer text was read back with ReadConsoleOutputCharacter.",
+  "os": "Windows-11-10.0.26200-SP0",
+  "terminal": {
+    "host": "conhost.exe (launched directly)",
+    "window_class": "ConsoleWindowClass",
+    "shell": "pwsh",
+    "cols": 100,
+    "rows": 20,
+    "buffer_rows": 32766,
+    "font": "Consolas",
+    "font_px": 28,
+    "window_title_set_to": "PowerShell",
+    "psreadline": "PredictionSource None (no history suggestions on screen); HistorySaveStyle SaveNothing",
+    "prompt": "PS <folder>> — a custom prompt that hides the long absolute path and logs each history entry to prompt-log.jsonl; it prints nothing else",
+    "extra_path": [
+      "C:\\Program Files\\Git\\usr\\bin"
+    ],
+    "startup_script": "[IO.File]::WriteAllText('build-pack\\VB_Asset_Delivery\\assets\\XTRA-06\\work\\.console.pid', \"$PID\")\nImport-Module PSReadLine\nSet-PSReadLineOption -PredictionSource None -HistorySaveStyle SaveNothing\nfunction global:prompt {\n  $ok = $?; $code = $global:LASTEXITCODE\n  $h = Get-History -Count 1\n  if ($h -and $h.Id -ne $global:__captureLast) {\n    $global:__captureLast = $h.Id\n    $rec = [ordered]@{ id = $h.Id; command = $h.CommandLine; status = \"$($h.ExecutionStatus)\"; succeeded = $ok;\n      last_exit_code = $code; start_utc = $h.StartExecutionTime.ToUniversalTime().ToString('o');\n      end_utc = $h.EndExecutionTime.ToUniversalTime().ToString('o');\n      seconds = [math]::Round(($h.EndExecutionTime - $h.StartExecutionTime).TotalSeconds, 3) }\n    [IO.File]::AppendAllText('build-pack\\VB_Asset_Delivery\\assets\\XTRA-06\\work\\prompt-log.jsonl', (ConvertTo-Json $rec -Compress) + \"`n\")\n  }\n  $global:LASTEXITCODE = $code\n  'PS ' + (Split-Path -Leaf $PWD) + '> '\n}\n$env:Path = $env:Path + ';C:\\Program Files\\Git\\usr\\bin'\n$Host.UI.RawUI.WindowTitle = 'PowerShell'\nSet-Location -LiteralPath 'build-pack\\VB_Asset_Delivery\\assets\\XTRA-06\\work\\War'\nClear-Host"
+  },
+  "dotnet_sdk_version": "10.0.303",
+  "working_directory": "build-pack/VB_Asset_Delivery/assets/XTRA-06/work/War",
+  "pre_session_steps": [
+    "copied frozen harness War.vbproj and Program.vb into build-pack/VB_Asset_Delivery/assets/XTRA-06/work/War; hashes verified",
+    "re-run: the first attempt of this capture typed the same commands but crashed after the window closed (evidence/ folder missing when copying project-diff.txt); its raw PNGs and logs were set aside undelivered and this capture started from a fresh harness copy"
+  ],
+  "source_sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+  "source_matches_original": true,
+  "commands": [
+    {
+      "id": 2,
+      "command": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" War.vbproj",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:12:29.8162881Z",
+      "end_utc": "2026-09-15T15:12:31.4077314Z",
+      "seconds": 1.591
+    },
+    {
+      "id": 3,
+      "command": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb",
+      "status": "Completed",
+      "succeeded": true,
+      "last_exit_code": 0,
+      "start_utc": "2026-09-15T15:12:32.4706986Z",
+      "end_utc": "2026-09-15T15:12:34.0441790Z",
+      "seconds": 1.573
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01-war-vbproj.png",
+      "visible_buffer_rows": [
+        0,
+        19
+      ],
+      "size": [
+        1319,
+        592
+      ],
+      "sha256": "9a97e8097bd2a7ab704ae61782833710fd84689a0a0a306ce5f015a44bd66950",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        592
+      ],
+      "label": "Derived harness War.vbproj open in vim"
+    },
+    {
+      "file": "02-program-vb-directives.png",
+      "visible_buffer_rows": [
+        0,
+        19
+      ],
+      "size": [
+        1319,
+        592
+      ],
+      "sha256": "2a7ca9adb19138fda472164ec9fd543a68ce8a7a4a9e14c5dd660fcf865836df",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        592
+      ],
+      "label": "Program.vb source-file directives (lines 7–8) open in vim"
+    }
+  ],
+  "driver_events": [
+    {
+      "t": 1.371,
+      "event": "session-start",
+      "pid": 11876,
+      "window_class": "ConsoleWindowClass"
+    },
+    {
+      "t": 1.839,
+      "event": "typed",
+      "text": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" War.vbproj"
+    },
+    {
+      "t": 3.277,
+      "event": "screenshot",
+      "file": "01-war-vbproj.png",
+      "visible_buffer_rows": [
+        0,
+        19
+      ],
+      "size": [
+        1319,
+        592
+      ],
+      "sha256": "9a97e8097bd2a7ab704ae61782833710fd84689a0a0a306ce5f015a44bd66950",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        592
+      ]
+    },
+    {
+      "t": 4.494,
+      "event": "typed",
+      "text": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb"
+    },
+    {
+      "t": 5.932,
+      "event": "screenshot",
+      "file": "02-program-vb-directives.png",
+      "visible_buffer_rows": [
+        0,
+        19
+      ],
+      "size": [
+        1319,
+        592
+      ],
+      "sha256": "2a7ca9adb19138fda472164ec9fd543a68ce8a7a4a9e14c5dd660fcf865836df",
+      "font_face": "Consolas",
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "png_size": [
+        1319,
+        592
+      ]
+    },
+    {
+      "t": 6.712,
+      "event": "typed",
+      "text": "exit"
+    },
+    {
+      "t": 21.767,
+      "event": "session-end"
+    }
+  ],
+  "editor": "vim (Git for Windows usr/bin) in the same conhost window",
+  "file_checks": {
+    "01-war-vbproj.png": {
+      "file": "War.vbproj",
+      "visible_text_matches_file": true,
+      "nodes_present": [
+        {
+          "text": "<OptionExplicit>On</OptionExplicit>",
+          "line": 7,
+          "window_row": 6,
+          "first_col": 8,
+          "last_col": 42
+        },
+        {
+          "text": "<OptionStrict>On</OptionStrict>",
+          "line": 8,
+          "window_row": 7,
+          "first_col": 8,
+          "last_col": 38
+        }
+      ],
+      "geometry": {
+        "cell_px": [
+          13,
+          28
+        ],
+        "client_origin_in_png": [
+          1,
+          31
+        ],
+        "size": [
+          1319,
+          592
+        ]
+      }
+    },
+    "02-program-vb-directives.png": {
+      "file": "Program.vb",
+      "visible_text_matches_file": true,
+      "nodes_present": [
+        {
+          "text": "Option Explicit On",
+          "line": 7,
+          "window_row": 6,
+          "first_col": 4,
+          "last_col": 21
+        },
+        {
+          "text": "Option Strict On",
+          "line": 8,
+          "window_row": 7,
+          "first_col": 4,
+          "last_col": 19
+        }
+      ],
+      "geometry": {
+        "cell_px": [
+          13,
+          28
+        ],
+        "client_origin_in_png": [
+          1,
+          31
+        ],
+        "size": [
+          1319,
+          592
+        ]
+      }
+    }
+  },
+  "project_file_sha256": "cbb8e8dc6f5b4eaf750fbf4fc17e5f76a4f5913bd6ce63a8e3ea8dde14606632"
+}

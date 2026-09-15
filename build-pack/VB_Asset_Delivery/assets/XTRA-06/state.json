@@ -1,13 +1,14 @@
 {
   "id": "XTRA-06",
-  "production_status": "blocked",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
+  "assigned_agent": "Claude Code (Opus 5)",
+  "updated_at": "2026-09-15T15:19:59+00:00",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "No dotnet executable found in the active environment. No real .NET harness, run capture, or editor capture was made. The original program remains unchanged. No installs were performed."
+    "Real local capture delivered; see delivery.json and qa.md.",
+    "Release stays blocked until a producer records each gate decision."
   ],
-  "owner": "ChatGPT — capability preflight"
+  "owner": "Claude Code — local capture"
 }

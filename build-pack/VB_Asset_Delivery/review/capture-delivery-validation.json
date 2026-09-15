@@ -1,0 +1,138 @@
+{
+  "validated": [
+    "OPS-02",
+    "TERM-01",
+    "TERM-02",
+    "TERM-05",
+    "TERM-06",
+    "TERM-04",
+    "TERM-03",
+    "XTRA-06"
+  ],
+  "delivery": {
+    "OPS-02": {
+      "exit_code": 0,
+      "output": {
+        "id": "OPS-02",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "TERM-01": {
+      "exit_code": 0,
+      "output": {
+        "id": "TERM-01",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "TERM-02": {
+      "exit_code": 0,
+      "output": {
+        "id": "TERM-02",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "TERM-05": {
+      "exit_code": 0,
+      "output": {
+        "id": "TERM-05",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "TERM-06": {
+      "exit_code": 0,
+      "output": {
+        "id": "TERM-06",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "TERM-04": {
+      "exit_code": 0,
+      "output": {
+        "id": "TERM-04",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "TERM-03": {
+      "exit_code": 0,
+      "output": {
+        "id": "TERM-03",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    },
+    "XTRA-06": {
+      "exit_code": 0,
+      "output": {
+        "id": "XTRA-06",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      },
+      "privacy": "passed"
+    }
+  },
+  "validate_pack": {
+    "exit_code": 0,
+    "output": "{\n  \"ok\": true,\n  \"checks\": [\n    \"source hashes/bytes\",\n    \"ticket IDs/sections/output contracts\",\n    \"source ranges and literal code payloads\",\n    \"dependencies and acyclicity\",\n    \"all 50 original families\",\n    \"all inline script visual cues\",\n    \"16 chapter cards\",\n    \"7 human handoffs\",\n    \"illustrative fixture integrity\"\n  ],\n  \"asset_tickets\": 130,\n  \"coordination_tickets\": 4,\n  \"visual_cues\": 74,\n  \"errors\": [],\n  \"limitations\": \"Planning structure only. No media, runtime execution, historical facts, or licenses verified.\"\n}"
+  }
+}

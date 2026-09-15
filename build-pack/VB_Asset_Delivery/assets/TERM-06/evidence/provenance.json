@@ -1,0 +1,52 @@
+{
+  "id": "TERM-06",
+  "classification": "actual runtime capture",
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        73,
+        73
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        569,
+        573
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        7,
+        8
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "executed source (byte-identical copy in source/Program.vb)"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        28,
+        29
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "executed source (byte-identical copy in source/Program.vb)"
+    }
+  ],
+  "authored_additions": [
+    "Window title 'PowerShell' and a short 'PS <folder>>' prompt set by the logged startup script.",
+    "`Clear-Host` typed between build and run so the run starts at the top of the buffer.",
+    "Framed exports place raw captures at 1:1 on a #111318 1920×1080 canvas."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": [],
+  "prior_blocker_resolved": "The pack's 2026-09-15 capability blocker (no dotnet executable) does not apply on this machine; the .NET SDK is installed and was used directly."
+}

@@ -1,0 +1,6 @@
+# TERM-03 command log — typed into a real conhost/pwsh window
+# working directory: build-pack/VB_Asset_Delivery/assets/TERM-03/work/War
+# dotnet SDK: 10.0.303; OS: Windows-11-10.0.26200-SP0
+# columns: start (UTC, PowerShell history) | seconds | $? | $LASTEXITCODE at next prompt (only meaningful after a native command) | command
+# pre-session: copied frozen harness War.vbproj and Program.vb into build-pack/VB_Asset_Delivery/assets/TERM-03/work/War; hashes verified
+2026-09-15T15:09:18.5970321Z |   11.627s | ok=True | exit=0 | vim -u NONE -i NONE -N -n -R -c "syntax on" -c "set number" Program.vb

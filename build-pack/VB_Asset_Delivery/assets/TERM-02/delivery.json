@@ -1,0 +1,392 @@
+{
+  "id": "TERM-02",
+  "title": "Primary complete War simulation",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "actual runtime capture",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/capture.json",
+      "role": "evidence / QA",
+      "bytes": 9539,
+      "sha256": "f7d5925a64fa3b3b39ff2dd75428d506e3efa5edb199783f9e9d3e3c4f6b9e13"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 979,
+      "sha256": "78c0ca839ff5f83c21d84e27ac1daee238ac2bae38da43337a77ec05bd46f2c9"
+    },
+    {
+      "path": "evidence/commands.log",
+      "role": "evidence / QA",
+      "bytes": 758,
+      "sha256": "7acb65cac3ba6f0e7b2a5ff6f642178c6b180f72d4fa3b952750a913f5fe2dc0"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1146,
+      "sha256": "2727e4e99ca6ead16d0aa1d1cff9946ecee1ca648d9ccb4d8e5ba63f6c1929cd"
+    },
+    {
+      "path": "evidence/prompt-log.jsonl",
+      "role": "evidence / QA",
+      "bytes": 2020,
+      "sha256": "64710dc3ac86ac41479ddbec62ccdec2d8884bfe06a158855644bdd00742c5f6"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2247,
+      "sha256": "9d0f6188b5e6335d11f413422c7e5b0fb7a70ab41939574c35c2374e13b2329e"
+    },
+    {
+      "path": "evidence/run-stats.json",
+      "role": "evidence / QA",
+      "bytes": 447,
+      "sha256": "f6ced4cbe4b00996d637ef780df73f817d17bb5929bf5876e311365f400cb260"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2715,
+      "sha256": "ddbc838dba8f296f291f3efb1acb928c8e472bee60c9f34785a21d661ab90bf9"
+    },
+    {
+      "path": "evidence/viewport-text.json",
+      "role": "evidence / QA",
+      "bytes": 5948,
+      "sha256": "9dec0809112e89ecab5ad1fd38eca083f9929a7e2949939d36ec77c478c691fd"
+    },
+    {
+      "path": "exports/framed-first-war.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 105938,
+      "sha256": "019c1e6b0da7ba8d438b4799cea57a0b3db0f9046432458eb5d5d53e31d2f55d"
+    },
+    {
+      "path": "exports/framed-start.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 94660,
+      "sha256": "5675de726663e2c6f660f675631d97f0d5c1c01fb0847f8847577be18c3117ca"
+    },
+    {
+      "path": "exports/framed.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 93208,
+      "sha256": "93fd4a6830d98ccb75f01322d07e287a9549dc516991c136757361e99dcb8a18"
+    },
+    {
+      "path": "proofs/framed-720.png",
+      "role": "720p review proof",
+      "bytes": 266353,
+      "sha256": "a89c3241864d22da1acc20fe094e4e702f59993b5277a16c03b5d63aee4f5cf4"
+    },
+    {
+      "path": "proofs/framed-first-war-720.png",
+      "role": "720p review proof",
+      "bytes": 304008,
+      "sha256": "9da5c0c6033a515314a5e36ba4349d4e941916585a0be3842dca102644162266"
+    },
+    {
+      "path": "proofs/framed-start-720.png",
+      "role": "720p review proof",
+      "bytes": 265321,
+      "sha256": "afb199908aec6e8d167b45d1d25ff4e0a6f12663e3e48bbf3e6c374ee8cdccc8"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3383,
+      "sha256": "fe844ae6964ba8fb5ac5f8ed15e090ab4fa9605267bdca594b8c2ad3e1ed6293"
+    },
+    {
+      "path": "source/Program.vb",
+      "role": "exact executed/displayed source copy (byte-identical)",
+      "bytes": 9234,
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7"
+    },
+    {
+      "path": "source/raw/01-build.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 21036,
+      "sha256": "7b1158ad7f36ea733d29747128df753f1bd639f179c9ff67f795ca8aac28233d"
+    },
+    {
+      "path": "source/raw/02-start.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 86858,
+      "sha256": "e16abe0a25f04554a6101ab9db0048e5adf6bcb11390745326e4dea0e7a648aa"
+    },
+    {
+      "path": "source/raw/03-first-war.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 97208,
+      "sha256": "edb8f9001aac852f8915e00dac0ce0ef37f9e32d88fcae12aeef98b60c1affbf"
+    },
+    {
+      "path": "source/raw/04-end.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 85346,
+      "sha256": "9667e9e7143842ecd9329e4bda5fef2dbf15d0399d879a1d585a91165d655145"
+    },
+    {
+      "path": "source/stderr.txt",
+      "role": "capture transcript / program output",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/stdout.txt",
+      "role": "capture transcript / program output",
+      "bytes": 239788,
+      "sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6"
+    }
+  ],
+  "variants": [
+    {
+      "name": "raw",
+      "files": [
+        "source/raw/01-build.png",
+        "source/raw/02-start.png",
+        "source/raw/03-first-war.png",
+        "source/raw/04-end.png"
+      ],
+      "notes": "Unedited window captures of one live run."
+    },
+    {
+      "name": "framed",
+      "files": [
+        "exports/framed.png",
+        "exports/framed-start.png",
+        "exports/framed-first-war.png"
+      ],
+      "mapping": [
+        {
+          "file": "exports/framed.png",
+          "derived_from": "source/raw/04-end.png"
+        },
+        {
+          "file": "exports/framed-start.png",
+          "derived_from": "source/raw/02-start.png"
+        },
+        {
+          "file": "exports/framed-first-war.png",
+          "derived_from": "source/raw/03-first-war.png"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        73,
+        73
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        519,
+        541
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        559,
+        566
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        717,
+        736
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        7,
+        8
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "executed source (byte-identical copy in source/Program.vb)"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        28,
+        29
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "executed source (byte-identical copy in source/Program.vb)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "actual local capture",
+      "credit": "Screens captured from this production's own machine; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "source hash",
+      "result": "passed",
+      "detail": "source/Program.vb sha256 8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7 equals sources/Program.vb"
+    },
+    {
+      "test": "native command exit codes (PowerShell history + $LASTEXITCODE at the next prompt)",
+      "result": "passed",
+      "failed": [],
+      "commands": [
+        {
+          "command": "dotnet build",
+          "exit_code": 0,
+          "seconds": 1.82
+        },
+        {
+          "command": "Clear-Host",
+          "exit_code": 0,
+          "seconds": 0.081
+        },
+        {
+          "command": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt",
+          "exit_code": 0,
+          "seconds": 1.29
+        }
+      ]
+    },
+    {
+      "test": "terminal display equals saved stdout",
+      "result": "passed",
+      "detail": {
+        "stdout_lines": 4165,
+        "first_buffer_row_of_stdout": 1,
+        "lines_lost_to_scrollback_limit": 0,
+        "lines_compared": 4165,
+        "mismatched_line_indexes": [],
+        "all_compared_lines_match": true
+      }
+    },
+    {
+      "test": "stdout/stderr retained",
+      "result": "passed",
+      "detail": "stdout 4165 lines (sha256 eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6); stderr 0 bytes"
+    },
+    {
+      "test": "summary totals consistent",
+      "result": "passed",
+      "detail": "PLAYER 2 WINS THE WAR! / rounds 2008 / wars 69; ** WAR! ** lines counted in stdout: 69"
+    },
+    {
+      "test": "PNG dimensions (raw native, exports 1920×1080, proofs 1280×720)",
+      "result": "passed",
+      "raw": {
+        "source/raw/01-build.png": [
+          1319,
+          872
+        ],
+        "source/raw/02-start.png": [
+          1319,
+          872
+        ],
+        "source/raw/03-first-war.png": [
+          1319,
+          872
+        ],
+        "source/raw/04-end.png": [
+          1319,
+          872
+        ]
+      },
+      "exports": {
+        "exports/framed-first-war.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-start.png": [
+          1920,
+          1080
+        ],
+        "exports/framed.png": [
+          1920,
+          1080
+        ]
+      },
+      "proofs": {
+        "proofs/framed-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-first-war-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-start-720.png": [
+          1280,
+          720
+        ]
+      },
+      "bad": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed source/raw/01-build.png (1319×872) and exports/framed-start.png, framed-first-war.png, framed.png (1920×1080, raw at 1:1). The typed command, banner, 26/26 deal, the Round 10 war with its 10-card award, and the final block (Round 2008 war, 'Player 1 has no cards left for the war - Player 2 takes the pot.', PLAYER 2 WINS THE WAR!, 2008 rounds, 69 wars) are sharp, unclipped and inside the safe area. No other windows, notifications, or personal data.",
+      "proof_720": "Viewed proofs/framed-start-720.png, framed-first-war-720.png, framed-720.png (1280×720): every line, including the summary totals, remains readable."
+    },
+    {
+      "test": "privacy scan of text outputs",
+      "result": "passed",
+      "detail": "Searched every text output for the local account name and home-directory path (the values themselves are not written here).",
+      "hits": []
+    }
+  ],
+  "unresolved_gates": [
+    "R06",
+    "R08"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "dotnet_sdk": "10.0.303",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "terminal": "Windows Console Host (conhost.exe) launched directly, not Windows Terminal",
+    "conhost_file_version": "10.0.26100.9444",
+    "shell": "PowerShell 7.6.6",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0",
+      "pywin32": "312"
+    },
+    "capture_api": "user32.PrintWindow(PW_RENDERFULLCONTENT) of the console window, cropped to DWM extended frame bounds",
+    "input_api": "kernel32 WriteConsoleInput key events into the attached console (no focus or global keystrokes)",
+    "transcript_api": "kernel32 ReadConsoleOutputCharacter over the console screen buffer",
+    "network_used": "only whatever dotnet itself performed; no downloads were requested",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Actual result of this run: PLAYER 2 WINS THE WAR! after 2008 rounds with 69 wars.",
+    "ShuffleDeck uses New Random() without a seed, so a rerun is a different game; do not relabel another run as this one.",
+    "This run ends through the insufficient-cards-during-war branch ('Player 1 has no cards left for the war - Player 2 takes the pot.'). That is the behaviour editorial register R05 asks the producer to decide how to narrate; it is shown as captured."
+  ]
+}

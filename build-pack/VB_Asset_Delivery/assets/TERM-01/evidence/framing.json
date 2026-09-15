@@ -1,0 +1,28 @@
+{
+  "id": "TERM-01",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#111318",
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "rule": "Raw capture pasted at 1:1 (downscaled only if larger than the safe area); outlines exist only on files whose name says highlight/focus/directives; settings-focus is an integer nearest-neighbour enlargement of a crop.",
+  "exports": [
+    {
+      "file": "framed.png",
+      "from": "03-scaffold-files.png",
+      "offset": [
+        300,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false
+    }
+  ]
+}

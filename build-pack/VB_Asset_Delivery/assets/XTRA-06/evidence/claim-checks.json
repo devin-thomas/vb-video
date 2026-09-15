@@ -1,0 +1,17 @@
+{
+  "gates": [
+    {
+      "id": "R17",
+      "status": "blocked",
+      "evidence": [
+        "source/War.vbproj",
+        "evidence/project-diff.txt",
+        "evidence/highlight-targets.json"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "The pictured War.vbproj is the OPS-02 derived harness file: the SDK 10.0.303 scaffold plus two added nodes (evidence/project-diff.txt). It is not an uploaded original or a scaffold default. Awaiting producer decision."
+    }
+  ]
+}

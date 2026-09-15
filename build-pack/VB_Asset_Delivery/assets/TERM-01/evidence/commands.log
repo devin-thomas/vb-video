@@ -1,0 +1,9 @@
+# TERM-01 command log — typed into a real conhost/pwsh window
+# working directory: build-pack/VB_Asset_Delivery/assets/TERM-01/work/War
+# dotnet SDK: 10.0.303; OS: Windows-11-10.0.26200-SP0
+# columns: start (UTC, PowerShell history) | seconds | $? | $LASTEXITCODE at next prompt (only meaningful after a native command) | command
+# pre-session: created empty directory build-pack/VB_Asset_Delivery/assets/TERM-01/work/War
+2026-09-15T15:00:11.7692898Z |    0.124s | ok=True | exit=0 | dotnet --version
+2026-09-15T15:00:13.9233156Z |    0.014s | ok=True | exit=0 | Get-ChildItem
+2026-09-15T15:00:15.4978400Z |    1.118s | ok=True | exit=0 | dotnet new console -lang VB
+2026-09-15T15:00:18.4002593Z |    0.033s | ok=True | exit=0 | Get-ChildItem

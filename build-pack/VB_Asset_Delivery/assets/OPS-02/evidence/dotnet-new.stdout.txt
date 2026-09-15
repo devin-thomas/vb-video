@@ -1,0 +1,9 @@
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring C:\dev\experiments\vb\build-pack\VB_Asset_Delivery\work\war-harness\War\War.vbproj:
+  Determining projects to restore...
+  Restored C:\dev\experiments\vb\build-pack\VB_Asset_Delivery\work\war-harness\War\War.vbproj (in 61 ms).
+Restore succeeded.
+
+

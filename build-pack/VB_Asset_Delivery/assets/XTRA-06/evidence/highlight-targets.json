@@ -1,0 +1,70 @@
+{
+  "01-war-vbproj.png": {
+    "file": "War.vbproj",
+    "visible_text_matches_file": true,
+    "nodes_present": [
+      {
+        "text": "<OptionExplicit>On</OptionExplicit>",
+        "line": 7,
+        "window_row": 6,
+        "first_col": 8,
+        "last_col": 42
+      },
+      {
+        "text": "<OptionStrict>On</OptionStrict>",
+        "line": 8,
+        "window_row": 7,
+        "first_col": 8,
+        "last_col": 38
+      }
+    ],
+    "geometry": {
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "size": [
+        1319,
+        592
+      ]
+    }
+  },
+  "02-program-vb-directives.png": {
+    "file": "Program.vb",
+    "visible_text_matches_file": true,
+    "nodes_present": [
+      {
+        "text": "Option Explicit On",
+        "line": 7,
+        "window_row": 6,
+        "first_col": 4,
+        "last_col": 21
+      },
+      {
+        "text": "Option Strict On",
+        "line": 8,
+        "window_row": 7,
+        "first_col": 4,
+        "last_col": 19
+      }
+    ],
+    "geometry": {
+      "cell_px": [
+        13,
+        28
+      ],
+      "client_origin_in_png": [
+        1,
+        31
+      ],
+      "size": [
+        1319,
+        592
+      ]
+    }
+  }
+}

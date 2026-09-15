@@ -1,0 +1,76 @@
+[
+  {
+    "utc": "2026-09-15T14:51:17+00:00",
+    "cwd": ".",
+    "argv": [
+      "dotnet",
+      "--info"
+    ],
+    "exit_code": 0,
+    "seconds": 0.314,
+    "stdout_bytes": 4328,
+    "stderr_bytes": 0,
+    "stdout_file": "evidence/dotnet-info.stdout.txt",
+    "stderr_file": "evidence/dotnet-info.stderr.txt"
+  },
+  {
+    "utc": "2026-09-15T14:51:18+00:00",
+    "cwd": ".",
+    "argv": [
+      "dotnet",
+      "--version"
+    ],
+    "exit_code": 0,
+    "seconds": 0.107,
+    "stdout_bytes": 10,
+    "stderr_bytes": 0,
+    "stdout": "10.0.303\r\n",
+    "stderr": ""
+  },
+  {
+    "utc": "2026-09-15T14:51:18+00:00",
+    "cwd": "work/war-harness/War",
+    "argv": [
+      "dotnet",
+      "new",
+      "console",
+      "-lang",
+      "VB"
+    ],
+    "exit_code": 0,
+    "seconds": 1.169,
+    "stdout_bytes": 357,
+    "stderr_bytes": 0,
+    "stdout_file": "evidence/dotnet-new.stdout.txt",
+    "stderr_file": "evidence/dotnet-new.stderr.txt"
+  },
+  {
+    "utc": "2026-09-15T14:51:19+00:00",
+    "cwd": "work/war-harness/War",
+    "argv": [
+      "dotnet",
+      "build"
+    ],
+    "exit_code": 0,
+    "seconds": 1.779,
+    "stdout_bytes": 272,
+    "stderr_bytes": 0,
+    "stdout_file": "evidence/dotnet-build.stdout.txt",
+    "stderr_file": "evidence/dotnet-build.stderr.txt"
+  },
+  {
+    "utc": "2026-09-15T14:51:21+00:00",
+    "cwd": "work/war-harness/War",
+    "argv": [
+      "dotnet",
+      "run",
+      "--no-build"
+    ],
+    "exit_code": 0,
+    "seconds": 0.814,
+    "stdout_bytes": 119961,
+    "stderr_bytes": 0,
+    "stdout_file": "evidence/harness-run.stdout.txt",
+    "stderr_file": "evidence/harness-run.stderr.txt"
+  }
+]

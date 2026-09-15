@@ -1,0 +1,70 @@
+{
+  "id": "XTRA-06",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#111318",
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "rule": "Raw capture pasted at 1:1 (downscaled only if larger than the safe area); outlines exist only on files whose name says highlight/focus/directives; settings-focus is an integer nearest-neighbour enlargement of a crop.",
+  "exports": [
+    {
+      "file": "framed.png",
+      "from": "01-war-vbproj.png",
+      "offset": [
+        300,
+        244
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false
+    },
+    {
+      "file": "settings-focus.png",
+      "from": "01-war-vbproj.png",
+      "crop_raw_px": [
+        1,
+        31,
+        677,
+        349
+      ],
+      "integer_scale": 2,
+      "offset": [
+        284,
+        222
+      ],
+      "highlight_boxes_canvas_px": [
+        [
+          484,
+          552,
+          1410,
+          676
+        ]
+      ],
+      "resample": "nearest"
+    },
+    {
+      "file": "framed-directives.png",
+      "from": "02-program-vb-directives.png",
+      "offset": [
+        300,
+        244
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [
+        [
+          347,
+          441,
+          593,
+          501
+        ]
+      ],
+      "pixels_inside_capture_modified": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "gates": [
+    {
+      "id": "R17",
+      "status": "blocked",
+      "evidence": [
+        "exports/harness-manifest.json",
+        "exports/report.md"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Derived isolated project generated with the installed SDK; every property change is in work/war-harness/project-diff.txt. Awaiting producer decision."
+    }
+  ]
+}

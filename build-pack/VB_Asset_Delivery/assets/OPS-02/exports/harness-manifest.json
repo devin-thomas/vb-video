@@ -1,0 +1,43 @@
+{
+  "id": "OPS-02",
+  "created_utc": "2026-09-15T14:51:22+00:00",
+  "sdk_version": "10.0.303",
+  "os": "Windows-11-10.0.26200-SP0",
+  "target_framework": "<TargetFramework>net10.0</TargetFramework>",
+  "source_program_sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+  "project_program_matches_source": true,
+  "derived_changes": [
+    "Added <OptionExplicit>On</OptionExplicit> after <TargetFramework> in War/War.vbproj",
+    "Added <OptionStrict>On</OptionStrict> after <TargetFramework> in War/War.vbproj"
+  ],
+  "build_exit_code": 0,
+  "run_exit_code": 0,
+  "files": [
+    {
+      "path": "War/War.vbproj",
+      "bytes": 293,
+      "sha256": "cbb8e8dc6f5b4eaf750fbf4fc17e5f76a4f5913bd6ce63a8e3ea8dde14606632"
+    },
+    {
+      "path": "War/Program.vb",
+      "bytes": 9234,
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7"
+    },
+    {
+      "path": "scaffold/War.vbproj",
+      "bytes": 215,
+      "sha256": "66562e68b6ccc6d4f9beea4c0f33adda422263c37bca683fa58a9bb21577f1d3"
+    },
+    {
+      "path": "scaffold/Program.vb",
+      "bytes": 134,
+      "sha256": "af0ac08deb6915e3abb43b4e06be414bb71594dfff476a10025927d7487fb70e"
+    },
+    {
+      "path": "project-diff.txt",
+      "bytes": 341,
+      "sha256": "b27c63f5cd6ecf796528281a8b444e2ea406bd6e1a9b4780a9e4f2d45185d1fe"
+    }
+  ],
+  "copy_rule": "Copy War/War.vbproj and War/Program.vb into assets/<ID>/work/War/, verify both hashes, never copy bin/ or obj/, and build inside the copy."
+}

@@ -1,0 +1,29 @@
+{
+  "gates": [
+    {
+      "id": "R05",
+      "status": "blocked",
+      "evidence": [
+        "source/stdout.txt",
+        "evidence/search-log.json",
+        "source/raw/04-end.png"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "The highlighted round has two ties, full 3-card burns from both players, and an 18-card award, so it does not depend on the insufficient-card ordering R05 describes. The same run's ending (framed-end.png) does go through that branch: 'Player 2 has no cards left for the war - Player 1 takes the pot.'. It is shown as captured; how to narrate it is the producer's decision. Awaiting producer decision."
+    },
+    {
+      "id": "R08",
+      "status": "blocked",
+      "evidence": [
+        "source/stdout.txt",
+        "evidence/search-log.json"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "The double war is from a real run (attempt 1 of a bounded search). The script's example double-war text is not reproduced as evidence. Awaiting producer decision."
+    }
+  ]
+}

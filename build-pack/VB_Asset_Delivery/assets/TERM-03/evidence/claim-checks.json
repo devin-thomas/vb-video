@@ -1,0 +1,16 @@
+{
+  "gates": [
+    {
+      "id": "R03",
+      "status": "blocked",
+      "evidence": [
+        "evidence/viewports.json",
+        "source/Program.vb"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "The capture shows the VB.NET Program.vb (its own header calls it classic-inspired) in vim on Windows 11. No VB4 IDE, VB4 compile, or VB4 run is shown or implied. Awaiting producer decision."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "TERM-02": {
+    "asset": "TERM-02",
+    "result": "PLAYER 2 WINS THE WAR!",
+    "rounds": 2008,
+    "wars": 69,
+    "longest_chain": 2,
+    "hit_round_cap": false,
+    "stdout_sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6"
+  },
+  "TERM-05": {
+    "asset": "TERM-05",
+    "result": "PLAYER 2 WINS THE WAR!",
+    "rounds": 1056,
+    "wars": 10,
+    "longest_chain": 1,
+    "hit_round_cap": false,
+    "stdout_sha256": "a94ee70d34f82f9aafa6f7732dc994fa27c6db5260c0d7162c9dc99932f88603"
+  },
+  "independent_output": true,
+  "different_winner": false,
+  "different_stats": true
+}

@@ -1,0 +1,415 @@
+{
+  "id": "TERM-04",
+  "title": "War-heavy run with chained-war highlight",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "actual runtime capture",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/capture.json",
+      "role": "evidence / QA",
+      "bytes": 9835,
+      "sha256": "9b18c8de079f8cde2cab7224b6d7d7af68f0cef1fdf6ea7dee1684725fd00b6b"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 1140,
+      "sha256": "f9b72e95d20155e85997b9dadad6a9e22dbfa78238972ef1b66da13da0f0365f"
+    },
+    {
+      "path": "evidence/commands.log",
+      "role": "evidence / QA",
+      "bytes": 764,
+      "sha256": "2706a5c93238108725c5a0fbdf4cb6ea6b93e8082e751062d298eb46ae9f440b"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1489,
+      "sha256": "11a1425a78e132814d45c9aaf0bcfe338eddd5521200d998b3c7216928feaa3d"
+    },
+    {
+      "path": "evidence/prompt-log.jsonl",
+      "role": "evidence / QA",
+      "bytes": 2029,
+      "sha256": "49c859f8290e891588007636a8b83191175761d9f694da4c75afdf9577840480"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1943,
+      "sha256": "52a85cb3a1a88ddeab041f07c7725a57033cd02c2a0e289e6ea553a34579627b"
+    },
+    {
+      "path": "evidence/search-log.json",
+      "role": "evidence / QA",
+      "bytes": 1356,
+      "sha256": "0a122c86644269837d33469158eb46ad89c130582d1bd1c795f720c84a55a00d"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1465,
+      "sha256": "487b35c6e937e64944b79082eb67805d752892c4ce7442096619369ecca069ce"
+    },
+    {
+      "path": "evidence/viewport-text.json",
+      "role": "evidence / QA",
+      "bytes": 5998,
+      "sha256": "c16098ca837694d311e9980866821a94c6df87a08297a706e1c08afff2c689f9"
+    },
+    {
+      "path": "exports/framed-end.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 93558,
+      "sha256": "4a453bced2a7127a6328c42472120f62ed9ebf02d77680fedf2336ff3d0561b6"
+    },
+    {
+      "path": "exports/framed-highlight.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 107075,
+      "sha256": "82cf5d7c0ebdc44ece2c3ef7506f488cf34aad7ea5e2c624197bffbabb73ba73"
+    },
+    {
+      "path": "exports/framed-start.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 95556,
+      "sha256": "9cd5339a9328c9c2e40fe6aae9901fccbc985214e52aae326382c0eb2e786712"
+    },
+    {
+      "path": "exports/framed.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 106918,
+      "sha256": "c31de903f987c884f36e4b8c1a9180f358ac0ce1713399bcfd28921e1277a132"
+    },
+    {
+      "path": "proofs/framed-720.png",
+      "role": "720p review proof",
+      "bytes": 308149,
+      "sha256": "f9d910e7be434ce15c0c26b23f8052c4daa0f84a79a29e13cc025488925e447e"
+    },
+    {
+      "path": "proofs/framed-end-720.png",
+      "role": "720p review proof",
+      "bytes": 264356,
+      "sha256": "a5fe2f2e044d44486db22de0e7fcdf71aebf9b0cde0ce74680dd43e259e201bd"
+    },
+    {
+      "path": "proofs/framed-highlight-720.png",
+      "role": "720p review proof",
+      "bytes": 309076,
+      "sha256": "b04494303c4cb387003060f96cd746eec991778f0d516cba635b8049c28e4795"
+    },
+    {
+      "path": "proofs/framed-start-720.png",
+      "role": "720p review proof",
+      "bytes": 270484,
+      "sha256": "84a7d5e167743e76a76340b42e48e933f43d8125def9b3871da3f7e51a10ce39"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3743,
+      "sha256": "3fe2eb96cd74cff45affcf7aee5505dc4820195e7aade9db5cf97ece44be2d3f"
+    },
+    {
+      "path": "source/Program.vb",
+      "role": "exact executed/displayed source copy (byte-identical)",
+      "bytes": 9234,
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7"
+    },
+    {
+      "path": "source/raw/01-build.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 20775,
+      "sha256": "159acec106f4aff1d2ea2aeda0cabf3add93d005bf04d1a4e01dfa41e1ee79c8"
+    },
+    {
+      "path": "source/raw/02-double-war.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 98276,
+      "sha256": "1151008b318c08e493ed2e719341be6d4f5117458841389ef4a13b0056d76d4f"
+    },
+    {
+      "path": "source/raw/03-start.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 87557,
+      "sha256": "fa3300bacaaa6195182db04abf92998086562a2caea0f44d4df2beaf530fd261"
+    },
+    {
+      "path": "source/raw/04-end.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 85761,
+      "sha256": "403320c7ea7e0f5b7165a25258db90eb9df0f6ae592451dab96d439d2f828748"
+    },
+    {
+      "path": "source/stderr.txt",
+      "role": "capture transcript / program output",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/stdout.txt",
+      "role": "capture transcript / program output",
+      "bytes": 74137,
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0"
+    }
+  ],
+  "variants": [
+    {
+      "name": "raw",
+      "files": [
+        "source/raw/01-build.png",
+        "source/raw/02-double-war.png",
+        "source/raw/03-start.png",
+        "source/raw/04-end.png"
+      ],
+      "notes": "Unedited window captures of the selected live run."
+    },
+    {
+      "name": "framed",
+      "files": [
+        "exports/framed.png",
+        "exports/framed-highlight.png",
+        "exports/framed-start.png",
+        "exports/framed-end.png"
+      ],
+      "mapping": {
+        "framed.png": "02-double-war clean",
+        "framed-highlight.png": "02-double-war with outline on stdout lines 513–518",
+        "framed-start.png": "03-start",
+        "framed-end.png": "04-end"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        75,
+        75
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        39,
+        39
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        544,
+        557
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        7,
+        8
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "executed source (byte-identical copy in source/Program.vb)"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        28,
+        29
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "executed source (byte-identical copy in source/Program.vb)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "actual local capture",
+      "credit": "Screens captured from this production's own machine; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "source hash",
+      "result": "passed",
+      "detail": "source/Program.vb sha256 8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7 equals sources/Program.vb"
+    },
+    {
+      "test": "native command exit codes (PowerShell history + $LASTEXITCODE at the next prompt)",
+      "result": "passed",
+      "failed": [],
+      "commands": [
+        {
+          "command": "dotnet build",
+          "exit_code": 0,
+          "seconds": 1.305
+        },
+        {
+          "command": "Clear-Host",
+          "exit_code": 0,
+          "seconds": 0.076
+        },
+        {
+          "command": "dotnet run --no-build 2> stderr-01.txt | Tee-Object -FilePath stdout-01.txt",
+          "exit_code": 0,
+          "seconds": 0.931
+        }
+      ]
+    },
+    {
+      "test": "double-war criteria in saved stdout",
+      "result": "passed",
+      "detail": {
+        "round": 245,
+        "stdout_lines": [
+          513,
+          518
+        ],
+        "text": [
+          "Round 245: Player 1 plays Ace of Hearts, Player 2 plays Ace of Spades.",
+          "        ** WAR! ** (war number 1 this round)",
+          "        War card - Player 1 plays Queen of Diamonds, Player 2 plays Queen of Spades.",
+          "        ** WAR! ** (war number 2 this round)",
+          "        War card - Player 1 plays Ace of Diamonds, Player 2 plays 2 of Clubs.",
+          "        Player 1 wins the round (18 cards)."
+        ]
+      }
+    },
+    {
+      "test": "terminal display equals saved stdout",
+      "result": "passed",
+      "detail": {
+        "stdout_lines": 1297,
+        "first_buffer_row_of_stdout": 1,
+        "lines_lost_to_scrollback_limit": 0,
+        "lines_compared": 1297,
+        "mismatched_line_indexes": [],
+        "all_compared_lines_match": true
+      }
+    },
+    {
+      "test": "search bound respected",
+      "result": "passed",
+      "detail": {
+        "attempts_run": 1,
+        "retained_log_bytes": 74137,
+        "selection_rule": "First run containing a round with exactly two ** WAR! ** lines and an '(18 cards)' award; within it, the first such round.",
+        "selected_attempt": 1
+      }
+    },
+    {
+      "test": "PNG dimensions (raw native, exports 1920×1080, proofs 1280×720)",
+      "result": "passed",
+      "raw": {
+        "source/raw/01-build.png": [
+          1319,
+          872
+        ],
+        "source/raw/02-double-war.png": [
+          1319,
+          872
+        ],
+        "source/raw/03-start.png": [
+          1319,
+          872
+        ],
+        "source/raw/04-end.png": [
+          1319,
+          872
+        ]
+      },
+      "exports": {
+        "exports/framed-end.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-highlight.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-start.png": [
+          1920,
+          1080
+        ],
+        "exports/framed.png": [
+          1920,
+          1080
+        ]
+      },
+      "proofs": {
+        "proofs/framed-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-end-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-highlight-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-start-720.png": [
+          1280,
+          720
+        ]
+      },
+      "bad": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed source/raw/01-build.png (1319×872) and exports/framed.png, framed-highlight.png, framed-start.png, framed-end.png (1920×1080). Round 245's six lines (Ace/Ace war, Queen/Queen second war, Ace of Diamonds beats 2 of Clubs, 18 cards) are legible, and after a padding fix the amber outline encloses exactly those lines without touching Round 244 or 246. Start shows the typed stdout-01 command, banner and deal; end shows Round 617 where Player 2 runs out mid-war, PLAYER 1 WINS THE WAR!, 617 rounds, 26 wars. No other windows, notifications, or personal data.",
+      "proof_720": "Viewed proofs/framed-highlight-720.png after the re-render, and framed-720.png, framed-start-720.png, framed-end-720.png before it (the re-render changed only the outline padding; unoutlined frames are regenerated identically from the same raw captures). All lines and the outline remain clear."
+    },
+    {
+      "test": "privacy scan of text outputs",
+      "result": "passed",
+      "detail": "Searched every text output for the local account name and home-directory path (the values themselves are not written here).",
+      "hits": []
+    }
+  ],
+  "unresolved_gates": [
+    "R05",
+    "R08"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "dotnet_sdk": "10.0.303",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "terminal": "Windows Console Host (conhost.exe) launched directly, not Windows Terminal",
+    "conhost_file_version": "10.0.26100.9444",
+    "shell": "PowerShell 7.6.6",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0",
+      "pywin32": "312"
+    },
+    "capture_api": "user32.PrintWindow(PW_RENDERFULLCONTENT) of the console window, cropped to DWM extended frame bounds",
+    "input_api": "kernel32 WriteConsoleInput key events into the attached console (no focus or global keystrokes)",
+    "transcript_api": "kernel32 ReadConsoleOutputCharacter over the console screen buffer",
+    "network_used": "only whatever dotnet itself performed; no downloads were requested",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Selected run: attempt 1; highlighted round 245 (stdout lines 513–518).",
+    "That run's actual result: PLAYER 1 WINS THE WAR! after 617 rounds with 26 wars.",
+    "Non-selected attempts, if any, are summarized with hashes in evidence/search-log.json."
+  ]
+}

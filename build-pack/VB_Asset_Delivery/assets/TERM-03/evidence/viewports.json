@@ -1,0 +1,121 @@
+{
+  "id": "TERM-03",
+  "source": "source/Program.vb",
+  "source_sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+  "source_lines": 285,
+  "editor_command": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb",
+  "text_rows_per_viewport": 29,
+  "viewports": [
+    {
+      "index": 1,
+      "file": "source/raw/viewport-01-lines-001-029.png",
+      "first_line": 1,
+      "last_line": 29,
+      "overlap_with_previous": 0,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 2,
+      "file": "source/raw/viewport-02-lines-026-054.png",
+      "first_line": 26,
+      "last_line": 54,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 3,
+      "file": "source/raw/viewport-03-lines-051-079.png",
+      "first_line": 51,
+      "last_line": 79,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 4,
+      "file": "source/raw/viewport-04-lines-076-104.png",
+      "first_line": 76,
+      "last_line": 104,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 5,
+      "file": "source/raw/viewport-05-lines-101-129.png",
+      "first_line": 101,
+      "last_line": 129,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 6,
+      "file": "source/raw/viewport-06-lines-126-154.png",
+      "first_line": 126,
+      "last_line": 154,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 7,
+      "file": "source/raw/viewport-07-lines-151-179.png",
+      "first_line": 151,
+      "last_line": 179,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 8,
+      "file": "source/raw/viewport-08-lines-176-204.png",
+      "first_line": 176,
+      "last_line": 204,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 9,
+      "file": "source/raw/viewport-09-lines-201-229.png",
+      "first_line": 201,
+      "last_line": 229,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 10,
+      "file": "source/raw/viewport-10-lines-226-254.png",
+      "first_line": 226,
+      "last_line": 254,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 11,
+      "file": "source/raw/viewport-11-lines-251-279.png",
+      "first_line": 251,
+      "last_line": 279,
+      "overlap_with_previous": 4,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    },
+    {
+      "index": 12,
+      "file": "source/raw/viewport-12-lines-257-285.png",
+      "first_line": 257,
+      "last_line": 285,
+      "overlap_with_previous": 23,
+      "visible_text_matches_source": true,
+      "mismatched_rows": []
+    }
+  ],
+  "missing_lines": [],
+  "complete_coverage": true,
+  "all_viewports_verified": true
+}

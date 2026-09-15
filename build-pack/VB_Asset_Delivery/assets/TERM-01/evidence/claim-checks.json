@@ -1,0 +1,17 @@
+{
+  "gates": [
+    {
+      "id": "R17",
+      "status": "blocked",
+      "evidence": [
+        "source/scaffold-transcript.txt",
+        "evidence/scaffold/War.vbproj",
+        "evidence/capture.json"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Handled as R17 requires: the project shown is a fresh `dotnet new console -lang VB` scaffold made with the installed SDK 10.0.303, before any property change, and it is not presented as an uploaded original. Awaiting a producer decision; not self-approved."
+    }
+  ]
+}

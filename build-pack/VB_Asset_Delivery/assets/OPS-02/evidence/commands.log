@@ -1,0 +1,7 @@
+# OPS-02 command log — run by work/war-harness/tools/build_harness.py via subprocess (no terminal UI)
+# columns: start (UTC) | seconds | exit code | cwd | command | retained output
+2026-09-15T14:51:17+00:00 |   0.314s | exit=0 | . | dotnet --info | evidence/dotnet-info.stdout.txt
+2026-09-15T14:51:18+00:00 |   0.107s | exit=0 | . | dotnet --version | stdout: 10.0.303
+2026-09-15T14:51:18+00:00 |   1.169s | exit=0 | work/war-harness/War | dotnet new console -lang VB | evidence/dotnet-new.stdout.txt
+2026-09-15T14:51:19+00:00 |   1.779s | exit=0 | work/war-harness/War | dotnet build | evidence/dotnet-build.stdout.txt
+2026-09-15T14:51:21+00:00 |   0.814s | exit=0 | work/war-harness/War | dotnet run --no-build | evidence/harness-run.stdout.txt

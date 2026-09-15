@@ -1,0 +1,68 @@
+{
+  "id": "TERM-04",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#111318",
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "rule": "Raw capture pasted at 1:1 (downscaled only if larger than the safe area); outlines exist only on files whose name says highlight/focus/directives; settings-focus is an integer nearest-neighbour enlargement of a crop.",
+  "exports": [
+    {
+      "file": "framed.png",
+      "from": "02-double-war.png",
+      "offset": [
+        300,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false
+    },
+    {
+      "file": "framed-highlight.png",
+      "from": "02-double-war.png",
+      "offset": [
+        300,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [
+        [
+          295,
+          469,
+          1399,
+          641
+        ]
+      ],
+      "pixels_inside_capture_modified": false
+    },
+    {
+      "file": "framed-start.png",
+      "from": "03-start.png",
+      "offset": [
+        300,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false
+    },
+    {
+      "file": "framed-end.png",
+      "from": "04-end.png",
+      "offset": [
+        300,
+        104
+      ],
+      "scale": 1.0,
+      "highlight_boxes_canvas_px": [],
+      "pixels_inside_capture_modified": false
+    }
+  ]
+}

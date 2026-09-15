@@ -4,19 +4,21 @@ The gallery contains produced media, not a declaration that the entire episode i
 
 ## Support
 
-- [OPS-02 — Isolated .NET harness and capture preflight](../tickets/OPS-02.md): **blocked**.
+- [OPS-02 — Isolated .NET harness and capture preflight](../tickets/OPS-02.md): **produced**; release blocked on R17 (producer decision).
 - [OPS-03 — Editorial, historical evidence, and rights clearance ledger](../tickets/OPS-03.md): **planned**.
 - [OPS-04 — Integration QA, coverage audit, and editor handoff](../tickets/OPS-04.md): **in_progress**. Batch audit delivered; whole-episode integration remains open.
 
 ## Capture
 
-- [TERM-01 — Project creation and actual SDK version](../tickets/TERM-01.md): **blocked**.
-- [TERM-02 — Primary complete War simulation](../tickets/TERM-02.md): **blocked**.
-- [TERM-03 — Complete Program.vb readable scrollthrough stills](../tickets/TERM-03.md): **blocked**.
-- [TERM-04 — War-heavy run with chained-war highlight](../tickets/TERM-04.md): **blocked**.
-- [TERM-05 — Alternate complete simulation: run B](../tickets/TERM-05.md): **blocked**.
-- [TERM-06 — Alternate complete simulation: run C](../tickets/TERM-06.md): **blocked**.
-- [XTRA-06 — Project settings: actual War.vbproj capture](../tickets/XTRA-06.md): **blocked**.
+The .NET SDK capability blocker is resolved: these were captured on 2026-09-15 in a real conhost/pwsh window with SDK 10.0.303. Production is complete; release stays blocked until a producer records each gate decision. Structure validation: [capture-delivery-validation.json](capture-delivery-validation.json).
+
+- [TERM-01 — Project creation and actual SDK version](../tickets/TERM-01.md): **produced**; release blocked on R17.
+- [TERM-02 — Primary complete War simulation](../tickets/TERM-02.md): **produced**; release blocked on R06, R08.
+- [TERM-03 — Complete Program.vb readable scrollthrough stills](../tickets/TERM-03.md): **produced**; release blocked on R03.
+- [TERM-04 — War-heavy run with chained-war highlight](../tickets/TERM-04.md): **produced**; release blocked on R05, R08.
+- [TERM-05 — Alternate complete simulation: run B](../tickets/TERM-05.md): **produced**; release blocked on R06, R08.
+- [TERM-06 — Alternate complete simulation: run C](../tickets/TERM-06.md): **produced**; release blocked on R06, R08.
+- [XTRA-06 — Project settings: actual War.vbproj capture](../tickets/XTRA-06.md): **produced**; release blocked on R17.
 
 ## Archive
 
