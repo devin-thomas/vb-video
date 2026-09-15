@@ -1,0 +1,78 @@
+{
+  "id": "XTRA-11",
+  "subject": "INVOICE-IT for Windows (v2.06), shareware invoicing program by Eastern Digital Resources",
+  "application_category": "business tool: invoice creation and printing for small businesses",
+  "creator": {
+    "software_publisher": "Eastern Digital Resources",
+    "software_author_note": "The documentation names an individual contact for feedback. The contact details are not reproduced; the publisher is the attribution named in the product.",
+    "screenshot_creator": "Internet Archive Software Library automated emulator capture (uploader account softwarelibrary@textfiles.com)"
+  },
+  "title": "Nicely Done Invoicing Program For Windows (Internet Archive catalogue title); product title bar reads \"INVOICE-IT FOR WINDOWS\"",
+  "original_publication_date": {
+    "software": "1993-06-13 (archive item date); latest RELEASE.TXT entry 2.06 dated 06/12/93; zip timestamps 1993-06-12",
+    "screenshot_published": "2016-02-27 (archive publicdate 2016-02-27 18:18:57; file mtime 1456597998 = 2016-02-27T18:33:18Z)"
+  },
+  "depicted_event_date": "2016-02-27: an emulated run of the 1993 program on the capture day. The on-screen Date field shows the emulator clock (02-27-2016), not a period date.",
+  "source_url": "https://archive.org/details/MEDLEY_SEC90034",
+  "file_url": "https://archive.org/download/MEDLEY_SEC90034/screenshot_01.jpg",
+  "metadata_url": "https://archive.org/metadata/MEDLEY_SEC90034",
+  "equivalent_files": [
+    {
+      "url": "https://archive.org/download/MEDLEY_SEC90034/00_coverscreenshot.jpg",
+      "note": "Byte-identical to screenshot_01.jpg (same SHA-1/MD5 in archive metadata and same local SHA-256)."
+    },
+    {
+      "url": "https://archive.org/download/MEDLEY_SEC90034/screenshot_00.jpg",
+      "note": "Same screen a moment earlier (no text caret in the File # field); 66729 bytes; SHA-256 540dce302e43a2d802f1d7101c24cce9ea197b49adb895379ee251b2865f10b2. Not used."
+    },
+    {
+      "url": "https://archive.org/download/MEDLEY_SEC90034/SEC90034_screenshot.gif",
+      "note": "Archive 'Emulator Screenshot': 3-frame 537x384 palette GIF of the same screen, smaller and colour-reduced. Not used as the original; SHA-256 8bac876c58aed1f81ed161aae95f51183b3634953ed27014243e9d6197e3112e."
+    }
+  ],
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS GET of public archive files and metadata API. No login, account, CAPTCHA, payment, or terms click-through. The emulator was not run, and no executable was downloaded or run.",
+  "archive_file_record": {
+    "name": "screenshot_01.jpg",
+    "source": "original",
+    "format": "JPEG",
+    "size": 66785,
+    "sha1": "8a51465aa1c817a809c6abab92ee3aa701a80d92",
+    "md5": "dff179603c8e721e2fa3fd936cbadb9e",
+    "crc32": "af4f3c0f",
+    "mtime": "1456597998"
+  },
+  "local_copy": {
+    "path": "source/original.jpg",
+    "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+    "bytes": 66785,
+    "modified": false
+  },
+  "version_model_evidence": {
+    "product_version": "2.06 (latest RELEASE.TXT entry, 06/12/93, matching the zip timestamps). The About box was not inspected.",
+    "development_language": "Microsoft Visual Basic 2.0: RELEASE.TXT 'Recompiled program using Visual BASIC 2.0' (v2.00, 02/17/93); HELP.TXT and MANUAL.WRI 'The program is now running under Visual BASIC version 2.0'; MANUAL.WRI installation section requires 'the Visual BASIC runtime library, VBRUN200.DLL'.",
+    "platform": "Windows 3.1 (MANUAL.WRI system requirements); screenshot rendered in the archive's DOSBox + Windows 3.1 emulation.",
+    "evidence_files": [
+      "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/RELEASE.TXT",
+      "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/HELP.TXT",
+      "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/MANUAL.WRI"
+    ]
+  },
+  "original_dimensions": {
+    "width": 591,
+    "height": 423
+  },
+  "original_dimensions_note": "As published by the archive: a partial view of the emulated display that ends just below the NOTES box. The archive's capture cropped it; this project did not.",
+  "transformations": [
+    "None to source/original.jpg (byte-identical to the archive file).",
+    "exports/editorial-frame.png: decoded to RGB, enlarged by a uniform integer factor of 2 with nearest-neighbour sampling to 1182x846 (aspect ratio unchanged), and centred at (369,117) on a 1920x1080 #111318 ground inside the safe area. No crop, retouch, overlay, or text. Script: src/make_frame.py."
+  ],
+  "license": {
+    "archive_item_license_field": null,
+    "license_url": null,
+    "terms_found": "The item has no license or rights statement. The software's own documentation calls it shareware and gives redistribution terms for the unmodified trial program; it grants nothing for screenshots or video. The Internet Archive's general terms (https://archive.org/about/terms.php) cover site use and are not a license for this image.",
+    "permission_url": null
+  },
+  "rights_status": "unclear: release blocked pending review",
+  "credit_text": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034."
+}

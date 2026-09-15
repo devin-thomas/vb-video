@@ -1,0 +1,64 @@
+{
+  "id": "XTRA-11",
+  "classification": "historical source",
+  "plan_status": "Script-only supplement (original_family SCRIPT-SUPPLEMENT). This is not an original asset-plan row.",
+  "script_sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [685, 687],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative requirement for a collage of real-world VB applications; the excerpt is preserved in evidence/source-excerpts.md §1",
+      "working_script_check": "War/SCRIPT.md lines 742 and 744 carry the same paragraph and visual cue (checked 2026-09-15)."
+    }
+  ],
+  "external_sources": [
+    {
+      "kind": "historical original (published screenshot)",
+      "url": "https://archive.org/download/MEDLEY_SEC90034/screenshot_01.jpg",
+      "local_path": "source/original.jpg",
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+      "accessed": "2026-09-15"
+    },
+    {
+      "kind": "development-language evidence (publisher documentation inside the 1993 distribution)",
+      "urls": [
+        "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/RELEASE.TXT",
+        "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/HELP.TXT",
+        "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/MANUAL.WRI"
+      ],
+      "sha256": {
+        "RELEASE.TXT": "c0d276aa0a4a4d428b8bf95b2f6be2e7142426be9a69764c5e8fa6cf98939f44",
+        "HELP.TXT": "8ea5b2b4184f823ad78515f917ba46fe23a34fb89de1ec888b93f77bbd3c4aa0",
+        "MANUAL.WRI": "8208dd4c365668f15ab15673f2a3b1ff75b168d7935933f6908e2cf98bba42ca"
+      },
+      "retained_as": "Quoted excerpts only (evidence/source-excerpts.md §2b–2d); the full documents are not vendored.",
+      "accessed": "2026-09-15"
+    },
+    {
+      "kind": "archive item metadata",
+      "url": "https://archive.org/metadata/MEDLEY_SEC90034",
+      "accessed": "2026-09-15"
+    }
+  ],
+  "authored_additions": [
+    "exports/editorial-frame.png: a production framing choice (dark #111318 ground, 2x integer nearest-neighbour enlargement, centred in the safe area). It adds no historical content.",
+    "src/make_frame.py: the deterministic framing script.",
+    "qa/*.png: QA proofs derived from the export; not deliverable media."
+  ],
+  "search_log": {
+    "summary": "Searched Internet Archive (advancedsearch and metadata APIs across DEMU_Collection, vintagesoftware, tucows and the softwarelibrary_win3 emulation collections), Wikimedia Commons (file-namespace API; rate-limited partway), Wikipedia and SourceForge for a business tool with explicit classic-VB evidence and a published screenshot.",
+    "rejected_candidates": [
+      {"name": "Invoice! 2000 v1.1 (Bruce L. Scheffler, 2000, IA invoice2000_v11_zip)", "reason": "Business invoicing with a screenshot, but no VB evidence found (the distribution holds only setup.exe)."},
+      {"name": "Infothek Document Imaging v1.50 / Docudex v1.5 (1995, IA DOCUTK15_ZIP / DOCUDX15_ZIP)", "reason": "Listings say 'Requires VBRUN300', but the screenshots show only an empty window or a file dialog, and the database/imaging focus overlaps XTRA-12."},
+      {"name": "Time and Billing for Windows (Leaning Birch Computer Consulting, 1991–92, IA MEDLEY_SE200040)", "reason": "Readme requires VBRUN100.DLL (good evidence), but the published screenshot shows only the shareware About/terms screen with a street address and telephone number. Kept as the alternate."},
+      {"name": "Prof Time & Billing (1993, IA MEDLEY_SE200039)", "reason": "Readme requires VBRUN200.DLL, but the emulator screenshot shows 'Error loading PROGMAN.EXE' (no application UI)."},
+      {"name": "Full Automotive Service Tracking v3.1 (TBX Software, 1999, IA fast3231_zip)", "reason": "Listing requires the VB5 runtime, but the item has no published screenshot."},
+      {"name": "Client Biller v1.0 (New Executable Workshop, 1993)", "reason": "No VB statement in the readme, FILE_ID.DIZ or ORDER.FRM."},
+      {"name": "MoneySmith (Bradley J. Smith, 1992)", "reason": "No VB statement found in the distributed documents."},
+      {"name": "AME Accounting Software (Wikipedia)", "reason": "Infobox says 'Visual Basic' without a citation; 2004 product; no screenshot."},
+      {"name": "Mini Inventory Control System (SourceForge)", "reason": "Written in C#, not VB."},
+      {"name": "SimpleShop v2.5, Essential Home Inventory, Quartermaster Home Inventory", "reason": "VB runtime evidence, but home or grocery tools rather than business tools."}
+    ]
+  },
+  "producer_decisions": []
+}

@@ -1,0 +1,205 @@
+{
+  "id": "XTRA-11",
+  "title": "Documented VB business application",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "not_applicable: archive still; no shared template or style from assets/shared is used",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (unmodified archive file)",
+      "bytes": 66785,
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame variant, 1920x1080 presentation copy",
+      "bytes": 26226,
+      "sha256": "5dcb3eb3b17b83bf9d316c413ad47fe6477dffb7471f75e95bca5eaf6d6f3e05"
+    },
+    {
+      "path": "src/make_frame.py",
+      "role": "deterministic framing script",
+      "bytes": 2020,
+      "sha256": "e52a9e7f8551addf1e777a6d1e70f2cdfc2e307cc7e6a0a7bf5945cfabe3aad0"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 6340,
+      "sha256": "ea9d1e517c0031238f9545d0d5e2d4fac8998efe4aba423afdafa7cb25b13fbb"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 4593,
+      "sha256": "8381e66658b18ac09c5d9055e57c67da59f8183818dfd4d345ba2b6525bb7140"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 6176,
+      "sha256": "3325c2f081958637b10d01154d359ea4c50a71b94ebd22c16a9eb6a969741c62"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "editorial gate record (R11, R14)",
+      "bytes": 5799,
+      "sha256": "9a8583576bc71f381eff15135b6b5a28a9d3bfcc3a9a041ff66d4b1634b81927"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "archive source record",
+      "bytes": 5196,
+      "sha256": "68795a0306d703fab65e649bc78b8f69aec77359cb3973dd26822b0aee194bba"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 2170,
+      "sha256": "a3083888ac27676c93ee7b66ba390c3d359d6759bc11e912926bc0164b2132dd"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "QA proof: 1280x720 downscale",
+      "bytes": 64541,
+      "sha256": "24a549e39d66716f4191d3b051067e3fcc49f84c8b53d027d7871d1256e9a088"
+    },
+    {
+      "path": "qa/editorial-frame-1to1-left.png",
+      "role": "QA proof: 1:1 crop, left half",
+      "bytes": 15032,
+      "sha256": "c0ad7f8b29b0447a7acbb69990862c051d7d9c186283943f6417c67bf2fe728d"
+    },
+    {
+      "path": "qa/editorial-frame-1to1-right.png",
+      "role": "QA proof: 1:1 crop, right half",
+      "bytes": 14256,
+      "sha256": "e42b1f27b3e3c1c8ea1f8d8ed2ce7e01062fcc9afe8bb565e24075015995df26"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "path": "source/original.jpg",
+      "dimensions": {
+        "width": 591,
+        "height": 423
+      },
+      "timeline": null,
+      "note": "Unmodified Internet Archive emulator screenshot of INVOICE-IT for Windows."
+    },
+    {
+      "name": "editorial-frame",
+      "path": "exports/editorial-frame.png",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "timeline": null,
+      "note": "Still hold; editorial timing. Uniform 2x nearest-neighbour enlargement centred on a #111318 ground; no crop or text."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        685,
+        687
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (narrative requirement; preserved in evidence/source-excerpts.md)"
+    },
+    {
+      "path": "source/original.jpg",
+      "url": "https://archive.org/download/MEDLEY_SEC90034/screenshot_01.jpg",
+      "item_url": "https://archive.org/details/MEDLEY_SEC90034",
+      "accessed": "2026-09-15",
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.jpg",
+      "relationship": "derivative framing (uniform 2x scale, no crop)"
+    },
+    {
+      "url": "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/RELEASE.TXT",
+      "sha256": "c0d276aa0a4a4d428b8bf95b2f6be2e7142426be9a69764c5e8fa6cf98939f44",
+      "relationship": "historical original (VB provenance evidence; excerpt only)"
+    },
+    {
+      "url": "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/HELP.TXT",
+      "sha256": "8ea5b2b4184f823ad78515f917ba46fe23a34fb89de1ec888b93f77bbd3c4aa0",
+      "relationship": "historical original (VB provenance evidence; excerpt only)"
+    },
+    {
+      "url": "https://archive.org/download/MEDLEY_SEC90034/SEC90034.ZIP/MANUAL.WRI",
+      "sha256": "8208dd4c365668f15ab15673f2a3b1ff75b168d7935933f6908e2cf98bba42ca",
+      "relationship": "historical original (VB provenance and licence-terms evidence; excerpt only)"
+    }
+  ],
+  "credits": [
+    {
+      "text": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+      "rights_status": "unclear",
+      "cleared": false
+    }
+  ],
+  "tests": [
+    {
+      "name": "render",
+      "command": "python assets/historical/XTRA-11/src/make_frame.py",
+      "result": "pass: source (591, 423) -> placed 1182x846 at (369,117) on 1920x1080"
+    },
+    {
+      "name": "pixel integrity",
+      "command": "inline Pillow check (see qa.md)",
+      "result": "pass: region equals 2x nearest of original; round-trip equals original; ground uniform; inside safe area; aspect preserved"
+    },
+    {
+      "name": "original hash",
+      "command": "Get-FileHash / archive metadata comparison",
+      "result": "pass: 66785 bytes, sha1 8a51465aa1c817a809c6abab92ee3aa701a80d92 matches archive record"
+    },
+    {
+      "name": "manual view 1080p",
+      "command": "viewed exports/editorial-frame.png and qa 1:1 crops",
+      "result": "pass (see qa.md)"
+    },
+    {
+      "name": "manual view 720p",
+      "command": "viewed qa/editorial-frame-720p.png",
+      "result": "pass (see qa.md)"
+    },
+    {
+      "name": "validate_delivery",
+      "command": "python tools/validate_delivery.py --id XTRA-11",
+      "result": "see qa.md (verbatim)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14",
+    "R11"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "os": "Windows 11 Pro 10.0.26200",
+    "fonts": "none (no rendered text)",
+    "remote_resources": "none"
+  },
+  "notes": [
+    "Script-only supplement (SCRIPT-SUPPLEMENT), not an original asset-plan row.",
+    "Application: INVOICE-IT for Windows v2.06 by Eastern Digital Resources (1993), a business invoicing tool. Classic VB proof comes from the publisher's documentation: recompiled with Visual BASIC 2.0; requires VBRUN200.DLL.",
+    "The on-screen Date 02-27-2016 is the emulator clock on the 2016 archive capture; do not caption the image as a 1993 capture.",
+    "Release blocked: rights unclear (no license on the archive item). Not cleared media."
+  ]
+}

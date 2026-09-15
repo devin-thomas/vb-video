@@ -1,0 +1,37 @@
+{
+  "id": "XTRA-11",
+  "gate": "R14",
+  "asset": "source/original.jpg and exports/editorial-frame.png",
+  "rights_holders": [
+    {
+      "party": "Eastern Digital Resources (software publisher)",
+      "interest": "Copyright in the INVOICE-IT program and its on-screen user interface. MANUAL.WRI says the program 'is not, nor has ever been, public domain or free software'.",
+      "status_today": "unknown: the business's current existence or successor was not established"
+    },
+    {
+      "party": "Internet Archive / Software Library contributors",
+      "interest": "Made the automated emulator capture. Whether it holds any separate right is unestablished.",
+      "status_today": "No license or rights statement on the item."
+    }
+  ],
+  "file_specific_terms": {
+    "archive_license_field": null,
+    "archive_licenseurl": null,
+    "publisher_terms": "Shareware redistribution terms for the unmodified trial software (HELP.TXT, MANUAL.WRI License section). They do not address screenshots, broadcast, or online video.",
+    "public_domain_evidence": "none",
+    "creative_commons_evidence": "none"
+  },
+  "access_method": "Public anonymous HTTPS download of an already-published image from archive.org. No account, login, CAPTCHA, payment, watermark removal, or terms acceptance.",
+  "access_date": "2026-09-15",
+  "public_availability_is_not_a_license": true,
+  "rights_status": "unclear",
+  "release_status": "blocked",
+  "not_asserted": [
+    "No fair-use conclusion is made here.",
+    "No permission from Eastern Digital Resources or the Internet Archive was sought or obtained."
+  ],
+  "review_question": "May the video show an Internet Archive emulator screenshot of 1993 shareware (INVOICE-IT for Windows, Eastern Digital Resources) as a brief collage element with on-screen or description credit, relying on a fair-use or commentary rationale? Or must permission be sought, or the image cut? Evidence: evidence/source.json, evidence/source-excerpts.md §2d.",
+  "credit_text": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+  "approver": null,
+  "decision": null
+}
