@@ -1,0 +1,77 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "status": "blocked",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/source-excerpts.md"
+      ],
+      "checked": "Creator/rights holder, file-specific terms, access method and credit recorded. Creator unknown; no license; textfiles.com disclaims ownership but grants nothing. Access was a plain public HTTP GET with no account, payment, CAPTCHA, terms, or watermark issues.",
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Rights unresolved: no license or permission from a rights holder. Kept release-blocked and handed to the review deck as a legal-risk question."
+    }
+  ],
+  "script_claims": {
+    "note": "Checks requested by the manager for War/SCRIPT.md:654 (sources/SCRIPT.md:597). R16 is the register entry for these figures; it is not an assigned gate of XTRA-20, so it is not closed here. War/SCRIPT.md was not edited.",
+    "claims": [
+      {
+        "claim": "Users needed the VB runtime, a DLL that shipped separately from the program.",
+        "status": "supported",
+        "evidence": [
+          "source/original.txt lines 591-592: VBRUN.ZIP 169469 06-09-92 \"The Dynamic Link Library required to run any compiled Visual Basic program.\" (listed as its own download in Main Board Directory 04 - Games!)",
+          "http://www.textfiles.com/bbs/FILELISTS/southexp.lst (Southern Express BBS, 1992; SHA-256 1fa6815b283cdeb89761f312466bced90ed34ebfb2dfdd7de082ec52a310be91) lines 3410-3412: VBRUN100.ZIP 169480 06-23-91 \"Microsoft's visual basic runtime. Download this and save the trouble of including it in all uploads and downloads in V.B. programs\"",
+          "Microsoft KB Q99251 (https://jeffpar.github.io/kbarchive/kb/099/Q99251/): VBRUN300.DLL distributed as the self-extracting VBRUN300.EXE; VBRUN100.DLL and VBRUN200.DLL as VBRUN100.EXE and VBRUN200.EXE."
+        ],
+        "result": "The listing shows the runtime as a separate board download. The Southern Express entry also shows that authors bundled it into uploads and that boards encouraged a separate copy instead."
+      },
+      {
+        "claim": "The DLL was called something like VBRUN300.DLL.",
+        "status": "supported_with_caveat",
+        "evidence": [
+          "Microsoft KB Q99251: VBRUN300.DLL is the Visual Basic 3.0 runtime; fixed build 03.00.0538, 12-MAY-1993, 398416 bytes (earlier 03.00.0537, 04-APR-1993, 394384 bytes).",
+          "Microsoft KB Q196286 (https://jeffpar.github.io/kbarchive/kb/196/Q196286/): Visual Basic 4.0 apps use Vb40016.dll (913KB) or Vb40032.dll (705KB).",
+          "The XTRA-20 listing (1992) shows VBRUN.ZIP with no version; it does not show VBRUN300. No textfiles.com FILELISTS listing (1989-1994) mentions VBRUN300."
+        ],
+        "result": "VBRUN300.DLL is a real, correctly named VB3 runtime. The narration hedges with \"something like\", which matters because the story is VB4-era, and VB4's runtimes were VB40016.DLL/VB40032.DLL. The frame must not be captioned as showing VBRUN300."
+      },
+      {
+        "claim": "Bundling the runtime turned a 200-kilobyte game into a 1.5-megabyte download.",
+        "status": "not_supported_as_stated",
+        "evidence": [
+          "Microsoft KB Q99251: VBRUN300.DLL is 398416 bytes uncompressed.",
+          "Internet Archive item VBRUN300_ZIP (https://archive.org/metadata/VBRUN300_ZIP): VBRUN300.ZIP is 228521 bytes. Uploader-supplied item; used only as an order-of-magnitude compressed size.",
+          "This listing: VBRUN.ZIP (pre-VB3 runtime) is 169469 bytes."
+        ],
+        "calculation": "200,000 + 398,416 = 598,416 bytes uncompressed (about 0.6 MB); 200,000 + 228,521 = 428,521 bytes with the zipped runtime (about 0.43 MB). Reaching 1.5 MB needs roughly 0.9-1.1 MB more, such as extra VBX controls or the VB4 16-bit runtime (Vb40016.dll 913KB per KB Q196286).",
+        "result": "The VB3 runtime alone gives about 0.4-0.6 MB, not 1.5 MB. Review question for the Writing Lead."
+      },
+      {
+        "claim": "On a 14.4 modem, 1.5 MB is nearly ten minutes of downloading.",
+        "status": "not_supported_as_stated",
+        "evidence": [
+          "ITU-T Recommendation V.32 bis (02/1991), https://www.itu.int/rec/T-REC-V.32bis: duplex modem at data signalling rates of up to 14 400 bit/s."
+        ],
+        "calculation": "Upper bound 14,400 / 8 = 1,800 bytes/s (error-corrected link with no start/stop bits); 14,400 / 10 = 1,440 bytes/s for plain asynchronous 8N1 framing. An already-zipped download gains nothing from modem compression. 1,500,000 bytes takes 833 s (13.9 min) to 1,042 s (17.4 min). Ten minutes corresponds to 864,000-1,080,000 bytes. 598,416 bytes takes 5.5-6.9 min; 428,521 bytes takes 4.0-5.0 min.",
+        "result": "\"Nearly ten minutes\" understates 1.5 MB at 14.4k by about 40% or more. These are arithmetic from the nominal line rate, not measured transfers. The same 14.4k ≈ 9+ minute figure appears in the progress-bar mockup at War/SCRIPT.md:854. Review question for the Writing Lead."
+      }
+    ]
+  },
+  "review_questions": [
+    {
+      "to": "Devin (legal risk / publication)",
+      "question": "Clear or reject use of the typeset 1992 Access System BBS catalog excerpt, given unknown creator and no license (see evidence/rights.json)."
+    },
+    {
+      "to": "Writing Lead",
+      "question": "War/SCRIPT.md:654 figures do not reconcile: the VB3 runtime makes a 200 KB game about 0.4-0.6 MB, not 1.5 MB, and 1.5 MB at 14.4k is about 14-17 minutes, not nearly ten. Proposed fix (option A, keeps VBRUN300): \"...which could turn a 200-kilobyte game into a download two or three times that size. On a 14.4 modem, that's another four or five minutes of waiting. For a card game.\" Option B (keeps the big numbers, VB4 16-bit runtime): \"...which could turn a 200-kilobyte game into a download of more than a megabyte. On a 14.4 modem, that's over ten minutes of downloading. For a card game.\" Keep the progress-bar mockup at line 854 consistent with whichever is chosen."
+    },
+    {
+      "to": "Writing Lead / Devin (editorial)",
+      "question": "The best dated board listing found is from September 1992 and shows VBRUN.ZIP, a pre-VB3 runtime, while the narration names VBRUN300.DLL in a VB4-era story. Is a 1992 listing acceptable under \"maybe a BBS file listing\", with a caption that does not mention VBRUN300? No textfiles.com board listing mentions VBRUN300; the VBRUN300 mentions found are on 1994-95 shareware CD-ROM FILES.BBS listings, which are not live boards."
+    }
+  ]
+}
