@@ -1,0 +1,82 @@
+{
+  "title": "Solitaire",
+  "archive_filename": "Solitiare (Windows 95).png",
+  "creator": "Matthew Paul Argall (screenshot author, per Internet Archive item metadata)",
+  "depicted_work": "Microsoft Solitaire as shipped with Microsoft Windows 95 (software copyright Microsoft Corporation)",
+  "source_url": "https://archive.org/details/solitiare-windows-95",
+  "file_url": "https://archive.org/download/solitiare-windows-95/Solitiare%20(Windows%2095).png",
+  "metadata_url": "https://archive.org/metadata/solitiare-windows-95",
+  "archive_identifier": "solitiare-windows-95",
+  "archive_collection": "matthew-paul-argall-screenshots",
+  "original_date": "2024-07-28 (capture date per item metadata; host taskbar clock in the image reads 8:09 PM 28/07/2024); archive publicdate 2024-07-29 02:38:46",
+  "depicted_event_date": "unknown as a period date: the image is a 2024 capture of Windows 95 software running in an Oracle VM VirtualBox virtual machine, not a 1995-era screenshot. Windows 95 release date not verified in this ticket.",
+  "access_date": "2026-09-15",
+  "acquisition_method": "Anonymous public HTTP download from archive.org (no account, no terms acceptance, no gate). Checksums match the archive's own files manifest.",
+  "identity_evidence": [
+    "Item metadata description: 'A screenshot I took while playing with a Windows 95 virtual machine.' File name 'Solitiare (Windows 95).png'.",
+    "In the uncropped image, the VirtualBox guest window title reads 'Windows 95 [Running] - Oracle VM VirtualBox' and the VirtualBox Manager list shows the entry 'Windows 95 / Running' with a '95' OS-type badge; the other listed VMs (Windows 3.0, 3.1, 3.11, NT 3.x, Microsoft Chicago, NT 4.0, 98, 98SE, 2000) show 'Powered Off'.",
+    "The Solitaire window inside the guest has Windows 95-style chrome: navy title bar with left app icon, and separate minimize, maximize and close (X) caption buttons. Windows 3.1 windows have no close (X) caption button, so this is not a relabelled Windows 3.1 image.",
+    "Status bar reads 'Score: 245 Time: 312'; menu bar 'Game Help'; felt colour measured as pure RGB (0,128,0), the most frequent colour in the file (164,134 pixels).",
+    "Limit: the VM name is user-assigned, and Windows NT 4.0 shares the Windows 95 shell look. The 'Running' status, the item description and the file name all point to Windows 95; the exact build (RTM/OSR) cannot be determined from the image."
+  ],
+  "original_file": "source/original.png",
+  "original_sha256": "7bb19b94109cfd09d19fd8240411443b3f98a1e5a76a59b0734bf0652715e4e7",
+  "original_md5": "2c9884e45405bfe43f1f2508e2ded3e0",
+  "original_sha1": "827db2544d23e78f234533256a5867c18efdfdb8",
+  "original_bytes": 1704970,
+  "original_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "mode": "RGBA (alpha fully opaque, 255..255)"
+  },
+  "original_contents_note": "Uncropped Windows 11 host desktop: personal desktop icons and folder names, host taskbar with date/clock, a third-party cartoon wallpaper, File Explorer, VirtualBox Manager, and the 800x600 VirtualBox guest display (1:1 scale) showing Windows 95 with a desktop wallpaper and the Solitaire window. The original is preserved for provenance only and is not intended for on-screen use.",
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": [
+    "Screenshot author: no licenseurl on the item or collection. Collection summary (informal statement, not a named licence): 'Feel free to do what you wish with these screenshots, however I prefer to be given credit for taking them.' See evidence/source-page/ia-collection-metadata.json.",
+    "Depicted software: Microsoft 'Use of Microsoft Copyrighted Content' page (Wayback capture 20260913212510) permits screenshots in videos subject to conditions including 'Do not alter the screenshot except to resize it', 'Do not use portions of screenshots', and 'Do not use screenshots that contain third-party content'. See evidence/source-page/ and evidence/rights.json."
+  ],
+  "rights_status": "unresolved",
+  "credit_text": "Proposed, pending rights review: \"Microsoft Solitaire (Windows 95), screenshot by Matthew Paul Argall via Internet Archive.\" Whether to add \"Used with permission from Microsoft\" depends on the rights review, because the Microsoft screenshot conditions may not be met (see rights.json).",
+  "transformations": [
+    {
+      "output": "exports/editorial-frame.png",
+      "steps": [
+        "Crop the Solitaire window outer border box from source/original.png: left 602, top 356, right 1199, bottom 790 (exclusive) = 597x434 px.",
+        "Scale exactly 2x with nearest-neighbour sampling (no smoothing, no stretching) = 1194x868 px.",
+        "Paste centred at offset (363,106) on a flat 1920x1080 #111318 background (inside safe area x 120..1800, y 72..1008)."
+      ],
+      "reversible": "Yes: the untouched original is kept; the crop box, scale and offset are recorded, and src/build_editorial_frame.py reproduces the export byte-for-byte.",
+      "context_removed": "The host desktop (private file names, clock, third-party wallpaper), VirtualBox chrome, and the guest wallpaper. The removal does not change the meaning (Windows 95 Solitaire), but it also removes the in-image 'Windows 95 [Running]' label, so version identity rests on this record.",
+      "pixels_edited": false,
+      "text_or_ui_added": false,
+      "watermark_removed": false
+    }
+  ],
+  "candidates_considered": [
+    {
+      "location": "https://en.wikipedia.org/wiki/Microsoft_Solitaire (plan lead)",
+      "result": "Rejected: the article's images are Windows 7 and Windows 10 versions plus a Vista icon; no Windows 95 screenshot."
+    },
+    {
+      "location": "https://commons.wikimedia.org/wiki/Category:Windows_95_screenshots",
+      "result": "No Solitaire or game screenshot among the listed files; the category warns against copyrighted Windows widgets."
+    },
+    {
+      "location": "https://commons.wikimedia.org/wiki/Category:Computer_Solitaire_games",
+      "result": "No Microsoft Windows 3.x/95 Solitaire file identified (GNOME, KPatience, PySolFC and other free implementations)."
+    },
+    {
+      "location": "http://www.guidebookgallery.org/screenshots/win95",
+      "result": "No Solitaire screenshot in the Windows 95 gallery; the site is 'Copyright 2002-2006 Marcin Wichary, unless stated otherwise'."
+    },
+    {
+      "location": "https://archive.org/advancedsearch.php (query: solitaire AND (\"windows 95\" OR win95) AND mediatype:image)",
+      "result": "One hit: solitiare-windows-95, which was selected."
+    }
+  ],
+  "notes": [
+    "Wikimedia API queries returned HTTP rate-limit notices during the search; Commons categories were re-checked through their HTML pages.",
+    "The ticket requirement not to reuse game sprites for MOCK-01 is respected: this card art must not be extracted into any mockup."
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "HIST-20",
+  "title": "Windows 95 Solitaire",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (archival third-party screenshot; 2024 emulated capture of Windows 95 software)",
+  "shared_version": "not consumed (archive still; uses production-bible background token and safe area only)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 2615,
+      "sha256": "c61a38422d0285f1e0139f03a593452f16ce916c524fa1b0eb66c00e1362dd98"
+    },
+    {
+      "path": "evidence/proof-720p.png",
+      "role": "evidence / QA (720p inspection proof)",
+      "bytes": 141500,
+      "sha256": "20f7f661ec0d03ded2628ca2af01c4b60929f67632861fccfae3016f45fd1f9f"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1965,
+      "sha256": "2efc929945cb8bb3f6f9ea238e0b23ce62e9f93180230d7c8de7f6458d972022"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3628,
+      "sha256": "600045ff97ac70972ad2d41f97aa61266b433414ce22daada036892e240f37c7"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4091,
+      "sha256": "58efb5aa864325193fa3d10ca3f5bbb44a741653a833164807834089b0fcc271"
+    },
+    {
+      "path": "evidence/source-page/ia-collection-metadata.json",
+      "role": "evidence / QA",
+      "bytes": 3085,
+      "sha256": "4a9d77bbf5d43b6fc2afe4027b37e3de1a791fe60161b0424b603b0ce60bfd81"
+    },
+    {
+      "path": "evidence/source-page/ia-details-page.html",
+      "role": "evidence / QA",
+      "bytes": 201366,
+      "sha256": "a72fc643bd70ff5fe7a972df9a236d4ebd60803081926951c73759c3589850be"
+    },
+    {
+      "path": "evidence/source-page/ia-item-meta.xml",
+      "role": "evidence / QA",
+      "bytes": 686,
+      "sha256": "3a0191bebd6dcfceeaa0cb072727aa2e8e5c193d0ef6a4e2add10604cf3874c9"
+    },
+    {
+      "path": "evidence/source-page/ia-item-metadata.json",
+      "role": "evidence / QA",
+      "bytes": 2620,
+      "sha256": "8ecdaaa1a6d0e9add22bd210f8e219ba5f5982f8664a84e32f58744b0991a61e"
+    },
+    {
+      "path": "evidence/source-page/microsoft-copyright-permissions-text.txt",
+      "role": "evidence / QA",
+      "bytes": 12279,
+      "sha256": "0d17d0fa48d9bdc2f09632881e2c7461aafb3acf75cde2c67955811ad787f49e"
+    },
+    {
+      "path": "evidence/source-page/microsoft-copyright-permissions-wayback-20260913.html",
+      "role": "evidence / QA",
+      "bytes": 186461,
+      "sha256": "43337902fb48a627655a2e970fbba94ba9a590dff334c9575596abbb15dc7454"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6869,
+      "sha256": "1b3d0b5503a3fba65d9f0da0ccd0b571fbabb3757808363842c9c65a6a6903d4"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still (derivative crop, editorial framing)",
+      "bytes": 39073,
+      "sha256": "6818704c55ae69ca10caa5e3bc9acdc9e6d8f20b5d1979599e04cdfec10abdd5"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 7287,
+      "sha256": "df21abd34aad0d439a33e8b72d9f3698ec005e05b41aad1379adc7a9d7a3f886"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original (acquired native file, uncropped)",
+      "bytes": 1704970,
+      "sha256": "7bb19b94109cfd09d19fd8240411443b3f98a1e5a76a59b0734bf0652715e4e7"
+    },
+    {
+      "path": "src/build_editorial_frame.py",
+      "role": "editable input (reproduction script)",
+      "bytes": 2310,
+      "sha256": "bb6996db5b8b888f62c4ac62c554fe9b67b3f394fc1a3e43943a2c997d835340"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.png"
+      ],
+      "timeline": null,
+      "note": "Preservation copy; contains private host-desktop content, not for on-screen use."
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "timeline": null,
+      "note": "Still; hold for editorial timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        101,
+        101
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        579,
+        593
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://archive.org/details/solitiare-windows-95",
+      "record": "evidence/source.json",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "record": "evidence/source.json#transformations",
+      "relationship": "derivative crop"
+    }
+  ],
+  "credits": [
+    {
+      "role": "screenshot",
+      "name": "Matthew Paul Argall",
+      "via": "Internet Archive, https://archive.org/details/solitiare-windows-95",
+      "license": null,
+      "rights_status": "unresolved"
+    },
+    {
+      "role": "depicted software",
+      "name": "Microsoft Corporation (Microsoft Solitaire, Windows 95)",
+      "license": null,
+      "rights_status": "unresolved"
+    },
+    {
+      "proposed_credit_text": "Microsoft Solitaire (Windows 95), screenshot by Matthew Paul Argall via Internet Archive.",
+      "status": "pending rights review"
+    }
+  ],
+  "tests": [
+    {
+      "name": "archive checksum match (md5/sha1 vs archive files manifest)",
+      "result": "pass"
+    },
+    {
+      "name": "crop border pixel verification (4 sides)",
+      "result": "pass"
+    },
+    {
+      "name": "build determinism (two runs, identical sha256)",
+      "result": "pass"
+    },
+    {
+      "name": "window region pixel-identical to 2x nearest-neighbour crop of original",
+      "result": "pass"
+    },
+    {
+      "name": "export 1920x1080, content inside safe area",
+      "result": "pass"
+    },
+    {
+      "name": "manual inspection full size (1920x1080) and 720p proof",
+      "result": "pass",
+      "proofs": [
+        "exports/editorial-frame.png",
+        "evidence/proof-720p.png"
+      ]
+    },
+    {
+      "name": "python tools/validate_delivery.py --id HIST-20",
+      "result": "pass",
+      "output": "{\"id\": \"HIST-20\", \"ok\": true, \"errors\": []} (2026-09-15; limitations: no OCR/visual/legal clearance)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "8.18.0 (x86_64-w64-mingw32)",
+    "os": "Windows 11 Pro 10.0.26200",
+    "command": "python assets/historical/HIST-20/src/build_editorial_frame.py"
+  },
+  "notes": [
+    "Release blocked on R14 rights review; see evidence/rights.json and qa.md review questions.",
+    "Image is a 2024 VirtualBox capture of Windows 95, not a 1995 period screenshot; exact build not determinable."
+  ]
+}
