@@ -1,0 +1,525 @@
+{
+  "id": "XTRA-14",
+  "command": "python assets/stills/XTRA-14/src/verify.py",
+  "variants": {
+    "collage": {
+      "exports_checked": [
+        "exports/collage.png",
+        "exports/poster.png"
+      ],
+      "panels": [
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "collage panel",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256_now": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            132,
+            253,
+            640,
+            458
+          ],
+          "source_size": [
+            591,
+            423
+          ],
+          "scale_x": 1.0829103214890017,
+          "scale_y": 1.08274231678487,
+          "aspect_rel_error": 0.00015516591669806346,
+          "aspect_max_rounding_px": 0.09929078014181414,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 293120,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            },
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 293120,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "collage panel",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256_now": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            818,
+            253,
+            424,
+            458
+          ],
+          "source_size": [
+            334,
+            361
+          ],
+          "scale_x": 1.2694610778443114,
+          "scale_y": 1.2686980609418284,
+          "aspect_rel_error": 0.0006014172528305828,
+          "aspect_max_rounding_px": 0.2548476454293791,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 194192,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            },
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 194192,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "collage panel",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256_now": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1288,
+            253,
+            500,
+            458
+          ],
+          "source_size": [
+            489,
+            448
+          ],
+          "scale_x": 1.0224948875255624,
+          "scale_y": 1.0223214285714286,
+          "aspect_rel_error": 0.00016967164072489993,
+          "aspect_max_rounding_px": 0.08482142857144481,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 229000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            },
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 229000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "layout_boxes": "pass: no label, credit or frame intersects any image; no text intersects text; all frames and text inside safe area 120-1800 x 72-1008",
+      "microsoft_statement_in_svg_text": true,
+      "labels_in_svg_text": [
+        "Business tools",
+        "Data entry",
+        "Utilities"
+      ],
+      "date_like_strings_in_on_screen_text": [
+        "1998"
+      ]
+    },
+    "focus-business": {
+      "exports_checked": [
+        "exports/focus-business.png"
+      ],
+      "panels": [
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "focused panel (enlarged)",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256_now": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            128,
+            142,
+            1087,
+            778
+          ],
+          "source_size": [
+            591,
+            423
+          ],
+          "scale_x": 1.8392554991539762,
+          "scale_y": 1.839243498817967,
+          "aspect_rel_error": 6.52460428285373e-06,
+          "aspect_max_rounding_px": 0.007092198581631237,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 845686,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256_now": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1287,
+            131,
+            185,
+            200
+          ],
+          "source_size": [
+            334,
+            361
+          ],
+          "scale_x": 0.5538922155688623,
+          "scale_y": 0.554016620498615,
+          "aspect_rel_error": 0.00022455089820361263,
+          "aspect_max_rounding_px": 0.04155124653740927,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 37000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256_now": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1287,
+            624,
+            252,
+            231
+          ],
+          "source_size": [
+            489,
+            448
+          ],
+          "scale_x": 0.5153374233128835,
+          "scale_y": 0.515625,
+          "aspect_rel_error": 0.00055772448410496,
+          "aspect_max_rounding_px": 0.140625,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 58212,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "layout_boxes": "pass: no label, credit or frame intersects any image; no text intersects text; all frames and text inside safe area 120-1800 x 72-1008",
+      "microsoft_statement_in_svg_text": true,
+      "labels_in_svg_text": [
+        "Business tools",
+        "Data entry",
+        "Utilities"
+      ],
+      "date_like_strings_in_on_screen_text": [
+        "1998"
+      ]
+    },
+    "focus-data-entry": {
+      "exports_checked": [
+        "exports/focus-data-entry.png"
+      ],
+      "panels": [
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "focused panel (enlarged)",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256_now": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            299,
+            154,
+            668,
+            722
+          ],
+          "source_size": [
+            334,
+            361
+          ],
+          "scale_x": 2.0,
+          "scale_y": 2.0,
+          "aspect_rel_error": 0.0,
+          "aspect_max_rounding_px": 0.0,
+          "resampling": "nearest-neighbour, integer 2x",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 482296,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256_now": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1287,
+            131,
+            324,
+            232
+          ],
+          "source_size": [
+            591,
+            423
+          ],
+          "scale_x": 0.5482233502538071,
+          "scale_y": 0.5484633569739953,
+          "aspect_rel_error": 0.0004375984596532989,
+          "aspect_max_rounding_px": 0.14184397163120366,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 75168,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256_now": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1287,
+            624,
+            252,
+            231
+          ],
+          "source_size": [
+            489,
+            448
+          ],
+          "scale_x": 0.5153374233128835,
+          "scale_y": 0.515625,
+          "aspect_rel_error": 0.00055772448410496,
+          "aspect_max_rounding_px": 0.140625,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 58212,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "layout_boxes": "pass: no label, credit or frame intersects any image; no text intersects text; all frames and text inside safe area 120-1800 x 72-1008",
+      "microsoft_statement_in_svg_text": true,
+      "labels_in_svg_text": [
+        "Data entry",
+        "Business tools",
+        "Utilities"
+      ],
+      "date_like_strings_in_on_screen_text": [
+        "1998"
+      ]
+    },
+    "focus-utilities": {
+      "exports_checked": [
+        "exports/focus-utilities.png"
+      ],
+      "panels": [
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "focused panel (enlarged)",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256_now": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            248,
+            142,
+            848,
+            777
+          ],
+          "source_size": [
+            489,
+            448
+          ],
+          "scale_x": 1.7341513292433537,
+          "scale_y": 1.734375,
+          "aspect_rel_error": 0.0001289633191475792,
+          "aspect_max_rounding_px": 0.109375,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 658896,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256_now": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1287,
+            131,
+            324,
+            232
+          ],
+          "source_size": [
+            591,
+            423
+          ],
+          "scale_x": 0.5482233502538071,
+          "scale_y": 0.5484633569739953,
+          "aspect_rel_error": 0.0004375984596532989,
+          "aspect_max_rounding_px": 0.14184397163120366,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 75168,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256_now": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "matches_layout": true,
+          "matches_upstream_delivery": true,
+          "placed_rect_xywh": [
+            1287,
+            623,
+            185,
+            200
+          ],
+          "source_size": [
+            334,
+            361
+          ],
+          "scale_x": 0.5538922155688623,
+          "scale_y": 0.554016620498615,
+          "aspect_rel_error": 0.00022455089820361263,
+          "aspect_max_rounding_px": 0.04155124653740927,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_resample": true,
+          "exports": [
+            {
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 37000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "layout_boxes": "pass: no label, credit or frame intersects any image; no text intersects text; all frames and text inside safe area 120-1800 x 72-1008",
+      "microsoft_statement_in_svg_text": true,
+      "labels_in_svg_text": [
+        "Utilities",
+        "Business tools",
+        "Data entry"
+      ],
+      "date_like_strings_in_on_screen_text": [
+        "1998"
+      ]
+    }
+  },
+  "errors": [],
+  "poster_equals_collage_bytes": true,
+  "proofs_written": [
+    "proofs/collage-1to1-left.png",
+    "proofs/collage-1to1-right.png",
+    "proofs/collage-720.png",
+    "proofs/focus-business-720.png",
+    "proofs/focus-data-entry-720.png",
+    "proofs/focus-utilities-720.png",
+    "proofs/poster-720.png"
+  ],
+  "ok": true
+}

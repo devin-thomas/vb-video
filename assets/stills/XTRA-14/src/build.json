@@ -1,0 +1,56 @@
+{
+  "id": "XTRA-14",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "variant-collage.svg"
+    }
+  ],
+  "variants": {
+    "collage": "variant-collage.svg",
+    "focus-business": "variant-focus-business.svg",
+    "focus-data-entry": "variant-focus-data-entry.svg",
+    "focus-utilities": "variant-focus-utilities.svg"
+  },
+  "poster": "variant-collage.svg",
+  "cuts": {},
+  "notes": [
+    "Three labeled panels, exact ticket copy as labels in ticket order: Business tools = XTRA-11 (INVOICE-IT for Windows, VB 2.0), Data entry = XTRA-12 (VB6 Data Object Wizard form, Microsoft figure), Utilities = XTRA-13 (Karen's Window Watcher, VB6).",
+    "Each screenshot is the whole upstream original, uniformly scaled; no crop, rotation, overlap or retouch. A mat and frame sit outside the image edges only. Exact rectangles and scale factors: src/layout.json.",
+    "Every panel carries its own credit from the upstream rights record. The XTRA-12 panel carries \"Used with permission from Microsoft.\" on its own line.",
+    "No capture date, year caption, statistic, user count, revenue, bank/hospital claim or customer data is added. Dates inside the screenshots (02-27-2016 in XTRA-11, 9/3/2003 in XTRA-13) are original pixels and are not captioned.",
+    "Optional focus variants enlarge one panel and keep the other two whole, reduced and credited.",
+    "Release stays blocked under R11 and R14 until the review deck decides; internal proof only."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        685,
+        687
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (VISUAL cue at 687)"
+    },
+    {
+      "path": "../../historical/XTRA-11/source/original.jpg",
+      "asset": "XTRA-11",
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+      "relationship": "historical original from a produced upstream asset; read in place, uniformly scaled, never cropped or copied"
+    },
+    {
+      "path": "../../historical/XTRA-12/source/original.gif",
+      "asset": "XTRA-12",
+      "sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+      "relationship": "historical original from a produced upstream asset; read in place, uniformly scaled, never cropped or copied"
+    },
+    {
+      "path": "../../historical/XTRA-13/source/original.gif",
+      "asset": "XTRA-13",
+      "sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+      "relationship": "historical original from a produced upstream asset; read in place, uniformly scaled, never cropped or copied"
+    }
+  ],
+  "kind": "still"
+}

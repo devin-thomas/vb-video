@@ -1,0 +1,1355 @@
+{
+  "id": "XTRA-14",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "frame": {
+    "mat_px": 6,
+    "stroke_px": 2,
+    "extent_outside_image_px": 7,
+    "mat_fill": "#1b2027",
+    "stroke": "#343d48",
+    "background": "#111318"
+  },
+  "coordinates": "pixels, origin top-left of the 1920x1080 export; x/y/w/h is the exact placed image rectangle",
+  "variants": {
+    "collage": {
+      "svg": "src/variant-collage.svg",
+      "png": "exports/collage.png",
+      "build_checks": {
+        "image_rects_clear_of_all_frames_and_text": true,
+        "text_clear_of_text": true,
+        "all_in_safe_area": true,
+        "microsoft_statement_with_xtra12": true,
+        "problems": []
+      },
+      "panels": [
+        {
+          "panel": "business",
+          "label": "Business tools",
+          "role": "collage panel",
+          "asset": "XTRA-11",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_rel_path": "../../historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_bytes": 66785,
+          "source_mode": "RGB",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 132,
+          "y": 253,
+          "w": 640,
+          "h": 458,
+          "scale_x": 1.08291,
+          "scale_y": 1.082742,
+          "source_aspect": 1.397163,
+          "placed_aspect": 1.39738,
+          "aspect_rel_error": 0.00015516591669806346,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            125,
+            246,
+            654,
+            472
+          ],
+          "embedded_png_sha256": "00f15514fb9e357f30222ceae68c92355d13f0c8b2ab802e269a64c6800e2ac8",
+          "credit_record": "assets/historical/XTRA-11/evidence/rights.json#credit_text",
+          "credit_full": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_on_screen": "INVOICE-IT for Windows (Eastern Digital Resources). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_edit": "Verbatim except that the software year \", 1993\" is left off screen, so the panel cannot be read as a 1993 capture (the pictured form shows the 2016 emulator date). The full record text is kept in delivery.json credits.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Business tools",
+              "x": 125,
+              "baseline": 221,
+              "size": 40,
+              "bold": true,
+              "box": [
+                125,
+                184,
+                406.0,
+                230
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "INVOICE-IT for Windows (Eastern Digital Resources).",
+              "x": 125,
+              "baseline": 760.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                125,
+                736.0,
+                741.0,
+                766.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Screenshot: Internet Archive Software Library, item",
+              "x": 125,
+              "baseline": 792.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                125,
+                768.5,
+                703.953125,
+                798.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "MEDLEY_SEC90034.",
+              "x": 125,
+              "baseline": 825.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                125,
+                801.0,
+                375.0,
+                831.0
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "data-entry",
+          "label": "Data entry",
+          "role": "collage panel",
+          "asset": "XTRA-12",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_bytes": 15084,
+          "source_mode": "P",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 818,
+          "y": 253,
+          "w": 424,
+          "h": 458,
+          "scale_x": 1.269461,
+          "scale_y": 1.268698,
+          "source_aspect": 0.925208,
+          "placed_aspect": 0.925764,
+          "aspect_rel_error": 0.0006014172528305828,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            811,
+            246,
+            438,
+            472
+          ],
+          "embedded_png_sha256": "04be4243ab1ebe9dd8693cadd8bd204ec25995489e4f841b259d446bb5df213b",
+          "credit_record": "assets/historical/XTRA-12/evidence/rights.json#credit_text",
+          "credit_full": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_on_screen": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_edit": "Verbatim; the required Microsoft statement is set on its own line.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Data entry",
+              "x": 811,
+              "baseline": 221,
+              "size": 40,
+              "bold": true,
+              "box": [
+                811,
+                184,
+                1005.0,
+                230
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Microsoft Corporation, \"Developing",
+              "x": 811,
+              "baseline": 760.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                811,
+                736.0,
+                1208.0,
+                766.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Applications with the Microsoft Visual",
+              "x": 811,
+              "baseline": 792.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                811,
+                768.5,
+                1233.0,
+                798.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Basic 6.0 Data Object Wizard,\" Figure",
+              "x": 811,
+              "baseline": 825.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                811,
+                801.0,
+                1242.0,
+                831.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "16 (December 1998).",
+              "x": 811,
+              "baseline": 857.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                811,
+                833.5,
+                1053.0,
+                863.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Used with permission from Microsoft.",
+              "x": 811,
+              "baseline": 890.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                811,
+                866.0,
+                1234.0,
+                896.0
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "utilities",
+          "label": "Utilities",
+          "role": "collage panel",
+          "asset": "XTRA-13",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_bytes": 17757,
+          "source_mode": "P",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 1288,
+          "y": 253,
+          "w": 500,
+          "h": 458,
+          "scale_x": 1.022495,
+          "scale_y": 1.022321,
+          "source_aspect": 1.091518,
+          "placed_aspect": 1.091703,
+          "aspect_rel_error": 0.00016967164072489993,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1281,
+            246,
+            514,
+            472
+          ],
+          "embedded_png_sha256": "89bdb4584464aa4c88a082c713cf2df82ca6eeaefa73beb5e710104292342ca6",
+          "credit_record": "assets/historical/XTRA-13/evidence/rights.json#credit_text_proposed",
+          "credit_full": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_on_screen": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_edit": "Verbatim. The upstream record marks this credit proposed, not approved (credit_text_approved is null).",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Utilities",
+              "x": 1281,
+              "baseline": 221,
+              "size": 40,
+              "bold": true,
+              "box": [
+                1281,
+                184,
+                1424.0,
+                230
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Karen's Window Watcher (Visual Basic 6),",
+              "x": 1281,
+              "baseline": 760.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1281,
+                736.0,
+                1761.984375,
+                766.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "screenshot © Karen Kenworthy,",
+              "x": 1281,
+              "baseline": 792.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1281,
+                768.5,
+                1641.96875,
+                798.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "karenware.com — via Internet Archive",
+              "x": 1281,
+              "baseline": 825.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1281,
+                801.0,
+                1715.984375,
+                831.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Wayback Machine",
+              "x": 1281,
+              "baseline": 857.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1281,
+                833.5,
+                1490.984375,
+                863.5
+              ]
+            }
+          ]
+        }
+      ],
+      "also_rendered_as": "exports/poster.png"
+    },
+    "focus-business": {
+      "svg": "src/variant-focus-business.svg",
+      "png": "exports/focus-business.png",
+      "build_checks": {
+        "image_rects_clear_of_all_frames_and_text": true,
+        "text_clear_of_text": true,
+        "all_in_safe_area": true,
+        "microsoft_statement_with_xtra12": true,
+        "problems": []
+      },
+      "panels": [
+        {
+          "panel": "business",
+          "label": "Business tools",
+          "role": "focused panel (enlarged)",
+          "asset": "XTRA-11",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_rel_path": "../../historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_bytes": 66785,
+          "source_mode": "RGB",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 128,
+          "y": 142,
+          "w": 1087,
+          "h": 778,
+          "scale_x": 1.839255,
+          "scale_y": 1.839243,
+          "source_aspect": 1.397163,
+          "placed_aspect": 1.397172,
+          "aspect_rel_error": 6.52460428285373e-06,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            121,
+            135,
+            1101,
+            792
+          ],
+          "embedded_png_sha256": "f5d9f3fa48a24355406f2dea3bb27b12658117df92a594a9b2589acfc30251c1",
+          "credit_record": "assets/historical/XTRA-11/evidence/rights.json#credit_text",
+          "credit_full": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_on_screen": "INVOICE-IT for Windows (Eastern Digital Resources). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_edit": "Verbatim except that the software year \", 1993\" is left off screen, so the panel cannot be read as a 1993 capture (the pictured form shows the 2016 emulator date). The full record text is kept in delivery.json credits.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Business tools",
+              "x": 121,
+              "baseline": 110,
+              "size": 40,
+              "bold": true,
+              "box": [
+                121,
+                73,
+                402.0,
+                119
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "INVOICE-IT for Windows (Eastern Digital Resources).",
+              "x": 121,
+              "baseline": 969.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                121,
+                945.0,
+                737.0,
+                975.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+              "x": 121,
+              "baseline": 1001.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                121,
+                977.5,
+                956.953125,
+                1007.5
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "data-entry",
+          "label": "Data entry",
+          "role": "context panel (reduced)",
+          "asset": "XTRA-12",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_bytes": 15084,
+          "source_mode": "P",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 1287,
+          "y": 131,
+          "w": 185,
+          "h": 200,
+          "scale_x": 0.553892,
+          "scale_y": 0.554017,
+          "source_aspect": 0.925208,
+          "placed_aspect": 0.925,
+          "aspect_rel_error": 0.00022455089820361263,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            124,
+            199,
+            214
+          ],
+          "embedded_png_sha256": "7ae1b366bd4dd6b758ef8a0ce73512eeff0f7dca7608eb96a7da88afb42e11b4",
+          "credit_record": "assets/historical/XTRA-12/evidence/rights.json#credit_text",
+          "credit_full": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_on_screen": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_edit": "Verbatim; the required Microsoft statement is set on its own line.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Data entry",
+              "x": 1280,
+              "baseline": 101,
+              "size": 32,
+              "bold": true,
+              "box": [
+                1280,
+                72,
+                1438.0,
+                108
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Microsoft Corporation, \"Developing",
+              "x": 1280,
+              "baseline": 380.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                356.0,
+                1677.0,
+                386.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Applications with the Microsoft Visual Basic",
+              "x": 1280,
+              "baseline": 412.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                388.5,
+                1772.0,
+                418.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "6.0 Data Object Wizard,\" Figure 16",
+              "x": 1280,
+              "baseline": 445.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                421.0,
+                1676.0,
+                451.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "(December 1998).",
+              "x": 1280,
+              "baseline": 477.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                453.5,
+                1487.0,
+                483.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Used with permission from Microsoft.",
+              "x": 1280,
+              "baseline": 510.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                486.0,
+                1703.0,
+                516.0
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "utilities",
+          "label": "Utilities",
+          "role": "context panel (reduced)",
+          "asset": "XTRA-13",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_bytes": 17757,
+          "source_mode": "P",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 1287,
+          "y": 624,
+          "w": 252,
+          "h": 231,
+          "scale_x": 0.515337,
+          "scale_y": 0.515625,
+          "source_aspect": 1.091518,
+          "placed_aspect": 1.090909,
+          "aspect_rel_error": 0.00055772448410496,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            617,
+            266,
+            245
+          ],
+          "embedded_png_sha256": "31a5dc3b0a3b03460ee70e215dde69f7f9fdf7d485f10a39c30865e2f36b925c",
+          "credit_record": "assets/historical/XTRA-13/evidence/rights.json#credit_text_proposed",
+          "credit_full": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_on_screen": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_edit": "Verbatim. The upstream record marks this credit proposed, not approved (credit_text_approved is null).",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Utilities",
+              "x": 1280,
+              "baseline": 594,
+              "size": 32,
+              "bold": true,
+              "box": [
+                1280,
+                565,
+                1397.0,
+                601
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Karen's Window Watcher (Visual Basic 6),",
+              "x": 1280,
+              "baseline": 904.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                880.0,
+                1760.984375,
+                910.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "screenshot © Karen Kenworthy,",
+              "x": 1280,
+              "baseline": 936.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                912.5,
+                1640.96875,
+                942.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "karenware.com — via Internet Archive",
+              "x": 1280,
+              "baseline": 969.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                945.0,
+                1714.984375,
+                975.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Wayback Machine",
+              "x": 1280,
+              "baseline": 1001.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                977.5,
+                1489.984375,
+                1007.5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "focus-data-entry": {
+      "svg": "src/variant-focus-data-entry.svg",
+      "png": "exports/focus-data-entry.png",
+      "build_checks": {
+        "image_rects_clear_of_all_frames_and_text": true,
+        "text_clear_of_text": true,
+        "all_in_safe_area": true,
+        "microsoft_statement_with_xtra12": true,
+        "problems": []
+      },
+      "panels": [
+        {
+          "panel": "data-entry",
+          "label": "Data entry",
+          "role": "focused panel (enlarged)",
+          "asset": "XTRA-12",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_bytes": 15084,
+          "source_mode": "P",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 299,
+          "y": 154,
+          "w": 668,
+          "h": 722,
+          "scale_x": 2.0,
+          "scale_y": 2.0,
+          "source_aspect": 0.925208,
+          "placed_aspect": 0.925208,
+          "aspect_rel_error": 0.0,
+          "resampling": "nearest-neighbour, integer 2x",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            292,
+            147,
+            682,
+            736
+          ],
+          "embedded_png_sha256": "991cba7f3a1a2de7dfd37e37eeaae4bd306987c35596d95509652b43939c6014",
+          "credit_record": "assets/historical/XTRA-12/evidence/rights.json#credit_text",
+          "credit_full": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_on_screen": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_edit": "Verbatim; the required Microsoft statement is set on its own line.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Data entry",
+              "x": 292,
+              "baseline": 122,
+              "size": 40,
+              "bold": true,
+              "box": [
+                292,
+                85,
+                486.0,
+                131
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Microsoft Corporation, \"Developing Applications with the Microsoft",
+              "x": 292,
+              "baseline": 925.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                292,
+                901.0,
+                1040.984375,
+                931.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998).",
+              "x": 292,
+              "baseline": 957.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                292,
+                933.5,
+                1049.0,
+                963.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Used with permission from Microsoft.",
+              "x": 292,
+              "baseline": 990.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                292,
+                966.0,
+                715.0,
+                996.0
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "business",
+          "label": "Business tools",
+          "role": "context panel (reduced)",
+          "asset": "XTRA-11",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_rel_path": "../../historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_bytes": 66785,
+          "source_mode": "RGB",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 1287,
+          "y": 131,
+          "w": 324,
+          "h": 232,
+          "scale_x": 0.548223,
+          "scale_y": 0.548463,
+          "source_aspect": 1.397163,
+          "placed_aspect": 1.396552,
+          "aspect_rel_error": 0.0004375984596532989,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            124,
+            338,
+            246
+          ],
+          "embedded_png_sha256": "e09a5cabd63a3d9eeaf85e63d7ced0c135a6898b56da866b28d7617889fb5b17",
+          "credit_record": "assets/historical/XTRA-11/evidence/rights.json#credit_text",
+          "credit_full": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_on_screen": "INVOICE-IT for Windows (Eastern Digital Resources). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_edit": "Verbatim except that the software year \", 1993\" is left off screen, so the panel cannot be read as a 1993 capture (the pictured form shows the 2016 emulator date). The full record text is kept in delivery.json credits.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Business tools",
+              "x": 1280,
+              "baseline": 101,
+              "size": 32,
+              "bold": true,
+              "box": [
+                1280,
+                72,
+                1511.0,
+                108
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "INVOICE-IT for Windows (Eastern Digital",
+              "x": 1280,
+              "baseline": 412.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                388.0,
+                1750.0,
+                418.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Resources).",
+              "x": 1280,
+              "baseline": 444.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                420.5,
+                1419.0,
+                450.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Screenshot: Internet Archive Software",
+              "x": 1280,
+              "baseline": 477.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                453.0,
+                1709.984375,
+                483.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Library, item MEDLEY_SEC90034.",
+              "x": 1280,
+              "baseline": 509.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                485.5,
+                1678.96875,
+                515.5
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "utilities",
+          "label": "Utilities",
+          "role": "context panel (reduced)",
+          "asset": "XTRA-13",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_bytes": 17757,
+          "source_mode": "P",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 1287,
+          "y": 624,
+          "w": 252,
+          "h": 231,
+          "scale_x": 0.515337,
+          "scale_y": 0.515625,
+          "source_aspect": 1.091518,
+          "placed_aspect": 1.090909,
+          "aspect_rel_error": 0.00055772448410496,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            617,
+            266,
+            245
+          ],
+          "embedded_png_sha256": "31a5dc3b0a3b03460ee70e215dde69f7f9fdf7d485f10a39c30865e2f36b925c",
+          "credit_record": "assets/historical/XTRA-13/evidence/rights.json#credit_text_proposed",
+          "credit_full": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_on_screen": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_edit": "Verbatim. The upstream record marks this credit proposed, not approved (credit_text_approved is null).",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Utilities",
+              "x": 1280,
+              "baseline": 594,
+              "size": 32,
+              "bold": true,
+              "box": [
+                1280,
+                565,
+                1397.0,
+                601
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Karen's Window Watcher (Visual Basic 6),",
+              "x": 1280,
+              "baseline": 904.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                880.0,
+                1760.984375,
+                910.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "screenshot © Karen Kenworthy,",
+              "x": 1280,
+              "baseline": 936.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                912.5,
+                1640.96875,
+                942.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "karenware.com — via Internet Archive",
+              "x": 1280,
+              "baseline": 969.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                945.0,
+                1714.984375,
+                975.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Wayback Machine",
+              "x": 1280,
+              "baseline": 1001.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                977.5,
+                1489.984375,
+                1007.5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "focus-utilities": {
+      "svg": "src/variant-focus-utilities.svg",
+      "png": "exports/focus-utilities.png",
+      "build_checks": {
+        "image_rects_clear_of_all_frames_and_text": true,
+        "text_clear_of_text": true,
+        "all_in_safe_area": true,
+        "microsoft_statement_with_xtra12": true,
+        "problems": []
+      },
+      "panels": [
+        {
+          "panel": "utilities",
+          "label": "Utilities",
+          "role": "focused panel (enlarged)",
+          "asset": "XTRA-13",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_bytes": 17757,
+          "source_mode": "P",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 248,
+          "y": 142,
+          "w": 848,
+          "h": 777,
+          "scale_x": 1.734151,
+          "scale_y": 1.734375,
+          "source_aspect": 1.091518,
+          "placed_aspect": 1.091377,
+          "aspect_rel_error": 0.0001289633191475792,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            241,
+            135,
+            862,
+            791
+          ],
+          "embedded_png_sha256": "d7e22e966f2339615788622d23251d43de7f5fd5f8c542640d0c89059273416f",
+          "credit_record": "assets/historical/XTRA-13/evidence/rights.json#credit_text_proposed",
+          "credit_full": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_on_screen": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+          "credit_edit": "Verbatim. The upstream record marks this credit proposed, not approved (credit_text_approved is null).",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Utilities",
+              "x": 241,
+              "baseline": 110,
+              "size": 40,
+              "bold": true,
+              "box": [
+                241,
+                73,
+                384.0,
+                119
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy,",
+              "x": 241,
+              "baseline": 968.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                241,
+                944.0,
+                1089.953125,
+                974.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "karenware.com — via Internet Archive Wayback Machine",
+              "x": 241,
+              "baseline": 1000.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                241,
+                976.5,
+                892.96875,
+                1006.5
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "business",
+          "label": "Business tools",
+          "role": "context panel (reduced)",
+          "asset": "XTRA-11",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_rel_path": "../../historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_bytes": 66785,
+          "source_mode": "RGB",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 1287,
+          "y": 131,
+          "w": 324,
+          "h": 232,
+          "scale_x": 0.548223,
+          "scale_y": 0.548463,
+          "source_aspect": 1.397163,
+          "placed_aspect": 1.396552,
+          "aspect_rel_error": 0.0004375984596532989,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            124,
+            338,
+            246
+          ],
+          "embedded_png_sha256": "e09a5cabd63a3d9eeaf85e63d7ced0c135a6898b56da866b28d7617889fb5b17",
+          "credit_record": "assets/historical/XTRA-11/evidence/rights.json#credit_text",
+          "credit_full": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_on_screen": "INVOICE-IT for Windows (Eastern Digital Resources). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+          "credit_edit": "Verbatim except that the software year \", 1993\" is left off screen, so the panel cannot be read as a 1993 capture (the pictured form shows the 2016 emulator date). The full record text is kept in delivery.json credits.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Business tools",
+              "x": 1280,
+              "baseline": 101,
+              "size": 32,
+              "bold": true,
+              "box": [
+                1280,
+                72,
+                1511.0,
+                108
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "INVOICE-IT for Windows (Eastern Digital",
+              "x": 1280,
+              "baseline": 412.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                388.0,
+                1750.0,
+                418.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Resources).",
+              "x": 1280,
+              "baseline": 444.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                420.5,
+                1419.0,
+                450.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Screenshot: Internet Archive Software",
+              "x": 1280,
+              "baseline": 477.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                453.0,
+                1709.984375,
+                483.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Library, item MEDLEY_SEC90034.",
+              "x": 1280,
+              "baseline": 509.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                485.5,
+                1678.96875,
+                515.5
+              ]
+            }
+          ]
+        },
+        {
+          "panel": "data-entry",
+          "label": "Data entry",
+          "role": "context panel (reduced)",
+          "asset": "XTRA-12",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_rel_path": "../../historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_bytes": 15084,
+          "source_mode": "P",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 1287,
+          "y": 623,
+          "w": 185,
+          "h": 200,
+          "scale_x": 0.553892,
+          "scale_y": 0.554017,
+          "source_aspect": 0.925208,
+          "placed_aspect": 0.925,
+          "aspect_rel_error": 0.00022455089820361263,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            616,
+            199,
+            214
+          ],
+          "embedded_png_sha256": "7ae1b366bd4dd6b758ef8a0ce73512eeff0f7dca7608eb96a7da88afb42e11b4",
+          "credit_record": "assets/historical/XTRA-12/evidence/rights.json#credit_text",
+          "credit_full": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_on_screen": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+          "credit_edit": "Verbatim; the required Microsoft statement is set on its own line.",
+          "texts": [
+            {
+              "kind": "label",
+              "text": "Data entry",
+              "x": 1280,
+              "baseline": 593,
+              "size": 32,
+              "bold": true,
+              "box": [
+                1280,
+                564,
+                1438.0,
+                600
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Microsoft Corporation, \"Developing",
+              "x": 1280,
+              "baseline": 872.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                848.0,
+                1677.0,
+                878.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Applications with the Microsoft Visual Basic",
+              "x": 1280,
+              "baseline": 904.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                880.5,
+                1772.0,
+                910.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "6.0 Data Object Wizard,\" Figure 16",
+              "x": 1280,
+              "baseline": 937.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                913.0,
+                1676.0,
+                943.0
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "(December 1998).",
+              "x": 1280,
+              "baseline": 969.5,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                945.5,
+                1487.0,
+                975.5
+              ]
+            },
+            {
+              "kind": "credit",
+              "text": "Used with permission from Microsoft.",
+              "x": 1280,
+              "baseline": 1002.0,
+              "size": 26,
+              "bold": false,
+              "box": [
+                1280,
+                978.0,
+                1703.0,
+                1008.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

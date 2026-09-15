@@ -1,0 +1,836 @@
+{
+  "id": "XTRA-14",
+  "title": "Real-world VB application collage",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "derivative composition of historical sources (three upstream archive screenshots, whole and uniformly scaled, with authored labels, frames and credits)",
+  "shared_version": "win95-workbench-1.0.0 (tools/render/studio.py colour tokens and text primitives)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence",
+      "bytes": 445,
+      "sha256": "a27e78a5638deb03a6c2e87dd6fa03dbdb4616ee173584a9d2c4a59c2ec1d775"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence",
+      "bytes": 12347,
+      "sha256": "f07e4cbfbb29f0ab46067ced664e544f4efcb4fa68d02cb7592e1505f671a8f2"
+    },
+    {
+      "path": "evidence/placement-checks.json",
+      "role": "evidence",
+      "bytes": 17140,
+      "sha256": "6f89cdf5481742b4f638dd98f95344e977d4176941ac4e1fdad146b148a0671e"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence",
+      "bytes": 7967,
+      "sha256": "db707f73e62a2bba8f2bdc7cc0b99667fb5cc9be85d2bfba9396b5683a9b655e"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence",
+      "bytes": 155,
+      "sha256": "68bc4263de32449eab5b5ab161ccb1e82c5e77cd652575ae37a04a45b9d91656"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence",
+      "bytes": 4287,
+      "sha256": "c7f644e9a0aa1176f9428c293d849af7ac3f135e746095fac4f5109612482573"
+    },
+    {
+      "path": "exports/collage.png",
+      "role": "rendered still",
+      "bytes": 380006,
+      "sha256": "b94d25d8c3998c27d7694e2102ee7fa65c825b4e7594eedab809a4a99954237f"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still (contact sheet written by render_assets.py)",
+      "bytes": 231785,
+      "sha256": "7db4ff493d71836a2696cdb38458d4910be6ae7a9a1ed2d26124f6a5f717bb80"
+    },
+    {
+      "path": "exports/focus-business.png",
+      "role": "rendered still",
+      "bytes": 307783,
+      "sha256": "3e765406441441c382cd05994ddd4ca3d9a4aff5a6efbc721d64b66a222c0536"
+    },
+    {
+      "path": "exports/focus-data-entry.png",
+      "role": "rendered still",
+      "bytes": 204834,
+      "sha256": "f0bb9f574f4787f04d329913f7ecc768b5fa71952da44fa3a2dec8a7ab133635"
+    },
+    {
+      "path": "exports/focus-utilities.png",
+      "role": "rendered still",
+      "bytes": 397283,
+      "sha256": "804a408bbca1cfafceab71df8dea46222389daf42b1557b75e521f7595727094"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 380006,
+      "sha256": "b94d25d8c3998c27d7694e2102ee7fa65c825b4e7594eedab809a4a99954237f"
+    },
+    {
+      "path": "proofs/collage-1to1-left.png",
+      "role": "QA proof (1:1 native-pixel crop)",
+      "bytes": 138026,
+      "sha256": "07d847db0988ce1ddd840b96aaa04a81366077fda69f1601faf00817ad96c969"
+    },
+    {
+      "path": "proofs/collage-1to1-right.png",
+      "role": "QA proof (1:1 native-pixel crop)",
+      "bytes": 251154,
+      "sha256": "4ef4373f0d3500c5c47f5235aaf47385e05494e25288a6febd5a71201df596d9"
+    },
+    {
+      "path": "proofs/collage-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 290937,
+      "sha256": "1350112f41ffc4f6f2b59ee41d3196d77b5ed031ae2c60ada81116237eebee9c"
+    },
+    {
+      "path": "proofs/focus-business-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 246501,
+      "sha256": "ed4957a8da46825538a772961748eeef89263bbcc195c46f9021161271889a86"
+    },
+    {
+      "path": "proofs/focus-data-entry-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 288215,
+      "sha256": "41a427d4ec53564f4c1ec1b13cc9b9341810ad761d29605f7eb30495510d754e"
+    },
+    {
+      "path": "proofs/focus-utilities-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 295638,
+      "sha256": "b6b553ab3e3e276caa19a977040d5243f55721e4d02a8a14ba3fecd02d2b2097"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 290937,
+      "sha256": "1350112f41ffc4f6f2b59ee41d3196d77b5ed031ae2c60ada81116237eebee9c"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 15867,
+      "sha256": "58e31bfac1742336f47339ed11f744ba5eb2d01332c7c6ba0c6e77d3ebd54ca1"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1353,
+      "sha256": "c26b988032a4c3b8380c7255b61481fe0016d07196bccda6b6eea096c9888cae"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2724,
+      "sha256": "194f8840662e124278131e74c6ca659105cb9f8d11e985749501d4fd49defa6a"
+    },
+    {
+      "path": "src/build.py",
+      "role": "editable source",
+      "bytes": 20969,
+      "sha256": "8a2e0e19dfbf5838e2e4b1f50207d5c38e885e87e4538a78ee2257285a660baf"
+    },
+    {
+      "path": "src/copy.txt",
+      "role": "editable source",
+      "bytes": 42,
+      "sha256": "5f5967a92c7eb5d73964555f164e9b3c2cc61ebfa7f2c34a38381d7c0218771e"
+    },
+    {
+      "path": "src/finalize.py",
+      "role": "editable source",
+      "bytes": 11884,
+      "sha256": "45a1358a0b7ed32165d76e7236190e57679ceb43e3732e2216de1822046c34fe"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 380019,
+      "sha256": "a96f9d610b2a28ad52aa09ee59fd31462c38f24704b40560b448a2bbcc26a266"
+    },
+    {
+      "path": "src/layout.json",
+      "role": "editable source",
+      "bytes": 43595,
+      "sha256": "039876b4beeb1e336e06ed2e77b418dc1d666028fc2e7dc35b739f0f7b7ba4f9"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 603,
+      "sha256": "57cc64aebe80f35c747c6c1b758c40fc827d21330976989ae67f861fe95c22ec"
+    },
+    {
+      "path": "src/variant-collage.svg",
+      "role": "editable source",
+      "bytes": 378048,
+      "sha256": "5097e8a6d4d66c2a280ddddfa853e10bc0573ff65d125c98eab6318e62359900"
+    },
+    {
+      "path": "src/variant-focus-business.svg",
+      "role": "editable source",
+      "bytes": 267707,
+      "sha256": "ea14168e40ec51eccdb01f6e3e780b4ae151d41fb3377934b7d20ed4feefc544"
+    },
+    {
+      "path": "src/variant-focus-data-entry.svg",
+      "role": "editable source",
+      "bytes": 121771,
+      "sha256": "c71adba856d8107be79f3d3fa593880a8b93c42cd9b7cc2fc04d4a4ecf19185c"
+    },
+    {
+      "path": "src/variant-focus-utilities.svg",
+      "role": "editable source",
+      "bytes": 378481,
+      "sha256": "ed7685f774987fde92e02baeb95f91334208c33e2d376791b792c04be23245b0"
+    },
+    {
+      "path": "src/verify.py",
+      "role": "editable source",
+      "bytes": 8512,
+      "sha256": "5714e79dd93c6a18bb84287aaf7281390f7811c709f72c14d2207a5aa6ad2823"
+    }
+  ],
+  "variants": [
+    {
+      "name": "collage",
+      "kind": "still",
+      "timeline": null,
+      "timing": "hold for editorial timing; no named cutdown",
+      "required": true,
+      "files": [
+        "exports/collage.png",
+        "exports/poster.png",
+        "src/variant-collage.svg",
+        "proofs/collage-720.png",
+        "proofs/poster-720.png",
+        "proofs/collage-1to1-left.png",
+        "proofs/collage-1to1-right.png"
+      ],
+      "panels": [
+        "Business tools = XTRA-11 at x132 y253 640x458 (scale 1.0829, collage panel)",
+        "Data entry = XTRA-12 at x818 y253 424x458 (scale 1.2695, collage panel)",
+        "Utilities = XTRA-13 at x1288 y253 500x458 (scale 1.0225, collage panel)"
+      ]
+    },
+    {
+      "name": "focus-business",
+      "kind": "still",
+      "timeline": null,
+      "timing": "hold for editorial timing; no named cutdown",
+      "required": false,
+      "files": [
+        "exports/focus-business.png",
+        "src/variant-focus-business.svg",
+        "proofs/focus-business-720.png"
+      ],
+      "panels": [
+        "Business tools = XTRA-11 at x128 y142 1087x778 (scale 1.8393, focused panel (enlarged))",
+        "Data entry = XTRA-12 at x1287 y131 185x200 (scale 0.5539, context panel (reduced))",
+        "Utilities = XTRA-13 at x1287 y624 252x231 (scale 0.5153, context panel (reduced))"
+      ]
+    },
+    {
+      "name": "focus-data-entry",
+      "kind": "still",
+      "timeline": null,
+      "timing": "hold for editorial timing; no named cutdown",
+      "required": false,
+      "files": [
+        "exports/focus-data-entry.png",
+        "src/variant-focus-data-entry.svg",
+        "proofs/focus-data-entry-720.png"
+      ],
+      "panels": [
+        "Data entry = XTRA-12 at x299 y154 668x722 (scale 2.0000, focused panel (enlarged))",
+        "Business tools = XTRA-11 at x1287 y131 324x232 (scale 0.5482, context panel (reduced))",
+        "Utilities = XTRA-13 at x1287 y624 252x231 (scale 0.5153, context panel (reduced))"
+      ]
+    },
+    {
+      "name": "focus-utilities",
+      "kind": "still",
+      "timeline": null,
+      "timing": "hold for editorial timing; no named cutdown",
+      "required": false,
+      "files": [
+        "exports/focus-utilities.png",
+        "src/variant-focus-utilities.svg",
+        "proofs/focus-utilities-720.png"
+      ],
+      "panels": [
+        "Utilities = XTRA-13 at x248 y142 848x777 (scale 1.7342, focused panel (enlarged))",
+        "Business tools = XTRA-11 at x1287 y131 324x232 (scale 0.5482, context panel (reduced))",
+        "Data entry = XTRA-12 at x1287 y623 185x200 (scale 0.5539, context panel (reduced))"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        685,
+        687
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (VISUAL cue at 687)"
+    },
+    {
+      "path": "../../historical/XTRA-11/source/original.jpg",
+      "asset": "XTRA-11",
+      "panel": "Business tools",
+      "sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+      "bytes": 66785,
+      "native_size": [
+        591,
+        423
+      ],
+      "origin": "https://archive.org/download/MEDLEY_SEC90034/screenshot_01.jpg (Internet Archive Software Library emulator capture; accessed upstream 2026-09-15)",
+      "records": [
+        "../../historical/XTRA-11/delivery.json",
+        "../../historical/XTRA-11/evidence/source.json",
+        "../../historical/XTRA-11/evidence/rights.json",
+        "../../historical/XTRA-11/evidence/provenance.json",
+        "../../historical/XTRA-11/evidence/claim-checks.json"
+      ],
+      "relationship": "historical original (produced upstream asset, read in place; whole image uniformly scaled into the panel; no copy, crop or edit)"
+    },
+    {
+      "path": "../../historical/XTRA-12/source/original.gif",
+      "asset": "XTRA-12",
+      "panel": "Data entry",
+      "sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+      "bytes": 15084,
+      "native_size": [
+        334,
+        361
+      ],
+      "origin": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/images/aa260632.dowwp16(en-us,vs.60).gif (Microsoft Corporation, December 1998 article, Figure 16; accessed upstream 2026-09-15)",
+      "records": [
+        "../../historical/XTRA-12/delivery.json",
+        "../../historical/XTRA-12/evidence/source.json",
+        "../../historical/XTRA-12/evidence/rights.json",
+        "../../historical/XTRA-12/evidence/provenance.json",
+        "../../historical/XTRA-12/evidence/claim-checks.json"
+      ],
+      "relationship": "historical original (produced upstream asset, read in place; whole image uniformly scaled into the panel; no copy, crop or edit)"
+    },
+    {
+      "path": "../../historical/XTRA-13/source/original.gif",
+      "asset": "XTRA-13",
+      "panel": "Utilities",
+      "sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+      "bytes": 17757,
+      "native_size": [
+        489,
+        448
+      ],
+      "origin": "https://web.archive.org/web/20030917004917id_/http://www.karenware.com:80/powertools/images/ptwinwatch.gif (karenware.com image archived 2003-09-17; accessed upstream 2026-09-15)",
+      "records": [
+        "../../historical/XTRA-13/delivery.json",
+        "../../historical/XTRA-13/evidence/source.json",
+        "../../historical/XTRA-13/evidence/rights.json",
+        "../../historical/XTRA-13/evidence/provenance.json",
+        "../../historical/XTRA-13/evidence/claim-checks.json"
+      ],
+      "relationship": "historical original (produced upstream asset, read in place; whole image uniformly scaled into the panel; no copy, crop or edit)"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        742,
+        744
+      ],
+      "relationship": "working-script copy of SCRIPT.md:685-687; read only"
+    }
+  ],
+  "credits": [
+    {
+      "panel": "Business tools",
+      "asset": "XTRA-11",
+      "file": "assets/historical/XTRA-11/source/original.jpg",
+      "credit_on_screen": "INVOICE-IT for Windows (Eastern Digital Resources). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+      "credit_record": "assets/historical/XTRA-11/evidence/rights.json#credit_text",
+      "credit_record_text": "INVOICE-IT for Windows (Eastern Digital Resources, 1993). Screenshot: Internet Archive Software Library, item MEDLEY_SEC90034.",
+      "on_screen_edit": "Verbatim except that the software year \", 1993\" is left off screen, so the panel cannot be read as a 1993 capture (the pictured form shows the 2016 emulator date). The full record text is kept in delivery.json credits.",
+      "rights_status": "unclear",
+      "upstream_release_status": "blocked",
+      "cleared": false
+    },
+    {
+      "panel": "Data entry",
+      "asset": "XTRA-12",
+      "file": "assets/historical/XTRA-12/source/original.gif",
+      "credit_on_screen": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+      "credit_record": "assets/historical/XTRA-12/evidence/rights.json#credit_text",
+      "credit_record_text": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+      "on_screen_edit": "Verbatim; the required Microsoft statement is set on its own line.",
+      "rights_status": "unclear_blocked",
+      "upstream_release_status": "blocked",
+      "cleared": false
+    },
+    {
+      "panel": "Utilities",
+      "asset": "XTRA-13",
+      "file": "assets/historical/XTRA-13/source/original.gif",
+      "credit_on_screen": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+      "credit_record": "assets/historical/XTRA-13/evidence/rights.json#credit_text_proposed",
+      "credit_record_text": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+      "on_screen_edit": "Verbatim. The upstream record marks this credit proposed, not approved (credit_text_approved is null).",
+      "rights_status": "blocked — all rights reserved; no permission on record",
+      "upstream_release_status": "blocked",
+      "cleared": false
+    },
+    {
+      "type": "authored graphics",
+      "credit": "Labels, frames and layout authored for this production with system fonts (Liberation Sans); no font files, stock or office imagery included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "authoring and layout assertions",
+      "command": "python assets/stills/XTRA-14/src/build.py",
+      "result": "passed: upstream SHA-256 equal to each upstream delivery.json; opaque single-frame sources; labels equal ticket copy; no text, frame or image box intersects any image; all frames and text inside 120-1800 x 72-1008; Microsoft statement present with XTRA-12"
+    },
+    {
+      "test": "rasterize still variants",
+      "command": "python tools/render/render_assets.py --id XTRA-14",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: CairoSVG 2.9.1, poster and 4 variants at 1920x1080; no video (still)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, SVG text bounds",
+      "command": "python tools/render/qa_browser.py --id XTRA-14",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: installed Chromium 153.0.8010.12, 4 SVG files, 57 text boxes, out_of_canvas 0, offline True, deterministic True"
+    },
+    {
+      "test": "placed-image pixel integrity, aspect, no overlap, frame outside edges, credits, dates",
+      "command": "python assets/stills/XTRA-14/src/verify.py",
+      "evidence": "evidence/placement-checks.json",
+      "result": "passed: collage: XTRA-11 0/0 px differ, aspect err 1.55e-04, XTRA-12 0/0 px differ, aspect err 6.01e-04, XTRA-13 0/0 px differ, aspect err 1.70e-04, MS statement True, on-screen date-like strings ['1998']; focus-business: XTRA-11 0 px differ, aspect err 6.52e-06, XTRA-12 0 px differ, aspect err 2.25e-04, XTRA-13 0 px differ, aspect err 5.58e-04, MS statement True, on-screen date-like strings ['1998']; focus-data-entry: XTRA-12 0 px differ, aspect err 0.00e+00, XTRA-11 0 px differ, aspect err 4.38e-04, XTRA-13 0 px differ, aspect err 5.58e-04, MS statement True, on-screen date-like strings ['1998']; focus-utilities: XTRA-13 0 px differ, aspect err 1.29e-04, XTRA-11 0 px differ, aspect err 4.38e-04, XTRA-12 0 px differ, aspect err 2.25e-04, MS statement True, on-screen date-like strings ['1998']"
+    },
+    {
+      "test": "manual visual review (full size and 720p)",
+      "result": {
+        "mode": "Full-resolution exports, 1:1 native-pixel crops and 1280x720 proofs, viewed by the producing agent with the Read tool",
+        "scope": "exports/poster.png and exports/collage.png (byte-identical), proofs/collage-1to1-left.png, proofs/collage-1to1-right.png, proofs/poster-720.png, proofs/collage-720.png; exports/focus-business.png, exports/focus-data-entry.png, exports/focus-utilities.png and their -720 proofs.",
+        "status": "Collage: three whole screenshots in one row at a common 458 px height, identical mat/frame outside each image, exact labels, per-panel credits, \"Used with permission from Microsoft.\" on its own line in the brighter colour. No blank panel, no overlap, no crop. 720p: labels, all credits and the Microsoft line legible; XTRA-11 title, menus, field labels, 3379 and 02-27-2016 readable; XTRA-12 every field label, value and drop-down row readable; XTRA-13 title, tree, buttons, counters and status bar readable, detail-pane lines small but legible. Focus variants: enlarged panel clearly readable at 720p; reduced context panels are whole and credited but their UI text is not readable by design. See qa.md."
+      }
+    },
+    {
+      "test": "delivery and pack validators",
+      "command": "python tools/validate_delivery.py --id XTRA-14; python tools/validate_pack.py",
+      "result": "see qa.md (verbatim output of the run after this inventory was written)"
+    }
+  ],
+  "unresolved_gates": [
+    "R11",
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading.",
+    "fonts": "Liberation Sans Regular/Bold resolved by fc-match from C:/WINDOWS/fonts; not distributed",
+    "pillow_resampling": "NEAREST for integer factors, LANCZOS otherwise",
+    "render_commands": [
+      "python assets/stills/XTRA-14/src/build.py",
+      "python tools/render/render_assets.py --id XTRA-14",
+      "python tools/render/qa_browser.py --id XTRA-14",
+      "python assets/stills/XTRA-14/src/verify.py",
+      "python tools/render/finish_delivery.py --deliveries-only --id XTRA-14",
+      "python assets/stills/XTRA-14/src/finalize.py",
+      "python tools/validate_delivery.py --id XTRA-14",
+      "python tools/validate_pack.py"
+    ]
+  },
+  "notes": [
+    "Three labeled panels, exact ticket copy as labels in ticket order: Business tools = XTRA-11 (INVOICE-IT for Windows, VB 2.0), Data entry = XTRA-12 (VB6 Data Object Wizard form, Microsoft figure), Utilities = XTRA-13 (Karen's Window Watcher, VB6).",
+    "Each screenshot is the whole upstream original, uniformly scaled; no crop, rotation, overlap or retouch. A mat and frame sit outside the image edges only. Exact rectangles and scale factors: src/layout.json.",
+    "Every panel carries its own credit from the upstream rights record. The XTRA-12 panel carries \"Used with permission from Microsoft.\" on its own line.",
+    "No capture date, year caption, statistic, user count, revenue, bank/hospital claim or customer data is added. Dates inside the screenshots (02-27-2016 in XTRA-11, 9/3/2003 in XTRA-13) are original pixels and are not captioned.",
+    "Optional focus variants enlarge one panel and keep the other two whole, reduced and credited.",
+    "Release stays blocked under R11 and R14 until the review deck decides; internal proof only.",
+    "Upstream status at use: XTRA-11 production produced, release blocked; XTRA-12 production produced, release blocked; XTRA-13 production produced, release blocked.",
+    "Internal proof only: not placed in any cleared-media bin. Review questions XTRA-14-RQ1..RQ5 in evidence/claim-checks.json."
+  ],
+  "panel_map": {
+    "coordinates": "pixels, origin top-left of the 1920x1080 export; x/y/w/h is the exact placed image rectangle",
+    "frame": {
+      "mat_px": 6,
+      "stroke_px": 2,
+      "extent_outside_image_px": 7,
+      "mat_fill": "#1b2027",
+      "stroke": "#343d48",
+      "background": "#111318"
+    },
+    "variants": {
+      "collage": [
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "collage panel",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 132,
+          "y": 253,
+          "w": 640,
+          "h": 458,
+          "scale_x": 1.08291,
+          "scale_y": 1.082742,
+          "aspect_rel_error": 0.00015516591669806346,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            125,
+            246,
+            654,
+            472
+          ]
+        },
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "collage panel",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 818,
+          "y": 253,
+          "w": 424,
+          "h": 458,
+          "scale_x": 1.269461,
+          "scale_y": 1.268698,
+          "aspect_rel_error": 0.0006014172528305828,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            811,
+            246,
+            438,
+            472
+          ]
+        },
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "collage panel",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 1288,
+          "y": 253,
+          "w": 500,
+          "h": 458,
+          "scale_x": 1.022495,
+          "scale_y": 1.022321,
+          "aspect_rel_error": 0.00016967164072489993,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1281,
+            246,
+            514,
+            472
+          ]
+        }
+      ],
+      "focus-business": [
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "focused panel (enlarged)",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 128,
+          "y": 142,
+          "w": 1087,
+          "h": 778,
+          "scale_x": 1.839255,
+          "scale_y": 1.839243,
+          "aspect_rel_error": 6.52460428285373e-06,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            121,
+            135,
+            1101,
+            792
+          ]
+        },
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 1287,
+          "y": 131,
+          "w": 185,
+          "h": 200,
+          "scale_x": 0.553892,
+          "scale_y": 0.554017,
+          "aspect_rel_error": 0.00022455089820361263,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            124,
+            199,
+            214
+          ]
+        },
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 1287,
+          "y": 624,
+          "w": 252,
+          "h": 231,
+          "scale_x": 0.515337,
+          "scale_y": 0.515625,
+          "aspect_rel_error": 0.00055772448410496,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            617,
+            266,
+            245
+          ]
+        }
+      ],
+      "focus-data-entry": [
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "focused panel (enlarged)",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 299,
+          "y": 154,
+          "w": 668,
+          "h": 722,
+          "scale_x": 2.0,
+          "scale_y": 2.0,
+          "aspect_rel_error": 0.0,
+          "resampling": "nearest-neighbour, integer 2x",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            292,
+            147,
+            682,
+            736
+          ]
+        },
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 1287,
+          "y": 131,
+          "w": 324,
+          "h": 232,
+          "scale_x": 0.548223,
+          "scale_y": 0.548463,
+          "aspect_rel_error": 0.0004375984596532989,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            124,
+            338,
+            246
+          ]
+        },
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 1287,
+          "y": 624,
+          "w": 252,
+          "h": 231,
+          "scale_x": 0.515337,
+          "scale_y": 0.515625,
+          "aspect_rel_error": 0.00055772448410496,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            617,
+            266,
+            245
+          ]
+        }
+      ],
+      "focus-utilities": [
+        {
+          "asset": "XTRA-13",
+          "label": "Utilities",
+          "role": "focused panel (enlarged)",
+          "source_file": "assets/historical/XTRA-13/source/original.gif",
+          "source_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+          "source_size": [
+            489,
+            448
+          ],
+          "x": 248,
+          "y": 142,
+          "w": 848,
+          "h": 777,
+          "scale_x": 1.734151,
+          "scale_y": 1.734375,
+          "aspect_rel_error": 0.0001289633191475792,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            241,
+            135,
+            862,
+            791
+          ]
+        },
+        {
+          "asset": "XTRA-11",
+          "label": "Business tools",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-11/source/original.jpg",
+          "source_sha256": "5b89f93e6161e24531c9236eabc58432dc97bc6da2d6569cfc35c9cc4608a318",
+          "source_size": [
+            591,
+            423
+          ],
+          "x": 1287,
+          "y": 131,
+          "w": 324,
+          "h": 232,
+          "scale_x": 0.548223,
+          "scale_y": 0.548463,
+          "aspect_rel_error": 0.0004375984596532989,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            124,
+            338,
+            246
+          ]
+        },
+        {
+          "asset": "XTRA-12",
+          "label": "Data entry",
+          "role": "context panel (reduced)",
+          "source_file": "assets/historical/XTRA-12/source/original.gif",
+          "source_sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+          "source_size": [
+            334,
+            361
+          ],
+          "x": 1287,
+          "y": 623,
+          "w": 185,
+          "h": 200,
+          "scale_x": 0.553892,
+          "scale_y": 0.554017,
+          "aspect_rel_error": 0.00022455089820361263,
+          "resampling": "Pillow LANCZOS (non-integer factor)",
+          "crop": null,
+          "rotation_deg": 0,
+          "frame_outer": [
+            1280,
+            616,
+            199,
+            214
+          ]
+        }
+      ]
+    },
+    "full_record": "src/layout.json (includes every label and credit text box); pixel verification in evidence/placement-checks.json"
+  }
+}
