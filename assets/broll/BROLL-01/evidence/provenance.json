@@ -1,6 +1,6 @@
 {
   "id": "BROLL-01",
-  "provenance_type": "stock footage scouting record (no media acquired)",
+  "provenance_type": "stock footage scouting record plus one acquired original (rank 1 acquired; ranks 2-3 not acquired)",
   "access_date": "2026-09-15",
   "source_files": [
     {
@@ -20,14 +20,23 @@
     "shot_request": "source-derived (ASSET_PLAN.md:117, SCRIPT.md:800)",
     "candidates": "external third-party stock candidates, inspected on the hosting page on 2026-09-15; not acquired",
     "license_evidence": "external web text read on the asset page and license page on 2026-09-15; recorded in evidence/candidates.json",
-    "proposed_in_out": "authored production choice by this worker, based on in-page preview frames (see qa.md)",
-    "rankings_and_fit_notes": "authored editorial judgement by this worker"
+    "proposed_in_out": "authored production choice by this worker, based on in-page preview frames (see qa.md); confirmed on 2026-09-15 against the acquired original",
+    "rankings_and_fit_notes": "authored editorial judgement by this worker",
+    "acquired_original": "third-party stock original, downloaded unmodified on 2026-09-15 under the Mixkit Stock Video Free License; see source/source.json",
+    "extracted_frames": "derivative stills extracted by this worker from the acquired original with ffmpeg, for inspection evidence only (evidence/frames/)"
   },
   "external_sources": [
     {
       "url": "https://mixkit.co/free-stock-video/deck-of-cards-being-shuffled-100384/",
-      "relationship": "stock candidate (rank 1)",
-      "acquired": false
+      "relationship": "stock candidate (rank 1) — ACQUIRED",
+      "acquired": true,
+      "acquired_on": "2026-09-15",
+      "approved_by": "Devin, 2026-09-15, relayed via the B-roll Scouting Manager (session vb-bf)",
+      "local_path": "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4",
+      "bytes": 73935932,
+      "sha256": "65b65dd09d9fcb074304b9e33123aaa6d4dd0da2906833a36c2b0c8727f73ff2",
+      "bytes_url": "https://assets.mixkit.co/active_storage/video_items/100384/1723577320/100384-video-1080.mp4",
+      "source_record": "source/source.json"
     },
     {
       "url": "https://mixkit.co/free-stock-video/person-shuffling-playing-cards-over-green-table-100398/",
@@ -54,10 +63,12 @@
     "Candidate ranking, visual-fit notes, proposed in/out timecodes, and proposed local filenames.",
     "Review questions in evidence/claim-checks.json."
   ],
-  "producer_decisions": [],
-  "transformations": "None. No media file was downloaded, copied, transcoded, cropped or captured into the repository.",
+  "producer_decisions": [
+    "2026-09-15: Devin approved downloading the rank 1 clip (Mixkit 100384, Full HD option, 70.51 MB), relayed to this worker by the B-roll Scouting Manager (session vb-bf). Ranks 2 and 3 were not approved and were not downloaded. The approval covers acquisition only; release clearance is unchanged."
+  ],
+  "transformations": "The acquired original (source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4) is unmodified: no re-encode, trim, crop, scale, or watermark alteration. Four PNG stills under evidence/frames/ were extracted from it with ffmpeg for inspection; three are full-resolution 1920x1080 and one is a 1280x720 downscale of the in-point frame for 720p review. No other media was downloaded or captured.",
   "notes": [
-    "Preview frames were viewed in the in-page HTML5 player (720p preview stream) in the Claude Browser pane; no screenshot image files were saved to the repository because the browser tool returns screenshots to the agent only.",
+    "Preview frames were viewed in the in-page HTML5 player (720p preview stream) in the Claude Browser pane during scouting; no screenshot image files were saved to the repository because the browser tool returns screenshots to the agent only. The frames under evidence/frames/ are a separate, later extraction from the acquired original.",
     "Pexels individual video pages could not be inspected: WebFetch returned HTTP 403 and the browser showed a Cloudflare 'Performing security verification' interstitial that did not clear after waiting; not bypassed."
   ]
 }

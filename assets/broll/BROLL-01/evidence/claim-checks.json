@@ -14,8 +14,26 @@
         "evidence/candidates.json",
         "exports/candidates.md",
         "exports/acquisition-handoff.md",
-        "evidence/source-excerpts.md"
+        "evidence/source-excerpts.md",
+        "source/source.json",
+        "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4",
+        "evidence/frames/frame-in-05.000s.png",
+        "evidence/frames/frame-mid-10.500s.png",
+        "evidence/frames/frame-out-16.000s.png",
+        "evidence/frames/frame-in-05.000s-720p.png"
       ],
+      "acquisition_evidence": {
+        "status": "rank 1 acquired 2026-09-15; rights recorded, NOT cleared. R14 stays open.",
+        "approved_by": "Devin, 2026-09-15, relayed via the B-roll Scouting Manager (session vb-bf); acquisition only, not release.",
+        "file": "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4",
+        "bytes": 73935932,
+        "sha256": "65b65dd09d9fcb074304b9e33123aaa6d4dd0da2906833a36c2b0c8727f73ff2",
+        "access_path_observed": "The approved download URL returned the Mixkit download modal (HTML, 2738 bytes) naming the asset URL; the bytes were fetched from that URL. No login, payment, CAPTCHA, bot check or terms click-through was encountered or bypassed. The no-login download path is now exercised, not merely observed.",
+        "watermark_check": "No watermark, caption, logo or bug in any of the three full-resolution frames inspected (5.0 s, 10.5 s, 16.0 s). The preview-page assumption is now confirmed on the delivered original.",
+        "audio_check": "ffprobe shows no audio stream at all, so the 'narration' risk is closed: there is no audio to clear.",
+        "casino_layout_confirmed": "Yes, and slightly stronger than scouting recorded. The printed casino felt is visible throughout the selected 5.0-16.0 s segment: a large yellow numeral '10' across the top edge, curved and straight white betting lines, and — new at the 16.0 s out point — partial white upside-down lettering reading '...EX...' at the right edge, consistent with a 'TEXAS HOLD'EM' table layout. Scouting had noted felt lettering only at 19.1 s, outside the cut; it is in fact inside the cut. No brand name, casino name, or logo was identified at full resolution.",
+        "third_party_designs_at_full_resolution": "Card backs are a bold abstract black-and-white geometric pattern with no legible brand, maker's mark or text (checked at 1920x1080 at 5.0 s and 10.5 s). Card faces are never shown in the selected segment. The felt layout is a generic poker/Texas Hold'em betting diagram. Whether these unbranded third-party designs need clearance under Mixkit User Terms s.13 is still a judgement call, not an evidence question."
+      },
       "per_candidate": [
         {
           "candidate": "Mixkit 100384 'Deck of Cards Being Shuffled'",
@@ -24,9 +42,9 @@
           "file_specific_terms": "Asset page: 'Download this free stock video clip for commercial or personal use, under the Mixkit Stock Video Free License.'",
           "license_url": "https://mixkit.co/license/",
           "user_terms_url": "https://mixkit.co/terms/",
-          "access_method": "Public asset page, no login; download not performed",
+          "access_method": "Public asset page, no login. Download PERFORMED 2026-09-15 under Devin's approval; no gate encountered.",
           "credit": "Not required; suggested 'Footage: Mixkit' (authored suggestion)",
-          "open_risk": "Printed casino felt layout visible (third-party table design, unbranded as far as seen). Terms s.13 (via WebFetch summary) says components such as trade marks may come from third parties and are the user's responsibility."
+          "open_risk": "Printed casino felt layout visible throughout the selected segment (third-party table design; no brand or logo identified at full resolution, partial 'TEXAS HOLD'EM'-style lettering at the out point). Terms s.13 (via WebFetch summary) says components such as trade marks may come from third parties and are the user's responsibility."
         },
         {
           "candidate": "Mixkit 100398 'Person shuffling playing cards over green table'",
@@ -53,10 +71,15 @@
       ],
       "license_evidence_quality": "The license modal text was read directly from the rendered page DOM (class license-modal__inner) on 2026-09-15. The User Terms limits come from a WebFetch model summary of https://mixkit.co/terms/ (reported 'last revised October 2, 2025') and were not read verbatim.",
       "review_questions": [
-        "Taste: is the printed casino-table felt in rank 1 (100384) acceptable for a family card game (War) segment, or should the plain-felt rank 2 (100398) lead despite its 0.5 s handles and flourish-style motion?",
-        "Legal risk: are visible card-back and table-layout designs (possible third-party components under Mixkit User Terms s.13) acceptable without further clearance?",
-        "Boundary: approve the batched download of rank 1 Full HD (70.51 MB), or all three (173.39 MB), per exports/acquisition-handoff.md?",
+        "Taste (sharpened after acquisition): the printed casino felt is more present in the cut than scouting implied — a yellow '10', white betting lines throughout, and partial 'TEXAS HOLD'EM'-style lettering entering frame at the 16.0 s out point. Is that acceptable for a family card-game (War) segment, or should the cut end earlier (about 14.5 s, before the lettering clears the fingers), or should the plain-felt rank 2 (100398) be acquired instead despite its 0.5 s handles and flourish-style motion?",
+        "Legal risk: are the visible card-back pattern and table-layout design (unbranded third-party components under Mixkit User Terms s.13) acceptable without further clearance?",
         "Evidence: is the WebFetch summary of the Mixkit User Terms sufficient, or should the Terms be read verbatim before release?"
+      ],
+      "review_questions_resolved": [
+        {
+          "question": "Boundary: approve the batched download of rank 1 Full HD (70.51 MB), or all three (173.39 MB)?",
+          "resolution": "Devin approved rank 1 only on 2026-09-15. Acquired; ranks 2 and 3 were not downloaded. This question is closed."
+        }
       ]
     }
   ]
