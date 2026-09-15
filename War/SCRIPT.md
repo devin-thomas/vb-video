@@ -63,7 +63,7 @@ Let's go.
 
 ## SECTION 2: A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC
 
-**[VISUAL: Black and white photo of Kemeny and Kurtz at Dartmouth, 1964. Old terminal hardware. Transition to a green-screen terminal showing BASIC code.]**
+**[VISUAL: Black and white photo of Kemeny and Kurtz at Dartmouth, c. 1969 (Kiewit Computation Center). Old terminal hardware. Transition to a green-screen terminal showing BASIC code.]**
 
 **NARRATION:**
 
@@ -94,7 +94,7 @@ Now, fast-forward to 1991. Microsoft has Windows 3.0, and Windows programming is
 
 A guy named Alan Cooper had built a prototype of a drag-and-drop interface builder. He called it "Tripod." You could take a blank window and just... drop a button onto it. Drop a text box. Drop a label. And it would wire up the event handling for you. Microsoft saw this, bought it, married it to a BASIC dialect, and in May of 1991, Visual Basic 1.0 was born.
 
-**[VISUAL: Screenshot of VB 1.0 IDE — the form designer, the toolbox, the properties window. It looks primitive but recognizable.]**
+**[VISUAL: Screenshot of VB 1.0 IDE — the form designer, the toolbox, the properties bar. It looks primitive but recognizable.]**
 
 And it changed everything.
 
@@ -114,7 +114,7 @@ That's it. Three lines. You hit F5, the program ran, the button worked. The gap 
 
 VB 1.0 came out in 1991 for Windows 3.0. VB 2.0 in 1992. VB 3.0 in 1993 added database support through something called the Jet engine — yes, the same engine inside Microsoft Access. VB 4.0 in 1995 was the first version that could compile to 32-bit code for Windows 95. And that's right around the era we're talking about today — 1995, 1996. VB4 was the current version. Windows 95 was brand new and everyone was excited about the Start menu.
 
-**[VISUAL: Windows 95 launch footage — the Rolling Stones, the lines outside CompUSA, the startup sound.]**
+**[VISUAL: Windows 95 launch footage — Microsoft's Redmond launch event, midnight store lines, the "Start Me Up" campaign, the startup sound.]**
 
 VB 5.0 would come in 1997 and VB 6.0 in 1998 — that last one became the version people remember most fondly. But the spirit of the language, the way you actually thought about problems and wrote code? That was all established by VB4.
 
@@ -130,7 +130,7 @@ So what did it actually look like to set up a Visual Basic development environme
 
 You went to a store. A physical store — CompUSA, Egghead Software, maybe a Babbage's in the mall. You bought a box. Inside the box was either a set of 3.5-inch floppy disks or, if you were lucky and had a CD-ROM drive, a single disc. You ran the installer, it unpacked onto your hard drive, and you had an integrated development environment — an IDE — that looked like a Windows application.
 
-**[VISUAL: Side-by-side — the VB4 IDE with labeled callouts: Form Designer, Toolbox, Properties Window, Code Window, Project Explorer.]**
+**[VISUAL: Side-by-side — the VB4 IDE with labeled callouts: Form Designer, Toolbox, Properties Window, Code Window, Project Window.]**
 
 This IDE had a few key pieces. On the left, you had a toolbox — a vertical strip of icons for things like buttons, text boxes, labels, picture boxes, timers, scroll bars. In the center was your form — a blank gray window that you designed visually. On the right was the properties panel, where you could set things like the caption on a button or the font size of a label. And behind all of it was the code window, where you wrote your actual BASIC.
 
@@ -703,11 +703,11 @@ First: you weren't using Visual Basic. Microsoft never actually shipped Visual B
 
 **[VISUAL: Text card or graphic noting that Visual Basic for Mac was never released. Alternatively, a screenshot of Microsoft QuickBASIC for Apple Macintosh if a rights-cleared image can be sourced.]**
 
-On a Mac in 1995, you'd probably be using **Metrowerks CodeWarrior**. This was the dominant development environment for the Mac through most of the 90s. It used C and C++ and compiled for both the old Motorola 68k chips and the newer PowerPC architecture. The Mac Toolbox API — the equivalent of the Windows API — was C-based, and CodeWarrior was how most Mac developers interacted with it.
+On a Mac in 1995, you'd probably be using **Metrowerks CodeWarrior**. This was the dominant development environment for the Mac from the mid-90s onward. It used C and C++ and compiled for both the old Motorola 68k chips and the newer PowerPC architecture. The Mac Toolbox API — the equivalent of the Windows API — was C-based, and CodeWarrior was how most Mac developers interacted with it.
 
 **[VISUAL: Screenshot of CodeWarrior IDE. It looks like a Mac app — more polished than the VB IDE, arguably.]**
 
-Now, here's a misconception I want to address: Objective-C. Some people assume that Mac programming in the 90s meant Objective-C. It didn't. Objective-C was a NeXTSTEP language — it was the language of Steve Jobs's other company, NeXT, and the NeXTSTEP operating system. In 1995, NeXT was a niche company selling expensive workstations to universities and Wall Street. Regular Mac developers weren't using Objective-C at all.
+Now, here's a misconception I want to address: Objective-C. Some people assume that Mac programming in the 90s meant Objective-C. It didn't. Objective-C was a NeXTSTEP language — it was the language of Steve Jobs's other company, NeXT, and the NeXTSTEP operating system. In 1995, NeXT was a niche software company — it had stopped making its famous workstations two years earlier — selling its operating system and developer tools to universities and Wall Street. Regular Mac developers weren't using Objective-C at all.
 
 **[VISUAL: A NeXT cube. The iconic black magnesium case. Very cool, very expensive, very niche.]**
 
