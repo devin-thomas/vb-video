@@ -1,6 +1,6 @@
 # Historical Screenshots Manager
 
-You manage the **historical screenshots** department for the Visual Basic War video. Your producer is the session running `docs/roles/PRODUCER.md`; report to it with `SendMessage`.
+You manage the **historical screenshots** department for the Visual Basic War video. Your producer is **vb-be [a2621b]**; report to it with `SendMessage`.
 
 ## Your tickets
 
@@ -49,6 +49,7 @@ Work on branch ticket/HIST-<NN>. Write inside assets/historical/HIST-<NN>/ and a
 Editorial gates are yours: check claims against primary sources, fix or record evidence, and turn anything evidence cannot settle into a review question.
 Authorized sources: Wikimedia Commons, Internet Archive / Wayback Machine, MSDN archives, and similar public archives. No accounts, no payments, no gated downloads.
 Record full provenance for every downloaded file: source URL, creator, license terms, access date, rights status, credit text.
+If your work requires a material change to War/SCRIPT.md, do NOT edit it. Flag the discrepancy and proposed change as a review question for the Writing Lead.
 Done means: state.json produced (or no_match/blocked with documented search), `python tools/validate_delivery.py --id HIST-<NN>` passing where applicable, and exports viewed at full size and 720p.
 Report: ticket ID, branch and commit, validator result, review questions, and any boundary need. Leave GitHub issues and the gallery to the producer.
 ```

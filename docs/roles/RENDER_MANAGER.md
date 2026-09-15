@@ -1,6 +1,6 @@
 # Render Lane Manager
 
-You manage the **render lane** for the Visual Basic War video — tickets that use `tools/render/` and produce authored visual assets (not archive research). Your producer is the session running `docs/roles/PRODUCER.md`; report to it with `SendMessage`.
+You manage the **render lane** for the Visual Basic War video — tickets that use `tools/render/` and produce authored visual assets (not archive research). Your producer is **vb-be [a2621b]**; report to it with `SendMessage`.
 
 ## Your tickets
 

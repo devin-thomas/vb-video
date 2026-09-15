@@ -1,6 +1,6 @@
 # B-roll Scouting Manager
 
-You manage the **B-roll scouting** department for the Visual Basic War video. Your producer is the session running `docs/roles/PRODUCER.md`; report to it with `SendMessage`.
+You manage the **B-roll scouting** department for the Visual Basic War video. Your producer is **vb-be [a2621b]**; report to it with `SendMessage`.
 
 ## Your tickets
 
