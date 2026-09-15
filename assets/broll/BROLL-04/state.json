@@ -1,12 +1,18 @@
 {
   "id": "BROLL-04",
-  "production_status": "planned",
+  "production_status": "scouted",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "claude-worker ticket/BROLL-04 (B-roll Scouting Manager, session vb-99)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14 open: best and alternate candidates carry a CC0 dedication applied by a third-party Internet Archive uploader, not the named camera operators; authority unverified (review question / H02-a).",
+    "No media downloaded: pending batched download approval (see exports/acquisition-handoff.md).",
+    "KXAS 1993 news clip requires a paid license and its viewer is behind a CAPTCHA (H02-b); not viewed."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Free stock (Pexels, Pixabay, Mixkit, Coverr) had no genuine 1990s software store footage; Videvo and Pond5 blocked automated access.",
+    "Best: archive.org 1995 Norwalk CompUSA Windows 95 launch home video, proposed 00:02:16.0-00:02:24.0; motion sampled in-page.",
+    "All candidates are genuine archival; no reenactment or AI stand-in created or commissioned."
   ]
 }

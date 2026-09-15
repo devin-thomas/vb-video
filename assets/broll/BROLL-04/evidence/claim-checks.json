@@ -1,0 +1,58 @@
+{
+  "id": "BROLL-04",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "open",
+      "approver": null,
+      "reason": null,
+      "checked_on": "2026-09-15",
+      "plan_assumption_checked": "ASSET_PLAN.md:120 says the shot 'may need YouTube archival footage or AI-generated stand-in'. Checked: a YouTube-hosted clip carries no reuse permission, so YouTube leads are rights-blocked. Free stock (Pexels, Pixabay, Mixkit, Coverr) has no genuine 1990s software store footage. Archive-hosted home video exists with an uploader-asserted CC0.",
+      "evidence_paths": ["exports/candidates.md", "evidence/candidates.json", "exports/acquisition-handoff.md", "evidence/provenance.json"],
+      "per_candidate": [
+        {
+          "candidate": 1,
+          "asset_page": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+          "original_rights_holder": "Presumed the camera operator; item names creator 'Dan Lynch', whose YouTube channel @danlynch203 hosts the named original. Not confirmed.",
+          "file_specific_terms": "Item page: CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)",
+          "who_applied_terms": "IA uploader 'The Nostalgist777', not shown to be the creator",
+          "access_method": "Public IA item page; download options listed without login",
+          "credit": "Suggested if used: 'Windows 95 launch, CompUSA Norwalk CT, 1995. Video: Dan Lynch (via Internet Archive)'. Pending rights review",
+          "finding": "Terms recorded, but the authority to dedicate to CC0 is unverified. CC deed: 'Creative Commons has not verified the copyright status of any work to which CC0 has been applied.' IA: 'does not make guarantees as to the copyright status of items'.",
+          "status": "open: rights uncertain"
+        },
+        {
+          "candidate": 2,
+          "asset_page": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3",
+          "original_rights_holder": "Presumed the camera operator; item names creator 'Ted Spero', whose YouTube channel @tedspero4545 hosts the named originals. Not confirmed.",
+          "file_specific_terms": "Item page: CC0 1.0 Universal",
+          "who_applied_terms": "IA uploader 'The Nostalgist777', not shown to be the creator; description says 'Videos trimmed'",
+          "access_method": "Public IA item page; download options listed without login",
+          "credit": "Suggested if used: 'Windows 95 launch, CompUSA New York, 1995. Video: Ted Spero (via Internet Archive)'. Pending rights review",
+          "finding": "Same as candidate 1.",
+          "status": "open: rights uncertain"
+        },
+        {
+          "candidate": 3,
+          "asset_page": "https://texashistory.unt.edu/ark:/67531/metadc2152255/",
+          "original_rights_holder": "NBC5/KXAS-TV (catalog rights holder)",
+          "file_specific_terms": "http://rightsstatements.org/vocab/InC/1.0/ (In Copyright); may be licensed per UNT Special Collections policies",
+          "access_method": "Viewer behind CAPTCHA; license by request form",
+          "credit": "Preferred citation: 'NBC 5/KXAS Television News Collection (AR0776), University of North Texas Special Collections'",
+          "finding": "Rights-blocked pending paid license (beginning rate $90/second per UNT FAQ).",
+          "status": "blocked"
+        }
+      ],
+      "boundary_compliance": "No account created, no terms accepted, no payment, no CAPTCHA bypass (stopped at UNT and Pond5), no watermark removal, no download.",
+      "review_questions": [
+        "Legal risk: is the IA item-page CC0 dedication, applied by a third-party uploader rather than the named camera operators, acceptable for use in a public YouTube video, or must Devin obtain written permission from Dan Lynch / Ted Spero first (H02-a)?",
+        "Legal risk / privacy: the home video shows identifiable members of the public and store staff. Is that acceptable as incidental B-roll?",
+        "Taste: the best footage is launch-night event footage (balloons, crowd, a promoter in a Microsoft Office box costume), not a quiet everyday browse. Does that fit script sections 3 and 12, or does it read as 'Windows 95 launch' rather than 'buying software in the 90s'?",
+        "Taste / technical: source is SD 854x480 camcorder video. Upscale with a 4:3 pillarbox, crop to 16:9, or present in an 'archival' frame treatment?",
+        "Cost: is licensing the 1993 KXAS broadcast clip (beginning rate $90/second, not yet viewed) worth pursuing if the home-video rights cannot be confirmed?",
+        "Scope: if no archival rights path is acceptable, does Devin want a separately approved and labeled AI stand-in or staged reenactment assignment? (Not commissioned by this ticket.)"
+      ]
+    }
+  ]
+}
