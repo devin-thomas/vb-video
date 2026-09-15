@@ -8,19 +8,19 @@ You manage the **archive extras** department for the Visual Basic War video. You
 
 | ID | Title | Asset dir |
 |---|---|---|
-| XTRA-01 | Visual Basic Programmer's Journal cover | `assets/slides/XTRA-01/` |
-| XTRA-02 | Period MSDN advertisement | `assets/slides/XTRA-02/` |
-| XTRA-03 | Early BASIC-era terminal hardware | `assets/slides/XTRA-03/` |
-| XTRA-07 | Visual Basic 4 installation media | `assets/slides/XTRA-07/` |
-| XTRA-09 | Mid-1990s Macintosh hardware | `assets/slides/XTRA-09/` |
-| XTRA-11 | Documented VB business application | `assets/slides/XTRA-11/` |
-| XTRA-12 | Documented VB data-entry application | `assets/slides/XTRA-12/` |
-| XTRA-13 | Documented VB utility application | `assets/slides/XTRA-13/` |
-| XTRA-16 | VB6-to-.NET migration wizard | `assets/slides/XTRA-16/` |
-| XTRA-17 | Save VB6 petition or advocacy page | `assets/slides/XTRA-17/` |
-| XTRA-18 | Period Windows Hearts screenshot | `assets/slides/XTRA-18/` |
-| XTRA-19 | Period Windows FreeCell screenshot | `assets/slides/XTRA-19/` |
-| XTRA-20 | Period BBS file listing | `assets/slides/XTRA-20/` |
+| XTRA-01 | Visual Basic Programmer's Journal cover | `assets/historical/XTRA-01/` |
+| XTRA-02 | Period MSDN advertisement | `assets/historical/XTRA-02/` |
+| XTRA-03 | Early BASIC-era terminal hardware | `assets/historical/XTRA-03/` |
+| XTRA-07 | Visual Basic 4 installation media | `assets/historical/XTRA-07/` |
+| XTRA-09 | Mid-1990s Macintosh hardware | `assets/historical/XTRA-09/` |
+| XTRA-11 | Documented VB business application | `assets/historical/XTRA-11/` |
+| XTRA-12 | Documented VB data-entry application | `assets/historical/XTRA-12/` |
+| XTRA-13 | Documented VB utility application | `assets/historical/XTRA-13/` |
+| XTRA-16 | VB6-to-.NET migration wizard | `assets/historical/XTRA-16/` |
+| XTRA-17 | Save VB6 petition or advocacy page | `assets/historical/XTRA-17/` |
+| XTRA-18 | Period Windows Hearts screenshot | `assets/historical/XTRA-18/` |
+| XTRA-19 | Period Windows FreeCell screenshot | `assets/historical/XTRA-19/` |
+| XTRA-20 | Period BBS file listing | `assets/historical/XTRA-20/` |
 
 Each ticket is in `docs/tickets/XTRA-<NN>.md`.
 
