@@ -663,7 +663,7 @@ This same code — the structures, the shuffle, the deck management — could be
 
 ## SECTION 14: VB vs. THE COMPETITION IN 1995
 
-**[VISUAL: A "class photo" lineup of 1995 development tools — boxes/logos for Visual Basic 4, Visual C++ 4, Borland Delphi 1.0, PowerBuilder, Java 1.0. Maybe arranged like a bracket tournament.]**
+**[VISUAL: A "class photo" lineup of 1995 development tools — boxes/logos for Visual Basic 4, Visual C++ 4, Borland Delphi 1.0, PowerBuilder, Java. Maybe arranged like a bracket tournament.]**
 
 **NARRATION:**
 
@@ -683,7 +683,7 @@ Delphi never caught VB in market share, though. VB had Microsoft behind it, and 
 
 **[VISUAL: A PowerBuilder DataWindow. Very corporate. Very 1995.]**
 
-And then there was **Java**, which Sun Microsystems released in 1995 with the slogan "Write Once, Run Anywhere." Java was the future — everyone knew it. But in 1995, Java was brand new, brutally slow, had almost no libraries, and its GUI toolkit — AWT — was so ugly it could make you cry. Java would eventually eat the world, but not yet. Not in 1995.
+And then there was **Java**, which Sun Microsystems unveiled in 1995 with the slogan "Write Once, Run Anywhere" and shipped as version 1.0 in January 1996. Java was the future — everyone knew it. But in 1995, Java was brand new, brutally slow, had almost no libraries, and its GUI toolkit — AWT — was so ugly it could make you cry. Java would eventually eat the world, but not yet. Not in 1995.
 
 **[VISUAL: A Java AWT application. The buttons look wrong on every platform.]**
 
