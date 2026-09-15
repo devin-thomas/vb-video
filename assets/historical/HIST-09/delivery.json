@@ -1,0 +1,283 @@
+{
+  "id": "HIST-09",
+  "title": "CompUSA storefront",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/archive-records/ia-norwalk-metadata.json",
+      "role": "evidence / QA",
+      "bytes": 7462,
+      "sha256": "8342e90399af59c48b039d858d55a1c48284ddb226a465f798196ea5b6d65576"
+    },
+    {
+      "path": "evidence/archive-records/ia-nyc-metadata.json",
+      "role": "evidence / QA",
+      "bytes": 26567,
+      "sha256": "9ce691cc764be50937b94dd81bd97938d700395b7881f367d6c050d58ea8e60f"
+    },
+    {
+      "path": "evidence/archive-records/ia-vampirerobot-metadata.json",
+      "role": "evidence / QA",
+      "bytes": 8905,
+      "sha256": "d6616157d4d19f0da86cbba306ab2a10ff623095c6062cf8f8fc5ee06d6e7b95"
+    },
+    {
+      "path": "evidence/archive-records/youtube-originals.json",
+      "role": "evidence / QA",
+      "bytes": 3167,
+      "sha256": "6118c47bd3de3d3a7c53796a19cce5ce958645dee45ab06a8ffed2dff3eaedc6"
+    },
+    {
+      "path": "evidence/candidates/candidate-2-nyc-compusa-pt3-406s.png",
+      "role": "rejected candidate frame (evidence)",
+      "bytes": 590498,
+      "sha256": "1e9fe93c0704a01fe51e7a9c123669d584bf274fd4d0da4ede35eca7ed3ea19b"
+    },
+    {
+      "path": "evidence/candidates/candidate-3-nyc-compusa-daytime-42s.png",
+      "role": "rejected candidate frame (evidence)",
+      "bytes": 338622,
+      "sha256": "2c199e61f472a507c80916942e2aaac391f69419981a8c16e1dc9afa7ef41b69"
+    },
+    {
+      "path": "evidence/candidates/candidates.json",
+      "role": "evidence / QA",
+      "bytes": 5805,
+      "sha256": "1cba4db710c654f5180c75fdf1298b56923f6c67a3e659d946e5a0b65604c749"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 4429,
+      "sha256": "bb360e9a8927c3484fe7c890485693f60037d477fb7ea2e7dd8d540c55275b1d"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1003,
+      "sha256": "3d8c2c86cead863f8551cbea208ff4b2b5290c620d9ddb7d907c44bdb302c114"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2674,
+      "sha256": "fcade285e83b3150cea36fed7be31f84562d8d327416b836f06387944569ff82"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 2693,
+      "sha256": "86d17c171f88fe7fa09e0aff67bcb04df13a096827b76b85c9d859f9934dccd4"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2627,
+      "sha256": "1d3b1ba27215cfb634aadb6eaae0d10c296219445491bbe4dffcc71c12bf7098"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 4869,
+      "sha256": "828b76ed55ef1df2bcf05dc72ab8e8e585f67b9c765f86dcc976d67649b09f33"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial framing 1920x1080 (derived crop/scale)",
+      "bytes": 777292,
+      "sha256": "c4c5af64216d2b78c064c638f1f9f7505e1b9fc67c4ef4a3a4a56983992d17e8"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 459747,
+      "sha256": "255ad3fc02ea671500bbf9bbaf34737d4f8b9ba04f6dabafbc6e101697f729df"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5572,
+      "sha256": "23505d31ae74f1211cfd3052c7d0fb128ef45210a872d162544b89fb339d1cc1"
+    },
+    {
+      "path": "source/make_editorial_frame.py",
+      "role": "editable framing source (deterministic script)",
+      "bytes": 2110,
+      "sha256": "92efe06ec4e881739bcf379279a2da4e580a8b3ca987271a766b88d99f2e9e6c"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original: uncropped decoded video frame (854x480)",
+      "bytes": 327138,
+      "sha256": "75ebc7216e31b49c7e316f2dd2d5ac7e3e32398ceac1ca79304f22dcdb5c0dc9"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.png"
+      ],
+      "notes": "Uncropped, unscaled frame n=1066 (35.5689 s) of the Internet Archive MP4 (sha256 f6d309c7...c6cb6)."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.png",
+      "notes": "Pillarbox crop x=107..746, uniform 2.25x, centered on 1920x1080 black; inverse in evidence/framing.json. Still: holds for editorial timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        93,
+        93
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        126,
+        128
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration context"
+    },
+    {
+      "path": "evidence/source.json",
+      "url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "relationship": "historical original (frame from 1995 home video; rights unresolved)"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop"
+    },
+    {
+      "path": "evidence/candidates/candidates.json",
+      "relationship": "stock candidate (runner-ups and rights-clear later leads)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical source (rights unresolved; not cleared)",
+      "credit": "Home video: Dan Lynch — Windows 95 'Midnight Madness', CompUSA, Aug. 24, 1995. Via Internet Archive.",
+      "source_url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "license": "unresolved (IA CC0 marking by a non-creator uploader not relied on)"
+    }
+  ],
+  "tests": [
+    {
+      "test": "archive file integrity vs Internet Archive file record",
+      "result": "passed",
+      "detail": {
+        "bytes": 32302815,
+        "sha1": "f79a200eeee5964ef6bcbfb714f5d209595168a4",
+        "md5": "5af84982f1399c06989acd79403395fb",
+        "sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6"
+      }
+    },
+    {
+      "test": "deterministic frame extraction reproduces scoring-pass frame pixel-for-pixel",
+      "result": "passed",
+      "frame": {
+        "n": 1066,
+        "pts": 1067066,
+        "time_base": "1/30000",
+        "pts_time": 35.5689
+      }
+    },
+    {
+      "test": "PNG dimensions",
+      "result": "passed",
+      "detail": {
+        "source/original.png": [
+          854,
+          480
+        ],
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "test": "no stretch: uniform scale",
+      "result": "passed",
+      "detail": "640x480 -> 1440x1080 (x2.25 both axes)"
+    },
+    {
+      "test": "crop removes only pillarbox",
+      "result": "passed",
+      "detail": "picture bbox x=111..743 (max luma > 24); crop x=107..746; removed columns max luma <= 5"
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed source/original.png (854x480) and exports/editorial-frame.png (1920x1080): 'COMP USA / THE COMPUTER SUPERSTORE' sign fully in frame and legible; 'AUG. 24 1995' stamp legible; no stretch, overlays, or retouching; analog noise inherent.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png (1280x720): sign and date stamp remain readable."
+    },
+    {
+      "test": "privacy scan of every file under the asset folder",
+      "result": "passed",
+      "detail": "Third-party uploader e-mails in raw IA metadata replaced with '[redacted uploader email]'; no user e-mail, local account name, or home path present.",
+      "hits": []
+    },
+    {
+      "test": "python tools/validate_delivery.py --id HIST-09",
+      "result": "passed",
+      "exit_code": 0,
+      "output": {
+        "id": "HIST-09",
+        "ok": true,
+        "errors": [],
+        "limitations": [
+          "No OCR or visual quality judgment.",
+          "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+          "No historical, semantic, or legal clearance.",
+          "Manual 1080p/720p review remains required."
+        ]
+      }
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "shell": "PowerShell 7.6.6",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "acquisition": "Anonymous HTTPS GET from archive.org; YouTube watch pages read for metadata only",
+    "extract_command": "ffmpeg -i norwalk.mp4 -map 0:v:0 -vf \"select='eq(n\\,1066)',showinfo\" -fps_mode passthrough -frames:v 1 -y source/original.png",
+    "frame_command": "python assets/historical/HIST-09/source/make_editorial_frame.py assets/historical/HIST-09",
+    "network_used": "archive.org (download + metadata), commons.wikimedia.org API (search/metadata), youtube.com watch pages (metadata)",
+    "fonts_used": [],
+    "installs_performed": false
+  },
+  "notes": [
+    "Produced as a historical proof; release blocked under R14 until rights are decided (review questions RQ-1 to RQ-3 in evidence/claim-checks.json).",
+    "Source MP4 (32.3 MB) is not committed; identified by URL and hashes for re-fetch.",
+    "Location (Norwalk, CT) is uploader attestation only and is not asserted in any caption."
+  ]
+}

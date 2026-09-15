@@ -1,0 +1,62 @@
+{
+  "accessed_utc": "2026-09-15T20:41:36Z",
+  "method": "GET https://www.youtube.com/watch?v=<id>&hl=en&gl=US; fields extracted by regex from the page HTML (ytInitialPlayerResponse microformat).",
+  "note": "A Creative Commons license would appear on the watch page as the string \"Creative Commons\"; its absence indicates the YouTube Standard License (all rights reserved by the uploader).",
+  "videos": [
+    {
+      "id": "WgG7KLymsg0",
+      "url": "https://www.youtube.com/watch?v=WgG7KLymsg0",
+      "title": "1995.08.23-Windows95-Midnight-Madness-NorwalkCT",
+      "channel": "Dan Lynch",
+      "channel_url": "http://www.youtube.com/@danlynch203",
+      "publish_date": "2023-10-14T21:12:21-07:00",
+      "length_seconds": "231",
+      "creative_commons_string_present": false,
+      "description": "In August 1995, Microsoft planned the release of Windows 95 with extra hype. Resellers, including retail stores (CompUSA, Circuit City, etc) and mail order resellers (Micro Warehouse, CDW etc) all had to abide by an August 24 release date. Some resellers (encouraged by Microsoft) hyped up the release with a 'Midnight Madness' event, opening their doors at midnight, allowing for the sale of the new operating system. This was Norwalk, Connecticut."
+    },
+    {
+      "id": "rjwidy5VEGw",
+      "url": "https://www.youtube.com/watch?v=rjwidy5VEGw",
+      "title": "CompUSA Windows 95 launch #1",
+      "channel": "Ted Spero",
+      "channel_url": "http://www.youtube.com/@tedspero4545",
+      "publish_date": "2025-01-21T19:27:31-08:00",
+      "length_seconds": "2129",
+      "creative_commons_string_present": false,
+      "description": ""
+    },
+    {
+      "id": "K1742uWS0a8",
+      "url": "https://www.youtube.com/watch?v=K1742uWS0a8",
+      "title": "CompUSA Windows 95 launch #2",
+      "channel": "Ted Spero",
+      "channel_url": "http://www.youtube.com/@tedspero4545",
+      "publish_date": "2025-01-21T19:27:20-08:00",
+      "length_seconds": "2132",
+      "creative_commons_string_present": false,
+      "description": ""
+    },
+    {
+      "id": "yGe8WW2JtFw",
+      "url": "https://www.youtube.com/watch?v=yGe8WW2JtFw",
+      "title": "CompUSA Windows 95 launch #3",
+      "channel": "Ted Spero",
+      "channel_url": "http://www.youtube.com/@tedspero4545",
+      "publish_date": "2025-01-21T19:27:11-08:00",
+      "length_seconds": "1671",
+      "creative_commons_string_present": false,
+      "description": ""
+    },
+    {
+      "id": "CcbAC4qI9pQ",
+      "url": "https://www.youtube.com/watch?v=CcbAC4qI9pQ",
+      "title": "Buying Windows 95 on Launch Day",
+      "channel": "Vampire Robot",
+      "channel_url": "http://www.youtube.com/@vampirerobot",
+      "publish_date": "2022-10-07T03:46:24-07:00",
+      "length_seconds": "98",
+      "creative_commons_string_present": false,
+      "description": "Footage from the launch day of Window 95. \n\nVery short video of people purchasing the product on August 24, 1995 at Egghead Software and a CompUSA store.\n\nAlso, a short interview with a CompUSA store employee.\n\n#windows95 \n#eggheadsoftware\n#compusa"
+    }
+  ]
+}

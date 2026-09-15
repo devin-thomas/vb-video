@@ -1,0 +1,54 @@
+{
+  "title": "1995.08.23-Windows95-Midnight-Madness-NorwalkCT (home video); Internet Archive title \"Windows 95 Launch at a CompUSA Store in Norwalk, Connecticut\"",
+  "creator": "Dan Lynch (named creator on the Internet Archive item and owner of the YouTube channel @danlynch203 that published the original upload). Who operated the camera is not stated anywhere.",
+  "source_url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+  "file_url": "https://archive.org/download/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480/1995.08.23-Windows95-Midnight-Madness-NorwalkCT%5BWgG7KLymsg0%5D%5B854x480%5D.mp4",
+  "original_upload_url": "https://www.youtube.com/watch?v=WgG7KLymsg0",
+  "original_date": {
+    "recording": "1995-08-24 about 00:11 local time, from the camcorder date/time stamp burned into the picture (clock set by the camera owner; not independently calibrated)",
+    "youtube_publication": "2023-10-14",
+    "internet_archive_publication": "2025-11-23"
+  },
+  "depicted_event_date": "Night of 1995-08-23 into 1995-08-24: Windows 95 'Midnight Madness' retail launch. The IA and YouTube titles use 1995-08-23, the evening the event began; the selected frame's stamp reads AUG. 24 1995, and adjacent frames read AM 12:11:21–29.",
+  "depicted_location": "Norwalk, Connecticut, according to the uploader's title and description only. Nothing in the frame names the town. An undated online directory listing places a CompUSA at 360 Connecticut Ave, Norwalk, which is consistent with this but does not tie it to this footage.",
+  "access_date": "2026-09-15",
+  "identity_evidence": [
+    "In-frame illuminated fascia sign reading 'COMP USA' / 'THE COMPUTER SUPERSTORE' (legible at native 854x480).",
+    "In-frame camcorder stamp 'AUG. 24 1995'.",
+    "Same continuous clip continues through the store entrance into a CompUSA interior with Windows 95 retail displays ('It's Here!', stacked Windows 95 boxes, 'COMPUSA' aisle signage), consistent with the 24 August 1995 Windows 95 retail launch.",
+    "Downloaded file matches Internet Archive's published size and hashes (32302815 bytes; sha1 f79a200eeee5964ef6bcbfb714f5d209595168a4; md5 5af84982f1399c06989acd79403395fb)."
+  ],
+  "original_file": {
+    "acquired": "Internet Archive MP4 (not committed to the repository; 32.3 MB). Identified by hash so it can be re-fetched and verified.",
+    "sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6",
+    "sha1": "f79a200eeee5964ef6bcbfb714f5d209595168a4",
+    "container": "MP4; H.264 854x480 SAR 1:1, 30000/1001 fps, progressive; Opus audio; duration 230.621 s",
+    "selected_frame": {
+      "decoded_frame_index_n": 1066,
+      "pts": 1067066,
+      "time_base": "1/30000",
+      "pts_time_seconds": 35.5689,
+      "ffmpeg_showinfo_checksum": "E788382F"
+    },
+    "committed_capture": "source/original.png is that single decoded frame, uncropped and unscaled (854x480 RGB PNG)."
+  },
+  "original_dimensions": [854, 480],
+  "picture_area_note": "The upload is 16:9 with the 4:3 camcorder picture pillarboxed; the measured picture bounding box is x=111..743. The frame is a digitization of analog home video, not a still photograph.",
+  "version_model_evidence": "Not applicable (storefront). The sign reads 'THE COMPUTER SUPERSTORE', CompUSA's own tagline.",
+  "transformations": [
+    "Decoded one frame (n=1066) losslessly to PNG → source/original.png (no crop, scale, or color change).",
+    "Cropped to the 640x480 4:3 picture area at x=107 (only black pillarbox removed), uniform 2.25x Lanczos scale to 1440x1080, centered on a 1920x1080 black canvas → exports/editorial-frame.png. Details and inverse: evidence/framing.json.",
+    "1280x720 Lanczos downscale of the export → proofs/editorial-frame-720.png (review proof only)."
+  ],
+  "license_name": "Unresolved. The Internet Archive item carries a CC0 1.0 marking applied by a third-party uploader account, which is not the named creator; the creator's original YouTube upload shows the standard YouTube license (no Creative Commons marking).",
+  "license_url": null,
+  "license_marking_seen": "https://creativecommons.org/publicdomain/zero/1.0/ (IA licenseurl field; see rights.json for why it is not relied upon)",
+  "permission_evidence": null,
+  "rights_status": "unresolved",
+  "credit_text": "Proposed, pending rights review: \"Home video: Dan Lynch — Windows 95 'Midnight Madness', CompUSA, Aug. 24, 1995. Via Internet Archive.\"",
+  "notes": [
+    "Period-appropriate exterior storefront with recognizable signage; the date comes from the picture itself, not from a caption.",
+    "Night exposure and analog noise are inherent to the source; nothing has been sharpened, denoised, color-graded, or retouched.",
+    "Release blocked under R14 until rights are resolved."
+  ]
+}
