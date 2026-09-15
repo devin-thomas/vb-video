@@ -1,0 +1,50 @@
+{
+  "id": "HIST-01",
+  "provenance_classification": "historical source",
+  "script_sources": [
+    {"file": "sources/SCRIPT.md", "lines": [94, 94], "role": "visual direction (hash-locked original)"},
+    {"file": "sources/ASSET_PLAN.md", "lines": [89, 89], "role": "asset plan lead (hash-locked original)"},
+    {"file": "War/SCRIPT.md", "lines": [97, 97], "role": "working script; same visual direction text, not edited"}
+  ],
+  "external_media": [
+    {
+      "path": "source/original.png",
+      "classification": "historical original (third-party screenshot of Microsoft software)",
+      "acquired_from": "https://winworldpc.com/res/img/screenshots/10-6b76946459abf915d190f65da4cc4e33-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20Edit.png",
+      "access_date": "2026-09-15",
+      "sha256": "f91144c2b2cfcd1fbf3176000dbb44e7845edebd5ae8c3162ef8c30fc58ce302",
+      "modified": false
+    },
+    {
+      "path": "evidence/version-evidence/about-original.png",
+      "classification": "historical original used as version evidence",
+      "acquired_from": "https://archive.org/download/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1/10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%2520Visual%2520Basic%25201.0%2520for%2520Windows%2520-%2520About%5B1%5D.png",
+      "cross_checked_against": "https://winworldpc.com/res/img/screenshots/10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20About.png (byte-identical)",
+      "access_date": "2026-09-15",
+      "sha256": "99df0ce3fd6d8e56867f27cb36202b35c1e1f418d40f728851493c13b5b00f96",
+      "modified": false
+    }
+  ],
+  "preserved_source_pages": {
+    "evidence/source-pages/winworld-product-vb10.html": "https://winworldpc.com/product/microsoft-visual-bas/10 (live, 2026-09-15)",
+    "evidence/source-pages/wayback-20260708105836-winworld-product-vb10.html": "https://web.archive.org/web/20260708105836/https://winworldpc.com/product/microsoft-visual-bas/10",
+    "evidence/source-pages/winworld-screenshot-edit.html": "https://winworldpc.com/screenshot/40c3942c-c281-2230-11c3-a4e284a2c3a5/45c5be6e-e280-9d57-c3b1-11c3a4c2a90f",
+    "evidence/source-pages/winworld-screenshot-about.html": "https://winworldpc.com/screenshot/40c3942c-c281-2230-11c3-a4e284a2c3a5/3d4d42c6-9257-c3b1-11c3-a4c2a90f7054",
+    "evidence/source-pages/winworld-copyright.html": "https://winworldpc.com/copyright",
+    "evidence/source-pages/ia-3d-4d-42c-meta.redacted.xml": "https://archive.org/download/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1_meta.xml (uploader e-mail redacted; unredacted md5 c2e15eb385fad6b2006ba7859a30e01e per files.xml)",
+    "evidence/source-pages/ia-3d-4d-42c-files.xml": "https://archive.org/download/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1_files.xml",
+    "evidence/source-pages/microsoft-copyright-permissions.html": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions"
+  },
+  "authored_additions": [
+    "src/frame.json and src/frame.py: framing parameters and render/test script (agent-authored).",
+    "exports/editorial-frame.png: derivative framing - whole screenshot at 2x nearest-neighbour, pillarboxed on #111318. No crop, caption, highlight, cursor, watermark removal or UI added.",
+    "proofs/editorial-frame-720.png: 1280x720 Lanczos downscale of the export for review only."
+  ],
+  "producer_decisions": [],
+  "not_claimed": [
+    "The capture date, the capturer, or that the image was made in 1991.",
+    "That the Calculator project is a Microsoft sample shipped with VB 1.0.",
+    "That the host system was Windows 3.0 rather than 3.1.",
+    "Any licence or rights clearance."
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "id": "HIST-01",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "HIST-01 worker under Historical Screenshots Manager (session vb-7a)",
+  "updated_at": "2026-09-15T21:00:00Z",
+  "blockers": [
+    "R14: no licence for the third-party screenshot; Microsoft screenshot-guideline fit is a legal judgement (RQ-HIST01-1)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Historical proof produced: authentic VB 1.0 for Windows IDE capture from WinWorld, byte-exact original, reversible 2x pillarbox editorial frame.",
+    "Version evidence: companion About capture (Internet Archive and WinWorld, byte-identical) reading 'Microsoft Visual Basic Version 1.0'.",
+    "Review questions RQ-HIST01-1 (rights), RQ-HIST01-2 (script says 'properties window'; VB 1.0 shows a properties bar), RQ-HIST01-3 (Edit vs About capture) in evidence/claim-checks.json.",
+    "Release stays blocked until the review deck decision."
   ]
 }

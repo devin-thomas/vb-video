@@ -1,0 +1,16 @@
+{
+  "id": "HIST-01",
+  "variant": "editorial-frame",
+  "input": "source/original.png",
+  "input_size": [640, 480],
+  "canvas": [1920, 1080],
+  "scale": 2,
+  "resampling": "nearest",
+  "offset": [320, 60],
+  "background": "#111318",
+  "crop": null,
+  "added_text": null,
+  "added_graphics": null,
+  "inverse": "Crop the export to [320, 60, 1600, 1020] and downscale by 2 with nearest-neighbour sampling; the result equals source/original.png pixel for pixel (tested in evidence/render-tests.json).",
+  "rationale": "Whole screenshot, resized only: integer 2x keeps 1991 VGA pixels sharp, 960 px tall fits the 1080 canvas, and pillarboxing avoids stretching or cropping. Microsoft's screenshot guidelines forbid alteration other than resizing and use of portions, so no crop, highlight or caption is burned in; the background is the production's dark code token (#111318), not a fake Windows desktop."
+}
