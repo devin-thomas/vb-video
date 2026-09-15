@@ -1,10 +1,12 @@
 # BROLL-05 acquisition handoff
 
-Prepared 2026-09-15. **No file has been downloaded.** Scouting status (`scouted`) is not acquisition status, and nothing here is cleared media.
+Prepared 2026-09-15 during scouting, when no file had been downloaded.
 
-## Ungated free acquisition — pending download approval
+> **Status update, 2026-09-15 (acquisition pass).** Devin approved the item below and it **has now been downloaded**: `source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4`, 7 816 241 bytes, SHA-256 `a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c`. The download was ungated — HTTP 200, `video/mp4`, one redirect, no login and no CAPTCHA. ffprobe confirms 1920×1080, 23.976 fps (`24000/1001`), 11.156667 s, plus an AAC stereo audio track. The post-download checks listed in the table were run; results are in `qa.md` and `source/source.json`. Everything in the H02 section below is unchanged and still not acquired. Acquisition is not clearance: R14 is still open and release is still `blocked`.
 
-These need Devin's batched download approval, through the B-roll Scouting Manager, before anyone downloads them.
+## Ungated free acquisition — approved and acquired
+
+This needed Devin's download approval, through the B-roll Scouting Manager, before anyone downloaded it. That approval was given on 2026-09-15 and the download is done.
 
 ### 1. Pexels 20503026: "Floppy Disk 80s Computer Retro Diskette" by Stefan
 
