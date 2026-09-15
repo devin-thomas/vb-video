@@ -1,0 +1,194 @@
+{
+  "id": "XTRA-19",
+  "title": "Period Windows FreeCell screenshot",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 7383,
+      "sha256": "c106007af96fe91d0b21883eb1f1a2e48f5ff59172e6a057cceefd1c2928892e"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1326,
+      "sha256": "f32a7c2f8ff11972eb2e9cf7930450e31402d31fcaac21976403e67b4b031242"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 6710,
+      "sha256": "67b620681110f391f95bc19bd9b47a0eb16c7e382c7d8464f1f4ecaa2cc33e4a"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3805,
+      "sha256": "e80d4e13e6eaf1ee001666a8b0da704942e3a759ad065e96719f592f3e376993"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 6033,
+      "sha256": "ef9dd00500b1ce0e69bcee38359ed3c5d7b1047967827be0a7f0c3ec519c3315"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6566,
+      "sha256": "ab7f1df23fc9521a77a6885a1ec63614db7dea9374d0e3728b85b872c8aa1f08"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "framed editorial still (derived from historical original, variant: editorial-frame)",
+      "bytes": 24713,
+      "sha256": "a5cf51b6aa380a137d7fe76ca7c8904dd15af0460750f2c5605408ce04a16252"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 149662,
+      "sha256": "96dcf653e7e5044e7128c4f13364ded78ff72b3866d9e1bc6348cb770a7bf8e9"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 10990,
+      "sha256": "7c46825a54ac061f4c865eaf5687b9f338b3c2eca882596b533f298480006775"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original (unmodified WinWorld screenshot file, variant: original)",
+      "bytes": 8572,
+      "sha256": "e9cc253728498aae694371f600c86d9df52565ed7efe055d7b5c1ff4cd846dfd"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "editable framing source (render script)",
+      "bytes": 4115,
+      "sha256": "9eca2eeb0129ca1428f9be33b0316ece44ce734659a492b54a70e72f4a4ea362"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.png"
+      ],
+      "dimensions": [
+        640,
+        480
+      ],
+      "timeline": null,
+      "note": "Unmodified native 640x480 palette PNG as hosted; not a 16:9 editorial export."
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "proof": "proofs/editorial-frame-720.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "timeline": null,
+      "note": "Still; integer 2x nearest-neighbour, pillarboxed; holds for editorial timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        579,
+        593
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script cue"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://winworldpc.com/res/img/screenshots/2-e0249a99db7492f217c030c559f6c27c-Microsoft%20Entertainment%20Pack%202%20-%20Cards.png",
+      "item_page": "https://winworldpc.com/screenshot/c3b2c3af-c2b1-c3a0-4b62-11c3a4c28d58/c2b3c2ab-c2a4-064b-c3b0-11c3a4c28d58",
+      "access_date": "2026-09-15",
+      "sha256": "e9cc253728498aae694371f600c86d9df52565ed7efe055d7b5c1ff4cd846dfd",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "from": "source/original.png",
+      "relationship": "derivative framing (integer 2x nearest-neighbour + pillarbox; no crop)",
+      "record": "evidence/framing.json"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "source/original.png; exports/editorial-frame.png",
+      "text": "Microsoft FreeCell and Tut's Tomb (Microsoft Entertainment Pack 2) on Windows 3.x. © Microsoft Corporation. Screenshot via WinWorld (winworldpc.com).",
+      "creator": "Microsoft Corporation (software UI); screenshot capturer not identified",
+      "status": "proposed; rights not cleared",
+      "rights_record": "evidence/rights.json"
+    }
+  ],
+  "tests": [
+    {
+      "name": "identity read from pixels at 1:1 and 4x (title, menus, king icon, Windows 3.x chrome, Tut's Tomb)",
+      "result": "passed"
+    },
+    {
+      "name": "original SHA-256 identical across two independent downloads and before/after render",
+      "result": "passed"
+    },
+    {
+      "name": "native 640x480 palette PNG, 13 colours",
+      "result": "passed"
+    },
+    {
+      "name": "integer 2x nearest-neighbour: every 2x2 block equals source pixel (render self-check), aspect exact 1.33333",
+      "result": "passed"
+    },
+    {
+      "name": "no crop: whole capture placed at x=320,y=60; sampled background pixels #111318",
+      "result": "passed"
+    },
+    {
+      "name": "export 1920x1080 RGB and proof 1280x720 RGB dimensions (Pillow)",
+      "result": "passed"
+    },
+    {
+      "name": "manual visual inspection: full size (whole frame + 1:1 crops) and 720p",
+      "result": "passed; see qa.md"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id XTRA-19",
+      "result": "passed: {\"id\": \"XTRA-19\", \"ok\": true, \"errors\": []} (run 2026-09-15 after bundling)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "8.18.0 (x86_64-w64-mingw32)",
+    "render_command": "python assets/historical/XTRA-19/src/render_frame.py",
+    "shared_render_pipeline_used": false
+  },
+  "notes": [
+    "Script supplement for SCRIPT.md:579 (SCRIPT-SUPPLEMENT); not an original asset-plan row.",
+    "Release blocked: Microsoft-copyrighted UI, unidentified capturer, no license. Review questions XTRA-19-Q1 (rights), XTRA-19-Q2 (Writing Lead: cue wording 'shareware' / 'Windows 3.1'), XTRA-19-Q3 (overlapping-window composition vs Windows 7-chrome alternate).",
+    "Period UI reference only; not evidence of Visual Basic authorship."
+  ]
+}

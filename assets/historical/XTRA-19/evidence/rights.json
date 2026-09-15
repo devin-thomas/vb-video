@@ -1,0 +1,46 @@
+{
+  "id": "XTRA-19",
+  "asset": "source/original.png and its derivative exports/editorial-frame.png",
+  "rights_status": "blocked",
+  "summary": "A screenshot of copyrighted Microsoft software UI, hosted on WinWorld, an abandonware library. No license or permission record exists for this use. Public availability and the abandonware label are not a license, and WinWorld itself says copyright stays with the original publisher.",
+  "rights_holders": {
+    "software_ui": "Microsoft Corporation: FreeCell and Tut's Tomb (Microsoft Entertainment Pack 2) and the Windows 3.x window chrome. The Microsoft credit comes from the product; the image carries no copyright notice.",
+    "screenshot": "Unidentified WinWorld contributor or staff member. No capturer is credited on the gallery or detail page. Whether a screenshot of software UI carries a separate capturer copyright is a legal question and is not assumed either way.",
+    "host": "WinWorld hosts the file. The site footer reads \"© 2026 WinWorld\" and covers the site. WinWorld claims no ownership of screenshots on the pages read."
+  },
+  "hosting_terms_exact": [
+    {
+      "url": "https://winworldpc.com/copyright",
+      "read": "2026-09-15",
+      "text": "Under most interpretations of international copyright law, copyright is retained by the original publisher or a licensed distributor unless explicitly stated even if the software is considered 'abandoned'."
+    },
+    {
+      "url": "https://winworldpc.com/copyright",
+      "read": "2026-09-15",
+      "text": "Library descriptions are licensed under Creative Commons Attribution Share Alike 4.0 International. This covers WinWorld's text descriptions, not the screenshots or the software; as extracted, the page says nothing about screenshots."
+    },
+    {
+      "url": "https://winworldpc.com/screenshot/c3b2c3af-c2b1-c3a0-4b62-11c3a4c28d58",
+      "read": "2026-09-15",
+      "text": "No license, contributor or usage statement on the gallery page. Footer: \"© 2026 WinWorld | Powered by Adventure\"."
+    }
+  ],
+  "access_method": "Anonymous public HTTPS download of one image; no account, login, payment, CAPTCHA, click-through or terms acceptance.",
+  "watermark": "none present; nothing removed",
+  "permitted_uses_established": [],
+  "not_established": [
+    "a license or permission from Microsoft to show FreeCell, Tut's Tomb or the Windows 3.x UI in a published video",
+    "who captured the screenshot, and whether they hold any separate rights",
+    "whether fair use or another exception applies (a legal judgment an agent cannot make)"
+  ],
+  "fair_use_note": "Not asserted. A brief display of a period game screenshot in a history segment about 1990s card games is a plausible commentary context, but that is a legal-risk decision for the human reviewer, not a recorded clearance. Microsoft publishes its own permission guidelines for screenshots of its products. They were not read or relied on here and would need a human reading; no terms were accepted.",
+  "credit_text": "Microsoft FreeCell and Tut's Tomb (Microsoft Entertainment Pack 2) on Windows 3.x. © Microsoft Corporation. Screenshot via WinWorld (winworldpc.com).",
+  "release_status": "blocked",
+  "decision": {
+    "status": "open",
+    "approver": null,
+    "approval_date": null,
+    "reason": null
+  },
+  "human_handoff": "Review question XTRA-19-Q1 in qa.md: choose the rights route. The options are (a) brief editorial display with credit under a fair-use judgment, possibly after a human reads Microsoft's screenshot-permission guidance; (b) a human re-captures FreeCell from legitimately owned media, which removes the unknown-capturer layer but not Microsoft's UI copyright; or (c) cut the image. An agent may not make this decision, accept Microsoft's terms or contact a rights holder."
+}

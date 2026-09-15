@@ -1,0 +1,33 @@
+{
+  "id": "XTRA-19",
+  "input": "source/original.png",
+  "input_sha256": "e9cc253728498aae694371f600c86d9df52565ed7efe055d7b5c1ff4cd846dfd",
+  "input_dimensions": [
+    640,
+    480
+  ],
+  "input_mode": "P",
+  "output": "exports/editorial-frame.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "palette-to-RGB conversion (exact colours) + integer 2x nearest-neighbour scale + centered paste on solid background; no crop, no stretch, no smoothing, no retouch, no added text",
+  "scale": 2,
+  "scaled_dimensions": [
+    1280,
+    960
+  ],
+  "placement": {
+    "x": 320,
+    "y": 60
+  },
+  "aspect_input": 1.33333,
+  "aspect_scaled": 1.33333,
+  "safe_area_note": "Image spans y=60..1020, 12 px beyond the y=72..1008 essential-text band at top and bottom. The top 6 source rows (Tut's Tomb title-bar border) and bottom 6 rows (File Manager icon area, Time/row edge) fall there; no essential text is in those rows. Chosen to keep an integer scale instead of a non-integer 1.95x.",
+  "pixel_block_self_check": "passed (every 2x2 block equals its source pixel; sampled background pixels equal #111318)",
+  "background": "#111318",
+  "proof_720": "proofs/editorial-frame-720.png",
+  "proof_720_resample": "Lanczos downscale of the export (review proof only)",
+  "pillow_version": "12.3.0"
+}

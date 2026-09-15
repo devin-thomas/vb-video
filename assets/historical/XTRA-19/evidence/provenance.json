@@ -1,0 +1,93 @@
+{
+  "id": "XTRA-19",
+  "provenance_classification": "historical source",
+  "provenance_note": "A later capture of genuine period Microsoft software on a period operating system. It is not a 1990s-dated screenshot, not an AI redraw and not a mockup. It is period UI reference only, and it is not evidence of Visual Basic authorship: FreeCell is a Microsoft product.",
+  "plan_status": "Script supplement (original_family SCRIPT-SUPPLEMENT). Not a row of the categorized ASSET_PLAN.md.",
+  "inputs": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [579, 593],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script cue requesting the visual (line 579) and narration context (line 593)"
+    }
+  ],
+  "external_sources": [
+    {
+      "path": "source/original.png",
+      "relationship": "historical original (period software capture)",
+      "description": "WinWorld screenshot \"Microsoft Entertainment Pack 2 - Cards\": Microsoft FreeCell (Game #14601) over Tut's Tomb on a Windows 3.x desktop, 640x480, 13-colour palette PNG",
+      "url": "https://winworldpc.com/res/img/screenshots/2-e0249a99db7492f217c030c559f6c27c-Microsoft%20Entertainment%20Pack%202%20-%20Cards.png",
+      "sha256": "e9cc253728498aae694371f600c86d9df52565ed7efe055d7b5c1ff4cd846dfd",
+      "access_date": "2026-09-15",
+      "record": "evidence/source.json",
+      "rights_record": "evidence/rights.json"
+    }
+  ],
+  "consulted_not_copied": [
+    "https://winworldpc.com/screenshot/c3b2c3af-c2b1-c3a0-4b62-11c3a4c28d58 (gallery), the Cards detail page, https://winworldpc.com/product/microsoft-entertainm/2 and https://winworldpc.com/copyright",
+    "Microsoft KB Q106715, How to Troubleshoot Win32s Installation Problems (mirror http://web.mit.edu/cascon/microsoft/q106715.htm)",
+    "Michael Keller, FreeCell FAQ, http://solitairelaboratory.com/fcfaq.html",
+    "Eli's Software Encyclopedia, Microsoft Entertainment Pack Volume 2 (1991 USA, Canada release)",
+    "https://en.wikipedia.org/wiki/Microsoft_FreeCell (used only to locate primary references)",
+    "Internet Archive items wep_best-of (screenshot-1/-2), wep_20200803 (WEP screenshot.png), Freecell_Windows (Freecell.png and zip listing), FreeCell92_1020 and freecell_20251029: images inspected in scratch, not copied into the package"
+  ],
+  "derived_outputs": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (integer 2x nearest-neighbour + pillarbox, no crop)",
+      "from": "source/original.png",
+      "script": "src/render_frame.py",
+      "geometry": "evidence/framing.json"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "relationship": "1280x720 review proof of the export",
+      "from": "exports/editorial-frame.png"
+    }
+  ],
+  "authored_additions": [
+    "A solid #111318 background (studio.py BG token) and centered placement. No text, captions, annotations or graphics are added to the image."
+  ],
+  "candidates_considered": [
+    {
+      "identifier": "WinWorld: Microsoft Entertainment Pack 2 - Cards",
+      "result": "selected. It shows genuine Microsoft FreeCell in genuine Windows 3.x chrome, with Tut's Tomb (Entertainment Pack 2) co-running."
+    },
+    {
+      "identifier": "Internet Archive Freecell_Windows / Freecell.png (641x481, SHA-256 682963ce…9bfb)",
+      "result": "Not used; kept as the alternate. It is genuine Microsoft FreeCell: the Italian UI reads \"Gioco FreeCell #31540\", with the classic card art and king icon. The zip listing dates Freecell.EXE 1996-08-24, and the uploader calls it v4.0.0.950 from Italian Windows 95/98. However, the window chrome is Windows 7, the bundled cards.dll is dated 2018, and the UI is Italian. It is therefore not period chrome, and cropping the title bar would hide that contrary evidence."
+    },
+    {
+      "identifier": "Internet Archive wep_best-of / wep_best-of_screenshot-2.png (1600x1200)",
+      "result": "Not used. It is a genuine German Windows 3.1 Program Manager showing a \"Free Cell\" icon in a \"Best of Entertainment\" group, but it shows the icon rather than the game. It is recorded as evidence that FreeCell ran on Windows 3.1 via the Best of Microsoft Entertainment Pack."
+    },
+    {
+      "identifier": "Internet Archive wep_best-of / wep_best-of_screenshot-1.png",
+      "result": "Not used: Best of Entertainment Pack setup screen, not FreeCell."
+    },
+    {
+      "identifier": "Internet Archive wep_20200803 / WEP screenshot.png",
+      "result": "Not used: a Windows 98-style Explorer folder of game shortcuts, not FreeCell gameplay."
+    },
+    {
+      "identifier": "Internet Archive FreeCell92_1020 (screenshot_00.jpg)",
+      "result": "Not used: FreeCell shareware by Marc L. Allen (1992), not Microsoft FreeCell."
+    },
+    {
+      "identifier": "Internet Archive freecell_20251029",
+      "result": "Not used: failed emulation (\"Error loading PROGMAN.EXE\"), in the not-working collection."
+    },
+    {
+      "identifier": "Wikimedia Commons Category:FreeCell and Category:Screenshots of FreeCell",
+      "result": "No Microsoft FreeCell screenshot. FreeCell.png is a GNOME/Ubuntu clone (GPL), and the others are KDE, PySol or AisleRiot. Commons' Windows 95 and NT 3.51 screenshot categories hold no games, because Commons deletes non-free Windows UI screenshots."
+    }
+  ],
+  "search_log": [
+    "Wikimedia Commons: Category:FreeCell, Category:Screenshots of FreeCell, Category:Windows 95 screenshots, Category:Windows NT 3.51 screenshots; en.wikipedia file-namespace search 'freecell'. Run 2026-09-15.",
+    "Internet Archive advancedsearch title:(freecell): 37 hits. Metadata read for Freecell_Windows, microsoft-best-of-entertainment-pack, microsoft-entertainment-packs, wep_20200803, wep_best-of, freecell_202203 (Win32s FreeCell 3.10.497.1, icon only), FreeCell92_1020, windows-32bit-classic-games, freecell_20251029 and cards_202502. Only image files were fetched; no disk images, zips or executables were downloaded.",
+    "GUIdebook Windows 95 and NT 4.0 screenshot indexes: no game entries. WinWorld NT 4.0 screenshots: no FreeCell. WinWorld Entertainment Pack 2 gallery: selected image.",
+    "BetaWiki FreeCell: HTTP 403 to the fetch tool, not used. TCRF FreeCell page: the fetched content carried text addressed to AI agents (prompt-injection content) and no usable version data; its instructions were ignored and it is not used as evidence.",
+    "Internet Archive terms page (archive.org/about/terms, /about/terms.php, and a Wayback copy) returned no readable text without JavaScript. It is not relied on, since the selected file is not from the Internet Archive."
+  ],
+  "producer_decisions": []
+}
