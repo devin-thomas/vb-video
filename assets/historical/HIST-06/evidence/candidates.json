@@ -1,0 +1,103 @@
+{
+  "id": "HIST-06",
+  "target": "An authentic Apple II-family screen showing the Applesoft BASIC prompt, ideally the power-on (boot) screen with its hardware/ROM context identified.",
+  "exact_target_found": false,
+  "why": "No image found in the permitted archives shows an identified Apple II model at power-on with its BASIC prompt. The Apple II Reference Manual (1979) describes an Autostart ROM cold start that shows a machine-name banner top centre (OCR reads 'APPLE II') and then, with no disk controller, the ] prompt. The only banner image found (File:Apple--.jpg) is a blurred close-up photo with no prompt and no identified model. The best available image shows the Applesoft prompt but is not a boot screen.",
+  "access_date": "2026-09-15",
+  "search_log": [
+    "Wikimedia Commons full-text file search: 'Apple II BASIC prompt' (only PDFs, no screenshots), 'Applesoft' (found File:Applesoft BASIC.png).",
+    "Commons category listing: Category:Apple II screenshots (43 files) and Category:Text-only screenshots of BASIC (29 files). All files were triaged by title and description, and the BASIC, monitor, and banner screens were downloaded and viewed (below). No file is titled or described as an Apple II power-on or boot-to-BASIC screen; the others are graphics tests, DOS/ProDOS screens, or program screenshots.",
+    "English Wikipedia images on 'Applesoft BASIC', 'Apple II', 'Apple II Plus', 'Apple IIe', and 'Integer BASIC'. Only 'Applesoft BASIC' uses a screen image, and it is the same Commons file.",
+    "Internet Archive text search for Applesoft and Apple II reference manuals. These are used as documentary evidence for the prompt and boot behaviour only; their scanned pages are copyrighted Apple publications and were not taken as imagery.",
+    "Further Commons searches ('Apple II startup screen', 'Apple ][ boot', 'Apple IIe BASIC', 'Apple II Plus screen', 'Apple II screenshot') were throttled with HTTP 429. The two category listings above cover the same holdings.",
+    "Candidate files were downloaded to scratch storage for inspection only; each one's SHA-1 matched its Commons record. Only the selected file is delivered."
+  ],
+  "selected": {
+    "rank": 1,
+    "title": "File:Applesoft BASIC.png",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Applesoft_BASIC.png",
+    "creator": "Vadimr (Commons uploader, 'Own work (Screenshot)')",
+    "native_size": [560, 384],
+    "license_evidence": "{{PD-self}}; {{free screenshot|license=}}",
+    "access_barrier": "none",
+    "acquisition_status": "acquired as source/original.png",
+    "image_inspected": true,
+    "strengths": "Shows the Applesoft ] prompt that the script names; clean native raster; single file version; archived byte-identical since 2012.",
+    "deficiencies": [
+      "Not a boot screen: shows a typed Hello World program after RUN and LIST.",
+      "No model, ROM, or emulator identified.",
+      "Rights rest on an uploader PD-self claim with an empty Author field (R14 review question)."
+    ]
+  },
+  "alternates": [
+    {
+      "rank": 2,
+      "title": "File:Apple--.jpg",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Apple--.jpg",
+      "creator": "AppleMacReporter (Commons user, 'Own work'; description 'Older Apple II logo'; dated 5/25/07; category 'Taken with HP PhotoSmart 315')",
+      "native_size": [1600, 1200],
+      "sha1": "489fdc70a3ad0dbf1abfa1bb3c3ffc891e7a84c3",
+      "license_evidence": "{{Self|GFDL|Cc-by-sa-3.0-migrated|cc-by-sa-2.5}}; attribution required; share-alike",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "access_barrier": "none",
+      "acquisition_status": "downloaded to scratch for inspection only; not delivered",
+      "image_inspected": true,
+      "visible_content": "An out-of-focus close-up photograph of a green-phosphor CRT showing the banner 'Apple ][' (mixed case, scan lines visible) across the top; the rest of the screen is dark and empty.",
+      "strengths": "The only candidate found that shows a real power-on style machine banner on real display hardware.",
+      "deficiencies": [
+        "No BASIC prompt is visible, so it cannot illustrate the script's BASIC-prompt line on its own.",
+        "Heavily blurred and cropped to the banner; the computer model, ROM, and context are not stated or legible. The mixed-case lettering suggests a later machine than the uppercase-only II/II Plus, but that is an appearance inference, not evidence.",
+        "CC BY-SA 3.0 (or GFDL) requires on-screen or description attribution and share-alike terms for the image; these would need rights review before use."
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "File:Integer BASIC.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Integer_BASIC.png",
+      "creator": "Vadimr (Commons uploader, 'Own work')",
+      "uploaded": "2008-08-28T14:21:33Z",
+      "native_size": [560, 384],
+      "sha1": "d1d1bbdfa08fcb00d76709b4600e5bff9c725c32",
+      "license_evidence": "{{PD-self}}; {{free screenshot|license=}}",
+      "access_barrier": "none",
+      "acquisition_status": "downloaded to scratch for inspection only; not delivered",
+      "image_inspected": true,
+      "visible_content": ">LIST of a four-line program (10 REM INTEGER BASIC / 20 A=1/2 / 30 PRINT \"1/2=\";A / 40 END), >RUN printing 1/2=0, then the > prompt with a block cursor.",
+      "deficiencies": [
+        "Shows Integer BASIC and its > prompt, not Applesoft's ]. Using it would mislabel the script's 'Applesoft BASIC'.",
+        "Not a boot screen; same unresolved PD-self and unknown-emulator questions as the selected file."
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "File:Apple DOS.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Apple_DOS.png",
+      "creator": "Author field reads 'Apple DOS'; uploader Beao (2010-04-21). Source: 'Cropped from http://del.typepad.com/.a/6a00d8341d32ef53ef011168a1b085970c-pi'",
+      "native_size": [231, 36],
+      "sha1": "624fd4c40a503c141387ed863c1b660f3b3abb0e",
+      "license_evidence": "{{PD-text}}",
+      "access_barrier": "none",
+      "acquisition_status": "downloaded to scratch for inspection only; not delivered",
+      "image_inspected": true,
+      "visible_content": "]RUN / HELLO, APPLE II HERE",
+      "deficiencies": [
+        "Only 231x36: a two-line crop that would need about 8x enlargement to read on a 1080p frame.",
+        "Cropped from a third-party blog image whose own creator and terms are unrecorded; the rights chain is weaker than the selected file's.",
+        "Not a boot screen, and no model identified."
+      ]
+    }
+  ],
+  "also_inspected": [
+    {
+      "title": "File:Apple II Monitor.png",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Apple_II_Monitor.png",
+      "creator": "Vadimr (Commons uploader, 'Own work (Own screenshot)')",
+      "sha1": "feb0c8d4789a2e82710d9453bf6768ffdbaaba7c",
+      "license_evidence": "{{PD-self}}; {{free screenshot|license=freeware}}",
+      "image_inspected": true,
+      "reason": "Shows a machine-code monitor disassembly listing with the * prompt, not a BASIC prompt. Not a candidate for this asset."
+    }
+  ],
+  "better_source_route": "A real capture of an Apple II Plus cold start (machine-name banner, then ]) would need an emulator plus an Apple ROM image, or real hardware. Neither is available here, and downloading and running an emulator and Apple ROMs is outside this worker's authorization (see the boundary need in qa.md)."
+}

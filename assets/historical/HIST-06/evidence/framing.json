@@ -1,0 +1,47 @@
+{
+  "id": "HIST-06",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#111318",
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "rule": "Untouched original enlarged by an integer factor with nearest-neighbour sampling, centred, no crop, no annotation, no added UI.",
+  "exports": [
+    {
+      "file": "exports/editorial-frame.png",
+      "from": "source/original.png",
+      "from_sha256": "69df4c7f0b3e4271f12311bc0e06e5d61cadffee4b2870875d2034a7cf6bda4e",
+      "source_size": [
+        560,
+        384
+      ],
+      "scale": 2,
+      "resampling": "nearest",
+      "placed_size": [
+        1120,
+        768
+      ],
+      "offset": [
+        400,
+        156
+      ],
+      "crop": null,
+      "alpha": "source alpha channel is fully opaque (255 everywhere); flattened to RGB",
+      "pixels_inside_original_modified": false,
+      "reverse": "crop (400,156)-(1520,924), then downsample by 2 with nearest-neighbour sampling to 560x384 to recover the RGB original exactly",
+      "reversibility_check": "passed (every block compared in this script)"
+    },
+    {
+      "file": "proofs/editorial-frame-720.png",
+      "from": "exports/editorial-frame.png",
+      "scale": "resize to 1280x720, Lanczos",
+      "purpose": "720p review proof only; not a delivery variant"
+    }
+  ]
+}

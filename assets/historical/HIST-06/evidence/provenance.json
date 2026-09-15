@@ -1,0 +1,39 @@
+{
+  "id": "HIST-06",
+  "classification": "historical source",
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [91, 91],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief (plan row naming Apple II BASIC boot screens and Wikipedia as a lead)"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [73, 75],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "source/original.png",
+      "sha256": "69df4c7f0b3e4271f12311bc0e06e5d61cadffee4b2870875d2034a7cf6bda4e",
+      "relationship": "historical original (third-party archive file, acquired unmodified)",
+      "origin": "https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (integer 2x nearest-neighbour enlargement, no crop) of source/original.png",
+      "record": "evidence/framing.json"
+    }
+  ],
+  "external_documentary_evidence": "Internet Archive scans of Apple and third-party Applesoft manuals, cited by identifier, OCR text file, SHA-256, and line range in evidence/source-excerpts.md. Short quotations only; the scans themselves are not vendored.",
+  "authored_additions": [
+    "The 1920x1080 #111318 canvas and the 2x integer placement of the original (production framing, not historical content).",
+    "The descriptive label 'Applesoft BASIC prompt on an Apple II-family text screen (model and emulator unknown)'. This is an authored description limited to what the evidence supports; it does not appear in the image."
+  ],
+  "source_unchanged": true,
+  "war_script_edited": false,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

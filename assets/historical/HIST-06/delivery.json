@@ -1,0 +1,281 @@
+{
+  "id": "HIST-06",
+  "title": "Apple II BASIC boot screen",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates.json",
+      "role": "evidence / QA",
+      "bytes": 7598,
+      "sha256": "677ecb27066249f129245bee27c084b1027485ebd1da218472f988e1102deadf"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 4054,
+      "sha256": "dd76315dd4cb6a356b3fb66092db6719d348fd427b9bb23b9ca3cd75e0b37635"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1304,
+      "sha256": "0e173201aab95a0e26de608f0d47bb67a9bce0d2a4b0b4af13333d13d533013c"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1889,
+      "sha256": "2d8961cf194dd50c6f47ec4f6d39859ed2fa32d771d3dfb582a1b3dbd7fc8b98"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 2435,
+      "sha256": "a2f164f513768a7636baf97e7328220ec31b6ca817b8567f7a0a1370b892d0f6"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 5605,
+      "sha256": "29af69bb69eb8efb79cacff6f2e85a406870ff319a6a08c37d6a5198ac7a8832"
+    },
+    {
+      "path": "evidence/source-page/commons-file-page.html",
+      "role": "preserved source page / archive record",
+      "bytes": 110439,
+      "sha256": "d8078b3576aa4a64409d4f76491df7bb6127826d97e3d896a2cb11863cf8bc6e"
+    },
+    {
+      "path": "evidence/source-page/commons-imageinfo.json",
+      "role": "preserved source page / archive record",
+      "bytes": 17424,
+      "sha256": "ef5dfd72fead0b02ec1e38528c96bdf5f5f720a37fb28c1f242704ca351f8380"
+    },
+    {
+      "path": "evidence/source-page/commons-revisions.json",
+      "role": "preserved source page / archive record",
+      "bytes": 4837,
+      "sha256": "8f6eaece29f63de97fb9dddeadce6a49850aa4ee5b51b45be070718932930efa"
+    },
+    {
+      "path": "evidence/source-page/commons-upload-log.json",
+      "role": "preserved source page / archive record",
+      "bytes": 459,
+      "sha256": "185a06d53502bc1583707a90fa76898271fe5e69d76827deb9926fd67b8330b0"
+    },
+    {
+      "path": "evidence/source-page/commons-wikitext.txt",
+      "role": "preserved source page / archive record",
+      "bytes": 370,
+      "sha256": "b708fbcd34265b2fcfb3f22212f8f2de8f72f810518d94439c963004415a8423"
+    },
+    {
+      "path": "evidence/source-page/wayback-cdx-file-page.json",
+      "role": "preserved source page / archive record",
+      "bytes": 670,
+      "sha256": "b8f47ee118d0c9b582597a314e7f007818bca88e62f73b34e4ea38fc8ac70f05"
+    },
+    {
+      "path": "evidence/source-page/wayback-cdx-image.json",
+      "role": "preserved source page / archive record",
+      "bytes": 10424,
+      "sha256": "39782f916d0ddb0551941e24f0f10abaf09653224ef29eb78abd9335fa812474"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 5331,
+      "sha256": "4a0aeafd0d37e6dc5d42675a2455a01d90d5568e3f2b04dd109e4f279af9500a"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial framing still (derived, reversible)",
+      "bytes": 9446,
+      "sha256": "5ed75d5601c71a1c24b74b7ec0f5ecc30207dafd2d350bbd7bbbbad01f0cf860"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 25519,
+      "sha256": "09f72d917f829a67f2dbc25858dbbe90910fb6967049940c3f4e1e73c65d2b70"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6098,
+      "sha256": "85db6f5202d4639cf8a6d513958760593d8c4fcf8929910c402f07d738477b8e"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original (acquired unmodified from Wikimedia Commons)",
+      "bytes": 2744,
+      "sha256": "69df4c7f0b3e4271f12311bc0e06e5d61cadffee4b2870875d2034a7cf6bda4e"
+    },
+    {
+      "path": "src/bundle.py",
+      "role": "inventory and state script",
+      "bytes": 9383,
+      "sha256": "e8f0705a67575db6800960efece7b1277c613884f3f4017d4b60c69e1fc673d7"
+    },
+    {
+      "path": "src/frame.py",
+      "role": "framing script",
+      "bytes": 4412,
+      "sha256": "ebe702be56015fb795e9005f6ea53c7ce9a82efd85b37c426f11a186b062b20e"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.png"
+      ],
+      "notes": "Commons File:Applesoft BASIC.png, byte-identical, 560x384."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.png",
+      "notes": "Exact 2x nearest-neighbour enlargement centred on 1920x1080 #111318; no crop; reversible (evidence/framing.json). Still; holds for editorial timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        91,
+        91
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        73,
+        75
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "source/original.png",
+      "sha256": "69df4c7f0b3e4271f12311bc0e06e5d61cadffee4b2870875d2034a7cf6bda4e",
+      "relationship": "historical original",
+      "url": "https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop (framing only; no pixels removed)",
+      "record": "evidence/framing.json"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical source (public-domain label, rights review open)",
+      "credit": "\"Applesoft BASIC\" screenshot by Wikimedia Commons user Vadimr, released into the public domain (PD-self). https://commons.wikimedia.org/wiki/File:Applesoft_BASIC.png",
+      "license": "PD-self (Commons); Free screenshot template with empty license parameter",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "access_date": "2026-09-15",
+      "rights_status": "unresolved"
+    }
+  ],
+  "tests": [
+    {
+      "test": "acquisition integrity (local SHA-1 vs Commons API)",
+      "result": "passed",
+      "sha1": "8cf8db2260f1676a052623235afa33fd14505641"
+    },
+    {
+      "test": "archive corroboration (base-32 SHA-1 vs Wayback CDX digest)",
+      "result": "passed",
+      "digest": "RT4NWITA6FTWUBJGEMRVV6RT7UKFAVSB",
+      "captures_with_status_200": 31,
+      "first_capture": "20120802152813"
+    },
+    {
+      "test": "framing reversibility (src/frame.py block-by-block comparison)",
+      "result": "passed",
+      "detail": "passed (every block compared in this script)"
+    },
+    {
+      "test": "PNG dimensions",
+      "result": "passed",
+      "sizes": {
+        "source/original.png": [
+          560,
+          384
+        ],
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ]
+      },
+      "placed_rect": [
+        400,
+        156,
+        1520,
+        924
+      ],
+      "safe_area": [
+        120,
+        72,
+        1800,
+        1008
+      ]
+    },
+    {
+      "test": "claim checks against primary documents",
+      "result": "recorded",
+      "detail": "evidence/claim-checks.json: prompt verified; boot screen not supported; model not established; script sentence qualified."
+    },
+    {
+      "test": "privacy scan of text outputs",
+      "result": "passed",
+      "hits": [],
+      "detail": "Searched for the local account name, home path, e-mail, and client IP (values not written here). HTTP response headers were not saved."
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed source/original.png (560x384) and exports/editorial-frame.png (1920x1080): eleven screen lines legible, square pixels, no stretch/blur/clip, no watermark, UI, or private data.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png (1280x720): every line, including CHR$ (7), readable."
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "acquisition": "curl 8.21.0 (Windows, Schannel), anonymous HTTPS GET",
+    "renderer": "none (Pillow paste of the original; no fonts drawn)",
+    "network_used": "Wikimedia Commons API/file download, Internet Archive metadata/text and Wayback CDX; read-only",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Not a boot screen: shows the Applesoft ] prompt after a typed Hello World was run and listed. Label only as an Applesoft BASIC prompt on an Apple II-family text screen (model and emulator unknown).",
+    "Title kept from the ticket for traceability; the ticket title is not a claim this asset supports.",
+    "Release blocked on R14 rights review; see qa.md for review questions and the optional boundary need."
+  ]
+}
