@@ -1,0 +1,179 @@
+{
+  "id": "XTRA-03",
+  "title": "Early BASIC-era terminal hardware",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (modern museum photograph of period hardware; representative, not the Dartmouth unit)",
+  "shared_version": "not applicable (archive still; no shared template components used)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gate and claim checks",
+      "bytes": 4134,
+      "sha256": "a52d3cadbca49c6a44bee815b8c44aefdf7f251b039101800b2c1f523d104c28"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / transformation record",
+      "bytes": 952,
+      "sha256": "7b4a40a970733bb5079be20275d1b560854435c994c5d543e37c86a3a778b2a6"
+    },
+    {
+      "path": "evidence/proof-720p.png",
+      "role": "QA proof (720p downscale)",
+      "bytes": 926589,
+      "sha256": "e04a591a956fd773778c2d3d2a73b3b5a40377eac9b6a6059a0cc20356c4f2db"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 3157,
+      "sha256": "f0cdceaa81a52dc142867b7639c0320040285ebc36b9cab3d38d73018f913447"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / rights record",
+      "bytes": 6270,
+      "sha256": "4280899c4fa92390b34e37cb4b942922e3327c0ebe279cb67de14b9cee61ea5f"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / source excerpts",
+      "bytes": 5774,
+      "sha256": "1492f02a4b4fe68443918dbcdce6e95f696c2d0655eae9979155a6f7287e027a"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / source record",
+      "bytes": 5126,
+      "sha256": "b67b8fb6f061cd6a8654c15998c7c554aac44523ca2150fd04f7b84850e20d2c"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still (editorial-frame variant)",
+      "bytes": 1888209,
+      "sha256": "240102b9d23df8e9779ced7e925fb4e476be805634c3c2a2c7bc6a3fada1f1f7"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA report",
+      "bytes": 5702,
+      "sha256": "2f13fa3cbf44fdc119a29ea92abf31a22d795ba0919b48a8c5ac0304c91069c1"
+    },
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (acquired native file, unmodified)",
+      "bytes": 1748549,
+      "sha256": "8bfd08bf3a77e1632d6ec43c5b5f566b0719b2e8a3b7524c14736b5a3f5fcc16"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "editable source (framing renderer)",
+      "bytes": 3292,
+      "sha256": "cefa432f7adc9c99268bd63d2bed05acf3171f8afca08d1f9bfb3340a25e69a3"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.jpg"
+      ],
+      "dimensions": {
+        "width": 3264,
+        "height": 2448
+      }
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "transformation": "uniform scale x0.441176, centred, pillarboxed on #111318; see evidence/framing.json"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        63,
+        71
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script anchor (visual request 'Old terminal hardware')"
+    },
+    {
+      "path": "source/original.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/ASR-33_at_CHM.agr.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg",
+      "sha256": "8bfd08bf3a77e1632d6ec43c5b5f566b0719b2e8a3b7524c14736b5a3f5fcc16",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop (reversible uniform scale + pillarbox; no pixels cropped)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "photograph",
+      "creator": "Arnold Reinhold",
+      "license": "CC BY-SA 3.0 Unported / GFDL 1.2 or later",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Teletype Model 33 ASR at the Computer History Museum. Photo: Arnold Reinhold, 2014, via Wikimedia Commons, CC BY-SA 3.0 (creativecommons.org/licenses/by-sa/3.0). Scaled and pillarboxed.",
+      "rights_status": "license recorded; not cleared (R14)"
+    }
+  ],
+  "tests": [
+    {
+      "test": "original integrity (SHA-256 before/after render; SHA-1 vs Commons imageinfo API)",
+      "result": "passed: unchanged; SHA-1 5df1ff6e74dd12536bd381955a1a440e62256a77 matches Commons"
+    },
+    {
+      "test": "render: python assets/historical/XTRA-03/src/render_frame.py",
+      "evidence": "evidence/framing.json",
+      "result": "passed: 3264x2448 placed at 1440x1080 (x=240,y=0), aspect preserved exactly, no crop"
+    },
+    {
+      "test": "export dimensions and pillarbox pixel probes (Pillow)",
+      "result": "passed: editorial-frame 1920x1080 RGB; proof 1280x720; bars #111318"
+    },
+    {
+      "test": "manual viewing at full size (whole frame + 100% crops) and at 720p",
+      "evidence": "qa.md",
+      "result": "passed: no stretch/artefacts; contextual decal and museum card retained; subject recognisable at 720p"
+    },
+    {
+      "test": "python tools/validate_delivery.py --id XTRA-03",
+      "result": "exit 0; ok=ok; errors=[] (validate_delivery.py JSON output, 2026-09-15)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "acquisition": "curl 8.18.0 (anonymous HTTPS GET); WebFetch for page/licence records",
+    "render_command": "python assets/historical/XTRA-03/src/render_frame.py",
+    "network_used_for_render": false,
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Script-supplement asset (SCRIPT.md:63), not an ASSET_PLAN row.",
+    "Pictured: Teletype Model 33 ASR museum unit (photographed 2014). Dartmouth's 19 Oct 1964 description names Model 35 consoles; GE's 26 Mar 1965 revision names model 33/35. Do not caption as Dartmouth or 1964 hardware.",
+    "Review questions RQ1-RQ3 are in evidence/claim-checks.json. Release blocked."
+  ]
+}

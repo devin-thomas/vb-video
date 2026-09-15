@@ -1,0 +1,75 @@
+{
+  "id": "XTRA-03",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "approver": null,
+      "reason": null,
+      "work_done": "Recorded the creator, the file-specific dual licence (CC BY-SA 3.0 / GFDL 1.2+), the anonymous access method and access date, a SHA-1 match against Commons, credit text, and third-party content visible in frame. No 'public domain' or 'educational use' assumption is made. The only genuine 1964 Dartmouth terminal photos found are marked all rights reserved, so they were not acquired.",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/source-excerpts.md"
+      ],
+      "review_questions": [
+        "RQ1 (legal): Is CC BY-SA 3.0 acceptable for a still in the finished video? Reinhold's photo carries ShareAlike, and whether the video is an Adaptation or a Collection is a legal call. If not, the fallback is a CC BY 2.0 Model 33 photo (Kai Wegner, not yet inspected).",
+        "RQ2 (editorial/permission): Use this representative museum Model 33 ASR, or seek permission for the genuine Nov 1964 Dartmouth Alumni Magazine photo of students at the College Hall stations? That route needs a human request and a high-resolution scan.",
+        "RQ3 (taste): The in-frame 'TimeShare Corporation' decal and cut-off CHM display card are left visible because cropping them would hide context. Acceptable on screen?"
+      ]
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "The image shows period time-sharing terminal hardware suitable for the 1964 BASIC-origin beat.",
+      "status": "partially supported, with limits",
+      "finding": "The picture is a Teletype Corporation Model 33 ASR, a period teleprinter, photographed in a museum in 2014. Dartmouth's Computation Center description of 19 Oct 1964 names Model 35 teletypes. GE's 26 Mar 1965 revision names 'model 33/35'. So the Model 33 is documented for the Dartmouth system by 1965, but not as the model in Dartmouth's own 1964 description.",
+      "action": "No caption asserts Dartmouth or 1964 provenance. The proposed caption in source.json is limited to what the sources support.",
+      "evidence": [
+        "evidence/source-excerpts.md#2-what-terminals-dartmouth-actually-used-primary-evidence"
+      ]
+    },
+    {
+      "claim": "Not a later CRT terminal captioned as 1964 Dartmouth hardware.",
+      "status": "verified",
+      "finding": "The subject is an electromechanical teleprinter with paper roll and paper tape, not a CRT terminal.",
+      "evidence": [
+        "source/original.jpg",
+        "evidence/source.json"
+      ]
+    },
+    {
+      "claim": "Identity: the pictured machine is an ASR-33.",
+      "status": "verified",
+      "finding": "The photographer's Commons description, the museum card headed 'ASR-33 Telet…' (visible text consistent with the CHM Revolution ASR-33 label), the integrated tape reader/punch, and the Model 33 keyboard all agree.",
+      "evidence": [
+        "evidence/source.json"
+      ]
+    },
+    {
+      "claim": "Model introduction year.",
+      "status": "unresolved (not needed)",
+      "finding": "The CHM Revolution page says 1964; secondary sources say 1963. No year is captioned.",
+      "evidence": [
+        "evidence/source.json"
+      ]
+    },
+    {
+      "claim": "No duplicate of HIST-04 (Kemeny and Kurtz portrait).",
+      "status": "verified",
+      "finding": "This asset is hardware only, with no people. assets/historical/HIST-04 contained only a planning state.json on 2026-09-15.",
+      "evidence": [
+        "../HIST-04/state.json"
+      ]
+    },
+    {
+      "claim": "Script impact.",
+      "status": "no change required",
+      "finding": "SCRIPT.md:63-71 requests only 'Old terminal hardware' and does not name a terminal or computer model. The GE-225 vs GE-235 nuance (the Oct 1964 document already names a GE-235) is outside this narration range. Nothing is flagged for the Writing Lead.",
+      "evidence": [
+        "evidence/source-excerpts.md#1-script-anchor-hash-locked-original"
+      ]
+    }
+  ]
+}
