@@ -1,0 +1,46 @@
+{
+  "title": "The Access System, Huntsville, AL: Catalog of Files by Subject as of 09/09/1992 (access.lst)",
+  "creator": "Unknown individual. In-file identity: generated for THE ACCESS SYSTEM - HUNTSVILLE, AL, by the listing program named in each page footer (\"File listing created with WGM-DMS v.3.5.\"). The operating sysop in 1992 is not named in the file. File descriptions were written by unnamed sysop(s)/uploaders. Archived and published online by TEXTFILES.COM (Jason Scott).",
+  "source_url": "http://www.textfiles.com/bbs/FILELISTS/access.lst",
+  "source_index_url": "http://www.textfiles.com/bbs/FILELISTS/",
+  "source_index_entry": "access.lst  153281  FILELISTS: The Access System, Huntsville, AL (September 9, 1992)",
+  "independent_capture_url": "http://web.archive.org/web/20100209024249/http://textfiles.com/bbs/FILELISTS/access.lst",
+  "original_date": "1992-09-09 (in-file: \"Catalog of Files by Subject as of : 09/09/1992\", repeated on every page header)",
+  "depicted_event_date": "1992-09-09 (the board's file catalog as of that date; individual file dates in the listing range from 1985 to 09-1992)",
+  "archive_server_last_modified": "Fri, 16 Jan 2004 05:49:22 GMT (HTTP Last-Modified on textfiles.com; an upload/modification time on the archive server, not the content date)",
+  "access_date": "2026-09-15",
+  "access_method": "Plain HTTP GET with curl of the public text file; no account, login, CAPTCHA, payment, or terms acceptance. Text listing only; no archives or executables downloaded.",
+  "identity_evidence": [
+    "Line 1 (and every page header, e.g. line 541): THE ACCESS SYSTEM - HUNTSVILLE, AL, framed by CP437 block characters.",
+    "Line 3 (and e.g. line 543): Catalog of Files by Subject as of : 09/09/1992.",
+    "Page footers, e.g. line 599: File listing created with WGM-DMS v.3.5. Page 10.",
+    "textfiles.com FILELISTS index row describes it as The Access System, Huntsville, AL (September 9, 1992).",
+    "Wayback Machine capture 20100209024249 (raw id_ fetch) is byte-identical to the file served on 2026-09-15: SHA-256 883c34aefc363c4acaa5b1db9586e446b69fb9961935b70a666799ce6b875bc2 for both.",
+    "Earlier catalog from the same board, http://www.textfiles.com/bbs/FILELISTS/access.old (in-file date 07/20/1992, SHA-256 7a9ac118ad04634a56fc8c75f37b25ccbe7c334545b8c421b7dc64ed63b85eac), carries the same VBRUN.ZIP 169469 06-09-92 entry at its line 496. It corroborates the entry; it is not stored in this package.",
+    "Line 673 mentions \"Walt Hanley, original sysop of ACCESS.\" inside a file description. This names an earlier sysop, not the listing's author or rights holder."
+  ],
+  "version_model_evidence": "Runtime entry at lines 591-592: VBRUN.ZIP 169469 06-09-92 \"The Dynamic Link Library required to run any compiled Visual Basic program.\" The listing does not name the DLL or a Visual Basic version. It does not mention VBRUN300.",
+  "original_file": "source/original.txt",
+  "original_file_facts": {
+    "bytes": 153281,
+    "sha256": "883c34aefc363c4acaa5b1db9586e446b69fb9961935b70a666799ce6b875bc2",
+    "encoding": "IBM PC code page 437 (block and box-drawing characters in page headers; six lines contain byte 0xFF, which decodes to U+00A0)",
+    "line_endings": "CRLF (3060 CRLF pairs); form feed (0x0C) at the start of each 60-line page",
+    "lines": 3060,
+    "original_native_extension_note": "Served as access.lst. Stored as source/original.txt per the manager's instruction; the bytes are unchanged."
+  },
+  "original_dimensions": null,
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": "None. http://www.textfiles.com/disclaimer.html states that TEXTFILES.COM maintains no copyright or ownership and makes no claim on the texts, and that removal is decided by the files' creators. That is a disclaimer, not a license or permission from the creator.",
+  "rights_status": "unresolved",
+  "credit_text": "Proposed, not cleared: \"File catalog of The Access System BBS, Huntsville, Alabama (September 9, 1992). Archived by TEXTFILES.COM.\"",
+  "transformations": [
+    "source/original.txt: none (byte-exact copy of the served file).",
+    "exports/editorial-frame.png: source lines 541-548 and 586-599 decoded from CP437 and typeset unchanged in Consolas 28 px on a 1920x1080 canvas. Authored display layers: line-number column, a dashed gap marker for omitted lines 549-585, a gold outline around lines 591-592, and a sidebar label/credit. Page form-feed characters are not on the rendered lines. No listing text is altered, reordered, or invented; build_frame.py checks each rendered line against the source before export."
+  ],
+  "notes": [
+    "No text listing in textfiles.com/bbs/FILELISTS (32 files, dated 1989 to December 1994) mentions VBRUN300; runtime entries there are VBRUN100/VBRUN2/VBRUN.ZIP. See evidence/source-excerpts.md for the search record.",
+    "This is a historical source for a script-supplement visual (SCRIPT.md:595-597), not an original asset-plan row."
+  ]
+}

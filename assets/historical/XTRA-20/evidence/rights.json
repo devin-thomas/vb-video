@@ -1,0 +1,29 @@
+{
+  "id": "XTRA-20",
+  "asset": "source/original.txt and its typeset rendering exports/editorial-frame.png",
+  "rights_holder": "Unknown. Probable candidates: the operator(s) of The Access System BBS, Huntsville, AL in 1992 and the individual uploaders who wrote file descriptions. None is named as author of the catalog in the file.",
+  "archive_operator": "TEXTFILES.COM (Jason Scott)",
+  "license_name": null,
+  "license_url": null,
+  "file_specific_terms": "None found. No license, copyright notice, or usage terms appear in the file.",
+  "archive_policy": {
+    "url": "http://www.textfiles.com/disclaimer.html",
+    "accessed": "2026-09-15",
+    "http_last_modified": "Sun, 21 Nov 1999 14:38:23 GMT",
+    "summary": "TEXTFILES.COM says it is a non-commercial historical archive, claims no copyright or ownership on any part of the site, and leaves removal decisions to each file's creator. It grants no license to third parties."
+  },
+  "wayback_capture": {
+    "url": "http://web.archive.org/web/20100209024249/http://textfiles.com/bbs/FILELISTS/access.lst",
+    "role": "Identity/stability evidence only; the Internet Archive grants no additional rights."
+  },
+  "access_method": "Public HTTP download of a text file. No account, login, CAPTCHA, payment, or terms acceptance.",
+  "access_date": "2026-09-15",
+  "rights_status": "unresolved",
+  "release_status": "blocked",
+  "credit_text": "Proposed, not cleared: \"File catalog of The Access System BBS, Huntsville, Alabama (September 9, 1992). Archived by TEXTFILES.COM.\"",
+  "review_question": "Can the production show a typeset excerpt of this 1992 BBS file catalog (file names, sizes, dates, one-line descriptions) with the credit above, when no license exists, the creator is unknown, and the archive only disclaims ownership? This is a legal-risk and publication decision for Devin; the agent has not cleared it.",
+  "notes": [
+    "Public availability and the archive's non-commercial framing are not a license record (R14).",
+    "No attempt was made to contact a rights holder; that would be a human handoff."
+  ]
+}

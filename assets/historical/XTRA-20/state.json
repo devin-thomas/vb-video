@@ -1,12 +1,17 @@
 {
   "id": "XTRA-20",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Archive Extras worker (manager session vb-25), branch ticket/XTRA-20",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: rights unresolved for the 1992 Access System BBS file catalog (creator unknown, no license; textfiles.com disclaims ownership only). Release blocked pending review-deck decision."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Source: http://www.textfiles.com/bbs/FILELISTS/access.lst (The Access System, Huntsville, AL; catalog as of 09/09/1992), byte-exact as source/original.txt; confirmed byte-identical to Wayback capture 20100209024249.",
+    "Editorial frame is a typeset rendering of source lines 541-548 and 586-599 highlighting VBRUN.ZIP; not a live board screen reconstruction.",
+    "Script figures (1.5 MB bundled download; nearly ten minutes at 14.4k) not supported as stated; review question for the Writing Lead. War/SCRIPT.md not edited.",
+    "No textfiles.com board listing mentions VBRUN300; the listing shows a pre-VB3 runtime (VBRUN.ZIP). Editorial review question recorded."
   ]
 }

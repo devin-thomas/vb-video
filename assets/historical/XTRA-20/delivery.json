@@ -1,0 +1,185 @@
+{
+  "id": "XTRA-20",
+  "title": "Period BBS file listing",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0 (palette tokens and safe area only; frame built by src/build_frame.py, not the shared renderer)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "source/original.txt",
+      "role": "historical original (byte-exact archived text file; variant original)",
+      "bytes": 153281,
+      "sha256": "883c34aefc363c4acaa5b1db9586e446b69fb9961935b70a666799ce6b875bc2"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame export 1920x1080 (typeset rendering)",
+      "bytes": 280042,
+      "sha256": "a8d95792dce375e5c6bdd78cfd6e57157526417df9110ef25c6f64a798be9b7e"
+    },
+    {
+      "path": "src/editorial-frame.svg",
+      "role": "editable SVG source of the editorial frame",
+      "bytes": 12369,
+      "sha256": "1a362112728220704dbad3304fab2ad662ad9fa55ef263b9f5e96fca1db7851b"
+    },
+    {
+      "path": "src/build_frame.py",
+      "role": "deterministic build/render script with source-fidelity check",
+      "bytes": 9255,
+      "sha256": "e41e441cdbd0bd2a35dc9440722dd962c76dd6817366af48c2832f385114a6c6"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "720p review proof (not an export)",
+      "bytes": 408839,
+      "sha256": "eb64a379eb9fe274e5642755b7ac3ff3bd8a2ccc4b2594f8782f74901e07d88f"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 6994,
+      "sha256": "d6c23b1cf34f60a523dfd2ad609ccb488211d5d03689e86066d1679ef85c9910"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "source record",
+      "bytes": 4994,
+      "sha256": "96734e50474f193c38e6af05cb66829f2f815b2da7c280c3557e97414a14ec9f"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 2085,
+      "sha256": "ad11461ea5dd8e3b89993626c506e9c40705567580fba763147c1a9cd66abd0f"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 3264,
+      "sha256": "4cc0b99c39f2e3d4e8270090a26d674496374a6902d1bb336f0ed86140eae949"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts and search record",
+      "bytes": 4693,
+      "sha256": "ea179afe79bdd0a152e5b49bcaf222d071c0a20be9dbd347cd1683d1a70530d7"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "R14 gate and script claim checks",
+      "bytes": 6599,
+      "sha256": "0e1f82c5e8bed3ddf39d7a3a95f425e4e7a9d6fcf88fcd34aff9cccd0400d5ee"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.txt"
+      ],
+      "timeline": null
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "source": "src/editorial-frame.svg",
+      "timeline": null,
+      "note": "Still; holds for editorial timing. Source lines 541-548 and 586-599; highlight on 591-592."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        595,
+        597
+      ],
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "source/original.txt",
+      "url": "http://www.textfiles.com/bbs/FILELISTS/access.lst",
+      "sha256": "883c34aefc363c4acaa5b1db9586e446b69fb9961935b70a666799ce6b875bc2",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.txt",
+      "relationship": "derivative crop",
+      "note": "Typeset rendering of unchanged listing lines plus labeled display layers."
+    }
+  ],
+  "credits": [
+    {
+      "item": "The Access System BBS file catalog (09/09/1992)",
+      "creator": "unknown (The Access System BBS, Huntsville, AL)",
+      "archive": "TEXTFILES.COM (Jason Scott)",
+      "rights_status": "unresolved",
+      "credit_text": "Proposed, not cleared: File catalog of The Access System BBS, Huntsville, Alabama (September 9, 1992). Archived by TEXTFILES.COM."
+    }
+  ],
+  "tests": [
+    {
+      "name": "source hash vs served file and Wayback 20100209024249 raw capture",
+      "result": "pass (identical SHA-256)"
+    },
+    {
+      "name": "build_frame.py listing text fidelity (22 lines parsed back from SVG vs CP437 source)",
+      "result": "pass"
+    },
+    {
+      "name": "Consolas glyph coverage for all decoded characters",
+      "result": "pass"
+    },
+    {
+      "name": "safe-area layout checks (font advance widths)",
+      "result": "pass on second run; first run failed line-number bound and was fixed"
+    },
+    {
+      "name": "export dimensions 1920x1080",
+      "result": "pass"
+    },
+    {
+      "name": "manual inspection full size (whole frame + four 1:1 crops) and 720p proof",
+      "result": "pass; first render rejected and fixed, see qa.md"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id XTRA-20",
+      "result": "see qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "cairosvg": "2.9.1",
+    "cairocffi": "1.17.2",
+    "cairo": "1.18.4 (MSYS2 ucrt64)",
+    "pillow": "12.3.0",
+    "fonttools": "4.63.0",
+    "fontconfig": "2.18.3",
+    "fonts": {
+      "Consolas": "consola.ttf Version 7.01",
+      "Segoe UI": "segoeui.ttf Version 5.71",
+      "Segoe UI Bold": "segoeuib.ttf Version 5.71"
+    },
+    "command": "$env:CAIROCFFI_DLL_DIRECTORIES='C:\\msys64\\ucrt64\\bin'; $env:PATH=\"$env:PATH;C:\\msys64\\ucrt64\\bin\"; C:\\Python314\\python.exe assets/historical/XTRA-20/src/build_frame.py"
+  },
+  "notes": [
+    "Script-supplement visual for SCRIPT.md:595-597; not an ASSET_PLAN.md row.",
+    "Rights unresolved; release blocked under R14. Script figures for bundled size and 14.4k time not supported as stated; see evidence/claim-checks.json review questions.",
+    "No archives or executables downloaded; no live-board reconstruction; no AI-generated material."
+  ]
+}
