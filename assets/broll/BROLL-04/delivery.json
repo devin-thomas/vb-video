@@ -1,0 +1,153 @@
+{
+  "id": "BROLL-04",
+  "title": "Browsing a 1990s software store",
+  "production_status": "scouted",
+  "release_status": "blocked",
+  "provenance_type": "stock/archive scouting report; no media acquired",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "qa.md",
+      "role": "qa record",
+      "bytes": 6597,
+      "sha256": "c2e3c7f6ded0680a8b77724817f52fdf88508b2fe1196bec42040de06d630f01"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 3692,
+      "sha256": "fc7aa2af70e7e9c2ff8c432bf432db32244613cbe704bc04ab6d8cd3aa64b5f1"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "literal source excerpts",
+      "bytes": 1934,
+      "sha256": "47ff2d59170b3591b409ec381232dc7dc9f446b9a698e0a3b59512508f38ecce"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "editorial gate record (R14 open)",
+      "bytes": 4874,
+      "sha256": "8e49383802a7c28f2b6928776758f7f7c25381887ecd8463796b662fee2b17a7"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "ranked candidate report (variant candidate-report)",
+      "bytes": 11919,
+      "sha256": "a234e82657177f4231af0a1b91ca427cab6d193044b5a0872718eb21529542d1"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "role": "structured candidates",
+      "bytes": 11489,
+      "sha256": "d69c15fd377bc5b6c7eeb868881d18df5985d691e29a2e7ec55ea195ab4d3159"
+    },
+    {
+      "path": "exports/acquisition-handoff.md",
+      "role": "ungated download list and H02 gated handoff",
+      "bytes": 5235,
+      "sha256": "fe472e74561bb5ba20da9d4b7d6a6fa1a42b9c0869ab8a26997bdf6ead006d71"
+    }
+  ],
+  "variants": [
+    {
+      "name": "candidate-report",
+      "path": "exports/candidates.md",
+      "timeline": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        109,
+        122
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        799,
+        805
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt"
+    },
+    {
+      "url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "accessed": "2026-09-15",
+      "relationship": "stock candidate (archival home video; rank 1; not acquired)",
+      "proposed_in": "00:02:16.0",
+      "proposed_out": "00:02:24.0"
+    },
+    {
+      "url": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3",
+      "accessed": "2026-09-15",
+      "relationship": "stock candidate (archival home video; rank 2; not acquired)",
+      "proposed_in": "00:10:43.0",
+      "proposed_out": "00:10:53.0"
+    },
+    {
+      "url": "https://texashistory.unt.edu/ark:/67531/metadc2152255/",
+      "accessed": "2026-09-15",
+      "relationship": "stock candidate (archival broadcast; rank 3; gated, not viewed)"
+    }
+  ],
+  "credits": [
+    {
+      "for": "candidate 1 (if cleared)",
+      "text": "Video: Dan Lynch (via Internet Archive)"
+    },
+    {
+      "for": "candidate 2 (if cleared)",
+      "text": "Video: Ted Spero (via Internet Archive)"
+    },
+    {
+      "for": "candidate 3 (if licensed)",
+      "text": "NBC 5/KXAS Television News Collection (AR0776), University of North Texas Special Collections"
+    }
+  ],
+  "tests": [
+    {
+      "name": "free stock search (Pexels, Pixabay, Mixkit, Coverr, Videvo)",
+      "result": "no match; Videvo 403"
+    },
+    {
+      "name": "archive search (Internet Archive API, Wikimedia Commons API, Portal to Texas History)",
+      "result": "3 candidates; Commons partly rate-limited"
+    },
+    {
+      "name": "in-page motion sampling (Claude Browser, IA embed player)",
+      "result": "candidates 1 and 2 sampled; candidate 3 blocked by CAPTCHA"
+    },
+    {
+      "name": "license text recorded from item pages/records",
+      "result": "done; CC0 authority unverified for 1-2; InC for 3"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id BROLL-04",
+      "result": "passed (see worker report)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "curl": "8.18.0",
+    "python": "3.14.0",
+    "git": "2.53.0.windows.1",
+    "browser": "Claude Browser pane (built-in)",
+    "web": "WebFetch/WebSearch",
+    "ffprobe": "installed, not run (no media)"
+  },
+  "notes": [
+    "Scouting complete; no media downloaded; nothing cleared.",
+    "Best candidate CC0 was applied by a third-party IA uploader, not the named creator: review question and H02-a.",
+    "All candidates are genuine archival; no reenactment or AI stand-in."
+  ]
+}

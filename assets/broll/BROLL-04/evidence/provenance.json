@@ -1,0 +1,30 @@
+{
+  "id": "BROLL-04",
+  "provenance_classification": "scouting report (external archive candidates; no media acquired)",
+  "source_files": [
+    {"path": "sources/ASSET_PLAN.md", "lines": [120, 120], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (plan row for asset 4)"},
+    {"path": "sources/ASSET_PLAN.md", "lines": [109, 122], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (free stock sources table)"},
+    {"path": "sources/SCRIPT.md", "lines": [799, 805], "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb", "relationship": "literal excerpt (B-roll suggestion 4)"}
+  ],
+  "external_evidence": [
+    {"url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480", "accessed": "2026-09-15", "used_for": "candidate 1 title, creator, uploader, date, description, CC0 license, download options", "relationship": "stock candidate (archival)"},
+    {"url": "https://archive.org/metadata/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480", "accessed": "2026-09-15", "used_for": "file names, byte sizes, duration, dimensions, originalurl"},
+    {"url": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3", "accessed": "2026-09-15", "used_for": "candidate 2 page facts and CC0 license", "relationship": "stock candidate (archival)"},
+    {"url": "https://archive.org/metadata/comp-usa-windows-95-launch-pt-1-of-3", "accessed": "2026-09-15", "used_for": "file names, byte sizes, durations, dimensions"},
+    {"url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=WgG7KLymsg0&format=json", "accessed": "2026-09-15", "used_for": "original uploader identity (Dan Lynch, @danlynch203)"},
+    {"url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=rjwidy5VEGw&format=json", "accessed": "2026-09-15", "used_for": "original uploader identity (Ted Spero, @tedspero4545); also K1742uWS0a8, yGe8WW2JtFw"},
+    {"url": "https://texashistory.unt.edu/ark:/67531/metadc2152255/", "accessed": "2026-09-15", "used_for": "candidate 3 catalog facts", "relationship": "stock candidate (archival, gated)"},
+    {"url": "https://texashistory.unt.edu/oai/?verb=GetRecord&metadataPrefix=untl&identifier=info:ark/67531/metadc2152255", "accessed": "2026-09-15", "used_for": "rights statement, rights holder, rights note"},
+    {"url": "https://texashistory.unt.edu/help/faq/KXAS-NBC5/", "accessed": "2026-09-15", "used_for": "permission requirement"},
+    {"url": "https://library.unt.edu/special-collections/nbc-5kxas-wbap-research-faq/", "accessed": "2026-09-15", "used_for": "beginning licensing rate $90 per second; request forms; contact"},
+    {"url": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-09-15", "used_for": "CC0 deed text; 'Creative Commons has not verified the copyright status of any work to which CC0 has been applied'"},
+    {"url": "https://help.archive.org/help/rights/", "accessed": "2026-09-15", "used_for": "IA statement that it does not guarantee copyright status of items"},
+    {"url": "http://rightsstatements.org/vocab/InC/1.0/", "accessed": "2026-09-15", "used_for": "In Copyright statement definition"}
+  ],
+  "authored_additions": [
+    "Ranking of candidates, proposed in/out timecodes, visual-fit notes, local save-as filenames, and review questions are the scout's proposals, not source facts.",
+    "Depicted dates (1995-08-23; 1993-08-03) are as stated by the hosting pages and are not independently verified."
+  ],
+  "media_acquired": [],
+  "producer_decisions": []
+}
