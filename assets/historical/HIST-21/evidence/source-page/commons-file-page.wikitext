@@ -1,0 +1,15 @@
+=={{int:filedesc}}==
+{{Information
+|description={{en|1=A 4MB Macintosh Classic II running classic MacOS System 7.5.5}}
+|date=2019-07-06
+|source={{own}}
+|author=[[User:RetroEditor|RetroEditor]]
+|permission=
+|other versions=
+}}
+
+=={{int:license-header}}==
+{{self|cc-by-sa-4.0}}
+
+[[Category:Macintosh Classic II]]
+[[Category:Computers running Classic Mac OS]]

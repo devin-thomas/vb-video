@@ -1,0 +1,66 @@
+{
+  "id": "HIST-21",
+  "file": "source/original.jpg",
+  "overall_rights_status": "unresolved",
+  "overall_summary": "The photograph is file-specifically licensed CC BY-SA 4.0 by its uploader. That license covers the photographer's work only. The screen shows Apple's copyrighted System 7.5.5 Finder interface prominently, and the case and keyboard carry Apple trademarks. No license, permission, or approved fair-use decision covers the Apple interface. Release stays blocked until rights review.",
+  "access_date": "2026-09-15",
+  "access_method": "Public, anonymous HTTPS download from Wikimedia Commons; no account, payment, terms acceptance, CAPTCHA, or watermark removal.",
+  "layers": [
+    {
+      "layer": "Photograph",
+      "rights_holder": "RetroEditor (Wikimedia Commons user; real-world identity not stated)",
+      "terms": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "legalcode_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "evidence": [
+        "evidence/source-page/commons-file-page.wikitext ({{self|cc-by-sa-4.0}})",
+        "evidence/source-page/commons-imageinfo-api.json (LicenseShortName CC BY-SA 4.0)",
+        "evidence/source-page/wayback-20230716193413-commons-file-page.html (same license one week after upload)"
+      ],
+      "status": "licensed (as declared by uploader; authorship taken on the uploader's own-work statement)",
+      "obligations_checked_against_legalcode": [
+        "Attribution (Section 3(a)): identify the creator, keep any copyright notice, name or link the license, keep the warranty-disclaimer notice, give a URI or hyperlink to the material where reasonably feasible, and indicate modifications.",
+        "ShareAlike (Section 3(b)): if Adapted Material is shared, the adapter's license must be a Creative Commons license with the same License Elements (this version or later) or a BY-SA-compatible license."
+      ],
+      "worker_correction": "Checked Section 1 of the legal code. Automatic 'Adapted Material' from timed synching with a moving image applies only to musical works, performances, and sound recordings. It does not apply to a photograph, so nothing here should claim the video automatically triggers ShareAlike. Whether the resized, pillarboxed frame shown inside the video is Adapted Material (and therefore needs a BY-SA adapter's license for that frame) is a legal question and is left open.",
+      "modifications_to_disclose": "Resized (uniform x0.685714) and pillarboxed onto a 1920x1080 dark background. No crop or retouching."
+    },
+    {
+      "layer": "Depicted software interface (System 7.5.5 Finder, About This Macintosh, icons, Chicago/Geneva UI)",
+      "rights_holder": "Apple Inc. (shown as '(c) Apple Computer, Inc. 1983-1995')",
+      "terms": "None found. Proprietary software; no open license.",
+      "license_url": null,
+      "evidence": [
+        "On-screen copyright line in source/original.jpg",
+        "Commons:Screenshots policy (https://commons.wikimedia.org/wiki/Commons:Screenshots, accessed 2026-09-15): screenshots of non-free software are not accepted; de minimis is limited where the non-free content is prominent"
+      ],
+      "status": "unresolved",
+      "note": "The interface fills the screen, which is the subject of the shot, so a de minimis argument is weak. Commons hosting the photo does not mean the Apple interface layer is cleared. No fair-use or public-domain assumption is made here."
+    },
+    {
+      "layer": "Depicted trademarks (Apple logo on case and keyboard, 'Macintosh Classic II' badge)",
+      "rights_holder": "Apple Inc.",
+      "terms": "Trademark, not copyright; not licensed by the photo license.",
+      "status": "unresolved (low-risk descriptive use expected, but not decided here)",
+      "note": "Showing the product's own badge to identify it is ordinarily descriptive. Any endorsement implication or thumbnail use should be reviewed."
+    },
+    {
+      "layer": "Third-party software names visible on screen (StuffIt Expander, Disinfectant, ResEdit, TattleTech, Lido, Disk Copy, System Picker, ShrinkWrap)",
+      "rights_holder": "Various",
+      "status": "incidental; names and icons are small and not the subject",
+      "note": "Recorded for completeness; no separate clearance claimed."
+    }
+  ],
+  "credit_text": "Photo: RetroEditor / Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Resized and pillarboxed. Apple, Macintosh, and Mac OS are trademarks of Apple Inc.",
+  "credit_text_note": "Proposed credit text is a production draft. The final on-screen versus end-credit placement of the attribution is an editorial decision.",
+  "not_done": [
+    "No legal clearance, fair-use determination, or permission request was made or implied.",
+    "No contact with the uploader or Apple was attempted.",
+    "The asset is not placed in the cleared-media bin."
+  ],
+  "review_questions": [
+    "RQ-1 (rights, legal risk): The CC BY-SA 4.0 license covers the photograph only. Is showing Apple's System 7.5.5 Finder interface in this video acceptable, and on what basis (e.g., commentary/fair use, or seek an alternative)?",
+    "RQ-2 (rights, legal risk): Is the resized, pillarboxed frame shown in the video 'Adapted Material' under CC BY-SA 4.0, requiring that frame to carry a BY-SA-compatible license, or is plain attribution sufficient for this use?",
+    "RQ-3 (credits): Where should the attribution appear — an on-screen lower third during the shot, the end credits, the video description, or a combination?"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "HIST-21",
+  "transform": "uniform downscale + centered pillarbox; no crop, no stretch, no retouch, no overlay",
+  "source": {
+    "path": "source/original.jpg",
+    "width": 1443,
+    "height": 1575,
+    "sha256": "ff86e934dedb26354108f0a80abff503873d84b8e2b7f8486a9afa06a6e77f35"
+  },
+  "crop_box_in_source": [
+    0,
+    0,
+    1443,
+    1575
+  ],
+  "scale": 0.685714,
+  "scaled_size": [
+    989,
+    1080
+  ],
+  "placement_on_canvas": {
+    "left": 465,
+    "top": 0,
+    "right": 1454,
+    "bottom": 1080
+  },
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background_rgb_hex": "#111318",
+  "resampling": "PIL LANCZOS",
+  "added_text_or_ui": [],
+  "reverse_mapping": "source_xy = ((canvas_x - left) / scale, (canvas_y - top) / scale)",
+  "outputs": {
+    "exports/editorial-frame.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "94dbc0aafc5a8fb1fd264a48cbf9c1ef2758dbe1ad39f885c869c490a0ee19d2"
+    },
+    "proofs/editorial-frame-720.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "f6676ee6fceffa754b933d5b22c108bc2775962f9237bee4283fa7fa7f4527e4"
+    }
+  },
+  "toolchain": {
+    "python": "3.14.0",
+    "Pillow": "12.3.0"
+  }
+}
