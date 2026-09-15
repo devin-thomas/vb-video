@@ -1,0 +1,57 @@
+{
+  "id": "XTRA-09",
+  "file": "source/original.jpg",
+  "rights_status": "unverified",
+  "release_recommendation": "blocked until a human decides the review questions below",
+  "rights_holder": "Photographer (Commons: 'Akbkuku'; filed under 'Photographs by Shelby Jueden'). The depicted product design and logo belong to Apple; this is an ordinary product photograph.",
+  "license_claims": [
+    {
+      "where": "Wikimedia Commons file page wikitext (read 2026-09-15)",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:Apple-macintosh-performa-630cd.jpg&action=raw",
+      "text": "{{cc-by-4.0|Akbkuku}}; |Author=Akbkuku; |Permission= (empty)",
+      "reviewed": "No license-review template (no LicenseReview, FlickreviewR, or VRT ticket) on the file page."
+    },
+    {
+      "where": "Commons structured data (read 2026-09-15)",
+      "text": "creator Akbkuku; copyright status copyrighted; license CC BY 4.0; source wiki.techtangents.net file page"
+    },
+    {
+      "where": "Upstream wiki.techtangents.net file page, Internet Archive snapshot 2023-07-21 06:02:06",
+      "url": "https://web.archive.org/web/20230721060206/https://wiki.techtangents.net/wiki/File:Apple-macintosh-performa-630cd.jpg",
+      "text": "File history: '19:39, 4 July 2023 5,444 × 2,921 (3.78 MB) Akbkuku ... Uploaded own work with UploadWizard'. Footer: 'Content is available under Creative Commons Attribution unless otherwise noted.'",
+      "reviewed": "No version number and no per-file license template visible in the extracted page text."
+    }
+  ],
+  "consistency_check": {
+    "comparison_file": "https://commons.wikimedia.org/wiki/File:Macintosh_Classic_II_(Shelby_Jueden).jpg",
+    "finding": "Another Tech Tangents photo transferred to Commons carries Author=Shelby Jueden and {{cc-by-sa-4.0|Shelby Jueden}}. The same upstream wiki thus appears on Commons under two different license versions (CC BY 4.0 and CC BY-SA 4.0), while the upstream footer names only 'Creative Commons Attribution'."
+  },
+  "what_is_established": [
+    "The upstream wiki published the photo under a 'Creative Commons Attribution' footer (archived 2023-07-21).",
+    "The uploader Akbkuku labelled it 'own work' upstream.",
+    "Commons records it as CC BY 4.0, credited to Akbkuku."
+  ],
+  "what_is_not_established": [
+    "The exact license version the photographer intended (the upstream footer gives none).",
+    "That Akbkuku is Shelby Jueden. Inferred from the Commons category and the git.techtangents.net/akbkuku namespace, not documented.",
+    "Any independent review of the Commons transfer."
+  ],
+  "if_accepted_as_cc_by_4_0": {
+    "obligations": "Attribute the creator, link or name the license, and indicate changes. The editorial frame resizes and places the photo on a background, which counts as a change.",
+    "credit_text": "Macintosh Performa 630CD photo: Akbkuku (Tech Tangents), CC BY 4.0, via Wikimedia Commons. Resized and framed.",
+    "share_alike": false
+  },
+  "access_boundaries_observed": [
+    "No account, login, payment, or terms acceptance.",
+    "The live upstream wiki served an Anubis anti-bot challenge, which was not bypassed; the Internet Archive snapshot was used instead.",
+    "No watermark present; nothing removed."
+  ],
+  "fallback_with_verified_license": {
+    "file": "https://commons.wikimedia.org/wiki/File:Macintosh_Performa_6200_(front-top).jpg",
+    "license": "CC BY 2.0, FlickreviewR passed 2018-01-21 against https://flickr.com/photos/24034951@N00/6600552691 (archived https://web.archive.org/web/20190129182455/https://www.flickr.com/photos/24034951@N00/6600552691/)",
+    "creator": "Remko van Dokkum",
+    "status": "Scouted only, not acquired; see evidence/candidates.json."
+  },
+  "access_date": "2026-09-15",
+  "reviewer": null
+}

@@ -1,0 +1,244 @@
+{
+  "id": "XTRA-09",
+  "title": "Mid-1990s Macintosh hardware",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (third-party archival product photograph; SCRIPT-SUPPLEMENT, not an original asset-plan row)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates.json",
+      "role": "evidence / search and alternate candidates",
+      "bytes": 4732,
+      "sha256": "20ffd7c019cb6a7e5feb5cb4020cb3697f7e2e2ce2df3de7e888d9718dc0b1e5"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gates and review questions",
+      "bytes": 3541,
+      "sha256": "ede69249cfcf35028b38b53532ad12b2b5dbeafc69e1f5a3bf88e525f897aecc"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / framing parameters",
+      "bytes": 688,
+      "sha256": "b56ec63a59b940989136ed7b045eadd0eb398e12560f6ff89e04d3783d0d85ac"
+    },
+    {
+      "path": "evidence/identity/performa-630cd-tag.jpg",
+      "role": "identity evidence: rear model label (not for broadcast)",
+      "bytes": 6860830,
+      "sha256": "8c4ad23b0c8e90b2029386a4c5e8db2b8c5316990de05a88a74e981f80f4eb0c"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 2250,
+      "sha256": "d9e5381e163185657eeb31be04efaf7a84b1566a6c7bad370b94ceffdd9e343f"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / rights record",
+      "bytes": 3783,
+      "sha256": "a8264a5d7a42718e29e78c1bff9356b9fafc07a82af3eb0272ba6a70cb87368e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / source excerpts",
+      "bytes": 1846,
+      "sha256": "bdac6dd7b8970282a71f5c3cd6f63d37268d1f1723ec2809f66a810cabf9c7f8"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / source record",
+      "bytes": 5682,
+      "sha256": "0e7c514837ca320e8e04f66ad8cd8043af72347429c3d72fd2a318f15e51ff77"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (derived: uniform downscale, no crop)",
+      "bytes": 1577782,
+      "sha256": "4783469f7b32fe7b2c9a812a3455a4df457ac971f1ce54e57b7a7fcf77ab5ff1"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 730376,
+      "sha256": "05e6683ece65cf5ad8ccbf559f3a232c9a23d6aa3d6096792f6a5cc8f0a6a927"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5562,
+      "sha256": "469fb72f3e99116b47affeb2e11535b066de010f82e6756003fc34f90f48ddb1"
+    },
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (native JPEG, byte-identical to Wikimedia Commons file)",
+      "bytes": 3966535,
+      "sha256": "f92f221b042a6122f5511cfed652e761adae7cee9388d56772ed69ad87f9386f"
+    },
+    {
+      "path": "src/make_frame.py",
+      "role": "framing script",
+      "bytes": 2458,
+      "sha256": "273dbc45a88fa9ff9e8798b132769d7c112c1da99cace33377f82cc53c0dd6dc"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.jpg"
+      ],
+      "dimensions": [
+        5444,
+        2921
+      ]
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.jpg",
+      "proof": "proofs/editorial-frame-720.png",
+      "timing": "still; holds for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        639,
+        643
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        696,
+        700
+      ],
+      "sha256": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working script, same wording (Section 15); read only, not edited"
+    },
+    {
+      "path": "source/original.jpg",
+      "sha256": "f92f221b042a6122f5511cfed652e761adae7cee9388d56772ed69ad87f9386f",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Apple-macintosh-performa-630cd.jpg",
+      "relationship": "historical original (native JPEG as published on Wikimedia Commons)"
+    },
+    {
+      "path": "evidence/identity/performa-630cd-tag.jpg",
+      "sha256": "8c4ad23b0c8e90b2029386a4c5e8db2b8c5316990de05a88a74e981f80f4eb0c",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apple-macintosh-performa-630cd-tag.jpg",
+      "relationship": "identity evidence (rear model label of the same machine); not for broadcast"
+    }
+  ],
+  "credits": [
+    {
+      "type": "third-party photograph",
+      "subject": "Apple Macintosh Performa 630CD",
+      "creator": "Akbkuku (filed on Commons under Photographs by Shelby Jueden / Tech Tangents)",
+      "license": "CC BY 4.0 as recorded on Wikimedia Commons (upstream: \"Creative Commons Attribution\", no version)",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apple-macintosh-performa-630cd.jpg",
+      "rights_status": "unverified",
+      "proposed_credit_text": "Macintosh Performa 630CD photo: Akbkuku (Tech Tangents), CC BY 4.0, via Wikimedia Commons. Resized and framed."
+    }
+  ],
+  "tests": [
+    {
+      "test": "original byte-identical to download; unchanged by framing",
+      "result": "passed",
+      "detail": "sha256 f92f221b042a6122f5511cfed652e761adae7cee9388d56772ed69ad87f9386f before and after make_frame.py"
+    },
+    {
+      "test": "PNG dimensions",
+      "result": "passed",
+      "detail": {
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ],
+        "source/original.jpg": [
+          5444,
+          2921
+        ]
+      }
+    },
+    {
+      "test": "no stretch / safe area",
+      "result": "passed",
+      "detail": {
+        "scale": 0.3085966201322557,
+        "scaled_size": [
+          1680,
+          901
+        ],
+        "offset": [
+          120,
+          89
+        ],
+        "aspect_in": 1.8637452927079767,
+        "aspect_out": 1.8645948945615982,
+        "edge_probe": "x119/x1800 and y88/y990 are #111318 background; x120-1799, y89-989 photo"
+      }
+    },
+    {
+      "test": "model identity",
+      "result": "passed",
+      "detail": "Front badge \"Performa 630CD\"; rear label \"Model Number: M3076\"; Apple Support 112345 introduced 7/1/1994"
+    },
+    {
+      "test": "photograph date",
+      "result": "unknown",
+      "detail": "EXIF 2002-02-09 contradicts NIKON D5300 (announced 2013-10-17); recorded as between 2013-10-17 and 2023-07-04"
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed exports/editorial-frame.png at 1920x1080 plus 1:1 crops of the badge region and the top-right frame edge: sharp, clean edges, no stretch/crop/halo, no watermark/text/UI.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png: machine and \"Macintosh / Performa 630CD\" badge legible."
+    },
+    {
+      "test": "python tools/validate_delivery.py --id XTRA-09",
+      "result": "passed: {\"id\": \"XTRA-09\", \"ok\": true, \"errors\": []} (exit 0, run 2026-09-15 before recording this entry; delivery.json is not in the hashed inventory)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "acquisition": "curl anonymous HTTPS GET (Wikimedia Commons / upload.wikimedia.org), 2026-09-15",
+    "render_command": "python assets/historical/XTRA-09/src/make_frame.py",
+    "cairosvg": "not used (raster-only); Cairo DLL not loadable in this shell",
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "network_used_for_render": false
+  },
+  "notes": [
+    "Model: Macintosh Performa 630CD, Apple model number M3076; introduced 1994-07-01 (Apple Support 112345), Orig SSW 7.1.2P.",
+    "Photograph date unknown: EXIF DateTimeOriginal 2002-02-09 is impossible for the NIKON D5300; bounds 2013-10-17 to 2023-07-04.",
+    "Review questions RQ-XTRA09-1 (rights), RQ-XTRA09-2 (credit name), RQ-XTRA09-3 (1994 model for a 1995 line) in evidence/claim-checks.json.",
+    "Kept separate from HIST-21 (System 7 desktop capture): no screen content here; HIST-21 has no capture yet."
+  ]
+}

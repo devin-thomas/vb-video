@@ -1,0 +1,38 @@
+{
+  "input": "source/original.jpg",
+  "input_sha256": "f92f221b042a6122f5511cfed652e761adae7cee9388d56772ed69ad87f9386f",
+  "input_size": [
+    5444,
+    2921
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "background": "#111318",
+  "uniform_scale": 0.3085966201322557,
+  "scaled_size": [
+    1680,
+    901
+  ],
+  "offset": [
+    120,
+    89
+  ],
+  "aspect_in": 1.8637452927079767,
+  "aspect_out": 1.8645948945615982,
+  "resample": "LANCZOS",
+  "crop": null,
+  "retouch": null,
+  "burned_text": null,
+  "outputs": [
+    "exports/editorial-frame.png",
+    "proofs/editorial-frame-720.png"
+  ]
+}

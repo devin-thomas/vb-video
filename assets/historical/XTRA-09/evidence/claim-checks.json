@@ -1,0 +1,64 @@
+{
+  "id": "XTRA-09",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "reason": "Item-specific rights were researched and recorded, but not cleared. Commons records CC BY 4.0 credited to 'Akbkuku' with no license review. The archived upstream page says only 'Creative Commons Attribution' (no version). The photographer's identity (Akbkuku = Shelby Jueden) is inferred. Access used anonymous downloads and an Internet Archive snapshot: no account, no payment, no terms accepted, no CAPTCHA or Anubis bypass, no watermark removal.",
+      "evidence_paths": [
+        "rights.json",
+        "source.json",
+        "candidates.json",
+        "source-excerpts.md"
+      ],
+      "review_questions": [
+        "RQ-XTRA09-1",
+        "RQ-XTRA09-2"
+      ],
+      "approver": null,
+      "checked_by": "XTRA-09 worker agent",
+      "checked_on": "2026-09-15"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The image shows a mid-90s Macintosh Performa (script visual, SCRIPT.md:639).",
+      "status": "verified",
+      "evidence": "Front badge reads 'Performa 630CD'. The rear label of the same machine reads 'Model Number: M3076'. Apple Support 112345 gives the Performa 630/630CD introduced 7/1/1994 with Orig SSW 7.1.2P.",
+      "evidence_paths": ["source.json", "identity/performa-630cd-tag.jpg"],
+      "note": "A 1994 model still in Apple's line in 1995. Whether a 1995-introduced model is preferable is RQ-XTRA09-3."
+    },
+    {
+      "claim": "Photograph date",
+      "status": "unknown",
+      "evidence": "EXIF DateTimeOriginal 2002-02-09 is impossible for a NIKON D5300 (announced 2013-10-17). The photo dates from 2013-10-17 to 2023-07-04. Commons structured data copies the wrong EXIF date as 'inception'.",
+      "evidence_paths": ["source.json"]
+    },
+    {
+      "claim": "'System 7 desktop. Apple menu, Finder' (same script visual line)",
+      "status": "not_applicable",
+      "reason": "This hardware photo shows no screen. The desktop belongs to HIST-21, which currently has no capture (planning state only). No script change is needed."
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "RQ-XTRA09-1",
+      "type": "legal risk",
+      "question": "Accept this Tech Tangents photo of a Performa 630CD as CC BY 4.0, as Wikimedia Commons records it? The source wiki says only 'Creative Commons Attribution' with no version. The uploader 'Akbkuku' is probably, but not provably, Shelby Jueden. If not, swap to the Performa 6200 photo (CC BY 2.0, license verified by Commons' Flickr review, but a phone snapshot with an owner-applied sticker), or ask Tech Tangents to confirm.",
+      "evidence_path": "assets/historical/XTRA-09/evidence/rights.json"
+    },
+    {
+      "id": "RQ-XTRA09-2",
+      "type": "credit wording",
+      "question": "Credit as 'Akbkuku (Tech Tangents), CC BY 4.0, via Wikimedia Commons' (the licensed author name), or as 'Shelby Jueden / Tech Tangents' (the Commons category name, identity not documented)?",
+      "evidence_path": "assets/historical/XTRA-09/evidence/source.json"
+    },
+    {
+      "id": "RQ-XTRA09-3",
+      "type": "editorial taste",
+      "question": "The narration says 'in 1995'. The pictured Performa 630CD was introduced in July 1994 and still sold in 1995. Is that close enough, or should the shot use a model introduced in 1995 (Performa 6200 or 580CD, both lower-quality photos)?",
+      "evidence_path": "assets/historical/XTRA-09/evidence/candidates.json"
+    }
+  ]
+}
