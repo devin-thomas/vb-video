@@ -1,0 +1,270 @@
+{
+  "id": "HIST-01",
+  "title": "VB 1.0 IDE",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source: third-party screenshot of Microsoft Visual Basic 1.0 for Windows (WinWorld), with reversible editorial framing",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 4989,
+      "sha256": "8117ac040633c0b81a5d1ed35fff9eaa7b283518f962c5871085cd105d4da907"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3753,
+      "sha256": "68d1f2b047df087b3e0e6e976641deab92390dd9776e17d1711418521ce34bc5"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 1158,
+      "sha256": "91d45bd882a0b438d41eda6ba99ebec8f532cff4cd09ceedd00365889f3df623"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 4014,
+      "sha256": "d5c82fedb73cfa26ba9eddb5fdeece164a2a84f89fc9780f90ae38de56dc3144"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2249,
+      "sha256": "88391836d8a0056fe0fb51119f5b08ac41201d21d24db50b27ce7ba154fd718c"
+    },
+    {
+      "path": "evidence/source-pages/ia-3d-4d-42c-files.xml",
+      "role": "preserved source page",
+      "bytes": 2381,
+      "sha256": "6c71ec830ecedaa9599bae86f950adb2c766d2ed4193ec439a2e531fb6223238"
+    },
+    {
+      "path": "evidence/source-pages/ia-3d-4d-42c-meta.redacted.xml",
+      "role": "preserved source page",
+      "bytes": 957,
+      "sha256": "844a80a108635045877f567535215274094062307a091198a678b4ebba410cf9"
+    },
+    {
+      "path": "evidence/source-pages/microsoft-copyright-permissions.html",
+      "role": "preserved source page",
+      "bytes": 186430,
+      "sha256": "34150e3a14c2d6f4209a8243b8dc13bdfd7156d308a7013ee336c9b088cfd4ac"
+    },
+    {
+      "path": "evidence/source-pages/wayback-20260708105836-winworld-product-vb10.html",
+      "role": "preserved source page",
+      "bytes": 26686,
+      "sha256": "2e8a6b531c62d4b853d332a75cac6252897960b02a86379601c8b7bd5859a360"
+    },
+    {
+      "path": "evidence/source-pages/winworld-copyright.html",
+      "role": "preserved source page",
+      "bytes": 7788,
+      "sha256": "ef88db28ca26c94289c3d6a2d9d832d37c7fbad09545180431e6da13d78e689d"
+    },
+    {
+      "path": "evidence/source-pages/winworld-product-vb10.html",
+      "role": "preserved source page",
+      "bytes": 22534,
+      "sha256": "bcc72bc660662beda46c4fe5dcba9090c2439f089c7da01ce7f6bad6e9b4ddf6"
+    },
+    {
+      "path": "evidence/source-pages/winworld-screenshot-about.html",
+      "role": "preserved source page",
+      "bytes": 7118,
+      "sha256": "2f0255faa710869e46fff0ce95874de03d9c0b644e40e1aabf750b9eba1422f8"
+    },
+    {
+      "path": "evidence/source-pages/winworld-screenshot-edit.html",
+      "role": "preserved source page",
+      "bytes": 7115,
+      "sha256": "e2eefb53240352e59f238b1432e16b2c0ed558a40c72211d2744353dfc5d80ab"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 8761,
+      "sha256": "eb7b93086c3ee9d740ea50858040872e598a045259039607208279100e2ccd11"
+    },
+    {
+      "path": "evidence/version-evidence/about-original.png",
+      "role": "historical original (version evidence)",
+      "bytes": 6201,
+      "sha256": "99df0ce3fd6d8e56867f27cb36202b35c1e1f418d40f728851493c13b5b00f96"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial still",
+      "bytes": 22459,
+      "sha256": "3ada23afbebebd8a9ffa2e0fea0c911769ae8ad19a77ec5d1f67d04b5c37728c"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "evidence / QA (720p proof)",
+      "bytes": 151009,
+      "sha256": "0531d639ab1aa8424fbc5202f7c34added46c2e705c40dd1ae9c5a68ea755560"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5520,
+      "sha256": "fd55a6afe8859f4371233cdde3620861e6c561e2c65f2ae3fe075ad33bfb79bd"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original",
+      "bytes": 6963,
+      "sha256": "f91144c2b2cfcd1fbf3176000dbb44e7845edebd5ae8c3162ef8c30fc58ce302"
+    },
+    {
+      "path": "src/build_delivery.py",
+      "role": "editable source",
+      "bytes": 7124,
+      "sha256": "0bafff953f101d1b526d8c2ec31f16f472f4b3eebd7039f2304f713a12166cd1"
+    },
+    {
+      "path": "src/frame.json",
+      "role": "editable source",
+      "bytes": 902,
+      "sha256": "fbaec634699a91d416edc1d394ddbaae90771f285151c14e5e59c3ba504d116e"
+    },
+    {
+      "path": "src/frame.py",
+      "role": "editable source",
+      "bytes": 3996,
+      "sha256": "66a041f02c1ec006fe1ec1197365313a8d2e0a851515b72d74300078f5b27bfd"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.png"
+      ],
+      "timeline": null
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png",
+        "src/frame.json"
+      ],
+      "timeline": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        94,
+        94
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        89,
+        89
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://winworldpc.com/res/img/screenshots/10-6b76946459abf915d190f65da4cc4e33-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20Edit.png",
+      "page": "https://winworldpc.com/screenshot/40c3942c-c281-2230-11c3-a4e284a2c3a5/45c5be6e-e280-9d57-c3b1-11c3a4c2a90f",
+      "access_date": "2026-09-15",
+      "sha256": "f91144c2b2cfcd1fbf3176000dbb44e7845edebd5ae8c3162ef8c30fc58ce302",
+      "record": "evidence/source.json",
+      "relationship": "historical original"
+    },
+    {
+      "path": "evidence/version-evidence/about-original.png",
+      "url": "https://archive.org/download/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1/10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%2520Visual%2520Basic%25201.0%2520for%2520Windows%2520-%2520About%5B1%5D.png",
+      "page": "https://archive.org/details/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1",
+      "access_date": "2026-09-15",
+      "sha256": "99df0ce3fd6d8e56867f27cb36202b35c1e1f418d40f728851493c13b5b00f96",
+      "record": "evidence/source.json",
+      "relationship": "historical original (version evidence)"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.png",
+      "record": "src/frame.json",
+      "relationship": "derivative crop (no pixels removed: 2x resize + pillarbox)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical screenshot",
+      "credit": "Microsoft Visual Basic 1.0 for Windows. Screenshot via WinWorld (winworldpc.com). Used with permission from Microsoft. [PROPOSED - the permission statement is valid only if rights review confirms Microsoft's screenshot guidelines cover this use]",
+      "rights_status": "unresolved",
+      "record": "evidence/rights.json"
+    },
+    {
+      "type": "software depicted",
+      "credit": "Microsoft Visual Basic 1.0 for Windows, (c) 1987-1991 Microsoft Corp.; portions developed for Microsoft by Cooper Software, Inc. (per in-frame About box)"
+    }
+  ],
+  "tests": [
+    {
+      "test": "render checks (size, aspect, no crop, reversibility, exact blocks, clean pillarbox)",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "deterministic re-render",
+      "result": "identical SHA-256 for export and 720p proof on re-run"
+    },
+    {
+      "test": "acquisition integrity",
+      "result": "original MD5 matches WinWorld file-name hash; About capture MD5/SHA-1 match Internet Archive files.xml and WinWorld copy is byte-identical"
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "full size 1920x1080 and 720p proof",
+        "scope": "Viewed exports/editorial-frame.png and proofs/editorial-frame-720.png; viewed both 640x480 originals.",
+        "status": "Whole screenshot intact and sharp; IDE title, menus, properties bar, toolbox, form designer, project and code windows legible at 720p; no added text or UI."
+      }
+    },
+    {
+      "test": "tools/validate_delivery.py --id HIST-01",
+      "result": "see qa.md 'Validator output'"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "curl": "curl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP",
+    "render_command": "python assets/historical/HIST-01/src/frame.py",
+    "network_used": "acquisition only (anonymous HTTPS GETs on 2026-09-15); rendering is offline",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Version rests on WinWorld's VB 1.0 label plus the companion About capture reading 'Microsoft Visual Basic Version 1.0'; the Edit capture has no in-frame version string.",
+    "Capturer and capture date unknown; no licence for the screenshot. Release blocked under R14 (RQ-HIST01-1).",
+    "Script visual direction says 'properties window'; VB 1.0 shows a properties bar (RQ-HIST01-2, Writing Lead). War/SCRIPT.md not edited.",
+    "Internet Archive meta.xml saved with the uploader e-mail redacted; unredacted MD5 c2e15eb385fad6b2006ba7859a30e01e.",
+    "Produced is not release-approved; approval comes from the OPS-04 review deck."
+  ]
+}

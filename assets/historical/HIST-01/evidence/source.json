@@ -1,0 +1,81 @@
+{
+  "id": "HIST-01",
+  "selected_original": {
+    "path": "source/original.png",
+    "title": "Microsoft Visual Basic 1.0 for Windows - Edit",
+    "depicts": "Microsoft Visual Basic [design] IDE on a Windows 3.x desktop: menu bar, properties bar (property list 'Caption' = '7', position 120, 600, size 495 x 495), 16-cell toolbox, 'Calculator' form in the form designer with the '7' button selected, CALC.MAK project window (Global.bas, CALC.FRM), and the CALC.FRM code window showing Sub Number_Click (Index As Integer).",
+    "creator": {
+      "software_and_ui": "Microsoft Corporation (the companion About capture shows 'Copyright (c) 1987-1991 Microsoft Corp.' and 'Portions of this product were developed for Microsoft by Cooper Software, Inc.')",
+      "screenshot_capture": "unknown - uncredited WinWorld contributor; no name on the file, screenshot page or product page"
+    },
+    "publisher_host": "WinWorld (winworldpc.com), online vintage-software library",
+    "original_publication_date": "1991 (software release year stated by WinWorld; not a capture date)",
+    "capture_date": "unknown",
+    "earliest_confirmed_public_date": "2026-07-08 (Wayback Machine capture 20260708105836 of the WinWorld product page, which references this file name)",
+    "depicted_event_date": "unknown - an undated session of Visual Basic 1.0; not a 1991 photograph",
+    "source_urls": {
+      "file": "https://winworldpc.com/res/img/screenshots/10-6b76946459abf915d190f65da4cc4e33-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20Edit.png",
+      "screenshot_page": "https://winworldpc.com/screenshot/40c3942c-c281-2230-11c3-a4e284a2c3a5/45c5be6e-e280-9d57-c3b1-11c3a4c2a90f",
+      "product_page": "https://winworldpc.com/product/microsoft-visual-bas/10",
+      "archived_product_page": "https://web.archive.org/web/20260708105836/https://winworldpc.com/product/microsoft-visual-bas/10"
+    },
+    "access_date": "2026-09-15",
+    "access_method": "Anonymous HTTPS GET (curl 8.21.0) of the public image URL; no account, terms acceptance, CAPTCHA or download gate. The Wayback copy of the image could not be fetched (web.archive.org refused connections from this machine after the page capture was read), so the live WinWorld file was used.",
+    "file_integrity": {
+      "bytes": 6963,
+      "md5": "6b76946459abf915d190f65da4cc4e33",
+      "sha256": "f91144c2b2cfcd1fbf3176000dbb44e7845edebd5ae8c3162ef8c30fc58ce302",
+      "note": "The MD5 equals the hash embedded in WinWorld's own file name, so the acquired bytes are the file WinWorld stores."
+    },
+    "original_dimensions": [640, 480],
+    "pixel_format": "PNG, 4-bit colour map (16-colour VGA)",
+    "version_evidence": [
+      "WinWorld labels the file 'Microsoft Visual Basic 1.0 for Windows - Edit' and shows it on its Microsoft Visual Basic 1.0 product page (release date 1991) - host attribution, not in-frame proof.",
+      "Companion capture evidence/version-evidence/about-original.png, shown beside it in the same WinWorld carousel, displays 'About Microsoft Visual Basic' with 'Microsoft Visual Basic Version 1.0' and 'Copyright (c) 1987-1991 Microsoft Corp.' over the same IDE.",
+      "The two captures match in resolution (640x480, 4-bit), title-bar text 'Microsoft Visual Basic [design]', menu (File Edit Code Run Window Help), properties-bar layout, 16-cell toolbox icons and the minimised File Manager / Program Manager desktop icons at the same positions - consistent with one installation. This is visual correlation, not proof that the Edit capture was taken in the same session."
+    ],
+    "transformations_in_repository": "None to source/original.png (byte-exact). exports/editorial-frame.png = whole image resized 2x nearest-neighbour and pillarboxed on #111318 at offset (320, 60); see src/frame.json.",
+    "license_terms": "None stated for the screenshot. See evidence/rights.json.",
+    "license_url": null,
+    "rights_status": "unresolved",
+    "credit_text_proposed": "Microsoft Visual Basic 1.0 for Windows. Screenshot via WinWorld (winworldpc.com). Used with permission from Microsoft. [PROPOSED - the permission statement is valid only if rights review confirms Microsoft's screenshot guidelines cover this use]"
+  },
+  "companion_version_evidence": {
+    "path": "evidence/version-evidence/about-original.png",
+    "title": "Microsoft Visual Basic 1.0 for Windows - About",
+    "depicts": "Same IDE with the About Microsoft Visual Basic dialog open over an empty Form1: 'Microsoft Visual Basic Version 1.0'; 'Copyright (c) 1987-1991 Microsoft Corp.'; 'Portions of this product were developed for Microsoft by Cooper Software, Inc.'; licensed to 'User'; a product serial number; '386 Enhanced Mode'.",
+    "creator": {"software_and_ui": "Microsoft Corporation", "screenshot_capture": "unknown - uncredited"},
+    "source_urls": {
+      "internet_archive_file": "https://archive.org/download/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1/10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%2520Visual%2520Basic%25201.0%2520for%2520Windows%2520-%2520About%5B1%5D.png",
+      "internet_archive_item": "https://archive.org/details/3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1",
+      "winworld_file": "https://winworldpc.com/res/img/screenshots/10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20About.png",
+      "winworld_screenshot_page": "https://winworldpc.com/screenshot/40c3942c-c281-2230-11c3-a4e284a2c3a5/3d4d42c6-9257-c3b1-11c3-a4c2a90f7054"
+    },
+    "internet_archive_item_metadata": "Title 'Microsoft Visual Basic 1.0 for Windows (installed)'; creator 'microsoft'; date 1991; collection open_source_software; uploaded 2024-04-29 01:12:09 by a named individual uploader; no licenseurl or rights field. Uploader address deliberately not copied here (private information; see evidence/source-pages/ia-3d-4d-42c-meta.redacted.xml).",
+    "access_date": "2026-09-15",
+    "file_integrity": {
+      "bytes": 6201,
+      "md5": "90e6baa26dbdfecab22d43996e687c4c",
+      "sha1": "364343c8553642de16ce5f4f115c0fa72d3a07fb",
+      "sha256": "99df0ce3fd6d8e56867f27cb36202b35c1e1f418d40f728851493c13b5b00f96",
+      "note": "SHA-1 and MD5 match the Internet Archive files.xml record; the WinWorld copy downloaded separately is byte-identical (cmp)."
+    },
+    "earliest_confirmed_public_date": "2024-04-29 (Internet Archive upload; file mtime 1714353102)",
+    "original_dimensions": [640, 480],
+    "rights_status": "unresolved",
+    "use": "Version evidence only. Not framed for the edit: the dialog hides the form designer and the frame shows a product serial number."
+  },
+  "candidates_considered": [
+    {"rank": 1, "candidate": "WinWorld 'Microsoft Visual Basic 1.0 for Windows - Edit' capture", "status": "selected and acquired", "deficiencies": "No in-frame version string; version rests on host label plus match with the About capture. Capturer and capture date unknown. No licence."},
+    {"rank": 2, "candidate": "WinWorld / Internet Archive 'Microsoft Visual Basic 1.0 for Windows - About' capture", "status": "acquired as version evidence", "deficiencies": "About dialog covers most of the form designer; Form1 is empty; shows a product serial number and licensee field. No licence."},
+    {"rank": 3, "candidate": "Microsoft advertisement, BYTE Vol. 17 No. 5 (May 1992), Internet Archive item byte-magazine-1992-05, reproduced at rca.chrisrcook.com/2026/2026-01-31-n-164/", "status": "not acquired", "deficiencies": "A 1992 print advert for Visual Basic 1.0 with Professional Toolkit showing a toolbox of 36 controls, not the full IDE; magazine scan; page not located or inspected at full resolution; (c) 1992 Microsoft, no licence."}
+  ],
+  "searched_without_match": [
+    "Wikimedia Commons MediaSearch 'Visual Basic 1.0' and Category:Visual Basic (2026-09-15): no VB 1.0/2.0/3.0 for Windows screenshots; nearest files are VB6-era.",
+    "English Wikipedia file namespace search 'Visual Basic 1.0' and the Visual Basic (classic) article images: VB 6.0 and VB for MS-DOS only.",
+    "Internet Archive advancedsearch for Visual Basic 1.0 items: software items carry disk images and label photos; only item 3d-4d-42c-... has an IDE screenshot (the About capture). Emulated in-browser VB 1.0 not found; native capture would require downloading and running unlicensed software, which is outside the authorised route.",
+    "Microsoft devblogs 'Happy 20th Birthday Visual Basic!' (2011-05-20): no VB 1.0 image, links a YouTube demo.",
+    "Internet Archive mirror youtube-Fh_UDQnboRw 'Bill Gates demonstrates Visual Basic (1991)': a re-upload of a YouTube video with unknown original rights holder; not used as a still source.",
+    "Compute! Issue 136 (December 1991) OCR text: no 'Visual Basic' match."
+  ]
+}

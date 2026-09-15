@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20About[1].png" source="original">
+    <mtime>1714353102</mtime>
+    <size>6201</size>
+    <md5>90e6baa26dbdfecab22d43996e687c4c</md5>
+    <crc32>53f86ed1</crc32>
+    <sha1>364343c8553642de16ce5f4f115c0fa72d3a07fb</sha1>
+    <format>PNG</format>
+  </file>
+  <file name="10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20About[1]_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>10-90e6baa26dbdfecab22d43996e687c4c-Microsoft%20Visual%20Basic%201.0%20for%20Windows%20-%20About[1].png</original>
+    <mtime>1714353676</mtime>
+    <size>4828</size>
+    <md5>f442a6540f07ab65495edbede302adfc</md5>
+    <crc32>a0819a29</crc32>
+    <sha1>a8f30cd0d3cb57b51afd8646f6d015ac9499e4ca</sha1>
+  </file>
+  <file name="3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>4355be071e6593d7185825097500b2f3</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1_meta.sqlite" source="original">
+    <mtime>1714353236</mtime>
+    <size>20480</size>
+    <md5>da7b33830ec21f3862bab93ebe95443c</md5>
+    <crc32>737a2309</crc32>
+    <sha1>cdebe44f21cf329908c65bc96f3d3fd551456f0e</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="3d-4d-42c-6-9257-c-3b-1-11c-3-a-4c-2a-90f-7054-1_meta.xml" source="original">
+    <mtime>1718590737</mtime>
+    <size>876</size>
+    <md5>c2e15eb385fad6b2006ba7859a30e01e</md5>
+    <crc32>24640755</crc32>
+    <sha1>b19be19c0d26fd44e7613c0ac6864fd75c05f067</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="VB10.zip" source="original">
+    <mtime>1714353126</mtime>
+    <size>916003</size>
+    <md5>8875ed11b427fe32f65f5999dd2003c0</md5>
+    <crc32>8a6d03f9</crc32>
+    <sha1>c8c0cf994b4e57b5b10a473cfa3a660eb9b6f51b</sha1>
+    <format>ZIP</format>
+    <filecount>5</filecount>
+    <viruscheck>1714353660</viruscheck>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1714353242</mtime>
+    <size>10585</size>
+    <md5>e18e306b28529033deed7d0266689d6b</md5>
+    <crc32>47cc6b70</crc32>
+    <sha1>6ad56916f9ba90f9a8a4dd29692f10487b5a193b</sha1>
+    <format>Item Tile</format>
+  </file>
+</files>

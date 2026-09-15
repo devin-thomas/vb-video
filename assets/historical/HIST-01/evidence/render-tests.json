@@ -1,0 +1,49 @@
+{
+  "id": "HIST-01",
+  "command": "python assets/historical/HIST-01/src/frame.py",
+  "input": {
+    "path": "source/original.png",
+    "sha256": "f91144c2b2cfcd1fbf3176000dbb44e7845edebd5ae8c3162ef8c30fc58ce302",
+    "size": [
+      640,
+      480
+    ],
+    "mode": "P"
+  },
+  "export": {
+    "path": "exports/editorial-frame.png",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "3ada23afbebebd8a9ffa2e0fea0c911769ae8ad19a77ec5d1f67d04b5c37728c"
+  },
+  "proof_720": {
+    "path": "proofs/editorial-frame-720.png",
+    "size": [
+      1280,
+      720
+    ],
+    "sha256": "0531d639ab1aa8424fbc5202f7c34added46c2e705c40dd1ae9c5a68ea755560"
+  },
+  "image_rect": [
+    320,
+    60,
+    1600,
+    1020
+  ],
+  "checks": {
+    "export_is_1920x1080": true,
+    "aspect_ratio_preserved": true,
+    "whole_screenshot_included_no_crop": true,
+    "reversible_to_original_pixels": true,
+    "nearest_neighbour_blocks_exact": true,
+    "pillarbox_uniform_background_only": true
+  },
+  "toolchain": {
+    "python": "3.14.0",
+    "Pillow": "12.3.0",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "passed": true
+}

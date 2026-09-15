@@ -1,0 +1,41 @@
+{
+  "id": "HIST-01",
+  "gate": "R14",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked until rights review",
+  "files": ["source/original.png", "evidence/version-evidence/about-original.png", "exports/editorial-frame.png"],
+  "layers": [
+    {
+      "layer": "Software user interface and sample shown on screen",
+      "holder": "Microsoft Corporation",
+      "evidence": "About capture: 'Copyright (c) 1987-1991 Microsoft Corp.' The Calculator form and CALC.FRM code appear to be a program open in the IDE; that it is a Microsoft-supplied sample is NOT verified.",
+      "terms_found": "Microsoft 'Use of Microsoft copyrighted content' (https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions, accessed 2026-09-15, saved as evidence/source-pages/microsoft-copyright-permissions.html). Screenshots of released products may be used 'in videos' if the user does not alter the screenshot except to resize it, does not use portions, does not include third-party content or an identifiable individual, and meets the page's general requirements, including the statement 'Used with permission from Microsoft'. Splash screens and beta or unreleased products are excluded.",
+      "fit_with_this_asset": "Visual Basic 1.0 was commercially released; the Edit capture is not a splash screen and shows no person. The editorial frame resizes the whole screenshot without cropping, overlays or edits (src/frame.json). Open: whether Microsoft's guidelines apply to a screenshot captured by someone else, whether pillarboxing counts as alteration, whether the CALC sample or desktop icons count as third-party content, and whether the video's use fits.",
+      "status": "unresolved - legal judgement, not settled by evidence"
+    },
+    {
+      "layer": "The screenshot file (capture)",
+      "holder": "unknown - uncredited WinWorld contributor",
+      "evidence": "No name on the file, screenshot page or product page.",
+      "terms_found": "WinWorld copyright page (https://winworldpc.com/copyright, accessed 2026-09-15, saved): 'The descriptions in the WinWorld library are licensed under the Creative Commons Attribution Share Alike 4.0 International license.' This covers descriptions only; the page grants no licence for screenshots and says copyright generally stays with the original publisher.",
+      "status": "unresolved - no licence found; whether a plain screen capture carries its own copyright is a legal question"
+    },
+    {
+      "layer": "Internet Archive copy of the About capture",
+      "holder": "unknown uploader; Internet Archive is the host only",
+      "terms_found": "Item metadata has no licenseurl or rights field (evidence/source-pages/ia-3d-4d-42c-meta.redacted.xml). Being publicly viewable on archive.org is not a licence.",
+      "status": "unresolved; used as version evidence only"
+    }
+  ],
+  "not_assumed": [
+    "No public-domain status is claimed.",
+    "No fair-use conclusion is claimed.",
+    "Public availability on WinWorld, the Internet Archive or the Wayback Machine is not treated as permission.",
+    "The Microsoft permission statement is proposed credit text, not a recorded permission grant."
+  ],
+  "credit_text_proposed": "Microsoft Visual Basic 1.0 for Windows. Screenshot via WinWorld (winworldpc.com). Used with permission from Microsoft.",
+  "watermarks": "none present; nothing removed",
+  "private_information": "The About capture shows a product serial number and licensee 'User'. It is kept only as evidence and is not in the export. The Internet Archive meta.xml names the uploader and curator by e-mail address; both addresses are redacted in the saved copy (evidence/source-pages/ia-3d-4d-42c-meta.redacted.xml). The unredacted original's MD5 is c2e15eb385fad6b2006ba7859a30e01e per files.xml.",
+  "access_boundaries_respected": "Anonymous public GETs only; no account, payment, terms acceptance, CAPTCHA, gated download or watermark removal.",
+  "review_question": "RQ-HIST01-1 in evidence/claim-checks.json"
+}
