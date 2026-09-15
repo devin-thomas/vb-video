@@ -1,0 +1,41 @@
+{
+  "id": "HIST-07",
+  "gate": "R14",
+  "file": "source/original.jpg",
+  "rights_holder": "Tim Colegrove (Commons user Springsgrace), per the {{self}} license tag and author field",
+  "license": {
+    "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "short": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "file_specific_evidence": "The Commons wikitext for File:Trinity77.jpg carries '{{self|cc-by-sa-4.0}}' (saved: evidence/source-page/commons-file-page.wikitext.txt). The API extmetadata gives LicenseShortName 'CC BY-SA 4.0', AttributionRequired true (saved: evidence/source-page/commons-imageinfo.json). The license is recorded on this specific file page, not inferred from a host site.",
+    "applies_to_version": "All versions share the page's license tag. The version used is the 2019-05-26 original upload."
+  },
+  "access": {
+    "method": "Public HTTPS download from upload.wikimedia.org",
+    "account_created": false,
+    "terms_accepted": false,
+    "payment": false,
+    "captcha": false,
+    "watermark_removed": false,
+    "access_date": "2026-09-15"
+  },
+  "obligations_if_used": [
+    "Attribution: creator, title, source and license, with a link or URL to the license.",
+    "Indicate changes (the editorial frame is cropped, downscaled and pillarboxed, with a credit line added).",
+    "ShareAlike: the adapted frame (exports/editorial-frame.png), if distributed as an adaptation, must be offered under CC BY-SA 4.0 or a compatible license. How this interacts with a video incorporating the frame is a legal judgment and is not decided here.",
+    "No additional restrictions (no DRM or terms that prevent downstream reuse of the adapted image)."
+  ],
+  "credit_text": "Photo: Tim Colegrove, \"Trinity77.jpg\", Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Cropped.",
+  "rights_status": "open_license_recorded_pending_review",
+  "cleared_for_release": false,
+  "unresolved": [
+    "Whether CC BY-SA 4.0 ShareAlike terms are acceptable for the video (adaptation versus collection question). This needs rights review under R14 and handoff H04. It was not decided by the worker.",
+    "Third-party content within the photo: the displayed Radio Shack/TRS-80 trademarks and the Level II BASIC ROM's on-screen text. These are incidental and depicted, not reproduced software. The worker makes no legal determination.",
+    "The source file's EXIF contains GPS coordinates the uploader published publicly. We keep the file byte-exact for provenance. Whether to strip location metadata from the repo copy is a privacy/policy choice for review.",
+    "The Commons description includes a statement about the image being 'courtesy of' the collector with a contact email. We made no contact and redacted the email in saved copies. The CC license needs no permission beyond its terms, and the worker asserts none."
+  ],
+  "related_license_inconsistency_observed": {
+    "file": "https://commons.wikimedia.org/wiki/File:Apple_II,_TRS-80_Model_I_(edited_image).jpg",
+    "observation": "This derivative (by Guyinblack25, from a Pittigrilli edit of Trinity77.jpg, both parents CC BY-SA 4.0) is tagged {{cc-by-4.0}}. A ShareAlike parent would normally require CC BY-SA. We did not use the file, and this record claims nothing about it beyond the observation."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source": "source/original.jpg",
+  "source_sha1": "cbaeec4d22aaefe9ffc0ae7656cb0fa9e3adaf59",
+  "source_native_size": [
+    3973,
+    1853
+  ],
+  "crop_box_native_px": {
+    "left": 2740,
+    "top": 190,
+    "right": 3973,
+    "bottom": 1430
+  },
+  "crop_size_px": [
+    1233,
+    1240
+  ],
+  "uniform_scale": 0.687097,
+  "resample": "LANCZOS",
+  "placed_at_px": {
+    "x": 536,
+    "y": 72,
+    "width": 847,
+    "height": 852
+  },
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#111318",
+  "authored_text": [
+    "TRS-80 Model I running Level II BASIC",
+    "Photo: Tim Colegrove (2019), CC BY-SA 4.0, cropped"
+  ],
+  "font": {
+    "path": "C:\\Windows\\Fonts\\LiberationSans-Regular.ttf",
+    "family": "Liberation Sans",
+    "size_px": 26,
+    "bundled": false
+  },
+  "reverse": "Invert by mapping placed rectangle back through uniform_scale to crop_box_native_px on source/original.jpg; the original file is unmodified."
+}
