@@ -1,0 +1,235 @@
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!--NewPage-->
+<html>
+<head>
+<title>AWT Components</title>
+</head>
+<body>
+<table width="100%">
+<tr>
+<td align=left>
+<a href="index.html"><img src="../../images/PreviousArrow.gif" width=26 height=26 align=bottom border=0 alt="Previous | "></a><a
+href="otherClasses.html"><img src="../../images/NextArrow.gif" width=26 height=26 align=bottom border=0 alt="Next | "></a><a
+href="../../index.html"><img src="../../images/WayUpArrow.gif" width=26 height=26 align=bottom border=0 alt="Trail Map | "></a><a
+href="../index.html"><img src="../../images/uiHeader.gif" width=26 height=26 align=bottom border=0 alt="Creating a User Interface | "></a>
+</td>
+<td align=right>
+<a href="index.html"><strong><em>Overview of the Java UI</em></strong></a>
+</td>
+</tr>
+</table>
+<p>
+<hr size=4>
+
+<h2>
+    AWT Components
+</h2>
+<p>
+<blockquote>
+
+The applet on this page 
+shows you the graphical UI (GUI) components the AWT provides.
+With the exception of menus,
+every GUI component is implemented
+with a subclass of the AWT 
+<a href="http://java.sun.com/products/jdk/1.1/api/java.awt.Component.html">Component</a><a href="http://java.sun.com/products/jdk/1.1/api/java.awt.Component.html"><img src="../../images/apiIcon.gif" width=20 height=20 border=0 alt="(in the API reference documentation)"></a> class.
+
+<p>
+
+<applet codebase=example code=AppletButton.class width=350 height=60>
+<param name=windowClass value=GUIWindow>
+<param name=windowTitle value="The AWT Components">
+<param name=buttonText value="Click here to see all the AWT components">
+<blockquote>
+<hr>
+<em>Your browser doesn't understand the &lt;APPLET&gt; tag.
+Here's a picture of the window you'd see if you were using
+a Java-compatible browser:</em>
+<br>
+<img src=images/GUIWindow.gif width=506 height=232>
+<p>
+<hr>
+</blockquote>
+</applet>
+
+<blockquote><hr><strong>Note:</strong> Because some old browsers don't support 1.1, the above applet is a <em>1.0</em> version (here is the <a href="example/GUIWindow.java">1.0 code</a>; here's the <a href="example-1dot1/GUIWindow.java">1.1 code</a>).  To run the <em>1.1</em> version of the applet, go to <a href="example-1dot1/GUIWindow.html"><code>example-1dot1/GUIWindow.html</code></a>. <hr></blockquote>
+<p>
+
+<strong>Implementation Note:</strong>
+The applet is implemented as a button
+that brings up the window showing the components.
+The window is necessary because the program includes a menu,
+and menus can be used only in windows.
+The program has a <code>main()</code> method
+so it can run as an application.
+The <a href="example-1dot1/AppletButton.java"><code>AppletButton</code></a> class
+provides an applet framework for the window.
+AppletButton is a highly configurable applet
+that's discussed on the following pages:
+<a href="../../applet/appletsonly/paramQs.html">Deciding Which Parameters to Support</a><a href="../../applet/appletsonly/paramQs.html"><img src="../../images/appletIcon.gif" width=20 height=20 border=0 alt="(in the Writing Applets trail)"></a> and 
+<a href="../../applet/appletsonly/getParam.html">Writing the Code to Support Parameters</a><a href="../../applet/appletsonly/getParam.html"><img src="../../images/appletIcon.gif" width=20 height=20 border=0 alt="(in the Writing Applets trail)"></a>.
+
+<p>
+
+<h4>
+The Basic Controls:
+Buttons, Checkboxes, Choices, Lists, Menus, and Text Fields
+</h4>
+<blockquote>
+The
+<a href="../components/button.html">Button</a><a href="../components/button.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>,
+<a href="../components/checkbox.html">Checkbox</a><a href="../components/checkbox.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>,
+<a href="../components/choice.html">Choice</a><a href="../components/choice.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>,
+<a href="../components/list.html">List</a><a href="../components/list.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>, 
+<a href="../components/menu.html">MenuItem</a><a href="../components/menu.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>, and 
+<a href="../components/text.html">TextField</a><a href="../components/text.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> classes provide basic controls.
+These are the most common ways that
+users give instructions to Java programs.
+When a user activates one of these controls --
+by clicking a button
+or by pressing Return in a text field, for example --
+it posts an event (ACTION_EVENT).
+An object that contains the control can react to the event 
+by implementing the <code>action()</code> method.
+</blockquote>
+
+
+<h4>
+Other Ways of Getting User Input:
+Sliders, Scrollbars, and Text Areas
+</h4>
+<blockquote>
+When the basic controls aren't appropriate,
+you can use the 
+<a href="../components/scrollbar.html">Scrollbar</a><a href="../components/scrollbar.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> and 
+<a href="../components/text.html">TextArea</a><a href="../components/text.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> classes to get user input.
+The Scrollbar class is used for both slider and scrollbar functionality.
+You can see an example of sliders in
+<a href=anatomy.html>The Anatomy of a GUI-Based Program</a>.
+Scrollbars are automatically included
+in lists and text areas (as shown in the example program)
+and in 
+<a href="../components/scrollpane.html">ScrollPane</a><a href="../components/scrollpane.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> objects.
+
+<p>
+
+The TextArea class simply provides an area
+to display or allow editing of several lines of text.
+As you can see from the applet on this page,
+text areas automatically include scrollbars.
+</blockquote>
+
+<h4>
+Creating Custom Components:
+Canvases 
+</h4>
+<blockquote>
+The 
+<a href="../components/canvas.html">Canvas</a><a href="../components/canvas.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> class lets you write custom Components.
+With your Canvas subclass, 
+you can draw custom graphics to the screen --
+in a paint program, image processor, or game, for example --
+and implement any kind of event handling.
+
+</blockquote>
+
+<h4>
+Labels
+</h4>
+<blockquote>
+A
+<a href="../components/label.html">Label</a><a href="../components/label.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> simply displays an unselectable line of text.
+</blockquote>
+
+
+<h4>
+Containers:
+Windows, Panels, and Scroll Panes
+</h4>
+<blockquote>
+The AWT provides three types of containers,
+all implemented as subclasses of the 
+<a href="http://java.sun.com/products/jdk/1.1/api/java.awt.Container.html">Container</a><a href="http://java.sun.com/products/jdk/1.1/api/java.awt.Container.html"><img src="../../images/apiIcon.gif" width=20 height=20 border=0 alt="(in the API reference documentation)"></a> class
+(which is a Component subclass).
+The Window subclasses -- 
+<a href="../components/dialog.html">Dialog</a><a href="../components/dialog.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>,
+<a href="../components/dialog.html">FileDialog</a><a href="../components/dialog.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>, and
+<a href="../components/frame.html">Frame</a><a href="../components/frame.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> -- provide windows to contain components.
+A
+<a href="../components/panel.html">Panel</a><a href="../components/panel.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> groups components within an area of an existing window.
+A
+<a href="../components/scrollpane.html">ScrollPane</a><a href="../components/scrollpane.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a> is similar to a panel,
+but its purpose is more specialized:
+to display a potentially large component 
+in a limited amount of space,
+generally using scrollbars to control
+which part of the component is displayed.
+
+<p>
+
+Frames create normal, full-fledged windows,
+as opposed to the windows that Dialogs create,
+which are dependent on Frames and can be modal.
+When you select the "File dialog..." item
+in the menu,
+the program creates a FileDialog object,
+which is a Dialog
+that can be either an Open or a Save dialog.
+
+<p>
+
+Here is a picture of the FileDialog window 
+that the Solaris Applet Viewer brings up:
+<p>
+<img src="images/FileDialog.gif" width=256 height=401>
+
+<p>
+
+The example program at the beginning of this section
+uses a Panel to group the label and the text area,
+another Panel to group them with a canvas,
+and a third Panel to group
+the text field, button, checkbox, and pop-up list of choices.
+All these Panels are grouped by a Frame object,
+which presents the window they're displayed in.
+The Frame also holds a
+menu and a list.
+<p>
+
+
+</blockquote>
+<h4>Summary</h4>
+<blockquote>
+
+This page presented a whirlwind tour of the AWT components.
+Every component this page mentions is described in detail in 
+<a href="../components/index.html">Using Components, the GUI Building Blocks</a><a href="../components/index.html"><img src="../../images/uiIcon.gif" width=20 height=20 border=0 alt="(in the Creating a User Interface trail)"></a>.
+
+</blockquote>
+
+</blockquote>
+<p>
+<hr size=4>
+<p>
+<table width="100%">
+<tr>
+<td align=left>
+<a href="index.html"><img src="../../images/PreviousArrow.gif" width=26 height=26 align=top border=0 alt="Previous | "></a><a
+href="otherClasses.html"><img src="../../images/NextArrow.gif" width=26 height=26 align=top border=0 alt="Next | "></a><a
+href="../../index.html"><img src="../../images/WayUpArrow.gif" width=26 height=26 align=top border=0 alt="Trail Map | "></a><a
+href="../index.html"><img src="../../images/uiHeader.gif" width=26 height=26 align=top border=0 alt="Creating a User Interface | "></a>
+</td>
+<td align=right>
+<a href="index.html"><strong><em>Overview of the Java UI</em></strong></a>
+</td>
+</tr>
+</table>
+</body>
+</html>

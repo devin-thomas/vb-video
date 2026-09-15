@@ -1,0 +1,75 @@
+{
+  "id": "HIST-16",
+  "gate": "R14",
+  "selected_file": {
+    "path": "source/original.gif",
+    "rights_holder": "Sun Microsystems, Inc. (copyright notice © 1995); Sun was acquired by Oracle Corporation in 2010, so the successor holder is presumed to be Oracle — not verified with Oracle.",
+    "file_specific_license": "none found",
+    "terms_quoted_from_source": [
+      "\"All of the material in The Java Tutorial is copyright protected and may not be published in other works without express written permission from Sun Microsystems.\"",
+      "\"No part of this product or related documentation may be reproduced in any form by any means without prior written authorization of Sun and its licensors, if any.\""
+    ],
+    "terms_evidence": [
+      "evidence/source-pages/princeton-spring96/copyright.html (© 1995 edition, same mirror as the image)",
+      "evidence/source-pages/upenn-1997/copyright.html (© 1995-1997 edition, identical restriction)",
+      "evidence/source-pages/cmu-1998/copyright.html"
+    ],
+    "license_url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/copyright.html",
+    "host_is_rights_holder": false,
+    "host_note": "The file was retrieved from a public university course mirror. Public availability of the mirror grants no permission.",
+    "trademarks_visible": "none in the image (no Sun/Java logo, no Duke). Visible text is generic component labels only.",
+    "public_domain_or_open_license": false,
+    "fair_use_assessment": "NOT made. Any fair-use or de-minimis argument for showing a 1996 tutorial screenshot in a commentary video is a legal judgment for the reviewer, not something this ticket can clear.",
+    "rights_status": "restricted — release blocked",
+    "credit_text": "The Java Tutorial, © 1995 Sun Microsystems, Inc. (now Oracle). “AWT Components” example window."
+  },
+  "fallback_candidates": [
+    {
+      "path": "evidence/candidates/AWT_at_Linux.png",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:AWT_at_Linux.png",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/AWT_at_Linux.png",
+      "creator": "User:Sven (Wikimedia Commons)",
+      "date": "2007-01-10 (upload)",
+      "stated_source": "Selfmade (Java 5)",
+      "license": "Public domain dedication by the copyright holder (\"I, the copyright holder of this work, release this work into the public domain.\")",
+      "license_url": "https://commons.wikimedia.org/wiki/File:AWT_at_Linux.png",
+      "sha1_matches_commons_page": "c4279edf45b40192aebca4795c13ff05420e3124",
+      "rights_status": "open (PD dedication as stated on the file page; uploader's authorship of the screenshot accepted as stated, not independently verified)",
+      "credit_text": "“AWT at Linux” by Sven, Wikimedia Commons, public domain",
+      "residual_note": "Depicts the uploader's own AWT demo program on Linux; the window manager theme is third-party desktop chrome."
+    },
+    {
+      "path": "evidence/candidates/Easy_Java_AWT_example.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Easy_Java_AWT_example.jpg",
+      "direct_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Easy_Java_AWT_example.jpg",
+      "creator": "Fiete Groth (uploader Grofie)",
+      "date": "2006-06-11 (upload)",
+      "stated_source": "Own work",
+      "license": "Public domain dedication by the copyright holder",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Easy_Java_AWT_example.jpg",
+      "sha1_matches_commons_page": "1372dbe57815234298a1965d9439cb5af47360ac",
+      "rights_status": "open (PD dedication as stated; authorship accepted as stated, not independently verified)",
+      "credit_text": "“Easy Java AWT example” by Fiete Groth, Wikimedia Commons, public domain",
+      "residual_note": "Windows XP-style title bar and window buttons are Microsoft system chrome visible in the capture."
+    }
+  ],
+  "rejected_leads": [
+    {
+      "lead": "https://commons.wikimedia.org/wiki/File:Awt-icedTea.png",
+      "reason": "Not downloaded. File page says the image was 'Found on Francis Kung weblog' and relicensed CC BY-SA 3.0/GFDL by a different uploader; authorship chain unclear and it shows 2007 GNU Classpath/IcedTea demos, not Sun AWT of the period."
+    },
+    {
+      "lead": "https://commons.wikimedia.org/wiki/File:Accueil_hotjava.jpg",
+      "reason": "Not downloaded (rate-limited; error page discarded). A 2004 HotJava browser capture of a web page, CC BY-SA 4.0/GFDL; HotJava version unstated and the image is a browser, not an AWT component window."
+    }
+  ],
+  "downloads_blocked_or_refused": [
+    "web.archive.org: 'Temporarily Offline' page, then HTTP 429, then an empty CDX result for the Sun-hosted GUIWindow.gif. No retry loop was used."
+  ],
+  "decision_record": {
+    "status": "open",
+    "approver": null,
+    "approval_date": null,
+    "reason": "No licence exists for the selected period screenshot; its terms forbid reproduction without Sun's written permission. Only the reviewer can choose between seeking Oracle permission, a documented fair-use decision, or substituting a PD fallback."
+  }
+}

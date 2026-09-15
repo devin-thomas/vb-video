@@ -1,12 +1,15 @@
 {
   "id": "HIST-16",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Claude Code (Opus 5) worker under Historical Screenshots Manager vb-7a",
+  "updated_at": "2026-09-15T20:40:47+00:00",
+  "blockers": [
+    "R14: selected image is © 1995 Sun Microsystems (now Oracle), all rights reserved; no licence found. Needs a rights decision."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Historical original, source pages, rights/source records, and framed export delivered; see delivery.json and qa.md.",
+    "Public-domain fallbacks from a later era are in evidence/candidates/."
   ]
 }

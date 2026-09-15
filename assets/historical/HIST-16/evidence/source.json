@@ -1,0 +1,61 @@
+{
+  "id": "HIST-16",
+  "record_type": "historical original source record",
+  "creator": "Sun Microsystems, Inc. — The Java Tutorial team (online tutorial by Mary Campione and Kathy Walrath). The individual who made the screen capture is not named in the source.",
+  "title": "GUIWindow.gif — picture of \"The AWT Components\" window, from the lesson page \"AWT Components\" (trail: Creating a User Interface / Overview of the Java UI), The Java Tutorial",
+  "program_depicted": {
+    "name": "GUIWindow (example program, class GUIWindow extends java.awt.Frame; window title set by window.setTitle(\"The AWT Components\"))",
+    "toolkit": "java.awt (Abstract Window Toolkit). Components visible: Menu bar, Canvas, Label, TextArea, List, TextField, Button, Checkbox, Choice. No Swing/JFC class exists in the program.",
+    "evidence": "evidence/source-pages/princeton-spring96/GUIWindow.java lines 19-107 (same mirror, same directory date as the image)",
+    "jdk_version": "Not stated for the capture. The program uses the JDK 1.0 AWT event model (action()/ACTION_EVENT); the hosting copy is dated 26 Feb 1996, one month after JDK 1.0 (23 Jan 1996). Treat as JDK 1.0-era (1.0 or late beta); exact runtime and browser/appletviewer build unknown.",
+    "platform": "Not stated for this image. The window decoration is X11/Motif-style, but platform is NOT asserted from appearance. The same page states its separate FileDialog picture comes from \"the Solaris Applet Viewer\"; that statement does not name the platform of GUIWindow.gif."
+  },
+  "original_publication_date": "unknown (exact). Online no later than 1996-02-26 per HTTP Last-Modified of the Princeton spring-1996 course mirror copy.",
+  "depicted_event_date": "unknown; capture made on or before 1996-02-26",
+  "date_evidence": [
+    {
+      "copy": "Princeton CS333 spring 1996 course mirror",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/images/GUIWindow.gif",
+      "http_last_modified": "Mon, 26 Feb 1996 18:15:27 GMT",
+      "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+      "headers_file": "evidence/source-pages/princeton-spring96/g.hdr"
+    },
+    {
+      "copy": "University of Pennsylvania CIS 629 course mirror (JDK 1.1-era tutorial edition)",
+      "url": "https://www.cis.upenn.edu/~bcpierce/courses/629/papers/Java-tutorial/ui/overview/images/GUIWindow.gif",
+      "http_last_modified": "Wed, 10 Sep 1997 20:38:57 GMT",
+      "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+      "headers_file": "evidence/source-pages/upenn-1997/gw.hdr"
+    },
+    {
+      "copy": "Carnegie Mellon 15-212 spring 1998 course mirror",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15212-s98/www/java/tutorial/ui/overview/images/GUIWindow.gif",
+      "http_last_modified": "Sat, 10 Jan 1998 08:03:57 GMT",
+      "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+      "headers_file": "evidence/source-pages/cmu-1998/gw.hdr"
+    }
+  ],
+  "date_evidence_limits": "HTTP Last-Modified reflects the mirror file's modification time as served today; it is strong but not conclusive proof of first publication. Three independent university copies are byte-identical.",
+  "exact_source_url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/images/GUIWindow.gif",
+  "source_page_url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/components.html",
+  "original_publisher_url_unverified": "http://java.sun.com/docs/books/tutorial/ui/overview/components.html (Wayback CDX shows the page captured from 1999-01-17; no capture of the GIF itself was returned; earlier Sun path not confirmed)",
+  "host_relationship": "University course-archive mirror of Sun's tutorial, not Sun's own server. Sun's own copy could not be retrieved (Wayback returned 'Temporarily Offline', then HTTP 429, then an empty CDX result for the GIF).",
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS GET with curl; no account, form, terms acceptance, or access control.",
+  "file": {
+    "path": "source/original.gif",
+    "format": "GIF87a, palette",
+    "dimensions": [506, 232],
+    "bytes": 5319,
+    "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+    "modifications": "none (byte-exact download)"
+  },
+  "transformations": [
+    "exports/editorial-frame.png: whole image, no crop, 3x nearest-neighbour enlargement, centred on a neutral 1920x1080 ground with one authored credit line; see evidence/framing.json",
+    "proofs/editorial-frame-720.png: 1280x720 Lanczos downscale of the export, for review only"
+  ],
+  "license_terms": "All rights reserved. See evidence/rights.json.",
+  "license_url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/copyright.html",
+  "rights_status": "restricted — no licence; release blocked pending rights review (R14)",
+  "credit_text": "The Java Tutorial, © 1995 Sun Microsystems, Inc. (now Oracle). “AWT Components” example window."
+}

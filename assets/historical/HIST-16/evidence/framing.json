@@ -1,0 +1,50 @@
+{
+  "source": "source/original.gif",
+  "source_sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+  "source_size": [
+    506,
+    232
+  ],
+  "crop": null,
+  "crop_note": "No crop. The whole original, including its window border, is shown.",
+  "scale": 3,
+  "resample": "nearest (integer pixel replication; aspect ratio preserved exactly)",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "ground_rgb": [
+    27,
+    29,
+    34
+  ],
+  "image_box_xyxy": [
+    201,
+    161,
+    1719,
+    857
+  ],
+  "credit_text": "“The AWT Components” example window — The Java Tutorial, Sun Microsystems (online copy dated Feb. 1996)",
+  "credit_text_status": "authored production caption, not a quotation from the source",
+  "credit_box_xyxy": [
+    205,
+    891,
+    1715,
+    919
+  ],
+  "font_file": "LiberationSans-Regular.ttf",
+  "font_size_px": 30,
+  "safe_area_xyxy": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "reversibility_check": "image region downsampled by nearest to source size is byte-identical to the original's RGB pixels",
+  "outputs": {
+    "export": "exports/editorial-frame.png",
+    "proof_720": "proofs/editorial-frame-720.png"
+  },
+  "tool": "Pillow 12.3.0",
+  "command": "python assets/historical/HIST-16/src/build_frame.py"
+}
