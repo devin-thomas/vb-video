@@ -1,0 +1,142 @@
+{
+ "alternate_locations": {
+  "servers": [
+   {
+    "server": "dn721607.ca.archive.org",
+    "dir": "/0/items/cbt-systems-microsoft-office-and-powersoft"
+   }
+  ],
+  "workable": [
+   {
+    "server": "dn721607.ca.archive.org",
+    "dir": "/0/items/cbt-systems-microsoft-office-and-powersoft"
+   }
+  ]
+ },
+ "created": 1789504381,
+ "d1": "ia601004.us.archive.org",
+ "d2": "ia801004.us.archive.org",
+ "dir": "/26/items/cbt-systems-microsoft-office-and-powersoft",
+ "files": [
+  {
+   "name": "CBT Systems Microsoft Office and Powersoft.iso",
+   "source": "original",
+   "mtime": "1755580787",
+   "size": "517619712",
+   "md5": "9f0e88045debe43c97ad38e6f8a167c2",
+   "crc32": "8304c96c",
+   "sha1": "13297c71ddeccac8a98876d5813f144b6f27c66f",
+   "format": "ISO Image",
+   "filecount": "15760"
+  },
+  {
+   "name": "PXL_20250819_051756600.jpg",
+   "source": "original",
+   "mtime": "1755581198",
+   "size": "2693275",
+   "md5": "4f344ddf89f7acdcb974fcbb129a7da1",
+   "crc32": "332fd9d6",
+   "sha1": "4ad67dbb4bdd5d6825766011b0d95a7f15225e58",
+   "format": "JPEG"
+  },
+  {
+   "name": "PXL_20250819_051756600_thumb.jpg",
+   "source": "derivative",
+   "format": "JPEG Thumb",
+   "original": "PXL_20250819_051756600.jpg",
+   "mtime": "1755582350",
+   "size": "32892",
+   "md5": "6683223f1cd18a8d23b8f5a2a394544d",
+   "crc32": "89d2509f",
+   "sha1": "8fdd9095ab296b5765583fbcf8eb2943617b6fd9"
+  },
+  {
+   "name": "__ia_thumb.jpg",
+   "source": "original",
+   "mtime": "1755581518",
+   "size": "14275",
+   "md5": "60edbbc901bfaed59e91b21e3f3e7f15",
+   "crc32": "a959e574",
+   "sha1": "fcd5d096d9044b6fac5cfc126a51ba7ca5489d49",
+   "format": "Item Tile"
+  },
+  {
+   "name": "cbt-systems-microsoft-office-and-powersoft_archive.torrent",
+   "source": "metadata",
+   "btih": "5c7de0eac00378d4e2b9cb8de47c647fc3528774",
+   "mtime": "1755641517",
+   "size": "22333",
+   "md5": "054e9a406268d06e5a0037c6b175f6ef",
+   "crc32": "03afb7e0",
+   "sha1": "b79a062be1e99781e0b411b9689eb40c028be3ee",
+   "format": "Archive BitTorrent"
+  },
+  {
+   "name": "cbt-systems-microsoft-office-and-powersoft_files.xml",
+   "source": "original",
+   "format": "Metadata",
+   "md5": "7c4fc94e2424181c4c78c49026cc3d75",
+   "summation": "md5"
+  },
+  {
+   "name": "cbt-systems-microsoft-office-and-powersoft_meta.sqlite",
+   "source": "original",
+   "mtime": "1755581516",
+   "size": "20480",
+   "md5": "fd379a3cc607fcebb6098e8840c28240",
+   "crc32": "b2e1e57a",
+   "sha1": "2db7bce6ba08352c2fc4cd5d77bbedb88500a1a5",
+   "format": "Metadata"
+  },
+  {
+   "name": "cbt-systems-microsoft-office-and-powersoft_meta.xml",
+   "source": "original",
+   "mtime": "1755641511",
+   "size": "1392",
+   "md5": "43d63b3674bace80465ff5f206ea56b0",
+   "crc32": "1352452c",
+   "sha1": "e78e938b753f9036d7e5a765b248e90e00c2b77d",
+   "format": "Metadata"
+  }
+ ],
+ "files_count": 8,
+ "item_last_updated": 1755641518,
+ "item_size": 520404359,
+ "metadata": {
+  "identifier": "cbt-systems-microsoft-office-and-powersoft",
+  "mediatype": "software",
+  "collection": "cdrom_contributions",
+  "creator": "CBT Systems Ltd.",
+  "date": "1997",
+  "description": "Here is Microsoft Office and Powersoft from CBT Systems Ltd.<div>This course will cover advanced excel, advanced word, beginning access and excel plus beginning word, excel 5.0 for power users. intermediate word, excel and access, Intro to powerpoint, Powerbuilder courses like datawindow, user interface, object oriented essentialss, datawindow construction techniques implementing user interfaces and more</div>",
+  "language": "eng",
+  "scanner": "Internet Archive HTML5 Uploader 1.7.0",
+  "subject": [
+   "CBT Systems",
+   "PowerPoint",
+   "Word",
+   "access",
+   "excel",
+   "object-oriented",
+   "datawindow",
+   "user interface"
+  ],
+  "title": "CBT Systems Microsoft Office And Powersoft",
+  "uploader": "[REDACTED-EMAIL]",
+  "publicdate": "2025-08-19 05:20:06",
+  "addeddate": "2025-08-19 05:20:06",
+  "curation": "[curator][REDACTED-EMAIL][/curator][date]20250819052047[/date][comment]checked for malware[/comment]"
+ },
+ "server": "ia801004.us.archive.org",
+ "uniq": 1304182234,
+ "workable_servers": [
+  "ia801004.us.archive.org",
+  "ia601004.us.archive.org"
+ ],
+ "_hist15_note": {
+  "retrieved_from": "https://archive.org/metadata/cbt-systems-microsoft-office-and-powersoft",
+  "retrieved_utc": "2026-09-15T20:40:42Z",
+  "redaction": "Every e-mail address in the API response (uploader account e-mail) replaced with [REDACTED-EMAIL] so no third-party private contact detail is stored. The public item page shows the uploader as GamePlayer123. No other value changed.",
+  "unredacted_response_sha256": "3d15de72d93214c8f594663374cb2ae90fb2b2b902923272aee1125e23c72deb"
+ }
+}

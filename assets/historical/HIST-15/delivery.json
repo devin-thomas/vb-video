@@ -1,0 +1,216 @@
+{
+  "id": "HIST-15",
+  "title": "PowerBuilder DataWindow",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/archive/ia-item-metadata.json",
+      "role": "source page record: Internet Archive item metadata (uploader e-mail redacted)",
+      "bytes": 4673,
+      "sha256": "e6d66514a451f830861cc8b32c13d5a3a0e21a06e68c3c189f6f49d7e60f8708"
+    },
+    {
+      "path": "evidence/archive/iso-listing-pbdatc.tsv",
+      "role": "source listing excerpt: ISO member rows for the course",
+      "bytes": 55111,
+      "sha256": "d919865d30958c9f989ef23264de7da885ea98952e72aca0ae042c6bb0010ab9"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "editorial gate and claim checks",
+      "bytes": 3505,
+      "sha256": "e47730a2cee8aa7570b66ace505da9652e6f71beb358af3da292e2b7597a9be9"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 4276,
+      "sha256": "697d01a6df0a21a58eedfd49fc060c72127ea76ac7e67527f562eb466ac22cf8"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 2472,
+      "sha256": "f623a346908e8f0f5f0be9bb9b78bc64cd33de5b57abaeea47f702c16e524c0d"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "verbatim input and evidence excerpts",
+      "bytes": 4805,
+      "sha256": "c6d3d80e3899a49478113f206fb5830e41a624b5035e7e3a397e982f9122d701"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "source record",
+      "bytes": 9183,
+      "sha256": "967183aa0f188a7466b8fce904504d81a3d186bad30b8cc7711d6db5f6051f06"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame variant, 1920x1080 pillarbox of the original",
+      "bytes": 370307,
+      "sha256": "55cd6044edf7386a4bc589c56c45fbc457e05aa02dd22efcfabb37286a834f36"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 6104,
+      "sha256": "eabe9de573fcd8a2756a8e0ca87f44bceb46fdecfd4cff0d6446364351eac161"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "720p QA proof of the editorial frame",
+      "bytes": 214203,
+      "sha256": "a1f801ee30112094e44f21c68b8e4c9214964b320e35b18a2ce2bb8dbd7780ca"
+    },
+    {
+      "path": "source/original.dib",
+      "role": "native historical original (byte-identical Internet Archive ISO member pbdatc/PD4_504.DIB)",
+      "bytes": 308278,
+      "sha256": "52ca521806db7190c1418ffa087ae6d144ca4174d86011a5178ebc658db5dcb6"
+    },
+    {
+      "path": "src/render_editorial_frame.py",
+      "role": "editable framing source / render script",
+      "bytes": 1874,
+      "sha256": "3c2767591df26efcf32b8431ae106bf14d9d0f88e6847f72bcc2ebaf373de15d"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.dib"
+      ],
+      "kind": "still",
+      "native_dimensions": {
+        "width": 640,
+        "height": 480
+      },
+      "timeline": null
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "kind": "still",
+      "proof_720p": "qa/editorial-frame-720p.png",
+      "timeline": null,
+      "note": "Still; editorial hold is set in the edit. No local timing proposed."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        625,
+        627
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (visual cue context)"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        98,
+        98
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt (lead only)"
+    },
+    {
+      "path": "source/original.dib",
+      "record": "evidence/source.json",
+      "url": "https://archive.org/download/cbt-systems-microsoft-office-and-powersoft/CBT%20Systems%20Microsoft%20Office%20and%20Powersoft.iso/pbdatc%2FPD4_504.DIB",
+      "item_page": "https://archive.org/details/cbt-systems-microsoft-office-and-powersoft",
+      "accessed_utc": "2026-09-15T20:36:27Z",
+      "sha256": "52ca521806db7190c1418ffa087ae6d144ca4174d86011a5178ebc658db5dcb6",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.dib",
+      "relationship": "derivative crop (reversible pillarbox; no image content cropped)"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "source/original.dib and exports/editorial-frame.png",
+      "credit_text": "PowerBuilder DataWindow painter, from the training course \"PowerBuilder: DataWindow Concepts\" (c) 1995 Powersoft Corporation and CBT Systems Ltd. Source: Internet Archive, item cbt-systems-microsoft-office-and-powersoft.",
+      "rights_status": "unresolved",
+      "license_url": null
+    }
+  ],
+  "tests": [
+    {
+      "name": "original hash identity vs download",
+      "result": "pass",
+      "detail": "sha256 52ca5218...dcb6 both"
+    },
+    {
+      "name": "original BMP header",
+      "result": "pass",
+      "detail": "BM, 640x480, 8 bpp, BI_RGB, 256 colours"
+    },
+    {
+      "name": "export dimensions (Pillow)",
+      "result": "pass",
+      "detail": "editorial-frame 1920x1080 RGB; proof 1280x720 RGB"
+    },
+    {
+      "name": "identity cross-check against course files",
+      "result": "pass",
+      "detail": "callout = PD04.TXT:321; unit 4 title; CBTSETUP.INI course name; PD_1ST.DIB title screen"
+    },
+    {
+      "name": "e-mail scan of stored archive evidence",
+      "result": "pass",
+      "detail": "0 addresses after redaction"
+    },
+    {
+      "name": "manual inspection full size 1920x1080",
+      "result": "pass",
+      "detail": "see qa.md"
+    },
+    {
+      "name": "manual inspection 720p",
+      "result": "pass",
+      "detail": "see qa.md"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id HIST-15",
+      "result": "see worker report",
+      "detail": "run after this file was written; not self-certified here"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows 11 Pro 10.0.26200",
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "8.21.0 (Schannel)",
+    "ffmpeg_ffprobe": "6.0-essentials_build (gyan.dev), inspection of rejected AVI leads only",
+    "git": "2.53.0.windows.1",
+    "render_command": "python assets/historical/HIST-15/src/render_editorial_frame.py",
+    "fonts": "none used (no text added)"
+  },
+  "notes": [
+    "Historical proof with unresolved rights: produced, release blocked on R14.",
+    "The PowerBuilder version is not stated by any source; 1995 era and pre-5.0 are supported; 4.0 is inference only.",
+    "The image is a CBT Systems training-simulation screen; the course chrome is original content, not production additions.",
+    "The redacted archive metadata stores the unredacted response sha256 internally.",
+    "Review questions: (1) R14 rights basis; (2) keep or crop the course chrome; (3) caption version level."
+  ]
+}
