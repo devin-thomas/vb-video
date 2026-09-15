@@ -1,0 +1,57 @@
+{
+  "id": "HIST-11",
+  "depicts": "Retail CD-ROM disc (label side) of Microsoft Visual Basic 4.0 Enterprise Edition, English. NOT the retail box: no authorized-archive image of a VB4 retail box was found (see candidates.json).",
+  "creator": {
+    "artwork": "Microsoft Corporation (printed on disc: \"(c) 1991-1995 Microsoft Corporation. All rights reserved.\")",
+    "scan": "Unknown individual scanner; uploaded to the Internet Archive by the textfiles.com CD-ROM software library account (uploader field: softwarelibrary@textfiles.com)"
+  },
+  "title": "Microsoft Visual Basic Enterprise Edition (Version 4.0) (Microsoft) (1995)",
+  "original_publication_date": "1995 (disc copyright 1991-1995; printed code \"0895\" read as August 1995 manufacture: inference, not confirmed by a Microsoft source)",
+  "archive_publication_date": "2016-02-17T09:08:45Z (Internet Archive publicdate)",
+  "depicted_event_date": null,
+  "source_url": "https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+  "file_url": "https://archive.org/download/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995/Microsoft%20Visual%20Basic%20Enterprise%20Edition%20(Version%204.0)%20(Microsoft)%20(1995).tif",
+  "metadata_url": "https://archive.org/metadata/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+  "archive_collections": ["cdromsoftware", "cd-roms", "vintagesoftware"],
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS download via curl; no account, login, terms acceptance, payment or CAPTCHA.",
+  "version_model_evidence": {
+    "read_at_native_resolution": [
+      "Microsoft Visual Basic",
+      "Enterprise Edition",
+      "Programming System for Windows Platforms",
+      "Designed for Microsoft Windows 95 (logo)",
+      "(c) 1991-1995 Microsoft Corporation. All rights reserved.",
+      "Version 4.0",
+      "Disc Assy. 2031056-002",
+      "0895 Part No. 64575"
+    ],
+    "edition": "Enterprise Edition",
+    "locale": "English (item language: eng; all disc text English)",
+    "media_type": "CD-ROM",
+    "integrity": {
+      "archive_md5": "c8eb1774a9a244d6e8ad372144f0936d",
+      "archive_sha1": "9da64545824a3c7e4c51bb146b11b4ad950eb0d5",
+      "local_md5": "c8eb1774a9a244d6e8ad372144f0936d",
+      "local_sha1": "9da64545824a3c7e4c51bb146b11b4ad950eb0d5",
+      "local_sha256": "fc3d88f1b993ccdbac910521d0d107eec8cbe897feff90335ae4d188dd7fa0d8",
+      "match": true
+    }
+  },
+  "original_file": "source/original.tif",
+  "original_dimensions": [2584, 2502],
+  "original_dpi": [500, 500],
+  "original_bytes": 6501112,
+  "preserved_source_page": ["evidence/source-page/ia-metadata.json", "evidence/source-page/ia-details.html"],
+  "transformations": [
+    {
+      "output": "exports/editorial-frame.png",
+      "steps": "Uncropped original uniformly scaled with Lanczos to fit the 1920x1080 safe area (120,72)-(1800,1008), centered on a flat RGB(32,34,38) matte. No crop, retouch, dust removal, color change, text or UI added.",
+      "parameters": "src/framing.json; measured result src/framing-result.json"
+    }
+  ],
+  "license_terms": "None stated on the item page or in item metadata (no licenseurl, no rights field).",
+  "license_url": null,
+  "rights_status": "unresolved: see rights.json",
+  "credit_text": "Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM (1995), (c) Microsoft Corporation. Scan via Internet Archive (textfiles.com CD-ROM software collection)."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "HIST-11",
+  "classification": "historical source (archival scan) with derivative editorial framing",
+  "sources": [
+    {"path": "../../../sources/ASSET_PLAN.md", "lines": [94, 94], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "source creative brief"},
+    {"path": "../../../sources/SCRIPT.md", "lines": [122, 128], "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb", "relationship": "source creative brief (visual cue and narration context)"},
+    {"path": "source/original.tif", "url": "https://archive.org/download/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995/Microsoft%20Visual%20Basic%20Enterprise%20Edition%20(Version%204.0)%20(Microsoft)%20(1995).tif", "sha256": "fc3d88f1b993ccdbac910521d0d107eec8cbe897feff90335ae4d188dd7fa0d8", "relationship": "historical original", "access_date": "2026-09-15", "record": "evidence/source.json"},
+    {"path": "exports/editorial-frame.png", "relationship": "derivative crop (uncropped fit-to-frame; parameters src/framing.json)"}
+  ],
+  "authored_additions": [
+    "Neutral RGB(32,34,38) matte and centered placement in the 1920x1080 safe area (production choice).",
+    "Reproduction script src/build_frame.py and parameters src/framing.json."
+  ],
+  "not_added": ["no text or captions", "no retouching or dust removal", "no watermark removal (none present)", "no AI generation or recreation", "no UI"],
+  "substitution": "Ticket names a retail box; the acquired original is the retail install CD (script cue SCRIPT.md:122 lists 'A VB4 install CD' first). Recorded as review question RQ-2.",
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

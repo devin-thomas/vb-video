@@ -1,0 +1,46 @@
+{
+  "id": "HIST-11",
+  "requested": "VB4 retail box with readable product/version text",
+  "result": "No retail-box image found in authorized public archives. Best authorized substitute (retail install CD) acquired as source/original.tif; box images exist only on commercial listings that grant no reuse permission.",
+  "search_date": "2026-09-15",
+  "searches": [
+    {"where": "Wikimedia Commons API: file search \"Visual Basic\" box; \"Visual Basic 4\" OR \"Visual Basic 4.0\" OR \"VB4\"; Microsoft software box packaging 1995; Category:Visual Basic members; category search software boxes Microsoft", "result": "No VB4 box, disc or packaging file. Only 90s box photo seen was Novell PerfectOffice 3.0 (irrelevant)."},
+    {"where": "Internet Archive advancedsearch: \"visual basic 4\" OR \"visual basic 4.0\" (all media, 203 hits); title \"visual basic\" in cdromsoftware/cdrom_contributions/vintagesoftware (all VB4 items opened); \"visual basic\" mediatype:image; \"visual basic 4.0\" texts 1995-1996 and magazine collections", "result": "Every VB4 image is a disc label scan, sleeve scan or IDE screenshot. Texts are books only; no magazine scan located."},
+    {"where": "Wayback Machine CDX for microsoft.com/vbasic* 1995-1997", "result": "Not reachable from this environment (web.archive.org connection refused / fetch tool blocked). Unsearched: a follow-up lead."},
+    {"where": "Web search (Commons/Flickr/archive.org/general)", "result": "Box photos only on eBay/Etsy listings; WinWorld page shows screenshots only; NeverDieMedia shows a CD case with 'stock photos'."}
+  ],
+  "candidates": [
+    {
+      "rank": 1,
+      "status": "acquired (source/original.tif)",
+      "url": "https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+      "depicts": "VB4 Enterprise Edition retail CD-ROM, English, 2584x2502 TIFF at 500 dpi; Version 4.0, (c)1991-1995, 0895 Part No. 64575",
+      "deficiencies": ["Disc, not the retail box the ticket names", "No license; Microsoft artwork copyright (R14 blocked)", "Minor scan dust and surface scratches (left unretouched)"]
+    },
+    {
+      "rank": 2,
+      "status": "inspected only, not retained",
+      "url": "https://archive.org/details/microsoft-visual-basic-4.0-enterprise",
+      "depicts": "Same VB4 Enterprise disc design, later pressing (0296 Part No. 69944, Disc Assy. 2031056-010), 980x980 PNG, uploaded 2024-12-01",
+      "deficiencies": ["Disc, not box", "Lower resolution than rank 1", "No license statement"]
+    },
+    {
+      "rank": 3,
+      "status": "inspected only, not retained",
+      "url": "https://archive.org/details/ms-vc40-rc2",
+      "depicts": "Microsoft Visual Basic Version 4.0 RC-2 August 1995 disc (teal/silver), 1433x1433 PNG",
+      "deficiencies": ["Pre-release 'Not for resale' disc, not a store product", "Disc, not box", "No license statement"]
+    }
+  ],
+  "other_inspected": [
+    {"url": "https://archive.org/details/ms-select-vb40-eng", "depicts": "Microsoft Select volume-licence VB4 disc (May 1996, 'Not for resale') and sleeve back", "why_not": "Volume-licence media, not retail"},
+    {"url": "https://archive.org/details/ms-vb40-tr6-de", "depicts": "German VB4 Professional 'Marketing-Beta TR6' magazine disc", "why_not": "Beta, German, third-party pressing"},
+    {"url": "https://archive.org/details/visual-basic-40-professional-ita", "depicts": "Italian VB4 IDE screenshots", "why_not": "Screenshots, not packaging"},
+    {"url": "https://archive.org/details/visual-basic-40-enterprise-fra", "depicts": "French VB4 IDE screenshot", "why_not": "Screenshot, not packaging"}
+  ],
+  "box_leads_url_only": [
+    {"url": "https://www.ebay.com/itm/256800050926", "search_title": "Microsoft Visual Basic 4.0 VB 4 Professional PRO Edition Windows 95+ PC SEALED", "inspected": false, "barrier": "HTTP 403 to fetch tool; eBay listing photos carry no reuse permission"},
+    {"url": "https://www.etsy.com/listing/1867234229/microsoft-visual-basic-40-vb-4", "search_title": "Microsoft Visual Basic 4.0 Vb 4 Professional Pro Edition Windows PC SEALED NEW", "inspected": false, "barrier": "Commercial listing; no reuse permission"},
+    {"url": "https://www.ebay.com/itm/126023882396", "search_title": "Microsoft Visual Basic Stadard Edition Version 4.0", "inspected": false, "barrier": "Commercial listing; no reuse permission"}
+  ]
+}

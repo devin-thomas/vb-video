@@ -1,0 +1,26 @@
+{
+  "id": "HIST-11",
+  "gate": "R14",
+  "subject": "source/original.tif and derived exports/editorial-frame.png",
+  "rights_holders": [
+    {"party": "Microsoft Corporation", "interest": "Copyright and trademarks in the disc label artwork, logos and text (\"(c) 1991-1995 Microsoft Corporation. All rights reserved.\" printed on the disc)."},
+    {"party": "Unknown scanner / textfiles.com CD-ROM software library", "interest": "Whatever interest (if any) exists in a flat scan; not established."}
+  ],
+  "file_specific_license": null,
+  "license_url": null,
+  "item_rights_statement": "None. Item metadata has no licenseurl or rights field (see evidence/source-page/ia-metadata.json).",
+  "host_terms": {
+    "url": "https://archive.org/about/terms.php",
+    "captured": false,
+    "note": "The terms page renders client-side; its wording could not be captured verbatim from this environment. Public availability on archive.org is NOT treated as a reuse license."
+  },
+  "public_domain_claim": "none: artwork is a 1995 Microsoft work; not public domain on its face",
+  "fair_use_claim": "not asserted: a fair-use judgment is a legal decision reserved for review",
+  "access_barriers_encountered": "none (anonymous download)",
+  "prohibited_actions_taken": "none: no account, payment, terms acceptance, watermark removal (none present) or CAPTCHA",
+  "rights_status": "blocked: unknown/unlicensed third-party copyrighted artwork",
+  "release_status": "blocked",
+  "review_question": "RQ-1 in evidence/claim-checks.json",
+  "credit_text": "Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM (1995), (c) Microsoft Corporation. Scan via Internet Archive (textfiles.com CD-ROM software collection).",
+  "access_date": "2026-09-15"
+}

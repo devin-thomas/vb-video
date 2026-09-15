@@ -1,0 +1,22 @@
+{
+  "original_size": [
+    2584,
+    2502
+  ],
+  "scale": 0.37410071942446044,
+  "placed_size": [
+    967,
+    936
+  ],
+  "placed_offset": [
+    476,
+    72
+  ],
+  "aspect_original": 1.0327737809752198,
+  "aspect_placed": 1.0331196581196582,
+  "aspect_error_pct": 0.033490116694467886,
+  "outputs": [
+    "exports/editorial-frame.png",
+    "proofs/editorial-frame-720.png"
+  ]
+}

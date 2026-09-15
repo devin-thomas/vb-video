@@ -1,0 +1,219 @@
+{
+  "id": "HIST-11",
+  "title": "Visual Basic 4 retail box",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (archival scan, unlicensed third-party artwork) with derivative editorial framing",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates.json",
+      "role": "evidence / QA",
+      "bytes": 4372,
+      "sha256": "ada536a6099659b68e7d3ff33f34a50cc0f0a3e5805f4ddbb8c380d3cf1d419e"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3921,
+      "sha256": "7092a7922064d200ceb3e2d9dab644d70859d4008075f46e568f3dfc3a6ac369"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1763,
+      "sha256": "2ba9469b2008842aadf33213781025e20758e4110aa728b90df2dd9ca39db7c6"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 1731,
+      "sha256": "66144c520ccbc4c3528ee017ad22e779098d80515c898d3b3f72c09bb38e681e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2039,
+      "sha256": "d94d23d8cc2fb428886efed8f22d8d5ba7817d884df6a96a277de7066f4615fb"
+    },
+    {
+      "path": "evidence/source-page/ia-details.html",
+      "role": "preserved source page",
+      "bytes": 206462,
+      "sha256": "e2d88f74217e2ef1911b2d81e3d75a4b12b323ff84d65e32d2e5dca8bf5d3c23"
+    },
+    {
+      "path": "evidence/source-page/ia-metadata.json",
+      "role": "preserved source page",
+      "bytes": 4439,
+      "sha256": "5084aa7fef794061e5a20b9a523fb49c50444354620ad1050711ba7e2cf7f9d6"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 3477,
+      "sha256": "9c6e89ad6fd299855c9b60b1c1b3d2dfc67628fbd42017559a8783301b203c63"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still (editorial-frame variant)",
+      "bytes": 1152097,
+      "sha256": "bc43d24e67aef5efe995c63a4ce2f4783ee111c0424838d9de718316d5700b3a"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p proof",
+      "bytes": 555146,
+      "sha256": "1d4964771c680ccd9ffad2167214e5f2ff00cfcaecf3b8ff7d1208655b852962"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 4346,
+      "sha256": "af905beb438696dbb8252aeca0d7239057f2289950de63e7f368c70378f233df"
+    },
+    {
+      "path": "source/original.tif",
+      "role": "historical original (native archival scan)",
+      "bytes": 6501112,
+      "sha256": "fc3d88f1b993ccdbac910521d0d107eec8cbe897feff90335ae4d188dd7fa0d8"
+    },
+    {
+      "path": "src/build_frame.py",
+      "role": "reproduction script",
+      "bytes": 2075,
+      "sha256": "4e1e010435986c8b9d5c43f0593fa06fbc0e37b8deffaa747b6bd4abde20e01c"
+    },
+    {
+      "path": "src/framing-result.json",
+      "role": "measured framing result",
+      "bytes": 401,
+      "sha256": "bc4ffb495faf5d8f9568a4b35a2e3a3110a680d5dfe42959b7780398c61e65bf"
+    },
+    {
+      "path": "src/framing.json",
+      "role": "framing parameters",
+      "bytes": 477,
+      "sha256": "1906f248ef9e3b5a9048f3055a07d80e95aea15ac734829872bfcce194ef6cf5"
+    },
+    {
+      "path": "src/make_delivery.py",
+      "role": "delivery inventory script",
+      "bytes": 5794,
+      "sha256": "78b86fde78c9eed19c43be420959c9bb6768a346ef9dfeab90af9031af724647"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.tif"
+      ],
+      "note": "Native 2584x2502 500-dpi TIFF, byte-identical to the Internet Archive file (MD5/SHA-1 match). Hold for editorial timing."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png",
+        "src/framing.json"
+      ],
+      "note": "Uncropped fit into 1920x1080 safe area on neutral matte; still, hold for editorial timing (no animation)."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        94,
+        94
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        122,
+        128
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.tif",
+      "url": "https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "record": "src/framing.json"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical original",
+      "credit": "Microsoft Visual Basic 4.0 Enterprise Edition CD-ROM (1995), (c) Microsoft Corporation. Scan via Internet Archive (textfiles.com CD-ROM software collection).",
+      "rights_status": "blocked: no license (evidence/rights.json)"
+    }
+  ],
+  "tests": [
+    {
+      "test": "archive integrity",
+      "result": "passed: local MD5 c8eb1774a9a244d6e8ad372144f0936d and SHA-1 9da64545824a3c7e4c51bb146b11b4ad950eb0d5 match IA manifest"
+    },
+    {
+      "test": "version/edition text read at native resolution",
+      "result": "passed: 'Visual Basic Enterprise Edition', 'Version 4.0', '(c) 1991-1995', 'Part No. 64575'"
+    },
+    {
+      "test": "source excerpts byte-match sources/ line ranges",
+      "result": "passed"
+    },
+    {
+      "test": "export dimensions, aspect, matte",
+      "result": "passed: 1920x1080 RGB; placed 967x936 at (476,72); aspect error 0.033%",
+      "evidence": "src/framing-result.json"
+    },
+    {
+      "test": "manual visual review 1080p (full frame and 1:1 crops) and 720p",
+      "result": "passed; see qa.md"
+    },
+    {
+      "test": "tools/validate_delivery.py --id HIST-11",
+      "result": "see qa.md (run after this file is written)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "curl": "8.21.0 (Windows, Schannel)",
+    "network_used": true,
+    "network_note": "Anonymous downloads from archive.org only; web.archive.org unreachable from this environment.",
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "commands": [
+      "python assets/historical/HIST-11/src/build_frame.py",
+      "python assets/historical/HIST-11/src/make_delivery.py",
+      "python tools/validate_delivery.py --id HIST-11"
+    ]
+  },
+  "notes": [
+    "SUBSTITUTION: the ticket names a retail box; no authorized-archive box image exists. The acquired original is the VB4 retail install CD, which SCRIPT.md:122 lists first. See evidence/candidates.json and review question RQ-2.",
+    "Release blocked on R14 (RQ-1). Keep out of the cleared-media bin.",
+    "Review questions RQ-1..RQ-3 are in evidence/claim-checks.json."
+  ]
+}

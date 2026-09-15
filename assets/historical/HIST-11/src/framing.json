@@ -1,0 +1,12 @@
+{
+  "variant": "editorial-frame",
+  "input": "source/original.tif",
+  "canvas": [1920, 1080],
+  "safe_area": [120, 72, 1800, 1008],
+  "crop_box": [0, 0, 2584, 2502],
+  "fit": "contain (uniform scale, no stretch), centered",
+  "resample": "Pillow LANCZOS",
+  "matte_rgb": [32, 34, 38],
+  "added_elements": [],
+  "notes": "Uncropped: the scanner-bed margin around the disc is retained. Matte color is an authored production choice (neutral dark gray), not part of the source."
+}
