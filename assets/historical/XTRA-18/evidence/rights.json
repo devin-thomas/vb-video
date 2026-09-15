@@ -1,0 +1,67 @@
+{
+  "id": "XTRA-18",
+  "rights_status": "unclear — release blocked",
+  "release_recommendation": "Keep out of the cleared-media bin until a human records a rights decision.",
+  "layers": [
+    {
+      "layer": "Depicted software user interface and card artwork",
+      "holder": "Microsoft Corporation",
+      "basis": "Microsoft Hearts is Microsoft software bundled with Windows for Workgroups; its UI and card art are Microsoft-copyrighted.",
+      "published_terms_url": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions",
+      "published_terms_title": "Use of Microsoft copyrighted content",
+      "terms_accessed": "2026-09-15",
+      "terms_read_method": "Page fetch summary; not saved verbatim. Re-read the live page before release.",
+      "terms_summary": {
+        "permitted_contexts_include": ["advertising", "documentation", "tutorial books", "videos", "websites"],
+        "conditions": [
+          "Do not alter the screenshot except to resize it.",
+          "Attribute with the phrase \"Used with permission from Microsoft\".",
+          "Use full product names.",
+          "Do not use portions of screenshots.",
+          "Do not include screenshots in your own product user interface.",
+          "Do not use screenshots containing third-party content.",
+          "Do not use screenshots containing an image of an identifiable individual.",
+          "Do not use boot-up, opening or splash screens, or screens from beta products."
+        ]
+      },
+      "compliance_as_prepared": {
+        "resize_only": "Yes. Exact 2x nearest-neighbour enlargement, placed on a plain ground. Whether a surrounding ground counts as alteration is not decided here.",
+        "no_portions": "Yes. The full 640x480 capture is used; nothing is cropped.",
+        "attribution": "Proposed in evidence/source.json credit_text; not yet placed anywhere.",
+        "third_party_content": "None seen. The player label \"Nathan\" is typed text, not an image of a person.",
+        "splash_or_beta": "No. This is an in-game screen from a released product."
+      },
+      "undetermined": [
+        "Whether Microsoft's permission covers a screenshot captured and published by a third party rather than by the video's own producer.",
+        "Whether it applies to a long-discontinued product. The page states no product-age limit, but none was confirmed either."
+      ]
+    },
+    {
+      "layer": "The capture file itself (selection, timing and publication of this screen)",
+      "holder": "Nathan Lineback, Toasty Technology (toastytech.com) — attribution inferred from site ownership",
+      "license": "none found",
+      "evidence_of_no_stated_terms": [
+        "http://toastytech.com/guis/win311.html — no copyright, licence or reuse text",
+        "http://toastytech.com/guis/index.html — no copyright, licence or reuse text",
+        "http://toastytech.com/index.html — no copyright, licence or reuse text; contact address published on the page",
+        "http://toastytech.com/about/index.html — no copyright, licence or reuse text",
+        "http://toastytech.com/guis/guifaq.html — HTTP 404"
+      ],
+      "permission_recorded": false,
+      "note": "Public availability is not a licence. No permission was requested: contacting the site owner is a human boundary."
+    }
+  ],
+  "access": {
+    "account_created": false,
+    "terms_accepted": false,
+    "payment": false,
+    "captcha_or_bypass": false,
+    "watermark_removed": false,
+    "executables_or_disk_images_downloaded": false
+  },
+  "proposed_credit_text": "Microsoft Hearts, Microsoft Windows for Workgroups 3.11. Used with permission from Microsoft. Screenshot: Nathan Lineback, Toasty Technology GUI Gallery (toastytech.com).",
+  "human_handoff": {
+    "existing_handoff": "none — H01 to H07 do not cover archival image permission",
+    "proposed_action": "A human decides whether Microsoft's published screenshot permission is enough for this third-party capture. If it is not, either ask Nathan Lineback (the contact address published on toastytech.com) for written permission, or authorise a fresh first-party capture of Hearts under Windows for Workgroups 3.11 in an emulator the production owns. A fresh capture was out of scope here: no disk images or executables may be downloaded or run."
+  }
+}

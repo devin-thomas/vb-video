@@ -1,0 +1,43 @@
+{
+  "id": "XTRA-18",
+  "search_date": "2026-09-15",
+  "duplicate_check": "assets/historical/HIST-01..HIST-21 are planning scaffolds (state.json only); grep for Hearts/Solitaire/FreeCell across assets/historical found nothing. No duplicate capture exists. FreeCell is XTRA-19's.",
+  "selected": {
+    "url": "http://toastytech.com/guis/win311hearts.gif",
+    "why": "English, uncropped, full-screen 640x480 capture of the WfW-era \"The Microsoft Hearts Network\" with period Windows 3.x chrome and the green felt; labelled Windows for Workgroups 3.11 by the archive page."
+  },
+  "candidates_rejected": [
+    {
+      "source": "Internet Archive item MicrosoftHearts — https://archive.org/details/MicrosoftHearts, screenshot https://archive.org/download/MicrosoftHearts/MicrosoftHearts.png",
+      "inspected": "Item metadata and the 541x480 PNG screenshot only (40,495 bytes; SHA-1 af4eca9aa0c087be940bb679eb0458ee5a50069d, matching the item's file list). The item's ZIP of game files was NOT downloaded.",
+      "facts": "Uploader bultro (2018-09-10); described as the Italian Microsoft Hearts v4.0.0.950 from Windows 95/98; licence field \"abandonware\".",
+      "why_rejected": "Italian UI (\"Rete di Microsoft Hearts\"). The window frame is a modern Windows 7-style frame, not Windows 95, so the image is not a period OS capture. \"Abandonware\" is not a licence. The screenshot was not copied into the asset folder."
+    },
+    {
+      "source": "English Wikipedia File:Hearts_7.png",
+      "why_rejected": "Windows 7 version, outside the early-to-mid-1990s brief; non-free fair-use file."
+    }
+  ],
+  "searched_no_match": [
+    "Wikimedia Commons Category:Windows_95_screenshots — no Hearts or card-game files",
+    "Wikimedia Commons search \"Microsoft Hearts\" (files and categories) — no results",
+    "Wikimedia Commons search \"Hearts Windows screenshot\" and \"Hearts Network Windows\" — no Microsoft Hearts screenshots",
+    "Wikimedia Commons Category:Microsoft_Hearts, Category:Windows_3.x_screenshots, Category:Windows_3.1x_screenshots — 404 / do not exist",
+    "Wikimedia Commons Category:Microsoft_games — empty redirect category",
+    "English Wikipedia local files with prefix \"Hearts\" — only Hearts_7.png (Windows 7) and Hearts_Icon_(Vista).png",
+    "English Wikipedia File:Windows_for_Workgroups.png and File:Windows_3.11_workspace.png — no Hearts visible",
+    "Wikipedia articles for Microsoft Hearts in fr, ru, zh, ko and bg — no screenshots (icons only)",
+    "Wikidata Q17281123 — no image (P18)",
+    "GUIdebook (guidebookgallery.org) Windows 95 and Windows 3.1 galleries — no Hearts; WfW 3.11 gallery URL 404",
+    "Toastytech Windows 95 and Windows 98 pages — no Hearts capture",
+    "WinWorld product page URL guessed for WfW 3.11 — 404; not pursued further",
+    "Internet Archive: Introducing Microsoft Windows 95 (windows-95-manual_202412) and Introducing Windows 95 (win95_manual) — OCR text contains no \"Hearts\"",
+    "Internet Archive: Microsoft Windows for Workgroups & MS-DOS 6.2 (bwb_T5-DHJ-656) — lending-restricted scan; not accessed",
+    "Internet Archive: windows-for-workgroups-3.11_202304 and other WfW items — disk images/software; not downloaded or run"
+  ],
+  "access_failures": [
+    "web.archive.org unreachable from this environment (WebFetch refused; curl connection failed on port 443). Microsoft KB 126746 (Windows for Workgroups version history) could not be read.",
+    "archive.org Wayback availability API: no snapshot for the GIF on the first call, then HTTP 429 Too Many Requests on retries. The GIF's first-publication date remains unknown.",
+    "Google Books pages for InfoWorld 1993-01-25 p.43 and PC Magazine 1993-06-15 p.292 did not render text through the page fetcher."
+  ]
+}

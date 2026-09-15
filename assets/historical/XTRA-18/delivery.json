@@ -1,0 +1,210 @@
+{
+  "id": "XTRA-18",
+  "title": "Period Windows Hearts screenshot",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (third-party archive screenshot of Microsoft software UI)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 5159,
+      "sha256": "83d5bb3dbba1b9628f6b470a6438f1cc87f236e7b0f6ab3027f413199cce7322"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1035,
+      "sha256": "3b0f62154bd575cba701cd72407199ace96bab66cbce966bb727991b96df60c2"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2375,
+      "sha256": "251ee8338123ad12fac3a13ea340b1cbeb17a8fe0d19fd2b796982f1b77c26f2"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 4315,
+      "sha256": "db009a1cdaf7dd60689920b4aa293bbf53a5f1149c9add02f49e7b82d3d75a24"
+    },
+    {
+      "path": "evidence/search-log.json",
+      "role": "evidence / QA",
+      "bytes": 3784,
+      "sha256": "68cff91679c3b63a913a0528ce7d0d95d8e2650b5be7de551737a284ef60b9d3"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3867,
+      "sha256": "7c5556c9a73e4715b733a5222f5f2668ef53c7f91db56d34e000cac7e0df2160"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 4543,
+      "sha256": "4b5a40c3d9cf038ec9423cff25ebb4e50ea2df3c3b717da711997a66d9ec3819"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame still (2x nearest-neighbour, uncropped, derived from source/original.gif)",
+      "bytes": 22353,
+      "sha256": "40c5f09b705d417f5bae8f04a150b86719e31233868bccfca4e3349b2f233228"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 141760,
+      "sha256": "d1ba4c63c5b2a06000cb1244968af2e5f6543bb8f1332d976e6ce846ed5ee915"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5982,
+      "sha256": "74872798ad9d9a5d3a95a9b96a7f60fb2542db7b1eff4a2eda9cf0222a2472ee"
+    },
+    {
+      "path": "source/original.gif",
+      "role": "acquired historical original (unmodified archive file)",
+      "bytes": 17876,
+      "sha256": "43aed772b74691983af34bb3c5d1288e8432a5474fe7a057502ff51f948890c5"
+    },
+    {
+      "path": "src/render_editorial_frame.py",
+      "role": "framing script (reproduction)",
+      "bytes": 3816,
+      "sha256": "96e0c261ca9e5c7cb8e416e560b97b7353d1567615abd044b02cb72874817e33"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.gif"
+      ],
+      "dimensions": [
+        640,
+        480
+      ]
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.gif",
+      "transform": "2x nearest-neighbour, no crop, centred at (320,60) on #111318",
+      "proof_720": "proofs/editorial-frame-720.png"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        579,
+        593
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual brief (script-only supplement, not an asset-plan row)"
+    },
+    {
+      "path": "source/original.gif",
+      "url": "http://toastytech.com/guis/win311hearts.gif",
+      "page": "http://toastytech.com/guis/win311.html",
+      "access_date": "2026-09-15",
+      "sha256": "43aed772b74691983af34bb3c5d1288e8432a5474fe7a057502ff51f948890c5",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical screenshot (proposed credit, not approved)",
+      "credit": "Microsoft Hearts, Microsoft Windows for Workgroups 3.11. Used with permission from Microsoft. Screenshot: Nathan Lineback, Toasty Technology GUI Gallery (toastytech.com).",
+      "rights_status": "unclear — release blocked (evidence/rights.json)"
+    }
+  ],
+  "tests": [
+    {
+      "test": "source integrity (download = source/original.gif = pinned hash)",
+      "result": "passed"
+    },
+    {
+      "test": "integer nearest-neighbour scaling with per-pixel check, no crop, aspect preserved",
+      "result": "passed",
+      "detail": {
+        "scale_factor": 2,
+        "placed_size": [
+          1280,
+          960
+        ],
+        "placement_top_left": [
+          320,
+          60
+        ],
+        "pixel_exact_check": "passed"
+      }
+    },
+    {
+      "test": "PNG dimensions (export 1920x1080, proof 1280x720)",
+      "result": "passed"
+    },
+    {
+      "test": "deterministic re-render (two runs, identical hashes)",
+      "result": "passed"
+    },
+    {
+      "test": "literal excerpt equals sources/SCRIPT.md:579-593",
+      "result": "passed"
+    },
+    {
+      "test": "JSON evidence parses",
+      "result": "passed"
+    },
+    {
+      "test": "privacy scan of text outputs (local account name and home path)",
+      "result": "passed",
+      "hits": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "exports/editorial-frame.png viewed whole and as four 960x540 crops at 1:1: crisp 2x2 pixel blocks, full capture intact, text legible.",
+      "proof_720": "proofs/editorial-frame-720.png viewed: title bar, names and status text readable."
+    },
+    {
+      "test": "python tools/validate_delivery.py --id XTRA-18",
+      "result": "see qa.md / worker report (run after this file is written)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "shell": "PowerShell 7.6.6; Git Bash for curl",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "acquisition": "curl, plain HTTP GET",
+    "render_command": "python assets/historical/XTRA-18/src/render_editorial_frame.py",
+    "fonts_used": null,
+    "installs_performed": false
+  },
+  "notes": [
+    "Script-only supplement (SCRIPT-SUPPLEMENT), not an original asset-plan row.",
+    "Game version not visible in the capture; OS version from archive page label and period chrome.",
+    "The asset makes no claim about Hearts' implementation language; see evidence/claim-checks.json (C2, RQ-2).",
+    "Release blocked under R14 pending review question RQ-1."
+  ]
+}
