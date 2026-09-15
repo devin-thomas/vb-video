@@ -15,8 +15,8 @@
     {
       "path": "evidence/candidates.json",
       "role": "evidence / QA",
-      "bytes": 6045,
-      "sha256": "f124c05af5121ab94a18378268a0c9dbb944d5371ebd277cf0c0e4032ae43da1"
+      "bytes": 7598,
+      "sha256": "677ecb27066249f129245bee27c084b1027485ebd1da218472f988e1102deadf"
     },
     {
       "path": "evidence/claim-checks.json",
@@ -111,8 +111,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 5852,
-      "sha256": "8e0efa941fe6cde6998239193f175882d419a4c5f724bba703694bfa60f2636c"
+      "bytes": 6098,
+      "sha256": "85db6f5202d4639cf8a6d513958760593d8c4fcf8929910c402f07d738477b8e"
     },
     {
       "path": "source/original.png",

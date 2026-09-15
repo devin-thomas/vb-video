@@ -48,7 +48,7 @@ Toolchain: Windows 11 10.0.26200; Python 3.14.0; Pillow 12.3.0; curl 8.21.0 (Sch
 
 ## Gates and review questions
 - **R14 (blocked):** may the video use this Commons PD-self text-mode screenshot, credited as in `evidence/rights.json`, without further clearance? The Author field is empty, and the threshold of originality for Applesoft output and Apple glyphs is a legal judgement.
-- **Visual brief:** does the Apple II tile accept an Applesoft `]` prompt screen with a typed Hello World, or must it be a true power-on screen?
+- **Visual brief:** does the Apple II tile accept an Applesoft `]` prompt screen with a typed Hello World, or must it be a true power-on screen? The only banner image found is Commons `File:Apple--.jpg`: a blurred CC BY-SA photo of an "Apple ][" banner on a real CRT, with no prompt and no identified model. It is recorded as alternate 2 in `evidence/candidates.json` and was not delivered.
 - **Writing Lead (optional):** keep "Your Apple II had Applesoft BASIC" (defensible for the II Plus era), or tighten it to "Apple II Plus"? No script edit was made.
 
 ## Boundary need
