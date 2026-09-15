@@ -793,5 +793,16 @@
     "unresolved_gates": [
       "R15"
     ]
+  },
+  {
+    "id": "XTRA-08",
+    "title": "1995 tools class-photo lineup",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R15"
+    ]
   }
 ]

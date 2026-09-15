@@ -1,0 +1,110 @@
+{
+  "gates": [
+    {
+      "id": "R15",
+      "status": "blocked",
+      "reason": "Version/year claims implied by the script's '1995 development tools' framing were checked (claim_checks below). Four of five products fit 1995: Delphi 1.0 is confirmed by vendor history, VB 4.0 was shipping by October 1995 per period trade press, the 1995 PowerBuilder was a pre-5.0 release, and VC++ 4.0 documentation is dated September 1995. Java 1.0 did not ship until 23 January 1996 per Sun's own press release. The exports make no year claim (names only, no heading), but release stays blocked on the review questions below.",
+      "evidence_paths": [
+        "source-excerpts.md",
+        "provenance.json",
+        "../src/copy.txt"
+      ],
+      "approver": null,
+      "accessed": "2026-09-15",
+      "claim_checks": [
+        {
+          "id": "N1",
+          "claim": "The five tile names match the source exactly: Visual Basic 4, Visual C++ 4, Borland Delphi 1.0, PowerBuilder, Java 1.0",
+          "status": "supported",
+          "evidence": "src/build.py asserts the tile list equals the manifest copy; src/copy.txt holds the exact text; SCRIPT.md:609"
+        },
+        {
+          "id": "J1",
+          "claim": "Java 1.0 belongs in a 1995 lineup",
+          "status": "contradicted_as_a_release",
+          "evidence": "Sun press release 'JAVASOFT SHIPS JAVA 1.0', Palo Alto, 23 January 1996: Java 1.0 'is now available for download'. The same release dates Java's announcement to May 1995 and the first alpha to March 1995. Java existed publicly in 1995 as a pre-1.0 alpha/beta, but the 1.0 release is a 1996 event.",
+          "review_question": "Q1"
+        },
+        {
+          "id": "D1",
+          "claim": "Borland Delphi 1.0 is a 1995 release",
+          "status": "supported",
+          "evidence": "Embarcadero blog (David Intersimone): launched 14 February 1995 at Software Development West, San Francisco; RTM 15 February 1995. Corroborated by marcocantu.com 'Delphi's 10th Birthday'."
+        },
+        {
+          "id": "D2",
+          "claim": "The 1995 product name was 'Borland Delphi'",
+          "status": "partly_supported",
+          "evidence": "The vendor history calls the product 'Delphi' (editions Delphi and Delphi Client/Server) and does not use 'Borland Delphi'. Borland was the publisher (the Embarcadero post and GCN-era coverage name Borland), so 'Borland Delphi 1.0' is an accurate descriptive name even if the box title is not confirmed. Script wording kept."
+        },
+        {
+          "id": "V1",
+          "claim": "Visual Basic 4 is a 1995 release",
+          "status": "supported",
+          "evidence": "Government Computer News, 2 October 1995 (Sean Gallagher): Visual Basic 4.0 Enterprise Edition reviewed as a shipping product, list $995, VB 3.0 Professional upgrade about $500. The exact ship date (commonly given as August 1995) was not confirmed from a Microsoft source."
+        },
+        {
+          "id": "C1",
+          "claim": "Visual C++ 4 is a 1995 release",
+          "status": "supported_by_near_primary_evidence",
+          "evidence": "Internet Archive/bitsavers catalogues 'Visual C++ 4.0 Sep95' documentation (metadata only). Microsoft's 19 February 1996 press release announces the 4.0 Standard Edition for March 1996, which implies the other editions were already out. The commonly cited 11 December 1995 date comes from Wikipedia and was not confirmed first-party.",
+          "review_question": "Q3"
+        },
+        {
+          "id": "P1",
+          "claim": "PowerBuilder was a 1995 tool, version unnamed in the script",
+          "status": "supported_without_version",
+          "evidence": "Government Computer News, 27 May 1996 (Peter D. Varhol): PowerBuilder 5.0 for Windows 'set for release early next month' (June 1996). So the PowerBuilder sold through 1995 was a 4.x release. No first-party PowerBuilder 4.0 ship date was reached; the 1994 date is from secondary sources. The tile keeps the script's unversioned 'PowerBuilder', which is accurate.",
+          "review_question": "Q2"
+        },
+        {
+          "id": "L1",
+          "claim": "The lineup implies a winner, ranking, market share or simultaneous release date",
+          "status": "not_claimed",
+          "evidence": "Equal tiles, one type size, identical fills/borders/accents in the clean lineup; script order (matching DIA-11 rows); no heading, dates, bracket or numbers. The optional vb-focus variant emphasises VB only as the video's subject.",
+          "review_question": "Q4"
+        },
+        {
+          "id": "L2",
+          "claim": "Logos or retail packaging are reproduced",
+          "status": "not_claimed",
+          "evidence": "Text-only original tiles; no third-party image was acquired or drawn."
+        },
+        {
+          "id": "S1",
+          "claim": "War/SCRIPT.md:686 narration: 'Java, which Sun Microsystems released in 1995'",
+          "status": "imprecise_not_on_screen",
+          "evidence": "Sun's press release dates the announcement to May 1995 and Java 1.0 to 23 January 1996. Not shown in this asset; flagged for the Writing Lead with DIA-11.",
+          "review_question": "Q1"
+        }
+      ],
+      "review_questions": [
+        {
+          "id": "Q1",
+          "question": "For Writing Lead: Java 1.0 shipped on 23 January 1996 (Sun press release), though Java was announced and in public alpha/beta during 1995. The lineup keeps 'Java 1.0' and shows no year, so the frame itself is accurate. But the cue ('1995 development tools') and War/SCRIPT.md:686 ('which Sun Microsystems released in 1995') imply a 1995 release. Keep as written; relabel the tile 'Java' (drop 1.0); or change line 686 to, for example, 'which Sun Microsystems unveiled in 1995 and shipped as Java 1.0 in January 1996'? SCRIPT.md was not edited.",
+          "evidence": "claim_checks J1, S1"
+        },
+        {
+          "id": "Q2",
+          "question": "The script names no PowerBuilder version. In 1995 it was PowerBuilder 4.x; 5.0 followed in June 1996 (GCN, 27 May 1996). Keep the unversioned tile, which is accurate and the script's wording, or add '4.0' to match the other tiles? Adding it would be authored copy, and no first-party 4.0 ship date was reached.",
+          "evidence": "claim_checks P1"
+        },
+        {
+          "id": "Q3",
+          "question": "Visual C++ 4.0's exact first ship date was not confirmed from a Microsoft source: documentation dated September 1995, Standard Edition March 1996, and December 1995 from secondary sources only. Is 'a 1995 release' good enough for the section framing, or should the Writing Lead avoid dating it more precisely in narration?",
+          "evidence": "claim_checks C1"
+        },
+        {
+          "id": "Q4",
+          "question": "The exports carry no heading. Should the edit add a title such as DIA-11's '1995 development tools' (which reasserts the Java date issue), a neutral lower-third, or nothing? And should the optional vb-focus variant be used at 'why VB won the market', or does emphasising VB there read as announcing a winner?",
+          "evidence": "provenance.json authored_additions"
+        },
+        {
+          "id": "Q5",
+          "question": "The vendor history names the 1995 product 'Delphi'; the script's 'Borland Delphi 1.0' adds the publisher name. Accept it as descriptive?",
+          "evidence": "claim_checks D2"
+        }
+      ]
+    }
+  ]
+}

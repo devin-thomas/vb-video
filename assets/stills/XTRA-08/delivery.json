@@ -1,0 +1,245 @@
+{
+  "id": "XTRA-08",
+  "title": "1995 tools class-photo lineup",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 445,
+      "sha256": "640c0dd5165cf7b49c14b25069bbbe0d7de66b56230a960295074d3153f2f4bc"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 7433,
+      "sha256": "96958cd36ad54c05dc9919328819fc2a763e59fcc2edd427f64df030c8cc80c4"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 6419,
+      "sha256": "a77ab37ecc17d13265afee39dc4e6dc89734b63e64ab6240d5cdee3dc861741a"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "abc300118dfbd3e4560e9e151bdb4ce67359e1d2a763b5d93c99c5069c59a61c"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2965,
+      "sha256": "317bd886dee694e7cd8f68be49d64b7421f9d187dbc62b68b6d4465e7d739c00"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 26540,
+      "sha256": "ace4053eeb80353a478bed4d6ceefc594c551419543ba58baa11ae61bc97b280"
+    },
+    {
+      "path": "exports/lineup.png",
+      "role": "rendered still",
+      "bytes": 32329,
+      "sha256": "93a721b6b191b18f880df181c43cb70b6c199b2736a08565809bb0da50feda32"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 32329,
+      "sha256": "93a721b6b191b18f880df181c43cb70b6c199b2736a08565809bb0da50feda32"
+    },
+    {
+      "path": "exports/vb-focus.png",
+      "role": "rendered still",
+      "bytes": 32269,
+      "sha256": "6fa112601af4d623f3e9c06ca8b3ece08a8629ec268e876a73a63426961e1f62"
+    },
+    {
+      "path": "proofs/lineup-720.png",
+      "role": "evidence / QA",
+      "bytes": 42035,
+      "sha256": "5995f5ee6711f91e7e1ff84b228a96838e87cc2afd7452961b13f2f6460c4307"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 42035,
+      "sha256": "5995f5ee6711f91e7e1ff84b228a96838e87cc2afd7452961b13f2f6460c4307"
+    },
+    {
+      "path": "proofs/vb-focus-720.png",
+      "role": "evidence / QA",
+      "bytes": 42301,
+      "sha256": "da3586aa2c005b8e04e4c1e72aea111115ee28d8487a3a7e65c287f33315f9ad"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 8523,
+      "sha256": "49f75ae27d40e076694f2a8ec17f6cb9415f6bf7b55b4337aa59b0847b05d463"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1092,
+      "sha256": "4fd39a18a84777c6954c5256a7fdd948d1ab720b67d1aabdcf53d579cc008d4d"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1783,
+      "sha256": "30db31fe6f5be1eef946289df6e9620e3b918358de42e9dd3dad83238370b63b"
+    },
+    {
+      "path": "src/build.py",
+      "role": "editable source",
+      "bytes": 8091,
+      "sha256": "30178a197323aece77ad83b5a536d6e3a53e8d1913e73b434caea6257ef2f0a6"
+    },
+    {
+      "path": "src/copy.txt",
+      "role": "editable source",
+      "bytes": 69,
+      "sha256": "f48b4f057143a4cb5d829315656f1d7eff72e45fc10eeda438f8dc6032557dc8"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 4476,
+      "sha256": "10890ef65826a30565c958264e3450681d10b4dcd0f3c82997d2d69aa801cd8b"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 2669,
+      "sha256": "73dc112eb5bf631e5d21b119ffe673a4207e33a66492d77199feeb2216041789"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 2669,
+      "sha256": "73dc112eb5bf631e5d21b119ffe673a4207e33a66492d77199feeb2216041789"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 556,
+      "sha256": "7032131681542b713a0628c0471c2c6bbf7c95783d3c877e669500d3a3fbd818"
+    },
+    {
+      "path": "src/variant-lineup.svg",
+      "role": "editable source",
+      "bytes": 2669,
+      "sha256": "73dc112eb5bf631e5d21b119ffe673a4207e33a66492d77199feeb2216041789"
+    },
+    {
+      "path": "src/variant-vb-focus.svg",
+      "role": "editable source",
+      "bytes": 2669,
+      "sha256": "8a41b7f1561183fca1baf5bac7bbec3b3bea1e6a69c22ebc6e47d6df8d90c5e5"
+    }
+  ],
+  "variants": [
+    {
+      "name": "lineup",
+      "files": [
+        "exports/lineup.png",
+        "src/variant-lineup.svg"
+      ]
+    },
+    {
+      "name": "vb-focus",
+      "files": [
+        "exports/vb-focus.png",
+        "src/variant-vb-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        609,
+        613
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution exports and 720p proofs, viewed by the producing agent",
+        "scope": "Viewed exports/poster.png, exports/lineup.png and exports/vb-focus.png at 1920 x 1080, and proofs/poster-720.png, proofs/lineup-720.png and proofs/vb-focus-720.png at 1280 x 720; compared with assets/diagrams/DIA-11/exports/poster.png.",
+        "status": "Five equal tiles, one 40 px bold size, exact names; only Borland Delphi 1.0 wraps to two lines. All names readable at 720p; no clipping; text inside x 120-1800, y 72-1008. No logo, year, heading, bracket or ranking. vb-focus changes only the VB tile outline and strip; the other four names stay fully readable. Palette, type family and content band match DIA-11."
+      }
+    },
+    {
+      "test": "raster dimensions (still asset: no video)",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R15"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Names only: the five tile labels are the exact ticket copy (SCRIPT.md:609) in script order. No year, vendor, logo, box art, price, market share or ranking appears on screen.",
+    "Five tiles of identical size (316.8 x 336 px), fill, border and accent strip; every name is Liberation Sans Bold at one shared size (40 px), centred. Order follows the script and DIA-11 rows, not a ranking.",
+    "No on-screen heading: a \"1995\" title would assert that all five belong to 1995, which evidence does not support for Java 1.0 (JavaSoft shipped it 23 January 1996). See evidence/claim-checks.json.",
+    "The script's optional bracket-tournament arrangement was not used, because brackets imply elimination and a winner.",
+    "Named variant lineup is the clean class photo (identical to the poster). Optional variant vb-focus adds a blue outline and accent strip to the Visual Basic 4 tile only; the other four tiles are unchanged and fully readable.",
+    "Transition-compatible with DIA-11: same canvas, background #111318, panel #1b2027, text #f1f3f5, Liberation Sans, and 120-1800 px content band, with tools in the same order.",
+    "Release stays blocked under R15 pending the review questions in evidence/claim-checks.json.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

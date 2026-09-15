@@ -1,0 +1,37 @@
+{
+  "id": "XTRA-08",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "lineup": "variant-lineup.svg",
+    "vb-focus": "variant-vb-focus.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Names only: the five tile labels are the exact ticket copy (SCRIPT.md:609) in script order. No year, vendor, logo, box art, price, market share or ranking appears on screen.",
+    "Five tiles of identical size (316.8 x 336 px), fill, border and accent strip; every name is Liberation Sans Bold at one shared size (40 px), centred. Order follows the script and DIA-11 rows, not a ranking.",
+    "No on-screen heading: a \"1995\" title would assert that all five belong to 1995, which evidence does not support for Java 1.0 (JavaSoft shipped it 23 January 1996). See evidence/claim-checks.json.",
+    "The script's optional bracket-tournament arrangement was not used, because brackets imply elimination and a winner.",
+    "Named variant lineup is the clean class photo (identical to the poster). Optional variant vb-focus adds a blue outline and accent strip to the Visual Basic 4 tile only; the other four tiles are unchanged and fully readable.",
+    "Transition-compatible with DIA-11: same canvas, background #111318, panel #1b2027, text #f1f3f5, Liberation Sans, and 120-1800 px content band, with tools in the same order.",
+    "Release stays blocked under R15 pending the review questions in evidence/claim-checks.json."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        609,
+        613
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "still"
+}
