@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Tue, 15 Sep 2026 20:40:20 GMT
+Server: Apache/2.4.58 (Ubuntu)
+Strict-Transport-Security: max-age=15768000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Last-Modified: Thu, 15 Jun 2023 02:21:57 GMT
+ETag: "e069-5fe21bb853b40"
+Accept-Ranges: bytes
+Content-Length: 57449
+Vary: Accept-Encoding
+Content-Type: text/html
+

@@ -1,0 +1,38 @@
+{
+  "id": "HIST-13",
+  "gate": "R14",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked until rights review",
+  "image_license": null,
+  "license_url": null,
+  "rights_holders_identified": [
+    {"holder": "M&T Books / MIS:Press, Inc. (successor rights holder unknown)", "interest": "Copyright in the book, including its figures and page layout. Page 5 of the scan reads '© 1995 by M&T Books' and 'All rights reserved', and forbids reproduction without the publisher's written permission."},
+    {"holder": "Dan Parks Sydow", "interest": "Author; possible interest in the screenshots as captured for the book"},
+    {"holder": "Metrowerks Inc. (acquired by Motorola 1999; CodeWarrior now NXP Semiconductors)", "interest": "Copyright in the depicted CodeWarrior user interface"},
+    {"holder": "Apple Inc.", "interest": "Mac OS window chrome and fonts visible in the screenshot"}
+  ],
+  "host_terms": {
+    "host": "vintageapple.org",
+    "observed_terms": "The homepage and /macprogramming/ listing carry no license, permission, fair-use or takedown statement (checked 2026-09-15).",
+    "implication": "Public availability is not a license. The host gives no permission to reuse the image."
+  },
+  "access_boundary_check": {
+    "account_created": false,
+    "terms_accepted": false,
+    "payment": false,
+    "captcha": false,
+    "watermark_removed": false,
+    "gated_or_lending_copy_used": false
+  },
+  "assumptions_not_made": [
+    "No public-domain status is claimed. The book is a 1995 work with a copyright notice.",
+    "No fair-use conclusion is made. Documentary commentary use is a legal question for the reviewer, not an agent finding."
+  ],
+  "clearer_rights_alternatives_checked": [
+    {"item": "Wikimedia Commons File:Metrowerks_CodeWarrior_Professional_Release_1.jpg", "license": "Public domain (PD-user, uploader Gona.eu, 2008-08-20)", "why_not_used": "Photo of CD sleeves (CodeWarrior Pro 1 and CodeWarrior Gold for Windows 95/NT), 1997. Shows packaging, not the IDE, so it does not satisfy the script's 'Screenshot of CodeWarrior IDE'."},
+    {"item": "Metrowerks website IDE tour figure (Wayback capture 1997-11-10)", "license": "none stated; page footer 'Copyright Metrowerks, Inc. (c)1997'", "why_not_used": "Kept as alternate. It is a native Mac screenshot but equally unlicensed, and later (IDE 2.x-era, not 1995). See evidence/candidates.json."}
+  ],
+  "review_question": "Is the production willing to use a 1995 copyrighted book's screenshot (scanned by a third party, no license) as a short documentary still under a commentary/fair-use rationale, or must it seek permission / use a different source? No free-licensed Mac CodeWarrior IDE screenshot was found on Wikimedia Commons, Internet Archive or Macintosh Garden.",
+  "checked_by": "HIST-13 worker agent",
+  "checked_at": "2026-09-15"
+}

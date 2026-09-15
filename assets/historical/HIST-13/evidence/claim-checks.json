@@ -1,0 +1,52 @@
+{
+  "id": "HIST-13",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "reason": "The image comes from an all-rights-reserved 1995 book (M&T Books), and the depicted UI is Metrowerks/Apple copyright. The hosting site gives no license or permission, so public availability is not clearance. No free-licensed Mac CodeWarrior IDE screenshot was found (Commons, Internet Archive, Macintosh Garden, Metrowerks site via Wayback). Creator, holder, access method and credit are all recorded. Legal clearance is not an agent finding.",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/candidates.json",
+        "evidence/source-page/vintageapple-macprogramming-index.html",
+        "evidence/source-page/vintageapple-macprogramming-index.headers.txt"
+      ],
+      "approver": null,
+      "review_question": "Use this 1995 book screenshot under a documentary commentary rationale, seek permission, or choose another route? (See rights.json.)"
+    }
+  ],
+  "asset_claims": [
+    {
+      "claim": "The image shows a Macintosh-hosted Metrowerks CodeWarrior IDE, not a Windows-hosted version.",
+      "status": "supported",
+      "evidence": "Book title 'Metrowerks CodeWarrior Programming for the Mac'. Figure 2.41's caption names a CodeWarrior project window for a PowerPC target. Classic Mac OS window chrome, 'µ' project suffix, InterfaceLib and MWCRuntime.Lib entries. See source-excerpts.md.",
+      "checked_against": "source/original.jpg viewed at full resolution; PDF pages 5, 24, 63 text"
+    },
+    {
+      "claim": "Version/date: CodeWarrior CW5 era, 1995.",
+      "status": "supported with limit",
+      "evidence": "Copyright page reads '© 1995'. Book p. 4 says CW5 is available and CW6 soon will be, and the book's CD-folder figures are titled 'CW5 Gold'. The exact IDE build behind page 43 is not stated, so no build number is claimed.",
+      "checked_against": "PDF pages 5, 24, 25"
+    }
+  ],
+  "script_claims_observed": [
+    {
+      "script_ref": "SCRIPT.md:649",
+      "claim": "CodeWarrior compiled for both 68k and PowerPC.",
+      "status": "supported",
+      "evidence": "Book pp. 2-4 (PDF 22-24) describe the MW C/C++ 68K and MW C/C++ PPC compilers in CodeWarrior Gold.",
+      "action": "none"
+    },
+    {
+      "script_ref": "SCRIPT.md:649",
+      "claim": "Dominant development environment for the Mac through most of the 90s.",
+      "status": "not settled by primary evidence in this ticket",
+      "evidence": "Only secondary sourcing was seen: the English Wikipedia 'CodeWarrior' article says it launched at MacWorld Expo in January 1994 and became the de facto Mac standard during the PowerPC transition. Before 1994, THINK C and MPW were the incumbents, so 'most of the 90s' is at best 1994 onward.",
+      "action": "review question for Writing Lead (wording only; no asset change). SCRIPT.md not edited."
+    }
+  ],
+  "checked_by": "HIST-13 worker agent",
+  "checked_at": "2026-09-15"
+}

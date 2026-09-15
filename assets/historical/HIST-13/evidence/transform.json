@@ -1,0 +1,86 @@
+{
+  "input": {
+    "path": "source/original.jpg",
+    "sha256": "d92db8928ea9c2be5d8317ff0112a53fa763ec6d537bfb5edbd5b642084da5f5",
+    "size": [
+      2045,
+      2785
+    ],
+    "mode": "L"
+  },
+  "operations": [
+    "crop each panel box from the original (no rotation, deskew, levels, sharpening or retouching)",
+    "convert greyscale L to RGB without tonal change",
+    "resize each crop by the single shared factor 0.87 with Lanczos resampling (aspect ratio preserved)",
+    "paste panels side by side, vertically centred, on a plain neutral background"
+  ],
+  "canvas": {
+    "size": [
+      1920,
+      1080
+    ],
+    "background_rgb": [
+      42,
+      42,
+      42
+    ],
+    "gap_px": 64
+  },
+  "shared_scale": 0.87,
+  "panels": [
+    {
+      "name": "fig-2.40-output-and-editor",
+      "depicts": "Program output window 'New Window' and CodeWarrior editor window 'OOPexample.cp' (book Figure 2.40)",
+      "crop": [
+        457,
+        411,
+        1525,
+        1452
+      ],
+      "crop_size": [
+        1068,
+        1041
+      ],
+      "scaled_size": [
+        929,
+        906
+      ],
+      "canvas_position": [
+        99,
+        87
+      ],
+      "effective_scale_x": 0.8698501872659176,
+      "effective_scale_y": 0.8703170028818443
+    },
+    {
+      "name": "fig-2.41-project-window",
+      "depicts": "CodeWarrior project window 'OOPexamplePPC.µ' (book Figure 2.41)",
+      "crop": [
+        567,
+        1608,
+        1404,
+        2005
+      ],
+      "crop_size": [
+        837,
+        397
+      ],
+      "scaled_size": [
+        728,
+        345
+      ],
+      "canvas_position": [
+        1092,
+        367
+      ],
+      "effective_scale_x": 0.8697729988052568,
+      "effective_scale_y": 0.8690176322418136
+    }
+  ],
+  "arrangement_note": "In the book the two figures are stacked vertically on page 43 with captions; the frame places them side by side and omits captions/body text. No text, labels, UI or watermarks were added or removed.",
+  "outputs": {
+    "exports/editorial-frame.png": "36e5bad7c85b2c1e89d9366f0358034f04304329b9501cf3cadf2b874a5ff8e6",
+    "proofs/editorial-frame-720.png": "f50559e17e3f40914b729c397ca59085329e5b47f593910446b161e451d722f7"
+  },
+  "reproduce": "python assets/historical/HIST-13/src/build_frame.py"
+}
