@@ -1,0 +1,99 @@
+{
+ "url": "https://web.archive.org/web/20050312064351/http://classicvb.org:80/petition/",
+ "final_url": "https://web.archive.org/web/20050312064351/http://classicvb.org:80/petition/",
+ "accessed_utc": "2026-09-15T20:39:46.882917+00:00",
+ "title": "Petition to Microsoft",
+ "chromium": "153.0.8010.12",
+ "viewport": [
+  1280,
+  720
+ ],
+ "device_scale_factor": 1.5,
+ "doc_size": [
+  1280,
+  1638
+ ],
+ "banner_text": "",
+ "responses": [
+  [
+   200,
+   "https://web.archive.org/web/20050312064351/http://classicvb.org:80/petition/"
+  ],
+  [
+   302,
+   "https://web.archive.org/web/20050312064351cs_/http://classicvb.org/petition/styles.css"
+  ],
+  [
+   200,
+   "https://web.archive.org/web/20050313060842cs_/http://classicvb.org/Petition/styles.css"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/js/athena.js"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-150.png"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/images/loading.gif"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+  ],
+  [
+   302,
+   "https://web.archive.org/web/20050312064351im_/http://classicvb.org/petition/images/digital-signing.gif"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/images/web-screenshot.svg"
+  ],
+  [
+   404,
+   "https://web.archive.org/web/20050312064351/http://web.archive.org/screenshot/http://classicvb.org/petition/"
+  ],
+  [
+   200,
+   "https://web.archive.org/__wb/sparkline?output=json&url=http%3A%2F%2Fclassicvb.org%2Fpetition%2F&collection=web&nav=20050312064351"
+  ],
+  [
+   200,
+   "https://web.archive.org/web/20050518021902im_/http://classicvb.org/petition/images/digital-signing.gif"
+  ],
+  [
+   200,
+   "https://web-static.archive.org/_static/fonts/Iconochive-Regular.woff"
+  ],
+  [
+   200,
+   "https://athena.archive.org/0.gif?service=wb&server_name=wwwb-app249.us.archive.org&server_ms=224&kind=pageview&timediff=0&locale=en-US&referrer=-&loadtime=576&nav_to_done_ms=867&iaprop_fontSize=25.6px&iaprop_devicePixelRatio=1&version=2&count=13"
+  ],
+  [
+   200,
+   "https://wayback-api.archive.org/services/context/notices?url=http%3A%2F%2Fclassicvb.org%2Fpetition%2F&timestamp=20050312064351"
+  ],
+  [
+   200,
+   "https://archive.org/includes/donate.php?as_page=1&platform=wb&referer=https%3A//web.archive.org/web/20050312064351/http%3A//classicvb.org%3A80/petition/"
+  ]
+ ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "XTRA-17",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/capture-log.json",
+        "source/archived-html/home_20050312230636.html"
+      ],
+      "findings": [
+        "Rights holder recorded: classicvb.org, per the site's own 2005 footer ('All Rights Reserved Worldwide', no reproduction without express written permission).",
+        "File-specific terms recorded: none granting reuse. No license and no permission on record.",
+        "Access method recorded: anonymous public Wayback replay; no account, payment, CAPTCHA, terms acceptance, watermark removal, or form submission.",
+        "Credit text recorded in evidence/source.json and evidence/rights.json."
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Unknown or reserved rights stay blocked per R14. Whether to rely on fair use/commentary, seek permission, or cut the visual is a legal-risk question evidence cannot settle; raised as review question XTRA-17-RQ1."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "SCRIPT.md:703 / War/SCRIPT.md:760 — \"A petition website — 'Save VB6!' or similar. These were real.\"",
+      "status": "verified",
+      "evidence": [
+        "source/archived-html/petition_20050312064351.html",
+        "https://web.archive.org/web/20050309123704/http://classicvb.org:80/petition/ (inspected, not vendored: contains signatory names)",
+        "source/archived-html/petition_20060301204941.html",
+        "source/archived-html/home_20050312230636.html",
+        "https://learn.microsoft.com/en-us/archive/blogs/jroxe/an-open-letter-to-the-community"
+      ],
+      "result": "Real. The classicvb.org petition for unmanaged Visual Basic and VBA is archived by the Wayback Machine from 2005-03-09 onward (CDX digests verified). The same text is still captured on 2006-03-01. Microsoft's Jay Roxe wrote on 17 March 2005 that he had mailed each MVP who signed the petition at classicvb.org/petition. The archived home page lists 8-10 March 2005 trade-press coverage, including an InfoWorld headline about a campaign 'to save Visual Basic 6'.",
+      "wording_note": "The petition's own title is not 'Save VB6!'. The script hedges with 'or similar', so no script change is required. On-screen text must use the real title, not the invented slogan.",
+      "script_change_required": false
+    },
+    {
+      "claim": "Signature counts or dates shown on screen",
+      "status": "not_shown",
+      "result": "The editorial frame does not show the signature counter. The page's own counters ('1376 signatories including 203 Microsoft MVPs since March 8th, 2005' at 2005-03-12; '10289 ... 263 ...' at 2006-03-01) are self-reported by the site and not independently verified. If they are ever shown, attribute them to the dated snapshot. No counts were invented.",
+      "evidence": [
+        "evidence/source-excerpts.md"
+      ]
+    },
+    {
+      "claim": "Chronology implied by placement: the visual follows narration about the VB.NET transition",
+      "status": "review_question",
+      "result": "The petition dates from March 2005, when mainstream support for VB6 was ending (31 March 2005 per the petition FAQ and home page). That is about three years after VB.NET first shipped. The narration does not give a date, so nothing is false, but viewers may read the petition as an immediate 2002 reaction. Raised as review question XTRA-17-RQ3 for the Writing Lead. War/SCRIPT.md was not edited.",
+      "evidence": [
+        "source/archived-html/faq_20050312055510.html",
+        "source/archived-html/home_20050312230636.html"
+      ],
+      "script_change_required": false
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "XTRA-17-RQ1",
+      "question": "The page is 'Copyright ©2005, classicvb.org, All Rights Reserved Worldwide' and forbids reproduction without written permission. Should the video show the Wayback frame under a commentary/fair-use rationale, seek permission, or cut the visual?",
+      "evidence": "evidence/rights.json"
+    },
+    {
+      "id": "XTRA-17-RQ2",
+      "question": "The frame keeps the Wayback Machine banner (dated MAR 12 2005) as date evidence. Show it in the edit as is, or let the editor mask or pan past it? Any trimmed version must keep the date attribution in a caption.",
+      "evidence": "exports/editorial-frame.png"
+    },
+    {
+      "id": "XTRA-17-RQ3",
+      "question": "For the Writing Lead: the petition is from March 2005 (end of VB6 mainstream support), not the 2002 VB.NET launch. Add a date cue ('2005') to the narration or an on-screen caption? War/SCRIPT.md has not been edited.",
+      "evidence": "evidence/claim-checks.json"
+    },
+    {
+      "id": "XTRA-17-RQ4",
+      "question": "The frame shows the petition heading and objectives but not the page's self-reported counter ('1376 signatories including 203 Microsoft MVPs since March 8th, 2005'). Is a second framing of the counter wanted, captioned as the site's own 12 March 2005 figure?",
+      "evidence": "source/original.png"
+    }
+  ]
+}

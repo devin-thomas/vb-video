@@ -1,0 +1,65 @@
+{
+  "id": "XTRA-17",
+  "subject": "A Petition for the Development of Unmanaged Visual Basic and Visual Basic for Applications (classicvb.org petition page)",
+  "creator": "classicvb.org (site copyright holder per its own 2005 footer). The petition text is described on the classicvb.org home page as a request 'originating with the Microsoft MVPs'; no individual author is named on the pictured page, and none is asserted here.",
+  "title": "Petition to Microsoft",
+  "original_url": "http://classicvb.org:80/petition/",
+  "archive": {
+    "name": "Internet Archive Wayback Machine",
+    "snapshot_timestamp": "20050312064351",
+    "snapshot_datetime_utc": "2005-03-12T06:43:51Z",
+    "replay_url": "https://web.archive.org/web/20050312064351/http://classicvb.org:80/petition/",
+    "raw_url": "https://web.archive.org/web/20050312064351id_/http://classicvb.org:80/petition/",
+    "cdx_digest_sha1_base32": "TJRKHXRKUYHLTM6GZ65N4XL75QU4YOXR",
+    "cdx_digest_verified": true,
+    "captures_listed_in_banner": "490 captures, 9 Mar 2005 - 9 Sep 2026 (as displayed on access date)"
+  },
+  "original_publication_date": "unknown (page self-reports the petition running 'since March 8th, 2005'; the exact publication date of this page version is unknown)",
+  "content_date": "2005-03-12 (Wayback capture of this version)",
+  "depicted_event_date": "Petition campaign launched 2005-03-08 per the page's own text; press coverage dated 8-10 March 2005 is listed on the archived classicvb.org home page",
+  "access_date": "2026-09-15",
+  "access_datetime_utc": "2026-09-15T20:39:46Z",
+  "access_method": "Anonymous, unauthenticated HTTP GET of a public Wayback Machine replay via headless Chromium (Playwright). No account, login, CAPTCHA, form submission, or terms acceptance. The petition's 'Sign' links were not followed.",
+  "version_evidence": [
+    "Wayback banner in source/original.png shows MAR 12 2005 and the original URL http://classicvb.org/petition/.",
+    "Raw archived HTML (source/archived-html/petition_20050312064351.html) matches the CDX SHA-1 digest for that timestamp.",
+    "The page's own counter reads '1376 signatories including 203 Microsoft MVPs since March 8th, 2005.' This is a self-reported figure at capture time, not independently verified."
+  ],
+  "replay_substitutions": [
+    "styles.css served from Wayback capture 20050313060842 (nearest available; Wayback redirect).",
+    "images/digital-signing.gif served from Wayback capture 20050518021902 (nearest available; Wayback redirect)."
+  ],
+  "original_dimensions": {
+    "width": 1920,
+    "height": 2457,
+    "note": "Full-page Chromium screenshot at 1280x720 CSS viewport, device scale factor 1.5 (CSS page size 1280x1638). The page is HTML; there is no native image original, so the uncropped screenshot including the Wayback banner is the preserved original capture."
+  },
+  "native_original": "source/original.png",
+  "supporting_originals": [
+    "source/archived-html/petition_20050312064351.html",
+    "source/archived-html/petition_20060301204941.html",
+    "source/archived-html/home_20050312230636.html",
+    "source/archived-html/faq_20050312055510.html"
+  ],
+  "transformations": [
+    {
+      "output": "exports/editorial-frame.png",
+      "operation": "Pixel-exact crop of source/original.png, box (0,0,1920,1080). No resampling, scaling, stretching, retouching, blur or overlays.",
+      "keeps": "Wayback banner with MAR 12 2005 date and original URL; petition heading; intro; objectives 1-2 and the heading of objective 3.",
+      "omits": "Rest of the page below y=1080: remainder of objective 3, suggested approach, conclusion, the self-reported signature counter, 'Sign the petition' artwork, and the email-verification note. Nothing that contradicts the date/version is removed."
+    },
+    {
+      "output": "proofs/editorial-frame-720.png",
+      "operation": "Uniform Lanczos downscale of the editorial frame to 1280x720 (review proof only)."
+    },
+    {
+      "output": "proofs/original-720h.png",
+      "operation": "Uniform Lanczos downscale of the whole original to 563x720 (review proof only)."
+    }
+  ],
+  "personal_data": "No individual signatory names appear on this page version (names were on separate linked pages that were not captured). No blurring or omission of names was needed. The earlier 2005-03-09 capture (inspected only, not kept in the repository; sha256 fb106eb70d24c955819c0fbd5e61ecfd239f90f499d2e1d49df40b351b0041d7) contains an inline list of 247 names with personal websites; it is not pictured or vendored.",
+  "license": "None found. classicvb.org footer (home page capture 20050312230636): 'Copyright ©2005, classicvb.org, All Rights Reserved Worldwide' with a no-reproduction-without-written-permission notice.",
+  "license_url": "http://classicvb.org/ (archived at https://web.archive.org/web/20050312230636/http://classicvb.org:80/)",
+  "rights_status": "blocked — all rights reserved by classicvb.org; no permission on record. See evidence/rights.json.",
+  "credit_text": "classicvb.org petition page, captured 12 March 2005 by the Internet Archive Wayback Machine (web.archive.org/web/20050312064351/http://classicvb.org/petition/)"
+}

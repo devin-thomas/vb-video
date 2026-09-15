@@ -1,0 +1,38 @@
+{
+  "id": "XTRA-17",
+  "rights_status": "blocked",
+  "release_eligible": false,
+  "components": [
+    {
+      "component": "Petition page text, layout and 'Sign the Petition' artwork (classicvb.org)",
+      "rights_holder": "classicvb.org (per site footer). Individual petition authors are not named on the pictured page; the artwork's creator is unknown.",
+      "terms_found": "Copyright ©2005, classicvb.org, All Rights Reserved Worldwide. Nothing on this web site may be reproduced, in any form, without express written permission.",
+      "terms_source": "source/archived-html/home_20050312230636.html (Wayback 20050312230636, footer)",
+      "license": null,
+      "permission_on_record": false,
+      "status": "blocked"
+    },
+    {
+      "component": "Wayback Machine banner/toolbar UI rendered above the page",
+      "rights_holder": "Internet Archive",
+      "terms_found": null,
+      "terms_source": "https://archive.org/about/terms.php was requested on 2026-09-15 but returned only a script-rendered shell without readable terms text to this worker; no terms were read or accepted, and no license is assumed.",
+      "license": null,
+      "permission_on_record": false,
+      "status": "unknown"
+    }
+  ],
+  "not_a_license": [
+    "Public availability in the Wayback Machine is not a license from classicvb.org.",
+    "Educational or commentary use is not recorded as a license; any fair-use judgment is a legal question for the human reviewer."
+  ],
+  "acquisition": {
+    "method": "Anonymous public Wayback replay; no account, payment, CAPTCHA, login, form submission, or terms acceptance.",
+    "watermarks_removed": false,
+    "access_barriers": "Transient connection refusals from web.archive.org (rate limiting) during the session; resolved by waiting, no bypass."
+  },
+  "handoff": "Review question XTRA-17-RQ1: decide whether to use the frame under a commentary/fair-use rationale, seek written permission from classicvb.org, or cut the visual. Release stays blocked until that decision is recorded.",
+  "credit_text": "classicvb.org petition page, captured 12 March 2005 by the Internet Archive Wayback Machine (web.archive.org/web/20050312064351/http://classicvb.org/petition/)",
+  "reviewed_by": null,
+  "decision_date": null
+}

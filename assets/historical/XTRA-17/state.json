@@ -1,12 +1,15 @@
 {
   "id": "XTRA-17",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Claude Code (Opus 5), worker under Archive Extras Manager vb-25",
+  "updated_at": "2026-09-15T20:55:00+00:00",
+  "blockers": [
+    "R14: classicvb.org content is 'All Rights Reserved Worldwide' with no reproduction without written permission; no license or permission on record (evidence/rights.json)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Captured Wayback snapshot 20050312064351 of http://classicvb.org:80/petition/ (banner kept, uncropped) plus a pixel-exact 1920x1080 editorial-frame crop.",
+    "Script claim 'These were real.' verified; review questions XTRA-17-RQ1..RQ4 in evidence/claim-checks.json."
   ]
 }
