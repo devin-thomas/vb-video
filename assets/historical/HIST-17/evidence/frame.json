@@ -1,0 +1,103 @@
+{
+  "export": "exports/editorial-frame.png",
+  "method": "Native Chromium render of the same Wayback capture at deviceScaleFactor 1.5; no raster upscale of the export.",
+  "crop_css_px": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720
+  },
+  "crop_of_uncropped_capture": {
+    "file": "source/raw/wayback-replay-fullpage.png",
+    "size_px": [
+      1280,
+      2397
+    ],
+    "region_px": [
+      0,
+      0,
+      1280,
+      720
+    ]
+  },
+  "omitted_context": "Everything below CSS y=720: the remaining regional mirror lists (Canada through South America) and the page footer with the 1996 copyright line. The Wayback toolbar is excluded.",
+  "added_elements": "none",
+  "render": {
+    "url": "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/",
+    "final_url": "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/",
+    "title": "The Ultimate Collection of Winsock Software",
+    "load_error": null,
+    "wayback_toolbar_present": false,
+    "chromium": "153.0.8010.12",
+    "accessed": "2026-09-15T20:48:55+00:00",
+    "responses": [
+      [
+        200,
+        "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/"
+      ],
+      [
+        200,
+        "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+      ],
+      [
+        302,
+        "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/adds/cs_ad.gif"
+      ],
+      [
+        200,
+        "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+      ],
+      [
+        302,
+        "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/Logo.gif"
+      ],
+      [
+        200,
+        "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+      ],
+      [
+        200,
+        "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+      ],
+      [
+        200,
+        "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+      ],
+      [
+        200,
+        "https://web.archive.org/web/19961023235207im_/http://www.tucows.com/images/adds/cs_ad.gif"
+      ],
+      [
+        200,
+        "https://web.archive.org/web/19961022175627im_/http://www.tucows.com/images/Logo.gif"
+      ],
+      [
+        302,
+        "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/BACKGROUND.GIF"
+      ],
+      [
+        302,
+        "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/fast-burst.gif"
+      ],
+      [
+        302,
+        "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/blue.gif"
+      ],
+      [
+        200,
+        "https://web.archive.org/web/19961228134221im_/http://www.tucows.com/images/background.gif"
+      ],
+      [
+        200,
+        "https://web.archive.org/web/19961023235236im_/http://www.tucows.com/images/fast-burst.gif"
+      ],
+      [
+        200,
+        "https://web.archive.org/web/19961023235229im_/http://www.tucows.com/images/blue.gif"
+      ]
+    ]
+  },
+  "sha256": {
+    "exports/editorial-frame.png": "acc7ee607f6ca607b758947de42faeca2a797a0f920ff88068a1b5e630fc28a7"
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "downloads": [
+    {
+      "url": "https://web.archive.org/web/19961022175612id_/http://www.tucows.com:80/",
+      "final_url": "https://web.archive.org/web/19961022175612id_/http://www.tucows.com:80/",
+      "status": 200,
+      "path": "source/original.html",
+      "bytes": 23361,
+      "sha256": "c218864548e062f968a96fb3065b49ddf55d07ddbd43948f34a4e57e0bd357a2",
+      "accessed": "2026-09-15T20:36:27+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:36:27 GMT",
+        "Content-Type": "text/html",
+        "x-archive-orig-date": "Tue, 22 Oct 1996 17:56:12 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "memento-datetime": "Tue, 22 Oct 1996 17:56:12 GMT",
+        "link": "<http://www.tucows.com:80/>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://www.tucows.com:80/>; rel=\"timegate\", <https://web.archive.org/web/19961022175612/http://www.tucows.com:80/>; rel=\"first memento\"; datetime=\"Tue, 22 Oct 1996 17:56:12 GMT\", <https://web.archive.org/web/19961022175612/http://www.tucows.com:80/>; rel=\"memento\"; datetime=\"Tue, 22 Oct 1996 17:56:12 GMT\", <https://web.archive.org/web/19961023235110/http://www.tucows.com:80/>; rel=\"next memento\"; datetime=\"Wed, 23 Oct 1996 23:51:10 GMT\", <https://web.archive.org/web/20260905042512/http://www.tucows.com/>; rel=\"last memento\"; datetime=\"Sat, 05 Sep 2026 04:25:12 GMT\"",
+        "x-archive-src": "INA-HISTORICAL-2007-GROUP-KUR-20100812000000-00000-c/INA-HISTORICAL-EMBEDS-1996-GROUP-AAA-20100812000000-00000.arc.gz"
+      }
+    },
+    {
+      "url": "https://web.archive.org/web/19961228134206id_/http://www.tucows.com:80/",
+      "final_url": "https://web.archive.org/web/19961228134206id_/http://www.tucows.com:80/",
+      "status": 200,
+      "path": "source/raw/comparison-19961228134206.html",
+      "bytes": 5384,
+      "sha256": "600a6ee8f8c5be4bb00f0dd6dd7f80a586f8b4385bd21ba512e0c8c0dadf8642",
+      "accessed": "2026-09-15T20:36:31+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:36:31 GMT",
+        "Content-Type": "text/html",
+        "x-archive-orig-date": "Sat, 28 Dec 1996 13:41:46 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "memento-datetime": "Sat, 28 Dec 1996 13:42:06 GMT",
+        "link": "<http://www.tucows.com:80/>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://www.tucows.com:80/>; rel=\"timegate\", <https://web.archive.org/web/19961022175612/http://www.tucows.com:80/>; rel=\"first memento\"; datetime=\"Tue, 22 Oct 1996 17:56:12 GMT\", <https://web.archive.org/web/19961023235110/http://www.tucows.com:80/>; rel=\"prev memento\"; datetime=\"Wed, 23 Oct 1996 23:51:10 GMT\", <https://web.archive.org/web/19961228134206/http://www.tucows.com:80/>; rel=\"memento\"; datetime=\"Sat, 28 Dec 1996 13:42:06 GMT\", <https://web.archive.org/web/19970212181139/http://www.tucows.com:80/>; rel=\"next memento\"; datetime=\"Wed, 12 Feb 1997 18:11:39 GMT\", <https://web.archive.org/web/20260905042512/http://www.tucows.com/>; rel=\"last memento\"; datetime=\"Sat, 05 Sep 2026 04:25:12 GMT\"",
+        "x-archive-src": "INA-HISTORICAL-2007-GROUP-KUR-20100812000000-00000-c/INA-HISTORICAL-EMBEDS-1996-GROUP-AAA-20100812000000-00000.arc.gz"
+      }
+    },
+    {
+      "url": "https://web.archive.org/web/19961022175627id_/http://www.tucows.com:80/images/Logo.gif",
+      "final_url": "https://web.archive.org/web/19961022175627id_/http://www.tucows.com:80/images/Logo.gif",
+      "status": 200,
+      "path": "source/raw/Logo-19961022175627.gif",
+      "bytes": 8737,
+      "sha256": "b5ebfeaa7929f33c78f651d2c9660cb4e1fd47e1d98eab92c30624a5c8bf5601",
+      "accessed": "2026-09-15T20:36:33+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:36:33 GMT",
+        "Content-Type": "image/gif",
+        "x-archive-orig-date": "Tue, 22 Oct 1996 17:56:27 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "x-archive-orig-last-modified": "Sat, 31 Aug 1996 00:52:16 GMT",
+        "x-archive-orig-content-length": "8737",
+        "memento-datetime": "Tue, 22 Oct 1996 17:56:27 GMT",
+        "link": "<http://www.tucows.com:80/images/Logo.gif>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/images/Logo.gif>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://www.tucows.com:80/images/Logo.gif>; rel=\"timegate\", <https://web.archive.org/web/19961022175627/http://www.tucows.com:80/images/Logo.gif>; rel=\"first memento\"; datetime=\"Tue, 22 Oct 1996 17:56:27 GMT\", <https://web.archive.org/web/19961022175627/http://www.tucows.com:80/images/Logo.gif>; rel=\"memento\"; datetime=\"Tue, 22 Oct 1996 17:56:27 GMT\", <https://web.archive.org/web/19961023235152/http://www.tucows.com:80/images/Logo.gif>; rel=\"next memento\"; datetime=\"Wed, 23 Oct 1996 23:51:52 GMT\", <https://web.archive.org/web/20230421222917/https://www.tucows.com/images/logo.gif>; rel=\"last memento\"; datetime=\"Fri, 21 Apr 2023 22:29:17 GMT\"",
+        "x-archive-src": "INA-HISTORICAL-2007-GROUP-KUR-20100812000000-00000-c/INA-HISTORICAL-EMBEDS-1996-GROUP-AAA-20100812000000-00000.arc.gz"
+      }
+    },
+    {
+      "url": "https://web.archive.org/web/19961023235229id_/http://www.tucows.com:80/images/blue.gif",
+      "final_url": "https://web.archive.org/web/19961023235229id_/http://www.tucows.com:80/images/blue.gif",
+      "status": 200,
+      "path": "source/raw/blue-19961023235229.gif",
+      "bytes": 138,
+      "sha256": "f8a2de948a47606d3eb1721c9190d81e7ea79b47b9cb246e137ae4ec25bbbf84",
+      "accessed": "2026-09-15T20:36:36+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:36:36 GMT",
+        "Content-Type": "image/gif",
+        "x-archive-orig-date": "Wed, 23 Oct 1996 23:52:29 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "x-archive-orig-last-modified": "Sun, 28 Jan 1996 16:17:00 GMT",
+        "x-archive-orig-content-length": "138",
+        "memento-datetime": "Wed, 23 Oct 1996 23:52:29 GMT",
+        "link": "<http://www.tucows.com:80/images/blue.gif>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/images/blue.gif>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://www.tucows.com:80/images/blue.gif>; rel=\"timegate\", <https://web.archive.org/web/19961023235229/http://www.tucows.com:80/images/blue.gif>; rel=\"first memento\"; datetime=\"Wed, 23 Oct 1996 23:52:29 GMT\", <https://web.archive.org/web/19961023235229/http://www.tucows.com:80/images/blue.gif>; rel=\"memento\"; datetime=\"Wed, 23 Oct 1996 23:52:29 GMT\", <https://web.archive.org/web/19961228134327/http://www.tucows.com:80/images/blue.gif>; rel=\"next memento\"; datetime=\"Sat, 28 Dec 1996 13:43:27 GMT\", <https://web.archive.org/web/20130904131706/http://www.tucows.com/images/blue.gif>; rel=\"last memento\"; datetime=\"Wed, 04 Sep 2013 13:17:06 GMT\"",
+        "x-archive-src": "IA-000001-c/IA-000104.arc.gz"
+      }
+    },
+    {
+      "url": "https://web.archive.org/web/19961023235236id_/http://www.tucows.com:80/images/fast-burst.gif",
+      "final_url": "https://web.archive.org/web/19961023235236id_/http://www.tucows.com:80/images/fast-burst.gif",
+      "status": 200,
+      "path": "source/raw/fast-burst-19961023235236.gif",
+      "bytes": 143,
+      "sha256": "08f4c65b94e769126915f95f175510ad423e394bdda369e5e50727c104d470e9",
+      "accessed": "2026-09-15T20:36:38+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:36:38 GMT",
+        "Content-Type": "image/gif",
+        "x-archive-orig-date": "Wed, 23 Oct 1996 23:52:36 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "x-archive-orig-last-modified": "Thu, 04 Jan 1996 16:23:00 GMT",
+        "x-archive-orig-content-length": "143",
+        "memento-datetime": "Wed, 23 Oct 1996 23:52:36 GMT",
+        "link": "<http://www.tucows.com:80/images/fast-burst.gif>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/images/fast-burst.gif>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://www.tucows.com:80/images/fast-burst.gif>; rel=\"timegate\", <https://web.archive.org/web/19961023235236/http://www.tucows.com:80/images/fast-burst.gif>; rel=\"first memento\"; datetime=\"Wed, 23 Oct 1996 23:52:36 GMT\", <https://web.archive.org/web/19961023235236/http://www.tucows.com:80/images/fast-burst.gif>; rel=\"memento\"; datetime=\"Wed, 23 Oct 1996 23:52:36 GMT\", <https://web.archive.org/web/19961228134342/http://www.tucows.com:80/images/fast-burst.gif>; rel=\"next memento\"; datetime=\"Sat, 28 Dec 1996 13:43:42 GMT\", <https://web.archive.org/web/20130904131707/http://www.tucows.com/images/fast-burst.gif>; rel=\"last memento\"; datetime=\"Wed, 04 Sep 2013 13:17:07 GMT\"",
+        "x-archive-src": "IA-000001-c/IA-000104.arc.gz"
+      }
+    },
+    {
+      "url": "https://web.archive.org/web/19961023235207id_/http://www.tucows.com:80/images/adds/cs_ad.gif",
+      "final_url": "https://web.archive.org/web/19961023235207id_/http://www.tucows.com:80/images/adds/cs_ad.gif",
+      "status": 200,
+      "path": "source/raw/cs_ad-19961023235207.gif",
+      "bytes": 11040,
+      "sha256": "346efcf886713d2d9be3c9383925b7c376e2573583a834f74d82091d7c5373cc",
+      "accessed": "2026-09-15T20:36:41+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:36:41 GMT",
+        "Content-Type": "image/gif",
+        "x-archive-orig-date": "Wed, 23 Oct 1996 23:52:07 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "x-archive-orig-last-modified": "Wed, 21 Aug 1996 02:40:51 GMT",
+        "x-archive-orig-content-length": "11040",
+        "memento-datetime": "Wed, 23 Oct 1996 23:52:07 GMT",
+        "link": "<http://www.tucows.com:80/images/adds/cs_ad.gif>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/images/adds/cs_ad.gif>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://www.tucows.com:80/images/adds/cs_ad.gif>; rel=\"timegate\", <https://web.archive.org/web/19961023235207/http://www.tucows.com:80/images/adds/cs_ad.gif>; rel=\"first memento\"; datetime=\"Wed, 23 Oct 1996 23:52:07 GMT\", <https://web.archive.org/web/19961023235207/http://www.tucows.com:80/images/adds/cs_ad.gif>; rel=\"memento\"; datetime=\"Wed, 23 Oct 1996 23:52:07 GMT\", <https://web.archive.org/web/19961228134255/http://www.tucows.com:80/images/adds/cs_ad.gif>; rel=\"next memento\"; datetime=\"Sat, 28 Dec 1996 13:42:55 GMT\", <https://web.archive.org/web/20130904131706/http://www.tucows.com/images/adds/cs_ad.gif>; rel=\"last memento\"; datetime=\"Wed, 04 Sep 2013 13:17:06 GMT\"",
+        "x-archive-src": "IA-000001-c/IA-000104.arc.gz"
+      }
+    }
+  ],
+  "captures": {
+    "wayback-toolbar": {
+      "url": "https://web.archive.org/web/19961022175612/http://www.tucows.com:80/",
+      "final_url": "https://web.archive.org/web/19961022175612/http://www.tucows.com:80/",
+      "title": "The Ultimate Collection of Winsock Software",
+      "document_px": [
+        1280,
+        2464
+      ],
+      "viewport": [
+        1280,
+        1024
+      ],
+      "accessed": "2026-09-15T20:36:54+00:00",
+      "load_error": null,
+      "chromium": "153.0.8010.12",
+      "responses": [
+        [
+          200,
+          "https://web.archive.org/web/19961022175612/http://www.tucows.com:80/"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/athena.js"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/images/loading.gif"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/Logo.gif"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/images/web-screenshot.svg"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612/http://web.archive.org/screenshot/http://www.tucows.com/"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/fast-burst.gif"
+        ],
+        [
+          200,
+          "https://archive.org/includes/donate.php?as_page=1&platform=wb&referer=https%3A//web.archive.org/web/19961022175612/http%3A//www.tucows.com%3A80/"
+        ],
+        [
+          200,
+          "https://wayback-api.archive.org/services/context/notices?url=http%3A%2F%2Fwww.tucows.com%2F&timestamp=19961022175612"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/BACKGROUND.GIF"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/blue.gif"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/fonts/Iconochive-Regular.woff"
+        ],
+        [
+          200,
+          "https://athena.archive.org/0.gif?service=wb&server_name=wwwb-app221.us.archive.org&server_ms=331&kind=pageview&timediff=0&locale=en-US&referrer=-&loadtime=579&nav_to_done_ms=1730&iaprop_fontSize=25.6px&iaprop_devicePixelRatio=1&version=2&count=13"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/20120112120558/http://web.archive.org/screenshot/http://tucows.com/"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961022175627im_/http://www.tucows.com/images/Logo.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961228134221im_/http://www.tucows.com/images/background.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961023235229im_/http://www.tucows.com/images/blue.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961023235236im_/http://www.tucows.com/images/fast-burst.gif"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/adds/cs_ad.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961023235207im_/http://www.tucows.com/images/adds/cs_ad.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/__wb/sparkline?output=json&url=http%3A%2F%2Fwww.tucows.com%2F&collection=web&nav=19961022175612"
+        ]
+      ]
+    },
+    "wayback-replay": {
+      "url": "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/",
+      "final_url": "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/",
+      "title": "The Ultimate Collection of Winsock Software",
+      "document_px": [
+        1280,
+        2397
+      ],
+      "viewport": [
+        1280,
+        1024
+      ],
+      "accessed": "2026-09-15T20:37:02+00:00",
+      "load_error": null,
+      "chromium": "153.0.8010.12",
+      "responses": [
+        [
+          200,
+          "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/Logo.gif"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/adds/cs_ad.gif"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961023235207im_/http://www.tucows.com/images/adds/cs_ad.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961022175627im_/http://www.tucows.com/images/Logo.gif"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+        ],
+        [
+          200,
+          "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/blue.gif"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/fast-burst.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961023235229im_/http://www.tucows.com/images/blue.gif"
+        ],
+        [
+          302,
+          "https://web.archive.org/web/19961022175612im_/http://www.tucows.com/images/BACKGROUND.GIF"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961023235236im_/http://www.tucows.com/images/fast-burst.gif"
+        ],
+        [
+          200,
+          "https://web.archive.org/web/19961228134221im_/http://www.tucows.com/images/background.gif"
+        ]
+      ]
+    }
+  }
+}

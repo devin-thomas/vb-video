@@ -1,0 +1,81 @@
+{
+  "id": "HIST-17",
+  "selected": {
+    "creator": "Scott A. Swedorski / TUCOWS (per page footer \"Copyright © 1996 Scott A. Swedorski\" and \"Tucows Limited\" disclaimer)",
+    "title": "The Ultimate Collection of Winsock Software",
+    "site": "TUCOWS (www.tucows.com)",
+    "original_publication_date": "unknown; the page was live on 1996-10-22 and carries a 1996 copyright notice",
+    "archived_capture_datetime": "1996-10-22T17:56:12Z",
+    "depicted_event_date": "1996-10-22 (the state of the site on that day)",
+    "archived_url": "http://www.tucows.com:80/",
+    "snapshot_url": "https://web.archive.org/web/19961022175612/http://www.tucows.com:80/",
+    "raw_url": "https://web.archive.org/web/19961022175612id_/http://www.tucows.com:80/",
+    "wayback_arc_file": "INA-HISTORICAL-2007-GROUP-KUR-20100812000000-00000-c/INA-HISTORICAL-EMBEDS-1996-GROUP-AAA-20100812000000-00000.arc.gz",
+    "cdx_evidence": "CDX for tucows.com and www.tucows.com, 1994–1997: the earliest captures are 19961022175612 and 19961023235110 (both digest K3BPF4T62D4OHRQLGZM6XYMUT2WPZ2QS, the same page). Next is 19961228134206, a different digest with a redesigned mirror page.",
+    "access_date": "2026-09-15",
+    "identity_evidence": [
+      "The archived HTML <title> is 'The Ultimate Collection of Winsock Software', which the TUCOWS acronym stands for (spelled out on candidate B).",
+      "The page body has 'Primary TUCOWS Mirrors' and the TUCOWS logo image; the Wayback toolbar capture shows URL http://www.tucows.com/ and date OCT 22 1996.",
+      "Memento-Datetime response header: Tue, 22 Oct 1996 17:56:12 GMT."
+    ],
+    "embedded_resources_as_replayed": [
+      {"file": "images/Logo.gif", "capture": "19961022175627", "raw_copy": "source/raw/Logo-19961022175627.gif"},
+      {"file": "images/adds/cs_ad.gif", "capture": "19961023235207", "raw_copy": "source/raw/cs_ad-19961023235207.gif"},
+      {"file": "images/blue.gif", "capture": "19961023235229", "raw_copy": "source/raw/blue-19961023235229.gif"},
+      {"file": "images/fast-burst.gif", "capture": "19961023235236", "raw_copy": "source/raw/fast-burst-19961023235236.gif"},
+      {"file": "images/BACKGROUND.GIF (page request) → served images/background.gif", "capture": "19961228134221", "raw_copy": "source/raw/background-19961228134221.gif",
+       "caveat": "No 1996-10 capture exists. The tile shown is from 67 days later, under a lower-case filename, so it may differ from the tile served on 1996-10-22."}
+    ],
+    "original_dimensions": {
+      "html_bytes": 23361,
+      "uncropped_capture_toolbar": "source/raw/wayback-toolbar-fullpage.png, 1280 px wide at a 1280x1024 CSS viewport, scale 1",
+      "uncropped_capture_frameless": "source/raw/wayback-replay-fullpage.png, 1280x2397 px",
+      "note": "HTML has no inherent pixel size; its tables are 475 CSS px per cell, centred."
+    },
+    "transformations": [
+      "Raw HTML and GIFs are stored byte-for-byte as returned by Wayback id_ mode.",
+      "Captures are Chromium renders of Wayback replay mode (toolbar) and if_ mode (no toolbar).",
+      "The editorial frame is a Chromium render of if_ mode at a 1280x720 CSS viewport and device scale 1.5, giving 1920x1080. It equals the crop (0,0,1280,720) of the frame-less full-page capture; see evidence/frame.json and proofs/frame-crop-check.png.",
+      "No retouching, stretching, watermark removal, or added UI."
+    ],
+    "license": "none found",
+    "license_url": null,
+    "rights_status": "unresolved (evidence/rights.json)",
+    "credit_text": "TUCOWS home page, 22 October 1996 (© 1996 Scott A. Swedorski / TUCOWS). Archived by the Internet Archive Wayback Machine: web.archive.org/web/19961022175612/http://www.tucows.com/ — proposed, pending rights decision"
+  },
+  "search": {
+    "queries": [
+      "CDX url=tucows.com and url=www.tucows.com, from=1994 to=1997",
+      "CDX url=www.tucows.com/images/* (per-file) 1996–1997",
+      "CDX url=tucows.idirect.com/* 1996 text/html",
+      "CDX url=tucows.phoenix.net/* 1996 text/html",
+      "CDX url=tucows.idirect.com/images/* (per-file) 1996–1997"
+    ],
+    "earliest_www_tucows_com_capture": "19961022175612 (nothing earlier in CDX)"
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "name": "A — www.tucows.com, 1996-10-22 (selected)",
+      "snapshot_url": "https://web.archive.org/web/19961022175612/http://www.tucows.com:80/",
+      "strengths": "The earliest archived TUCOWS home page on its own domain, with the logo, name, 1996 date and copyright notice. It matches the ticket title directly.",
+      "deficiencies": "This is the mirror-selection front page, not a list of software downloads, so it shows TUCOWS but not a file download. The background tile comes from a later capture."
+    },
+    {
+      "rank": 2,
+      "name": "B — tucows.idirect.com mirror, 1996-12-30",
+      "snapshot_url": "https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/",
+      "files": "source/candidates/B-idirect-19961230/",
+      "strengths": "Says 'The UDDERLY INCREDIBLE SHAREWARE CENTER' and 'Software Listings for: Windows 95 | Windows 3.x | Macintosh', which makes a stronger shareware read. All embedded images were captured within about 3 minutes of the page.",
+      "deficiencies": "A mirror host, not www.tucows.com. It has no copyright footer, carries two third-party banner ads (WinZip, SimpleNet) and a ConnectSoft ad, and leaves the right half of a 1280 px viewport empty, so a 16:9 frame would need pillarboxing."
+    },
+    {
+      "rank": 3,
+      "name": "C — tucows.phoenix.net mirror 'Windows 95 New Software' archive, 1996-11-17",
+      "snapshot_url": "https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html",
+      "files": "source/candidates/C-phoenix-win95oct96-19961117/",
+      "strengths": "A text changelog of software additions (e.g. 'Linkbot 2.0 Beta 11 to Browser Add-Ons').",
+      "deficiencies": "Dense text with no download list, file sizes or cow ratings. The footer names a different rights holder, 'ComputerLink OnLine Inc.' The page is 7477 px tall, so framing is poor."
+    }
+  ]
+}

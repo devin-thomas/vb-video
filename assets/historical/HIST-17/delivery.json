@@ -1,0 +1,370 @@
+{
+  "id": "HIST-17",
+  "title": "TUCOWS archived site circa 1996",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical original: Wayback Machine capture of http://www.tucows.com/ dated 1996-10-22 17:56:12 GMT, with a derivative 16:9 editorial crop",
+  "shared_version": "not_applicable (archival capture; no shared template used)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/acquisition-log.json",
+      "role": "evidence / QA",
+      "bytes": 18129,
+      "sha256": "b947a2796114132161f0924505016bf51e62d70aabd3d81fc0e6abb3105bb811"
+    },
+    {
+      "path": "evidence/candidates-log.json",
+      "role": "evidence / QA",
+      "bytes": 29819,
+      "sha256": "21ee62255f7290384100a9ba012ad35cdc78f6fcd79c499d4220146e5c1b72db"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3473,
+      "sha256": "8ef7f80ef62cf2354c49495bc108c690477605371f68918b9d66051b2281b40f"
+    },
+    {
+      "path": "evidence/frame.json",
+      "role": "evidence / QA",
+      "bytes": 3256,
+      "sha256": "5a2d62961ff4f870dcd6134a1e494d207f01a7d7808858ea734d788cdb18faa0"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2585,
+      "sha256": "a6b793e455503358db634bfc75c4fbda0647c0b2445ab4448ea174e4452c2c3a"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3310,
+      "sha256": "325cd58e37f5f35b94d19fb0118750473eb4f21faaad0064fdaf9e7f2a4de3cd"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3455,
+      "sha256": "5b2c444959d7edff3c84934c19f675e70cea93273ac9a2ce71971ffc77637f3c"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6137,
+      "sha256": "8ebfdb21779a12d005ed78c51e22c86d6081b80abe0feb7fbf9d430a3984cae3"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "derivative crop (editorial frame)",
+      "bytes": 733908,
+      "sha256": "acc7ee607f6ca607b758947de42faeca2a797a0f920ff88068a1b5e630fc28a7"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "evidence / QA proof",
+      "bytes": 492543,
+      "sha256": "0e921f40aa523683a0145fd1852b86c4ebab29f0f786c18966eddf1ead0850c5"
+    },
+    {
+      "path": "proofs/frame-crop-check.png",
+      "role": "evidence / QA proof",
+      "bytes": 1042974,
+      "sha256": "e74fcb5f34a20ac1662e963574bf6709d110d432768bf4273ab606affd96b6a0"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6528,
+      "sha256": "5ba602fbf5eca6955143b2279a68cec987e53370dd014b2a0389333666869fd7"
+    },
+    {
+      "path": "source/candidates/B-idirect-19961230/original.html",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 4640,
+      "sha256": "f28608bdc246c0ae021b72d2a4f66758618db29a6d48c2cd4a900f3ff89a68fc"
+    },
+    {
+      "path": "source/candidates/B-idirect-19961230/wayback-replay-fullpage.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 1394173,
+      "sha256": "1e2796039364ff8376ee632db9b68df0e12fd1cc025a7d8159f6611b0fa3ebd8"
+    },
+    {
+      "path": "source/candidates/B-idirect-19961230/wayback-replay-viewport.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 1394031,
+      "sha256": "1fee32f78c85ea3983b78706d49756afb54b920fda4085813345401984c325f9"
+    },
+    {
+      "path": "source/candidates/B-idirect-19961230/wayback-toolbar-fullpage.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 1318954,
+      "sha256": "cafb744b7329ce0c15a30574cb59c958a0d8bb5c94f1dd2e96c828a445a4ee0a"
+    },
+    {
+      "path": "source/candidates/B-idirect-19961230/wayback-toolbar-viewport.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 1318109,
+      "sha256": "1452ad980fdfcbc9bb79b1edb89533f5a35615208799aac9656103d9f592da5c"
+    },
+    {
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/original.html",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 59889,
+      "sha256": "a4dd1cd91a9d2e5c23a1b06259578158b5f65f01face7fcb647bb6003d0b761b"
+    },
+    {
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/wayback-replay-fullpage.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 5922730,
+      "sha256": "0503a1df54da1c3add2f45b5e6f35c51c86f84330ae8ea8e5ff0c1e8a1457928"
+    },
+    {
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/wayback-replay-viewport.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 866877,
+      "sha256": "ec0cbc9796d53db50a47de59161423c5dc31ebcdc597e656e26d5e04b480ef46"
+    },
+    {
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/wayback-toolbar-fullpage.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 5969057,
+      "sha256": "8aee606d6c8106654ff3e4723c238142e34c830c90b6c8dea20b48e761ce6c42"
+    },
+    {
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/wayback-toolbar-viewport.png",
+      "role": "alternate candidate (raw HTML / capture)",
+      "bytes": 837106,
+      "sha256": "675bcd932635f9cf6cf5b55135ff30d0989e2ed96610ec1de480f2a72f1b8468"
+    },
+    {
+      "path": "source/original.html",
+      "role": "historical original (archived HTML, id_ raw bytes)",
+      "bytes": 23361,
+      "sha256": "c218864548e062f968a96fb3065b49ddf55d07ddbd43948f34a4e57e0bd357a2"
+    },
+    {
+      "path": "source/raw/background-19961228134221.gif",
+      "role": "archived original component",
+      "bytes": 7186,
+      "sha256": "20406ffc0c783c9843cf801eacede4e0745f57b3abd8a5a7faf73afbfe4a6361"
+    },
+    {
+      "path": "source/raw/background-19961228134221.headers.txt",
+      "role": "archived original component",
+      "bytes": 1611,
+      "sha256": "8519ce27f477a1b895cd0ba3a9eb4588a3c8f04283edac54d5689c496e5485cc"
+    },
+    {
+      "path": "source/raw/blue-19961023235229.gif",
+      "role": "archived original component",
+      "bytes": 138,
+      "sha256": "f8a2de948a47606d3eb1721c9190d81e7ea79b47b9cb246e137ae4ec25bbbf84"
+    },
+    {
+      "path": "source/raw/comparison-19961228134206.html",
+      "role": "archived original component",
+      "bytes": 5384,
+      "sha256": "600a6ee8f8c5be4bb00f0dd6dd7f80a586f8b4385bd21ba512e0c8c0dadf8642"
+    },
+    {
+      "path": "source/raw/cs_ad-19961023235207.gif",
+      "role": "archived original component",
+      "bytes": 11040,
+      "sha256": "346efcf886713d2d9be3c9383925b7c376e2573583a834f74d82091d7c5373cc"
+    },
+    {
+      "path": "source/raw/fast-burst-19961023235236.gif",
+      "role": "archived original component",
+      "bytes": 143,
+      "sha256": "08f4c65b94e769126915f95f175510ad423e394bdda369e5e50727c104d470e9"
+    },
+    {
+      "path": "source/raw/Logo-19961022175627.gif",
+      "role": "archived original component",
+      "bytes": 8737,
+      "sha256": "b5ebfeaa7929f33c78f651d2c9660cb4e1fd47e1d98eab92c30624a5c8bf5601"
+    },
+    {
+      "path": "source/raw/wayback-replay-fullpage.png",
+      "role": "uncropped capture (evidence)",
+      "bytes": 735698,
+      "sha256": "0723b56e5a8bf34af4227f63a3aa170898ca46d590004a6e10feb28b95cecd48"
+    },
+    {
+      "path": "source/raw/wayback-replay-viewport.png",
+      "role": "uncropped capture (evidence)",
+      "bytes": 327176,
+      "sha256": "8706b471f1945674531eed430dda6a0fefa06a0d05aecf5e2a0a92daa6d60e60"
+    },
+    {
+      "path": "source/raw/wayback-toolbar-fullpage.png",
+      "role": "uncropped capture (evidence)",
+      "bytes": 765982,
+      "sha256": "9aa96e35c690f70222882e0ea42238aebec1a7914dc28fb91346b7b4fae28242"
+    },
+    {
+      "path": "source/raw/wayback-toolbar-viewport.png",
+      "role": "uncropped capture (evidence)",
+      "bytes": 337810,
+      "sha256": "eb4faf0ad24f914a6106f7730bd2bf9ddc3fe7536acb9ef047fbbc680e7df4f4"
+    },
+    {
+      "path": "src/acquire.py",
+      "role": "reproduction script",
+      "bytes": 5177,
+      "sha256": "7ef111d55a3d6a92687a0a37e59f436d1726070d2c8d694407e877f9d526227d"
+    },
+    {
+      "path": "src/acquire_candidates.py",
+      "role": "reproduction script",
+      "bytes": 3236,
+      "sha256": "b9e38addf19cf256b2787c9e22962ffe478d541d2f19b9da1e5979b73ed9da0c"
+    },
+    {
+      "path": "src/build_frame.py",
+      "role": "reproduction script",
+      "bytes": 4460,
+      "sha256": "2290a4d1696593299e68daacf198005f2306764248d9b0961ae88feee4d4dd6c"
+    },
+    {
+      "path": "src/finish.py",
+      "role": "reproduction script",
+      "bytes": 8193,
+      "sha256": "715ec04b09cc2f769a24b82ee2ad959329019294f948e6eeaf0662635dccd05a"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.html",
+        "source/raw/wayback-toolbar-fullpage.png",
+        "source/raw/wayback-replay-fullpage.png"
+      ],
+      "note": "Raw archived HTML plus uncropped Chromium captures: one with the Wayback toolbar (date and URL visible), one frame-less."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "crop_css_px": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720
+      },
+      "note": "Top 1280x720 CSS px of the frame-less replay, rendered at 1.5x device scale. Editorial hold; no timing is set here."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        100,
+        100
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        595,
+        597
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.html",
+      "url": "https://web.archive.org/web/19961022175612/http://www.tucows.com:80/",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop"
+    },
+    {
+      "path": "source/candidates/B-idirect-19961230/original.html",
+      "url": "https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/",
+      "relationship": "historical original (alternate candidate)"
+    },
+    {
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/original.html",
+      "url": "https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html",
+      "relationship": "historical original (alternate candidate)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical web page",
+      "credit": "TUCOWS home page, 22 October 1996 (© 1996 Scott A. Swedorski / TUCOWS)",
+      "status": "proposed; rights unresolved (evidence/rights.json)"
+    },
+    {
+      "type": "archive",
+      "credit": "Internet Archive Wayback Machine, capture 19961022175612",
+      "status": "access for scholarship and research under IA terms; not a reuse licence"
+    }
+  ],
+  "tests": [
+    {
+      "test": "tools/validate_delivery.py --id HIST-17",
+      "result": "see qa.md for the recorded run"
+    },
+    {
+      "test": "identity and date from the archived bytes",
+      "result": "passed: Memento-Datetime Tue, 22 Oct 1996 17:56:12 GMT; <title>The Ultimate Collection of Winsock Software</title>; footer Copyright © 1996 Scott A. Swedorski"
+    },
+    {
+      "test": "editorial frame has no Wayback UI",
+      "result": "passed: wm-ipp toolbar element absent in the if_ replay; confirmed visually"
+    },
+    {
+      "test": "crop matches uncropped capture",
+      "evidence": "proofs/frame-crop-check.png",
+      "result": "passed: visual comparison with exports/editorial-frame.png shows the same region and layout"
+    },
+    {
+      "test": "manual visual review",
+      "result": "Viewed exports/editorial-frame.png at 1920x1080 and proofs/editorial-frame-720.png at 1280x720; logo, headline, banner and mirror rows are legible at 720p. See qa.md."
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "chromium": "153.0.8010.12",
+    "packages": {
+      "playwright": "1.63.0",
+      "Pillow": "12.3.0"
+    },
+    "git": "git version 2.53.0.windows.1",
+    "network_used": true,
+    "network_hosts": [
+      "web.archive.org",
+      "web-static.archive.org",
+      "athena.archive.org (Wayback analytics beacon loaded by the toolbar page)"
+    ],
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Rendered in a 2026 Chromium, not a 1996 browser. Arial (named by the page's CSS) is used from Windows 11, so fonts, table borders and anti-aliasing differ from Netscape Navigator 3 or IE3 in 1996.",
+    "The Wayback replay draws each image from its nearest capture. The page is 1996-10-22. Logo.gif is 1996-10-22. blue.gif, fast-burst.gif and cs_ad.gif are 1996-10-23. The background tile is 1996-12-28 (background.gif; the page asks for BACKGROUND.GIF). See evidence/acquisition-log.json.",
+    "The editorial frame omits the regional mirror lists below the Canada heading and the copyright footer; the Wayback toolbar is excluded.",
+    "Alternate candidates B (idirect mirror, 1996-12-30) and C (phoenix mirror, 1996-11-17) are preserved with deficiencies recorded in evidence/source.json.",
+    "Produced is not release approval. R14 rights review is open."
+  ]
+}
