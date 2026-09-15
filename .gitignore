@@ -4,3 +4,7 @@ obj/
 *.suo
 .vs/
 *.zip
+__pycache__/
+*.pyc
+.DS_Store
+assets/*/*/work/

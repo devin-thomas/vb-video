@@ -1,0 +1,28 @@
+{
+  "tickets": 134,
+  "production_status": {
+    "produced": 80,
+    "in_progress": 7,
+    "planned": 47
+  },
+  "release_status": {
+    "blocked": 82,
+    "unreviewed": 44,
+    "approved": 8
+  },
+  "produced_by_family": {
+    "diagrams": 10,
+    "cards": 2,
+    "chapters": 16,
+    "code": 25,
+    "comparisons": 8,
+    "facts": 6,
+    "mockups": 2,
+    "reference-code": 2,
+    "captures": 7,
+    "ops": 2
+  },
+  "gallery_assets": 78,
+  "mp4_files": 60,
+  "issues_recorded": 0
+}

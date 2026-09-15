@@ -1,0 +1,229 @@
+{
+  "id": "CMP-04",
+  "title": "Counting backward: decrement versus Step -1",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 505,
+      "sha256": "9eb49f768d3475672587667eecedcf4164506d2ec03c1aec88ead83fe32ed825"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 897,
+      "sha256": "99887eb53fe58ab16e7edf5d910d30661efea86f1eb4fc7d630219e4e94a688a"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 148,
+      "sha256": "00b850bae92bfc0478633c04a7ffd82180b3a58c8a9004db541910e4497da2c1"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1158,
+      "sha256": "630fe09fc749368afb3caa11a63830c0b247203a02e07a451d1af6a633bd5108"
+    },
+    {
+      "path": "exports/comparison.png",
+      "role": "rendered still",
+      "bytes": 43321,
+      "sha256": "653b105599ff8946ea263472adefea7b1dba9a5856ba0714cee84c3d90b7ca5c"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 34465,
+      "sha256": "743257006e3d6a2b03b67597e37a4c444d3f712f0875d70b916c607464c3c606"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 43321,
+      "sha256": "653b105599ff8946ea263472adefea7b1dba9a5856ba0714cee84c3d90b7ca5c"
+    },
+    {
+      "path": "exports/token-focus.png",
+      "role": "rendered still",
+      "bytes": 43848,
+      "sha256": "cb936a69a8b4f6a847f9e71a15ae82b01baaaa7a3095abc752493a0a8e4e7fd8"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 11220,
+      "sha256": "38ee7985967bfc62447524721bf9fcf6e781f0d2443e8192e6d86add7904f6c0"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 49974,
+      "sha256": "d9040d61817f21abef5bcc400c3b2ae9eec53db65d7756d749b311b8ac03aefe"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2338,
+      "sha256": "17f9b8b3d5136e70807a45b61690acb5ccfc50eccbbd96290479108e3606c3a6"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1406,
+      "sha256": "4b485ed8b0afface35275b647f14677f6d88757ad2c623574c73bd85dc71fa49"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 970,
+      "sha256": "4760c68c56baa8328586b849c2ff361f0fbbc6ba05c43aef80c036bf759518f2"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 9799,
+      "sha256": "3791a8f51fd365d583271c04be4c1303654893c4e335f461a93c4c4e17b42666"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 7196,
+      "sha256": "8835601b891cea2fef6f75dc2f81285defea18a294e5ee5537e4c87d3ffe4422"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 7196,
+      "sha256": "8835601b891cea2fef6f75dc2f81285defea18a294e5ee5537e4c87d3ffe4422"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 530,
+      "sha256": "7cccc859fa779cc3059230e618565be30cc7ebdecde0b07980668a36b5f9d32e"
+    },
+    {
+      "path": "src/variant-comparison.svg",
+      "role": "editable source",
+      "bytes": 7196,
+      "sha256": "8835601b891cea2fef6f75dc2f81285defea18a294e5ee5537e4c87d3ffe4422"
+    },
+    {
+      "path": "src/variant-token-focus.svg",
+      "role": "editable source",
+      "bytes": 7358,
+      "sha256": "cc6f32b8e08b620f59f8e0f2aaccbbfaedde5be3974e99fcd07621fae0cd09d9"
+    }
+  ],
+  "variants": [
+    {
+      "name": "comparison",
+      "files": [
+        "exports/comparison.png",
+        "src/variant-comparison.svg"
+      ]
+    },
+    {
+      "name": "token-focus",
+      "files": [
+        "exports/token-focus.png",
+        "src/variant-token-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        38,
+        38
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        290,
+        303
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "The C# side is proposed from the narrated contrast; use exactly 51 down through 1, not down to 0.",
+    "No compile/run is claimed for illustrative counterparts.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

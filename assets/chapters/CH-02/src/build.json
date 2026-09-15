@@ -1,0 +1,55 @@
+{
+  "id": "CH-02",
+  "duration": 4,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.2,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3.9,
+      "file": "scene-0001.svg"
+    }
+  ],
+  "variants": {
+    "chapter-hold": "variant-chapter-hold.svg",
+    "chapter-motion": "variant-chapter-motion.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        36,
+        36
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        19,
+        19
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        61,
+        61
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "motion"
+}

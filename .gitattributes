@@ -1,6 +1,6 @@
 # Capture evidence is hash-locked in delivery.json and harness-manifest.json: store it byte-for-byte.
-build-pack/VB_Asset_Delivery/sources/** -text
-build-pack/VB_Asset_Delivery/work/war-harness/** -text
-build-pack/VB_Asset_Delivery/assets/OPS-02/** -text
-build-pack/VB_Asset_Delivery/assets/TERM-0[1-6]/** -text
-build-pack/VB_Asset_Delivery/assets/XTRA-06/** -text
+sources/** -text
+tools/war-harness/** -text
+assets/ops/OPS-02/** -text
+assets/captures/TERM-0[1-6]/** -text
+assets/captures/XTRA-06/** -text

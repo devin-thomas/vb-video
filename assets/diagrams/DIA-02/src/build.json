@@ -1,0 +1,376 @@
+{
+  "id": "DIA-02",
+  "duration": 28,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 1,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 4.096154,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 4.192308,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 4.288462,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 4.384615,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 4.480769,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 4.576923,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 4.673077,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 4.769231,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 4.865385,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 4.961538,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 5.057692,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 5.153846,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 5.25,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 5.346154,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 5.442308,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 5.538462,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 5.634615,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 5.730769,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 5.826923,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 5.923077,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 6.019231,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 6.115385,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 6.211538,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 6.307692,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 6.403846,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 6.5,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 6.596154,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 6.692308,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 6.788462,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 6.884615,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 6.980769,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 7.076923,
+      "file": "scene-0033.svg"
+    },
+    {
+      "time": 7.173077,
+      "file": "scene-0034.svg"
+    },
+    {
+      "time": 7.269231,
+      "file": "scene-0035.svg"
+    },
+    {
+      "time": 7.365385,
+      "file": "scene-0036.svg"
+    },
+    {
+      "time": 7.461538,
+      "file": "scene-0037.svg"
+    },
+    {
+      "time": 7.557692,
+      "file": "scene-0038.svg"
+    },
+    {
+      "time": 7.653846,
+      "file": "scene-0039.svg"
+    },
+    {
+      "time": 7.75,
+      "file": "scene-0040.svg"
+    },
+    {
+      "time": 7.846154,
+      "file": "scene-0041.svg"
+    },
+    {
+      "time": 7.942308,
+      "file": "scene-0042.svg"
+    },
+    {
+      "time": 8.038462,
+      "file": "scene-0043.svg"
+    },
+    {
+      "time": 8.134615,
+      "file": "scene-0044.svg"
+    },
+    {
+      "time": 8.230769,
+      "file": "scene-0045.svg"
+    },
+    {
+      "time": 8.326923,
+      "file": "scene-0046.svg"
+    },
+    {
+      "time": 8.423077,
+      "file": "scene-0047.svg"
+    },
+    {
+      "time": 8.519231,
+      "file": "scene-0048.svg"
+    },
+    {
+      "time": 8.615385,
+      "file": "scene-0049.svg"
+    },
+    {
+      "time": 8.711538,
+      "file": "scene-0050.svg"
+    },
+    {
+      "time": 8.807692,
+      "file": "scene-0051.svg"
+    },
+    {
+      "time": 8.903846,
+      "file": "scene-0052.svg"
+    },
+    {
+      "time": 9.0,
+      "file": "scene-0053.svg"
+    },
+    {
+      "time": 10,
+      "file": "scene-0054.svg"
+    },
+    {
+      "time": 11,
+      "file": "scene-0055.svg"
+    },
+    {
+      "time": 14,
+      "file": "scene-0056.svg"
+    },
+    {
+      "time": 16,
+      "file": "scene-0057.svg"
+    },
+    {
+      "time": 17,
+      "file": "scene-0058.svg"
+    },
+    {
+      "time": 19,
+      "file": "scene-0059.svg"
+    },
+    {
+      "time": 22,
+      "file": "scene-0060.svg"
+    },
+    {
+      "time": 24.0,
+      "file": "scene-0061.svg"
+    },
+    {
+      "time": 24.18,
+      "file": "scene-0062.svg"
+    },
+    {
+      "time": 24.36,
+      "file": "scene-0063.svg"
+    },
+    {
+      "time": 24.54,
+      "file": "scene-0064.svg"
+    },
+    {
+      "time": 24.72,
+      "file": "scene-0065.svg"
+    },
+    {
+      "time": 24.9,
+      "file": "scene-0066.svg"
+    },
+    {
+      "time": 25.08,
+      "file": "scene-0067.svg"
+    },
+    {
+      "time": 25.26,
+      "file": "scene-0068.svg"
+    },
+    {
+      "time": 25.44,
+      "file": "scene-0069.svg"
+    },
+    {
+      "time": 25.62,
+      "file": "scene-0070.svg"
+    },
+    {
+      "time": 26,
+      "file": "scene-0071.svg"
+    }
+  ],
+  "variants": {
+    "full-rules": "variant-full-rules.svg",
+    "alternating-deal": "variant-alternating-deal.svg",
+    "normal-round": "variant-normal-round.svg",
+    "single-war": "variant-single-war.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {
+    "full-rules": [
+      0,
+      28
+    ],
+    "alternating-deal": [
+      3,
+      10
+    ],
+    "normal-round": [
+      10,
+      16
+    ],
+    "single-war": [
+      16,
+      28
+    ]
+  },
+  "notes": [
+    "Shuffle is an abstraction; dealing is alternating, one card at a time, with 52 counted transfers.",
+    "Normal-round and single-war scenes reset to independent supplied fixtures.",
+    "All count states conserve 52; the win-all-52 closing caption is a rule, not an alleged conclusion of the short example."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        17,
+        17
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        170,
+        194
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        399,
+        401
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        136,
+        152
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        234,
+        268
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "kind": "motion"
+}

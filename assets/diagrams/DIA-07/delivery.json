@@ -1,0 +1,574 @@
+{
+  "id": "DIA-07",
+  "title": "BuildDeck nested loops: 4 suits × 13 ranks",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 18,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 507,
+      "sha256": "1bde03b028119ff8b981239f710455314a278dba4041f7c7c89b75de084f18f4"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1133,
+      "sha256": "e2fa0018fc9a46a6d2f8b35c3638a9640626db3b1b18d3722b6cdc6d58e71b69"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 972,
+      "sha256": "3256eae1563d23364e2a4881611812f458e766572355cde8a45106fd4f305e3e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3218,
+      "sha256": "b5ab6ee0db29ea940579e1fa7acc68d0287b511072fc393c9ff08ccede161cf1"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 134527,
+      "sha256": "b9f755083aef0bf3a598ea7adffe3cfc2149369a45616c748256e4c70fb5b93f"
+    },
+    {
+      "path": "exports/first-rank-closeup.png",
+      "role": "rendered still",
+      "bytes": 56316,
+      "sha256": "21116a681fa17e6aad3910fde93305a54d0c6bdad324a63a489d156220ee2fd4"
+    },
+    {
+      "path": "exports/full-grid.png",
+      "role": "rendered still",
+      "bytes": 113275,
+      "sha256": "08b4afe59efaa2726bff1f7fa801418827ced38c57abf22802d16d25bcaffc1a"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 113275,
+      "sha256": "08b4afe59efaa2726bff1f7fa801418827ced38c57abf22802d16d25bcaffc1a"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 87824,
+      "sha256": "efae0028eb8d17abe41f311a4adaf652f9532c180413814c2faa9f373d2e5073"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 82933,
+      "sha256": "e67050d66671d006d8e87d7a680564063f2000c5f07cde87cfac8a19b77813cd"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 113275,
+      "sha256": "08b4afe59efaa2726bff1f7fa801418827ced38c57abf22802d16d25bcaffc1a"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 292868,
+      "sha256": "bb88ddc9b12baf24074598992b0102c2e475f81ed46239cd573f2e220f817c65"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 27108,
+      "sha256": "f01e3f22a92ceac5ec71e35e1249e77533887a4bf4e2b364beed1773f8da0e5d"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 141558,
+      "sha256": "d751a36d6b761c29f6722c55d26991f12cfa96020e05f3f4666c6fd2c9da7cc2"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2342,
+      "sha256": "a451a5e52c48bcc8b12f9c9bec6a59c7b65baf7977c31413f9be4acb10b6e542"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1356,
+      "sha256": "53b25c636c8e8f71fd6971da02ea249448a2802451437f5e69eec03264a63e90"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 4736,
+      "sha256": "a58f7e01b34e01dac33995f775393521da31b75b5029f96350bdee25c41e54c4"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 1213430,
+      "sha256": "69edb03aa204ee338d8d1f86471311fd13e97cc5e932e9b7e9b301e1475c917c"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 16010,
+      "sha256": "5ffe86a06c62322831fcc1121b24cafbb25c4efef505924bbb2ac7fe3d01ed5b"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 16180,
+      "sha256": "58a69b2fffa0690dc82f7f74638870c22eae29a63948eb988c1939784b9ed51b"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 16350,
+      "sha256": "f4f9d0b2aae2664dca66d12f4ac62ec00813e5748e75dda6c2e262016a6364ee"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 16520,
+      "sha256": "06e3a5f8e6412009f801aac3102d9fce7d059a2140de6cdf5fa9ea7ae92d79a5"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 16690,
+      "sha256": "3b017625297da56cf610a29d5fea94788f7db1995f6084cec56ce6fee50eb776"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 16860,
+      "sha256": "19343427c056fcde01891f8ccb97b03fa3eee29ebf083ff5ca9585ca9e6848a0"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 17030,
+      "sha256": "2e38b0ebf6f007e2db8db166cb389ca50a95098ea2b763e4a40d1e8f6ee91eb8"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 17200,
+      "sha256": "109284b937388f9b2219bad5186fc045b04aae032dbc15cd8f7a22acb0ba6901"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 17370,
+      "sha256": "77b9d118d3fd481b0a7c76a9867c369d58259f1269d34f16f80467cf82634440"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 17540,
+      "sha256": "0a2c38816a03fd5d9411b4961a056a1e6c4826dda4c9576c98d544d214080304"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 17711,
+      "sha256": "4a740b424bca6043a3513a73ad84f798f4f63f9930c9fd055ee960f367064e20"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 17882,
+      "sha256": "b2356ac32e6b7fc90480b94f147689cad78c11572e9c22e2ea5de0dcc2cd8f5c"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 18053,
+      "sha256": "5aa11a4d2aa2795b0129ec44917b9536c80d5f17b6bbdb3edc5f25602a0c52c0"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 18224,
+      "sha256": "a29de417c637f587fb8cf1a2d896643c7b922d5f399aa64b1b65cb494e9525c1"
+    },
+    {
+      "path": "src/scene-0014.svg",
+      "role": "editable source",
+      "bytes": 18395,
+      "sha256": "5bd39c4f6149270909aec257d40b5f4cfc639f40304e8fb4d35fea40877245fe"
+    },
+    {
+      "path": "src/scene-0015.svg",
+      "role": "editable source",
+      "bytes": 18566,
+      "sha256": "d6e5ae6780acbf6316a4aeb5a126a8e66abc46987439cb2595e93163adddb063"
+    },
+    {
+      "path": "src/scene-0016.svg",
+      "role": "editable source",
+      "bytes": 18737,
+      "sha256": "1bcd573afecf3988d4b62258ac16d1f853d84376f259260febcdace8f3b55275"
+    },
+    {
+      "path": "src/scene-0017.svg",
+      "role": "editable source",
+      "bytes": 18908,
+      "sha256": "e84a85d239ce2dd9d0379a7466e790c1b288892d6bcc0eb3fa0448afba8e5e1d"
+    },
+    {
+      "path": "src/scene-0018.svg",
+      "role": "editable source",
+      "bytes": 19079,
+      "sha256": "3791bf84b6064244379e2fdadabfa2ed23ec28a5a9965d81c9d26df9d4b861f8"
+    },
+    {
+      "path": "src/scene-0019.svg",
+      "role": "editable source",
+      "bytes": 19250,
+      "sha256": "fd66be8036b7d2f3f55c9bb97388dff0c2f64b3bb091723c3b445607d621f65b"
+    },
+    {
+      "path": "src/scene-0020.svg",
+      "role": "editable source",
+      "bytes": 19421,
+      "sha256": "1a0c0408d965c9e4db4565c458bee895aa268c7c00e3ab9134826c77f95dfd80"
+    },
+    {
+      "path": "src/scene-0021.svg",
+      "role": "editable source",
+      "bytes": 19592,
+      "sha256": "60f0a6855099012d0f70555f1b71719fa5f4addc8a00c11ab5e76ff296bdfc5a"
+    },
+    {
+      "path": "src/scene-0022.svg",
+      "role": "editable source",
+      "bytes": 19763,
+      "sha256": "e320b1d62dcb10553040945860a07db62c71d3a551ff765c7a46a5fa1bce0b87"
+    },
+    {
+      "path": "src/scene-0023.svg",
+      "role": "editable source",
+      "bytes": 19934,
+      "sha256": "2efe73addadc0265c3bef86721c9f6b14d05d0f4b7c23a54f00c88078f933ef6"
+    },
+    {
+      "path": "src/scene-0024.svg",
+      "role": "editable source",
+      "bytes": 20105,
+      "sha256": "dbdf42992d19779366b4594bc64e9f99e2b5b26c4834ad39f2d155991e27e7da"
+    },
+    {
+      "path": "src/scene-0025.svg",
+      "role": "editable source",
+      "bytes": 20276,
+      "sha256": "2686179f886047f650a8fc256859912da5c858c26075ab700e0de6ea1ce789a5"
+    },
+    {
+      "path": "src/scene-0026.svg",
+      "role": "editable source",
+      "bytes": 20447,
+      "sha256": "37f64fc3576d3b08df91ac82c33f3499304d346f2be75c9ce7ed265eb3e467b8"
+    },
+    {
+      "path": "src/scene-0027.svg",
+      "role": "editable source",
+      "bytes": 20618,
+      "sha256": "7ee889cce1bf8bb72aeb40aedf5fb5c573e4f8472fa1d462604b9bead222171c"
+    },
+    {
+      "path": "src/scene-0028.svg",
+      "role": "editable source",
+      "bytes": 20789,
+      "sha256": "6dfa0121cf064bf20a73fb9afff1dc275e22ab68050c39cf5d828012274e4ed5"
+    },
+    {
+      "path": "src/scene-0029.svg",
+      "role": "editable source",
+      "bytes": 20960,
+      "sha256": "167f2d016b775e6fc8dc6a3edb2336042ca99fb363a4836ddcfe50117c89a221"
+    },
+    {
+      "path": "src/scene-0030.svg",
+      "role": "editable source",
+      "bytes": 21131,
+      "sha256": "95b3a444962d7f3d3d1d9f588f16133046c4f25e79113b9daadde2a49acf8434"
+    },
+    {
+      "path": "src/scene-0031.svg",
+      "role": "editable source",
+      "bytes": 21302,
+      "sha256": "ddcd6564fa957c9be49a57a4f094a53e0226947c78e69358304e3800a47c2ae1"
+    },
+    {
+      "path": "src/scene-0032.svg",
+      "role": "editable source",
+      "bytes": 21474,
+      "sha256": "c0229e5aae0b1cbf71ae676052204180da7abf5019b9bac7af6dff7281dd3640"
+    },
+    {
+      "path": "src/scene-0033.svg",
+      "role": "editable source",
+      "bytes": 21645,
+      "sha256": "aedfe93c4fd072503ba3d92e2f5ea68e6e5680888edbf8d1e93cb90576399f83"
+    },
+    {
+      "path": "src/scene-0034.svg",
+      "role": "editable source",
+      "bytes": 21816,
+      "sha256": "548d07cab001898e8a1433cbba3bd1b7bc3e50186b304bf445758a47e6380346"
+    },
+    {
+      "path": "src/scene-0035.svg",
+      "role": "editable source",
+      "bytes": 21987,
+      "sha256": "f299c8f67489a94c43d57122f80e1859a6c46247980e6abc16e00a06e46cf1fe"
+    },
+    {
+      "path": "src/scene-0036.svg",
+      "role": "editable source",
+      "bytes": 22158,
+      "sha256": "9e75e419a83a91a06ee7266b264e83c5701607f5f3a8f2d066da9c9630ed8821"
+    },
+    {
+      "path": "src/scene-0037.svg",
+      "role": "editable source",
+      "bytes": 22329,
+      "sha256": "0b4b4995cf72a7b78d728c47b429b68b3f1ac32a13fdd5b63961e909bf1fc236"
+    },
+    {
+      "path": "src/scene-0038.svg",
+      "role": "editable source",
+      "bytes": 22500,
+      "sha256": "be6d0783124a1169710e430bec6498615e2f2b1a7572a4c32a91e8274dbcf423"
+    },
+    {
+      "path": "src/scene-0039.svg",
+      "role": "editable source",
+      "bytes": 22671,
+      "sha256": "76c010066016005dc3e9facbb24753f51a889b391efbf32fe7beaac68ab6436f"
+    },
+    {
+      "path": "src/scene-0040.svg",
+      "role": "editable source",
+      "bytes": 22842,
+      "sha256": "82b26429a3817ac090c49c0508e8651963b8c0d39fc6be2ad4854335b72ea079"
+    },
+    {
+      "path": "src/scene-0041.svg",
+      "role": "editable source",
+      "bytes": 23013,
+      "sha256": "c8133e1ca5af47eb4da824df4a818720890664182dbbd30ea7e7528b6a6f519b"
+    },
+    {
+      "path": "src/scene-0042.svg",
+      "role": "editable source",
+      "bytes": 23184,
+      "sha256": "46ff618e6f6fb6180b6dc4f3c76485fb5dc08ff0639aca224e751d74c7c21729"
+    },
+    {
+      "path": "src/scene-0043.svg",
+      "role": "editable source",
+      "bytes": 23355,
+      "sha256": "c47647f758516476f2b47570ea6327f35ff69746db420a2e46813e0bfffd4454"
+    },
+    {
+      "path": "src/scene-0044.svg",
+      "role": "editable source",
+      "bytes": 23526,
+      "sha256": "01587e849e37a89fa7a28ae00f5c5e30c7cb67d8b434c0cb26b9c294715f4b3d"
+    },
+    {
+      "path": "src/scene-0045.svg",
+      "role": "editable source",
+      "bytes": 23697,
+      "sha256": "17e32472cec5507a282f2e50783e350df5e55c8600eb8a7a3132b4a9726f163f"
+    },
+    {
+      "path": "src/scene-0046.svg",
+      "role": "editable source",
+      "bytes": 23868,
+      "sha256": "29d8b9eff33b5882294afdd8b9ec9c6697dff8176a03835ccfcab99c14ae38e4"
+    },
+    {
+      "path": "src/scene-0047.svg",
+      "role": "editable source",
+      "bytes": 24039,
+      "sha256": "c66de772f7e05070b8b4e1b0b5deaf283895a54a27ac32eeba644183c8c81c28"
+    },
+    {
+      "path": "src/scene-0048.svg",
+      "role": "editable source",
+      "bytes": 24210,
+      "sha256": "8ad4acf3f09736d6b5dbd2111510884a7041c2381d2340c76bdefdf59559e43f"
+    },
+    {
+      "path": "src/scene-0049.svg",
+      "role": "editable source",
+      "bytes": 24381,
+      "sha256": "a6fdf87bebca249f258e4e66216a2b205e8699e002fd9e66a8e4f65b43ace303"
+    },
+    {
+      "path": "src/scene-0050.svg",
+      "role": "editable source",
+      "bytes": 24552,
+      "sha256": "f63693ae431b02364cff6dd88778b917b768ce0c550ed948d51ac257b2a5d53e"
+    },
+    {
+      "path": "src/scene-0051.svg",
+      "role": "editable source",
+      "bytes": 24723,
+      "sha256": "ee917e3bca44b99d0e9c3ccf7d14d4cae657a01c76c6980c4dfa56b3e864fe04"
+    },
+    {
+      "path": "src/scene-0052.svg",
+      "role": "editable source",
+      "bytes": 24974,
+      "sha256": "c1661a47f6fbaefb66c6bb8b0fee80518b2fcd957bb3cf9f51c32c1930b211a6"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 24974,
+      "sha256": "c1661a47f6fbaefb66c6bb8b0fee80518b2fcd957bb3cf9f51c32c1930b211a6"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 4156,
+      "sha256": "107a827aaa3d35586e06c4d24b6b1fd19179dcde3618ed5143ffd5499c100717"
+    },
+    {
+      "path": "src/variant-first-rank-closeup.svg",
+      "role": "editable source",
+      "bytes": 6347,
+      "sha256": "278bfe966fb364dcc9fb80a5bafd966aa9714dc87aabea001d229104d51ebbd4"
+    },
+    {
+      "path": "src/variant-full-grid.svg",
+      "role": "editable source",
+      "bytes": 24974,
+      "sha256": "c1661a47f6fbaefb66c6bb8b0fee80518b2fcd957bb3cf9f51c32c1930b211a6"
+    }
+  ],
+  "variants": [
+    {
+      "name": "full-grid",
+      "files": [
+        "exports/full-grid.png",
+        "src/variant-full-grid.svg"
+      ]
+    },
+    {
+      "name": "first-rank-closeup",
+      "files": [
+        "exports/first-rank-closeup.png",
+        "src/variant-first-rank-closeup.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        22,
+        22
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        239,
+        279
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        97,
+        111
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Grid cells show the Deck array index, not a shuffled order.",
+    "Rank-major order is S,H,D,C within each rank. Final populated index is 51, followed by Index = 52.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

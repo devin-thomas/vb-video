@@ -1,0 +1,17 @@
+# Agent operating rules
+
+Read README.md, your assigned ticket, docs/PRODUCTION_BIBLE.md, docs/OUTPUT_CONTRACT.md, and the register entries named by that ticket. Read only the relevant original source ranges unless the task needs the complete source. The manifest is an index, not a substitute for the full ticket.
+
+1. Work on one assigned asset ID at a time. Own only `assets/<family>/<ID>/`; OPS-01 alone owns `assets/shared/`, OPS-02 alone owns `tools/war-harness/`. Never overwrite another agent’s files, update all statuses in the shared manifest, or change shared styles incidentally. Make local copies of the frozen harness for runtime work.
+2. Keep `sources/` byte-identical. Use its content for exact code/copy. The script is the narrative authority and Program.vb is the executable-behavior authority; disagreements go to the editorial register, not a silent rewrite. This does not certify script history as true.
+3. Use the shared frozen template version but craft and inspect the individual asset. A sixteen-card batch is not a substitute for sixteen separately reviewed outputs. Do not dump an entire folder into one agent context unnecessarily.
+4. Keep source-derived content, proposed teaching examples, external evidence, and producer-approved revisions distinct. Do not invent source URLs, factual verification, licenses, runtime logs, code execution, or video captures.
+5. Maintain `assets/<family>/<ID>/state.json`. Update only your file. Production: planned → in_progress → produced → reviewed; use blocked when a necessary capability/input is missing. Research scouting may end scouted or no_match. Release is separately unreviewed/blocked/approved/not_applicable. A blocked fact does not prevent unrelated internal-proof work.
+6. Follow the exact deliverables and named variants in the ticket. Keep clean originals and annotate derived copies. Preserve code as machine-readable text as well as images. For motion, use deterministic seeking and record a timeline.
+7. Inspect actual exports at 1080p and 720p. Record manual results; automated structure validation does not certify visual quality, semantic correctness, or legal clearance. Use the two validators in tools/ for their explicitly limited checks.
+8. Request access/approval only at a real boundary. Never create accounts, accept terms, pay, bypass a CAPTCHA, upload publicly, or place credentials in files. Do not claim an operation was performed when the environment cannot perform it.
+9. Completion message: ID; files; exact source/provenance; tests actually run; unresolved gates; production status; release status. Do not declare the whole video complete when only an asset or source file exists.
+10. Every ticket is also a GitHub issue (`github_issue` in manifest.json; handoffs under `handoff_issues`). After changing a state.json, run `python tools/github_issues.py` so the issue's labels and open/closed state match, then `python tools/build_indexes.py` to refresh the gallery and indexes.
+
+## Coordinator
+Run OPS-01/02/03 in parallel where the environment permits. Then dispatch distinct tickets by lane. Research may discover sources while waiting for shared framing templates; it cannot close a final presentation export before dependencies are accepted. Dependencies are integration prerequisites, not a rule against useful partial work. A finished internal proof can unblock another proof; release requires its own evidence. Run OPS-04 after collecting deliveries and explicit exceptions. The provided dispatcher never claims workers were started.

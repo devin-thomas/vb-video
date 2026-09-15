@@ -1,0 +1,14 @@
+{
+  "id": "REF-02",
+  "production_status": "in_progress",
+  "release_status": "blocked",
+  "assigned_agent": null,
+  "updated_at": "2026-09-15T17:00:16+00:00",
+  "blockers": [],
+  "reviewer": null,
+  "notes": [
+    "Authored SVG source exists (src/scene.svg, duplicated as exports/poster.svg) from the 2026-09-15 session-2 batch. It is not a finished delivery: the ticket's required PNG export, delivery.json, evidence and qa.md were never produced, so production_status was corrected from produced to in_progress during the repository migration.",
+    "The session-2 SVGs for REF-01 and REF-02 were swapped; they were moved so this folder now holds the Windows C Hello World card its ticket describes."
+  ],
+  "owner": "Claude Code — migration correction"
+}

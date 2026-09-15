@@ -1,0 +1,41 @@
+{
+  "id": "CMP-03",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "comparison": "variant-comparison.svg",
+    "token-focus": "variant-token-focus.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "The C# side is a proposed equivalent-bounds example, not verbatim supplied code. Keep the inclusive upper bound 14 on both sides.",
+    "No compile/run is claimed for illustrative counterparts."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        38,
+        38
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        277,
+        279
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "still"
+}

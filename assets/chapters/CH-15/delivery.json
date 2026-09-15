@@ -1,0 +1,268 @@
+{
+  "id": "CH-15",
+  "title": "Chapter 15: Why VB Mattered (and Why It Died)",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 4,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 503,
+      "sha256": "4f46b1351aa6b9deadb0dc43da8608e717e76b006392f14948aa4716ae10cdee"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 307,
+      "sha256": "4c614d5345831dcf136191910825930f3846c5ffb9f4b75dc2f91f6f399ecb41"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 961,
+      "sha256": "2b551875def881084c974066ee20dbfa439618a6f5f6f0741d756c5d2879a625"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 967,
+      "sha256": "c2d537361eaa3488339999cf26fe46155fb69e29e62da8aa4a5baa88b13fbaf1"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 298,
+      "sha256": "b99453ce372200152403b547ae9a6fede5fe5f6ada09aede4ec75285835cdb58"
+    },
+    {
+      "path": "exports/chapter-hold.png",
+      "role": "rendered still",
+      "bytes": 30650,
+      "sha256": "db8b6d57ae933254ac33697be493d8766b59010e5f813418c288297e2c2af8d4"
+    },
+    {
+      "path": "exports/chapter-motion.png",
+      "role": "rendered still",
+      "bytes": 30650,
+      "sha256": "db8b6d57ae933254ac33697be493d8766b59010e5f813418c288297e2c2af8d4"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 38581,
+      "sha256": "2b50ae9d19fcf56127bd5af536f29fb797fbf7f83cf38b79d9fd51086bc77180"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 30650,
+      "sha256": "db8b6d57ae933254ac33697be493d8766b59010e5f813418c288297e2c2af8d4"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 30650,
+      "sha256": "db8b6d57ae933254ac33697be493d8766b59010e5f813418c288297e2c2af8d4"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 8591,
+      "sha256": "a3e192dc5466bbf50540fee8668aaf183cb2c70b896cc2bb0e68023dc34f2b9f"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 30650,
+      "sha256": "db8b6d57ae933254ac33697be493d8766b59010e5f813418c288297e2c2af8d4"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 22859,
+      "sha256": "b5a7fd1045bbe1d3e994d360bc18c472ec3533928027fc4c8b0ec0212f8137a2"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 12606,
+      "sha256": "2b87b2111d6cc0f85dd4e951455ded13fabbdc3cb4b880262c228c71cf203c1d"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 34475,
+      "sha256": "e0431c788a3865536a7b44dc8e1558b781af84f4e174e86d826a537a5c916c45"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2246,
+      "sha256": "1dd2b7cd4f3e68aedbf31016e19788739f5d7b71fc82f10e864678958d8bc3a4"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1562,
+      "sha256": "5dc705096577c877db8e0e7b8bd16113a586d34ddf39141b83e959983dae0953"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1168,
+      "sha256": "9309c5681235a9ac267aaac4b19e4dcddcc5c588d607662d75964350e055dd14"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 5292,
+      "sha256": "6e3c511907d5a0a89bc847f4255daeea74242615ce5a2584e8bbef27b6acd02c"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 553,
+      "sha256": "91dde37a331f8b67902ac2eb1b3b1c6a1058c0d086619d72e1d17e1b51175150"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 2470,
+      "sha256": "957ffc21c6fe4bbed8e8c7eb73c1e683f5626bee45c19284bf0dcae0002ccd0d"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 2470,
+      "sha256": "957ffc21c6fe4bbed8e8c7eb73c1e683f5626bee45c19284bf0dcae0002ccd0d"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 672,
+      "sha256": "743dd99863bec540f93a4a340c0f025c8394c9aff62e4f88afc2a3d56d7eaecf"
+    },
+    {
+      "path": "src/variant-chapter-hold.svg",
+      "role": "editable source",
+      "bytes": 2470,
+      "sha256": "957ffc21c6fe4bbed8e8c7eb73c1e683f5626bee45c19284bf0dcae0002ccd0d"
+    },
+    {
+      "path": "src/variant-chapter-motion.svg",
+      "role": "editable source",
+      "bytes": 2470,
+      "sha256": "957ffc21c6fe4bbed8e8c7eb73c1e683f5626bee45c19284bf0dcae0002ccd0d"
+    }
+  ],
+  "variants": [
+    {
+      "name": "chapter-hold",
+      "files": [
+        "exports/chapter-hold.png",
+        "src/variant-chapter-hold.svg"
+      ]
+    },
+    {
+      "name": "chapter-motion",
+      "files": [
+        "exports/chapter-motion.png",
+        "src/variant-chapter-motion.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        36,
+        36
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        32,
+        32
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        677,
+        677
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R12"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

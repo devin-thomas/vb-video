@@ -1,0 +1,415 @@
+{
+  "id": "DIA-09",
+  "title": "Pot growth: 2 → 10 → 18",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 15,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 506,
+      "sha256": "9381c9d40fa129732bbf9ed33e3ba915c5762aaaa0efb628882981b8dae27812"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 595,
+      "sha256": "c775d1924baf64f406e939c84b5b022f09d4bca88aef42f162241b06d3ae77cf"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1658,
+      "sha256": "4e97bf1a65f6b5986ebb27f81479667a416a96add8d024460f3baaec155ed0b4"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 972,
+      "sha256": "78c1ea8ed71379f7fe9633100db02ee1c5c2ecb580560b63e1976698c568af92"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4346,
+      "sha256": "4bf7ac8a623c4c081999d545451846f96fbde41da2539cde558ee2b7a96a9bbc"
+    },
+    {
+      "path": "exports/2-10-18-poster.png",
+      "role": "rendered still",
+      "bytes": 51810,
+      "sha256": "eb13cd38dd8dc30fd6bd9343140f89e0e8c276ae1847c03ee60764cc7ccf252d"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 90026,
+      "sha256": "f1d6f8ea65f0f3f655cecd24bf3b9fee8f68e8f2a07c570e657659d0ab1a525a"
+    },
+    {
+      "path": "exports/double-war-growth.png",
+      "role": "rendered still",
+      "bytes": 78874,
+      "sha256": "354542f7bb9b0c4774db66ddbb873fb867fd96e0a9a61a495c3f316f6eeaf546"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 73567,
+      "sha256": "3dc720b78b32bec717a27ed5f0e2d108099ab94e3bce59ff84970361a224a4d9"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 84568,
+      "sha256": "90e5e241ac5b79418d69a6f25280a1aeb2251f65f5612bf82763d0ba1320d0b3"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 71109,
+      "sha256": "54ab13f4eda8a3b0d8c644b20144ba1d5fb49ade6951931eff72698dd1fc6717"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 51810,
+      "sha256": "eb13cd38dd8dc30fd6bd9343140f89e0e8c276ae1847c03ee60764cc7ccf252d"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 432533,
+      "sha256": "23360a4bc112d94fc497eb3b45911d20c05844aed61b93ed37d7088ea32fda5f"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 16396,
+      "sha256": "d15dff14255b2a01271bc7c45aed75b5bce7ee4cefcbb09957722a1e7f3f9b1e"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 71842,
+      "sha256": "b587d3f0a21c22086fab7f617cbe3d5a2055f2136f7ba8a5f1a153e726727111"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2392,
+      "sha256": "e6805c9635a332fc615d06151db98683239e27a402267a320b65e1d15d76b423"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1548,
+      "sha256": "be2777a032670d473f2ce9d32bba05fb5ee5c2b48e56eb495369535e240537b7"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 3224,
+      "sha256": "ff96c88abb5925be81a221fb8f5f7fe9a0b15fbfcb5bd92701eacaed0f3775d2"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 307262,
+      "sha256": "2a9ada12ecda81da753c71ac07ce435861f062066c3ef9477eb443dd8d0f71fb"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 7928,
+      "sha256": "a37bd9ea5916b583ebf1726a88c5d6d839f355282519549e14d941bce51891c5"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 10964,
+      "sha256": "abc95c42bc091d9a7ae43c6cf6befb97d95b2f34734eca3d42930ed5bb784ccf"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 12114,
+      "sha256": "8255ded15968a2ec72e9b07334013528654bce369e3a15d35460ce5164721671"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 15170,
+      "sha256": "1b15f7747c956777cea461153caf13b8624581be8a7efc8ee891d62874d543fc"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 16314,
+      "sha256": "ba4620b0d6fc9e1db2a04596f5465b577e2b9b956259cfc4f427801de68d5440"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 16008,
+      "sha256": "f627309d8f514c4764a3d740db280bb4e35417870a00deeca21f3d1329dcff73"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 15439,
+      "sha256": "85c44acf32ef46406988e97cf6c55e0fc28a484392aa1ac909273b34071928b5"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 14933,
+      "sha256": "5941290ddd62f45d06a894314d207a7cf24f28ccf2e3e5cd9a90ec5237698dab"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 14427,
+      "sha256": "af12fad1ae0f27bb1fc3fa418aed3b5e54af505e30105a4f65bf4e4c34365c11"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 13921,
+      "sha256": "9224746f803e538e0c8dd5a9100b0680a1711fe070a29c49319d2da563b0c132"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 13415,
+      "sha256": "4bccca55152d05eecd81366490f237e33ee11c961da836644cd571e2bc0e6188"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 12909,
+      "sha256": "daf8309d7038b33dcf3a740dbb1a1ab5fe017264a4d7c12fee6e13ae243e0d66"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 12403,
+      "sha256": "23e628edaf0117b9ed2953f335275a7197dbef9b805e4075e2566c6bdb1c6141"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 11833,
+      "sha256": "fb9f2519b386082f0a0affc37792dd55657a3f882f481b0139ccac8be31df163"
+    },
+    {
+      "path": "src/scene-0014.svg",
+      "role": "editable source",
+      "bytes": 11264,
+      "sha256": "5fcb3e9ebb7b81d4ad523de3fbde81b1e010bf3ea2f123459ca40f50140fe2ae"
+    },
+    {
+      "path": "src/scene-0015.svg",
+      "role": "editable source",
+      "bytes": 10753,
+      "sha256": "98264887bf55d0f1a22b2f4b7a887e34bbbf549bad3e3cd20ba5692e26aa6822"
+    },
+    {
+      "path": "src/scene-0016.svg",
+      "role": "editable source",
+      "bytes": 10242,
+      "sha256": "38d1f324bf35b8587d99034f5bbf42b0bd99aa5b8cf83f51edcdbaa43c8e9aca"
+    },
+    {
+      "path": "src/scene-0017.svg",
+      "role": "editable source",
+      "bytes": 9731,
+      "sha256": "3abcf11b6fc9f0ebc61f0f261a02353b01226f59513595b9afc75db197950060"
+    },
+    {
+      "path": "src/scene-0018.svg",
+      "role": "editable source",
+      "bytes": 9220,
+      "sha256": "ce8f7d0bcb80aa69dc0f6a260dc3898a9f16f689337c2e7cacc95673eee7f8c1"
+    },
+    {
+      "path": "src/scene-0019.svg",
+      "role": "editable source",
+      "bytes": 8709,
+      "sha256": "aae9f97b35e095369b4ec85590e8204f6ca42cca9ef0b23b21a73605f35a490e"
+    },
+    {
+      "path": "src/scene-0020.svg",
+      "role": "editable source",
+      "bytes": 8198,
+      "sha256": "14b2ce4ec23bb7b7f641f37fff352a86e284f74b7e63aad2067fb05c1fd65062"
+    },
+    {
+      "path": "src/scene-0021.svg",
+      "role": "editable source",
+      "bytes": 7625,
+      "sha256": "883677b476ffbb1dba248748bb10ec130074af772f3cadf0f377c208438186f9"
+    },
+    {
+      "path": "src/scene-0022.svg",
+      "role": "editable source",
+      "bytes": 7052,
+      "sha256": "2c460a754f0d61399cea30fdbbc6a9f3bd9d420b320796912b439b37291eb049"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 4908,
+      "sha256": "63705dfe83b1705eec9e2b31c5012abada4a6b671353e6578eb43f0b747837f8"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 2093,
+      "sha256": "d1c626a40aee478714572c79aacf2cbe9af222a54f3563cf2a3993f39393249d"
+    },
+    {
+      "path": "src/variant-2-10-18-poster.svg",
+      "role": "editable source",
+      "bytes": 4908,
+      "sha256": "63705dfe83b1705eec9e2b31c5012abada4a6b671353e6578eb43f0b747837f8"
+    },
+    {
+      "path": "src/variant-double-war-growth.svg",
+      "role": "editable source",
+      "bytes": 16133,
+      "sha256": "8c42cc8e32c4a7c14306a808ab6bbfb203951fbdc5920931feef29dcf4227467"
+    }
+  ],
+  "variants": [
+    {
+      "name": "2-10-18-poster",
+      "files": [
+        "exports/2-10-18-poster.png",
+        "src/variant-2-10-18-poster.svg"
+      ]
+    },
+    {
+      "name": "double-war-growth",
+      "files": [
+        "exports/double-war-growth.png",
+        "src/variant-double-war-growth.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        24,
+        24
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        449,
+        489
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        546,
+        557
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        207,
+        208
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        234,
+        268
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Per-asset poster/variant/start-middle-end contact sheet plus overview",
+        "scope": "Inspected growth states and final 17 / 35 / 0 counts.",
+        "status": "Counters conserve 52; individual burn faces remain hidden. This is authored fixture animation, not observed output."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R05",
+    "R07"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "The double-war fixture produces live pot milestones 2, 8, 10, 16, 18 and final counts 17 / 35 / 0.",
+    "104 is allocation capacity in the supplied code, not the size of the physical deck. No 104-card graphic is used.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

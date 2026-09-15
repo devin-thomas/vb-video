@@ -1,0 +1,787 @@
+{
+  "id": "TERM-03",
+  "title": "Complete Program.vb readable scrollthrough stills",
+  "production_status": "produced",
+  "release_status": "approved",
+  "provenance_type": "actual editor capture",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/capture.json",
+      "role": "evidence / QA",
+      "bytes": 16348,
+      "sha256": "b930e9cb1ea862111a9b2deee38c92791881aa49b889e29dc42842f56f5312f8"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 532,
+      "sha256": "210467e4799e57dc79239276ff91cf6f4cbbaf03622f5d2a58854b16a06a211b"
+    },
+    {
+      "path": "evidence/commands.log",
+      "role": "evidence / QA",
+      "bytes": 609,
+      "sha256": "a4881285241c1739245bce0269d478a547779900d2e689076371224dab798d20"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 4325,
+      "sha256": "018e7c2936d50badf5003b591178ed718b6801f4e7de016f26fe6fcda0a13139"
+    },
+    {
+      "path": "evidence/prompt-log.jsonl",
+      "role": "evidence / QA",
+      "bytes": 1710,
+      "sha256": "92918a1e92cd7aac8ce8cfed51e5e951db368f9b606bf2a89cde97c06deba8fe"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2896,
+      "sha256": "ff7301ef7060dd48d3d8f825c6281bf1f3cda1066472ddc55882ea38b67cb0e0"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1140,
+      "sha256": "b20e9bfd4993d8916a1119ed1c0bf338ee25613616b6ae57fe50f848ae852d79"
+    },
+    {
+      "path": "evidence/viewport-text.json",
+      "role": "evidence / QA",
+      "bytes": 17808,
+      "sha256": "312fcb00b7463d7256d47758bbc95821be98877066f09eaacf3f13e5a44d91ac"
+    },
+    {
+      "path": "evidence/viewports.json",
+      "role": "evidence / QA",
+      "bytes": 3435,
+      "sha256": "5a3822c1ebd4b7ee5d427256dc8c365df258154d5fe8371e419a159e6bd2e951"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "contact sheet of raw viewports (derived)",
+      "bytes": 712137,
+      "sha256": "7e64408570db318709701caf0d198979af1fbcef0e498a48ff0c059e547fefb6"
+    },
+    {
+      "path": "exports/framed-02.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 91752,
+      "sha256": "8f8191cfa8f966e9ef5bfae3a09d161857f1b4cbf6478d93846fd2b3f7f6e615"
+    },
+    {
+      "path": "exports/framed-03.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 87315,
+      "sha256": "2cc2aac0be03cc72dd91bf739f0e38068d97a0147a11809fe7ccb740c0a2c189"
+    },
+    {
+      "path": "exports/framed-04.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 97486,
+      "sha256": "8adaaf8250c1a2d938c09d61ac135337baf44900ae368bd77ac1fe5a783711de"
+    },
+    {
+      "path": "exports/framed-05.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 79077,
+      "sha256": "07ec5770f5847263db722d9a8142611e71f584461f23a580333d5bfedb951c6d"
+    },
+    {
+      "path": "exports/framed-06.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 81884,
+      "sha256": "8db90afc27f4c1f9e856ed0ed0f59e745a354e6f220e6c422b8d8c70a8ecf52d"
+    },
+    {
+      "path": "exports/framed-07.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 76176,
+      "sha256": "a2d50bc7c5362bb8e453bd05ba0bfbbd37374be42cb9d3f570c961df0942bec5"
+    },
+    {
+      "path": "exports/framed-08.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 89947,
+      "sha256": "109ad5b4fbab26ace46e9a88a35c589128aeabb479c5fc76edf94a1847860484"
+    },
+    {
+      "path": "exports/framed-09.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 104889,
+      "sha256": "942019dd31d7cd0d1673a4933f36d23eb60a73429f87a80bb2cf77c83ff7fe6c"
+    },
+    {
+      "path": "exports/framed-10.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 104847,
+      "sha256": "c28182f21b2a1e1f1345b9be292e2c9d4d2b9719ae7b6f83cda02987130641bc"
+    },
+    {
+      "path": "exports/framed-11.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 98057,
+      "sha256": "180d78a0f7df19b50a8ae20f5b7e62d03b5e0b43c930eac02344c65fe5ff4658"
+    },
+    {
+      "path": "exports/framed-12.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 89519,
+      "sha256": "df3882ce073922acd95035e6bc763e46e57e99e1794e708763bc46e3918507bb"
+    },
+    {
+      "path": "exports/framed.png",
+      "role": "framed editorial still (derived from raw capture)",
+      "bytes": 95322,
+      "sha256": "2297533bbbfa530aa36c756bd6f116f58e9d90abb00c06c32d3e82d0da4b041d"
+    },
+    {
+      "path": "proofs/framed-02-720.png",
+      "role": "720p review proof",
+      "bytes": 156830,
+      "sha256": "c97a598772441e062ba9c70d0123de18b4ada0cf023e73639a4b3765fc78ec12"
+    },
+    {
+      "path": "proofs/framed-03-720.png",
+      "role": "720p review proof",
+      "bytes": 166247,
+      "sha256": "9ae15c7523a30792e599b294df64da5244054e8c03abeb1967857cb12abada71"
+    },
+    {
+      "path": "proofs/framed-04-720.png",
+      "role": "720p review proof",
+      "bytes": 172123,
+      "sha256": "0e491dd862cd33117a049d8a3eebf6ab2e86ae93e05315e58a0ceb661acf53f1"
+    },
+    {
+      "path": "proofs/framed-05-720.png",
+      "role": "720p review proof",
+      "bytes": 138365,
+      "sha256": "3869403e85014273db3bbd745f8e0f202e23c13b79995329567faec660585e5e"
+    },
+    {
+      "path": "proofs/framed-06-720.png",
+      "role": "720p review proof",
+      "bytes": 159990,
+      "sha256": "d52bd55c9995a12b7e56275956a33acf7bcdd6415b81b6508f370e2ab8aa79ce"
+    },
+    {
+      "path": "proofs/framed-07-720.png",
+      "role": "720p review proof",
+      "bytes": 136505,
+      "sha256": "aaac507d145039177a31ae384066bb1a81ed0ad68845ff8e3d6ad70a2ea24df1"
+    },
+    {
+      "path": "proofs/framed-08-720.png",
+      "role": "720p review proof",
+      "bytes": 160932,
+      "sha256": "21aa7c276dcd85f1b236503104f3080b1d726b43ef721302cbbb60851497c5a3"
+    },
+    {
+      "path": "proofs/framed-09-720.png",
+      "role": "720p review proof",
+      "bytes": 199486,
+      "sha256": "b3b9bc646c6d85bcb9ce2adef24f2e31ae0bd0294e95a2e89ac8f6701b859fa2"
+    },
+    {
+      "path": "proofs/framed-10-720.png",
+      "role": "720p review proof",
+      "bytes": 206712,
+      "sha256": "f0af4efa8fe24e716fcd32b9d220e154db98207e5324b71f792bda5ad92a10d3"
+    },
+    {
+      "path": "proofs/framed-11-720.png",
+      "role": "720p review proof",
+      "bytes": 199541,
+      "sha256": "840525e75fbf02c915e7764475f3db6c2a798babb505f19437743e008ef3022b"
+    },
+    {
+      "path": "proofs/framed-12-720.png",
+      "role": "720p review proof",
+      "bytes": 175166,
+      "sha256": "a4784cee08d3c7f487ed473426742daded6cebfbeef7c480e3068b3a43dbf370"
+    },
+    {
+      "path": "proofs/framed-720.png",
+      "role": "720p review proof",
+      "bytes": 189096,
+      "sha256": "d162c9a6cebc2eaada5fa62d919f63faaaefb48f8949c3a3fd4072f7318e3c26"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3392,
+      "sha256": "e665108cbf54c4aea947cd551029369eace8489a86b7d5fafbc90f5842852607"
+    },
+    {
+      "path": "source/Program.vb",
+      "role": "exact executed/displayed source copy (byte-identical)",
+      "bytes": 9234,
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7"
+    },
+    {
+      "path": "source/raw/viewport-01-lines-001-029.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 88774,
+      "sha256": "87b2284545e287eaf54235e4e774e7463b116acaa6ab1fb5e12ea0d611a12645"
+    },
+    {
+      "path": "source/raw/viewport-02-lines-026-054.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 84952,
+      "sha256": "f8c4b01d287cfbba14d1afe1ae523bbc8d4db55fc264f9faa24a8cc4c6f30f19"
+    },
+    {
+      "path": "source/raw/viewport-03-lines-051-079.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 80968,
+      "sha256": "b533d60692e0d21e3eb2b940191756a754686091875d2dcd75f40bbb4690c53f"
+    },
+    {
+      "path": "source/raw/viewport-04-lines-076-104.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 90602,
+      "sha256": "8c4a37734fd7478fbc931e287303920424447719fb528fd03a9b4ed7f015eea0"
+    },
+    {
+      "path": "source/raw/viewport-05-lines-101-129.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 72917,
+      "sha256": "5d893b8428f6b91301683b8cf90d316fd08cda22be5df6e24ebd2791af7d30ab"
+    },
+    {
+      "path": "source/raw/viewport-06-lines-126-154.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 75664,
+      "sha256": "527d823ef52af328389c4b69db48fe3d9eee819053aacae8fe4a5558335ffe2f"
+    },
+    {
+      "path": "source/raw/viewport-07-lines-151-179.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 70171,
+      "sha256": "dd965da0b0eaf54b86b85ebc36f684d2bb2c28bc7b6f4606c3397c7d0b93f755"
+    },
+    {
+      "path": "source/raw/viewport-08-lines-176-204.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 83220,
+      "sha256": "dfb8669b4ef08cb0d4c689efde58e7c8014def4368d4d40f8a652fefe7e8276e"
+    },
+    {
+      "path": "source/raw/viewport-09-lines-201-229.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 97664,
+      "sha256": "0f6d20ca480bd6952ab6051ed8355743f5b1fff9a5db13b4248e32588369e465"
+    },
+    {
+      "path": "source/raw/viewport-10-lines-226-254.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 97573,
+      "sha256": "65aa7f407eef87fc7238edf9bbaab265e5286818d35331e6de8cc71f4e559e7f"
+    },
+    {
+      "path": "source/raw/viewport-11-lines-251-279.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 90816,
+      "sha256": "fe048ef061a59a1d0074c4756ff0641e9ec81769430736a2685ddbf4296e96c1"
+    },
+    {
+      "path": "source/raw/viewport-12-lines-257-285.png",
+      "role": "raw capture PNG (unedited window image)",
+      "bytes": 82740,
+      "sha256": "efac45598362acfe433830ef3910f00e26b4dae9ccc6685eaa67e8ae79e0b028"
+    }
+  ],
+  "variants": [
+    {
+      "name": "raw",
+      "files": [
+        "source/raw/viewport-01-lines-001-029.png",
+        "source/raw/viewport-02-lines-026-054.png",
+        "source/raw/viewport-03-lines-051-079.png",
+        "source/raw/viewport-04-lines-076-104.png",
+        "source/raw/viewport-05-lines-101-129.png",
+        "source/raw/viewport-06-lines-126-154.png",
+        "source/raw/viewport-07-lines-151-179.png",
+        "source/raw/viewport-08-lines-176-204.png",
+        "source/raw/viewport-09-lines-201-229.png",
+        "source/raw/viewport-10-lines-226-254.png",
+        "source/raw/viewport-11-lines-251-279.png",
+        "source/raw/viewport-12-lines-257-285.png"
+      ],
+      "notes": "One unedited capture per viewport."
+    },
+    {
+      "name": "framed",
+      "files": [
+        "exports/framed-02.png",
+        "exports/framed-03.png",
+        "exports/framed-04.png",
+        "exports/framed-05.png",
+        "exports/framed-06.png",
+        "exports/framed-07.png",
+        "exports/framed-08.png",
+        "exports/framed-09.png",
+        "exports/framed-10.png",
+        "exports/framed-11.png",
+        "exports/framed-12.png",
+        "exports/framed.png"
+      ],
+      "contact_sheet": "exports/contact-sheet.png",
+      "mapping": {
+        "source/raw/viewport-01-lines-001-029.png": [
+          1,
+          29
+        ],
+        "source/raw/viewport-02-lines-026-054.png": [
+          26,
+          54
+        ],
+        "source/raw/viewport-03-lines-051-079.png": [
+          51,
+          79
+        ],
+        "source/raw/viewport-04-lines-076-104.png": [
+          76,
+          104
+        ],
+        "source/raw/viewport-05-lines-101-129.png": [
+          101,
+          129
+        ],
+        "source/raw/viewport-06-lines-126-154.png": [
+          126,
+          154
+        ],
+        "source/raw/viewport-07-lines-151-179.png": [
+          151,
+          179
+        ],
+        "source/raw/viewport-08-lines-176-204.png": [
+          176,
+          204
+        ],
+        "source/raw/viewport-09-lines-201-229.png": [
+          201,
+          229
+        ],
+        "source/raw/viewport-10-lines-226-254.png": [
+          226,
+          254
+        ],
+        "source/raw/viewport-11-lines-251-279.png": [
+          251,
+          279
+        ],
+        "source/raw/viewport-12-lines-257-285.png": [
+          257,
+          285
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        74,
+        74
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        200,
+        200
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        235,
+        235
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        311,
+        311
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        384,
+        384
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        436,
+        436
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        7,
+        8
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "displayed source (byte-identical copy in source/Program.vb)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        28,
+        29
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "displayed source (byte-identical copy in source/Program.vb)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "actual local capture",
+      "credit": "Screens captured from this production's own machine; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "source hash",
+      "result": "passed",
+      "detail": "source/Program.vb sha256 8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7 equals sources/Program.vb"
+    },
+    {
+      "test": "native command exit codes (PowerShell history + $LASTEXITCODE at the next prompt)",
+      "result": "passed",
+      "failed": [],
+      "commands": [
+        {
+          "command": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb",
+          "exit_code": 0,
+          "seconds": 11.627
+        }
+      ]
+    },
+    {
+      "test": "every viewport's visible text equals the source lines",
+      "result": "passed",
+      "detail": [
+        {
+          "file": "source/raw/viewport-01-lines-001-029.png",
+          "first_line": 1,
+          "last_line": 29,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-02-lines-026-054.png",
+          "first_line": 26,
+          "last_line": 54,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-03-lines-051-079.png",
+          "first_line": 51,
+          "last_line": 79,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-04-lines-076-104.png",
+          "first_line": 76,
+          "last_line": 104,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-05-lines-101-129.png",
+          "first_line": 101,
+          "last_line": 129,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-06-lines-126-154.png",
+          "first_line": 126,
+          "last_line": 154,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-07-lines-151-179.png",
+          "first_line": 151,
+          "last_line": 179,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-08-lines-176-204.png",
+          "first_line": 176,
+          "last_line": 204,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-09-lines-201-229.png",
+          "first_line": 201,
+          "last_line": 229,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-10-lines-226-254.png",
+          "first_line": 226,
+          "last_line": 254,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-11-lines-251-279.png",
+          "first_line": 251,
+          "last_line": 279,
+          "visible_text_matches_source": true
+        },
+        {
+          "file": "source/raw/viewport-12-lines-257-285.png",
+          "first_line": 257,
+          "last_line": 285,
+          "visible_text_matches_source": true
+        }
+      ]
+    },
+    {
+      "test": "complete coverage, no missing lines",
+      "result": "passed",
+      "detail": {
+        "source_lines": 285,
+        "missing_lines": [],
+        "overlaps": [
+          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          23
+        ]
+      }
+    },
+    {
+      "test": "PNG dimensions (raw native, exports 1920×1080, proofs 1280×720)",
+      "result": "passed",
+      "raw": {
+        "source/raw/viewport-01-lines-001-029.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-02-lines-026-054.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-03-lines-051-079.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-04-lines-076-104.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-05-lines-101-129.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-06-lines-126-154.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-07-lines-151-179.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-08-lines-176-204.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-09-lines-201-229.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-10-lines-226-254.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-11-lines-251-279.png": [
+          1423,
+          872
+        ],
+        "source/raw/viewport-12-lines-257-285.png": [
+          1423,
+          872
+        ]
+      },
+      "exports": {
+        "exports/contact-sheet.png": [
+          1920,
+          1081
+        ],
+        "exports/framed-02.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-03.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-04.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-05.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-06.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-07.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-08.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-09.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-10.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-11.png": [
+          1920,
+          1080
+        ],
+        "exports/framed-12.png": [
+          1920,
+          1080
+        ],
+        "exports/framed.png": [
+          1920,
+          1080
+        ]
+      },
+      "proofs": {
+        "proofs/framed-02-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-03-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-04-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-05-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-06-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-07-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-08-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-09-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-10-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-11-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-12-720.png": [
+          1280,
+          720
+        ],
+        "proofs/framed-720.png": [
+          1280,
+          720
+        ]
+      },
+      "bad": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed all 12 exports/framed*.png (1920×1080, raw 1423×872 at 1:1) and exports/contact-sheet.png. Each shows vim with line numbers, VB syntax colouring, no wrapped lines, and the ruler at bottom right; first/last line numbers match evidence/viewports.json. Viewport 01 also shows vim's file message (\"Program.vb\" [readonly][unix] 285L, 9234B). Comments use the console's dark-blue palette entry: legible, but lower contrast than code. No other windows, notifications, or personal data.",
+      "proof_720": "Viewed proofs/framed-720.png and framed-12-720.png (1280×720): code and line numbers stay readable; dark-blue comments are the weakest element at this size. The other ten 720p proofs are the same scaling of viewports inspected at full size and were not opened individually."
+    },
+    {
+      "test": "privacy scan of text outputs",
+      "result": "passed",
+      "detail": "Searched every text output for the local account name and home-directory path (the values themselves are not written here).",
+      "hits": []
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "dotnet_sdk": "10.0.303",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "terminal": "Windows Console Host (conhost.exe) launched directly, not Windows Terminal",
+    "conhost_file_version": "10.0.26100.9444",
+    "shell": "PowerShell 7.6.6",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0",
+      "pywin32": "312"
+    },
+    "capture_api": "user32.PrintWindow(PW_RENDERFULLCONTENT) of the console window, cropped to DWM extended frame bounds",
+    "input_api": "kernel32 WriteConsoleInput key events into the attached console (no focus or global keystrokes)",
+    "transcript_api": "kernel32 ReadConsoleOutputCharacter over the console screen buffer",
+    "network_used": "only whatever dotnet itself performed; no downloads were requested",
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "vim": "VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Jan 13 2026 10:32:17)"
+  },
+  "notes": [
+    "These are stills of an editor at fixed scroll positions, not a smooth scroll recording (H01).",
+    "Highlighting is vim's built-in VB syntax file; colours are the console's default palette."
+  ]
+}

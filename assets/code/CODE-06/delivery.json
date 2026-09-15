@@ -1,0 +1,283 @@
+{
+  "id": "CODE-06",
+  "title": "Hand structure",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "literal source-code illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 10,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 506,
+      "sha256": "60205ba8bce0a041faf0a411078af080c34e8255ad51d81b2ae9eccfef8be0f1"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 308,
+      "sha256": "a4dcfe5fec796dcb2a6f6c701b3d37fcb533d4b6011a1fa19264fd77d1be0eda"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1183,
+      "sha256": "30d11e924bb509ac7514447264b54ce462df86916f233fc135b760289328cfd5"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 974,
+      "sha256": "e5ad6999fd19a327a42dc8bff3e10ecc69ad98e038da949cb6b4bbb50cba0506"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1420,
+      "sha256": "e0d023d76b3c59876b8af2eddc96c8f2d6fc28eed7c02a94faa9c141a748e627"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 56682,
+      "sha256": "384638004add5b2c7b842a91f744c3c1d7bdb72f50d467215bbb0d71422de6e6"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 69738,
+      "sha256": "d3052395a6cc006dcc0d2f33a7f788762eecbfed6d52eaabdbe07491c3b1b5ac"
+    },
+    {
+      "path": "exports/highlighted.png",
+      "role": "rendered still",
+      "bytes": 59808,
+      "sha256": "97f8ad662e9223dc6640173e3c231f9af19071931ab71a4d83feb2a6db6e34e2"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 59808,
+      "sha256": "97f8ad662e9223dc6640173e3c231f9af19071931ab71a4d83feb2a6db6e34e2"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 59808,
+      "sha256": "97f8ad662e9223dc6640173e3c231f9af19071931ab71a4d83feb2a6db6e34e2"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 56682,
+      "sha256": "384638004add5b2c7b842a91f744c3c1d7bdb72f50d467215bbb0d71422de6e6"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 59808,
+      "sha256": "97f8ad662e9223dc6640173e3c231f9af19071931ab71a4d83feb2a6db6e34e2"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 95546,
+      "sha256": "29bcab65e7595bbd83224bdc528bb5c39fc9fa1a012fc4efad75e16b8084b9b0"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 13871,
+      "sha256": "fe76ba80ac3df95fbd94c4cb19214b6219695f46a1952dea1633fcfe679f5456"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 68437,
+      "sha256": "571f21f02755d1b19c7f01dcbdf82ecec51da8cc1bb85674ef4cd91155646954"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2406,
+      "sha256": "45905fb1238bcfcf35981e3b038463e275e2ee937d58b15ebf45fbb060c732d6"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1810,
+      "sha256": "3a2361eadbf0d57696e6d5dc27b3a10071ab040d547715b85e237af945b2e0c7"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1378,
+      "sha256": "482f28a60092da079ead7c5442e218f14b8a8f53c60f765e7729f4563ea4bfa8"
+    },
+    {
+      "path": "src/excerpt.vb",
+      "role": "editable source",
+      "bytes": 94,
+      "sha256": "ce69f5dee9535d921923db1a2c9007222b98f9661081f4304dbef7f2cb8228af"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 22988,
+      "sha256": "41af3b6153e8e3a8e30f8c13fca4446e8bde10fc1c40936e5a437ac9e7a3aa87"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 6270,
+      "sha256": "c6adc58e197734ebd40f994f995d37ff91c7c0c4ad976b3849ffa7356fb1c76f"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 6369,
+      "sha256": "eba2b3f79b2ec2d60b3cef015d0b5b2f47e45dc3063d090ae9dd7590189f4703"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 6360,
+      "sha256": "27eac5191f10ccf0c6dc35c2de14bc514ca80307285bf031e187aecb95af014b"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 6360,
+      "sha256": "27eac5191f10ccf0c6dc35c2de14bc514ca80307285bf031e187aecb95af014b"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 740,
+      "sha256": "695d3d1c6cfe520021fbebe925d92f313ed6593219e6b113089e03d5b0ef76f7"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 6270,
+      "sha256": "c6adc58e197734ebd40f994f995d37ff91c7c0c4ad976b3849ffa7356fb1c76f"
+    },
+    {
+      "path": "src/variant-highlighted.svg",
+      "role": "editable source",
+      "bytes": 6360,
+      "sha256": "27eac5191f10ccf0c6dc35c2de14bc514ca80307285bf031e187aecb95af014b"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "highlighted",
+      "files": [
+        "exports/highlighted.png",
+        "src/variant-highlighted.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        37,
+        37
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        23,
+        26
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        311,
+        330
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R04a"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
+    "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
+    "All focus targets have individually timed holds.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

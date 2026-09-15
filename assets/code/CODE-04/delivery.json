@@ -1,0 +1,293 @@
+{
+  "id": "CODE-04",
+  "title": "Nested For / Next matching brackets",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "literal source-code illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 10,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 506,
+      "sha256": "000624ae5c0ceb78a3c77240d747704e27d73b145843a6164a3d68f89e20f3d6"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1185,
+      "sha256": "a75fb424fd1119329f3531a6f16a2affadaf9e022d9aa90079c558b2d295b2e1"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 975,
+      "sha256": "75fe4ed5577dcee02ceee80727667c28dbdc9417cf94ff14d4071b712325badc"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 960,
+      "sha256": "464648e6b5dce8f62e79df7ceed6f76b94a94c02d3832086f6d1e793f3a125ed"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 84463,
+      "sha256": "be1450f03dd24c0d07a9ca98bf87cd06e2c1ea964a802240dc9f805a97c2210e"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 99805,
+      "sha256": "57f1c15173e0ef8334982111f1178719bb40d93c074a56591d2a3abc2a6d152f"
+    },
+    {
+      "path": "exports/highlighted.png",
+      "role": "rendered still",
+      "bytes": 91323,
+      "sha256": "52aaa4fbf9940646875b5aa938a18329a2e77c75f3c86fa391dc1b4c146b26ea"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 91323,
+      "sha256": "52aaa4fbf9940646875b5aa938a18329a2e77c75f3c86fa391dc1b4c146b26ea"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 91390,
+      "sha256": "978b117346408f5987a7cc3db5977213e5c9713718778535e4f38752f87f3f9a"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 84463,
+      "sha256": "be1450f03dd24c0d07a9ca98bf87cd06e2c1ea964a802240dc9f805a97c2210e"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 91840,
+      "sha256": "b7a2e84edba8eeed470687c18039fc76dc97e32a4211f3fa2cf5f12165eb1ae1"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 126023,
+      "sha256": "16f1f069c6ede672288663c44be83666447ee74e00e8381c8dc63b35abac901c"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 18747,
+      "sha256": "51711afc7e09a3c66defed529a88416c8f9f43fd22fb4991489193ffbd2dceb2"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 107406,
+      "sha256": "eeb2537ef8e17c33ed3b159f1e2f7d00b55d7304d8a066ae5538ced91b8670c3"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2400,
+      "sha256": "7c2a014f08ab0a7da057cf44510b578e7a23c6b09965c309324ca87904552276"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1999,
+      "sha256": "1efc2da5f6a2cae4a52ae9de1592c4e4a057307b541bd57a5ff8e478089fa32a"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1506,
+      "sha256": "9182c9e4460519fe3222a21223e03b61e8d9c2912991f58c0ac5a360e6e622d0"
+    },
+    {
+      "path": "src/excerpt.vb",
+      "role": "editable source",
+      "bytes": 233,
+      "sha256": "05f1dd699e235b6dcfa448301c2b41cd7f356d7f0f76c0e61c6923908a112c93"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 70269,
+      "sha256": "104d5d34a90ebd2fab384927098486a8fcf22a409011ac5b632ca7ce20530374"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 11813,
+      "sha256": "de18648923903ee6f3f3a6c9564459a136fb86ecd11e05de710e7e677e41d3c9"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 12459,
+      "sha256": "8c3d1d37e1a373969a04242966fd1f2b86e0da3c7a6fc5ba340b433495d49475"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 12464,
+      "sha256": "897a5e778e208d99ae21bc6d0ac399566ca49eaf50b17b68683d40c3cc5817d6"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 12464,
+      "sha256": "955f9006e5d52009a9ef261059640aab4930a825182611bfd4cd2d8742a7a0c8"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 12464,
+      "sha256": "16b5ab462c960d96408168b4d59be13f4048559a3b197182373bb118ec6cac65"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 12464,
+      "sha256": "897a5e778e208d99ae21bc6d0ac399566ca49eaf50b17b68683d40c3cc5817d6"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 866,
+      "sha256": "ff11500c6ba983aaa9a39f64da06cf8e00c7b9d7f0dd77cfdfb8ecbcf884a81c"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 11813,
+      "sha256": "de18648923903ee6f3f3a6c9564459a136fb86ecd11e05de710e7e677e41d3c9"
+    },
+    {
+      "path": "src/variant-highlighted.svg",
+      "role": "editable source",
+      "bytes": 12464,
+      "sha256": "16b5ab462c960d96408168b4d59be13f4048559a3b197182373bb118ec6cac65"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "highlighted",
+      "files": [
+        "exports/highlighted.png",
+        "src/variant-highlighted.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        37,
+        37
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        104,
+        110
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        277,
+        279
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
+    "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
+    "All focus targets have individually timed holds.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

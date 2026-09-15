@@ -1,0 +1,258 @@
+{
+  "id": "CARD-02",
+  "title": "Outro end card: subscribe, like, next video",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 12,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 505,
+      "sha256": "b88cebd0b30f1e6a257b5c245c2ebaf130f2846934c50cab81b18c4db5fe6397"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 893,
+      "sha256": "f4f7d2b652a40091cb5befb835e185567e73c3464668719e406b83d37247799d"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 974,
+      "sha256": "97fc4a5725c634450d507ea82b160549431d72dfc537d009d93c285b42e126bc"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 502,
+      "sha256": "2de08f79710b39f2063ed08322732335e3134e534c52bff62efba7d02a007d1c"
+    },
+    {
+      "path": "exports/clean-end-card.png",
+      "role": "rendered still",
+      "bytes": 33701,
+      "sha256": "8b1c9ca551d770a5b284fadcf391ebb7e92e28ec6228b88942af2c3f33ff79c8"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 34633,
+      "sha256": "4470f5133e7989bc6627ed5dd746e076e947d608271c2b86c65207642528b023"
+    },
+    {
+      "path": "exports/end-card-motion.png",
+      "role": "rendered still",
+      "bytes": 33701,
+      "sha256": "8b1c9ca551d770a5b284fadcf391ebb7e92e28ec6228b88942af2c3f33ff79c8"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 33701,
+      "sha256": "8b1c9ca551d770a5b284fadcf391ebb7e92e28ec6228b88942af2c3f33ff79c8"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 33701,
+      "sha256": "8b1c9ca551d770a5b284fadcf391ebb7e92e28ec6228b88942af2c3f33ff79c8"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 8595,
+      "sha256": "9ee4a0601f2fc92a7f8840d0433a2a93621b1686fe47c560d804fa681f4584e7"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 33701,
+      "sha256": "8b1c9ca551d770a5b284fadcf391ebb7e92e28ec6228b88942af2c3f33ff79c8"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 54959,
+      "sha256": "c4b5efe1414ce28a949410c54b4d319b7321f9e5aeea8a0969663b18705be811"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 12265,
+      "sha256": "7c9c947b609a4a98fcd66e0ea08b279935ac8aae88c85e07fa15008b7e074eef"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 33234,
+      "sha256": "1bc8095607c2a55a2eecf406239d237955dd78e501a14e85a01da834ae1eb6d8"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2340,
+      "sha256": "b509c41d42e72e7bce5b67dbb068d1e9898d2b14d924f8fe8b5d363717db3880"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1254,
+      "sha256": "3148a10e646ce8b9c2dd4b667cad741629eb5071f4e503d6eed2c9c5029eb927"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1044,
+      "sha256": "c13425b831927c2b052f347430ee5f01ac6728daaf7039f483a6be709bb6db04"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 5853,
+      "sha256": "8cd210509b266eb9b59d49f9f458931bfccf4e8b8a09e15b22c4c67116a685fa"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 549,
+      "sha256": "ce751c9932799621c5e93ba43e9d41e148875bce59f14ff8ddc57544bb4826eb"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 2997,
+      "sha256": "a7fb745f24ad6c4933cced48da66281facf9169ca5530a93e87d043b51145b18"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 2997,
+      "sha256": "a7fb745f24ad6c4933cced48da66281facf9169ca5530a93e87d043b51145b18"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 622,
+      "sha256": "6c912bfb59e67f2267e0f0db359ef7ae7d7aabe885a6b84a47dff243488f32c8"
+    },
+    {
+      "path": "src/variant-clean-end-card.svg",
+      "role": "editable source",
+      "bytes": 2997,
+      "sha256": "a7fb745f24ad6c4933cced48da66281facf9169ca5530a93e87d043b51145b18"
+    },
+    {
+      "path": "src/variant-end-card-motion.svg",
+      "role": "editable source",
+      "bytes": 2997,
+      "sha256": "a7fb745f24ad6c4933cced48da66281facf9169ca5530a93e87d043b51145b18"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean-end-card",
+      "files": [
+        "exports/clean-end-card.png",
+        "src/variant-clean-end-card.svg"
+      ]
+    },
+    {
+      "name": "end-card-motion",
+      "files": [
+        "exports/end-card-motion.png",
+        "src/variant-end-card-motion.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        40,
+        40
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        739,
+        743
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "The reserved next-video rectangle and subscribe circle are not functional YouTube controls. No destination, thumbnail or channel identity has been invented.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}
