@@ -745,9 +745,9 @@ That's not hyperbole. Before VB, writing a Windows application was a professiona
 
 The language was readable in a way that C-based languages aren't. `If PlayerScore > HighScore Then` reads like an English sentence. `For Each Item In Collection` tells you exactly what it's doing. You didn't need to know what a pointer was. You didn't need to manage memory. You didn't need to understand header files or linking or preprocessor directives. You just wrote what you meant, and it worked.
 
-Microsoft estimated that by the late 1990s, there were more lines of Visual Basic code in production than any other language. VB6, released in 1998, became one of the most beloved development tools ever made. There are VB6 applications still running today — in 2024 — in banks, hospitals, manufacturing plants, and government offices. Software that was written 25 years ago, is still doing its job, and nobody wants to touch it because rewriting it would be expensive and risky.
+Microsoft estimated that by the late 1990s, there were more lines of Visual Basic code in production than any other language. VB6, released in 1998, became one of the most beloved development tools ever made. There are VB6 applications still running today in banks, hospitals, manufacturing plants, and government offices. Software that was written a quarter century ago, still doing its job, and nobody wants to touch it because rewriting it would be expensive and risky.
 
-**[VISUAL: An old Windows XP machine in an office setting, running a VB6 app. The wallpaper is Bliss. The form has that very specific VB6 look — gray controls, 3D borders.]**
+**[VISUAL: An old Windows XP machine in an office setting, running a Visual Basic application. The wallpaper is Bliss. The form has that very specific Visual Basic look — gray controls, 3D borders.]**
 
 And then Microsoft killed it.
 
