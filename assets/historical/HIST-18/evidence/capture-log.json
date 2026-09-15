@@ -1,0 +1,41 @@
+[
+ {
+  "scale": 1,
+  "out": "source/raw/capture-800w-1x.png",
+  "css_size": [
+   800,
+   905
+  ],
+  "images": 28,
+  "broken_images": [],
+  "computed_font_family": {
+   "body": "\"Times New Roman\"",
+   "tt": "monospace",
+   "courier_highlight": "\"Courier New\", Courier"
+  }
+ },
+ {
+  "scale": 2,
+  "out": "source/raw/capture-800w-2x.png",
+  "css_size": [
+   800,
+   905
+  ],
+  "images": 28,
+  "broken_images": [],
+  "computed_font_family": {
+   "body": "\"Times New Roman\"",
+   "tt": "monospace",
+   "courier_highlight": "\"Courier New\", Courier"
+  }
+ },
+ {
+  "out": "evidence/wayback-replay-page.png",
+  "url": "https://web.archive.org/web/19961221110042/http://www.download.com/",
+  "http_errors": []
+ },
+ {
+  "chromium_version": "chromium",
+  "aborted_requests": []
+ }
+]

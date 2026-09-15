@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 15 Sep 2026 20:29:39 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-archive-orig-server: Netscape-Communications/1.12
+x-archive-orig-date: Saturday, 21-Dec-96 11:00:47 GMT
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sat, 21 Dec 1996 11:00:42 GMT
+link: <http://www.download.com:80/>; rel="original", <http://web.archive.org/web/timemap/link/http://www.download.com:80/>; rel="timemap"; type="application/link-format", <http://web.archive.org/web/http://www.download.com:80/>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: INA-HISTORICAL-2007-GROUP-KUR-20100812000000-00000-c/INA-HISTORICAL-EMBEDS-1996-GROUP-AAA-20100812000000-00000.arc.gz
+server-timing: captures_list;dur=0.823047, exclusion.robots;dur=0.044547, exclusion.robots.policy;dur=0.031594, esindex;dur=0.009511, cdx.remote;dur=25.906340, LoadShardBlock;dur=1101.215057, PetaboxLoader3.datanode;dur=453.303387, PetaboxLoader3.resolve;dur=268.239735, load_resource;dur=62.551921
+x-app-server: wwwb-app54-dc6
+x-ts: 200
+x-tr: 1254
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=5
+set-cookie: wb-p-SERVER=wwwb-app54; path=/
+cache-control: private
+X-location: All
+X-AS: 7018
+X-RL: 0
+X-NA: 0
+X-Page-Cache: MISS
+Server-Timing: MISS
+X-NID: ATT-INTERNET4
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+X-sd: 0
+

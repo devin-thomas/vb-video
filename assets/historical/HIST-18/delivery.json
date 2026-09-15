@@ -1,0 +1,428 @@
+{
+ "id": "HIST-18",
+ "title": "Download.com archived site circa 1996",
+ "production_status": "produced",
+ "release_status": "blocked",
+ "provenance_type": "historical original (Wayback Machine capture 19961221110042 of http://www.download.com/) with offline real capture and derivative crop",
+ "shared_version": "win95-workbench-1.0.0 (canvas/timing contract only; no shared renderer primitives used)",
+ "duration_seconds": null,
+ "dimensions": {
+  "width": 1920,
+  "height": 1080
+ },
+ "fps": null,
+ "outputs": [
+  {
+   "path": "evidence/capture-log.json",
+   "role": "evidence",
+   "bytes": 818,
+   "sha256": "21815e6dcb733526e1ff84c9398da53b883faaa4d6382708e5080c47748fd09d"
+  },
+  {
+   "path": "evidence/cdx-download.com-1996.json",
+   "role": "evidence",
+   "bytes": 705,
+   "sha256": "e7301885ed00bd1d544a54bf1538b773143fdf947719e5a94f08ba0ac4ac4a24"
+  },
+  {
+   "path": "evidence/claim-checks.json",
+   "role": "evidence",
+   "bytes": 2711,
+   "sha256": "93b8824b8c216415be78bc0a0114f6ec38b114af143be2ea3a79cbd78b3d38df"
+  },
+  {
+   "path": "evidence/embeds.json",
+   "role": "evidence",
+   "bytes": 16654,
+   "sha256": "b759c2c5db601f775db6167c682fd395c2af6af0ac682b877df63cfbfbcecea5"
+  },
+  {
+   "path": "evidence/proofs/editorial-frame-720p.png",
+   "role": "720p inspection proof",
+   "bytes": 275541,
+   "sha256": "eef734d8713fb328bad09146236f77bb6569b79da805725e3d55a9f1ee9ef97d"
+  },
+  {
+   "path": "evidence/proofs/original-720p.png",
+   "role": "720p inspection proof",
+   "bytes": 225453,
+   "sha256": "03ec424543169ba756e86407d2f31d0eccf4b2f530844db72b19b946d21ab9e2"
+  },
+  {
+   "path": "evidence/provenance.json",
+   "role": "evidence",
+   "bytes": 3061,
+   "sha256": "8b9f4f9e197c18558e197c429554df9778a578ffcd741178cd309138e6049c93"
+  },
+  {
+   "path": "evidence/rights.json",
+   "role": "evidence",
+   "bytes": 2721,
+   "sha256": "7c7d58742577879b9c9b479ea43e802e8acc2b4764050ff7d1e937cc2ac00e5d"
+  },
+  {
+   "path": "evidence/source-excerpts.md",
+   "role": "evidence",
+   "bytes": 3013,
+   "sha256": "4b85df60677ec3794505333fba9483d910177d618e96cec6c5f6dd72ecec8608"
+  },
+  {
+   "path": "evidence/source.json",
+   "role": "evidence",
+   "bytes": 4875,
+   "sha256": "5a8dcafdfc2a03e461cce2db5fc2805cdc78483ee12711782c3702d82fc6a8aa"
+  },
+  {
+   "path": "evidence/transforms.json",
+   "role": "evidence",
+   "bytes": 1565,
+   "sha256": "47c51f75c996cf4195bc90ae9d68a46b6d5a3b8d885b2e388fd4d06375651782"
+  },
+  {
+   "path": "evidence/wayback-replay-page.png",
+   "role": "evidence",
+   "bytes": 121968,
+   "sha256": "b02c28e5accbeb84d5e2abb47aa36a87e13f70f2437bc1c6b99998c281a39948"
+  },
+  {
+   "path": "evidence/wayback-response-headers.txt",
+   "role": "evidence",
+   "bytes": 1652,
+   "sha256": "404080f6db20af8d8402071274e65d8a5a81555d5367560c129aaf94b4019157"
+  },
+  {
+   "path": "exports/editorial-frame.png",
+   "role": "variant editorial-frame (1920x1080 reversible crop)",
+   "bytes": 458966,
+   "sha256": "4d79b62f2854edba39e10b5e2d1eacc0fbbd532f47df05f8a08807727932f24c"
+  },
+  {
+   "path": "exports/original.png",
+   "role": "variant original (1920x1080 uncropped framing)",
+   "bytes": 374889,
+   "sha256": "e1e92aaac2ceb1b5d5f26e9a3b3a04fc7daf846fcf825eb5422a7beaf59d7e85"
+  },
+  {
+   "path": "qa.md",
+   "role": "qa report",
+   "bytes": 6276,
+   "sha256": "194f8918b11e2149ed2446ba4c8135f36eb15c001faf4138ef80a5acc411d14b"
+  },
+  {
+   "path": "source/embeds/Banners_Images_genmagic.mcwbutt.banner.gif_5855292",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 8337,
+   "sha256": "8de0674812ee1027fdac5245872454c7c3a25616baec4e34ddd1e7c865307bb4"
+  },
+  {
+   "path": "source/embeds/Images_backshadow2.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 216,
+   "sha256": "9863680feaa4a35a9a4a2b0ae8de0a06836c62b98d7aeb26833b46dbc7207973"
+  },
+  {
+   "path": "source/embeds/Images_bd_mkpl.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 451,
+   "sha256": "317d0d79ca8bc925f75c29ea64c29aa0604631e4ebd411ec18a859b2d5e97555"
+  },
+  {
+   "path": "source/embeds/Images_Bugs_bug.new.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 66,
+   "sha256": "fa0b71149f2f6e03d53074bffb4f5a0cd49dfd0f3c0b794695b1ed5701c9fc2d"
+  },
+  {
+   "path": "source/embeds/Images_bump.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 47,
+   "sha256": "7ff032e879d0c001dd857eb0be92b059076269eea77ed47361a1a9b7d392e4b7"
+  },
+  {
+   "path": "source/embeds/Images_dl-allcat.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 220,
+   "sha256": "8bb6d15d39a7bee42d36756c1a45021136dced9c8a3f8a3ca0e535df86074f06"
+  },
+  {
+   "path": "source/embeds/Images_dl-baselogo.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 796,
+   "sha256": "c5cfe8690a8d68cfa093f04019162ae3fa9ed632c47edb8536d50886815495de"
+  },
+  {
+   "path": "source/embeds/Images_dl-cat-bar.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 826,
+   "sha256": "05e94be56b0179849bbe40f1ef988464e2ede9913cb9dae41d88bf62234bf200"
+  },
+  {
+   "path": "source/embeds/Images_dl-cnet.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 226,
+   "sha256": "059fb99f50da81f8a9fdca1a995ebde1a6fe420066adc5f880a2bc9aab18ae08"
+  },
+  {
+   "path": "source/embeds/Images_dl-menu.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 137,
+   "sha256": "ff34668cbe67a943effce28cca18c673040720cf9498916d02e37778bea9c985"
+  },
+  {
+   "path": "source/embeds/Images_dl-mpop2-b.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 914,
+   "sha256": "8d3e4abdf6f6d78b5ea6ec1ebf6ac3e99f472e452dcad031228a8fb30da9bdb8"
+  },
+  {
+   "path": "source/embeds/Images_dl-new2-b.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 933,
+   "sha256": "c5820d91446f76bbc719c423ab3ed500fca86bdb9637ba6451965a2c45f57acf"
+  },
+  {
+   "path": "source/embeds/Images_dl-picks2-b.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 803,
+   "sha256": "772316ff5bdf87464aa3f2af4e6e4f70725bbc6a8338bb99504812a585ce23ab"
+  },
+  {
+   "path": "source/embeds/Images_dl-pillfront.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 807,
+   "sha256": "2730d885baddb767dcd054f018aa3e77aa5a77e0c00897361b62eb0a202860b9"
+  },
+  {
+   "path": "source/embeds/Images_dlplat-pc.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 269,
+   "sha256": "f54b9579938d52a19dc50bcdf95cd955eeefc074f5ae88c9545f26fc0008994e"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_Buttonbar_frontpage.frontbutton.banner.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 1029,
+   "sha256": "52342394c504bc42fbab36b3c6efc083c77858595cb34a4373e200b4ff9c5f89"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_Buttonbar_intermind.frontbutton.banner.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 1497,
+   "sha256": "11d885be785cc2eb9320fdf0171ba1a3f0b91cbbbbb884e083a730d88dbfae89"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_Buttonbar_msie.frontbutton.banner.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 2686,
+   "sha256": "97bff106e5772f14d38d1345c3a35e6072bd01c20335e64ad477366674f98f87"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_Buttonbar_tierra.frontbutton.banner.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 1140,
+   "sha256": "d9b6235c6622e4bd435a0d4d0090fe137ff637774b5b1fda8f85e66be33ae582"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_Buttonbar_winzip.frontbutton.banner.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 991,
+   "sha256": "917bc8ab136bc0543296b66a7e018753cbea94a6688589458a152596607128ee"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_dl-mktplce.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 208,
+   "sha256": "f217154bf764e83b23f0567110667ff8f8dc983c79ee7e6d7e274488ee840645"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_magic.2.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 4052,
+   "sha256": "dbf4c594d87749b431e75ab7ebac9aec77c214b39d8f509e150d6efe8737f773"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_searchyahoo.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 151,
+   "sha256": "8c34ce24ca92131ecdd93bb7220e49953c33416f1a397c38af9183a22c62a4ef"
+  },
+  {
+   "path": "source/embeds/Images_Frontdoor_yahoo.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 1122,
+   "sha256": "939f7d6338ba5f70fe1ef7c32ed67c02a76c3c712a8b07b8815aeefcf76f60c9"
+  },
+  {
+   "path": "source/embeds/Images_high-bar.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 656,
+   "sha256": "a03bf74f933cf8f3d21fcfefa72544ff024bdd77edd48b7ec862770e46b98a9c"
+  },
+  {
+   "path": "source/embeds/Images_navball.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 583,
+   "sha256": "aad2f23f58f05fb66e098a5638398d615a95cca26b200a15c948d012c4d561f5"
+  },
+  {
+   "path": "source/embeds/Images_PC_logohd.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 3642,
+   "sha256": "fd5238e9753d7d9a2ba46299f46099fd7c4af335440c7428a5c5405324c0e810"
+  },
+  {
+   "path": "source/embeds/Images_qs2-bar.gif",
+   "role": "native original (archived embedded image, byte-exact)",
+   "bytes": 642,
+   "sha256": "44ae4ea2755829f67ef6f0388ffc0c27392e2f5220db6309ea5395a06bb6a3c6"
+  },
+  {
+   "path": "source/original.html",
+   "role": "native original (archived HTML, byte-exact)",
+   "bytes": 14744,
+   "sha256": "167109450df3f44d4b7aa42a9637ef5cce4aaeaaa0cc461d99deccc8f4211d24"
+  },
+  {
+   "path": "source/raw/capture-800w-1x.png",
+   "role": "uncropped raw capture (offline render of archived bytes)",
+   "bytes": 108603,
+   "sha256": "6666b1bd51e18dfe549517b249aea090f07f5e28992f8fb66509ec71a0994426"
+  },
+  {
+   "path": "source/raw/capture-800w-2x.png",
+   "role": "uncropped raw capture (offline render of archived bytes)",
+   "bytes": 504720,
+   "sha256": "26b9ac90e4b4a7a156addbd0f6a851e076ca4e167406d61964ea1c0bc401c01b"
+  },
+  {
+   "path": "src/capture.py",
+   "role": "reproduction script",
+   "bytes": 4683,
+   "sha256": "bb0df3373fb85d2167368e5438f1f13d9a89be1a73bc49e6d5fe5ec76156ca39"
+  },
+  {
+   "path": "src/frame.py",
+   "role": "reproduction script",
+   "bytes": 3480,
+   "sha256": "19abf462e92b4629230fbf1001499142072152ef2b05abd19a4a28b008b4f04c"
+  },
+  {
+   "path": "src/make_delivery.py",
+   "role": "reproduction script",
+   "bytes": 5426,
+   "sha256": "5087568c147ad631f6cf0411268681773c6976a1906c5c61ee58009aad40633b"
+  }
+ ],
+ "variants": [
+  {
+   "name": "original",
+   "paths": [
+    "source/original.html",
+    "source/raw/capture-800w-2x.png",
+    "source/raw/capture-800w-1x.png",
+    "exports/original.png"
+   ],
+   "timeline": null,
+   "note": "Still; holds for editorial timing. exports/original.png is the uncropped page framed at 1920x1080."
+  },
+  {
+   "name": "editorial-frame",
+   "paths": [
+    "exports/editorial-frame.png"
+   ],
+   "timeline": null,
+   "note": "Still; holds for editorial timing. Crop CSS [0,0,800,706] of source/raw/capture-800w-2x.png (evidence/transforms.json)."
+  }
+ ],
+ "sources": [
+  {
+   "path": "../../../sources/SCRIPT.md",
+   "lines": [
+    595,
+    597
+   ],
+   "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+   "relationship": "visual cue served (not excerpted into media)"
+  },
+  {
+   "path": "../../../sources/ASSET_PLAN.md",
+   "lines": [
+    100,
+    100
+   ],
+   "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+   "relationship": "plan lead"
+  },
+  {
+   "path": "source/original.html",
+   "url": "http://web.archive.org/web/19961221110042id_/http://www.download.com:80/",
+   "relationship": "historical original",
+   "record": "evidence/source.json"
+  },
+  {
+   "path": "source/embeds/",
+   "relationship": "historical original",
+   "record": "evidence/embeds.json"
+  },
+  {
+   "path": "source/raw/capture-800w-2x.png",
+   "relationship": "real capture",
+   "record": "evidence/capture-log.json"
+  },
+  {
+   "path": "exports/editorial-frame.png",
+   "relationship": "derivative crop",
+   "record": "evidence/transforms.json"
+  }
+ ],
+ "credits": [
+  {
+   "text": "download.com home page, © 1996 CNET Inc. Archived by the Internet Archive Wayback Machine, 21 December 1996.",
+   "rights_status": "unresolved",
+   "license": null,
+   "record": "evidence/rights.json"
+  }
+ ],
+ "tests": [
+  {
+   "name": "offline render integrity",
+   "command": "python assets/historical/HIST-18/src/capture.py --replay",
+   "result": "28 images, 0 broken, 0 aborted requests at scale 1 and 2; Wayback replay 0 HTTP errors",
+   "log": "evidence/capture-log.json"
+  },
+  {
+   "name": "export PNG size",
+   "command": "Pillow Image.open size check",
+   "result": "both exports 1920x1080 RGB"
+  },
+  {
+   "name": "manual inspection full size",
+   "result": "both exports viewed as 1:1 tiles; pass (see qa.md)"
+  },
+  {
+   "name": "manual inspection 720p",
+   "result": "evidence/proofs/*-720p.png viewed; pass, uncropped footer text small (see qa.md)"
+  },
+  {
+   "name": "delivery validator",
+   "command": "python tools/validate_delivery.py --id HIST-18",
+   "result": "run after generation; output in state.json notes"
+  }
+ ],
+ "unresolved_gates": [
+  "R14"
+ ],
+ "toolchain": {
+  "python": "3.14.0",
+  "playwright": "1.63.0",
+  "chromium": "153.0.8010.12",
+  "pillow": "12.3.0",
+  "font": "Segoe UI (system, C:/Windows/Fonts/segoeui.ttf, not bundled)",
+  "os": "Windows 11 Pro 10.0.26200"
+ },
+ "notes": [
+  "Capture is a modern Chromium render of archived 1996 bytes, not a period Netscape screenshot.",
+  "Release blocked: no license; rights review question in evidence/rights.json.",
+  "Caption line, background and crop are authored additions (evidence/provenance.json)."
+ ]
+}

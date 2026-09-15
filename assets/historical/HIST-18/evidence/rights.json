@@ -1,0 +1,21 @@
+{
+  "id": "HIST-18",
+  "gate": "R14",
+  "rights_status": "unresolved",
+  "cleared": false,
+  "summary": "The archived page and its images carry no license. The page is marked all rights reserved by CNET Inc. It also contains third-party advertising, product artwork and logos. Public availability on the Wayback Machine is not a license. Use in the video would rest on fair use or on permission. That is a legal judgment this ticket cannot make.",
+  "elements": [
+    {"element": "Page HTML, layout, text, DOWNLOAD.COM / CNET logos and navigation graphics", "rights_holder_stated": "CNET Inc. (© 1996, all rights reserved)", "current_successor": "not verified", "license": "none"},
+    {"element": "Top banner advertisement (/Banners/Images/genmagic.mcwbutt.banner.gif): 'KICK MORE OF IT. Download Magic Cap for Windows 95 now. FREE'", "rights_holder_stated": "not stated on page; ad links to genmagic.com (General Magic)", "license": "none"},
+    {"element": "Highlight artwork /Images/Frontdoor/magic.2.gif beside 'Card game phenomenon' (Magic: The Gathering)", "rights_holder_stated": "not stated on page; underlying game artwork rights holder not verified", "license": "none"},
+    {"element": "Sponsor buttons: Microsoft Internet Explorer, Intermind Communicator, Microsoft FrontPage 97, Tierra Highlights, WinZip 6.2; BuyDirect.com; Yahoo! logo", "rights_holder_stated": "not stated on page; trademarks of the respective companies (not individually verified)", "license": "none"}
+  ],
+  "host_archive_terms": {
+    "internet_archive_rights_page": {"url": "https://help.archive.org/help/rights/", "accessed": "2026-09-15", "finding": "Archive makes no guarantee of copyright status and does not grant reuse permission."},
+    "internet_archive_terms_of_use": {"url": "https://archive.org/about/terms.php", "accessed": "2026-09-15", "finding": "Use of the Collections limited to noninfringing or fair use (wording confirmed via the Archive's 2014-12-30 announcement; live page is script-rendered and was not text-extracted)."}
+  },
+  "access_boundary": "Anonymous public GET only; no account, payment, terms click-through, CAPTCHA, or watermark removal.",
+  "not_assumed": ["public domain", "fair use", "permission from CNET or successor", "permission from advertisers or trademark owners"],
+  "credit_text_proposed": "download.com home page, © 1996 CNET Inc. Archived by the Internet Archive Wayback Machine, 21 December 1996.",
+  "review_question": "Should the video use this archived CNET page (with a third-party ad, Magic: The Gathering artwork and sponsor logos) under a fair-use/commentary rationale, seek permission from the current rights holder, or drop it? A rights decision is needed before release."
+}
