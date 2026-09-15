@@ -1,0 +1,91 @@
+{
+  "id": "XTRA-03",
+  "gate": "R14",
+  "release_status": "blocked",
+  "selected_file": {
+    "path": "source/original.jpg",
+    "rights_holder": "Arnold Reinhold (photographer; uploaded as 'Own work')",
+    "licenses": [
+      {
+        "name": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "legal_code_checked": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.en (read 2026-09-15)"
+      },
+      {
+        "name": "GNU Free Documentation License 1.2 or later",
+        "url": "http://www.gnu.org/copyleft/fdl.html"
+      }
+    ],
+    "license_evidence_url": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg",
+    "access_method": "Anonymous public download from upload.wikimedia.org. No account, terms acceptance, payment, or access-control bypass.",
+    "access_date": "2026-09-15",
+    "attribution_required": "Section 4(c): author name, work title, URI where practicable, and a statement of how the work was changed.",
+    "credit_text": "Teletype Model 33 ASR at the Computer History Museum. Photo: Arnold Reinhold, 2014, via Wikimedia Commons, CC BY-SA 3.0 (creativecommons.org/licenses/by-sa/3.0). Scaled and pillarboxed.",
+    "modifications_to_disclose": "Scaled to 1440x1080 and pillarboxed to 16:9 on a dark ground.",
+    "share_alike_note": "In CC BY-SA 3.0 Unported, the 'avoidance of doubt' clause that makes synchronizing with moving images an Adaptation applies only where the Work is a musical work, performance or phonogram. Whether placing this still in the finished video creates an Adaptation (triggering ShareAlike on the video) or a Collection is a legal judgement this worker cannot make.",
+    "third_party_content_in_frame": [
+      "A partially visible museum display card (Computer History Museum text, soft focus, cut off at the frame edge).",
+      "A partially visible yellow museum sign with unreadable dark shapes (top centre).",
+      "A decal reading 'TimeShare Corporation' on the machine, an incidental third-party name/logo."
+    ],
+    "rights_status": "license recorded, not cleared"
+  },
+  "why_blocked": [
+    "R14 requires an item-specific decision, and no reviewer has recorded one.",
+    "ShareAlike consequences for the finished video are a legal question (see share_alike_note).",
+    "Incidental third-party museum signage and a company decal are visible; whether that matters for publication is a judgement call.",
+    "Editorial fit: the picture shows a Model 33 ASR, but Dartmouth's own October 1964 document names Model 35 consoles."
+  ],
+  "candidates_considered": [
+    {
+      "rank": 1,
+      "status": "selected, acquired",
+      "title": "ASR-33 at CHM.agr.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg",
+      "rights": "CC BY-SA 3.0 / GFDL 1.2+",
+      "limitations": "Model 33, not Dartmouth's documented Model 35. Museum unit with unknown history. 4:3 frame, so pillarboxed."
+    },
+    {
+      "rank": 2,
+      "status": "preferred if permission is obtained; not acquired",
+      "title": "Dartmouth Alumni Magazine, Nov 1964, 'The Computer Revolution', pp. 26-29 photographs (students at College Hall input-output stations; Datanet-30; GE-235 console)",
+      "url": "https://archive.dartmouthalumnimagazine.com/article/1964/11/1/the-computer-revolution",
+      "rights": "Masthead (p.3): 'All publication rights reserved', reprint only by permission of the editor. Publisher then: Dartmouth Secretaries Association. The site footer is also marked all rights reserved. Photographer credits for these interior photos were not legible in the 600px scans.",
+      "limitations": "Only 448x600 page thumbnails are served anonymously (larger sizes HTTP 403), which is unusable at 1080p. Needs permission and a high-resolution scan from the magazine or Dartmouth Libraries (Rauner). Not downloaded into the repository."
+    },
+    {
+      "rank": 3,
+      "status": "rejected",
+      "title": "ASR-33 2.jpg (Marcin Wichary, 2005)",
+      "url": "https://commons.wikimedia.org/wiki/File:ASR-33_2.jpg",
+      "rights": "CC BY 2.0",
+      "limitations": "The unit is badged 'Tymshare' and photographed at a sale, with a $600 price sticker and a printed sale sheet in frame. Also 1600x1200 only."
+    },
+    {
+      "rank": 4,
+      "status": "rejected",
+      "title": "Teletype Model 33 ASR (1968) (14689737122).png (Dennis van Zuijlekom, 2014)",
+      "url": "https://commons.wikimedia.org/wiki/File:Teletype_Model_33_ASR_(1968)_(14689737122).png",
+      "rights": "CC BY-SA 2.0 (FlickreviewR confirmed)",
+      "limitations": "The unit is a 1968 machine badged 'digico' on a non-standard stand with a copy holder. Portrait 3380x5495, a poor 16:9 fit."
+    },
+    {
+      "rank": 5,
+      "status": "not acquired (rate-limited); not inspected at full size",
+      "title": "Teletype Model 33 (15427779806).jpg (Kai Wegner, 2014)",
+      "url": "https://commons.wikimedia.org/wiki/File:Teletype_Model_33_(15427779806).jpg",
+      "rights": "CC BY 2.0 (FlickreviewR confirmed 2021-12-12)",
+      "limitations": "upload.wikimedia.org returned HTTP 429 on three attempts, so the content was never seen. A possible CC BY (no ShareAlike) alternative if the review prefers to avoid BY-SA."
+    },
+    {
+      "rank": 6,
+      "status": "rejected for this ticket",
+      "title": "Bell telephone magazine (1967) (14569771118).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bell_telephone_magazine_(1967)_(14569771118).jpg",
+      "rights": "PD-US (no notice) per Commons",
+      "limitations": "Shows a CRT and light-pen design console, not a time-sharing teleprinter."
+    }
+  ],
+  "no_free_model_35_found": "Commons has no Category:Teletype Model 35 (HTTP 404) and no Model 35 file in Category:Teletypes or Category:ASR-33 (checked 2026-09-15). The CHM catalog has ASR-35/KSR-35 records (102760446, 102662164) with no reproduction licence stated.",
+  "human_handoff": "If a genuine 1964 Dartmouth terminal photo is wanted, someone must request permission and a high-resolution scan of the November 1964 Dartmouth Alumni Magazine pp. 26-29 photographs (or the originals, which may be in Dartmouth Libraries' Rauner Special Collections). No request was sent."
+}

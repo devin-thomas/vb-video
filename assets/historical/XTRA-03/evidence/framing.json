@@ -1,0 +1,27 @@
+{
+  "asset": "XTRA-03",
+  "operation": "uniform scale to fit, centre, pillarbox; no crop, no stretch, no retouch, no overlay text",
+  "source": {
+    "path": "source/original.jpg",
+    "sha256": "8bfd08bf3a77e1632d6ec43c5b5f566b0719b2e8a3b7524c14736b5a3f5fcc16",
+    "width": 3264,
+    "height": 2448,
+    "exif_orientation": 1
+  },
+  "scale": 0.441176,
+  "placed_image": {
+    "x": 240,
+    "y": 0,
+    "width": 1440,
+    "height": 1080
+  },
+  "ground_rgb_hex": "#111318",
+  "resample": "Pillow LANCZOS",
+  "outputs": {
+    "editorial_frame": "exports/editorial-frame.png",
+    "proof_720p": "evidence/proof-720p.png"
+  },
+  "reversal": "Crop exports/editorial-frame.png to box (240,0,1680,1080) to recover the whole picture at 1440x1080; the full-resolution original is source/original.jpg.",
+  "metadata_note": "EXIF (including any camera location tags) is not written into the PNG exports; the original keeps it unchanged.",
+  "pillow": "12.3.0"
+}

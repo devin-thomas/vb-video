@@ -1,0 +1,63 @@
+{
+  "id": "XTRA-03",
+  "classification": "historical source (modern museum photograph of period hardware)",
+  "plan_origin": "SCRIPT-SUPPLEMENT: requested by SCRIPT.md, omitted from the categorized asset plan; not an ASSET_PLAN row",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [63, 71],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script anchor: visual request 'Old terminal hardware'"
+    },
+    {
+      "path": "source/original.jpg",
+      "sha256": "8bfd08bf3a77e1632d6ec43c5b5f566b0719b2e8a3b7524c14736b5a3f5fcc16",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/ASR-33_at_CHM.agr.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg",
+      "relationship": "historical original (acquired native file, unmodified)"
+    }
+  ],
+  "external_evidence_not_vendored": [
+    {
+      "title": "The Dartmouth Time-Sharing System: A Brief Description (Dartmouth College Computation Center, 19 October 1964), scan",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_Dartmouth_Time-Sharing_System%2C_A_Brief_Description_-_October_19%2C_1964_%28original%29.pdf",
+      "sha256_read": "653e0ebc10ff8f8e8f3bfdae71834637f4a08688fdc7beb309ca8b3a86d8274f",
+      "used_for": "terminal model named in 1964 (Model 35)"
+    },
+    {
+      "title": "Same title, GE Computer Dept. Laboratory revision, 26 March 1965 (2019 retyped transcription)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Dartmouth_Time-Sharing_System,_A_Brief_Description_-_October_19,_1964.pdf",
+      "sha256_read": "0c77c30c63219a946dca65f7996a268f22cc110892bb169ea98bd1026ef5a524",
+      "used_for": "terminal models named in 1965 (Model 33/35)"
+    },
+    {
+      "title": "Dartmouth Alumni Magazine, November 1964, 'The Computer Revolution', pp. 26-29 and masthead p.3",
+      "url": "https://archive.dartmouthalumnimagazine.com/article/1964/11/1/the-computer-revolution",
+      "used_for": "genuine 1964 Dartmouth terminal photographs (candidate) and their rights notice; low-resolution thumbnails were viewed in a scratch folder only"
+    },
+    {
+      "title": "CHM Revolution: ASR-33 Teletype",
+      "url": "https://www.computerhistory.org/revolution/minicomputers/11/337/1934",
+      "used_for": "museum label identity match and stated introduction date"
+    }
+  ],
+  "derived_outputs": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (uniform scale + pillarbox, reversible)",
+      "generator": "src/render_frame.py",
+      "parameters": "evidence/framing.json"
+    },
+    {
+      "path": "evidence/proof-720p.png",
+      "relationship": "QA proof: 1280x720 downscale of the editorial frame"
+    }
+  ],
+  "authored_additions": [
+    "Pillarbox ground colour #111318 (production-bible dark background token).",
+    "Proposed caption and credit text in evidence/source.json (production proposal, not source text).",
+    "No text, graphics or annotation is burned into the image."
+  ],
+  "producer_decisions": [],
+  "access_date": "2026-09-15"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "XTRA-03",
+  "record_type": "archive source record",
+  "script_supplement": "Script-requested visual ('Old terminal hardware', SCRIPT.md:63) that the categorized asset plan omitted. Not an original ASSET_PLAN row.",
+  "creator": "Arnold Reinhold (Wikimedia Commons user ArnoldReinhold)",
+  "title": "ASR-33 at CHM.agr.jpg",
+  "description_at_source": "Teletype Corporation ASR-33 on display at the Computer History Museum.",
+  "original_publication_date": "2014-02-10T23:37:59Z (upload to Wikimedia Commons, per imageinfo API)",
+  "photograph_date": "2014-02-02 (Commons Date field; EXIF DateTime 2014:02:02 12:35:44)",
+  "depicted_event_date": null,
+  "depicted_event_note": "Not an event photograph. It shows a museum display of a Teletype Model 33 ASR, photographed in 2014. The unit's manufacture date is not stated at the source. It is not Dartmouth's equipment.",
+  "depicted_subject": {
+    "manufacturer": "Teletype Corporation",
+    "model": "Model 33 ASR (ASR-33) teleprinter with integrated paper-tape reader/punch",
+    "location_when_photographed": "Computer History Museum, Mountain View, California (per photographer's description)",
+    "unit_history": "Unknown. A decal reading 'TimeShare Corporation' is on the platen cover; no source explains it.",
+    "model_introduction_date": {
+      "value": null,
+      "evidence": [
+        "CHM Revolution gallery artifact page for the ASR-33 states 'Date Introduced: 1964' (https://www.computerhistory.org/revolution/minicomputers/11/337/1934, read 2026-09-15).",
+        "Secondary sources (Wikipedia 'Teletype Model 33', seen via search summary only) give 1963. Not independently verified."
+      ],
+      "resolution": "Conflicting 1963/1964. Leave the year out of any caption, or say 'early 1960s'."
+    }
+  },
+  "relationship_to_script_claim": {
+    "classification": "representative period hardware, not the Dartmouth unit",
+    "evidence": [
+      "Dartmouth Computation Center, 'The Dartmouth Time-Sharing System: A Brief Description', 19 Oct 1964: consoles are 'model 35 teletype machines' (text, p.1; schematic, p.2).",
+      "GE Computer Dept. Laboratory revision of the same, 26 Mar 1965: 'model 33/35 teletype machines'."
+    ],
+    "limit": "The Model 33 is documented for the Dartmouth system only from GE's March 1965 revision. Dartmouth's own October 1964 text names Model 35. Do not caption this image as the terminal BASIC first ran on, or as Dartmouth hardware."
+  },
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg",
+  "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/ASR-33_at_CHM.agr.jpg",
+  "access_date": "2026-09-15",
+  "acquisition": {
+    "method": "Anonymous HTTPS GET of the Commons original file with curl. No account, login, terms acceptance, payment, or CAPTCHA.",
+    "integrity": {
+      "commons_sha1": "5df1ff6e74dd12536bd381955a1a440e62256a77",
+      "local_sha1": "5df1ff6e74dd12536bd381955a1a440e62256a77",
+      "local_sha256": "8bfd08bf3a77e1632d6ec43c5b5f566b0719b2e8a3b7524c14736b5a3f5fcc16",
+      "bytes": 1748549,
+      "match": true
+    }
+  },
+  "version_model_evidence": [
+    "Photographer's Commons description names the Teletype Corporation ASR-33.",
+    "Museum card at the right edge of the frame is headed 'ASR-33 Telet…' (cut off by the photo edge, soft focus). Its visible opening words match the CHM Revolution label for the ASR-33.",
+    "Integrated paper-tape punch/reader at left with START/STOP/FREE switch, the 'A' (automatic send-receive) configuration.",
+    "Model 33 keyboard layout, with visible CTRL, ESC and SHIFT keycaps."
+  ],
+  "original_dimensions": {
+    "width": 3264,
+    "height": 2448
+  },
+  "original_format": "JPEG, sRGB, EXIF orientation 1 (Apple iPhone 4S)",
+  "local_original": "source/original.jpg (byte-identical, unmodified)",
+  "transformations": [
+    "source/original.jpg: none.",
+    "exports/editorial-frame.png: uniform scale x0.441176 (3264x2448 to 1440x1080, Pillow LANCZOS), centred at x=240, y=0 on flat #111318 pillarbox. No crop, stretch, retouch, colour change or overlay text. EXIF not carried into the PNG. Parameters in evidence/framing.json."
+  ],
+  "license": {
+    "terms": "Dual-licensed: Creative Commons Attribution-ShareAlike 3.0 Unported, and GNU Free Documentation License 1.2 or later (no invariant sections)",
+    "license_urls": [
+      "https://creativecommons.org/licenses/by-sa/3.0/",
+      "http://www.gnu.org/copyleft/fdl.html"
+    ],
+    "evidence_url": "https://commons.wikimedia.org/wiki/File:ASR-33_at_CHM.agr.jpg"
+  },
+  "rights_status": "license recorded; release blocked pending review (see rights.json)",
+  "credit_text": "Teletype Model 33 ASR at the Computer History Museum. Photo: Arnold Reinhold, 2014, via Wikimedia Commons, CC BY-SA 3.0 (creativecommons.org/licenses/by-sa/3.0). Scaled and pillarboxed.",
+  "proposed_caption": {
+    "status": "authored production proposal, not source text",
+    "text": "Teletype Model 33 ASR, one of the teleprinter models GE listed for the Dartmouth Time-Sharing System in 1965 (museum example, photographed 2014)."
+  }
+}
