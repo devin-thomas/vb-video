@@ -4,3 +4,5 @@ tools/war-harness/** -text
 assets/ops/OPS-02/** -text
 assets/captures/TERM-0[1-6]/** -text
 assets/captures/XTRA-06/** -text
+# Every delivered asset hashes its files in delivery.json the same way, so a Windows checkout must not add CRLF.
+assets/** -text

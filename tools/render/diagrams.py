@@ -311,5 +311,120 @@ def detail_flow():
 def flows():
  simple('DIA-10',main_flow(),{'main-flow':main_flow(),'playround-detail':detail_flow()},notes=['Overview and inner-loop detail are separate readable diagrams.','The main graphic abbreviates the source increment as RoundNumber += 1 in prose only; it is not presented as a literal VB line.','Source behavior retained: first empty-hand guard, second guard, draw, compare, tie/burn, repeat. R04/R05/R06 remain editorial gates.'])
 
+# Script-drafted tables, lineage and timeline. Every cell, edge and milestone keeps its SCRIPT.md line and verbatim quote.
+SCRIPT=(ROOT/'sources/SCRIPT.md').read_text(encoding='utf-8').splitlines()
+def cite(line,*quotes,basis='script wording'):
+ for q in quotes:assert q in SCRIPT[line-1],f'SCRIPT.md:{line} lacks {q!r}'
+ return {'source':f'SCRIPT.md:{line}','quotes':list(quotes),'basis':basis,'verification':'unverified'}
+def centered_lines(s,text,x,y,w,h,size,fill=FG,bold=False,anchor='start'):
+ ls=wrap(text,w,size,'bold' if bold else 'sans')
+ s.lines(ls,x,y+h/2-(size+(len(ls)-1)*size*1.2)/2+size*.8,size,fill,bold,leading=1.2,anchor=anchor)
+
+TOOL_COLUMNS=['Tool','Language / tooling','GUI approach','Strength','Tradeoff']
+TOOLS_1995=[
+ ('Visual Basic 4',[('BASIC',cite(92,'married it to a BASIC dialect')),
+  ('Drag-and-drop form designer',cite(619,'the same kind of drag-and-drop form designer',basis='derived from script')),
+  ('Easier than C++, more established',cite(633,'easier than C++, more established than Delphi',basis='script characterization')),
+  ('Not the best tool for any single job',cite(633,"It wasn't the best tool for any single job",basis='script characterization'))]),
+ ('Visual C++ 4 / MFC',[('C++',cite(615,'gave you a C++ framework for building Windows apps')),
+  ('MFC class framework',cite(615,'MFC — the Microsoft Foundation Classes')),
+  ('Powerful, fast',cite(615,'It was powerful, fast',basis='script characterization')),
+  ('Hard to learn: deep class hierarchies, macros',cite(615,'absolutely miserable to learn','deep class hierarchies, its reliance on macros',basis='script characterization, softened'))]),
+ ('Borland Delphi 1.0',[('Object Pascal',cite(619,'its language — Object Pascal')),
+  ('Drag-and-drop form designer',cite(619,'It had the same kind of drag-and-drop form designer')),
+  ('Native code, faster at runtime',cite(619,'compiled to native code from day one','It was faster at runtime',basis='script characterization')),
+  ('Smaller ecosystem than VB',cite(623,'The ecosystem was bigger',basis='derived from script'))]),
+ ('PowerBuilder',[('Corporate database tool',cite(625,'huge in the corporate database world',basis='derived from script')),
+  ('DataWindows for data-entry forms',cite(625,'It had a thing called DataWindows that made building data-entry forms')),
+  ('Data-entry forms made easy',cite(625,'almost trivially easy',basis='script characterization, softened')),
+  ('Expensive, rarely seen outside IT',cite(625,'expensive, corporate, and basically invisible outside of IT departments',basis='script characterization, softened'))]),
+ ('Java 1.0',[('Java, from Sun Microsystems',cite(629,'which Sun Microsystems released in 1995')),
+  ('AWT toolkit',cite(629,'its GUI toolkit — AWT')),
+  ('Write Once, Run Anywhere',cite(629,'Write Once, Run Anywhere')),
+  ('New, slow, few libraries',cite(629,'Java was brand new, brutally slow, had almost no libraries',basis='script characterization, softened'))]),
+]
+def tools_svg():
+ s=SVG(BG,'1995 development tools');s.heading('1995 development tools')
+ xs=[120,420,730,1100,1450];ws=[300,310,370,350,350];top=226;hh=62;rh=136
+ for x,label in zip(xs,TOOL_COLUMNS):s.text(label,x+18,top+42,28,MUTED,True)
+ s.line(120,top+hh,1800,top+hh,MUTED,2)
+ for i,(tool,cells) in enumerate(TOOLS_1995):
+  y=top+hh+i*rh
+  if i%2==0:s.rect(120,y,1680,rh,PANEL)
+  for j,(text,x,w) in enumerate(zip([tool]+[c[0] for c in cells],xs,ws)):centered_lines(s,text,x+18,y,w-36,rh,32 if j==0 else 30,bold=j==0)
+ return s.finish()
+def tools_table():
+ svg=tools_svg();cells={'columns':TOOL_COLUMNS,'rows':[{'tool':tool,'cells':{col:{'text':text,**ref} for col,(text,ref) in zip(TOOL_COLUMNS[1:],row)}} for tool,row in TOOLS_1995]}
+ simple('DIA-11',svg,{'full-comparison':svg},files={'cells.json':cells},notes=['Every cell is drafted from SCRIPT.md narration. src/cells.json gives each cell its line, verbatim quote, and whether it is script wording, a characterization, or a derivation. No cell is verified (R11, R15).','No price, market share, rating, benchmark, logo or box art is shown. Tool labels carry no release years: whether all five belong to 1995 is unchecked.','Tradeoffs soften the script’s harsher words (“miserable”, “brutally slow”, “invisible”); final wording needs editorial approval.'])
+
+MAC_TABLE=[('Language','BASIC','C/C++'),('GUI builder','Yes (drag & drop)','Sort of (ResEdit)'),('Learning curve','Low','Medium-high'),('Runtime required','Yes (VB runtime DLL)','No (native binary)'),('Console app like ours','Trivial','Also pretty easy, actually')]
+def mac_svg(focus=None):
+ s=SVG(BG,'Windows (VB4) versus Mac (CodeWarrior)')
+ xs=[120,640,1220];top=184;hh=100;rh=128
+ for x,label in zip(xs[1:],['Windows (VB4)','Mac (CodeWarrior)']):s.text(label,x+32,top+64,44,FG,True)
+ s.line(120,top+hh,1800,top+hh,MUTED,2)
+ for i,row in enumerate(MAC_TABLE):
+  y=top+hh+i*rh;op=.32 if focus is not None and i!=focus else 1
+  if i==focus:s.rect(120,y+8,1680,rh-16,PANEL,GOLD,3)
+  for j,(text,x) in enumerate(zip(row,xs)):
+   size=36 if j==0 else 40 if width(text,40)<=516 else 36
+   s.text(text,x+32,y+rh/2+size*.36,size,MUTED if j==0 else FG,opacity=op)
+  if i<len(MAC_TABLE)-1:s.line(120,y+rh,1800,y+rh,LINE,2)
+ return s.finish()
+def mac_table():
+ full=mac_svg();rows=[{'row':label,'Windows (VB4)':win,'Mac (CodeWarrior)':mac,**cite(663+i,label,win,mac,basis='script draft table')} for i,(label,win,mac) in enumerate(MAC_TABLE)]
+ simple('DIA-12',full,{'full-table':full,'gui-row-focus':mac_svg(1)},files={'cells.json':{'columns':['Windows (VB4)','Mac (CodeWarrior)'],'rows':rows}},notes=['All five rows and both column headings are the script’s draft table (SCRIPT.md:661–667), word for word; src/cells.json records each row’s line.','These cells are draft copy, not verified facts. Console support, the ResEdit characterization and the runtime claim wait on R03, R09 and R16.','Neutral styling: no scores, bars, icons or product screenshots. gui-row-focus dims the other four rows.','The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run.'])
+
+LINEAGE=['VB','Delphi','WinForms','WPF','Modern frameworks']
+def dashed_arrow(s,x,y,x2,y2,col,sw=3,dash='12 9'):
+ s.line(x,y,x2,y2,col,sw,dash);a=math.atan2(y2-y,x2-x)
+ s.path(f'M{x2-16*math.cos(a-.45):.2f} {y2-16*math.sin(a-.45):.2f} L{x2} {y2} L{x2-16*math.cos(a+.45):.2f} {y2-16*math.sin(a+.45):.2f}',col,sw)
+def lineage_svg():
+ s=SVG(BG,'Visual development ideas')
+ s.heading('Visual development ideas','Visual form designers · event-driven programming · RAD tools · components configured through properties')
+ w,gap,y,h=270,82.5,400,160
+ for i,label in enumerate(LINEAGE):
+  x=120+i*(w+gap);s.rect(x,y,w,h,PANEL,BLUE,2);centered_lines(s,label,x+w/2,y,w-30,h,40,bold=True,anchor='middle')
+ s.text('e.g. React, SwiftUI, Flutter',1800,y+h+50,28,MUTED,anchor='end')
+ # Working layer: the script's sequence, drawn only in the unverified style until R13 approves labels.
+ s.raw('<g id="draft-script-sequence">')
+ for i in range(4):x=120+i*(w+gap)+w;dashed_arrow(s,x+10,y+h/2,x+gap-10,y+h/2,MUTED)
+ s.raw('</g>')
+ s.text('Edge meaning',120,770,26,MUTED)
+ for k,(label,col,dash) in enumerate([('Direct technical lineage',BLUE,None),('Shared RAD ideas',GREEN,'3 9'),('Script sequence, not yet verified',MUTED,'12 9')]):
+  x=120+k*540;s.line(x,832,x+90,832,col,4,dash);s.text(label,x+116,843,30,FG)
+ return s.finish()
+def lineage():
+ svg=lineage_svg();edges=[{'from':a,'to':b,'relationship':'unverified script assertion','approved_label':None,'evidence':None,**cite(711,'VB → Delphi → .NET WinForms → WPF → modern frameworks',basis='script visual cue')} for a,b in zip(LINEAGE,LINEAGE[1:])]
+ simple('DIA-13',svg,{'overview':svg},files={'edges.json':{'nodes':LINEAGE,'edges':edges,'examples':cite(709,'from React to SwiftUI to Flutter'),'ideas':cite(709,'visual form designers, event-driven programming, RAD tools, components you can drop onto a surface and configure through properties')}},notes=['Node labels follow the ticket copy; the script’s visual cue says “.NET WinForms” (SCRIPT.md:711).','The four arrows are the script’s draft sequence, kept in their own SVG layer (draft-script-sequence) and drawn only in the unverified style. src/edges.json lists each edge; none has evidence or an approved label, so R13 stays open.','The legend defines direct-lineage and shared-ideas edges for the editorial pass; no edge uses them yet.','React, SwiftUI and Flutter appear only as the script’s examples. No node implies VB language or runtime inheritance. The optional focus overlay was not made.'])
+
+VB_RELEASES=[('VB 1.0 · 1991',cite(112,'VB 1.0 came out in 1991')),('VB 2.0 · 1992',cite(112,'VB 2.0 in 1992')),('VB 3.0 · 1993',cite(112,'VB 3.0 in 1993')),('VB 4.0 · 1995',cite(112,'VB 4.0 in 1995')),
+ ('VB 5.0 · 1997',cite(116,'VB 5.0 would come in 1997')),('VB 6.0 · 1998',cite(116,'VB 6.0 in 1998')),('VB.NET · 2002',cite(697,'announce, in 2002, that Visual Basic would become VB.NET'))]
+def timeline_svg(view):
+ s=SVG(BG,'VB timeline: '+view.replace('-',' '));axis=540
+ if view=='early-history':
+  x0,per=280,(1640-280)/7
+  s.line(x0-60,axis,1640+60,axis,MUTED,3)
+  for yr in range(1991,1999):s.line(x0+(yr-1991)*per,axis-12,x0+(yr-1991)*per,axis+12,MUTED,2)
+  for i,(label,_) in enumerate(VB_RELEASES[:6]):
+   x=x0+(int(label[-4:])-1991)*per;up=i%2==0
+   s.line(x,axis+(-22 if up else 22),x,axis+(-96 if up else 96),LINE,2);s.circle(x,axis,13,BLUE)
+   s.text(label,x,axis-122 if up else axis+150,38,FG,True,anchor='middle')
+  s.text('Spacing is proportional to time.',120,980,30,MUTED)
+ else:
+  s.line(180,axis,1040,axis,MUTED,3);s.line(1040,axis,1440,axis,LINE,3,'14 12');s.line(1440,axis,1700,axis,MUTED,3)
+  for i,(label,_) in enumerate(VB_RELEASES[:6]):
+   x=240+i*148;up=i%2==0
+   s.line(x,axis+(-20 if up else 20),x,axis+(-80 if up else 80),LINE,2);s.circle(x,axis,11,BLUE)
+   s.text(label,x,axis-102 if up else axis+128,32,FG,True,anchor='middle')
+  for dx in (-18,18):s.line(1240+dx-14,axis+30,1240+dx+14,axis-30,GOLD,4)
+  s.text('the great divide',1240,axis-70,42,GOLD,True,anchor='middle')
+  s.line(1580,axis-22,1580,axis-96,LINE,2);s.circle(1580,axis,15,GOLD);s.text(VB_RELEASES[6][0],1580,axis-122,42,FG,True,anchor='middle')
+  s.text('Schematic spacing, not to scale.',120,980,30,MUTED)
+ return s.finish()
+def timeline():
+ early=timeline_svg('early-history')
+ simple('DIA-14',early,{'early-history':early,'great-divide':timeline_svg('great-divide')},files={'milestones.json':{'milestones':[{'label':label,'year':int(label[-4:]),**ref} for label,ref in VB_RELEASES],'divide_label':cite(679,'the great divide')}},notes=['All seven milestones are the script’s draft years (SCRIPT.md:112, 116, 697), recorded with quotes in src/milestones.json. No year is verified yet (R15).','Feature callouts (VB3 and Jet, VB4 and 32-bit, VB6 as the last classic release, the VB.NET runtime change) are left off until verified.','early-history spaces 1991–1998 in proportion to time. great-divide is schematic and says so; its break marks do not imply a period without development.','No “today”, support or lifecycle label is shown (R12).'])
+
 def build_diagrams():
- event();rankchart();byref();queue();shuffle();grid();war_mechanic();full_rules();pot();flows()
+ event();rankchart();byref();queue();shuffle();grid();war_mechanic();full_rules();pot();flows();tools_table();mac_table();lineage();timeline()

@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Package production results without treating editorial clearance as media production."""
 from __future__ import annotations
-import hashlib,json,platform,shutil,subprocess,sys,importlib.metadata,re
+import argparse,hashlib,json,platform,shutil,subprocess,sys,importlib.metadata,re
 from collections import Counter
 from pathlib import Path
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[2]
-MAN=json.loads((ROOT/'manifest.json').read_text());ROWS={r['id']:r for r in MAN['tickets']}
+MAN=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8'));ROWS={r['id']:r for r in MAN['tickets']}
 VERSION='win95-workbench-1.0.0'
 def dump(path,data):
- path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n')
+ path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8',newline='\n')
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def cmd(*args):
  try:return subprocess.check_output(args,text=True,stderr=subprocess.STDOUT).strip()
@@ -25,14 +25,14 @@ def ops():
  for identity in identities+['back']:
   s=SVG('none',identity);s.card('AS' if identity=='back' else identity,7,7,144,202,back=identity=='back')
   svg=s.finish().replace('width="1920" height="1080" viewBox="0 0 1920 1080"','width="164" height="226" viewBox="0 0 164 226"')
-  (deck/f'{identity}.svg').write_text(svg)
+  (deck/f'{identity}.svg').write_text(svg,encoding='utf-8',newline='\n')
  assert len({digest(deck/f'{i}.svg') for i in identities})==52
  atlas=SVG(BG,'52 original card identities');atlas.heading('52 original card identities')
  ranks=list(map(str,range(2,11)))+['J','Q','K','A']
  for row,suit in enumerate('SHDC'):
   for col,rank in enumerate(ranks):atlas.card(rank+suit,120+col*130,220+row*193,103,145)
  ob=ROOT/ROWS['OPS-01']['asset_dir'];(ob/'exports').mkdir(exist_ok=True,parents=True);(ob/'evidence').mkdir(exist_ok=True)
- (shared/'card-atlas.svg').write_text(atlas.finish())
+ (shared/'card-atlas.svg').write_text(atlas.finish(),encoding='utf-8',newline='\n')
  cairosvg.svg2png(bytestring=atlas.finish().encode(),write_to=str(ob/'exports/card-atlas.png'))
  cap=capabilities();dump(ob/'exports/capabilities.json',cap)
  dump(shared/'VERSION.json',{'version':VERSION,'canvas':[1920,1080],'fps':30,'renderer':'studio.py / build_assets.py / diagrams.py','font_families':['Liberation Sans','DejaVu Sans Mono'],'fonts_included':False,'date_utc':datetime.now(timezone.utc).isoformat()})
@@ -54,7 +54,7 @@ Space plays; Home resets. The gallery adds visible controls and seeking. Still a
 PNG and SVG are clean artwork. MP4 uses the same states as HTML at 30 fps. `src/build.json` is the raster/video build driver; `src/timeline.json` is the editorial timing record. Update both when manually changing motion timing, or use the authoring script to keep them together. Named cutdowns have independent MP4s where required by the original ticket. All other named variants have separate SVG and PNG files.
 
 The 52 card primitives in assets/shared/cards/ are original vectors. Small cards omit redundant corner details to remain legible. They do not use copied game sprites. Do not redistribute system font files; install the named fonts locally or accept a deliberate reflow when regenerating. Existing rendered media does not depend on the viewer having any fonts.
-''')
+''',encoding='utf-8',newline='\n')
  (ob/'exports/report.md').write_text('''# Shared visual system delivered
 
 Win95-style dialogs and chapter cards, dark code/comparison panels, green-felt card scenes, original suit/rank card vectors, source highlighting, deterministic step-state HTML, PNG rendering, and 30 fps MP4 encoding are implemented. The production batch uses these components in 71 individually identified asset packages.
@@ -62,28 +62,33 @@ Win95-style dialogs and chapter cards, dark code/comparison panels, green-felt c
 Smoke-test references: CARD-01 (dialog), CODE-02 (annotated source code), DIA-05 (seekable algorithm animation). Each has PNG, HTML, MP4, keyframes, and machine-readable checks. The included 52-card atlas and 53 standalone SVGs (52 faces plus a back) test reusable card coverage.
 
 No program was executed: .NET is not installed. No historical image was acquired or passed off as original evidence. No font, remote resource, subscription, payment, or system installation was used.
-''')
+''',encoding='utf-8',newline='\n')
  dump(ob/'evidence/provenance.json',{'classification':'original shared design and export implementation','sources':[{'path':'../../../sources/ASSET_PLAN.md','lines':[7,58],'sha256':digest(ROOT/'sources/ASSET_PLAN.md')}],'font_files_distributed':False,'remote_assets':[]})
- (ob/'evidence/source-excerpts.md').write_text('# Source brief\n\n```text\n'+'\n'.join((ROOT/'sources/ASSET_PLAN.md').read_text().splitlines()[6:58])+'\n```\n')
+ (ob/'evidence/source-excerpts.md').write_text('# Source brief\n\n```text\n'+'\n'.join((ROOT/'sources/ASSET_PLAN.md').read_text().splitlines()[6:58])+'\n```\n',encoding='utf-8',newline='\n')
  dump(ob/'evidence/card-checks.json',{'identity_count':52,'unique_face_sources':52,'suits':['S','H','D','C'],'ranks':ranks,'back_provided':True,'copy_source':'Original vector construction','faces':[{ 'id':i,'file':'../../shared/cards/'+i+'.svg','sha256':digest(deck/(i+'.svg'))} for i in identities]})
  # Accurate blockers, not fake runtime delivery packages.
  for id in ['OPS-02','TERM-01','TERM-02','TERM-03','TERM-04','TERM-05','TERM-06','XTRA-06']:
-  base=ROOT/ROWS[id]['asset_dir'];st=json.loads((base/'state.json').read_text());st.update(production_status='blocked',release_status='blocked',owner='ChatGPT — capability preflight',notes=['No dotnet executable found in the active environment. No real .NET harness, run capture, or editor capture was made. The original program remains unchanged. No installs were performed.'])
+  base=ROOT/ROWS[id]['asset_dir'];st=json.loads((base/'state.json').read_text(encoding='utf-8'))
+  # Captures made later with a real .NET SDK keep their produced state.
+  if st['production_status']=='produced':continue
+  st.update(production_status='blocked',release_status='blocked',owner='ChatGPT — capability preflight',notes=['No dotnet executable found in the active environment. No real .NET harness, run capture, or editor capture was made. The original program remains unchanged. No installs were performed.'])
   dump(base/'state.json',st)
-  (base/'BLOCKER.md').write_text('# Capability blocker\n\nNo installed .NET SDK was found (`dotnet_path: null` in OPS-01/exports/capabilities.json). No terminal output or IDE screenshot is fabricated. TERM-03 also remains unproduced: code cards are not substitutes for the requested complete editor capture. Use a machine with the SDK and suitable capture capability to execute the original full ticket.\n')
+  (base/'BLOCKER.md').write_text('# Capability blocker\n\nNo installed .NET SDK was found (`dotnet_path: null` in OPS-01/exports/capabilities.json). No terminal output or IDE screenshot is fabricated. TERM-03 also remains unproduced: code cards are not substitutes for the requested complete editor capture. Use a machine with the SDK and suitable capture capability to execute the original full ticket.\n',encoding='utf-8',newline='\n')
  (ROOT/'tools/render/REBUILD.md').write_text('''# Local rebuild
 
-No installation script is included. Required preinstalled capabilities are Python, CairoSVG, Pillow, ffmpeg/ffprobe. Chromium plus Playwright are used only for browser checks. The actual environment is recorded under assets/ops/OPS-01/exports/capabilities.json. Font files are not supplied.
+No installation script is included. Required preinstalled capabilities are Python, CairoSVG, Pillow, ffmpeg/ffprobe. Chromium plus Playwright are used only for browser checks. The original batch's environment is recorded under assets/ops/OPS-01/exports/capabilities.json; a delivery finished later with `--id` records its own toolchain in delivery.json. Font files are not supplied. On Windows, CairoSVG also needs a native Cairo DLL (for example MSYS2's mingw-w64-ucrt-x86_64-cairo, found through CAIROCFFI_DLL_DIRECTORIES) and fontconfig's fc-match on PATH.
 
 ```sh
 python tools/render/build_assets.py --id CODE-02
 python tools/render/render_assets.py --id CODE-02
-python tools/render/qa_browser.py
+python tools/render/qa_browser.py --id CODE-02
+python tools/render/finish_delivery.py --id CODE-02
+python tools/validate_delivery.py --id CODE-02
 python tools/validate_pack.py
 ```
 
-Read assets/ops/OPS-01/exports/template-contract.md before editing. Regeneration overwrites the chosen ticket's source and resets its live state; it is intentionally not an automatic publication approval. Use the finish_delivery script only after personally reviewing the batch's current results. The checked-in review record describes this delivery, not all possible future modifications.
-''')
+Read assets/ops/OPS-01/exports/template-contract.md before editing. Regeneration overwrites the chosen ticket's source and resets its live state; it is intentionally not an automatic publication approval. Use the finish_delivery script only after personally reviewing the chosen tickets' current results: without `--id` it re-finishes every delivery, and without `--deliveries-only` it also rebuilds OPS-01. The checked-in review record describes this delivery, not all possible future modifications.
+''',encoding='utf-8',newline='\n')
 
 def output_inventory(base):
  items=[]
@@ -93,18 +98,20 @@ def output_inventory(base):
   items.append({'path':rel,'role':role,'bytes':p.stat().st_size,'sha256':digest(p)})
  return items
 
-def deliveries():
- cap=json.loads((ROOT/ROWS['OPS-01']['asset_dir']/'exports/capabilities.json').read_text())
- visual=json.loads((ROOT/'review/manual-review.json').read_text()) if (ROOT/'review/manual-review.json').exists() else {}
+def deliveries(selected=None,owner='ChatGPT — local production'):
+ # A full batch reuses OPS-01's recorded toolchain; finishing selected tickets records the machine doing it.
+ cap=capabilities() if selected else json.loads((ROOT/ROWS['OPS-01']['asset_dir']/'exports/capabilities.json').read_text(encoding='utf-8'))
+ visual=json.loads((ROOT/'review/manual-review.json').read_text(encoding='utf-8')) if (ROOT/'review/manual-review.json').exists() else {}
  ids=sorted(p.parents[1].name for p in (ROOT/'assets').glob('*/*/src/build.json'))+['OPS-01']
+ if selected:ids=[i for i in ids if i in selected];cap['browser_note']='HTML tested by in-memory content loading.'
  records=[]
  for id in ids:
   row=ROWS[id];base=ROOT/ROWS[id]['asset_dir'];support=id=='OPS-01'
-  data=json.loads((base/'src/build.json').read_text()) if not support else {'duration':None,'variants':{'shared-system':'../../shared/VERSION.json'},'sources':json.loads((base/'evidence/provenance.json').read_text())['sources'],'notes':['Shared system only; no .NET captures or historical verification.']}
+  data=json.loads((base/'src/build.json').read_text(encoding='utf-8')) if not support else {'duration':None,'variants':{'shared-system':'../../shared/VERSION.json'},'sources':json.loads((base/'evidence/provenance.json').read_text(encoding='utf-8'))['sources'],'notes':['Shared system only; no .NET captures or historical verification.']}
   if not support:
    assert (base/'evidence/render-tests.json').exists(),f'{id} unrendered'
    assert (base/'evidence/browser-tests.json').exists(),f'{id} missing browser checks'
-   br=json.loads((base/'evidence/browser-tests.json').read_text());assert not br['errors'],f'{id} browser errors'
+   br=json.loads((base/'evidence/browser-tests.json').read_text(encoding='utf-8'));assert not br['errors'],f'{id} browser errors'
   gates=row['gates'];release='blocked' if gates else 'unreviewed';status='produced'
   manual=visual.get(id,{'mode':'Poster contact-sheet review','scope':'A 640 × 360 thumbnail, not every full-resolution animation frame.','status':'No obvious composition issue found at overview size; editorial and final frame-by-frame review remain.'})
   tests=[{'test':'required outputs and checksums','result':'Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json.'}, {'test':'original source files','result':'Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt.'}, {'test':'manual visual review','result':manual}]
@@ -127,7 +134,7 @@ Each required media/source/evidence file is enumerated by byte count and SHA-256
 - The source-based War and shuffle fixtures are deterministic teaching examples, not recorded program execution. Source/fixture checks are in the batch's review reports.
 
 ## Reproduction
-`python tools/render/render_assets.py --id {id}` from the package root for media assets. For OPS-01, use `python tools/render/finish_delivery.py --ops-only`. Read tools/render/REBUILD.md first. Tool versions: assets/ops/OPS-01/exports/capabilities.json.
+From the repository root, `python tools/render/build_assets.py --id {id}` rebuilds the sources (and resets the ticket's state); `render_assets.py`, `qa_browser.py` and `finish_delivery.py` in tools/render, each with `--id {id}`, then render, check and finish it. For OPS-01, use `python tools/render/finish_delivery.py --ops-only`. Read tools/render/REBUILD.md first. Tool versions: the toolchain in delivery.json.
 
 ## Remaining decisions
 {'Assigned gates: '+', '.join(gates)+'. See evidence/claim-checks.json and docs/EDITORIAL_REGISTER.md.' if gates else 'No assigned claim gate; producer publication approval is still not assumed.'}
@@ -137,15 +144,15 @@ No narration sync, sound design, final video assembly, full independent editoria
 ## Asset-specific notes
 {note or '- Local timing and composition are authored production choices.'}
 '''
-  (base/'qa.md').write_text(qa)
-  state=json.loads((base/'state.json').read_text());state.update(production_status=status,release_status=release,owner='ChatGPT — local production',notes=['Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.','Publication approval is separate from production.'])
+  (base/'qa.md').write_text(qa,encoding='utf-8',newline='\n')
+  state=json.loads((base/'state.json').read_text(encoding='utf-8'));state.update(production_status=status,release_status=release,owner=owner,notes=['Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.','Publication approval is separate from production.'])
   dump(base/'state.json',state)
   variants=[]
   for name in data.get('variants',{}):
    variants.append({'name':name,'files':([f'exports/{name}.png',f'src/variant-{name}.svg']+([f'exports/{name}.mp4'] if (base/f'exports/{name}.mp4').exists() else [])) if not support else ['exports/report.md','exports/template-contract.md','exports/card-atlas.png']})
-  delivery={'id':id,'title':row['title'],'production_status':status,'release_status':release,'provenance_type':'original design infrastructure' if support else json.loads((base/'evidence/provenance.json').read_text())['classification'],'shared_version':VERSION,'duration_seconds':data.get('duration'),'dimensions':{'width':1920,'height':1080},'fps':30 if data.get('duration') else None,'outputs':output_inventory(base),'variants':variants,'sources':data.get('sources',[]),'credits':[{'type':'original graphics','credit':'Source-based vector graphics authored for this production; no third-party images or font files included.'}],'tests':tests,'unresolved_gates':gates,'toolchain':cap,'notes':data.get('notes',[])+['Original ticket requirements retained; these exports are not producer publication approval.']}
+  delivery={'id':id,'title':row['title'],'production_status':status,'release_status':release,'provenance_type':'original design infrastructure' if support else json.loads((base/'evidence/provenance.json').read_text(encoding='utf-8'))['classification'],'shared_version':VERSION,'duration_seconds':data.get('duration'),'dimensions':{'width':1920,'height':1080},'fps':30 if data.get('duration') else None,'outputs':output_inventory(base),'variants':variants,'sources':data.get('sources',[]),'credits':[{'type':'original graphics','credit':'Source-based vector graphics authored for this production; no third-party images or font files included.'}],'tests':tests,'unresolved_gates':gates,'toolchain':dict(cap,chromium=br['browser'].removeprefix('installed ')) if selected and not support else cap,'notes':data.get('notes',[])+['Original ticket requirements retained; these exports are not producer publication approval.']}
   dump(base/'delivery.json',delivery);records.append({k:delivery[k] for k in ['id','title','production_status','release_status','duration_seconds','fps','unresolved_gates']})
-  tp=ROOT/row['ticket'];original=tp.read_text();original=original.split('\n## Production delivery — this batch')[0]
+  tp=ROOT/row['ticket'];original=tp.read_text(encoding='utf-8');original=original.split('\n## Production delivery — this batch')[0]
   tp.write_text(original+f'''\n## Production delivery — this batch
 
 **Media/source production: produced. Publication status: {release}.**
@@ -153,11 +160,17 @@ No narration sync, sound design, final video assembly, full independent editoria
 [Individual delivery inventory](../../{ROWS[id]['asset_dir']}/delivery.json) · [QA and remaining decisions](../../{ROWS[id]['asset_dir']}/qa.md) · [Live state](../../{ROWS[id]['asset_dir']}/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
-''')
- dump(ROOT/'review/production-index.json',records)
+''',encoding='utf-8',newline='\n')
+ index=ROOT/'review/production-index.json'
+ if selected and index.exists():
+  fresh={r['id']:r for r in records};records=[fresh.pop(r['id'],r) for r in json.loads(index.read_text(encoding='utf-8'))]+list(fresh.values())
+ dump(index,records)
  print('Inventoried',len(records),'deliveries')
 
 if __name__=='__main__':
- if '--ops-only' in sys.argv:ops()
- elif '--deliveries-only' in sys.argv:deliveries()
- else:ops();deliveries()
+ ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--ops-only',action='store_true');ap.add_argument('--deliveries-only',action='store_true')
+ ap.add_argument('--id',action='append',help='Finish only these rendered, browser-checked tickets and record the live toolchain.');ap.add_argument('--owner',default='ChatGPT — local production',help='Owner written to each finished state.json.')
+ args=ap.parse_args()
+ if args.ops_only:ops()
+ elif args.deliveries_only or args.id:deliveries(set(args.id) if args.id else None,args.owner)
+ else:ops();deliveries(owner=args.owner)

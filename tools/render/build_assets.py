@@ -9,16 +9,17 @@ import argparse, bisect, hashlib, html, json, math, re, shutil, textwrap
 from pathlib import Path
 from studio import *
 ROOT=Path(__file__).resolve().parents[2]
-MAN=json.loads((ROOT/'manifest.json').read_text()); ROWS={r['id']:r for r in MAN['tickets']}
-PROGRAM=(ROOT/'sources/Program.vb').read_text().splitlines()
-WAR=json.loads((ROOT/'tools/fixtures/war_storyboard.json').read_text());SHUF=json.loads((ROOT/'tools/fixtures/shuffle_storyboard.json').read_text())
+MAN=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8')); ROWS={r['id']:r for r in MAN['tickets']}
+PROGRAM=(ROOT/'sources/Program.vb').read_text(encoding='utf-8').splitlines()
+WAR=json.loads((ROOT/'tools/fixtures/war_storyboard.json').read_text(encoding='utf-8'));SHUF=json.loads((ROOT/'tools/fixtures/shuffle_storyboard.json').read_text(encoding='utf-8'))
 VERSION='win95-workbench-1.0.0'
 REGISTRY={}
-def scene(id,duration,frames,variants,poster=None,notes=None,cuts=None,source_text=None):
- """frames: sorted (seconds, SVG) pairs. This explicit timeline is seekable and offline."""
- REGISTRY[id]={'id':id,'duration':duration,'frames':frames,'variants':variants,'poster':poster if poster is not None else frames[-1][1], 'notes':notes or [],'cuts':cuts or {},'source_text':source_text}
-def simple(id,svg,variants=None,notes=None):
- scene(id,None,[(0,svg)],variants or {v:svg for v in ROWS[id]['variants']},notes=notes)
+def scene(id,duration,frames,variants,poster=None,notes=None,cuts=None,source_text=None,files=None):
+ """frames: sorted (seconds, SVG) pairs. This explicit timeline is seekable and offline.
+ files: extra editable sources written to src/, as text or JSON-serializable data."""
+ REGISTRY[id]={'id':id,'duration':duration,'frames':frames,'variants':variants,'poster':poster if poster is not None else frames[-1][1], 'notes':notes or [],'cuts':cuts or {},'source_text':source_text,'files':files or {}}
+def simple(id,svg,variants=None,notes=None,files=None):
+ scene(id,None,[(0,svg)],variants or {v:svg for v in ROWS[id]['variants']},notes=notes,files=files)
 
 def chapter_svg(id,state='hold'):
  r=ROWS[id];number,title=r['copy'].split('\n',1);s=SVG(TEAL,title)
@@ -147,7 +148,7 @@ def codes():
  for id,r in ROWS.items():
   if not id.startswith('CODE'):continue
   # Read the complete ticket separately; manifests are structured inputs, not substitute work orders.
-  ticket=(ROOT/r['ticket']).read_text(); assert '## Acceptance checks' in ticket
+  ticket=(ROOT/r['ticket']).read_text(encoding='utf-8'); assert '## Acceptance checks' in ticket
   focuses=next(q for q in r['requirements'] if q.startswith('Required focus sequence:')).split(': ',1)[1].rstrip('.').split(' → ')
   size,pages=code_layout(r);frames=[];time=0
   for p in range(len(pages)):frames.append((time,code_svg(r,page=p)));time+=2
@@ -237,6 +238,7 @@ def mockups():
  scene('MOCK-02',9,f,{'eta-hold':f[0][1],'slow-progress':f[-1][1]},f[0][1],notes=['War.zip is an authored illustrative filename. ETA and modem context come from the ticket, not measured transfer performance.'])
 
 def references():
+ historical_code()
  r=ROWS['REF-03'];base=code_svg(r);hi=code_svg(r,'MsgBox')
  scene('REF-03',10,[(0,base),(2,code_svg(r,'Sub')),(4,hi),(8,hi)],{'clean':base,'teaching-focus':hi},hi,source_text=r['copy']+'\n',notes=['Exact script event handler, not a standalone application and not a VB4 compiler capture.'])
  def basic(n=0):
@@ -247,55 +249,97 @@ def references():
  full=ROWS['REF-04']['copy'];frames=[(0,basic(1))]+[(.4+i*.08,basic(i)) for i in range(2,len(full)+1)]
  clean=basic();scene('REF-04',8,frames,{'clean':clean,'teaching-focus':clean},clean,notes=['Original green-screen illustration; not an emulator or historical hardware capture.'],source_text=full+'\n')
 
+# Representative historical code (REF-01, REF-02): authored fixtures shown as a scrolling listing that ends on a focus.
+FIXTURES=ROOT/'tools/fixtures'
+def listing_rows(files):
+ rows=[]
+ for k,(name,language,lines) in enumerate(files):rows+=([None] if k else [])+[(n,language,line) for n,line in enumerate(lines,1)]
+ return rows
+def listing_svg(r,files,label,top=0,focus=None,note=None,visible=16):
+ # Line numbers restart in each file and a rule separates files; both are display layers, not source text.
+ size=30;pitch=size*1.27;s=SVG(BG,r['title'])
+ s.text(' · '.join(f[0] for f in files),120,117,32,MUTED,mono=True);s.text(label,1800,117,28,BLUE,anchor='end')
+ s.line(120,147,1800,147,LINE,2);s.text(r['copy'],120,210,46,FG,True)
+ s.rect(120,247,1680,673,'#151a20');s.rect(120,247,5,673,BLUE)
+ for i,row in enumerate(listing_rows(files)[top:top+visible]):
+  y=320+i*pitch
+  if row is None:s.line(207,y-11,1760,y-11,LINE,2);continue
+  n,language,line=row
+  if focus and focus[0]<=top+i<=focus[1]:s.rect(130,y-size+1,1660,pitch,'#263c58')
+  s.text(str(n),163,y,25,'#748293',mono=True,anchor='middle')
+  if language:code_line(s,line,207,y,size,language)
+  else:s.text(line,207,y,size,FG,mono=True)
+ if note:s.text(note,150,982,34,GOLD)
+ s.text(f'{sum(len(f[2]) for f in files)} lines',1800,982,27,MUTED,mono=True,anchor='end')
+ return s.finish()
+def code_scroll(id,label,files,focus_text,note,notes,source_text,extra=None,visible=16):
+ r=ROWS[id];rows=listing_rows(files);last=max(0,len(rows)-visible)
+ at=lambda text:next(i for i,row in enumerate(rows) if row and text in row[2])
+ focus=(at(focus_text[0]),at(focus_text[1]));top=min(last,max(0,focus[0]-(visible-(focus[1]-focus[0]+1))//2))
+ clean=listing_svg(r,files,label);hi=listing_svg(r,files,label,top,focus,note)
+ # A 2.5 s opening hold, one line every 0.25 s to the end of the listing, then the focus holds 4.5 s.
+ end=2.5+last*.25+.5;frames=[(0,clean)]+[(2.5+k*.25,listing_svg(r,files,label,k)) for k in range(1,last+1)]+[(end,hi)]
+ scene(id,math.ceil(end+4.5),frames,{'clean':clean,'teaching-focus':hi},hi,notes=notes+[f'Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all {len(rows)} rows, then the focus from {end:g} s to the end.'],source_text=source_text,files=extra)
+def historical_code():
+ mfc=(FIXTURES/'ref-01-cardview.cpp').read_text(encoding='utf-8')
+ code_scroll('REF-01','Representative Visual C++ / MFC',[('cardview.h · cardview.cpp','cpp',mfc.splitlines())],('BEGIN_MESSAGE_MAP','END_MESSAGE_MAP'),'The message map: macros that connect Windows messages and commands to handlers.',
+  ['Agent-authored representative MFC code in the style of Visual C++ 4: ClassWizard AFX_MSG blocks and ON_COMMAND(ID, handler) without &Class::. It is not recovered historical source.','Not compiled: Visual Studio 2022 on the production machine has no MFC libraries installed. Technical and era review stays open under R15.','CCardDoc, FlipNextCard, Deal and IsDealt are illustrative names for this card game; their definitions are not shown.','Line numbers and the caption are display layers; src/excerpt.cpp holds the exact text.'],mfc)
+ hello=(FIXTURES/'ref-02-hello.c').read_text(encoding='utf-8');module=(FIXTURES/'ref-02-hello.def').read_text(encoding='utf-8')
+ c,d=len(hello.splitlines()),len(module.splitlines())
+ code_scroll('REF-02','Representative Windows 3.0 C',[('hello.c','c',hello.splitlines()),('hello.def',None,module.splitlines())],('while (GetMessage','DispatchMessage'),'The message loop: get a message, translate it, dispatch it to WndProc.',
+  ['Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.','Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.',f'hello.c is {c} lines and hello.def {d}: {c+d} lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.','Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.'],hello,{'hello.def':module})
+
 # Diagram implementations are imported after the shared primitives.
-def save_assets(ids=None):
+def save_assets(ids=None,owner='ChatGPT — local production'):
  for id,item in REGISTRY.items():
   if ids and id not in ids:continue
   r=ROWS[id];base=ROOT/ROWS[id]['asset_dir']
   for name in ['src','exports','exports/keyframes','evidence','proofs']:(base/name).mkdir(parents=True,exist_ok=True)
   # Each ticket retains its own authored data and complete source context.
-  (base/'src/brief.json').write_text(json.dumps({k:r[k] for k in ['id','title','requirements','beats','checks','copy','refs','gates']},indent=2,ensure_ascii=False))
+  (base/'src/brief.json').write_text(json.dumps({k:r[k] for k in ['id','title','requirements','beats','checks','copy','refs','gates']},indent=2,ensure_ascii=False),encoding='utf-8',newline='\n')
   snippets=[];sources=[]
   for filename,lo,hi in r['refs']:
-   path=ROOT/'sources'/filename;text=path.read_text().splitlines();snippets.append(f'## {filename}:{lo}–{hi}\n\n```text\n'+ '\n'.join(text[lo-1:hi])+'\n```\n')
+   path=ROOT/'sources'/filename;text=path.read_text(encoding='utf-8').splitlines();snippets.append(f'## {filename}:{lo}–{hi}\n\n```text\n'+ '\n'.join(text[lo-1:hi])+'\n```\n')
    sources.append({'path':'../../../sources/'+filename,'lines':[lo,hi],'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'relationship':'literal excerpt' if filename=='Program.vb' else 'source creative brief'})
-  (base/'evidence/source-excerpts.md').write_text('\n'.join(snippets))
-  notes=item['notes'];(base/'evidence/provenance.json').write_text(json.dumps({'id':id,'classification':'literal source-code illustration' if id.startswith('CODE') else 'original authored source-based illustration','sources':sources,'authored_additions':notes,'source_unchanged':True,'remote_assets':[],'font_files_distributed':False,'producer_decisions':[]},indent=2,ensure_ascii=False))
-  gates=[{'id':g,'status':'blocked','reason':'Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.','evidence_paths':['source-excerpts.md'],'approver':None} for g in r['gates']]
-  (base/'evidence/claim-checks.json').write_text(json.dumps({'gates':gates},indent=2))
+  (base/'evidence/source-excerpts.md').write_text('\n'.join(snippets),encoding='utf-8',newline='\n')
+  notes=item['notes'];(base/'evidence/provenance.json').write_text(json.dumps({'id':id,'classification':'literal source-code illustration' if id.startswith('CODE') else 'authored teaching illustration: representative code written for this production' if id in ('REF-01','REF-02') else 'original authored source-based illustration','sources':sources,'authored_additions':notes,'source_unchanged':True,'remote_assets':[],'font_files_distributed':False,'producer_decisions':[]},indent=2,ensure_ascii=False),encoding='utf-8',newline='\n')
+  gates=[{'id':g,'status':'blocked','reason':'Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.','evidence_paths':['source-excerpts.md']+[f'../src/{n}' for n in item['files']],'approver':None} for g in r['gates']]
+  (base/'evidence/claim-checks.json').write_text(json.dumps({'gates':gates},indent=2),encoding='utf-8',newline='\n')
   frames=item['frames']; names=[];dedup={}
   for t,svg in frames:
    sha=hashlib.sha256(svg.encode()).hexdigest()
    if sha not in dedup:
-    n=f'scene-{len(dedup):04}.svg';dedup[sha]=n;(base/'src'/n).write_text(svg)
+    n=f'scene-{len(dedup):04}.svg';dedup[sha]=n;(base/'src'/n).write_text(svg,encoding='utf-8',newline='\n')
    names.append({'time':round(t,6),'file':dedup[sha]})
-  (base/'src/scene.svg').write_text(item['poster'])
+  (base/'src/scene.svg').write_text(item['poster'],encoding='utf-8',newline='\n')
   # Inline all frames: HTML works when double-clicked, even offline and under file://.
-  table={n:(base/'src'/n).read_text() for n in dedup.values()}
+  table={n:(base/'src'/n).read_text(encoding='utf-8') for n in dedup.values()}
   timeline={'id':id,'durationSeconds':item['duration'],'fps':30 if item['duration'] else None,'width':1920,'height':1080,'beats':r['beats'],'frames':names,'cuts':item['cuts'],'variant_names':list(item['variants']), 'motion_model':'Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps.'}
-  (base/'src/timeline.json').write_text(json.dumps(timeline,indent=2,ensure_ascii=False))
+  (base/'src/timeline.json').write_text(json.dumps(timeline,indent=2,ensure_ascii=False),encoding='utf-8',newline='\n')
   html_doc='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'''+html.escape(r['title'])+'''</title><style>html,body{margin:0;background:#000;height:100%;overflow:hidden}#stage{width:100%;height:100%;display:flex;align-items:center;justify-content:center}svg{width:100%;height:100%;object-fit:contain}</style><div id="stage" aria-label="'''+html.escape(r['title'],quote=True)+'''"></div><script>const timeline='''+json.dumps(timeline,ensure_ascii=False)+''';const scenes='''+json.dumps(table,ensure_ascii=False)+''';const stage=document.getElementById('stage');window.__ASSET__={id:timeline.id,durationSeconds:timeline.durationSeconds||0,fps:timeline.fps||30,width:1920,height:1080,ready:document.fonts.ready,renderAt(t){t=Math.max(0,Math.min(Number.isFinite(t)?t:0,this.durationSeconds));let f=timeline.frames[0];for(const x of timeline.frames){if(x.time<=t)f=x;else break}stage.innerHTML=scenes[f.file];return f.file}};__ASSET__.renderAt(0);let start=null,playing=false;document.addEventListener('keydown',e=>{if(e.code==='Space'){e.preventDefault();playing=!playing;start=null;requestAnimationFrame(tick)}if(e.code==='Home'){playing=false;__ASSET__.renderAt(0)}});function tick(ts){if(!playing)return;if(start===null)start=ts;const t=(ts-start)/1000;__ASSET__.renderAt(t);if(t<__ASSET__.durationSeconds)requestAnimationFrame(tick);else playing=false}</script></html>'''
-  (base/'src/index.html').write_text(html_doc)
+  (base/'src/index.html').write_text(html_doc,encoding='utf-8',newline='\n')
   # All named variants are concrete separate editable SVG files, not renamed PNG copies.
   vmap={}
   for name,svg in item['variants'].items():
-   path=f'variant-{name}.svg';(base/'src'/path).write_text(svg);vmap[name]=path
+   path=f'variant-{name}.svg';(base/'src'/path).write_text(svg,encoding='utf-8',newline='\n');vmap[name]=path
   source=item.get('source_text')
   if source is not None:
-   ext='bas' if id=='REF-04' else 'vb';(base/'src'/f'excerpt.{ext}').write_text(source)
+   ext={'REF-01':'cpp','REF-02':'c','REF-04':'bas'}.get(id,'vb');(base/'src'/f'excerpt.{ext}').write_text(source,encoding='utf-8',newline='\n')
+  for name,content in item['files'].items():
+   (base/'src'/name).write_text(content if isinstance(content,str) else json.dumps(content,indent=2,ensure_ascii=False)+'\n',encoding='utf-8',newline='\n')
   build={'id':id,'duration':item['duration'],'frames':names,'variants':vmap,'poster':'scene.svg','cuts':item['cuts'],'notes':notes,'sources':sources,'kind':r['kind']}
-  (base/'src/build.json').write_text(json.dumps(build,indent=2,ensure_ascii=False))
-  state=json.loads((base/'state.json').read_text());state.update(production_status='in_progress',release_status='blocked' if r['gates'] else 'unreviewed',owner='ChatGPT — local production',notes=['Sources and scenes authored; exports and QA pending.'])
-  (base/'state.json').write_text(json.dumps(state,indent=2))
+  (base/'src/build.json').write_text(json.dumps(build,indent=2,ensure_ascii=False),encoding='utf-8',newline='\n')
+  state=json.loads((base/'state.json').read_text(encoding='utf-8'));state.update(production_status='in_progress',release_status='blocked' if r['gates'] else 'unreviewed',owner=owner,notes=['Sources and scenes authored; exports and QA pending.'])
+  (base/'state.json').write_text(json.dumps(state,indent=2),encoding='utf-8',newline='\n')
   print('AUTHORED',id,len(dedup),'states',flush=True)
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--id',action='append');args=ap.parse_args()
+ ap=argparse.ArgumentParser();ap.add_argument('--id',action='append');ap.add_argument('--owner',default='ChatGPT — local production',help='Owner written to each rebuilt state.json.');args=ap.parse_args()
  chapters();cards();codes();comparisons();facts();mockups();references()
  try:
   from diagrams import build_diagrams
   build_diagrams()
  except ImportError as e:
   if e.name!='diagrams':raise
- save_assets(set(args.id) if args.id else None)
+ save_assets(set(args.id) if args.id else None,args.owner)
 if __name__=='__main__':main()

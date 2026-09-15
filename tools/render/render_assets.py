@@ -29,7 +29,7 @@ def encode(base,frames,duration,dst,cache):
  lines=[]
  for p,d in runs:lines.extend([f"file '{p.as_posix()}'",f'duration {d:.9f}'])
  lines.append(f"file '{runs[-1][0].as_posix()}'")
- concat.write_text('\n'.join(lines)+'\n')
+ concat.write_text('\n'.join(lines)+'\n',encoding='utf-8',newline='\n')
  cmd=['ffmpeg','-hide_banner','-loglevel','error','-y','-f','concat','-safe','0','-i',str(concat),'-vf','fps=30,format=yuv420p','-frames:v',str(n),'-c:v','libx264','-preset','veryfast','-crf','18','-threads','2','-movflags','+faststart',str(dst)]
  subprocess.run(cmd,check=True);concat.unlink()
  info=ffprobe(dst);st=info['streams'][0]
@@ -37,7 +37,7 @@ def encode(base,frames,duration,dst,cache):
  assert abs(float(info['format']['duration'])-duration)<.07
  return {'file':str(dst.relative_to(base)), 'command':' '.join(cmd), 'probe':info}
 def render(id):
- base=asset_dir(id);data=json.loads((base/'src/build.json').read_text());reports=[]
+ base=asset_dir(id);data=json.loads((base/'src/build.json').read_text(encoding='utf-8'));reports=[]
  # SVG keyframes remain sources; temporary raster intermediates are not delivered.
  with tempfile.TemporaryDirectory(prefix='vb-') as td:
   cache={}
@@ -62,17 +62,19 @@ def render(id):
   if dur:paths += [base/'exports/keyframes'/f'{n}.png' for n in ['start','middle','end']]
   thumbs=[]
   from PIL import ImageDraw,ImageFont
-  font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',16)
+  # Pillow also resolves a bare font file name in the Windows font folder.
+  linux_font='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';font=ImageFont.truetype(linux_font if os.path.exists(linux_font) else 'DejaVuSans.ttf',16)
   for p in paths:
    im=Image.open(p).convert('RGB');im.thumbnail((480,270));cell=Image.new('RGB',(480,300),'#13171c');cell.paste(im,(0,0));ImageDraw.Draw(cell).text((10,277),p.stem,fill='white',font=font);thumbs.append(cell)
   sheet=Image.new('RGB',(960,300*math.ceil(len(thumbs)/2)),'#13171c')
   for i,im in enumerate(thumbs):sheet.paste(im,((i%2)*480,(i//2)*300))
   sheet.save(base/'exports/contact-sheet.png')
- (base/'evidence/render-tests.json').write_text(json.dumps({'renderer':'CairoSVG '+cairosvg.__version__,'png_dimensions':'1920x1080','video_probes':reports,'command':f'python tools/render/render_assets.py --id {id}'},indent=2))
+ (base/'evidence/render-tests.json').write_text(json.dumps({'renderer':'CairoSVG '+cairosvg.__version__,'png_dimensions':'1920x1080','video_probes':reports,'command':f'python tools/render/render_assets.py --id {id}'},indent=2),encoding='utf-8',newline='\n')
  print('RENDERED',id,flush=True)
  return id
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--id',action='append');ap.add_argument('--workers',type=int,default=3);ap.add_argument('--skip-existing',action='store_true');args=ap.parse_args()
+ # MSYS2's Cairo crashed (access violation) rendering from three threads on Windows; one worker is reliable there.
+ ap=argparse.ArgumentParser();ap.add_argument('--id',action='append');ap.add_argument('--workers',type=int,default=1 if os.name=='nt' else 3);ap.add_argument('--skip-existing',action='store_true');args=ap.parse_args()
  ids=args.id or sorted(p.parent.parent.name for p in (ROOT/'assets').glob('*/*/src/build.json'))
  if args.skip_existing:ids=[i for i in ids if not (asset_dir(i)/'evidence/render-tests.json').exists()]
  with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as ex:

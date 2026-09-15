@@ -83,16 +83,21 @@ class SVG:
 
 VB_WORDS=set('Option Explicit Strict On Off Module Structure Dim As Integer Char String Const Sub Function End ByRef ByVal New ReDim For To Step Next If Then Else ElseIf Select Case Do While Loop Exit And Or Return True False'.split())
 CS_WORDS=set('int char void for while return if else new string ref'.split())
+C_WORDS=set('auto break case char const default do else enum extern for if int long register return short signed sizeof static struct switch typedef union unsigned void while'.split())
+CPP_WORDS=C_WORDS|set('class public protected private virtual new delete this operator'.split())
 def segments(line,language='vb'):
  # Preserve every character, including continuation underscores and quote spelling.
  pattern=r'("(?:""|[^"\n])*"[cC]?)|(\'.*$)|([A-Za-z_][A-Za-z_0-9]*)|(\d+)|([^A-Za-z_0-9"\']+)'
  if language=='cs':pattern=r'("(?:\\.|[^"\\])*?")|(//.*$)|([A-Za-z_][A-Za-z_0-9]*)|(\d+)|([^A-Za-z_0-9"]+)'
+ # C and C++: one-line comments of either style and preprocessor directives.
+ if language in ('c','cpp'):pattern=r'("(?:\\.|[^"\\])*")|(//.*$|/\*.*?\*/)|(#\s*[A-Za-z]+|[A-Za-z_][A-Za-z_0-9]*)|(\d+)|([^A-Za-z_0-9"#/]+|[#/])'
+ words={'vb':VB_WORDS,'cs':CS_WORDS,'c':C_WORDS,'cpp':CPP_WORDS}[language]
  parts=[]
  for m in re.finditer(pattern,line):
   token=m.group(0);color=FG
   if m.group(1):color=GOLD
   elif m.group(2):color=GREEN
-  elif m.group(3) and token in (VB_WORDS if language=='vb' else CS_WORDS):color=BLUE
+  elif m.group(3) and (token in words or token.startswith('#')):color=BLUE
   elif m.group(4):color=GOLD
   parts.append((token,color))
  if ''.join(p[0] for p in parts)!=line:return [(line,FG)]
