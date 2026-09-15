@@ -1,0 +1,259 @@
+{
+  "id": "HIST-03",
+  "title": "VB 6.0 IDE",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (Microsoft documentation figure) with resize-only editorial framing",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/editorial-frame-720.png",
+      "role": "alternate candidate record",
+      "bytes": 146235,
+      "sha256": "ae42532980e04ae60143f6cf7c066d4e1a6d3324a2989bf67197c47ee572a86e"
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/editorial-frame.png",
+      "role": "alternate candidate record",
+      "bytes": 258775,
+      "sha256": "51426639e38293dd2a1ce54fb911bf3f443d77e5df04e6d3360987114d9794ef"
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/original.png",
+      "role": "alternate candidate record",
+      "bytes": 55696,
+      "sha256": "79fafdb88405e59d4853d8bdd4d77d57ec91d8144195e7c9563909819e479a77"
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/source.json",
+      "role": "alternate candidate record",
+      "bytes": 3593,
+      "sha256": "52d8ea559d5d00c884773c1e73a573c050eceea7937a51ee0428d2ca5e756839"
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/wp_filepage.html",
+      "role": "alternate candidate record",
+      "bytes": 83293,
+      "sha256": "54a6bb7997cffb5787bc401a36a05da9ff58813c552b9012d8fab61e89eeb7e6"
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/wp_headers.txt",
+      "role": "alternate candidate record",
+      "bytes": 1939,
+      "sha256": "ae2ea3b96f5e58d00318b603d0ee15d7aeb2ee22f152ff68ed4efee62d5c46c7"
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/wp_history.json",
+      "role": "alternate candidate record",
+      "bytes": 1170,
+      "sha256": "953bdf2196302dbde5fd20b652ed6831a146e56351c0c7f96de2e06469fa1349"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 2594,
+      "sha256": "f0e1595a3121faf77465f266b857a89e0ae9ac3d90c432113ef3c98b7c73695e"
+    },
+    {
+      "path": "evidence/pages/aa242109.html",
+      "role": "preserved evidence page",
+      "bytes": 40541,
+      "sha256": "69d399090d69e3307dee8a41efd29f4f71e690889e04225b3dd46f6cba602e65"
+    },
+    {
+      "path": "evidence/pages/aa261277.html",
+      "role": "preserved evidence page",
+      "bytes": 41135,
+      "sha256": "59842472bcc2b9c62c2abb2b6a2b790274a6c529748eba5cd164c004e5ad2e4e"
+    },
+    {
+      "path": "evidence/pages/press_1998-06-15.html",
+      "role": "preserved evidence page",
+      "bytes": 144846,
+      "sha256": "2d184790b0e22023c1731cd0d80d4df35d3a7c3ffca00349c9437df77d46fed1"
+    },
+    {
+      "path": "evidence/pages/wayback_20081108_aa733577.html",
+      "role": "preserved evidence page",
+      "bytes": 38715,
+      "sha256": "7ca8d98889ebfafb9017cfc887a378dea376461a05925834c7ae0e0a1c897d53"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 5323,
+      "sha256": "ce10e254b73310d41f9df6bac53fc03d1554fc200d46e59b39bab7bb89d4c135"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 4069,
+      "sha256": "23f603f350b3aa8150eb3e4d754b364dc34f77098f8cc1d3481af8eb573ad1d1"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3148,
+      "sha256": "c9cc10aca95c64599bf4eda25b41ab6fcb7f3b1305031236eb706c08a32c0918"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6616,
+      "sha256": "5f17542b678ec3e316709d4a5600adf9ccfc89f2a3ea6917b79bf96004b6922f"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still (editorial-frame variant)",
+      "bytes": 491252,
+      "sha256": "de12b9aeec40c2c4e218aa6498b36ee943414c5863c9c22c473f7a7ebf24a7b7"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p inspection proof",
+      "bytes": 319217,
+      "sha256": "6052bfab43e31c5b820f982bc76fc31b84597a32c57022f4543bc31bd9a23505"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 7988,
+      "sha256": "28c18483ac7eafa744d9cf635c75f3de451a20c8bc2c6299ae212df5d75fc790"
+    },
+    {
+      "path": "source/original.gif",
+      "role": "historical original (byte-exact acquisition)",
+      "bytes": 19633,
+      "sha256": "cbd44443b36479dfcb2b0f46fc0f3c951bd60a0f7479ad0872efef64d0febd08"
+    },
+    {
+      "path": "source/source-page/aa733577.html",
+      "role": "preserved source page",
+      "bytes": 36404,
+      "sha256": "e067bf61330110c9c7f9c1901f6058dde5354333459c022505f242b8c575a6e9"
+    },
+    {
+      "path": "source/source-page/fig21_headers.txt",
+      "role": "preserved source page",
+      "bytes": 2734,
+      "sha256": "bee4096e4c0758c665d32eec22eaaf48991291d157d45d090be8dd84002a6201"
+    },
+    {
+      "path": "src/build_delivery.py",
+      "role": "editable input / build script",
+      "bytes": 5705,
+      "sha256": "3aba93ef628499ece2ce2427972adbded7269b9a717d07be26ca2aab384c0bfe"
+    },
+    {
+      "path": "src/frame.py",
+      "role": "editable input / build script",
+      "bytes": 2535,
+      "sha256": "a073ce25625bc70f818296d90058a4d046a6ec764e74f739696dc35fe62d5841"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "path": "source/original.gif",
+      "dimensions": {
+        "width": 779,
+        "height": 574
+      },
+      "timing": "still; hold for editorial timing"
+    },
+    {
+      "name": "editorial-frame",
+      "path": "exports/editorial-frame.png",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "timing": "still; hold for editorial timing",
+      "derived_from": "source/original.gif",
+      "transform": "uniform resize x1.630662 to 1270x936 at (325,72); no crop"
+    }
+  ],
+  "sources": [
+    {
+      "path": "source/original.gif",
+      "relationship": "historical original",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/images/aa733577.avp02001(en-us,vs.60).gif",
+      "record": "evidence/source.json",
+      "sha256": "cbd44443b36479dfcb2b0f46fc0f3c951bd60a0f7479ad0872efef64d0febd08"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "note": "Resize-only framing; nothing is cropped from the image itself."
+    },
+    {
+      "path": "candidates/wikipedia-vb6-on-xp/original.png",
+      "relationship": "historical original (alternate candidate, not delivered)",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Visual_Basic_6.0_on_Windows_XP.png",
+      "record": "candidates/wikipedia-vb6-on-xp/source.json"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        89,
+        89
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        679,
+        701
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative context"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "source/original.gif, exports/editorial-frame.png",
+      "text": "Microsoft Visual Basic 6.0 documentation, Figure 2.1 \"The Visual Basic integrated development environment\". (c) Microsoft Corporation. Used with permission from Microsoft.",
+      "status": "proposed; permission not confirmed (R14 rights review)"
+    }
+  ],
+  "tests": [
+    {
+      "name": "validate_delivery",
+      "command": "python tools/validate_delivery.py --id HIST-03",
+      "result": "see qa.md"
+    },
+    {
+      "name": "framing geometry and reversibility",
+      "command": "see qa.md",
+      "result": "see qa.md"
+    },
+    {
+      "name": "manual inspection 1080p and 720p",
+      "result": "see qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "8.18.0 (x86_64-w64-mingw32, Schannel)",
+    "render_command": "python assets/historical/HIST-03/src/frame.py",
+    "inventory_command": "python assets/historical/HIST-03/src/build_delivery.py",
+    "fonts": "none (no text rendered)"
+  },
+  "notes": [
+    "Historical proof with unresolved rights. Release is blocked until the R14 rights review is recorded.",
+    "Microsoft's in-figure callouts are original to the source and retained.",
+    "VB6 identity rests on publication in Microsoft's VB6 documentation. Pixel capture version (6.0 vs reused 5.0 art) is not proven; see evidence/source.json identity_limits."
+  ]
+}

@@ -1,12 +1,16 @@
 {
   "id": "HIST-03",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Historical Screenshots worker (manager session vb-7a)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: rights unresolved. Microsoft copyright; no image-specific license. Rights review question handed to producer."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Historical proof with unresolved rights. It is not cleared media; keep it out of the cleared-media bin.",
+    "Original: Microsoft VB6 documentation Figure 2.1 (source/original.gif). Alternate candidate kept at candidates/wikipedia-vb6-on-xp/.",
+    "Deliverables, hashes, and executed checks are in delivery.json and qa.md."
   ]
 }

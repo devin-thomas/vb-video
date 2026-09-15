@@ -1,0 +1,63 @@
+{
+  "title": "Figure 2.1 The Visual Basic integrated development environment",
+  "creator": "Microsoft Corporation (Visual Basic 6.0 product documentation; individual author not credited)",
+  "container": "Visual Basic 6.0 documentation, topic \"Starting the Visual Basic IDE\" (Programmer's Guide, Visual Basic Concepts), asset id VS|vbcon98|~htmlvbconstartingvisualbasicide.htm",
+  "source_url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa733577(v=vs.60)",
+  "image_url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/images/aa733577.avp02001(en-us,vs.60).gif",
+  "earlier_locations": [
+    {
+      "url": "http://msdn.microsoft.com:80/en-us/library/aa733577(VS.60).aspx",
+      "archive_capture": "https://web.archive.org/web/20081108020011/http://msdn.microsoft.com:80/en-us/library/aa733577(VS.60).aspx",
+      "capture_timestamp": "2008-11-08T02:00:11Z",
+      "observed": "Page carries the same caption 'Figure 2.1 The Visual Basic integrated development environment', references image http://i.msdn.microsoft.com/Aa733577.avp02001(en-us,VS.60).gif, sits under MSDN Library > Visual Studio 6.0 > Visual Basic 6.0, footer '(c) 2008 Microsoft Corporation. All rights reserved.'",
+      "image_archived": false,
+      "note": "Wayback CDX has no capture of the 2008 image URL (id_ request returned 404), so pixel identity between the 2008 and current image is not proven; only filename and caption continuity are."
+    }
+  ],
+  "original_date": null,
+  "original_date_notes": "Exact first-publication date of the figure is not established by an inspected primary source. Context: the topic belongs to the Visual Basic 6.0 documentation set (asset namespace vbcon98). Microsoft announced Visual Basic 6.0 on 1998-06-15 with general availability scheduled for late summer 1998 (press release, evidence/pages/press_1998-06-15.html). Learn metadata ms.date 2007-01-04 is the MSDN migration date, not publication. The served GIF has Last-Modified 2021-04-23 (Learn archive upload). The 1998 printed Programmer's Guide on Internet Archive is controlled-lending (borrow) and was not accessed.",
+  "depicted_event_date": null,
+  "depicted_event_notes": "Depicts the Visual Basic IDE in design mode (Project1/Form1) as documented for Visual Basic 6.0; capture date unknown.",
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS GET of a public page and its image (no account, no terms click-through, no CAPTCHA). Raw response headers preserved in source/source-page/fig21_headers.txt; page HTML in source/source-page/aa733577.html.",
+  "identity_evidence": [
+    "The image is Figure 2.1 of the Microsoft topic 'Starting the Visual Basic IDE', whose steps say to select Programs, Visual Studio, then 'Microsoft Visual Basic 6.0' and then state 'When you first start Visual Basic, you see the interface of the integrated development environment, as shown in Figure 2.1.' (source/source-page/aa733577.html, fetched 2026-09-15).",
+    "The page is filed under the Visual Basic 6.0 documentation archive: ms.prod visual-basic-6, mtps_version v=VS.60, depot MSDN.vb6-archive; the 2008 MSDN capture places it under MSDN Library > Visual Studio 6.0 > Visual Basic 6.0.",
+    "Visible content at full resolution: title bar 'Project1 - Microsoft Visual Basic [design]'; menus File Edit View Project Format Debug Run Tools Add-Ins Window Help; Toolbox (General tab), Form1 designer, Project Explorer 'Project1 (Project1)', Properties window with Alphabetic/Categorized tabs; Microsoft-drawn callouts Menu bar, Toolbar, Toolbox, Form designer, Project Explorer, Properties window.",
+    "It is not Visual Studio .NET: single-document VB IDE with classic intrinsic-control Toolbox, OLE container control, '[design]' caption, Win9x/NT4-style chrome."
+  ],
+  "identity_limits": [
+    "No version number is visible inside the image itself. The VB6 identification rests on the image's publication in Microsoft's Visual Basic 6.0 documentation, not on appearance.",
+    "Documentation figures can be carried over from an earlier release; whether Microsoft captured these pixels from VB 6.0 or reused a Visual Basic 5.0 capture is not settled by the evidence inspected. The VB6-only Query/Diagram menus visible in the Wikipedia candidate are absent here, which is consistent with a standard project without Visual Database Tools active but does not prove the capture version."
+  ],
+  "original_file": "source/original.gif",
+  "original_sha256": "cbd44443b36479dfcb2b0f46fc0f3c951bd60a0f7479ad0872efef64d0febd08",
+  "original_bytes": 19633,
+  "original_format": "GIF87a, palette",
+  "original_dimensions": {
+    "width": 779,
+    "height": 574
+  },
+  "license_name": "Microsoft copyright; no open license. Microsoft Learn Terms of Use (personal and non-commercial use unless otherwise specified) and Microsoft 'Use of Microsoft Copyrighted Content' screenshot permission (conditions apply; applicability to a documentation figure is unresolved).",
+  "license_url": "https://learn.microsoft.com/en-us/legal/termsofuse",
+  "permission_evidence": "See evidence/rights.json.",
+  "rights_status": "unresolved",
+  "credit_text": "Microsoft Visual Basic 6.0 documentation, Figure 2.1 \"The Visual Basic integrated development environment\". (c) Microsoft Corporation. Used with permission from Microsoft. [Proposed credit; the permission sentence is required by Microsoft's screenshot terms only if that grant is confirmed to apply. See rights review question.]",
+  "transformations": [
+    {
+      "output": "exports/editorial-frame.png",
+      "operation": "Convert palette GIF to RGB; uniform Lanczos resize x1.630662 from 779x574 to 1270x936; paste unaltered at (325,72) on a flat #111318 1920x1080 plate inside the shared safe area.",
+      "crop": null,
+      "retouch": null,
+      "added_ui_or_text": null,
+      "watermark_removed": false,
+      "microsoft_callouts": "Retained exactly as published (not removed, not added).",
+      "inverse": "Crop box (325,72,1595,1008) of the export and resize to 779x574 recovers the original geometry; the byte-exact original is source/original.gif.",
+      "script": "src/frame.py"
+    }
+  ],
+  "notes": [
+    "Selected as the primary original because its identity is substantiated by first-party Microsoft VB6 documentation rather than inferred from appearance, and it shows a complete, period (Win9x-era) IDE with Toolbox, form designer, Project Explorer and Properties window.",
+    "Alternate candidate kept for review: candidates/wikipedia-vb6-on-xp/ (uploader-captured VB6 on Windows XP, 2019)."
+  ]
+}

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+content-type: image/png
+x-object-meta-sha1base36: lfq5j492dj09v5ykt9ufnbr0jwp1ug2
+etag: ba07e8520307207e787c71d6b51f7051
+last-modified: Mon, 10 Jun 2019 04:33:49 GMT
+content-length: 55696
+date: Tue, 15 Sep 2026 20:28:12 GMT
+x-ratelimit-limit: 600000, 600000;w=60
+x-ratelimit-remaining: 599999
+x-ratelimit-reset: 48
+server: envoy
+age: 0
+accept-ranges: bytes
+x-cache: cp2058 miss, cp2058 miss
+x-cache-status: miss
+server-timing: cache;desc="miss", host;desc="cp2058"
+strict-transport-security: max-age=106384710; includeSubDomains; preload
+report-to: { "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0" }] }
+nel: { "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction": 0.0}
+x-client-ip: [REDACTED by HIST-03 worker: requester IP address]
+x-content-type-options: nosniff
+reporting-endpoints: csp_endpoint="https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json"
+content-security-policy-report-only: default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint
+access-control-allow-origin: *
+access-control-expose-headers: Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache
+timing-allow-origin: *
+set-cookie: [REDACTED by HIST-03 worker: per-client tracking cookie]
+x-request-id: [REDACTED by HIST-03 worker: per-request trace id]
+x-analytics: 
+
