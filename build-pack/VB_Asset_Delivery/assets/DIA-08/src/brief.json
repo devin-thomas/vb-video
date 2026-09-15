@@ -1,0 +1,49 @@
+{
+  "id": "DIA-08",
+  "title": "War mechanic: tie, burn, flip, award",
+  "requirements": [
+    "Use the single-war fixture: 4♠ versus 4♦, three face-down burns each, 9♦ versus A♦, Player 2 collects 10.",
+    "Show the initial two cards stay in the pot while six burns and two deciding cards are added.",
+    "Keep burn faces hidden in the rendered scene even though the fixture records identities for validation.",
+    "Export a four-panel poster as well as a 12-second motion; a repeat-tie arrow may connect to DIA-09 but must not be called a recursive function.",
+    "For the section-10 award cut, move pot cards one at a time in stored play order into the winner’s bottom; expose this as the award-to-bottom variant."
+  ],
+  "beats": [
+    "0–3 s: panel 1, equal ranks, pot 2.",
+    "3–6 s: panel 2, six burns, pot 8.",
+    "6–9 s: panel 3, deciding cards, pot 10.",
+    "9–12 s: panel 4, ten cards append to Player 2."
+  ],
+  "checks": [
+    "There are three face-down cards per player, not three total.",
+    "The deciding pair is additional to the burns.",
+    "Final counts are Player 1=21, Player 2=31, pot=0 from a 26/26 start.",
+    "No short-hand case is claimed to be covered by the ordinary example."
+  ],
+  "copy": "1. Tie\n2. Three face-down each\n3. One face-up each\n4. Higher rank takes the pot",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      23,
+      23
+    ],
+    [
+      "SCRIPT.md",
+      188,
+      192
+    ],
+    [
+      "SCRIPT.md",
+      483,
+      489
+    ],
+    [
+      "Program.vb",
+      234,
+      268
+    ]
+  ],
+  "gates": [
+    "R05"
+  ]
+}

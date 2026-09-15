@@ -1,0 +1,24 @@
+{
+  "created": "2026-09-14",
+  "status": "original inputs preserved; no external verification performed",
+  "files": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "bytes": 10571,
+      "lines": 177
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "bytes": 50357,
+      "lines": 809
+    },
+    {
+      "path": "sources/Program.vb",
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "bytes": 9234,
+      "lines": 285
+    }
+  ]
+}

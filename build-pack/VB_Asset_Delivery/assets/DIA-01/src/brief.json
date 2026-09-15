@@ -1,0 +1,41 @@
+{
+  "id": "DIA-01",
+  "title": "Event-driven programming: action → handler → code",
+  "requirements": [
+    "Three clearly labeled user actions: click, type, resize. Each connects to a distinct Sub-handler box, then to an observable UI response.",
+    "Use the supplied Command1_Click / MsgBox example only for the click path. Other event names must be verified or remain descriptive labels, not fabricated classic-VB identifiers.",
+    "Distinguish event order from a continuously executing game loop. This is a GUI concept illustration, not a claim that Program.vb contains forms."
+  ],
+  "beats": [
+    "0–2 s: show a gray form and the three action labels.",
+    "2–6 s: activate Click → Command1_Click → message box.",
+    "6–10 s: demonstrate Type and Resize one at a time using descriptive handler labels.",
+    "10–12 s: hold the whole action → handler → response system."
+  ],
+  "checks": [
+    "Every action reaches one handler and one result; arrows have visible direction.",
+    "The code displayed for Command1_Click matches SCRIPT.md verbatim.",
+    "The final hold explains the relationship without relying on motion or narration."
+  ],
+  "copy": "Event-Driven Programming\nClick · Type · Resize\nAction → Handler → Response",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      16,
+      16
+    ],
+    [
+      "SCRIPT.md",
+      130,
+      138
+    ],
+    [
+      "SCRIPT.md",
+      98,
+      108
+    ]
+  ],
+  "gates": [
+    "R03"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "CARD-01",
+  "durationSeconds": 7,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–1 s: teal desktop / dialog arrival.",
+    "1–5 s: title holds without animation.",
+    "5–6 s: cursor presses OK; button visibly depresses.",
+    "6–7 s: close into a clean outgoing frame."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.45,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 5,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 5.45,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 5.75,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 6.1,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "title-hold",
+    "ok-click"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

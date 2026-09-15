@@ -1,0 +1,47 @@
+{
+  "id": "DIA-05",
+  "title": "Array as queue: live slots, draw, shift, append",
+  "requirements": [
+    "Include an overview of all 52 slots, then a readable zoom of the first slots. Slots 0 through Count−1 are live; slots at or after Count are inactive, not necessarily zeroed.",
+    "Use Count=4 and illustrative cards [2♠,5♥,9♦,K♣]. Draw 2♠, copy 5♥→0,9♦→1,K♣→2, decrement Count to 3. The old last slot may remain stale.",
+    "Append A♠ at index Count=3 and then increment Count to 4. Preserve first-in/first-out semantics.",
+    "Count is an integer marking the live boundary, not a memory-address pointer. Keep “next to draw” at index 0."
+  ],
+  "beats": [
+    "0–3 s: 52-slot overview, capacity 52, live boundary at 4.",
+    "3–6 s: zoom and take index 0 into the returned-card area.",
+    "6–11 s: perform the three assignments in increasing i order.",
+    "11–14 s: Count becomes 3 and the stale tail becomes inactive.",
+    "14–18 s: append A♠ at index 3; Count becomes 4."
+  ],
+  "checks": [
+    "No card is drawn from the array end.",
+    "An inactive tail slot is not presented as an extra live card.",
+    "Shift uses H.Cards(i - 1) = H.Cards(i), and the Count decrement happens afterward.",
+    "Both overview and draw/append segments have exportable hold frames."
+  ],
+  "copy": "Capacity: 52\nCards(0): next to draw\nLive: 0 … Count − 1\nInactive: Count … 51",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      20,
+      20
+    ],
+    [
+      "SCRIPT.md",
+      315,
+      360
+    ],
+    [
+      "Program.vb",
+      23,
+      26
+    ],
+    [
+      "Program.vb",
+      128,
+      167
+    ]
+  ],
+  "gates": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "DIA-06",
+  "durationSeconds": 21,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–3 s: label the eight-card illustration and indices.",
+    "3–15 s: execute all seven stored swaps, with extra hold on first swap and self-swap.",
+    "15–18 s: show final permutation and locked suffix.",
+    "18–21 s: connect the miniature to the 52-card code."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 3.0,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3.82,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 4.714286,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 5.534286,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 6.428571,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 7.248571,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 8.142857,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 8.962857,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 9.857143,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 10.677143,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 11.571429,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 12.391429,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 13.285714,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 14.105714,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 15,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 18,
+      "file": "scene-0015.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "miniature-trace",
+    "real-code-bounds"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

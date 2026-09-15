@@ -1,0 +1,41 @@
+{
+  "id": "CODE-22",
+  "title": "GiveCardsToWinner procedure",
+  "requirements": [
+    "Emphasize award order: the pot is traversed from index 0 to PotCount−1 and appended to the hand bottom, then its live count is reset.",
+    "The displayed excerpt must be the literal Program.vb lines 275–283; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: For i = 0 To PotCount - 1 → AddCardToBottom(Winner, Pot(i)) → PotCount = 0.",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 275–283, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "    Sub GiveCardsToWinner(ByRef Pot() As Card, ByRef PotCount As Integer, ByRef Winner As Hand)\n        Dim i As Integer\n\n        For i = 0 To PotCount - 1\n            AddCardToBottom(Winner, Pot(i))\n        Next i\n\n        PotCount = 0\n    End Sub",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      275,
+      283
+    ],
+    [
+      "SCRIPT.md",
+      499,
+      513
+    ]
+  ],
+  "gates": []
+}

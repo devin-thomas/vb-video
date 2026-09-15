@@ -1,0 +1,265 @@
+{
+  "provenance": "Directly derived from Program.vb BuildDeck loops; not a shuffled deal.",
+  "cards": [
+    {
+      "index": 0,
+      "rank": 2,
+      "suit": "S"
+    },
+    {
+      "index": 1,
+      "rank": 2,
+      "suit": "H"
+    },
+    {
+      "index": 2,
+      "rank": 2,
+      "suit": "D"
+    },
+    {
+      "index": 3,
+      "rank": 2,
+      "suit": "C"
+    },
+    {
+      "index": 4,
+      "rank": 3,
+      "suit": "S"
+    },
+    {
+      "index": 5,
+      "rank": 3,
+      "suit": "H"
+    },
+    {
+      "index": 6,
+      "rank": 3,
+      "suit": "D"
+    },
+    {
+      "index": 7,
+      "rank": 3,
+      "suit": "C"
+    },
+    {
+      "index": 8,
+      "rank": 4,
+      "suit": "S"
+    },
+    {
+      "index": 9,
+      "rank": 4,
+      "suit": "H"
+    },
+    {
+      "index": 10,
+      "rank": 4,
+      "suit": "D"
+    },
+    {
+      "index": 11,
+      "rank": 4,
+      "suit": "C"
+    },
+    {
+      "index": 12,
+      "rank": 5,
+      "suit": "S"
+    },
+    {
+      "index": 13,
+      "rank": 5,
+      "suit": "H"
+    },
+    {
+      "index": 14,
+      "rank": 5,
+      "suit": "D"
+    },
+    {
+      "index": 15,
+      "rank": 5,
+      "suit": "C"
+    },
+    {
+      "index": 16,
+      "rank": 6,
+      "suit": "S"
+    },
+    {
+      "index": 17,
+      "rank": 6,
+      "suit": "H"
+    },
+    {
+      "index": 18,
+      "rank": 6,
+      "suit": "D"
+    },
+    {
+      "index": 19,
+      "rank": 6,
+      "suit": "C"
+    },
+    {
+      "index": 20,
+      "rank": 7,
+      "suit": "S"
+    },
+    {
+      "index": 21,
+      "rank": 7,
+      "suit": "H"
+    },
+    {
+      "index": 22,
+      "rank": 7,
+      "suit": "D"
+    },
+    {
+      "index": 23,
+      "rank": 7,
+      "suit": "C"
+    },
+    {
+      "index": 24,
+      "rank": 8,
+      "suit": "S"
+    },
+    {
+      "index": 25,
+      "rank": 8,
+      "suit": "H"
+    },
+    {
+      "index": 26,
+      "rank": 8,
+      "suit": "D"
+    },
+    {
+      "index": 27,
+      "rank": 8,
+      "suit": "C"
+    },
+    {
+      "index": 28,
+      "rank": 9,
+      "suit": "S"
+    },
+    {
+      "index": 29,
+      "rank": 9,
+      "suit": "H"
+    },
+    {
+      "index": 30,
+      "rank": 9,
+      "suit": "D"
+    },
+    {
+      "index": 31,
+      "rank": 9,
+      "suit": "C"
+    },
+    {
+      "index": 32,
+      "rank": 10,
+      "suit": "S"
+    },
+    {
+      "index": 33,
+      "rank": 10,
+      "suit": "H"
+    },
+    {
+      "index": 34,
+      "rank": 10,
+      "suit": "D"
+    },
+    {
+      "index": 35,
+      "rank": 10,
+      "suit": "C"
+    },
+    {
+      "index": 36,
+      "rank": 11,
+      "suit": "S"
+    },
+    {
+      "index": 37,
+      "rank": 11,
+      "suit": "H"
+    },
+    {
+      "index": 38,
+      "rank": 11,
+      "suit": "D"
+    },
+    {
+      "index": 39,
+      "rank": 11,
+      "suit": "C"
+    },
+    {
+      "index": 40,
+      "rank": 12,
+      "suit": "S"
+    },
+    {
+      "index": 41,
+      "rank": 12,
+      "suit": "H"
+    },
+    {
+      "index": 42,
+      "rank": 12,
+      "suit": "D"
+    },
+    {
+      "index": 43,
+      "rank": 12,
+      "suit": "C"
+    },
+    {
+      "index": 44,
+      "rank": 13,
+      "suit": "S"
+    },
+    {
+      "index": 45,
+      "rank": 13,
+      "suit": "H"
+    },
+    {
+      "index": 46,
+      "rank": 13,
+      "suit": "D"
+    },
+    {
+      "index": 47,
+      "rank": 13,
+      "suit": "C"
+    },
+    {
+      "index": 48,
+      "rank": 14,
+      "suit": "S"
+    },
+    {
+      "index": 49,
+      "rank": 14,
+      "suit": "H"
+    },
+    {
+      "index": 50,
+      "rank": 14,
+      "suit": "D"
+    },
+    {
+      "index": 51,
+      "rank": 14,
+      "suit": "C"
+    }
+  ]
+}

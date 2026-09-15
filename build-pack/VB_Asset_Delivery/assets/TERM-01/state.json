@@ -1,0 +1,13 @@
+{
+  "id": "TERM-01",
+  "production_status": "blocked",
+  "release_status": "blocked",
+  "assigned_agent": null,
+  "updated_at": null,
+  "blockers": [],
+  "reviewer": null,
+  "notes": [
+    "No dotnet executable found in the active environment. No real .NET harness, run capture, or editor capture was made. The original program remains unchanged. No installs were performed."
+  ],
+  "owner": "ChatGPT — capability preflight"
+}

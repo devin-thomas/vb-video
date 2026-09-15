@@ -1,0 +1,22 @@
+{
+  "id": "DIA-03",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still composition: readable low-to-high sequence, optionally split into two balanced rows.",
+    "Optional emphasis overlay: J/Q/K/A values only, without removing the full mapping."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "full-chart"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

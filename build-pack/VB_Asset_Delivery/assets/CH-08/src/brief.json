@@ -1,0 +1,41 @@
+{
+  "id": "CH-08",
+  "title": "Chapter 08: The Player's Hand: Arrays as Queues",
+  "requirements": [
+    "On-screen title must be exactly “The Player's Hand: Arrays as Queues” unless a named editorial decision authorizes a replacement.",
+    "Section number 08 is permitted as a small structural label. The metadata cue 18:00 is an approximate editorial locator, not final timing and not on-screen copy.",
+    "Use the approved Win95-inspired chapter template; deliver this chapter as its own source, still, motion, and QA record, not only as part of a combined sixteen-card render.",
+    "Preserve capitalization, punctuation, and the apostrophe. Long titles wrap naturally in no more than three lines at readable type.",
+    "No slogan, filler subtitle, product pitch, or unrequested channel logo."
+  ],
+  "beats": [
+    "0–0.3 s: simple deterministic reveal.",
+    "0.3–3.7 s: completely static reading hold.",
+    "3.7–4.0 s: clean exit or cut-ready last frame."
+  ],
+  "checks": [
+    "This output is CH-08, not another chapter with a copied filename or title.",
+    "Text matches the chapter list; numbering is correct.",
+    "A full-size and 720p proof pass clipping and reading checks.",
+    "This card has its own export and delivery metadata even when generated from a shared template."
+  ],
+  "copy": "08\nThe Player's Hand: Arrays as Queues",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      36,
+      36
+    ],
+    [
+      "SCRIPT.md",
+      25,
+      25
+    ],
+    [
+      "SCRIPT.md",
+      309,
+      309
+    ]
+  ],
+  "gates": []
+}

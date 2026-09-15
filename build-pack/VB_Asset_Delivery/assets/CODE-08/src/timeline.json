@@ -1,0 +1,32 @@
+{
+  "id": "CODE-08",
+  "durationSeconds": 10,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 2,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 5.0,
+      "file": "scene-0002.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "clean",
+    "highlighted"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

@@ -1,0 +1,30 @@
+{
+  "renderer": "CairoSVG 2.8.2",
+  "png_dimensions": "1920x1080",
+  "video_probes": [
+    {
+      "file": "exports/preview.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/MOCK-02/exports/preview.concat.txt -vf fps=30,format=yuv420p -frames:v 270 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/MOCK-02/exports/preview.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "270"
+          }
+        ],
+        "format": {
+          "duration": "9.000000",
+          "size": "51070"
+        }
+      }
+    }
+  ],
+  "command": "python shared/render_assets.py --id MOCK-02"
+}

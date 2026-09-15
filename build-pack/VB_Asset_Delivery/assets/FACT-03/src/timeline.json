@@ -1,0 +1,22 @@
+{
+  "id": "FACT-03",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: one factual idea and one focal visual/code token.",
+    "Optional emphasis state uses the same composition, with no additional claims."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "factoid"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

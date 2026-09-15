@@ -1,0 +1,41 @@
+{
+  "id": "DIA-07",
+  "title": "BuildDeck nested loops: 4 suits × 13 ranks",
+  "requirements": [
+    "Use exactly four columns in order S,H,D,C and thirteen rows in ascending rank 2…14.",
+    "Traverse rank-major order: 2S,2H,2D,2C,3S,…,AC. Never transpose the outer and inner loops.",
+    "Show Rank, SuitIndex, Index, and the corresponding grid cell. Index starts at 0; the final occupied index is 51, then Index becomes 52.",
+    "Preserve Dim/For/Next spelling in any excerpt; pair colored brackets with text labels, not color alone."
+  ],
+  "beats": [
+    "0–3 s: empty labeled 4×13 grid.",
+    "3–8 s: walk all four suits of rank 2 slowly.",
+    "8–14 s: accelerate the middle ranks without skipping recorded states.",
+    "14–18 s: show final Ace row and Index=52 completion state."
+  ],
+  "checks": [
+    "All 52 unique rank/suit combinations are filled exactly once.",
+    "Final cell is Ace of Clubs at index 51.",
+    "Next SuitIndex is visibly inner; Next Rank is visibly outer.",
+    "The ordered build is not mislabeled as shuffled or dealt."
+  ],
+  "copy": "For Rank = 2 To 14\nFor SuitIndex = 0 To 3\n52 cards = 13 ranks × 4 suits",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      22,
+      22
+    ],
+    [
+      "SCRIPT.md",
+      239,
+      279
+    ],
+    [
+      "Program.vb",
+      97,
+      111
+    ]
+  ],
+  "gates": []
+}

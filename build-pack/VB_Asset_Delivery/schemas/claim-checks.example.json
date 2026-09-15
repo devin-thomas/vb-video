@@ -1,0 +1,13 @@
+{
+  "gates": [
+    {
+      "id": "R03",
+      "status": "blocked",
+      "evidence": [],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "No release decision recorded."
+    }
+  ]
+}

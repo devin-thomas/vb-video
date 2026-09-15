@@ -1,0 +1,261 @@
+{
+  "id": "DIA-10",
+  "title": "Game flowchart: setup, rounds, war loop, result",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 504,
+      "sha256": "9ec92f91e11cb3dccf4f519cd46b1b1e4beb47b508ff7fdf779f1b5364a5a8ed"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 883,
+      "sha256": "d3a00831e6ff1f39346266fd1b905a2adc6c2c2b2276886a7454cc2cc75d915d"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1759,
+      "sha256": "2637cbdd212292376195129e44e2a8e5aa5fae71fef43db6db88df0f7cc818fe"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 148,
+      "sha256": "0e94f394477f98fa313c99cfaba488b6bb4e67366f178546a5160665e84d0dcc"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 6866,
+      "sha256": "dc17ba3cb9bee49a7272ccf5d5e73c5a5af75c96309e29d017340397be0d449d"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 57187,
+      "sha256": "eaf8afb047d097cb861e02e85e8f085d10e1286eff88cb56eddceb51e8ee440e"
+    },
+    {
+      "path": "exports/main-flow.png",
+      "role": "rendered still",
+      "bytes": 65557,
+      "sha256": "434cc78f83f565a37d67ab694e26c104c2c626c7c22f714c7f6d9d37ae2e70b9"
+    },
+    {
+      "path": "exports/playround-detail.png",
+      "role": "rendered still",
+      "bytes": 80406,
+      "sha256": "11ac447da33ed155d996255369ed2a20521b745c4327bae3202ccb47e6e52003"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 65557,
+      "sha256": "434cc78f83f565a37d67ab694e26c104c2c626c7c22f714c7f6d9d37ae2e70b9"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 21021,
+      "sha256": "a471d9afbf26c7024720a214823354a1588d87c47971350ad399d94596f8f188"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 81148,
+      "sha256": "3ec080abccda8fa4f8c3e59bca9dd87c21a5037977bc63e3f59beeac89f92ecd"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2470,
+      "sha256": "8695463031b3716da52e761675ad8ba6c86b706f21ded34c3e3bef1e2a28bb99"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1679,
+      "sha256": "5f8e75857940d46dc387ac247d2c5c2952de1b144c0899dde79c01d9b7c0e9f3"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1840,
+      "sha256": "e913d13093d736af221a03673a732e76df5bc3fd09bf8d30459e600b5e9f6cce"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 9830,
+      "sha256": "30e3ccf92ca65ede39d60ef141a634c18e111c692bb1db45b69524d5780be1d4"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 7280,
+      "sha256": "67d6f86d461080e9c44a78006fba07058ed603ecf5c290596b9b740dfb9cd636"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 7280,
+      "sha256": "67d6f86d461080e9c44a78006fba07058ed603ecf5c290596b9b740dfb9cd636"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 535,
+      "sha256": "c37c08a34488d51efde4f371328fe754bc8a08605c282120beee4d9f5774cd60"
+    },
+    {
+      "path": "src/variant-main-flow.svg",
+      "role": "editable source",
+      "bytes": 7280,
+      "sha256": "67d6f86d461080e9c44a78006fba07058ed603ecf5c290596b9b740dfb9cd636"
+    },
+    {
+      "path": "src/variant-playround-detail.svg",
+      "role": "editable source",
+      "bytes": 6499,
+      "sha256": "aeab35cf4d5682ccf0c9aba4179ce1cfbe5562a8f333b420f06b7d5a34d26c1d"
+    }
+  ],
+  "variants": [
+    {
+      "name": "main-flow",
+      "files": [
+        "exports/main-flow.png",
+        "src/variant-main-flow.svg"
+      ]
+    },
+    {
+      "name": "playround-detail",
+      "files": [
+        "exports/playround-detail.png",
+        "src/variant-playround-detail.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        25,
+        25
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        388,
+        420
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        460,
+        489
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        44,
+        94
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        218,
+        270
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Standalone full-resolution detail variant and overview poster",
+        "scope": "Inspected playround-detail.png plus the main-flow overview.",
+        "status": "Guard order and the explicit inner-loop return path are represented; no recursive call is invented."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R04",
+    "R05",
+    "R06"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Overview and inner-loop detail are separate readable diagrams.",
+    "The main graphic abbreviates the source increment as RoundNumber += 1 in prose only; it is not presented as a literal VB line.",
+    "Source behavior retained: first empty-hand guard, second guard, draw, compare, tie/burn, repeat. R04/R05/R06 remain editorial gates.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

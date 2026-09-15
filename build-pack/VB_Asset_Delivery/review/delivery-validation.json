@@ -1,0 +1,794 @@
+[
+  {
+    "id": "CARD-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CARD-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-03",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-04",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-05",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-06",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-07",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-08",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-09",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-10",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-11",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-12",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-13",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-14",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-15",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CH-16",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-03",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-04",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-05",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-06",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-07",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CMP-08",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-03",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-04",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-05",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-06",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-07",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-08",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-09",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-10",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-11",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-12",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-13",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-14",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-15",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-16",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-17",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-18",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-19",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-20",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-21",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-22",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-23",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-24",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "CODE-25",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-03",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-04",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-05",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-06",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-07",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-08",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-09",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-10",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "FACT-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "FACT-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "FACT-03",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "FACT-04",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "FACT-05",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "FACT-06",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "MOCK-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "MOCK-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "REF-03",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "REF-04",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "OPS-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "CMP-02",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: both code columns visible at once.",
+    "Focus overlay: highlight the specific contrasting tokens without changing layout."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "comparison",
+    "token-focus"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

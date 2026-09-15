@@ -1,0 +1,39 @@
+{
+  "id": "MOCK-01",
+  "title": "VB4-style War GUI on green felt",
+  "requirements": [
+    "Use Windows-95-inspired window chrome around a green felt table; two player piles, central face-up cards, count labels, Deal and Watch buttons, and a speed slider.",
+    "Draw all card faces and backs with the shared SVG primitives; no commercial card art or copied Solitaire sprites.",
+    "Use one internally consistent in-progress state: Player1 25, Player2 25, pot2. Any card labels must correspond to the displayed cards.",
+    "Include the source’s “This is what you’d build next.” label. Metadata must explicitly say conceptual GUI mockup; it is not an implemented VB4 application.",
+    "Provide a clean table state and a clearly labeled annotated state. Do not add account screens, settings menus, or unsupported game features."
+  ],
+  "beats": [
+    "Still: one balanced card-table window, with controls along the bottom.",
+    "Annotated still: callouts for card PictureBoxes, timer-driven rounds, and the intended buttons."
+  ],
+  "checks": [
+    "Counts plus the pot equal 52.",
+    "Green felt, recognizable gray chrome, readable cards, Deal/Watch controls, and speed control are present.",
+    "Concept status is visible and no fake software version evidence is created."
+  ],
+  "copy": "War — CPU vs CPU\nPlayer 1 · Player 2\nDeal · Watch · Speed\nThis is what you’d build next.",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      46,
+      46
+    ],
+    [
+      "SCRIPT.md",
+      583,
+      589
+    ],
+    [
+      "SCRIPT.md",
+      795,
+      797
+    ]
+  ],
+  "gates": []
+}

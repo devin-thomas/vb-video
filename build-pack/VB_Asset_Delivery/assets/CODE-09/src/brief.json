@@ -1,0 +1,41 @@
+{
+  "id": "CODE-09",
+  "title": "DrawTopCard function",
+  "requirements": [
+    "Progress through saving the top card, shifting the live range, reducing Count, then assigning the return value. Do not visually imply the last array slot is cleared.",
+    "The displayed excerpt must be the literal Program.vb lines 156–167; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: Top = H.Cards(0) → H.Cards(i - 1) = H.Cards(i) → H.Count = H.Count - 1 → DrawTopCard = Top.",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 156–167, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "    Function DrawTopCard(ByRef H As Hand) As Card\n        Dim Top As Card\n        Dim i As Integer\n\n        Top = H.Cards(0)\n        For i = 1 To H.Count - 1\n            H.Cards(i - 1) = H.Cards(i)\n        Next i\n        H.Count = H.Count - 1\n\n        DrawTopCard = Top\n    End Function",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      156,
+      167
+    ],
+    [
+      "SCRIPT.md",
+      341,
+      360
+    ]
+  ],
+  "gates": []
+}

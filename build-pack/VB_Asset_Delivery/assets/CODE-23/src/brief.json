@@ -1,0 +1,41 @@
+{
+  "id": "CODE-23",
+  "title": "RankName Select Case",
+  "requirements": [
+    "Show how J/Q/K/A become display names and numeric ranks use CStr. This is a supplemental code detail within the plan’s code-block family, not new narration.",
+    "The displayed excerpt must be the literal Program.vb lines 169–182; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: Case 11 → Case 12 → Case 13 → Case 14 → CStr(Rank).",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 169–182, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "    Function RankName(ByVal Rank As Integer) As String\n        Select Case Rank\n            Case 11\n                RankName = \"Jack\"\n            Case 12\n                RankName = \"Queen\"\n            Case 13\n                RankName = \"King\"\n            Case 14\n                RankName = \"Ace\"\n            Case Else\n                RankName = CStr(Rank)\n        End Select\n    End Function",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      169,
+      182
+    ],
+    [
+      "SCRIPT.md",
+      217,
+      221
+    ]
+  ],
+  "gates": []
+}

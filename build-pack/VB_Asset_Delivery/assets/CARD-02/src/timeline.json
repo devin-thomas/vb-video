@@ -1,0 +1,28 @@
+{
+  "id": "CARD-02",
+  "durationSeconds": 12,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–1 s: arrive from black.",
+    "1–11 s: readable static end-screen hold.",
+    "11–12 s: hold or cut to black without removing the CTA prematurely."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.6,
+      "file": "scene-0001.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "clean-end-card",
+    "end-card-motion"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

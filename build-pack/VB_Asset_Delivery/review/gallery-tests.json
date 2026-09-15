@@ -1,0 +1,11 @@
+{
+  "total_assets": 71,
+  "search_test": "Fisher returns DIA-06",
+  "filter_test": "DIA returns 10",
+  "modal_test": "opens and closes",
+  "variant_test": "real-code-bounds.png link chosen correctly",
+  "mobile_width": 390,
+  "horizontal_overflow": false,
+  "javascript_errors": [],
+  "image_test_note": "In-memory test uses embedded copies of delivered thumbnails; file URL browsing is restricted in this sandbox. Actual local-relative link paths checked separately."
+}

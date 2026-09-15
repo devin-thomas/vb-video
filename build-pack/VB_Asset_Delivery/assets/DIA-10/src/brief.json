@@ -1,0 +1,54 @@
+{
+  "id": "DIA-10",
+  "title": "Game flowchart: setup, rounds, war loop, result",
+  "requirements": [
+    "Main path: Build → Shuffle → New hands → Deal → Both have cards? → increment round → above MAX_ROUNDS? → PlayRound → repeat.",
+    "The round-cap branch ends in draw handling. The both-have-cards false branch checks the hand counts before winner summary.",
+    "PlayRound inset shows empty-hand checks, draw pair, append to pot, compare, award on inequality, burn on tie, then repeat.",
+    "Do not depict a recursive PlayRound call or a true visited-state cycle detector. Source message wording is not proof of detection.",
+    "Split the overview and detail into separate same-ticket export variants rather than shrinking the full diagram below readable type."
+  ],
+  "beats": [
+    "Overview still: setup and game loop with winner/draw exits.",
+    "Round-detail still: the inner Do loop and tie/burn return arrow."
+  ],
+  "checks": [
+    "Both “No cards” and cap/draw exits exist.",
+    "Loop-back arrows are directed and do not cross node labels.",
+    "Empty-hand checks precede draws.",
+    "A 20,000 cap is shown without claiming the source summary counter is always the number of completed rounds."
+  ],
+  "copy": "Build → Shuffle → Deal\nBoth have cards?\nRound cap exceeded?\nPlay round\nWinner / Draw",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      25,
+      25
+    ],
+    [
+      "SCRIPT.md",
+      388,
+      420
+    ],
+    [
+      "SCRIPT.md",
+      460,
+      489
+    ],
+    [
+      "Program.vb",
+      44,
+      94
+    ],
+    [
+      "Program.vb",
+      218,
+      270
+    ]
+  ],
+  "gates": [
+    "R04",
+    "R05",
+    "R06"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "win95-workbench-1.0.0",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "renderer": "studio.py / build_assets.py / diagrams.py",
+  "font_families": [
+    "Liberation Sans",
+    "DejaVu Sans Mono"
+  ],
+  "fonts_included": false,
+  "date_utc": "2026-09-15T03:06:25.843977+00:00"
+}

@@ -1,0 +1,233 @@
+{
+  "id": "DIA-07",
+  "durationSeconds": 18,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–3 s: empty labeled 4×13 grid.",
+    "3–8 s: walk all four suits of rank 2 slowly.",
+    "8–14 s: accelerate the middle ranks without skipping recorded states.",
+    "14–18 s: show final Ace row and Index=52 completion state."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 3.0,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 4.25,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 5.5,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 6.75,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 8.0,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 8.139535,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 8.27907,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 8.418605,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 8.55814,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 8.697674,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 8.837209,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 8.976744,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 9.116279,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 9.255814,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 9.395349,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 9.534884,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 9.674419,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 9.813953,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 9.953488,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 10.093023,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 10.232558,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 10.372093,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 10.511628,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 10.651163,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 10.790698,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 10.930233,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 11.069767,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 11.209302,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 11.348837,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 11.488372,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 11.627907,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 11.767442,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 11.906977,
+      "file": "scene-0033.svg"
+    },
+    {
+      "time": 12.046512,
+      "file": "scene-0034.svg"
+    },
+    {
+      "time": 12.186047,
+      "file": "scene-0035.svg"
+    },
+    {
+      "time": 12.325581,
+      "file": "scene-0036.svg"
+    },
+    {
+      "time": 12.465116,
+      "file": "scene-0037.svg"
+    },
+    {
+      "time": 12.604651,
+      "file": "scene-0038.svg"
+    },
+    {
+      "time": 12.744186,
+      "file": "scene-0039.svg"
+    },
+    {
+      "time": 12.883721,
+      "file": "scene-0040.svg"
+    },
+    {
+      "time": 13.023256,
+      "file": "scene-0041.svg"
+    },
+    {
+      "time": 13.162791,
+      "file": "scene-0042.svg"
+    },
+    {
+      "time": 13.302326,
+      "file": "scene-0043.svg"
+    },
+    {
+      "time": 13.44186,
+      "file": "scene-0044.svg"
+    },
+    {
+      "time": 13.581395,
+      "file": "scene-0045.svg"
+    },
+    {
+      "time": 13.72093,
+      "file": "scene-0046.svg"
+    },
+    {
+      "time": 13.860465,
+      "file": "scene-0047.svg"
+    },
+    {
+      "time": 14.0,
+      "file": "scene-0048.svg"
+    },
+    {
+      "time": 14.0,
+      "file": "scene-0049.svg"
+    },
+    {
+      "time": 14.65,
+      "file": "scene-0050.svg"
+    },
+    {
+      "time": 15.3,
+      "file": "scene-0051.svg"
+    },
+    {
+      "time": 15.95,
+      "file": "scene-0052.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "full-grid",
+    "first-rank-closeup"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

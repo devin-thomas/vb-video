@@ -1,0 +1,14 @@
+{
+  "id": "CODE-09",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "assigned_agent": null,
+  "updated_at": null,
+  "blockers": [],
+  "reviewer": null,
+  "notes": [
+    "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
+    "Publication approval is separate from production."
+  ],
+  "owner": "ChatGPT — local production"
+}

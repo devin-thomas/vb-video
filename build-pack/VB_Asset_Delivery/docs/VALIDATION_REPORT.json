@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "checks": [
+    "source hashes/bytes",
+    "ticket IDs/sections/output contracts",
+    "source ranges and literal code payloads",
+    "dependencies and acyclicity",
+    "all 50 original families",
+    "all inline script visual cues",
+    "16 chapter cards",
+    "7 human handoffs",
+    "illustrative fixture integrity"
+  ],
+  "asset_tickets": 130,
+  "coordination_tickets": 4,
+  "visual_cues": 74,
+  "errors": [],
+  "limitations": "Planning structure only. No media, runtime execution, historical facts, or licenses verified.",
+  "additional_packaging_checks": {
+    "local_markdown_links": "pass",
+    "dispatcher_smoke_test": "pass",
+    "delivery_validator_rejects_unproduced_asset": "pass",
+    "delivery_validator_rejects_unknown_id": "pass",
+    "no_bundled_font_files": "pass",
+    "helper_python_compile": "pass"
+  }
+}

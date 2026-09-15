@@ -1,0 +1,229 @@
+{
+  "id": "CMP-03",
+  "title": "For loop and named Next",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 505,
+      "sha256": "39d4fab49da16fce883eb038ce93fde26c886960b4ae4b4ea5ef688db12bce27"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 923,
+      "sha256": "4d2162338e84d35857825a0e7d1eb92c863099fff5b04dc6abf8820287fe9e9e"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 148,
+      "sha256": "ce5109b527cdb265a35dc14e46b57e8de60cb19a48da9d0689a6499f8a54e9bb"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 673,
+      "sha256": "ff49c39d9bcc502fb81fd59ba0381dd768f504830cdb0823acb634aef9606fb6"
+    },
+    {
+      "path": "exports/comparison.png",
+      "role": "rendered still",
+      "bytes": 50456,
+      "sha256": "20426f7f1d738e59af4f17d8cbd32ce6b59e5bb84d1481a5836f6058ff9f34b7"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 38971,
+      "sha256": "31d8f18565422bc8e6cab26c45fc89f6799c4eca98f739e53f99f4f25ea30170"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 50456,
+      "sha256": "20426f7f1d738e59af4f17d8cbd32ce6b59e5bb84d1481a5836f6058ff9f34b7"
+    },
+    {
+      "path": "exports/token-focus.png",
+      "role": "rendered still",
+      "bytes": 51002,
+      "sha256": "a0597d4892123d79add853bf1c7bfef1d77d76d6b927ee86251e0d3d8332ad9d"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 12357,
+      "sha256": "dbb9a5a2db39ca92479cd844d203253ceaff4def5f45af965d23e38e93eea709"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 59176,
+      "sha256": "c667edd24b3fa6dbc491960ac5ef9171f4a0b3723d5a1dfb1f5475b62b369b4a"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2348,
+      "sha256": "6c833ca88ba899e98996dd375bf9410f835789ddb37747cafe797f919766c0ae"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1425,
+      "sha256": "18d7a7bd473d62777e8d1eda8d5efee2ca7dc3251217c56c90fa818f61b5f6a5"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 996,
+      "sha256": "1cf6772c93efce733740336513b7b482393a81e299a3f273d81398748f8ea169"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 9009,
+      "sha256": "b8b5cb116620af029d6a7c86156bb32260b308fade7317a7840b4f09913bf727"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 6518,
+      "sha256": "34d7cc6299beba0b8912a1a6655559dd0af973360e09577aa1a27567682d6656"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 6518,
+      "sha256": "34d7cc6299beba0b8912a1a6655559dd0af973360e09577aa1a27567682d6656"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 530,
+      "sha256": "ea1eaf1af429fcdd458349e7c1aa1df99be95e1df6511c6f576c05b52b14f26b"
+    },
+    {
+      "path": "src/variant-comparison.svg",
+      "role": "editable source",
+      "bytes": 6518,
+      "sha256": "34d7cc6299beba0b8912a1a6655559dd0af973360e09577aa1a27567682d6656"
+    },
+    {
+      "path": "src/variant-token-focus.svg",
+      "role": "editable source",
+      "bytes": 6681,
+      "sha256": "03c2ade1d11665d0e4128cc6dcd5242f7bd3d80e103269f97482bea375dbf95a"
+    }
+  ],
+  "variants": [
+    {
+      "name": "comparison",
+      "files": [
+        "exports/comparison.png",
+        "src/variant-comparison.svg"
+      ]
+    },
+    {
+      "name": "token-focus",
+      "files": [
+        "exports/token-focus.png",
+        "src/variant-token-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        38,
+        38
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        277,
+        279
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "The C# side is a proposed equivalent-bounds example, not verbatim supplied code. Keep the inclusive upper bound 14 on both sides.",
+    "No compile/run is claimed for illustrative counterparts.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

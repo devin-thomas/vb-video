@@ -1,0 +1,41 @@
+{
+  "id": "CODE-18",
+  "title": "Draw a pair and append to the pot",
+  "requirements": [
+    "Animate exactly four source lines: draw both, append Player1’s card then Player2’s. Do not reverse the pot order for aesthetics.",
+    "The displayed excerpt must be the literal Program.vb lines 234–237; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: Card1 = DrawTopCard(Player1) → Card2 = DrawTopCard(Player2) → Pot(PotCount) = Card1 → Pot(PotCount) = Card2.",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 234–237, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "            Card1 = DrawTopCard(Player1)\n            Card2 = DrawTopCard(Player2)\n            Pot(PotCount) = Card1 : PotCount = PotCount + 1\n            Pot(PotCount) = Card2 : PotCount = PotCount + 1",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      234,
+      237
+    ],
+    [
+      "SCRIPT.md",
+      464,
+      466
+    ]
+  ],
+  "gates": []
+}

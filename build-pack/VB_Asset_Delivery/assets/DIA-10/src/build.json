@@ -1,0 +1,69 @@
+{
+  "id": "DIA-10",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "main-flow": "variant-main-flow.svg",
+    "playround-detail": "variant-playround-detail.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Overview and inner-loop detail are separate readable diagrams.",
+    "The main graphic abbreviates the source increment as RoundNumber += 1 in prose only; it is not presented as a literal VB line.",
+    "Source behavior retained: first empty-hand guard, second guard, draw, compare, tie/burn, repeat. R04/R05/R06 remain editorial gates."
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        25,
+        25
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        388,
+        420
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        460,
+        489
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        44,
+        94
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        218,
+        270
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "kind": "still"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "MOCK-01",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: one balanced card-table window, with controls along the bottom.",
+    "Annotated still: callouts for card PictureBoxes, timer-driven rounds, and the intended buttons."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "concept",
+    "annotated"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

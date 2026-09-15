@@ -1,0 +1,715 @@
+[
+  {
+    "id": "CARD-01",
+    "title": "Opening title: Win95 message box",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 7,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CARD-02",
+    "title": "Outro end card: subscribe, like, next video",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 12,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-01",
+    "title": "Chapter 01: Intro: What Even Is Visual Basic?",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-02",
+    "title": "Chapter 02: A Very Brief History of BASIC to Visual Basic",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-03",
+    "title": "Chapter 03: The Toolchain: What You Actually Installed",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-04",
+    "title": "Chapter 04: How We're Doing This Today",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-05",
+    "title": "Chapter 05: The Card Game War: Rules in 60 Seconds",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-06",
+    "title": "Chapter 06: Modeling a Card in VB",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-07",
+    "title": "Chapter 07: Building and Shuffling the Deck",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-08",
+    "title": "Chapter 08: The Player's Hand: Arrays as Queues",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-09",
+    "title": "Chapter 09: The Game Loop",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-10",
+    "title": "Chapter 10: War! The Recursion Within the Loop",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": [
+      "R04"
+    ]
+  },
+  {
+    "id": "CH-11",
+    "title": "Chapter 11: Running It: Full Simulation",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-12",
+    "title": "Chapter 12: What This Code Would Have Become",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-13",
+    "title": "Chapter 13: VB vs. The Competition in 1995",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-14",
+    "title": "Chapter 14: What If You Were on a Mac?",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CH-15",
+    "title": "Chapter 15: Why VB Mattered (and Why It Died)",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": [
+      "R12"
+    ]
+  },
+  {
+    "id": "CH-16",
+    "title": "Chapter 16: Outro",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 4,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CMP-01",
+    "title": "Variable declaration: type before versus after",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CMP-02",
+    "title": "Void method versus Sub procedure",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R04a"
+    ]
+  },
+  {
+    "id": "CMP-03",
+    "title": "For loop and named Next",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CMP-04",
+    "title": "Counting backward: decrement versus Step -1",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CMP-05",
+    "title": "Returning a value",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CMP-06",
+    "title": "String concatenation",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CMP-07",
+    "title": "While loop spelling",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R04a"
+    ]
+  },
+  {
+    "id": "CMP-08",
+    "title": "Line continuation",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R03"
+    ]
+  },
+  {
+    "id": "CODE-01",
+    "title": "Options: explicit and strict",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R03",
+      "R17"
+    ]
+  },
+  {
+    "id": "CODE-02",
+    "title": "Card structure: Rank and Suit",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R03"
+    ]
+  },
+  {
+    "id": "CODE-03",
+    "title": "BuildDeck procedure",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-04",
+    "title": "Nested For / Next matching brackets",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-05",
+    "title": "ShuffleDeck procedure",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R15"
+    ]
+  },
+  {
+    "id": "CODE-06",
+    "title": "Hand structure",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R04a"
+    ]
+  },
+  {
+    "id": "CODE-07",
+    "title": "NewHand initialization",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-08",
+    "title": "AddCardToBottom procedure",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-09",
+    "title": "DrawTopCard function",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-10",
+    "title": "Return by assigning to the function name",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-11",
+    "title": "Main setup: build, shuffle, new hands, deal",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-12",
+    "title": "DealCards: alternating distribution",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-13",
+    "title": "Main Do While game loop",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R06"
+    ]
+  },
+  {
+    "id": "CODE-14",
+    "title": "Round-cap safety valve",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R06"
+    ]
+  },
+  {
+    "id": "CODE-15",
+    "title": "PlayRound signature and argument modes",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10.25,
+    "fps": 30,
+    "unresolved_gates": [
+      "R04a"
+    ]
+  },
+  {
+    "id": "CODE-16",
+    "title": "Pot declaration and count",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R07"
+    ]
+  },
+  {
+    "id": "CODE-17",
+    "title": "Mid-war empty-hand guards",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 12.0,
+    "fps": 30,
+    "unresolved_gates": [
+      "R04",
+      "R05"
+    ]
+  },
+  {
+    "id": "CODE-18",
+    "title": "Draw a pair and append to the pot",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-19",
+    "title": "Rank comparison and round winner",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-20",
+    "title": "War counters and symmetric burn loop",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R05"
+    ]
+  },
+  {
+    "id": "CODE-21",
+    "title": "Colon statement separator",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-22",
+    "title": "GiveCardsToWinner procedure",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-23",
+    "title": "RankName Select Case",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10.25,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-24",
+    "title": "CardText suit names and concatenation",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "CODE-25",
+    "title": "Winner and final summary output code",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 12.25,
+    "fps": 30,
+    "unresolved_gates": [
+      "R06",
+      "R08"
+    ]
+  },
+  {
+    "id": "DIA-01",
+    "title": "Event-driven programming: action → handler → code",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 12,
+    "fps": 30,
+    "unresolved_gates": [
+      "R03"
+    ]
+  },
+  {
+    "id": "DIA-02",
+    "title": "War rules: shuffle, deal, flip, compare, collect",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 28,
+    "fps": 30,
+    "unresolved_gates": [
+      "R05"
+    ]
+  },
+  {
+    "id": "DIA-03",
+    "title": "Card rank mapping: 2 through Ace",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "DIA-04",
+    "title": "ByRef versus ByVal: caller variable and local parameter",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 12,
+    "fps": 30,
+    "unresolved_gates": [
+      "R04a"
+    ]
+  },
+  {
+    "id": "DIA-05",
+    "title": "Array as queue: live slots, draw, shift, append",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 18,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "DIA-06",
+    "title": "Fisher–Yates shuffle: backward swaps",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 21,
+    "fps": 30,
+    "unresolved_gates": [
+      "R15"
+    ]
+  },
+  {
+    "id": "DIA-07",
+    "title": "BuildDeck nested loops: 4 suits × 13 ranks",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 18,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "DIA-08",
+    "title": "War mechanic: tie, burn, flip, award",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 12,
+    "fps": 30,
+    "unresolved_gates": [
+      "R05"
+    ]
+  },
+  {
+    "id": "DIA-09",
+    "title": "Pot growth: 2 → 10 → 18",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 15,
+    "fps": 30,
+    "unresolved_gates": [
+      "R05",
+      "R07"
+    ]
+  },
+  {
+    "id": "DIA-10",
+    "title": "Game flowchart: setup, rounds, war loop, result",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R04",
+      "R05",
+      "R06"
+    ]
+  },
+  {
+    "id": "FACT-01",
+    "title": "BASIC acronym",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R15"
+    ]
+  },
+  {
+    "id": "FACT-02",
+    "title": "Dim: a word inherited from array dimensions",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R10",
+      "R15"
+    ]
+  },
+  {
+    "id": "FACT-03",
+    "title": "RAD: Rapid Application Development",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "FACT-04",
+    "title": "VB3 and the Jet database engine",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R15"
+    ]
+  },
+  {
+    "id": "FACT-05",
+    "title": "The function name can hold the return value",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "FACT-06",
+    "title": "The runtime was part of the download story",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R16"
+    ]
+  },
+  {
+    "id": "MOCK-01",
+    "title": "VB4-style War GUI on green felt",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  },
+  {
+    "id": "MOCK-02",
+    "title": "1996 download dialog: 9:42 remaining",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 9,
+    "fps": 30,
+    "unresolved_gates": [
+      "R16"
+    ]
+  },
+  {
+    "id": "REF-03",
+    "title": "Classic VB MsgBox event handler",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 10,
+    "fps": 30,
+    "unresolved_gates": [
+      "R03"
+    ]
+  },
+  {
+    "id": "REF-04",
+    "title": "BASIC 10 PRINT / 20 GOTO",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": 8,
+    "fps": 30,
+    "unresolved_gates": []
+  },
+  {
+    "id": "OPS-01",
+    "title": "Shared visual system, reusable primitives, and deterministic export contract",
+    "production_status": "produced",
+    "release_status": "unreviewed",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": []
+  }
+]

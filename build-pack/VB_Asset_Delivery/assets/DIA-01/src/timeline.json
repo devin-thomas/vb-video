@@ -1,0 +1,41 @@
+{
+  "id": "DIA-01",
+  "durationSeconds": 12,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–2 s: show a gray form and the three action labels.",
+    "2–6 s: activate Click → Command1_Click → message box.",
+    "6–10 s: demonstrate Type and Resize one at a time using descriptive handler labels.",
+    "10–12 s: hold the whole action → handler → response system."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 2,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 6,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 8,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 10,
+      "file": "scene-0004.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "overview",
+    "click-handler"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

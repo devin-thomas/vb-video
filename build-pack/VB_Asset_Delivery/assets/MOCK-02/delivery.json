@@ -1,0 +1,266 @@
+{
+  "id": "MOCK-02",
+  "title": "1996 download dialog: 9:42 remaining",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 9,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 505,
+      "sha256": "25fd5d6a5240aa1edd8e7de1b0506749ad092737878f91a92724cf8307c5b505"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 307,
+      "sha256": "27765ac2e758e82b9251bfc3da2cbca6c53c4f13e43974b1ec5877f06bf8d9b7"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 855,
+      "sha256": "c4e64a0970ef966c5f26ca202a7f7793acc0892749c9f03d54f37e40677d6f96"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 973,
+      "sha256": "038504e28edc540ed04840c06942f933af8324801ed39c83ab526b103ed22b17"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 930,
+      "sha256": "2d2165f4f3ee0560e0e014250c831a7f8567eca346aeb592e35421765fb1b734"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 40597,
+      "sha256": "d6b209af801429a9f8f332f8430ae54f0d3d55ad3ac2e25ca685374cb944d58b"
+    },
+    {
+      "path": "exports/eta-hold.png",
+      "role": "rendered still",
+      "bytes": 32485,
+      "sha256": "1add4ae4a0648dc261002485e320fb30dc1443c5c8c8f071d5326bf8223315ba"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 32486,
+      "sha256": "097a1a4579c2627c8b2cda2f2b265cbc50273995dc85d61d56ecd56b90175350"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 32486,
+      "sha256": "60be4504bc74d45281980aa99dfd938cd7cd757f5474d3c9ae4d4d5eb2ca4ecc"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 32485,
+      "sha256": "1add4ae4a0648dc261002485e320fb30dc1443c5c8c8f071d5326bf8223315ba"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 32485,
+      "sha256": "1add4ae4a0648dc261002485e320fb30dc1443c5c8c8f071d5326bf8223315ba"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 51070,
+      "sha256": "e87d32f540845811279296e1e524b25b6ca8f5c1c897a583078740718541fcda"
+    },
+    {
+      "path": "exports/slow-progress.png",
+      "role": "rendered still",
+      "bytes": 32486,
+      "sha256": "097a1a4579c2627c8b2cda2f2b265cbc50273995dc85d61d56ecd56b90175350"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 12367,
+      "sha256": "b98e63f1631afd17a1f8bc880a7c4e0f8b19f7bc2a7204755d76d58c0bbb0936"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 36902,
+      "sha256": "a0d516bc6a061ec2af16e0840b878508e13381a046c6851882af10f7a20ea033"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2291,
+      "sha256": "53f9f7693c977a01846160fc53cf8e6045d811ce104c33a75e86dff72149a39b"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1296,
+      "sha256": "18c02247c6324dc8771acb0ccbf5e9a8bfcd10ed196037fe766800081c3e89b1"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1048,
+      "sha256": "69e15a364536e9cdebb046c9bc798f4277814dc67bb5335cd0d0ea7eeace3617"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 15479,
+      "sha256": "29b42174652ae64adcbd5119b1e4871b33d2dc6e1d0b087e97d4cd3099a69cc7"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 3953,
+      "sha256": "6da1ef99f95cbf17ba521f0968cc84f0813c5a9611e6261b160a0be40d5ac4c9"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 4033,
+      "sha256": "fdbf6b6e90417b022efd796763343fbaf5a5995f293989a1d3a5ea20039bc327"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 4113,
+      "sha256": "df2f2768c5ec18ea5a46b528e0767aadf73b181c356168cc5305231beec7c848"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 3953,
+      "sha256": "6da1ef99f95cbf17ba521f0968cc84f0813c5a9611e6261b160a0be40d5ac4c9"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 693,
+      "sha256": "b85d24409152713bc0b231018538ef92d0e6f20f6b2df606844656090aa06d24"
+    },
+    {
+      "path": "src/variant-eta-hold.svg",
+      "role": "editable source",
+      "bytes": 3953,
+      "sha256": "6da1ef99f95cbf17ba521f0968cc84f0813c5a9611e6261b160a0be40d5ac4c9"
+    },
+    {
+      "path": "src/variant-slow-progress.svg",
+      "role": "editable source",
+      "bytes": 4113,
+      "sha256": "df2f2768c5ec18ea5a46b528e0767aadf73b181c356168cc5305231beec7c848"
+    }
+  ],
+  "variants": [
+    {
+      "name": "eta-hold",
+      "files": [
+        "exports/eta-hold.png",
+        "src/variant-eta-hold.svg"
+      ]
+    },
+    {
+      "name": "slow-progress",
+      "files": [
+        "exports/slow-progress.png",
+        "src/variant-slow-progress.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        47,
+        47
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        595,
+        599
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R16"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "War.zip is an authored illustrative filename. ETA and modem context come from the ticket, not measured transfer performance.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

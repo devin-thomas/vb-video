@@ -1,0 +1,13 @@
+{
+  "id": "OPS-04",
+  "production_status": "in_progress",
+  "release_status": "blocked",
+  "assigned_agent": null,
+  "updated_at": null,
+  "blockers": [],
+  "reviewer": null,
+  "notes": [
+    "Batch audit complete for 71 media packages and OPS-01; whole-pack integration remains incomplete while 59 media tickets and publication decisions remain."
+  ],
+  "owner": "ChatGPT \u2014 batch QA"
+}

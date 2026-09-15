@@ -1,0 +1,52 @@
+{
+  "id": "DIA-04",
+  "title": "ByRef versus ByVal: caller variable and local parameter",
+  "requirements": [
+    "Use an Integer-valued teaching example with caller variable x=7. Left panel ByRef: changing the parameter to 9 changes x. Right panel ByVal: the local parameter becomes 9 while x remains 7.",
+    "Do not draw a complete copied Deck or Hand array for ByVal. The supplied code mixes structures and array references; source-file semantics alone do not substantiate deep-copy claims.",
+    "Explicitly label the example Integer values. An array-reference extension requires the R04a evidence decision and its own explanatory state.",
+    "Historical default-passing statements stay out of the graphic until separately verified."
+  ],
+  "beats": [
+    "0–2 s: show two caller x=7 boxes and their parameters.",
+    "2–6 s: resolve the ByRef connection and update to 9.",
+    "6–10 s: resolve the ByVal local copy and update only the local parameter.",
+    "10–12 s: hold both caller outcomes."
+  ],
+  "checks": [
+    "The two results are numerically unambiguous: caller 9 versus caller 7.",
+    "No duplicated array storage is depicted as an automatic result of ByVal.",
+    "ByRef and ByVal labels remain visible in every state."
+  ],
+  "copy": "Integer example\nByRef: caller variable can change\nByVal: local value changes; caller stays the same",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      19,
+      19
+    ],
+    [
+      "SCRIPT.md",
+      273,
+      275
+    ],
+    [
+      "SCRIPT.md",
+      443,
+      447
+    ],
+    [
+      "Program.vb",
+      149,
+      152
+    ],
+    [
+      "Program.vb",
+      204,
+      208
+    ]
+  ],
+  "gates": [
+    "R04a"
+  ]
+}

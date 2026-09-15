@@ -1,0 +1,36 @@
+{
+  "id": "REF-03",
+  "title": "Classic VB MsgBox event handler",
+  "requirements": [
+    "Render the exact three source lines, preserving the classic-VB call syntax without adding parentheses. Label it a button-click event handler; do not pretend it is a complete stand-alone project equivalent in scope to an entire C application.",
+    "Provide editable source code separately from the visual. Keep line numbers and captions as distinct layers.",
+    "Do not copy lengthy copyrighted tutorial code without a compatible license and attribution. Original authored samples still need technical review.",
+    "Historical reconstruction status and any execution limitations must be recorded. Do not forge an old IDE screenshot around newly written text."
+  ],
+  "beats": [
+    "Establish the complete excerpt or its first viewport.",
+    "Use a measured reveal/scroll for long code; supply a clean still as well.",
+    "Finish on the contrast-relevant lines with a readable hold."
+  ],
+  "checks": [
+    "The visible code is technically coherent for its stated scope, or explicitly release-blocked awaiting validation.",
+    "No fake compilation result, source provenance, or exact 80-line claim is invented.",
+    "The audience can distinguish a three-line event handler from a full application."
+  ],
+  "copy": "Sub Command1_Click()\n    MsgBox \"You clicked me!\"\nEnd Sub",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      55,
+      55
+    ],
+    [
+      "SCRIPT.md",
+      98,
+      108
+    ]
+  ],
+  "gates": [
+    "R03"
+  ]
+}

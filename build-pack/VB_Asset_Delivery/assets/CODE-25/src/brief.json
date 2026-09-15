@@ -1,0 +1,49 @@
+{
+  "id": "CODE-25",
+  "title": "Winner and final summary output code",
+  "requirements": [
+    "Show that the source can print Player1, Player2, or draw outcomes. Actual numeric totals belong to captured runtime evidence, not this code card.",
+    "The displayed excerpt must be the literal Program.vb lines 76–93; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: Select Case TheWinner → PLAYER 1 WINS THE WAR! → THE WAR ENDS IN A DRAW. → RoundNumber → WarCount.",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 76–93, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "        If Player1.Count = 0 And Player2.Count > 0 Then\n            TheWinner = 2\n        ElseIf Player2.Count = 0 And Player1.Count > 0 Then\n            TheWinner = 1\n        End If\n\n        Select Case TheWinner\n            Case 1\n                Console.WriteLine(\"PLAYER 1 WINS THE WAR!\")\n            Case 2\n                Console.WriteLine(\"PLAYER 2 WINS THE WAR!\")\n            Case Else\n                Console.WriteLine(\"THE WAR ENDS IN A DRAW.\")\n        End Select\n\n        Console.WriteLine(\"Total rounds played : \" & RoundNumber)\n        Console.WriteLine(\"Total wars fought    : \" & WarCount)\n        Console.WriteLine(\"=====================================\")",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      76,
+      93
+    ],
+    [
+      "SCRIPT.md",
+      559,
+      573
+    ],
+    [
+      "SCRIPT.md",
+      729,
+      736
+    ]
+  ],
+  "gates": [
+    "R06",
+    "R08"
+  ]
+}

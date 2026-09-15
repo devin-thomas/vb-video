@@ -1,0 +1,55 @@
+{
+  "id": "DIA-05",
+  "durationSeconds": 18,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–3 s: 52-slot overview, capacity 52, live boundary at 4.",
+    "3–6 s: zoom and take index 0 into the returned-card area.",
+    "6–11 s: perform the three assignments in increasing i order.",
+    "11–14 s: Count becomes 3 and the stale tail becomes inactive.",
+    "14–18 s: append A♠ at index 3; Count becomes 4."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 3,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 6,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 9,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 11,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 14,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 16,
+      "file": "scene-0007.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "52-slot-overview",
+    "draw-and-shift",
+    "append-at-count"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

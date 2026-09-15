@@ -1,0 +1,15 @@
+{
+  "id": "CMP-08",
+  "browser": "installed Chromium 144.0.7559.96",
+  "loading_mode": "In-memory HTML (file:// navigation restricted by this browser environment)",
+  "offline": true,
+  "deterministic_seek": true,
+  "svg_files_checked": 4,
+  "text_boxes_checked": 108,
+  "out_of_canvas": [],
+  "errors": [],
+  "limitations": [
+    "Checks canvas bounds, not every possible overlap or semantic correctness.",
+    "Typography depends on installed fonts for editable sources; rendered media is frozen."
+  ]
+}

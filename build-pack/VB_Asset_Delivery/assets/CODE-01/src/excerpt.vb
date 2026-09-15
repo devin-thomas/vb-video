@@ -1,0 +1,2 @@
+Option Explicit On
+Option Strict On

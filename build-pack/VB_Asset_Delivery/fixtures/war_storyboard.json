@@ -1,0 +1,170 @@
+{
+  "provenance": "Proposed deterministic teaching fixture. Not captured Program.vb output. Face-up double-war sequence follows the script; face-down identities are authored for conservation checks.",
+  "normal_round": {
+    "start": {
+      "player1": 26,
+      "player2": 26,
+      "pot": 0
+    },
+    "face_up": [
+      "AS",
+      "KH"
+    ],
+    "winner": 1,
+    "end": {
+      "player1": 27,
+      "player2": 25,
+      "pot": 0
+    }
+  },
+  "single_war": {
+    "start": {
+      "player1": 26,
+      "player2": 26,
+      "pot": 0
+    },
+    "events": [
+      {
+        "action": "initial_pair",
+        "cards": [
+          "4S",
+          "4D"
+        ],
+        "counts": [
+          25,
+          25,
+          2
+        ]
+      },
+      {
+        "action": "burn_pairs",
+        "cards": [
+          "5S",
+          "5H",
+          "6S",
+          "6H",
+          "7S",
+          "7H"
+        ],
+        "counts": [
+          22,
+          22,
+          8
+        ]
+      },
+      {
+        "action": "deciding_pair",
+        "cards": [
+          "9D",
+          "AD"
+        ],
+        "counts": [
+          21,
+          21,
+          10
+        ]
+      },
+      {
+        "action": "award_in_play_order",
+        "winner": 2,
+        "counts": [
+          21,
+          31,
+          0
+        ]
+      }
+    ]
+  },
+  "double_war": {
+    "start": {
+      "player1": 26,
+      "player2": 26,
+      "pot": 0
+    },
+    "events": [
+      {
+        "action": "initial_pair",
+        "cards": [
+          "4S",
+          "4D"
+        ],
+        "counts": [
+          25,
+          25,
+          2
+        ]
+      },
+      {
+        "action": "burn_pairs",
+        "cards": [
+          "5S",
+          "5H",
+          "6S",
+          "6H",
+          "7S",
+          "7H"
+        ],
+        "counts": [
+          22,
+          22,
+          8
+        ]
+      },
+      {
+        "action": "tied_pair",
+        "cards": [
+          "2S",
+          "2H"
+        ],
+        "counts": [
+          21,
+          21,
+          10
+        ]
+      },
+      {
+        "action": "burn_pairs",
+        "cards": [
+          "8S",
+          "8H",
+          "9S",
+          "9H",
+          "10S",
+          "10H"
+        ],
+        "counts": [
+          18,
+          18,
+          16
+        ]
+      },
+      {
+        "action": "deciding_pair",
+        "cards": [
+          "9D",
+          "AD"
+        ],
+        "counts": [
+          17,
+          17,
+          18
+        ]
+      },
+      {
+        "action": "award_in_play_order",
+        "winner": 2,
+        "counts": [
+          17,
+          35,
+          0
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Each scenario resets to an independent deck.",
+    "Face-down identities are hidden in visuals.",
+    "Counter arrays are [Player1,Player2,pot].",
+    "Only full-burn ordinary cases are illustrated; insufficient-card cases are editorially gated."
+  ]
+}

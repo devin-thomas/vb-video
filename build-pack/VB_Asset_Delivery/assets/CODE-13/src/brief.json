@@ -1,0 +1,43 @@
+{
+  "id": "CODE-13",
+  "title": "Main Do While game loop",
+  "requirements": [
+    "Present the literal complete loop. Keep both hand tests and the safety branch legible; do not replace And with AndAlso or change the counter order.",
+    "The displayed excerpt must be the literal Program.vb lines 59–71; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: Do While Player1.Count > 0 And Player2.Count > 0 → RoundNumber = RoundNumber + 1 → If RoundNumber > MAX_ROUNDS Then → PlayRound.",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 59–71, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "        Do While Player1.Count > 0 And Player2.Count > 0\n            RoundNumber = RoundNumber + 1\n\n            If RoundNumber > MAX_ROUNDS Then\n                Console.WriteLine()\n                Console.WriteLine(\"No winner after \" & MAX_ROUNDS & _\n                    \" rounds - calling it a draw (deck cycle detected).\")\n                TheWinner = 0\n                Exit Do\n            End If\n\n            PlayRound(RoundNumber, Player1, Player2, WarCount)\n        Loop",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      59,
+      71
+    ],
+    [
+      "SCRIPT.md",
+      403,
+      420
+    ]
+  ],
+  "gates": [
+    "R06"
+  ]
+}

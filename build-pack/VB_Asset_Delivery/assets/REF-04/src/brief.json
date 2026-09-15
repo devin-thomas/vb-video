@@ -1,0 +1,34 @@
+{
+  "id": "REF-04",
+  "title": "BASIC 10 PRINT / 20 GOTO",
+  "requirements": [
+    "Render the exact two lines in a green-screen/retro terminal treatment. A type-on reveal is allowed; terminal output may repeat HELLO WORLD only as a clearly illustrative effect, not an emulator capture. Use an installed monospace font and do not bundle a retro font file.",
+    "Provide editable source code separately from the visual. Keep line numbers and captions as distinct layers.",
+    "Do not copy lengthy copyrighted tutorial code without a compatible license and attribution. Original authored samples still need technical review.",
+    "Historical reconstruction status and any execution limitations must be recorded. Do not forge an old IDE screenshot around newly written text."
+  ],
+  "beats": [
+    "Establish the complete excerpt or its first viewport.",
+    "Use a measured reveal/scroll for long code; supply a clean still as well.",
+    "Finish on the contrast-relevant lines with a readable hold."
+  ],
+  "checks": [
+    "The visible code is technically coherent for its stated scope, or explicitly release-blocked awaiting validation.",
+    "No fake compilation result, source provenance, or exact 80-line claim is invented.",
+    "The audience can distinguish a three-line event handler from a full application."
+  ],
+  "copy": "10 PRINT \"HELLO WORLD\"\n20 GOTO 10",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      56,
+      56
+    ],
+    [
+      "SCRIPT.md",
+      77,
+      86
+    ]
+  ],
+  "gates": []
+}

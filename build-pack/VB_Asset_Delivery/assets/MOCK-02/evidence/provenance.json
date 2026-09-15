@@ -1,0 +1,31 @@
+{
+  "id": "MOCK-02",
+  "classification": "original authored source-based illustration",
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        47,
+        47
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        595,
+        599
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "authored_additions": [
+    "War.zip is an authored illustrative filename. ETA and modem context come from the ticket, not measured transfer performance."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

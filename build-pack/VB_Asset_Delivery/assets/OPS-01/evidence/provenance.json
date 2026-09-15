@@ -1,0 +1,15 @@
+{
+  "classification": "original shared design and export implementation",
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        7,
+        58
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7"
+    }
+  ],
+  "font_files_distributed": false,
+  "remote_assets": []
+}

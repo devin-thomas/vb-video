@@ -1,0 +1,90 @@
+{
+  "type": "silent production proof, not final episode",
+  "duration_seconds": 97,
+  "shots": [
+    {
+      "ticket": "CARD-01",
+      "source": "assets/CARD-01/exports/preview.mp4",
+      "source_start": 0,
+      "reel_start": 0,
+      "duration": 7
+    },
+    {
+      "ticket": "MOCK-01",
+      "source": "assets/MOCK-01/exports/poster.png",
+      "source_start": 0,
+      "reel_start": 7,
+      "duration": 3
+    },
+    {
+      "ticket": "CH-07",
+      "source": "assets/CH-07/exports/preview.mp4",
+      "source_start": 0.2,
+      "reel_start": 10,
+      "duration": 3
+    },
+    {
+      "ticket": "DIA-07",
+      "source": "assets/DIA-07/exports/preview.mp4",
+      "source_start": 0,
+      "reel_start": 13,
+      "duration": 18
+    },
+    {
+      "ticket": "CODE-03",
+      "source": "assets/CODE-03/exports/preview.mp4",
+      "source_start": 3,
+      "reel_start": 31,
+      "duration": 4
+    },
+    {
+      "ticket": "CMP-03",
+      "source": "assets/CMP-03/exports/token-focus.png",
+      "source_start": 0,
+      "reel_start": 35,
+      "duration": 3
+    },
+    {
+      "ticket": "DIA-06",
+      "source": "assets/DIA-06/exports/preview.mp4",
+      "source_start": 3,
+      "reel_start": 38,
+      "duration": 6
+    },
+    {
+      "ticket": "DIA-05",
+      "source": "assets/DIA-05/exports/preview.mp4",
+      "source_start": 0,
+      "reel_start": 44,
+      "duration": 18
+    },
+    {
+      "ticket": "DIA-08",
+      "source": "assets/DIA-08/exports/preview.mp4",
+      "source_start": 0,
+      "reel_start": 62,
+      "duration": 12
+    },
+    {
+      "ticket": "DIA-09",
+      "source": "assets/DIA-09/exports/preview.mp4",
+      "source_start": 0,
+      "reel_start": 74,
+      "duration": 15
+    },
+    {
+      "ticket": "MOCK-02",
+      "source": "assets/MOCK-02/exports/preview.mp4",
+      "source_start": 0,
+      "reel_start": 89,
+      "duration": 3
+    },
+    {
+      "ticket": "CARD-02",
+      "source": "assets/CARD-02/exports/preview.mp4",
+      "source_start": 0.6,
+      "reel_start": 92,
+      "duration": 5
+    }
+  ]
+}

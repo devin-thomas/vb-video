@@ -1,0 +1,34 @@
+{
+  "id": "FACT-03",
+  "title": "RAD: Rapid Application Development",
+  "requirements": [
+    "Connect the acronym to speed of GUI construction, not benchmark claims or “no programming required.”",
+    "Use the shared factoid style; “Did you know?” is optional source-plan framing, not mandatory filler.",
+    "Keep the face to the supplied/proposed short copy and maintain the longer source quote in the evidence file.",
+    "Any historical assertion must have a recorded verification result before release. Layout may proceed as an internal proof."
+  ],
+  "beats": [
+    "Still: one factual idea and one focal visual/code token.",
+    "Optional emphasis state uses the same composition, with no additional claims."
+  ],
+  "checks": [
+    "The card teaches only its named aside.",
+    "Historical provenance status is explicit in delivery metadata.",
+    "No invented statistic, date, market ranking, or current support claim was added.",
+    "Text is readable at the intended short editorial hold."
+  ],
+  "copy": "RAD\nRapid Application Development",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      39,
+      39
+    ],
+    [
+      "SCRIPT.md",
+      132,
+      138
+    ]
+  ],
+  "gates": []
+}

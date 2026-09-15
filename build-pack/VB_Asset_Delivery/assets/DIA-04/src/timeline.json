@@ -1,0 +1,30 @@
+{
+  "id": "DIA-04",
+  "durationSeconds": 12,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–2 s: show two caller x=7 boxes and their parameters.",
+    "2–6 s: resolve the ByRef connection and update to 9.",
+    "6–10 s: resolve the ByVal local copy and update only the local parameter.",
+    "10–12 s: hold both caller outcomes."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 4,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 8,
+      "file": "scene-0002.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

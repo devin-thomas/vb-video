@@ -1,0 +1,122 @@
+{
+  "renderer": "CairoSVG 2.8.2",
+  "png_dimensions": "1920x1080",
+  "video_probes": [
+    {
+      "file": "exports/preview.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/preview.concat.txt -vf fps=30,format=yuv420p -frames:v 840 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/preview.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "840"
+          }
+        ],
+        "format": {
+          "duration": "28.000000",
+          "size": "884078"
+        }
+      }
+    },
+    {
+      "file": "exports/full-rules.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/full-rules.concat.txt -vf fps=30,format=yuv420p -frames:v 840 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/full-rules.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "840"
+          }
+        ],
+        "format": {
+          "duration": "28.000000",
+          "size": "884078"
+        }
+      }
+    },
+    {
+      "file": "exports/alternating-deal.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/alternating-deal.concat.txt -vf fps=30,format=yuv420p -frames:v 210 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/alternating-deal.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "210"
+          }
+        ],
+        "format": {
+          "duration": "7.000000",
+          "size": "227661"
+        }
+      }
+    },
+    {
+      "file": "exports/normal-round.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/normal-round.concat.txt -vf fps=30,format=yuv420p -frames:v 180 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/normal-round.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "180"
+          }
+        ],
+        "format": {
+          "duration": "6.000000",
+          "size": "146821"
+        }
+      }
+    },
+    {
+      "file": "exports/single-war.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/single-war.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-02/exports/single-war.mp4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "360"
+          }
+        ],
+        "format": {
+          "duration": "12.000000",
+          "size": "429607"
+        }
+      }
+    }
+  ],
+  "command": "python shared/render_assets.py --id DIA-02"
+}

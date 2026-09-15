@@ -1,0 +1,34 @@
+{
+  "id": "CMP-06",
+  "title": "String concatenation",
+  "requirements": [
+    "Use the exact example and visibly highlight only + versus &. Do not add a blanket claim that + cannot concatenate in VB.",
+    "Left column C#, right column VB. Use equal area and the same code font size; do not make either language artificially harder to read.",
+    "Retain literal supplied examples where present. Proposed counterparts must be recorded as agent-authored explanatory snippets and checked in an isolated context, not committed to Program.vb.",
+    "Ellipses mean an intentional excerpt, never runnable complete source. Only the compared tokens receive accent highlighting."
+  ],
+  "beats": [
+    "Still: both code columns visible at once.",
+    "Focus overlay: highlight the specific contrasting tokens without changing layout."
+  ],
+  "checks": [
+    "Both column headings and the exact comparison subject are visible.",
+    "Comparable examples use matching loop bounds/data where applicable.",
+    "The code does not make a stronger semantic-equivalence claim than the source supports.",
+    "A 720p proof has legible punctuation and no clipped code."
+  ],
+  "copy": "C#\n\"Hello \" + name\n\nVB\n\"Hello \" & name",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      38,
+      38
+    ],
+    [
+      "SCRIPT.md",
+      422,
+      428
+    ]
+  ],
+  "gates": []
+}

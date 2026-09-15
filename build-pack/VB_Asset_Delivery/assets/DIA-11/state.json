@@ -1,0 +1,12 @@
+{
+  "id": "DIA-11",
+  "production_status": "planned",
+  "release_status": "blocked",
+  "assigned_agent": null,
+  "updated_at": null,
+  "blockers": [],
+  "reviewer": null,
+  "notes": [
+    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+  ]
+}

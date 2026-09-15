@@ -1,0 +1,211 @@
+{
+  "id": "FACT-04",
+  "title": "VB3 and the Jet database engine",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 504,
+      "sha256": "838dafefca15f301fc116211747fc41f8cd78dcd36147de67b7f005b172c6693"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 307,
+      "sha256": "f691452605b152212659db5056b676228484476784694d58bc4e56fe29df068f"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 883,
+      "sha256": "c27bdf3db9e7ad25041ddfc04fdbcf42bbef59e4651413ec495516b045d1309d"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 149,
+      "sha256": "175c609a9f25f1b36f2068a961fd726eaf6bc70e22c3912462f48aa71aea8138"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 989,
+      "sha256": "b7068a1e89605d5b2eec607d882412962d72882b451fb1d0f784b7bac9092d07"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 14190,
+      "sha256": "3a1a39a19eb92ef5a99258f33a7b659ef66df0bbbb1135d1c498cd0650f8b96d"
+    },
+    {
+      "path": "exports/factoid.png",
+      "role": "rendered still",
+      "bytes": 32108,
+      "sha256": "15f77ca8e51e03e84c1bd6babb6efc7e03a2c9fd1de98b01b697b2c21254412a"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 32108,
+      "sha256": "15f77ca8e51e03e84c1bd6babb6efc7e03a2c9fd1de98b01b697b2c21254412a"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 8208,
+      "sha256": "25eaa2843d35cbe41a1a87431a3852f3f6aed2fa24e741428877003d203a834e"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 38440,
+      "sha256": "af2e2129f7995340e9ec18feaa3e5722638b3e58a7413556fd5c54c6c2ef5824"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2319,
+      "sha256": "642eb3783a5a6b92d991bbbd3e85710cc5b634cda9d13c80c40ebcef14c7d2d5"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1257,
+      "sha256": "c59612ff750943f219d5811987204658b4544b221f585a001acd8fbf14241bc7"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 904,
+      "sha256": "c74eb0a4edbf44954dedbb0d904873ca9bc4b322dcb48a444597240d7ebeda93"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 2808,
+      "sha256": "e7878b6202bdf318b619fbb15d5a25b767d80acddb17ed49ec8e36985a7a5bb8"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 913,
+      "sha256": "1cd155241e840769c70074c4c401862d358a6ffcd23f2c8da3f75887267ed048"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 913,
+      "sha256": "1cd155241e840769c70074c4c401862d358a6ffcd23f2c8da3f75887267ed048"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 520,
+      "sha256": "93bca466ec2425384ef29019ed909ade976889ce32e8fbde8aa5c8bf5c8322ef"
+    },
+    {
+      "path": "src/variant-factoid.svg",
+      "role": "editable source",
+      "bytes": 913,
+      "sha256": "1cd155241e840769c70074c4c401862d358a6ffcd23f2c8da3f75887267ed048"
+    }
+  ],
+  "variants": [
+    {
+      "name": "factoid",
+      "files": [
+        "exports/factoid.png",
+        "src/variant-factoid.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        39,
+        39
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        110,
+        116
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R15"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Face copy is taken from the supplied ticket. Historical claims, where assigned, remain producer-review gates; no verification is implied by this design.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

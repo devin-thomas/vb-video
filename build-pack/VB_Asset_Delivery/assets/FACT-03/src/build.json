@@ -1,0 +1,39 @@
+{
+  "id": "FACT-03",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "factoid": "variant-factoid.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Face copy is taken from the supplied ticket. Historical claims, where assigned, remain producer-review gates; no verification is implied by this design."
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        39,
+        39
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        132,
+        138
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "still"
+}

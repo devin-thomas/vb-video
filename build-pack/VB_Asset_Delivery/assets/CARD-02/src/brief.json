@@ -1,0 +1,34 @@
+{
+  "id": "CARD-02",
+  "title": "Outro end card: subscribe, like, next video",
+  "requirements": [
+    "Include Subscribe and Like as restrained text/graphic cues and a reserved next-video area.",
+    "No channel URL, video title, thumbnail, or social handle was supplied for this episode. Use an internal placeholder in the editable source, never a made-up public destination.",
+    "Keep the reserved interactive areas separate from decorative faux buttons; this file itself does not implement YouTube interactions.",
+    "Default to a twelve-second hold; final narration and platform layout determine exact duration in the human handoff."
+  ],
+  "beats": [
+    "0–1 s: arrive from black.",
+    "1–11 s: readable static end-screen hold.",
+    "11–12 s: hold or cut to black without removing the CTA prematurely."
+  ],
+  "checks": [
+    "Subscribe/like/next-video intent is present without invented links.",
+    "Reserved areas remain unobstructed and are named in the layer map.",
+    "No claim is made that an upload or end-screen configuration has occurred."
+  ],
+  "copy": "Subscribe\nLike\nNext video",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      40,
+      40
+    ],
+    [
+      "SCRIPT.md",
+      739,
+      743
+    ]
+  ],
+  "gates": []
+}

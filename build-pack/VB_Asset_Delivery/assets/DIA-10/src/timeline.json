@@ -1,0 +1,23 @@
+{
+  "id": "DIA-10",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Overview still: setup and game loop with winner/draw exits.",
+    "Round-detail still: the inner Do loop and tie/burn return arrow."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "main-flow",
+    "playround-detail"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

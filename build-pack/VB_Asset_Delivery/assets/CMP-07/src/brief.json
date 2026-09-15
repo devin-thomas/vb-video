@@ -1,0 +1,36 @@
+{
+  "id": "CMP-07",
+  "title": "While loop spelling",
+  "requirements": [
+    "The C# example is illustrative. Keep the actual VB condition in one logical source line or use visual-only wrapping. && and And are not universally interchangeable evaluation semantics; scope to these simple count reads.",
+    "Left column C#, right column VB. Use equal area and the same code font size; do not make either language artificially harder to read.",
+    "Retain literal supplied examples where present. Proposed counterparts must be recorded as agent-authored explanatory snippets and checked in an isolated context, not committed to Program.vb.",
+    "Ellipses mean an intentional excerpt, never runnable complete source. Only the compared tokens receive accent highlighting."
+  ],
+  "beats": [
+    "Still: both code columns visible at once.",
+    "Focus overlay: highlight the specific contrasting tokens without changing layout."
+  ],
+  "checks": [
+    "Both column headings and the exact comparison subject are visible.",
+    "Comparable examples use matching loop bounds/data where applicable.",
+    "The code does not make a stronger semantic-equivalence claim than the source supports.",
+    "A 720p proof has legible punctuation and no clipped code."
+  ],
+  "copy": "C#\nwhile (player1.Count > 0 &&\n       player2.Count > 0) {\n    ...\n}\n\nVB\nDo While Player1.Count > 0 And Player2.Count > 0\n    ...\nLoop",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      38,
+      38
+    ],
+    [
+      "SCRIPT.md",
+      403,
+      416
+    ]
+  ],
+  "gates": [
+    "R04a"
+  ]
+}

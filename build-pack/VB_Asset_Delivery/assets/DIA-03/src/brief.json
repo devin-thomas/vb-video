@@ -1,0 +1,42 @@
+{
+  "id": "DIA-03",
+  "title": "Card rank mapping: 2 through Ace",
+  "requirements": [
+    "Show every mapping exactly once: 2=2, 3=3, 4=4, 5=5, 6=6, 7=7, 8=8, 9=9, 10=10, J=11, Q=12, K=13, A=14.",
+    "Separate card face labels from stored integer values with a consistent visual grammar.",
+    "Give Ace a restrained emphasis and state that suits do not determine the winner. Do not introduce jokers or Ace=1."
+  ],
+  "beats": [
+    "Still composition: readable low-to-high sequence, optionally split into two balanced rows.",
+    "Optional emphasis overlay: J/Q/K/A values only, without removing the full mapping."
+  ],
+  "checks": [
+    "All 13 ranks and all values 2–14 appear exactly once.",
+    "Ace is visibly highest; red suit coloring does not imply higher rank.",
+    "Text remains legible in a 1280×720 downscale."
+  ],
+  "copy": "Card → Stored rank\n2→2  3→3  4→4  5→5  6→6  7→7  8→8\n9→9  10→10  J→11  Q→12  K→13  A→14\nSuits do not decide the winner.",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      18,
+      18
+    ],
+    [
+      "SCRIPT.md",
+      217,
+      221
+    ],
+    [
+      "Program.vb",
+      12,
+      18
+    ],
+    [
+      "Program.vb",
+      169,
+      182
+    ]
+  ],
+  "gates": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CARD-01",
+  "title": "Opening title: Win95 message box",
+  "requirements": [
+    "Use title option 1 because the cold-open visual explicitly specifies it; do not invent channel branding.",
+    "Create original HTML/CSS chrome, a readable dialog body, one OK button, and a generic non-branded title bar. This is a styled reconstruction, not an authentic VB screenshot.",
+    "Use two or three balanced title lines rather than shrinking the copy. Cursor click closes the dialog into the planned cut to the video.",
+    "The button motion must be deterministic and must not require an actual pointer recording or network assets."
+  ],
+  "beats": [
+    "0–1 s: teal desktop / dialog arrival.",
+    "1–5 s: title holds without animation.",
+    "5–6 s: cursor presses OK; button visibly depresses.",
+    "6–7 s: close into a clean outgoing frame."
+  ],
+  "checks": [
+    "The full exact title is present and not clipped.",
+    "The OK press has both pressed and released states.",
+    "There is no invented application warning, logo, or explanatory UI copy."
+  ],
+  "copy": "I Wrote a Card Game in 1995's Most Controversial Programming Language\nOK",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      35,
+      35
+    ],
+    [
+      "SCRIPT.md",
+      5,
+      8
+    ],
+    [
+      "SCRIPT.md",
+      39,
+      41
+    ]
+  ],
+  "gates": []
+}

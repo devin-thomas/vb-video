@@ -1,0 +1,41 @@
+{
+  "id": "CH-11",
+  "title": "Chapter 11: Running It: Full Simulation",
+  "requirements": [
+    "On-screen title must be exactly “Running It: Full Simulation” unless a named editorial decision authorizes a replacement.",
+    "Section number 11 is permitted as a small structural label. The metadata cue 30:00 is an approximate editorial locator, not final timing and not on-screen copy.",
+    "Use the approved Win95-inspired chapter template; deliver this chapter as its own source, still, motion, and QA record, not only as part of a combined sixteen-card render.",
+    "Preserve capitalization, punctuation, and the apostrophe. Long titles wrap naturally in no more than three lines at readable type.",
+    "No slogan, filler subtitle, product pitch, or unrequested channel logo."
+  ],
+  "beats": [
+    "0–0.3 s: simple deterministic reveal.",
+    "0.3–3.7 s: completely static reading hold.",
+    "3.7–4.0 s: clean exit or cut-ready last frame."
+  ],
+  "checks": [
+    "This output is CH-11, not another chapter with a copied filename or title.",
+    "Text matches the chapter list; numbering is correct.",
+    "A full-size and 720p proof pass clipping and reading checks.",
+    "This card has its own export and delivery metadata even when generated from a shared template."
+  ],
+  "copy": "11\nRunning It: Full Simulation",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      36,
+      36
+    ],
+    [
+      "SCRIPT.md",
+      28,
+      28
+    ],
+    [
+      "SCRIPT.md",
+      517,
+      517
+    ]
+  ],
+  "gates": []
+}

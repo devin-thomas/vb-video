@@ -1,0 +1,44 @@
+{
+  "id": "CODE-17",
+  "title": "Mid-war empty-hand guards",
+  "requirements": [
+    "Preserve the order of the two guards; Player1 is checked first. The omitted matching Loop must be identified as outside this cropped excerpt.",
+    "The displayed excerpt must be the literal Program.vb lines 220–232; store an unmodified .vb excerpt alongside the editable rendering.",
+    "Required focus sequence: If Player1.Count = 0 Then → If Player2.Count = 0 Then → GiveCardsToWinner → Exit Sub.",
+    "Keep code and explanatory annotations in separate layers. Highlighting must not replace or remove tokens; soft visual wrapping is allowed without inserting source newlines.",
+    "Provide a clean whole-excerpt state and a highlighted teaching state. For a long excerpt, use a measured scroll/pagination sequence with all lines represented, never unreadably small text."
+  ],
+  "beats": [
+    "0–2 s: clean code hold.",
+    "2–8 s: move through the listed focus targets in source order, allowing at least one second per distinct target.",
+    "8–10 s or extended duration: finish on a readable summary highlight."
+  ],
+  "checks": [
+    "Canonical excerpt text equals Program.vb lines 220–232, byte-normalized only for newline comparison.",
+    "All focus tokens appear in the visual and in the correct source context.",
+    "Partial control structures are labeled excerpt in the editorial metadata, not silently “fixed” with invented code.",
+    "No smart quotes, hidden truncation, wrong VB token colors, or horizontally clipped underscores/colons."
+  ],
+  "copy": "        Do\n            ' A player who has run out of cards mid-war loses immediately.\n            If Player1.Count = 0 Then\n                Console.WriteLine(\"Player 1 has no cards left for the war - Player 2 takes the pot.\")\n                GiveCardsToWinner(Pot, PotCount, Player2)\n                Exit Sub\n            End If\n\n            If Player2.Count = 0 Then\n                Console.WriteLine(\"Player 2 has no cards left for the war - Player 1 takes the pot.\")\n                GiveCardsToWinner(Pot, PotCount, Player1)\n                Exit Sub\n            End If",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      37,
+      37
+    ],
+    [
+      "Program.vb",
+      220,
+      232
+    ],
+    [
+      "SCRIPT.md",
+      460,
+      462
+    ]
+  ],
+  "gates": [
+    "R04",
+    "R05"
+  ]
+}

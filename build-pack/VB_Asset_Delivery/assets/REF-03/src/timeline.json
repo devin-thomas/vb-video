@@ -1,0 +1,36 @@
+{
+  "id": "REF-03",
+  "durationSeconds": 10,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Establish the complete excerpt or its first viewport.",
+    "Use a measured reveal/scroll for long code; supply a clean still as well.",
+    "Finish on the contrast-relevant lines with a readable hold."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 2,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 4,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 8,
+      "file": "scene-0002.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "clean",
+    "teaching-focus"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

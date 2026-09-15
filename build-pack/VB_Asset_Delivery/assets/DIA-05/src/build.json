@@ -1,0 +1,87 @@
+{
+  "id": "DIA-05",
+  "duration": 18,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 3,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 6,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 9,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 11,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 14,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 16,
+      "file": "scene-0007.svg"
+    }
+  ],
+  "variants": {
+    "52-slot-overview": "variant-52-slot-overview.svg",
+    "draw-and-shift": "variant-draw-and-shift.svg",
+    "append-at-count": "variant-append-at-count.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Authored queue demonstration with exact assignment order. Temporary duplicate memory values during copying are intentional; Count distinguishes the live range from stale storage."
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        20,
+        20
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        315,
+        360
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        23,
+        26
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        128,
+        167
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "kind": "motion"
+}

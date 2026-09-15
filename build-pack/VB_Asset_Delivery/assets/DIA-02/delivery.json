@@ -1,0 +1,775 @@
+{
+  "id": "DIA-02",
+  "title": "War rules: shuffle, deal, flip, compare, collect",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 28,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 506,
+      "sha256": "f49aedf97b5278abc78464f3139a13f007dc0e8a2d35f9c1dc8a88fc0169a42c"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 307,
+      "sha256": "c7135913aed20b3af2670184ea6d248ee5350ccefaabccfe2a1d40b8037c721e"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1731,
+      "sha256": "8715f370e1caf38da489a62d857ef3b16f607f3c7adda96cdfb6fd0471f89263"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 4318,
+      "sha256": "e665ec3cffa20859e2b85d3dac58a9215aeaf2e9195b1800d06023e8eb4c73a2"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4541,
+      "sha256": "b7fd84c7d59d15ecd9589b3019326d4f98f701cd6e2d367e8cb4d114bf6cb3b3"
+    },
+    {
+      "path": "exports/alternating-deal.mp4",
+      "role": "rendered motion",
+      "bytes": 227661,
+      "sha256": "588d3107a27ef25af5a1c21e94fcbbcd8ee46d36f896dbe196694eb11ab24aee"
+    },
+    {
+      "path": "exports/alternating-deal.png",
+      "role": "rendered still",
+      "bytes": 53047,
+      "sha256": "c09e2cd5ea9b1967c887cc9afc4e0ac183104bfc9d131c110ae128312707cd3d"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 116355,
+      "sha256": "f8f492d9276ddbf8c3eaa53a632f8d2c2d0df2d32d963cdb6801b486de307a4f"
+    },
+    {
+      "path": "exports/full-rules.mp4",
+      "role": "rendered motion",
+      "bytes": 884078,
+      "sha256": "b5dab6d96b2c98847bed3d273182a9706f59795b747ee1714ac7ad546af20d24"
+    },
+    {
+      "path": "exports/full-rules.png",
+      "role": "rendered still",
+      "bytes": 58141,
+      "sha256": "febdac499255f18ff7add23603b5b4e3a606bf18cbcc267dbf8ff1670e8f3907"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 45044,
+      "sha256": "13c8458b45b218861bb4198e0bb8bf379efe3fafbd7213b33f85dac5b13e202f"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 63301,
+      "sha256": "ecf26ab3e44fb4f229178ce667e05df26b2d1b07432a1676706a5490931310ad"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 52144,
+      "sha256": "7a046dcdd713dd503b7d73495eb7ea887c1cd2ec7b5957c222a97473bff88fa5"
+    },
+    {
+      "path": "exports/normal-round.mp4",
+      "role": "rendered motion",
+      "bytes": 146821,
+      "sha256": "f44e516db8f3faa1b69a096964bf11def183068a84adf8f93f78c3e7b5d7d706"
+    },
+    {
+      "path": "exports/normal-round.png",
+      "role": "rendered still",
+      "bytes": 58141,
+      "sha256": "febdac499255f18ff7add23603b5b4e3a606bf18cbcc267dbf8ff1670e8f3907"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 58141,
+      "sha256": "febdac499255f18ff7add23603b5b4e3a606bf18cbcc267dbf8ff1670e8f3907"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 884078,
+      "sha256": "b5dab6d96b2c98847bed3d273182a9706f59795b747ee1714ac7ad546af20d24"
+    },
+    {
+      "path": "exports/single-war.mp4",
+      "role": "rendered motion",
+      "bytes": 429607,
+      "sha256": "e28e4b7dfa4b357f7f2bf7134a0d962c363c80fc83598cf27051e7f7a151d373"
+    },
+    {
+      "path": "exports/single-war.png",
+      "role": "rendered still",
+      "bytes": 82192,
+      "sha256": "23d6b93296a47678d2cfcdf70c2aa01123c07e806fecf342d06b1dad08d1f4e4"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 12439,
+      "sha256": "6e98b6d85080f0722bbd27ec34d8739e87addc7e4120e0631cd52920494a172e"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 71243,
+      "sha256": "88fbad18485908b8b53f2fedfc621a6ce6a03aa81b904a73d1c1a677cc45bdac"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2461,
+      "sha256": "f21f7b91438184fba0976f3dabbe3b0b3b7a2b7d48a86a0c48075aeee3e03eb2"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 2133,
+      "sha256": "65183904e7c290c40f87c6591e686fd26bce75af9d9e874040892b78d942458d"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 6881,
+      "sha256": "827b705d47b1610e20f3c1fbf0b9118c0064aefaca4c5b5fb0f4a7f4e6666552"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 468309,
+      "sha256": "ca8d7291e9cbe7fa6acd4efa591e004b1441d148dcec9742dda2d22fb40f7e7d"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 4133,
+      "sha256": "9b02a6d7d0834aa37d25776b6f58ffab5f2a3429a7eeba3850a39764217013a2"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 4112,
+      "sha256": "f50c250dadfe50227e39ac2c4028efad900a8f41a7e16bd1cf4cb46269c88479"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 4786,
+      "sha256": "6e4365cc14b2b75e7a88f41d543287cc06a12c21de4c069e9a5b3c7955cb08ea"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "b53dab4657c0db5b735ae6675a3e527892fc22dcef55997d7c95d97bb765eb27"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "ac5cc3821ee3adba6290083f334a2528eda8ac3bc96f4aa3216bc62bd99710be"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "e38f97d99f6cc7dc781978a306b1f46fe7c80c93160c820e0e1663a0a8cc1c03"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "00d8607399967207e318aeea5de035becd4b88af4055da7d7eb3b851df6a46ef"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "e7a1ad484186cec1c534479f3f1609e07d24421e13fef37209a28861833138a7"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "3f6f523d0e3f8d099ab04343d9e9e66f88f26e546349d13269ce347e714f57d2"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "69c30a329c7d847b00824aa61f2a9a012240b37d9871b1856569720735ab09cc"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "bccca13dd96f36618e5e9984afc6c591c88bef42d962782784a3c887659ed081"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "1eef7fe2dae424cca5441e52ab44818c2abd8ffcc7b217a1d3b09b2874cf5d86"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "1e0ababeb8be08dc3a1665961438c0ff731c9fdaeb3bca39b42de3c80112aa50"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "d5d27ff303234ccb102f9de60048c1471f4f57580710d7e21023246c8b69424e"
+    },
+    {
+      "path": "src/scene-0014.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "51decafa1c4a65efdeeda6d7c00b192cfffe6e482b1028151dd3eaf2aa227090"
+    },
+    {
+      "path": "src/scene-0015.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "5c99727b3c65132148b8e71cf967d43949165b33a09e72d049752b228dc3481e"
+    },
+    {
+      "path": "src/scene-0016.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "30054359013d08f5594599e202659039962fdfec8ff67d0aa0c5f72593f047d9"
+    },
+    {
+      "path": "src/scene-0017.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "1824aac75a3f27a33d906c8c97a3397e55141fcdbcc17e4849071f476b1286fa"
+    },
+    {
+      "path": "src/scene-0018.svg",
+      "role": "editable source",
+      "bytes": 5191,
+      "sha256": "c224bcf283de82e483974fb3f4cc84ff842501ebd503b5a8ff714e582ad144d9"
+    },
+    {
+      "path": "src/scene-0019.svg",
+      "role": "editable source",
+      "bytes": 5194,
+      "sha256": "68c55de940be923c99b357a77a5506d1ddee5da4bba05bb590fd1b84fd384982"
+    },
+    {
+      "path": "src/scene-0020.svg",
+      "role": "editable source",
+      "bytes": 5192,
+      "sha256": "cf87aca8902a3f11a94bdb94bd44026d39930c351be2e38512ae86e527f53b4b"
+    },
+    {
+      "path": "src/scene-0021.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "2a5640d56043ed8850e57b835dee4411d4e7413a3fa5fb53b6ad748e8cae5e8c"
+    },
+    {
+      "path": "src/scene-0022.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "a3a76bc59ad1b4c2c166fff8aa46d41923f7437e67b9225607c60b868f684fa5"
+    },
+    {
+      "path": "src/scene-0023.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "ae08b88dec75731c4fd99b65ec99a406058b8b0eff98b609cd708dac3ab2f161"
+    },
+    {
+      "path": "src/scene-0024.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "416627a92ce0a234fb9f20aee1e884f91955e738605c92ecfac7bc62a989291d"
+    },
+    {
+      "path": "src/scene-0025.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "367c5955e9a11857e01f4e017ec88be1fa62289b38d220df41c283ae139d3b81"
+    },
+    {
+      "path": "src/scene-0026.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "9cf885bdec5400f23e2816ec688e4e8ad21c489bb5ca5f80270b328c9fc40247"
+    },
+    {
+      "path": "src/scene-0027.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "5aa9c94987896e21e6b30d77f79e512ed64c45d2c0452262a5f4d57a8ea7d7ca"
+    },
+    {
+      "path": "src/scene-0028.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "5bddb6a48d6a29df8681470665e1ce6c3724fd02fcb9174e276654119d49646a"
+    },
+    {
+      "path": "src/scene-0029.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "d21fc0a1f0d9666d27af8b9e5eede08b8c9005e9bca8b8af5524f4655eaf9c59"
+    },
+    {
+      "path": "src/scene-0030.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "20dab2779120196fd54cebe589b8633437233ed170b716d3990aa31dd0ac8401"
+    },
+    {
+      "path": "src/scene-0031.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "bd5d589d2dcb2145170258e1789bbb75c3bd4c1210e66531a8dcc63029f1879e"
+    },
+    {
+      "path": "src/scene-0032.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "7b538b2bd0433c0ca330699f8469869aaaf1cf8ee8a505cc4d16c0f01f5e7a76"
+    },
+    {
+      "path": "src/scene-0033.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "160f8817f5a461837c104d677e57220d169d36019353f9b6eed7527d1f318488"
+    },
+    {
+      "path": "src/scene-0034.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "1da873bcfca264df2671efde9539d6f8d1b7225fa5e45758a9cbbeda70d876b9"
+    },
+    {
+      "path": "src/scene-0035.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "ba2f270f26207dc54cd6344bf631ba3d2cc564003193fef035379b0ec2d9975e"
+    },
+    {
+      "path": "src/scene-0036.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "274ea3e318cf2d8d9ca7dd97ba060f0ac0f8eca52646df6b7f4dc135f1ec8cb2"
+    },
+    {
+      "path": "src/scene-0037.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "4ac076b662104698db7a775f8f1a28db90517627259aebbbd9986faca2c1d4b5"
+    },
+    {
+      "path": "src/scene-0038.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "debeabddd70ff5fbb84b66a9c5046f5e0dc3e07ad0e3d39728fea9c5a65f4aad"
+    },
+    {
+      "path": "src/scene-0039.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "bc0e9cbaaff1d599f596b97a8d7d5fdc6320eb5e4be215f29e45e06beb7a6abb"
+    },
+    {
+      "path": "src/scene-0040.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "807efcdc5f0a89f20fbf7a49cb00af38dd6f1ccff38799cbb1375d00b0e86589"
+    },
+    {
+      "path": "src/scene-0041.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "604ea708d7db7306fb6756660b82ef779b934849ece4b98890a72388efadafe3"
+    },
+    {
+      "path": "src/scene-0042.svg",
+      "role": "editable source",
+      "bytes": 5193,
+      "sha256": "c4002cc25e6786a42895cef56fb2ed166381ee89237c54f6104462b60172b685"
+    },
+    {
+      "path": "src/scene-0043.svg",
+      "role": "editable source",
+      "bytes": 5196,
+      "sha256": "fdffd4420408339f320c19856467ecd73952bc1af2e1f20134f42a746feae693"
+    },
+    {
+      "path": "src/scene-0044.svg",
+      "role": "editable source",
+      "bytes": 5192,
+      "sha256": "40e69b9714742006ad9f4ab5b5e1850aec32bccac4ded5dd3ac7396d82280ae3"
+    },
+    {
+      "path": "src/scene-0045.svg",
+      "role": "editable source",
+      "bytes": 5195,
+      "sha256": "84dce871acb53323d78b90e5c8fd805efe5326612c318e5a544dca183657f589"
+    },
+    {
+      "path": "src/scene-0046.svg",
+      "role": "editable source",
+      "bytes": 5192,
+      "sha256": "924969c46c778191dfef856180e16a02a881e386818ecf8924a3b80af56ae5db"
+    },
+    {
+      "path": "src/scene-0047.svg",
+      "role": "editable source",
+      "bytes": 5195,
+      "sha256": "b77af44ff7bfee3069906ace5fa584e1f9ca56a055012cc7c86e885c169fcbc6"
+    },
+    {
+      "path": "src/scene-0048.svg",
+      "role": "editable source",
+      "bytes": 5192,
+      "sha256": "ece08bfd93ae14fd1066b582a9efa1dccbf24cc0bc23a609314416a3f4142e22"
+    },
+    {
+      "path": "src/scene-0049.svg",
+      "role": "editable source",
+      "bytes": 5195,
+      "sha256": "5d60af720546d3c8134d91bd93b92682d390ad7e0693a97121d2949678e3ced7"
+    },
+    {
+      "path": "src/scene-0050.svg",
+      "role": "editable source",
+      "bytes": 5192,
+      "sha256": "0f12d5851aa6a10e1e0b3a878e56e3df2ed3e9369352ec35e4660d22a702f79a"
+    },
+    {
+      "path": "src/scene-0051.svg",
+      "role": "editable source",
+      "bytes": 5195,
+      "sha256": "19c7c79f0c42fbef8cab90bbf49be20458ea9bdb8c860008a73d151d5335aa7f"
+    },
+    {
+      "path": "src/scene-0052.svg",
+      "role": "editable source",
+      "bytes": 5192,
+      "sha256": "4ee7eec30c68f2e1d290844dcaddcd6971c55e35d41b279d4886a26046baf05e"
+    },
+    {
+      "path": "src/scene-0053.svg",
+      "role": "editable source",
+      "bytes": 2875,
+      "sha256": "9b2851e228da1ae50264a57e6a6ba0ebe0fea91a0206c7f754b13a39d9e6b770"
+    },
+    {
+      "path": "src/scene-0054.svg",
+      "role": "editable source",
+      "bytes": 2860,
+      "sha256": "ef62d7c281ced9a45a96e346b99c932b1433a6035c71f61aab9407959ad87894"
+    },
+    {
+      "path": "src/scene-0055.svg",
+      "role": "editable source",
+      "bytes": 5268,
+      "sha256": "483e92400ab1a4f84317bc589d1ad6bab591ceae32a2d8a90843c3d73dc0b5f6"
+    },
+    {
+      "path": "src/scene-0056.svg",
+      "role": "editable source",
+      "bytes": 3299,
+      "sha256": "6ca44be013b1b00c0b18099d0246f6b10a15a249b8e814578e77598faec5eff5"
+    },
+    {
+      "path": "src/scene-0057.svg",
+      "role": "editable source",
+      "bytes": 898,
+      "sha256": "17fb262f6420308bcccdd72d6bb282c40ca2cd70ca681670ad3b129265726590"
+    },
+    {
+      "path": "src/scene-0058.svg",
+      "role": "editable source",
+      "bytes": 7486,
+      "sha256": "a9a2637ef989d1ff8deee10c11376f4e8c9e753abde81fb477c404402c06288b"
+    },
+    {
+      "path": "src/scene-0059.svg",
+      "role": "editable source",
+      "bytes": 10568,
+      "sha256": "a668e9add211413dbb3f50314869db46b87062ca035b61619fdeeaf51f700879"
+    },
+    {
+      "path": "src/scene-0060.svg",
+      "role": "editable source",
+      "bytes": 12483,
+      "sha256": "47fa8b8ac80e24d92ce47e90fa394b961cb95f328e8aa791889c8089bf6922db"
+    },
+    {
+      "path": "src/scene-0061.svg",
+      "role": "editable source",
+      "bytes": 11976,
+      "sha256": "f8a7bd8bfd7905e08b5d83f14390744fdf7bd6f4975b93ee82deb4a883c99e64"
+    },
+    {
+      "path": "src/scene-0062.svg",
+      "role": "editable source",
+      "bytes": 11026,
+      "sha256": "f9ad539b6f4468aa7c8b62b30de60cbe1a82f9cfeff7b426eb4e3f064157206a"
+    },
+    {
+      "path": "src/scene-0063.svg",
+      "role": "editable source",
+      "bytes": 10514,
+      "sha256": "4eae4257ef67516dca4b4813b16c65c6d17d65606e9c7bff115cd06b6e38adbb"
+    },
+    {
+      "path": "src/scene-0064.svg",
+      "role": "editable source",
+      "bytes": 10002,
+      "sha256": "d6203cb6b348ba3132403f29ad1afee5fb27014515e94eb19c187ffd2206a139"
+    },
+    {
+      "path": "src/scene-0065.svg",
+      "role": "editable source",
+      "bytes": 9490,
+      "sha256": "141c5107656846d0d3edab9de29125fa1b10d447ed30ddcb34eacd33cd1f925d"
+    },
+    {
+      "path": "src/scene-0066.svg",
+      "role": "editable source",
+      "bytes": 8978,
+      "sha256": "2fe580af005e2aa4eecae3cdf37727779fef76e8fd2b0fb053bc38a96bafc03a"
+    },
+    {
+      "path": "src/scene-0067.svg",
+      "role": "editable source",
+      "bytes": 8461,
+      "sha256": "6b9ea5c5acde98561485a983d36e6552ee4c3081df516f4d81a59b19f502a647"
+    },
+    {
+      "path": "src/scene-0068.svg",
+      "role": "editable source",
+      "bytes": 7944,
+      "sha256": "c4a6964052a5de66eaeaa74feba5a2232106db010d8ca7246d4b482f8b9a14d1"
+    },
+    {
+      "path": "src/scene-0069.svg",
+      "role": "editable source",
+      "bytes": 6987,
+      "sha256": "284b784fec16efe992dc0fa13a499048651d95f020041085e0fe9fdec60ca0e2"
+    },
+    {
+      "path": "src/scene-0070.svg",
+      "role": "editable source",
+      "bytes": 6030,
+      "sha256": "af674bd74f91129b65ce67063778af6190d78191a9dde4f1b408f949b780717f"
+    },
+    {
+      "path": "src/scene-0071.svg",
+      "role": "editable source",
+      "bytes": 1105,
+      "sha256": "ae2843e32c2e50ad5e90f1a66a4a41b648072bfe1deefd402c3928f18faffadf"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 5268,
+      "sha256": "483e92400ab1a4f84317bc589d1ad6bab591ceae32a2d8a90843c3d73dc0b5f6"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 5808,
+      "sha256": "322794b7924fed48b2086e989b81c0888c95163bd7ea3f8667ee095b42b65c34"
+    },
+    {
+      "path": "src/variant-alternating-deal.svg",
+      "role": "editable source",
+      "bytes": 2875,
+      "sha256": "9b2851e228da1ae50264a57e6a6ba0ebe0fea91a0206c7f754b13a39d9e6b770"
+    },
+    {
+      "path": "src/variant-full-rules.svg",
+      "role": "editable source",
+      "bytes": 5268,
+      "sha256": "483e92400ab1a4f84317bc589d1ad6bab591ceae32a2d8a90843c3d73dc0b5f6"
+    },
+    {
+      "path": "src/variant-normal-round.svg",
+      "role": "editable source",
+      "bytes": 5268,
+      "sha256": "483e92400ab1a4f84317bc589d1ad6bab591ceae32a2d8a90843c3d73dc0b5f6"
+    },
+    {
+      "path": "src/variant-single-war.svg",
+      "role": "editable source",
+      "bytes": 12483,
+      "sha256": "47fa8b8ac80e24d92ce47e90fa394b961cb95f328e8aa791889c8089bf6922db"
+    }
+  ],
+  "variants": [
+    {
+      "name": "full-rules",
+      "files": [
+        "exports/full-rules.png",
+        "src/variant-full-rules.svg",
+        "exports/full-rules.mp4"
+      ]
+    },
+    {
+      "name": "alternating-deal",
+      "files": [
+        "exports/alternating-deal.png",
+        "src/variant-alternating-deal.svg",
+        "exports/alternating-deal.mp4"
+      ]
+    },
+    {
+      "name": "normal-round",
+      "files": [
+        "exports/normal-round.png",
+        "src/variant-normal-round.svg",
+        "exports/normal-round.mp4"
+      ]
+    },
+    {
+      "name": "single-war",
+      "files": [
+        "exports/single-war.png",
+        "src/variant-single-war.svg",
+        "exports/single-war.mp4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        17,
+        17
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        170,
+        194
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        399,
+        401
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        136,
+        152
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        234,
+        268
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R05"
+  ],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Shuffle is an abstraction; dealing is alternating, one card at a time, with 52 counted transfers.",
+    "Normal-round and single-war scenes reset to independent supplied fixtures.",
+    "All count states conserve 52; the win-all-52 closing caption is a rule, not an alleged conclusion of the short example.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

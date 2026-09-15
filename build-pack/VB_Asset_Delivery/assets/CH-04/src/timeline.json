@@ -1,0 +1,32 @@
+{
+  "id": "CH-04",
+  "durationSeconds": 4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–0.3 s: simple deterministic reveal.",
+    "0.3–3.7 s: completely static reading hold.",
+    "3.7–4.0 s: clean exit or cut-ready last frame."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.2,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3.9,
+      "file": "scene-0001.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "chapter-hold",
+    "chapter-motion"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

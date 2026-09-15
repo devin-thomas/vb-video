@@ -1,0 +1,238 @@
+{
+  "id": "MOCK-01",
+  "title": "VB4-style War GUI on green felt",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 505,
+      "sha256": "d6107b360649699bb8820ca0d8eca132951886aeb34c4c5f419768a396450ad2"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1097,
+      "sha256": "7add51a154c2f5b79f68d9cf1128e2a1b84c5aa94ec6a2f187c266080c9fa2ff"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 149,
+      "sha256": "b4dbba04a727c4509c1324df8b04408a067fb3f5e3185cc8c6f6639377657315"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1170,
+      "sha256": "c8551e8e83550f2774a3b015f7a16455d6deb83732f38deca8995487b9906fc1"
+    },
+    {
+      "path": "exports/annotated.png",
+      "role": "rendered still",
+      "bytes": 77135,
+      "sha256": "a73cee85a18e18b9c56a6acfee511733549e66a074c926684e4065cbe65e3b37"
+    },
+    {
+      "path": "exports/concept.png",
+      "role": "rendered still",
+      "bytes": 61657,
+      "sha256": "7d8564fcfe05ed518b58d2b8c1af971f4658861744c8fca562cfe610b12c8306"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 44925,
+      "sha256": "2e47293c4509509540d14629ca38f47f5376c6c334d923a8402870103321480f"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 61657,
+      "sha256": "7d8564fcfe05ed518b58d2b8c1af971f4658861744c8fca562cfe610b12c8306"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 22748,
+      "sha256": "96b8a1c35d78ebf3aba62e7e6bc9e724c64ce2cb1f55a8caa12d9b1dc488fa3b"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 76991,
+      "sha256": "4a38144c3df9b728d2823f7274476490c71368ce3a0cf5ac9f59d6790632d5d9"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2407,
+      "sha256": "c55431133b3c65e0365618ce5164bae126e8428e1f6f98db685c0916f5e4b32f"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1596,
+      "sha256": "ac22213b42e15ddad85ca732f483c2c14a6e227b264ca3b40bd5ad3d564e89c3"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1160,
+      "sha256": "4c79024e4912edb5421b77f0fc147ba81242f50851c460f97af66f30877ea62c"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 13059,
+      "sha256": "fd770065d3db35ebf7027a6ba60be8323ceb49b2a9cbaab961a60a6d219f038e"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 10019,
+      "sha256": "0f7ea82281d06f1babccce46ee9c8409894102a77e94a80a3bd44b5c1bc6bc73"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 10019,
+      "sha256": "0f7ea82281d06f1babccce46ee9c8409894102a77e94a80a3bd44b5c1bc6bc73"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 569,
+      "sha256": "1a75d718b054a04da379fef2df4013b9545bea838fa647ee5e283cf38f430f54"
+    },
+    {
+      "path": "src/variant-annotated.svg",
+      "role": "editable source",
+      "bytes": 11242,
+      "sha256": "8b2f76b581b6e03b9e165f3ca1cc185d6b89c7501c0f3502b2b51b5ad7391aaa"
+    },
+    {
+      "path": "src/variant-concept.svg",
+      "role": "editable source",
+      "bytes": 10019,
+      "sha256": "0f7ea82281d06f1babccce46ee9c8409894102a77e94a80a3bd44b5c1bc6bc73"
+    }
+  ],
+  "variants": [
+    {
+      "name": "concept",
+      "files": [
+        "exports/concept.png",
+        "src/variant-concept.svg"
+      ]
+    },
+    {
+      "name": "annotated",
+      "files": [
+        "exports/annotated.png",
+        "src/variant-annotated.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        46,
+        46
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        583,
+        589
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        795,
+        797
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Standalone 1920 × 1080 poster inspection plus overview sheet",
+        "scope": "Reviewed the full-resolution still and its appearance in the overview.",
+        "status": "Type, negative space, card legibility, and annotations inspected. CODE-02 pointer, code soft wrapping, small-card details, and saved-top labeling were corrected during this pass. Not all temporal frames received independent manual review."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Conceptual GUI only, not an implemented or captured VB4 application.",
+    "Original vector cards. Counts are 25 + 25 + pot 2 = 52.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

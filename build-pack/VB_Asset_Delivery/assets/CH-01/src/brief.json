@@ -1,0 +1,41 @@
+{
+  "id": "CH-01",
+  "title": "Chapter 01: Intro: What Even Is Visual Basic?",
+  "requirements": [
+    "On-screen title must be exactly “Intro: What Even Is Visual Basic?” unless a named editorial decision authorizes a replacement.",
+    "Section number 01 is permitted as a small structural label. The metadata cue 0:00 is an approximate editorial locator, not final timing and not on-screen copy.",
+    "Use the approved Win95-inspired chapter template; deliver this chapter as its own source, still, motion, and QA record, not only as part of a combined sixteen-card render.",
+    "Preserve capitalization, punctuation, and the apostrophe. Long titles wrap naturally in no more than three lines at readable type.",
+    "No slogan, filler subtitle, product pitch, or unrequested channel logo."
+  ],
+  "beats": [
+    "0–0.3 s: simple deterministic reveal.",
+    "0.3–3.7 s: completely static reading hold.",
+    "3.7–4.0 s: clean exit or cut-ready last frame."
+  ],
+  "checks": [
+    "This output is CH-01, not another chapter with a copied filename or title.",
+    "Text matches the chapter list; numbering is correct.",
+    "A full-size and 720p proof pass clipping and reading checks.",
+    "This card has its own export and delivery metadata even when generated from a shared template."
+  ],
+  "copy": "01\nIntro: What Even Is Visual Basic?",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      36,
+      36
+    ],
+    [
+      "SCRIPT.md",
+      18,
+      18
+    ],
+    [
+      "SCRIPT.md",
+      37,
+      37
+    ]
+  ],
+  "gates": []
+}

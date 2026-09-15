@@ -1,0 +1,6 @@
+{
+  "renderer": "CairoSVG 2.8.2",
+  "png_dimensions": "1920x1080",
+  "video_probes": [],
+  "command": "python shared/render_assets.py --id CMP-08"
+}

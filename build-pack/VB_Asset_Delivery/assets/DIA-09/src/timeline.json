@@ -1,0 +1,117 @@
+{
+  "id": "DIA-09",
+  "durationSeconds": 15,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–3 s: initial tie, pot 2.",
+    "3–7 s: +6 burns then +2 deciding cards, pot 10; tie again.",
+    "7–11 s: another +6 and +2, pot 18.",
+    "11–15 s: highlight 18 and award to Player 2, ending 17/35/pot0."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 3,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 5,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 7,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 9,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 11.4,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 11.52,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 11.64,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 11.76,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 11.88,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 12.0,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 12.12,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 12.24,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 12.36,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 12.48,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 12.6,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 12.72,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 12.84,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 12.96,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 13.08,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 13.2,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 13.32,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 13.44,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 13.7,
+      "file": "scene-0022.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "2-10-18-poster",
+    "double-war-growth"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

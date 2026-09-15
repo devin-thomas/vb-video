@@ -1,0 +1,60 @@
+{
+  "id": "DIA-02",
+  "classification": "original authored source-based illustration",
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        17,
+        17
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        170,
+        194
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        399,
+        401
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        136,
+        152
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        234,
+        268
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "authored_additions": [
+    "Shuffle is an abstraction; dealing is alternating, one card at a time, with 52 counted transfers.",
+    "Normal-round and single-war scenes reset to independent supplied fixtures.",
+    "All count states conserve 52; the win-all-52 closing caption is a rule, not an alleged conclusion of the short example."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

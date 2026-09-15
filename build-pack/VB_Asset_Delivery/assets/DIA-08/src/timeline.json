@@ -1,0 +1,127 @@
+{
+  "id": "DIA-08",
+  "durationSeconds": 12,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–3 s: panel 1, equal ranks, pot 2.",
+    "3–6 s: panel 2, six burns, pot 8.",
+    "6–9 s: panel 3, deciding cards, pot 10.",
+    "9–12 s: panel 4, ten cards append to Player 2."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 3,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 6,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 9.0,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 9.11,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 9.22,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 9.33,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 9.44,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 9.55,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 9.66,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 9.77,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 9.88,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 9.99,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 10.1,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 10.21,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 10.32,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 10.43,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 10.54,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 10.65,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 10.76,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 10.87,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 10.98,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 11.09,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 11.4,
+      "file": "scene-0022.svg"
+    }
+  ],
+  "cuts": {
+    "single-war-motion": [
+      0,
+      12
+    ],
+    "award-to-bottom": [
+      8,
+      12
+    ]
+  },
+  "variant_names": [
+    "four-panel-poster",
+    "single-war-motion",
+    "award-to-bottom"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

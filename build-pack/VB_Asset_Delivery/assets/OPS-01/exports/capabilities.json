@@ -1,0 +1,17 @@
+{
+  "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+  "dotnet_path": null,
+  "node": "v22.16.0",
+  "packages": {
+    "cairosvg": "2.8.2",
+    "Pillow": "12.3.0",
+    "playwright": "1.57.0"
+  },
+  "network_used": false,
+  "installs_performed": false,
+  "font_files_distributed": false,
+  "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+}

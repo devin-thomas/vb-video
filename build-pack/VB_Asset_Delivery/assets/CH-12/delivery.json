@@ -1,0 +1,266 @@
+{
+  "id": "CH-12",
+  "title": "Chapter 12: What This Code Would Have Become",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 4,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 503,
+      "sha256": "f12237867f88551e6102acc848455d958e7c101b15c676c0f1728a5d2f5335cb"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 17,
+      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 952,
+      "sha256": "8bc9e2daa21e091ae17618c425e2f84ae7eb6a389ca9ce2185d7eb42bfe28c88"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 967,
+      "sha256": "bbb58dfa171d919a6f5c3b0deb4c560b5afa53dfbeb7f07b7770921e2eb5e988"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 296,
+      "sha256": "3b184afc0bc7f5db1e68a9417a73bcbbcfc7544bf94f02e9d93eb48e93e5690a"
+    },
+    {
+      "path": "exports/chapter-hold.png",
+      "role": "rendered still",
+      "bytes": 31504,
+      "sha256": "ecae939beffee3ea490e78086717e913cf2d0ff64f053906ed86f1de8f3fcaf0"
+    },
+    {
+      "path": "exports/chapter-motion.png",
+      "role": "rendered still",
+      "bytes": 31504,
+      "sha256": "ecae939beffee3ea490e78086717e913cf2d0ff64f053906ed86f1de8f3fcaf0"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 41445,
+      "sha256": "1e86ac6a9c9465bdfa21d78b79951ac658b3928c5d501be7cae2a8d0a5fc4506"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 31504,
+      "sha256": "ecae939beffee3ea490e78086717e913cf2d0ff64f053906ed86f1de8f3fcaf0"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 31504,
+      "sha256": "ecae939beffee3ea490e78086717e913cf2d0ff64f053906ed86f1de8f3fcaf0"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 8591,
+      "sha256": "a3e192dc5466bbf50540fee8668aaf183cb2c70b896cc2bb0e68023dc34f2b9f"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 31504,
+      "sha256": "ecae939beffee3ea490e78086717e913cf2d0ff64f053906ed86f1de8f3fcaf0"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 22876,
+      "sha256": "4db67e6be1941e797ee828812bae152d246630ebf2cbb7b5ea2c261709c0813e"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 12609,
+      "sha256": "51831706403b86e6976de661aaef73f2a22dc3ed83a99dfe563b5f5a1177bd6c"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 39377,
+      "sha256": "957423845fd8c0757fd9c3e8ba2ef594717896ecdeafe143d1fb9c5000c9282a"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2219,
+      "sha256": "cad7ec235daae3e647901bd106f1ea6e3aaaa611ca264265041ef89a0e9efcd0"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1546,
+      "sha256": "b564e1230a0be4a4778e795f9d601d922fe47cd6b798f286a306bb33bf92ea57"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1159,
+      "sha256": "425ae379c7613a1ae61e8d7bc8627c4ff9523f415b0b972efd60efa89b29a6d7"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 5287,
+      "sha256": "df873b9868d9a732d50d8f56e553b91918c733846130855ee9a546e3026f7dfc"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 552,
+      "sha256": "1faf8f32d42231d506f19b33e65db4cd299dc9685caccfc71917a84eeb89092b"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 2468,
+      "sha256": "2faa18e7b1f40987d8d3bcbe960c06a6ba77578903304aab16b9ff467ea8c1e8"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 2468,
+      "sha256": "2faa18e7b1f40987d8d3bcbe960c06a6ba77578903304aab16b9ff467ea8c1e8"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 672,
+      "sha256": "46f5c61bde4467ab53083c904a562ad727c70a6e0cbb582154fcd28c4eb89ff8"
+    },
+    {
+      "path": "src/variant-chapter-hold.svg",
+      "role": "editable source",
+      "bytes": 2468,
+      "sha256": "2faa18e7b1f40987d8d3bcbe960c06a6ba77578903304aab16b9ff467ea8c1e8"
+    },
+    {
+      "path": "src/variant-chapter-motion.svg",
+      "role": "editable source",
+      "bytes": 2468,
+      "sha256": "2faa18e7b1f40987d8d3bcbe960c06a6ba77578903304aab16b9ff467ea8c1e8"
+    }
+  ],
+  "variants": [
+    {
+      "name": "chapter-hold",
+      "files": [
+        "exports/chapter-hold.png",
+        "src/variant-chapter-hold.svg"
+      ]
+    },
+    {
+      "name": "chapter-motion",
+      "files": [
+        "exports/chapter-motion.png",
+        "src/variant-chapter-motion.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../sources/ASSET_PLAN.md",
+      "lines": [
+        36,
+        36
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        29,
+        29
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../sources/SCRIPT.md",
+      "lines": [
+        577,
+        577
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
+        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "dotnet_path": null,
+    "node": "v22.16.0",
+    "packages": {
+      "cairosvg": "2.8.2",
+      "Pillow": "12.3.0",
+      "playwright": "1.57.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+  },
+  "notes": [
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

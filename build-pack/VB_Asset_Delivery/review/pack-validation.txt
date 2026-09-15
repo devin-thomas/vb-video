@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "checks": [
+    "source hashes/bytes",
+    "ticket IDs/sections/output contracts",
+    "source ranges and literal code payloads",
+    "dependencies and acyclicity",
+    "all 50 original families",
+    "all inline script visual cues",
+    "16 chapter cards",
+    "7 human handoffs",
+    "illustrative fixture integrity"
+  ],
+  "asset_tickets": 130,
+  "coordination_tickets": 4,
+  "visual_cues": 74,
+  "errors": [],
+  "limitations": "Planning structure only. No media, runtime execution, historical facts, or licenses verified."
+}

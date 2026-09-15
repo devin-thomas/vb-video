@@ -1,0 +1,36 @@
+{
+  "id": "MOCK-02",
+  "title": "1996 download dialog: 9:42 remaining",
+  "requirements": [
+    "Use a Win95-style download/file-copy dialog with a small moving progress bar and exact initial estimated time 9 minutes 42 seconds.",
+    "The 14.4 modem context comes from the script. Do not label the mockup a measured download or derive unsupported precise throughput from the animation.",
+    "An illustrative War.zip filename is allowed but must be identified as invented in metadata. Do not insert VBRUN300.DLL as the VB4 runtime without the R16 decision.",
+    "Keep the joke in the slow progress, not in extra funny copy or unrelated error dialogs."
+  ],
+  "beats": [
+    "0–2 s: establish the dialog and 9:42 remaining.",
+    "2–7 s: progress barely advances, keeping ETA visible.",
+    "7–9 s: readable hold for the narration’s punchline."
+  ],
+  "checks": [
+    "The initial ETA matches the source exactly.",
+    "The progress bar never implies a completed real transfer.",
+    "Fonts, button styling, and window chrome match MOCK-01/CARD-01."
+  ],
+  "copy": "Estimated time remaining: 9 minutes 42 seconds\n14.4 modem\nCancel",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      47,
+      47
+    ],
+    [
+      "SCRIPT.md",
+      595,
+      599
+    ]
+  ],
+  "gates": [
+    "R16"
+  ]
+}

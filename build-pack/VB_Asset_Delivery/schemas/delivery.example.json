@@ -1,0 +1,36 @@
+{
+  "id": "CODE-02",
+  "title": "Card structure: Rank and Suit",
+  "production_status": "in_progress",
+  "release_status": "blocked",
+  "provenance_type": "literal source-code illustration",
+  "shared_version": "REPLACE_WITH_FROZEN_VERSION",
+  "duration_seconds": 10,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [],
+  "variants": [],
+  "sources": [
+    {
+      "path": "../../sources/Program.vb",
+      "lines": [
+        15,
+        18
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "credits": [],
+  "tests": [],
+  "unresolved_gates": [
+    "R03"
+  ],
+  "toolchain": {},
+  "notes": [
+    "TEMPLATE ONLY. No asset production or verification is implied."
+  ]
+}

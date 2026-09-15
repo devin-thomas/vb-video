@@ -1,0 +1,54 @@
+{
+  "id": "DIA-09",
+  "title": "Pot growth: 2 → 10 → 18",
+  "requirements": [
+    "Use the double-war fixture with source-script face-up cards: 4♠/4♦,2♠/2♥,9♦/A♦; explicitly treat the fixture as illustrative.",
+    "Display major milestones 2,10,18; briefly expose intermediate counts 8 and 16 during burns.",
+    "Animate +6 burned cards and +2 face-up cards per fully supplied war. One original pair + eight cards per war.",
+    "The allocated Pot array has 104 slots in Program.vb, but only 52 physical cards exist; do not equate allocation size with cards in play."
+  ],
+  "beats": [
+    "0–3 s: initial tie, pot 2.",
+    "3–7 s: +6 burns then +2 deciding cards, pot 10; tie again.",
+    "7–11 s: another +6 and +2, pot 18.",
+    "11–15 s: highlight 18 and award to Player 2, ending 17/35/pot0."
+  ],
+  "checks": [
+    "Counts progress 2,8,10,16,18 with no jump suggesting cards materialize.",
+    "Every scene conserves the 52-card total across hands and pot.",
+    "Formula 2 + 8×wars is scoped to full burns and a deciding pair each time.",
+    "Allocation capacity and actual pot size are distinct."
+  ],
+  "copy": "Normal round: 2\nOne war: 10\nDouble war: 18\nEach full war adds 8 cards",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      24,
+      24
+    ],
+    [
+      "SCRIPT.md",
+      449,
+      489
+    ],
+    [
+      "SCRIPT.md",
+      546,
+      557
+    ],
+    [
+      "Program.vb",
+      207,
+      208
+    ],
+    [
+      "Program.vb",
+      234,
+      268
+    ]
+  ],
+  "gates": [
+    "R05",
+    "R07"
+  ]
+}
