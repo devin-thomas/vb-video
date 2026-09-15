@@ -1,12 +1,17 @@
 {
   "id": "HIST-02",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "HIST-02 worker (Historical Screenshots Manager, session vb-7a)",
+  "updated_at": "2026-09-15T21:00:00Z",
+  "blockers": [
+    "R14: rights unresolved. WinWorld grants no screenshot license; applicability of Microsoft's published screenshot permission, and whether the visible Loan project is third-party content, need rights review (RQ-HIST-02-1, RQ-HIST-02-2)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Acquired original: WinWorld 'Microsoft Visual Basic 4.0 32 bit - Edit' (800x600), unmodified at source/original.png.",
+    "Editorial frame: full-frame uniform resize with black pillarbox at exports/editorial-frame.png.",
+    "Edition verified 32-bit on Windows 95 via sibling About capture.",
+    "Review questions RQ-HIST-02-1..4 recorded in evidence/rights.json and evidence/claim-checks.json; RQ-HIST-02-4 is for the Writing Lead (Project Explorer vs Project window)."
   ]
 }

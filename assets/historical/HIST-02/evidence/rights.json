@@ -1,0 +1,93 @@
+{
+  "id": "HIST-02",
+  "asset": "source/original.png and exports/editorial-frame.png",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked until a rights decision is recorded (R14)",
+  "rights_holders": [
+    {
+      "party": "Microsoft Corporation",
+      "interest": "Copyright in the Visual Basic 4.0 and Windows 95 user interface shown in the screenshot.",
+      "evidence": "About dialog in the sibling WinWorld capture: 'Copyright (c) 1987-1995 Microsoft Corp.'"
+    },
+    {
+      "party": "Unknown WinWorld contributor who made the capture",
+      "interest": "Possible (thin) claim in the capture itself. No name, license or permission is stated.",
+      "evidence": "No capturer credit on the product page or image; WinWorld copyright page licenses descriptions and site code only."
+    },
+    {
+      "party": "Unknown author of the 'Loan' project shown (LOAN.FRM / LoanSheet), including the form graphic",
+      "interest": "If this project is not Microsoft sample code, the screenshot contains third-party content.",
+      "evidence": "Authorship not established. It may be a sample shipped with Visual Basic 4.0; no primary source found."
+    }
+  ],
+  "host_terms": {
+    "host": "WinWorld",
+    "terms_url": "https://winworldpc.com/copyright",
+    "terms_local_copy": "evidence/pages/winworldpc-copyright.html",
+    "terms_sha256": "ef88db28ca26c94289c3d6a2d9d832d37c7fbad09545180431e6da13d78e689d",
+    "summary": "Library descriptions: CC BY-SA 4.0. Site CMS: AGPL 3.0. Screenshots: no license stated.",
+    "access_barrier": "None for the image URL (public, no login, no terms click-through)."
+  },
+  "file_license": {
+    "license_name": null,
+    "license_url": null,
+    "finding": "The image itself carries no license. A public host page is not a license."
+  },
+  "candidate_permission_route": {
+    "grantor": "Microsoft Corporation",
+    "document": "Use of Microsoft Copyrighted Content",
+    "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+    "local_copy": "evidence/pages/microsoft-copyright-permissions.html",
+    "local_copy_sha256": "a6994f7c7691dcc74269fd710af1de34d7303da919df032d6a13b311202f7129",
+    "accessed": "2026-09-15T20:32:18Z",
+    "scope_quote": "You may use other screenshots in advertising, in documentation (including educational brochures), in tutorial books, in videos, or on websites",
+    "required_statement": "Used with permission from Microsoft.",
+    "condition_check": [
+      {
+        "condition": "Not a boot-up, opening or splash screen; not beta or unreleased",
+        "assessment": "Met on the face of it: design-mode IDE of a commercially released product (VB 4.0, 1995)."
+      },
+      {
+        "condition": "Do not alter the screenshot except to resize it",
+        "assessment": "Editorial frame is a uniform resize plus black pillarbox bars outside the image. Whether pillarboxing counts as alteration is a judgment for the rights review."
+      },
+      {
+        "condition": "Do not use portions of screenshots",
+        "assessment": "Met by exports/editorial-frame.png (full frame). Warning for XTRA-05 and the edit: any crop, zoom-in or panel isolation would break this condition."
+      },
+      {
+        "condition": "Do not include screenshots in your product user interface",
+        "assessment": "Not applicable to a video B-roll use."
+      },
+      {
+        "condition": "Do not use screenshots that contain third-party content",
+        "assessment": "Open: authorship of the 'Loan' project and its form graphic is unknown."
+      },
+      {
+        "condition": "Do not use screenshots that contain an image of an identifiable individual",
+        "assessment": "Met: no person shown."
+      },
+      {
+        "condition": "Full product name; no disparaging use (general requirements on the same page)",
+        "assessment": "Script tone to be checked by the rights review; full name 'Microsoft Visual Basic 4.0' is available for the credit."
+      }
+    ],
+    "unsettled": [
+      "Whether Microsoft's current web guidance applies to a screenshot of a discontinued 1995 product captured by a third party rather than by the production.",
+      "Whether the production (a monetised YouTube video) falls within 'in videos' as Microsoft intends; the page does not discuss commercial video platforms specifically.",
+      "Whether reliance on fair use or commentary rather than Microsoft's permission is preferred. No fair-use or public-domain conclusion is drawn here."
+    ]
+  },
+  "not_done": [
+    "No license or permission has been obtained or asserted.",
+    "No contact with WinWorld or Microsoft was made (outside worker authority).",
+    "No fair-use or public-domain assumption was applied."
+  ],
+  "credit_text": null,
+  "proposed_credit_text": "Microsoft Visual Basic 4.0 (32-bit) screenshot via WinWorld, winworldpc.com. Used with permission from Microsoft.",
+  "review_questions": [
+    "RQ-HIST-02-1 (rights/legal): May the production use the WinWorld capture under Microsoft's published screenshot permission (with the 'Used with permission from Microsoft' credit), under another basis, or not at all? The capturer is unknown and WinWorld grants no screenshot license.",
+    "RQ-HIST-02-2 (rights/legal): Does the 'Loan' project visible in the screenshot count as third-party content under Microsoft's terms? Its authorship could not be established from public sources.",
+    "RQ-HIST-02-3 (rights/edit): Microsoft's terms forbid portions of screenshots. XTRA-05 (five labeled callouts) and any editorial zoom must keep the whole frame; confirm whether callouts drawn over or around a full-frame screenshot are acceptable, or whether a native capture should be commissioned instead."
+  ]
+}

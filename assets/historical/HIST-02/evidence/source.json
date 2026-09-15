@@ -1,0 +1,116 @@
+{
+  "title": "Microsoft Visual Basic 4.0 32 bit - Edit",
+  "title_source": "WinWorld screenshot caption/alt text on the product page",
+  "creator": "Unknown. Screenshot captured by an uncredited WinWorld contributor; no capturer is named on the page or file. Depicted software user interface: Microsoft Corporation.",
+  "host": "WinWorld (winworldpc.com), online software museum",
+  "source_url": "https://winworldpc.com/res/img/screenshots/40-8f8bee2e0d2810b292e13c9917246fdf-Microsoft%20Visual%20Basic%204.0%2032%20bit%20-%20Edit.png",
+  "source_page_url": "https://winworldpc.com/product/microsoft-visual-bas/40",
+  "original_date": null,
+  "original_date_notes": "Capture date is not stated. The server's Last-Modified header is Fri, 02 Oct 2015 22:32:19 GMT and is identical for all four VB 4.0 screenshots, so it reflects a site file deployment, not the capture or upload date. It only suggests the file has been on the server since at least that date.",
+  "depicted_event_date": null,
+  "depicted_event_date_notes": "Software depicted: Visual Basic 4.0, released 1995 (WinWorld product page; About dialog in the sibling capture reads Copyright 1987-1995). The date the IDE session was run is unknown; the taskbar clock shows only 10:43 PM.",
+  "access_date": "2026-09-15T20:30:12Z",
+  "access_method": "Anonymous HTTPS GET of the public image URL (no account, no terms accepted, no download gate). Response headers kept in evidence/pages/original.http-headers.txt.",
+  "identity_evidence": [
+    "Host caption: 'Microsoft Visual Basic 4.0 32 bit - Edit', listed on WinWorld's Visual Basic 4.0 product page.",
+    "Title bar in the image: 'Loan - Microsoft Visual Basic [design]'; menu bar File/Edit/View/Insert/Run/Tools/Add-Ins/Help; toolbar, Project window with View Form/View Code buttons, Properties window and Code window with Object/Proc drop-downs are the VB 4.0 layout (matches the independently captured VB 4.0 IDE in Internet Archive item win95osr25_vb4dev, candidate C2).",
+    "Edition (32-bit): the sibling capture 'Microsoft Visual Basic 4.0 32 bit - About' (same page, same upload batch) shows the About dialog 'Microsoft Visual Basic Version 4.0 / For 32-bit Windows Development' on the same Windows 95 desktop, with the same IDE window arrangement and a taskbar clock of 10:41 PM against 10:43 PM in the acquired file, which indicates one capture session.",
+    "Contrast: 'Microsoft Visual Basic 4.0 16 bit - About' reads 'For 16-bit Windows Development' and was captured on a Windows 3.1 shell, so the host's 16/32-bit labels are consistent with the dialog text.",
+    "Limitation: a Windows 95 shell alone would not prove the 32-bit edition, because the 16-bit edition also ran on Windows 95. The 32-bit identification rests on the sibling About capture and the host label, not on the Edit image by itself."
+  ],
+  "sibling_evidence_files_not_committed": [
+    {
+      "title": "Microsoft Visual Basic 4.0 32 bit - About",
+      "url": "https://winworldpc.com/res/img/screenshots/40-e4245e1b25c50da87abdf08c4d0e41a2-Microsoft%20Visual%20Basic%204.0%2032%20bit%20-%20About.png",
+      "sha256": "a32f2c47ed17d7c499178a9894643e659700fbe12a30931216ea877c8da9a4f0",
+      "dimensions": [800, 600],
+      "reason_not_committed": "Displays a product serial number; kept out of the repository. Inspected in the worker scratchpad on 2026-09-15."
+    },
+    {
+      "title": "Microsoft Visual Basic 4.0 16 bit - About",
+      "url": "https://winworldpc.com/res/img/screenshots/40-a8d962273c3066d6b45a2823cc850a62-Microsoft%20Visual%20Basic%204.0%2016%20bit%20-%20About.png",
+      "sha256": "9583f17688e38fb7d15a8c399990c86b0c86ecf20f35dff64158fe207bbb913b",
+      "dimensions": [800, 600],
+      "reason_not_committed": "Displays a product serial number; comparison evidence only."
+    }
+  ],
+  "original_file": "source/original.png",
+  "original_file_sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+  "original_file_bytes": 13081,
+  "original_dimensions": {
+    "width": 800,
+    "height": 600,
+    "format": "PNG, 8-bit palette (mode P)"
+  },
+  "edition_shown": "32-bit (Microsoft Visual Basic 4.0 for 32-bit Windows Development) running on Windows 95",
+  "panels_visible": {
+    "toolbox": "left edge, full strip of control icons",
+    "form_designer": "centre-left, form 'LoanSheet' with grid, frames, text boxes and command buttons; partly covered by the Code window",
+    "project_window": "top right, titled 'Loan', entry LOAN.FRM / LoanSheet, View Form and View Code buttons",
+    "properties_window": "bottom right, 'Properties - LoanSheet', grdPayments Grid selected",
+    "code_window": "bottom centre, 'LoanSheet', grdPayments_Click event procedure with syntax colouring"
+  },
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": [
+    "WinWorld's copyright page licenses only its library descriptions (CC BY-SA 4.0) and its site software (AGPL 3.0); it grants no license for screenshots (evidence/pages/winworldpc-copyright.html).",
+    "Microsoft's 'Use of Microsoft Copyrighted Content' page offers a general permission for screenshots of commercially released products in videos, subject to conditions and the statement 'Used with permission from Microsoft' (evidence/pages/microsoft-copyright-permissions.html). Whether that permission covers this capture has not been decided; see evidence/rights.json."
+  ],
+  "rights_status": "unresolved",
+  "credit_text": null,
+  "proposed_credit_text": "Microsoft Visual Basic 4.0 (32-bit) screenshot via WinWorld, winworldpc.com. Used with permission from Microsoft.",
+  "proposed_credit_notes": "Proposed only. The 'Used with permission from Microsoft' sentence is correct only if the rights review decides to rely on Microsoft's published screenshot permission; it must not be used before that decision.",
+  "transformations": [],
+  "derived_files": [
+    {
+      "path": "exports/editorial-frame.png",
+      "transformations": [
+        "Palette PNG converted to RGB",
+        "Uniform resize 800x600 -> 1440x1080 (factor 1.8 on both axes, Pillow LANCZOS)",
+        "Placed at x=240, y=0 on a 1920x1080 flat black (#000000) canvas: pillarbox only",
+        "No crop, no retouch, no overlay, no watermark removal (none present), no added UI"
+      ],
+      "reversible": true,
+      "script": "src/make_editorial_frame.py"
+    }
+  ],
+  "other_candidates": [
+    {
+      "rank": "C2",
+      "title": "VirtualBox_win95_16_05_2024_15_36_16.png, in Internet Archive item 'Windows 95 for VB 4.0 Developer' (win95osr25_vb4dev)",
+      "url": "https://archive.org/download/win95osr25_vb4dev/VirtualBox_win95_16_05_2024_15_36_16.png",
+      "page": "https://archive.org/details/win95osr25_vb4dev",
+      "creator": "Internet Archive uploader 'Aandono' (item creator field)",
+      "date": "2024-05-16 (filename timestamp); item published 2024-05-15",
+      "dimensions": [1152, 864],
+      "sha256": "0a72d0fb63f7c429c8fd35caf6e15e80d22d5053cd1a84d7e0151646c4a681de",
+      "license": "None stated (item metadata has no licenseurl or rights field)",
+      "deficiencies": "A 2024 emulator capture, not period material. The IDE is cluttered: the Start menu is open over half the frame, a 'Microsoft Masked Edit Control Properties' dialog covers the Project and Properties windows, a third-party 'Mastering Microsoft Visual Basic 4.0' tutorial window fills the left side, and no Code window is visible. Unusable for the five-panel callouts in XTRA-05. Contains a personal user name in the Start menu ('Log Off Aan Kurniawan...'). Not acquired into the asset folder."
+    },
+    {
+      "rank": "C3",
+      "title": "Microsoft Visual Basic 4.0 16 bit - Edit (WinWorld)",
+      "url": "https://winworldpc.com/res/img/screenshots/40-6230abfe596e5ab357fb853d0e3eef31-Microsoft%20Visual%20Basic%204.0%2016%20bit%20-%20Edit.png",
+      "page": "https://winworldpc.com/product/microsoft-visual-bas/40",
+      "creator": "Unknown WinWorld contributor",
+      "dimensions": [800, 600],
+      "sha256": "4f3559336f47ade2116cbe55e97903c13396f4a7260dc5affed326052a1f92a7",
+      "license": "None stated",
+      "deficiencies": "16-bit edition on a Windows 3.1 shell, which does not match the script's Windows 95 framing (SCRIPT.md:115). A 'Bibliography Database Browser' runtime form covers most of the IDE, so the Project and Properties windows are cut off and no Code window is shown. Not acquired into the asset folder."
+    }
+  ],
+  "search_log": [
+    "Wikimedia Commons API full-text search in the File namespace for '\"Visual Basic\"', '\"Visual Basic 4\"', 'VB4', 'intitle:\"Visual Basic\" IDE', '\"Visual Basic\" 1995 screenshot' (2026-09-15): no VB 4.0 IDE screenshot. File:Vb4.png is a 2010 VirtualBox settings screenshot of Sidux Linux (false positive). File:Hello World! in Visual Basic (classic).png is a 185x185 message box with no version stated. Commons category listings and '\"Visual Basic 4.0\"' queries then returned HTTP 429 (rate limit) and were not retried further.",
+    "English Wikipedia 'Visual Basic (classic)' article images: VB 6.0 on Windows XP (a local non-free en.wikipedia file, not on Commons), VB for MS-DOS, a French empty-form image; no VB 4.0 IDE. The ASSET_PLAN.md:89 claim 'these exist on Wikipedia' does not hold for VB 4.0.",
+    "Wikimedia Commons Category:Windows 95 screenshots (169 files): no Visual Basic or IDE files.",
+    "GUIdebook (guidebookgallery.org) Windows 95 screenshot index: no Visual Basic entries.",
+    "WinWorld Visual Basic 4.0 product page: four screenshots (32-bit Edit, 32-bit About, 16-bit Edit, 16-bit About); the 32-bit Edit capture was selected.",
+    "Internet Archive advanced search for Visual Basic 4 titles/subjects: book scans are borrow-only lending items (gated, not used); software items checked for images: microsoft-visual-basic-4.0-enterprise (disc scan, not IDE), microsoft-visual-basic-4.0-professional-4.00.2422-english-cd and -enterprise-...-english-cd (cover scans), ms-select-vb40-eng and ms-vb40-tr6 (packaging/disc images), win95osr25_vb4dev (IDE capture, candidate C2).",
+    "Wayback Machine: CDX query shows no archived copy of the selected screenshot URL; the CDX query for the product page and a direct fetch of an archived vbi.org 'What's New in Visual Basic 4.0' article failed to connect (HTTP 000). No Wayback material used.",
+    "Native capture was not attempted: it would require installing Visual Basic 4.0 from an unlicensed archive download, which is outside the authorized sources and the script's own position (SCRIPT.md:151)."
+  ],
+  "notes": [
+    "The acquired file is an uncropped 800x600 native-resolution capture. 800x600 was a period desktop resolution; no larger original is known to exist for this image.",
+    "No watermark is present in the original."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "HIST-02",
+  "tool": "src/check_editorial_frame.py",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.0",
+  "pillow": "12.3.0",
+  "export_sha256": "63d7343663f2826b31b925e379b4f555fe90dc80ef1669f1657c56a68c44456e",
+  "tests": [
+    {
+      "test": "original matches source record hash",
+      "result": "passed",
+      "detail": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565"
+    },
+    {
+      "test": "original native size",
+      "result": "passed",
+      "detail": "(800, 600)"
+    },
+    {
+      "test": "export is PNG 1920x1080",
+      "result": "passed",
+      "detail": "PNG (1920, 1080) RGB"
+    },
+    {
+      "test": "pillarbox columns x<240 and x>=1680 are pure black",
+      "result": "passed",
+      "detail": "left ((0, 0), (0, 0), (0, 0)) right ((0, 0), (0, 0), (0, 0))"
+    },
+    {
+      "test": "image region equals uniform 1.8x resize of full original (no crop/stretch/retouch)",
+      "result": "passed",
+      "detail": "identical"
+    },
+    {
+      "test": "re-render is byte-identical",
+      "result": "passed",
+      "detail": "63d7343663f2826b31b925e379b4f555fe90dc80ef1669f1657c56a68c44456e vs 63d7343663f2826b31b925e379b4f555fe90dc80ef1669f1657c56a68c44456e"
+    }
+  ],
+  "all_passed": true,
+  "limitations": [
+    "No visual-quality, historical or legal judgment; see qa.md for manual review."
+  ]
+}

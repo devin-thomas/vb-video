@@ -1,0 +1,67 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence_paths": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/pages/winworldpc-copyright.html",
+        "evidence/pages/microsoft-copyright-permissions.html",
+        "evidence/pages/original.http-headers.txt"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Item-specific record is complete: rights holder (Microsoft UI; unknown capturer; unknown Loan project author), host terms (WinWorld grants no screenshot license), access method (public URL, no account, no terms accepted, no CAPTCHA, no watermark), and proposed credit. The file itself has no license. Microsoft's published screenshot permission is a possible route but its applicability is a legal judgment the evidence cannot settle, so rights stay unresolved and release stays blocked.",
+      "review_questions": ["RQ-HIST-02-1", "RQ-HIST-02-2", "RQ-HIST-02-3"]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The acquired image shows Microsoft Visual Basic 4.0.",
+      "source": "HIST-02 ticket requirement 1; SCRIPT.md:49, 130",
+      "status": "verified",
+      "evidence": "Host caption 'Microsoft Visual Basic 4.0 32 bit - Edit' on WinWorld's VB 4.0 product page; in-image title bar 'Loan - Microsoft Visual Basic [design]' and VB 4.0 menu/toolbar layout; sibling About capture from the same session reads 'Microsoft Visual Basic Version 4.0'.",
+      "evidence_paths": ["evidence/source.json", "evidence/source-excerpts.md", "evidence/pages/winworldpc-product-microsoft-visual-bas-40.html"]
+    },
+    {
+      "claim": "Edition shown is the 32-bit environment (not 16-bit).",
+      "source": "HIST-02 ticket requirement 1",
+      "status": "verified",
+      "evidence": "Sibling capture 'Microsoft Visual Basic 4.0 32 bit - About' reads 'For 32-bit Windows Development' on the same Windows 95 desktop with the same window arrangement and a clock two minutes earlier (10:41 PM vs 10:43 PM). The 16-bit About capture reads 'For 16-bit Windows Development' on Windows 3.1. Caveat recorded: the Edit image alone would not prove bitness, because the 16-bit edition also ran on Windows 95.",
+      "evidence_paths": ["evidence/source.json", "evidence/source-excerpts.md"]
+    },
+    {
+      "claim": "The image contains the panels XTRA-05 needs: form designer, toolbox, properties window, code window, project window.",
+      "source": "HIST-02 ticket requirement 1; SCRIPT.md:130",
+      "status": "verified",
+      "evidence": "All five visible in source/original.png: toolbox (left), LoanSheet form designer (centre-left, partly covered), Project window 'Loan' (top right), 'Properties - LoanSheet' (bottom right), LoanSheet code window (bottom centre).",
+      "evidence_paths": ["source/original.png", "evidence/source.json"]
+    },
+    {
+      "claim": "SCRIPT.md:132 layout: toolbox on the left, form in the center, properties on the right, code window behind.",
+      "source": "SCRIPT.md:132",
+      "status": "consistent_with_evidence",
+      "evidence": "Toolbox is left, the form is centre-left, Properties is right. In this capture the Code window is open in front of the form rather than behind it, which is a state of this session, not a contradiction of the narration. The form here is a populated sample, not the 'blank gray window' of a new project; the sibling 32-bit About capture shows a blank Form1 in the same layout.",
+      "evidence_paths": ["source/original.png", "evidence/source-excerpts.md"]
+    },
+    {
+      "claim": "SCRIPT.md:130 callout label 'Project Explorer' names the VB4 panel.",
+      "source": "SCRIPT.md:130",
+      "status": "unresolved_review_question",
+      "evidence": "The VB4 capture titles the panel with the project name ('Loan') and shows View Form / View Code buttons; no 'Project Explorer' label appears. Microsoft KB Q136399 ('INFO: Visual Basic and Source Code Control Glyphs', applies to Visual SourceSafe 4.0-6.0, last modified 07-DEC-2001) says: 'In Visual Basic, the Project window displays a list of all the form modules, class modules, and standard modules in the project...'. That supports 'Project window' as Microsoft's term but is not VB4-specific documentation. A search summary claimed Microsoft renamed it to 'Project Explorer' between versions 4 and 5, but the cited thread did not contain that statement, so no primary source for the rename was found. No edit made to War/SCRIPT.md.",
+      "proposed_change": "For the Writing Lead: change the SCRIPT.md:130 callout 'Project Explorer' to 'Project window' (the VB4-era label), or keep 'Project Explorer' if the video accepts later (VB5/VB6) terminology. Affects XTRA-05 callout text.",
+      "review_question": "RQ-HIST-02-4",
+      "evidence_paths": ["source/original.png", "evidence/source-excerpts.md"]
+    },
+    {
+      "claim": "ASSET_PLAN.md:89: VB 4.0 IDE screenshots 'exist on Wikipedia' / Wikimedia Commons.",
+      "source": "ASSET_PLAN.md:89",
+      "status": "refuted_for_vb4",
+      "evidence": "No VB 4.0 IDE screenshot found on Wikimedia Commons or in the English Wikipedia Visual Basic (classic) article on 2026-09-15; the Wikipedia VB 6.0 screenshot is a non-free local file. Planning-lead note only; ASSET_PLAN.md is hash-locked and needs no script change.",
+      "evidence_paths": ["evidence/source.json"]
+    }
+  ]
+}

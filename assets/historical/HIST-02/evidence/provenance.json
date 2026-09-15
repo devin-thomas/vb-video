@@ -1,0 +1,69 @@
+{
+  "id": "HIST-02",
+  "classification": "historical source",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [49, 49],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [130, 134],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [89, 89],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source lead (unverified holding; did not hold for VB 4.0)"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://winworldpc.com/res/img/screenshots/40-8f8bee2e0d2810b292e13c9917246fdf-Microsoft%20Visual%20Basic%204.0%2032%20bit%20-%20Edit.png",
+      "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+      "bytes": 13081,
+      "accessed": "2026-09-15T20:30:12Z",
+      "relationship": "historical original (third-party archive screenshot, acquired byte-for-byte)"
+    },
+    {
+      "path": "evidence/pages/original.http-headers.txt",
+      "sha256": "23dfc57a8dcae7c118f359c1d58a086f96026ad37e4438b0a4de1fa045eef9a5",
+      "relationship": "HTTP response headers of the acquisition request"
+    },
+    {
+      "path": "evidence/pages/winworldpc-product-microsoft-visual-bas-40.html",
+      "url": "https://winworldpc.com/product/microsoft-visual-bas/40",
+      "sha256": "ca17335ffdbd5afb663653118597b176a62ed5386b8201556b481e2b97efdd29",
+      "accessed": "2026-09-15T20:32:18Z",
+      "relationship": "source page snapshot (captions, product facts)"
+    },
+    {
+      "path": "evidence/pages/winworldpc-copyright.html",
+      "url": "https://winworldpc.com/copyright",
+      "sha256": "ef88db28ca26c94289c3d6a2d9d832d37c7fbad09545180431e6da13d78e689d",
+      "accessed": "2026-09-15T20:32:18Z",
+      "relationship": "host rights terms snapshot"
+    },
+    {
+      "path": "evidence/pages/microsoft-copyright-permissions.html",
+      "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+      "sha256": "a6994f7c7691dcc74269fd710af1de34d7303da919df032d6a13b311202f7129",
+      "accessed": "2026-09-15T20:32:18Z",
+      "relationship": "rights holder's published permission terms snapshot"
+    }
+  ],
+  "authored_additions": [
+    "exports/editorial-frame.png: black pillarbox bars (240 px each side) added around a uniform 1.8x resize of the full original. No text, callouts, crop or retouch.",
+    "src/make_editorial_frame.py: the deterministic framing script.",
+    "Worker transcriptions of on-screen text in evidence/source-excerpts.md section 3."
+  ],
+  "transformations_reversible": true,
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "ai_generated_content": false,
+  "producer_decisions": []
+}
