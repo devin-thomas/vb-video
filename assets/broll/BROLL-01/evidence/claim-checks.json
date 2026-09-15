@@ -1,0 +1,63 @@
+{
+  "id": "BROLL-01",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "open",
+      "approver": null,
+      "reason": null,
+      "checked_on": "2026-09-15",
+      "claim": "ASSET_PLAN.md:117 lists 'Pexels, Pixabay (browsable without login)' as sources for hands shuffling cards; ASSET_PLAN.md:109-122 treats free stock as browsable without login.",
+      "finding_on_plan_claim": "Partly false for the agent on 2026-09-15. Pixabay search pages were browsable but held no suitable shuffling clip. Pexels individual video pages were not browsable by the agent (HTTP 403; Cloudflare verification interstitial). Mixkit, which the plan did not name, was browsable without login and supplied all three candidates.",
+      "evidence_paths": [
+        "evidence/candidates.json",
+        "exports/candidates.md",
+        "exports/acquisition-handoff.md",
+        "evidence/source-excerpts.md"
+      ],
+      "per_candidate": [
+        {
+          "candidate": "Mixkit 100384 'Deck of Cards Being Shuffled'",
+          "url": "https://mixkit.co/free-stock-video/deck-of-cards-being-shuffled-100384/",
+          "rights_holder_creator": "Mixkit (Envato); no individual creator named on the page",
+          "file_specific_terms": "Asset page: 'Download this free stock video clip for commercial or personal use, under the Mixkit Stock Video Free License.'",
+          "license_url": "https://mixkit.co/license/",
+          "user_terms_url": "https://mixkit.co/terms/",
+          "access_method": "Public asset page, no login; download not performed",
+          "credit": "Not required; suggested 'Footage: Mixkit' (authored suggestion)",
+          "open_risk": "Printed casino felt layout visible (third-party table design, unbranded as far as seen). Terms s.13 (via WebFetch summary) says components such as trade marks may come from third parties and are the user's responsibility."
+        },
+        {
+          "candidate": "Mixkit 100398 'Person shuffling playing cards over green table'",
+          "url": "https://mixkit.co/free-stock-video/person-shuffling-playing-cards-over-green-table-100398/",
+          "rights_holder_creator": "Mixkit (Envato); no individual creator named on the page",
+          "file_specific_terms": "Same asset-page license line as above.",
+          "license_url": "https://mixkit.co/license/",
+          "user_terms_url": "https://mixkit.co/terms/",
+          "access_method": "Public asset page, no login; download not performed",
+          "credit": "Not required",
+          "open_risk": "Ornate red card-back design shown close up at 9.8 s may be a third-party design (Terms s.13). The proposed out point of 9.5 s avoids the close-up, but backs are visible throughout."
+        },
+        {
+          "candidate": "Mixkit 100372 'Close-up of hands shuffling playing cards'",
+          "url": "https://mixkit.co/free-stock-video/close-up-of-hands-shuffling-playing-cards-100372/",
+          "rights_holder_creator": "Mixkit (Envato); no individual creator named on the page",
+          "file_specific_terms": "Same asset-page license line as above.",
+          "license_url": "https://mixkit.co/license/",
+          "user_terms_url": "https://mixkit.co/terms/",
+          "access_method": "Public asset page, no login; download not performed",
+          "credit": "Not required",
+          "open_risk": "Card faces visible; court-card or brand designs not checked at full resolution."
+        }
+      ],
+      "license_evidence_quality": "The license modal text was read directly from the rendered page DOM (class license-modal__inner) on 2026-09-15. The User Terms limits come from a WebFetch model summary of https://mixkit.co/terms/ (reported 'last revised October 2, 2025') and were not read verbatim.",
+      "review_questions": [
+        "Taste: is the printed casino-table felt in rank 1 (100384) acceptable for a family card game (War) segment, or should the plain-felt rank 2 (100398) lead despite its 0.5 s handles and flourish-style motion?",
+        "Legal risk: are visible card-back and table-layout designs (possible third-party components under Mixkit User Terms s.13) acceptable without further clearance?",
+        "Boundary: approve the batched download of rank 1 Full HD (70.51 MB), or all three (173.39 MB), per exports/acquisition-handoff.md?",
+        "Evidence: is the WebFetch summary of the Mixkit User Terms sufficient, or should the Terms be read verbatim before release?"
+      ]
+    }
+  ]
+}

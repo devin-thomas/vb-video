@@ -1,12 +1,17 @@
 {
   "id": "BROLL-01",
-  "production_status": "planned",
+  "production_status": "scouted",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "BROLL-01 scouting worker (spawned by B-roll Scouting Manager, session vb-99)",
+  "updated_at": "2026-09-15T20:45:00Z",
+  "blockers": [
+    "No media acquired: batched download approval from Devin is pending (see exports/acquisition-handoff.md, 'Ungated free acquisition').",
+    "R14 open: rights recorded per candidate but not cleared; release decision belongs to the OPS-04 review deck.",
+    "Pexels candidates not inspected: Cloudflare bot-verification interstitial in browser, HTTP 403 via WebFetch."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Scouted: three Mixkit candidates inspected on their asset pages with in-page preview motion review (seek-and-screenshot sampling) on 2026-09-15.",
+    "Scouting complete is not cleared media acquired. No file was downloaded."
   ]
 }

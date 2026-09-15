@@ -1,0 +1,148 @@
+{
+  "id": "BROLL-01",
+  "title": "Hands shuffling physical cards",
+  "production_status": "scouted",
+  "release_status": "blocked",
+  "provenance_type": "stock footage scouting record (candidates inspected; no media acquired)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates.json",
+      "role": "structured candidates",
+      "bytes": 12897,
+      "sha256": "bc4055837b143585ca16254cc25e9cfca52587c2d615b8bce425f8abf85e2a6e"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gate record",
+      "bytes": 4539,
+      "sha256": "347e3c144c553d2af034e2d37e49d97c0553ad025ebe4bf61bdf70ddcff3cb7b"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 2996,
+      "sha256": "0f8fedd9abd041265d78e814cce698627d065e1ce9d3bf5897742e4bd6371790"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / literal source excerpts",
+      "bytes": 5536,
+      "sha256": "d3b505dbc3882a3e6966320f1ac9f860d2c6a5d77d092d0d6b5288fb545299c1"
+    },
+    {
+      "path": "exports/acquisition-handoff.md",
+      "role": "acquisition handoff (ungated pending approval + H02)",
+      "bytes": 4033,
+      "sha256": "7a07c0eb8fcee960d3f3bc506ba92a5fa5233e9dc5a68d702bdae9d2da8a9006"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "candidate report (variant: candidate-report)",
+      "bytes": 5369,
+      "sha256": "631e074810d959023f113cba0fd25038a06465ad0216e60f5dd34bfb75847a8a"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA report",
+      "bytes": 4915,
+      "sha256": "4e78229249684512ad3235a951f315bdcd52c63b74b80c853cceb4bfca0b5876"
+    },
+    {
+      "path": "src/build_excerpts.py",
+      "role": "reproduction script",
+      "bytes": 1673,
+      "sha256": "d213b952c1cc45ad36867838abf777a8ab8cfd84e11fee9173793d597d99d74e"
+    },
+    {
+      "path": "src/finish_delivery.py",
+      "role": "reproduction script",
+      "bytes": 4435,
+      "sha256": "583e8baccdd3cc26517254396905b12714fc39a60b5ad188b44b38a78d6eeda4"
+    }
+  ],
+  "variants": [
+    {
+      "name": "candidate-report",
+      "files": [
+        "exports/candidates.md"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        109,
+        122
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt (shot request, row 117)"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        799,
+        805
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (B-roll suggestion 1)"
+    },
+    {
+      "url": "https://mixkit.co/free-stock-video/deck-of-cards-being-shuffled-100384/",
+      "accessed": "2026-09-15",
+      "relationship": "stock candidate (rank 1, not acquired)"
+    },
+    {
+      "url": "https://mixkit.co/free-stock-video/person-shuffling-playing-cards-over-green-table-100398/",
+      "accessed": "2026-09-15",
+      "relationship": "stock candidate (rank 2, not acquired)"
+    },
+    {
+      "url": "https://mixkit.co/free-stock-video/close-up-of-hands-shuffling-playing-cards-100372/",
+      "accessed": "2026-09-15",
+      "relationship": "stock candidate (rank 3, not acquired)"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "all ranked candidates",
+      "credit": "Mixkit",
+      "required": false,
+      "basis": "Mixkit Stock Video Free License: attribution not required (credit appreciated)"
+    }
+  ],
+  "tests": [
+    {
+      "name": "validate_delivery",
+      "command": "python tools/validate_delivery.py --id BROLL-01",
+      "result": "see qa.md (run after this file is written)"
+    },
+    {
+      "name": "motion review (frame sampling of in-page previews)",
+      "result": "done for 3 candidates; continuous real-time playback not observed"
+    },
+    {
+      "name": "1080p/720p export inspection",
+      "result": "not applicable: no rendered or acquired media; previews were 720p streams"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "git": "2.53.0.windows.1",
+    "browser": "Claude Browser pane (embedded Chromium; version not exposed)",
+    "web": "Claude Code WebFetch and WebSearch tools",
+    "ffprobe": "not used (no media acquired)"
+  },
+  "notes": [
+    "Scouting complete is not cleared media acquired. No download was performed.",
+    "Pexels could not be inspected (Cloudflare verification interstitial / HTTP 403); not bypassed.",
+    "Release blocked pending R14 review questions and batched download approval."
+  ]
+}
