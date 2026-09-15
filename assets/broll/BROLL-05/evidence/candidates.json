@@ -1,0 +1,174 @@
+{
+  "id": "BROLL-05",
+  "shot": "Close-up of a readable 3.5-inch floppy disk being inserted into a matching 3.5-inch drive, hand and disk in frame",
+  "access_date": "2026-09-15",
+  "acquisition_status": "not acquired (no download performed in this pass; pending batched approval)",
+  "timecode_basis": "Seconds from clip start, read from the in-page HTML5 player's currentTime while seeking the page's own preview player.",
+  "ranked": [
+    {
+      "rank": 1,
+      "status": "recommended",
+      "platform": "Pexels",
+      "title": "Floppy Disk 80s Computer Retro Diskette",
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503026/",
+      "pexels_id": "20503026",
+      "creator": "Stefan",
+      "creator_profile_href": "/@stefan-239928581/ (as linked on the asset page; profile page itself not loaded)",
+      "page_description": "inserting a red floppy disk into a vintage computer floppy disk drive on a metallic surface (page description, via WebFetch)",
+      "upload_date_shown": "Mar 4, 2024",
+      "duration_page": "0:11",
+      "duration_player_seconds": 11.156667,
+      "source_dimensions": {"width": 1920, "height": 1080},
+      "fps": 23.98,
+      "orientation": "horizontal 16:9",
+      "proposed_in": "00:00.00",
+      "proposed_out": "00:06.00",
+      "proposed_usable_seconds": 6.0,
+      "meets_8_to_12s_preference": false,
+      "segment_note": "Native-speed insertion segment is about 6 s. 00:06.50 onward the hand returns and presses eject (00:07.00-00:07.50) and the disk ejects (about 00:09.00), which is the opposite action. See review question RQ1.",
+      "frames_inspected": [
+        {"t": 0.1, "seen": "Empty beige drive bezel, drive lying flat on diamond-plate aluminium; no hand."},
+        {"t": 0.6, "seen": "Same empty drive; clean pre-roll handle."},
+        {"t": 1.0, "seen": "Red disk with white label enters from right, motion-blurred, hand behind it."},
+        {"t": 1.5, "seen": "Disk entering slot, label side facing camera/up; label legible as '2HD IBM' and '1.44' (brand word partly legible); slot width matches disk width."},
+        {"t": 2.2, "seen": "Disk mostly inside; trailing edge visible with a small square hole at one corner and a shaped tab at the other; thumb pushing."},
+        {"t": 3.0, "seen": "Thumb pushes disk fully home; red visible through slot."},
+        {"t": 4.5, "seen": "Disk inserted, red visible in slot, hand out of frame; static hold."},
+        {"t": 6.0, "seen": "Identical static hold, no hand. Proposed out point."},
+        {"t": 6.5, "seen": "Hand re-enters toward the eject push-button."},
+        {"t": 7.0, "seen": "Thumb on eject button."},
+        {"t": 7.5, "seen": "Thumb pressing eject button."},
+        {"t": 9.0, "seen": "Disk sliding out of the drive (eject), motion-blurred."},
+        {"t": 10.9, "seen": "Empty drive again."}
+      ],
+      "visual_fit": {
+        "media_size": "PASS - 3.5-inch: rigid square shell, label printed '2HD' and '1.44' (1.44 MB high-density 3.5-inch format), slot width matches disk. Not 5.25-inch or 8-inch (no flexible sleeve, no large hub hole/oval head window).",
+        "drive_type": "PASS - single narrow horizontal slot, rectangular push-button eject at the right end, small indicator window at the left; no 5.25-inch rotating latch lever. Consistent with a 3.5-inch drive. Exact drive model not identified.",
+        "insertion_direction": "PASS with caveat - label side faces up on a flat-lying (horizontal) drive. The metal shutter itself is not visible in any sampled frame (already inside the slot or blurred by 1.0-1.5 s). The trailing edge at 2.2 s shows the corner holes that on a 3.5-inch disk sit on the edge opposite the shutter, so the shutter end is inferred to lead. Direction is therefore inferred from the trailing edge, not directly observed.",
+        "hand_and_disk_in_frame": "PASS during 00:01.00-00:03.00; hold 00:03.00-00:06.00 shows the inserted disk with no hand.",
+        "composition": "Drive lies diagonally across frame (camera angled), shallow depth of field, warm practical light flare upper right. Bare drive on metal plate, not installed in a PC.",
+        "captions_watermarks": "None seen in sampled frames (player controls are page UI, not baked in).",
+        "narration_audio": "Not checked (preview muted/seeked; audio track not inspected)."
+      },
+      "license": {
+        "name": "Pexels License",
+        "url": "https://www.pexels.com/license/",
+        "page_badge": "Free",
+        "terms_in_substance": [
+          "All photos and videos on Pexels are free to use.",
+          "Attribution is not required; giving credit is appreciated.",
+          "You can modify the photos and videos.",
+          "Not allowed: identifiable people shown in a bad light or offensive way; selling unaltered copies (e.g. as prints/posters/physical products); implying endorsement by people or brands shown; redistributing or selling on other stock platforms; use in trademarks, business names or service marks."
+        ],
+        "read_via": "WebFetch of https://www.pexels.com/license/ on 2026-09-15 (small-model summary with quoted phrases; no date/version shown on page)."
+      },
+      "login_download_barrier": "None observed. 'Free download' button and size dropdown visible without login; no CAPTCHA/bot wall seen. Download not attempted.",
+      "download_options_seen": ["SD 426x240", "SD 640x360", "SD 960x540", "HD 1280x720", "Full HD 1920x1080"],
+      "file_size_shown": "not displayed",
+      "motion_review": "reviewed - played and seeked the page's own preview player (source 20503026-hd_1920_1080_24fps.mp4) in the in-app Browser; 13 frames screenshotted at 800x609 viewport",
+      "acquisition_status": "pending download approval"
+    },
+    {
+      "rank": 2,
+      "status": "alternative - rights-blocked for this production",
+      "platform": "Mixkit",
+      "title": "Floppy disk being inserted into the system unit",
+      "asset_page_url": "https://mixkit.co/free-stock-video/floppy-disk-being-inserted-into-the-system-unit-48937/",
+      "mixkit_id": "48937",
+      "creator": "not shown on the rendered page (one WebFetch summary named 'Berdiy88'; not confirmed in page text, so treated as unknown)",
+      "duration_page": "0:07",
+      "duration_player_seconds": 7.24,
+      "source_dimensions": {"width": 1280, "height": 720, "note": "free 720p preview/download; page also offers a 4K version via Envato"},
+      "fps": 25,
+      "file_size_shown": "2.44 MB (page 'Attributes', applies to free 720p download)",
+      "orientation": "horizontal 16:9",
+      "proposed_in": "00:00.00",
+      "proposed_out": "00:07.24",
+      "proposed_usable_seconds": 7.24,
+      "meets_8_to_12s_preference": false,
+      "frames_inspected": [
+        {"t": 0.1, "seen": "Empty beige drive bay in a pale/white case, slot horizontal, eject button right, indicator left; no hand."},
+        {"t": 2.0, "seen": "Hand holds a thin black disk nearly edge-on at the slot, beginning insertion."},
+        {"t": 4.0, "seen": "Fingers push the disk into the slot; disk mostly in."},
+        {"t": 6.5, "seen": "Disk inserted, hand out of frame."}
+      ],
+      "visual_fit": {
+        "media_size": "LIKELY 3.5-inch - rigid thin black disk whose width matches a narrow 3.5-inch-style slot; disk face/label not visible (edge-on), so not confirmed from a label.",
+        "drive_type": "PASS - horizontal narrow slot with push-button eject and indicator in a drive bay; no 5.25-inch lever.",
+        "insertion_direction": "NOT VERIFIABLE - disk seen nearly edge-on; label side and shutter end cannot be distinguished in sampled frames.",
+        "hand_and_disk_in_frame": "PASS roughly 00:01.5-00:05.",
+        "readability": "Weak - disk is not readable as a floppy from its face; reads as a black card entering a slot."
+      },
+      "license": {
+        "name": "Mixkit Restricted License (free 720p version)",
+        "url": "https://mixkit.co/license/#videoRestricted",
+        "page_text": "Free Download - 720p Version for Personal Use only. Download this free stock video clip for personal use only, under the Mixkit Restricted License.",
+        "terms_in_substance": "Mixkit's own information page (https://mixkit.co/llm-info/) states the Restricted License only allows use in personal, non-commercial projects and cannot be used in monetized content, business applications, or any commercial purpose.",
+        "premium_option": "'Premium Download - 4K Version for commercial use' via 'Download 4k video from Envato' (Envato subscription; price not shown on Mixkit page; Envato page not loaded)."
+      },
+      "login_download_barrier": "Free 720p link 'Download low resolution for free' visible without login, but the license restricts it to personal use. Commercial 4K requires a paid Envato subscription.",
+      "motion_review": "reviewed - seeked the page's preview player (48937-720.mp4) in the in-app Browser; 4 frames screenshotted",
+      "acquisition_status": "not proposed for free download (license incompatible with a public video); paid route recorded in H02 section"
+    }
+  ],
+  "rejected": [
+    {
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503027/",
+      "creator": "Stefan",
+      "duration_player_seconds": 5.566667,
+      "dimensions": "1920x1080",
+      "fps": 23.98,
+      "reason": "Wrong action. Page description says 'Hand inserting floppy disk', but frames show an EJECT: disk already inside at 0.1 s, thumb presses eject at 1.2 s, disk slides out with no hand at 2.5 s, empty drive at 3.8-4.9 s. Played in reverse it would show a disk sliding in without a hand (impossible insertion).",
+      "motion_review": "reviewed (5 frames)"
+    },
+    {
+      "asset_page_url": "https://www.pexels.com/video/inserting-floppy-disk-into-vintage-commodore-1541-33125208/",
+      "creator": "Stefan",
+      "duration_page": "0:07",
+      "dimensions": "1920x1080",
+      "fps": 20,
+      "reason": "Wrong media and drive: frames show a black 5.25-inch flexible disk (large hub hole, oval head window) going into a Commodore 1541 5.25-inch drive with a rotating latch lever.",
+      "motion_review": "reviewed (3 frames during live in-page playback; exact timecodes not captured)"
+    },
+    {
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503028/",
+      "creator": "Stefan",
+      "duration_page": "0:03",
+      "reason": "Page description: close-up of stacked vintage floppy disks; 3 s; no insertion described.",
+      "motion_review": "not reviewed: excluded on page description and duration"
+    },
+    {
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503031/",
+      "creator": "Stefan",
+      "duration_page": "0:05",
+      "reason": "Page description: close-up of an old disk drive mechanism; no insertion described.",
+      "motion_review": "not reviewed: excluded on page description"
+    },
+    {
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503030/",
+      "creator": "Stefan",
+      "duration_page": "0:04",
+      "reason": "Page description: hands handling a disk on a metal surface; no insertion described; 4 s.",
+      "motion_review": "not reviewed: excluded on page description and duration"
+    }
+  ],
+  "search_log": [
+    {"site": "WebSearch", "query": "3.5 floppy disk insertion close up stock video pexels", "result": "9 links; paid platforms (Shutterstock, Getty, Envato, Dreamstime, Pond5, iStock, Vista Create, Motion Array) plus the Pexels search page. Paid pages not loaded."},
+    {"site": "WebSearch", "query": "floppy disk insert drive stock video pixabay", "result": "8 links; no Pixabay video result (one Pixabay vector)."},
+    {"site": "Pexels (in-app Browser)", "query": "videos: floppy disk", "result": "Videos tab count shown as 4K; 6 floppy-titled clips found: 20503026, 20503027, 20503028, 20503030, 20503031, 33125208 (plus unrelated CD/VHS/cassette clips and sponsored iStock tiles)."},
+    {"site": "Pexels (WebFetch)", "query": "videos: diskette", "result": "3.4K results shown; floppy clips are the same Stefan series."},
+    {"site": "Pexels (WebFetch)", "query": "videos: floppy drive", "result": "20.5K results shown; same 6 floppy clips."},
+    {"site": "Pexels (WebFetch)", "query": "videos: inserting floppy disk", "result": "3.8K results shown; same 6 floppy clips."},
+    {"site": "Pixabay (WebFetch)", "query": "videos: floppy disk", "result": "88+ results; none floppy-related in listing (DJ, vinyl, space)."},
+    {"site": "Pixabay (WebFetch)", "query": "videos: diskette", "result": "0 results."},
+    {"site": "Pixabay (WebFetch)", "query": "videos: floppy drive", "result": "533+ results; vehicle/road 'drive' clips, none floppy."},
+    {"site": "Pixabay (WebFetch)", "query": "videos: floppy-disk", "result": "90+ results; discs/vinyl, none floppy."},
+    {"site": "WebSearch (pixabay.com only)", "query": "pixabay video inserting floppy disk computer", "result": "Sound effects, illustrations, photos only; no insertion video."},
+    {"site": "Mixkit (WebFetch + Browser)", "query": "floppy", "result": "1 free video: 48937."},
+    {"site": "Coverr (WebFetch)", "query": "floppy", "result": "0 results."},
+    {"site": "Videvo (WebFetch)", "query": "search floppy", "result": "HTTP 403; not browser-checked. WebSearch found only a Videvo sound effect."},
+    {"site": "Vista Create (WebFetch)", "query": "videos/floppy", "result": "HTTP 403; not browser-checked."},
+    {"site": "Wikimedia Commons (WebFetch)", "query": "MediaSearch video: floppy disk inserting", "result": "0 results."},
+    {"site": "Internet Archive (advancedsearch JSON)", "query": "floppy AND (insert OR inserting OR diskette OR drive) AND mediatype:movies", "result": "195 found; first 50 reviewed by title/license: mostly YouTube mirrors (no license), retro-computing podcasts (CC BY-NC-SA / CC BY-ND), talks and full programmes. No item identified as a close-up stock insertion clip; none motion-reviewed."}
+  ]
+}

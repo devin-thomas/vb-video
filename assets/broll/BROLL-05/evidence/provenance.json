@@ -1,0 +1,30 @@
+{
+  "id": "BROLL-05",
+  "provenance_type": "stock footage scouting report (no media acquired)",
+  "access_date": "2026-09-15",
+  "source_files": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "lines": [[121, 121], [109, 122]],
+      "classification": "planning assumption (candidate sites only; not a rights record)"
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "lines": [[799, 805]],
+      "classification": "narrative authority for the requested shot (B-roll suggestion 5)"
+    }
+  ],
+  "external_sources": "Per-candidate asset pages, creators, durations, dimensions, license URLs and license text are recorded in evidence/candidates.json. Every URL there was loaded on 2026-09-15 via WebFetch or the in-app Browser; download endpoints that would start a file transfer were recorded from the page's link href only and were not loaded.",
+  "authored_additions": [
+    "Proposed source in/out timecodes and edit notes in exports/candidates.md and evidence/candidates.json are the scout's editorial proposals, not facts from the source pages.",
+    "Candidate ranking and visual-fit judgements (media size, drive type, insertion direction) are the scout's observations from in-page playback frames."
+  ],
+  "acquired_media": [],
+  "transformations": [],
+  "producer_decisions": [],
+  "notes": [
+    "No media file was downloaded in this pass, per the manager's instruction; the download is batched for Devin's approval (exports/acquisition-handoff.md)."
+  ]
+}
