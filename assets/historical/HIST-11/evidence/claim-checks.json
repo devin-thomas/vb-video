@@ -1,0 +1,66 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "status": "blocked",
+      "reason": "Rights holder (Microsoft Corporation, disc artwork), file-specific terms (none), access method (anonymous IA download) and credit are recorded. No license exists for the image, and public availability on archive.org is not reuse permission. Clearance is a legal-risk decision evidence cannot settle, so it is handed to review.",
+      "evidence_paths": ["rights.json", "source.json", "source-page/ia-metadata.json"],
+      "approver": null,
+      "review_questions": ["RQ-1"]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Depicted product is Microsoft Visual Basic 4.0 (Enterprise Edition)",
+      "status": "verified",
+      "evidence": "Disc label read at native 500 dpi: 'Microsoft Visual Basic Enterprise Edition', 'Version 4.0', 'Disc Assy. 2031056-002', 'Part No. 64575'. Archive file hashes match the IA manifest.",
+      "evidence_paths": ["source-excerpts.md", "source.json"]
+    },
+    {
+      "claim": "Item is a 1995 Windows 95-era retail product",
+      "status": "verified with stated inference",
+      "evidence": "Disc prints (c) 1991-1995 and the 'Designed for Microsoft Windows 95' logo. Reading '0895' as an August 1995 manufacture code is an inference, not confirmed by Microsoft documentation.",
+      "evidence_paths": ["source-excerpts.md"]
+    },
+    {
+      "claim": "Ticket: 'a clear VB4 retail box image with readable product/version text'",
+      "status": "not met: substitute supplied",
+      "evidence": "No VB4 box image found in Commons or Internet Archive (full search log in candidates.json). The acquired image is the retail install CD, which the script's visual cue lists first.",
+      "evidence_paths": ["candidates.json"],
+      "review_questions": ["RQ-2"]
+    },
+    {
+      "claim": "SCRIPT.md:122 visual note: 'The packaging is very mid-90s — purple and teal.'",
+      "status": "partially supported; box colors unverified",
+      "evidence": "The retail Enterprise disc art is magenta/purple on silver; teal appears on the pre-release RC-2 disc (candidates.json rank 3), not on the acquired retail disc. No box image was available to check box colors. This is a [VISUAL] direction note, not narration, so no SCRIPT.md change is proposed.",
+      "evidence_paths": ["candidates.json"],
+      "review_questions": ["RQ-3"]
+    },
+    {
+      "claim": "SCRIPT.md:128 narration: a box contained floppy disks or a single CD",
+      "status": "not assessed by this asset",
+      "evidence": "The acquired disc supports that CD-ROM media existed. No floppy-set evidence or box contents were found; the narration was not changed.",
+      "evidence_paths": ["source.json"]
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "RQ-1",
+      "to": "producer / Devin (rights)",
+      "question": "The only authorized-archive VB4 image is an unlicensed scan of Microsoft's 1995 disc artwork (Internet Archive, textfiles.com collection). Use it in the video on a fair-use basis, or keep it out and source a licensed or self-shot image?",
+      "evidence": "assets/historical/HIST-11/evidence/rights.json"
+    },
+    {
+      "id": "RQ-2",
+      "to": "Writing Lead / producer",
+      "question": "The ticket asks for a VB4 retail box; no archive holds one, but the script's visual cue allows 'A VB4 install CD'. Accept the retail Enterprise CD for this shot, or open a boundary item for a box image (e.g. ask an eBay seller for permission, or photograph a physical box)?",
+      "evidence": "assets/historical/HIST-11/evidence/candidates.json"
+    },
+    {
+      "id": "RQ-3",
+      "to": "Writing Lead",
+      "question": "SCRIPT.md:122 says the packaging is 'purple and teal'. The retail disc shows purple/magenta only, and box colors could not be checked. Keep the note, or soften it to 'purple' / drop the colors?",
+      "evidence": "assets/historical/HIST-11/evidence/claim-checks.json"
+    }
+  ]
+}
