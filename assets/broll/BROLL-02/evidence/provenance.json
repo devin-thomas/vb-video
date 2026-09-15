@@ -1,0 +1,25 @@
+{
+  "id": "BROLL-02",
+  "provenance_type": "stock candidate scouting record",
+  "source_files": [
+    {"path": "sources/ASSET_PLAN.md", "lines": [109, 122], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (shot list and suggested sources)"},
+    {"path": "sources/ASSET_PLAN.md", "lines": [118, 118], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (row 2)"},
+    {"path": "sources/SCRIPT.md", "lines": [799, 805], "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb", "relationship": "literal excerpt (B-roll suggestion 2: Two people playing War at a table)"}
+  ],
+  "external_sources": [
+    {"url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/", "relationship": "stock candidate (rank 1, fallback)", "accessed": "2026-09-15", "acquired": false},
+    {"url": "https://pixabay.com/videos/card-game-game-cards-gambling-card-254893/", "relationship": "stock candidate (rank 2, fallback)", "accessed": "2026-09-15", "acquired": false},
+    {"url": "https://www.pexels.com/video/grandfather-playing-a-card-game-with-his-granddaughter-9058103/", "relationship": "stock candidate (rank 3, fallback, motion not reviewed)", "accessed": "2026-09-15", "acquired": false},
+    {"url": "https://www.pexels.com/license/", "relationship": "license evidence", "accessed": "2026-09-15"},
+    {"url": "https://pixabay.com/service/license-summary/", "relationship": "license evidence", "accessed": "2026-09-15"},
+    {"url": "https://www.youtube.com/watch?v=kEhF96ea7wo", "relationship": "rights-blocked scouting lead (H02); metadata via YouTube oEmbed", "accessed": "2026-09-15", "acquired": false},
+    {"url": "https://www.youtube.com/watch?v=LeB_PnAWJXA", "relationship": "rights-blocked scouting lead (H02); metadata via YouTube oEmbed", "accessed": "2026-09-15", "acquired": false}
+  ],
+  "authored_additions": [
+    "Candidate ranking, proposed in/out timecodes, visual-fit and War-evidence notes, and proposed local filenames are authored scouting judgments, not source facts.",
+    "Frame descriptions are the worker's observations from in-page preview playback; no screenshot files were retained in this package."
+  ],
+  "media_acquired": [],
+  "transformations": [],
+  "producer_decisions": []
+}
