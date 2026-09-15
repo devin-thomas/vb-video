@@ -1,0 +1,42 @@
+{
+  "source": "source/original.png",
+  "source_size": [
+    854,
+    480
+  ],
+  "crop_box_xyxy": [
+    107,
+    0,
+    747,
+    480
+  ],
+  "crop_size": [
+    640,
+    480
+  ],
+  "uniform_scale": 2.25,
+  "resample": "Pillow LANCZOS",
+  "scaled_size": [
+    1440,
+    1080
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "canvas_fill_rgb": [
+    0,
+    0,
+    0
+  ],
+  "paste_offset": [
+    240,
+    0
+  ],
+  "inverse": "crop exports/editorial-frame.png to (240,0,1680,1080), downscale by 1/2.25 to 640x480, place at x=107 on an 854x480 black canvas (lossy only through resampling); the untouched original is source/original.png",
+  "removed_content": "Only the upload's black pillarbox columns x<107 and x>=747 (max luma <= 5; measured picture bbox x=111..743). No picture content removed.",
+  "overlays_added": [],
+  "watermarks_removed": false,
+  "camcorder_date_stamp": "Retained exactly as recorded (AUG. 24 1995); it is part of the original picture.",
+  "proof_720": "proofs/editorial-frame-720.png"
+}

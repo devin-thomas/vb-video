@@ -1,0 +1,80 @@
+{
+  "asset": "HIST-09",
+  "access_date": "2026-09-15",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "status": "selected",
+      "description": "Night exterior of a CompUSA superstore, full lit fascia sign 'COMP USA / THE COMPUTER SUPERSTORE', camcorder stamp 'AUG. 24 1995'",
+      "source_url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "creator": "Dan Lynch",
+      "timestamp": "35.5689 s (frame n=1066)",
+      "native_size": [854, 480],
+      "local_file": "source/original.png",
+      "license_evidence": "IA CC0 marking applied by a non-creator uploader; the original YouTube upload has the standard license",
+      "rights_status": "unresolved",
+      "deficiencies": ["Rights unresolved.", "SD analog video (4:3 picture 640x480), upscaled 2.25x for 1080p.", "Location from uploader only."]
+    },
+    {
+      "rank": 2,
+      "status": "rejected (kept as evidence)",
+      "description": "Night close-up of a neon 'COMPUSA / THE COMPUTER SUPERSTORE' window sign with a Windows 95 'Start' banner and balloons, NYC, launch night",
+      "source_url": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3",
+      "file": "CompUSA Windows 95 Launch pt3 of 3.mp4",
+      "creator": "Ted Spero (IA creator field; YouTube channel @tedspero4545, videos rjwidy5VEGw / K1742uWS0a8 / yGe8WW2JtFw)",
+      "timestamp": "about 406.03 s into part 3",
+      "native_size": [852, 480],
+      "local_file": "evidence/candidates/candidate-2-nyc-compusa-pt3-406s.png",
+      "license_evidence": "Same pattern: IA CC0 marking by a third-party uploader, not the creator; YouTube originals have the standard license",
+      "rights_status": "unresolved",
+      "deficiencies": ["Sign cropped by the camera ('COMPU…', 'SUPERSTO…'), and a costumed person and glare obscure it.", "No in-frame date; 1995 comes from metadata only.", "Rights unresolved."]
+    },
+    {
+      "rank": 3,
+      "status": "rejected (kept as evidence)",
+      "description": "Daytime exterior of a Manhattan CompUSA (building-mounted 'COMPUSA' lettering, Intel Pentium window graphic), launch day",
+      "source_url": "https://archive.org/details/youtube-CcbAC4qI9pQ",
+      "file": "CcbAC4qI9pQ.mp4 (TubeUp mirror of YouTube video by Vampire Robot)",
+      "creator": "Unknown original videographer. The footage has a broadcast-style timecode burn-in (10:46:41;00), suggesting professional/news B-roll. Published by YouTube channel Vampire Robot, 2022-10-07.",
+      "timestamp": "42.042 s",
+      "native_size": [480, 360],
+      "local_file": "evidence/candidates/candidate-3-nyc-compusa-daytime-42s.png",
+      "license_evidence": "No license marking on IA or YouTube",
+      "rights_status": "unresolved (likely third-party broadcast material)",
+      "deficiencies": ["Very low resolution (480x360).", "Visible timecode burn-in.", "Signage small and low-contrast.", "Rights holder unknown."],
+      "note": "The same clip (about 4–18 s) has the only 1995 Egghead Software storefront found, with the same deficiencies."
+    }
+  ],
+  "rights_clear_but_later_leads_not_downloaded": [
+    {
+      "title": "File:CompUSA Santa Clara 2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:CompUSA_Santa_Clara_2.jpg",
+      "creator": "Coolcaesar (en.wikipedia)",
+      "date": "2005-09-12",
+      "size": [1000, 557],
+      "license": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)",
+      "deficiency": "Ten years later than the narration; must be captioned 2005. Low resolution."
+    },
+    {
+      "title": "File:Richway-Target Comp USA Marietta, GA (7728080028).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Richway-Target_Comp_USA_Marietta,_GA_(7728080028).jpg",
+      "creator": "Mike Kalasnik (Flickr)",
+      "date": "2012-07-19",
+      "license": "CC BY-SA 2.0",
+      "deficiency": "2012 photo of a former/converted building, not a 1990s CompUSA storefront."
+    },
+    {
+      "title": "File:Store Closing (2212179765).jpg / File:Last Seven Days (2275973005).jpg / File:Closing.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Category:CompUSA",
+      "creator": "Terry Ross (Flickr, CC BY-SA 2.0); FIshstick (public domain)",
+      "date": "2008",
+      "deficiency": "2008 liquidation photos; wrong era and a closing-sale context."
+    }
+  ],
+  "search_log": [
+    {"archive": "Wikimedia Commons", "queries": ["CompUSA", "Egghead Software", "Babbage's", "Comp USA store", "computer store 1995", "CompUSA 1990s", "Category:CompUSA"], "result": "Only 2005–2017 CompUSA photos; no 1990s storefront; no Egghead/Babbage's storefront."},
+    {"archive": "Internet Archive advancedsearch", "queries": ["(compusa OR \"comp usa\") AND mediatype:(image OR texts OR movies)", "\"windows 95\" AND (compusa OR \"comp usa\")", "egghead AND (store OR software) AND mediatype:(image OR movies)", "\"babbage's\" AND mediatype:(image OR movies)", "compusa AND date:[1990-01-01 TO 1999-12-31]"], "result": "Three 1995 launch-night/launch-day videos (ranked above). Other hits were receipts, ads, catalogs, and 2008–2009 corporate videos."},
+    {"archive": "Web search (leads only)", "queries": ["CompUSA storefront 1995 photo", "CompUSA store 1990s photograph archive creative commons", "Egghead Software store 1990s photo", "CompUSA Norwalk Connecticut Connecticut Avenue store 1990s"], "result": "Getty Images (licensed, gated: not used); virtualmoose.org photo dumps (2006–2007 CompUSA photos, uncredited reposts: not used); Houston Historic Retail (print ads)."},
+    {"archive": "Flickr", "queries": ["compusa store (CC licenses filter)"], "result": "Search page metadata not machine-readable without an API key; the Flickr-origin CC photos found are the Commons transfers listed above."}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "asset": "HIST-09",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked",
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous public HTTPS download from archive.org (no account, no terms accepted, no CAPTCHA, no paywall). The YouTube watch pages were read only for their metadata; nothing was downloaded from YouTube.",
+  "rights_holder_best_evidence": "Dan Lynch: named as creator on the Internet Archive item, and the owner of the YouTube channel that first published the video (2023-10-14). No document establishes who shot the footage or who holds its copyright.",
+  "license_markings_found": [
+    {
+      "where": "Internet Archive item metadata (licenseurl field)",
+      "marking": "CC0 1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "applied_by": "A third-party uploader account (IA 'uploader' field), which differs from the named creator. The item was uploaded 2025-11-23, and its 'originalurl' points to the creator's YouTube video. The same uploader posted a second creator's footage (Ted Spero, NYC) under CC0 the same day.",
+      "reliance": "Not relied on. Nothing shows the uploader owns or was authorized to dedicate the footage, so the CC0 marking is an unsupported claim, not a verified grant."
+    },
+    {
+      "where": "Creator's original YouTube upload https://www.youtube.com/watch?v=WgG7KLymsg0",
+      "marking": "No Creative Commons marking on the watch page (the standard YouTube license applies)",
+      "reliance": "The standard YouTube license grants no reuse outside YouTube's own service/embedding."
+    }
+  ],
+  "third_party_content_in_frame": [
+    "The CompUSA name and logo sign: trademark shown incidentally as the subject of a documentary storefront view. The CompUSA brand still exists under later owners.",
+    "Unreadable window posters and partly visible passers-by (silhouettes, not identifiable)."
+  ],
+  "not_done": [
+    "Did not assume public domain or fair use.",
+    "Did not contact the creator. That would be a message sent on the user's behalf and needs explicit approval.",
+    "Did not remove or obscure the camcorder date stamp (it is part of the original picture and is the date evidence)."
+  ],
+  "review_questions": [
+    "Seek written permission from Dan Lynch (via the contact route his YouTube channel offers), treat the use as fair use after legal review, or replace the still with a rights-clear later photo such as the CC BY-SA 3.0 Commons image 'CompUSA Santa Clara 2.jpg' (2005), captioned with its real date?"
+  ],
+  "credit_text_if_cleared": "Home video: Dan Lynch — Windows 95 'Midnight Madness', CompUSA, Aug. 24, 1995. Via Internet Archive."
+}

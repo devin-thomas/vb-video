@@ -1,0 +1,59 @@
+{
+  "id": "HIST-09",
+  "provenance_type": "historical source",
+  "production_inputs": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [93, 93],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "creative brief (lead list only; its Flickr/blog suggestions were searched, not assumed)"
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [126, 128],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration context"
+    },
+    {
+      "path": "War/SCRIPT.md",
+      "lines": [129, 131],
+      "sha256": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working script (unchanged; identical wording at access time)"
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "selected historical original",
+      "url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "file_sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6",
+      "frame": "n=1066, pts_time 35.5689 s",
+      "local_record": "source/original.png; evidence/source.json; evidence/archive-records/ia-norwalk-metadata.json",
+      "classification": "historical original (frame from digitized 1995 home video)"
+    },
+    {
+      "role": "originating upload (metadata only)",
+      "url": "https://www.youtube.com/watch?v=WgG7KLymsg0",
+      "local_record": "evidence/archive-records/youtube-originals.json",
+      "classification": "provenance / rights evidence"
+    },
+    {
+      "role": "runner-up candidate 2",
+      "url": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3",
+      "local_record": "evidence/candidates/candidate-2-nyc-compusa-pt3-406s.png; evidence/archive-records/ia-nyc-metadata.json",
+      "classification": "stock candidate (not selected)"
+    },
+    {
+      "role": "runner-up candidate 3",
+      "url": "https://archive.org/details/youtube-CcbAC4qI9pQ",
+      "local_record": "evidence/candidates/candidate-3-nyc-compusa-daytime-42s.png; evidence/archive-records/ia-vampirerobot-metadata.json",
+      "classification": "stock candidate (not selected)"
+    }
+  ],
+  "authored_additions": [
+    "source/make_editorial_frame.py: the deterministic framing script (crop of black pillarbox only, uniform 2.25x scale, black 1920x1080 canvas).",
+    "evidence/framing.json: framing parameters and inverse.",
+    "No text, captions, graphics, UI, color correction, denoise, or retouching added to any image."
+  ],
+  "producer_decisions": [],
+  "search_log": "evidence/candidates/candidates.json (search_log)"
+}

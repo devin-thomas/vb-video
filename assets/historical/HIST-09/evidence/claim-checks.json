@@ -1,0 +1,77 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/archive-records/ia-norwalk-metadata.json",
+        "evidence/archive-records/youtube-originals.json"
+      ],
+      "findings": [
+        "Creator/rights holder recorded: Dan Lynch (best evidence; the camera operator is unstated).",
+        "File-specific terms: the IA CC0 marking was applied by a third-party uploader, not the creator. The creator's original YouTube upload has the standard license. Terms are therefore unresolved.",
+        "Access method: anonymous public archive download; no account, payment, terms acceptance, CAPTCHA, or watermark removal.",
+        "Credit text proposed in source.json/rights.json, pending clearance."
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Unknown rights stay blocked (R14). Clearance needs a rights decision: creator permission, a legal fair-use determination, or substitution. See review question RQ-1."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The image shows a CompUSA store.",
+      "status": "verified",
+      "evidence": ["source/original.png (in-frame sign 'COMP USA' / 'THE COMPUTER SUPERSTORE')"],
+      "method": "Read at native 854x480 and in the 1920x1080 export."
+    },
+    {
+      "claim": "The image dates from 1995 (period-appropriate for SCRIPT.md:126–128).",
+      "status": "verified",
+      "evidence": [
+        "source/original.png (burned-in camcorder stamp 'AUG. 24 1995')",
+        "evidence/archive-records/ia-norwalk-metadata.json (date 1995-08-23; 'Recorded on 8/23/95')",
+        "Continuation of the same clip shows Windows 95 retail launch displays, consistent with the 24 Aug 1995 launch"
+      ],
+      "method": "Three independent indicators agree. The camcorder clock is owner-set, so the exact time of day is not certified.",
+      "caveat": "The frame's stamp says Aug. 24 while the titles say Aug. 23. Both fit a midnight launch (the frame is about 12:11 AM on the 24th). Caption with Aug. 24, 1995, or just 1995."
+    },
+    {
+      "claim": "The store is in Norwalk, Connecticut.",
+      "status": "unverified (uploader attestation only)",
+      "evidence": [
+        "evidence/archive-records/youtube-originals.json (description: 'This was Norwalk, Connecticut.')",
+        "Undated directory listing of a CompUSA at 360 Connecticut Ave, Norwalk, CT (yelp.com/biz/compusa-norwalk): consistent, not probative"
+      ],
+      "method": "Nothing in the frame names the town.",
+      "handling": "Leave the town out of any on-screen caption unless the reviewer accepts the creator's attestation (RQ-2)."
+    },
+    {
+      "claim": "SCRIPT.md:128: in 1995 you bought boxed software at a physical store such as CompUSA.",
+      "status": "consistent; no script change proposed",
+      "evidence": ["Same 1995 clip shows CompUSA selling boxed software (Windows 95) off shelves."],
+      "handling": "The image supports 'a physical store — CompUSA'. It does not show Visual Basic, so no caption should imply a VB purchase."
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "RQ-1",
+      "question": "Rights for the Dan Lynch 1995 home-video frame: seek the creator's permission (contacting him needs your approval), approve a fair-use basis after legal review, or substitute a rights-clear but later photo (Commons 'CompUSA Santa Clara 2.jpg', 2005, CC BY-SA 3.0, captioned 2005)?",
+      "evidence": ["evidence/rights.json", "evidence/candidates/candidates.json"]
+    },
+    {
+      "id": "RQ-2",
+      "question": "If a location caption is wanted, accept the creator's statement that this is Norwalk, Conn., or caption only 'CompUSA, Aug. 24, 1995'?",
+      "evidence": ["evidence/source.json", "evidence/archive-records/youtube-originals.json"]
+    },
+    {
+      "id": "RQ-3",
+      "question": "Editorial fit: the frame is from Windows 95 launch night, a night exterior with a burned-in camcorder date stamp. Keep the stamp visible as authenticity (current framing) under the narration 'You went to a store… CompUSA'? The same footage could also serve War/SCRIPT.md:117's 'lines outside CompUSA' beat if that ticket wants it.",
+      "evidence": ["exports/editorial-frame.png", "evidence/framing.json"]
+    }
+  ]
+}
