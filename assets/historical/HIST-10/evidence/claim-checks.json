@@ -1,0 +1,48 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "status": "blocked",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/candidates.json",
+        "evidence/archive-records/youtube-CcbAC4qI9pQ_files.xml"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Per-image record completed as R14 requires. Creator: unknown. File-specific terms: none (no license in the YouTube or Internet Archive metadata). Access method: public anonymous archive.org download, hashes verified. Credit text: drafted. The rights holder is unknown, so under R14 the rights stay blocked. No fair-use or public-domain assumption was made. This is handed to review as a rights question."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The image shows an Egghead Software store.",
+      "status": "verified",
+      "evidence": "Frame source/raw/frame-000462.png shows the lettering EGGHEAD SOFTWARE on the storefront glass. The uploader description names Egghead Software.",
+      "limits": "The store's branch and address are not identified."
+    },
+    {
+      "claim": "The footage dates from 24 August 1995 (Windows 95 launch day).",
+      "status": "partially corroborated; not independently verified",
+      "evidence": "The date appears only in the uploader's description. The same clip's burned-in timecode runs from 10:45:58 to 10:47:34 across the Egghead storefront and CompUSA shots, and the CompUSA shots show Windows 95 Upgrade launch displays. That places the tape at the Windows 95 retail launch period, but does not fix the exact day. The Egghead storefront shot itself shows no dated element.",
+      "handling": "No date is burned into the asset. Any on-screen date or narration tying this image to launch day should be treated as the uploader's claim."
+    },
+    {
+      "claim": "Store location.",
+      "status": "unknown",
+      "evidence": "No source states it. Not recorded or captioned."
+    },
+    {
+      "claim": "SCRIPT.md:128: in 1995 you could buy software at a physical Egghead Software store.",
+      "status": "verified",
+      "evidence": "The Egghead 1995 annual report (UW Libraries reports/43711, letter p.2) reports $434.0 million Retail group sales in 1995. The footage shows an operating Egghead storefront selling boxed software.",
+      "script_change_needed": false
+    },
+    {
+      "claim": "ASSET_PLAN.md:93 suggests Flickr public photos and retro computing blogs as sources.",
+      "status": "checked",
+      "evidence": "The only Flickr item found (C2) is logo-only merchandise. The blog item found (C3) is uncredited with unknown rights. Neither is a usable licensed storefront. See evidence/candidates.json."
+    }
+  ]
+}

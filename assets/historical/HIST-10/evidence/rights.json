@@ -1,0 +1,31 @@
+{
+  "asset": "HIST-10",
+  "subject_file": "source/original.webm (and frames derived from it)",
+  "rights_status": "unresolved",
+  "rights_holder": null,
+  "rights_holder_notes": "Unknown. The footage is not credited to any camera operator, station, or stock library in the YouTube description, the channel description, or the Internet Archive record. The IA item is an automated mirror of a YouTube upload; neither the mirror nor the uploader is shown to own the footage.",
+  "license_name": null,
+  "license_url": null,
+  "license_evidence": [
+    "YouTube metadata captured by the IA mirror: license field empty (no Creative Commons declaration).",
+    "Internet Archive item metadata: no licenseurl or rights field.",
+    "Checked 2026-09-15."
+  ],
+  "host_page_public": true,
+  "image_itself_licensed": false,
+  "access_route": "Public anonymous download from archive.org. Being downloadable is not treated as permission to use.",
+  "assumptions_not_made": [
+    "Not assumed public domain.",
+    "Not assumed fair use.",
+    "Not assumed licensed because it is hosted on Internet Archive or YouTube."
+  ],
+  "watermarks_or_marks": "Burned-in source timecode at top right of every frame. Left intact; not removed or masked.",
+  "people_in_frame": "Shoppers seen from behind or partly through glass; no face is identifiable at 480x360 in frame 462.",
+  "third_party_marks": "Egghead Software store signage (trademark of a defunct retailer), shown incidentally as the subject of the historical still.",
+  "credit_text": "Archival footage: \"Buying Windows 95 on Launch Day\" (uploaded by Vampire Robot, 2022), via Internet Archive item youtube-CcbAC4qI9pQ. Original source unknown.",
+  "release_recommendation": "blocked until a rights decision is recorded",
+  "review_questions": [
+    "Rights: the original rights holder of this 1995 footage is unknown and no license exists. Should the video use this frame on an editorial/fair-use basis, should permission be sought (e.g. via the Vampire Robot channel to learn the origin), or should the shot be dropped in favour of a non-storefront alternative?",
+    "If used: is the proposed credit line acceptable, and should the burned-in timecode stay visible (it is left in place because removing it would alter the archival image)?"
+  ]
+}
