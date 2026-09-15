@@ -1,10 +1,9 @@
 {
   "tickets": 134,
   "production_status": {
-    "produced": 123,
+    "produced": 124,
     "planned": 3,
     "scouted": 6,
-    "blocked": 1,
     "in_progress": 1
   },
   "release_status": {
@@ -23,10 +22,10 @@
     "reference-code": 5,
     "captures": 7,
     "historical": 33,
-    "stills": 3,
+    "stills": 4,
     "ops": 2
   },
-  "gallery_assets": 88,
+  "gallery_assets": 89,
   "mp4_files": 62,
   "issues_recorded": 134
 }
