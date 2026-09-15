@@ -17,7 +17,8 @@ Review proofs: `qa/editorial-frame-720p.png` (1280×720 downscale) and `qa/edito
 
 ## Tests actually run
 1. **Source integrity.** SHA-1 of the downloaded file = `cbaeec4d22aaefe9ffc0ae7656cb0fa9e3adaf59`, equal to the Commons API `sha1` for the 2019-05-26 version. The renderer re-checks this before every render. **Pass.**
-2. **Identity verification at full resolution.** I inspected a native-pixel crop of the TRS-80. The screen reads `MEMORY SIZE?` ×2, `RADIO SHACK LEVEL II BASIC`, `READY`, `>MEM`, `31956` (soft), `READY`, `>_`. The badges read Radio Shack / TRS-80, and the form factor is a Model I with Expansion Interface. This matches the 1978 Radio Shack Level II BASIC Reference Manual power-up text. **Pass** (ROM revision unknown).
+2. **Identity verification at full resolution.** I inspected a native-pixel crop of the TRS-80, rechecked at 1:1 and 4× nearest-neighbour after the manager's correction. The screen reads `MEMORY SIZE?` ×2, `RADIO SHACK LEVEL II BASIC`, `READY`, `>?MEM`, ` 31956` (soft), `READY`, `>_`. The badges read Radio Shack / TRS-80, and the form factor is a Model I with Expansion Interface. The first lines match the power-up text in the 1978 Radio Shack Level II BASIC Reference Manual; the manual shows `MEMORY SIZE?` once. **Pass for identity** (ROM revision unknown).
+   - **Correction:** the screen is a short session after power-up, not a clean boot screen. `>?MEM` (a typed PRINT MEM command), its result ` 31956`, the second `READY` and the `>_` cursor are not part of the documented power-up text. My first transcription read `>MEM`; that was wrong.
 3. **Export structure.** Pillow reports `exports/editorial-frame.png` as 1920×1080 RGB PNG and `qa/editorial-frame-720p.png` as 1280×720. **Pass.**
 4. **No stretching.** A single uniform scale factor of 0.687097 is applied to the crop 1233×1240 → 847×852. The aspect ratio is kept within rounding. **Pass.**
 5. **Reversibility.** `evidence/crop.json` records the native crop box (2740,190)-(3973,1430), scale and placement. The original is unmodified. **Pass.**
@@ -32,14 +33,14 @@ Review proofs: `qa/editorial-frame-720p.png` (1280×720 downscale) and `qa/edito
 
 ## Content checks
 - The source is a real photograph of real vintage hardware (2019, iPhone 6s EXIF), not an emulator, a modern terminal imitation or an AI image.
-- The screen shows an in-use power-up session: the `MEM` command was typed after the first READY. This is authentic and not staged by us.
+- The screen shows a short Level II BASIC session after power-up, not a clean boot screen. After the documented power-up text, someone typed `?MEM` and BASIC printed ` 31956`, then `READY` and the cursor. This is authentic and not staged by us. The caption no longer says "power-up prompt"; it now reads "TRS-80 Model I running Level II BASIC".
 - The frame contains no private information. The source JPEG's EXIF carries GPS coordinates that the uploader already published on Commons. The export PNG contains no EXIF. See RQ-3.
 - No remote fonts or CDN. The font is the installed system `C:\Windows\Fonts\LiberationSans-Regular.ttf` (not bundled).
 - Saved source-page copies have one third-party email address redacted.
 
 ## Candidates considered
-1. **Selected:** File:Trinity77.jpg, 2019 original (Tim Colegrove, CC BY-SA 4.0). Model I, clean Level II power-up prompt.
-2. File:TRS-80 Model 4 (2).jpg (Blake Patterson, CC BY 2.0, 1024×768). Model 4 in Model III BASIC with ?SN Error lines. Not acquired into the repo.
+1. **Selected:** File:Trinity77.jpg, 2019 original (Tim Colegrove, CC BY-SA 4.0). Model I; Level II BASIC power-up text followed by a typed `?MEM` command and its result.
+2. File:TRS-80 Model 4 (2).jpg (Blake Patterson, CC BY 2.0, 1024×768). Model 4 in Model III BASIC; power-up text followed by typed input and three ?SN Error lines. Not acquired into the repo.
 3. File:TRS-80 (1977) (38333775292).jpg (Wolfgang Stief, CC0). Model I mid-session, reflection-washed, crowded frame. Not acquired.
 
 Full search log: `evidence/source.json`.
@@ -50,6 +51,7 @@ Full search log: `evidence/source.json`.
 - **RQ-3 (privacy/policy):** `source/original.jpg` is kept byte-exact and so retains GPS EXIF (already public on Commons). Keep it as is for provenance, or store a metadata-stripped copy? Stripping would break the Commons SHA-1 match.
 - **RQ-4 (editorial/taste):** Keep the burned-in credit line, or deliver a clean frame and carry attribution in captions or end credits? The script's cue suggests a C64 / Apple II / TRS-80 montage; the credit band may need removing for tiling.
 - **RQ-5 (editorial/accuracy):** The photo is from 2019 and the narration says "in 1982". The image shows authentic hardware and ROM output but is not a period photograph. Is labeling it as a TRS-80 Model I (without a date claim) acceptable?
+- **RQ-6 (editorial/accuracy):** The script cue asks for "boot screens ... showing their BASIC prompts". This screen shows the power-up text, then a typed `?MEM` command, its result ` 31956`, a second `READY` and the cursor. Is that acceptable for the boot-screen cue, or should another candidate be reconsidered? None of the three candidates is a clean boot screen. Candidate 2 (Model 4) has typed input and ?SN Error lines. Candidate 3 (Model I at VCFB 2017, CC0) is mid-session. A clean screen would need a new search or a different source.
 
 No script discrepancy was found. `War/SCRIPT.md` was not edited and no Writing Lead change is proposed.
 

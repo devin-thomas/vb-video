@@ -49,7 +49,7 @@
   ],
   "authored_additions": [
     "Canvas background #111318 (production bible dark background) in the pillarbox area",
-    "Credit line 1 (authored caption): 'TRS-80 Model I, Level II BASIC power-up prompt'",
+    "Credit line 1 (authored caption): 'TRS-80 Model I running Level II BASIC'. Changed from 'TRS-80 Model I, Level II BASIC power-up prompt' because the screen shows a typed ?MEM command after the power-up text, not a clean boot screen.",
     "Credit line 2 (authored attribution): 'Photo: Tim Colegrove (2019), CC BY-SA 4.0, cropped'"
   ],
   "evidence_modifications": [
@@ -57,7 +57,7 @@
   ],
   "producer_decisions": [],
   "worker_choices_needing_review": [
-    "Selected Trinity77.jpg (Model I, clean Level II prompt, 3973x1853) over File:TRS-80 Model 4 (2).jpg (Model 4 running Model III BASIC, ?SN Error lines, 1024x768).",
+    "Selected Trinity77.jpg (Model I, Level II BASIC power-up text followed by a typed ?MEM command and its result; not a clean boot screen; 3973x1853) over File:TRS-80 Model 4 (2).jpg (Model 4 running Model III BASIC, power-up text followed by typed input and ?SN Error lines, 1024x768). See RQ-6 in qa.md.",
     "Used the 2019 unedited upload rather than the current distortion-corrected Commons version.",
     "Burned a credit line into the editorial frame. The editor may prefer a clean frame with credit handled in captions or end credits."
   ]

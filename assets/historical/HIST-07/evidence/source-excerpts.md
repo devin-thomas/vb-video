@@ -24,20 +24,25 @@ sha256 `8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7`
 
 ## 2. Acquired image: on-screen text (worker transcription)
 
-Read from `source/original.jpg` at native resolution (TRS-80 monitor, right-hand machine in the photo). This is a transcription, not OCR:
+Read from `source/original.jpg` at native resolution (TRS-80 monitor, right-hand machine in the photo). I checked it at 1:1 and at 4× nearest-neighbour on 2026-09-15. This is a transcription, not OCR:
 
 ~~~~text
 MEMORY SIZE?
 MEMORY SIZE?
 RADIO SHACK LEVEL II BASIC
 READY
->MEM
+>?MEM
  31956
 READY
 >_
 ~~~~
 
-The digits `31956` are soft at native resolution. Treat that line as the best available reading, not a verified value. The narration does not rely on it.
+**What the screen shows:** a short interactive session after power-up, not a clean boot screen.
+- Lines 1–4 (`MEMORY SIZE?`, `RADIO SHACK LEVEL II BASIC`, `READY`) are the power-up text documented in the 1978 Level II manual (section 4). `MEMORY SIZE?` appears twice, which suggests a reset or re-prompt. The manual's sequence shows it once.
+- Lines 5–8 are **not** part of the documented power-up text. Someone typed the command `?MEM` (`?` is Level II shorthand for PRINT; `MEM` returns free memory). BASIC printed the result ` 31956` with the leading space it gives positive numbers, then `READY` and the `>_` cursor.
+- An earlier transcription in this record read line 5 as `>MEM`. That was wrong and is corrected here after the manager's 1:1 check.
+
+The digits `31956` are soft at native resolution. Treat them as the best available reading, not a verified value. The narration does not rely on them.
 
 ## 3. Commons file description for File:Trinity77.jpg
 

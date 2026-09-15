@@ -23,7 +23,7 @@
     {
       "claim": "Identity: the image shows a TRS-80 at its BASIC prompt (ticket requirement 1).",
       "status": "verified",
-      "evidence_summary": "The keyboard and Expansion Interface badges read 'Radio Shack TRS-80'. The screen reads 'MEMORY SIZE?' / 'RADIO SHACK LEVEL II BASIC' / 'READY' / '>'. The Radio Shack Level II BASIC Reference Manual, 1st ed. (1978), documents this exact power-up sequence. The Commons author description and category name the TRS-80 Model I.",
+      "evidence_summary": "The keyboard and Expansion Interface badges read 'Radio Shack TRS-80'. The screen's first lines read 'MEMORY SIZE?' (twice) / 'RADIO SHACK LEVEL II BASIC' / 'READY', which the Radio Shack Level II BASIC Reference Manual, 1st ed. (1978), documents as the power-up sequence (with 'MEMORY SIZE?' once). The lines that follow ('>?MEM', ' 31956', 'READY', '>_') are a typed command and its output, not power-up text. The Commons author description and category name the TRS-80 Model I.",
       "evidence": ["evidence/source-excerpts.md", "evidence/source.json"]
     },
     {
@@ -45,10 +45,11 @@
       "evidence": ["evidence/source-excerpts.md"]
     },
     {
-      "claim": "The visual depicts a boot screen.",
-      "status": "verified_with_note",
-      "evidence_summary": "The top three lines are the power-up dialog. The remaining lines show that someone then typed MEM, which returned a free-memory figure, and a second READY. 'MEMORY SIZE?' appears twice, consistent with a reset or re-prompt. The frame is an authentic in-use power-up screen, not a pristine boot moment. The credit line says 'power-up prompt'.",
-      "evidence": ["evidence/source-excerpts.md"]
+      "claim": "The visual depicts a boot screen (script cue: 'Boot screens ... all showing their BASIC prompts').",
+      "status": "partially_supported",
+      "evidence_summary": "Checked at 1:1 and 4x nearest-neighbour. The screen is a short session after power-up, not a clean boot screen. Only the first lines ('MEMORY SIZE?' twice, 'RADIO SHACK LEVEL II BASIC', 'READY') are documented power-up text; the 1978 manual shows 'MEMORY SIZE?' once. The following lines are not part of the documented power-up text: a typed command '>?MEM' (PRINT MEM), its result ' 31956', a second 'READY', and the '>_' cursor. The frame does show a BASIC prompt, which matches the cue's 'showing their BASIC prompts'. Whether it is acceptable as a 'boot screen' is an editorial question (RQ-6). An earlier record transcribed the command as '>MEM' and the caption said 'power-up prompt'. Both were corrected: the caption now reads 'TRS-80 Model I running Level II BASIC'.",
+      "evidence": ["evidence/source-excerpts.md", "evidence/source.json"],
+      "review_questions": ["RQ-6"]
     }
   ],
   "script_change_proposed": false

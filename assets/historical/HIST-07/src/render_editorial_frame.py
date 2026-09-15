@@ -39,7 +39,7 @@ CROP_BOX = (2740, 190, 3973, 1430)
 IMAGE_TOP = SAFE[1]
 IMAGE_BOTTOM = 924  # leaves a credit band inside the safe area
 CREDIT_LINES = [
-    "TRS-80 Model I, Level II BASIC power-up prompt",
+    "TRS-80 Model I running Level II BASIC",
     "Photo: Tim Colegrove (2019), CC BY-SA 4.0, cropped",
 ]
 FONT_PATH = Path(r"C:\Windows\Fonts\LiberationSans-Regular.ttf")  # installed system font, not bundled

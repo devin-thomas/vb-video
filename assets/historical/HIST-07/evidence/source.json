@@ -8,11 +8,13 @@
     "depicted_event_date": "2019-05-25: collector's working hardware photographed in 2019. This is not a period (1977-1982) photograph.",
     "depicted_hardware": {
       "product": "Radio Shack TRS-80 Model I (keyboard/CPU unit, Expansion Interface, Video Display)",
+      "screen_state": "Level II BASIC session shortly after power-up: power-up text followed by a typed ?MEM command and its result. Not a clean boot screen.",
       "software_rom": "Radio Shack Level II BASIC (ROM)",
       "rom_version": "unknown; the screen shows no ROM revision",
       "evidence": [
         "Keyboard unit and Expansion Interface badges read 'Radio Shack TRS-80'. The monitor badge reads 'Radio Shack' / 'VIDEO DISPLAY'.",
-        "On-screen text at native resolution: 'MEMORY SIZE?' (twice), 'RADIO SHACK LEVEL II BASIC', 'READY', '>MEM', '31956' (best reading), 'READY', '>_'.",
+        "On-screen text at native resolution (checked 1:1 and 4x nearest-neighbour): 'MEMORY SIZE?' (twice), 'RADIO SHACK LEVEL II BASIC', 'READY', '>?MEM', ' 31956' (best reading), 'READY', '>_'.",
+        "The screen is a short session after power-up, not a clean boot screen. Only 'MEMORY SIZE?' / 'RADIO SHACK LEVEL II BASIC' / 'READY' are documented power-up text (shown once in the manual; twice here). The typed command '?MEM', its printed result, the second 'READY' and the cursor are NOT part of the documented power-up text. An earlier transcription of '>MEM' was wrong and has been corrected.",
         "The Radio Shack Level II BASIC Reference Manual (1978) documents the same power-up sequence: 'memory size?', then 'RADIO SHACK LEVEL II BASIC' and 'READY'.",
         "Commons file categories include 'TRS-80 Model I'. The author's description names the machine as the TRS-80 Model I."
       ]
