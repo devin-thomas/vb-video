@@ -1,0 +1,32 @@
+HTTP/1.1 200 Document follows
+Server: nginx
+Date: Tue, 15 Sep 2026 20:50:11 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-archive-orig-date: Sat, 28 Dec 1996 13:42:27 GMT
+x-archive-orig-server: NCSA/1.5
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sat, 28 Dec 1996 13:42:21 GMT
+link: <http://www.tucows.com:80/images/background.gif>; rel="original", <https://web.archive.org/web/timemap/link/http://www.tucows.com:80/images/background.gif>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://www.tucows.com:80/images/background.gif>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: IA-005983-c/IA-006383.arc.gz
+server-timing: captures_list;dur=0.407736, exclusion.robots;dur=0.033376, exclusion.robots.policy;dur=0.025778, esindex;dur=0.006057, cdx.remote;dur=11.178782, LoadShardBlock;dur=131.938339, PetaboxLoader3.datanode;dur=65.455755, PetaboxLoader3.resolve;dur=91.182348, load_resource;dur=54.102556
+x-app-server: wwwb-app221-dc8
+x-ts: 200
+x-tr: 213
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app221; path=/
+cache-control: private
+X-location: All
+X-AS: 7018
+X-RL: 0
+X-NA: 0
+X-Page-Cache: MISS
+Server-Timing: MISS
+X-NID: ATT-INTERNET4
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+X-sd: 0
+

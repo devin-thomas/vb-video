@@ -1,0 +1,51 @@
+{
+  "id": "HIST-17",
+  "rights_status": "unresolved",
+  "clearance_claimed": false,
+  "summary": "No licence for this image has been found. The page was published in 1996 under a copyright notice naming Scott A. Swedorski. It contains the TUCOWS logo and a third-party ConnectSoft advertisement. Free Wayback access is not a reuse licence. Release stays blocked until the rights question is decided.",
+  "elements": [
+    {
+      "element": "Page text, layout and HTML of http://www.tucows.com/ as captured 1996-10-22",
+      "stated_rights_holder_1996": "Scott A. Swedorski (footer: \"Copyright © 1996 Scott A. Swedorski\"); the footer disclaimer names Tucows Limited",
+      "current_rights_holder": "unknown — not researched to a primary record; successor ownership of the 1996 TUCOWS site is not established here",
+      "license": "none found",
+      "license_url": null
+    },
+    {
+      "element": "images/Logo.gif (cow illustration and TUCOWS wordmark)",
+      "stated_rights_holder_1996": "not stated separately; presumed covered by the page notice — unverified",
+      "current_rights_holder": "unknown; TUCOWS is also a trademark, and its current owner is not verified here",
+      "license": "none found",
+      "license_url": null
+    },
+    {
+      "element": "images/adds/cs_ad.gif (ConnectSoft 'e-mail connection' banner advertisement)",
+      "stated_rights_holder_1996": "ConnectSoft (advertiser), inferred from banner text and link target http://www.connectsoft.com/corp/products/emc/tucows — unverified",
+      "current_rights_holder": "unknown",
+      "license": "none found",
+      "license_url": null
+    },
+    {
+      "element": "images/BACKGROUND.GIF tile, blue.gif bullet, fast-burst.gif badge",
+      "stated_rights_holder_1996": "not stated; site artwork",
+      "current_rights_holder": "unknown",
+      "license": "none found",
+      "license_url": null
+    },
+    {
+      "element": "Wayback Machine capture and replay",
+      "stated_rights_holder_1996": "n/a — the Internet Archive preserves and replays the page and does not claim copyright in it",
+      "current_rights_holder": "n/a",
+      "license": "Internet Archive Terms of Use: access 'granted for scholarship and research purposes only' (2017-01-03 archived terms text); no reuse licence granted",
+      "license_url": "https://archive.org/about/terms"
+    }
+  ],
+  "access_method": "Public Wayback Machine replay and id_ raw retrieval over HTTPS. No login, account, payment, cookie acceptance, CAPTCHA or form submission.",
+  "watermarks_removed": false,
+  "archive_ui_in_editorial_frame": false,
+  "fair_use_or_public_domain_assumed": false,
+  "proposed_credit_text": "TUCOWS home page, 22 October 1996 (© 1996 Scott A. Swedorski / TUCOWS). Archived by the Internet Archive Wayback Machine: web.archive.org/web/19961022175612/http://www.tucows.com/",
+  "credit_text_status": "proposed, pending the rights decision",
+  "review_question": "Can a 1996 TUCOWS home page capture from the Wayback Machine, with the TUCOWS logo and a third-party ConnectSoft banner ad, be shown for about 5 seconds as commentary in a monetized YouTube video without permission? If not, who should be asked (Tucows Inc. or another successor), or should the ad be obscured, or the shot dropped?",
+  "access_date": "2026-09-15"
+}

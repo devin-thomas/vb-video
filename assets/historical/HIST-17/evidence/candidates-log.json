@@ -1,0 +1,742 @@
+{
+  "B-idirect-19961230": {
+    "timestamp": "19961230051406",
+    "archived_url": "http://tucows.idirect.com:80/",
+    "download": {
+      "url": "https://web.archive.org/web/19961230051406id_/http://tucows.idirect.com:80/",
+      "final_url": "https://web.archive.org/web/19961230051406id_/http://tucows.idirect.com:80/",
+      "status": 200,
+      "path": "source/candidates/B-idirect-19961230/original.html",
+      "bytes": 4640,
+      "sha256": "f28608bdc246c0ae021b72d2a4f66758618db29a6d48c2cd4a900f3ff89a68fc",
+      "accessed": "2026-09-15T20:47:21+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:47:21 GMT",
+        "Content-Type": "text/html",
+        "x-archive-orig-date": "Mon, 30 Dec 1996 05:03:50 GMT",
+        "x-archive-orig-server": "NCSA/1.5",
+        "x-archive-orig-last-modified": "Fri, 27 Dec 1996 17:26:00 GMT",
+        "x-archive-orig-content-length": "4640",
+        "memento-datetime": "Mon, 30 Dec 1996 05:14:06 GMT",
+        "link": "<http://tucows.idirect.com:80/>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://tucows.idirect.com:80/>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://tucows.idirect.com:80/>; rel=\"timegate\", <https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/>; rel=\"first memento\"; datetime=\"Mon, 30 Dec 1996 05:14:06 GMT\", <https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/>; rel=\"memento\"; datetime=\"Mon, 30 Dec 1996 05:14:06 GMT\", <https://web.archive.org/web/19970412021956/http://tucows.idirect.com:80/>; rel=\"next memento\"; datetime=\"Sat, 12 Apr 1997 02:19:56 GMT\", <https://web.archive.org/web/20230521134341/http://tucows.idirect.com/>; rel=\"last memento\"; datetime=\"Sun, 21 May 2023 13:43:41 GMT\"",
+        "x-archive-src": "IA-006431-c/IA-006554.arc.gz"
+      }
+    },
+    "captures": {
+      "wayback-toolbar": {
+        "url": "https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/",
+        "final_url": "https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/",
+        "title": "Welcome to TUCOWS",
+        "document_px": [
+          1280,
+          1024
+        ],
+        "viewport": [
+          1280,
+          1024
+        ],
+        "accessed": "2026-09-15T20:47:30+00:00",
+        "load_error": null,
+        "chromium": "153.0.8010.12",
+        "responses": [
+          [
+            200,
+            "https://web.archive.org/web/19961230051406/http://tucows.idirect.com:80/"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/athena.js"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/images/loading.gif"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/images/web-screenshot.svg"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/compute/s_wcomp.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/adds/sampad.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/adds/simplenet_ad.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/tucowslogo.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/blank1.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/cowsuse.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/winzip/best62.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/get_sprite.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/blueball.gif"
+          ],
+          [
+            200,
+            "https://archive.org/includes/donate.php?as_page=1&platform=wb&referer=https%3A//web.archive.org/web/19961230051406/http%3A//tucows.idirect.com%3A80/"
+          ],
+          [
+            200,
+            "https://wayback-api.archive.org/services/context/notices?url=http%3A%2F%2Ftucows.idirect.com%2F&timestamp=19961230051406"
+          ],
+          [
+            404,
+            "https://web.archive.org/web/19961230051406/http://web.archive.org/screenshot/http://tucows.idirect.com/"
+          ],
+          [
+            200,
+            "https://athena.archive.org/0.gif?service=wb&server_name=wwwb-app220.us.archive.org&server_ms=235&kind=pageview&timediff=0&locale=en-US&referrer=-&loadtime=449&nav_to_done_ms=1569&iaprop_fontSize=25.6px&iaprop_devicePixelRatio=1&version=2&count=13"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/fonts/Iconochive-Regular.woff"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051615im_/http://tucows.idirect.com/images/tucowslogo.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051522im_/http://tucows.idirect.com/images/adds/sampad.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051703im_/http://tucows.idirect.com/images/adds/simplenet_ad.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051655im_/http://tucows.idirect.com/images/cowsuse.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051728im_/http://tucows.idirect.com/images/get_sprite.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051632im_/http://tucows.idirect.com/images/winzip/best62.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051458im_/http://tucows.idirect.com/images/blank1.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/backshadow2.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051556im_/http://tucows.idirect.com/images/blueball.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051545im_/http://tucows.idirect.com/images/compute/s_wcomp.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/__wb/sparkline?output=json&url=http%3A%2F%2Ftucows.idirect.com%2F&collection=web&nav=19961230051406"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/awards/statue.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051433im_/http://tucows.idirect.com/images/backshadow2.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051604im_/http://tucows.idirect.com/images/awards/statue.gif"
+          ]
+        ]
+      },
+      "wayback-replay": {
+        "url": "https://web.archive.org/web/19961230051406if_/http://tucows.idirect.com:80/",
+        "final_url": "https://web.archive.org/web/19961230051406if_/http://tucows.idirect.com:80/",
+        "title": "Welcome to TUCOWS",
+        "document_px": [
+          1280,
+          1024
+        ],
+        "viewport": [
+          1280,
+          1024
+        ],
+        "accessed": "2026-09-15T20:47:37+00:00",
+        "load_error": null,
+        "chromium": "153.0.8010.12",
+        "responses": [
+          [
+            200,
+            "https://web.archive.org/web/19961230051406if_/http://tucows.idirect.com:80/"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/adds/sampad.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/compute/s_wcomp.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051522im_/http://tucows.idirect.com/images/adds/sampad.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051545im_/http://tucows.idirect.com/images/compute/s_wcomp.gif"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/tucowslogo.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/winzip/best62.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051615im_/http://tucows.idirect.com/images/tucowslogo.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051632im_/http://tucows.idirect.com/images/winzip/best62.gif"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/cowsuse.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/blank1.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/blueball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/adds/simplenet_ad.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/awards/statue.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/get_sprite.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961230051406im_/http://tucows.idirect.com/images/backshadow2.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051458im_/http://tucows.idirect.com/images/blank1.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051655im_/http://tucows.idirect.com/images/cowsuse.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051703im_/http://tucows.idirect.com/images/adds/simplenet_ad.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051604im_/http://tucows.idirect.com/images/awards/statue.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051728im_/http://tucows.idirect.com/images/get_sprite.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051556im_/http://tucows.idirect.com/images/blueball.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961230051433im_/http://tucows.idirect.com/images/backshadow2.jpg"
+          ]
+        ]
+      }
+    }
+  },
+  "C-phoenix-win95oct96-19961117": {
+    "timestamp": "19961117161725",
+    "archived_url": "http://tucows.phoenix.net:80/archive/win95oct96.html",
+    "download": {
+      "url": "https://web.archive.org/web/19961117161725id_/http://tucows.phoenix.net:80/archive/win95oct96.html",
+      "final_url": "https://web.archive.org/web/19961117161725id_/http://tucows.phoenix.net:80/archive/win95oct96.html",
+      "status": 200,
+      "path": "source/candidates/C-phoenix-win95oct96-19961117/original.html",
+      "bytes": 59889,
+      "sha256": "a4dd1cd91a9d2e5c23a1b06259578158b5f65f01face7fcb647bb6003d0b761b",
+      "accessed": "2026-09-15T20:47:38+00:00",
+      "headers": {
+        "Date": "Tue, 15 Sep 2026 20:47:38 GMT",
+        "Content-Type": "text/html",
+        "x-archive-orig-date": "Sun, 17 Nov 1996 16:17:27 GMT",
+        "x-archive-orig-server": "Apache/1.1.1",
+        "x-archive-orig-content-length": "59889",
+        "x-archive-orig-last-modified": "Fri, 01 Nov 1996 23:23:00 GMT",
+        "memento-datetime": "Sun, 17 Nov 1996 16:17:25 GMT",
+        "link": "<http://tucows.phoenix.net:80/archive/win95oct96.html>; rel=\"original\", <https://web.archive.org/web/timemap/link/http://tucows.phoenix.net:80/archive/win95oct96.html>; rel=\"timemap\"; type=\"application/link-format\", <https://web.archive.org/web/http://tucows.phoenix.net:80/archive/win95oct96.html>; rel=\"timegate\", <https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html>; rel=\"first memento\"; datetime=\"Sun, 17 Nov 1996 16:17:25 GMT\", <https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html>; rel=\"memento\"; datetime=\"Sun, 17 Nov 1996 16:17:25 GMT\", <https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html>; rel=\"last memento\"; datetime=\"Sun, 17 Nov 1996 16:17:25 GMT\"",
+        "x-archive-src": "IA-002028-c/IA-002125.arc.gz"
+      }
+    },
+    "captures": {
+      "wayback-toolbar": {
+        "url": "https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html",
+        "final_url": "https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html",
+        "title": "Windows 95 New Software",
+        "document_px": [
+          1280,
+          7544
+        ],
+        "viewport": [
+          1280,
+          1024
+        ],
+        "accessed": "2026-09-15T20:47:53+00:00",
+        "load_error": null,
+        "chromium": "153.0.8010.12",
+        "responses": [
+          [
+            200,
+            "https://web.archive.org/web/19961117161725/http://tucows.phoenix.net:80/archive/win95oct96.html"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/athena.js"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/images/toolbar/wayback-toolbar-logo-100.png"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/images/loading.gif"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/images/web-screenshot.svg"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/2cows.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/blueball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/titles/95what.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/blank1.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/whiteball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/pumpball.gif"
+          ],
+          [
+            200,
+            "https://archive.org/includes/donate.php?as_page=1&platform=wb&referer=https%3A//web.archive.org/web/19961117161725/http%3A//tucows.phoenix.net%3A80/archive/win95oct96.html"
+          ],
+          [
+            200,
+            "https://wayback-api.archive.org/services/context/notices?url=http%3A%2F%2Ftucows.phoenix.net%2Farchive%2Fwin95oct96.html&timestamp=19961117161725"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/top100.gif"
+          ],
+          [
+            200,
+            "https://athena.archive.org/0.gif?service=wb&server_name=wwwb-app206.us.archive.org&server_ms=335&kind=pageview&timediff=0&locale=en-US&referrer=-&loadtime=463&nav_to_done_ms=1110&iaprop_fontSize=25.6px&iaprop_devicePixelRatio=1&version=2&count=13"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/fonts/Iconochive-Regular.woff"
+          ],
+          [
+            404,
+            "https://web.archive.org/web/19961117161725/http://web.archive.org/screenshot/http://tucows.phoenix.net/archive/win95oct96.html"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961219235754im_/http://tucows.phoenix.net/images/blank1.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117075004im_/http://tucows.phoenix.net/images/pumpball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/win95s.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/folder.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/coola.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730020829im_/http://tucows.phoenix.net/images/awards/top100.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19971110043458im_/http://tucows.phoenix.net/images/whiteball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/department.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970723080056im_/http://tucows.phoenix.net/images/win95s.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/usatstat.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/award02.jpg"
+          ],
+          [
+            404,
+            "https://web.archive.org/web/19961117161725im_/http://207.136.80.47:6794/pixel.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/backshadow2.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/sitew.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970723080117im_/http://tucows.phoenix.net/images/folder.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/__wb/sparkline?output=json&url=http%3A%2F%2Ftucows.phoenix.net%2Farchive%2Fwin95oct96.html&collection=web&nav=19961117161725"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/new-burst.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117075036im_/http://tucows.phoenix.net/images/titles/95what.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961220000135im_/http://tucows.phoenix.net/images/blueball.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021139im_/http://tucows.phoenix.net/images/awards/usatstat.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117163214im_/http://tucows.phoenix.net/images/backshadow2.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021305im_/http://tucows.phoenix.net/images/awards/department.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021703im_/http://tucows.phoenix.net/images/awards/coola.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021513im_/http://tucows.phoenix.net/images/awards/sitew.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021223im_/http://tucows.phoenix.net/images/awards/award02.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117075029im_/http://tucows.phoenix.net/images/2cows.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117074711im_/http://tucows.phoenix.net/images/new-burst.gif"
+          ]
+        ]
+      },
+      "wayback-replay": {
+        "url": "https://web.archive.org/web/19961117161725if_/http://tucows.phoenix.net:80/archive/win95oct96.html",
+        "final_url": "https://web.archive.org/web/19961117161725if_/http://tucows.phoenix.net:80/archive/win95oct96.html",
+        "title": "Windows 95 New Software",
+        "document_px": [
+          1280,
+          7477
+        ],
+        "viewport": [
+          1280,
+          1024
+        ],
+        "accessed": "2026-09-15T20:48:04+00:00",
+        "load_error": null,
+        "chromium": "153.0.8010.12",
+        "responses": [
+          [
+            200,
+            "https://web.archive.org/web/19961117161725if_/http://tucows.phoenix.net:80/archive/win95oct96.html"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/2cows.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/titles/95what.gif"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117075036im_/http://tucows.phoenix.net/images/titles/95what.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117075029im_/http://tucows.phoenix.net/images/2cows.gif"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/bundle-playback.js?v=Li6h_J3j"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/ruffle/ruffle.js"
+          ],
+          [
+            200,
+            "https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/top100.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/department.gif"
+          ],
+          [
+            404,
+            "https://web.archive.org/web/19961117161725im_/http://207.136.80.47:6794/pixel.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/blueball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/blank1.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/win95s.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/folder.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/new-burst.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/whiteball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/pumpball.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/sitew.jpg"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/backshadow2.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/usatstat.gif"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/award02.jpg"
+          ],
+          [
+            302,
+            "https://web.archive.org/web/19961117161725im_/http://tucows.phoenix.net/images/awards/coola.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021305im_/http://tucows.phoenix.net/images/awards/department.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730020829im_/http://tucows.phoenix.net/images/awards/top100.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961219235754im_/http://tucows.phoenix.net/images/blank1.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961220000135im_/http://tucows.phoenix.net/images/blueball.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970723080117im_/http://tucows.phoenix.net/images/folder.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970723080056im_/http://tucows.phoenix.net/images/win95s.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117074711im_/http://tucows.phoenix.net/images/new-burst.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19971110043458im_/http://tucows.phoenix.net/images/whiteball.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117075004im_/http://tucows.phoenix.net/images/pumpball.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19961117163214im_/http://tucows.phoenix.net/images/backshadow2.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021513im_/http://tucows.phoenix.net/images/awards/sitew.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021139im_/http://tucows.phoenix.net/images/awards/usatstat.gif"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021223im_/http://tucows.phoenix.net/images/awards/award02.jpg"
+          ],
+          [
+            200,
+            "https://web.archive.org/web/19970730021703im_/http://tucows.phoenix.net/images/awards/coola.gif"
+          ]
+        ]
+      }
+    }
+  }
+}

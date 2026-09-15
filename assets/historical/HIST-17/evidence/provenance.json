@@ -1,0 +1,26 @@
+{
+  "id": "HIST-17",
+  "provenance_type": "historical original (archived web page) plus derivative crop",
+  "production_sources": [
+    {"path": "sources/ASSET_PLAN.md", "lines": [100, 100], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "use": "creative brief (lead only; the Wayback holding was verified, not assumed)"},
+    {"path": "sources/SCRIPT.md", "lines": [595, 597], "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb", "use": "visual cue; working script cue at War/SCRIPT.md:652"}
+  ],
+  "external_sources": [
+    {"file": "source/original.html", "url": "https://web.archive.org/web/19961022175612id_/http://www.tucows.com:80/", "classification": "historical original", "detail": "evidence/acquisition-log.json (status, headers, sha256, access time)"},
+    {"file": "source/raw/*.gif", "url": "per-file id_ URLs in evidence/acquisition-log.json and evidence/source.json", "classification": "historical original components"},
+    {"file": "source/raw/background-19961228134221.gif", "url": "https://web.archive.org/web/19961228134221id_/http://www.tucows.com:80/images/background.gif", "classification": "historical original component (later capture)", "detail": "fetched with curl; response headers in source/raw/background-19961228134221.headers.txt"},
+    {"file": "source/raw/comparison-19961228134206.html", "url": "https://web.archive.org/web/19961228134206id_/http://www.tucows.com:80/", "classification": "historical original (comparison only)"},
+    {"file": "source/raw/wayback-*.png", "url": "Wayback replay URLs in evidence/acquisition-log.json", "classification": "real capture (uncropped evidence)"},
+    {"file": "source/candidates/*", "url": "evidence/candidates-log.json", "classification": "alternate candidates (historical originals and captures)"},
+    {"file": "exports/editorial-frame.png", "url": "https://web.archive.org/web/19961022175612if_/http://www.tucows.com:80/", "classification": "derivative crop", "detail": "evidence/frame.json"}
+  ],
+  "authored_additions": [
+    "None in the image. The reproduction scripts in src/, the evidence records and the proposed credit text are production-authored."
+  ],
+  "producer_decisions": [],
+  "access": "Public Wayback Machine over HTTPS; no account, login, payment, cookie acceptance, CAPTCHA or form. Access date 2026-09-15.",
+  "limitations": [
+    "The captures are 2026 Chromium renders of 1996 HTML, not a period-browser screenshot.",
+    "The Wayback replay mixes the nearest captures of embedded images (1996-10-22 to 1996-12-28)."
+  ]
+}
