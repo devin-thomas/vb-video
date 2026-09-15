@@ -1,0 +1,42 @@
+{
+  "asset": "source/original.jpg",
+  "source_page": "https://commons.wikimedia.org/wiki/File:NEXT_Cube-IMG_7154.jpg",
+  "rights_holder": "Rama (Wikimedia Commons user), photographed with Musée Bolo; Commons author field: \"Rama & Musée Bolo\"",
+  "file_specific_terms": {
+    "declared_by": "the author, via {{self|CeCILL|Cc-by-sa-2.0-fr}} on the file page (dual license; reuser may choose)",
+    "chosen_license": "CC BY-SA 2.0 France",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "alternative_license": "CeCILL v2",
+    "alternative_license_url": "http://www.cecill.info/licences/Licence_CeCILL_V2-en.html",
+    "commons_api_extmetadata": {
+      "LicenseShortName": "CC BY-SA 2.0 fr",
+      "UsageTerms": "Creative Commons Attribution-Share Alike 2.0 fr",
+      "AttributionRequired": "true",
+      "Restrictions": "",
+      "Copyrighted": "True"
+    },
+    "author_reuse_page": "https://commons.wikimedia.org/wiki/User:Rama/use_my_images",
+    "author_reuse_page_summary": "Credit must contain \"Rama\" and the license; preferred form \"Photograph by Rama, Wikimedia Commons, Cc-by-sa-2.0-fr\"; credit may sit under the image or in an end index; no prior authorization needed."
+  },
+  "access_method": "Anonymous HTTPS GET of the original from upload.wikimedia.org (no account, no terms click-through, no payment, no watermark, no CAPTCHA). File verified against the Commons API SHA-1.",
+  "access_date": "2026-09-15",
+  "credit_text": "Photograph by Rama & Musée Bolo, Wikimedia Commons, CC BY-SA 2.0 FR (https://creativecommons.org/licenses/by-sa/2.0/fr/). Framed for video (scaled, matted; no crop).",
+  "modifications_to_declare": "Uniformly scaled and centred on a solid matte at 1920x1080; no crop, retouching, or colour change.",
+  "rights_status": "licensed_share_alike_review_needed",
+  "unresolved": [
+    {
+      "question": "Share-alike scope: does placing a CC BY-SA 2.0 FR photograph in the video (as a still on screen, credited) make the video, or only the framed still, subject to share-alike? The project must decide whether it accepts BY-SA for this shot or wants the CC BY 2.0 alternative (Michael Hicks, Computer History Museum) instead.",
+      "why_not_settled": "This is a legal-risk judgement about the finished work, not a fact the file record can settle."
+    },
+    {
+      "question": "Depicted object design: the NeXTcube enclosure is an industrial design by frog design for NeXT. The photographer's license covers the photograph; it does not by itself address any design right in the object. Is showing a museum-displayed product acceptable for this documentary use?",
+      "why_not_settled": "Legal-risk judgement; no evidence source resolves it."
+    }
+  ],
+  "cleared": false,
+  "notes": [
+    "The license is file-specific and declared by the photographer, not inferred from the host being public.",
+    "No fair-use or public-domain assumption is made.",
+    "Release stays unreviewed until the review deck records a decision on the questions above."
+  ]
+}

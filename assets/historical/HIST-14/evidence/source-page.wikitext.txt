@@ -1,0 +1,21 @@
+{{Supported by Mémoires Informatiques}}
+{{Supported by Wikimedia CH|Musée Bolo (2013) - Supported by Wikimedia CH}}
+
+{{Information
+ |Description={{User:Rama/Bolo/NeXTcube}}
+ |Source={{Own}}
+ |Date={{Other date|?}}
+ |Author= {{User:Rama/Rama_and_Musée_Bolo}}
+ |Permission =
+ {{self|CeCILL|Cc-by-sa-2.0-fr}}<br /> <small>'''More information on [[User:Rama/use_my_images|how to use my images]]'''</small>
+ |other_versions=
+ }}
+{{QualityImage}}
+
+[[Category:Musée Bolo]]
+[[Category:NeXTcube]]
+[[Category:Workstation computers with white background]]
+[[Category:Quality Images of computers by Rama]]
+[[Category:Quality images of computer hardware]]
+[[Category:Taken with Canon EOS 5D Mark II]]
+[[Category:Quality images supported by Wikimedia CH]]
