@@ -1,0 +1,181 @@
+{
+  "id": "XTRA-12",
+  "title": "Documented VB data-entry application",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "source/original.gif",
+      "role": "historical original (native GIF, unmodified)",
+      "bytes": 15084,
+      "sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame variant, 1920x1080 still",
+      "bytes": 38956,
+      "sha256": "0d48011583fee3205bc7f99d3ec746cde0766e68ba3dbd2db55ddd23ee6c2e99"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "QA proof, 1280x720 downscale of the export",
+      "bytes": 127524,
+      "sha256": "f9e7b38fb64f098e4b089a5c2afe7d3450bad5da6f8dacd1892be34082366c3b"
+    },
+    {
+      "path": "src/frame.py",
+      "role": "deterministic framing script (editable source of the export)",
+      "bytes": 1875,
+      "sha256": "859ce4117fa9e36505e28b24ac085b73f6a8646a95c07c8eae71d67f2550edbb"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "source record",
+      "bytes": 6906,
+      "sha256": "29a9aa1cf628d0680cdf3cb1ce59ba8784fa351e463822a1a1f1f5930af78453"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 3120,
+      "sha256": "04a4c77dfd170b8b086c6ced82abbdc324dd31ad96b02f13b5e7827b50537605"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 2096,
+      "sha256": "c24bb49826ad85dd36310040f3479cd51c2fdd06c18d6bec8c5bcc59b5d6f73e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 2948,
+      "sha256": "26f9fa7c96eaf317b5cb0e7d4168d3b738b98b1831e1e2f540168f3c4d5ef512"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "editorial gate record (R14, R11) and review questions",
+      "bytes": 5477,
+      "sha256": "72fabb7f7a96a3c27a1f1393e7f89daed553b8bb397fb1857270c7bd34fe0ea2"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 6077,
+      "sha256": "bc74e268d0778a88f474e2829f660333c5063cef7ab57403b26e9e7e1b6ba749"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "path": "source/original.gif",
+      "dimensions": {
+        "width": 334,
+        "height": 361
+      },
+      "timeline": null
+    },
+    {
+      "name": "editorial-frame",
+      "path": "exports/editorial-frame.png",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "timeline": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        685,
+        687
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative anchor (script supplement VISUAL cue)"
+    },
+    {
+      "path": "source/original.gif",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/images/aa260632.dowwp16(en-us,vs.60).gif",
+      "page": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/aa260632(v=vs.60)",
+      "creator": "Microsoft Corporation",
+      "content_date": "1998-12",
+      "access_date": "2026-09-15T20:34:33Z",
+      "sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (uniform 2x nearest-neighbour resize, pillarbox, no crop)",
+      "derived_from": "source/original.gif"
+    }
+  ],
+  "credits": [
+    {
+      "file": "source/original.gif",
+      "credit_text": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+      "rights_status": "unclear_blocked",
+      "note": "The 'Used with permission from Microsoft' statement applies only if XTRA-12-RQ1 accepts Microsoft's copyrighted-content guidelines. See evidence/rights.json."
+    }
+  ],
+  "tests": [
+    {
+      "name": "acquisition",
+      "command": "curl.exe -s -L -D <headers> -o source/original.gif <exact_file_url>",
+      "result": "HTTP 200 image/gif, 15084 bytes; SHA-256 matches an independent earlier fetch"
+    },
+    {
+      "name": "render",
+      "command": "python assets/historical/XTRA-12/src/frame.py",
+      "result": "original 334x361; scale 2x -> 668x722 at (626,179)"
+    },
+    {
+      "name": "pixel integrity",
+      "command": "Pillow check (recorded in qa.md)",
+      "result": "framed region == original 2x nearest: True; outside region single colour (0,128,128): True; aspect 0.92521 both"
+    },
+    {
+      "name": "manual inspection 1080p",
+      "path": "exports/editorial-frame.png",
+      "result": "viewed at full size; all labels/values legible; no crop; dither speckle is in source"
+    },
+    {
+      "name": "manual inspection 720p",
+      "path": "qa/editorial-frame-720p.png",
+      "result": "viewed at 1280x720; all labels/values legible"
+    },
+    {
+      "name": "delivery validator",
+      "command": "python tools/validate_delivery.py --id XTRA-12",
+      "result": "see qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14",
+    "R11"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "8.21.0 (Windows, Schannel)",
+    "os": "Windows 11 Pro, NT 10.0.26200",
+    "render_command": "python assets/historical/XTRA-12/src/frame.py",
+    "fonts": "none used"
+  },
+  "notes": [
+    "Script supplement (SCRIPT-SUPPLEMENT), not an ASSET_PLAN.md row.",
+    "Subject: VB6 Data Object Wizard 'Single Record User Control', a data-entry form bound to a sample Person table. Microsoft documentation figure with sample data.",
+    "Not the PowerBuilder DataWindow. Distinct from XTRA-11 (business tool) and XTRA-13 (utility).",
+    "Release blocked on review questions XTRA-12-RQ1..RQ3 (evidence/claim-checks.json)."
+  ]
+}
