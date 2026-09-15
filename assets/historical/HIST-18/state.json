@@ -1,12 +1,16 @@
 {
   "id": "HIST-18",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Historical Screenshots worker (manager session vb-7a), branch ticket/HIST-18",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: no license for the all-rights-reserved 1996 CNET page or its third-party ad, artwork and logos; rights review question open."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Dated Wayback capture 19961221110042 of http://www.download.com/ acquired byte-exact with all 28 visible images; rendered offline and framed at 1920x1080.",
+    "Produced is not release clearance; release stays blocked until the rights decision is recorded.",
+    "2026-09-15 python tools/validate_delivery.py --id HIST-18 -> {\"id\": \"HIST-18\", \"ok\": true, \"errors\": []} (exit 0; 50 outputs inventoried)."
   ]
 }

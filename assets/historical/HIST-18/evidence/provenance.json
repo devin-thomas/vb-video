@@ -1,0 +1,31 @@
+{
+  "id": "HIST-18",
+  "provenance_type": "historical original (archived web page) with real offline capture and derivative editorial crop",
+  "production_inputs": [
+    {"path": "sources/ASSET_PLAN.md", "lines": [100, 100], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "plan lead (Wayback Machine suggested; verified independently)"},
+    {"path": "sources/SCRIPT.md", "lines": [595, 597], "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb", "relationship": "visual cue this asset serves"}
+  ],
+  "external_sources": [
+    {"path": "source/original.html", "classification": "historical original", "url": "http://web.archive.org/web/19961221110042id_/http://www.download.com:80/", "sha256": "167109450df3f44d4b7aa42a9637ef5cce4aaeaaa0cc461d99deccc8f4211d24", "accessed": "2026-09-15"},
+    {"path": "source/embeds/*", "classification": "historical original (embedded images)", "record": "evidence/embeds.json", "accessed": "2026-09-15"},
+    {"path": "evidence/wayback-replay-page.png", "classification": "real capture of source page (archive replay with toolbar)", "url": "https://web.archive.org/web/19961221110042/http://www.download.com/", "accessed": "2026-09-15"},
+    {"path": "evidence/cdx-download.com-1996.json", "classification": "archive index record", "url": "http://web.archive.org/cdx/search/cdx?url=download.com&from=1996&to=1996&output=json", "accessed": "2026-09-15"},
+    {"path": "evidence/wayback-response-headers.txt", "classification": "archive response headers for the native original", "accessed": "2026-09-15"}
+  ],
+  "captures": [
+    {"path": "source/raw/capture-800w-1x.png", "classification": "real capture (offline render of archived bytes)", "tool": "src/capture.py", "log": "evidence/capture-log.json"},
+    {"path": "source/raw/capture-800w-2x.png", "classification": "real capture (offline render of archived bytes, device scale 2)", "tool": "src/capture.py", "log": "evidence/capture-log.json"}
+  ],
+  "derivatives": [
+    {"path": "exports/original.png", "classification": "derivative framing, uncropped", "from": "source/raw/capture-800w-2x.png", "tool": "src/frame.py", "transform": "evidence/transforms.json"},
+    {"path": "exports/editorial-frame.png", "classification": "derivative crop", "from": "source/raw/capture-800w-2x.png", "tool": "src/frame.py", "transform": "evidence/transforms.json"}
+  ],
+  "authored_additions": [
+    "Viewport choice 800x600 CSS px and device scale factor 2 for the capture used in framing",
+    "Editorial crop box CSS [0,0,800,706] (top of page down to the bottom of the special-offer bar)",
+    "Flat RGB(32,34,37) background around the page image",
+    "One caption line in Segoe UI 28 px: 'download.com front page — Internet Archive Wayback Machine capture, 21 Dec 1996' (suffix '(uncropped)' on the original variant)"
+  ],
+  "not_added": ["No invented or substitute images (all 28 visible images archived)", "No retouching, watermark removal, stretching, or fictitious UI"],
+  "producer_decisions": []
+}

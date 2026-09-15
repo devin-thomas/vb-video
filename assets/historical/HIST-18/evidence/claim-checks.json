@@ -1,0 +1,41 @@
+{
+  "id": "HIST-18",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": ["evidence/rights.json", "evidence/source.json", "evidence/source-excerpts.md", "evidence/wayback-response-headers.txt", "evidence/embeds.json"],
+      "checked": [
+        "Archive capture: dated Wayback record 19961221110042 acquired byte-exact via anonymous public access; source page captured with the archive toolbar.",
+        "Per-image record: all 28 visible embedded images individually acquired with capture timestamp and hash; none missing, none substituted.",
+        "Rights holder and terms: page marked '© 1996 CNET Inc. All rights reserved.'; third-party ad, game artwork and sponsor logos present; Internet Archive grants no license and limits use to noninfringing or fair use.",
+        "Access boundary respected: no account, payment, CAPTCHA, terms click-through, or watermark removal."
+      ],
+      "reason": "No license exists for the page or its images, and whether fair use or permission applies is a legal judgment. The register requires unknown rights to stay blocked.",
+      "review_question": "Rights decision for using an all-rights-reserved 1996 CNET page (with third-party ad, Magic: The Gathering artwork and sponsor logos) in the video: fair-use/commentary, seek permission, or drop?",
+      "approver": null,
+      "decision": null
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The visual shows Download.com circa 1996 (SCRIPT.md:595)",
+      "status": "verified",
+      "evidence": ["source/original.html", "evidence/wayback-response-headers.txt", "evidence/wayback-replay-page.png"],
+      "finding": "Title 'DOWNLOAD.COM -- Welcome', '© 1996 CNET Inc.' footer, page-generation comment dated Sat Dec 21 1996, and archive memento 1996-12-21T11:00:42Z. It is the earliest download.com capture in the Wayback index."
+    },
+    {
+      "claim": "Download.com was a shareware download site (SCRIPT.md:595-597 context)",
+      "status": "verified",
+      "evidence": ["source/original.html"],
+      "finding": "Page meta description calls it a searchable 'software database of selected software files from CNET'. It shows Most popular / Newest titles / Top picks and software categories. It is an editorially curated catalogue; the capture does not show how authors submitted files. No script change proposed."
+    },
+    {
+      "claim": "VBRUN300.DLL, file sizes and 14.4 modem download time (SCRIPT.md:597)",
+      "status": "not_applicable",
+      "reason": "Not depicted by this asset and owned by another register entry (FACT-06). Not checked here.",
+      "evidence": []
+    }
+  ]
+}

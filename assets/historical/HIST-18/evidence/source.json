@@ -1,0 +1,51 @@
+{
+  "id": "HIST-18",
+  "title": "DOWNLOAD.COM -- Welcome (download.com PC front door)",
+  "creator": "CNET Inc. (page and site copyright holder as stated on the page); archived capture by the Internet Archive (record from its INA-HISTORICAL 1996 web collection)",
+  "original_publication_date": "1996-12-21 (page generation comment 'Sat Dec 21 02:03:11 1996', timezone not stated; origin server HTTP Date 'Saturday, 21-Dec-96 11:00:47 GMT'). Page template comment dated 25-Oct-1996.",
+  "depicted_event_date": "1996-12-21T11:00:42Z (Wayback capture of the page; embedded images captured 1996-12-21 11:01:00Z to 11:10:23Z)",
+  "source_urls": {
+    "archived_page_replay": "https://web.archive.org/web/19961221110042/http://www.download.com/",
+    "native_original_record": "http://web.archive.org/web/19961221110042id_/http://www.download.com:80/",
+    "original_live_url": "http://www.download.com:80/",
+    "capture_index_query": "http://web.archive.org/cdx/search/cdx?url=download.com&from=1996&to=1996&output=json",
+    "embedded_images": "evidence/embeds.json (per-image request URL, resolved capture URL, memento datetime, bytes, sha256)"
+  },
+  "archive_record": {
+    "timestamp": "19961221110042",
+    "cdx_digest": "5XWZFTAFQ5VRBYL3KUU3745MS5T3TIDZ",
+    "x_archive_src": "INA-HISTORICAL-2007-GROUP-KUR-20100812000000-00000-c/INA-HISTORICAL-EMBEDS-1996-GROUP-AAA-20100812000000-00000.arc.gz",
+    "other_1996_captures": ["19961221173102 (download.com, different digest)", "19961226204525 (www.download.com, different digest)"],
+    "selection_reason": "Earliest capture of download.com in the Wayback index; all 28 visible embedded images are archived the same day."
+  },
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous public HTTP GET from web.archive.org (no account, no terms click-through, no CAPTCHA). Some image requests were rate-limited (connection refused / HTTP 429) and were retried with pauses.",
+  "identity_and_version_evidence": [
+    "HTML <title> 'DOWNLOAD.COM -- Welcome'",
+    "Rendered logo image /Images/PC/logohd.gif alt text 'DOWNLOAD.COM for the PC'",
+    "Rendered footer 'Copyright© 1996 CNET Inc. All rights reserved.'",
+    "Head comment '( 1.25 ) Copyright (C) 1996 CNET Inc.' and server comment '$Revision: 2.7 $' dated Dec 21 1996",
+    "Archive headers memento-datetime Sat, 21 Dec 1996 11:00:42 GMT and origin server Netscape-Communications/1.12",
+    "Wayback replay toolbar shows DEC 21 1996 (evidence/wayback-replay-page.png)"
+  ],
+  "acquired_files": {
+    "native_original": {"path": "source/original.html", "bytes": 14744, "sha256": "167109450df3f44d4b7aa42a9637ef5cce4aaeaaa0cc461d99deccc8f4211d24", "note": "Byte-exact Wayback id_ response body; not edited."},
+    "embedded_images": {"path": "source/embeds/", "count": 28, "note": "Byte-exact archived GIFs, filenames are the original URL path with / and ? replaced by _. No visible image was missing; images inside HTML comments (not rendered) were not fetched."},
+    "uncropped_captures": ["source/raw/capture-800w-1x.png (800x905)", "source/raw/capture-800w-2x.png (1600x1810)"],
+    "source_page_evidence": "evidence/wayback-replay-page.png (1280x900 viewport, Wayback toolbar visible)"
+  },
+  "original_dimensions": {"html_layout_css_px": [800, 905], "viewport_css_px": [800, 600], "note": "Page layout is a fixed 600 px table on a tiled background; 800 px viewport chosen as a common 1996 desktop width."},
+  "rendering": "Headless Chromium 153.0.8010.12 via Playwright 1.63.0, JavaScript disabled, all requests served from the local archived copies (no network). Default fonts resolved to Times New Roman (body), monospace (tt) and Courier New. This is a modern-browser rendering of the archived page, not a period Netscape Navigator screenshot.",
+  "transformations": [
+    "exports/original.png: whole 2x capture, uniform downscale, centered on flat RGB(32,34,37), authored caption line below (exact factors in evidence/transforms.json)",
+    "exports/editorial-frame.png: crop CSS box [0,0,800,706] of 2x capture (device px [0,0,1600,1412]), uniform downscale, centered, authored caption line below (exact factors in evidence/transforms.json)",
+    "No retouching, watermark removal, stretching, or added UI inside the page pixels"
+  ],
+  "license": {
+    "terms": "None granted. Page states 'Copyright © 1996 CNET Inc. All rights reserved.' The Internet Archive grants no license and makes no guarantee of copyright status; its Terms of Use limit use to noninfringing or fair use.",
+    "license_url": null,
+    "host_terms_urls": ["https://archive.org/about/terms.php", "https://help.archive.org/help/rights/"]
+  },
+  "rights_status": "unresolved (see evidence/rights.json; release blocked pending rights review)",
+  "credit_text": "download.com home page, © 1996 CNET Inc. Archived by the Internet Archive Wayback Machine, 21 December 1996."
+}

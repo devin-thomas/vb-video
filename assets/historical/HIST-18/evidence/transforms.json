@@ -1,0 +1,78 @@
+[
+ {
+  "output": "exports/original.png",
+  "source": "source/raw/capture-800w-2x.png",
+  "source_size_px": [
+   1600,
+   1810
+  ],
+  "crop_css_px": [
+   0,
+   0,
+   800,
+   905
+  ],
+  "crop_device_px": [
+   0,
+   0,
+   1600,
+   1810
+  ],
+  "uniform_scale_from_device_px": 0.509392,
+  "effective_scale_from_css_px": 1.018785,
+  "placed_size_px": [
+   815,
+   922
+  ],
+  "placed_at_px": [
+   552,
+   54
+  ],
+  "background_rgb": [
+   32,
+   34,
+   37
+  ],
+  "authored_caption": "download.com front page \u2014 Internet Archive Wayback Machine capture, 21 Dec 1996 (uncropped)",
+  "caption_font": "Segoe UI 28 px (system)",
+  "reverse": "crop exports image at placed_at/placed_size, resize by 1/uniform_scale, compare with source crop_device_px"
+ },
+ {
+  "output": "exports/editorial-frame.png",
+  "source": "source/raw/capture-800w-2x.png",
+  "source_size_px": [
+   1600,
+   1810
+  ],
+  "crop_css_px": [
+   0,
+   0,
+   800,
+   706
+  ],
+  "crop_device_px": [
+   0,
+   0,
+   1600,
+   1412
+  ],
+  "uniform_scale_from_device_px": 0.652975,
+  "effective_scale_from_css_px": 1.305949,
+  "placed_size_px": [
+   1045,
+   922
+  ],
+  "placed_at_px": [
+   437,
+   54
+  ],
+  "background_rgb": [
+   32,
+   34,
+   37
+  ],
+  "authored_caption": "download.com front page \u2014 Internet Archive Wayback Machine capture, 21 Dec 1996",
+  "caption_font": "Segoe UI 28 px (system)",
+  "reverse": "crop exports image at placed_at/placed_size, resize by 1/uniform_scale, compare with source crop_device_px"
+ }
+]
