@@ -32,8 +32,9 @@
       "native_size": [1764, 1452],
       "photo_date": "2011-12-30 15:32:01 (EXIF; Flickr 'taken' date agrees)",
       "strengths": "Best-verified license; a model introduced in 1995.",
-      "limitations": "Nokia N95 phone photo from a marketplace listing ('Te koop - For sale'); owner-applied Apple logo sticker, so not stock appearance; lower resolution. The Commons original download returned HTTP 429 repeatedly, so the image was judged from the file page description, not viewed at full size.",
-      "acquisition": "not acquired"
+      "limitations": "Nokia N95 phone photo from a marketplace listing ('Te koop - For sale'); lower resolution. Viewed after download: a high top-down angle with a large owner-applied rainbow Apple sticker covering the lid, a warm colour cast, and soft focus. The front badge 'Macintosh / Performa 6200' and the 'PowerPC' logo are legible.",
+      "downloaded_for_inspection": {"bytes_sha256": "ddb17c18fe8618d2c166f9dff4694c27aae9d6379261a4a5bb54a5be6f14784f", "dimensions": [1764, 1452], "exif_DateTimeOriginal": "2011:12:30 15:32:01", "kept_in_package": false},
+      "acquisition": "inspected in the session scratchpad only; not added to this package"
     },
     {
       "rank": 3,
@@ -44,9 +45,10 @@
       "license": "CC BY 3.0 NZ as recorded on Commons (no license-review template); the linked natlib.govt.nz blog post rendered no text to the fetch tool, so the license at source is unconfirmed",
       "native_size": [664, 808],
       "photo_date": "2012-07-27 15:18:04 (EXIF, Canon EOS 5D Mark II)",
-      "strengths": "Institutional creator; a model introduced in 1995; all-in-one with built-in display.",
-      "limitations": "Low resolution (808 px tall) for a 1080p frame; license at source unconfirmed; download returned HTTP 429.",
-      "acquisition": "not acquired"
+      "strengths": "Institutional creator; a model introduced in 1995. Viewed after download: an all-in-one with keyboard and mouse, and a live Classic Mac OS Finder desktop on screen (menu bar 'File Edit View Label Special'). It matches the script's full visual brief more closely than a bare case.",
+      "limitations": "Low resolution (808 px tall) for a 1080p frame; license at source unconfirmed. The on-screen desktop shows library-internal folder names and overlaps HIST-21's System 7 desktop role. The exact OS version is not legible. A printed sticker on the keyboard.",
+      "downloaded_for_inspection": {"bytes_sha256": "c5eb147efe7078a776f8e047b0ead5c9ac3479f9cf817cb784cf7e5dc85d422a", "dimensions": [664, 808], "exif_DateTimeOriginal": "2012:07:27 15:18:04", "kept_in_package": false},
+      "acquisition": "inspected in the session scratchpad only; not added to this package"
     },
     {
       "rank": 4,

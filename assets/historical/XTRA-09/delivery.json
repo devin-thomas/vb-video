@@ -15,14 +15,14 @@
     {
       "path": "evidence/candidates.json",
       "role": "evidence / search and alternate candidates",
-      "bytes": 4732,
-      "sha256": "20ffd7c019cb6a7e5feb5cb4020cb3697f7e2e2ce2df3de7e888d9718dc0b1e5"
+      "bytes": 5657,
+      "sha256": "4f9cf843458e0bf547318e5f45cf7a2ddf9859fc0c8f885cdac70eb8f41da6de"
     },
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gates and review questions",
-      "bytes": 3541,
-      "sha256": "ede69249cfcf35028b38b53532ad12b2b5dbeafc69e1f5a3bf88e525f897aecc"
+      "bytes": 3808,
+      "sha256": "f99135d4c065ba29007ee869343d2eaae7c7dbd264d1e0950b32ea4ae2328070"
     },
     {
       "path": "evidence/framing.json",
@@ -75,8 +75,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 5562,
-      "sha256": "469fb72f3e99116b47affeb2e11535b066de010f82e6756003fc34f90f48ddb1"
+      "bytes": 5660,
+      "sha256": "11560c61dd31f068dedd0b0c418e67cf2d7df9090a4268a76a50eaac1a09ac3c"
     },
     {
       "path": "source/original.jpg",
