@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 15 Sep 2026 20:30:13 GMT
+Content-Type: image/png
+Content-Length: 13081
+Last-Modified: Fri, 02 Oct 2015 22:32:19 GMT
+Connection: keep-alive
+ETag: "560f05f3-3319"
+Strict-Transport-Security: max-age=15552000
+Accept-Ranges: bytes
+

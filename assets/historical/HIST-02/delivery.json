@@ -1,0 +1,233 @@
+{
+  "id": "HIST-02",
+  "title": "VB 4.0 IDE",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 5470,
+      "sha256": "ff326e3d46c20b1ddbd6f6de8ecc16295e7f588939bad23ed0b82da0af54b4da"
+    },
+    {
+      "path": "evidence/pages/microsoft-copyright-permissions.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 186430,
+      "sha256": "a6994f7c7691dcc74269fd710af1de34d7303da919df032d6a13b311202f7129"
+    },
+    {
+      "path": "evidence/pages/original.http-headers.txt",
+      "role": "evidence / source page snapshot",
+      "bytes": 279,
+      "sha256": "23dfc57a8dcae7c118f359c1d58a086f96026ad37e4438b0a4de1fa045eef9a5"
+    },
+    {
+      "path": "evidence/pages/winworldpc-copyright.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 7788,
+      "sha256": "ef88db28ca26c94289c3d6a2d9d832d37c7fbad09545180431e6da13d78e689d"
+    },
+    {
+      "path": "evidence/pages/winworldpc-product-microsoft-visual-bas-40.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 22621,
+      "sha256": "ca17335ffdbd5afb663653118597b176a62ed5386b8201556b481e2b97efdd29"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3023,
+      "sha256": "6d6656299474fe682d79da95fc7140184a0ff27648813529e57d68554405ecb9"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 1373,
+      "sha256": "2f7bcb6000935b1fc0d8d0b4d27e82ebbd930c2eceae7c4d68d7b219fb5c64fb"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 5755,
+      "sha256": "98d9976701b90954393665d34647291955a3aecf1af65620799d3ca8bc248e73"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4816,
+      "sha256": "4d680ef2caf81ffea33774462677424dde10f1c0bf7d104add1924d87b71d5ae"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 10784,
+      "sha256": "21a63dddd886bc3d70844b9d54e0b6f5736324e0e3e7ec1e25d75cc637aa9bfa"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still",
+      "bytes": 575106,
+      "sha256": "63d7343663f2826b31b925e379b4f555fe90dc80ef1669f1657c56a68c44456e"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "evidence / QA",
+      "bytes": 339653,
+      "sha256": "92a5bd9c5d22d345a95baeaee0dbbf8f2e73aed7331d592aee9259e243c9562d"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 8349,
+      "sha256": "1c8e0e2684d9a2af8f9fb30c87ab0402e09edafe28881093e8ceee30c454eaf6"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original (acquired, unmodified)",
+      "bytes": 13081,
+      "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565"
+    },
+    {
+      "path": "src/build_delivery.py",
+      "role": "editable source / script",
+      "bytes": 5740,
+      "sha256": "e136800a24de2f9c09cacaa6926b02dffa32b3897f856962beded657903dd339"
+    },
+    {
+      "path": "src/check_editorial_frame.py",
+      "role": "editable source / script",
+      "bytes": 3548,
+      "sha256": "348726a3ff5558b13f5a35eb6add26eaed9c65dadc6a3f713d0c2e1a51762ec0"
+    },
+    {
+      "path": "src/make_editorial_frame.py",
+      "role": "editable source / script",
+      "bytes": 2063,
+      "sha256": "55f86f3bf39cd8963301048ef1aa9fd4878b687ed0b60bff64c81fda69434838"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.png"
+      ],
+      "notes": "Unmodified 800x600 WinWorld capture, Microsoft Visual Basic 4.0 32-bit on Windows 95."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "notes": "Full frame, uniform 1.8x resize, black pillarbox; still hold, no motion."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        49,
+        49
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        130,
+        134
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        89,
+        89
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source lead"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://winworldpc.com/res/img/screenshots/40-8f8bee2e0d2810b292e13c9917246fdf-Microsoft%20Visual%20Basic%204.0%2032%20bit%20-%20Edit.png",
+      "page": "https://winworldpc.com/product/microsoft-visual-bas/40",
+      "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+      "accessed": "2026-09-15T20:30:12Z",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.png",
+      "relationship": "derivative crop",
+      "notes": "No pixels cropped from the screenshot; relationship label per output contract for framed derivatives."
+    },
+    {
+      "path": "evidence/source.json",
+      "relationship": "source record"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical screenshot",
+      "credit": null,
+      "proposed_credit": "Microsoft Visual Basic 4.0 (32-bit) screenshot via WinWorld, winworldpc.com. Used with permission from Microsoft.",
+      "status": "Not cleared. Rights unresolved (R14); see evidence/rights.json."
+    }
+  ],
+  "tests": [
+    {
+      "test": "editorial frame machine checks",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "manual visual review at full size (1:1) and 720p",
+      "evidence": "qa.md",
+      "result": "passed; see qa.md"
+    },
+    {
+      "test": "tools/validate_delivery.py --id HIST-02",
+      "evidence": "qa.md",
+      "result": "see qa.md for recorded output"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "commands": [
+      "python assets/historical/HIST-02/src/make_editorial_frame.py",
+      "python assets/historical/HIST-02/src/check_editorial_frame.py",
+      "python assets/historical/HIST-02/src/build_delivery.py",
+      "python tools/validate_delivery.py --id HIST-02"
+    ],
+    "acquisition": "curl 8.18.0 anonymous HTTPS GET on 2026-09-15; no account, no terms accepted",
+    "network_used": true,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "remote_assets": []
+  },
+  "notes": [
+    "Real historical screenshot acquired from WinWorld; not an AI recreation or mockup.",
+    "Edition verified as 32-bit via sibling About capture from the same session (see evidence/claim-checks.json).",
+    "Release blocked on R14 rights review; production complete as an internal proof.",
+    "Microsoft's screenshot terms forbid using portions of screenshots: downstream crops/zooms (e.g. XTRA-05) need the rights decision first."
+  ]
+}
