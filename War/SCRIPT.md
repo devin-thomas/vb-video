@@ -88,9 +88,9 @@ This is important because it means that an entire generation of programmers — 
 
 BASIC was how you learned. It was the Python of its era, except it came pre-installed on your hardware.
 
-Now, fast-forward to 1991. Microsoft has Windows 3.0, and Windows programming is a nightmare. If you want to write a Windows application in C, you need to understand message loops, window procedures, callback functions, resource files, the entire Win16 API. A "Hello World" window in C is about 80 lines of code. It's not beginner-friendly. It's barely expert-friendly.
+Now, fast-forward to 1991. Microsoft has Windows 3.0, and Windows programming is a nightmare. If you want to write a Windows application in C, you need to understand message loops, window procedures, callback functions, resource files, the entire Win16 API. A "Hello World" window in C is 73 lines of code. It's not beginner-friendly. It's barely expert-friendly.
 
-**[VISUAL: An 80-line C "Hello World" for Windows, scrolling slowly. It should look intimidating.]**
+**[VISUAL: A 73-line C "Hello World" for Windows, scrolling slowly. It should look intimidating.]**
 
 A guy named Alan Cooper had built a prototype of a drag-and-drop interface builder. He called it "Tripod." You could take a blank window and just... drop a button onto it. Drop a text box. Drop a label. And it would wire up the event handling for you. Microsoft saw this, bought it, married it to a BASIC dialect, and in May of 1991, Visual Basic 1.0 was born.
 
