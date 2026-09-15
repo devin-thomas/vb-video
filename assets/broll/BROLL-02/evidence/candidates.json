@@ -2,8 +2,9 @@
   "id": "BROLL-02",
   "shot": "Two people playing War at a table (SCRIPT.md:801)",
   "access_date": "2026-09-15",
-  "result": "scouted_fallback_only",
+  "result": "fallback_acquired",
   "war_match_found": false,
+  "acquisition_note": "Updated 2026-09-15: the rank 1 fallback was downloaded with Devin's approval and verified with ffprobe. Ranks 2 and 3 remain not acquired. Acquiring a fallback does not turn it into War footage.",
   "summary": "No free-stock or public-archive clip found that visibly shows War (two face-down piles, simultaneous flip-and-compare). All ranked candidates are generic card-game fallbacks and must not be labeled War. Real War demonstrations exist only as YouTube leads, which are rights-blocked (H02).",
   "candidates": [
     {
@@ -42,8 +43,16 @@
         "license_url": "https://www.pexels.com/license/",
         "accessed": "2026-09-15"
       },
-      "access_barrier": "None to view or download: the Free download button needs no login. A cookie or consent banner was not shown. No model-release document is shown on the page.",
-      "acquisition_status": "not_downloaded - pending batched download approval"
+      "access_barrier": "None to view or download: the Free download button needs no login. A cookie or consent banner was not shown. No model-release document is shown on the page. The download itself was ungated on 2026-09-15 - no Cloudflare check appeared.",
+      "acquisition_status": "acquired 2026-09-15 with Devin's approval - source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4 (4393818 bytes, sha256 7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188); see source/source.json. Still a labeled generic card-game fallback, not War.",
+      "verified_on_file": {
+        "duration_seconds": 9.634625,
+        "dimensions": {"width": 1920, "height": 1080},
+        "fps": "24000/1001 (23.976)",
+        "codec": "h264 High, yuv420p, progressive",
+        "audio_stream": false,
+        "note": "Page metadata said 0:09 and 23.98 fps; the real duration is 9.634625 s. The clip carries no audio track, so the earlier 'audio not checked' item is now settled: there is none."
+      }
     },
     {
       "rank": 2,

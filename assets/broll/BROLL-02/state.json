@@ -1,19 +1,22 @@
 {
   "id": "BROLL-02",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "Claude Opus 5 worker (spawned by B-roll Scouting Manager, session vb-99)",
+  "assigned_agent": "Claude Opus 5 acquisition worker (spawned by B-roll Scouting Manager, session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
-    "No free-stock or public-archive clip visibly shows War; ranked candidates are generic card-game fallbacks only.",
-    "Nothing downloaded: ungated free downloads await Devin's batched download approval.",
+    "R14 open: the acquired clip has no published model release for its two identifiable people, and whether a labeled fallback is acceptable on screen under War narration is unresolved. Release clearance is decided at the OPS-04 review deck.",
+    "No free-stock or public-archive clip visibly shows War. The acquired clip is a fallback, so the shot as written in SCRIPT.md:801 is still not covered by real War footage.",
     "True War footage leads are YouTube videos (rights-blocked, H02).",
-    "R14 open: no media acquired or cleared; model-release and fallback-acceptability questions pending review.",
-    "Rank 3 candidate motion not reviewed (in-page player would not start)."
+    "Ranks 2 and 3 remain not downloaded; rank 3 motion was never reviewed (in-page player would not start)."
   ],
   "reviewer": null,
   "notes": [
-    "Scouting complete, not acquisition: see exports/candidates.md and exports/acquisition-handoff.md.",
-    "Rank 1 fallback: Pexels 38810850 (Jelly Marketing), 1920x1080, 9 s, in 00:00.0 out 00:09.0, motion reviewed, not War."
+    "FALLBACK, NOT WAR. The acquired clip shows two people playing a generic draw-and-discard card game: fanned hands, a single shared face-down stock at table centre, a face-up spread in front of one player, and no simultaneous flip-and-compare. It must never be described as War.",
+    "Acquired 2026-09-15 with Devin's approval (relayed by the B-roll Scouting Manager, session vb-bf): source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4, 4393818 bytes, sha256 7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188.",
+    "Verified with ffprobe: 1920x1080, 9.634625 s, 23.976 fps (24000/1001), H.264 High, progressive, no audio stream. Downloaded ungated with curl and a generic User-Agent; no login, payment, terms click-through, CAPTCHA or bot check.",
+    "Mismatch against the download brief: the file is about 4.19 MiB, not the roughly 20 MB anticipated. The download was complete and self-consistent (HTTP 200, Content-Length equal to bytes received, ffprobe probe_score 100); see qa.md.",
+    "Stills at 1 s, 4 s and 8 s were inspected at full size (1920x1080) and one again at 720p. No watermark, logo or burned-in caption.",
+    "Scouting record from the earlier pass is retained in exports/candidates.md, exports/acquisition-handoff.md and evidence/candidates.json."
   ]
 }

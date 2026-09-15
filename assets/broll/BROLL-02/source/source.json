@@ -1,0 +1,81 @@
+{
+  "id": "BROLL-02",
+  "record_type": "acquired stock original",
+  "local_path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
+  "title": "Elderly Couple Enjoying Card Game Indoors",
+  "creator": "Jelly Marketing",
+  "creator_url": "https://www.pexels.com/@jellymarketing/",
+  "platform": "Pexels",
+  "asset_page_url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
+  "download_url": "https://www.pexels.com/download/video/38810850/",
+  "resolved_file_url": "https://videos.pexels.com/video-files/38810850/16496615_1920_1080_24fps.mp4",
+  "served_filename": "16496615_1920_1080_24fps.mp4",
+  "access_date": "2026-09-15",
+  "access_method": "curl -L with a generic \"Mozilla/5.0\" User-Agent; no login, no cookies sent, no consent click-through, no bot-check encountered. HTTP 302 from www.pexels.com to videos.pexels.com, then HTTP 200 video/mp4 with Content-Length 4393818.",
+  "publication_date": "unknown (not stated on the asset page as read on 2026-09-15)",
+  "origin_file_last_modified_header": "Fri, 31 Jul 2026 18:18:49 GMT",
+  "depicted_event_date": "unknown",
+  "license": {
+    "name": "Pexels License",
+    "url": "https://www.pexels.com/license/",
+    "attribution_required": false,
+    "terms_in_substance": "Free to download and use, including commercially; attribution not required but appreciated; modification allowed. Not allowed: showing identifiable people in a bad or offensive light, selling unaltered copies, implying endorsement by people or brands, redistributing on other stock platforms, or using the content in trademarks or business names."
+  },
+  "credit_text": "Jelly Marketing / Pexels",
+  "rights_status": "Stock license terms read on 2026-09-15; file acquired ungated under the Pexels License. No model release is published on the asset page for the two identifiable people. Release clearance (R14) remains open and is decided at the OPS-04 review deck, not here.",
+  "original_dimensions": {"width": 1920, "height": 1080},
+  "byte_size": 4393818,
+  "sha256": "7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188",
+  "ffprobe": {
+    "tool": "ffprobe version 6.0-essentials_build-www.gyan.dev",
+    "run_on": "2026-09-15",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "major_brand": "iso5",
+    "container_duration_seconds": 9.634625,
+    "container_bit_rate": 3648356,
+    "format_size_bytes": 4393818,
+    "nb_streams": 2,
+    "streams": [
+      {
+        "index": 0,
+        "codec_type": "video",
+        "codec_name": "h264",
+        "profile": "High",
+        "level": 50,
+        "codec_tag_string": "avc1",
+        "width": 1920,
+        "height": 1080,
+        "display_aspect_ratio": "16:9",
+        "sample_aspect_ratio": "1:1",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_range": "tv",
+        "field_order": "progressive",
+        "r_frame_rate": "24000/1001",
+        "avg_frame_rate": "24000/1001",
+        "fps_decimal": 23.976023976023978,
+        "duration_seconds": 9.634625,
+        "bit_rate": 3645577,
+        "encoder_tag": "Lavc61.19.100 libx264",
+        "timecode_tag": "00:14:55:19"
+      },
+      {
+        "index": 1,
+        "codec_type": "data",
+        "codec_name": "unknown",
+        "codec_tag_string": "tmcd",
+        "note": "QuickTime timecode track, start timecode 00:14:55:19. Carries no picture or sound."
+      }
+    ],
+    "audio_stream_present": false
+  },
+  "transformations": [
+    "None applied to the original file. It is stored byte-identical to what the server returned.",
+    "Derived stills only: evidence/frames/frame-01s.png, frame-04s.png and frame-08s.png were extracted with ffmpeg for inspection, and frame-04s-720p.png is frame-04s.png scaled to 1280x720 for the 720p check."
+  ],
+  "content_note": "This clip does NOT show War. Two people play a draw-and-discard card game (fanned hands, a shared face-down stock at table centre, and a face-up spread in front of one player). It is an explicitly labeled generic card-game fallback for the BROLL-02 shot and must never be described as War.",
+  "watermark": "none observed in the extracted frames",
+  "producer_decision": "Devin approved this specific download on 2026-09-15; the download was relayed to this worker by the B-roll Scouting Manager (session vb-bf). Approval covers acquisition only, not release clearance."
+}
