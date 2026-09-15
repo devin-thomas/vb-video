@@ -1,12 +1,18 @@
 {
   "id": "HIST-12",
-  "production_status": "planned",
+  "production_status": "blocked",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "HIST-12 worker (Historical Screenshots Manager, session vb-7a)",
+  "updated_at": "2026-09-15T20:38:47Z",
+  "blockers": [
+    "Acquisition boundary: the primary candidate image (Wayback capture of borland.com/delphi/delphi1.0/guide/fig1.gif, 35,423 bytes, image/gif) has been located and its host page verified, but the file has not been downloaded. Downloading it needs Devin's explicit approval in chat; an agent instruction is not user consent. See evidence/candidates.json.",
+    "R14 rights unresolved: the image is Borland International, Inc. marketing material. The archived 1996 borland.com copyright notice prohibits reproduction for redistribution except as otherwise provided. No license or permission has been found. This needs a rights review decision, not agent clearance.",
+    "Visual identity/version check at full resolution cannot be done until the file is acquired."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Blocked candidate record, not a delivered asset: no source/original.*, no exports/editorial-frame.png and no delivery.json exist. No placeholder media was created.",
+    "Search log, three ranked candidates, identity evidence and rights evidence are in qa.md and evidence/.",
+    "Once download approval is given, the next step is to fetch the raw capture from the id_ URL in evidence/source.json, verify the SHA-1 digest against CDX, inspect it at full size, then build the 16:9 editorial frame."
   ]
 }

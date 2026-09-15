@@ -1,0 +1,34 @@
+{
+  "asset_id": "HIST-12",
+  "candidate": "C1 — borland.com/delphi/delphi1.0/guide/fig1.gif (Wayback capture 19961223104420)",
+  "rights_status": "unresolved",
+  "rights_holder_at_creation": "Borland International, Inc.",
+  "rights_holder_evidence": [
+    "Host page footer: 'Copyright © 1996. Borland International, Inc.' (capture 19961221223414).",
+    "Borland's 1996 legal notice page (https://web.archive.org/web/19961221134154/http://www.borland.com:80/copyright.html) states that, except as otherwise provided, copying or reproducing material from the site to another location for further reproduction or redistribution is expressly prohibited."
+  ],
+  "current_rights_holder": "unknown — not verified. Borland's development-tools business passed to CodeGear and then Embarcadero Technologies. That chain comes from general background knowledge, not a document checked for this ticket, and it does not establish who holds this screenshot today.",
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "archive_terms": "The Internet Archive Wayback Machine provides access to the capture. Access through the archive does not license the image, and no archive-level license was found for it.",
+  "public_domain_evidence": "none. The image is a 1995 corporate work with a copyright notice; no public-domain dedication or expiry applies.",
+  "fair_use_assessment": "Not made. Whether a brief editorial use in the video qualifies is a legal question for rights review, not an agent decision.",
+  "access_method": "Public Wayback Machine URLs, no account, no payment, no CAPTCHA, no gated download. CDX metadata and archived HTML were read. The image file itself was NOT downloaded.",
+  "watermark": "unknown until the image is viewed",
+  "proposed_credit_text": "Borland International, Inc. — Delphi 1.0 Reviewer's Guide (1995), via the Internet Archive Wayback Machine",
+  "proposed_credit_status": "Authored proposal only; becomes final only with a rights decision.",
+  "alternates": [
+    {
+      "candidate": "C2 — Internet Archive item delphi-1-for-windows-users-guide, Figure 1.1",
+      "rights_status": "unresolved",
+      "evidence": "The item metadata names Borland as creator and has no licenseurl field. It is an uploader-supplied scan (uploader field present) in the manuals collection. The OCR text of the guide includes a copyright page. No license was found."
+    },
+    {
+      "candidate": "C3 — Internet Archive item borland-delphi-1-brochure-1995-gb",
+      "rights_status": "unresolved",
+      "evidence": "The OCR text contains 'Copyright © 1995 Borland International, Inc. All rights reserved.' The item metadata has no licenseurl. Its placement in the 'opensource' community collection is not a license."
+    }
+  ],
+  "review_question": "May the video use a 1995 Borland International marketing screenshot of the Delphi 1.0 IDE, archived on the Wayback Machine, under an editorial/commentary rationale, with the proposed credit? Or must the ticket stay blocked, or be replaced by a clearly labeled original reconstruction (a separate ticket decision)? No agent clearance has been given."
+}

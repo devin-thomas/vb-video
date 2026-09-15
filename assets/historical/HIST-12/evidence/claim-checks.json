@@ -1,0 +1,55 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/candidates.json"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Worked, not cleared. Rights holder at creation: Borland International, Inc. File-specific terms: no license or permission found; the archived 1996 borland.com notice prohibits reproduction for redistribution except as otherwise provided. Access method: public Wayback/IA, no account, payment, CAPTCHA or watermark issue. Proposed credit recorded. Per R14, unknown rights stay blocked; this is a review question (see rights.json review_question). The file has also not been acquired, because downloading it needs Devin's explicit approval."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The candidate image shows the Delphi 1.0 IDE (form designer, Object Inspector, code window).",
+      "source": "Ticket requirement 1; SCRIPT.md:621",
+      "status": "supported_by_host_page_pending_visual_check",
+      "evidence": "Borland's own page 'Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi' captions fig1.gif as the Delphi environment and lists speedbar, component palette, Object Inspector, form design area and code window. The image has not been viewed, so version and content are still unconfirmed at full resolution."
+    },
+    {
+      "claim": "Delphi was released in 1995.",
+      "source": "SCRIPT.md:619",
+      "status": "supported",
+      "evidence": "Archived Borland 1995 press-release index (about/press/rels95.html, capture 19961221153637) lists 1995 Delphi shipping-era releases, including a March 22, 1995 Delphi Client/Server bundle rollout and a June 19, 1995 RAD Pack for Delphi shipment. The 1995 Borland brochure quotes a PC/Computing review dated February 1995. The exact launch day was not established from a primary source and is not needed for this visual."
+    },
+    {
+      "claim": "Delphi compiled to native code from day one.",
+      "source": "SCRIPT.md:619",
+      "status": "supported",
+      "evidence": "The archived 'Delphi 1.0 Fact Sheet' (delphi1.0/dpfctsht.html) describes an optimizing native code compiler whose EXEs need no runtime interpreter DLL. This is not HIST-12's gate; it was noted in passing."
+    },
+    {
+      "claim": "Object Pascal had a real object system with inheritance.",
+      "source": "SCRIPT.md:619",
+      "status": "supported",
+      "evidence": "The Delphi 1.0 Reviewer's Guide 'Delphi In Depth' page (guide/8.1.1.14.html) shows the generated TForm1 type inheriting from TForm. Noted in passing."
+    },
+    {
+      "claim": "Delphi was faster at runtime than VB.",
+      "source": "SCRIPT.md:619",
+      "status": "not_checked_vendor_claim_only",
+      "evidence": "The only evidence found is Borland's own marketing (10–20x faster than interpreted p-code). That is vendor material, not an independent comparison. Not HIST-12's gate; R15/other owners."
+    },
+    {
+      "claim": "It looks a lot like the VB IDE.",
+      "source": "SCRIPT.md:621 (visual direction)",
+      "status": "review_question",
+      "evidence": "This is a subjective visual comparison that cannot be judged until the image is acquired, and it is ultimately editorial taste."
+    }
+  ]
+}

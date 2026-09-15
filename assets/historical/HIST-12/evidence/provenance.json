@@ -1,0 +1,85 @@
+{
+  "asset_id": "HIST-12",
+  "classification": "historical source — candidate located, not acquired",
+  "production_status": "blocked",
+  "project_sources": [
+    {
+      "path": "../../../../sources/ASSET_PLAN.md",
+      "lines": [95, 95],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead (Wikipedia article) — checked and rejected: shows Delphi 10.4"
+    },
+    {
+      "path": "../../../../sources/SCRIPT.md",
+      "lines": [619, 621],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative context and visual cue"
+    }
+  ],
+  "external_evidence_inspected": [
+    {
+      "role": "host page for candidate C1 (identity evidence)",
+      "url": "https://web.archive.org/web/19961221223414id_/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.4.html",
+      "bytes": 8533,
+      "sha256": "bc0b1abdc248f00275e21fc738c6f72a8ca5d504361be386203644bb1835339a"
+    },
+    {
+      "role": "Reviewer's Guide table of contents",
+      "url": "https://web.archive.org/web/19961221161914id_/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.html",
+      "bytes": 9303,
+      "sha256": "d98fa81a175650998ea22100127f8ec9dc72990b1d81c923649dac88d523075c"
+    },
+    {
+      "role": "Reviewer's Guide 'Delphi In Depth' (inheritance, alternate figures)",
+      "url": "https://web.archive.org/web/19961221223732id_/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.14.html",
+      "bytes": 30318,
+      "sha256": "c6a89fdab1ba27544b2292d8f86aac2f2f0c83de3368521bc09e5a211144a50e"
+    },
+    {
+      "role": "Delphi 1.0 Product Information index ('Previous Version 1.0')",
+      "url": "https://web.archive.org/web/19961221140523id_/http://www.borland.com:80/delphi/delphi1.0/",
+      "bytes": 4729,
+      "sha256": "72dfd4f2551266499da1e76e5308b977b046d5e4fb03e6e780e382393150267a"
+    },
+    {
+      "role": "Delphi 1.0 Fact Sheet (native code claim)",
+      "url": "https://web.archive.org/web/19961221161852id_/http://www.borland.com:80/delphi/delphi1.0/dpfctsht.html",
+      "bytes": 22046,
+      "sha256": "0d0c5f823322b9cf04e3d2c072c78a0601f99f3999b9f3e612bd4e1016f98c06"
+    },
+    {
+      "role": "Borland 1996 site copyright notice (rights evidence)",
+      "url": "https://web.archive.org/web/19961221134154id_/http://www.borland.com:80/copyright.html",
+      "bytes": 6759,
+      "sha256": "93c088f17525c3b371e2bc02bbc1ae54c33c31627691c0cfb981e56a2e2a4814"
+    },
+    {
+      "role": "Borland 1995 press release index (release-year evidence)",
+      "url": "https://web.archive.org/web/19961221153637id_/http://www.borland.com:80/about/press/rels95.html",
+      "sha256": "fdf2a11b6d488db434a638d0656b849858d1ea24f4b7faa625785470da7b8ed0"
+    },
+    {
+      "role": "Wayback CDX index (capture list, lengths, digests)",
+      "url": "https://web.archive.org/cdx/search/cdx?url=borland.com/delphi/delphi1.0/*&fl=timestamp,original,mimetype,statuscode,length,digest&limit=500",
+      "sha256": null
+    },
+    {
+      "role": "Internet Archive item metadata for candidates C2 and C3",
+      "url": "https://archive.org/metadata/delphi-1-for-windows-users-guide ; https://archive.org/metadata/borland-delphi-1-brochure-1995-gb",
+      "sha256": null
+    },
+    {
+      "role": "Internet Archive OCR text derivatives (streamed and grepped, not stored)",
+      "url": "https://archive.org/download/delphi-1-for-windows-users-guide/Delphi%201%20for%20Windows%20-%20User%27s%20Guide_djvu.txt ; https://archive.org/download/borland-delphi-1-brochure-1995-gb/Borland%20Delphi%201%20brochure%20%281995%20GB%29_djvu.txt",
+      "sha256": null
+    }
+  ],
+  "evidence_storage_note": "Inspected archived HTML is Borland copyright material. It was read into session scratch space for analysis and is not committed. Hashes above let the acquisition step confirm it is preserving the same captures.",
+  "authored_additions": [
+    "Proposed credit text in evidence/rights.json (authored proposal, not a source fact).",
+    "Candidate ranking and deficiency notes in evidence/candidates.json (agent judgment)."
+  ],
+  "original_media": null,
+  "transformations": [],
+  "producer_decisions": []
+}

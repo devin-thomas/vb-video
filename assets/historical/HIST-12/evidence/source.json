@@ -1,0 +1,48 @@
+{
+  "title": "Figure 1, \"Delphi, a visual development environment and two-way tool\" — Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi",
+  "creator": "Borland International, Inc.",
+  "source_url": "https://web.archive.org/web/19961223104420/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+  "raw_capture_url": "https://web.archive.org/web/19961223104420id_/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+  "original_url": "http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+  "host_page_url": "https://web.archive.org/web/19961221223414/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.4.html",
+  "original_date": null,
+  "original_date_notes": "The image file carries no date evidence yet (not downloaded). The host page footer reads 'Content last modified June 12, 1995' with a 'Copyright © 1996' site footer. The Wayback captures are dated 1996-12-23 and 1997-05-09. None of these is the image's creation date.",
+  "depicted_event_date": null,
+  "access_date": "2026-09-15",
+  "wayback_captures": [
+    {
+      "timestamp": "19961223104420",
+      "mimetype": "image/gif",
+      "status": 200,
+      "length_bytes": 35423,
+      "sha1_base32_digest": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW"
+    },
+    {
+      "timestamp": "19970509094337",
+      "mimetype": "image/gif",
+      "status": 200,
+      "length_bytes": 35423,
+      "sha1_base32_digest": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW"
+    }
+  ],
+  "identity_evidence": [
+    "Host page title (archived HTML, 1996-12-21 capture): 'Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi'.",
+    "The page links fig1.gif from thumbnail smfig1.gif (displayed 100x64) with the caption 'Delphi, a visual development environment and two-way tool'.",
+    "The text directly above the figure lists the startup environment: customizable speedbar, component palette, Object Inspector, form design area, and code window.",
+    "The URL path sits under /delphi/delphi1.0/. The archived directory index page is titled 'Delphi 1.0 Product Information' and labels itself 'Previous Version 1.0', linking the 'Delphi 1.0 Reviewer's Guide'.",
+    "Reviewer's Guide table of contents (guide/8.1.1.html) describes Delphi and Delphi Client/Server as two products about to be released to market, consistent with pre-release/launch-era 1995 material.",
+    "NOT YET VERIFIED: the image itself has not been viewed. Version markers (Windows 3.1 window chrome, 'Delphi - Project1' title bar, 16-bit IDE layout) must be checked at full resolution after acquisition."
+  ],
+  "original_file": null,
+  "original_dimensions": null,
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "rights_status": "unresolved",
+  "credit_text": null,
+  "transformations": [],
+  "notes": [
+    "Candidate located and host page verified; file not acquired (download approval boundary). See evidence/rights.json and evidence/candidates.json.",
+    "Inspected archived HTML is kept outside the repo; SHA-256 hashes of the inspected captures are recorded in evidence/provenance.json."
+  ]
+}
