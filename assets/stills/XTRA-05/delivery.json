@@ -1,0 +1,1245 @@
+{
+  "id": "XTRA-05",
+  "title": "VB4 IDE anatomy: five labeled panels",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "derivative annotation of a historical source (the whole HIST-02 screenshot, uniformly scaled 1.5x, with authored margin labels, window-frame outlines and leader lines)",
+  "shared_version": "win95-workbench-1.0.0 (tools/render/studio.py colour tokens and text primitives)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence",
+      "bytes": 444,
+      "sha256": "2ce24f1bc9068b93227d876b67bf63442fcb37a20e3ca55fbd1f0c10314d3bad"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence",
+      "bytes": 17821,
+      "sha256": "bd929249d61ea5068e8dd13594dbdfa1e41a95c10e050393bee822528fc9c3fa"
+    },
+    {
+      "path": "evidence/placement-checks.json",
+      "role": "evidence",
+      "bytes": 17080,
+      "sha256": "49d0febad91ac0d8cf930192fbc6776e9e16672defdc1bcc3eb1ba7500b0122f"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence",
+      "bytes": 9607,
+      "sha256": "d0cb5369ba8ed44637cf529789da8ca95df40139aa7ea0063c351d447260aa36"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence",
+      "bytes": 155,
+      "sha256": "913daf66ee56239e6f2bcc1db6a7db2688c519bf361fe8cec8c141e0a63844e6"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence",
+      "bytes": 7123,
+      "sha256": "0e616fbf1d2099bfd02d9a195e93000ae5e8f6d3711f417d6d6293ff3194ff19"
+    },
+    {
+      "path": "exports/clean-workspace.png",
+      "role": "rendered still",
+      "bytes": 36659,
+      "sha256": "25e4c3cc4791f43387c7f668130704b861ad6ff50da124740e2e381ad6fbb629"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still (contact sheet written by render_assets.py)",
+      "bytes": 140451,
+      "sha256": "50c6b1dea253dd68507a2a578a3ddf3d28a04eb47709f1a5c9c9015281267690"
+    },
+    {
+      "path": "exports/five-callouts.png",
+      "role": "rendered still",
+      "bytes": 70939,
+      "sha256": "f92bc262f7795d348babd0b04ab789ffe4bf8774f4630a7ac263c2886d9fdd53"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 70939,
+      "sha256": "f92bc262f7795d348babd0b04ab789ffe4bf8774f4630a7ac263c2886d9fdd53"
+    },
+    {
+      "path": "proofs/clean-workspace-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 186028,
+      "sha256": "b6cdc286dfcaa0081ba87a4f2c3d1a198c4c30949d2e9f24b095d9245b04097b"
+    },
+    {
+      "path": "proofs/five-callouts-1to1-left.png",
+      "role": "QA proof (native-pixel half of five-callouts)",
+      "bytes": 40117,
+      "sha256": "77b8587af79f0b7401800ff0ce3a7d9546a9fd7a11bb302b57cb7380ed69f7aa"
+    },
+    {
+      "path": "proofs/five-callouts-1to1-right.png",
+      "role": "QA proof (native-pixel half of five-callouts)",
+      "bytes": 31782,
+      "sha256": "9ff55b7e56edd38f8a33dae83bcfc640a76caf6a8c5e2e49bfca4dfa5615c68b"
+    },
+    {
+      "path": "proofs/five-callouts-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 227023,
+      "sha256": "a047d32bf8a99563f0a72c22f12562f183b2516403781b173d96e36cab132539"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "QA proof (1280x720 LANCZOS downscale)",
+      "bytes": 227023,
+      "sha256": "a047d32bf8a99563f0a72c22f12562f183b2516403781b173d96e36cab132539"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 17419,
+      "sha256": "e8c2564edbe7a9027c46a98fb1976b48220a41802643ee561ff26d55f63c0a66"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1518,
+      "sha256": "8d5f4272c6a650d32e706760013ab6bf8343a3e0a09fabc4022265424aec6b4b"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2194,
+      "sha256": "4e036a1b848b72b2eaaa831ac779f79470e67ddd55de5f65c430e1863686d042"
+    },
+    {
+      "path": "src/build.py",
+      "role": "editable source",
+      "bytes": 22674,
+      "sha256": "fd5a92da0c36f570c4403128e95270f71639c896b83ff95d1131e1901177ccf4"
+    },
+    {
+      "path": "src/copy.txt",
+      "role": "editable source",
+      "bytes": 69,
+      "sha256": "ec2246e748ac4077d93d7953fc4d5d9f7fe29cf5b404720850068b601565a9bd"
+    },
+    {
+      "path": "src/finalize.py",
+      "role": "editable source",
+      "bytes": 14663,
+      "sha256": "d0e679547c43535c18fbd884b9ef5e100a8b90a9f8ffb0b2d70be70a9000376f"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 88489,
+      "sha256": "07dae4d461ddebea8c273dbc27bc63eea41def90732f9be33b0585f71a1e6838"
+    },
+    {
+      "path": "src/layout.json",
+      "role": "editable source",
+      "bytes": 50579,
+      "sha256": "0f1fd35e5d7b2b9c839eb2abd6729eadc9371160afa9d02ca303a6d0ce4fbc85"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 631,
+      "sha256": "00ee32843be631477bb3353df3b81003adf55dc4d2b1500df6898964c2ed8589"
+    },
+    {
+      "path": "src/variant-clean-workspace.svg",
+      "role": "editable source",
+      "bytes": 40114,
+      "sha256": "8d035b1bb516d5a8656c8a6f2e7dfae72ab682faf24ef4f78fa7cdaea51c0d67"
+    },
+    {
+      "path": "src/variant-five-callouts.svg",
+      "role": "editable source",
+      "bytes": 45709,
+      "sha256": "bf6595c2acedab514c0254b361e244790daa832c9a8c93b0a84ed95901093114"
+    },
+    {
+      "path": "src/verify.py",
+      "role": "editable source",
+      "bytes": 12553,
+      "sha256": "ce1f9a21c01469fbb069262f5c06bdd38ff70f6d4052a584caaca39a8d143634"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean-workspace",
+      "kind": "still",
+      "timeline": null,
+      "timing": "hold for editorial timing; no named cutdown",
+      "required": true,
+      "files": [
+        "exports/clean-workspace.png",
+        "src/variant-clean-workspace.svg",
+        "proofs/clean-workspace-720.png"
+      ],
+      "notes": "Whole HIST-02 screenshot at 1.5x in a frame outside its edges; no annotation, no text."
+    },
+    {
+      "name": "five-callouts",
+      "kind": "still",
+      "timeline": null,
+      "timing": "hold for editorial timing; no named cutdown; no one-panel reveal (editor request only)",
+      "required": true,
+      "files": [
+        "exports/five-callouts.png",
+        "exports/poster.png",
+        "src/variant-five-callouts.svg",
+        "proofs/five-callouts-720.png",
+        "proofs/poster-720.png",
+        "proofs/five-callouts-1to1-left.png",
+        "proofs/five-callouts-1to1-right.png"
+      ],
+      "notes": "Same screenshot rectangle as clean-workspace, plus five margin labels, window-frame outlines and leaders. exports/poster.png is byte-identical."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        130,
+        134
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (VISUAL cue at 130, IDE narration at 132)"
+    },
+    {
+      "path": "../../historical/HIST-02/source/original.png",
+      "asset": "HIST-02",
+      "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+      "relationship": "historical original from a produced upstream asset; read in place, whole image uniformly scaled 1.5x, never cropped or copied"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        133,
+        137
+      ],
+      "relationship": "working-script copy of SCRIPT.md:130-134 (cue now reads \"Project Window\"); read only"
+    },
+    {
+      "path": "../../historical/HIST-02/evidence/rights.json",
+      "relationship": "rights and credit record carried forward"
+    },
+    {
+      "path": "../../historical/HIST-02/evidence/source.json",
+      "relationship": "source record of the original"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical screenshot",
+      "asset": "HIST-02",
+      "file": "assets/historical/HIST-02/source/original.png",
+      "credit": null,
+      "credit_on_screen": null,
+      "proposed_credit": "Microsoft Visual Basic 4.0 (32-bit) screenshot via WinWorld, winworldpc.com. Used with permission from Microsoft.",
+      "status": "proposed, not approved. The \"Used with permission from Microsoft.\" sentence applies only if the rights review relies on Microsoft's screenshot permission (RQ-HIST-02-1 / XTRA-05-RQ4); it must not be used before that decision, so nothing is burned in.",
+      "credit_record": "assets/historical/HIST-02/evidence/rights.json#proposed_credit_text",
+      "rights_status": "unresolved",
+      "upstream_release_status": "blocked",
+      "cleared": false,
+      "open_questions": [
+        "RQ-HIST-02-1",
+        "RQ-HIST-02-2",
+        "RQ-HIST-02-3",
+        "RQ-HIST-02-4"
+      ]
+    },
+    {
+      "type": "authored graphics",
+      "credit": "Labels, outlines, leaders, frame and layout authored for this production with system fonts (Liberation Sans); no font files or other imagery included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "authoring and layout assertions",
+      "command": "python -B assets/stills/XTRA-05/src/build.py",
+      "result": "passed: HIST-02 SHA-256 and bytes equal HIST-02/delivery.json; 800x600 source; labels equal ticket copy; labels outside the screenshot and frame, inside 120-1800 x 72-1008, not overlapping; marks clear of labels; outlines on the image and not touching each other"
+    },
+    {
+      "test": "rasterize still variants",
+      "command": "python tools/render/render_assets.py --id XTRA-05",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: CairoSVG 2.9.1, poster and 2 variants at 1920x1080; no video (still)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, SVG text bounds",
+      "command": "python -B tools/render/qa_browser.py --id XTRA-05",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: installed Chromium 153.0.8010.12, 2 SVG files, 9 text boxes, out_of_canvas 0, offline True, deterministic True"
+    },
+    {
+      "test": "placed-image pixel integrity and annotation overlay audit",
+      "command": "python -B assets/stills/XTRA-05/src/verify.py",
+      "evidence": "evidence/placement-checks.json",
+      "result": "passed: embedded PNG equals fresh 1.5x BOX resample; clean-workspace 0 differing px / 1080000, mat ring 0 non-matching; five-callouts 37080 changed px, 0 outside declared marks; every leader only over desktop teal or its target, every outline only on its target frame band (0 px breaking a rule); poster == five-callouts bytes True; SVG labels equal ticket copy"
+    },
+    {
+      "test": "manual visual review (full size and 720p)",
+      "result": {
+        "mode": "Full-resolution exports, native-pixel halves and 1280x720 proofs, viewed by the producing agent with the Read tool",
+        "scope": "exports/poster.png, exports/five-callouts.png (byte-identical), exports/clean-workspace.png at 1920x1080; proofs/five-callouts-1to1-left.png and -right.png; proofs/poster-720.png, proofs/five-callouts-720.png, proofs/clean-workspace-720.png.",
+        "status": "Whole screenshot, identical placement in both variants, nothing clipped. clean-workspace: no marks or text. five-callouts: every target is unmistakable at full size and 720p (gold outline on the target window frame plus a leader to its label); the Form Designer outline stops visibly short of the Code Window outline. All five labels legible at 720p (about 27 px bold). No mark covers code or UI text. Screenshot UI text (menus, Project entry, Properties grid, code) readable at 720p. See qa.md."
+      }
+    },
+    {
+      "test": "delivery and pack validators",
+      "command": "python -B tools/validate_delivery.py --id XTRA-05; python -B tools/validate_pack.py",
+      "result": "see qa.md (verbatim output of the run after this inventory was written)"
+    }
+  ],
+  "unresolved_gates": [
+    "R03",
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": true,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading.",
+    "fonts": "Liberation Sans Bold resolved by fc-match from C:/WINDOWS/fonts; not distributed",
+    "pillow_resampling": "BOX (area average), exact 1.5x",
+    "render_commands": [
+      "python -B assets/stills/XTRA-05/src/build.py",
+      "python -B tools/render/render_assets.py --id XTRA-05",
+      "python -B tools/render/qa_browser.py --id XTRA-05",
+      "python -B assets/stills/XTRA-05/src/verify.py",
+      "python -B tools/render/finish_delivery.py --deliveries-only --id XTRA-05",
+      "python -B assets/stills/XTRA-05/src/finalize.py",
+      "python -B tools/validate_delivery.py --id XTRA-05",
+      "python -B tools/validate_pack.py"
+    ],
+    "network_note": "Read-only web lookups of archived Microsoft KB and VB6 documentation pages for the label checks; no downloads into the repository, no accounts, no terms accepted."
+  },
+  "notes": [
+    "Whole HIST-02 screenshot (WinWorld \"Microsoft Visual Basic 4.0 32 bit - Edit\", 800x600) at a uniform 1.5x (1200x900, Pillow BOX) in both variants; no crop, rotation, stretch, retouch or zoom-in. Mat and frame sit outside the image edges.",
+    "clean-workspace: framed screenshot only; nothing is drawn over its pixels.",
+    "five-callouts (= poster): the five exact ticket labels sit in the side margins, outside the screenshot. Only 5 px outlines on each target window's own frame and horizontal leaders over empty desktop cross onto the image. Every mark and the original pixels it covers: src/layout.json annotation_edits.",
+    "\"Project Explorer\" is kept verbatim as ticket copy; the VB4 window is titled with the project name and Microsoft calls it the Project window. Review question for the Writing Lead in evidence/claim-checks.json.",
+    "No on-screen credit: HIST-02 rights.json has credit_text null, and its proposed credit (\"... Used with permission from Microsoft.\") must not be used before RQ-HIST-02-1 is decided. The proposed credit is carried in delivery.json credits, marked proposed.",
+    "Release blocked under R03 and R14 until the review deck decides; internal proof only.",
+    "Upstream status at use: HIST-02 production produced, release blocked.",
+    "Internal proof only: not placed in any cleared-media bin. Review questions XTRA-05-RQ1..RQ6 in evidence/claim-checks.json."
+  ],
+  "placement": {
+    "source_file": "assets/historical/HIST-02/source/original.png",
+    "source_sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+    "source_size": [
+      800,
+      600
+    ],
+    "rect_xywh": [
+      347,
+      90,
+      1200,
+      900
+    ],
+    "scale_x": 1.5,
+    "scale_y": 1.5,
+    "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
+    "crop": null,
+    "rotation_deg": 0,
+    "retouch": null,
+    "embedded_png_sha256": "4662cb7139c45dc1669ad5a0172c534959189c9fb65bfa490f521020b4f940ee",
+    "frame": {
+      "mat_px": 6,
+      "stroke_px": 2,
+      "extent_outside_image_px": 7,
+      "mat_fill": "#1b2027",
+      "stroke": "#343d48",
+      "background": "#111318"
+    },
+    "identical_in_variants": [
+      "clean-workspace",
+      "five-callouts"
+    ],
+    "verification": "clean-workspace 0 differing px of 1080000 against a fresh resample; five-callouts 0 differing px outside declared marks (evidence/placement-checks.json)"
+  },
+  "annotation_edit_history": {
+    "variant": "five-callouts (also exports/poster.png)",
+    "clean_workspace_edits": [],
+    "mark_style": {
+      "thickness_px": 5,
+      "core": "#eab676",
+      "core_px": 3,
+      "casing": "#111318",
+      "casing_px": 1,
+      "outline_position": "inside each target window outer boundary, so the outline covers only that window's outer frame bevel (about 3.3 original px)",
+      "leader_position": "horizontal, on an original row that is desktop teal between the image edge and the target"
+    },
+    "label_style": {
+      "font": "Liberation Sans Bold",
+      "size_px": 40,
+      "leading": 1.15,
+      "fill": "#f1f3f5",
+      "metrics": {
+        "ascent": 37,
+        "descent": 9
+      },
+      "line_breaks": "multi-word labels are stacked one word per line; the words, spelling and capitalisation are the ticket copy"
+    },
+    "marks": [
+      {
+        "target": "Toolbox",
+        "type": "outline",
+        "casing_rects": [
+          [
+            353,
+            207,
+            449,
+            212
+          ],
+          [
+            353,
+            686,
+            449,
+            691
+          ],
+          [
+            353,
+            207,
+            358,
+            691
+          ],
+          [
+            444,
+            207,
+            449,
+            691
+          ]
+        ],
+        "core_rects": [
+          [
+            354,
+            208,
+            448,
+            211
+          ],
+          [
+            354,
+            687,
+            448,
+            690
+          ],
+          [
+            354,
+            208,
+            357,
+            690
+          ],
+          [
+            445,
+            208,
+            448,
+            690
+          ]
+        ],
+        "shape": "closed outline",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          4,
+          78,
+          67,
+          400
+        ],
+        "canvas_pixels_changed_on_image": 5800,
+        "original_pixels_overlaid": 2660,
+        "original_bbox_inclusive": [
+          4,
+          78,
+          67,
+          400
+        ],
+        "original_colours_overlaid": {
+          "#bfb8bf": 755,
+          "#fff8ff": 738,
+          "#7f787f": 397,
+          "#000000": 386,
+          "#dfd8df": 384
+        },
+        "overlay_rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Toolbox",
+        "type": "leader",
+        "casing_rects": [
+          [
+            305,
+            448,
+            353,
+            453
+          ]
+        ],
+        "core_rects": [
+          [
+            306,
+            449,
+            354,
+            452
+          ]
+        ],
+        "shape": "horizontal leader line",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          4,
+          78,
+          67,
+          400
+        ],
+        "canvas_pixels_changed_on_image": 30,
+        "original_pixels_overlaid": 16,
+        "original_bbox_inclusive": [
+          0,
+          238,
+          3,
+          241
+        ],
+        "original_colours_overlaid": {
+          "#00787f": 16
+        },
+        "overlay_rule": "leader: only desktop teal or the target window itself",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Form Designer",
+        "type": "outline",
+        "casing_rects": [
+          [
+            461,
+            204,
+            1179,
+            209
+          ],
+          [
+            461,
+            204,
+            466,
+            784
+          ],
+          [
+            1174,
+            204,
+            1179,
+            575
+          ],
+          [
+            461,
+            779,
+            635,
+            784
+          ]
+        ],
+        "core_rects": [
+          [
+            462,
+            205,
+            1178,
+            208
+          ],
+          [
+            462,
+            205,
+            465,
+            783
+          ],
+          [
+            1175,
+            205,
+            1178,
+            574
+          ],
+          [
+            462,
+            780,
+            634,
+            783
+          ]
+        ],
+        "shape": "open outline along the visible edges, stopping short of the Code Window outline",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          76,
+          76,
+          554,
+          462
+        ],
+        "canvas_pixels_changed_on_image": 9215,
+        "original_pixels_overlaid": 4017,
+        "original_bbox_inclusive": [
+          76,
+          76,
+          554,
+          462
+        ],
+        "original_colours_overlaid": {
+          "#bfb8bf": 1571,
+          "#dfd8df": 863,
+          "#fff8ff": 859,
+          "#000000": 363,
+          "#7f787f": 361
+        },
+        "overlay_rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Form Designer",
+        "type": "leader",
+        "casing_rects": [
+          [
+            305,
+            733,
+            461,
+            738
+          ]
+        ],
+        "core_rects": [
+          [
+            306,
+            734,
+            462,
+            737
+          ]
+        ],
+        "shape": "horizontal leader line",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          76,
+          76,
+          554,
+          462
+        ],
+        "canvas_pixels_changed_on_image": 570,
+        "original_pixels_overlaid": 304,
+        "original_bbox_inclusive": [
+          0,
+          428,
+          75,
+          431
+        ],
+        "original_colours_overlaid": {
+          "#00787f": 304
+        },
+        "overlay_rule": "leader: only desktop teal or the target window itself",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Code Window",
+        "type": "outline",
+        "casing_rects": [
+          [
+            641,
+            581,
+            1230,
+            586
+          ],
+          [
+            641,
+            929,
+            1230,
+            934
+          ],
+          [
+            641,
+            581,
+            646,
+            934
+          ],
+          [
+            1225,
+            581,
+            1230,
+            934
+          ]
+        ],
+        "core_rects": [
+          [
+            642,
+            582,
+            1229,
+            585
+          ],
+          [
+            642,
+            930,
+            1229,
+            933
+          ],
+          [
+            642,
+            582,
+            645,
+            933
+          ],
+          [
+            1226,
+            582,
+            1229,
+            933
+          ]
+        ],
+        "shape": "closed outline",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          196,
+          327,
+          588,
+          562
+        ],
+        "canvas_pixels_changed_on_image": 9420,
+        "original_pixels_overlaid": 4740,
+        "original_bbox_inclusive": [
+          196,
+          327,
+          588,
+          562
+        ],
+        "original_colours_overlaid": {
+          "#bfb8bf": 2240,
+          "#000000": 628,
+          "#dfd8df": 626,
+          "#7f787f": 624,
+          "#fff8ff": 622
+        },
+        "overlay_rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Code Window",
+        "type": "leader",
+        "casing_rects": [
+          [
+            305,
+            891,
+            641,
+            896
+          ]
+        ],
+        "core_rects": [
+          [
+            306,
+            892,
+            642,
+            895
+          ]
+        ],
+        "shape": "horizontal leader line",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          196,
+          327,
+          588,
+          562
+        ],
+        "canvas_pixels_changed_on_image": 1470,
+        "original_pixels_overlaid": 588,
+        "original_bbox_inclusive": [
+          0,
+          534,
+          195,
+          536
+        ],
+        "original_colours_overlaid": {
+          "#00787f": 588
+        },
+        "overlay_rule": "leader: only desktop teal or the target window itself",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Project Explorer",
+        "type": "outline",
+        "casing_rects": [
+          [
+            1247,
+            206,
+            1544,
+            211
+          ],
+          [
+            1247,
+            367,
+            1544,
+            372
+          ],
+          [
+            1247,
+            206,
+            1252,
+            372
+          ],
+          [
+            1539,
+            206,
+            1544,
+            372
+          ]
+        ],
+        "core_rects": [
+          [
+            1248,
+            207,
+            1543,
+            210
+          ],
+          [
+            1248,
+            368,
+            1543,
+            371
+          ],
+          [
+            1248,
+            207,
+            1251,
+            371
+          ],
+          [
+            1540,
+            207,
+            1543,
+            371
+          ]
+        ],
+        "shape": "closed outline",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          600,
+          77,
+          797,
+          187
+        ],
+        "canvas_pixels_changed_on_image": 4630,
+        "original_pixels_overlaid": 2305,
+        "original_bbox_inclusive": [
+          600,
+          77,
+          797,
+          187
+        ],
+        "original_colours_overlaid": {
+          "#bfb8bf": 1085,
+          "#000000": 308,
+          "#dfd8df": 306,
+          "#7f787f": 304,
+          "#fff8ff": 302
+        },
+        "overlay_rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Project Explorer",
+        "type": "leader",
+        "casing_rects": [
+          [
+            1544,
+            313,
+            1589,
+            318
+          ]
+        ],
+        "core_rects": [
+          [
+            1543,
+            314,
+            1588,
+            317
+          ]
+        ],
+        "shape": "horizontal leader line",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          600,
+          77,
+          797,
+          187
+        ],
+        "canvas_pixels_changed_on_image": 15,
+        "original_pixels_overlaid": 8,
+        "original_bbox_inclusive": [
+          798,
+          148,
+          799,
+          151
+        ],
+        "original_colours_overlaid": {
+          "#00787f": 8
+        },
+        "overlay_rule": "leader: only desktop teal or the target window itself",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Properties Window",
+        "type": "outline",
+        "casing_rects": [
+          [
+            1246,
+            597,
+            1536,
+            602
+          ],
+          [
+            1246,
+            937,
+            1536,
+            942
+          ],
+          [
+            1246,
+            597,
+            1251,
+            942
+          ],
+          [
+            1531,
+            597,
+            1536,
+            942
+          ]
+        ],
+        "core_rects": [
+          [
+            1247,
+            598,
+            1535,
+            601
+          ],
+          [
+            1247,
+            938,
+            1535,
+            941
+          ],
+          [
+            1247,
+            598,
+            1250,
+            941
+          ],
+          [
+            1532,
+            598,
+            1535,
+            941
+          ]
+        ],
+        "shape": "closed outline",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          599,
+          338,
+          792,
+          567
+        ],
+        "canvas_pixels_changed_on_image": 6350,
+        "original_pixels_overlaid": 3142,
+        "original_bbox_inclusive": [
+          599,
+          338,
+          792,
+          567
+        ],
+        "original_colours_overlaid": {
+          "#bfb8bf": 1462,
+          "#000000": 423,
+          "#dfd8df": 421,
+          "#7f787f": 419,
+          "#fff8ff": 417
+        },
+        "overlay_rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+        "pixels_breaking_rule": 0
+      },
+      {
+        "target": "Properties Window",
+        "type": "leader",
+        "casing_rects": [
+          [
+            1536,
+            793,
+            1589,
+            798
+          ]
+        ],
+        "core_rects": [
+          [
+            1535,
+            794,
+            1588,
+            797
+          ]
+        ],
+        "shape": "horizontal leader line",
+        "colours": {
+          "core": "#eab676",
+          "casing": "#111318"
+        },
+        "target_original_px_inclusive": [
+          599,
+          338,
+          792,
+          567
+        ],
+        "canvas_pixels_changed_on_image": 55,
+        "original_pixels_overlaid": 32,
+        "original_bbox_inclusive": [
+          792,
+          468,
+          799,
+          471
+        ],
+        "original_colours_overlaid": {
+          "#00787f": 28,
+          "#000000": 4
+        },
+        "overlay_rule": "leader: only desktop teal or the target window itself",
+        "pixels_breaking_rule": 0
+      }
+    ],
+    "labels": [
+      {
+        "label": "Toolbox",
+        "lines": [
+          "Toolbox"
+        ],
+        "text_boxes": [
+          [
+            138.05,
+            427.5,
+            291.0,
+            473.5
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "label": "Form Designer",
+        "lines": [
+          "Form",
+          "Designer"
+        ],
+        "text_boxes": [
+          [
+            191.0,
+            689.5,
+            291.0,
+            735.5
+          ],
+          [
+            121.0,
+            735.5,
+            291.0,
+            781.5
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "label": "Code Window",
+        "lines": [
+          "Code",
+          "Window"
+        ],
+        "text_boxes": [
+          [
+            192.0,
+            847.5,
+            291.0,
+            893.5
+          ],
+          [
+            139.0,
+            893.5,
+            291.0,
+            939.5
+          ]
+        ],
+        "side": "left"
+      },
+      {
+        "label": "Project Explorer",
+        "lines": [
+          "Project",
+          "Explorer"
+        ],
+        "text_boxes": [
+          [
+            1603,
+            269.5,
+            1738.0,
+            315.5
+          ],
+          [
+            1603,
+            315.5,
+            1765.0,
+            361.5
+          ]
+        ],
+        "side": "right"
+      },
+      {
+        "label": "Properties Window",
+        "lines": [
+          "Properties",
+          "Window"
+        ],
+        "text_boxes": [
+          [
+            1603,
+            749.5,
+            1800.0,
+            795.5
+          ],
+          [
+            1603,
+            795.5,
+            1755.0,
+            841.5
+          ]
+        ],
+        "side": "right"
+      }
+    ],
+    "total_changed_pixels_on_image": 37080,
+    "full_record": "src/layout.json annotation_edits (all 50 rectangles with geometric overlay); evidence/placement-checks.json (pixel-measured overlay per mark); evidence/provenance.json annotation_edit_history"
+  },
+  "label_checks": [
+    {
+      "label": "Form Designer",
+      "target_original_px_inclusive": [
+        76,
+        76,
+        554,
+        462
+      ],
+      "target_canvas_box": [
+        461,
+        204,
+        1179,
+        784
+      ],
+      "status": "target_verified; label is a descriptive later-documented (VB6) name, not a VB4 window title",
+      "invented_ui": false
+    },
+    {
+      "label": "Toolbox",
+      "target_original_px_inclusive": [
+        4,
+        78,
+        67,
+        400
+      ],
+      "target_canvas_box": [
+        353,
+        207,
+        449,
+        691
+      ],
+      "status": "verified",
+      "invented_ui": false
+    },
+    {
+      "label": "Properties Window",
+      "target_original_px_inclusive": [
+        599,
+        338,
+        792,
+        567
+      ],
+      "target_canvas_box": [
+        1246,
+        597,
+        1536,
+        942
+      ],
+      "status": "verified",
+      "invented_ui": false
+    },
+    {
+      "label": "Code Window",
+      "target_original_px_inclusive": [
+        196,
+        327,
+        588,
+        562
+      ],
+      "target_canvas_box": [
+        641,
+        581,
+        1230,
+        934
+      ],
+      "status": "verified",
+      "invented_ui": false
+    },
+    {
+      "label": "Project Explorer",
+      "target_original_px_inclusive": [
+        600,
+        77,
+        797,
+        187
+      ],
+      "target_canvas_box": [
+        1247,
+        206,
+        1544,
+        372
+      ],
+      "status": "target_verified; label_is_later_version_terminology (VB4's Microsoft term is 'Project window'); kept verbatim per ticket copy and hand-off",
+      "invented_ui": false
+    }
+  ]
+}

@@ -1,12 +1,18 @@
 {
   "id": "XTRA-05",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-97, branch ticket/XTRA-05",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14 release gate: HIST-02 rights unresolved (RQ-HIST-02-1, -2); callout marks over a whole Microsoft screenshot may count as alteration (XTRA-05-RQ1, carries RQ-HIST-02-3); credit placement (XTRA-05-RQ4).",
+    "R03 release gate: \"Project Explorer\" is later-version terminology, VB4 says Project window, and War/SCRIPT.md:133 already reads \"Project Window\" (XTRA-05-RQ2); narration form/code-window description only partly matches the capture (XTRA-05-RQ3)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
-  ]
+    "Produced: poster, clean-workspace and five-callouts stills with offline HTML source; validate_delivery.py passes.",
+    "Whole HIST-02 screenshot at exactly 1.5x (Pillow BOX), pixel-verified; every annotation mark and the original pixels it overlays recorded (delivery.json annotation_edit_history).",
+    "Full-size and 720p manual review recorded in qa.md. Internal proof only; release blocked pending the review deck."
+  ],
+  "owner": "Render Lane worker (Claude Opus 5), branch ticket/XTRA-05"
 }

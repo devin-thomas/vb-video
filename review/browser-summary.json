@@ -1185,13 +1185,13 @@
     ]
   },
   {
-    "id": "XTRA-14",
+    "id": "XTRA-05",
     "browser": "installed Chromium 153.0.8010.12",
     "loading_mode": "In-memory HTML",
     "offline": true,
     "deterministic_seek": true,
-    "svg_files_checked": 4,
-    "text_boxes_checked": 57,
+    "svg_files_checked": 2,
+    "text_boxes_checked": 9,
     "out_of_canvas": [],
     "errors": [],
     "limitations": [

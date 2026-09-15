@@ -1,0 +1,42 @@
+{
+  "id": "XTRA-05",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "variant-five-callouts.svg"
+    }
+  ],
+  "variants": {
+    "clean-workspace": "variant-clean-workspace.svg",
+    "five-callouts": "variant-five-callouts.svg"
+  },
+  "poster": "variant-five-callouts.svg",
+  "cuts": {},
+  "notes": [
+    "Whole HIST-02 screenshot (WinWorld \"Microsoft Visual Basic 4.0 32 bit - Edit\", 800x600) at a uniform 1.5x (1200x900, Pillow BOX) in both variants; no crop, rotation, stretch, retouch or zoom-in. Mat and frame sit outside the image edges.",
+    "clean-workspace: framed screenshot only; nothing is drawn over its pixels.",
+    "five-callouts (= poster): the five exact ticket labels sit in the side margins, outside the screenshot. Only 5 px outlines on each target window's own frame and horizontal leaders over empty desktop cross onto the image. Every mark and the original pixels it covers: src/layout.json annotation_edits.",
+    "\"Project Explorer\" is kept verbatim as ticket copy; the VB4 window is titled with the project name and Microsoft calls it the Project window. Review question for the Writing Lead in evidence/claim-checks.json.",
+    "No on-screen credit: HIST-02 rights.json has credit_text null, and its proposed credit (\"... Used with permission from Microsoft.\") must not be used before RQ-HIST-02-1 is decided. The proposed credit is carried in delivery.json credits, marked proposed.",
+    "Release blocked under R03 and R14 until the review deck decides; internal proof only."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        130,
+        134
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (VISUAL cue at 130, IDE narration at 132)"
+    },
+    {
+      "path": "../../historical/HIST-02/source/original.png",
+      "asset": "HIST-02",
+      "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+      "relationship": "historical original from a produced upstream asset; read in place, whole image uniformly scaled 1.5x, never cropped or copied"
+    }
+  ],
+  "kind": "still"
+}

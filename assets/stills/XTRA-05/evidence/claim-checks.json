@@ -1,0 +1,236 @@
+{
+  "id": "XTRA-05",
+  "checked_by": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-97, branch ticket/XTRA-05",
+  "checked_at": "2026-09-15",
+  "label_checks": [
+    {
+      "label": "Form Designer",
+      "target_original_px_inclusive": [76, 76, 554, 462],
+      "target_canvas_box": [461, 204, 1179, 784],
+      "target_visible_in_screenshot": true,
+      "screenshot_evidence": "Form window titled 'LoanSheet' with design-time grid dots, a selected grid control with sizing handles, and the IDE title bar '[design]'. Its lower right is covered by the Code window (original x 196-588, y 327-562), so the outline follows only the visible edges and stops short of the Code Window outline. Edges measured from the Win95 frame lines: light #DFD8DF run x=76 (y 76-461) and y=76 (x 76-553), black runs x=554 (y 76-326) and y=462 (x 76-195).",
+      "name_evidence": "Microsoft's VB6 documentation 'Integrated Development Environment Elements' has a 'Form Designer' section. The VB 4.0-applicable KB articles found refer to the form itself ('Open Form1', 'the Form1 code window'); none uses 'Form Designer'. The window carries no panel-type title (it is titled with the form name).",
+      "status": "target_verified; label is a descriptive later-documented (VB6) name, not a VB4 window title",
+      "invented_ui": false,
+      "review_question": "XTRA-05-RQ2 (noted, low priority)"
+    },
+    {
+      "label": "Toolbox",
+      "target_original_px_inclusive": [4, 78, 67, 400],
+      "target_canvas_box": [353, 207, 449, 691],
+      "target_visible_in_screenshot": true,
+      "screenshot_evidence": "Untitled tool window at the left edge, two columns of control icons (pointer, PictureBox, Label, TextBox, Frame, CommandButton, CheckBox, OptionButton, ComboBox, ListBox, scroll bars, Timer, file-system lists, Shape, Line, Image, Data, OLE, Grid). Edges: light runs x=4 (y 78-399) and y=78 (x 4-66); black runs x=67 (y 78-400) and y=400 (x 4-67).",
+      "name_evidence": "KB Q154885 (applies to VB 4.0 16- and 32-bit editions): 'If the SSTab control does not appear in the toolbox'. VB6 documentation also uses 'Toolbox'.",
+      "status": "verified",
+      "invented_ui": false
+    },
+    {
+      "label": "Properties Window",
+      "target_original_px_inclusive": [599, 338, 792, 567],
+      "target_canvas_box": [1246, 597, 1536, 942],
+      "target_visible_in_screenshot": true,
+      "screenshot_evidence": "Window titled 'Properties - LoanSheet', object box 'grdPayments Grid', property grid (GridLines ... Rows). Edges: light runs x=599 (y 338-566) and y=338 (x 599-791); black runs x=792 (y 338-567) and y=567 (x 599-792).",
+      "name_evidence": "The window's own title contains 'Properties'. KB Q169772 (applies to VB 4.0 32-bit): title 'VB5 .OCX Property Missing from VB4 Properties Window'. KB Q161344 (VB 4.0 32-bit, VB 5.0): 'The VB4 Properties window will only display control properties that are passed by value.'",
+      "status": "verified",
+      "invented_ui": false
+    },
+    {
+      "label": "Code Window",
+      "target_original_px_inclusive": [196, 327, 588, 562],
+      "target_canvas_box": [641, 581, 1230, 934],
+      "target_visible_in_screenshot": true,
+      "screenshot_evidence": "Active window titled 'LoanSheet' with 'Object: grdPayments' and 'Proc: Click' drop-downs and the syntax-coloured event procedure 'Private Sub grdPayments_Click()'. Edges: light runs x=196 (y 327-561) and y=327 (x 196-587); black runs x=588 (y 327-562) and y=562 (x 196-588).",
+      "name_evidence": "KB Q216146 (applies to VB 4.0 32-bit editions, VB 5.0, 6.0): 'Add the following code to the Form1 code window:'. VB6 documentation calls it the 'Code Editor Window' and also uses 'Code Window Keyboard Shortcuts'.",
+      "status": "verified",
+      "invented_ui": false
+    },
+    {
+      "label": "Project Explorer",
+      "target_original_px_inclusive": [600, 77, 797, 187],
+      "target_canvas_box": [1247, 206, 1544, 372],
+      "target_visible_in_screenshot": true,
+      "screenshot_evidence": "Window titled 'Loan' (the project name) with 'View Form' and 'View Code' buttons and the entry 'LOAN.FRM  LoanSheet'. No 'Project Explorer' or 'Project' caption appears. Edges: light runs x=600 (y 77-186) and y=77 (x 600-796); black runs x=797 (y 77-187) and y=187 (x 600-797).",
+      "name_evidence": "KB Q140350 (applies only to VB 4.0 Standard/Professional/Enterprise 32-bit): 'Open Form1, by double-clicking it in the Project window.' KB Q136399 (Visual SourceSafe 4.0-6.0) also says 'the Project window'. Microsoft's VB6 documentation names it 'Project Explorer Window'. No VB4-applicable Microsoft document using 'Project Explorer' was found; no primary source for the exact version of the rename was found (a search-summary claim of a VB4-to-VB5 rename was not supported by the page it cited).",
+      "status": "target_verified; label_is_later_version_terminology (VB4's Microsoft term is 'Project window'); kept verbatim per ticket copy and hand-off",
+      "invented_ui": false,
+      "review_question": "XTRA-05-RQ2"
+    }
+  ],
+  "gates": [
+    {
+      "id": "R03",
+      "title": "Classic-inspired VB.NET versus actual VB4",
+      "status": "blocked",
+      "evidence_paths": ["source-excerpts.md", "provenance.json", "placement-checks.json", "../../../historical/HIST-02/evidence/claim-checks.json", "../../../historical/HIST-02/evidence/source.json"],
+      "claim_checks": [
+        {
+          "id": "V1",
+          "claim": "The pictured IDE is Visual Basic 4.0 (not VB.NET, not a mockup).",
+          "status": "verified_upstream",
+          "evidence": "HIST-02 claim-checks: host caption 'Microsoft Visual Basic 4.0 32 bit - Edit', title bar 'Loan - Microsoft Visual Basic [design]', sibling About capture 'Microsoft Visual Basic Version 4.0 / For 32-bit Windows Development'. This asset uses that file unchanged (SHA-256 re-checked by build.py and verify.py)."
+        },
+        {
+          "id": "N1",
+          "claim": "UI panel names on screen match VB4 (R03 required handling).",
+          "status": "four_of_five_supported; one later-version name",
+          "evidence": "label_checks above: Toolbox, Properties Window and Code Window are supported by VB 4.0-applicable Microsoft KB text and by the screenshot. Form Designer is VB6-documented descriptive wording for a visible form window. Project Explorer is VB6 terminology; VB4's Microsoft term is Project window (Q140350).",
+          "review_question": "XTRA-05-RQ2"
+        },
+        {
+          "id": "L1",
+          "claim": "Narration War/SCRIPT.md:135 (SCRIPT.md:132): toolbox on the left.",
+          "status": "consistent",
+          "evidence": "Toolbox window at original x 4-67 of 800, the left edge."
+        },
+        {
+          "id": "L2",
+          "claim": "Narration: 'In the center was your form — a blank gray window that you designed visually.'",
+          "status": "partly_consistent",
+          "evidence": "The form window spans original x 76-554 (centre about x=315), so it is centre-left rather than centred, and it is a populated sample form (LoanSheet: labels, text boxes, frames, buttons, grid), not a blank gray window. HIST-02 notes the sibling 32-bit About capture shows a blank Form1 in the same layout, but that capture is not committed (serial number).",
+          "review_question": "XTRA-05-RQ3"
+        },
+        {
+          "id": "L3",
+          "claim": "Narration: 'On the right was the properties panel.'",
+          "status": "consistent",
+          "evidence": "Properties window at original x 599-792, the right edge (bottom right); the Project window sits above it."
+        },
+        {
+          "id": "L4",
+          "claim": "Narration: 'behind all of it was the code window.'",
+          "status": "not_depicted_as_described",
+          "evidence": "In this capture the Code window is the active window in front of the form, covering its lower right (original x 196-588, y 327-562). 'Behind' may be meant figuratively (the code behind the form), but the picture shows it in front.",
+          "review_question": "XTRA-05-RQ3"
+        },
+        {
+          "id": "E1",
+          "claim": "Narration SCRIPT.md:134: you wrote code to respond to events such as a button click.",
+          "status": "consistent_with_picture",
+          "evidence": "The Code window shows the event procedure 'Private Sub grdPayments_Click()' (Object grdPayments, Proc Click). The asset adds no RAD or speed claim of its own."
+        },
+        {
+          "id": "P1",
+          "claim": "The asset makes no VB4 compile/run or Program.vb claim.",
+          "status": "supported",
+          "evidence": "On-screen authored text is only the five labels. No code excerpt, output or execution is shown or implied."
+        }
+      ],
+      "reason": "The picture is authentic VB4 and three of five labels are VB4-documented names. 'Project Explorer' (and, less critically, 'Form Designer') is later-version wording, and the narration's form/code-window description only partly matches this capture. Those are wording decisions for the Writing Lead that evidence cannot settle, so R03 stays blocked for release. No War/SCRIPT.md edit was made.",
+      "review_questions": ["XTRA-05-RQ2", "XTRA-05-RQ3"],
+      "approver": null,
+      "decision": null
+    },
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence_paths": ["provenance.json", "placement-checks.json", "../../../historical/HIST-02/evidence/rights.json", "../../../historical/HIST-02/evidence/source.json", "../../../historical/HIST-02/evidence/claim-checks.json"],
+      "claim_checks": [
+        {
+          "id": "L1",
+          "claim": "The image's rights holder, host terms, access method and credit are recorded.",
+          "status": "supported (inherited)",
+          "evidence": "HIST-02 rights.json: Microsoft (UI copyright), unknown WinWorld capturer, unknown author of the 'Loan' project; WinWorld grants no screenshot license; public URL, no account or terms; rights_status 'unresolved'; credit_text null; proposed credit recorded."
+        },
+        {
+          "id": "L2",
+          "claim": "The image is licensed or permitted for use in the video.",
+          "status": "not_established",
+          "evidence": "HIST-02 release_status 'blocked' (RQ-HIST-02-1). Annotating it changes nothing about its rights.",
+          "review_question": "XTRA-05-RQ4"
+        },
+        {
+          "id": "M1",
+          "claim": "clean-workspace meets Microsoft's stated form conditions 'resize only' and 'no portions'.",
+          "status": "supported_for_form_only",
+          "evidence": "placement-checks.json: the whole 800x600 image at exactly 1.5x (1200x900), 0 differing pixels against a fresh BOX resample, mat ring outside untouched, no text. Whether pillarboxing/framing counts as alteration is already open upstream."
+        },
+        {
+          "id": "M2",
+          "claim": "five-callouts meets 'Do not alter the screenshot except to resize it'.",
+          "status": "unresolved",
+          "evidence": "The whole screenshot is kept (no portion is isolated), but 37,080 export pixels over the image are covered by annotation marks: window-frame outlines and leaders over empty desktop (evidence/placement-checks.json lists the original pixels per mark; none is code or text). Whether overlay callouts count as alteration is a legal reading evidence cannot settle (carries RQ-HIST-02-3).",
+          "review_question": "XTRA-05-RQ1"
+        },
+        {
+          "id": "C1",
+          "claim": "On-screen credit follows the rights record.",
+          "status": "supported",
+          "evidence": "No credit is burned in: credit_text is null and the proposed credit's Microsoft sentence must not be used before RQ-HIST-02-1 is decided (HIST-02 source.json). delivery.json credits carries the proposed credit marked 'proposed, not approved'.",
+          "review_question": "XTRA-05-RQ4"
+        },
+        {
+          "id": "T1",
+          "claim": "No third-party content concern is introduced or resolved by this asset.",
+          "status": "unresolved (inherited)",
+          "evidence": "The 'Loan' project (LOAN.FRM, form graphic) authorship is unknown (RQ-HIST-02-2); both variants show it whole.",
+          "review_question": "XTRA-05-RQ5"
+        },
+        {
+          "id": "B1",
+          "claim": "The proof is kept out of cleared media.",
+          "status": "supported",
+          "evidence": "state.json and delivery.json release_status 'blocked', unresolved_gates R03 and R14; no file placed in any cleared-media bin."
+        }
+      ],
+      "reason": "The underlying screenshot's rights are unresolved upstream, and whether callout marks over a whole Microsoft screenshot are permitted is an open legal/edit question. Internal proof only.",
+      "review_questions": ["XTRA-05-RQ1", "XTRA-05-RQ4", "XTRA-05-RQ5"],
+      "approver": null,
+      "decision": null
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "XTRA-05-RQ1",
+      "gate": "R14",
+      "carries": "RQ-HIST-02-3",
+      "for": "Devin (rights / edit)",
+      "question": "Microsoft's screenshot terms say 'Do not alter the screenshot except to resize it' and 'Do not use portions of screenshots'. five-callouts keeps the whole screenshot but draws 5 px outlines on five window frames and five leader lines over empty desktop (every covered original pixel is listed in evidence/placement-checks.json; no code or text is covered). Are callout marks over a whole Microsoft screenshot acceptable? If not: use clean-workspace (whole, resize-only, frame outside) and put the labels in a separate layer whose leaders stop at the image edge (buildable on request), or arrange a native capture.",
+      "evidence": "evidence/claim-checks.json (R14 M1, M2); evidence/provenance.json annotation_edit_history; ../../historical/HIST-02/evidence/rights.json",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-05-RQ2",
+      "gate": "R03",
+      "carries": "RQ-HIST-02-4",
+      "for": "Writing Lead",
+      "question": "The callout 'Project Explorer' is later-version (VB6-documented) terminology. VB4's window is titled with the project name ('Loan'), and a VB 4.0-only Microsoft KB article (Q140350) calls it the 'Project window'. The render keeps the ticket copy 'Project Explorer' as instructed. Note that War/SCRIPT.md:133 was already changed to 'Project Window' in commit 9e6f14a (Writing Lead batch) while the ticket/manifest copy still says 'Project Explorer', so the picture and the working script now disagree. Confirm 'Project Window' (the label then needs a producer-approved copy override in src/build.py and a re-render; one label only) or keep 'Project Explorer'? Lower priority: 'Form Designer' is also VB6 documentation wording for what VB4 material calls the form; keep it, or use e.g. 'Form'?",
+      "evidence": "evidence/claim-checks.json (label_checks, R03 N1); evidence/source-excerpts.md §2 and §6",
+      "blocks": "release only (R03)"
+    },
+    {
+      "id": "XTRA-05-RQ3",
+      "gate": "R03",
+      "for": "Writing Lead",
+      "question": "The narration over this visual (War/SCRIPT.md:135) says the form was 'in the center' as 'a blank gray window' and the code window was 'behind all of it'. In the only accepted VB4 capture the form is centre-left, it is a populated sample (LoanSheet), and the Code window is open in front of the form. Toolbox-left and properties-right match. Keep the narration as a general description of the IDE (possibly with 'behind' read as 'the code behind the form'), soften it (for example 'and a code window where you wrote your actual BASIC'), or ask the edit to hold on clean-workspace during that sentence? No script edit was made.",
+      "evidence": "evidence/claim-checks.json (R03 L1-L4)",
+      "blocks": "release only (R03)"
+    },
+    {
+      "id": "XTRA-05-RQ4",
+      "gate": "R14",
+      "carries": "RQ-HIST-02-1",
+      "for": "Devin (rights / credits)",
+      "question": "No credit is burned into either variant, because HIST-02's proposed credit ('... Used with permission from Microsoft.') must not be used before the rights basis is decided. If Microsoft's screenshot permission is the chosen basis, where should the required statement go: video description, end credits, or on screen? At 1.5x there is no room inside the text safe area below the screenshot; an on-screen line would need the image reduced slightly (about 1.44x) and a re-render.",
+      "evidence": "evidence/claim-checks.json (R14 C1); ../../historical/HIST-02/evidence/source.json proposed_credit_notes",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-05-RQ5",
+      "gate": "R14",
+      "carries": "RQ-HIST-02-2",
+      "for": "Devin (rights)",
+      "question": "Both variants show the 'Loan' project (LOAN.FRM, including its form graphic) whole; its authorship is unestablished and Microsoft's terms exclude screenshots containing third-party content. Inherited unchanged from HIST-02; release of XTRA-05 follows that decision.",
+      "evidence": "../../historical/HIST-02/evidence/rights.json",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-05-RQ6",
+      "gate": "R03",
+      "for": "Devin (edit)",
+      "question": "The cue says 'Side-by-side — the VB4 IDE with labeled callouts'. Two full-frame stills share an identical screenshot rectangle, so the edit can cut or dissolve from clean-workspace to five-callouts. A literal side-by-side of both would halve the screenshot (about 0.75x) and make its UI text unreadable at 720p. Is cut/dissolve acceptable, or is a split-screen wanted?",
+      "evidence": "qa.md (manual inspection); src/layout.json placement",
+      "blocks": "nothing (edit choice)"
+    }
+  ]
+}

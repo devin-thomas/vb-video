@@ -1,0 +1,2547 @@
+{
+  "id": "XTRA-05",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "coordinates": "canvas pixels, origin top-left of the 1920x1080 export; rectangles are [x0, y0, x1, y1) half-open. Original pixel ranges are inclusive, origin top-left of the 800x600 original.",
+  "source": {
+    "asset": "HIST-02",
+    "file": "assets/historical/HIST-02/source/original.png",
+    "rel_path": "../../historical/HIST-02/source/original.png",
+    "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+    "bytes": 13081,
+    "mode": "P",
+    "size": [
+      800,
+      600
+    ]
+  },
+  "placement": {
+    "x": 347,
+    "y": 90,
+    "w": 1200,
+    "h": 900,
+    "scale_x": 1.5,
+    "scale_y": 1.5,
+    "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
+    "crop": null,
+    "rotation_deg": 0,
+    "retouch": null,
+    "embedded_png_sha256": "4662cb7139c45dc1669ad5a0172c534959189c9fb65bfa490f521020b4f940ee",
+    "embedded_png_bytes": 29391,
+    "frame_outer": [
+      340,
+      83,
+      1554,
+      997
+    ],
+    "identical_in_variants": [
+      "clean-workspace",
+      "five-callouts"
+    ]
+  },
+  "frame": {
+    "mat_px": 6,
+    "stroke_px": 2,
+    "extent_outside_image_px": 7,
+    "mat_fill": "#1b2027",
+    "stroke": "#343d48",
+    "background": "#111318"
+  },
+  "label_style": {
+    "font": "Liberation Sans Bold",
+    "size_px": 40,
+    "leading": 1.15,
+    "fill": "#f1f3f5",
+    "metrics": {
+      "ascent": 37,
+      "descent": 9
+    },
+    "line_breaks": "multi-word labels are stacked one word per line; the words, spelling and capitalisation are the ticket copy"
+  },
+  "mark_style": {
+    "thickness_px": 5,
+    "core": "#eab676",
+    "core_px": 3,
+    "casing": "#111318",
+    "casing_px": 1,
+    "outline_position": "inside each target window outer boundary, so the outline covers only that window's outer frame bevel (about 3.3 original px)",
+    "leader_position": "horizontal, on an original row that is desktop teal between the image edge and the target"
+  },
+  "targets": [
+    {
+      "label": "Toolbox",
+      "panel": "Toolbox window (untitled tool window, vertical strip of control icons)",
+      "rect": [
+        4,
+        78,
+        67,
+        400
+      ],
+      "side": "left",
+      "leader_y": 240,
+      "shape": "closed outline",
+      "canvas_box": [
+        353,
+        207,
+        449,
+        691
+      ],
+      "leader_row_canvas": [
+        448,
+        453
+      ],
+      "texts": [
+        {
+          "text": "Toolbox",
+          "x": 291,
+          "anchor": "end",
+          "baseline": 464.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            138.05,
+            427.5,
+            291.0,
+            473.5
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Toolbox",
+          "type": "outline",
+          "casing_rects": [
+            [
+              353,
+              207,
+              449,
+              212
+            ],
+            [
+              353,
+              686,
+              449,
+              691
+            ],
+            [
+              353,
+              207,
+              358,
+              691
+            ],
+            [
+              444,
+              207,
+              449,
+              691
+            ]
+          ],
+          "core_rects": [
+            [
+              354,
+              208,
+              448,
+              211
+            ],
+            [
+              354,
+              687,
+              448,
+              690
+            ],
+            [
+              354,
+              208,
+              357,
+              690
+            ],
+            [
+              445,
+              208,
+              448,
+              690
+            ]
+          ]
+        },
+        {
+          "target": "Toolbox",
+          "type": "leader",
+          "casing_rects": [
+            [
+              305,
+              448,
+              353,
+              453
+            ]
+          ],
+          "core_rects": [
+            [
+              306,
+              449,
+              354,
+              452
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Form Designer",
+      "panel": "Form window 'LoanSheet' in design mode (grid dots, controls); lower right covered by the Code window",
+      "rect": [
+        76,
+        76,
+        554,
+        462
+      ],
+      "side": "left",
+      "leader_y": 430,
+      "shape": "open outline along the visible edges, stopping short of the Code Window outline",
+      "canvas_box": [
+        461,
+        204,
+        1179,
+        784
+      ],
+      "leader_row_canvas": [
+        733,
+        738
+      ],
+      "texts": [
+        {
+          "text": "Form",
+          "x": 291,
+          "anchor": "end",
+          "baseline": 726.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            191.0,
+            689.5,
+            291.0,
+            735.5
+          ]
+        },
+        {
+          "text": "Designer",
+          "x": 291,
+          "anchor": "end",
+          "baseline": 772.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            121.0,
+            735.5,
+            291.0,
+            781.5
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Form Designer",
+          "type": "outline",
+          "casing_rects": [
+            [
+              461,
+              204,
+              1179,
+              209
+            ],
+            [
+              461,
+              204,
+              466,
+              784
+            ],
+            [
+              1174,
+              204,
+              1179,
+              575
+            ],
+            [
+              461,
+              779,
+              635,
+              784
+            ]
+          ],
+          "core_rects": [
+            [
+              462,
+              205,
+              1178,
+              208
+            ],
+            [
+              462,
+              205,
+              465,
+              783
+            ],
+            [
+              1175,
+              205,
+              1178,
+              574
+            ],
+            [
+              462,
+              780,
+              634,
+              783
+            ]
+          ]
+        },
+        {
+          "target": "Form Designer",
+          "type": "leader",
+          "casing_rects": [
+            [
+              305,
+              733,
+              461,
+              738
+            ]
+          ],
+          "core_rects": [
+            [
+              306,
+              734,
+              462,
+              737
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Code Window",
+      "panel": "Code window 'LoanSheet' (Object: grdPayments, Proc: Click)",
+      "rect": [
+        196,
+        327,
+        588,
+        562
+      ],
+      "side": "left",
+      "leader_y": 535,
+      "shape": "closed outline",
+      "canvas_box": [
+        641,
+        581,
+        1230,
+        934
+      ],
+      "leader_row_canvas": [
+        891,
+        896
+      ],
+      "texts": [
+        {
+          "text": "Code",
+          "x": 291,
+          "anchor": "end",
+          "baseline": 884.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            192.0,
+            847.5,
+            291.0,
+            893.5
+          ]
+        },
+        {
+          "text": "Window",
+          "x": 291,
+          "anchor": "end",
+          "baseline": 930.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            139.0,
+            893.5,
+            291.0,
+            939.5
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Code Window",
+          "type": "outline",
+          "casing_rects": [
+            [
+              641,
+              581,
+              1230,
+              586
+            ],
+            [
+              641,
+              929,
+              1230,
+              934
+            ],
+            [
+              641,
+              581,
+              646,
+              934
+            ],
+            [
+              1225,
+              581,
+              1230,
+              934
+            ]
+          ],
+          "core_rects": [
+            [
+              642,
+              582,
+              1229,
+              585
+            ],
+            [
+              642,
+              930,
+              1229,
+              933
+            ],
+            [
+              642,
+              582,
+              645,
+              933
+            ],
+            [
+              1226,
+              582,
+              1229,
+              933
+            ]
+          ]
+        },
+        {
+          "target": "Code Window",
+          "type": "leader",
+          "casing_rects": [
+            [
+              305,
+              891,
+              641,
+              896
+            ]
+          ],
+          "core_rects": [
+            [
+              306,
+              892,
+              642,
+              895
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Project Explorer",
+      "panel": "Project window titled 'Loan' (View Form / View Code, LOAN.FRM LoanSheet)",
+      "rect": [
+        600,
+        77,
+        797,
+        187
+      ],
+      "side": "right",
+      "leader_y": 150,
+      "shape": "closed outline",
+      "canvas_box": [
+        1247,
+        206,
+        1544,
+        372
+      ],
+      "leader_row_canvas": [
+        313,
+        318
+      ],
+      "texts": [
+        {
+          "text": "Project",
+          "x": 1603,
+          "anchor": "start",
+          "baseline": 306.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1603,
+            269.5,
+            1738.0,
+            315.5
+          ]
+        },
+        {
+          "text": "Explorer",
+          "x": 1603,
+          "anchor": "start",
+          "baseline": 352.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1603,
+            315.5,
+            1765.0,
+            361.5
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Project Explorer",
+          "type": "outline",
+          "casing_rects": [
+            [
+              1247,
+              206,
+              1544,
+              211
+            ],
+            [
+              1247,
+              367,
+              1544,
+              372
+            ],
+            [
+              1247,
+              206,
+              1252,
+              372
+            ],
+            [
+              1539,
+              206,
+              1544,
+              372
+            ]
+          ],
+          "core_rects": [
+            [
+              1248,
+              207,
+              1543,
+              210
+            ],
+            [
+              1248,
+              368,
+              1543,
+              371
+            ],
+            [
+              1248,
+              207,
+              1251,
+              371
+            ],
+            [
+              1540,
+              207,
+              1543,
+              371
+            ]
+          ]
+        },
+        {
+          "target": "Project Explorer",
+          "type": "leader",
+          "casing_rects": [
+            [
+              1544,
+              313,
+              1589,
+              318
+            ]
+          ],
+          "core_rects": [
+            [
+              1543,
+              314,
+              1588,
+              317
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Properties Window",
+      "panel": "Properties window 'Properties - LoanSheet' (grdPayments Grid)",
+      "rect": [
+        599,
+        338,
+        792,
+        567
+      ],
+      "side": "right",
+      "leader_y": 470,
+      "shape": "closed outline",
+      "canvas_box": [
+        1246,
+        597,
+        1536,
+        942
+      ],
+      "leader_row_canvas": [
+        793,
+        798
+      ],
+      "texts": [
+        {
+          "text": "Properties",
+          "x": 1603,
+          "anchor": "start",
+          "baseline": 786.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1603,
+            749.5,
+            1800.0,
+            795.5
+          ]
+        },
+        {
+          "text": "Window",
+          "x": 1603,
+          "anchor": "start",
+          "baseline": 832.5,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1603,
+            795.5,
+            1755.0,
+            841.5
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Properties Window",
+          "type": "outline",
+          "casing_rects": [
+            [
+              1246,
+              597,
+              1536,
+              602
+            ],
+            [
+              1246,
+              937,
+              1536,
+              942
+            ],
+            [
+              1246,
+              597,
+              1251,
+              942
+            ],
+            [
+              1531,
+              597,
+              1536,
+              942
+            ]
+          ],
+          "core_rects": [
+            [
+              1247,
+              598,
+              1535,
+              601
+            ],
+            [
+              1247,
+              938,
+              1535,
+              941
+            ],
+            [
+              1247,
+              598,
+              1250,
+              941
+            ],
+            [
+              1532,
+              598,
+              1535,
+              941
+            ]
+          ]
+        },
+        {
+          "target": "Properties Window",
+          "type": "leader",
+          "casing_rects": [
+            [
+              1536,
+              793,
+              1589,
+              798
+            ]
+          ],
+          "core_rects": [
+            [
+              1535,
+              794,
+              1588,
+              797
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "annotation_edits": [
+    {
+      "n": 1,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        353,
+        207,
+        449,
+        212
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          353,
+          207,
+          449,
+          212
+        ],
+        "original_px_inclusive": [
+          4,
+          78,
+          67,
+          81
+        ],
+        "original_px_count": 256,
+        "original_colours": {
+          "#dfd8df": 66,
+          "#fff8ff": 63,
+          "#bfb8bf": 62,
+          "#7f787f": 61,
+          "#000000": 4
+        }
+      }
+    },
+    {
+      "n": 2,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        353,
+        686,
+        449,
+        691
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          353,
+          686,
+          449,
+          691
+        ],
+        "original_px_inclusive": [
+          4,
+          397,
+          67,
+          400
+        ],
+        "original_px_count": 256,
+        "original_colours": {
+          "#000000": 67,
+          "#7f787f": 64,
+          "#bfb8bf": 62,
+          "#fff8ff": 60,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 3,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        353,
+        207,
+        358,
+        691
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          353,
+          207,
+          358,
+          691
+        ],
+        "original_px_inclusive": [
+          4,
+          78,
+          7,
+          400
+        ],
+        "original_px_count": 1292,
+        "original_colours": {
+          "#dfd8df": 325,
+          "#fff8ff": 323,
+          "#bfb8bf": 322,
+          "#7f787f": 318,
+          "#000000": 4
+        }
+      }
+    },
+    {
+      "n": 4,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        444,
+        207,
+        449,
+        691
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          444,
+          207,
+          449,
+          691
+        ],
+        "original_px_inclusive": [
+          64,
+          78,
+          67,
+          400
+        ],
+        "original_px_count": 1292,
+        "original_colours": {
+          "#7f787f": 338,
+          "#000000": 326,
+          "#bfb8bf": 322,
+          "#fff8ff": 303,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 5,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        354,
+        208,
+        448,
+        211
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          354,
+          208,
+          448,
+          211
+        ],
+        "original_px_inclusive": [
+          4,
+          78,
+          67,
+          80
+        ],
+        "original_px_count": 192,
+        "original_colours": {
+          "#dfd8df": 65,
+          "#fff8ff": 62,
+          "#bfb8bf": 60,
+          "#000000": 3,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 6,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        354,
+        687,
+        448,
+        690
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          354,
+          687,
+          448,
+          690
+        ],
+        "original_px_inclusive": [
+          4,
+          398,
+          67,
+          399
+        ],
+        "original_px_count": 128,
+        "original_colours": {
+          "#7f787f": 63,
+          "#bfb8bf": 60,
+          "#dfd8df": 2,
+          "#000000": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 7,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        354,
+        208,
+        357,
+        690
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          354,
+          208,
+          357,
+          690
+        ],
+        "original_px_inclusive": [
+          4,
+          78,
+          6,
+          399
+        ],
+        "original_px_count": 966,
+        "original_colours": {
+          "#dfd8df": 324,
+          "#fff8ff": 321,
+          "#bfb8bf": 319,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 8,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        445,
+        208,
+        448,
+        690
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          445,
+          208,
+          448,
+          690
+        ],
+        "original_px_inclusive": [
+          65,
+          78,
+          67,
+          399
+        ],
+        "original_px_count": 966,
+        "original_colours": {
+          "#000000": 322,
+          "#7f787f": 322,
+          "#bfb8bf": 319,
+          "#dfd8df": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 9,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        305,
+        448,
+        353,
+        453
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          347,
+          448,
+          353,
+          453
+        ],
+        "original_px_inclusive": [
+          0,
+          238,
+          3,
+          241
+        ],
+        "original_px_count": 16,
+        "original_colours": {
+          "#00787f": 16
+        }
+      }
+    },
+    {
+      "n": 10,
+      "variant": "five-callouts",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        306,
+        449,
+        354,
+        452
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          347,
+          449,
+          354,
+          452
+        ],
+        "original_px_inclusive": [
+          0,
+          239,
+          4,
+          241
+        ],
+        "original_px_count": 15,
+        "original_colours": {
+          "#00787f": 12,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 11,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        461,
+        204,
+        1179,
+        209
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          461,
+          204,
+          1179,
+          209
+        ],
+        "original_px_inclusive": [
+          76,
+          76,
+          554,
+          79
+        ],
+        "original_px_count": 1916,
+        "original_colours": {
+          "#bfb8bf": 950,
+          "#dfd8df": 481,
+          "#fff8ff": 478,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 12,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        461,
+        204,
+        466,
+        784
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          461,
+          204,
+          466,
+          784
+        ],
+        "original_px_inclusive": [
+          76,
+          76,
+          79,
+          462
+        ],
+        "original_px_count": 1548,
+        "original_colours": {
+          "#bfb8bf": 766,
+          "#dfd8df": 389,
+          "#fff8ff": 386,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 13,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1174,
+        204,
+        1179,
+        575
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1174,
+          204,
+          1179,
+          575
+        ],
+        "original_px_inclusive": [
+          551,
+          76,
+          554,
+          323
+        ],
+        "original_px_count": 992,
+        "original_colours": {
+          "#bfb8bf": 492,
+          "#000000": 248,
+          "#7f787f": 247,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 14,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        461,
+        779,
+        635,
+        784
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          461,
+          779,
+          635,
+          784
+        ],
+        "original_px_inclusive": [
+          76,
+          459,
+          191,
+          462
+        ],
+        "original_px_count": 464,
+        "original_colours": {
+          "#bfb8bf": 228,
+          "#000000": 116,
+          "#7f787f": 115,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 15,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        462,
+        205,
+        1178,
+        208
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          462,
+          205,
+          1178,
+          208
+        ],
+        "original_px_inclusive": [
+          76,
+          76,
+          553,
+          78
+        ],
+        "original_px_count": 1434,
+        "original_colours": {
+          "#dfd8df": 480,
+          "#fff8ff": 477,
+          "#bfb8bf": 475,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 16,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        462,
+        205,
+        465,
+        783
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          462,
+          205,
+          465,
+          783
+        ],
+        "original_px_inclusive": [
+          76,
+          76,
+          78,
+          461
+        ],
+        "original_px_count": 1158,
+        "original_colours": {
+          "#dfd8df": 388,
+          "#fff8ff": 385,
+          "#bfb8bf": 383,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 17,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1175,
+        205,
+        1178,
+        574
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1175,
+          205,
+          1178,
+          574
+        ],
+        "original_px_inclusive": [
+          552,
+          76,
+          553,
+          322
+        ],
+        "original_px_count": 494,
+        "original_colours": {
+          "#7f787f": 246,
+          "#bfb8bf": 245,
+          "#dfd8df": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 18,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        462,
+        780,
+        634,
+        783
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          462,
+          780,
+          634,
+          783
+        ],
+        "original_px_inclusive": [
+          76,
+          460,
+          191,
+          461
+        ],
+        "original_px_count": 232,
+        "original_colours": {
+          "#7f787f": 115,
+          "#bfb8bf": 114,
+          "#dfd8df": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 19,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        305,
+        733,
+        461,
+        738
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          347,
+          733,
+          461,
+          738
+        ],
+        "original_px_inclusive": [
+          0,
+          428,
+          75,
+          431
+        ],
+        "original_px_count": 304,
+        "original_colours": {
+          "#00787f": 304
+        }
+      }
+    },
+    {
+      "n": 20,
+      "variant": "five-callouts",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        306,
+        734,
+        462,
+        737
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          347,
+          734,
+          462,
+          737
+        ],
+        "original_px_inclusive": [
+          0,
+          429,
+          76,
+          431
+        ],
+        "original_px_count": 231,
+        "original_colours": {
+          "#00787f": 228,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 21,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        641,
+        581,
+        1230,
+        586
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          641,
+          581,
+          1230,
+          586
+        ],
+        "original_px_inclusive": [
+          196,
+          327,
+          588,
+          330
+        ],
+        "original_px_count": 1572,
+        "original_colours": {
+          "#bfb8bf": 778,
+          "#dfd8df": 395,
+          "#fff8ff": 392,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 22,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        641,
+        929,
+        1230,
+        934
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          641,
+          929,
+          1230,
+          934
+        ],
+        "original_px_inclusive": [
+          196,
+          559,
+          588,
+          562
+        ],
+        "original_px_count": 1572,
+        "original_colours": {
+          "#bfb8bf": 778,
+          "#000000": 396,
+          "#7f787f": 393,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 23,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        641,
+        581,
+        646,
+        934
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          641,
+          581,
+          646,
+          934
+        ],
+        "original_px_inclusive": [
+          196,
+          327,
+          199,
+          562
+        ],
+        "original_px_count": 944,
+        "original_colours": {
+          "#bfb8bf": 464,
+          "#dfd8df": 238,
+          "#fff8ff": 235,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 24,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1225,
+        581,
+        1230,
+        934
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1225,
+          581,
+          1230,
+          934
+        ],
+        "original_px_inclusive": [
+          585,
+          327,
+          588,
+          562
+        ],
+        "original_px_count": 944,
+        "original_colours": {
+          "#bfb8bf": 464,
+          "#000000": 239,
+          "#7f787f": 236,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 25,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        642,
+        582,
+        1229,
+        585
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          642,
+          582,
+          1229,
+          585
+        ],
+        "original_px_inclusive": [
+          196,
+          328,
+          587,
+          329
+        ],
+        "original_px_count": 784,
+        "original_colours": {
+          "#fff8ff": 391,
+          "#bfb8bf": 389,
+          "#dfd8df": 2,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 26,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        642,
+        930,
+        1229,
+        933
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          642,
+          930,
+          1229,
+          933
+        ],
+        "original_px_inclusive": [
+          196,
+          560,
+          587,
+          561
+        ],
+        "original_px_count": 784,
+        "original_colours": {
+          "#7f787f": 392,
+          "#bfb8bf": 389,
+          "#dfd8df": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 27,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        642,
+        582,
+        645,
+        933
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          642,
+          582,
+          645,
+          933
+        ],
+        "original_px_inclusive": [
+          196,
+          328,
+          198,
+          561
+        ],
+        "original_px_count": 702,
+        "original_colours": {
+          "#dfd8df": 234,
+          "#fff8ff": 234,
+          "#bfb8bf": 232,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 28,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1226,
+        582,
+        1229,
+        933
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1226,
+          582,
+          1229,
+          933
+        ],
+        "original_px_inclusive": [
+          586,
+          328,
+          587,
+          561
+        ],
+        "original_px_count": 468,
+        "original_colours": {
+          "#7f787f": 235,
+          "#bfb8bf": 232,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 29,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        305,
+        891,
+        641,
+        896
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          347,
+          891,
+          641,
+          896
+        ],
+        "original_px_inclusive": [
+          0,
+          534,
+          195,
+          537
+        ],
+        "original_px_count": 784,
+        "original_colours": {
+          "#00787f": 784
+        }
+      }
+    },
+    {
+      "n": 30,
+      "variant": "five-callouts",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        306,
+        892,
+        642,
+        895
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          347,
+          892,
+          642,
+          895
+        ],
+        "original_px_inclusive": [
+          0,
+          534,
+          196,
+          536
+        ],
+        "original_px_count": 591,
+        "original_colours": {
+          "#00787f": 588,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 31,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1247,
+        206,
+        1544,
+        211
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1247,
+          206,
+          1544,
+          211
+        ],
+        "original_px_inclusive": [
+          600,
+          77,
+          797,
+          80
+        ],
+        "original_px_count": 792,
+        "original_colours": {
+          "#bfb8bf": 388,
+          "#dfd8df": 200,
+          "#fff8ff": 197,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 32,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1247,
+        367,
+        1544,
+        372
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1247,
+          367,
+          1544,
+          372
+        ],
+        "original_px_inclusive": [
+          600,
+          184,
+          797,
+          187
+        ],
+        "original_px_count": 792,
+        "original_colours": {
+          "#bfb8bf": 388,
+          "#000000": 201,
+          "#7f787f": 198,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 33,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1247,
+        206,
+        1252,
+        372
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1247,
+          206,
+          1252,
+          372
+        ],
+        "original_px_inclusive": [
+          600,
+          77,
+          603,
+          187
+        ],
+        "original_px_count": 444,
+        "original_colours": {
+          "#bfb8bf": 214,
+          "#dfd8df": 113,
+          "#fff8ff": 110,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 34,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1539,
+        206,
+        1544,
+        372
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1539,
+          206,
+          1544,
+          372
+        ],
+        "original_px_inclusive": [
+          794,
+          77,
+          797,
+          187
+        ],
+        "original_px_count": 444,
+        "original_colours": {
+          "#bfb8bf": 214,
+          "#000000": 114,
+          "#7f787f": 111,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 35,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1248,
+        207,
+        1543,
+        210
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1248,
+          207,
+          1543,
+          210
+        ],
+        "original_px_inclusive": [
+          600,
+          78,
+          797,
+          79
+        ],
+        "original_px_count": 396,
+        "original_colours": {
+          "#fff8ff": 196,
+          "#bfb8bf": 194,
+          "#dfd8df": 2,
+          "#7f787f": 2,
+          "#000000": 2
+        }
+      }
+    },
+    {
+      "n": 36,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1248,
+        368,
+        1543,
+        371
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1248,
+          368,
+          1543,
+          371
+        ],
+        "original_px_inclusive": [
+          600,
+          185,
+          797,
+          187
+        ],
+        "original_px_count": 594,
+        "original_colours": {
+          "#000000": 200,
+          "#7f787f": 197,
+          "#bfb8bf": 194,
+          "#dfd8df": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 37,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1248,
+        207,
+        1251,
+        371
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1248,
+          207,
+          1251,
+          371
+        ],
+        "original_px_inclusive": [
+          600,
+          78,
+          602,
+          187
+        ],
+        "original_px_count": 330,
+        "original_colours": {
+          "#dfd8df": 109,
+          "#fff8ff": 109,
+          "#bfb8bf": 107,
+          "#000000": 3,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 38,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1540,
+        207,
+        1543,
+        371
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1540,
+          207,
+          1543,
+          371
+        ],
+        "original_px_inclusive": [
+          795,
+          78,
+          797,
+          187
+        ],
+        "original_px_count": 330,
+        "original_colours": {
+          "#000000": 112,
+          "#7f787f": 110,
+          "#bfb8bf": 107,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 39,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1544,
+        313,
+        1589,
+        318
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1544,
+          313,
+          1547,
+          318
+        ],
+        "original_px_inclusive": [
+          798,
+          148,
+          799,
+          151
+        ],
+        "original_px_count": 8,
+        "original_colours": {
+          "#00787f": 8
+        }
+      }
+    },
+    {
+      "n": 40,
+      "variant": "five-callouts",
+      "target": "Project Explorer",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1543,
+        314,
+        1588,
+        317
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1543,
+          314,
+          1547,
+          317
+        ],
+        "original_px_inclusive": [
+          797,
+          149,
+          799,
+          151
+        ],
+        "original_px_count": 9,
+        "original_colours": {
+          "#00787f": 6,
+          "#000000": 3
+        }
+      }
+    },
+    {
+      "n": 41,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1246,
+        597,
+        1536,
+        602
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1246,
+          597,
+          1536,
+          602
+        ],
+        "original_px_inclusive": [
+          599,
+          338,
+          792,
+          341
+        ],
+        "original_px_count": 776,
+        "original_colours": {
+          "#bfb8bf": 380,
+          "#dfd8df": 196,
+          "#fff8ff": 193,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 42,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1246,
+        937,
+        1536,
+        942
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1246,
+          937,
+          1536,
+          942
+        ],
+        "original_px_inclusive": [
+          599,
+          564,
+          792,
+          567
+        ],
+        "original_px_count": 776,
+        "original_colours": {
+          "#bfb8bf": 380,
+          "#000000": 197,
+          "#7f787f": 194,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 43,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1246,
+        597,
+        1251,
+        942
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1246,
+          597,
+          1251,
+          942
+        ],
+        "original_px_inclusive": [
+          599,
+          338,
+          602,
+          567
+        ],
+        "original_px_count": 920,
+        "original_colours": {
+          "#bfb8bf": 452,
+          "#dfd8df": 232,
+          "#fff8ff": 229,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 44,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1531,
+        597,
+        1536,
+        942
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1531,
+          597,
+          1536,
+          942
+        ],
+        "original_px_inclusive": [
+          789,
+          338,
+          792,
+          567
+        ],
+        "original_px_count": 920,
+        "original_colours": {
+          "#bfb8bf": 452,
+          "#000000": 233,
+          "#7f787f": 230,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 45,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1247,
+        598,
+        1535,
+        601
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1247,
+          598,
+          1535,
+          601
+        ],
+        "original_px_inclusive": [
+          600,
+          338,
+          791,
+          340
+        ],
+        "original_px_count": 576,
+        "original_colours": {
+          "#dfd8df": 192,
+          "#fff8ff": 192,
+          "#bfb8bf": 190,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 46,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1247,
+        938,
+        1535,
+        941
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1247,
+          938,
+          1535,
+          941
+        ],
+        "original_px_inclusive": [
+          600,
+          565,
+          791,
+          567
+        ],
+        "original_px_count": 576,
+        "original_colours": {
+          "#7f787f": 193,
+          "#000000": 192,
+          "#bfb8bf": 190,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 47,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1247,
+        598,
+        1250,
+        941
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1247,
+          598,
+          1250,
+          941
+        ],
+        "original_px_inclusive": [
+          600,
+          338,
+          601,
+          567
+        ],
+        "original_px_count": 460,
+        "original_colours": {
+          "#fff8ff": 228,
+          "#bfb8bf": 226,
+          "#dfd8df": 2,
+          "#7f787f": 2,
+          "#000000": 2
+        }
+      }
+    },
+    {
+      "n": 48,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1532,
+        598,
+        1535,
+        941
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1532,
+          598,
+          1535,
+          941
+        ],
+        "original_px_inclusive": [
+          790,
+          338,
+          791,
+          567
+        ],
+        "original_px_count": 460,
+        "original_colours": {
+          "#7f787f": 229,
+          "#bfb8bf": 226,
+          "#dfd8df": 2,
+          "#000000": 2,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 49,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1536,
+        793,
+        1589,
+        798
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1536,
+          793,
+          1547,
+          798
+        ],
+        "original_px_inclusive": [
+          792,
+          468,
+          799,
+          471
+        ],
+        "original_px_count": 32,
+        "original_colours": {
+          "#00787f": 28,
+          "#000000": 4
+        }
+      }
+    },
+    {
+      "n": 50,
+      "variant": "five-callouts",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1535,
+        794,
+        1588,
+        797
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1535,
+          794,
+          1547,
+          797
+        ],
+        "original_px_inclusive": [
+          792,
+          469,
+          799,
+          471
+        ],
+        "original_px_count": 24,
+        "original_colours": {
+          "#00787f": 21,
+          "#000000": 3
+        }
+      }
+    }
+  ],
+  "build_checks": {
+    "labels_clear_of_screenshot_and_frame": true,
+    "labels_in_safe_area": true,
+    "labels_clear_of_each_other": true,
+    "marks_clear_of_labels": true,
+    "outlines_inside_image_and_not_touching": true,
+    "problems": []
+  },
+  "variants": {
+    "clean-workspace": {
+      "svg": "src/variant-clean-workspace.svg",
+      "png": "exports/clean-workspace.png",
+      "annotated": false
+    },
+    "five-callouts": {
+      "svg": "src/variant-five-callouts.svg",
+      "png": "exports/five-callouts.png",
+      "annotated": true,
+      "also_rendered_as": "exports/poster.png"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "XTRA-05",
+  "title": "VB4 IDE anatomy: five labeled panels",
+  "brief": "Add the script’s exact panel callouts to the sourced VB4 IDE while preserving the authentic screenshot.",
+  "requirements": [
+    "Use only the accepted HIST-02 original. Required labels: Form Designer, Toolbox, Properties Window, Code Window, Project Explorer.",
+    "Verify that the sourced VB4 screenshot contains or supports each requested panel name. If a label belongs to another version or the panel is not visible, flag it; do not paint it into the original.",
+    "Keep arrows outside code/text where possible and make each target unmistakable. Provide both unannotated framed image and annotated version.",
+    "Carry forward the original image rights/credit and record all annotation edits."
+  ],
+  "beats": [
+    "Still: a full recognizable workspace.",
+    "Annotated still: reveal one labeled panel at a time only if requested by the editor; static full-label export is required."
+  ],
+  "checks": [
+    "Each of the five labels has a verified target or an explicit unresolved blocker.",
+    "Underlying HIST-02 is unchanged and traceable.",
+    "No version-specific UI is invented to make the callouts fit."
+  ],
+  "copy": "Form Designer\nToolbox\nProperties Window\nCode Window\nProject Explorer",
+  "refs": [
+    [
+      "SCRIPT.md",
+      130,
+      134
+    ]
+  ],
+  "gates": [
+    "R03",
+    "R14"
+  ],
+  "deps": [
+    "OPS-01",
+    "HIST-02"
+  ],
+  "variants": [
+    "clean-workspace",
+    "five-callouts"
+  ]
+}
