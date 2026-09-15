@@ -1,0 +1,20 @@
+== {{int:filedesc}} ==
+{{Information
+|description={{en|1=The three computers referred to by Byte Magazine as the "1977 Trinity": The Commodore PET 2001, the Apple II, and the TRS-80 Model I. (Image courtesy of Boston-based collector Timothy Colegrove. For more information about this image send an email to [email redacted by HIST-07 worker])  }}
+|date=2019-05-25
+|source={{own}}
+|author=[[User:Springsgrace|Tim Colegrove]]
+}}
+{{Location|42|18|48.14|N|71|6|6.83|W|alt:21.43548_source:exif_heading:221.93474}}
+{{Image extracted|1=Home or Personal Computers from 1977 - Commodore PET 2001, Apple II, TRS-80 Model I, together called 'Trinity77' (edited image).jpg|2=Before-and-after image of photo editing on three personal computers which were a bit bent before.jpg}}
+
+== {{int:license-header}} ==
+{{self|cc-by-sa-4.0}}
+
+[[Category:Apple II]]
+[[Category:Commodore PET 2001]]
+[[Category:TRS-80 Model I]]
+[[Category:Hello World!]]
+[[Category:3 objects aside]]
+[[Category:Computers in the United States]]
+[[Category:Barrel distortion]]

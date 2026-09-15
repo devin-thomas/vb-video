@@ -1,0 +1,64 @@
+{
+  "id": "HIST-07",
+  "provenance_type": "historical original (third-party openly licensed photograph of vintage hardware) with derivative editorial crop",
+  "project_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [73, 75],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual cue this asset serves"
+    },
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [91, 91],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead ('Wikipedia articles for each machine'). This was a lead, not a verified holding. The selected image came from Wikimedia Commons categories, not a Wikipedia article."
+    }
+  ],
+  "external_original": {
+    "path": "source/original.jpg",
+    "classification": "historical original (real photograph of real hardware, 2019). Not a period capture, emulator or recreation.",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/archive/f/ff/20240129110637%21Trinity77.jpg",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Trinity77.jpg",
+    "sha1": "cbaeec4d22aaefe9ffc0ae7656cb0fa9e3adaf59",
+    "sha1_matches_commons_record": true,
+    "sha256": "be5e323ded3fe5f234f57fc65cdb6263058ce9e2cd5309e8bbc9030ddf933440",
+    "bytes": 1750577,
+    "creator": "Tim Colegrove",
+    "license": "CC BY-SA 4.0",
+    "access_date": "2026-09-15"
+  },
+  "derived_outputs": [
+    {
+      "path": "exports/editorial-frame.png",
+      "classification": "derivative crop",
+      "made_by": "src/render_editorial_frame.py",
+      "parameters": "evidence/crop.json",
+      "reversible": true
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "classification": "review proof (downscale of the export)",
+      "made_by": "src/render_editorial_frame.py"
+    },
+    {
+      "path": "qa/editorial-frame-1080p-check.png",
+      "classification": "review proof (1:1 crop of the export's screen area)",
+      "made_by": "src/render_editorial_frame.py"
+    }
+  ],
+  "authored_additions": [
+    "Canvas background #111318 (production bible dark background) in the pillarbox area",
+    "Credit line 1 (authored caption): 'TRS-80 Model I, Level II BASIC power-up prompt'",
+    "Credit line 2 (authored attribution): 'Photo: Tim Colegrove (2019), CC BY-SA 4.0, cropped'"
+  ],
+  "evidence_modifications": [
+    "evidence/source-page/*: one third-party email address redacted. The pages are otherwise saved as fetched on 2026-09-15."
+  ],
+  "producer_decisions": [],
+  "worker_choices_needing_review": [
+    "Selected Trinity77.jpg (Model I, clean Level II prompt, 3973x1853) over File:TRS-80 Model 4 (2).jpg (Model 4 running Model III BASIC, ?SN Error lines, 1024x768).",
+    "Used the 2019 unedited upload rather than the current distortion-corrected Commons version.",
+    "Burned a credit line into the editorial frame. The editor may prefer a clean frame with credit handled in captions or end credits."
+  ]
+}

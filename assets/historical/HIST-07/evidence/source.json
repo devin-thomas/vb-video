@@ -1,0 +1,90 @@
+{
+  "id": "HIST-07",
+  "selected": {
+    "title": "Trinity77.jpg (Commodore PET 2001, Apple II, TRS-80 Model I, the \"1977 Trinity\")",
+    "creator": "Tim Colegrove (Wikimedia Commons user Springsgrace)",
+    "original_publication_date": "2019-05-26 (Commons upload, cross-wiki from en.wikipedia.org)",
+    "capture_date": "2019-05-25 20:36:41 (EXIF DateTimeOriginal; Apple iPhone 6s)",
+    "depicted_event_date": "2019-05-25: collector's working hardware photographed in 2019. This is not a period (1977-1982) photograph.",
+    "depicted_hardware": {
+      "product": "Radio Shack TRS-80 Model I (keyboard/CPU unit, Expansion Interface, Video Display)",
+      "software_rom": "Radio Shack Level II BASIC (ROM)",
+      "rom_version": "unknown; the screen shows no ROM revision",
+      "evidence": [
+        "Keyboard unit and Expansion Interface badges read 'Radio Shack TRS-80'. The monitor badge reads 'Radio Shack' / 'VIDEO DISPLAY'.",
+        "On-screen text at native resolution: 'MEMORY SIZE?' (twice), 'RADIO SHACK LEVEL II BASIC', 'READY', '>MEM', '31956' (best reading), 'READY', '>_'.",
+        "The Radio Shack Level II BASIC Reference Manual (1978) documents the same power-up sequence: 'memory size?', then 'RADIO SHACK LEVEL II BASIC' and 'READY'.",
+        "Commons file categories include 'TRS-80 Model I'. The author's description names the machine as the TRS-80 Model I."
+      ]
+    },
+    "exact_source_urls": {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Trinity77.jpg",
+      "native_original_download": "https://upload.wikimedia.org/wikipedia/commons/archive/f/ff/20240129110637%21Trinity77.jpg",
+      "file_history_api": "https://commons.wikimedia.org/w/api.php?action=query&titles=File:Trinity77.jpg&prop=imageinfo&iiprop=timestamp|user|comment|url|size|sha1|mime|archivename|extmetadata&iilimit=10&format=json",
+      "wayback_snapshot_of_file_page": "http://web.archive.org/web/20260502222603/https://commons.wikimedia.org/wiki/File:Trinity77.jpg"
+    },
+    "version_used": {
+      "commons_revision": "2019-05-26T03:12:09Z upload by Springsgrace (oldest version; archivename 20240129110637!Trinity77.jpg)",
+      "sha1": "cbaeec4d22aaefe9ffc0ae7656cb0fa9e3adaf59",
+      "sha256": "be5e323ded3fe5f234f57fc65cdb6263058ce9e2cd5309e8bbc9030ddf933440",
+      "bytes": 1750577,
+      "reason": "The unedited camera original. The current Commons version (2024-01-30, Pittigrilli, sha1 87af88f4...) and the 2024-01-29 version are geometric-distortion corrections by a third party and were not used."
+    },
+    "access_date": "2026-09-15",
+    "access_method": "Anonymous HTTPS GET of a public file. No account, terms acceptance, payment or CAPTCHA.",
+    "original_dimensions": [3973, 1853],
+    "original_format": "JPEG, RGB, 72 dpi, no ICC profile",
+    "embedded_metadata_note": "EXIF includes GPS coordinates that the uploader already published on Commons ({{Location}} template). The file is kept byte-exact for hash provenance, and the export PNG carries no EXIF. See review questions.",
+    "transformations": [
+      "source/original.jpg: none (byte-exact copy)",
+      "exports/editorial-frame.png: one axis-aligned crop, native box (2740,190)-(3973,1430), uniform LANCZOS downscale, pillarboxed on 1920x1080 #111318, plus two authored credit lines. Exact parameters are in evidence/crop.json."
+    ],
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rights_status": "open_license_recorded_pending_review",
+    "credit_text": "Photo: Tim Colegrove, \"Trinity77.jpg\", Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Cropped."
+  },
+  "preserved_source_page": [
+    "evidence/source-page/commons-file-page.html",
+    "evidence/source-page/commons-file-page.wikitext.txt",
+    "evidence/source-page/commons-imageinfo.json"
+  ],
+  "preserved_source_page_note": "Saved 2026-09-15. A third-party personal email address in the description was replaced with '[email redacted by HIST-07 worker]'. The pages are otherwise unchanged.",
+  "search_log": [
+    {"query_or_location": "Commons MediaSearch 'TRS-80 BASIC screen'", "result": "0 results"},
+    {"query_or_location": "Commons Category:TRS-80 computers, Category:TRS-80 Model I (58 files; thumbnail contact sheet inspected), Category:TRS-80 Model III, Category:TRS-80 Model 4", "result": "Most photos show blank or unpowered screens, games or test patterns. Three powered BASIC screens found (candidates below)."},
+    {"query_or_location": "Commons full-text search 'TRS-80 screen', '\"Level II\" BASIC TRS-80', 'TRS-80 READY prompt'", "result": "Surfaced File:TRS-80 Model 4 (2).jpg. Other hits were PDFs or unrelated."},
+    {"query_or_location": "en.wikipedia TRS-80 and Level I BASIC articles", "result": "No image shows a BASIC prompt."},
+    {"query_or_location": "Internet Archive texts: Model I Preliminary Users Manual (1977), Level II BASIC Reference Manual 1st Ed. (1978) and 1979, TRS-80 Model III Manual (1980), Model 4 Technical Reference Manual (1983)", "result": "Used as primary documentation for the prompt text and ROM context. Manuals are not image sources."}
+  ],
+  "alternate_candidates_not_acquired": [
+    {
+      "rank": 2,
+      "file": "https://commons.wikimedia.org/wiki/File:TRS-80_Model_4_(2).jpg",
+      "creator": "Blake Patterson (Flickr https://www.flickr.com/photos/35448539@N00/2444864984, title 'my lovely new TRS-80 Model 4')",
+      "date": "2008-04-26",
+      "license": "CC BY 2.0 (Commons Flickr review by Rootology 2008-09-13; Flickr page shows CC BY 2.0 on 2026-09-15)",
+      "native_size": [1024, 768],
+      "sha1": "28c308f9bb7c1eb6cbf576b579cd9faeca007ead",
+      "screen_text": "Cass ? / Memory Size? / Radio Shack Model III Basic / (c) '80 Tandy / READY / >12351467YES / ?SN Error / READY / >CLEA / ?SN Error / READY / >OOT / ?SN Error / READY / >_",
+      "deficiencies": "The hardware is a Model 4 (1983) running Model III BASIC ROM, not the 'TRS-80' most viewers picture. The screen includes three typed ?SN Error lines. Resolution is only 1024x768. The Commons description ('boot screen') disagrees with the first-revision description ('running IRC')."
+    },
+    {
+      "rank": 3,
+      "file": "https://commons.wikimedia.org/wiki/File:TRS-80_(1977)_(38333775292).jpg",
+      "creator": "Wolfgang Stief (Flickr stiefkind), VCFB 2017",
+      "date": "2017-10-07",
+      "license": "CC0 (FlickreviewR passed 2021-12-11)",
+      "native_size": [4552, 2310],
+      "sha1": "217879bd8a07ecadd22610d176cd9f7727151269",
+      "screen_text": "Mid-session: 'A=4 / READY / >B=3 / READY / >PRINT A+B / 7 ...'",
+      "deficiencies": "The screen is not the power-up prompt, and a ceiling-light reflection washes it out. The frame also has people, a child and a second machine running Space Intruders."
+    }
+  ],
+  "rejected_derivatives": [
+    {
+      "file": "https://commons.wikimedia.org/wiki/File:Apple_II,_TRS-80_Model_I_(edited_image).jpg",
+      "reason": "Third-party crop and colour-corrected derivative of a Pittigrilli edit of Trinity77.jpg. Its page is tagged CC BY 4.0 although the parent is CC BY-SA 4.0 (see rights.json). The native original was used instead."
+    }
+  ]
+}

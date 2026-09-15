@@ -1,0 +1,55 @@
+{
+  "id": "HIST-07",
+  "checked_by": "HIST-07 worker (agent), 2026-09-15",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "approver": null,
+      "reason": null,
+      "work_done": "Recorded the creator, file-specific license (CC BY-SA 4.0, taken from the file's own Commons page wikitext and API metadata), the exact version and hashes, the access method (anonymous public download, no account, terms, payment or CAPTCHA) and the credit text. The license is open and documented. Release clearance is not self-authorized. The ShareAlike obligation for the video and the embedded GPS metadata remain review questions.",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/source-page/commons-file-page.wikitext.txt",
+        "evidence/source-page/commons-imageinfo.json",
+        "evidence/source-page/commons-file-page.html"
+      ],
+      "review_questions": ["RQ-1", "RQ-2", "RQ-3"]
+    }
+  ],
+  "content_claims": [
+    {
+      "claim": "Identity: the image shows a TRS-80 at its BASIC prompt (ticket requirement 1).",
+      "status": "verified",
+      "evidence_summary": "The keyboard and Expansion Interface badges read 'Radio Shack TRS-80'. The screen reads 'MEMORY SIZE?' / 'RADIO SHACK LEVEL II BASIC' / 'READY' / '>'. The Radio Shack Level II BASIC Reference Manual, 1st ed. (1978), documents this exact power-up sequence. The Commons author description and category name the TRS-80 Model I.",
+      "evidence": ["evidence/source-excerpts.md", "evidence/source.json"]
+    },
+    {
+      "claim": "Model and software context: TRS-80 Model I with Level II BASIC in ROM.",
+      "status": "verified_with_limits",
+      "evidence_summary": "The Model I form factor (separate keyboard unit, Expansion Interface, 'VIDEO DISPLAY' monitor) and the 'RADIO SHACK LEVEL II BASIC' banner agree with the 1978 manual. The ROM revision is not identifiable from the screen and is recorded as unknown. The photo dates from 2019, not the period.",
+      "evidence": ["evidence/source-excerpts.md"]
+    },
+    {
+      "claim": "SCRIPT.md:73 'Your TRS-80 had BASIC.'",
+      "status": "consistent",
+      "evidence_summary": "Radio Shack's 1977 Model I Preliminary Users Manual describes Level I BASIC and says the screen should show READY at power-on. The 1978 Level II manual documents Level II BASIC. The narration line holds for the Model I. No script change is proposed.",
+      "evidence": ["evidence/source-excerpts.md"]
+    },
+    {
+      "claim": "SCRIPT.md:73 'When you turned on a home computer in 1982, you were usually staring at a BASIC prompt.'",
+      "status": "not_contradicted_for_this_asset",
+      "evidence_summary": "For the TRS-80 Model I (Level II, cassette or no-disk configuration) and the Model III (1980 manual), power-up lands in ROM BASIC. A disk-equipped Expansion Interface system could boot DOS instead. The broad 'usually' generalization across all home computers is outside this ticket's single-image scope and was not verified.",
+      "evidence": ["evidence/source-excerpts.md"]
+    },
+    {
+      "claim": "The visual depicts a boot screen.",
+      "status": "verified_with_note",
+      "evidence_summary": "The top three lines are the power-up dialog. The remaining lines show that someone then typed MEM, which returned a free-memory figure, and a second READY. 'MEMORY SIZE?' appears twice, consistent with a reset or re-prompt. The frame is an authentic in-use power-up screen, not a pristine boot moment. The credit line says 'power-up prompt'.",
+      "evidence": ["evidence/source-excerpts.md"]
+    }
+  ],
+  "script_change_proposed": false
+}

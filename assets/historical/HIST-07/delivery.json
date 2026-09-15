@@ -1,0 +1,213 @@
+{
+  "id": "HIST-07",
+  "title": "TRS-80 BASIC boot screen",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical original (CC BY-SA 4.0 photograph of vintage TRS-80 Model I) with derivative editorial crop",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "source/original.jpg",
+      "role": "native original (byte-exact Commons 2019 upload of File:Trinity77.jpg)",
+      "bytes": 1750577,
+      "sha256": "be5e323ded3fe5f234f57fc65cdb6263058ce9e2cd5309e8bbc9030ddf933440"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame variant, 1920x1080 still",
+      "bytes": 1010978,
+      "sha256": "9586f9015e8e06f7589b7cb69e8483f5f730a48697bb15267518c01d5de6d436"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA report",
+      "bytes": 7465,
+      "sha256": "500eae02b712d10e56a573db5f093c60e3c431a1c51adabf7276ca82eac30871"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "720p review proof",
+      "bytes": 540176,
+      "sha256": "c8c465476025f8c04fffcadd4fc2a043372de7d3b7c6516f0becd8c8172a144d"
+    },
+    {
+      "path": "qa/editorial-frame-1080p-check.png",
+      "role": "1:1 screen-area review proof",
+      "bytes": 447594,
+      "sha256": "137f5fd618b536f415f9d539ba65f7abbd310e11fcfdc218e29d686af7ba8ac2"
+    },
+    {
+      "path": "src/render_editorial_frame.py",
+      "role": "editable renderer input",
+      "bytes": 4464,
+      "sha256": "d80cbdd2d5ae6637476e3cc70d21f58b67ac2488bf84f87cac02405ca7735bf8"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 3009,
+      "sha256": "9e9373f457fbc22f22a91f1168d901aa0be5f5444215f13529203de3b9939002"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 3348,
+      "sha256": "7671d5550e77a143baf20743ec0dee69dedd22c8ce566556069d234cd37e43e7"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "gate and claim checks",
+      "bytes": 3731,
+      "sha256": "de4dd36f4cf441c82064e5f21ed29cd728b97d9cda912bcc80ca0fc7bb3c9604"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "source record and candidate log",
+      "bytes": 7223,
+      "sha256": "78f81b187cc7c3b7b5ede4e27c13386c3cd86d307023b779dc4fc42803e96267"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 3366,
+      "sha256": "4fee05cf212efb9b933ab1eb86de131a6b85292752d45329a23b8ec432b6a1de"
+    },
+    {
+      "path": "evidence/crop.json",
+      "role": "crop and transform parameters",
+      "bytes": 991,
+      "sha256": "ece15e329d76a919675910cb77143ce17ed2cbd17c6aeecfc6cc037b59737910"
+    },
+    {
+      "path": "evidence/source-page/commons-file-page.html",
+      "role": "saved Commons file page (email redacted)",
+      "bytes": 129110,
+      "sha256": "4ab4f11a6a5a6e1dc5c49a267990da5d9296e0ba5951864f22c4f9c4a397aab3"
+    },
+    {
+      "path": "evidence/source-page/commons-file-page.wikitext.txt",
+      "role": "saved Commons wikitext (email redacted)",
+      "bytes": 1030,
+      "sha256": "bb070a4a33e71600d82f88aeed836c97813e0fde76d14c342e1327421182ea1d"
+    },
+    {
+      "path": "evidence/source-page/commons-imageinfo.json",
+      "role": "saved Commons API file history (email redacted)",
+      "bytes": 8269,
+      "sha256": "8f0b0e815965c7f05f0254f821f0525c8941bfe55d069c2c71930187e03078ff"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.jpg"
+      ],
+      "timeline": null,
+      "notes": "3973x1853 native JPEG, unmodified"
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "timeline": null,
+      "notes": "still; hold for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        73,
+        75
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual cue served"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        91,
+        91
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead"
+    },
+    {
+      "path": "source/original.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/archive/f/ff/20240129110637%21Trinity77.jpg",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Trinity77.jpg",
+      "sha1": "cbaeec4d22aaefe9ffc0ae7656cb0fa9e3adaf59",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.jpg",
+      "relationship": "derivative crop",
+      "record": "evidence/crop.json"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "source/original.jpg and exports/editorial-frame.png",
+      "creator": "Tim Colegrove",
+      "title": "Trinity77.jpg",
+      "host": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit_text": "Photo: Tim Colegrove, \"Trinity77.jpg\", Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Cropped.",
+      "rights_status": "open_license_recorded_pending_review",
+      "access_date": "2026-09-15"
+    }
+  ],
+  "tests": [
+    {
+      "name": "source SHA-1 matches Commons record",
+      "command": "Get-FileHash -Algorithm SHA1 source/original.jpg",
+      "result": "pass: cbaeec4d22aaefe9ffc0ae7656cb0fa9e3adaf59"
+    },
+    {
+      "name": "render",
+      "command": "python assets/historical/HIST-07/src/render_editorial_frame.py",
+      "result": "pass: 1920x1080, uniform scale 0.687097, placed 536,72 847x852"
+    },
+    {
+      "name": "evidence JSON parse",
+      "command": "json.load on evidence/*.json",
+      "result": "pass"
+    },
+    {
+      "name": "manual inspection 1080p and 720p",
+      "command": "viewed exports/editorial-frame.png, qa/editorial-frame-720p.png, qa/editorial-frame-1080p-check.png",
+      "result": "pass; notes in qa.md"
+    },
+    {
+      "name": "delivery validator",
+      "command": "python tools/validate_delivery.py --id HIST-07",
+      "result": "pass: {id: HIST-07, ok: true, errors: []} exit 0 (2026-09-15)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "font": "Liberation Sans Regular (system, not bundled), sha256 76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8",
+    "fontconfig": "2.18.3",
+    "powershell": "7.6.6"
+  },
+  "notes": [
+    "Real 2019 photograph of a TRS-80 Model I showing RADIO SHACK LEVEL II BASIC / READY. Not a period capture and not an emulator.",
+    "Release blocked pending R14 rights review (RQ-1, RQ-2). Other review questions RQ-3 to RQ-5 are in qa.md.",
+    "state.json is live workflow state and is excluded from the output inventory."
+  ]
+}
