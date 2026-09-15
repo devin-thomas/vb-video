@@ -1,0 +1,50 @@
+{
+  "asset": "source/original.gif",
+  "rights_holder": "Microsoft Corporation",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked pending rights review",
+  "checked_on": "2026-09-15",
+  "image_specific_license": null,
+  "image_specific_license_notes": "No per-image license is attached to the figure. The host page being public does not license the image.",
+  "terms_consulted": [
+    {
+      "name": "Microsoft Learn Terms of Use",
+      "url": "https://learn.microsoft.com/en-us/legal/termsofuse",
+      "version_seen": "ms.date 2025-05-12",
+      "accessed": "2026-09-15",
+      "relevant_terms": [
+        "Section 'Personal and Non-Commercial Use Limitation': services are for personal and non-commercial use unless otherwise specified; no copying, distribution, public display, publishing or derivative works without prior written consent from Microsoft.",
+        "Section 'Notice Specific to Documents Available on this Website': document use permitted only with copyright notice, for informational non-commercial or personal use, not posted on a network computer or broadcast in any media, and without modification.",
+        "Same section: 'No logo, graphic, sound or image from any Microsoft website may be copied or retransmitted unless expressly permitted by Microsoft.'"
+      ],
+      "effect": "On its own terms, does not permit use of the figure in a published or broadcast video."
+    },
+    {
+      "name": "Use of Microsoft Copyrighted Content (Microsoft Legal permissions page)",
+      "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+      "version_seen": "no last-updated date shown",
+      "accessed": "2026-09-15",
+      "access_note": "Direct curl returned HTTP 403 (CDN block); content read through the WebFetch tool on 2026-09-15. No local HTML copy could be preserved.",
+      "relevant_terms": [
+        "Screenshots: may be used in advertising, documentation, tutorial books, videos, or on websites, provided the user does not alter the screenshot except to resize it, does not use portions of screenshots, does not include them in a product UI, and uses none containing third-party content or an identifiable individual.",
+        "Screenshots of boot-up, opening or splash screens, beta or unreleased products are excluded.",
+        "General requirements: use the full product name; no obscene, disparaging, defamatory or libelous use; include the statement 'Used with permission from Microsoft.'"
+      ],
+      "effect": "Would allow a resized, uncropped screenshot of a commercially released product (Visual Basic 6.0 was released) in a video, with the attribution statement. Whether this grant covers a figure copied from Microsoft's own documentation, with Microsoft-drawn callouts, rather than a screenshot the user captures, is not stated."
+    }
+  ],
+  "conditions_honored_by_this_package_if_screenshot_grant_applies": [
+    "No crop and no use of a portion: the whole figure is placed.",
+    "Only alteration is uniform resize (plus neutral pillarbox plate outside the image).",
+    "No third-party content or identifiable individual visible.",
+    "Not a splash/boot screen; product commercially released.",
+    "Credit text includes the full product name and the required statement (proposed; editor must carry it into the video credits)."
+  ],
+  "open_questions": [
+    "Does Microsoft's screenshot permission apply to a figure copied from Microsoft documentation (versus a screenshot we capture), given Learn's Terms of Use restrict copying images from Microsoft websites?",
+    "Would the video's publication (e.g., a monetized YouTube upload) count as a permitted 'video' use under the screenshot grant, and does the pillarbox plate count as an alteration?",
+    "If neither grant applies, is fair use / written permission acceptable? This package makes no fair-use or public-domain assumption."
+  ],
+  "no_boundary_crossed": "No account, payment, terms acceptance, CAPTCHA, lending borrow, watermark removal, or gated download was used.",
+  "gate": "R14"
+}

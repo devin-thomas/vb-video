@@ -1,0 +1,46 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "source/source-page/aa733577.html",
+        "source/source-page/fig21_headers.txt",
+        "evidence/pages/wayback_20081108_aa733577.html",
+        "candidates/wikipedia-vb6-on-xp/source.json"
+      ],
+      "worker_findings": [
+        "Rights holder recorded: Microsoft Corporation. Creator: Microsoft (VB6 documentation). Access method: anonymous public HTTPS, no boundary crossed. Credit text drafted.",
+        "The ASSET_PLAN lead ('Wikipedia Visual Basic article, Wikimedia Commons ... these exist on Wikipedia') was checked: the only VB6 IDE image on the Wikipedia article is a non-free, fair-use-tagged local en.wikipedia file (not on Commons), so the plan's implied free availability is not supported. No Commons file inspected shows a VB6 IDE.",
+        "No file-specific license permits reuse. Microsoft Learn Terms of Use restrict copying images; Microsoft's screenshot permission may permit an unaltered, uncropped, resized screenshot in a video with 'Used with permission from Microsoft.', but its applicability to a documentation figure is not stated. Evidence cannot settle this; it is a legal-risk question."
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Unknown rights stay blocked (R14). Rights review question handed to the producer for the review deck."
+    }
+  ],
+  "supplementary_checks": [
+    {
+      "claim": "SCRIPT.md:691 'VB6, released in 1998'",
+      "relevance": "Dating context for this still in section 15.",
+      "status": "supported",
+      "evidence": [
+        "evidence/pages/press_1998-06-15.html"
+      ],
+      "finding": "Microsoft press release 'Microsoft Introduces Visual Basic 6.0', Redmond, June 15, 1998, states general availability scheduled for late summer 1998. Announcement and scheduled availability are both 1998; no script change needed."
+    },
+    {
+      "claim": "Ticket requirement: identifiable classic VB6 IDE, not Visual Studio .NET",
+      "status": "supported_with_limit",
+      "evidence": [
+        "evidence/source.json",
+        "source/source-page/aa733577.html"
+      ],
+      "finding": "Identity rests on publication as Figure 2.1 in Microsoft's Visual Basic 6.0 documentation. Whether the pixels were captured from 6.0 or reused from 5.0 documentation is not settled; recorded as a limitation, not guessed."
+    }
+  ]
+}

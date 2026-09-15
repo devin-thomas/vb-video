@@ -1,0 +1,91 @@
+{
+  "id": "HIST-03",
+  "provenance_classification": "historical source",
+  "summary": "Microsoft-authored Figure 2.1 from the Visual Basic 6.0 documentation, acquired byte-exact from Microsoft Learn's archived VB6 docs, with a resize-only 16:9 editorial frame. An alternate uploader screenshot from English Wikipedia is kept as a review candidate.",
+  "source_files": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [89, 89],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "use": "Planning lead only (Wikipedia/Commons). Checked, not treated as a verified holding."
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [679, 701],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "use": "Section 15 narrative context (VB1-VB6 timeline, VB6 released in 1998). No narration text is reproduced in the image."
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "historical original",
+      "file": "source/original.gif",
+      "sha256": "cbd44443b36479dfcb2b0f46fc0f3c951bd60a0f7479ad0872efef64d0febd08",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/images/aa733577.avp02001(en-us,vs.60).gif",
+      "page": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa733577(v=vs.60)",
+      "record": "evidence/source.json",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "source page (preserved separately)",
+      "file": "source/source-page/aa733577.html",
+      "headers": "source/source-page/fig21_headers.txt",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "dating / identity evidence",
+      "file": "evidence/pages/wayback_20081108_aa733577.html",
+      "url": "https://web.archive.org/web/20081108020011id_/http://msdn.microsoft.com:80/en-us/library/aa733577(VS.60).aspx",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "dating evidence",
+      "file": "evidence/pages/press_1998-06-15.html",
+      "url": "https://news.microsoft.com/source/1998/06/15/microsoft-introduces-visual-basic-6-0/",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "IDE terminology context",
+      "file": "evidence/pages/aa242109.html",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa242109(v=vs.60)",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "VB6 data-tool feature context",
+      "file": "evidence/pages/aa261277.html",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa261277(v=vs.60)",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "rights terms (no local copy)",
+      "url": "https://learn.microsoft.com/en-us/legal/termsofuse",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "rights terms (HTTP 403 to curl; read via WebFetch, no local copy)",
+      "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+      "accessed": "2026-09-15"
+    },
+    {
+      "role": "alternate candidate",
+      "file": "candidates/wikipedia-vb6-on-xp/original.png",
+      "sha256": "79fafdb88405e59d4853d8bdd4d77d57ec91d8144195e7c9563909819e479a77",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Visual_Basic_6.0_on_Windows_XP.png",
+      "record": "candidates/wikipedia-vb6-on-xp/source.json",
+      "accessed": "2026-09-15"
+    }
+  ],
+  "authored_additions": [
+    "src/frame.py: framing script (uniform resize, center on flat #111318 plate within the shared safe area). No text, UI, annotation, or retouch is added to the image.",
+    "Proposed credit text in evidence/source.json (authored wording, not a Microsoft-provided credit)."
+  ],
+  "transformations": "See evidence/source.json 'transformations'. The Microsoft callouts inside the figure are original to the source and retained.",
+  "producer_decisions": [],
+  "search_log": [
+    "Wikipedia 'Visual Basic (classic)' article image list: found non-free local file 'Visual Basic 6.0 on Windows XP.png' (alternate candidate); other images are logos, VB-DOS, a portrait, and small non-IDE screenshots.",
+    "Commons full-text file search for 'Visual Basic 6', 'VB6', 'Visual Basic 6.0', 'Visual Basic IDE', 'Visual Basic screenshot', plus Category:Visual Basic. No VB6 IDE screenshot found. Nearest: 'Hello World! in Visual Basic (classic).png' (185x185 message box), 'Form vide VB.JPG' (325x247 empty form, credited 'Visual Basic 10'), 'Visual Basic function.PNG' (code editor, version unstated), 'Package-and-deployment.png' and 'Setup-installer-vb6-herman-mas.png' (deployment wizard, not IDE), 'Vb6.png' and 'Ubuntu 10.04 vb6.png' (descriptions say VirtualBox/sidux settings). Metadata only; these were rejected on subject/size/version grounds.",
+    "Microsoft Learn VB6 documentation archive: 'Starting the Visual Basic IDE' Figure 2.1 (selected); 'Integrated Development Environment Elements' has only a Form Layout window figure.",
+    "Wayback CDX for the MSDN page (earliest capture 2008-11-08) and for the MSDN image URL (no captures).",
+    "Internet Archive items for VB6 installation media and printed guides were identified by search only. Installing software from ISOs and borrowing controlled-lending books were not attempted (outside authorized access)."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "role": "alternate candidate (not the delivered original)",
+  "title": "File:Visual Basic 6.0 on Windows XP.png",
+  "creator": "Wikipedia user Isi96 (description: 'Author = Myself', 'I took the screenshot myself.')",
+  "source_url": "https://en.wikipedia.org/wiki/File:Visual_Basic_6.0_on_Windows_XP.png",
+  "image_url": "https://upload.wikimedia.org/wikipedia/en/0/0e/Visual_Basic_6.0_on_Windows_XP.png",
+  "file_page_revision": "oldid 1037293846 (2021-08-05, Wbm1058, 'bypass redirect'); file uploaded 2019-06-10T04:33:49Z by Isi96",
+  "repository": "English Wikipedia local file (non-free); not on Wikimedia Commons",
+  "original_date": "2019-06-10 (uploader-stated capture/upload date)",
+  "depicted_event_date": null,
+  "access_date": "2026-09-15",
+  "identity_evidence": [
+    "Uploader description: 'A screenshot of Visual Basic 6.0 running on Windows XP.' (self-statement by uploader, not a Microsoft source).",
+    "Visible at full resolution: title bar 'Microsoft Visual Basic'; menu bar includes Query and Diagram menus; New Project dialog with Microsoft Visual Basic banner and templates Standard EXE, ActiveX EXE, ActiveX DLL, ActiveX Control, VB Application Wizard, VB Wizard Manager, ActiveX Document Dll, ActiveX Document Exe, Addin, Data Project.",
+    "Corroboration: Microsoft's 1998-06-15 press release describes 'newly integrated Visual Database Tools and new Data Environment Designer' in Visual Basic 6.0, consistent with the Query/Diagram menus and Data Project template; this corroborates but does not by itself prove the build."
+  ],
+  "original_file": "candidates/wikipedia-vb6-on-xp/original.png",
+  "original_sha256": "79fafdb88405e59d4853d8bdd4d77d57ec91d8144195e7c9563909819e479a77",
+  "original_sha1_matches_wikimedia": "b7846217b9139db50d30a97b71bb07bab39bb962",
+  "original_dimensions": {
+    "width": 1366,
+    "height": 768
+  },
+  "license_name": "Non-free: 'Non-free Microsoft screenshot' with a Wikipedia non-free use rationale limited to the article Visual Basic (classic); tagged Non-free no reduce.",
+  "license_url": "https://en.wikipedia.org/wiki/Wikipedia:Non-free_content",
+  "rights_status": "unresolved",
+  "credit_text": "Microsoft Visual Basic 6.0 on Windows XP, screenshot by Wikipedia user Isi96 (2019). (c) Microsoft Corporation. Used with permission from Microsoft. [Proposed; applies only if Microsoft's screenshot permission is confirmed to cover this use.]",
+  "transformations": [
+    {
+      "output": "candidates/wikipedia-vb6-on-xp/editorial-frame.png",
+      "operation": "Uniform Lanczos resize x1.21875 from 1366x768 to 1665x936, pasted at (127,72) on a flat #111318 1920x1080 plate.",
+      "crop": null,
+      "script": "src/frame.py"
+    }
+  ],
+  "deficiencies": [
+    "Version identity relies on the uploader's statement plus visual markers, not a Microsoft source.",
+    "Captured in 2019 on Windows XP, not a 1998-era environment; a New Project dialog covers an otherwise empty workspace with no form, Toolbox controls or code.",
+    "Wikipedia's fair-use rationale is article-specific and does not transfer to this video."
+  ],
+  "strengths": [
+    "Near-16:9 native size (1366x768) and VB6-specific Query/Diagram menus and Data Project template visible.",
+    "It is an actual screenshot of a released product (not documentation art), so Microsoft's screenshot permission may fit it more directly than the documentation figure."
+  ],
+  "preserved": [
+    "candidates/wikipedia-vb6-on-xp/wp_filepage.html",
+    "candidates/wikipedia-vb6-on-xp/wp_headers.txt",
+    "candidates/wikipedia-vb6-on-xp/wp_history.json"
+  ]
+}

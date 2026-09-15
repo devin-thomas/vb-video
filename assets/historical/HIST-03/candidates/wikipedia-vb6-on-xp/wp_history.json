@@ -1,0 +1,47 @@
+{
+ "batchcomplete": true,
+ "query": {
+  "pages": [
+   {
+    "pageid": 61005119,
+    "ns": 6,
+    "title": "File:Visual Basic 6.0 on Windows XP.png",
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "timestamp": "2019-06-10T04:33:49Z",
+      "user": "Isi96",
+      "size": 55696,
+      "width": 1366,
+      "height": 768,
+      "comment": "Uploading a non-free file using [[Wikipedia:File_Upload_Wizard|File Upload Wizard]]",
+      "sha1": "b7846217b9139db50d30a97b71bb07bab39bb962"
+     }
+    ],
+    "revisions": [
+     {
+      "revid": 1037293846,
+      "parentid": 901173022,
+      "user": "Wbm1058",
+      "timestamp": "2021-08-05T17:27:32Z",
+      "comment": "bypass redirect"
+     },
+     {
+      "revid": 901173022,
+      "parentid": 901172844,
+      "user": "Isi96",
+      "timestamp": "2019-06-10T04:35:45Z",
+      "comment": "/* Licensing */"
+     },
+     {
+      "revid": 901172844,
+      "parentid": 0,
+      "user": "Isi96",
+      "timestamp": "2019-06-10T04:33:49Z",
+      "comment": "Uploading a non-free file using [[Wikipedia:File_Upload_Wizard|File Upload Wizard]]"
+     }
+    ]
+   }
+  ]
+ }
+}
