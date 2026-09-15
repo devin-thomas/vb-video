@@ -1,12 +1,17 @@
 {
   "id": "HIST-19",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "HIST-19 worker (Historical Screenshots Manager session vb-7a)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14 rights review: no file-specific licence. The capturer's permission is informal (credit requested), and the Microsoft screenshot guideline fit is unresolved. See evidence/rights.json."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Acquired original: Internet Archive item solitaire-windows-3.1 by Matthew Paul Argall, byte-identical (SHA-256 07fd42480f9bc4f926724703111235cc47ddfdfe479cad1b077db16c10424c1c).",
+    "Windows 3.1 identity rests on the capturer's labels (file name, VM title); no in-guest version string. See evidence/claim-checks.json.",
+    "The editorial frame crops to the full 640x480 guest screen at 2x nearest-neighbour; the host desktop with private file names and third-party wallpaper is excluded.",
+    "Review questions are listed in qa.md; one is for the Writing Lead (line-579 'shareware' visual cue). War/SCRIPT.md was not edited."
   ]
 }

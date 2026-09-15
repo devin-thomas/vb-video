@@ -1,0 +1,63 @@
+{
+  "id": "HIST-19",
+  "checked_at": "2026-09-15",
+  "checked_by": "HIST-19 worker (Historical Screenshots department, manager session vb-7a)",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "applies": true,
+      "reason": "The file-specific record is complete: creator, host, access method, hashes, capturer's collection statement, and Microsoft's general screenshot guideline. It shows no file-specific licence. The capture layer rests on an informal permission from the capturer; the Microsoft software layer is unresolved. Per R14, unknown rights stay blocked.",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/source-page/item-record.json",
+        "evidence/source-page/collection-record.json",
+        "evidence/source-excerpts.md#2-external-evidence"
+      ],
+      "boundary_compliance": "No account, payment, terms acceptance, CAPTCHA, watermark removal or gated download. MobyGames returned 403 and the Xbox Wire image looped through redirects; neither was worked around.",
+      "approver": null,
+      "decision": null,
+      "review_question": "Rights review: may this capture be used on screen (Microsoft screenshot guideline versus a fair-use commentary basis), and is the capturer's informal credit-requested permission sufficient?"
+    }
+  ],
+  "supporting_checks": [
+    {
+      "claim": "The image shows Microsoft Solitaire with a green playfield.",
+      "status": "verified_visually",
+      "evidence": "source/original.png inspected at full 1920x1080. The guest window has title 'Solitaire', a Game/Help menu bar, a green playfield, a card deck with Queens on the foundations and Kings on the tableau, and a status bar reading 'Score: 383 Time: 311'.",
+      "evidence_paths": ["source/original.png", "exports/editorial-frame.png"]
+    },
+    {
+      "claim": "The operating system is Windows 3.1, not 3.0 or Windows for Workgroups 3.11.",
+      "status": "supported_by_capturer_labels_not_independently_verified",
+      "evidence": [
+        "The Internet Archive original file is named 'Solitaire (Windows 3.1).png'.",
+        "In the capture, the running VM window is titled 'Windows 3.1 [Running] - Oracle VirtualBox'. The selected VirtualBox Manager entry is 'Windows 3.1 / Running', listed separately from VMs named 'Windows 3.0' and 'Windows 3.11 for Workgroups'.",
+        "Limitation: VM names are set by the user. In the capturer's own Windows 3.0 capture (archive.org item solitaire-on-windows-3.0), VirtualBox's type field reads 'Windows 3.1' for the VM named 'Windows 3.0'. Nothing visible inside the guest screen (no About box, no version string) independently establishes 3.1."
+      ],
+      "evidence_paths": ["source/original.png", "evidence/source.json"],
+      "consequence": "Captions may say 'Windows 3.1 Solitaire (capture labelled Windows 3.1 by its author)'. Do not present pixel-level version proof."
+    },
+    {
+      "claim": "SCRIPT.md:593 — 'Windows came bundled with Solitaire and Minesweeper'.",
+      "status": "supported_for_windows_3_1",
+      "evidence": "Microsoft Windows User's Guide version 3.1, April 1992 (PC21669-0492): p.73 (leaf 99) says Setup copied Solitaire and Minesweeper to the hard disk; p.540 (leaf 566) lists SOL.EXE and WINMINE.EXE. The Windows 3.0 User's Guide (1989) lists Solitaire and Reversi instead, so Minesweeper bundling applies from 3.1.",
+      "evidence_paths": ["evidence/source-excerpts.md#24-product-identity-context--microsoft-windows-users-guide-version-31-april-1992"]
+    },
+    {
+      "claim": "SCRIPT.md:593 — '(written in C)'.",
+      "status": "not_checked_out_of_scope",
+      "evidence": "No R gate assigns this claim to HIST-19, and no primary source found here states Solitaire's implementation language. The ticket only requires that this still not imply Solitaire was written in VB. It does not: the frame carries no caption or VB labelling.",
+      "evidence_paths": []
+    },
+    {
+      "claim": "SCRIPT.md:579 visual cue — 'Screenshots of 90s shareware card games — Solitaire, Hearts, FreeCell'.",
+      "status": "wording_flag",
+      "evidence": "Microsoft Solitaire shipped with Windows (User's Guide p.73); it was not shareware. The narration at line 593 already says 'bundled'. Only the visual-direction note groups it under 'shareware'.",
+      "evidence_paths": ["evidence/source-excerpts.md"],
+      "review_question": "Writing Lead: change the line-579 visual cue from '90s shareware card games — Solitaire, Hearts, FreeCell' to something like '90s Windows card games (bundled and shareware)', so no caption labels Microsoft Solitaire as shareware? Visual note only; narration unaffected. War/SCRIPT.md not edited."
+    }
+  ]
+}
