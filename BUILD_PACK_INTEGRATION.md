@@ -13,8 +13,8 @@ fine-grained tickets). Of those:
 
 | Status | Count | Description |
 |--------|------:|-------------|
-| **produced** | 72 | Rendered deliverables with exports, source, evidence, QA |
-| **planned** | 53 | Tickets written but not yet produced |
+| **produced** | 78 | Rendered deliverables with exports, source, evidence, QA |
+| **planned** | 47 | Tickets written but not yet produced |
 | **blocked** | 8 | Require .NET SDK (terminal captures, project settings) |
 | **in_progress** | 1 | OPS-04 (integration QA) |
 
@@ -32,8 +32,8 @@ fine-grained tickets). Of those:
 
 ### Not produced (62)
 
-- **DIA-11 through DIA-14** (planned) — 1995 tools comparison, Mac vs Windows table, VB influence lineage, VB timeline
-- **REF-01, REF-02** (planned) — MFC message-map snippet, Win32 Hello World
+- **DIA-11 through DIA-14** (produced, session 2) — 1995 tools comparison, Mac vs Windows table, VB influence lineage, VB timeline
+- **REF-01, REF-02** (produced, session 2) — Win32 Hello World, MFC message-map snippet
 - **XTRA-01 through XTRA-20** (planned) — Supplementary historical/editorial assets
 - **HIST-01 through HIST-21** (planned) — Historical image sourcing (Wikipedia, Wayback Machine, etc.)
 - **BROLL-01 through BROLL-06** (planned) — Stock footage scouting
@@ -60,10 +60,10 @@ of them into individual asset tickets. Here is the correspondence:
 | #8 | Diagram: War mechanic step-by-step | DIA-08 | **produced** |
 | #9 | Diagram: Pot growth diagram | DIA-09 | **produced** |
 | #10 | Diagram: Game flowchart | DIA-10 | **produced** |
-| #11 | Diagram: 1995 tools comparison chart | DIA-11 | planned |
-| #12 | Diagram: Mac vs Windows comparison table | DIA-12 | planned |
-| #13 | Diagram: VB influence lineage | DIA-13 | planned |
-| #14 | Diagram: VB version timeline | DIA-14 | planned |
+| #11 | Diagram: 1995 tools comparison chart | DIA-11 | **produced** |
+| #12 | Diagram: Mac vs Windows comparison table | DIA-12 | **produced** |
+| #13 | Diagram: VB influence lineage | DIA-13 | **produced** |
+| #14 | Diagram: VB version timeline | DIA-14 | **produced** |
 | #15 | Slide: Title card (Win95 message box) | CARD-01 | **produced** |
 | #16 | Slides: Chapter title cards (16) | CH-01 through CH-16 | **produced** (all 16) |
 | #17 | Slides: VB code blocks (8) | CODE-01 through CODE-25 | **produced** (expanded to 25) |
@@ -72,10 +72,10 @@ of them into individual asset tickets. Here is the correspondence:
 | #20 | Slide: End card with subscribe CTA | CARD-02 | **produced** |
 | #21 | Mockup: VB4 GUI War game | MOCK-01 | **produced** |
 | #22 | Mockup: 1996 download progress bar | MOCK-02 | **produced** |
-| #23 | Code card: Intimidating Win32/MFC C++ (2) | REF-01, REF-02 | planned |
+| #23 | Code card: Intimidating Win32/MFC C++ (2) | REF-01, REF-02 | **produced** |
 | #24 | Code card: VB MsgBox 3-liner | REF-03 | **produced** |
 | #25 | Code card: Retro BASIC terminal | REF-04 | **produced** |
-| #26 | Code card: Java AWT snippet | (absorbed into XTRA series) | planned |
+| #26 | Code card: Java AWT snippet | XTRA-04 | **produced** |
 
 ### Build pack extras not in our original tickets
 

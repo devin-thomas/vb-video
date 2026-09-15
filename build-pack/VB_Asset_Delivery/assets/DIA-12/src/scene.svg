@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0A0E13"/>
+    </linearGradient>
+    <linearGradient id="winAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D6BCF"/>
+      <stop offset="100%" stop-color="#1A4FA0"/>
+    </linearGradient>
+    <linearGradient id="macAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B8FA3"/>
+      <stop offset="100%" stop-color="#6B6F82"/>
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D333B" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#2D333B"/>
+      <stop offset="80%" stop-color="#2D333B"/>
+      <stop offset="100%" stop-color="#2D333B" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="1080" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="1440" y1="0" x2="1440" y2="1080" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="270" x2="1920" y2="270" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="810" x2="1920" y2="810" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Title area -->
+  <text x="960" y="80" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#E6EDF3" text-anchor="middle" letter-spacing="1">Building a Card Game in 1995</text>
+  <text x="960" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" fill="#8B949E" text-anchor="middle" letter-spacing="3">WINDOWS vs. MAC</text>
+
+  <!-- Decorative line under title -->
+  <line x1="760" y1="145" x2="1160" y2="145" stroke="#2D333B" stroke-width="1"/>
+  <line x1="880" y1="145" x2="1040" y2="145" stroke="#3D7BD9" stroke-width="2"/>
+
+  <!-- Center divider -->
+  <rect x="958" y="170" width="4" height="850" fill="url(#dividerGrad)" rx="2"/>
+
+  <!-- ==================== COLUMN HEADERS ==================== -->
+
+  <!-- Windows column header -->
+  <g transform="translate(480, 210)">
+    <!-- Windows icon (simplified window panes) -->
+    <g transform="translate(-30, -18)">
+      <rect x="0" y="0" width="11" height="11" fill="#3D7BD9" rx="1"/>
+      <rect x="13" y="0" width="11" height="11" fill="#3D7BD9" rx="1"/>
+      <rect x="0" y="13" width="11" height="11" fill="#3D7BD9" rx="1"/>
+      <rect x="13" y="13" width="11" height="11" fill="#3D7BD9" rx="1"/>
+    </g>
+    <text x="10" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#E6EDF3" text-anchor="middle">Windows</text>
+    <text x="10" y="28" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="400" fill="#3D7BD9" text-anchor="middle">Visual Basic 4.0</text>
+  </g>
+
+  <!-- Mac column header -->
+  <g transform="translate(1440, 210)">
+    <!-- Mac icon (simplified classic Mac) -->
+    <g transform="translate(-30, -20)">
+      <rect x="2" y="0" width="20" height="16" rx="2" fill="none" stroke="#8B8FA3" stroke-width="1.5"/>
+      <rect x="6" y="4" width="12" height="8" rx="1" fill="#8B8FA3" opacity="0.3"/>
+      <rect x="8" y="18" width="8" height="2" rx="1" fill="#8B8FA3"/>
+      <rect x="5" y="21" width="14" height="1.5" rx="0.75" fill="#8B8FA3"/>
+    </g>
+    <text x="10" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#E6EDF3" text-anchor="middle">Macintosh</text>
+    <text x="10" y="28" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="400" fill="#8B8FA3" text-anchor="middle">CodeWarrior</text>
+  </g>
+
+  <!-- ==================== ROW 1: LANGUAGE ==================== -->
+  <g transform="translate(0, 320)">
+    <!-- Category label -->
+    <text x="960" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="3">LANGUAGE</text>
+
+    <!-- Windows card -->
+    <g filter="url(#softShadow)">
+      <rect x="140" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#2D6BCF" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="140" y="18" width="6" height="88" rx="3" fill="url(#winAccent)"/>
+      <text x="480" y="60" font-family="'Cascadia Code', 'Fira Code', 'Consolas', monospace" font-size="36" font-weight="700" fill="#E6EDF3" text-anchor="middle">BASIC</text>
+      <text x="480" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Beginner-friendly, English-like syntax</text>
+    </g>
+
+    <!-- Mac card -->
+    <g filter="url(#softShadow)">
+      <rect x="1100" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#8B8FA3" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="1774" y="18" width="6" height="88" rx="3" fill="url(#macAccent)"/>
+      <text x="1440" y="60" font-family="'Cascadia Code', 'Fira Code', 'Consolas', monospace" font-size="36" font-weight="700" fill="#E6EDF3" text-anchor="middle">C / C++</text>
+      <text x="1440" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Industry standard, full hardware access</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 2: GUI BUILDER ==================== -->
+  <g transform="translate(0, 460)">
+    <text x="960" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="3">GUI BUILDER</text>
+
+    <!-- Windows card -->
+    <g filter="url(#softShadow)">
+      <rect x="140" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#2D6BCF" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="140" y="18" width="6" height="88" rx="3" fill="url(#winAccent)"/>
+      <!-- Checkmark icon -->
+      <circle cx="310" cy="56" r="16" fill="#238636" opacity="0.15"/>
+      <path d="M302 56 L308 62 L320 50" fill="none" stroke="#3FB950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="340" y="55" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#E6EDF3">Yes</text>
+      <text x="383" y="55" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8B949E">(drag &amp; drop)</text>
+      <text x="480" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Visual form designer built right in</text>
+    </g>
+
+    <!-- Mac card -->
+    <g filter="url(#softShadow)">
+      <rect x="1100" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#8B8FA3" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="1774" y="18" width="6" height="88" rx="3" fill="url(#macAccent)"/>
+      <!-- Tilde/sort-of icon -->
+      <circle cx="1270" cy="56" r="16" fill="#9E6A03" opacity="0.15"/>
+      <text x="1270" y="62" font-family="'Segoe UI', sans-serif" font-size="22" fill="#D29922" text-anchor="middle" font-weight="700">~</text>
+      <text x="1300" y="55" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#E6EDF3">Sort of</text>
+      <text x="1393" y="55" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8B949E">(ResEdit)</text>
+      <text x="1440" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Separate resource editor, not integrated</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 3: LEARNING CURVE ==================== -->
+  <g transform="translate(0, 600)">
+    <text x="960" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="3">LEARNING CURVE</text>
+
+    <!-- Windows card -->
+    <g filter="url(#softShadow)">
+      <rect x="140" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#2D6BCF" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="140" y="18" width="6" height="88" rx="3" fill="url(#winAccent)"/>
+      <!-- Low difficulty bar -->
+      <text x="480" y="55" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#3FB950" text-anchor="middle">Low</text>
+      <!-- Difficulty meter: 1 of 4 filled -->
+      <g transform="translate(390, 68)">
+        <rect x="0" y="0" width="40" height="6" rx="3" fill="#3FB950"/>
+        <rect x="48" y="0" width="40" height="6" rx="3" fill="#21262D"/>
+        <rect x="96" y="0" width="40" height="6" rx="3" fill="#21262D"/>
+        <rect x="144" y="0" width="40" height="6" rx="3" fill="#21262D"/>
+      </g>
+      <text x="480" y="92" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Weekend project for a hobbyist</text>
+    </g>
+
+    <!-- Mac card -->
+    <g filter="url(#softShadow)">
+      <rect x="1100" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#8B8FA3" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="1774" y="18" width="6" height="88" rx="3" fill="url(#macAccent)"/>
+      <!-- Medium-high difficulty -->
+      <text x="1440" y="55" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#D29922" text-anchor="middle">Medium-High</text>
+      <!-- Difficulty meter: 3 of 4 filled -->
+      <g transform="translate(1350, 68)">
+        <rect x="0" y="0" width="40" height="6" rx="3" fill="#D29922"/>
+        <rect x="48" y="0" width="40" height="6" rx="3" fill="#D29922"/>
+        <rect x="96" y="0" width="40" height="6" rx="3" fill="#D29922"/>
+        <rect x="144" y="0" width="40" height="6" rx="3" fill="#21262D"/>
+      </g>
+      <text x="1440" y="92" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Pointers, memory management, Toolbox API</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 4: RUNTIME REQUIRED ==================== -->
+  <g transform="translate(0, 740)">
+    <text x="960" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="3">RUNTIME REQUIRED</text>
+
+    <!-- Windows card -->
+    <g filter="url(#softShadow)">
+      <rect x="140" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#2D6BCF" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="140" y="18" width="6" height="88" rx="3" fill="url(#winAccent)"/>
+      <!-- X mark -->
+      <circle cx="370" cy="53" r="16" fill="#DA3633" opacity="0.15"/>
+      <path d="M363 46 L377 60 M377 46 L363 60" fill="none" stroke="#F85149" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="400" y="60" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#E6EDF3">Yes</text>
+      <text x="448" y="60" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8B949E">(VB runtime DLL)</text>
+      <text x="480" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Must ship VBRUN400.DLL with your app</text>
+    </g>
+
+    <!-- Mac card -->
+    <g filter="url(#softShadow)">
+      <rect x="1100" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#8B8FA3" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="1774" y="18" width="6" height="88" rx="3" fill="url(#macAccent)"/>
+      <!-- Check mark -->
+      <circle cx="1330" cy="53" r="16" fill="#238636" opacity="0.15"/>
+      <path d="M1322 53 L1328 59 L1340 47" fill="none" stroke="#3FB950" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1360" y="60" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#E6EDF3">No</text>
+      <text x="1400" y="60" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#8B949E">(native binary)</text>
+      <text x="1440" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">Compiles to standalone 68K or PPC code</text>
+    </g>
+  </g>
+
+  <!-- ==================== ROW 5: CONSOLE APP ==================== -->
+  <g transform="translate(0, 880)">
+    <text x="960" y="0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8B949E" text-anchor="middle" letter-spacing="3">CONSOLE APP LIKE OURS</text>
+
+    <!-- Windows card -->
+    <g filter="url(#softShadow)">
+      <rect x="140" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#2D6BCF" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="140" y="18" width="6" height="88" rx="3" fill="url(#winAccent)"/>
+      <text x="480" y="58" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#3FB950" text-anchor="middle">Trivial</text>
+      <text x="480" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">A few Sub procedures and you are done</text>
+    </g>
+
+    <!-- Mac card -->
+    <g filter="url(#softShadow)">
+      <rect x="1100" y="18" width="680" height="88" rx="12" fill="#161B22" stroke="#8B8FA3" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="1774" y="18" width="6" height="88" rx="3" fill="url(#macAccent)"/>
+      <text x="1440" y="58" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="600" fill="#3FB950" text-anchor="middle">Also Pretty Easy</text>
+      <text x="1440" y="88" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#8B949E" text-anchor="middle">SIOUX console + standard C I/O</text>
+    </g>
+  </g>
+
+  <!-- Bottom decorative line -->
+  <line x1="300" y1="1010" x2="1620" y2="1010" stroke="#2D333B" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="960" y="1045" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#484F58" text-anchor="middle" letter-spacing="1">Neither platform was strictly better -- VB won on ease of use, CodeWarrior won on native deployment</text>
+
+  <!-- VS badge in center -->
+  <g transform="translate(960, 210)">
+    <circle r="24" fill="#161B22" stroke="#2D333B" stroke-width="2"/>
+    <text y="7" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" fill="#8B949E" text-anchor="middle">VS</text>
+  </g>
+</svg>
