@@ -1,8 +1,10 @@
 # BROLL-04 acquisition handoff
 
-Access date for all pages: 2026-09-15. **Nothing has been downloaded.** Scouting complete is not the same as cleared media acquired.
+Access date for all pages: 2026-09-15.
 
-## Ungated free acquisition — pending download approval
+> **Update, 2026-09-15 (acquisition pass, branch `ticket/BROLL-04-media`).** Item 1 **has now been downloaded**, on Devin's approval of that single file. It is at `source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4` (32,302,815 bytes, sha256 `f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6`, byte-identical to the Internet Archive original); the full record is in `source/source.json` and `qa.md` Part 2. Item 2 was **not** downloaded. Devin also ruled that the CC0 applied by the Internet Archive uploader "The Nostalgist777" — not by the filmmaker Dan Lynch — is accepted as-is, and that filmmaker permission will **not** be pursued, which closes **H02-a** as *not pursued by decision* (not as *permission obtained*). The rest of this document is the original handoff and is left as written. **Acquisition is still not clearance:** R14 stays open and release stays blocked pending the OPS-04 review deck.
+
+## Ungated free acquisition — item 1 downloaded 2026-09-15, item 2 not downloaded
 
 These files are technically downloadable without login, payment, terms click-through or CAPTCHA. **Rights are not cleared.**
 - The item pages show CC0 1.0, but it was asserted by the Internet Archive uploader "The Nostalgist777", who is not the named creator. Internet Archive states it "does not make guarantees as to the copyright status of items on archive.org" (https://help.archive.org/help/rights/).

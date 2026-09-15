@@ -1,0 +1,102 @@
+{
+  "id": "BROLL-04",
+  "record_type": "acquired archival original",
+  "local_path": "source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4",
+  "title_as_shown": "Windows 95 Launch at a CompUSA Store in Norwalk, Connecticut",
+  "embedded_file_title": "1995.08.23-Windows95-Midnight-Madness-NorwalkCT",
+  "filmmaker": "Dan Lynch (named as creator on the item page and as `artist` in the file's own metadata)",
+  "uploader_to_internet_archive": "The Nostalgist777 (as shown on the item page; not shown to be the filmmaker)",
+  "uploader_is_filmmaker": false,
+  "item_page_url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+  "metadata_api_url": "https://archive.org/metadata/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+  "download_url": "https://archive.org/download/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480/1995.08.23-Windows95-Midnight-Madness-NorwalkCT%5BWgG7KLymsg0%5D%5B854x480%5D.mp4",
+  "remote_file_name": "1995.08.23-Windows95-Midnight-Madness-NorwalkCT[WgG7KLymsg0][854x480].mp4",
+  "remote_file_role": "MPEG4, IA file source `original` (not the `.ia.mp4` derivative)",
+  "original_url_as_shown": "https://youtu.be/WgG7KLymsg0?si=lFZWOYbA5WCDVLqz",
+  "access_date": "2026-09-15",
+  "download_method": "curl -L with a generic browser User-Agent; no login, no terms acceptance, no payment, no CAPTCHA interaction",
+  "publication_date_internet_archive": "2025-11-23",
+  "depicted_event_date_as_shown": "1995-08-23 (Windows 95 'Midnight Madness' launch night, CompUSA, Norwalk, Connecticut)",
+  "depicted_event_date_verified": false,
+  "depicted_event_date_note": "Stated by the item page and the file's embedded description; not independently verified. On-screen CompUSA and 'New For Windows 95' launch materials are consistent with it.",
+  "rights": {
+    "license_shown_on_item_page": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "who_applied_the_license": "The Internet Archive uploader 'The Nostalgist777', not the filmmaker Dan Lynch",
+    "filmmaker_permission": "not sought and not obtained; the filmmaker did not license this footage",
+    "decision": "Devin accepted the uploader-applied CC0 as-is on 2026-09-15 and ruled that filmmaker permission will NOT be pursued.",
+    "decision_date": "2026-09-15",
+    "decision_by": "Devin (sole human reviewer), relayed through the B-roll Scouting Manager",
+    "residual_risk": "Creative Commons states it 'has not verified the copyright status of any work to which CC0 has been applied'; the Internet Archive states it does not guarantee the copyright status of items. R14 therefore stays open and release_status stays blocked pending the OPS-04 review deck.",
+    "statement_for_reuse": "The Internet Archive item page states CC0 1.0 Universal. That CC0 dedication was applied by the Internet Archive uploader 'The Nostalgist777', not by the filmmaker Dan Lynch. Devin accepted that uploader-applied CC0 as-is on 2026-09-15 and ruled that filmmaker permission will not be pursued."
+  },
+  "credit_text": "Windows 95 launch night, CompUSA, Norwalk, Connecticut, 23 August 1995. Video: Dan Lynch, via the Internet Archive.",
+  "integrity": {
+    "bytes": 32302815,
+    "bytes_expected_from_ia_metadata": 32302815,
+    "bytes_match": true,
+    "sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6",
+    "sha1": "f79a200eeee5964ef6bcbfb714f5d209595168a4",
+    "sha1_from_ia_metadata": "f79a200eeee5964ef6bcbfb714f5d209595168a4",
+    "md5": "5af84982f1399c06989acd79403395fb",
+    "md5_from_ia_metadata": "5af84982f1399c06989acd79403395fb",
+    "note": "The Internet Archive metadata API publishes sha1 and md5 but not sha256; the local sha1 and md5 both match, and the local sha256 is recorded here for this pack."
+  },
+  "ffprobe": {
+    "tool": "ffprobe version 6.0-essentials_build-www.gyan.dev",
+    "container": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_duration_seconds": 230.621,
+    "video": {
+      "codec_name": "h264",
+      "profile": "Main",
+      "width": 854,
+      "height": 480,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "427:240",
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30000/1001",
+      "fps": 29.97,
+      "nb_frames": 6911,
+      "duration_seconds": 230.597033,
+      "bit_rate": 979135,
+      "field_order": "progressive",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "present": true,
+      "codec_name": "opus",
+      "sample_rate": 48000,
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bit_rate": 119670,
+      "duration_seconds": 230.621
+    },
+    "third_stream": "A 640x480 PNG still is attached as cover art (disposition attached_pic); it is not picture content. Map 0:v:0 explicitly when extracting frames.",
+    "container_tags": {
+      "title": "1995.08.23-Windows95-Midnight-Madness-NorwalkCT",
+      "artist": "Dan Lynch",
+      "date": "20231015",
+      "comment": "https://www.youtube.com/watch?v=WgG7KLymsg0",
+      "encoder": "Lavf61.7.100",
+      "note": "The container `date` 20231015 is an encode/upload date on the filmmaker's YouTube channel, not the depicted event date."
+    }
+  },
+  "original_dimensions": {
+    "container": "854x480",
+    "active_picture": "632x480 at x=112, y=0",
+    "active_picture_evidence": "ffmpeg cropdetect=24:2:0 over 00:02:16-00:02:23 reports crop=632:480:112:0 on every sampled frame",
+    "note": "A 4:3 camcorder picture is pillarboxed inside a 854x480 container. Effective picture is 632x480 (about 1.32:1), so a 1080p timeline needs roughly a 2.25x upscale of the active area, or an authored archival frame treatment. Do not stretch to 16:9."
+  },
+  "selected_segment": {
+    "in": "00:02:16.0",
+    "out_as_scouted": "00:02:24.0",
+    "out_recommended": "00:02:22.5",
+    "duration_recommended_seconds": 6.5,
+    "note": "See qa.md. The scouted out point 00:02:24.0 does not hold against the real file: by 00:02:23 the shot has become a two-man interaction and at 00:02:24 a handshake over a Microsoft Office display. The browsing action ends around 00:02:22.5."
+  },
+  "transformations": [
+    "None applied to the original file. It is stored byte-identical to the Internet Archive `original` MPEG4 (sha1 and md5 match the published metadata).",
+    "Three PNG verification frames were extracted to evidence/frames/ with ffmpeg; one was additionally scaled to 720p height for inspection. No watermark removal, no re-encode of the original."
+  ],
+  "version_model_evidence": "Not applicable: this is a real archival camcorder recording, not a generated or reenacted asset."
+}

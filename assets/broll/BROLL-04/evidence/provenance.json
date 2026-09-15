@@ -1,6 +1,6 @@
 {
   "id": "BROLL-04",
-  "provenance_classification": "scouting report (external archive candidates; no media acquired)",
+  "provenance_classification": "scouting report plus one acquired archival original (candidate 1 downloaded 2026-09-15; candidates 2 and 3 not acquired)",
   "source_files": [
     {"path": "sources/ASSET_PLAN.md", "lines": [120, 120], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (plan row for asset 4)"},
     {"path": "sources/ASSET_PLAN.md", "lines": [109, 122], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (free stock sources table)"},
@@ -25,6 +25,55 @@
     "Ranking of candidates, proposed in/out timecodes, visual-fit notes, local save-as filenames, and review questions are the scout's proposals, not source facts.",
     "Depicted dates (1995-08-23; 1993-08-03) are as stated by the hosting pages and are not independently verified."
   ],
-  "media_acquired": [],
-  "producer_decisions": []
+  "media_acquired": [
+    {
+      "candidate": 1,
+      "acquired": true,
+      "local_path": "source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4",
+      "source_record": "source/source.json",
+      "item_page": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "download_url": "https://archive.org/download/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480/1995.08.23-Windows95-Midnight-Madness-NorwalkCT%5BWgG7KLymsg0%5D%5B854x480%5D.mp4",
+      "remote_file_name": "1995.08.23-Windows95-Midnight-Madness-NorwalkCT[WgG7KLymsg0][854x480].mp4",
+      "ia_file_role": "original (MPEG4), not the .ia.mp4 derivative",
+      "downloaded_on": "2026-09-15",
+      "access_date": "2026-09-15",
+      "download_method": "curl -L with a generic browser User-Agent; no login, terms acceptance, payment or CAPTCHA interaction; no personal data sent",
+      "bytes": 32302815,
+      "bytes_expected": 32302815,
+      "sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6",
+      "sha1": "f79a200eeee5964ef6bcbfb714f5d209595168a4",
+      "md5": "5af84982f1399c06989acd79403395fb",
+      "integrity": "sha1 and md5 match the values published by the Internet Archive metadata API; byte size matches. The file is stored byte-identical to the published original.",
+      "ffprobe": "854x480, h264 Main, 29.97 fps (30000/1001), 6911 frames, 230.621 s; opus stereo audio 48 kHz present; plus a 640x480 attached_pic PNG cover-art stream. Active picture is 632x480 pillarboxed (cropdetect crop=632:480:112:0).",
+      "filmmaker": "Dan Lynch",
+      "uploader_to_internet_archive": "The Nostalgist777",
+      "rights": "The Internet Archive item page states CC0 1.0 Universal. That CC0 dedication was applied by the Internet Archive uploader 'The Nostalgist777', not by the filmmaker Dan Lynch. Devin accepted that uploader-applied CC0 as-is on 2026-09-15 and ruled that filmmaker permission will not be pursued.",
+      "rights_status": "R14 open; release blocked pending the OPS-04 review deck. Acquisition is not clearance.",
+      "transformations": "None to the original. Three PNG verification frames extracted to evidence/frames/ with ffmpeg (one additionally scaled to 720p height). No watermark removal, no re-encode."
+    },
+    {
+      "candidate": 2,
+      "acquired": false,
+      "item_page": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3",
+      "reason": "Not approved for download and not needed; candidate 1 was judged sufficient. 670 MB original left in place."
+    },
+    {
+      "candidate": 3,
+      "acquired": false,
+      "item_page": "https://texashistory.unt.edu/ark:/67531/metadc2152255/",
+      "reason": "In Copyright, paid license required, and the viewer sits behind a CAPTCHA. Not viewed, not acquired, nothing bypassed."
+    }
+  ],
+  "producer_decisions": [
+    {
+      "date": "2026-09-15",
+      "decided_by": "Devin (sole human reviewer), relayed through the B-roll Scouting Manager",
+      "decision": "Approved the download of candidate 1 only, and ruled that the CC0 applied by the Internet Archive uploader 'The Nostalgist777' is accepted as-is. Filmmaker permission from Dan Lynch will NOT be pursued (this closes handoff item H02-a as 'not pursued by decision', not as 'permission obtained').",
+      "does_not_cover": "This ruling accepts the uploader-applied CC0 as the licensing basis. It does not by itself clear the asset for release: R14 remains open and release_status remains blocked until the OPS-04 review deck, and the recognizable-people question is still an open review question."
+    }
+  ],
+  "acquisition_evidence": [
+    {"url": "https://archive.org/download/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480/1995.08.23-Windows95-Midnight-Madness-NorwalkCT%5BWgG7KLymsg0%5D%5B854x480%5D.mp4", "accessed": "2026-09-15", "used_for": "the acquired original MPEG4 file"},
+    {"url": "https://archive.org/metadata/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480", "accessed": "2026-09-15", "used_for": "exact remote file name, published sha1/md5/size used to verify the download", "not_committed": "The raw metadata JSON is deliberately not stored in the repo: its `uploader` field contains a third party's personal email address. The uploader is recorded only by the display name shown on the item page."}
+  ]
 }
