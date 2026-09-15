@@ -2,7 +2,7 @@
   "id": "BROLL-03",
   "shot": "1990s office with CRT monitors",
   "access_date": "2026-09-15",
-  "acquisition_status_all": "not acquired; no media downloaded in this pass (download approval pending with the B-roll Scouting Manager)",
+  "acquisition_status_all": "Rank 1 ACQUIRED on 2026-09-15 (Devin-approved single download, relayed through the B-roll Scouting Manager): source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4, sha256 7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66, verified by ffprobe as 4096x2160 / 27.84 s / 25 fps / h264 / no audio. It is a MODERN 2021 RETRO-STYLED RECREATION, not genuine 1990s archive footage. Ranks 2 and 3 remain NOT acquired. See source/source.json and qa.md.",
   "candidates": [
     {
       "rank": 1,
@@ -50,7 +50,9 @@
         "frames_inspected_seconds": [0, 1, 4, 6, 8, 11, 12, 16, 20, 24, 27.5],
         "limits": "Screenshots at browser-pane size (about 800 px wide), not at 1080p/4K. Pexels' play-button overlay covered a small circle in the centre of paused frames (around the man's head and torso). Intermediate frames not individually inspected."
       },
-      "local_filename_if_acquired": "assets/broll/BROLL-03/source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4"
+      "local_filename_if_acquired": "assets/broll/BROLL-03/source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+      "acquired": true,
+      "acquisition_note": "Downloaded 2026-09-15 to the path above. ffprobe confirms the scouted figures exactly (4096x2160, 27.840000 s, 25 fps, h264 High) and adds that the file has no audio stream. Frames extracted at 1 s, 6 s and 11 s and inspected at full size and at 720p height found no flat panel, smartphone, laptop, modern keyboard or mouse, or contemporary UI: the CRT is angled away from camera throughout, so no screen content appears at all. The scouting note calling the desk phone 'rotary' is not confirmed at full resolution; the dial face is never visible."
     },
     {
       "rank": 2,
