@@ -1,0 +1,80 @@
+{
+  "id": "XTRA-19",
+  "title": "Microsoft FreeCell (\"FreeCell Game #14601\") running over Tut's Tomb on a Windows 3.x desktop — WinWorld screenshot \"Microsoft Entertainment Pack 2 - Cards\"",
+  "subject": "Microsoft FreeCell, 16-bit/Windows 3.x-era release, as distributed on Microsoft Entertainment Pack Volume 2",
+  "creator": {
+    "software": "Microsoft Corporation (publisher of Microsoft Entertainment Pack 2, FreeCell and Tut's Tomb; Windows 3.x). FreeCell's Windows version is credited to Jim Horne in secondary histories (Keller FAQ); not stated in the image.",
+    "screenshot_capturer": null,
+    "screenshot_capturer_status": "Not identified. WinWorld's gallery and detail pages name no contributor or capture date."
+  },
+  "original_publication_date": {
+    "software": "1991 per WinWorld product page and Eli's Software Encyclopedia; 1992 per Keller's FreeCell FAQ. Conflict recorded, not resolved; see claim-checks.json.",
+    "screenshot_on_host": "unknown; HTTP Last-Modified of the hosted file is Fri, 02 Oct 2015 22:32:18 GMT (server file time, not proof of capture date)"
+  },
+  "depicted_event_date": null,
+  "depicted_event_note": "The capture is almost certainly a later capture of period software on a period OS (likely in an emulator or VM). It is not a 1990s screenshot, and no capture date is known.",
+  "depicted_content": "The front window is titled \"FreeCell Game #14601\". Its menu reads Game / Options / Help, with \"Cards Left: 52\" at the right. Below are four empty free cells, the FreeCell king icon and four empty home cells on green felt, with the columns dealt. Behind it is a \"Tut's Tomb\" window (Game / Help menu, \"Time: 28\"). A minimized File Manager icon sits on a grey Windows 3.x desktop, and a mouse pointer is visible.",
+  "identity_evidence": [
+    {
+      "type": "read from pixels (1:1 and 4x nearest-neighbour)",
+      "text": "Title bar \"FreeCell Game #14601\"; menu \"Game Options Help\"; \"Cards Left: 52\"; the FreeCell king icon between free cells and home cells."
+    },
+    {
+      "type": "window chrome read from pixels",
+      "text": "Windows 3.x chrome: a system-menu box at the left of each title bar and minimize/maximize arrow buttons at the right, with no close button. The active title bar is dithered, which fits a 16-colour display, and the file has a 13-colour palette. Not Windows 95 (no × close button, no 95 caption style) and not the Vista+ remake (no Aero chrome, no redesigned cards or menus)."
+    },
+    {
+      "type": "co-visible context",
+      "text": "Tut's Tomb, another game listed on Entertainment Pack 2 (WinWorld product page), is open behind FreeCell. A minimized File Manager icon is on the desktop."
+    },
+    {
+      "type": "hosting context (secondary)",
+      "text": "WinWorld places the image in the gallery \"Screenshots for Microsoft Entertainment Pack 2\" with the caption \"Microsoft Entertainment Pack 2 - Cards\". The product page says the release contains Freecell, JigSawed, Pipe Dream, RattlerRace, Rodent's Revenge, Stones and Tut's Tomb, and that \"This version is for Windows 3.0 and later.\""
+    },
+    {
+      "type": "limits of identification",
+      "text": "The pixels cannot separate Windows 3.0 from 3.1, and cannot distinguish the Entertainment Pack 2 FreeCell binary from the Best of Microsoft Entertainment Pack or Win32s FreeCell running on Windows 3.1. The version is recorded as Windows 3.x-era Microsoft FreeCell; the Entertainment Pack 2 attribution is WinWorld's."
+    }
+  ],
+  "version_model_evidence": "Windows 3.x chrome and 16-colour dithering; FreeCell title and menu layout with Options menu and \"Cards Left\" counter; co-running Entertainment Pack 2 game Tut's Tomb; WinWorld gallery caption for Microsoft Entertainment Pack 2.",
+  "source": {
+    "host": "WinWorld (winworldpc.com), public abandonware and software-history library",
+    "gallery_page": "https://winworldpc.com/screenshot/c3b2c3af-c2b1-c3a0-4b62-11c3a4c28d58",
+    "detail_page": "https://winworldpc.com/screenshot/c3b2c3af-c2b1-c3a0-4b62-11c3a4c28d58/c2b3c2ab-c2a4-064b-c3b0-11c3a4c28d58",
+    "product_page": "https://winworldpc.com/product/microsoft-entertainm/2",
+    "exact_file_url": "https://winworldpc.com/res/img/screenshots/2-e0249a99db7492f217c030c559f6c27c-Microsoft%20Entertainment%20Pack%202%20-%20Cards.png",
+    "caption_on_host": "Microsoft Entertainment Pack 2 - Cards"
+  },
+  "access": {
+    "access_date": "2026-09-15",
+    "download_time_utc": "2026-09-15T20:41:38Z",
+    "method": "Anonymous HTTPS GET of one public image file (Python urllib; an identical earlier curl download was used for inspection). No account, login, CAPTCHA, payment or terms acceptance.",
+    "http": {
+      "status": 200,
+      "Server": "nginx",
+      "Content-Type": "image/png",
+      "Content-Length": "8572",
+      "Last-Modified": "Fri, 02 Oct 2015 22:32:18 GMT",
+      "ETag": "\"560f05f2-217c\""
+    },
+    "barrier": "none"
+  },
+  "acquired_file": {
+    "path": "source/original.png",
+    "bytes": 8572,
+    "sha256": "e9cc253728498aae694371f600c86d9df52565ed7efe055d7b5c1ff4cd846dfd",
+    "format": "PNG, palette mode (P), 13 colours, no text chunks",
+    "dimensions": [640, 480],
+    "state": "byte-identical to the host file (two independent downloads, same SHA-256); not edited"
+  },
+  "transformations": [
+    "exports/editorial-frame.png: palette to RGB (exact colours), integer 2x nearest-neighbour scale to 1280x960, centered paste on a solid #111318 1920x1080 canvas at x=320, y=60. No crop, stretch, smoothing, retouch or added text. See evidence/framing.json."
+  ],
+  "license": {
+    "terms": "No license stated for the screenshot. WinWorld's copyright page says: \"Under most interpretations of international copyright law, copyright is retained by the original publisher or a licensed distributor unless explicitly stated even if the software is considered 'abandoned'.\" The same page puts WinWorld's library descriptions under CC BY-SA 4.0; that covers the descriptions, not the screenshots or the software. The site footer reads \"© 2026 WinWorld\".",
+    "terms_url": "https://winworldpc.com/copyright"
+  },
+  "rights_status": "not cleared: Microsoft-copyrighted software UI (FreeCell, Tut's Tomb, Windows 3.x), unidentified capturer, no license",
+  "credit_text": "Microsoft FreeCell and Tut's Tomb (Microsoft Entertainment Pack 2) on Windows 3.x. © Microsoft Corporation. Screenshot via WinWorld (winworldpc.com).",
+  "credit_text_status": "proposed; final wording depends on the rights decision (evidence/rights.json)"
+}
