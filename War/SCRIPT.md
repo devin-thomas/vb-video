@@ -69,7 +69,7 @@ Let's go.
 
 To understand Visual Basic, you need to understand BASIC. Capital B, capital A, capital everything — it's an acronym. Beginner's All-purpose Symbolic Instruction Code. It was invented in 1964 at Dartmouth College by John Kemeny and Thomas Kurtz, and its entire reason for existing was that programming was too hard.
 
-**[VISUAL: Side-by-side comparison — a simple program in FORTRAN vs. the same thing in BASIC. The BASIC version is visibly shorter and more readable.]**
+**[VISUAL: Side-by-side comparison — a simple program in FORTRAN vs. the same thing in BASIC. The BASIC version is visibly shorter, with less ceremony.]**
 
 In 1964, if you wanted to write a program, you were probably writing FORTRAN or COBOL or assembly language. You were probably punching cards. The learning curve was brutal. Kemeny and Kurtz wanted something that a college freshman with no technical background could sit down and start using. So they made BASIC.
 
@@ -122,7 +122,7 @@ VB 5.0 would come in 1997 and VB 6.0 in 1998 — that last one became the versio
 
 ## SECTION 3: THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED
 
-**[VISUAL: A VB4 install CD or floppy disk set. Maybe a shrink-wrapped box from eBay. The packaging is very mid-90s — purple and teal.]**
+**[VISUAL: A VB4 install CD or floppy disk set. Maybe a shrink-wrapped box from eBay. The packaging is very mid-90s.]**
 
 **NARRATION:**
 
@@ -633,7 +633,7 @@ Two of our four recorded runs ended exactly this way. Nobody planned it. The shu
 
 ## SECTION 13: WHAT THIS CODE WOULD HAVE BECOME
 
-**[VISUAL: Screenshots of 90s shareware card games — Solitaire, Hearts, FreeCell. Windows 3.1 and Windows 95 versions. The classic green felt background.]**
+**[VISUAL: Card games that shipped with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x and Windows 95. The classic green felt background.]**
 
 **NARRATION:**
 
@@ -651,7 +651,7 @@ The shareware scene of the 1990s was full of card games, board games, and puzzle
 
 **[VISUAL: Screenshots of shareware download sites — TUCOWS, Download.com circa 1996, maybe a BBS file listing.]**
 
-You'd distribute your game by uploading it to a BBS or a shareware site. Users would download it, but they'd also need the VB runtime — a DLL file called something like `VBRUN300.DLL` that shipped separately from your program. If the user didn't already have it installed, your game wouldn't launch. So a lot of shareware authors would bundle the runtime with their download, which turned a 200-kilobyte game into a 1.5-megabyte download. On a 14.4 modem, that's nearly ten minutes of downloading. For a card game.
+You'd distribute your game by uploading it to a BBS or a shareware site. Users would download it, but they'd also need the VB runtime — a DLL file called something like `VBRUN300.DLL` that shipped separately from your program. If the user didn't already have it installed, your game wouldn't launch. So a lot of shareware authors would bundle the runtime with their download, which could turn a 200-kilobyte game into a megabyte-plus download. On a 14.4 modem, that's ten minutes or more of downloading. For a card game.
 
 **[VISUAL: A mock-up download progress bar from 1996 — estimated time remaining: 9 minutes 42 seconds.]**
 
@@ -751,13 +751,15 @@ Microsoft estimated that by the late 1990s, there were more lines of Visual Basi
 
 And then Microsoft killed it.
 
-Well — they didn't kill it outright. What they did was announce, in 2002, that Visual Basic would become VB.NET — a completely new language that shared the name but was fundamentally different under the hood. VB.NET ran on the .NET framework, used the Common Language Runtime, and had a different syntax, different semantics, different everything. Code from VB6 did not run in VB.NET. The migration tools were... let's say "aspirational."
+Well — they didn't kill it outright. What they did was announce, around 2000, that Visual Basic would become VB.NET — and then ship it in 2002 as a completely new language that shared the name but was fundamentally different under the hood. VB.NET ran on the .NET framework, used the Common Language Runtime, and had a different syntax, different semantics, different everything. Code from VB6 did not run in VB.NET. The migration tools were... let's say "aspirational."
 
 **[VISUAL: A migration wizard with a long list of warnings and errors. Maybe a meme-style "this is fine" edit.]**
 
 The VB community was furious. They'd been promised that VB was a platform they could build careers on, and now Microsoft was telling them to start over. Many VB6 developers moved to VB.NET and eventually adapted. Many moved to C# instead, figuring that if they had to learn a new .NET language, they might as well learn the one Microsoft clearly favored. And some just... stayed on VB6. Some are still there.
 
-**[VISUAL: A petition website — "Save VB6!" or similar. These were real.]**
+In 2005, as Microsoft ended mainstream support for VB6, a group of developers and MVPs organized an actual petition to keep unmanaged Visual Basic alive.
+
+**[VISUAL: The classicvb.org petition page, March 2005 — "A Petition for the Development of Unmanaged Visual Basic and Visual Basic for Applications." Wayback Machine capture. These were real.]**
 
 VB.NET still exists today — it's the language we wrote this card game in. But it's a niche within a niche. Microsoft has officially stated that they will not add new language features to VB.NET; it will continue to compile and run, but it's in maintenance mode. C# gets all the new toys. VB.NET gets security patches.
 
@@ -851,7 +853,7 @@ See you in the next one.
 
 ### Mockups to Create
 1. What a VB4 GUI version of this War game might look like — green felt background, card images, deal button, score labels
-2. A "1996 download progress bar" — 14.4 modem speed, 9+ minutes remaining
+2. A "1996 download progress bar" — 14.4 modem speed, 10+ minutes remaining
 
 ### Stock Footage / B-roll Suggestions
 1. Hands shuffling a physical deck of cards
