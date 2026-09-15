@@ -1,0 +1,37 @@
+{
+  "id": "BROLL-06",
+  "classification": "stock candidate scouting; no media acquired",
+  "accessed": "2026-09-15",
+  "source_files": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [109, 122],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead (source suggestion), literal excerpt in evidence/source-excerpts.md"
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [799, 805],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "shot request, literal excerpt in evidence/source-excerpts.md"
+    }
+  ],
+  "external_evidence": [
+    {"url": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/", "kind": "stock asset page", "method": "WebFetch + in-app browser page text (tab-6)"},
+    {"url": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/", "kind": "stock asset page", "method": "WebFetch + in-app browser page text (tab-6)"},
+    {"url": "https://commons.wikimedia.org/wiki/File:BIOS_POST_IMGP9357_wp.ogv", "kind": "archive file page", "method": "WebFetch + Commons API imageinfo + in-app browser DOM read"},
+    {"url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File:BIOS_POST_IMGP9357_wp.ogv&prop=imageinfo&iiprop=url|size|mime|extmetadata|user|timestamp&format=json", "kind": "archive metadata API", "method": "WebFetch"},
+    {"url": "https://www.pexels.com/license/", "kind": "license page", "method": "WebFetch"},
+    {"url": "https://pixabay.com/service/license-summary/", "kind": "license page", "method": "WebFetch"},
+    {"url": "http://artlibre.org/licence/lal/en/", "kind": "license page", "method": "WebFetch"},
+    {"url": "https://archive.org/metadata/youtube-WCdDKPonXXA", "kind": "archive mirror metadata of a YouTube video (gated lead)", "method": "WebFetch"},
+    {"url": "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=PwRR7-P-8fc&format=json", "kind": "YouTube oEmbed (gated lead)", "method": "WebFetch"},
+    {"url": "https://archive.org/metadata/windows-95-startup-and-shutdown-20-minutes-sd-360p", "kind": "archive item metadata (rejected lead)", "method": "WebFetch"}
+  ],
+  "authored_additions": [
+    "Candidate ranking, proposed in/out timecodes, visual-fit notes and local filenames are production proposals by this worker, not facts from the sources.",
+    "All proposed in/out points are provisional: they come from the page-stated duration only, because no frames were viewed (see qa.md)."
+  ],
+  "producer_decisions": [],
+  "media_acquired": false
+}

@@ -1,0 +1,158 @@
+{
+  "id": "BROLL-06",
+  "shot": "Pentium-era desktop PC power-on / boot sequence with plausible CRT and OS, horizontal, 8-12 s usable",
+  "accessed": "2026-09-15",
+  "summary": "No free, ungated candidate was verified to show a period PC boot sequence (POST text, memory count, or Windows 95/3.x startup on a CRT). Three free candidates were page-inspected and ranked by probable fit. Two YouTube leads that do match the shot are rights-blocked and routed to H02. No frames of any candidate were viewed (motion not reviewed).",
+  "candidates": [
+    {
+      "rank": 1,
+      "role": "provisional best (period-PC set shot; boot not confirmed)",
+      "platform": "Pexels",
+      "title": "A Vintage Computer on a Table",
+      "asset_page": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/",
+      "creator": "MART PRODUCTION",
+      "page_description": "Explore a cozy retro room with a vintage PC and nostalgic decor, perfect for nostalgic vibes.",
+      "upload_date": "2021-07-24",
+      "duration_seconds": 12,
+      "source_dimensions": {"width": 4096, "height": 2160},
+      "orientation": "horizontal",
+      "fps": 25,
+      "proposed_in": "00:00:01.000",
+      "proposed_out": "00:00:11.000",
+      "proposed_segment_seconds": 10.0,
+      "timecode_basis": "Provisional. Derived from the page-stated 0:12 duration with 1 s handles; not chosen from viewed frames.",
+      "visual_fit": "Page text describes a vintage PC in a retro room. It does not say whether the machine is powered on, booting, or showing anything on screen. At best this is a period-setting shot, not a confirmed boot sequence. The MART PRODUCTION retro-room series of the same date also has 960x506 previews of related clips, which the editor could check in-page.",
+      "hardware_date_evidence": "unverified. Period PC boot not confirmed; CPU, BIOS and OS unverified; no POST text or catalog hardware metadata on the page.",
+      "license": {
+        "name": "Pexels license (page shows License: Free)",
+        "url": "https://www.pexels.com/license/",
+        "terms": "Free to use; attribution not required; modification allowed. Do not show identifiable people in a bad light, imply endorsement by people or brands shown, sell unaltered copies, or redistribute on other stock platforms.",
+        "accessed": "2026-09-15"
+      },
+      "barrier": "None seen for viewing. The page shows a 'Free download' button with no login prompt. From tab-6, later navigations to pexels.com hit a Cloudflare 'Performing security verification' page; I stopped using Pexels in the browser at that point and did not attempt to pass it.",
+      "download_option": {
+        "label": "Free download",
+        "rendition_url_seen_in_page": "https://videos.pexels.com/video-files/8888818/8888818-uhd_2732_1440_25fps.mp4",
+        "rendition_dimensions": "2732x1440, 25 fps (from file name in page source)",
+        "file_size": "not displayed",
+        "local_filename": "assets/broll/BROLL-06/source/pexels-8888818-mart-production-vintage-computer.mp4"
+      },
+      "motion_review": "motion not reviewed: the in-app Browser pane was hidden, so screenshots timed out. A playback probe on the asset page played a related-clip preview (8889183, 22.04 s, 960x506), not this asset, and no frames were viewed.",
+      "acquisition_status": "not acquired; pending batched download approval"
+    },
+    {
+      "rank": 2,
+      "role": "alternative (power-button action; era unverified)",
+      "platform": "Pixabay",
+      "title": "Switch Off, turn on, on",
+      "asset_page": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/",
+      "creator": "Kmeel_com",
+      "tags": ["Switch Off", "Turn On", "On", "Off", "Computer", "Pc", "Technology", "Button"],
+      "upload_date": "2022-08-06",
+      "duration_seconds": 13,
+      "duration_basis": "0:13 as shown in the Pixabay search-result listing; the asset page text did not show a duration",
+      "source_dimensions": {"width": 3840, "height": 2160},
+      "orientation": "horizontal",
+      "fps": 29,
+      "proposed_in": "00:00:01.500",
+      "proposed_out": "00:00:11.500",
+      "proposed_segment_seconds": 10.0,
+      "timecode_basis": "Provisional. Derived from the listed 0:13 duration only.",
+      "visual_fit": "Title and tags indicate a PC power button being switched on and off. Nothing says the hardware is 1990s, and it may be a modern PC. At most it could cover the 'power-on' beat as an insert, cut before an on-screen boot shot.",
+      "hardware_date_evidence": "unverified. PC era, CPU and OS unverified; no hardware text on the page.",
+      "license": {
+        "name": "Pixabay Content License",
+        "url": "https://pixabay.com/service/license-summary/",
+        "terms": "Free to use; no attribution required; modification allowed. No standalone redistribution. Recognisable trademarks, logos or brands cannot be used commercially in relation to goods and services. The user must check third-party rights.",
+        "accessed": "2026-09-15"
+      },
+      "barrier": "Asset page viewable without login. It shows 'Free download'. The size menu was deliberately not opened, to avoid triggering a download, so I have not verified whether any size needs login. Comments require login (not needed).",
+      "download_option": {
+        "label": "Free download (size menu not expanded)",
+        "file_size": "not displayed",
+        "local_filename": "assets/broll/BROLL-06/source/pixabay-126935-kmeel-switch-off-turn-on.mp4"
+      },
+      "motion_review": "motion not reviewed: the Browser pane was hidden and the Pixabay page exposed no video elements to the tab (player not loaded), so no frames were viewed.",
+      "acquisition_status": "not acquired; pending batched download approval"
+    },
+    {
+      "rank": 3,
+      "role": "alternative (real boot diagnostic footage; poor visual fit)",
+      "platform": "Wikimedia Commons",
+      "title": "File:BIOS POST IMGP9357 wp.ogv",
+      "asset_page": "https://commons.wikimedia.org/wiki/File:BIOS_POST_IMGP9357_wp.ogv",
+      "creator": "Rainer Knäpper (Commons user Smial), own work",
+      "description_verbatim": "Output of a BIOS POST card to a motherboard that constantly repeats the boot process (until the computer is turned off) because of a hardware error in a loop. Only the external display is shown, the actual POST card is inserted in the computer",
+      "date_created": "2011-03-14",
+      "uploaded": "2011-04-01T09:10:26Z",
+      "duration_seconds": 35,
+      "source_dimensions": {"width": 640, "height": 416},
+      "orientation": "horizontal",
+      "fps": null,
+      "fps_note": "not shown on page or in API response",
+      "proposed_in": "00:00:05.000",
+      "proposed_out": "00:00:15.000",
+      "proposed_segment_seconds": 10.0,
+      "timecode_basis": "Provisional. The description says the boot loop repeats, so any 10 s window inside the 35 s should show cycling codes; not chosen from viewed frames.",
+      "visual_fit": "Weak. The clip shows the external seven-segment display of a POST diagnostic card, not a CRT, BIOS text, memory count or OS splash. At 640x416 it needs about 2.6x upscaling for 1080p. It could work as a textural 'boot codes' insert, not as the requested shot.",
+      "hardware_date_evidence": "Boot process confirmed by creator's description (POST card during a boot loop). Recorded 2011; motherboard, CPU and BIOS unverified. Not evidence of a Pentium-era machine.",
+      "license": {
+        "name": "Free Art License (API LicenseShortName: FAL; the file page also lists GNU Free Documentation License 1.2)",
+        "url": "http://artlibre.org/licence/lal/en/",
+        "secondary_url_listed_not_loaded": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+        "terms": "Copy, distribute and modify, including commercially. Credit the author, give the licence or its location, and say where the original is. Modifications must use the same or a compatible licence. Article 4 limits incorporation into a larger work that is not under a compatible licence when the work cannot be accessed separately.",
+        "attribution_required": true,
+        "credit_text_proposed": "\"BIOS POST IMGP9357 wp.ogv\" by Rainer Knäpper (Smial), Free Art License 1.3, via Wikimedia Commons",
+        "accessed": "2026-09-15"
+      },
+      "barrier": "None: no login, no CAPTCHA. The original file link is shown on the page.",
+      "download_option": {
+        "label": "Original file (Commons file page / API url field)",
+        "url_as_shown": "https://upload.wikimedia.org/wikipedia/commons/5/56/BIOS_POST_IMGP9357_wp.ogv",
+        "file_size_bytes": 955853,
+        "dimensions": "640x416",
+        "transcodes_listed": ["VP9 360P", "VP9 240P", "QuickTime 360p (MPEG-4)", "QuickTime 144p (MJPEG)"],
+        "local_filename": "assets/broll/BROLL-06/source/commons-BIOS_POST_IMGP9357_wp.ogv"
+      },
+      "motion_review": "motion not reviewed: the Browser pane was hidden; the in-page player's video element was at readyState 0 (240p VP9 transcode selected), and no frames were viewed.",
+      "acquisition_status": "not acquired; pending batched download approval"
+    }
+  ],
+  "gated_leads_h02": [
+    {
+      "title": "Unboxing & Enjoying an $1,899 PC from 1996! AST Advantage 622",
+      "creator": "LGR",
+      "evidence_url_loaded": "https://archive.org/metadata/youtube-WCdDKPonXXA",
+      "original": "YouTube video ID WCdDKPonXXA (per Internet Archive mirror identifier; YouTube watch page not loaded)",
+      "duration_seconds": 2902.04,
+      "dimensions_per_mirror_file": "3840x2160 (mkv), 854x480 (mp4)",
+      "hardware_date_evidence": "Creator's description (via IA mirror) names a 100MHz Intel Pentium CPU, 8 MB RAM, and a Windows 95 desktop from the mid 90s. This is the creator's claim, not yet verified from on-screen POST text.",
+      "boot_segment": "not located; video not played",
+      "rights": "No licenseurl or rights field on the IA mirror. YouTube page license not verified. Background music is licensed from Epidemic Sound per description, so audio unusable. Rights-blocked.",
+      "why_gated": "Needs creator permission; the IA copy is a third-party mirror with no license and must not be downloaded as a rights basis.",
+      "cost": "unknown (permission/licensing fee not stated)"
+    },
+    {
+      "title": "Old computer boot up Windows 95",
+      "creator": "Jaime Cobo Vicente (@Jcvlasmesas)",
+      "evidence_url_loaded": "https://www.youtube.com/watch?v=PwRR7-P-8fc",
+      "duration_seconds": null,
+      "source_dimensions": null,
+      "hardware_date_evidence": "unverified. A web-search summary said the video features a Pentium MMX 200MHz with 32 MB RAM, but I could not read the page description (WebFetch returned only the footer; the in-app page's renderer hung).",
+      "rights": "License field not verified. Standard YouTube license assumed until shown otherwise; rights-blocked.",
+      "why_gated": "YouTube standard license is not reuse permission; needs creator permission.",
+      "cost": "unknown"
+    }
+  ],
+  "rejected_leads": [
+    {"url": "https://archive.org/metadata/windows-95-startup-and-shutdown-20-minutes-sd-360p", "reason": "640x360 screen capture/emulator-style recording of Microsoft UI, not a physical PC; CC BY-NC-SA 4.0 (NonCommercial) declared by an uploader whose rights to the Microsoft UI are unverified."},
+    {"url": "https://commons.wikimedia.org/wiki/File:Bootprobleme_IMGP8337.ogv", "reason": "Same POST-card subject by Smial but 200x112, too small."},
+    {"url": "https://commons.wikimedia.org/wiki/File:Kon-Boot_booting_from_USB_(bypass_windows_password_software).webm", "reason": "2024 recording of modern software boot; no period hardware."},
+    {"url": "https://commons.wikimedia.org/wiki/File:2021-10-16_1.VCRG-Austellung_WikiMUC.webm", "reason": "Vintage computer exhibition walkthrough; no boot sequence indicated."},
+    {"url": "https://www.pexels.com/video/a-computer-monitor-flashing-a-message-8879937/", "reason": "cottonbro studio CRT showing a fictional vaccine loading screen; not a boot."},
+    {"url": "https://www.pexels.com/video/family-computer-7667876/", "reason": "Video game console, not a PC."},
+    {"url": "https://www.pexels.com/video/stacked-computers-and-keyboard-12271136/", "reason": "Vertical 1080x1920."},
+    {"url": "https://www.vecteezy.com/free-videos/old-computer-screen", "reason": "Boot-screen results are simulated animations, not real hardware; the page shows sign-up/log-in options; license not verified."},
+    {"url": "https://www.videvo.net/search/?q=old%20computer%20boot", "reason": "HTTP 403 to WebFetch; not inspected."}
+  ]
+}

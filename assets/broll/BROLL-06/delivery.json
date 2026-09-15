@@ -1,0 +1,151 @@
+{
+  "id": "BROLL-06",
+  "title": "Pentium-era PC booting",
+  "production_status": "scouted",
+  "release_status": "blocked",
+  "provenance_type": "stock footage scouting record (candidate pages inspected; motion not reviewed; no media acquired)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "qa.md",
+      "role": "QA report",
+      "bytes": 6687,
+      "sha256": "fd2a5b85b81572b8a43d14afdec0a72780ced5fc2c6b715f97b793a241367af1"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 2615,
+      "sha256": "3a4dab6b4bcd9c73571f4a72f7436d469b50e7aa3431c0f537fe60c5a6cc6321"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / literal source excerpts",
+      "bytes": 4552,
+      "sha256": "0f544ce203b22346b72fab816dc3f0d23a1920e2c7ee448c56f78d108d3cfec0"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gate record (R14 open)",
+      "bytes": 4123,
+      "sha256": "767167cad598fb9178ab5a35d73a02c8b3814bf40b4f1b4b3b2c849956c586e1"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "candidate report (variant: candidate-report)",
+      "bytes": 6920,
+      "sha256": "9273f8ec154af2249bf90363a3d4a5224c36702da99e86e81db4b91e81118c10"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "role": "structured candidates",
+      "bytes": 12661,
+      "sha256": "94e8217db424543a5ab127f748cff17b509deb5927e65e466d693140dab3a28b"
+    },
+    {
+      "path": "exports/acquisition-handoff.md",
+      "role": "acquisition handoff (ungated pending approval + H02)",
+      "bytes": 4946,
+      "sha256": "46c21db8188eb2d662f63ed8c37002558c4e5a715d2921126a68d82f7e041011"
+    }
+  ],
+  "variants": [
+    {
+      "name": "candidate-report",
+      "files": [
+        "exports/candidates.md"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        109,
+        122
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt (planning lead)"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        799,
+        805
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (shot request)"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "url": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/",
+      "relationship": "stock candidate (rank 1, not acquired)"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "url": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/",
+      "relationship": "stock candidate (rank 2, not acquired)"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "url": "https://commons.wikimedia.org/wiki/File:BIOS_POST_IMGP9357_wp.ogv",
+      "relationship": "stock candidate / archive (rank 3, not acquired)"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "Pexels 8888818",
+      "creator": "MART PRODUCTION",
+      "required": false
+    },
+    {
+      "asset": "Pixabay 126935",
+      "creator": "Kmeel_com",
+      "required": false
+    },
+    {
+      "asset": "Commons BIOS_POST_IMGP9357_wp.ogv",
+      "creator": "Rainer Knäpper (Smial)",
+      "required": true,
+      "text": "\"BIOS POST IMGP9357 wp.ogv\" by Rainer Knäpper (Smial), Free Art License 1.3, via Wikimedia Commons"
+    }
+  ],
+  "tests": [
+    {
+      "name": "validate_delivery",
+      "command": "python tools/validate_delivery.py --id BROLL-06",
+      "result": "run after hashing; result in completion report"
+    },
+    {
+      "name": "page and license inspection",
+      "method": "WebFetch + in-app browser tab-6 page text/DOM",
+      "result": "performed 2026-09-15"
+    },
+    {
+      "name": "motion review",
+      "result": "NOT performed: Browser pane hidden, screenshots timed out; no frames viewed"
+    },
+    {
+      "name": "1080p/720p visual inspection",
+      "result": "not applicable: no media acquired"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "git": "2.53.0.windows.1",
+    "web": "Claude Code WebFetch/WebSearch; Claude Browser tab tools",
+    "renderer": null
+  },
+  "notes": [
+    "Scouted is not acquired: no media downloaded; free downloads await batched approval.",
+    "No free candidate verified to show a period PC boot; CPU unverified for all free candidates.",
+    "YouTube leads (LGR WCdDKPonXXA; PwRR7-P-8fc) are rights-blocked and routed to H02.",
+    "All in/out timecodes are provisional (derived from stated durations; no frames viewed)."
+  ]
+}

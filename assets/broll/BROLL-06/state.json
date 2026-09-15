@@ -1,12 +1,19 @@
 {
   "id": "BROLL-06",
-  "production_status": "planned",
+  "production_status": "scouted",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "BROLL-06 worker subagent (spawned by B-roll Scouting Manager, session vb-99)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "Motion review not performed: in-app Browser pane hidden (screenshots timed out); no frames of any candidate were viewed.",
+    "No free candidate verified to depict a period PC boot sequence; hardware/CPU unverified for all free candidates.",
+    "Free downloads pending the manager's batched download approval from Devin; nothing acquired.",
+    "Best-matching leads (LGR AST Advantage 622; 'Old computer boot up Windows 95') are YouTube, rights-blocked, routed to H02.",
+    "R14 open; review questions pending in the OPS-04 deck."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Scouted = URL/metadata scout with recorded terms; not acquired media.",
+    "Pexels presented a Cloudflare security-verification page in the in-app browser; not bypassed."
   ]
 }
