@@ -1,0 +1,243 @@
+{
+  "id": "DIA-14",
+  "title": "VB timeline: VB1 through VB.NET",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 444,
+      "sha256": "9c7e53c2bea259e68049ce4432aa76f5209bb4e4f2a6bdfb5027be45a2a1fb0f"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 663,
+      "sha256": "e0fd645cc4249befdb91280cee129849743ce9096d45e9fbec1b867ee61a6d04"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1498,
+      "sha256": "2452045d1321703a00024f469b7bcef82afacf934cbdba126ee8112e397b0614"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 154,
+      "sha256": "32ff7730fb52ddd8e0e5a69bd9d540f1523ee3e9f08cf14cc4a2c12e18ad5980"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4414,
+      "sha256": "a6aa1983ea051bbca01ea3226da34c3672054720516dfc8dc360e83521bbcff4"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 33599,
+      "sha256": "8622f51ed59c1856cdded3ad30036e41257f79ae53c658e9c8c0a18a73457ec9"
+    },
+    {
+      "path": "exports/early-history.png",
+      "role": "rendered still",
+      "bytes": 38296,
+      "sha256": "4c42772434e6c1f0626acced19152333672558ffb6a676bd476eb3b43a041ee8"
+    },
+    {
+      "path": "exports/great-divide.png",
+      "role": "rendered still",
+      "bytes": 45592,
+      "sha256": "2497bbbf94b3a31bd16b274b9904c8278b6892ff730fca26f2d81f2d87ea97f8"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 38296,
+      "sha256": "4c42772434e6c1f0626acced19152333672558ffb6a676bd476eb3b43a041ee8"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 55881,
+      "sha256": "41495ac8d027253834c3403b14b6554d6ec00deda799e5b87b335fdd1b24a40e"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2969,
+      "sha256": "0e06bda3c3923c4852d50d772ddd395684fbc21cd36e682d55bdf795a845dfe2"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1371,
+      "sha256": "03e99407bea9b66f86f6cab95286a1560af9ec58e6229f2321c08d869eb0c630"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1579,
+      "sha256": "b732c587068bf59391ae97dcfd2409e617fa4db586ce2c1d0d3b173205c4ed04"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 5670,
+      "sha256": "fc41e6985c105ba23108a11a5d98a797943462a37f3118ce2667036744458c1c"
+    },
+    {
+      "path": "src/milestones.json",
+      "role": "editable source",
+      "bytes": 1788,
+      "sha256": "4ef41eaa956c0818a5fc6b5723f8816397a38ef4b064f3e70c8ba8eae62c5fd3"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 3494,
+      "sha256": "f9b084a406031bc3f36d93893cd9817e70e8aac9a7f70309b7e2a7040f0d00d5"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 3494,
+      "sha256": "f9b084a406031bc3f36d93893cd9817e70e8aac9a7f70309b7e2a7040f0d00d5"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 547,
+      "sha256": "3b2e8da0cd232aca5864ea3206536a79d0ef5844e5fe5e00d3dd17a1abd27860"
+    },
+    {
+      "path": "src/variant-early-history.svg",
+      "role": "editable source",
+      "bytes": 3494,
+      "sha256": "f9b084a406031bc3f36d93893cd9817e70e8aac9a7f70309b7e2a7040f0d00d5"
+    },
+    {
+      "path": "src/variant-great-divide.svg",
+      "role": "editable source",
+      "bytes": 3607,
+      "sha256": "e2ce91b36471c2c7fd9841bd0070bfc16c1fa41f554c5604458182fd2cecaea8"
+    }
+  ],
+  "variants": [
+    {
+      "name": "early-history",
+      "files": [
+        "exports/early-history.png",
+        "src/variant-early-history.svg"
+      ]
+    },
+    {
+      "name": "great-divide",
+      "files": [
+        "exports/great-divide.png",
+        "src/variant-great-divide.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        29,
+        29
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        110,
+        116
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        679,
+        705
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution exports and 720p proof",
+        "scope": "Viewed exports/early-history.png, exports/great-divide.png and proofs/poster-720.png.",
+        "status": "All seven milestones appear across the two views with no overlapping labels. early-history ticks every year (1994 and 1996 unlabeled); great-divide shows the break marks, the divide label and its not-to-scale note. Readable at 720p."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R15",
+    "R12"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "All seven milestones are the script’s draft years (SCRIPT.md:112, 116, 697), recorded with quotes in src/milestones.json. No year is verified yet (R15).",
+    "Feature callouts (VB3 and Jet, VB4 and 32-bit, VB6 as the last classic release, the VB.NET runtime change) are left off until verified.",
+    "early-history spaces 1991–1998 in proportion to time. great-divide is schematic and says so; its break marks do not imply a period without development.",
+    "No “today”, support or lifecycle label is shown (R12).",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

@@ -790,5 +790,71 @@
       "No historical, semantic, or legal clearance.",
       "Manual 1080p/720p review remains required."
     ]
+  },
+  {
+    "id": "DIA-11",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-12",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-14",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "REF-01",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "REF-02",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
+  },
+  {
+    "id": "DIA-13",
+    "ok": true,
+    "errors": [],
+    "limitations": [
+      "No OCR or visual quality judgment.",
+      "No MP4 decode/frame-rate/codec validation; inspect with ffprobe and playback.",
+      "No historical, semantic, or legal clearance.",
+      "Manual 1080p/720p review remains required."
+    ]
   }
 ]

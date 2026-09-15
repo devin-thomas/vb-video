@@ -1,0 +1,37 @@
+{
+  "id": "REF-02",
+  "title": "Windows C Hello World: historical boilerplate comparison",
+  "requirements": [
+    "Create a representative Windows-3.x/Win16-era C window example suitable for the narrated 1991 context. Specify a window class, creation, message loop, window procedure, and output/paint behavior. The source claims about 80 lines but does not supply code: do not pad to a quota or present modern Win32 code as Win16. If credible code is a different length, report it and request editorial approval for the line-count claim.",
+    "Provide editable source code separately from the visual. Keep line numbers and captions as distinct layers.",
+    "Do not copy lengthy copyrighted tutorial code without a compatible license and attribution. Original authored samples still need technical review.",
+    "Historical reconstruction status and any execution limitations must be recorded. Do not forge an old IDE screenshot around newly written text."
+  ],
+  "beats": [
+    "Establish the complete excerpt or its first viewport.",
+    "Use a measured reveal/scroll for long code; supply a clean still as well.",
+    "Finish on the contrast-relevant lines with a readable hold."
+  ],
+  "checks": [
+    "The visible code is technically coherent for its stated scope, or explicitly release-blocked awaiting validation.",
+    "No fake compilation result, source provenance, or exact 80-line claim is invented.",
+    "The audience can distinguish a three-line event handler from a full application."
+  ],
+  "copy": "Windows C: a complete window example",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      54,
+      54
+    ],
+    [
+      "SCRIPT.md",
+      88,
+      90
+    ]
+  ],
+  "gates": [
+    "R03",
+    "R15"
+  ]
+}

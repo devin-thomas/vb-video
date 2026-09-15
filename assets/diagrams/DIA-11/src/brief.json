@@ -1,0 +1,36 @@
+{
+  "id": "DIA-11",
+  "title": "1995 development tools comparison",
+  "requirements": [
+    "Exactly five rows: Visual Basic 4, Visual C++ 4 / MFC, Borland Delphi 1.0, PowerBuilder, Java 1.0.",
+    "Columns: language/tooling, GUI approach, script’s stated strength, script’s stated tradeoff. Draft cells from the provided narration; retain an internal source-per-cell table.",
+    "Mark subjective claims such as ease or ugliness as script characterization in the working data; final wording needs editorial approval.",
+    "Do not assert all named product/version labels were simultaneously released in the target year until chronology is checked. No logos or box art are required."
+  ],
+  "beats": [
+    "Full-table still plus optional row-focus states for VB, Delphi, and Java.",
+    "Keep consistent column widths; split to two connected slides only if the entire chart cannot pass readability review."
+  ],
+  "checks": [
+    "All five rows present; each factual cell links to script lines and verification status.",
+    "No price, market-share percentage, invented rating, or benchmark is added.",
+    "The tradeoff column does not caricature one tool through deliberately broken code."
+  ],
+  "copy": "1995 development tools\nTool | Language / tooling | GUI approach | Strength | Tradeoff",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      26,
+      26
+    ],
+    [
+      "SCRIPT.md",
+      607,
+      633
+    ]
+  ],
+  "gates": [
+    "R11",
+    "R15"
+  ]
+}

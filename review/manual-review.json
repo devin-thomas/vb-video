@@ -358,5 +358,35 @@
     "mode": "Shared primitives instantiated in reviewed assets",
     "scope": "52 distinct vector face definitions and atlas generated; representative cards inspected in the diagram/mockup review.",
     "status": "No copied sprites or bundled fonts. Not every atlas cell was independently magnified."
+  },
+  "DIA-11": {
+    "mode": "Full-resolution export and 720p proof",
+    "scope": "Viewed exports/full-comparison.png (also the poster) at 1920 \u00d7 1080 and proofs/poster-720.png.",
+    "status": "All five rows and the four content columns are present and readable at 720p; the longest cell wraps to three lines inside its row. No text leaves the safe area. No price, market share, rating or logo appears."
+  },
+  "DIA-12": {
+    "mode": "Full-resolution exports and 720p proof",
+    "scope": "Viewed exports/full-table.png, exports/gui-row-focus.png and proofs/poster-720.png.",
+    "status": "Five rows and both headings match the script table word for word and are readable at 720p. gui-row-focus outlines the GUI-builder row and dims the other four, which stay legible."
+  },
+  "DIA-14": {
+    "mode": "Full-resolution exports and 720p proof",
+    "scope": "Viewed exports/early-history.png, exports/great-divide.png and proofs/poster-720.png.",
+    "status": "All seven milestones appear across the two views with no overlapping labels. early-history ticks every year (1994 and 1996 unlabeled); great-divide shows the break marks, the divide label and its not-to-scale note. Readable at 720p."
+  },
+  "REF-01": {
+    "mode": "Full-resolution stills, mid-scroll keyframe and 720p proof",
+    "scope": "Viewed exports/clean.png, exports/teaching-focus.png (also the poster), exports/keyframes/middle.png and proofs/poster-720.png. preview.mp4 was probed by the renderer and decoded end to end with ffmpeg without errors; it was not watched frame by frame.",
+    "status": "Code, line numbers and highlighting are readable at 720p. The focus band covers BEGIN_MESSAGE_MAP through END_MESSAGE_MAP and the caption fits beside the line count."
+  },
+  "REF-02": {
+    "mode": "Full-resolution stills, mid-scroll keyframe and 720p proof",
+    "scope": "Viewed exports/clean.png, exports/teaching-focus.png (also the poster), exports/keyframes/middle.png and proofs/poster-720.png. preview.mp4 was probed by the renderer and decoded end to end with ffmpeg without errors; it was not watched frame by frame.",
+    "status": "Code stays readable at 720p. The focus band covers the four message-loop lines, a rule separates hello.c from hello.def, and hello.def line numbers restart at 1."
+  },
+  "DIA-13": {
+    "mode": "Full-resolution export and 720p proof",
+    "scope": "Viewed exports/overview.png (also the poster) and proofs/poster-720.png after the layout fix.",
+    "status": "Node labels, the dashed script-sequence arrows and the three-entry legend are readable at 720p, and all text sits within x = 120\u20131800. The first render put the examples note and the last legend label past x = 1800; that was fixed and re-rendered before this review."
   }
 }

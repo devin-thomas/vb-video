@@ -101,3 +101,11 @@ But the ideas it pioneered — visual form designers, event-driven programming, 
 
 **[VISUAL: A lineage diagram showing VB's influence: VB → Delphi → .NET WinForms → WPF → modern frameworks. The form-designer concept flowing through all of them.]**
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/diagrams/DIA-13/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-13/qa.md) · [Live state](../../assets/diagrams/DIA-13/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

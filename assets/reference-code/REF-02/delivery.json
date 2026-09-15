@@ -1,0 +1,619 @@
+{
+  "id": "REF-02",
+  "title": "Windows C Hello World: historical boilerplate comparison",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "authored teaching illustration: representative code written for this production",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 22,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 447,
+      "sha256": "028be73f06acec1c9d61157425f0d002254ab861219d8ede5686071f6685eb8d"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 651,
+      "sha256": "848220e8d67b188adebd247734334277060d303184fbf6c0f8e49b37a7af6485"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1638,
+      "sha256": "ac75689d11ca50101d284112a3beebcfcd490c781f7cd8a233485b88e5c2822a"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 985,
+      "sha256": "feb1f29c0e0c4a3cb3a07f68d53ed30f273c1ee902769e46f52fc8baaf1e3e52"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 666,
+      "sha256": "4681a59e11e7c34ed2c99e4a12547a9790f8612ff2793cb2f17a7511fac4392a"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 123522,
+      "sha256": "1f509fd8c83c5a1b0791be6610ccfc8d643a82acaeb7a9622ddada791c1dbb67"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 230341,
+      "sha256": "176381f988bbe4c4512bf5ba4c422ce5638c85a4f721e322ea9ba4c7292b42e9"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 131244,
+      "sha256": "c7e6de813d214a7b6e6b493ef923d75d25b6b3bc5476c1e3cd0db56d6445634a"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 148944,
+      "sha256": "f70b830e4e36e4494956efcb3deaac2582b19ca50f516c40cb8555df073452f4"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 123522,
+      "sha256": "1f509fd8c83c5a1b0791be6610ccfc8d643a82acaeb7a9622ddada791c1dbb67"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 131244,
+      "sha256": "c7e6de813d214a7b6e6b493ef923d75d25b6b3bc5476c1e3cd0db56d6445634a"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 1629739,
+      "sha256": "bfcc06a19ed811be717040be94b5edec96d0fa47808341e8a5cdbdefabc06f7d"
+    },
+    {
+      "path": "exports/teaching-focus.png",
+      "role": "rendered still",
+      "bytes": 131244,
+      "sha256": "c7e6de813d214a7b6e6b493ef923d75d25b6b3bc5476c1e3cd0db56d6445634a"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 177738,
+      "sha256": "8623eeeeb753f3ab93f85e2fe8acbf9fcadca94598a896542b16b01eb0c2b472"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3424,
+      "sha256": "e423ee3a8169da43d8349ab93e34411e16ae863554c6015a02d92768f6ceea39"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1718,
+      "sha256": "991616bd2c39dd339bd4c46096ce8eb995ac4225903665ede696a941feda56c9"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 5446,
+      "sha256": "34173d221e01c788395ca3350538aea4812ba2f563d88f456f260dea9e3c8e08"
+    },
+    {
+      "path": "src/excerpt.c",
+      "role": "editable source",
+      "bytes": 1731,
+      "sha256": "2086da51c9e47964de0eb660f1c1fef744e24a68563c5319f43665e33537dcbc"
+    },
+    {
+      "path": "src/hello.def",
+      "role": "editable source",
+      "bytes": 300,
+      "sha256": "37a8b6cc9188c6f3c2c9a1f6820c8ef3f7be7f2102a01c68d37fe75cd13b150e"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 1227162,
+      "sha256": "73026493cccfdc622662404be1d02201d8a51ef6ef47974fc13527a2a21728e8"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 19429,
+      "sha256": "3093097286e88af7bfe44df3ef2dc75bdc1592371f969359a495eecccaeebf23"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 20053,
+      "sha256": "4a713873c3b90491eb0ccf86933e4807568125c8536a0d7eaf6e4155c0e0e181"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 19892,
+      "sha256": "baa7b385728691e5d1de49197bc93980449a99f84ece08d8fc384640726dbf6b"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 20917,
+      "sha256": "71136dbfbb2533474156311fce261ed55ccf4899b5b44a19830cf2ec18c02d63"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 16994,
+      "sha256": "e83298b03babed7fd94d68b5ba8288ce34f6f6399db6b0b02b3fb558fda9fe0e"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 19058,
+      "sha256": "c88408a3e41a20e16e2f5b1dc39c80c8df5321744dd14e52d963ba00018ca505"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 18372,
+      "sha256": "e857578868b8bfdd6e38b71bf12e4cef5719e0598ccfec45c1a4c2331a2bc6d0"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 17519,
+      "sha256": "cdb446893a57c4f8bd68fc1487f2fcaf798a719bd6e43710aa4b165cd9e158cd"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 19917,
+      "sha256": "a768b7e39edb07707b39651fbc1613a610bfe7253da1243130d531677a533c3d"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 20617,
+      "sha256": "7028209159564244bc74b1dc5540982550767bff3a240f1121feca9978e96644"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 20613,
+      "sha256": "149a61a5f1febd27f134feada29c4875942f152a909641b04eaba7e21f16620a"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 21314,
+      "sha256": "ebed06c84d18e3a1c2c3a829c28c6d1a8cd76ed7de6ff26fc7a8e9aa6a2c82f5"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 20621,
+      "sha256": "608c4742a13f6b9b9816021f4c5e3b3b3018fd8b9b2cc5ff091697fe26d09a68"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 19239,
+      "sha256": "79f866d1712e59b8a9315eeae643acfd15b64208c62414ce4b9e3458c3d47141"
+    },
+    {
+      "path": "src/scene-0014.svg",
+      "role": "editable source",
+      "bytes": 18889,
+      "sha256": "278c04910321c27f74875fb8a9a124779d494a28321f28d595f05bd5e97cc3ff"
+    },
+    {
+      "path": "src/scene-0015.svg",
+      "role": "editable source",
+      "bytes": 17865,
+      "sha256": "654dda68de91370ab3758368c8152775e6d54509971cf322ec8c1e342c86dcc2"
+    },
+    {
+      "path": "src/scene-0016.svg",
+      "role": "editable source",
+      "bytes": 18723,
+      "sha256": "65a617e7068427e5771cc3bdc84ea2e0a6d64b14bcd65ba7ceac48bc314a6cd7"
+    },
+    {
+      "path": "src/scene-0017.svg",
+      "role": "editable source",
+      "bytes": 18036,
+      "sha256": "d181bf41a96ef171eb2689293fb309964ad181d47f0c233e83e4962bf70c87e0"
+    },
+    {
+      "path": "src/scene-0018.svg",
+      "role": "editable source",
+      "bytes": 18725,
+      "sha256": "b6d2434014a8d65762ab1e6c07566ca644efc2ad4cb8b9e66c1a82b8e247d315"
+    },
+    {
+      "path": "src/scene-0019.svg",
+      "role": "editable source",
+      "bytes": 18905,
+      "sha256": "e099efc77064a738f5b61c95a048ebc5b3101fd78dc97b29b20f0ba2e9b3e9b5"
+    },
+    {
+      "path": "src/scene-0020.svg",
+      "role": "editable source",
+      "bytes": 19931,
+      "sha256": "70dd2dc98da2cb70a10193d83265c2513574f9bf6235068b21ce97932300421f"
+    },
+    {
+      "path": "src/scene-0021.svg",
+      "role": "editable source",
+      "bytes": 18898,
+      "sha256": "b25d406f4fdbda2e4f92c6bc79aef4cd573c018a85364eab55d89345243d16c1"
+    },
+    {
+      "path": "src/scene-0022.svg",
+      "role": "editable source",
+      "bytes": 19936,
+      "sha256": "405f7fcd3db6e2af12f0bd01c1d82b36a91c2c0246d86770f90813c2f86e81fd"
+    },
+    {
+      "path": "src/scene-0023.svg",
+      "role": "editable source",
+      "bytes": 21833,
+      "sha256": "3d65dffd42c18bd6717e7f41ab0dc59df4e19fb0768244cab5581fca1a1290ca"
+    },
+    {
+      "path": "src/scene-0024.svg",
+      "role": "editable source",
+      "bytes": 21329,
+      "sha256": "1a2fb95ffa98227e589cb6e5b52963abac73f915a60c77a6e7d5d9bbc13bd2c6"
+    },
+    {
+      "path": "src/scene-0025.svg",
+      "role": "editable source",
+      "bytes": 21333,
+      "sha256": "d5ea238f5876f47d2648f53d77104aa6fa0a1cfb1f4dc1116951f33734310a0e"
+    },
+    {
+      "path": "src/scene-0026.svg",
+      "role": "editable source",
+      "bytes": 22366,
+      "sha256": "df56b5520b58fc64c79865fda1c7a05fedd775f2474834707564dcbacdd84055"
+    },
+    {
+      "path": "src/scene-0027.svg",
+      "role": "editable source",
+      "bytes": 22016,
+      "sha256": "ce7690bdf4971ecc566b479b8aae960c7bca3567cc1d63c6112620ca1148658d"
+    },
+    {
+      "path": "src/scene-0028.svg",
+      "role": "editable source",
+      "bytes": 21162,
+      "sha256": "55b767b0bed6d2718cd876d2408bfa2df52a3d3d31087adf0ad59957eb5d6c3f"
+    },
+    {
+      "path": "src/scene-0029.svg",
+      "role": "editable source",
+      "bytes": 21511,
+      "sha256": "f54ca8d907af567786e8828f98366f3db32b26390ab34cab381aec79b2803dc4"
+    },
+    {
+      "path": "src/scene-0030.svg",
+      "role": "editable source",
+      "bytes": 21516,
+      "sha256": "76672acad3c427c7190052d35aa5f23d650a6f539fd5e36ced02985963f27ca2"
+    },
+    {
+      "path": "src/scene-0031.svg",
+      "role": "editable source",
+      "bytes": 21688,
+      "sha256": "39cf968eff011e61014461cd2e63f0bbaab313d38469adf026d1b14c19189f1a"
+    },
+    {
+      "path": "src/scene-0032.svg",
+      "role": "editable source",
+      "bytes": 20830,
+      "sha256": "9f23f4e5d029e68dee9cd1d76de6fc6fc844ecd610959405a0795ecc7f4c82db"
+    },
+    {
+      "path": "src/scene-0033.svg",
+      "role": "editable source",
+      "bytes": 22226,
+      "sha256": "d2faf87cf07678e589ad510cc6bba1855e212cc2d1044ca2732ed305a4931271"
+    },
+    {
+      "path": "src/scene-0034.svg",
+      "role": "editable source",
+      "bytes": 21216,
+      "sha256": "41c453f8dc85cefe9f546735f4d10c188165c49a1a74a41c7b76b11f2a5933a0"
+    },
+    {
+      "path": "src/scene-0035.svg",
+      "role": "editable source",
+      "bytes": 21577,
+      "sha256": "2b616503dfe90bfc06d845e2ae0730206fa2542dfb35f38bedb4abbd82b211bf"
+    },
+    {
+      "path": "src/scene-0036.svg",
+      "role": "editable source",
+      "bytes": 21938,
+      "sha256": "026637efe7b122cfae7fab58f1db122088c8b4130c9eee500b65faa98c2d0ec3"
+    },
+    {
+      "path": "src/scene-0037.svg",
+      "role": "editable source",
+      "bytes": 20740,
+      "sha256": "41dd9a0b60ac1e433a34682338995c70dd91e9cbba147e37bcd716eddd1118b5"
+    },
+    {
+      "path": "src/scene-0038.svg",
+      "role": "editable source",
+      "bytes": 20734,
+      "sha256": "540d756da8f0e8fa6ee882933dd3569a65bffa862fffe8bf22a45d18a8438785"
+    },
+    {
+      "path": "src/scene-0039.svg",
+      "role": "editable source",
+      "bytes": 19695,
+      "sha256": "f4e1531050f6078672e9ec7613634d9deb544a846db010cfc4d5f56ddc37b3c2"
+    },
+    {
+      "path": "src/scene-0040.svg",
+      "role": "editable source",
+      "bytes": 17802,
+      "sha256": "82211a5699a9b0b5c44f8fb6319aad0f9de46745c1f3b2294f99f76d42bfc6e5"
+    },
+    {
+      "path": "src/scene-0041.svg",
+      "role": "editable source",
+      "bytes": 18458,
+      "sha256": "8af73f32eb4a58f937cfdc2f76d054d6ac07fbfe09ff376c5d02bb4d9c6875bf"
+    },
+    {
+      "path": "src/scene-0042.svg",
+      "role": "editable source",
+      "bytes": 17429,
+      "sha256": "c4b5c1b0a6f2231dd05c0d1f625eb0a864a902f3ebaa15a17400b69d7a107785"
+    },
+    {
+      "path": "src/scene-0043.svg",
+      "role": "editable source",
+      "bytes": 17091,
+      "sha256": "29641c3a9cde5e4869206d251a21e538bdbc95c9f90cbfe00359c2965b178ab6"
+    },
+    {
+      "path": "src/scene-0044.svg",
+      "role": "editable source",
+      "bytes": 17960,
+      "sha256": "3bab6eac0652e7e947c686aa1ee904e344f4c559fb95be60bde649801fed64f3"
+    },
+    {
+      "path": "src/scene-0045.svg",
+      "role": "editable source",
+      "bytes": 16927,
+      "sha256": "da458fe98cc6f048e7c41d7d3f46a78503e47ef11a96748e0b6d9d510e36b08c"
+    },
+    {
+      "path": "src/scene-0046.svg",
+      "role": "editable source",
+      "bytes": 17258,
+      "sha256": "5ad9267cab624d91906091ff5e310dea7b19b6283b9168561aea566f395a4374"
+    },
+    {
+      "path": "src/scene-0047.svg",
+      "role": "editable source",
+      "bytes": 17254,
+      "sha256": "56d23a95918dc78280de9f5a041a24493698d7b8120e8077155105d63a0b1862"
+    },
+    {
+      "path": "src/scene-0048.svg",
+      "role": "editable source",
+      "bytes": 17171,
+      "sha256": "f16ed9611dfce4864a84089e56bde519c59f62cee0c05dd494bf10ec5437c91a"
+    },
+    {
+      "path": "src/scene-0049.svg",
+      "role": "editable source",
+      "bytes": 15833,
+      "sha256": "8575c288f0121fd9faa5c59f9e48090f4648dfec86a71763179e8b2541001389"
+    },
+    {
+      "path": "src/scene-0050.svg",
+      "role": "editable source",
+      "bytes": 15472,
+      "sha256": "7edf96d7e1ab1725b19cfe678441578a9fc052fdba8cb62ed2a45f04df0de085"
+    },
+    {
+      "path": "src/scene-0051.svg",
+      "role": "editable source",
+      "bytes": 14112,
+      "sha256": "2c7d6cf4bdcb6dd1071262a14171591996a6bb633f7c2c7b65675ed66f53103f"
+    },
+    {
+      "path": "src/scene-0052.svg",
+      "role": "editable source",
+      "bytes": 12739,
+      "sha256": "c4ac448e77614e9d3d24ac82e3dd5d594cff6e7b1d9a6fd07c533bc455281577"
+    },
+    {
+      "path": "src/scene-0053.svg",
+      "role": "editable source",
+      "bytes": 12941,
+      "sha256": "ad540901b4aaf11a2da9c1554853527e5f94994212a3f5a1869068025e2d8d2c"
+    },
+    {
+      "path": "src/scene-0054.svg",
+      "role": "editable source",
+      "bytes": 11948,
+      "sha256": "1e24b69084094b4b0ca345e70603de7cba65f4348b4af1cd5eb3cbceadd5552e"
+    },
+    {
+      "path": "src/scene-0055.svg",
+      "role": "editable source",
+      "bytes": 11294,
+      "sha256": "3d6bd189ae6ae0b06a6919939d3772df33423d3fbb6d78f8fcaeebd8605c958b"
+    },
+    {
+      "path": "src/scene-0056.svg",
+      "role": "editable source",
+      "bytes": 11477,
+      "sha256": "0fe83969a73fc63a902488390ef95ab627776eecf1fba6aeb907b66732f7074c"
+    },
+    {
+      "path": "src/scene-0057.svg",
+      "role": "editable source",
+      "bytes": 9445,
+      "sha256": "118c84b9f7ecd10bbc48a5b9c28b401616289223c3ff1d88bf4ffddf60c4c2ce"
+    },
+    {
+      "path": "src/scene-0058.svg",
+      "role": "editable source",
+      "bytes": 9460,
+      "sha256": "3f5a59ed40ab4b95ca9a28aeca8b38ac072ee2cf926f2c16781eadc66fbb6aab"
+    },
+    {
+      "path": "src/scene-0059.svg",
+      "role": "editable source",
+      "bytes": 16036,
+      "sha256": "c31bca43045fc144f5ebcc10f1c130e8bb625f391a3b1aec0b01424921d0703e"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 16036,
+      "sha256": "c31bca43045fc144f5ebcc10f1c130e8bb625f391a3b1aec0b01424921d0703e"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 4371,
+      "sha256": "c53a0759e3e310cf876c0b8657a316bf1e5ebbe998032400166ca0c6f83d1ebb"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 19429,
+      "sha256": "3093097286e88af7bfe44df3ef2dc75bdc1592371f969359a495eecccaeebf23"
+    },
+    {
+      "path": "src/variant-teaching-focus.svg",
+      "role": "editable source",
+      "bytes": 16036,
+      "sha256": "c31bca43045fc144f5ebcc10f1c130e8bb625f391a3b1aec0b01424921d0703e"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "teaching-focus",
+      "files": [
+        "exports/teaching-focus.png",
+        "src/variant-teaching-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        54,
+        54
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        88,
+        90
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution stills, mid-scroll keyframe and 720p proof",
+        "scope": "Viewed exports/clean.png, exports/teaching-focus.png (also the poster), exports/keyframes/middle.png and proofs/poster-720.png. preview.mp4 was probed by the renderer and decoded end to end with ffmpeg without errors; it was not watched frame by frame.",
+        "status": "Code stays readable at 720p. The focus band covers the four message-loop lines, a rule separates hello.c from hello.def, and hello.def line numbers restart at 1."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R03",
+    "R15"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.",
+    "Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.",
+    "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
+    "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
+    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

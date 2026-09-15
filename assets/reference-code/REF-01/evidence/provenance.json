@@ -1,0 +1,35 @@
+{
+  "id": "REF-01",
+  "classification": "authored teaching illustration: representative code written for this production",
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        53,
+        53
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        615,
+        617
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "authored_additions": [
+    "Agent-authored representative MFC code in the style of Visual C++ 4: ClassWizard AFX_MSG blocks and ON_COMMAND(ID, handler) without &Class::. It is not recovered historical source.",
+    "Not compiled: Visual Studio 2022 on the production machine has no MFC libraries installed. Technical and era review stays open under R15.",
+    "CCardDoc, FlipNextCard, Deal and IsDealt are illustrative names for this card game; their definitions are not shown.",
+    "Line numbers and the caption are display layers; src/excerpt.cpp holds the exact text.",
+    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 48 rows, then the focus from 11 s to the end."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

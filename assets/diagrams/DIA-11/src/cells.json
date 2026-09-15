@@ -1,0 +1,218 @@
+{
+  "columns": [
+    "Tool",
+    "Language / tooling",
+    "GUI approach",
+    "Strength",
+    "Tradeoff"
+  ],
+  "rows": [
+    {
+      "tool": "Visual Basic 4",
+      "cells": {
+        "Language / tooling": {
+          "text": "BASIC",
+          "source": "SCRIPT.md:92",
+          "quotes": [
+            "married it to a BASIC dialect"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "GUI approach": {
+          "text": "Drag-and-drop form designer",
+          "source": "SCRIPT.md:619",
+          "quotes": [
+            "the same kind of drag-and-drop form designer"
+          ],
+          "basis": "derived from script",
+          "verification": "unverified"
+        },
+        "Strength": {
+          "text": "Easier than C++, more established",
+          "source": "SCRIPT.md:633",
+          "quotes": [
+            "easier than C++, more established than Delphi"
+          ],
+          "basis": "script characterization",
+          "verification": "unverified"
+        },
+        "Tradeoff": {
+          "text": "Not the best tool for any single job",
+          "source": "SCRIPT.md:633",
+          "quotes": [
+            "It wasn't the best tool for any single job"
+          ],
+          "basis": "script characterization",
+          "verification": "unverified"
+        }
+      }
+    },
+    {
+      "tool": "Visual C++ 4 / MFC",
+      "cells": {
+        "Language / tooling": {
+          "text": "C++",
+          "source": "SCRIPT.md:615",
+          "quotes": [
+            "gave you a C++ framework for building Windows apps"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "GUI approach": {
+          "text": "MFC class framework",
+          "source": "SCRIPT.md:615",
+          "quotes": [
+            "MFC — the Microsoft Foundation Classes"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "Strength": {
+          "text": "Powerful, fast",
+          "source": "SCRIPT.md:615",
+          "quotes": [
+            "It was powerful, fast"
+          ],
+          "basis": "script characterization",
+          "verification": "unverified"
+        },
+        "Tradeoff": {
+          "text": "Hard to learn: deep class hierarchies, macros",
+          "source": "SCRIPT.md:615",
+          "quotes": [
+            "absolutely miserable to learn",
+            "deep class hierarchies, its reliance on macros"
+          ],
+          "basis": "script characterization, softened",
+          "verification": "unverified"
+        }
+      }
+    },
+    {
+      "tool": "Borland Delphi 1.0",
+      "cells": {
+        "Language / tooling": {
+          "text": "Object Pascal",
+          "source": "SCRIPT.md:619",
+          "quotes": [
+            "its language — Object Pascal"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "GUI approach": {
+          "text": "Drag-and-drop form designer",
+          "source": "SCRIPT.md:619",
+          "quotes": [
+            "It had the same kind of drag-and-drop form designer"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "Strength": {
+          "text": "Native code, faster at runtime",
+          "source": "SCRIPT.md:619",
+          "quotes": [
+            "compiled to native code from day one",
+            "It was faster at runtime"
+          ],
+          "basis": "script characterization",
+          "verification": "unverified"
+        },
+        "Tradeoff": {
+          "text": "Smaller ecosystem than VB",
+          "source": "SCRIPT.md:623",
+          "quotes": [
+            "The ecosystem was bigger"
+          ],
+          "basis": "derived from script",
+          "verification": "unverified"
+        }
+      }
+    },
+    {
+      "tool": "PowerBuilder",
+      "cells": {
+        "Language / tooling": {
+          "text": "Corporate database tool",
+          "source": "SCRIPT.md:625",
+          "quotes": [
+            "huge in the corporate database world"
+          ],
+          "basis": "derived from script",
+          "verification": "unverified"
+        },
+        "GUI approach": {
+          "text": "DataWindows for data-entry forms",
+          "source": "SCRIPT.md:625",
+          "quotes": [
+            "It had a thing called DataWindows that made building data-entry forms"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "Strength": {
+          "text": "Data-entry forms made easy",
+          "source": "SCRIPT.md:625",
+          "quotes": [
+            "almost trivially easy"
+          ],
+          "basis": "script characterization, softened",
+          "verification": "unverified"
+        },
+        "Tradeoff": {
+          "text": "Expensive, rarely seen outside IT",
+          "source": "SCRIPT.md:625",
+          "quotes": [
+            "expensive, corporate, and basically invisible outside of IT departments"
+          ],
+          "basis": "script characterization, softened",
+          "verification": "unverified"
+        }
+      }
+    },
+    {
+      "tool": "Java 1.0",
+      "cells": {
+        "Language / tooling": {
+          "text": "Java, from Sun Microsystems",
+          "source": "SCRIPT.md:629",
+          "quotes": [
+            "which Sun Microsystems released in 1995"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "GUI approach": {
+          "text": "AWT toolkit",
+          "source": "SCRIPT.md:629",
+          "quotes": [
+            "its GUI toolkit — AWT"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "Strength": {
+          "text": "Write Once, Run Anywhere",
+          "source": "SCRIPT.md:629",
+          "quotes": [
+            "Write Once, Run Anywhere"
+          ],
+          "basis": "script wording",
+          "verification": "unverified"
+        },
+        "Tradeoff": {
+          "text": "New, slow, few libraries",
+          "source": "SCRIPT.md:629",
+          "quotes": [
+            "Java was brand new, brutally slow, had almost no libraries"
+          ],
+          "basis": "script characterization, softened",
+          "verification": "unverified"
+        }
+      }
+    }
+  ]
+}

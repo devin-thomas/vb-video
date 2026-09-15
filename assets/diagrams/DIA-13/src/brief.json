@@ -1,0 +1,35 @@
+{
+  "id": "DIA-13",
+  "title": "Visual development lineage / influence graphic",
+  "requirements": [
+    "Include source-requested nodes VB, Delphi, .NET WinForms, WPF, and modern frameworks. Keep React, SwiftUI, and Flutter as optional source-mentioned examples only.",
+    "Draft the supplied sequence in a separate working layer and maintain evidence status for every edge.",
+    "Do not substitute a verified family tree with guessed influence. Edge labels must distinguish direct technical lineage, shared RAD ideas, and unverified script assertions.",
+    "A neutral “shared visual-development ideas” layout is a proposed fallback, not an automatic rewrite; producer approval is required."
+  ],
+  "beats": [
+    "Still overview with large readable node labels and a legend for edge meaning.",
+    "Optional focus overlay highlights the shared idea rather than adding unproven chronological direction."
+  ],
+  "checks": [
+    "Every published edge has a evidence note and an approved relationship label.",
+    "No causal arrow is released only because it appeared in the draft narration.",
+    "A framework’s node does not imply VB language/runtime inheritance."
+  ],
+  "copy": "Visual development ideas\nVB · Delphi · WinForms · WPF · Modern frameworks",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      28,
+      28
+    ],
+    [
+      "SCRIPT.md",
+      709,
+      711
+    ]
+  ],
+  "gates": [
+    "R13"
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "id": "REF-01",
+  "title": "Representative MFC message-map snippet",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "authored teaching illustration: representative code written for this production",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 16,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 447,
+      "sha256": "ca8c6eba502039a73fa40a84c93885261308f6006bfb73a681c161a053c24a53"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 307,
+      "sha256": "f691452605b152212659db5056b676228484476784694d58bc4e56fe29df068f"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1433,
+      "sha256": "bfa291c743552b72c3dc9b69d84141d1889f6bc280768c2b0c5fd65e8c7f570f"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 984,
+      "sha256": "a51687df7581cd7010c497359fe823b8f8f9f100b3489e3a1655dbde9a92d378"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 777,
+      "sha256": "e8c74da0328f18f024406bd210973d51ccb2c19982c496f9251e6d490c008651"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 131271,
+      "sha256": "87c913521f2134499008dacea835dd2ca4ac1cd3769093ab78243d2276fb4a1f"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 260893,
+      "sha256": "38f155e6e5e42658729714825dce024ee54f5a0cff1c91fa87a532ec07adeed6"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 162142,
+      "sha256": "0202deddf4243bf183f5f8eb9dd03ce073ecf859e4e45ecaccd13cb01b5612d9"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 138487,
+      "sha256": "135d7bc182ee4e51a1475c3b9ef86f49982563fda67f1b04f7a945cf7526ae8e"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 131271,
+      "sha256": "87c913521f2134499008dacea835dd2ca4ac1cd3769093ab78243d2276fb4a1f"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 162142,
+      "sha256": "0202deddf4243bf183f5f8eb9dd03ce073ecf859e4e45ecaccd13cb01b5612d9"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 991113,
+      "sha256": "8fcdf160de0ac3f7619c5d03265f0e854825d3cf5db79c4179c890d88887d0da"
+    },
+    {
+      "path": "exports/teaching-focus.png",
+      "role": "rendered still",
+      "bytes": 162142,
+      "sha256": "0202deddf4243bf183f5f8eb9dd03ce073ecf859e4e45ecaccd13cb01b5612d9"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 210412,
+      "sha256": "ecf61988ac618dae889ed5dca77e7e9f57ad2d5d2f8f70b4d26acbf845b474b9"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3216,
+      "sha256": "2b67be6336d443d242439494371d88c6e31e4c446b1d2f61129500bc18ff4992"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1655,
+      "sha256": "fb6fca9b262a276365b64bcf4671514e6ff66a9332f405633ded7410b527ffd5"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 3562,
+      "sha256": "f7cdcec1a9305220510762a36587a109c53db0a99104e1478ffee27fa26e5e66"
+    },
+    {
+      "path": "src/excerpt.cpp",
+      "role": "editable source",
+      "bytes": 1025,
+      "sha256": "2df21f4ba4135eb6ca8055c43ed8f9ee99ac596b7ad9ec0a5c2bc224a7d977ef"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 584113,
+      "sha256": "8d78e8450ba4d9a6c2dfb651dc64a591c31d460084699da4604c658de9f012e3"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 16970,
+      "sha256": "46875ab107d4fbade30922abd0935082697d0389e9e6feb216fe4dcdc74dc96d"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 17140,
+      "sha256": "33e2947347371650ebeda3edd1479c68fc844eebcd86c52647dc118835b9d1ea"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 16468,
+      "sha256": "a9213ecb9bf95884dd3cbb029c139b09ba2981fd2d1eb4f388a04bb0e6861b85"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 16470,
+      "sha256": "03c7a4c5a5351850459c3389530e71d66a76b2e9d6e9e73d57890857b808f40b"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 16127,
+      "sha256": "50023762001d7a53726c0a62d272bd1162aed50f15835337db0e9d6e020977e8"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 15793,
+      "sha256": "0dfbd0298fbda9832e543e6854d57255c707cd3647a0f0cec752ba6bd9c165a9"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 15966,
+      "sha256": "a709ef1545c53cc8b0563b36ffd476d6c1a210955b9d13b560883ef73709dede"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 15967,
+      "sha256": "1ddfda6aec93636b731865fa4227ef4e4339ada804ceb7ca853a3cfb5036359f"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 16664,
+      "sha256": "2af99cff861ed91b1912590836e91865eb3a7d9d2f0a26f56ae8cf4d98240f9f"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 16166,
+      "sha256": "3f9afabc25a73279b2f9f79348c796380a2ae2ffbd3b454e4de0e00782f56f52"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 14819,
+      "sha256": "1e08610ddb379352452cd7b38475b27d80ab49dba9363fe146b78f4ba05f5f58"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 16028,
+      "sha256": "19cabd82e3e0b589c51f011e4de922bf360917a09449d21095698daae5ff6bae"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 16910,
+      "sha256": "f5f63ec296393576f2cbfe7220974c8acfcb430737116b77f665904cc11222ca"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 16903,
+      "sha256": "7ff3cf0761938effbbaf3b7cea872fa6cbb4a2a2425340219fcdb03c2981c643"
+    },
+    {
+      "path": "src/scene-0014.svg",
+      "role": "editable source",
+      "bytes": 14688,
+      "sha256": "031ee48fd9bed5e6917e1335f956e5f3ebbdfe0692a39d2363a95f122c9c4ebb"
+    },
+    {
+      "path": "src/scene-0015.svg",
+      "role": "editable source",
+      "bytes": 13489,
+      "sha256": "397e5a6d0bd4af5c4cf650b99946a4b10b6fa77a57dfbf082cd651c338c1f679"
+    },
+    {
+      "path": "src/scene-0016.svg",
+      "role": "editable source",
+      "bytes": 13998,
+      "sha256": "61580b0583e8f6169daebbfd675f30ccec4124b5c165250cf76f315378f03e55"
+    },
+    {
+      "path": "src/scene-0017.svg",
+      "role": "editable source",
+      "bytes": 13817,
+      "sha256": "c692eae41650161aac0012809b95b9bee265547569a9ee999e3b6ee598fef039"
+    },
+    {
+      "path": "src/scene-0018.svg",
+      "role": "editable source",
+      "bytes": 14163,
+      "sha256": "a5d6a83d19c567306df802f2b93016969ad03da41ad7fa5c575745c22e0cdfb7"
+    },
+    {
+      "path": "src/scene-0019.svg",
+      "role": "editable source",
+      "bytes": 14512,
+      "sha256": "0d530c99575be11ad27af96db5bb2046fdd2852579c7c1344085b9c271bb9228"
+    },
+    {
+      "path": "src/scene-0020.svg",
+      "role": "editable source",
+      "bytes": 16055,
+      "sha256": "88648e1f9d0b0a97293f8f6d29625a826906d879fd0aa3af174b416e24c1c880"
+    },
+    {
+      "path": "src/scene-0021.svg",
+      "role": "editable source",
+      "bytes": 16041,
+      "sha256": "d49377dad1fe98f2dcbc644316f4489e537cc45eed37128aaca89d73b2c8a85d"
+    },
+    {
+      "path": "src/scene-0022.svg",
+      "role": "editable source",
+      "bytes": 15002,
+      "sha256": "1238312378f7249e08f13d86d926300284fa94b509887a8bdf04948c6dbb90c4"
+    },
+    {
+      "path": "src/scene-0023.svg",
+      "role": "editable source",
+      "bytes": 16032,
+      "sha256": "63c930bd9534f2bfbdee28b30e2ba8d8e3cc46354db9d453d7193896c11dcd94"
+    },
+    {
+      "path": "src/scene-0024.svg",
+      "role": "editable source",
+      "bytes": 15163,
+      "sha256": "ffe604c9cea0671316a2d8f79ac559237f7134fdc4c47067d26e69cb0b345501"
+    },
+    {
+      "path": "src/scene-0025.svg",
+      "role": "editable source",
+      "bytes": 15663,
+      "sha256": "1a7f0a1d34d8c7f9824d86c5429cbe3c03fb0926b0a0294f89210678922d417f"
+    },
+    {
+      "path": "src/scene-0026.svg",
+      "role": "editable source",
+      "bytes": 15657,
+      "sha256": "8ad022b041eef320b62573613e668276a16b61f71abed9b6cf2508ae1b6db433"
+    },
+    {
+      "path": "src/scene-0027.svg",
+      "role": "editable source",
+      "bytes": 14616,
+      "sha256": "90fbeb9ff275fb5f176589a8cb7fd2db52ccef778d037be4ca1d46b601d1b73c"
+    },
+    {
+      "path": "src/scene-0028.svg",
+      "role": "editable source",
+      "bytes": 13390,
+      "sha256": "fe2c2baf779e4e746468d781cbb5d444fe5113c71c948e39e5fa8ef1daec373e"
+    },
+    {
+      "path": "src/scene-0029.svg",
+      "role": "editable source",
+      "bytes": 14756,
+      "sha256": "8aad1832e11d6a8064406c3101de3ce65e928270819fda3bd1d8bfdfc68b2557"
+    },
+    {
+      "path": "src/scene-0030.svg",
+      "role": "editable source",
+      "bytes": 14573,
+      "sha256": "d7568dd34db4a17ec0f96474feb25a0cd0c484d4aabfedcbde4d154dc6274713"
+    },
+    {
+      "path": "src/scene-0031.svg",
+      "role": "editable source",
+      "bytes": 16128,
+      "sha256": "c4e71735b1f7828f9b6bb0bb9fa3309545c4d110a719f8d9073708582e548092"
+    },
+    {
+      "path": "src/scene-0032.svg",
+      "role": "editable source",
+      "bytes": 13899,
+      "sha256": "cdcbbc7133051db872f33965412eb17d5f22fbb9cd339808bdee2f2651f3110e"
+    },
+    {
+      "path": "src/scene-0033.svg",
+      "role": "editable source",
+      "bytes": 15331,
+      "sha256": "0a3498c23c00475073e368ea825765de5b66f7d355e3a85b5518851120b2afbf"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 15331,
+      "sha256": "0a3498c23c00475073e368ea825765de5b66f7d355e3a85b5518851120b2afbf"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 2694,
+      "sha256": "e28911677d70b07e6d8d418d46b818243f0be5e3ca2df6f7e2838ccc18ebf58d"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 16970,
+      "sha256": "46875ab107d4fbade30922abd0935082697d0389e9e6feb216fe4dcdc74dc96d"
+    },
+    {
+      "path": "src/variant-teaching-focus.svg",
+      "role": "editable source",
+      "bytes": 15331,
+      "sha256": "0a3498c23c00475073e368ea825765de5b66f7d355e3a85b5518851120b2afbf"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "teaching-focus",
+      "files": [
+        "exports/teaching-focus.png",
+        "src/variant-teaching-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        53,
+        53
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        615,
+        617
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution stills, mid-scroll keyframe and 720p proof",
+        "scope": "Viewed exports/clean.png, exports/teaching-focus.png (also the poster), exports/keyframes/middle.png and proofs/poster-720.png. preview.mp4 was probed by the renderer and decoded end to end with ffmpeg without errors; it was not watched frame by frame.",
+        "status": "Code, line numbers and highlighting are readable at 720p. The focus band covers BEGIN_MESSAGE_MAP through END_MESSAGE_MAP and the caption fits beside the line count."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R15"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Agent-authored representative MFC code in the style of Visual C++ 4: ClassWizard AFX_MSG blocks and ON_COMMAND(ID, handler) without &Class::. It is not recovered historical source.",
+    "Not compiled: Visual Studio 2022 on the production machine has no MFC libraries installed. Technical and era review stays open under R15.",
+    "CCardDoc, FlipNextCard, Deal and IsDealt are illustrative names for this card game; their definitions are not shown.",
+    "Line numbers and the caption are display layers; src/excerpt.cpp holds the exact text.",
+    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 48 rows, then the focus from 11 s to the end.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

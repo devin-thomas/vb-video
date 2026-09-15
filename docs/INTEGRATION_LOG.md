@@ -1,20 +1,20 @@
 # Integration log
 
 **Source:** `Visual_Basic_Produced_Assets.zip` (41 MB, 2,499 files; kept locally, not committed)
-**Producers:** ChatGPT — local production (session 1); Claude Code (sessions 2–4)
+**Producers:** ChatGPT — local production (session 1); Claude Code (sessions 2–5)
 
 ## Current status
 
-Counted from `assets/*/*/state.json` after the session-4 migration:
+Counted from `assets/*/*/state.json` after session 5:
 
 | Status | Count | Description |
 |--------|------:|-------------|
-| **produced** | 80 | Rendered or captured deliverables with source, evidence and QA |
-| **in_progress** | 7 | OPS-04 integration QA, and six session-2 assets that have an SVG but no delivery package |
+| **produced** | 86 | Rendered or captured deliverables with source, evidence and QA |
+| **in_progress** | 1 | OPS-04 integration QA |
 | **planned** | 47 | Not started |
 | **blocked** | 0 | — |
 
-*Produced* is not *release-approved*. Only the 8 session-3 captures have producer release approval; the other 72 produced assets await a producer decision, tracked in OPS-03. Every ticket and handoff is a [GitHub issue](https://github.com/devin-thomas/vb-video/issues); issue numbers are in `manifest.json` and `asset_index.csv`. What's left: [../review/REMAINING_TICKETS.md](../review/REMAINING_TICKETS.md).
+*Produced* is not *release-approved*. Only the 8 session-3 captures have producer release approval; the other 78 produced assets await a producer decision, tracked in OPS-03. Every ticket and handoff is a [GitHub issue](https://github.com/devin-thomas/vb-video/issues); issue numbers are in `manifest.json` and `asset_index.csv`. What's left: [../review/REMAINING_TICKETS.md](../review/REMAINING_TICKETS.md).
 
 ## Session 1 — build pack import (2026-09-15)
 
@@ -77,12 +77,31 @@ The pack stopped living in `build-pack/VB_Asset_Delivery/` and became the reposi
 - **Legacy names:** the 60 file names issues #1–#26 promised now exist as copies, plus the Java AWT card; see [../assets/LEGACY_NAMES.md](../assets/LEGACY_NAMES.md).
 - **Issues:** every ticket (134, issues #28–#161) and handoff (7, issues #162–#168) became a GitHub issue, created by `tools/github_issues.py` and recorded in `manifest.json`. The 80 produced tickets are closed as a record; 54 tickets and all 7 handoffs are open. OPS-03 (#30) carries the checklist of 72 produced assets still awaiting a producer release decision. Each original issue (#1–#26) got a comment linking its per-ticket issues.
 
+## Session 5 — the six SVG-only tickets, produced on Windows (2026-09-15)
+
+DIA-11 to DIA-14, REF-01 and REF-02 are now **produced**; release stays **blocked** on their editorial gates. The session-2 SVGs were not reused. DIA-11's added prices, market positions and ratings its ticket forbids; DIA-12's added unverified specifics (VBRUN400.DLL, 68K/PPC, SIOUX); DIA-13's added nodes and dates the script doesn't have, and was not valid XML. All six were authored again in the render pipeline, then built, rendered, browser-checked and finished one ticket ID at a time.
+
+| ID | Delivered | Open gates |
+|---|---|---|
+| DIA-11 | Five-tool table drafted from the narration; each cell's script line, quote and basis is in `src/cells.json`. No prices, shares, ratings or release years | R11, R15 |
+| DIA-12 | The script's table word for word (`full-table`), plus `gui-row-focus` | R03, R09, R16 |
+| DIA-13 | Ticket-copy nodes. The script's arrows sit in their own `draft-script-sequence` layer, drawn only as unverified; edges are in `src/edges.json` | R13 |
+| DIA-14 | `early-history` (proportional, 1991–1998) and `great-divide` (schematic). Years are quoted in `src/milestones.json`; no feature callouts | R15, R12 |
+| REF-01 | 16 s scroll through 48 lines of representative Visual C++ 4-style MFC, ending on the message map | R15 |
+| REF-02 | 22 s scroll through representative Windows 3.0 C, hello.c (63 lines) and hello.def (10), ending on the message loop | R03, R15 |
+
+- **Representative code:** written for this production and kept in `tools/fixtures/`. Neither sample was compiled: Visual Studio 2022 here has no MFC libraries, and there is no 16-bit toolchain. `hello.c` passed a C89 syntax check (`gcc -std=c89 -pedantic -Wall -fsyntax-only`) against a stand-in header written for the check; its one warning, WndProc assigned to the unprototyped `lpfnWndProc`, comes from that stand-in. The script said "about 80"; by producer decision (2026-09-15), `War/SCRIPT.md` now says 73 lines, in both the narration and the visual cue.
+- **Review:** every export and 720p proof was viewed; notes are in `review/manual-review.json`. DIA-13's first render put two labels past x = 1800 and was fixed before review. Both MP4s decode cleanly with ffmpeg.
+- **Tooling:** the render scripts now read and write UTF-8 with LF, since Python's Windows default (cp1252, CRLF) would change text and hashes. `render_assets.py` uses one worker on Windows, because MSYS2's Cairo crashed with three. `qa_browser.py` and `finish_delivery.py` take `--id` and merge into the review indexes, and a delivery finished that way records the live toolchain. The OPS routine no longer re-blocks produced captures. See [../tools/render/REBUILD.md](../tools/render/REBUILD.md).
+- **Toolchain:** Windows 11, Python 3.14.0, CairoSVG 2.9.1 on MSYS2 Cairo 1.18.4, Pillow 12.3.0, Playwright 1.63.0 with Chromium 153, ffmpeg 6.0.
+- **Legacy names:** the six legacy files now copy the new sources; REF-01 and REF-02 use the clean first viewport. See [../assets/LEGACY_NAMES.md](../assets/LEGACY_NAMES.md).
+
 ## Mapping: original GitHub issues → tickets
 
 | GitHub Issue | Title | Tickets | Status |
 |---|---|---|---|
 | #1–#10 | Diagrams: event-driven … game flowchart | DIA-01 to DIA-10 | **produced** |
-| #11–#14 | Diagrams: 1995 tools, Mac vs Windows, lineage, timeline | DIA-11 to DIA-14 | **in_progress** (SVG only) |
+| #11–#14 | Diagrams: 1995 tools, Mac vs Windows, lineage, timeline | DIA-11 to DIA-14 | **produced** (session 5) |
 | #15 | Slide: Title card | CARD-01 | **produced** |
 | #16 | Slides: Chapter title cards (16) | CH-01 to CH-16 | **produced** |
 | #17 | Slides: VB code blocks (8) | CODE-01 to CODE-25 | **produced** (expanded to 25) |
@@ -90,11 +109,11 @@ The pack stopped living in `build-pack/VB_Asset_Delivery/` and became the reposi
 | #19 | Slides: Factoid cards (6) | FACT-01 to FACT-06 | **produced** (different fact set) |
 | #20 | Slide: End card | CARD-02 | **produced** |
 | #21, #22 | Mockups: VB4 GUI, 1996 download | MOCK-01, MOCK-02 | **produced** |
-| #23 | Code cards: Win32 / MFC | REF-02, REF-01 | **in_progress** (SVG only) |
+| #23 | Code cards: Win32 / MFC | REF-02, REF-01 | **produced** (session 5; REF-02 is Windows 3.0 C, not Win32) |
 | #24, #25 | Code cards: MsgBox, retro BASIC | REF-03, REF-04 | **produced** |
 | #26 | Code card: Java AWT | none (card kept at its legacy name) | no delivery package |
 
 ## Repository
 
 - Default branch is `main` (renamed from `master` on 2026-09-15; GitHub redirects old links).
-- `.gitattributes` stores hash-locked capture evidence byte-for-byte (`-text`). With `core.autocrlf=true`, Git would otherwise rewrite line endings and break the SHA-256 hashes recorded in `delivery.json` and `harness-manifest.json`.
+- `.gitattributes` stores every asset folder and the hash-locked sources and harness byte-for-byte (`-text`). With `core.autocrlf=true`, Git would otherwise rewrite line endings on checkout and break the SHA-256 hashes recorded in `delivery.json` and `harness-manifest.json`.

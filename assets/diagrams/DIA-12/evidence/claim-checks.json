@@ -1,0 +1,34 @@
+{
+  "gates": [
+    {
+      "id": "R03",
+      "status": "blocked",
+      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "evidence_paths": [
+        "source-excerpts.md",
+        "../src/cells.json"
+      ],
+      "approver": null
+    },
+    {
+      "id": "R09",
+      "status": "blocked",
+      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "evidence_paths": [
+        "source-excerpts.md",
+        "../src/cells.json"
+      ],
+      "approver": null
+    },
+    {
+      "id": "R16",
+      "status": "blocked",
+      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "evidence_paths": [
+        "source-excerpts.md",
+        "../src/cells.json"
+      ],
+      "approver": null
+    }
+  ]
+}

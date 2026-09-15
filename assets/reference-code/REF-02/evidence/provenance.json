@@ -1,0 +1,35 @@
+{
+  "id": "REF-02",
+  "classification": "authored teaching illustration: representative code written for this production",
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        54,
+        54
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        88,
+        90
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "authored_additions": [
+    "Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.",
+    "Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.",
+    "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
+    "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
+    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

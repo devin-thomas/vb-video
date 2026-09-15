@@ -108,3 +108,11 @@ Now, fast-forward to 1991. Microsoft has Windows 3.0, and Windows programming is
 
 **[VISUAL: An 80-line C "Hello World" for Windows, scrolling slowly. It should look intimidating.]**
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/reference-code/REF-02/delivery.json) · [QA and remaining decisions](../../assets/reference-code/REF-02/qa.md) · [Live state](../../assets/reference-code/REF-02/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

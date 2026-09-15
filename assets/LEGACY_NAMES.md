@@ -14,10 +14,10 @@ The original GitHub issues #1–#26 promised these file names. Each is a copy of
 | `assets/diagrams/war-mechanic-steps.svg` | [DIA-08](diagrams/DIA-08/src/variant-four-panel-poster.svg) |  |
 | `assets/diagrams/pot-growth.svg` | [DIA-09](diagrams/DIA-09/src/variant-2-10-18-poster.svg) |  |
 | `assets/diagrams/game-flowchart.svg` | [DIA-10](diagrams/DIA-10/src/variant-main-flow.svg) |  |
-| `assets/diagrams/1995-tools-comparison.svg` | [DIA-11](diagrams/DIA-11/src/scene.svg) | In progress: SVG only, no PNG export or QA yet. |
-| `assets/diagrams/mac-vs-windows.svg` | [DIA-12](diagrams/DIA-12/src/scene.svg) | In progress: SVG only, no PNG export or QA yet. |
-| `assets/diagrams/vb-influence-lineage.svg` | [DIA-13](diagrams/DIA-13/src/scene.svg) | In progress: SVG only, no PNG export or QA yet. |
-| `assets/diagrams/vb-timeline.svg` | [DIA-14](diagrams/DIA-14/src/scene.svg) | In progress: SVG only, no PNG export or QA yet. |
+| `assets/diagrams/1995-tools-comparison.svg` | [DIA-11](diagrams/DIA-11/src/scene.svg) |  |
+| `assets/diagrams/mac-vs-windows.svg` | [DIA-12](diagrams/DIA-12/src/scene.svg) |  |
+| `assets/diagrams/vb-influence-lineage.svg` | [DIA-13](diagrams/DIA-13/src/scene.svg) |  |
+| `assets/diagrams/vb-timeline.svg` | [DIA-14](diagrams/DIA-14/src/scene.svg) | * Early-history view; the great-divide view is DIA-14's variant-great-divide.svg. |
 | `assets/slides/title-card.html` | [CARD-01](cards/CARD-01/src/index.html) |  |
 | `assets/slides/chapter-01.svg` | [CH-01](chapters/CH-01/src/scene.svg) |  |
 | `assets/slides/chapter-02.svg` | [CH-02](chapters/CH-02/src/scene.svg) |  |
@@ -58,8 +58,8 @@ The original GitHub issues #1–#26 promised these file names. Each is a copy of
 | `assets/slides/factoid-06.svg` | [FACT-05](facts/FACT-05/src/variant-factoid.svg) | * Old factoid 6 (Fisher-Yates 1938) has no card; this is function-name return. |
 | `assets/slides/factoid-template.html` | [FACT-01](facts/FACT-01/src/index.html) | * No standalone template exists; this is FACT-01's HTML. |
 | `assets/slides/end-card.html` | [CARD-02](cards/CARD-02/src/index.html) |  |
-| `assets/slides/code-contrast-win32-hello.svg` | [REF-02](reference-code/REF-02/src/scene.svg) | In progress: SVG only, no PNG export or QA yet. |
-| `assets/slides/code-contrast-mfc-msgmap.svg` | [REF-01](reference-code/REF-01/src/scene.svg) | In progress: SVG only, no PNG export or QA yet. |
+| `assets/slides/code-contrast-win32-hello.svg` | [REF-02](reference-code/REF-02/src/variant-clean.svg) | * Windows 3.0-style (Win16) C, not Win32; this is the first viewport of the scrolling listing. |
+| `assets/slides/code-contrast-mfc-msgmap.svg` | [REF-01](reference-code/REF-01/src/variant-clean.svg) | * First viewport of the scrolling listing; the message-map focus is REF-01's variant-teaching-focus.svg. |
 | `assets/slides/code-contrast-vb-msgbox.svg` | [REF-03](reference-code/REF-03/src/variant-clean.svg) |  |
 | `assets/slides/retro-basic-terminal.html` | [REF-04](reference-code/REF-04/src/index.html) |  |
 | `assets/mockups/vb4-war-gui.html` | [MOCK-01](mockups/MOCK-01/src/index.html) |  |

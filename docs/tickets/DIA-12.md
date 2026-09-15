@@ -112,3 +112,11 @@ For a console card game like ours — no GUI, just logic and text output — the
 
 Where VB had the massive advantage was in the next step — putting a GUI on it. In VB, that was an afternoon of dragging controls onto a form. On the Mac with CodeWarrior, you'd be writing Carbon or Toolbox API calls, managing window records, handling update events, and doing your own drawing into grafPorts. It was not an afternoon. It was a week, minimum, for someone who knew what they were doing.
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/diagrams/DIA-12/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-12/qa.md) · [Live state](../../assets/diagrams/DIA-12/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

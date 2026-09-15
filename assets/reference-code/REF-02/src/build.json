@@ -1,0 +1,280 @@
+{
+  "id": "REF-02",
+  "duration": 22,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 2.75,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3.0,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 3.25,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 3.5,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 3.75,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 4.0,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 4.25,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 4.75,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 5.0,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 5.25,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 5.5,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 5.75,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 6.25,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 6.5,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 6.75,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 7.0,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 7.25,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 7.75,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 8.0,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 8.25,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 8.5,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 8.75,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 9.0,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 9.25,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 9.5,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 9.75,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 10.0,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 10.25,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 10.5,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 10.75,
+      "file": "scene-0033.svg"
+    },
+    {
+      "time": 11.0,
+      "file": "scene-0034.svg"
+    },
+    {
+      "time": 11.25,
+      "file": "scene-0035.svg"
+    },
+    {
+      "time": 11.5,
+      "file": "scene-0036.svg"
+    },
+    {
+      "time": 11.75,
+      "file": "scene-0037.svg"
+    },
+    {
+      "time": 12.0,
+      "file": "scene-0038.svg"
+    },
+    {
+      "time": 12.25,
+      "file": "scene-0039.svg"
+    },
+    {
+      "time": 12.5,
+      "file": "scene-0040.svg"
+    },
+    {
+      "time": 12.75,
+      "file": "scene-0041.svg"
+    },
+    {
+      "time": 13.0,
+      "file": "scene-0042.svg"
+    },
+    {
+      "time": 13.25,
+      "file": "scene-0043.svg"
+    },
+    {
+      "time": 13.5,
+      "file": "scene-0044.svg"
+    },
+    {
+      "time": 13.75,
+      "file": "scene-0045.svg"
+    },
+    {
+      "time": 14.0,
+      "file": "scene-0046.svg"
+    },
+    {
+      "time": 14.25,
+      "file": "scene-0047.svg"
+    },
+    {
+      "time": 14.5,
+      "file": "scene-0048.svg"
+    },
+    {
+      "time": 14.75,
+      "file": "scene-0049.svg"
+    },
+    {
+      "time": 15.0,
+      "file": "scene-0050.svg"
+    },
+    {
+      "time": 15.25,
+      "file": "scene-0051.svg"
+    },
+    {
+      "time": 15.5,
+      "file": "scene-0052.svg"
+    },
+    {
+      "time": 15.75,
+      "file": "scene-0053.svg"
+    },
+    {
+      "time": 16.0,
+      "file": "scene-0054.svg"
+    },
+    {
+      "time": 16.25,
+      "file": "scene-0055.svg"
+    },
+    {
+      "time": 16.5,
+      "file": "scene-0056.svg"
+    },
+    {
+      "time": 16.75,
+      "file": "scene-0057.svg"
+    },
+    {
+      "time": 17.0,
+      "file": "scene-0058.svg"
+    },
+    {
+      "time": 17.5,
+      "file": "scene-0059.svg"
+    }
+  ],
+  "variants": {
+    "clean": "variant-clean.svg",
+    "teaching-focus": "variant-teaching-focus.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.",
+    "Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.",
+    "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
+    "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
+    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        54,
+        54
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        88,
+        90
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "motion"
+}

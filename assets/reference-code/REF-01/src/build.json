@@ -1,0 +1,176 @@
+{
+  "id": "REF-01",
+  "duration": 16,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 2.75,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3.0,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 3.25,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 3.5,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 3.75,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 4.0,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 4.25,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 4.75,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 5.0,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 5.25,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 5.5,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 5.75,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 6.25,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 6.5,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 6.75,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 7.0,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 7.25,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 7.75,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 8.0,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 8.25,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 8.5,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 8.75,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 9.0,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 9.25,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 9.5,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 9.75,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 10.0,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 10.25,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 10.5,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 11.0,
+      "file": "scene-0033.svg"
+    }
+  ],
+  "variants": {
+    "clean": "variant-clean.svg",
+    "teaching-focus": "variant-teaching-focus.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Agent-authored representative MFC code in the style of Visual C++ 4: ClassWizard AFX_MSG blocks and ON_COMMAND(ID, handler) without &Class::. It is not recovered historical source.",
+    "Not compiled: Visual Studio 2022 on the production machine has no MFC libraries installed. Technical and era review stays open under R15.",
+    "CCardDoc, FlipNextCard, Deal and IsDealt are illustrative names for this card game; their definitions are not shown.",
+    "Line numbers and the caption are display layers; src/excerpt.cpp holds the exact text.",
+    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 48 rows, then the focus from 11 s to the end."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        53,
+        53
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        615,
+        617
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "code"
+}

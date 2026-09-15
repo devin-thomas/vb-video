@@ -1,0 +1,23 @@
+{
+  "id": "DIA-14",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "History view: 1991–1998 milestones.",
+    "Transition view: classic VB on the left and VB.NET on the right, with the source’s divide label."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "early-history",
+    "great-divide"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

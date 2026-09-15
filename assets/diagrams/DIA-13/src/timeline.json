@@ -1,0 +1,22 @@
+{
+  "id": "DIA-13",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still overview with large readable node labels and a legend for edge meaning.",
+    "Optional focus overlay highlights the shared idea rather than adding unproven chronological direction."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "overview"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

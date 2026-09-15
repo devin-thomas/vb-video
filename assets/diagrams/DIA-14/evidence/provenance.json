@@ -1,0 +1,43 @@
+{
+  "id": "DIA-14",
+  "classification": "original authored source-based illustration",
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        29,
+        29
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        110,
+        116
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        679,
+        705
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "authored_additions": [
+    "All seven milestones are the script’s draft years (SCRIPT.md:112, 116, 697), recorded with quotes in src/milestones.json. No year is verified yet (R15).",
+    "Feature callouts (VB3 and Jet, VB4 and 32-bit, VB6 as the last classic release, the VB.NET runtime change) are left off until verified.",
+    "early-history spaces 1991–1998 in proportion to time. great-divide is schematic and says so; its break marks do not imply a period without development.",
+    "No “today”, support or lifecycle label is shown (R12)."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

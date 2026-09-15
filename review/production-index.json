@@ -711,5 +711,76 @@
     "duration_seconds": null,
     "fps": null,
     "unresolved_gates": []
+  },
+  {
+    "id": "DIA-11",
+    "title": "1995 development tools comparison",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R11",
+      "R15"
+    ]
+  },
+  {
+    "id": "DIA-12",
+    "title": "Windows VB4 versus Mac CodeWarrior table",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R03",
+      "R09",
+      "R16"
+    ]
+  },
+  {
+    "id": "DIA-14",
+    "title": "VB timeline: VB1 through VB.NET",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R15",
+      "R12"
+    ]
+  },
+  {
+    "id": "REF-01",
+    "title": "Representative MFC message-map snippet",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 16,
+    "fps": 30,
+    "unresolved_gates": [
+      "R15"
+    ]
+  },
+  {
+    "id": "REF-02",
+    "title": "Windows C Hello World: historical boilerplate comparison",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": 22,
+    "fps": 30,
+    "unresolved_gates": [
+      "R03",
+      "R15"
+    ]
+  },
+  {
+    "id": "DIA-13",
+    "title": "Visual development lineage / influence graphic",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R13"
+    ]
   }
 ]

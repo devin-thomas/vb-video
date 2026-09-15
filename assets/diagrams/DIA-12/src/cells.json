@@ -1,0 +1,73 @@
+{
+  "columns": [
+    "Windows (VB4)",
+    "Mac (CodeWarrior)"
+  ],
+  "rows": [
+    {
+      "row": "Language",
+      "Windows (VB4)": "BASIC",
+      "Mac (CodeWarrior)": "C/C++",
+      "source": "SCRIPT.md:663",
+      "quotes": [
+        "Language",
+        "BASIC",
+        "C/C++"
+      ],
+      "basis": "script draft table",
+      "verification": "unverified"
+    },
+    {
+      "row": "GUI builder",
+      "Windows (VB4)": "Yes (drag & drop)",
+      "Mac (CodeWarrior)": "Sort of (ResEdit)",
+      "source": "SCRIPT.md:664",
+      "quotes": [
+        "GUI builder",
+        "Yes (drag & drop)",
+        "Sort of (ResEdit)"
+      ],
+      "basis": "script draft table",
+      "verification": "unverified"
+    },
+    {
+      "row": "Learning curve",
+      "Windows (VB4)": "Low",
+      "Mac (CodeWarrior)": "Medium-high",
+      "source": "SCRIPT.md:665",
+      "quotes": [
+        "Learning curve",
+        "Low",
+        "Medium-high"
+      ],
+      "basis": "script draft table",
+      "verification": "unverified"
+    },
+    {
+      "row": "Runtime required",
+      "Windows (VB4)": "Yes (VB runtime DLL)",
+      "Mac (CodeWarrior)": "No (native binary)",
+      "source": "SCRIPT.md:666",
+      "quotes": [
+        "Runtime required",
+        "Yes (VB runtime DLL)",
+        "No (native binary)"
+      ],
+      "basis": "script draft table",
+      "verification": "unverified"
+    },
+    {
+      "row": "Console app like ours",
+      "Windows (VB4)": "Trivial",
+      "Mac (CodeWarrior)": "Also pretty easy, actually",
+      "source": "SCRIPT.md:667",
+      "quotes": [
+        "Console app like ours",
+        "Trivial",
+        "Also pretty easy, actually"
+      ],
+      "basis": "script draft table",
+      "verification": "unverified"
+    }
+  ]
+}

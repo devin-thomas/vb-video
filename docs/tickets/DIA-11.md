@@ -126,3 +126,11 @@ And then there was **Java**, which Sun Microsystems released in 1995 with the sl
 
 So Visual Basic sat in a sweet spot: easier than C++, more established than Delphi, cheaper than PowerBuilder, and more practical than Java. It wasn't the best tool for any single job, but it was a good enough tool for almost every job. And "good enough for almost everything" is a very powerful position to be in.
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/diagrams/DIA-11/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-11/qa.md) · [Live state](../../assets/diagrams/DIA-11/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

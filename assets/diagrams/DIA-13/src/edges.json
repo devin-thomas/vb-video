@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    "VB",
+    "Delphi",
+    "WinForms",
+    "WPF",
+    "Modern frameworks"
+  ],
+  "edges": [
+    {
+      "from": "VB",
+      "to": "Delphi",
+      "relationship": "unverified script assertion",
+      "approved_label": null,
+      "evidence": null,
+      "source": "SCRIPT.md:711",
+      "quotes": [
+        "VB → Delphi → .NET WinForms → WPF → modern frameworks"
+      ],
+      "basis": "script visual cue",
+      "verification": "unverified"
+    },
+    {
+      "from": "Delphi",
+      "to": "WinForms",
+      "relationship": "unverified script assertion",
+      "approved_label": null,
+      "evidence": null,
+      "source": "SCRIPT.md:711",
+      "quotes": [
+        "VB → Delphi → .NET WinForms → WPF → modern frameworks"
+      ],
+      "basis": "script visual cue",
+      "verification": "unverified"
+    },
+    {
+      "from": "WinForms",
+      "to": "WPF",
+      "relationship": "unverified script assertion",
+      "approved_label": null,
+      "evidence": null,
+      "source": "SCRIPT.md:711",
+      "quotes": [
+        "VB → Delphi → .NET WinForms → WPF → modern frameworks"
+      ],
+      "basis": "script visual cue",
+      "verification": "unverified"
+    },
+    {
+      "from": "WPF",
+      "to": "Modern frameworks",
+      "relationship": "unverified script assertion",
+      "approved_label": null,
+      "evidence": null,
+      "source": "SCRIPT.md:711",
+      "quotes": [
+        "VB → Delphi → .NET WinForms → WPF → modern frameworks"
+      ],
+      "basis": "script visual cue",
+      "verification": "unverified"
+    }
+  ],
+  "examples": {
+    "source": "SCRIPT.md:709",
+    "quotes": [
+      "from React to SwiftUI to Flutter"
+    ],
+    "basis": "script wording",
+    "verification": "unverified"
+  },
+  "ideas": {
+    "source": "SCRIPT.md:709",
+    "quotes": [
+      "visual form designers, event-driven programming, RAD tools, components you can drop onto a surface and configure through properties"
+    ],
+    "basis": "script wording",
+    "verification": "unverified"
+  }
+}

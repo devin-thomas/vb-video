@@ -1,0 +1,235 @@
+{
+  "id": "DIA-12",
+  "title": "Windows VB4 versus Mac CodeWarrior table",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 444,
+      "sha256": "8f7e3b55d47bca2c37bdb4e8ae1100ab5e23ff064ee0fb762fe5090df7a690d9"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 970,
+      "sha256": "e2c381cd293ac644d25899abc5dd0da924adf8d23fd807bb6e6986b0cfac62a3"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1268,
+      "sha256": "0937776976675499dfb045e7a5ad1b85a4f4732ee114fa7e04930c7a0bf9ed50"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 154,
+      "sha256": "3a4015f00c8f3b39b29ce322b2765b053d96ea7a3df51c00b6ee95a4fde596bc"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1281,
+      "sha256": "fb7ef86a0513763b704c19833655121c8a5d9313b0f4a53db10661abe522cf38"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 59639,
+      "sha256": "3a4ffae58131c614691f9ba52c60ff3a73e040e7b47d7bb3e001692f60f1f2b3"
+    },
+    {
+      "path": "exports/full-table.png",
+      "role": "rendered still",
+      "bytes": 93517,
+      "sha256": "0023c2334865efbf022c04d754925825206f099c6b087e697c3d3c94e8bf311d"
+    },
+    {
+      "path": "exports/gui-row-focus.png",
+      "role": "rendered still",
+      "bytes": 89511,
+      "sha256": "2c53c25da2c37891f9466fa6cf79faa87732f561bc5ae208862358675c9326e9"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 93517,
+      "sha256": "0023c2334865efbf022c04d754925825206f099c6b087e697c3d3c94e8bf311d"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 123650,
+      "sha256": "1406a1fc043a4d3104fcb7059e0878a6e4615a55bffc00aa54dc762ee2d72b16"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2926,
+      "sha256": "8f9337fb7897563d68f7421146ff87b862ccd1642dab1f63e0f854fb1ca6c14a"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1393,
+      "sha256": "0a6598539f33b3e9db5e58188f89fa11f4ba5703de4d8da69ab94f2bf0b54253"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1345,
+      "sha256": "a9acae9cdd0a8edd81453a971eb68a53747272129671da2bbf1163a362f0bcdd"
+    },
+    {
+      "path": "src/cells.json",
+      "role": "editable source",
+      "bytes": 1757,
+      "sha256": "b68603122bec261567c3febf0502878f32d2f098de86f74eecd2090e09325932"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 6268,
+      "sha256": "e649307c80749cc5cfc8035bd1a14d31be42c3ce10088b5ad263239cfa6ccedb"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "28780e2604631935e5433a2b7f70f99f8befa259db2edd3bc43b6963eb67bf48"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "28780e2604631935e5433a2b7f70f99f8befa259db2edd3bc43b6963eb67bf48"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 515,
+      "sha256": "cb208e96360547176ff703656b9d709eae55f46afd473ce6c74b832d7a1df652"
+    },
+    {
+      "path": "src/variant-full-table.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "28780e2604631935e5433a2b7f70f99f8befa259db2edd3bc43b6963eb67bf48"
+    },
+    {
+      "path": "src/variant-gui-row-focus.svg",
+      "role": "editable source",
+      "bytes": 4207,
+      "sha256": "ac0b40eb3b9a538da7e572f979a65f8ff9312febe05586959274016210c9ef82"
+    }
+  ],
+  "variants": [
+    {
+      "name": "full-table",
+      "files": [
+        "exports/full-table.png",
+        "src/variant-full-table.svg"
+      ]
+    },
+    {
+      "name": "gui-row-focus",
+      "files": [
+        "exports/gui-row-focus.png",
+        "src/variant-gui-row-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        27,
+        27
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        659,
+        671
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution exports and 720p proof",
+        "scope": "Viewed exports/full-table.png, exports/gui-row-focus.png and proofs/poster-720.png.",
+        "status": "Five rows and both headings match the script table word for word and are readable at 720p. gui-row-focus outlines the GUI-builder row and dims the other four, which stay legible."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R03",
+    "R09",
+    "R16"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "All five rows and both column headings are the script’s draft table (SCRIPT.md:661–667), word for word; src/cells.json records each row’s line.",
+    "These cells are draft copy, not verified facts. Console support, the ResEdit characterization and the runtime claim wait on R03, R09 and R16.",
+    "Neutral styling: no scores, bars, icons or product screenshots. gui-row-focus dims the other four rows.",
+    "The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

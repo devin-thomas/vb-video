@@ -9,10 +9,10 @@ DIA-07,BuildDeck nested loops: 4 suits × 13 ranks,diagrams,motion,motion,T1-D07
 DIA-08,"War mechanic: tie, burn, flip, award",diagrams,motion,motion,T1-D08,"5,10",OPS-01,R05,assets/diagrams/DIA-08,docs/tickets/DIA-08.md,39,produced,blocked
 DIA-09,Pot growth: 2 → 10 → 18,diagrams,motion,motion,T1-D09,"10,11",OPS-01,"R05,R07",assets/diagrams/DIA-09,docs/tickets/DIA-09.md,40,produced,blocked
 DIA-10,"Game flowchart: setup, rounds, war loop, result",diagrams,still,design,T1-D10,"9,10",OPS-01,"R04,R05,R06",assets/diagrams/DIA-10,docs/tickets/DIA-10.md,41,produced,blocked
-DIA-11,1995 development tools comparison,diagrams,still,design,T1-D11,13,OPS-01,"R11,R15",assets/diagrams/DIA-11,docs/tickets/DIA-11.md,42,in_progress,blocked
-DIA-12,Windows VB4 versus Mac CodeWarrior table,diagrams,still,design,T1-D12,14,OPS-01,"R03,R09,R16",assets/diagrams/DIA-12,docs/tickets/DIA-12.md,43,in_progress,blocked
-DIA-13,Visual development lineage / influence graphic,diagrams,still,design,T1-D13,15,OPS-01,R13,assets/diagrams/DIA-13,docs/tickets/DIA-13.md,44,in_progress,blocked
-DIA-14,VB timeline: VB1 through VB.NET,diagrams,still,design,T1-D14,"2,15",OPS-01,"R15,R12",assets/diagrams/DIA-14,docs/tickets/DIA-14.md,45,in_progress,blocked
+DIA-11,1995 development tools comparison,diagrams,still,design,T1-D11,13,OPS-01,"R11,R15",assets/diagrams/DIA-11,docs/tickets/DIA-11.md,42,produced,blocked
+DIA-12,Windows VB4 versus Mac CodeWarrior table,diagrams,still,design,T1-D12,14,OPS-01,"R03,R09,R16",assets/diagrams/DIA-12,docs/tickets/DIA-12.md,43,produced,blocked
+DIA-13,Visual development lineage / influence graphic,diagrams,still,design,T1-D13,15,OPS-01,R13,assets/diagrams/DIA-13,docs/tickets/DIA-13.md,44,produced,blocked
+DIA-14,VB timeline: VB1 through VB.NET,diagrams,still,design,T1-D14,"2,15",OPS-01,"R15,R12",assets/diagrams/DIA-14,docs/tickets/DIA-14.md,45,produced,blocked
 CARD-01,Opening title: Win95 message box,cards,motion,design,T1-S01,1,OPS-01,,assets/cards/CARD-01,docs/tickets/CARD-01.md,46,produced,unreviewed
 CH-01,Chapter 01: Intro: What Even Is Visual Basic?,chapters,motion,design,T1-S02,1,OPS-01,,assets/chapters/CH-01,docs/tickets/CH-01.md,47,produced,unreviewed
 CH-02,Chapter 02: A Very Brief History of BASIC to Visual Basic,chapters,motion,design,T1-S02,2,OPS-01,,assets/chapters/CH-02,docs/tickets/CH-02.md,48,produced,unreviewed
@@ -72,8 +72,8 @@ FACT-05,The function name can hold the return value,facts,still,design,T1-S05,8,
 FACT-06,The runtime was part of the download story,facts,still,design,T1-S05,12,OPS-01,R16,assets/facts/FACT-06,docs/tickets/FACT-06.md,101,produced,blocked
 MOCK-01,VB4-style War GUI on green felt,mockups,still,design,T1-M01,12,OPS-01,,assets/mockups/MOCK-01,docs/tickets/MOCK-01.md,102,produced,unreviewed
 MOCK-02,1996 download dialog: 9:42 remaining,mockups,motion,design,T1-M02,12,OPS-01,R16,assets/mockups/MOCK-02,docs/tickets/MOCK-02.md,103,produced,blocked
-REF-01,Representative MFC message-map snippet,reference-code,code,code,T1-R01,13,OPS-01,R15,assets/reference-code/REF-01,docs/tickets/REF-01.md,104,in_progress,blocked
-REF-02,Windows C Hello World: historical boilerplate comparison,reference-code,motion,code,T1-R02,2,OPS-01,"R03,R15",assets/reference-code/REF-02,docs/tickets/REF-02.md,105,in_progress,blocked
+REF-01,Representative MFC message-map snippet,reference-code,code,code,T1-R01,13,OPS-01,R15,assets/reference-code/REF-01,docs/tickets/REF-01.md,104,produced,blocked
+REF-02,Windows C Hello World: historical boilerplate comparison,reference-code,motion,code,T1-R02,2,OPS-01,"R03,R15",assets/reference-code/REF-02,docs/tickets/REF-02.md,105,produced,blocked
 REF-03,Classic VB MsgBox event handler,reference-code,code,code,T1-R03,2,OPS-01,R03,assets/reference-code/REF-03,docs/tickets/REF-03.md,106,produced,blocked
 REF-04,BASIC 10 PRINT / 20 GOTO,reference-code,motion,code,T1-R04,2,OPS-01,,assets/reference-code/REF-04,docs/tickets/REF-04.md,107,produced,unreviewed
 TERM-01,Project creation and actual SDK version,captures,capture,capture,T2-T01,4,"OPS-01,OPS-02",R17,assets/captures/TERM-01,docs/tickets/TERM-01.md,108,produced,approved

@@ -1,0 +1,214 @@
+{
+  "id": "DIA-13",
+  "title": "Visual development lineage / influence graphic",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 444,
+      "sha256": "16913f85431f6188f230ff813c131ec54fa7ff69a3825f5b6cfacfdebfcc3712"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 336,
+      "sha256": "9252755d1a345b60931cb903a60c583f713a7c16e202023323dc5224899877d0"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1358,
+      "sha256": "2f643a5d8632ec1c2bfc524772b93f80cdd4d8d87f2a29b57faa429eedad7ae6"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 154,
+      "sha256": "604501c1b75642d3e7cbd4582c41cb591cf5ae7f93f2b9eb2bc7446316c57299"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 659,
+      "sha256": "f3d16d688412ff6b05405afa072a1ac325b43435f7adc2e9d0ded087edfee651"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 32053,
+      "sha256": "d2437da84774512fcae85900808acd30a0e3fb16326e11c0b7abf5b7c129a2d9"
+    },
+    {
+      "path": "exports/overview.png",
+      "role": "rendered still",
+      "bytes": 77611,
+      "sha256": "1926dae752a06b82062ad35fac5187589a78218e238a7d20af9a75bda23f7ac8"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 77611,
+      "sha256": "1926dae752a06b82062ad35fac5187589a78218e238a7d20af9a75bda23f7ac8"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 112048,
+      "sha256": "7bb526bc0f09806219de71debaa3986afadfdf2c13ee66a18a5022026c1c09c6"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3104,
+      "sha256": "e59b6a8e8798f33b57335b4f235ceb5d196f6ffc7648a55e6ee6dc9904dc15bd"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1423,
+      "sha256": "617ccc201abac38a7bb2c7fbc827736ea81692ccd25caed872f740a5fb8875d1"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1381,
+      "sha256": "1f535c688416f1ef34bcd0341e81caac86cdd189a3769a34b040757232a8e7c4"
+    },
+    {
+      "path": "src/edges.json",
+      "role": "editable source",
+      "bytes": 2050,
+      "sha256": "92523f09b9583fb217ff969d6d5244862187bb86306060616add423834ee738f"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 7217,
+      "sha256": "67b6460b6e98eaf58deaea191e26a1b6d027eb6f9037a4608299120de20a1e5d"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 4858,
+      "sha256": "36948f8f27bd4148c2cfcd7826350436838e277f43f437cb5c496b07e1eb36f9"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 4858,
+      "sha256": "36948f8f27bd4148c2cfcd7826350436838e277f43f437cb5c496b07e1eb36f9"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 566,
+      "sha256": "f837107470fc7df6e305f610b4a1393f4705206deffbff94e7d1e9236bc3086e"
+    },
+    {
+      "path": "src/variant-overview.svg",
+      "role": "editable source",
+      "bytes": 4858,
+      "sha256": "36948f8f27bd4148c2cfcd7826350436838e277f43f437cb5c496b07e1eb36f9"
+    }
+  ],
+  "variants": [
+    {
+      "name": "overview",
+      "files": [
+        "exports/overview.png",
+        "src/variant-overview.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        28,
+        28
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        709,
+        711
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution export and 720p proof",
+        "scope": "Viewed exports/overview.png (also the poster) and proofs/poster-720.png after the layout fix.",
+        "status": "Node labels, the dashed script-sequence arrows and the three-entry legend are readable at 720p, and all text sits within x = 120–1800. The first render put the examples note and the last legend label past x = 1800; that was fixed and re-rendered before this review."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R13"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Node labels follow the ticket copy; the script’s visual cue says “.NET WinForms” (SCRIPT.md:711).",
+    "The four arrows are the script’s draft sequence, kept in their own SVG layer (draft-script-sequence) and drawn only in the unverified style. src/edges.json lists each edge; none has evidence or an approved label, so R13 stays open.",
+    "The legend defines direct-lineage and shared-ideas edges for the editorial pass; no edge uses them yet.",
+    "React, SwiftUI and Flutter appear only as the script’s examples. No node implies VB language or runtime inheritance. The optional focus overlay was not made.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

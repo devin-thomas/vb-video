@@ -143,3 +143,11 @@ The VB community was furious. They'd been promised that VB was a platform they c
 
 VB.NET still exists today — it's the language we wrote this card game in. But it's a niche within a niche. Microsoft has officially stated that they will not add new language features to VB.NET; it will continue to compile and run, but it's in maintenance mode. C# gets all the new toys. VB.NET gets security patches.
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/diagrams/DIA-14/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-14/qa.md) · [Live state](../../assets/diagrams/DIA-14/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

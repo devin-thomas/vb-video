@@ -1,0 +1,37 @@
+{
+  "id": "DIA-12",
+  "title": "Windows VB4 versus Mac CodeWarrior table",
+  "requirements": [
+    "Preserve the supplied draft cells in data: Language BASIC / C-C++; GUI builder Yes (drag & drop) / Sort of (ResEdit); Learning curve Low / Medium-high; Runtime required Yes (VB runtime DLL) / No (native binary); Console app like ours Trivial / Also pretty easy, actually.",
+    "Use Windows (VB4) and Mac (CodeWarrior) column headings. No unverified product screenshot is needed.",
+    "The table is draft source copy, not verified truth. Console support, the ResEdit characterization, dates, and runtime claims require R03/R09/R16 decisions.",
+    "Keep neutral styling; do not reinforce the comparison using invented benchmark bars."
+  ],
+  "beats": [
+    "Static three-column table: row label, Windows, Mac.",
+    "Optional focus state dims all but the GUI-builder row."
+  ],
+  "checks": [
+    "Five source rows and both platforms are included.",
+    "Every changed cell has an explicit approved editorial decision; otherwise proof remains release-blocked.",
+    "The comparison does not present modern VB.NET console output as a literal classic-VB4 environment."
+  ],
+  "copy": "Windows (VB4) | Mac (CodeWarrior)",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      27,
+      27
+    ],
+    [
+      "SCRIPT.md",
+      659,
+      671
+    ]
+  ],
+  "gates": [
+    "R03",
+    "R09",
+    "R16"
+  ]
+}

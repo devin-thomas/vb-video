@@ -1,0 +1,82 @@
+{
+  "milestones": [
+    {
+      "label": "VB 1.0 · 1991",
+      "year": 1991,
+      "source": "SCRIPT.md:112",
+      "quotes": [
+        "VB 1.0 came out in 1991"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    },
+    {
+      "label": "VB 2.0 · 1992",
+      "year": 1992,
+      "source": "SCRIPT.md:112",
+      "quotes": [
+        "VB 2.0 in 1992"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    },
+    {
+      "label": "VB 3.0 · 1993",
+      "year": 1993,
+      "source": "SCRIPT.md:112",
+      "quotes": [
+        "VB 3.0 in 1993"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    },
+    {
+      "label": "VB 4.0 · 1995",
+      "year": 1995,
+      "source": "SCRIPT.md:112",
+      "quotes": [
+        "VB 4.0 in 1995"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    },
+    {
+      "label": "VB 5.0 · 1997",
+      "year": 1997,
+      "source": "SCRIPT.md:116",
+      "quotes": [
+        "VB 5.0 would come in 1997"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    },
+    {
+      "label": "VB 6.0 · 1998",
+      "year": 1998,
+      "source": "SCRIPT.md:116",
+      "quotes": [
+        "VB 6.0 in 1998"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    },
+    {
+      "label": "VB.NET · 2002",
+      "year": 2002,
+      "source": "SCRIPT.md:697",
+      "quotes": [
+        "announce, in 2002, that Visual Basic would become VB.NET"
+      ],
+      "basis": "script wording",
+      "verification": "unverified"
+    }
+  ],
+  "divide_label": {
+    "source": "SCRIPT.md:679",
+    "quotes": [
+      "the great divide"
+    ],
+    "basis": "script wording",
+    "verification": "unverified"
+  }
+}

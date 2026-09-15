@@ -1,0 +1,214 @@
+{
+  "id": "DIA-11",
+  "title": "1995 development tools comparison",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 445,
+      "sha256": "3d4c7984261af4cb6df7284c6c7707536b63d4bcc7f9abbb53ff49a25d64cd0b"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 653,
+      "sha256": "eab696ad4bbf5216f38eade9d42f3ca5aaaad1a6f585b6ac0d7e3b6f9984e818"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1251,
+      "sha256": "cd353fe173da3dcf4ad8a0ebf15e8996ee9c46eaf979b90af1c38672b877b636"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 154,
+      "sha256": "69ff720921fe20c7ed1f0aab28b3fe3e5d6794f6b8abb4d6b62873ce873a50f2"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3301,
+      "sha256": "c41c812a269cf04381bc89dc856303db5828ea952c7054bc64a1da6ba0e6efc0"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 57785,
+      "sha256": "f7ffe6b39093a1b3ec1f6647a054381d3768cb1bb89650e211fb2ace148c76cb"
+    },
+    {
+      "path": "exports/full-comparison.png",
+      "role": "rendered still",
+      "bytes": 150444,
+      "sha256": "9682243681135dc55310eb198938e9f18ee491d7317d1dfa638d81ca4d7ea97e"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 150444,
+      "sha256": "9682243681135dc55310eb198938e9f18ee491d7317d1dfa638d81ca4d7ea97e"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 223593,
+      "sha256": "337b15dfcaad3cbcd17173236c858d0de1d3b3c8a4655eb08ff775a579489477"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 2950,
+      "sha256": "6e8d218c3a24284cab5ecf156449cba55960e85b9451aaa0afa4d67e520083ee"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1464,
+      "sha256": "cd1bfd8c990494824984e2bf4c31e785a4d9ac60157c5916865f4e3b578b69be"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1288,
+      "sha256": "4618623ea3760da6aaf85c905d62598d23472dbaff90800cba1f13044ad21dea"
+    },
+    {
+      "path": "src/cells.json",
+      "role": "editable source",
+      "bytes": 6390,
+      "sha256": "4881addb001a8507c2705cb9b4f58fee84f803d0c19af27bcc6df43a49341633"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 12305,
+      "sha256": "5ed4d137a9f2b36524e8d87c98bf2b7649fef18293b44a67ee3c58f901cb7560"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 9470,
+      "sha256": "09acf2b45fdd36550d5041d6b3ebb437e04f06ca0f94c0c807b74b60bd76ab51"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 9470,
+      "sha256": "09acf2b45fdd36550d5041d6b3ebb437e04f06ca0f94c0c807b74b60bd76ab51"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 584,
+      "sha256": "a5c9bc158f0bbe56ff17d63f7b8b09d517bee45290a6d3294371aa76bd12a7d5"
+    },
+    {
+      "path": "src/variant-full-comparison.svg",
+      "role": "editable source",
+      "bytes": 9470,
+      "sha256": "09acf2b45fdd36550d5041d6b3ebb437e04f06ca0f94c0c807b74b60bd76ab51"
+    }
+  ],
+  "variants": [
+    {
+      "name": "full-comparison",
+      "files": [
+        "exports/full-comparison.png",
+        "src/variant-full-comparison.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        26,
+        26
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        607,
+        633
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+    },
+    {
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution export and 720p proof",
+        "scope": "Viewed exports/full-comparison.png (also the poster) at 1920 × 1080 and proofs/poster-720.png.",
+        "status": "All five rows and the four content columns are present and readable at 720p; the longest cell wraps to three lines inside its row. No text leaves the safe area. No price, market share, rating or logo appears."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [
+    "R11",
+    "R15"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Every cell is drafted from SCRIPT.md narration. src/cells.json gives each cell its line, verbatim quote, and whether it is script wording, a characterization, or a derivation. No cell is verified (R11, R15).",
+    "No price, market share, rating, benchmark, logo or box art is shown. Tool labels carry no release years: whether all five belong to 1995 is unchecked.",
+    "Tradeoffs soften the script’s harsher words (“miserable”, “brutally slow”, “invisible”); final wording needs editorial approval.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

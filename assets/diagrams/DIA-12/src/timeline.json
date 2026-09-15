@@ -1,0 +1,23 @@
+{
+  "id": "DIA-12",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Static three-column table: row label, Windows, Mac.",
+    "Optional focus state dims all but the GUI-builder row."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "full-table",
+    "gui-row-focus"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

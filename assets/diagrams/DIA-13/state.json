@@ -1,13 +1,14 @@
 {
   "id": "DIA-13",
-  "production_status": "in_progress",
+  "production_status": "produced",
   "release_status": "blocked",
   "assigned_agent": null,
   "updated_at": "2026-09-15T17:00:16+00:00",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "Authored SVG source exists (src/scene.svg, duplicated as exports/poster.svg) from the 2026-09-15 session-2 batch. It is not a finished delivery: the ticket's required PNG export, delivery.json, evidence and qa.md were never produced, so production_status was corrected from produced to in_progress during the repository migration."
+    "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
+    "Publication approval is separate from production."
   ],
-  "owner": "Claude Code — migration correction"
+  "owner": "Claude Code — local production"
 }

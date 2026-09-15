@@ -1,0 +1,41 @@
+{
+  "id": "DIA-11",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "full-comparison": "variant-full-comparison.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Every cell is drafted from SCRIPT.md narration. src/cells.json gives each cell its line, verbatim quote, and whether it is script wording, a characterization, or a derivation. No cell is verified (R11, R15).",
+    "No price, market share, rating, benchmark, logo or box art is shown. Tool labels carry no release years: whether all five belong to 1995 is unchecked.",
+    "Tradeoffs soften the script’s harsher words (“miserable”, “brutally slow”, “invisible”); final wording needs editorial approval."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        26,
+        26
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        607,
+        633
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "still"
+}

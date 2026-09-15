@@ -1,0 +1,156 @@
+{
+  "id": "REF-01",
+  "durationSeconds": 16,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Establish the complete excerpt or its first viewport.",
+    "Use a measured reveal/scroll for long code; supply a clean still as well.",
+    "Finish on the contrast-relevant lines with a readable hold."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 2.75,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 3.0,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 3.25,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 3.5,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 3.75,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 4.0,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 4.25,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 4.75,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 5.0,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 5.25,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 5.5,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 5.75,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 6.25,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 6.5,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 6.75,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 7.0,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 7.25,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 7.75,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 8.0,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 8.25,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 8.5,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 8.75,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 9.0,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 9.25,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 9.5,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 9.75,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 10.0,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 10.25,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 10.5,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 11.0,
+      "file": "scene-0033.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "clean",
+    "teaching-focus"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

@@ -107,3 +107,11 @@ Return this ID, concrete output paths, variant/duration information, exact prove
 
 **[VISUAL: A snippet of MFC code — maybe a message map macro. It should look intimidating.]**
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/reference-code/REF-01/delivery.json) · [QA and remaining decisions](../../assets/reference-code/REF-01/qa.md) · [Live state](../../assets/reference-code/REF-01/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

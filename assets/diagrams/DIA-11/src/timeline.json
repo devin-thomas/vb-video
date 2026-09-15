@@ -1,0 +1,22 @@
+{
+  "id": "DIA-11",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Full-table still plus optional row-focus states for VB, Delphi, and Java.",
+    "Keep consistent column widths; split to two connected slides only if the entire chart cannot pass readability review."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "full-comparison"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

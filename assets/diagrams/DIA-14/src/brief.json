@@ -1,0 +1,41 @@
+{
+  "id": "DIA-14",
+  "title": "VB timeline: VB1 through VB.NET",
+  "requirements": [
+    "Draft source milestones: VB1 1991; VB2 1992; VB3 1993; VB4 1995; VB5 1997; VB6 1998; VB.NET 2002.",
+    "Attach the source’s feature callouts only after verification: VB3/Jet, VB4/32-bit, VB6 final classic release, VB.NET runtime/language transition.",
+    "Use a labeled editorial break “the great divide” in the transition view; do not turn it into a falsely proportional period of no development.",
+    "No current lifecycle/support claim or “today in 2024” label is baked in. Exact release dates require sources."
+  ],
+  "beats": [
+    "History view: 1991–1998 milestones.",
+    "Transition view: classic VB on the left and VB.NET on the right, with the source’s divide label."
+  ],
+  "checks": [
+    "All seven source milestones are represented across the two views.",
+    "Visual spacing is either proportionate to time or explicitly schematic.",
+    "Year/feature pairs have a verification record before release."
+  ],
+  "copy": "VB 1.0 · 1991\nVB 2.0 · 1992\nVB 3.0 · 1993\nVB 4.0 · 1995\nVB 5.0 · 1997\nVB 6.0 · 1998\nVB.NET · 2002",
+  "refs": [
+    [
+      "ASSET_PLAN.md",
+      29,
+      29
+    ],
+    [
+      "SCRIPT.md",
+      110,
+      116
+    ],
+    [
+      "SCRIPT.md",
+      679,
+      705
+    ]
+  ],
+  "gates": [
+    "R15",
+    "R12"
+  ]
+}

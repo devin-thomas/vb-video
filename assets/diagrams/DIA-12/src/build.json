@@ -1,0 +1,43 @@
+{
+  "id": "DIA-12",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "full-table": "variant-full-table.svg",
+    "gui-row-focus": "variant-gui-row-focus.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "All five rows and both column headings are the script’s draft table (SCRIPT.md:661–667), word for word; src/cells.json records each row’s line.",
+    "These cells are draft copy, not verified facts. Console support, the ResEdit characterization and the runtime claim wait on R03, R09 and R16.",
+    "Neutral styling: no scores, bars, icons or product screenshots. gui-row-focus dims the other four rows.",
+    "The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        27,
+        27
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        659,
+        671
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "still"
+}
