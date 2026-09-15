@@ -1,0 +1,106 @@
+{
+  "input": {
+    "path": "source/original.png",
+    "sha256": "765b153c92588f544ac63513868f5c0cffab1e39a7f99e1c61ac8a497e43aad8",
+    "size": [
+      2932,
+      2948
+    ],
+    "mode": "RGB"
+  },
+  "rim_detection": {
+    "white_threshold": 235,
+    "speck_max_filter_px": 9,
+    "raw_nonwhite_bbox_including_specks": [
+      35,
+      31,
+      2914,
+      2928
+    ],
+    "despeckled_bbox": [
+      40,
+      56,
+      2895,
+      2906
+    ],
+    "padding_px": 10,
+    "disc_crop_box": [
+      30,
+      46,
+      2905,
+      2916
+    ],
+    "disc_crop_size": [
+      2875,
+      2870
+    ]
+  },
+  "masked_out_nonwhite_pixels": {
+    "count": 205,
+    "within_2pct_of_rim": 142,
+    "min_normalized_distance": 0.9989878786436646,
+    "darkest_luminance": 0,
+    "interpretation": "Pixels far outside the rim (normalized distance > 1.02) are dust specks on the scanner bed; any pixel within 2% of the rim is reported so a clipped disc edge cannot pass unnoticed."
+  },
+  "scale": {
+    "uniform_factor": 0.32613240418118467,
+    "resized_to": [
+      938,
+      936
+    ],
+    "x_over_y_factor_ratio": 1.000393905611297,
+    "resample": "LANCZOS"
+  },
+  "placement": {
+    "canvas": [
+      1920,
+      1080
+    ],
+    "left": 491,
+    "top": 72,
+    "ground_rgb": "#111318",
+    "safe_area": {
+      "x": [
+        120,
+        1800
+      ],
+      "y": [
+        72,
+        1008
+      ]
+    }
+  },
+  "outputs": {
+    "exports/editorial-frame.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "ed8a5515aec3c7c5469e15ae557c265408d8385b81e9c8f0b2906d9a8172eb5f"
+    },
+    "proofs/editorial-frame-720.png": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "b8e73cb6c38a8b14596619696f26edb9a54658ff77bf89ea87b4ac627f122263"
+    },
+    "evidence/label-crop.png": {
+      "source_box": [
+        1900,
+        850,
+        2500,
+        1250
+      ],
+      "sha256": "a3b7b5d64c7e04d8da11cef5244e0a04127f75b0dc10070361518f30b6892b16"
+    }
+  },
+  "not_done": [
+    "no stretching",
+    "no colour grading",
+    "no retouching or dust removal on the disc",
+    "no text or logo overlay",
+    "no watermark removal (none present)"
+  ],
+  "pillow": "12.3.0"
+}
