@@ -1,0 +1,63 @@
+{
+  "id": "BROLL-01",
+  "provenance_type": "stock footage scouting record (no media acquired)",
+  "access_date": "2026-09-15",
+  "source_files": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "lines": [[109, 122], [117, 117], [81, 107]],
+      "use": "Shot request (row 1) and the plan's stock-source leads; lines 81-107 are the R14 register anchor."
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "lines": [[799, 805], [749, 763]],
+      "use": "B-roll suggestion 1 ('Hands shuffling a physical deck of cards'); lines 749-763 are the R14 register anchor."
+    }
+  ],
+  "classification": {
+    "shot_request": "source-derived (ASSET_PLAN.md:117, SCRIPT.md:800)",
+    "candidates": "external third-party stock candidates, inspected on the hosting page on 2026-09-15; not acquired",
+    "license_evidence": "external web text read on the asset page and license page on 2026-09-15; recorded in evidence/candidates.json",
+    "proposed_in_out": "authored production choice by this worker, based on in-page preview frames (see qa.md)",
+    "rankings_and_fit_notes": "authored editorial judgement by this worker"
+  },
+  "external_sources": [
+    {
+      "url": "https://mixkit.co/free-stock-video/deck-of-cards-being-shuffled-100384/",
+      "relationship": "stock candidate (rank 1)",
+      "acquired": false
+    },
+    {
+      "url": "https://mixkit.co/free-stock-video/person-shuffling-playing-cards-over-green-table-100398/",
+      "relationship": "stock candidate (rank 2)",
+      "acquired": false
+    },
+    {
+      "url": "https://mixkit.co/free-stock-video/close-up-of-hands-shuffling-playing-cards-100372/",
+      "relationship": "stock candidate (rank 3)",
+      "acquired": false
+    },
+    {
+      "url": "https://mixkit.co/license/",
+      "relationship": "license evidence (Stock Video Free License modal)",
+      "acquired": false
+    },
+    {
+      "url": "https://mixkit.co/terms/",
+      "relationship": "license evidence (User Terms referenced by the license)",
+      "acquired": false
+    }
+  ],
+  "authored_additions": [
+    "Candidate ranking, visual-fit notes, proposed in/out timecodes, and proposed local filenames.",
+    "Review questions in evidence/claim-checks.json."
+  ],
+  "producer_decisions": [],
+  "transformations": "None. No media file was downloaded, copied, transcoded, cropped or captured into the repository.",
+  "notes": [
+    "Preview frames were viewed in the in-page HTML5 player (720p preview stream) in the Claude Browser pane; no screenshot image files were saved to the repository because the browser tool returns screenshots to the agent only.",
+    "Pexels individual video pages could not be inspected: WebFetch returned HTTP 403 and the browser showed a Cloudflare 'Performing security verification' interstitial that did not clear after waiting; not bypassed."
+  ]
+}
