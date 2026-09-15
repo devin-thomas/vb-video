@@ -1,0 +1,141 @@
+{
+  "id": "BROLL-02",
+  "shot": "Two people playing War at a table (SCRIPT.md:801)",
+  "access_date": "2026-09-15",
+  "result": "scouted_fallback_only",
+  "war_match_found": false,
+  "summary": "No free-stock or public-archive clip found that visibly shows War (two face-down piles, simultaneous flip-and-compare). All ranked candidates are generic card-game fallbacks and must not be labeled War. Real War demonstrations exist only as YouTube leads, which are rights-blocked (H02).",
+  "candidates": [
+    {
+      "rank": 1,
+      "label": "FALLBACK - generic two-person card game (not War)",
+      "platform": "Pexels",
+      "title": "Elderly Couple Enjoying Card Game Indoors",
+      "asset_url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
+      "creator": "Jelly Marketing",
+      "creator_url": "https://www.pexels.com/@jellymarketing/",
+      "duration_seconds": 9,
+      "duration_source": "Pexels page shows 0:09; player showed 0:00 / 0:09",
+      "dimensions": {"width": 1920, "height": 1080},
+      "orientation": "horizontal",
+      "fps": 23.98,
+      "fps_source": "Pexels page metadata (23.98); the page's Canva link references file 16496615_1920_1080_24fps.mp4",
+      "proposed_in": "00:00.0",
+      "proposed_out": "00:09.0",
+      "proposed_segment_seconds": 9.0,
+      "edit_handles": "none - the full 9 s clip is the segment",
+      "motion_review": {
+        "status": "reviewed",
+        "method": "Played the Pexels in-page preview in Claude Browser tab tab-2; screenshots at about 0:01 (player read 0:01 / 0:09), about 0:04, about 0:07 and about 0:09. Times after 0:01 are estimated from wait intervals because the player controls auto-hid.",
+        "observed": "Static seated wide shot with a slow push-in. A woman (left) and a man (right) sit across a round wooden table in a bright room with windows. Both hold fanned hands of cards and look at them; the man rearranges his hand. Small face-up spreads of cards lie in front of each player, and a closed card box and a vase of flowers sit on the table."
+      },
+      "war_evidence": {
+        "supports": ["Exactly two players", "Seated across a table from each other", "Cards on the table in front of each player", "No chips, money or betting visible"],
+        "contradicts": ["Both players hold fanned hands (War players do not hold hands)", "Face-up spreads look like melds in a rummy-type game", "No separate face-down draw piles visible", "No simultaneous flip-and-compare seen in the 9 s"],
+        "verdict": "Not War. Usable only as a clearly labeled generic card-game fallback."
+      },
+      "visual_notes": "Best match to 'two people across a table'. Warm, uncluttered, horizontal 16:9. No baked-in captions or watermark seen in the in-page preview. Audio not checked. Identifiable people.",
+      "license": {
+        "name": "Pexels License",
+        "asset_page_label": "Free",
+        "terms_in_substance": "Free to download and use; attribution not required but appreciated; modification allowed. Not allowed: showing identifiable people in a bad or offensive light, selling unaltered copies, implying endorsement by people or brands, redistributing on other stock platforms, or using the content in trademarks or business names.",
+        "license_url": "https://www.pexels.com/license/",
+        "accessed": "2026-09-15"
+      },
+      "access_barrier": "None to view or download: the Free download button needs no login. A cookie or consent banner was not shown. No model-release document is shown on the page.",
+      "acquisition_status": "not_downloaded - pending batched download approval"
+    },
+    {
+      "rank": 2,
+      "label": "FALLBACK - generic group card game (not War)",
+      "platform": "Pixabay",
+      "title": "Card Game, game, cards (description: Friends Playing Cards Game)",
+      "asset_url": "https://pixabay.com/videos/card-game-game-cards-gambling-card-254893/",
+      "creator": "KamiArtist",
+      "creator_url": "https://pixabay.com/users/kamiartist-17934333/",
+      "duration_seconds": 10.733333,
+      "duration_source": "HTML5 video element duration on the asset page (search listing shows 0:10)",
+      "dimensions": {"width": 1920, "height": 1080},
+      "orientation": "horizontal",
+      "fps": 30,
+      "fps_source": "Pixabay page details panel: Media type MP4, Resolution 1920 x 1080, FPS 30, Published date January 26, 2025",
+      "proposed_in": "00:00.5",
+      "proposed_out": "00:10.5",
+      "proposed_segment_seconds": 10.0,
+      "edit_handles": "0.5 s head, about 0.23 s tail",
+      "motion_review": {
+        "status": "reviewed",
+        "method": "Played the Pixabay in-page preview (muted) in Claude Browser tab seed, logging video.currentTime with screenshots at 1.02 s, 4.19 s, 7.32 s and 10.47 s.",
+        "observed": "Top-down overhead shot of a woven, patterned floor mat. Hands of at least three players are visible: a pair at bottom-left, a person in white clothing at right, and a dark-sleeved arm at top-left. Players hold fanned hands and toss single cards onto the mat. A card box and a plastic bag are at left. Gentle handheld drift."
+      },
+      "war_evidence": {
+        "supports": ["Real card play in motion", "No chips or money visible"],
+        "contradicts": ["At least three players, not two", "Players hold fanned hands", "Cards are discarded singly, not flipped from face-down piles", "Played on a floor mat, not across a table"],
+        "verdict": "Not War. Weaker fallback than rank 1."
+      },
+      "visual_notes": "Strong texture and motion, faces not shown. Horizontal. No captions or watermark seen in the in-page preview. Audio not checked. Tags on page include 'gambling', though no betting is visible.",
+      "license": {
+        "name": "Pixabay Content License",
+        "asset_page_label": "Free for use under the Pixabay Content License",
+        "terms_in_substance": "Use without attribution (credit appreciated); modification allowed. Not allowed: selling or distributing content unchanged as standalone products, commercial use of recognizable trademarks, logos or brands, immoral, illegal or deceptive uses (especially involving identifiable people), or use in trademarks or business names. The user is responsible for third-party rights.",
+        "license_url": "https://pixabay.com/service/license-summary/",
+        "accessed": "2026-09-15"
+      },
+      "access_barrier": "None to view. The Free download button is visible without login. A cookie banner appeared and 'Reject All' was selected. The download dropdown was clicked but its options did not render in this session.",
+      "acquisition_status": "not_downloaded - pending batched download approval"
+    },
+    {
+      "rank": 3,
+      "label": "FALLBACK - generic two-person card game (not War); MOTION NOT REVIEWED",
+      "platform": "Pexels",
+      "title": "Grandfather Playing a Card Game with His Granddaughter",
+      "asset_url": "https://www.pexels.com/video/grandfather-playing-a-card-game-with-his-granddaughter-9058103/",
+      "creator": "SHVETS production",
+      "creator_url": null,
+      "duration_seconds": 13,
+      "duration_source": "Pexels page metadata (13 seconds)",
+      "dimensions": {"width": 3840, "height": 2160},
+      "orientation": "horizontal",
+      "fps": 50,
+      "fps_source": "Pexels page metadata; upload date August 3, 2021",
+      "proposed_in": "00:01.5",
+      "proposed_out": "00:11.5",
+      "proposed_segment_seconds": 10.0,
+      "edit_handles": "Provisional centered window; not motion-verified",
+      "motion_review": {
+        "status": "not_reviewed",
+        "reason": "motion not reviewed: the Pexels in-page player stayed on its poster frame after three play attempts (two clicks and a scripted play) in Claude Browser tab tab-2. No <video> element loaded.",
+        "observed_poster_only": "Medium close shot. An older man in a patterned shirt looks down at a card in his hand; a girl with curly hair (back of head, foreground right) holds a fanned hand of cards. A plant is in the background."
+      },
+      "war_evidence": {
+        "supports": ["Exactly two players"],
+        "contradicts": ["Girl holds a fanned hand (poster frame)", "No table surface, piles or flip visible in the poster"],
+        "verdict": "Not War based on poster frame alone; unverified in motion."
+      },
+      "visual_notes": "Tight and intimate. It doesn't read as 'across a table'. 4K 50 fps would need conforming to 30 fps.",
+      "license": {
+        "name": "Pexels License",
+        "asset_page_label": "Free",
+        "terms_in_substance": "Same Pexels License as rank 1.",
+        "license_url": "https://www.pexels.com/license/",
+        "accessed": "2026-09-15"
+      },
+      "access_barrier": "None to view. The Free download dropdown lists sizes without login.",
+      "acquisition_status": "not_downloaded - pending batched download approval; motion review required first"
+    }
+  ],
+  "inspected_not_ranked": [
+    {"url": "https://www.pexels.com/video/people-playing-a-card-game-7688654/", "creator": "KoolShooters", "duration_seconds": 14, "dimensions": "3840x2160", "fps": 25, "reason": "Metadata only: hands shuffle and deal on a carpet; no two-player table setup described. Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/people-playing-cards-6830139/", "creator": "Kampus Production", "duration_seconds": 9, "dimensions": "2688x1512", "fps": 25, "reason": "Metadata only: seniors playing cards at a park (group). Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/people-playing-cards-8086815/", "creator": "Yaroslav Shuraev", "duration_seconds": 14, "dimensions": "4096x2160", "fps": 24, "reason": "Metadata only: seniors with drinks (group). Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/people-playing-cards-8086806/", "creator": "Yaroslav Shuraev", "duration_seconds": 14, "dimensions": "4096x2160", "fps": 24, "reason": "Metadata only: elderly friends with wine (group). Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/people-playing-cards-7061379/", "creator": "RDNE Stock project", "duration_seconds": 24, "dimensions": "1920x1080", "fps": 29.97, "reason": "Metadata only: St. Patrick's Day party card game (group). Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/friends-playing-cards-8058265/", "creator": "Pavel Danilyuk", "duration_seconds": 9, "dimensions": "3840x2160", "fps": 25, "reason": "Metadata only: group of friends. Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/friends-playing-cards-8058006/", "creator": "Pavel Danilyuk", "duration_seconds": 18, "dimensions": "2160x3840", "fps": 25, "reason": "Vertical; group."},
+    {"url": "https://www.pexels.com/video/people-playing-cards-at-home-8058010/", "creator": "Pavel Danilyuk", "duration_seconds": 19, "dimensions": "2160x3840", "fps": 25, "reason": "Vertical; group."},
+    {"url": "https://www.pexels.com/video/people-playing-cards-8057998/", "creator": "Pavel Danilyuk", "duration_seconds": 14, "dimensions": "2160x3840", "fps": 25, "reason": "Vertical; group."},
+    {"url": "https://www.pexels.com/video/people-getting-cards-8751436/", "creator": "Kevin Malik", "duration_seconds": 12, "dimensions": "2160x3840", "fps": 29.97, "reason": "Vertical; hands arranging cards on glass table."},
+    {"url": "https://www.pexels.com/video/kids-playing-a-card-game-5644120/", "creator": "imagens crianças", "duration_seconds": 2, "dimensions": "1920x1080", "fps": 29.97, "reason": "Only 2 s; below the 8-12 s target."},
+    {"url": "https://mixkit.co/free-stock-video/young-children-playing-with-cards-7676/", "creator": "Kristian Kettner", "duration_seconds": 34, "dimensions": "720p free / 4K premium", "fps": 25, "reason": "Free version is 'personal use only, under the Mixkit Restricted License'; the 4K version is Premium. Excluded (no paid footage; restricted free license)."}
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "BROLL-02",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "register": "docs/EDITORIAL_REGISTER.md#r14",
+      "status": "open",
+      "approver": null,
+      "reason": null,
+      "checked_on": "2026-09-15",
+      "checked_by": "BROLL-02 scouting worker (Claude, spawned by B-roll Scouting Manager vb-99)",
+      "evidence_paths": ["evidence/candidates.json", "exports/candidates.md", "exports/acquisition-handoff.md", "qa.md"],
+      "findings": "ASSET_PLAN.md:109-122 assumes Pexels and Pixabay are browsable without login. On 2026-09-15 that held for both: asset pages were viewable and free download buttons were visible without login. However, no free candidate visibly shows War, which the SCRIPT.md:801 shot requires. Item-specific license terms and creators are recorded below. No file has been acquired, so no rights record is attached to actual media.",
+      "per_candidate": [
+        {
+          "rank": 1,
+          "asset_url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
+          "creator": "Jelly Marketing",
+          "license": "Pexels License (page label: Free)",
+          "license_url": "https://www.pexels.com/license/",
+          "access_method": "Public page; Free download without login",
+          "credit_text_proposed": "Jelly Marketing / Pexels (attribution optional under license)",
+          "rights_status": "stock license terms read; not acquired; no model release shown",
+          "shows_war": false,
+          "war_evidence": "Fanned hands, face-up melds and no face-down piles contradict War; two players across a table support only the generic setup."
+        },
+        {
+          "rank": 2,
+          "asset_url": "https://pixabay.com/videos/card-game-game-cards-gambling-card-254893/",
+          "creator": "KamiArtist",
+          "license": "Pixabay Content License",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "access_method": "Public page; Free download button without login; cookie banner rejected",
+          "credit_text_proposed": "KamiArtist / Pixabay (attribution optional under license)",
+          "rights_status": "stock license terms read; not acquired; no model release shown",
+          "shows_war": false,
+          "war_evidence": "Three or more players, fanned hands, single discards and a floor mat contradict War."
+        },
+        {
+          "rank": 3,
+          "asset_url": "https://www.pexels.com/video/grandfather-playing-a-card-game-with-his-granddaughter-9058103/",
+          "creator": "SHVETS production",
+          "license": "Pexels License (page label: Free)",
+          "license_url": "https://www.pexels.com/license/",
+          "access_method": "Public page; Free download size chooser without login",
+          "credit_text_proposed": "SHVETS production / Pexels (attribution optional under license)",
+          "rights_status": "stock license terms read; not acquired; motion not reviewed",
+          "shows_war": false,
+          "war_evidence": "Poster frame only: fanned hand; no table, piles or flip visible."
+        },
+        {
+          "rank": null,
+          "asset_url": "https://www.youtube.com/watch?v=kEhF96ea7wo",
+          "creator": "ExpertVillage Leaf Group (oEmbed author_name)",
+          "license": "Standard YouTube platform terms (not reuse permission); license field on page not read",
+          "license_url": null,
+          "access_method": "Scouting lead only; not played",
+          "rights_status": "rights-blocked; H02",
+          "shows_war": "unknown (title claims two-player War; not viewed)"
+        },
+        {
+          "rank": null,
+          "asset_url": "https://www.youtube.com/watch?v=LeB_PnAWJXA",
+          "creator": "Game Rules (oEmbed author_name)",
+          "license": "Standard YouTube platform terms (not reuse permission); license field on page not read",
+          "license_url": null,
+          "access_method": "Scouting lead only; not played",
+          "rights_status": "rights-blocked; H02",
+          "shows_war": "unknown (title claims War tutorial; not viewed)"
+        }
+      ],
+      "review_questions": [
+        "No free clip shows War. Should the edit use a labeled generic card-game fallback, request permission for a YouTube War demo (H02), or commission a separately approved staged or AI stand-in?",
+        "Is a rummy-style elderly-couple game acceptable on screen under narration about War?",
+        "Legal risk: no model releases are shown for identifiable people on the Pexels or Pixabay pages. Are the stock license terms sufficient for this use?"
+      ],
+      "decision_record": null
+    }
+  ]
+}

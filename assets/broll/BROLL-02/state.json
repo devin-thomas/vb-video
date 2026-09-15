@@ -1,12 +1,19 @@
 {
   "id": "BROLL-02",
-  "production_status": "planned",
+  "production_status": "scouted",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Claude Opus 5 worker (spawned by B-roll Scouting Manager, session vb-99)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "No free-stock or public-archive clip visibly shows War; ranked candidates are generic card-game fallbacks only.",
+    "Nothing downloaded: ungated free downloads await Devin's batched download approval.",
+    "True War footage leads are YouTube videos (rights-blocked, H02).",
+    "R14 open: no media acquired or cleared; model-release and fallback-acceptability questions pending review.",
+    "Rank 3 candidate motion not reviewed (in-page player would not start)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Scouting complete, not acquisition: see exports/candidates.md and exports/acquisition-handoff.md.",
+    "Rank 1 fallback: Pexels 38810850 (Jelly Marketing), 1920x1080, 9 s, in 00:00.0 out 00:09.0, motion reviewed, not War."
   ]
 }

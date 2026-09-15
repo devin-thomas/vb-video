@@ -1,0 +1,156 @@
+{
+  "id": "BROLL-02",
+  "title": "Two people playing War",
+  "production_status": "scouted",
+  "release_status": "blocked",
+  "provenance_type": "stock candidate scouting record",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "qa.md",
+      "role": "qa report",
+      "bytes": 4608,
+      "sha256": "cc740ba7acfb173faecf6e7cd3120fa684e0976f162344037590a96a25073985"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance",
+      "bytes": 2377,
+      "sha256": "111c1a41ff095475f67f618893f5db2d2b310a230f998e7d836b69acee79be35"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 2446,
+      "sha256": "ea8567a610ab51f97ad8e3d5a2de4a048310cc955814f3d5c2ab6d740a52481e"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "gate evidence",
+      "bytes": 4730,
+      "sha256": "9c97588b499fbfc0bc76ac5908fb446b24bddbed4bf4a9b504ebf26931b2bf83"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "candidate report",
+      "bytes": 7468,
+      "sha256": "8043b7eaf71f019a10bf83322469d7dccc531a682c7d1efe940533169057115a"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "role": "structured candidates",
+      "bytes": 11943,
+      "sha256": "a826a6d09e6280b722587c6aa497bda4b508c3833f78257cf2ffbe62eaff2327"
+    },
+    {
+      "path": "exports/acquisition-handoff.md",
+      "role": "acquisition handoff",
+      "bytes": 5286,
+      "sha256": "0c3d6b5cbc8f5158433152297effa9990f4b4037f36683d27913b90a57337f5e"
+    }
+  ],
+  "variants": {
+    "candidate-report": "exports/candidates.md"
+  },
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        109,
+        122
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        799,
+        805
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt"
+    },
+    {
+      "url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
+      "relationship": "stock candidate",
+      "rank": 1,
+      "acquired": false
+    },
+    {
+      "url": "https://pixabay.com/videos/card-game-game-cards-gambling-card-254893/",
+      "relationship": "stock candidate",
+      "rank": 2,
+      "acquired": false
+    },
+    {
+      "url": "https://www.pexels.com/video/grandfather-playing-a-card-game-with-his-granddaughter-9058103/",
+      "relationship": "stock candidate",
+      "rank": 3,
+      "acquired": false
+    }
+  ],
+  "credits": [
+    {
+      "asset": "Pexels 38810850",
+      "creator": "Jelly Marketing",
+      "platform": "Pexels",
+      "license": "Pexels License",
+      "attribution_required": false
+    },
+    {
+      "asset": "Pixabay 254893",
+      "creator": "KamiArtist",
+      "platform": "Pixabay",
+      "license": "Pixabay Content License",
+      "attribution_required": false
+    },
+    {
+      "asset": "Pexels 9058103",
+      "creator": "SHVETS production",
+      "platform": "Pexels",
+      "license": "Pexels License",
+      "attribution_required": false
+    }
+  ],
+  "tests": [
+    {
+      "name": "in-page motion review rank 1",
+      "result": "reviewed; not War (fanned hands, melds)"
+    },
+    {
+      "name": "in-page motion review rank 2",
+      "result": "reviewed with currentTime log; not War (3+ players, floor mat)"
+    },
+    {
+      "name": "in-page motion review rank 3",
+      "result": "not run - in-page player did not start"
+    },
+    {
+      "name": "license pages read",
+      "result": "Pexels License and Pixabay license summary read 2026-09-15"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id BROLL-02",
+      "result": "run after this file was written; result in completion report"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "git": "2.53.0.windows.1",
+    "browser": "Claude Code Browser pane (Claude_Browser MCP)",
+    "fetch": "WebFetch/WebSearch",
+    "reproduce": "python tools/validate_delivery.py --id BROLL-02"
+  },
+  "notes": [
+    "Scouting only; no media downloaded or cleared.",
+    "No candidate shows War; all ranked candidates are labeled generic card-game fallbacks.",
+    "Ungated free downloads pending batched approval; YouTube War leads rights-blocked (H02)."
+  ]
+}
