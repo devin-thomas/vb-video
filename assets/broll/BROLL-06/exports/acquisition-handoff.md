@@ -48,7 +48,7 @@ The user owns every decision here: permission requests, any payment, and any ter
 - **Where:** https://www.youtube.com/watch?v=PwRR7-P-8fc (channel @Jcvlasmesas, per oEmbed)
 - **What:** a boot to Windows 95 (per title). Hardware is unverified: only a search-engine summary claimed a Pentium MMX 200 with 32 MB RAM.
 - **Duration, size and license:** not verified. Assume the standard YouTube license, which grants no reuse.
-- **Route:** Devin checks the license on the page. If it is not Creative Commons, he requests permission from the creator.
+- **Route:** Devin checks the license on the page. If it is not Creative Commons, Devin requests permission from the creator.
 - **Cost:** unknown.
 
 ### Out of scope (not pursued)
