@@ -7,17 +7,41 @@
       "status": "open",
       "approver": null,
       "reason": null,
-      "decision": "No clearance authorized. Scouting recorded item-specific terms and in-page motion review; nothing acquired; release blocked.",
+      "decision": "No clearance authorized. Scouting recorded item-specific terms and in-page motion review. One file has since been acquired under a recorded Devin download approval (Pexels 8888818, 2026-09-15), but acquisition is not clearance: the license terms are recorded, not adjudicated, and the open review questions below are unanswered. Release stays blocked.",
       "checked_on": "2026-09-15",
       "evidence_paths": [
         "evidence/candidates.json",
         "exports/candidates.md",
         "exports/acquisition-handoff.md",
         "evidence/source-excerpts.md",
+        "evidence/provenance.json",
+        "source/source.json",
+        "source/pexels-8888818-mart-production-vintage-computer.mp4",
+        "evidence/frames/frame-t0p5s.png",
+        "evidence/frames/frame-t5s.png",
+        "evidence/frames/frame-t10p5s.png",
+        "evidence/frames/frame-t5s-720p.png",
         "qa.md"
       ],
+      "acquisition_evidence": {
+        "acquired_on": "2026-09-15",
+        "approval": "Devin approved this one download on 2026-09-15 (relayed by the B-roll Scouting Manager, session vb-bf). No other clip was downloaded; the Commons POST clip was not approved.",
+        "file": "source/pexels-8888818-mart-production-vintage-computer.mp4",
+        "bytes": 29243915,
+        "sha256": "5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f",
+        "asset_page": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/",
+        "download_url": "https://www.pexels.com/download/video/8888818/",
+        "resolved_url": "https://videos.pexels.com/video-files/8888818/8888818-uhd_4096_2160_25fps.mp4",
+        "access_barrier_encountered": "None. HTTP 302 then 200. No login, payment, terms click-through, CAPTCHA or Cloudflare check appeared; nothing was bypassed.",
+        "license_recorded": "Pexels License (https://www.pexels.com/license/); attribution not required; credit optional as \"Video by MART PRODUCTION from Pexels\".",
+        "ffprobe_verified": "duration 11.8 s; 4096x2160; 25 fps; h264 High; video stream only, no audio stream. This matches the asset page's stated 4096x2160 / 25 fps / about 12 s. The 2732x1440 rendition seen during scouting was an in-page preview only.",
+        "watermark_check": "No watermark, baked-in caption or burned-in text in any inspected frame. Nothing was removed from the file; it is preserved byte-identical as downloaded.",
+        "content_verified_at_full_resolution": "Frames at 0.5 s, 5 s and 10.5 s viewed at native 4096x2160 and one frame at 720p. All three show a beige CRT monitor and keyboard on a desk in a dim room, with the CRT screen blank and dark throughout. There is no boot, no power-on, no POST, no memory count, no BIOS screen and no OS. No PC case or tower appears anywhere in frame.",
+        "hardware_marking_now_legible": "At full resolution the monitor bezel reads \"ViewSonic\" with the ViewSonic bird logo, plus an \"E70\" model marking on the upper-right bezel. This identifies a monitor make and model only. It is not a CPU, not a system identification and not a date, so it does not establish a Pentium-era machine and is not Pentium evidence. At 720p neither marking is legible.",
+        "label_binding": "This clip is a period-setting cutaway only. It must never be labelled a boot and must never be captioned with, or cut to imply, \"Pentium\"."
+      },
       "plan_assumption_checked": "ASSET_PLAN.md:122 suggests 'YouTube clips (screenshot-able)'. That is not a rights basis: the standard YouTube license is not reuse permission, so YouTube leads are rights-blocked.",
-      "shot_claim_checked": "SCRIPT.md:805 'A Pentium-era PC booting up'. No free candidate shows a boot on a period PC, and no free candidate identifies a Pentium CPU. Only the H02 LGR lead carries a creator-stated Pentium (100MHz), and that is unverified on screen.",
+      "shot_claim_checked": "SCRIPT.md:805 'A Pentium-era PC booting up'. No free candidate shows a boot on a period PC, and no free candidate identifies a Pentium CPU. This is now confirmed against the acquired full-resolution file, not just previews: the acquired clip shows no boot and no CPU. Only the H02 LGR lead carries a creator-stated Pentium (100MHz), and that is unverified on screen.",
       "candidates": [
         {
           "rank": 1,
@@ -27,8 +51,8 @@
           "license_url": "https://www.pexels.com/license/",
           "access_method": "public page; 'Free download' button; no login seen; no Cloudflare check in rework pass (one seen and not bypassed earlier the same day)",
           "credit": "optional: MART PRODUCTION / Pexels",
-          "motion_review": "viewed in-page: beige CRT in dim room, blank screen, slow camera drift; no power-on or boot",
-          "status": "terms recorded; not acquired; boot not shown; CPU unverified"
+          "motion_review": "viewed in-page during scouting: beige CRT in dim room, blank screen, slow camera drift; no power-on or boot. Re-confirmed 2026-09-15 on the acquired 4096x2160 file at full size and at 720p.",
+          "status": "ACQUIRED 2026-09-15 under Devin's approval; terms recorded but not adjudicated; boot NOT shown; CPU unverified and no CPU visible; a ViewSonic E70 monitor marking is legible at full resolution but identifies a monitor, not a CPU or a date"
         },
         {
           "rank": 2,
@@ -39,7 +63,7 @@
           "access_method": "public file page; direct original file link; no login",
           "credit": "\"BIOS POST IMGP9357 wp.ogv\" by Rainer Knäpper (Smial), Free Art License 1.3, via Wikimedia Commons",
           "motion_review": "viewed in-page (240p): POST card codes cycle in a boot loop; no CRT/OS",
-          "status": "terms recorded; not acquired; hardware era unverified"
+          "status": "terms recorded; NOT acquired (not part of the 2026-09-15 approval; no download attempted); hardware era unverified"
         },
         {
           "rejected": true,
@@ -66,11 +90,12 @@
         }
       ],
       "review_questions": [
-        "No free clip shows a period boot: use the Pexels period set shot (optionally with the POST-code insert) with narration carrying 'booting', pursue H02 permission, or commission a separately approved labeled stand-in?",
+        "STILL OPEN after acquisition. No free clip shows a period boot, and the acquired clip confirms this at full resolution: use the Pexels period set shot as a cutaway (optionally with the POST-code insert) with narration carrying 'booting', pursue H02 permission, or commission a separately approved labeled stand-in?",
         "Windows 95/3.x splash screens are Microsoft-copyrighted UI and BIOS vendor logos are third-party marks: is incidental on-screen OS/BIOS UI acceptable if H02 or a stand-in is pursued?",
         "Is the Free Art License attribution and Article 4 larger-work condition acceptable for the final video if the Commons clip is used?",
         "Is a ~2.6x upscale of the 640x416 Commons clip visually acceptable as a brief insert?",
-        "Neither free candidate identifies a CPU: confirm the edit will not caption or imply 'Pentium' over them."
+        "STILL OPEN after acquisition. Neither free candidate identifies a CPU, and the acquired 4K file shows no PC case at all: confirm the edit will not caption or imply 'Pentium' over them, and will not label the acquired clip a boot.",
+        "New after acquisition: the acquired clip's monitor bezel is legible at full resolution as a ViewSonic E70. Is showing an identifiable monitor brand acceptable under the Pexels term against implying endorsement by brands shown, and should the shot be framed or scaled so the wordmark is not prominent? (At 720p it is not legible.)"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "id": "BROLL-06",
-  "classification": "stock candidate scouting; no media acquired",
+  "classification": "stock candidate scouting plus one approved acquisition: the rank-1 Pexels clip was downloaded on 2026-09-15; every other candidate remains not acquired",
   "accessed": "2026-09-15",
   "source_files": [
     {
@@ -16,8 +16,88 @@
       "relationship": "shot request, literal excerpt in evidence/source-excerpts.md"
     }
   ],
+  "media_acquired": true,
+  "acquisitions": [
+    {
+      "candidate": "rank 1 — Pexels 8888818, \"A Vintage Computer on a Table\"",
+      "acquired": true,
+      "local_path": "source/pexels-8888818-mart-production-vintage-computer.mp4",
+      "sha256": "5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f",
+      "bytes": 29243915,
+      "creator": "MART PRODUCTION",
+      "asset_page": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/",
+      "download_url": "https://www.pexels.com/download/video/8888818/",
+      "resolved_url": "https://videos.pexels.com/video-files/8888818/8888818-uhd_4096_2160_25fps.mp4",
+      "access_date": "2026-09-15",
+      "method": "curl -L with a generic Mozilla/5.0 User-Agent; HTTP 302 then HTTP 200, Content-Type video/mp4, Content-Length 29243915. No login, account, payment, terms click-through, CAPTCHA or Cloudflare check was encountered or bypassed. No personal data, email address or credential was sent.",
+      "license": {
+        "name": "Pexels License",
+        "url": "https://www.pexels.com/license/",
+        "attribution_required": false,
+        "credit_optional": "Video by MART PRODUCTION from Pexels"
+      },
+      "approval": "Devin approved this download on 2026-09-15 (relayed by the B-roll Scouting Manager, session vb-bf).",
+      "verified_on_file": {
+        "duration_seconds": 11.8,
+        "dimensions": "4096x2160",
+        "fps": 25,
+        "video_codec": "h264 (High, level 5.2, yuv420p)",
+        "audio_stream": false
+      },
+      "content_label": "Period-setting cutaway only: a beige CRT monitor with a blank, dark screen in a dim room. It is NOT a boot and NOT a power-on. No PC case, CPU, model or date identifies a Pentium. Never label it a boot; never caption or imply \"Pentium\".",
+      "transformations": "None applied to the original file; it is preserved byte-identical as downloaded. Four PNG frames were extracted into evidence/frames/ for inspection; those are derived copies, not edits to the original.",
+      "watermark_check": "No watermark, baked-in caption or burned-in text appears in any inspected frame."
+    },
+    {
+      "candidate": "rank 2 — Wikimedia Commons File:BIOS_POST_IMGP9357_wp.ogv",
+      "acquired": false,
+      "local_path": null,
+      "reason": "Not acquired: this clip was not part of the 2026-09-15 approval. No download was attempted."
+    },
+    {
+      "candidate": "rejected — Pixabay 126935, \"Switch Off, turn on, on\"",
+      "acquired": false,
+      "local_path": null,
+      "reason": "Not acquired: rejected after motion review (modern flat-panel monitor, not period)."
+    },
+    {
+      "candidate": "H02-A — LGR, YouTube WCdDKPonXXA",
+      "acquired": false,
+      "local_path": null,
+      "reason": "Not acquired: rights-blocked, routed to H02. No download attempted."
+    },
+    {
+      "candidate": "H02-B — Jaime Cobo Vicente, YouTube PwRR7-P-8fc",
+      "acquired": false,
+      "local_path": null,
+      "reason": "Not acquired: rights-blocked, routed to H02. No download attempted."
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "evidence/frames/frame-t0p5s.png",
+      "from": "source/pexels-8888818-mart-production-vintage-computer.mp4 at t=0.5 s",
+      "transformation": "single-frame PNG extraction at native 4096x2160; no colour, crop or scale change"
+    },
+    {
+      "path": "evidence/frames/frame-t5s.png",
+      "from": "source/pexels-8888818-mart-production-vintage-computer.mp4 at t=5 s",
+      "transformation": "single-frame PNG extraction at native 4096x2160; no colour, crop or scale change"
+    },
+    {
+      "path": "evidence/frames/frame-t10p5s.png",
+      "from": "source/pexels-8888818-mart-production-vintage-computer.mp4 at t=10.5 s",
+      "transformation": "single-frame PNG extraction at native 4096x2160; no colour, crop or scale change"
+    },
+    {
+      "path": "evidence/frames/frame-t5s-720p.png",
+      "from": "source/pexels-8888818-mart-production-vintage-computer.mp4 at t=5 s",
+      "transformation": "single frame scaled to 720 px height (1366x720) for the 720p legibility check"
+    }
+  ],
   "external_evidence": [
     {"url": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/", "kind": "stock asset page", "method": "WebFetch + in-app browser page text (tab-6)"},
+    {"url": "https://www.pexels.com/download/video/8888818/", "kind": "approved download endpoint", "method": "curl -L, generic Mozilla/5.0 User-Agent, 2026-09-15; redirected to videos.pexels.com and returned the 4096x2160 file"},
     {"url": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/", "kind": "stock asset page", "method": "WebFetch + in-app browser page text (tab-6)"},
     {"url": "https://commons.wikimedia.org/wiki/File:BIOS_POST_IMGP9357_wp.ogv", "kind": "archive file page", "method": "WebFetch + Commons API imageinfo + in-app browser DOM read"},
     {"url": "https://commons.wikimedia.org/w/api.php?action=query&titles=File:BIOS_POST_IMGP9357_wp.ogv&prop=imageinfo&iiprop=url|size|mime|extmetadata|user|timestamp&format=json", "kind": "archive metadata API", "method": "WebFetch"},
@@ -30,9 +110,15 @@
   ],
   "authored_additions": [
     "Candidate ranking, proposed in/out timecodes, visual-fit notes and local filenames are production proposals by this worker, not facts from the sources.",
-    "In/out points were chosen from in-page playback in the rework pass (preview resolution; see qa.md) and must be confirmed on the acquired files.",
-    "Frame descriptions in evidence/candidates.json are this worker's observations of in-page playback, not creator metadata."
+    "The in/out points (00:00:00.500–00:00:10.500) were re-confirmed on the acquired full-resolution file.",
+    "Frame descriptions in evidence/candidates.json and qa.md are this worker's observations of playback and extracted frames, not creator metadata.",
+    "The reading of the monitor bezel markings (\"ViewSonic\" wordmark and bird logo; \"E70\" model marking) is this worker's observation from the acquired full-resolution frames. It identifies a monitor make and model only, not a CPU, a system or a date; it is not Pentium evidence."
   ],
-  "producer_decisions": [],
-  "media_acquired": false
+  "producer_decisions": [
+    {
+      "date": "2026-09-15",
+      "decision": "Devin approved downloading Pexels 8888818. The Wikimedia Commons BIOS POST clip was not approved and was not downloaded.",
+      "relayed_by": "B-roll Scouting Manager (session vb-bf)"
+    }
+  ]
 }

@@ -1,25 +1,25 @@
 {
   "id": "BROLL-06",
   "title": "Pentium-era PC booting",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "stock footage scouting record (candidates motion-reviewed in-page; no media acquired)",
+  "provenance_type": "stock footage scouting record plus one acquired original under a recorded download approval (Pexels 8888818, 2026-09-15); the acquired clip is a period-setting cutaway, not a boot",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": null,
-  "dimensions": null,
-  "fps": null,
+  "duration_seconds": 11.8,
+  "dimensions": "4096x2160",
+  "fps": 25,
   "outputs": [
     {
       "path": "qa.md",
       "role": "QA report",
-      "bytes": 8104,
-      "sha256": "8f3a621af927fc74681a60a6722bbc3cb6896b6a9d31bfa28a5ce1a46604c030"
+      "bytes": 17131,
+      "sha256": "a244d84c0da81ae08cda5a26e0ac2cb5a0396b746464b519388cbbf877d1836c"
     },
     {
       "path": "evidence/provenance.json",
-      "role": "evidence / provenance",
-      "bytes": 2754,
-      "sha256": "d9767f5df93021884ef1783f3f5dcb190dbed8c974c1b107fe884e805761bc1b"
+      "role": "evidence / provenance (acquisition recorded)",
+      "bytes": 7711,
+      "sha256": "2aa609a074695956bf2b2a1dc339b4b9c20fa41973e4d57d5b818809f82cab2d"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -30,26 +30,62 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gate record (R14 open)",
-      "bytes": 4733,
-      "sha256": "44b4c3eda4e115dd6fd998a8e8dde5a6addeab855ad2127d9c6f97ed9775d6b7"
+      "bytes": 8770,
+      "sha256": "d86ad5ec6715303c8cc310e8cff30be061cb155ab8ad8bd1c8ddccc9209977a5"
     },
     {
       "path": "exports/candidates.md",
       "role": "candidate report (variant: candidate-report)",
-      "bytes": 7237,
-      "sha256": "18fb072d0067ba2a168e3b916d7b08cb56a750ae843bf88c147385f33726e644"
+      "bytes": 9976,
+      "sha256": "b16b4df6fdfff9d992759f800d4f4c30c051bf08e08153db1a41b763ab5c68d5"
     },
     {
       "path": "evidence/candidates.json",
       "role": "structured candidates",
-      "bytes": 13145,
-      "sha256": "c4858d734edd4846d680409ec76359974f444124f63258630ccfe0c0a73a2201"
+      "bytes": 16813,
+      "sha256": "6c387aff3993d75a18402b206b9feb857d1dff82ad25321b0cb3b7ccb6163885"
     },
     {
       "path": "exports/acquisition-handoff.md",
-      "role": "acquisition handoff (ungated pending approval + H02)",
-      "bytes": 4778,
-      "sha256": "99d47e6acf719ea82c1afea3b1e8371ea4611416c897568530cd7b88096277a0"
+      "role": "acquisition handoff (row 1 acquired; row 2 outstanding; H02 unchanged)",
+      "bytes": 6764,
+      "sha256": "224d463a3845e82eabfea25aa8073df4d25ded78f999ce9f6ed735b73691bcdc"
+    },
+    {
+      "path": "source/pexels-8888818-mart-production-vintage-computer.mp4",
+      "role": "acquired original (clean, byte-identical as downloaded)",
+      "bytes": 29243915,
+      "sha256": "5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f"
+    },
+    {
+      "path": "source/source.json",
+      "role": "source record for the acquired original",
+      "bytes": 4358,
+      "sha256": "f5fdaf21f1ff2e97fa54f45efdbd7027930f9ca0f8bfe884269afc4a629d4b39"
+    },
+    {
+      "path": "evidence/frames/frame-t0p5s.png",
+      "role": "full-size inspection frame at t=0.5 s (4096x2160)",
+      "bytes": 7327719,
+      "sha256": "dfaa9c0a727672004bda8ba795519385f7060dcbca621f0fc52544af4cdee165"
+    },
+    {
+      "path": "evidence/frames/frame-t5s.png",
+      "role": "full-size inspection frame at t=5 s (4096x2160)",
+      "bytes": 8023079,
+      "sha256": "dca25e745b5ed01d0e42faa4bb83d470e733800c410fb7b116b4aa0573521263"
+    },
+    {
+      "path": "evidence/frames/frame-t10p5s.png",
+      "role": "full-size inspection frame at t=10.5 s (4096x2160)",
+      "bytes": 7957753,
+      "sha256": "df6c4b00e2d2080c8317c311dc6a7b5f686903bf8bd6efadb93e75ea73e97d27"
+    },
+    {
+      "path": "evidence/frames/frame-t5s-720p.png",
+      "role": "720p inspection frame at t=5 s (1366x720)",
+      "bytes": 1027413,
+      "sha256": "48542cb8e9a2d8901e4a3e578da9f492ffd28589786a583736eb540b8426d460"
     }
   ],
   "variants": [
@@ -63,56 +99,80 @@
   "sources": [
     {
       "path": "../../../sources/ASSET_PLAN.md",
-      "lines": [
-        109,
-        122
-      ],
+      "lines": [109, 122],
       "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
       "relationship": "literal excerpt (planning lead)"
     },
     {
       "path": "../../../sources/SCRIPT.md",
-      "lines": [
-        799,
-        805
-      ],
+      "lines": [799, 805],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
       "relationship": "literal excerpt (shot request)"
     },
     {
-      "path": "evidence/candidates.json",
+      "path": "source/pexels-8888818-mart-production-vintage-computer.mp4",
       "url": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/",
-      "relationship": "stock candidate (rank 1, period set shot, not a boot; in/out 00:00:00.500-00:00:10.500; not acquired)"
+      "creator": "MART PRODUCTION",
+      "license": "Pexels License (https://www.pexels.com/license/); attribution not required",
+      "access_date": "2026-09-15",
+      "relationship": "stock candidate, ACQUIRED original (rank 1). Period-setting cutaway, NOT a boot; in/out 00:00:00.500-00:00:10.500."
     },
     {
       "path": "evidence/candidates.json",
       "url": "https://commons.wikimedia.org/wiki/File:BIOS_POST_IMGP9357_wp.ogv",
-      "relationship": "stock candidate / archive (rank 2, POST-code boot loop; in/out 00:00:02.000-00:00:12.000; not acquired)"
+      "relationship": "stock candidate / archive (rank 2, POST-code boot loop; in/out 00:00:02.000-00:00:12.000; NOT acquired - not part of the approval)"
     },
     {
       "path": "evidence/candidates.json",
       "url": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/",
-      "relationship": "stock candidate rejected after motion review (modern flat-panel monitor)"
+      "relationship": "stock candidate rejected after motion review (modern flat-panel monitor); not acquired"
     }
   ],
   "credits": [
     {
-      "asset": "Pexels 8888818",
+      "asset": "Pexels 8888818 (acquired)",
       "creator": "MART PRODUCTION",
-      "required": false
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "required": false,
+      "text": "Video by MART PRODUCTION from Pexels",
+      "note": "Attribution is optional under the Pexels License; this credit is offered, not required."
     },
     {
-      "asset": "Commons BIOS_POST_IMGP9357_wp.ogv",
+      "asset": "Commons BIOS_POST_IMGP9357_wp.ogv (not acquired)",
       "creator": "Rainer Knäpper (Smial)",
+      "license": "Free Art License 1.3",
+      "license_url": "http://artlibre.org/licence/lal/en/",
       "required": true,
-      "text": "\"BIOS POST IMGP9357 wp.ogv\" by Rainer Knäpper (Smial), Free Art License 1.3, via Wikimedia Commons"
+      "text": "\"BIOS POST IMGP9357 wp.ogv\" by Rainer Knäpper (Smial), Free Art License 1.3, via Wikimedia Commons",
+      "note": "Recorded for reference only; this clip was not downloaded, so this credit applies only if it is acquired later."
     }
   ],
   "tests": [
     {
       "name": "validate_delivery",
       "command": "python tools/validate_delivery.py --id BROLL-06",
-      "result": "run after hashing; result in completion report"
+      "result": "ok: true, no errors (run after final hashing)"
+    },
+    {
+      "name": "approved download",
+      "command": "curl -L -A \"Mozilla/5.0\" -o source/pexels-8888818-mart-production-vintage-computer.mp4 https://www.pexels.com/download/video/8888818/",
+      "result": "exit 0; HTTP 302 to videos.pexels.com/.../8888818-uhd_4096_2160_25fps.mp4 then HTTP 200, Content-Type video/mp4, Content-Length 29243915. No Cloudflare check, login, payment, terms click-through or CAPTCHA; nothing bypassed; no personal data sent."
+    },
+    {
+      "name": "integrity",
+      "method": "Get-Item length + Get-FileHash SHA256",
+      "result": "29,243,915 bytes, matching Content-Length; sha256 5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f"
+    },
+    {
+      "name": "ffprobe",
+      "command": "ffprobe -v error -show_format -show_streams -print_format json source/pexels-8888818-mart-production-vintage-computer.mp4",
+      "result": "11.8 s; 4096x2160; 25 fps (25/1); h264 High level 5.2 yuv420p progressive bt709; 295 frames; nb_streams 1, so video only with NO audio stream. Matches the page's 4096x2160 / 25 fps / ~12 s claim."
+    },
+    {
+      "name": "manual visual inspection at full size and 720p",
+      "method": "ffmpeg frame extraction at 0.5 s, 5 s and 10.5 s at native 4096x2160, plus one frame scaled to 720 px height; each viewed at full size",
+      "result": "All frames show a beige CRT monitor and keyboard on a desk in a dim room with a slow camera drift, screen blank and dark throughout. No boot, no power-on, no POST, no memory count, no BIOS screen, no OS. No PC case or tower in frame, so no CPU is visible. No watermark or baked-in caption. At full resolution the monitor bezel is legible as a ViewSonic E70 - a monitor make and model, not a CPU, system or date, and not Pentium evidence; at 720p neither marking is legible."
     },
     {
       "name": "page and license inspection",
@@ -120,13 +180,9 @@
       "result": "performed 2026-09-15"
     },
     {
-      "name": "motion review",
+      "name": "motion review (scouting)",
       "method": "in-app browser tab-6: in-page playback, javascript_tool video duration/size/readyState, screenshots at sampled times",
-      "result": "performed 2026-09-15 at preview resolution: Pexels 8888818 (set shot, no boot), Commons POST clip (boot-loop codes), Pixabay 126935 (rejected: modern monitor)"
-    },
-    {
-      "name": "1080p/720p visual inspection of files",
-      "result": "not possible: no media acquired"
+      "result": "performed 2026-09-15 at preview resolution: Pexels 8888818 (set shot, no boot), Commons POST clip (boot-loop codes), Pixabay 126935 (rejected: modern monitor). Superseded for the acquired clip by the full-resolution inspection above."
     }
   ],
   "unresolved_gates": [
@@ -135,13 +191,19 @@
   "toolchain": {
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
+    "curl": "8.18.0 (x86_64-w64-mingw32), libcurl/8.18.0 Schannel",
+    "ffprobe": "6.0-essentials_build-www.gyan.dev",
+    "ffmpeg": "6.0-essentials_build-www.gyan.dev",
     "web": "Claude Code WebFetch/WebSearch; Claude Browser tab tools",
     "renderer": null
   },
   "notes": [
-    "Scouted is not acquired: no media downloaded; free downloads await batched approval.",
-    "No free clip shows a Pentium-era PC boot or period power-on (confirmed by in-page motion review).",
-    "CPU unverified for all free candidates.",
-    "YouTube leads (LGR WCdDKPonXXA; PwRR7-P-8fc) are rights-blocked and routed to H02."
+    "LABEL THAT BINDS EVERY USE: the acquired clip is a period-setting cutaway only. It shows a beige CRT with a blank, dark screen in a dim room. It is NOT a boot and NOT a power-on. Never label it a boot; never caption or imply 'Pentium' over it.",
+    "CPU unverified and unverifiable from this clip: no PC case, tower or chassis appears anywhere in frame.",
+    "No date is legible. The only hardware marking readable at full resolution is a ViewSonic 'E70' monitor bezel marking, which identifies a monitor, not a machine or an era.",
+    "Acquired is not cleared. Devin approved the download on 2026-09-15; the license terms are recorded, not adjudicated. R14 stays open and release stays blocked pending the OPS-04 deck.",
+    "Only one file was downloaded. The Commons BIOS POST clip was not approved and was not downloaded; Pixabay 126935 stays rejected; the YouTube leads (LGR WCdDKPonXXA; PwRR7-P-8fc) stay rights-blocked and routed to H02.",
+    "Still no free clip that shows a period boot; the fallback for the boot beat is an open review question.",
+    "duration_seconds, dimensions and fps above describe the acquired source file, not a rendered deliverable; the proposed edit segment is 00:00:00.500-00:00:10.500 (10.0 s)."
   ]
 }
