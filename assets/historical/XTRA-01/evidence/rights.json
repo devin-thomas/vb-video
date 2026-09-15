@@ -1,0 +1,44 @@
+{
+  "id": "XTRA-01",
+  "asset": "source/original.jp2 and its derivative exports/editorial-frame.png",
+  "rights_status": "blocked",
+  "summary": "Copyrighted magazine cover. No license or permission record exists for this use. Public availability on the Internet Archive is not a license.",
+  "rights_holder": {
+    "original": "Fawcette Technical Publications (publisher; copyright notice printed in the issue)",
+    "cover_photograph_or_illustration": "unidentified; no photographer or illustrator credit in the issue",
+    "embedded_third_party_marks": [
+      "\"Visual Basic\" is a Microsoft trademark, used by the publisher under license (printed notice, leaf 4)"
+    ],
+    "possible_successor": "1105 Media, Inc. announced on 2 January 2007 that it had acquired the operating assets of Fawcette Technical Publications, Inc., publisher of Visual Studio Magazine. Source: https://rcpmag.com/articles/2007/01/02/1105-media-to-acquire-fawcette-technical-publications.aspx (Redmondmag.com Editors, accessed 2026-09-15). Whether the VBPJ back-issue copyrights passed in that deal is not established by that article; this is a lead, not a finding.",
+    "successor_status": "unverified"
+  },
+  "printed_notices": [
+    "© Fawcette Technical Publications, all rights reserved.",
+    "All contents of Visual Basic Programmer's Journal are copyright © 1995 by Fawcette Technical Publications, unless otherwise noted.",
+    "Permissions: If you would like to quote from an article, please fax your request to Andrew King ... Specify the issue date and title of the article, the portion you would like to quote, and the purpose."
+  ],
+  "archive_terms": {
+    "item_license_field": "none (no licenseurl or rights in https://archive.org/metadata/visual_basic_programmers_journal-1996_03, read 2026-09-15)",
+    "uploader": "an individual archive user, not the publisher; the upload grants no rights on the publisher's behalf",
+    "terms_page_check": "https://archive.org/about/terms and https://archive.org/about/terms.php returned no readable policy text to the non-JavaScript fetch used on 2026-09-15. No archive terms were accepted and none are relied on."
+  },
+  "access_method": "anonymous public HTTPS download of one page image; no account, login, payment, CAPTCHA or click-through",
+  "watermark": "none present; nothing removed",
+  "permitted_uses_established": [],
+  "not_established": [
+    "a license or permission to reproduce the cover in a published video",
+    "the current copyright owner",
+    "the cover photographer or illustrator and any separate rights they hold",
+    "whether fair use or another exception applies (a legal judgment an agent cannot make)"
+  ],
+  "fair_use_note": "Not asserted. Commentary on a period magazine during a history segment is a plausible fair-use context, but that is a legal-risk decision for the human reviewer, not a recorded clearance.",
+  "credit_text": "Visual Basic Programmer's Journal, March 1996 (Vol. 6, No. 3), © Fawcette Technical Publications. Scan via Internet Archive.",
+  "release_status": "blocked",
+  "decision": {
+    "status": "open",
+    "approver": null,
+    "approval_date": null,
+    "reason": null
+  },
+  "human_handoff": "Review question XTRA-01-Q1 in qa.md: decide the rights route (rely on fair use for a brief editorial display with credit, seek permission from the presumed successor 1105 Media, or cut the cover). An agent may not make this decision or contact a rights holder."
+}

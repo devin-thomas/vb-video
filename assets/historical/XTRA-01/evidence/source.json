@@ -1,0 +1,90 @@
+{
+  "id": "XTRA-01",
+  "title": "Visual Basic Programmer's Journal, March 1996 (Vol. 6, No. 3), front cover: \"Hacking the Registry\"",
+  "publication": "Visual Basic Programmer's Journal",
+  "issn": "1075-1955",
+  "publisher": "Fawcette Technical Publications, 209 Hamilton Avenue, Palo Alto, CA 94301-2500",
+  "issue": {
+    "cover_date": "1996-03",
+    "volume": 6,
+    "number": 3,
+    "cover_price": "U.S. $3.95 (Canada $4.95)"
+  },
+  "creator": {
+    "publisher": "Fawcette Technical Publications",
+    "cover_artist_or_photographer": null,
+    "cover_creator_status": "Not identified. The issue credits no cover photographer or illustrator. The contents-page caption (leaf 4) credits only a prop: \"Jungle courtesy of Indoor Design Plant Service, Palo Alto, California.\" The masthead (leaf 7) lists Art and Production Director Michael Hollister; Senior Designers Kristen Avery, Margaret Horoszko and Kimberly Bell; and Design Team Enigma Inc., Michael Carr, Cynthia Engler, Linda Magyary, Kate Paddock and Lynn Sanford. These are staff leads, not a cover attribution, and are not recorded as the creator."
+  },
+  "original_publication_date": "1996-03 (cover date as printed; the actual newsstand on-sale date is not recorded in the scan)",
+  "depicted_event_date": null,
+  "depicted_subject": "Staged photo-illustration: a figure in a fedora and brown jacket holding a machete and a bullwhip, in front of an oversized dialog box reading \"Registry / Registration Corruption Detected\", surrounded by jungle plants and a banded snake. Cover lines: FREE Listings @ http://www.windx.com; Hacking the Registry; Stay in Sync: Jet Replication; Get to Know RDO; Thunk Before You Port.",
+  "identity_evidence": [
+    {
+      "type": "printed on the scanned cover (leaf 0), read visually and in the archive's OCR",
+      "text": "A FAWCETTE TECHNICAL PUBLICATION, MARCH 1996 VOL. 6, NO. 3, INCLUDES WINDOWS PROGRAMMING & VISUAL PROGRAMMING"
+    },
+    {
+      "type": "masthead logo on the scanned cover",
+      "text": "VISUAL BASIC® PROGRAMMER'S JOURNAL"
+    },
+    {
+      "type": "contents page of the same scan (leaf 4) repeats the cover image with its caption and date line",
+      "text": "MARCH 1996 VOL. 6, NO. 3 ... 22 Keith Pleas shows you how to be a raider of the Win32 registry."
+    },
+    {
+      "type": "statement of ownership on leaf 4",
+      "text": "Visual Basic Programmer's Journal (ISSN: 1075-1955) is published monthly ... by Fawcette Technical Publications"
+    },
+    {
+      "type": "era consistency (inside the scan)",
+      "text": "Advertisements and articles target VB4 (Crescent \"VB4 Plus Pak\", APEX True DBGrid \"ships with Microsoft Visual Basic 4.0\", Jet 3.0 replication, 16-bit/32-bit VB 4.0 letters)."
+    },
+    {
+      "type": "catalog record (secondary; not relied on alone)",
+      "text": "Internet Archive item title is the filename-style string visual_basic_programmers_journal-1996_03 with issn 1075-1955; no date or creator field."
+    }
+  ],
+  "source": {
+    "archive": "Internet Archive",
+    "item_page": "https://archive.org/details/visual_basic_programmers_journal-1996_03",
+    "item_ark": "ark:/13960/s2msp7x5gnb",
+    "metadata_api": "https://archive.org/metadata/visual_basic_programmers_journal-1996_03",
+    "exact_file_url": "https://archive.org/download/visual_basic_programmers_journal-1996_03/visual_basic_programmers_journal-1996_03_jp2.zip/visual_basic_programmers_journal-1996_03_jp2%2Fvisual_basic_programmers_journal-1996_03_0000.jp2",
+    "resolved_file_url": "https://ia801405.us.archive.org/view_archive.php?archive=/17/items/visual_basic_programmers_journal-1996_03/visual_basic_programmers_journal-1996_03_jp2.zip&file=visual_basic_programmers_journal-1996_03_jp2%2Fvisual_basic_programmers_journal-1996_03_0000.jp2",
+    "file_format_on_archive": "Single Page Processed JP2 ZIP (leaf 0 of 148)",
+    "archive_upload": {
+      "uploader_field": "present in public item metadata; an individual uploader, not the publisher (address withheld here)",
+      "publicdate": "2024-04-01 02:39:23",
+      "collections": ["computermagazinesmisc", "computermagazines", "magazine_rack"],
+      "original_upload_format": "Comic Book RAR (visual_basic_programmers_journal-1996_03.cbr, 1,473,000,183 bytes); the JP2 is the archive's per-page derivative of that upload",
+      "scan_resolution": "300 ppi (scandata.xml leaf 0: origWidth 2362, origHeight 3235, cropBox full page)",
+      "ocr": "tesseract 5.3.0-6-g76ae (archive-generated)"
+    }
+  },
+  "access": {
+    "access_date": "2026-09-15",
+    "download_time_utc": "2026-09-15T20:29:42Z",
+    "method": "Anonymous HTTPS GET of one public file (curl); no account, login, CAPTCHA, payment or terms acceptance. HTTP 302 to the item's storage node, then 200 image/jp2.",
+    "barrier": "none"
+  },
+  "acquired_file": {
+    "path": "source/original.jp2",
+    "bytes": 1595357,
+    "sha256": "e8f26ad7eff39d18119e1e65c68f598965de1ab136ed1a7a568e8b1e85adaa46",
+    "format": "JPEG 2000 (JP2), RGB",
+    "dimensions": [2362, 3235],
+    "state": "byte-identical to the archive download; not edited"
+  },
+  "version_model_evidence": "Printed issue identifier Vol. 6, No. 3, March 1996; contents and ads reference Visual Basic 4.0 and Jet 3.0.",
+  "transformations": [
+    "exports/editorial-frame.png: uniform Lanczos scale of the whole page to 683x936 (factor 0.289335) and centered paste on a solid #111318 1920x1080 canvas at x=618, y=72. No crop, stretch, retouch, color change, watermark removal or added text. See evidence/framing.json."
+  ],
+  "license": {
+    "terms": "No license stated. Item metadata has no licenseurl or rights field. The issue itself reads: \"© Fawcette Technical Publications, all rights reserved\" and \"All contents of Visual Basic Programmer's Journal are copyright © 1995 by Fawcette Technical Publications, unless otherwise noted.\"",
+    "terms_url": null,
+    "permissions_contact_in_issue": "Reprints and permissions: Andrew King, Fawcette Technical Publications (1996 contact details; historical only)"
+  },
+  "rights_status": "unclear / all rights reserved by publisher; not cleared",
+  "credit_text": "Visual Basic Programmer's Journal, March 1996 (Vol. 6, No. 3), © Fawcette Technical Publications. Scan via Internet Archive (archive.org/details/visual_basic_programmers_journal-1996_03).",
+  "credit_text_status": "proposed; final wording depends on the rights decision in evidence/rights.json"
+}

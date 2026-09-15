@@ -1,0 +1,63 @@
+{
+  "id": "XTRA-01",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "checks": [
+        {
+          "claim": "The image is a genuine Visual Basic Programmer's Journal cover from the VB3-VB6 era.",
+          "result": "verified",
+          "evidence": "Date line printed on the scanned cover (leaf 0): \"A FAWCETTE TECHNICAL PUBLICATION, MARCH 1996 VOL. 6, NO. 3\". The contents page of the same scan (leaf 4) repeats the image with the same date line. VB4-era content inside. Checked by eye on the page images, not from the catalog title.",
+          "paths": ["source/original.jp2", "evidence/source.json", "evidence/source-excerpts.md"]
+        },
+        {
+          "claim": "Original rights holder or creator recorded.",
+          "result": "partly verified",
+          "evidence": "Publisher and copyright holder per the printed notice: Fawcette Technical Publications. No cover photographer or illustrator is credited anywhere in the issue text; the creator is recorded as unidentified, not guessed.",
+          "paths": ["evidence/rights.json", "evidence/source-excerpts.md"]
+        },
+        {
+          "claim": "File-specific terms recorded.",
+          "result": "verified: no license exists",
+          "evidence": "The archive item has no license or rights metadata. The issue reads \"all rights reserved\". The uploader is an individual, not the publisher.",
+          "paths": ["evidence/rights.json"]
+        },
+        {
+          "claim": "Access method involved no account, payment, watermark removal or CAPTCHA.",
+          "result": "verified",
+          "evidence": "Anonymous public HTTPS download; response headers recorded in evidence/source.json access block. No watermark present.",
+          "paths": ["evidence/source.json"]
+        },
+        {
+          "claim": "Credit text recorded.",
+          "result": "proposed",
+          "evidence": "Proposed credit in evidence/rights.json; final wording depends on the rights route.",
+          "paths": ["evidence/rights.json"]
+        },
+        {
+          "claim": "The asset may be used in the published video.",
+          "result": "not settled by evidence",
+          "evidence": "Copyrighted cover, no permission, current owner unverified (1105 Media acquired Fawcette's operating assets in 2007, per trade press). Fair use is a legal-risk judgment. Handed off as review question XTRA-01-Q1.",
+          "paths": ["evidence/rights.json", "qa.md"]
+        }
+      ],
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/source-excerpts.md",
+        "evidence/provenance.json"
+      ],
+      "decision": "Open. Unknown rights stay blocked per R14. No clearance recorded.",
+      "review_question": "XTRA-01-Q1",
+      "approver": null,
+      "approval_date": null,
+      "reason": null
+    }
+  ],
+  "script_check": {
+    "cue": "sources/SCRIPT.md:49 / War/SCRIPT.md:52",
+    "result": "No discrepancy. The cue requests a VBPJ cover; a March 1996 VB4-era issue matches the 1995-1996 frame of the surrounding narration. No change to War/SCRIPT.md proposed."
+  }
+}

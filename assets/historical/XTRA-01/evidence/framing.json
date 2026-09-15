@@ -1,0 +1,29 @@
+{
+  "id": "XTRA-01",
+  "input": "source/original.jp2",
+  "input_sha256": "e8f26ad7eff39d18119e1e65c68f598965de1ab136ed1a7a568e8b1e85adaa46",
+  "input_dimensions": [
+    2362,
+    3235
+  ],
+  "output": "exports/editorial-frame.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "operation": "uniform scale (Lanczos) + centered paste on solid background; no crop, no stretch, no retouch, no added text",
+  "scale": 0.289335,
+  "scaled_dimensions": [
+    683,
+    936
+  ],
+  "placement": {
+    "x": 618,
+    "y": 72
+  },
+  "aspect_input": 0.73014,
+  "aspect_scaled": 0.7297,
+  "background": "#111318",
+  "proof_720": "proofs/editorial-frame-720.png",
+  "pillow_version": "12.3.0"
+}
