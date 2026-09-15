@@ -123,11 +123,11 @@ XTRA-18,Period Windows Hearts screenshot,historical,archive,research,SCRIPT-SUPP
 XTRA-19,Period Windows FreeCell screenshot,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-19,docs/tickets/XTRA-19.md,152,produced,blocked
 XTRA-20,Period BBS file listing,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-20,docs/tickets/XTRA-20.md,153,produced,blocked
 XTRA-04,FORTRAN versus BASIC introductory example,reference-code,still,code,SCRIPT-SUPPLEMENT,2,OPS-01,R15,assets/reference-code/XTRA-04,docs/tickets/XTRA-04.md,154,produced,blocked
-XTRA-05,VB4 IDE anatomy: five labeled panels,stills,still,design,SCRIPT-SUPPLEMENT,3,"OPS-01,HIST-02","R03,R14",assets/stills/XTRA-05,docs/tickets/XTRA-05.md,155,planned,blocked
+XTRA-05,VB4 IDE anatomy: five labeled panels,stills,still,design,SCRIPT-SUPPLEMENT,3,"OPS-01,HIST-02","R03,R14",assets/stills/XTRA-05,docs/tickets/XTRA-05.md,155,produced,blocked
 XTRA-06,Project settings: actual War.vbproj capture,captures,capture,capture,SCRIPT-SUPPLEMENT,4,"OPS-01,OPS-02",R17,assets/captures/XTRA-06,docs/tickets/XTRA-06.md,156,produced,approved
 XTRA-08,1995 tools class-photo lineup,stills,still,design,SCRIPT-SUPPLEMENT,13,OPS-01,R15,assets/stills/XTRA-08,docs/tickets/XTRA-08.md,157,produced,blocked
 XTRA-10,VB-for-Mac claim visual: evidence-gated decision,stills,still,research,SCRIPT-SUPPLEMENT,14,OPS-01,"R09,R14",assets/stills/XTRA-10,docs/tickets/XTRA-10.md,158,blocked,blocked
-XTRA-14,Real-world VB application collage,stills,still,design,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11,XTRA-12,XTRA-13","R11,R14",assets/stills/XTRA-14,docs/tickets/XTRA-14.md,159,planned,blocked
+XTRA-14,Real-world VB application collage,stills,still,design,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11,XTRA-12,XTRA-13","R11,R14",assets/stills/XTRA-14,docs/tickets/XTRA-14.md,159,produced,blocked
 XTRA-15,Windows XP office / legacy VB6 scene,stills,still,research,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11","R01,R11,R14",assets/stills/XTRA-15,docs/tickets/XTRA-15.md,160,planned,blocked
 OPS-01,"Shared visual system, reusable primitives, and deterministic export contract",ops,support,orchestrator,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-01,docs/tickets/OPS-01.md,28,produced,unreviewed
 OPS-02,Isolated .NET harness and capture preflight,ops,support,capture,COORDINATION,"4,11",,R17,assets/ops/OPS-02,docs/tickets/OPS-02.md,29,produced,approved
