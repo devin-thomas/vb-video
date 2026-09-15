@@ -11,15 +11,21 @@
       "decision": null,
       "approver": null,
       "approval_date": null,
-      "reason": "Worked, not cleared. Rights holder at creation: Borland International, Inc. File-specific terms: no license or permission found; the archived 1996 borland.com notice prohibits reproduction for redistribution except as otherwise provided. Access method: public Wayback/IA, no account, payment, CAPTCHA or watermark issue. Proposed credit recorded. Per R14, unknown rights stay blocked; this is a review question (see rights.json review_question). The file has also not been acquired, because downloading it needs Devin's explicit approval."
+      "reason": "Worked, not cleared. Rights holder at creation: Borland International, Inc. File-specific terms: no licence or permission found; the archived 1996 borland.com notice prohibits copying material from the site elsewhere for further reproduction or redistribution except as otherwise provided. Access method: public Wayback id_ URL with a generic User-Agent — no account, payment, terms acceptance, CAPTCHA or access-control bypass. The file has now been acquired byte-exact with Devin's explicit chat approval, and inspecting it added no licence evidence: the image carries no copyright notice, no licence text, no attribution mark and no watermark, and absence of a notice is not a licence. Per R14, unknown rights stay blocked. Proposed credit recorded in evidence/rights.json. See review question RQ-1."
     }
   ],
   "claims": [
     {
       "claim": "The candidate image shows the Delphi 1.0 IDE (form designer, Object Inspector, code window).",
       "source": "Ticket requirement 1; SCRIPT.md:621",
-      "status": "supported_by_host_page_pending_visual_check",
-      "evidence": "Borland's own page 'Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi' captions fig1.gif as the Delphi environment and lists speedbar, component palette, Object Inspector, form design area and code window. The image has not been viewed, so version and content are still unconfirmed at full resolution."
+      "status": "supported",
+      "evidence": "Two independent legs. (1) Documentary: Borland's own archived page 'Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi' (guide/8.1.1.4.html, capture 19961221223414, sha256 bc0b1abd...35339a, re-verified on acquisition) links this exact file, captions it 'Delphi, a visual development environment and two-way tool', and lists the startup environment as speedbar, component palette, Object Inspector, form design area and code window. The file sits under the vendor path /delphi/delphi1.0/, whose index page is titled 'Delphi 1.0 Product Information'. (2) Visual, now verified at full resolution (444x282 native plus a 2x nearest-neighbour inspection copy): the screenshot contains exactly those five elements — main window 'Delphi - Project1', a two-row speedbar, a tabbed component palette, a floating 'Object Inspector' with selector 'Warning: TButton' and Properties/Events tabs, a 'Form1' design window with a dotted grid and a selected TButton captioned 'Warning', and a 'UNIT1.PAS' code window showing 'TForm1 = class(TForm)'. The vendor's text description and the pixels agree."
+    },
+    {
+      "claim": "The screenshot is Delphi 1, not a later Delphi release with the version number cropped out (ticket requirement 1).",
+      "source": "Ticket requirement 1",
+      "status": "supported",
+      "evidence": "The image contains no version string, so identification rests on the vendor URL/page title plus two independent era markers read at full resolution. (a) Windows 3.x window chrome throughout: a control-menu box at the left of each title bar and a minimise/maximise triangle pair at the right, with no Windows 95 close button and no taskbar. Delphi 2 onward is a 32-bit product shipping into the Windows 95 chrome. (b) The component palette's page tabs read Standard, Additional, Data Access, Data Controls, Dialogs, System, VBX, Samples. The VBX tab is specific to the 16-bit Delphi 1 line; the 32-bit successors use OCX/ActiveX, not VBX. Both markers are consistent with a 1995 16-bit Delphi 1 and inconsistent with any later release."
     },
     {
       "claim": "Delphi was released in 1995.",
@@ -37,19 +43,39 @@
       "claim": "Object Pascal had a real object system with inheritance.",
       "source": "SCRIPT.md:619",
       "status": "supported",
-      "evidence": "The Delphi 1.0 Reviewer's Guide 'Delphi In Depth' page (guide/8.1.1.14.html) shows the generated TForm1 type inheriting from TForm. Noted in passing."
+      "evidence": "Corroborated by the acquired image itself: the UNIT1.PAS code window reads 'TForm1 = class(TForm)' with a member field 'Warning: TButton;' and 'private' / 'public' sections. That is a class declaration with a named base class and access sections, visible in Borland's own 1995 figure. Also seen in the Reviewer's Guide 'Delphi In Depth' page (guide/8.1.1.14.html). Noted in passing; not HIST-12's gate."
     },
     {
       "claim": "Delphi was faster at runtime than VB.",
       "source": "SCRIPT.md:619",
       "status": "not_checked_vendor_claim_only",
-      "evidence": "The only evidence found is Borland's own marketing (10–20x faster than interpreted p-code). That is vendor material, not an independent comparison. Not HIST-12's gate; R15/other owners."
+      "evidence": "The only evidence found is Borland's own marketing (10-20x faster than interpreted p-code). That is vendor material, not an independent comparison. Not HIST-12's gate; R15/other owners."
     },
     {
       "claim": "It looks a lot like the VB IDE.",
       "source": "SCRIPT.md:621 (visual direction)",
-      "status": "review_question",
-      "evidence": "This is a subjective visual comparison that cannot be judged until the image is acquired, and it is ultimately editorial taste."
+      "status": "supported",
+      "evidence": "Judged at full resolution against the project's own VB IDE assets, HIST-01 (VB 1.0, Windows 3.x) and HIST-02 (VB 4.0, Windows 95) exports. The shared structure is the whole workspace, not a detail: all three are non-MDI layouts of separate floating windows on the desktop, with (1) a thin top strip holding the menu bar and a toolbar, (2) a separate form-design window carrying a dotted alignment grid and a selected control drawn with black square sizing handles, (3) a separate code window showing that control's event handler, and (4) a component/control library presented as a palette of small icon buttons. HIST-02 additionally shares the alphabetical Name/Value property grid with the selected object named above it, which is the Object Inspector's counterpart. The sample content even rhymes: a selected button with its click handler open. Against HIST-01 the resemblance is closest, since both sit in identical Windows 3.x chrome. The narration's comparative 'looks a lot like' is therefore accurate as written, and no script change is warranted.",
+      "qualification": "Recorded for completeness, not as an objection: the two IDEs arrange the same parts differently. VB floats its Toolbox as a vertical palette at the left, while Delphi docks a tabbed component palette in the top strip beside the speedbar; Delphi's Object Inspector carries Properties and Events page tabs, whereas VB reaches events through the code window's Proc dropdown; and VB shows a project window (CALC.MAK / LOAN.FRM with View Form / View Code) that has no visible Delphi 1 counterpart. None of this contradicts 'looks a lot like', which is a claim about family resemblance, and the narration does not claim the layouts are identical."
     }
+  ],
+  "review_questions": [
+    {
+      "id": "RQ-1",
+      "gate": "R14",
+      "owner": "rights review (review deck)",
+      "question": "May the video use this 1995 Borland International marketing screenshot of the Delphi 1.0 IDE — now acquired byte-exact from the Wayback Machine, Borland copyright, no licence found, and covered by a site notice prohibiting reproduction for redistribution — under an editorial/commentary rationale, with the proposed credit 'Borland International, Inc. — Delphi 1.0 Reviewer's Guide (1995), via the Internet Archive Wayback Machine'? Or must HIST-12 stay blocked for release, or be replaced by a clearly labelled original reconstruction (a separate ticket decision)? No agent clearance has been given.",
+      "evidence": "evidence/rights.json"
+    },
+    {
+      "id": "RQ-2",
+      "gate": null,
+      "owner": "producer / editor (information, not a blocker)",
+      "question": "The only authentic Delphi 1.0 workspace image found on an authorised route is a 444x282 16-colour web GIF. It is presented at an exact 3x integer upscale (1332x846) on a matte rather than stretched to fill 1920x1080, so it does not fill the frame and shows visible period pixel structure. Confirm that this presentation is acceptable for the section-13 cutaway, or ask for a different treatment (for example a tighter reversible crop on the Object Inspector and code window). Screen text stays legible at 720p, which was checked.",
+      "evidence": "src/framing.json, proofs/editorial-frame-720.png, qa.md"
+    }
+  ],
+  "notes": [
+    "SCRIPT.md:621 was checked and needs no change; see the 'It looks a lot like the VB IDE' claim above. War/SCRIPT.md was not edited by this ticket."
   ]
 }

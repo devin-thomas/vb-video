@@ -32,6 +32,30 @@ These are kept to identifying labels and captions. Everything else is summarized
 **Borland site copyright notice.** Capture 1996-12-21 of `borland.com/copyright.html`.
 - Summary: all Borland product names are Borland trademarks. Except as otherwise provided, copying material from the site elsewhere for further reproduction or redistribution is prohibited.
 
+**Text visible inside the acquired image** (`source/original.gif`, read at native 444x282 and at a 2x nearest-neighbour inspection copy on 2026-09-15). Transcribed as identification evidence; this is Borland's own screenshot content, not authored copy.
+
+- Main window title bar: `Delphi - Project1`
+- Menu bar: `File  Edit  Search  View  Compile  Run  Options  Tools  Help`
+- Component palette page tabs: `Standard  Additional  Data Access  Data Controls  Dialogs  System  VBX  Samples`
+- Object Inspector window title: `Object Inspector`; object selector: `Warning: TButton`; page tabs: `Properties  Events`
+- Object Inspector property rows (as far as the window shows): `Cancel False`, `Caption Warning`, `Cursor crDefault`, `Default False`, `DragCursor crDrag`, `DragMode dmManual`, `Enabled True`, `+Font (TFont)`, `Height 33`, `HelpContext 0`, `Hint`, `Left 48`, `ModalResult mrNone`, `Name Warning`, `ParentFont True`
+- Form designer window title: `Form1`; the selected control's caption: `Warning`
+- Code window title: `UNIT1.PAS`; page tab `Unit1`; status strip: `28  1    Modified    Insert`
+- Code window body (Object Pascal):
+
+~~~~pascal
+type
+  TForm1 = class(TForm)
+    Warning: TButton;
+    procedure WarningClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+~~~~
+
+No version number, About box, date, watermark or archive banner appears anywhere in the image.
+
 **Candidate C2.** Internet Archive item `delphi-1-for-windows-users-guide`, OCR text.
 - Figure caption: "Figure 1.1 The Delphi programming environment". The callout labels are Component palette, SpeedBar, Object Inspector, Object selector, Form, Properties and Events page tabs, and Code Editor.
 

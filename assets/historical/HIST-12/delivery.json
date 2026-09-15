@@ -1,0 +1,218 @@
+{
+  "id": "HIST-12",
+  "title": "Borland Delphi 1.0 IDE",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (archived vendor screenshot, unlicensed third-party copyright) with derivative editorial framing",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates.json",
+      "role": "evidence / QA",
+      "bytes": 6880,
+      "sha256": "58cf2285fbd153e4e177216ac9b2fd5b8bd42195752dd96f0f8401087c977434"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 8861,
+      "sha256": "f89198c0c472860a7b8b59b9d8e1f87c522911b57ac00f63c881399df62bf3b5"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 7138,
+      "sha256": "98ccdaa98b6df74640705d502ee716977abd17ca8c3378f7db4960912064f93c"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 4373,
+      "sha256": "d65721720cd00f4a82472c292de47d8a221bc9b2728c9f9c883d93ac6211570a"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4273,
+      "sha256": "07852c2ba1a8d2405ceb1e8bb6e4cd459d4384f3e44a111c183afe85220ce70f"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 7539,
+      "sha256": "5b39de628c345e2a76939e651abec53694f9261808330c919aa7969a14f6fe92"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still (editorial-frame variant)",
+      "bytes": 115242,
+      "sha256": "df70588044ccc55b58d31f8b7b3f2b8e2441ace09ebf24ff375b9ca1e25803d2"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p proof",
+      "bytes": 407596,
+      "sha256": "ab80a55e57663f55bc75aea957490c8f1cb3727721cff4bbe135664c1353e35f"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 13983,
+      "sha256": "87228e415c20afeb2023c50c1ace4e0dc519ec46f7b17f46457b0ec918536e0e"
+    },
+    {
+      "path": "source/original.gif",
+      "role": "historical original (native archived web GIF, byte-exact)",
+      "bytes": 35163,
+      "sha256": "467a198503033616d228194120846f2d7dcd364e4b5911589ef7ce963f14314a"
+    },
+    {
+      "path": "src/build_frame.py",
+      "role": "reproduction script",
+      "bytes": 3100,
+      "sha256": "0569185dd32acfab2a48c83d7aa97fe37ed1f4fce36ac0abfcc08d8a3a9f526d"
+    },
+    {
+      "path": "src/framing-result.json",
+      "role": "measured framing result",
+      "bytes": 503,
+      "sha256": "35051f55b2580c70c6e42dcc450db78194d66913dada750e87570ab295176ae1"
+    },
+    {
+      "path": "src/framing.json",
+      "role": "framing parameters",
+      "bytes": 946,
+      "sha256": "1ddf58df5315c478cbace7d97bb486a2fc9a67ffc4202cbd9ad8854e904174c0"
+    },
+    {
+      "path": "src/make_delivery.py",
+      "role": "delivery inventory script",
+      "bytes": 8575,
+      "sha256": "62dac67202fba61a6f76adaa17b466d7082a9f73f05cf6bff17bc18d69b4cbdb"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.gif"
+      ],
+      "note": "Native 444x282 16-colour GIF87a, byte-identical to the Wayback capture (payload SHA-1 matches the CDX digest 3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW). Hold for editorial timing."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png",
+        "src/framing.json"
+      ],
+      "note": "Uncropped 3x integer nearest-neighbour upscale (1332x846) centred on a neutral matte in 1920x1080; still, hold for editorial timing (no animation)."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        95,
+        95
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        619,
+        621
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.gif",
+      "url": "https://web.archive.org/web/19961223104420id_/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "record": "src/framing.json"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical original",
+      "credit": "Borland International, Inc. - Delphi 1.0 Reviewer's Guide (1995), via the Internet Archive Wayback Machine",
+      "rights_status": "blocked: no licence (evidence/rights.json); credit text is an authored proposal pending the R14 decision"
+    }
+  ],
+  "tests": [
+    {
+      "test": "archive integrity of the acquired original",
+      "result": "passed: payload SHA-1 base32 3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW matches the Wayback CDX digest for captures 19961223104420 and 19970509094337 (payload 35,163 bytes; the CDX length 35,423 is the compressed WARC record length)"
+    },
+    {
+      "test": "host page capture re-verified on acquisition",
+      "result": "passed: guide/8.1.1.4.html re-fetched, 8,533 bytes, sha256 bc0b1abdc248f00275e21fc738c6f72a8ca5d504361be386203644bb1835339a, identical to the value recorded in the blocked candidate record"
+    },
+    {
+      "test": "identity and version read at native resolution",
+      "result": "passed: 'Delphi - Project1' title bar, Object Inspector with 'Warning: TButton' and Properties/Events tabs, Form1 designer, UNIT1.PAS code window with 'TForm1 = class(TForm)'; Delphi 1 / 16-bit confirmed by Windows 3.x window chrome and the VBX palette tab. No version string is printed in the image."
+    },
+    {
+      "test": "watermark / added-mark check at native and 2x",
+      "result": "passed: none present; nothing removed"
+    },
+    {
+      "test": "source excerpts byte-match sources/ line ranges",
+      "result": "passed"
+    },
+    {
+      "test": "export dimensions, aspect, matte, reversibility",
+      "result": "passed: 1920x1080 RGB; placed 1332x846 at (294,117); aspect error 0.000%; decimating the placed region back to 444x282 reproduces the original raster byte for byte",
+      "evidence": "src/framing-result.json"
+    },
+    {
+      "test": "manual visual review 1080p (full frame) and 720p",
+      "result": "passed; see qa.md"
+    },
+    {
+      "test": "tools/validate_delivery.py --id HIST-12",
+      "result": "see qa.md (run after this file is written)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "curl": "8.18.0 (x86_64-w64-mingw32, libcurl/8.18.0, Schannel)",
+    "network_used": true,
+    "network_note": "Anonymous HTTPS GETs to web.archive.org with a generic User-Agent ('Mozilla/5.0'), authorised by Devin in chat for this file. No account, payment, terms acceptance or CAPTCHA. No other host was contacted for acquisition.",
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "commands": [
+      "curl -sS -L --connect-timeout 30 --max-time 180 --retry 5 --retry-delay 20 --retry-all-errors -A \"Mozilla/5.0\" -o source/original.gif \"https://web.archive.org/web/19961223104420id_/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif\"",
+      "python assets/historical/HIST-12/src/build_frame.py",
+      "python assets/historical/HIST-12/src/make_delivery.py",
+      "python tools/validate_delivery.py --id HIST-12"
+    ]
+  },
+  "notes": [
+    "Resumes the blocked candidate record at commit 94f4073. The search and the three ranked candidates were kept; C1 was acquired once Devin approved the download in chat. C2 and C3 were approved as fallbacks but not downloaded, because C1 proved usable.",
+    "The native raster is only 444x282. It is shown at an exact 3x integer upscale on a matte rather than stretched to fill the frame, so it occupies 1332x846 of 1920x1080. Review question RQ-2 asks the editor to confirm that presentation.",
+    "Release blocked on R14 (RQ-1). Keep out of the cleared-media bin.",
+    "SCRIPT.md:621 ('It looks a lot like the VB IDE') was checked at full resolution against the HIST-01 and HIST-02 VB IDE exports and is accurate as written. No script change is proposed and War/SCRIPT.md was not edited.",
+    "Review questions RQ-1 and RQ-2 are in evidence/claim-checks.json."
+  ]
+}

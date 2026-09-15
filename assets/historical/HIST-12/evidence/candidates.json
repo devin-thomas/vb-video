@@ -1,7 +1,8 @@
 {
   "asset_id": "HIST-12",
   "access_date": "2026-09-15",
-  "acquisition_status": "none acquired — download approval boundary",
+  "acquisition_status": "C1 acquired 2026-09-15 (byte-exact, SHA-1 verified against the CDX record) under Devin's explicit chat approval. C2 and C3 were approved as fallbacks but were NOT downloaded, because C1 proved usable on inspection.",
+  "acquisition_date": "2026-09-15",
   "candidates": [
     {
       "rank": 1,
@@ -14,14 +15,15 @@
       "format": "image/gif",
       "bytes": 35423,
       "cdx_sha1_base32": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW",
-      "native_dimensions": "unknown (not downloaded); the page thumbnail is displayed at 100x64",
+      "native_dimensions": "444x282, GIF87a, 16-colour palette, single frame (measured after acquisition)",
+      "outcome": "SELECTED and delivered as source/original.gif",
       "identity_strength": "strong textual evidence: vendor page explicitly titled Delphi 1.0 and captioned as the environment",
       "license_evidence": "none; Borland copyright; see rights.json",
       "access_barrier": "none technical; policy boundary: file download needs Devin's explicit approval",
       "deficiencies": [
-        "Not yet viewed: version markers and whether the code window is visible are unconfirmed.",
-        "A 35 KB mid-1990s web GIF is likely low resolution (probably 640x480-class or smaller) and palette-reduced; the 1920x1080 frame will need a large pillarboxed/letterboxed presentation, not upscaling that invents detail.",
-        "Rights unresolved (Borland copyright, reproduction prohibited by the site notice)."
+        "RESOLVED — viewed at full resolution. Version markers are present (Windows 3.x chrome, VBX palette tab) and the code window is visible with Object Pascal source. See evidence/claim-checks.json.",
+        "CONFIRMED and accepted — the native raster is only 444x282 with a 16-colour palette. It is presented at an exact 3x integer nearest-neighbour upscale (1332x846) centred on a matte, so it does not fill the 1920x1080 frame and shows period pixel structure. No detail is invented and nothing is stretched. Screen text stays legible at 720p. Raised as review question RQ-2 for the editor.",
+        "STILL OPEN — rights unresolved (Borland copyright, reproduction for redistribution prohibited by the archived site notice). Acquiring the file did not change this. Review question RQ-1."
       ]
     },
     {

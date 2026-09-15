@@ -1,0 +1,13 @@
+{
+  "variant": "editorial-frame",
+  "input": "source/original.gif",
+  "canvas": [1920, 1080],
+  "safe_area": [120, 72, 1800, 1008],
+  "crop_box": [0, 0, 444, 282],
+  "fit": "contain, uncropped, integer nearest-neighbour upscale, centered",
+  "scale_factor": 3,
+  "resample": "Pillow NEAREST (integer 3x)",
+  "matte_rgb": [32, 34, 38],
+  "added_elements": [],
+  "notes": "The original is a 444x282, 16-colour GIF87a. A fractional LANCZOS fit (the 3.319x that would fill the 1680x936 safe area) would blur one-pixel window borders and the 6px bitmap UI font, so the framing uses an exact 3x nearest-neighbour upscale to 1332x846 instead. Every source pixel becomes a 3x3 block, so no detail is invented and the transform is exactly reversible: taking every third pixel restores the original raster bit for bit (verified in build_frame.py). The image is uncropped. The dark neutral matte is an authored production choice, not part of the source."
+}

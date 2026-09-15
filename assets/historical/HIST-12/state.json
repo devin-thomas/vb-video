@@ -1,18 +1,18 @@
 {
   "id": "HIST-12",
-  "production_status": "blocked",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "HIST-12 worker (Historical Screenshots Manager, session vb-7a)",
-  "updated_at": "2026-09-15T20:38:47Z",
+  "assigned_agent": "HIST-12 worker (Historical Screenshots Manager, session vb-20)",
+  "updated_at": "2026-09-15T19:05:00Z",
   "blockers": [
-    "Acquisition boundary: the primary candidate image (Wayback capture of borland.com/delphi/delphi1.0/guide/fig1.gif, 35,423 bytes, image/gif) has been located and its host page verified, but the file has not been downloaded. Downloading it needs Devin's explicit approval in chat; an agent instruction is not user consent. See evidence/candidates.json.",
-    "R14 rights unresolved: the image is Borland International, Inc. marketing material. The archived 1996 borland.com copyright notice prohibits reproduction for redistribution except as otherwise provided. No license or permission has been found. This needs a rights review decision, not agent clearance.",
-    "Visual identity/version check at full resolution cannot be done until the file is acquired."
+    "R14 rights unresolved: the delivered original is Borland International, Inc. marketing material. The archived 1996 borland.com notice prohibits reproduction for redistribution except as otherwise provided, and no licence or permission was found. Acquiring and inspecting the file added no licence evidence. This needs a rights decision in the review deck, not agent clearance. See RQ-1 in evidence/claim-checks.json."
   ],
   "reviewer": null,
   "notes": [
-    "Blocked candidate record, not a delivered asset: no source/original.*, no exports/editorial-frame.png and no delivery.json exist. No placeholder media was created.",
-    "Search log, three ranked candidates, identity evidence and rights evidence are in qa.md and evidence/.",
-    "Once download approval is given, the next step is to fetch the raw capture from the id_ URL in evidence/source.json, verify the SHA-1 digest against CDX, inspect it at full size, then build the 16:9 editorial frame."
+    "Resumes the blocked candidate record at commit 94f4073. The documented search and the three ranked candidates were kept. C1 was acquired byte-exact after Devin approved the download in chat; its payload SHA-1 matches the Wayback CDX digest. C2 and C3 were approved as fallbacks but not downloaded, because C1 proved usable.",
+    "Delivered: source/original.gif (444x282 GIF87a, unmodified), exports/editorial-frame.png (1920x1080, uncropped 3x integer nearest-neighbour upscale on a matte, bit-exactly reversible), proofs/editorial-frame-720.png, delivery.json, qa.md and the evidence set.",
+    "Identity and the Delphi 1 / 16-bit reading are verified at full resolution: Windows 3.x window chrome and a VBX component-palette tab, with Borland's own page title and caption as the documentary leg.",
+    "SCRIPT.md:621 ('It looks a lot like the VB IDE') was checked at full resolution against the HIST-01 and HIST-02 VB IDE exports and is accurate as written. No script change is proposed; War/SCRIPT.md was not edited.",
+    "Keep out of the cleared-media bin until R14 is decided in the review deck."
   ]
 }
