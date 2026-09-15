@@ -1,0 +1,55 @@
+{
+  "asset": "HIST-10",
+  "provenance_type": "historical original (third-party archival video frame)",
+  "production_sources": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [93, 93],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "use": "creative brief (row 5: CompUSA / Egghead Software storefront)"
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [126, 128],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "use": "narration the still illustrates (\"Egghead Software\", line 128)"
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "acquired historical original",
+      "url": "https://archive.org/download/youtube-CcbAC4qI9pQ/CcbAC4qI9pQ.webm",
+      "item_page": "https://archive.org/details/youtube-CcbAC4qI9pQ",
+      "local_path": "source/original.webm",
+      "bytes": 4236275,
+      "sha256": "af3caafe24ce8a1d9869eb9a787ecd9430c9747fece2b55b59cc50abdcc3325e",
+      "ia_md5": "f7fccaa31421b2761e8730f2074aa158",
+      "ia_sha1": "9bd515aa79e863e6755845e936af4c6add04bd79",
+      "hash_match_with_ia_record": true,
+      "access_date": "2026-09-15",
+      "rights_status": "unresolved"
+    },
+    {
+      "role": "corroboration only (not delivered)",
+      "title": "Annual report / Egghead.com 1995",
+      "holder": "University of Washington Libraries, Northwest Historical Annual Reports Collection (CONTENTdm reports/43711)",
+      "rights_statement": "http://rightsstatements.org/vocab/InC/1.0/",
+      "access_date": "2026-09-15"
+    }
+  ],
+  "derivation_chain": [
+    "source/original.webm (IA original, byte-identical to IA record)",
+    "-> source/raw/frame-000462.png (ffmpeg decode of frame index 462, re-saved losslessly by Pillow; uncropped 480x360)",
+    "-> exports/editorial-frame.png (3x Lanczos to 1440x1080, pillarboxed on black 1920x1080 at x=240)",
+    "-> proofs/editorial-frame-720.png (Lanczos downscale of the export to 1280x720, review only)"
+  ],
+  "authored_additions": [
+    "Black pillarbox bars (240 px each side). Nothing else: no text, captions, credits, graphics, or UI drawn into the image."
+  ],
+  "not_modified": [
+    "Burned-in source timecode left visible.",
+    "No crop, retouch, colour grade, sharpening, or AI enhancement."
+  ],
+  "producer_decisions": [],
+  "reproduction": "python assets/historical/HIST-10/src/build_hist10.py && python assets/historical/HIST-10/src/finish_hist10.py"
+}

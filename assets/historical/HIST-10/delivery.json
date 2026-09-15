@@ -1,0 +1,241 @@
+{
+  "id": "HIST-10",
+  "title": "Egghead Software storefront",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical original (third-party archival video frame)",
+  "shared_version": "not_applicable (archival still; no shared template used)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "source/original.webm",
+      "role": "historical original (Internet Archive original file, byte-identical)",
+      "bytes": 4236275,
+      "sha256": "af3caafe24ce8a1d9869eb9a787ecd9430c9747fece2b55b59cc50abdcc3325e"
+    },
+    {
+      "path": "source/raw/frame-000462.png",
+      "role": "uncropped decoded frame (native 480x360)",
+      "bytes": 203873,
+      "sha256": "e152aa12477f825466bb9d1b16541b1460b236333c82606334e7f0880a2dd8ef"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (pillarboxed, derived from raw frame)",
+      "bytes": 1161127,
+      "sha256": "1a4bee96278fd4bd7e987bc0df47c224a577fd641f61d8fce8f2b67fe3978746"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 699826,
+      "sha256": "572f35836e4f305c3d83b1bdefac149bff6fd015ff6d700fa2257c45d2e6a4e3"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5412,
+      "sha256": "00efe9dfb6fad50a418e5c6f582890931e7f957435fd6b7d37ea68be26adcdfc"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 2462,
+      "sha256": "127aa64a4adc36331e7829a8e281841961c9151225c01623650d382811dee127"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / source excerpts",
+      "bytes": 2278,
+      "sha256": "26df3bde3fa12396a4245978cba3d61884d87ef320784d7b5ee8388cef3ce430"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gates and claim checks",
+      "bytes": 2746,
+      "sha256": "bd5df7f6d7d0a6cea3cf3fed112ad8af699efaaad3fd45674234c8c67f3f3f67"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / source record",
+      "bytes": 3789,
+      "sha256": "a3f3d2da8c19e800db27ca126f64fc0ce3d77bb5e4da49b9b1d0baa89c4a0e2e"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / rights record",
+      "bytes": 2287,
+      "sha256": "c3772cfa69a261d9c3435ffcc4eb99cc5aaa3eeb91b69872ef6d8a7d125df94d"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "role": "evidence / candidate report",
+      "bytes": 4848,
+      "sha256": "2ef88738b6e0f83bdb9df96f7d1f31f02f9a5416cc7f2dbd585a8d4b93d9573f"
+    },
+    {
+      "path": "evidence/search-log.md",
+      "role": "evidence / search log",
+      "bytes": 2951,
+      "sha256": "5b2bf7427d59bb95a43182c42a24b043beeecbaf16ceac26d1b552761590650a"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / transform record",
+      "bytes": 1179,
+      "sha256": "35a58602fa607d58cebe0bc76e075a69c574b77f2c0fcc89cd8fc25cead9fe31"
+    },
+    {
+      "path": "evidence/qa-tests.json",
+      "role": "evidence / QA test records",
+      "bytes": 2117,
+      "sha256": "d9432180d7f781956e402490d82e47a7f03c5fc0cacfd99adad326ba2221bea5"
+    },
+    {
+      "path": "evidence/archive-records/youtube-CcbAC4qI9pQ_files.xml",
+      "role": "evidence / Internet Archive file list with hashes",
+      "bytes": 9245,
+      "sha256": "b44d50a8b96b4cde4d905bc39520c220486344c4f0109e58e065065604d605d7"
+    },
+    {
+      "path": "src/build_hist10.py",
+      "role": "build script",
+      "bytes": 4480,
+      "sha256": "8a3c5829b92367624b9afed45199fe59e57645c0e68f42f613486e2225378f08"
+    },
+    {
+      "path": "src/finish_hist10.py",
+      "role": "delivery script",
+      "bytes": 6347,
+      "sha256": "e70b3cb93f22c5c8f65a8336fa09f9bace202dbd57ad4867e37ff85ef64250f7"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.webm",
+        "source/raw/frame-000462.png"
+      ],
+      "notes": "Archived original video; the uncropped frame used is decoded frame 462 (15.415 s, burned-in timecode 10:46:14;06). Still: hold for editorial timing."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/raw/frame-000462.png",
+      "notes": "3x Lanczos, pillarboxed at x=240 on black; no crop, stretch, or added text. Proof: proofs/editorial-frame-720.png."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        93,
+        93
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        126,
+        128
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration the still illustrates"
+    },
+    {
+      "path": "source/original.webm",
+      "url": "https://archive.org/download/youtube-CcbAC4qI9pQ/CcbAC4qI9pQ.webm",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (no crop)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "archival footage (rights unresolved)",
+      "credit": "Archival footage: \"Buying Windows 95 on Launch Day\" (uploaded by Vampire Robot, 2022), via Internet Archive item youtube-CcbAC4qI9pQ. Original source unknown.",
+      "license": null,
+      "rights_status": "unresolved"
+    }
+  ],
+  "tests": [
+    {
+      "test": "original file integrity against Internet Archive record",
+      "result": "passed",
+      "detail": "source/original.webm: 4236275 bytes, md5 f7fccaa31421b2761e8730f2074aa158, sha1 9bd515aa79e863e6755845e936af4c6add04bd79. Both match IA files.xml; the build script refuses to run on a mismatch."
+    },
+    {
+      "test": "ffprobe stream check of original",
+      "result": "passed",
+      "detail": "VP9 480x360, SAR 1:1, DAR 4:3, 30000/1001 fps, duration 97.861 s; Opus audio."
+    },
+    {
+      "test": "frame identity across IA original and IA derivative",
+      "result": "passed",
+      "detail": "Frame index 462 decoded from the WebM matches frame 462 of the IA MP4 derivative (PSNR 32.5 dB, against 17.8-21.1 dB for frames 460, 461, 463, 464). Both sit at about 15.415 s."
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "native": "Viewed source/raw/frame-000462.png at 480x360. EGGHEAD SOFTWARE lettering is legible on the glass, the door is open with a yellow Store Hours card, and boxed software is stacked in the window. A shopper is seen from behind through the door glass; no identifiable face. Burned-in timecode 10:46:14;06 at top right.",
+      "full_size": "Viewed exports/editorial-frame.png at 1920x1080. 4:3 picture at 1440x1080 centred between 240 px black bars. No stretch, no crop, no added text. The sign is clearly readable. The image is soft and shows compression blocking, as expected from a 3x upscale of 480x360 video. The timecode box sits at about y=15-65, above the y=72 safe line; it is source content, not authored text.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png at 1280x720. The sign stays readable and the storefront reads immediately. Softness is less noticeable than at 1080p."
+    },
+    {
+      "test": "privacy scan of delivered text files",
+      "result": "passed",
+      "detail": "Searched the HIST-10 folder for e-mail addresses. Two raw IA metadata copies containing the IA uploader's personal address were removed before delivery; the needed fields are restated in evidence/source.json without it. No local user paths in outputs."
+    },
+    {
+      "test": "PNG dimensions (raw 480x360, export 1920x1080, proof 1280x720)",
+      "result": "passed",
+      "sizes": {
+        "source/raw/frame-000462.png": [
+          480,
+          360
+        ],
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ]
+      },
+      "bad": {}
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "ffprobe": "ffprobe version 6.0-essentials_build-www.gyan.dev Copyright (c) 2007-2023 the FFmpeg developers",
+    "download": "curl (anonymous HTTPS from archive.org)",
+    "font_files_distributed": false,
+    "remote_dependencies_in_outputs": false
+  },
+  "notes": [
+    "Production produced as an archival proof; release blocked on R14 (rights holder unknown, no license).",
+    "Place is not stated by any source and is not recorded. The date 1995-08-24 is the uploader's claim, partly corroborated.",
+    "state.json is live workflow state and is not in the output inventory."
+  ]
+}

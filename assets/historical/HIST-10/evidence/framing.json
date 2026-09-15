@@ -1,0 +1,44 @@
+{
+  "source_video": "source/original.webm",
+  "source_video_sha1": "9bd515aa79e863e6755845e936af4c6add04bd79",
+  "decoded_frame_index_0_based": 462,
+  "decoder_select_filter": "select=eq(n\\,462)",
+  "frame_rate": "30000/1001",
+  "approx_presentation_time_seconds": 15.415,
+  "burned_in_timecode_visible_in_frame": "10:46:14;06",
+  "raw_frame": "source/raw/frame-000462.png",
+  "raw_frame_size": [
+    480,
+    360
+  ],
+  "export": "exports/editorial-frame.png",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background_rgb": [
+    0,
+    0,
+    0
+  ],
+  "scale_factor": 3,
+  "resample": "Pillow LANCZOS",
+  "placed_at": [
+    240,
+    0
+  ],
+  "placed_size": [
+    1440,
+    1080
+  ],
+  "crop": null,
+  "stretch": false,
+  "reverse": "crop exports/editorial-frame.png to box (240,0,1680,1080) and downscale by 3 to recover the raw frame geometry (resampling is lossy; the lossless raw frame is kept in source/raw/)",
+  "not_done": [
+    "no crop of picture content",
+    "no removal or masking of the burned-in source timecode",
+    "no added text, logos, captions or UI",
+    "no colour correction, sharpening or AI upscaling"
+  ],
+  "proof_720": "proofs/editorial-frame-720.png"
+}

@@ -1,0 +1,87 @@
+{
+  "asset": "HIST-10",
+  "access_date": "2026-09-15",
+  "selected": "C1",
+  "candidates": [
+    {
+      "id": "C1",
+      "status": "selected; acquired",
+      "what": "Street-level Egghead Software storefront with EGGHEAD SOFTWARE lettering on the glass, shoppers entering. Frame 462 of a 98 s news-style clip.",
+      "source_page": "https://archive.org/details/youtube-CcbAC4qI9pQ",
+      "upstream": "https://www.youtube.com/watch?v=CcbAC4qI9pQ",
+      "creator": "unknown (uploaded by the YouTube channel Vampire Robot)",
+      "stated_date": "1995-08-24 (uploader description)",
+      "native_size": [480, 360],
+      "license": "none stated",
+      "rights_status": "unresolved",
+      "deficiencies": [
+        "Low resolution (480x360); the 1080p frame is a 3x upscale.",
+        "Burned-in timecode, not removed.",
+        "Original rights holder unknown; no license.",
+        "Date rests on the uploader's description (partly corroborated by the same tape's Windows 95 launch displays at CompUSA).",
+        "Location not stated."
+      ]
+    },
+    {
+      "id": "C2",
+      "status": "rejected; not downloaded",
+      "what": "Flickr photo titled 'Egghead Software': an Egghead-branded 4-outlet power splitter photographed at home. The description recalls an Egghead store near Beverly and La Brea, Los Angeles.",
+      "source_page": "https://www.flickr.com/photos/95368991@N00/534320393",
+      "creator": "Adrian Black (Flickr user craig1black)",
+      "stated_date": "taken 2007-06-06",
+      "native_size": [1914, 1234],
+      "license": "CC BY-NC 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/2.0/",
+      "rights_status": "licensed (noncommercial only)",
+      "deficiencies": [
+        "Not a storefront: a branded object, equivalent to the logo-only substitute the ticket excludes.",
+        "2007 photograph, not a period image.",
+        "NonCommercial term may conflict with a monetised video."
+      ]
+    },
+    {
+      "id": "C3",
+      "status": "rejected; not delivered (web copy inspected only in a scratch folder)",
+      "what": "Dusk exterior of a strip-mall 'Egghead Discount Software' storefront: illuminated red sign, lit shop windows, a window poster reading 'Egghead is your new computer's best friend'. Composition and lighting suggest a professional or corporate photograph, not a snapshot.",
+      "source_page": "https://virtualmoose.org/2023/09/06/egghead-software/",
+      "image_url_inspected": "https://virtualmoose.files.wordpress.com/2023/09/fdmfiirwyasutg6.png",
+      "creator": "uncredited",
+      "stated_date": null,
+      "native_size": [456, 301],
+      "license": "none stated",
+      "rights_status": "unknown",
+      "deficiencies": [
+        "No photographer, date, place, or original source given; the file name looks like a social-media repost, so the blog is not the origin.",
+        "Only a small web copy was found, smaller than C1.",
+        "Rights unknown and untraceable from the page."
+      ],
+      "unverified_lead": "The blog links Egghead's archived reports at UW Libraries alongside these photos. The picture may come from an Egghead annual report other than 1995 (1989-1994 and 1996-1999 were not page-checked). A report scan would give a higher-resolution primary source. Its rights would still be In Copyright under Egghead, so the rights question would not go away."
+    }
+  ],
+  "checked_without_storefront_result": [
+    {
+      "source": "Wikimedia Commons (file and category search: Egghead, Egghead Software, Egghead store)",
+      "result": "Only 'File:Egghead Software Coffee Cup.jpg' relates to the retailer; it is logo-only merchandise."
+    },
+    {
+      "source": "Openverse (openly licensed images; queries egghead, egghead software, egghead store, egghead sign, egghead discount, egghead computer)",
+      "result": "Only C2 relates to the retailer."
+    },
+    {
+      "source": "University of Washington Libraries, Northwest Historical Annual Reports (Egghead annual reports 1989-1999; rights statement In Copyright)",
+      "result": "The 1995 report (reports/43711, 25 pages) was downloaded to a scratch folder and every page viewed: text, financial tables, and a cover logo only; no store photograph. Used only as corroboration for claim checks; not delivered."
+    },
+    {
+      "source": "Internet Archive text items: Egghead catalogs (Christmas 1988, 1990, October 1993)",
+      "result": "Catalogs, not store photography; creator Egghead Software, no license. Not pursued."
+    },
+    {
+      "source": "Wayback Machine captures of egghead.com image files, 1995-1998",
+      "result": "65 image URLs, all small interface GIFs (max about 10 KB); no store photograph."
+    },
+    {
+      "source": "Library of Congress Prints & Photographs; Calisphere",
+      "result": "No Egghead Software store images."
+    }
+  ]
+}

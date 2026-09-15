@@ -1,0 +1,29 @@
+[
+  {
+    "test": "original file integrity against Internet Archive record",
+    "result": "passed",
+    "detail": "source/original.webm: 4236275 bytes, md5 f7fccaa31421b2761e8730f2074aa158, sha1 9bd515aa79e863e6755845e936af4c6add04bd79. Both match IA files.xml; the build script refuses to run on a mismatch."
+  },
+  {
+    "test": "ffprobe stream check of original",
+    "result": "passed",
+    "detail": "VP9 480x360, SAR 1:1, DAR 4:3, 30000/1001 fps, duration 97.861 s; Opus audio."
+  },
+  {
+    "test": "frame identity across IA original and IA derivative",
+    "result": "passed",
+    "detail": "Frame index 462 decoded from the WebM matches frame 462 of the IA MP4 derivative (PSNR 32.5 dB, against 17.8-21.1 dB for frames 460, 461, 463, 464). Both sit at about 15.415 s."
+  },
+  {
+    "test": "manual visual inspection",
+    "result": "passed",
+    "native": "Viewed source/raw/frame-000462.png at 480x360. EGGHEAD SOFTWARE lettering is legible on the glass, the door is open with a yellow Store Hours card, and boxed software is stacked in the window. A shopper is seen from behind through the door glass; no identifiable face. Burned-in timecode 10:46:14;06 at top right.",
+    "full_size": "Viewed exports/editorial-frame.png at 1920x1080. 4:3 picture at 1440x1080 centred between 240 px black bars. No stretch, no crop, no added text. The sign is clearly readable. The image is soft and shows compression blocking, as expected from a 3x upscale of 480x360 video. The timecode box sits at about y=15-65, above the y=72 safe line; it is source content, not authored text.",
+    "proof_720": "Viewed proofs/editorial-frame-720.png at 1280x720. The sign stays readable and the storefront reads immediately. Softness is less noticeable than at 1080p."
+  },
+  {
+    "test": "privacy scan of delivered text files",
+    "result": "passed",
+    "detail": "Searched the HIST-10 folder for e-mail addresses. Two raw IA metadata copies containing the IA uploader's personal address were removed before delivery; the needed fields are restated in evidence/source.json without it. No local user paths in outputs."
+  }
+]

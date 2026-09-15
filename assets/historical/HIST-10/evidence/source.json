@@ -1,0 +1,56 @@
+{
+  "title": "Buying Windows 95 on Launch Day",
+  "creator": null,
+  "creator_notes": "Original camera operator and production are not identified anywhere in the source record. 'Vampire Robot' is the YouTube channel that uploaded the video (2022-10-07); the channel's description contains no statement of where its footage comes from. The burned-in drop-frame timecode (e.g. 10:46:14;06) indicates professional video tape, not a consumer upload, but no organisation is named.",
+  "uploader": "Vampire Robot (YouTube channel @vampirerobot, channel UCaHs-DNd2wz55plJZDfUqug)",
+  "source_url": "https://archive.org/details/youtube-CcbAC4qI9pQ",
+  "original_file_url": "https://archive.org/download/youtube-CcbAC4qI9pQ/CcbAC4qI9pQ.webm",
+  "upstream_url": "https://www.youtube.com/watch?v=CcbAC4qI9pQ",
+  "archive_item": {
+    "identifier": "youtube-CcbAC4qI9pQ",
+    "collection": ["mirrortube", "social-media-video", "additional_collections_video", "deemphasize"],
+    "scanner": "TubeUp Video Stream Mirroring Application 0.0.35",
+    "ia_public_date": "2023-04-11",
+    "file_marked_original_by_ia": "CcbAC4qI9pQ.webm",
+    "ia_recorded_hashes": {
+      "size": 4236275,
+      "md5": "f7fccaa31421b2761e8730f2074aa158",
+      "sha1": "9bd515aa79e863e6755845e936af4c6add04bd79"
+    },
+    "records_preserved": "evidence/archive-records/youtube-CcbAC4qI9pQ_files.xml"
+  },
+  "original_date": "2022-10-07 (YouTube upload date; date of the upload, not of the footage)",
+  "depicted_event_date": "1995-08-24 (claimed by the uploader description only; see evidence/claim-checks.json for corroboration status)",
+  "depicted_place": null,
+  "depicted_place_notes": "No source states the store location. The frame shows a street-level storefront in a multi-storey urban building; no city is asserted.",
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS download from archive.org; no account, terms acceptance, payment, CAPTCHA, or access control involved.",
+  "identity_evidence": [
+    "Decoded frame 462 shows the lettering EGGHEAD SOFTWARE on the storefront glass above the entrance (visible, legible at native 480x360).",
+    "A yellow 'Store Hours' card is on the door; its small print is not legible at this resolution and is not relied on.",
+    "The uploader description names Egghead Software and CompUSA as the stores filmed; the later CompUSA shots are a different store and are not used here."
+  ],
+  "version_evidence": "Video stream VP9 480x360, 30000/1001 fps, 97.861 s (ffprobe). Downloaded bytes match IA's recorded md5 and sha1 for the file IA marks as original.",
+  "original_file": "source/original.webm",
+  "original_file_sha256": "af3caafe24ce8a1d9869eb9a787ecd9430c9747fece2b55b59cc50abdcc3325e",
+  "original_dimensions": [480, 360],
+  "selected_frame": {
+    "decoded_frame_index_0_based": 462,
+    "presentation_time_seconds": 15.415,
+    "burned_in_timecode": "10:46:14;06",
+    "uncropped_frame": "source/raw/frame-000462.png"
+  },
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "rights_status": "unresolved",
+  "credit_text": "Archival footage: \"Buying Windows 95 on Launch Day\" (uploaded by Vampire Robot, 2022), via Internet Archive item youtube-CcbAC4qI9pQ. Original source unknown.",
+  "transformations": [
+    "Decoded a single frame (index 462) losslessly to PNG; no crop.",
+    "Editorial frame: integer 3x Lanczos upscale to 1440x1080, centred on a black 1920x1080 canvas (pillarbox). No stretch, no crop, burned-in timecode left in place, no text added. Parameters in evidence/framing.json."
+  ],
+  "notes": [
+    "The MP4 in the same IA item is an IA derivative transcode of this WebM; it was used only to locate the shot and is not delivered.",
+    "Rights are not cleared. See evidence/rights.json."
+  ]
+}
