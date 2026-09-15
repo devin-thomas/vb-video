@@ -1,0 +1,60 @@
+{
+  "id": "XTRA-02",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "https://archive.org/metadata/boardwatch-1996-06"
+      ],
+      "findings": [
+        "Rights holder of the ad content is recorded from the printed notice: \"© 1996 Microsoft Corporation. All rights reserved.\"",
+        "Internet Archive item has no rights or licenseurl field; the scan is a patron upload in the boardwatchmagazine collection. No licence or permission record exists.",
+        "Access was an anonymous public download of one leaf: no account, lending, payment, CAPTCHA, terms acceptance or watermark removal.",
+        "Magazine publisher's 1996 legal entity was not established from a primary record."
+      ],
+      "reason": "Third-party copyrighted advertisement with no licence on record. Clearance or a fair-use determination is a legal-risk judgement that evidence cannot settle.",
+      "review_question": "RQ-XTRA-02-1",
+      "decision": null,
+      "approver": null
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The image is a period MSDN advertisement (script: \"old MSDN ads\").",
+      "status": "verified",
+      "evidence": "Full-page Microsoft ad featuring the Microsoft Developer Network box, the URL http://www.microsoft.com/msdn, and body copy describing the MSDN subscription (source/original.jp2; IA OCR of leaf 96).",
+      "note": "The ad pairs MSDN with the Visual C++ Subscription; Visual Basic is not shown on this page (see RQ-XTRA-02-2)."
+    },
+    {
+      "claim": "Date: June 1996 (mid-1990s, VB4 era).",
+      "status": "verified",
+      "evidence": "Neighbouring leaves' printed footers read \"Boardwatch - June 1996\"; ad footer reads \"© 1996 Microsoft Corporation\"; IA item date 1996-06."
+    },
+    {
+      "claim": "Page context: Boardwatch Magazine, June 1996, printed page 97.",
+      "status": "verified (corrected during work)",
+      "evidence": "Leaf 95 footer \"96 Boardwatch - June 1996\"; leaf 97 footer \"98 Boardwatch - June 1996\"; this leaf has no folio and shows mirrored show-through of \"98\" from its reverse (evidence/folio-showthrough.png); scandata pageNumber 97.",
+      "correction": "An early low-resolution preview was misread as page 96; the show-through folio is mirrored. All records use page 97."
+    },
+    {
+      "claim": "source/original.jp2 is the intended leaf and is unmodified.",
+      "status": "verified",
+      "evidence": "Dimensions 2489x3228 match scandata leaf 96 (leaf 95 is 2423x3222); SHA-256 e0108c4d6daecfc0e68a82b31f62d231ff2c5311290733cfa5a878989fdc3df3 recorded at download and re-checked by src/render_frame.py before and after rendering."
+    },
+    {
+      "claim": "Not a modern Microsoft graphic presented as archival.",
+      "status": "verified",
+      "evidence": "Scan of a 1996 print page with period products (Visual C++ 4.0, MSDN box), period tagline and show-through from the physical magazine."
+    },
+    {
+      "claim": "Ad's own statement: Visual C++ 4.0 was \"PC Week Analyst's Choice, November 27, 1995\".",
+      "status": "not_checked",
+      "reason": "Advertiser claim reproduced in the image; the video does not assert it. Not narrated, so not verified."
+    }
+  ],
+  "script_changes_proposed": []
+}

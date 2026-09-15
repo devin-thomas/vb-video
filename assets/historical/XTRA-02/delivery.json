@@ -1,0 +1,194 @@
+{
+  "id": "XTRA-02",
+  "title": "Period MSDN advertisement",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gate and claim checks",
+      "bytes": 3396,
+      "sha256": "b806090b0f9f67ac410680080d352a705ee5522851936c01722b16091a150f3e"
+    },
+    {
+      "path": "evidence/folio-showthrough.png",
+      "role": "evidence crop (page-number show-through)",
+      "bytes": 27637,
+      "sha256": "250926d4b0c48d04cd5c55faf9deefde32d0fe59f4bfc2d1833ed6853102642e"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / framing geometry",
+      "bytes": 1557,
+      "sha256": "24042359f26faf407df05ab805c56bc22e2dea51fa160c768c9cc376525a414a"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 2660,
+      "sha256": "fedbf3193decf5d9d784040bcfe2817e3cb8286a72143c35988996a5a6c8db48"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / rights record",
+      "bytes": 2420,
+      "sha256": "b7675e8afce0cd6d8f69ff3a2b3ca1350a5fc350300133d1099fac0296b4b76c"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / source excerpts",
+      "bytes": 2573,
+      "sha256": "3bd4be449b1d4d2eabea4b20135e53fd1d229c3960fbe4d0ff0fbef6930dba57"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / source record",
+      "bytes": 4927,
+      "sha256": "66c47f0bfc04b47820990a2d9aa04d6a0e4f055c035ba14a05f93481e83189a2"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial framing copy (derived, 1920x1080 pillarbox)",
+      "bytes": 1065568,
+      "sha256": "1fefad45788ddd31c28af82e96d416446c9b0321e70da3a75ee57b669f994c60"
+    },
+    {
+      "path": "proofs/editorial-frame-720p.png",
+      "role": "QA proof (720p downscale of editorial frame)",
+      "bytes": 532365,
+      "sha256": "19115efde30533eb3e8b227a739f9c13250e5c00455fc4071051168b7df039d3"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 7342,
+      "sha256": "cb89892555ac0be71a14feb6b9fa3209f66184a1c9475daf66a3f2f2de013406"
+    },
+    {
+      "path": "source/original.jp2",
+      "role": "historical original (native JPEG 2000 scan leaf, unmodified)",
+      "bytes": 735141,
+      "sha256": "e0108c4d6daecfc0e68a82b31f62d231ff2c5311290733cfa5a878989fdc3df3"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "render script",
+      "bytes": 5823,
+      "sha256": "39e2e1e1ec3e8a02484f4abcba5a3d366679de2762ade96c7b29d5102dabdb18"
+    },
+    {
+      "path": "src/write_delivery.py",
+      "role": "delivery metadata script",
+      "bytes": 5524,
+      "sha256": "e2554b68eb871f131b5583994e5d7482f0e3893dbd93ac95f8a2916f38977b29"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "path": "source/original.jp2",
+      "timeline": null,
+      "note": "Uncropped native scan, 2489x3228; not 16:9 by design."
+    },
+    {
+      "name": "editorial-frame",
+      "path": "exports/editorial-frame.png",
+      "timeline": null,
+      "note": "Still; holds for editorial timing. 720p proof at proofs/editorial-frame-720p.png."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        49,
+        49
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script cue fulfilled (\"old MSDN ads\")"
+    },
+    {
+      "path": "source/original.jp2",
+      "record": "evidence/source.json",
+      "url": "https://archive.org/download/boardwatch-1996-06/boardwatch-1996-06_jp2.zip/boardwatch-1996-06_jp2%2Fboardwatch-1996-06_0096.jp2",
+      "item": "https://archive.org/details/boardwatch-1996-06",
+      "access_date_utc": "2026-09-15T20:32:43Z",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "from": "source/original.jp2",
+      "relationship": "derivative framing (uncropped pillarbox with authored caption)"
+    }
+  ],
+  "credits": [
+    {
+      "text": "Microsoft Developer Network advertisement, Boardwatch Magazine, June 1996, p. 97. © 1996 Microsoft Corporation. Scan via Internet Archive (boardwatch-1996-06).",
+      "rights_status": "unknown / not cleared",
+      "record": "evidence/rights.json"
+    }
+  ],
+  "tests": [
+    {
+      "name": "source leaf identity (dimensions vs scandata leaf 96)",
+      "result": "pass"
+    },
+    {
+      "name": "source unchanged across render (SHA-256 before/after)",
+      "result": "pass"
+    },
+    {
+      "name": "aspect preserved, uncropped, inside safe area",
+      "result": "pass"
+    },
+    {
+      "name": "export 1920x1080 and 720p proof 1280x720 (Pillow)",
+      "result": "pass"
+    },
+    {
+      "name": "printed page 97 from neighbour folios and show-through",
+      "result": "pass"
+    },
+    {
+      "name": "manual inspection at full size (whole frame and 1:1 crops) and 720p",
+      "result": "pass",
+      "record": "qa.md"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id XTRA-02",
+      "result": "see qa.md (verbatim)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "openjpeg": "2.5.4",
+    "curl": "8.21.0 (Windows)",
+    "os": "Microsoft Windows 11 Pro 10.0.26200",
+    "fonts": [
+      "C:\\Windows\\Fonts\\segoeui.ttf",
+      "C:\\Windows\\Fonts\\segoeuib.ttf"
+    ],
+    "commands": [
+      "python assets/historical/XTRA-02/src/render_frame.py",
+      "python assets/historical/XTRA-02/src/write_delivery.py",
+      "python tools/validate_delivery.py --id XTRA-02"
+    ]
+  },
+  "notes": [
+    "Script-supplement asset (SCRIPT.md:49), not an original asset-plan row.",
+    "Historical proof: release blocked until R14 rights question RQ-XTRA-02-1 is decided in the review deck.",
+    "Caption text in the editorial frame is an authored production addition (evidence/provenance.json)."
+  ]
+}

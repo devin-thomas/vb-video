@@ -1,0 +1,61 @@
+{
+  "source": "source/original.jp2",
+  "source_sha256": "e0108c4d6daecfc0e68a82b31f62d231ff2c5311290733cfa5a878989fdc3df3",
+  "source_dimensions": {
+    "width": 2489,
+    "height": 3228
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background": "#111318"
+  },
+  "safe_area": {
+    "x0": 120,
+    "x1": 1800,
+    "y0": 72,
+    "y1": 1008
+  },
+  "page_placement": {
+    "x": 599,
+    "y": 72,
+    "width": 722,
+    "height": 936
+  },
+  "scale": 0.2899628252788104,
+  "aspect_ratio_source": 0.7710656753407683,
+  "aspect_ratio_placed": 0.7713675213675214,
+  "transformations": [
+    "JPEG 2000 decoded to RGB (Pillow/OpenJPEG)",
+    "uniform Lanczos downscale to the safe-area height; width rounded to nearest pixel",
+    "no crop, rotation, colour correction, retouching or watermark removal of the page",
+    "pillarboxed on #111318 with a 1px #464A52 keyline",
+    "authored caption set in Segoe UI (system font, not bundled) in the left column"
+  ],
+  "caption_authored": [
+    "Microsoft Developer",
+    "Network advertisement",
+    "Boardwatch Magazine",
+    "June 1996, page 97",
+    "Scan: Internet Archive",
+    "item boardwatch-1996-06"
+  ],
+  "fonts_resolved": [
+    "C:\\Windows\\Fonts\\segoeui.ttf",
+    "C:\\Windows\\Fonts\\segoeuib.ttf"
+  ],
+  "folio_evidence_crop": {
+    "box": [
+      1500,
+      3080,
+      2489,
+      3228
+    ],
+    "ops": [
+      "mirror",
+      "grayscale",
+      "autocontrast 2%"
+    ],
+    "path": "evidence/folio-showthrough.png"
+  }
+}

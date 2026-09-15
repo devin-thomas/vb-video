@@ -1,0 +1,61 @@
+{
+  "id": "XTRA-02",
+  "ticket_family": "SCRIPT-SUPPLEMENT",
+  "ticket_family_note": "Script-only addition requested by SCRIPT.md:49; not a row of the original categorized asset plan.",
+  "provenance_type": "historical source",
+  "script_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [49, 49],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual cue this asset fulfils (\"old MSDN ads\")"
+    }
+  ],
+  "external_sources": [
+    {
+      "path": "source/original.jp2",
+      "relationship": "historical original",
+      "description": "Native 300 ppi JPEG 2000 scan leaf 96 of Internet Archive item boardwatch-1996-06 (Boardwatch Magazine, June 1996, printed page 97): full-page Microsoft Developer Network / Visual C++ Subscription advertisement.",
+      "source_url": "https://archive.org/download/boardwatch-1996-06/boardwatch-1996-06_jp2.zip/boardwatch-1996-06_jp2%2Fboardwatch-1996-06_0096.jp2",
+      "item_url": "https://archive.org/details/boardwatch-1996-06",
+      "access_date_utc": "2026-09-15T20:32:43Z",
+      "sha256": "e0108c4d6daecfc0e68a82b31f62d231ff2c5311290733cfa5a878989fdc3df3",
+      "bytes": 735141,
+      "modified": false,
+      "records": ["evidence/source.json", "evidence/rights.json"]
+    }
+  ],
+  "derived": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (uncropped, aspect-preserving pillarbox)",
+      "from": "source/original.jp2",
+      "script": "src/render_frame.py",
+      "geometry": "evidence/framing.json"
+    },
+    {
+      "path": "proofs/editorial-frame-720p.png",
+      "relationship": "QA proof (1280x720 downscale of the editorial frame)",
+      "from": "exports/editorial-frame.png"
+    },
+    {
+      "path": "evidence/folio-showthrough.png",
+      "relationship": "evidence crop (mirrored, contrast-stretched footer region)",
+      "from": "source/original.jp2"
+    }
+  ],
+  "authored_additions": [
+    {
+      "where": "exports/editorial-frame.png, left caption column",
+      "text": ["Microsoft Developer", "Network advertisement", "Boardwatch Magazine", "June 1996, page 97", "Scan: Internet Archive", "item boardwatch-1996-06"],
+      "status": "production caption written by the XTRA-02 worker from evidence/source.json; not text from the ad"
+    },
+    {
+      "where": "exports/editorial-frame.png, canvas",
+      "text": [],
+      "status": "#111318 background and 1px keyline (production bible dark background token)"
+    }
+  ],
+  "producer_decisions": [],
+  "not_used": "No AI-generated imagery, redraw, retouching, watermark removal, or modern Microsoft graphics."
+}

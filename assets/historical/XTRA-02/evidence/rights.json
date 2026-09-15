@@ -1,0 +1,34 @@
+{
+  "id": "XTRA-02",
+  "gate": "R14",
+  "rights_status": "unknown",
+  "release_status": "blocked",
+  "cleared": false,
+  "rights_holders": [
+    {
+      "party": "Microsoft Corporation",
+      "interest": "Copyright in the advertisement artwork and copy (\"© 1996 Microsoft Corporation. All rights reserved.\" printed on the page); trademarks Microsoft, Visual C++, BackOffice, \"Where do you want to go today?\" and the Visual Tools and Microsoft logos appear in the image.",
+      "evidence": "Printed copyright and trademark notice in the ad footer (source/original.jp2, bottom-left)."
+    },
+    {
+      "party": "Publisher of Boardwatch Magazine (1996)",
+      "interest": "Possible compilation/typographic interest in the magazine issue; faint show-through of editorial text from the reverse side is visible on the scan.",
+      "evidence": "Magazine identity from running footers; publisher entity for June 1996 not established from a primary record. IA collection description names Jack Rickard as founder/editor and describes later sales to other companies; that is a patron-written description, not a rights record."
+    },
+    {
+      "party": "Internet Archive patron uploader",
+      "interest": "Made the scan available; no licence asserted in item metadata.",
+      "evidence": "archive.org/metadata/boardwatch-1996-06: no rights or licenseurl field."
+    }
+  ],
+  "license_terms": null,
+  "license_url": null,
+  "permitted_uses_on_record": "None. Public availability on Internet Archive is not a licence, and educational or commentary use is not established as cleared by any record here.",
+  "ia_terms_note": "archive.org/about/terms rendered only as a script shell (live and Wayback capture 20251231181008), so its wording was not retrieved and is not paraphrased here.",
+  "access_method": "Anonymous public download of one scan leaf; no account, lending, payment, CAPTCHA, terms acceptance or watermark removal.",
+  "access_date_utc": "2026-09-15T20:32:43Z",
+  "credit_text": "Microsoft Developer Network advertisement, Boardwatch Magazine, June 1996, p. 97. © 1996 Microsoft Corporation. Scan via Internet Archive (boardwatch-1996-06).",
+  "handoff": "Review question RQ-XTRA-02-1: decide whether the video uses this third-party copyrighted ad under a fair-use/commentary judgement, seeks permission from Microsoft, or drops it. Agent cannot clear this.",
+  "decision": null,
+  "approver": null
+}
