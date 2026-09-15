@@ -804,5 +804,17 @@
     "unresolved_gates": [
       "R15"
     ]
+  },
+  {
+    "id": "XTRA-05",
+    "title": "VB4 IDE anatomy: five labeled panels",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R03",
+      "R14"
+    ]
   }
 ]

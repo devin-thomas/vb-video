@@ -101,3 +101,11 @@ This IDE had a few key pieces. On the left, you had a toolbox — a vertical str
 
 This was called "RAD" — Rapid Application Development. The whole point was speed. You weren't writing code to create a window. The IDE did that for you. You were writing code to respond to events — a button click, a timer tick, a key press.
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/stills/XTRA-05/delivery.json) · [QA and remaining decisions](../../assets/stills/XTRA-05/qa.md) · [Live state](../../assets/stills/XTRA-05/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

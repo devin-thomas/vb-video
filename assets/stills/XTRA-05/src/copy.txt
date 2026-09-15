@@ -1,0 +1,5 @@
+Form Designer
+Toolbox
+Properties Window
+Code Window
+Project Explorer

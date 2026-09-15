@@ -1,0 +1,23 @@
+{
+  "id": "XTRA-05",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: a full recognizable workspace.",
+    "Annotated still: reveal one labeled panel at a time only if requested by the editor; static full-label export is required."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "variant-five-callouts.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "clean-workspace",
+    "five-callouts"
+  ],
+  "motion_model": "Still asset: each variant is a separate still held for editorial timing. The one-panel-at-a-time reveal is editor-request only and was not built."
+}
