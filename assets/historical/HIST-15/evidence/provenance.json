@@ -1,0 +1,61 @@
+{
+  "id": "HIST-15",
+  "provenance_classification": "historical source",
+  "input_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [625, 627],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "use": "Narration context and visual cue \"[VISUAL: A PowerBuilder DataWindow. Very corporate. Very 1995.]\" (line 627). The same text is at War/SCRIPT.md lines 682 and 684."
+    },
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [98, 98],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "use": "Plan row 10: \"PowerBuilder DataWindow | Old SAP/Sybase docs, retro software screenshots\". Treated as a lead only."
+    }
+  ],
+  "external_sources": [
+    {
+      "relationship": "historical original",
+      "path": "source/original.dib",
+      "origin": "https://archive.org/download/cbt-systems-microsoft-office-and-powersoft/CBT%20Systems%20Microsoft%20Office%20and%20Powersoft.iso/pbdatc%2FPD4_504.DIB",
+      "sha256": "52ca521806db7190c1418ffa087ae6d144ca4174d86011a5178ebc658db5dcb6",
+      "accessed_utc": "2026-09-15T20:36:27Z",
+      "record": "evidence/source.json"
+    },
+    {
+      "relationship": "source page record (redacted)",
+      "path": "evidence/archive/ia-item-metadata.json",
+      "origin": "https://archive.org/metadata/cbt-systems-microsoft-office-and-powersoft",
+      "accessed_utc": "2026-09-15T20:40:42Z",
+      "note": "The uploader account e-mail is replaced with [REDACTED-EMAIL]. The unredacted response sha256 is recorded inside the file."
+    },
+    {
+      "relationship": "source listing excerpt",
+      "path": "evidence/archive/iso-listing-pbdatc.tsv",
+      "origin": "https://ia801004.us.archive.org/view_archive.php?archive=/26/items/cbt-systems-microsoft-office-and-powersoft/CBT%20Systems%20Microsoft%20Office%20and%20Powersoft.iso",
+      "accessed_utc": "2026-09-15",
+      "note": "Rows filtered to pbdatc/, manualsm/pb*, and the root catalogue files."
+    }
+  ],
+  "evidence_files_consulted_not_stored": [
+    { "name_on_media": "manualsm/pbdatc.doc", "bytes": 64625, "sha256": "2b26aa4b6321d79da26008f3fedcf5f16aea99198f765952199699135422fc00", "use": "Course title and copyright notices" },
+    { "name_on_media": "manualsm/pb5dwc.doc", "bytes": 72478, "sha256": "567925336416f9caa7eb347ca1af327b802d20d30881f33a21fc05ff72df5be7", "use": "Shows the separate 1996 \"PowerBuilder 5.0: DataWindow Concepts\" course" },
+    { "name_on_media": "pbdatc/CBTSETUP.INI", "bytes": 963, "sha256": "781b8b8729e400f4d9771be58e337fd695d23bb1453da6f89f6db8b18aade293", "use": "Course Name=PowerBuilder: DataWindow Concepts" },
+    { "name_on_media": "pbdatc/SETUP.INI", "bytes": 19979, "sha256": "319c566796c5502d5431b04e4084b1f0f929763d05dad723a53dbf962e5198a1", "use": "Sibling course \"Moving from PowerBuilder 3.0a to 4.0\"" },
+    { "name_on_media": "pbdatc/UNITLIST.INI", "bytes": 29072, "sha256": "585584721ef9b739b6a8a0b1d77fefa5522a7c18f61c2f906cf7e7cda4d85796", "use": "Unit list, including \"Displaying and validating data\"" },
+    { "name_on_media": "UNITLIST.INI (disc root)", "bytes": 104712, "sha256": "36a830cd8a39164d9de99c3c84ebbfa9228fccebbaf8edac712a8683fd2e35f4", "use": "Separate PB 5 course sections" },
+    { "name_on_media": "pbdatc/VERSION.CBT", "bytes": 27, "use": "Build stamp \"K v4.0 - 13.06.95 / C v1.2\"" },
+    { "name_on_media": "pbdatc/PD04.TXT", "bytes": 16929, "use": "Line 321 matches the callout text in the selected image" },
+    { "name_on_media": "pbdatc/PD_1ST.DIB", "bytes": 283300, "sha256": "1ae9e22ddee78d896e67300cb12a6e087746b571e8a6de50a79c7942b5d727c4", "use": "Title screen \"PowerBuilder: DataWindow Concepts\"" }
+  ],
+  "authored_additions": [
+    "Editorial framing only: a flat #111318 1920x1080 ground, a uniform 1.95x scale, and centring inside the safe area (src/render_editorial_frame.py). No text, captions, UI, annotations, or retouching were added."
+  ],
+  "source_content_not_authored_by_production": [
+    "Every pixel inside the placed image, including the CBT Systems course chrome (title bar, clock, yellow callout, CBT Controls bar) and the sample employee data, comes from the 1995 course file."
+  ],
+  "producer_decisions": [],
+  "ai_generated_content": "none"
+}

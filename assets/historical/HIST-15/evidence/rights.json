@@ -1,0 +1,26 @@
+{
+  "id": "HIST-15",
+  "gate": "R14",
+  "file": "source/original.dib",
+  "rights_holders_named_on_source": [
+    "Powersoft Corporation (\"Copyright 1995 Powersoft Corporation. All rights reserved.\" in manualsm/pbdatc.doc)",
+    "CBT Systems Ltd (\"Copyright 1995 CBT Systems Ltd. All rights reserved\" in manualsm/pbdatc.doc)"
+  ],
+  "underlying_software": "PowerBuilder user interface, a Powersoft product (Sybase completed its acquisition of Powersoft on 1995-02-14, per the Wikipedia PowerBuilder article; that date is background, not a rights finding).",
+  "current_successors": {
+    "status": "not verified",
+    "note": "This ticket did not research who now holds the Powersoft and CBT Systems rights. No successor is asserted here."
+  },
+  "file_specific_license": null,
+  "license_url": null,
+  "host_terms_observed": "The Internet Archive item cbt-systems-microsoft-office-and-powersoft (collection cdrom_contributions, a user upload of 2025-08-19) has no licenseurl and no rights statement. Anonymous download is technically available. Public availability is not a licence.",
+  "manual_permission_text": "\"Permission is, however, hereby granted to bona fide clients to photocopy this document or parts thereof to be used strictly in conjunction with the appropriate course.\" This covers photocopying the manual for course use only. It does not cover the screen images or use in a video.",
+  "public_domain": "No. A 1995 commercial work with explicit copyright notices.",
+  "fair_use": "Not assessed. No fair-use conclusion is drawn; that is a legal judgement for review.",
+  "access_method": "Anonymous HTTPS download of one member file from the Internet Archive ISO extraction URL. No account, no payment, no terms accepted, no CAPTCHA, no watermark present or removed.",
+  "accessed_utc": "2026-09-15T20:36:27Z",
+  "credit_text": "PowerBuilder DataWindow painter, from the training course \"PowerBuilder: DataWindow Concepts\" (c) 1995 Powersoft Corporation and CBT Systems Ltd. Source: Internet Archive, item cbt-systems-microsoft-office-and-powersoft.",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked until a human rights decision is recorded",
+  "review_question": "Can the video show this 1995 copyrighted CBT Systems / Powersoft training-course screen (full frame, with credit) under a fair-use or commentary rationale, or must permission be sought, or a different image found? No licence or permission has been identified."
+}

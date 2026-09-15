@@ -1,0 +1,69 @@
+{
+  "id": "HIST-15",
+  "checked_by": "worker agent for HIST-15 (Historical Screenshots Manager, session vb-7a)",
+  "checked_utc": "2026-09-15",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "reason": "The image file is identified and its provenance fully recorded, but it is 1995 copyrighted commercial training material (Powersoft Corporation / CBT Systems Ltd) with no licence, permission, or rights statement on the host. Public availability on the Internet Archive is not clearance. Per R14, unknown rights stay blocked.",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/archive/ia-item-metadata.json",
+        "evidence/source-excerpts.md#course-manual-copyright-notice"
+      ],
+      "handling_compliance": {
+        "rights_holder_or_creator_recorded": true,
+        "file_specific_terms_recorded": true,
+        "access_method_recorded": true,
+        "credit_recorded": true,
+        "account_payment_watermark_captcha": "none involved"
+      },
+      "approver": null,
+      "decision": null,
+      "review_question": "Can the video show this copyrighted 1995 CBT Systems / Powersoft course screen under a fair-use or commentary rationale, or must permission be sought or a different image found?"
+    }
+  ],
+  "content_claims": [
+    {
+      "claim": "The image shows a PowerBuilder DataWindow (the product, not a generic data-entry form).",
+      "status": "supported",
+      "evidence": [
+        "On screen: sheet caption \"DataWindow - (untitled)\" and the DataWindow painter PainterBar and StyleBar",
+        "pbdatc/CBTSETUP.INI: Course Name=PowerBuilder: DataWindow Concepts",
+        "pbdatc/PD04.TXT line 321 matches the on-screen callout, tying the file to this course",
+        "evidence/source-excerpts.md"
+      ]
+    },
+    {
+      "claim": "The visual is from about 1995 (script cue: \"Very 1995\").",
+      "status": "supported",
+      "evidence": [
+        "ISO 9660 timestamp of pbdatc/PD4_504.DIB: 1995-04-24 15:45:32",
+        "Course manual: \"Copyright 1995 Powersoft Corporation\" and \"Copyright 1995 CBT Systems Ltd\"",
+        "pbdatc/VERSION.CBT: \"K v4.0 - 13.06.95\""
+      ]
+    },
+    {
+      "claim": "PowerBuilder version depicted.",
+      "status": "not stated in source; inferred as pre-5.0, most probably 4.0",
+      "evidence": [
+        "Later, separate courses \"PB 5: DataWindow Concepts\" (1996) and \"PB5: DataWindow Construction Techniques\" in the same catalogue",
+        "The course's 1995 installer catalogue lists it beside \"Moving from Powerbuilder 3.0a to 4.0\""
+      ],
+      "handling": "No version is burned into the asset. Captions and metadata should say \"PowerBuilder DataWindow painter, 1995\" unless a reviewer accepts the 4.0 inference."
+    },
+    {
+      "claim": "The image is a PowerBuilder screen, not a production recreation.",
+      "status": "supported with caveat",
+      "evidence": [
+        "The file is byte-identical to the 1995 course bitmap (sha256 52ca5218...)"
+      ],
+      "caveat": "The file is a CBT Systems training-simulation screen. The PowerBuilder window appears to be a screen capture, but CBT Systems composited course chrome over it (title bar text, clock, yellow callout, CBT Controls bar). It is not a live PowerBuilder session captured by this production."
+    }
+  ],
+  "script_discrepancies": [],
+  "war_script_change_proposed": false
+}

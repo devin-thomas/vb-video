@@ -1,0 +1,89 @@
+{
+  "id": "HIST-15",
+  "record_type": "historical archive source record",
+  "selected_file": {
+    "local_path": "source/original.dib",
+    "name_on_media": "pbdatc/PD4_504.DIB",
+    "bytes": 308278,
+    "sha256": "52ca521806db7190c1418ffa087ae6d144ca4174d86011a5178ebc658db5dcb6",
+    "format": "Windows BMP (BITMAPINFOHEADER), 8 bits per pixel, 256-colour palette, uncompressed (BI_RGB)",
+    "original_dimensions": { "width": 640, "height": 480 },
+    "byte_identical_to_download": true
+  },
+  "title": "Screen 19 of 19, unit \"Displaying and validating data\", CBT Systems course \"PowerBuilder: DataWindow Concepts\"",
+  "depicts": "PowerBuilder DataWindow painter in preview mode: application menu (File, Edit, Display, Rows, Window, Help), PainterBar, a sheet captioned \"DataWindow - (untitled)\", StyleBar (Arial 8, B/I/U, alignment), and a freeform employee DataWindow showing edit styles (drop-down Dept ID, Male/Female radio buttons, U.S.Citizen? check box). The frame also contains course chrome authored by CBT Systems: the title bar text \"Displaying and validating data - Screen 19 of 19\", a clock (16:34:11), a yellow instructional callout, and a \"CBT Controls\" button bar.",
+  "creator": "CBT Systems Ltd (course producer). The course manual for this course carries the notices \"Copyright 1995 Powersoft Corporation. All rights reserved.\" and \"Copyright 1995 CBT Systems Ltd. All rights reserved\". The depicted software is Powersoft PowerBuilder. The individual who made the underlying screen capture is not recorded.",
+  "publisher_of_media": "CBT Systems, \"Training Curriculum August 1997\", CD 11 of 16, label \"Microsoft Office\" / \"Powersoft\", P/N CD003940 (read from the uploader's disc photo on the item page)",
+  "dates": {
+    "original_creation_date": "1995-04-24 (ISO 9660 timestamp of pbdatc/PD4_504.DIB: 1995-04-24 15:45:32; file-system timestamp, not a signed date)",
+    "course_copyright_year": "1995 (manual notice, manualsm/pbdatc.doc)",
+    "course_build_stamp": "VERSION.CBT reads \"K v4.0 - 13.06.95\" / \"C v1.2\" (13 June 1995; K and C are CBT engine/course numbers, not a PowerBuilder version)",
+    "publication_date_of_carrier": "August 1997 (disc label); the disc re-publishes the 1995 course",
+    "depicted_event_date": "unknown (a training simulation screen, not a dated event)",
+    "archive_upload_date": "2025-08-19 05:20:06 UTC (Internet Archive publicdate)"
+  },
+  "source_urls": {
+    "item_page": "https://archive.org/details/cbt-systems-microsoft-office-and-powersoft",
+    "item_metadata_api": "https://archive.org/metadata/cbt-systems-microsoft-office-and-powersoft",
+    "exact_file": "https://archive.org/download/cbt-systems-microsoft-office-and-powersoft/CBT%20Systems%20Microsoft%20Office%20and%20Powersoft.iso/pbdatc%2FPD4_504.DIB",
+    "iso_listing": "https://ia801004.us.archive.org/view_archive.php?archive=/26/items/cbt-systems-microsoft-office-and-powersoft/CBT%20Systems%20Microsoft%20Office%20and%20Powersoft.iso"
+  },
+  "container": {
+    "name": "CBT Systems Microsoft Office and Powersoft.iso",
+    "bytes": 517619712,
+    "sha1_published_by_archive": "13297c71ddeccac8a98876d5813f144b6f27c66f",
+    "md5_published_by_archive": "9f0e88045debe43c97ad38e6f8a167c2",
+    "note": "The full ISO was not downloaded. Only individual member files were fetched through the archive's per-file ISO extraction URL."
+  },
+  "access": {
+    "method": "Anonymous HTTPS GET with curl from the Internet Archive per-file ISO extraction endpoint. No account, login, lending, payment, CAPTCHA, or terms acceptance was involved.",
+    "accessed_utc": "2026-09-15T20:36:27Z",
+    "metadata_accessed_utc": "2026-09-15T20:40:42Z"
+  },
+  "identification_evidence": [
+    "The course folder is pbdatc. Its CBTSETUP.INI names the course: \"Course Name=PowerBuilder: DataWindow Concepts\".",
+    "The course title screen pbdatc/PD_1ST.DIB reads \"PowerBuilder: DataWindow Concepts\".",
+    "The yellow callout text in the image matches pbdatc/PD04.TXT line 321 (\"Previewing the DataWindow enables you to see how using  edit styles has enhanced the presentation of the data.\"). Unit 4 of the course is \"Displaying and validating data\" (PD_UNIT.TXT, UNITLIST.INI), which matches the image title bar.",
+    "On screen: the sheet caption \"DataWindow - (untitled)\" and the DataWindow painter's StyleBar and preview contents."
+  ],
+  "version_evidence": {
+    "stated_powerbuilder_version": null,
+    "finding": "Neither the course files nor the image name a PowerBuilder version. Era evidence is strong: 1995 copyright, file dates Mar-Apr 1995, build stamp 13.06.95. The course predates PowerBuilder 5.0: the same catalogue lists separate, later courses titled \"PB 5: DataWindow Concepts\" (manual copyright 1996) and \"PB5: DataWindow Construction Techniques\". Its installer catalogue (pbdatc/SETUP.INI and pbdatc/UNITLIST.INI, dated 1995-06-28 and 1995-06-26) lists it beside \"Moving from Powerbuilder 3.0a to 4.0\". The course therefore most probably depicts PowerBuilder 4.0, but that is an inference, not a stated fact.",
+    "safe_caption_level": "PowerBuilder DataWindow painter, 1995"
+  },
+  "transformations": [
+    "source/original.dib: none (byte-identical to the archive file).",
+    "exports/editorial-frame.png: converted from palette to RGB and scaled uniformly by 1.95 (640x480 to 1248x936, Lanczos). Placed at x=336, y=72 on a flat #111318 1920x1080 ground. No crop, no stretch, no retouching, no added text, no added UI. Script: src/render_editorial_frame.py.",
+    "qa/editorial-frame-720p.png: the editorial frame downscaled to 1280x720 for proofing only."
+  ],
+  "license": {
+    "license_terms": "None found. The Internet Archive item has no licenseurl and no rights field. The course manual states all rights reserved, with a photocopy permission limited to bona fide clients using the course.",
+    "license_url": null
+  },
+  "rights_status": "unresolved: copyrighted commercial training material (1995 Powersoft Corporation / CBT Systems Ltd); no licence or permission identified; release blocked pending rights review",
+  "credit_text": "PowerBuilder DataWindow painter, from the training course \"PowerBuilder: DataWindow Concepts\" (c) 1995 Powersoft Corporation and CBT Systems Ltd. Source: Internet Archive, item cbt-systems-microsoft-office-and-powersoft.",
+  "alternates_inspected": [
+    {
+      "name_on_media": "pbdatc/HIGHLIGH.DIB",
+      "sha256": "eba916a210226991b15b7b619ca4a9748d8219df92a7e7032a7cd93242964fe5",
+      "size": "640x480, 8-bit RLE",
+      "notes": "Runtime \"Employee Information\" window with a grid DataWindow, Retrieve/Insert/Delete/Save/Sort buttons, and a desktop icon labelled \"PowerBuilder - a_intro2\". A CBT screen-recorder window (UNIT6SIM.SCM) overlaps the lower centre. Not selected: the recorder overlay is intrusive and the painter screen shows the product more clearly. Not copied into the package."
+    },
+    {
+      "name_on_media": "pbdatc/NEWDATWI.DIB",
+      "sha256": "5d74bb80f72c393e68f79e247e98ed9da6b86a08ee3b59cade7956b053e5cfb3",
+      "size": "416x308, 4-bit",
+      "notes": "New DataWindow dialog fragment: Data Source (Quick Select, Query, External, Stored Procedure) and Presentation Style (Composite, Crosstab, Freeform, Graph, Group, Label, N-Up). A cropped dialog, too small for a full-frame visual. Not copied into the package."
+    }
+  ],
+  "rejected_leads": [
+    { "lead": "Wikimedia Commons search \"PowerBuilder\"", "result": "No PowerBuilder or DataWindow files found (2026-09-15)." },
+    { "lead": "Internet Archive PowerBuilder_A_Sneak_Preview_Top_10_Features_Sybase_R64780_1996 (\"Top10 Features in PowerBuilder 5.0\")", "result": "All four VIDEO/*.AVI files downloaded and inspected frame by frame: stopwatch footage, a \"Planet Powersoft\" globe animation, and a presenter to camera. No DataWindow visible. The product screens are presumably inside TOP10.EXE, which was not downloaded or executed." },
+    { "lead": "Internet Archive PowerBuilder_Sneak_Preview_Powersoft_Sybase_1996", "result": "Same disc contents as above (identical file list, sizes, and timestamps)." },
+    { "lead": "Internet Archive Powersoft_Watcom_Products_Infobase_Volume_1_1997", "result": "The ISO listing endpoint returned \"failed to obtain file list\" twice. Not inspectable without downloading the 107 MB ISO; not pursued." },
+    { "lead": "Internet Archive PBTIPS_ZIP", "result": "Contains only PBTIPS.HLP (1994 WinHelp text tips). No screenshot identified; not pursued." },
+    { "lead": "PowerBuilder 4/5 books on the Internet Archive (for example powerbuilder40se0000unse, usingpowerbuilde0004wood)", "result": "Lending-library scans that need an account to borrow. Gated; not accessed." },
+    { "lead": "websites.nku.edu/~raghavan/pbtour.htm \"A Quick Tour of PowerBuilder (4.0) Environment\"", "result": "Text only; the one image is a decorative divider (reline.gif). No DataWindow image." },
+    { "lead": "Wayback Machine (web.archive.org) captures of powersoft.com, 1995-1998", "result": "Not reachable from this environment: WebFetch refused the host and curl returned HTTP 000 (connection failure). Not searched." }
+  ]
+}
