@@ -1,0 +1,231 @@
+{
+  "id": "HIST-08",
+  "title": "Windows 95 launch footage still",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source: uncropped frame capture from an archival 1995 television news program (Internet Archive native MPEG-2 original)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 4578,
+      "sha256": "01c65f89848ad4c1b6e86a29e9481fba4575b73dcf983e64679dd6b2c78c35c4"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2998,
+      "sha256": "b22e77cfe59eb5916716ae97508f76d35fd2ecc7f71ce0fde7550c222ab09d1e"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3198,
+      "sha256": "f71877d0430d8375927592c91d85f4923a252caae8f733ad31bf496bef58442a"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4052,
+      "sha256": "e615af523ded20c4e253d4ad4c629eb2881dbcdbacefe2535bc2ca9b1a98a416"
+    },
+    {
+      "path": "evidence/source-page/candidate-B_microsoftwindows95launchwithbillgatesandjayleno1995_metadata.json",
+      "role": "evidence / preserved source-page record",
+      "bytes": 4191,
+      "sha256": "8d43efa18cf7538b4ed24a620e617b9f0445b27b9c0fac2d43e537d5de86caaa"
+    },
+    {
+      "path": "evidence/source-page/CC1301_windows_95.asr.srt",
+      "role": "evidence / preserved source-page record",
+      "bytes": 45825,
+      "sha256": "8accc2ff8403869b5953dbed618d1fb2bce2d629492f2f3bd0a8328a6cc3cbad"
+    },
+    {
+      "path": "evidence/source-page/CC1301_windows_95_files.xml",
+      "role": "evidence / preserved source-page record",
+      "bytes": 29939,
+      "sha256": "53b72baaecea102ad5f2c29c77d61478ee6679c25d39183be2b756f300c3adc8"
+    },
+    {
+      "path": "evidence/source-page/CC1301_windows_95_meta.xml",
+      "role": "evidence / preserved source-page record",
+      "bytes": 1708,
+      "sha256": "80ff2db4d3cef74dbcca11d263b409bdc27048e53d9d5eb9cfb1212a61853e68"
+    },
+    {
+      "path": "evidence/source-page/fr_cc190_windows_95_metadata.json",
+      "role": "evidence / preserved source-page record",
+      "bytes": 7517,
+      "sha256": "6df2a825b9e316f61255c36a5d65f5b57221d30037e9cb83cbfe6963fc9f105e"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 7982,
+      "sha256": "1d6f41806484f5a058f9417020a12f6db65fba9307abac38aa97a4b7994a4997"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still (editorial-frame variant)",
+      "bytes": 1603586,
+      "sha256": "e7f99f8e5cdab8292c6329608d614c133f0fee077f682638d0f020236404cbb3"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "evidence / QA (720p proof)",
+      "bytes": 908011,
+      "sha256": "4eae413e7d6980145a08d8ab052499ff61283cba54569b586ff614edd7f7afb6"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 8208,
+      "sha256": "97d8fab2c9e8085a5e69d86f905c0614bd398cabffd55023809529c352243b0e"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original (uncropped native-file frame capture)",
+      "bytes": 658139,
+      "sha256": "88c0438ad6947720689371a4488fb5b93f80f472b1b7b2ab72aed9825262224f"
+    },
+    {
+      "path": "src/acquire.py",
+      "role": "editable input / reproduction script",
+      "bytes": 2413,
+      "sha256": "8973c0d24df6fe5ce3f15b88a50310b7c638f7c799f11c2ff2c6280aa3136a61"
+    },
+    {
+      "path": "src/build_delivery.py",
+      "role": "editable input / reproduction script",
+      "bytes": 6357,
+      "sha256": "033be832762e9a7924de5e086482a0fedc7aecf654ccdf5ee1cf1236edc21863"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "editable input / reproduction script",
+      "bytes": 2131,
+      "sha256": "6f07648c189446186381ebd6a3fe87c68819f95a287db49ee2d892af4ed50b72"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "path": "source/original.png",
+      "dimensions": {
+        "width": 720,
+        "height": 480
+      },
+      "timeline": null,
+      "note": "Stored raster, SAR 8:9 (4:3 display). Source timecode 00:06:59 in CC1301_windows_95.mpeg."
+    },
+    {
+      "name": "editorial-frame",
+      "path": "exports/editorial-frame.png",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "timeline": null,
+      "framing": {
+        "picture_box": [
+          240,
+          0,
+          1680,
+          1080
+        ],
+        "background": "#000000",
+        "crop": null,
+        "resample": "Lanczos"
+      },
+      "note": "Still; holds for editorial timing. No named cutdowns."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        92,
+        92
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt (plan lead)"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        112,
+        114
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (narrative/VISUAL cue)"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://archive.org/download/CC1301_windows_95/CC1301_windows_95.mpeg",
+      "source_page": "https://archive.org/details/CC1301_windows_95",
+      "timecode": "00:06:59",
+      "native_md5": "e77c6e94d29e30c7b72b4cef4568c3ef",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "from": "source/original.png",
+      "relationship": "derivative crop (full-frame pillarbox, no pixels removed)"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "source/original.png, exports/editorial-frame.png",
+      "text": "Computer Chronicles, \"Windows 95\" (1995) © Stewart Cheifet Productions. Courtesy of the Internet Archive.",
+      "status": "proposed; rights unresolved (evidence/rights.json)"
+    }
+  ],
+  "tests": [
+    {
+      "name": "acquire.py native-file frame decode",
+      "result": "pass",
+      "detail": "ffmpeg decoded I-frame at byte pos 514136078, 720x480 SAR 8/9, checksum BBA9F720; PNG pixels identical to an independent earlier grab"
+    },
+    {
+      "name": "render_frame.py",
+      "result": "pass",
+      "detail": "exports/editorial-frame.png 1920x1080; proofs/editorial-frame-720.png 1280x720; pillar pixels (100,500) and (1800,500) are (0,0,0)"
+    },
+    {
+      "name": "manual visual inspection at 1920x1080, 1:1 crop, and 1280x720",
+      "result": "pass with notes",
+      "detail": "see qa.md"
+    },
+    {
+      "name": "tools/validate_delivery.py --id HIST-08",
+      "result": "see qa.md (actual output recorded)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "ffprobe": "ffprobe version 6.0-essentials_build-www.gyan.dev Copyright (c) 2007-2023 the FFmpeg developers",
+    "acquire_command": "python assets/historical/HIST-08/src/acquire.py",
+    "render_command": "python assets/historical/HIST-08/src/render_frame.py",
+    "delivery_command": "python assets/historical/HIST-08/src/build_delivery.py",
+    "os": "Windows 11 Pro 10.0.26200"
+  },
+  "notes": [
+    "Historical proof. Release blocked on R14 rights; see qa.md RQ-1..RQ-3.",
+    "The full native MPEG-2 (1.99 GB) is not vendored. It is identified by IA-published md5/sha1 in evidence/source-page/CC1301_windows_95_files.xml.",
+    "No audio, AI-generated content, watermark removal, or added text."
+  ]
+}

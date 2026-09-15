@@ -1,0 +1,76 @@
+{
+  "id": "HIST-08",
+  "provenance_classification": "historical source",
+  "project_sources": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [92, 92],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "use": "Plan lead: 'Windows 95 launch footage stills' from YouTube screenshots. Treated as a lead only; YouTube was not used because a public archive held the native original."
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [112, 114],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "use": "Narrative context and the VISUAL cue at line 114."
+    }
+  ],
+  "external_sources": [
+    {
+      "relationship": "historical original",
+      "item": "https://archive.org/details/CC1301_windows_95",
+      "file": "CC1301_windows_95.mpeg (IA original, md5 e77c6e94d29e30c7b72b4cef4568c3ef)",
+      "timecode": "00:06:59 (seek 419 s)",
+      "local_copy": "source/original.png",
+      "record": "evidence/source.json"
+    },
+    {
+      "relationship": "source-page preservation",
+      "files": [
+        "evidence/source-page/CC1301_windows_95_meta.xml",
+        "evidence/source-page/CC1301_windows_95_files.xml",
+        "evidence/source-page/CC1301_windows_95.asr.srt"
+      ],
+      "retrieved": "2026-09-15",
+      "note": "Byte copies of the IA metadata and machine ASR transcript as served on the access date."
+    },
+    {
+      "relationship": "rights evidence (related item)",
+      "files": ["evidence/source-page/fr_cc190_windows_95_metadata.json"],
+      "retrieved": "2026-09-15",
+      "note": "Trimmed JSON: metadata block kept whole, file list reduced."
+    },
+    {
+      "relationship": "candidate record (not acquired)",
+      "files": ["evidence/source-page/candidate-B_microsoftwindows95launchwithbillgatesandjayleno1995_metadata.json"],
+      "retrieved": "2026-09-15",
+      "note": "Trimmed JSON: metadata block kept whole, file list reduced."
+    },
+    {
+      "relationship": "date corroboration",
+      "url": "https://news.microsoft.com/source/1996/08/21/one-year-anniversary-of-windows-95-to-be-celebrated/",
+      "retrieved": "2026-09-15",
+      "note": "Read online, not stored."
+    }
+  ],
+  "derived_outputs": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (no crop)",
+      "from": "source/original.png",
+      "command": "python assets/historical/HIST-08/src/render_frame.py"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "relationship": "QA downscale proof",
+      "from": "exports/editorial-frame.png",
+      "command": "python assets/historical/HIST-08/src/render_frame.py"
+    }
+  ],
+  "authored_additions": [
+    "Black pillarbox bars only. No text, captions, UI, logos, or annotations were added. The on-screen caption is the 1995 broadcast's own graphic."
+  ],
+  "ai_generated_content": "none",
+  "producer_decisions": [],
+  "open_review_questions": ["RQ-1", "RQ-2", "RQ-3"]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "HIST-08",
+  "selected": {
+    "creator": "Stewart Cheifet Productions (Computer Chronicles). The segment reporter signs off as Giles Bateman at 00:08:22 in the ASR transcript; the spelling is not verified.",
+    "title": "Computer Chronicles, season 13: \"Windows 95\" (Internet Archive item CC1301_windows_95). Launch-event report segment.",
+    "clip_publisher": "Stewart Cheifet Productions (television program). Online distribution through the Internet Archive.",
+    "original_publication_date": "1995",
+    "original_publication_date_detail": "IA item says 'Originally broadcast in 1995.' Wikipedia's episode list gives 26 September 1995 (secondary source, unverified against a broadcast log).",
+    "archive_publication_date": "2004-08-11 15:05:42 (IA publicdate); metadata last updated 2010-02-04 by account 'cheifet'",
+    "depicted_event": "Windows 95 launch event, Microsoft, Redmond, Washington",
+    "depicted_event_date": "1995-08-24",
+    "depicted_event_date_evidence": "Microsoft press release, 21 August 1996, announces the one-year anniversary of Windows 95 'on Saturday, Aug. 24'. CC1301 narration places the footage on 'the day Windows 95 was finally released'.",
+    "source_page_url": "https://archive.org/details/CC1301_windows_95",
+    "source_metadata_url": "https://archive.org/metadata/CC1301_windows_95",
+    "native_file": {
+      "url": "https://archive.org/download/CC1301_windows_95/CC1301_windows_95.mpeg",
+      "ia_source_role": "original",
+      "size_bytes": 1991469060,
+      "md5": "e77c6e94d29e30c7b72b4cef4568c3ef",
+      "sha1": "fb1a5867e05c56c600c9a5297554e3bf51b33846",
+      "ffprobe": "MPEG-PS; mpeg2video 720x480, SAR 8:9, DAR 4:3, 30000/1001 fps, field order tt; mp2 audio; duration 1622.454167 s; start_time 0.139633",
+      "downloaded_in_full": false,
+      "note": "Only the byte ranges needed to seek and decode one frame were read over HTTP. The full 1.99 GB file is not stored in the repo. The IA-published checksums above identify it."
+    },
+    "source_timecode": {
+      "seek_seconds": 419,
+      "timecode": "00:06:59",
+      "method": "ffmpeg input seek (-ss 419 before -i, accurate seek); first decoded output frame",
+      "decoded_frame": "I-frame, key, byte position 514136078 in the native file, yuv420p 720x480 SAR 8/9, ffmpeg frame checksum BBA9F720, plane checksums [905DAFD2 EB447F1C 2258C823]",
+      "transcript_context": "ASR line at 00:06:58: 'No, it's not the Tonight Show. Bill Gates invited Jay Leno to launch Windows 95 at this Hollywood-style event at Microsoft headquarters.'",
+      "derivative_crosscheck": "The same moment in IA derivative CC1301_windows_95.mp4 (640x480, md5 e831fa4d329fc2278386dffe7c029934) shows the same shot and caption. It was not used as the original."
+    },
+    "access_date": "2026-09-15",
+    "original_dimensions": {"stored_width": 720, "stored_height": 480, "sample_aspect_ratio": "8:9", "display_aspect_ratio": "4:3"},
+    "version_identity_evidence": [
+      "Burned-in broadcast caption 'MICROSOFT / REDMOND, WA'",
+      "Segment narration (00:06:36-00:08:22) describes the Redmond launch with Bill Gates and Jay Leno",
+      "Stage branding: Windows flag screens and 'Start' sign"
+    ],
+    "acquired_file": {
+      "path": "source/original.png",
+      "sha256": "88c0438ad6947720689371a4488fb5b93f80f472b1b7b2ab72aed9825262224f",
+      "description": "Uncropped decoded frame at the stored 720x480 raster. No scaling, pixel-aspect correction, deinterlace, or colour change.",
+      "command": "python assets/historical/HIST-08/src/acquire.py"
+    },
+    "transformations_to_editorial_frame": [
+      "Resize 720x480 (SAR 8:9) to 1440x1080 square pixels with Pillow Lanczos. This corrects pixel aspect to 4:3 and scales uniformly; nothing is stretched.",
+      "Pillarbox on a black 1920x1080 canvas at x=240, y=0.",
+      "No crop. The full stored raster is kept, including the tape's thin side blanking. The operation is reversible by taking the region (240,0)-(1680,1080) and resizing it back to 720x480."
+    ],
+    "license_terms": "None found on this item. See evidence/rights.json.",
+    "license_url": null,
+    "rights_status": "unresolved",
+    "credit_text": "Computer Chronicles, \"Windows 95\" (1995) © Stewart Cheifet Productions. Courtesy of the Internet Archive. (proposed)"
+  },
+  "candidates_considered": [
+    {
+      "rank": 1,
+      "status": "selected",
+      "ref": "CC1301_windows_95 @ 00:06:59",
+      "why": "Third-party news coverage. The location caption is in the frame. Wide shot shows the stage, Windows branding, and crowd together. Native original is available anonymously."
+    },
+    {
+      "rank": 2,
+      "status": "not acquired",
+      "ref": "https://archive.org/details/microsoftwindows95launchwithbillgatesandjayleno1995 @ about 5217 s (wide crowd in launch tent); also 715 s and 4914 s (stage)",
+      "creator": "Microsoft Corporation, Caribiner (per uploader metadata)",
+      "date": "1995-08-24 (uploader metadata)",
+      "native": "MKV 655x480, 2,795,064,236 bytes (IA original)",
+      "license_evidence": "No licenseurl. The tape opens with a card stating it is intended only for those authorized by Microsoft and that rebroadcast without permission is prohibited. Uploaded 2022 by a private VHS collector; mirrored from YouTube _JzfROUDsK0.",
+      "deficiencies": "Internal Microsoft production with an explicit no-rebroadcast notice, so rights are more restrictive than rank 1. Private-collector VHS provenance. No in-frame location or date caption. Uploader-supplied metadata only.",
+      "record": "evidence/source-page/candidate-B_microsoftwindows95launchwithbillgatesandjayleno1995_metadata.json"
+    },
+    {
+      "rank": 3,
+      "status": "not acquired",
+      "ref": "https://archive.org/details/windows-95-commercial",
+      "creator": "Microsoft Corporation (per uploader metadata)",
+      "date": "1995 (uploader metadata)",
+      "native": "MP4 768x576 PAL VHS, 63.5 s",
+      "license_evidence": "No licenseurl. Advertisement with the Rolling Stones 'Start Me Up' soundtrack.",
+      "deficiencies": "A television commercial, not launch-event footage. Also involves third-party music rights. Considered only because the script mentions the Rolling Stones."
+    }
+  ],
+  "searches": [
+    {"where": "Wikimedia Commons API (File namespace and categories)", "queries": ["Windows 95 launch", "intitle:\"Windows 95\" launch", "\"Windows 95\" launch 1995", "\"Windows 95\" 1995 launch OR release OR Leno OR \"Empire State\"", "Category:Windows 95", "Category:Microsoft Redmond campus", "Category:Bill Gates in 1995", "Category:Microsoft in 1995", "Category:CompUSA"], "result": "No photo or video of the 1995 launch event or launch-day store lines. Results were screenshots, hardware photos, 2015 anniversary photos, and unrelated PDFs. Several queries were rate-limited (HTTP 429) and one combined retry succeeded.", "date": "2026-09-15"},
+    {"where": "Internet Archive advancedsearch", "queries": ["title:(\"windows 95\") AND mediatype:movies", "\"windows 95\" AND (launch OR release) AND mediatype:movies", "subject:\"windows 95 launch\"", "\"windows 95\" AND year:1995", "\"windows 95\" AND (news OR newscast) AND mediatype:movies"], "result": "Found CC1301_windows_95 (selected), fr_cc190_windows_95 (French version, CC BY-NC-ND 2.0), three copies of the Microsoft launch tape, and the Start Me Up commercial.", "date": "2026-09-15"},
+    {"where": "Wayback Machine CDX for archive.org/details/CC1301_windows_95", "result": "Rate-limited (HTTP 429) twice, then an empty response. No capture was confirmed. The page was not submitted to Save Page Now (that would be a public write). The IA metadata, meta.xml, and files.xml were preserved locally instead.", "date": "2026-09-15"},
+    {"where": "Commercial stock (Getty Images, eFootage)", "result": "Seen in web-search results only. Paid footage is not authorized, so it was not opened or pursued.", "date": "2026-09-15"}
+  ]
+}

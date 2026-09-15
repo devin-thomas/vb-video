@@ -1,0 +1,42 @@
+{
+  "id": "HIST-08",
+  "asset": "source/original.png and exports/editorial-frame.png",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked pending rights review (R14)",
+  "rights_holders": [
+    {
+      "party": "Stewart Cheifet Productions",
+      "role": "Copyright holder of the Computer Chronicles episode 'Windows 95' (CC1301)",
+      "evidence": "Internet Archive item description: 'Copyright 1995 Stewart Cheifet Productions.' (evidence/source-page/CC1301_windows_95_meta.xml)"
+    },
+    {
+      "party": "Microsoft Corporation (and possibly its event producer)",
+      "role": "Designer and owner of the launch-event staging, logos, and trademarks visible in the frame. The report may also include Microsoft-supplied event video; this is not documented.",
+      "evidence": "Windows flag and 'Start' branding are visible in the frame. Microsoft's separate launch tape credits 'Microsoft Corporation, Caribiner' (IA microsoftwindows95launchwithbillgatesandjayleno1995) and opens with a card saying rebroadcast without permission is prohibited. Whether CC1301 used Microsoft pool footage is unknown."
+    }
+  ],
+  "license_found_on_this_item": null,
+  "license_url": null,
+  "related_license_evidence": {
+    "item": "https://archive.org/details/fr_cc190_windows_95",
+    "license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "note": "The French-language version of the same program carries CC BY-NC-ND 2.0, and its metadata was last updated by the account 'cheifet'. Cheifet being the rights holder is an inference, not verified. The license is not stated on the English item used here. Even if it applied, NonCommercial may conflict with a monetized or public YouTube release, and NoDerivatives may restrict a reframed or pillarboxed copy."
+  },
+  "terms_checked": [
+    "archive.org/metadata/CC1301_windows_95: no licenseurl or rights key (accessed 2026-09-15)",
+    "CC1301_windows_95_meta.xml: no license element (accessed 2026-09-15)",
+    "archive.org/metadata/computerchronicles (collection): no license or rights statement (accessed 2026-09-15)",
+    "archive.org/metadata/Stewart_Cheifet_COL_1637 (donation record): describes a tape donation and grants no license (accessed 2026-09-15)"
+  ],
+  "public_domain_assumption": "none. A 1995 television program is not assumed public domain.",
+  "fair_use_assumption": "none. A fair-use assessment is a legal question for rights review.",
+  "other_considerations": [
+    "Identifiable audience members appear in the foreground. Jay Leno is a small figure at the lectern.",
+    "The 'MICROSOFT / REDMOND, WA' lower third is original broadcast graphics. It is kept intact and is not a watermark.",
+    "No audio was taken."
+  ],
+  "access_method": "Anonymous public HTTP read of the Internet Archive download URL. No account, login, terms click-through, payment, or CAPTCHA was involved. Only the byte ranges needed to decode one frame were read.",
+  "access_date": "2026-09-15",
+  "proposed_credit_text": "Computer Chronicles, \"Windows 95\" (1995) © Stewart Cheifet Productions. Courtesy of the Internet Archive.",
+  "credit_text_status": "proposed; the rights holder may require different wording"
+}

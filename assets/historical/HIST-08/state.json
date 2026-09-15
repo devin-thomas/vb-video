@@ -1,12 +1,16 @@
 {
   "id": "HIST-08",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "HIST-08 worker (Historical Screenshots Manager, session vb-7a)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: no item-specific license. Computer Chronicles episode is copyright 1995 Stewart Cheifet Productions, and Microsoft event staging is visible. Rights review required (RQ-1)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Produced as a historical proof: an uncropped native-original frame from Internet Archive CC1301_windows_95.mpeg at 00:06:59, plus a 16:9 pillarboxed editorial frame.",
+    "Release stays blocked until the rights question is decided in the review deck. Nothing was cleared.",
+    "Review questions RQ-1 (rights), RQ-2 (editorial framing), and RQ-3 (Writing Lead, SCRIPT.md:114 VISUAL wording) are in qa.md."
   ]
 }
