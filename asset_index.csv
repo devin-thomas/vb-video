@@ -128,7 +128,7 @@ XTRA-06,Project settings: actual War.vbproj capture,captures,capture,capture,SCR
 XTRA-08,1995 tools class-photo lineup,stills,still,design,SCRIPT-SUPPLEMENT,13,OPS-01,R15,assets/stills/XTRA-08,docs/tickets/XTRA-08.md,157,produced,blocked
 XTRA-10,VB-for-Mac claim visual: evidence-gated decision,stills,still,research,SCRIPT-SUPPLEMENT,14,OPS-01,"R09,R14",assets/stills/XTRA-10,docs/tickets/XTRA-10.md,158,produced,blocked
 XTRA-14,Real-world VB application collage,stills,still,design,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11,XTRA-12,XTRA-13","R11,R14",assets/stills/XTRA-14,docs/tickets/XTRA-14.md,159,produced,blocked
-XTRA-15,Windows XP office / legacy VB6 scene,stills,still,research,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11","R01,R11,R14",assets/stills/XTRA-15,docs/tickets/XTRA-15.md,160,planned,blocked
+XTRA-15,Windows XP office / legacy VB6 scene,stills,still,research,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11","R01,R11,R14",assets/stills/XTRA-15,docs/tickets/XTRA-15.md,160,produced,blocked
 OPS-01,"Shared visual system, reusable primitives, and deterministic export contract",ops,support,orchestrator,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-01,docs/tickets/OPS-01.md,28,produced,unreviewed
 OPS-02,Isolated .NET harness and capture preflight,ops,support,capture,COORDINATION,"4,11",,R17,assets/ops/OPS-02,docs/tickets/OPS-02.md,29,produced,approved
 OPS-03,"Editorial, historical evidence, and rights clearance ledger",ops,support,research,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-03,docs/tickets/OPS-03.md,30,planned,unreviewed
