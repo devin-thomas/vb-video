@@ -1,13 +1,15 @@
 {
   "id": "XTRA-04",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": "2026-09-15T17:00:16+00:00",
+  "assigned_agent": "Render Lane worker (subagent of vb-97)",
+  "updated_at": "2026-09-15T21:00:00+00:00",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "The session-2 SVG filed here was a Java 1.0 AWT code card (old GitHub issue #26), not the FORTRAN versus BASIC example this ticket requires. It was moved to assets/slides/code-contrast-java-awt.svg and production_status was corrected from produced to planned during the repository migration."
+    "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
+    "Publication approval is separate from production.",
+    "R15 stays blocked with five review questions (Q1-Q5) in evidence/claim-checks.json: list-free FORTRAN II PRINT, the 'more readable' framing for the Writing Lead, on-screen dialect labels, batch-versus-terminal fairness, and plain O rendering."
   ],
-  "owner": "Claude Code — migration correction"
+  "owner": "Claude Code — local production"
 }

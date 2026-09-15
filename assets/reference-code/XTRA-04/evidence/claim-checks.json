@@ -1,0 +1,133 @@
+{
+  "gates": [
+    {
+      "id": "R15",
+      "status": "blocked",
+      "reason": "Syntax and dialect of both authored programs were checked against 1964 primary manuals (claim_checks below). Release stays blocked: the list-free FORTRAN II PRINT is supported only by implication, the script's 'more readable' framing is a judgement evidence cannot settle, and no sample was executed.",
+      "evidence_paths": [
+        "source-excerpts.md",
+        "provenance.json",
+        "../src/excerpt-fortran2.f",
+        "../src/excerpt-dartmouth.bas"
+      ],
+      "approver": null,
+      "accessed": "2026-09-15",
+      "claim_checks": [
+        {
+          "id": "B1",
+          "claim": "Dartmouth BASIC prints a quoted message with <line number> PRINT \"...\"",
+          "status": "supported",
+          "evidence": "BASIC manual 1 Oct 1964, p.28 §2.6.3 (form and examples); p.31 §3.1 rule 1 (a label in quotes is printed as it appears)"
+        },
+        {
+          "id": "B2",
+          "claim": "A BASIC program needs END, and END has the highest line number",
+          "status": "supported",
+          "evidence": "BASIC manual 1 Oct 1964, p.30 §2.6.6"
+        },
+        {
+          "id": "B3",
+          "claim": "Every BASIC statement begins with a line number; numbering by tens matches the manual's own example",
+          "status": "supported",
+          "evidence": "BASIC manual 1 Oct 1964, p.3 §2.1 (lines 10-90); p.56 Appendix C"
+        },
+        {
+          "id": "F1",
+          "claim": "FORTRAN II PRINT takes a FORMAT statement number and prints on the on-line printer",
+          "status": "supported",
+          "evidence": "C28-6054-5 p.24 (PRINT n, List)"
+        },
+        {
+          "id": "F2",
+          "claim": "PRINT 1 may omit the list when FORMAT 1 contains only alphameric (H) fields",
+          "status": "supported_by_implication",
+          "evidence": "C28-6054-5 p.22 excepts a FORMAT 'consists entirely of alphameric fields' from pairing with a list; the p.24 general form still shows a List and no list-free example was found. C28-6274-2 (7090 FORTRAN IV) p.21.1 says PRINT requires an output list, so the sample is not labelled FORTRAN IV.",
+          "review_question": "Q1"
+        },
+        {
+          "id": "F3",
+          "claim": "6H HELLO is six characters: a leading blank plus HELLO; blanks count in w",
+          "status": "supported",
+          "evidence": "C28-6054-5 p.21 (wH, blanks included in the count)"
+        },
+        {
+          "id": "F4",
+          "claim": "The first character of a printed record is carriage control, not printed; blank means single space; one H field may hold the control character and the text",
+          "status": "supported",
+          "evidence": "C28-6054-5 p.22 (Carriage Control, required for PRINT); p.5 Figure 1-1 uses 22H1THE LARGEST OF THESE and 12H NUMBERS IS"
+        },
+        {
+          "id": "F5",
+          "claim": "Under the FORTRAN II Monitor a program ends with CALL EXIT, not STOP, and END is still required as the physically last card",
+          "status": "supported",
+          "evidence": "C28-6054-5 p.34 item 4b-c; p.16 (STOP not for Monitor/IBSYS; END last); p.40 (plain END allowed); p.5 Figure 1-1 ends CALL EXIT / END"
+        },
+        {
+          "id": "F6",
+          "claim": "Statement numbers in card columns 1-5, statements from column 7",
+          "status": "supported",
+          "evidence": "C28-6054-5 pp.5-6"
+        },
+        {
+          "id": "F7",
+          "claim": "Every character in the FORTRAN listing is in the FORTRAN II source character set",
+          "status": "supported",
+          "evidence": "C28-6054-5 p.46 Appendix B (letters, digits, blank, parentheses)"
+        },
+        {
+          "id": "S1",
+          "claim": "Script SCRIPT.md:69: the BASIC version is visibly shorter",
+          "status": "supported_for_this_task",
+          "evidence": "Same task, no padding: FORTRAN II needs 4 statements, BASIC 2, at identical 48 px code size. Every FORTRAN line is required (F1-F5). The gap is two lines for a minimal program; this asset does not show that it holds for larger programs.",
+          "review_question": "Q2"
+        },
+        {
+          "id": "S2",
+          "claim": "Script SCRIPT.md:69: the BASIC version is more readable",
+          "status": "not_settleable_by_evidence",
+          "evidence": "Judgement. Checkable differences are shown instead: FORTRAN needs a separate FORMAT statement, counted Hollerith text, a carriage-control character and card columns; BASIC puts the message in quotes on one numbered line.",
+          "review_question": "Q2"
+        },
+        {
+          "id": "S3",
+          "claim": "Script SCRIPT.md:71 narration: 1964 languages, punched cards, Kemeny and Kurtz's aims",
+          "status": "not_checked_in_this_asset",
+          "evidence": "Nothing in these exports states these points. Incidentally confirmed: the BASIC manual is dated 1 October 1964 by the Dartmouth College Computation Center, and C28-6054-5 p.5 describes punching each FORTRAN statement on a card. Kemeny and Kurtz are not named on the pages read."
+        },
+        {
+          "id": "E1",
+          "claim": "Either sample ran on period hardware or produced output",
+          "status": "not_claimed",
+          "evidence": "No execution environment was used; the exports show source text only and no output or compile result."
+        }
+      ],
+      "review_questions": [
+        {
+          "id": "Q1",
+          "question": "The FORTRAN II sample uses PRINT 1 with no output list. IBM's 7090/7094 FORTRAN II manual allows an all-alphameric FORMAT without a list but shows no list-free PRINT example, and nothing was executed. Accept it as an illustrative listing, or should an emulator run be commissioned before release? Adding a dummy variable to the list would pad FORTRAN and is not recommended.",
+          "evidence": "claim_checks F2"
+        },
+        {
+          "id": "Q2",
+          "question": "For Writing Lead: honestly compared, BASIC is shorter (2 statements to 4), but the gap is small for a one-line task, and 'more readable' is a judgement. Keep the narration and visual cue as written, or soften to 'shorter, with less ceremony'? No SCRIPT.md change is required for this asset to stay accurate; it shows the programs and makes no readability claim on screen.",
+          "evidence": "claim_checks S1, S2"
+        },
+        {
+          "id": "Q3",
+          "question": "The exports add dialect labels ('FORTRAN II for the IBM 7090/7094', 'Dartmouth BASIC, October 1964') beyond the ticket copy 'FORTRAN | BASIC / Same task, different syntax'. Keep them on screen, or move them to the edit's lower third?",
+          "evidence": "provenance.json authored_additions"
+        },
+        {
+          "id": "Q4",
+          "question": "The two programs come from different workflows: a batch deck on a 7090/7094 (job control cards not shown) and a time-sharing terminal (RUN and other commands not shown). Is listing-only comparison fair enough for the narration, or should a caption acknowledge it?",
+          "evidence": "provenance.json authored_additions"
+        },
+        {
+          "id": "Q5",
+          "question": "Both 1964 manuals' conventions aside, the listings show plain letter O rather than the BASIC manual's slashed O. Accept the modern rendering?",
+          "evidence": "source-excerpts.md (BASIC p.3)"
+        }
+      ]
+    }
+  ]
+}

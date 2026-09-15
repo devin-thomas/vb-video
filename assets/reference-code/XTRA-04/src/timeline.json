@@ -1,0 +1,22 @@
+{
+  "id": "XTRA-04",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: FORTRAN left, BASIC right, same task and matching readability.",
+    "Focus overlay may emphasize line structure, but not distort size."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "comparison"
+  ],
+  "motion_model": "Still asset: one state held for editorial timing; the comparison variant is a separate still."
+}

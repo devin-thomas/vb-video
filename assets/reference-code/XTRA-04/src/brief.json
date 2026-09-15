@@ -1,0 +1,30 @@
+{
+  "id": "XTRA-04",
+  "title": "FORTRAN versus BASIC introductory example",
+  "requirements": [
+    "The script gives no actual FORTRAN program. Author the same minimal task in a documented period FORTRAN dialect and a corresponding BASIC dialect, and preserve the examples as illustrative authored code.",
+    "Use a simple hello/message task appropriate to the narration. Check syntax and historical dialect against primary documentation before release; do not claim an unexecuted sample ran on 1964 hardware.",
+    "Match font size and program scope. If BASIC is not shorter in a valid comparison, report the mismatch rather than padding FORTRAN to satisfy the narration.",
+    "Do not silently amend the historical narration; mark the unsupported length/readability framing for editorial review."
+  ],
+  "beats": [
+    "Still: FORTRAN left, BASIC right, same task and matching readability.",
+    "Focus overlay may emphasize line structure, but not distort size."
+  ],
+  "checks": [
+    "Both programs express the same task at comparable scope.",
+    "Dialects and source/verification records are named.",
+    "No padding, broken code, invented compile results, or unequal typography creates the contrast."
+  ],
+  "copy": "FORTRAN | BASIC\nSame task, different syntax",
+  "refs": [
+    [
+      "SCRIPT.md",
+      69,
+      71
+    ]
+  ],
+  "gates": [
+    "R15"
+  ]
+}

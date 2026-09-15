@@ -94,3 +94,11 @@ Return this ID, concrete output paths, variant/duration information, exact prove
 
 In 1964, if you wanted to write a program, you were probably writing FORTRAN or COBOL or assembly language. You were probably punching cards. The learning curve was brutal. Kemeny and Kurtz wanted something that a college freshman with no technical background could sit down and start using. So they made BASIC.
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/reference-code/XTRA-04/delivery.json) · [QA and remaining decisions](../../assets/reference-code/XTRA-04/qa.md) · [Live state](../../assets/reference-code/XTRA-04/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

@@ -1,0 +1,35 @@
+{
+  "id": "XTRA-04",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "comparison": "variant-comparison.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Agent-authored illustrative programs, not recovered historical source and not run: no IBM 7090 FORTRAN II processor or Dartmouth Time-Sharing System was used.",
+    "Dialects checked against the IBM 7090/7094 FORTRAN II Programming manual (form C28-6054-5) and the Dartmouth BASIC manual of 1 October 1964; page citations are in evidence/claim-checks.json.",
+    "Both programs print one line, HELLO, and end. FORTRAN II needs 4 statements (PRINT, FORMAT, CALL EXIT, END); BASIC needs 2 (PRINT, END). Nothing was added to lengthen FORTRAN: CALL EXIT is required under the FORTRAN II Monitor (C28-6054-5 p.34).",
+    "Same code size (48 px DejaVu Sans Mono) and line pitch in both panels. The comparison variant adds line bands, a card-column guide and two captions; it does not resize or move the code.",
+    "Neither program uses the manuals’ slashed letter O; plain O is shown in both. Job control cards (FORTRAN) and terminal commands such as RUN (BASIC) are outside both listings.",
+    "Release stays blocked under R15 pending editorial review of the length/readability framing."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        69,
+        71
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "kind": "still"
+}
