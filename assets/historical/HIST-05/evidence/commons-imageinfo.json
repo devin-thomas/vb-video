@@ -1,0 +1,54 @@
+{
+  "_capture": {
+    "request": "https://commons.wikimedia.org/w/api.php?action=query&titles=File:C64_startup_animiert.gif&prop=imageinfo&iiprop=timestamp|user|comment|url|size|sha1|mime|metadata&iilimit=50&format=json",
+    "accessed": "2026-09-15T20:28:35Z",
+    "note": "Response body transcribed from the HTTP 200 reply captured during research; keys and values unchanged. The companion file commons-file-page.wikitext is the action=raw wikitext of https://commons.wikimedia.org/wiki/File:C64_startup_animiert.gif fetched the same day."
+  },
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:C64_startup_animiert.gif",
+        "to": "File:C64 startup animiert.gif"
+      }
+    ],
+    "pages": {
+      "521719": {
+        "pageid": 521719,
+        "ns": 6,
+        "title": "File:C64 startup animiert.gif",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "timestamp": "2006-01-19T00:25:44Z",
+            "user": "Gedeon",
+            "size": 1654,
+            "width": 360,
+            "height": 248,
+            "duration": 1,
+            "comment": "",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/C64_startup_animiert.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:C64_startup_animiert.gif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=521719",
+            "sha1": "79ba302dee5ef066edd31d1e66c5f7c728b62699",
+            "metadata": [
+              {
+                "name": "frameCount",
+                "value": 2
+              },
+              {
+                "name": "looped",
+                "value": true
+              },
+              {
+                "name": "duration",
+                "value": 1
+              }
+            ],
+            "mime": "image/gif"
+          }
+        ]
+      }
+    }
+  }
+}

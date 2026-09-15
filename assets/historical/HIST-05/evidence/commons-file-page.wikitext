@@ -1,0 +1,19 @@
+== {{int:filedesc}} ==
+== {{int:license-header}} ==
+{{Information
+|description={{en|1=C64 startup. GIF Animation}}
+|date=2006-01-19
+|source={{Own}}
+|author=[[User:Gedeon|Gedeon]]
+|permission=
+|other_versions=
+}}
+== {{int:license-header}} ==
+{{PD-ineligible}}
+{{PD-text}}
+{{PD-font}}
+{{PD-US-1978-89}}
+
+[[Category:Commodore 64 screenshots]]
+[[Category:Animated GIF files]]
+[[Category:Animated screenshots]]

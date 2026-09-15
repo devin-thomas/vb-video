@@ -1,12 +1,14 @@
 {
   "id": "HIST-05",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
+  "assigned_agent": "Historical Screenshots worker (manager session vb-7a)",
+  "updated_at": "2026-09-15T21:05:00+00:00",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
-  ]
+    "Original acquired from Wikimedia Commons (File:C64 startup animiert.gif); SHA-1 matches Commons. Editorial frame rendered and checked at 1080p and 720p.",
+    "Release blocked: R14 rights decision and an authenticity question are open review questions (qa.md, evidence/claim-checks.json)."
+  ],
+  "owner": "Claude Code — local production"
 }

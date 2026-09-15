@@ -1,0 +1,47 @@
+{
+  "id": "HIST-05",
+  "classification": "historical source: community-uploaded digital image of the Commodore 64 power-on screen (Wikimedia Commons), with a reversible editorial framing copy",
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [91, 91],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [73, 75],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.gif",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/C64_startup_animiert.gif",
+      "page": "https://commons.wikimedia.org/wiki/File:C64_startup_animiert.gif",
+      "sha256": "365dca42a5d1ffe14188cc1270cde22f6830c8965a30336e2b06a31cd4f13557",
+      "sha1": "79ba302dee5ef066edd31d1e66c5f7c728b62699",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.gif frame 1",
+      "transform_record": "evidence/framing.json",
+      "relationship": "derivative crop"
+    },
+    {
+      "url": "https://archive.org/details/commodore-64-user-guide/page/n27/mode/1up",
+      "title": "Commodore 64 User's Guide, printed page 12",
+      "relationship": "external primary source used for verification only; not copied into the asset"
+    }
+  ],
+  "authored_additions": [
+    "Choice of frame 1 (cursor visible) for the editorial frame.",
+    "Black letterbox/pillarbox and 3x integer nearest-neighbour scale so the whole image sits inside the 72-1008 px safe band.",
+    "Proposed credit text in evidence/rights.json."
+  ],
+  "original_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "ai_generated_content": false,
+  "producer_decisions": []
+}
