@@ -1,0 +1,52 @@
+{
+  "id": "XTRA-12",
+  "provenance_classification": "historical source",
+  "script_supplement": {
+    "original_plan_family": "SCRIPT-SUPPLEMENT",
+    "note": "This fills a visual the script names but the categorized asset plan omitted. It is not an ASSET_PLAN.md row."
+  },
+  "script_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [685, 687],
+      "sha256_of_file": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative anchor (VISUAL cue: data entry forms within a collage of real-world VB applications)"
+    },
+    {
+      "path": "War/SCRIPT.md",
+      "lines": [744, 744],
+      "relationship": "working-script copy of the same VISUAL cue; read only, not edited"
+    }
+  ],
+  "external_sources": [
+    {
+      "path": "source/original.gif",
+      "relationship": "historical original",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/images/aa260632.dowwp16(en-us,vs.60).gif",
+      "page": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-6.0/aa260632(v=vs.60)",
+      "creator": "Microsoft Corporation",
+      "content_date": "1998-12",
+      "access_date": "2026-09-15T20:34:33Z",
+      "sha256": "ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d",
+      "details": "evidence/source.json"
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (uniform integer resize and pillarbox; no crop)",
+      "generator": "src/frame.py"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "relationship": "QA proof downscale of the export",
+      "generator": "src/frame.py"
+    }
+  ],
+  "authored_additions": [
+    "Desktop-teal (#008080) background ground and centred placement. The colour is a production-bible default, not a historical claim.",
+    "No captions, labels, annotations or text were added to any image."
+  ],
+  "producer_decisions": [],
+  "not_used": "PowerBuilder DataWindow material (HIST-15/DIA-11) was not used or relabelled."
+}

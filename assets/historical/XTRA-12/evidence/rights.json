@@ -1,0 +1,30 @@
+{
+  "id": "XTRA-12",
+  "file": "source/original.gif",
+  "rights_holder": "Microsoft Corporation (author and publisher of the article and its figures)",
+  "license": "None. No Creative Commons or public-domain dedication. The content is copyrighted Microsoft documentation.",
+  "rights_status": "unclear_blocked",
+  "candidate_permission_route": {
+    "name": "Microsoft, \"Use of Microsoft copyrighted content\" guidelines (Screenshots section)",
+    "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions/default",
+    "accessed": "2026-09-15",
+    "summary_of_terms_read": [
+      "The guidelines allow screenshots other than boot-up, opening, splash or beta screens to be used in videos, provided the general requirements are also met.",
+      "General requirements: use the full product name, link with plain text, make no offensive or disparaging use, and include the statement \"Used with permission from Microsoft.\"",
+      "Screenshot conditions: alter only by resizing; do not use portions of screenshots; do not place screenshots in a product UI; do not use screenshots containing third-party content or an identifiable individual."
+    ],
+    "fit_questions_not_settled_by_evidence": [
+      "The asset is a figure in Microsoft documentation, not a screenshot captured by the project from a running Microsoft product. Whether the Screenshots section covers reuse of a documentation figure has not been confirmed.",
+      "Microsoft itself published only the control's client area (no window frame). The project uses the whole published figure, but a reviewer could read the figure as a portion of a screenshot.",
+      "The editorial frame resizes uniformly (integer 2x nearest-neighbour) and adds a background around the image. The pixels inside are unaltered apart from the resize. The later collage (XTRA-14/15) may overlap, crop or rotate it, which the \"alter only by resizing\" condition would forbid.",
+      "The sample name \"Peter Rabbit\" is a literary character name used as dummy data. It is not a depicted person, but it is noted in case it counts as third-party content.",
+      "The guidelines advise consulting a copyright attorney for questions. No legal review has been done."
+    ]
+  },
+  "access_terms": "Public anonymous page on learn.microsoft.com. No terms were clicked through, no account used, no payment made.",
+  "credit_text": "Microsoft Corporation, \"Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard,\" Figure 16 (December 1998). Used with permission from Microsoft.",
+  "credit_text_note": "The \"Used with permission from Microsoft\" clause is correct only if the reviewer accepts that the Microsoft guidelines apply. Otherwise use the credit without that sentence and keep release blocked.",
+  "release_status": "blocked",
+  "handoff": "Review question XTRA-12-RQ1 in evidence/claim-checks.json. Devin decides whether the Microsoft screenshot guidelines cover this documentation figure as used in the video and in the XTRA-14/15 collage, or whether written permission or a substitute is needed.",
+  "cleared_by": null
+}
