@@ -57,7 +57,7 @@
     {
       "id": "RQ-XTRA09-3",
       "type": "editorial taste",
-      "question": "The narration says 'in 1995'. The pictured Performa 630CD was introduced in July 1994 and still sold in 1995. Is that close enough, or should the shot use a model introduced in 1995 (Performa 6200 or 580CD, both lower-quality photos)?",
+      "question": "The narration says 'in 1995'. The pictured Performa 630CD was introduced in July 1994 and still sold in 1995. Is that close enough, or should the shot use a model introduced in 1995? Options: the Performa 6200 (verified CC BY 2.0, but a soft phone photo with a large owner-applied sticker), or the Performa 580CD (National Library of NZ, only 664×808, license at source unconfirmed). The 580CD shows a live Classic Mac OS Finder desktop, which fits the script's full visual line but overlaps HIST-21.",
       "evidence_path": "assets/historical/XTRA-09/evidence/candidates.json"
     }
   ]

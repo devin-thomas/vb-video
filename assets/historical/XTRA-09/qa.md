@@ -58,4 +58,4 @@ Acquisition: anonymous HTTPS GET of `https://upload.wikimedia.org/wikipedia/comm
 ## Remaining blockers / review questions
 
 - **R14 blocked.** RQ-XTRA09-1 (accept the CC BY 4.0 recorded on Commons?), RQ-XTRA09-2 (credit name), RQ-XTRA09-3 (1994 model for a "1995" line?). Details in `evidence/claim-checks.json`.
-- **Access limits observed:** the Commons API and upload server returned HTTP 429, so alternate candidates 6200 and 580CD were not downloaded or viewed at full size. The live wiki.techtangents.net served an Anubis bot check, which was not bypassed; the Internet Archive snapshot was used instead.
+- **Access limits observed:** the Commons API and upload server returned HTTP 429. A backoff retry later downloaded alternates 6200 and 580CD to the session scratchpad for inspection only; they are not in this package (observations in `evidence/candidates.json`). The live wiki.techtangents.net served an Anubis bot check, which was not bypassed; the Internet Archive snapshot was used instead.
