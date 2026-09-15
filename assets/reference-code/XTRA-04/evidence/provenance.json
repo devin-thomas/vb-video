@@ -1,0 +1,112 @@
+{
+  "id": "XTRA-04",
+  "classification": "authored teaching illustration: representative code written for this production",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        69,
+        71
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "working_script": {
+    "path": "../../../War/SCRIPT.md",
+    "lines": [
+      72,
+      74
+    ],
+    "relationship": "same visual cue and narration as SCRIPT.md:69-71; not edited by this ticket"
+  },
+  "external_reference_sources": [
+    {
+      "title": "IBM 7090/7094 Programming Systems: FORTRAN II Programming",
+      "publisher": "IBM Systems Reference Library",
+      "form": "C28-6054-5 (File Number 7090-25)",
+      "date": "Archive file name gives April 1964; no edition date appears on the pages read",
+      "url": "http://www.bitsavers.org/pdf/ibm/7090/C28-6054-5_FORTRANII_Apr64.pdf",
+      "accessed": "2026-09-15",
+      "pages_read": [
+        "title",
+        "contents (2 pages)",
+        "5",
+        "6",
+        "15",
+        "16",
+        "19",
+        "20",
+        "21",
+        "22",
+        "24",
+        "25",
+        "32",
+        "33",
+        "34",
+        "40",
+        "46"
+      ],
+      "use": "syntax verification of the authored FORTRAN II listing",
+      "stored_in_repo": false
+    },
+    {
+      "title": "IBM 7090/7094 Programming Systems: FORTRAN IV Language",
+      "publisher": "IBM Systems Reference Library",
+      "form": "C28-6274-2 (File No. 7090-25), pages revised 6/10/64 by TNL N28-0107",
+      "url": "http://www.bitsavers.org/pdf/ibm/7090/C28-6274-2_FORTRANIV_Jun64.pdf",
+      "accessed": "2026-09-15",
+      "pages_read": [
+        "title",
+        "contents",
+        "21",
+        "21.1"
+      ],
+      "use": "dialect choice: 7090 FORTRAN IV PRINT requires an output list, so the list-free listing is labelled FORTRAN II",
+      "stored_in_repo": false
+    },
+    {
+      "title": "BASIC: A Manual for BASIC, the elementary algebraic language designed for use with the Dartmouth Time Sharing System",
+      "publisher": "Dartmouth College Computation Center",
+      "date": "1964-10-01",
+      "url": "https://www.bitsavers.org/pdf/dartmouth/dtss/196410_BASIC.pdf",
+      "accessed": "2026-09-15",
+      "pages_read": [
+        "cover",
+        "title",
+        "contents",
+        "3",
+        "28",
+        "30",
+        "31",
+        "56"
+      ],
+      "use": "syntax verification of the authored BASIC listing",
+      "terms_seen": "Title page: Copyright 1964 by the Trustees of Dartmouth College; reproduction for non-commercial use permitted with credit. No manual text or image is reproduced in the exports.",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Full text of dartmouth :: BASIC Oct64 (Internet Archive OCR)",
+      "url": "https://archive.org/stream/bitsavers_dartmouthB_2146200/BASIC_Oct64_djvu.txt",
+      "accessed": "2026-09-15",
+      "use": "locating passages only; every cited passage was confirmed on the scanned page",
+      "stored_in_repo": false
+    }
+  ],
+  "method_note": "The archive PDFs are image scans with no text layer. They were fetched to a session cache outside the repository, and page images were extracted to scratch storage for reading. No third-party file was added to the repository.",
+  "authored_additions": [
+    "Both programs are agent-authored illustrations of one task: print the single line HELLO and end. They are not recovered historical source.",
+    "Not executed: no IBM 7090/7094 FORTRAN II processor, IBSYS/FORTRAN Monitor, or Dartmouth Time-Sharing System emulation was used. No output, compile result or run is claimed.",
+    "FORTRAN II listing: PRINT 1 / 1 FORMAT (6H HELLO) / CALL EXIT / END, in card columns (number in 5, statements from column 7). The blank opening the H field is carriage control.",
+    "BASIC listing: 10 PRINT \"HELLO\" / 20 END.",
+    "Message HELLO chosen as a neutral minimal message; the later \"hello, world\" phrase is deliberately not used.",
+    "Plain letter O in both listings; the 1964 manuals print code with a slashed O in places.",
+    "On-screen dialect labels 'FORTRAN II for the IBM 7090/7094' and 'Dartmouth BASIC, October 1964' are production additions to the ticket copy.",
+    "Comparison variant: line bands, a card-column guide (cols 1-5, col 7 onward) and two captions ('4 statements' / '2 statements' plus one explanatory sentence each). Code size and position are unchanged.",
+    "Job control cards (FORTRAN) and terminal commands such as RUN (BASIC) are outside both listings."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

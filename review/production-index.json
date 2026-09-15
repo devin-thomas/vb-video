@@ -782,5 +782,16 @@
     "unresolved_gates": [
       "R13"
     ]
+  },
+  {
+    "id": "XTRA-04",
+    "title": "FORTRAN versus BASIC introductory example",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R15"
+    ]
   }
 ]

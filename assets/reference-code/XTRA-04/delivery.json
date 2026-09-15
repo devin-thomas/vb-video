@@ -1,0 +1,230 @@
+{
+  "id": "XTRA-04",
+  "title": "FORTRAN versus BASIC introductory example",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "authored teaching illustration: representative code written for this production",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 445,
+      "sha256": "cc4420c883242e847a4442df12d0a41cc30d40855824598a338c6e7663861d68"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 7476,
+      "sha256": "c82ebf89391b142392a321f03ae195a5da789ef92f27864e1e28d46c99afce18"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 4769,
+      "sha256": "19bad519b0c22a247100ddb3aff67f068f30231ed65605d09a1d50d61304eafc"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "2d8fdee68c32a27c67b2bd0425ea9174f8bdf57e08984a83e88e14ec4615e58d"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3932,
+      "sha256": "98a9690e2190e38c4857d8053488988ff09dde107e5e49f2c3a23d3a63c943d5"
+    },
+    {
+      "path": "exports/comparison.png",
+      "role": "rendered still",
+      "bytes": 96022,
+      "sha256": "c6ffc7f0db547af131ea74246cff262bea595755083cf652abcb6653680145a3"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 51598,
+      "sha256": "de045d328dd5e27b2791dc23b6cb457100681f4b47df367ae2084191d5cea94f"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 66683,
+      "sha256": "57437b94db10d46e675da5b98f755a81bc64b577b8e57e28b26ce487c72e3083"
+    },
+    {
+      "path": "proofs/comparison-720.png",
+      "role": "evidence / QA",
+      "bytes": 152916,
+      "sha256": "87d8443626a4bfc2d668debf2c369e7a4daa9b072aaf506986c29991d4147380"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 102381,
+      "sha256": "3b2c5ad25960513fc9735ed1ec9a1e4ec696ed2c624e3193f5f2513e10069bab"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6881,
+      "sha256": "17f1cce888d758ec84ad456234fdf0345d3201c394bcbb7c25b8d545cf13c3a6"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1371,
+      "sha256": "16c7e651d493ca2968725ae089f3df25d37b124ff5cf1d4d02bc45b3651369d9"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1608,
+      "sha256": "e027eaa39b45e4a733d2772a5de0e1b8c31010e7083eb02e20961a0f5abe4a19"
+    },
+    {
+      "path": "src/build.py",
+      "role": "editable source",
+      "bytes": 9173,
+      "sha256": "0d76f681e4fe6972381aa0fa24a521f0db7473ca62036a352d22ced6660198dd"
+    },
+    {
+      "path": "src/excerpt-dartmouth.bas",
+      "role": "editable source",
+      "bytes": 24,
+      "sha256": "fc86b5d928ac4bc661f356be83376cbb3e6591ce702d7eb2e1a02fccfb142bae"
+    },
+    {
+      "path": "src/excerpt-fortran2.f",
+      "role": "editable source",
+      "bytes": 64,
+      "sha256": "99342f714952df6314a95e87a74233a0ddca624ef51dbbcc72b353c164b33d66"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 6244,
+      "sha256": "f9ef056388b8cc461cc821ed902ad874c06b91c0d2fcf65c7924bb34b8350cca"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 4298,
+      "sha256": "91291b9b8a3279e2efde4afbaa60e2090d02740d8ac7e848b372ca9eed7dae68"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 4298,
+      "sha256": "91291b9b8a3279e2efde4afbaa60e2090d02740d8ac7e848b372ca9eed7dae68"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 517,
+      "sha256": "ec91a7eac1067a783ec5238bf15d39824f29c07ebe1e6e22e446b11a52739a3d"
+    },
+    {
+      "path": "src/variant-comparison.svg",
+      "role": "editable source",
+      "bytes": 6478,
+      "sha256": "e5a5a9626a6c257dc976eaea28da3894532c6186b63c5e434308a8fbaf253ed5"
+    }
+  ],
+  "variants": [
+    {
+      "name": "comparison",
+      "files": [
+        "exports/comparison.png",
+        "src/variant-comparison.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        69,
+        71
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id XTRA-04 (result recorded in qa.md)"
+    },
+    {
+      "test": "original source files",
+      "result": "sources/ untouched; python tools/validate_pack.py exit 0, no errors"
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution exports and 720p proofs, viewed by the producing agent",
+        "scope": "Viewed exports/poster.png and exports/comparison.png at 1920 x 1080, and proofs/poster-720.png and proofs/comparison-720.png at 1280 x 720.",
+        "status": "Code is identical 48 px monospace in both panels; FORTRAN card columns are faithful; captions and 26 px column guides are readable at 720p; no clipping or overlap; text stays inside the safe area."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed (PNG 1920x1080; still asset, no video to probe)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "FORTRAN II and Dartmouth BASIC syntax against 1964 primary manuals",
+      "evidence": "evidence/claim-checks.json",
+      "result": "checked; one point supported by implication only (F2 / Q1); R15 blocked"
+    }
+  ],
+  "unresolved_gates": [
+    "R15"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
+  },
+  "notes": [
+    "Agent-authored illustrative programs, not recovered historical source and not run: no IBM 7090 FORTRAN II processor or Dartmouth Time-Sharing System was used.",
+    "Dialects checked against the IBM 7090/7094 FORTRAN II Programming manual (form C28-6054-5) and the Dartmouth BASIC manual of 1 October 1964; page citations are in evidence/claim-checks.json.",
+    "Both programs print one line, HELLO, and end. FORTRAN II needs 4 statements (PRINT, FORMAT, CALL EXIT, END); BASIC needs 2 (PRINT, END). Nothing was added to lengthen FORTRAN: CALL EXIT is required under the FORTRAN II Monitor (C28-6054-5 p.34).",
+    "Same code size (48 px DejaVu Sans Mono) and line pitch in both panels. The comparison variant adds line bands, a card-column guide and two captions; it does not resize or move the code.",
+    "Neither program uses the manuals’ slashed letter O; plain O is shown in both. Job control cards (FORTRAN) and terminal commands such as RUN (BASIC) are outside both listings.",
+    "Release stays blocked under R15 pending editorial review of the length/readability framing.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}
