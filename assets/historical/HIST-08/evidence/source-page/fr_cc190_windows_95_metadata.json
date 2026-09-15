@@ -1,0 +1,287 @@
+{
+ "retrieved_from": "https://archive.org/metadata/fr_cc190_windows_95",
+ "retrieved_at": "2026-09-15",
+ "note": "Trimmed copy: metadata block kept whole; file list reduced to name/format/size/source.",
+ "metadata": {
+  "mediatype": "movies",
+  "identifier": "fr_cc190_windows_95",
+  "publicdate": "2004-12-23 08:24:34",
+  "description": "French language version of this program. It was the biggest ever launch of a software product with stores opening at midnight and buyers around the world waiting to get their hands on... an operating system! It was Windows 95. This show looks at the hoopla surrounding the launch of Windows 95, the product itself, and several Windows 95 add-on products including Microsoft Office, Viking RAM Chips, Uninstaller, Trispectives Professional, and The Hive. Originally broadcast in 1995.",
+  "licenseurl": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+  "color": "color",
+  "sound": "sound",
+  "collection": [
+   "computerchronicles",
+   "tvprograms",
+   "computersandtechvideos",
+   "whisper_test"
+  ],
+  "title": "Windows 95  -  French",
+  "uploader": "skip@avgeeks.com",
+  "addeddate": "2004-12-21 09:11:32",
+  "adder": "Skip Elsheimer",
+  "pick": "0",
+  "updatedate": "2005-02-03 17:00:59",
+  "updater": "cheifet",
+  "subject": "french; france;windows; microsoft;windows 95; win 95",
+  "type": "MovingImage",
+  "backup_location": "ia903600_7",
+  "closed_captioning": "no",
+  "whisper_asr_module_version": "20241218.01",
+  "ccnum": "asr"
+ },
+ "files": [
+  {
+   "name": "__ia_thumb.jpg",
+   "format": "Item Tile",
+   "size": "6865",
+   "source": "original"
+  },
+  {
+   "name": "fr_cc190_windows_95.asr.srt",
+   "format": "SubRip",
+   "size": "24840",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.asr.vtt",
+   "format": "Web Video Text Tracks",
+   "size": "23616",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.gif",
+   "format": "Animated GIF",
+   "size": "436199",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.md5",
+   "format": "Checksums",
+   "size": "164",
+   "source": "original"
+  },
+  {
+   "name": "fr_cc190_windows_95.mp4",
+   "format": "h.264",
+   "size": "161345402",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.mpeg",
+   "format": "MPEG2",
+   "size": "2017478660",
+   "source": "original"
+  },
+  {
+   "name": "fr_cc190_windows_95.ogv",
+   "format": "Ogg Video",
+   "size": "116485883",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000001.jpg",
+   "format": "Thumbnail",
+   "size": "8446",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000060.jpg",
+   "format": "Thumbnail",
+   "size": "5863",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000120.jpg",
+   "format": "Thumbnail",
+   "size": "5553",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000180.jpg",
+   "format": "Thumbnail",
+   "size": "6642",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000240.jpg",
+   "format": "Thumbnail",
+   "size": "6103",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000300.jpg",
+   "format": "Thumbnail",
+   "size": "7684",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000360.jpg",
+   "format": "Thumbnail",
+   "size": "9304",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000420.jpg",
+   "format": "Thumbnail",
+   "size": "5642",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000480.jpg",
+   "format": "Thumbnail",
+   "size": "6521",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000540.jpg",
+   "format": "Thumbnail",
+   "size": "8296",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000600.jpg",
+   "format": "Thumbnail",
+   "size": "6533",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000660.jpg",
+   "format": "Thumbnail",
+   "size": "6560",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000720.jpg",
+   "format": "Thumbnail",
+   "size": "6256",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000780.jpg",
+   "format": "Thumbnail",
+   "size": "6211",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000840.jpg",
+   "format": "Thumbnail",
+   "size": "6027",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000900.jpg",
+   "format": "Thumbnail",
+   "size": "7603",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_000960.jpg",
+   "format": "Thumbnail",
+   "size": "7255",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001020.jpg",
+   "format": "Thumbnail",
+   "size": "6509",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001080.jpg",
+   "format": "Thumbnail",
+   "size": "6871",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001140.jpg",
+   "format": "Thumbnail",
+   "size": "6126",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001200.jpg",
+   "format": "Thumbnail",
+   "size": "7793",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001260.jpg",
+   "format": "Thumbnail",
+   "size": "8243",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001320.jpg",
+   "format": "Thumbnail",
+   "size": "5422",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001380.jpg",
+   "format": "Thumbnail",
+   "size": "7049",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001440.jpg",
+   "format": "Thumbnail",
+   "size": "6069",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001500.jpg",
+   "format": "Thumbnail",
+   "size": "9400",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001560.jpg",
+   "format": "Thumbnail",
+   "size": "3191",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95.thumbs/fr_cc190_windows_95_001620.jpg",
+   "format": "Thumbnail",
+   "size": "5872",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95_512kb.mp4",
+   "format": "512Kb MPEG4",
+   "size": "115591238",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95_archive.torrent",
+   "format": "Archive BitTorrent",
+   "size": "27247",
+   "source": "metadata"
+  },
+  {
+   "name": "fr_cc190_windows_95_files.xml",
+   "format": "Metadata",
+   "size": null,
+   "source": "metadata"
+  },
+  {
+   "name": "fr_cc190_windows_95_intermediate_asr.json",
+   "format": "Intermediate ASR JSON",
+   "size": "33025",
+   "source": "derivative"
+  },
+  {
+   "name": "fr_cc190_windows_95_meta.xml",
+   "format": "Metadata",
+   "size": "1579",
+   "source": "metadata"
+  },
+  {
+   "name": "fr_cc190_windows_95_whisper_asr.json",
+   "format": "Whisper ASR JSON",
+   "size": "504568",
+   "source": "derivative"
+  }
+ ]
+}

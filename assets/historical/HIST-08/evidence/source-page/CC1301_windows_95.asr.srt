@@ -1,0 +1,2332 @@
+1
+00:00:19,000 --> 00:00:24,000
+This week on the Computer Chronicles,
+a hands on demo of Windows 95.
+
+2
+00:00:24,001 --> 00:00:28,001
+A visit to the Win95 launch
+with Bill Gates and Jay Leno.
+
+3
+00:00:28,001 --> 00:00:32,001
+Some advice on how to learn how to use
+the new version of Windows, a sneak
+
+4
+00:00:32,001 --> 00:00:38,000
+preview of two new Win95 applications,
+a guide to online help for Windows 95,
+
+5
+00:00:38,001 --> 00:00:40,001
+and this week's Computer News.
+
+6
+00:00:40,001 --> 00:00:43,001
+All coming up next on the Computer Chronicles.
+
+7
+00:00:46,001 --> 00:00:50,001
+Computer Chronicles is made possible in
+part by Hewlett Packard, working with
+
+8
+00:00:50,001 --> 00:00:55,000
+industry leaders to ensure compatibility
+across the board and across the network.
+
+9
+00:00:56,000 --> 00:00:59,001
+HPPCs, you're looking at
+partnership in a whole new light.
+
+10
+00:01:01,001 --> 00:01:04,001
+The Computer Chronicles is also made
+possible by the Software Publishers
+
+11
+00:01:04,001 --> 00:01:08,001
+Association, providers of educational
+materials to help manage software.
+
+12
+00:01:09,000 --> 00:01:10,000
+Don't copy that floppy.
+
+13
+00:01:14,001 --> 00:01:18,000
+Hi and welcome to the Computer Chronicles,
+I'm Stuart Chafay.
+
+14
+00:01:18,000 --> 00:01:22,000
+Unless you've been asleep somewhere for
+the last few months, you no doubt know
+
+15
+00:01:22,000 --> 00:01:24,000
+that Windows 95 is upon us.
+
+16
+00:01:24,000 --> 00:01:28,001
+Several million people have already bought
+the Win95 upgrade, but most computer
+
+17
+00:01:28,001 --> 00:01:30,000
+users are still thinking about it.
+
+18
+00:01:30,001 --> 00:01:35,000
+Should you buy it? Is it worth the 89 bucks?
+And how will your PC life be better
+
+19
+00:01:35,000 --> 00:01:36,001
+if you have Windows 95?
+
+20
+00:01:37,000 --> 00:01:39,001
+These are the questions we'll
+try to answer for you today.
+
+21
+00:01:40,000 --> 00:01:43,001
+First of all, let's take a look at some
+of the features of Windows 95, and for
+
+22
+00:01:43,001 --> 00:01:46,000
+that we brought in an expert,
+Joe Fabris of Microsoft.
+
+23
+00:01:47,001 --> 00:01:51,000
+Alright, here's Win95, and obviously first
+of all it looks different, I don't see
+
+24
+00:01:51,000 --> 00:01:52,001
+my usual program manager in my little windows.
+
+25
+00:01:53,000 --> 00:01:54,000
+Tell me what's going on here.
+
+26
+00:01:54,000 --> 00:01:57,000
+Well we combine the program manager and
+the file manager into a single uniform
+
+27
+00:01:57,000 --> 00:02:00,001
+desktop, and that's what we see here,
+where I've got an icon representing my
+
+28
+00:02:00,001 --> 00:02:04,000
+computer and all its peripherals,
+network connection, and other folders and icons
+
+29
+00:02:04,000 --> 00:02:06,000
+that I can add as I customize it.
+
+30
+00:02:06,000 --> 00:02:09,000
+Alright, so the big thing is bottom left,
+the start button, which is kind of
+
+31
+00:02:09,000 --> 00:02:12,001
+intuitive, I want to start doing something,
+so I click on start, and show me
+
+32
+00:02:12,001 --> 00:02:14,000
+how I launch a program in Win95.
+
+33
+00:02:14,000 --> 00:02:17,000
+Sure, if you click on the start button,
+you'll find there is an icon
+
+34
+00:02:17,000 --> 00:02:19,000
+called the programs over here.
+
+35
+00:02:19,001 --> 00:02:22,000
+This is where everything that you had
+in your old program manager has gone to
+
+36
+00:02:22,000 --> 00:02:24,001
+when you start Windows for the
+first time under Windows 95.
+
+37
+00:02:24,001 --> 00:02:27,001
+Alright, and that first window that opens up,
+I can customize that too and
+
+38
+00:02:27,001 --> 00:02:29,000
+determine what will show up when I click start,
+right?
+
+39
+00:02:29,000 --> 00:02:31,001
+Exactly,
+everything above the program is a customization
+
+40
+00:02:31,001 --> 00:02:33,000
+that I've done prior to coming in today.
+
+41
+00:02:33,000 --> 00:02:36,001
+Alright, so I want to run a program,
+so I drill down there in the menus.
+
+42
+00:02:37,000 --> 00:02:40,001
+And I'll go over to Microsoft Office,
+this is Office for Windows 95, and I'll
+
+43
+00:02:40,001 --> 00:02:43,000
+launch Excel simply by clicking on it one time.
+
+44
+00:02:43,001 --> 00:02:49,000
+Alright, so Excel is up and running now,
+and what happens if I want to run a
+
+45
+00:02:49,000 --> 00:02:51,001
+second program, or I want to do
+something else while Excel is running?
+
+46
+00:02:52,000 --> 00:02:53,000
+That's one thing that Windows has
+
+47
+00:02:53,000 --> 00:02:54,001
+always been good at,
+and now it's gotten better.
+
+48
+00:02:55,000 --> 00:02:57,001
+In fact, this time what I like to do
+is instead of trying to go find an
+
+49
+00:02:57,001 --> 00:03:00,001
+application and run a document, I like to
+find a document and run an application.
+
+50
+00:03:01,001 --> 00:03:05,000
+So I'll go over here to the documents menu
+on the start button, which keeps track
+
+51
+00:03:05,000 --> 00:03:08,001
+of the last 15 or so applications that you ran,
+and I'll go here.
+
+52
+00:03:08,001 --> 00:03:12,000
+So in fact, the last 15 things I did,
+regardless of what application, was not
+
+53
+00:03:12,000 --> 00:03:13,001
+just in Excel or not just in Word.
+
+54
+00:03:13,001 --> 00:03:15,001
+Right, and it doesn't matter whether
+it was on your machine or on a network
+
+55
+00:03:15,001 --> 00:03:17,000
+drive, it'll go and find it.
+
+56
+00:03:17,001 --> 00:03:19,000
+So you want to open that memo.
+
+57
+00:03:19,001 --> 00:03:22,000
+Right, so now that's going to go find Word,
+launch Word, and
+
+58
+00:03:22,000 --> 00:03:23,001
+then get the document and open it together.
+
+59
+00:03:24,001 --> 00:03:27,000
+Alright, now I've got both things running,
+if I want to go back to Excel and
+
+60
+00:03:27,000 --> 00:03:29,000
+click on Excel, Word disappears.
+
+61
+00:03:29,001 --> 00:03:32,000
+Now that's a problem you fixed
+basically from the old Windows.
+
+62
+00:03:32,000 --> 00:03:35,000
+Right, our usability lab showed that when
+people would go click on something like
+
+63
+00:03:35,000 --> 00:03:38,001
+Excel here, Word would vanish from the
+screen and they had no idea where it was.
+
+64
+00:03:38,001 --> 00:03:40,000
+Should I open it up and running,
+or should I open it again?
+
+65
+00:03:40,000 --> 00:03:43,000
+Exactly. That's why we've added at the
+bottom of the screen something called the
+
+66
+00:03:43,000 --> 00:03:46,000
+task bar, which keeps track of all
+the applications you have running.
+
+67
+00:03:46,001 --> 00:03:49,000
+So if I can go back to Word now by
+clicking on it on the task bar.
+
+68
+00:03:50,000 --> 00:03:53,000
+Okay, let's talk about file management
+now and how I do things like copy
+
+69
+00:03:53,000 --> 00:03:54,001
+files and move files in Win95.
+
+70
+00:03:55,000 --> 00:03:58,000
+Okay, I'll go back to the start
+button and I'll click on my computer.
+
+71
+00:03:59,001 --> 00:04:02,000
+And now we'll get that view I set up
+on my peripherals and here we say I
+
+72
+00:04:02,000 --> 00:04:03,001
+have a floppy drive and my hard drive.
+
+73
+00:04:03,001 --> 00:04:06,001
+Now let's move some files from the
+floppy drive, so I'll double click here
+
+74
+00:04:06,001 --> 00:04:09,000
+and I'll just choose all of these items.
+
+75
+00:04:11,000 --> 00:04:14,000
+And now I'm going to drag
+them over to my hard disk.
+
+76
+00:04:14,001 --> 00:04:16,001
+So you can just drag and
+drop and do it that way.
+
+77
+00:04:16,001 --> 00:04:19,001
+Right, and I use the second mouse button
+on Windows and here I have some options.
+
+78
+00:04:19,001 --> 00:04:22,000
+I can move them, I can copy them,
+or I can create a shortcut.
+
+79
+00:04:22,001 --> 00:04:25,001
+And a shortcut would leave the original
+files where they were, but just put an
+
+80
+00:04:25,001 --> 00:04:29,001
+icon there so I could go to a place where
+I often go for a shortcut, launch the
+
+81
+00:04:29,001 --> 00:04:31,001
+application and it could be on a network drive
+
+82
+00:04:31,001 --> 00:04:33,000
+somewhere else or it could
+be on a floppy drive.
+
+83
+00:04:33,000 --> 00:04:36,001
+But that's what a shortcut does.
+I'll just do a quick copy over there.
+
+84
+00:04:38,000 --> 00:04:41,000
+Okay, now there's another thing when
+I go in the store looking for Windows
+
+85
+00:04:41,000 --> 00:04:43,000
+95 called Microsoft Plus.
+
+86
+00:04:43,001 --> 00:04:45,001
+What does Plus add to Win95?
+
+87
+00:04:46,000 --> 00:04:48,001
+Okay, when you saw when we started how
+I had that nice Windows background
+
+88
+00:04:48,001 --> 00:04:50,001
+with my icons looking a certain way.
+
+89
+00:04:51,000 --> 00:04:53,001
+The Plus has a lot of things and I'm
+going to focus on the fun things.
+
+90
+00:04:54,000 --> 00:04:57,000
+And if I go to the control panel,
+we have a new icon added here when the Plus
+
+91
+00:04:57,000 --> 00:05:00,000
+gets installed called Desktop Themes.
+
+92
+00:05:00,000 --> 00:05:03,001
+And if I launch this, we'll see that I
+can now change the way my screen and my
+
+93
+00:05:03,001 --> 00:05:07,000
+computer looks and I can have it fit
+sort of my mood and have some pre-built
+
+94
+00:05:07,000 --> 00:05:11,001
+themes that Microsoft's put together
+with some graphic artists like Dangerous
+
+95
+00:05:11,001 --> 00:05:13,001
+Creatures or Leonardo da Vinci.
+
+96
+00:05:14,000 --> 00:05:17,000
+I was down at the hate district last
+night visiting my sister and this
+
+97
+00:05:17,000 --> 00:05:18,001
+one called the 60s reminds me of that.
+
+98
+00:05:19,000 --> 00:05:22,000
+So if I'm in that mood today,
+I can click on that and have it on the screen.
+
+99
+00:05:22,001 --> 00:05:25,000
+So you can sort of customize
+your desktop day by day
+
+100
+00:05:25,000 --> 00:05:26,001
+depending on what you feel like.
+
+101
+00:05:26,001 --> 00:05:27,000
+Exactly.
+
+102
+00:05:27,001 --> 00:05:28,000
+Design your desktop.
+
+103
+00:05:28,000 --> 00:05:30,000
+And what it'll do is it'll
+change the background
+
+104
+00:05:30,000 --> 00:05:31,001
+to something that looks like the 60s.
+
+105
+00:05:32,001 --> 00:05:33,001
+And then we'll see new icons.
+
+106
+00:05:33,001 --> 00:05:36,001
+I have a peace sign from my computer and
+beads for the network neighborhood and
+
+107
+00:05:36,001 --> 00:05:38,000
+all my sounds now changed as well.
+
+108
+00:05:38,001 --> 00:05:41,000
+Alright, now Plus, a lot of people are
+getting Plus because it comes with a
+
+109
+00:05:41,000 --> 00:05:42,001
+pretty cool 3D pinball game, right?
+
+110
+00:05:42,001 --> 00:05:43,001
+Can we see what that looks like?
+
+111
+00:05:44,000 --> 00:05:47,001
+I'll launch the pinball game right now
+and you'll see a nice pinball table.
+
+112
+00:05:48,000 --> 00:05:49,000
+And we'll start a game up.
+
+113
+00:05:49,000 --> 00:05:51,000
+We'll have all the pinball
+sounds that we expect.
+
+114
+00:05:51,001 --> 00:05:53,001
+And you'll see some pretty good
+graphic animation that's getting an
+
+115
+00:05:53,001 --> 00:05:55,000
+improvement in Windows 95 as well.
+
+116
+00:05:56,001 --> 00:05:59,001
+Okay, let's get out of this and
+let me ask you about autoplay.
+
+117
+00:05:59,001 --> 00:06:03,000
+Now another feature in here is if
+you've got a CD-ROM drive, what, it
+
+118
+00:06:03,000 --> 00:06:05,001
+automatically launches
+whatever CD you stick in?
+
+119
+00:06:06,000 --> 00:06:06,000
+Exactly.
+
+120
+00:06:06,000 --> 00:06:08,000
+In fact, I've got one right here
+that I picked up the other day.
+
+121
+00:06:08,001 --> 00:06:10,000
+And this is a music CD that
+I bought at Tower Records.
+
+122
+00:06:11,000 --> 00:06:14,000
+And when I put it in, the machine
+automatically detects that I put a CD in.
+
+123
+00:06:14,000 --> 00:06:16,001
+And now it'll launch the
+application that plays music and
+
+124
+00:06:16,001 --> 00:06:18,000
+it'll start the songs that are on this disc.
+
+125
+00:06:18,000 --> 00:06:22,000
+So it not only detects you put a CD in,
+but it knows it's a music CD and so it's
+
+126
+00:06:22,000 --> 00:06:24,001
+going to launch the audio player program,
+whatever that is.
+
+127
+00:06:24,001 --> 00:06:25,001
+Not the CD-ROM.
+
+128
+00:06:26,000 --> 00:06:26,000
+Exactly.
+
+129
+00:06:27,000 --> 00:06:31,000
+And this is a new piece of Microsoft
+music you guys own now, I guess.
+
+130
+00:06:31,001 --> 00:06:33,000
+Well, we're having some fun with it.
+Yes, we are.
+
+131
+00:06:33,001 --> 00:06:34,001
+Okay, thank you very much, Joe.
+
+132
+00:06:35,000 --> 00:06:35,001
+It's been my pleasure.
+
+133
+00:06:36,000 --> 00:06:40,001
+Okay, Windows 95 is after all just an
+operating system and a user interface, but
+
+134
+00:06:40,001 --> 00:06:44,000
+the launch of the product was choreographed,
+more like a Hollywood movie
+
+135
+00:06:44,000 --> 00:06:45,001
+premiere than a software title.
+
+136
+00:06:46,000 --> 00:06:49,001
+In case you missed it, here's what it
+was like in Redmond, Washington the day
+
+137
+00:06:49,001 --> 00:06:52,000
+Windows 95 was finally released.
+
+138
+00:06:52,001 --> 00:06:56,000
+Ladies and gentlemen, Jay Leno.
+
+139
+00:06:56,000 --> 00:06:56,001
+[...]
+
+140
+00:06:58,000 --> 00:07:02,001
+No, it's not the Tonight Show. Bill Gates
+invited Jay Leno to launch Windows 95
+
+141
+00:07:02,001 --> 00:07:05,001
+at this Hollywood-style event
+at Microsoft headquarters.
+
+142
+00:07:06,000 --> 00:07:12,000
+Well, Windows 95 is so easy,
+even a talk show host can figure it out.
+
+143
+00:07:13,000 --> 00:07:14,000
+Hello! Hello!
+
+144
+00:07:15,000 --> 00:07:17,000
+You got your task bar?
+Let's go right down there.
+
+145
+00:07:17,000 --> 00:07:21,000
+Little task bar there, you can click on there,
+you see, and I can change my mind.
+
+146
+00:07:21,001 --> 00:07:24,001
+Do I go over here? This one too.
+I can change my mind faster
+
+147
+00:07:24,001 --> 00:07:26,000
+than Bill Clinton. Look at that, huh?
+
+148
+00:07:27,000 --> 00:07:28,001
+Health care, no health care.
+
+149
+00:07:28,001 --> 00:07:31,000
+Republican today, Democrat tomorrow.
+Sure, there you go.
+
+150
+00:07:31,001 --> 00:07:35,001
+Flip it back and forward, back and forward.
+Easy as pie
+
+151
+00:07:35,001 --> 00:07:37,000
+-ola. That's a technical term, Pius.
+
+152
+00:07:37,001 --> 00:07:41,001
+There were video testimonials by
+corporate users as well as home users.
+
+153
+00:07:41,001 --> 00:07:48,000
+I take the CD, put it in,
+click it on the pewter, and the big circle
+
+154
+00:07:48,000 --> 00:07:50,000
+comes, and then the bird comes.
+
+155
+00:07:51,000 --> 00:07:55,000
+Members of the audience were pulled
+backstage to upgrade from Windows 3.1 to
+
+156
+00:07:55,000 --> 00:07:56,001
+Windows 95 during the gala.
+
+157
+00:07:57,000 --> 00:08:01,000
+The site was connected via satellite to
+an audience in an amusement park in the
+
+158
+00:08:01,000 --> 00:08:04,000
+Silicon Valley,
+and the now widely recognized Start
+
+159
+00:08:04,000 --> 00:08:05,001
+Me Up commercial previewed here.
+
+160
+00:08:11,001 --> 00:08:14,001
+The big screen came down to
+reveal the development team.
+
+161
+00:08:15,000 --> 00:08:19,000
+The audience made its way past them to the
+circus tents filled with more than 300
+
+162
+00:08:19,000 --> 00:08:21,001
+applications developed for Windows 95.
+
+163
+00:08:22,001 --> 00:08:25,000
+For the Computer Chronicles, I'm Giles Bateman.
+
+164
+00:08:41,001 --> 00:08:44,001
+Now you've all heard the horror stories
+about what you're going to have to spend
+
+165
+00:08:44,001 --> 00:08:46,000
+to run Windows 95.
+
+166
+00:08:46,001 --> 00:08:50,001
+More RAM, bigger hard drive,
+new keyboard, maybe a processor upgrade.
+
+167
+00:08:51,000 --> 00:08:52,001
+Let's try to figure out what you really do
+
+168
+00:08:52,001 --> 00:08:54,000
+need to run the new version of Windows.
+
+169
+00:08:54,001 --> 00:08:57,001
+Here to help us out, a syndicated columnist,
+author, and all-around PC
+
+170
+00:08:57,001 --> 00:08:59,001
+expert Larry Magid. Welcome, Larry.
+
+171
+00:08:59,001 --> 00:09:00,000
+Thank you.
+
+172
+00:09:00,000 --> 00:09:03,000
+Before we get to the toys here,
+let's talk about installing Windows 95.
+
+173
+00:09:03,001 --> 00:09:06,000
+What should you do to your PC
+before you start to install it?
+
+174
+00:09:06,000 --> 00:09:08,001
+Well, the first thing you should do
+is back up and very leaf back up your
+
+175
+00:09:08,001 --> 00:09:10,000
+important data files because
+those you can't replace.
+
+176
+00:09:10,000 --> 00:09:12,000
+You can never tell what's going
+to happen during the install.
+
+177
+00:09:12,001 --> 00:09:14,001
+Absolutely. You never know,
+even though most of the time it goes fine.
+
+178
+00:09:15,000 --> 00:09:18,000
+The next thing you want to do is get
+rid of any viruses you might have.
+
+179
+00:09:18,000 --> 00:09:19,001
+Make sure you've got a nice clean system.
+
+180
+00:09:20,000 --> 00:09:24,001
+Disable any of your TSRs or anything
+that's kind of quirky so that when the
+
+181
+00:09:24,001 --> 00:09:27,000
+Windows 95 installation program starts running,
+it's got a fairly
+
+182
+00:09:27,000 --> 00:09:29,000
+vanilla ordinary system to deal with.
+
+183
+00:09:29,001 --> 00:09:33,001
+Then, after you've done all that,
+make sure you've got plenty of space in
+
+184
+00:09:33,001 --> 00:09:35,000
+your hard drive because that's critical.
+
+185
+00:09:35,000 --> 00:09:37,001
+Windows 95 is going to use every
+nook and cranny you've got.
+
+186
+00:09:37,001 --> 00:09:38,000
+Let's talk about that.
+
+187
+00:09:38,001 --> 00:09:40,000
+First of all,
+let's talk RAM before we talk hard drive.
+
+188
+00:09:40,001 --> 00:09:43,001
+We hear that you really
+can't run Windows 95 if you
+
+189
+00:09:43,001 --> 00:09:45,000
+have a 4-megabyte machine, right?
+
+190
+00:09:45,000 --> 00:09:47,000
+In theory, you can, but then a family of four
+
+191
+00:09:47,000 --> 00:09:49,000
+could live in a one-bedroom apartment,
+theoretically.
+
+192
+00:09:49,001 --> 00:09:52,001
+In reality, whatever the rules
+were for Windows 3.1, you doubled.
+
+193
+00:09:52,001 --> 00:09:56,000
+The rule of Windows 3.
+1, 4 megs minimum, Windows 95 for all practical
+
+194
+00:09:56,000 --> 00:09:58,000
+purposes, 8 megabytes is your minimum system.
+
+195
+00:09:59,000 --> 00:10:03,001
+If you want a really nice system with
+plenty of room to grow, 16 megabytes
+
+196
+00:10:03,001 --> 00:10:05,000
+is really excellent.
+
+197
+00:10:05,000 --> 00:10:05,001
+That's what I use.
+
+198
+00:10:05,001 --> 00:10:09,001
+If you're a heavy power user and you've
+got a lot of CAD-CAM or big graphic
+
+199
+00:10:09,001 --> 00:10:12,001
+images, then you probably want to go
+to 32 megabytes, believe it or not.
+
+200
+00:10:12,001 --> 00:10:15,001
+That's what the power users
+are doing these days.
+
+201
+00:10:15,001 --> 00:10:18,000
+Let's talk about the RAM upgrade options,
+and we have a couple of them over here.
+
+202
+00:10:18,000 --> 00:10:20,000
+First of all, this PC MCIA card.
+
+203
+00:10:20,000 --> 00:10:22,000
+I guess if you have a laptop and you have a
+
+204
+00:10:22,000 --> 00:10:24,000
+PC slot, you can just stick that in there.
+
+205
+00:10:24,000 --> 00:10:25,001
+Absolutely.
+If you get an extra slot and you can afford
+
+206
+00:10:25,001 --> 00:10:27,001
+it, that's a great easy way to do it.
+
+207
+00:10:27,001 --> 00:10:29,001
+Okay. Now, sometimes you don't have a slot,
+and I guess these
+
+208
+00:10:29,001 --> 00:10:31,000
+are sort of little mini-SIM.
+
+209
+00:10:32,001 --> 00:10:34,001
+Usually there's a little
+door in the back of your
+
+210
+00:10:34,001 --> 00:10:36,000
+laptop, and you turn it off and plug those in.
+
+211
+00:10:36,001 --> 00:10:38,001
+They're pretty easy to
+install when they do the job.
+
+212
+00:10:38,001 --> 00:10:42,000
+For the typical desktop user, you've got
+your regular PC. This is the normal...
+
+213
+00:10:42,001 --> 00:10:45,001
+Right. You can get up to 16 megabytes
+of memory on one of these little...
+
+214
+00:10:45,001 --> 00:10:48,000
+They're called a SIM modular,
+and they just plug right into the
+
+215
+00:10:48,000 --> 00:10:49,001
+motherboard,
+and they're fairly easy to install.
+
+216
+00:10:50,000 --> 00:10:51,000
+If you know how to take your computer apart, if
+
+217
+00:10:51,000 --> 00:10:53,000
+you're comfortable, you can do it yourself.
+
+218
+00:10:53,000 --> 00:10:54,000
+If you're not, it's a 10-footer.
+
+219
+00:10:54,000 --> 00:10:57,000
+Let's do that right here.
+We have a PC open, and we'll just lift this
+
+220
+00:10:57,000 --> 00:10:58,001
+power supply and get it out of the way.
+
+221
+00:10:58,001 --> 00:11:01,000
+And these are your RAM slots right in here,
+right?
+
+222
+00:11:01,001 --> 00:11:04,000
+That's right, and you'd have an empty one,
+and you just pop it in there and clip
+
+223
+00:11:04,000 --> 00:11:06,000
+it down and turn it on the
+machine if all goes well.
+
+224
+00:11:06,001 --> 00:11:07,000
+You've got to do memory.
+
+225
+00:11:07,001 --> 00:11:08,001
+You're not going to be afraid to do that.
+
+226
+00:11:08,001 --> 00:11:11,001
+No. The only thing is make sure you
+touch the chassis to discharge any
+
+227
+00:11:11,001 --> 00:11:14,000
+electricity or the static you may before
+you touch one of these components.
+
+228
+00:11:14,001 --> 00:11:15,000
+Other than that, you're fine.
+
+229
+00:11:15,001 --> 00:11:17,000
+Let's get back to the hard
+drive issue you mentioned.
+
+230
+00:11:17,000 --> 00:11:19,001
+Windows 9 eVive takes up a lot
+of space on your hard drive.
+
+231
+00:11:19,001 --> 00:11:22,000
+Most of us don't have a lot of
+space left over on our hard drive.
+
+232
+00:11:22,001 --> 00:11:24,000
+What are the options then
+to get more hard drives?
+
+233
+00:11:24,000 --> 00:11:25,000
+Well, of course, you could always buy another
+
+234
+00:11:25,000 --> 00:11:27,000
+hard drive,
+and eventually you can do compression.
+
+235
+00:11:27,000 --> 00:11:29,000
+But the main thing you want to do
+is like cleaning out your garage.
+
+236
+00:11:29,000 --> 00:11:30,001
+You probably have more space than you realize.
+
+237
+00:11:31,000 --> 00:11:33,000
+If you probably have a lot of junk on
+your machine, programs that you haven't
+
+238
+00:11:33,000 --> 00:11:35,001
+used in months, go ahead and delete them.
+
+239
+00:11:36,000 --> 00:11:38,000
+And then you get into the issue,
+how do you delete them?
+
+240
+00:11:38,000 --> 00:11:40,001
+Well, if you really know what you're doing,
+you could delete them manually.
+
+241
+00:11:41,000 --> 00:11:43,000
+But even if you took out the directory
+that all the programs are in,
+
+242
+00:11:43,000 --> 00:11:45,000
+there's always extra files sitting around.
+
+243
+00:11:45,001 --> 00:11:46,000
+There's always statements
+that you can win any files.
+
+244
+00:11:46,000 --> 00:11:47,001
+Certainly, you had Win 3.1 on your machine.
+
+245
+00:11:47,001 --> 00:11:48,001
+Especially with Win 3.1.
+
+246
+00:11:49,000 --> 00:11:51,001
+So that's where we have all these
+commercial uninstall programs.
+
+247
+00:11:52,000 --> 00:11:53,001
+Now, sort of the mother of all uninstall
+
+248
+00:11:53,001 --> 00:11:55,001
+programs is called Uninstaller for MicroHelp.
+
+249
+00:11:55,001 --> 00:11:56,001
+You have that up here now?
+
+250
+00:11:56,001 --> 00:11:57,000
+We have it running here.
+
+251
+00:11:57,001 --> 00:12:00,000
+And what we're doing here is
+we're actually in the process of
+
+252
+00:12:00,000 --> 00:12:01,001
+looking at a program that
+we want to get rid of.
+
+253
+00:12:01,001 --> 00:12:02,000
+We want to get rid of, let's
+
+254
+00:12:02,000 --> 00:12:04,000
+say, not that we would want
+to get it to Clarisworks.
+
+255
+00:12:04,001 --> 00:12:05,000
+We click on this.
+
+256
+00:12:05,000 --> 00:12:06,001
+We push Analyze.
+
+257
+00:12:06,001 --> 00:12:09,000
+And then the program would start
+analyzing what it has to do.
+
+258
+00:12:09,001 --> 00:12:13,001
+And it would go ahead and not only delete
+the files, but clean up the Win.i and i
+
+259
+00:12:13,001 --> 00:12:16,000
+program file and just get the machine
+
+260
+00:12:16,000 --> 00:12:17,001
+so it's as if that program were never there.
+
+261
+00:12:18,000 --> 00:12:21,000
+Now, eventually you're not going to need this,
+because Windows 95
+
+262
+00:12:21,000 --> 00:12:23,001
+has an uninstall program built in.
+
+263
+00:12:23,001 --> 00:12:26,000
+But it only works with Windows 95 applications.
+
+264
+00:12:26,001 --> 00:12:30,000
+So for the present time, you're really
+going to need a program like this.
+
+265
+00:12:30,000 --> 00:12:32,000
+Eventually,
+it's going to be an operating system function.
+
+266
+00:12:32,000 --> 00:12:33,001
+So when you want to install Win 96, you'll
+
+267
+00:12:33,001 --> 00:12:35,000
+have the full little slider with Win 95.
+
+268
+00:12:35,001 --> 00:12:39,000
+Alright, last thing we hear, there are
+special keyboards out now for Windows 95.
+
+269
+00:12:39,001 --> 00:12:41,000
+And we have one of them over here.
+
+270
+00:12:41,001 --> 00:12:43,000
+And show me what's so special about this.
+
+271
+00:12:43,000 --> 00:12:45,000
+Why might I want a separate
+keyboard for Win 95?
+
+272
+00:12:45,000 --> 00:12:46,001
+Well, you don't need a separate keyboard.
+
+273
+00:12:46,001 --> 00:12:48,000
+I mean, you can function fine without one.
+
+274
+00:12:48,000 --> 00:12:50,001
+But we've got, for instance,
+here's this little funny Windows key over here.
+
+275
+00:12:50,001 --> 00:12:51,000
+What does that do?
+
+276
+00:12:51,000 --> 00:12:53,000
+If you're buying a keyboard,
+you get one of these and you push it.
+
+277
+00:12:53,000 --> 00:12:55,000
+And what it does is it
+brings up the start menu.
+
+278
+00:12:55,000 --> 00:12:56,001
+It's just like if you'd press the start menu.
+
+279
+00:12:57,000 --> 00:12:57,001
+It just makes it easier.
+
+280
+00:12:57,001 --> 00:12:59,000
+And there's another one over on this side.
+
+281
+00:12:59,001 --> 00:13:00,001
+And what's that little one?
+
+282
+00:13:00,001 --> 00:13:01,000
+Well, it's programmable.
+
+283
+00:13:01,000 --> 00:13:03,000
+If it's just Microsoft, it does the same thing.
+
+284
+00:13:03,000 --> 00:13:06,001
+But in this particular one, it actually
+brings up a special task switching menu
+
+285
+00:13:06,001 --> 00:13:08,001
+to make it just easier to change tasks.
+
+286
+00:13:09,000 --> 00:13:10,001
+And then we have another one here, which
+
+287
+00:13:10,001 --> 00:13:12,000
+is the same as pushing the right mouse button.
+
+288
+00:13:12,001 --> 00:13:13,000
+Oh, here we go.
+
+289
+00:13:13,001 --> 00:13:14,001
+It brought up another little window
+
+290
+00:13:14,001 --> 00:13:16,001
+just as if you'd pushed the right mouse button.
+
+291
+00:13:16,001 --> 00:13:16,001
+[...]
+
+292
+00:13:16,001 --> 00:13:18,001
+I mean, it's not essential,
+but it makes it easier.
+
+293
+00:13:18,001 --> 00:13:19,000
+No, it makes it easier.
+
+294
+00:13:19,000 --> 00:13:20,001
+If you're buying a new keyboard,
+it's something to look for.
+
+295
+00:13:20,001 --> 00:13:21,000
+All right.
+
+296
+00:13:21,000 --> 00:13:22,001
+Larry, thank you very much.
+
+297
+00:13:23,000 --> 00:13:23,000
+All right.
+
+298
+00:13:23,001 --> 00:13:25,001
+So let's say you decide to buy Windows 95.
+
+299
+00:13:25,001 --> 00:13:27,000
+There is a learning curve.
+
+300
+00:13:27,000 --> 00:13:30,001
+It's not the same as Windows 3.
+1, certainly not the same as MS-DOS.
+
+301
+00:13:31,000 --> 00:13:33,001
+You have to figure out how to use it if
+you're going to get your money's worth.
+
+302
+00:13:34,000 --> 00:13:38,000
+So let's take a look at your options
+for getting up to speed on Windows 95.
+
+303
+00:13:38,001 --> 00:13:41,001
+The screens may look familiar,
+but they are not quite the same.
+
+304
+00:13:42,000 --> 00:13:46,001
+There are new icons, new menus,
+and there's a new way to organize files.
+
+305
+00:13:46,001 --> 00:13:50,001
+For a single user,
+Windows 95 means establishing some new habits.
+
+306
+00:13:51,000 --> 00:13:54,001
+And for technical support staff,
+it means answering a lot of questions.
+
+307
+00:13:55,000 --> 00:13:58,000
+One way to prepare yourself for the
+changeover is to put the manual
+
+308
+00:13:58,000 --> 00:13:59,001
+aside and go back to school.
+
+309
+00:14:00,001 --> 00:14:01,001
+Windows 95 School.
+
+310
+00:14:02,000 --> 00:14:06,000
+So far, we've been focusing mostly on the
+technical end of things because people
+
+311
+00:14:06,000 --> 00:14:10,000
+are just getting started in rolling out
+Windows 95, and the companies are trying
+
+312
+00:14:10,000 --> 00:14:12,001
+to learn as much as they can
+about how the operating system
+
+313
+00:14:12,001 --> 00:14:14,000
+works within their company.
+
+314
+00:14:14,000 --> 00:14:18,001
+So they're sending people to the technical
+training classes in order to learn and
+
+315
+00:14:18,001 --> 00:14:22,000
+understand it very well before they go
+ahead and give it to their end users.
+
+316
+00:14:23,000 --> 00:14:26,000
+The class approach appeals to people
+who either don't have the time or
+
+317
+00:14:26,000 --> 00:14:27,001
+just don't like to read manuals.
+
+318
+00:14:28,000 --> 00:14:30,001
+It's kind of a shortcut to
+the program's main features.
+
+319
+00:14:31,000 --> 00:14:34,001
+So even if you go through and you learn
+it on your own, which I'm sure that lots
+
+320
+00:14:34,001 --> 00:14:39,000
+of people will probably have to do,
+the tips, the tricks, things that will
+
+321
+00:14:39,000 --> 00:14:43,000
+ultimately save you time in the long stretch,
+that's what you get out of class.
+
+322
+00:14:43,000 --> 00:14:47,001
+And the interaction between having someone
+answer your questions as opposed to
+
+323
+00:14:47,001 --> 00:14:52,000
+you're having to either call support
+hotline or trying to look it up through the
+
+324
+00:14:52,000 --> 00:14:55,001
+help screen, those are useful,
+but again, they're time consuming.
+
+325
+00:14:55,001 --> 00:15:00,000
+So I think if you're looking for a
+way to save time, come to class.
+
+326
+00:15:01,000 --> 00:15:04,000
+Classes are attractive for users who are
+short on time and can afford the fees,
+
+327
+00:15:04,001 --> 00:15:08,001
+but for some brave souls, a book and
+sheer persistence can accomplish the same
+
+328
+00:15:08,001 --> 00:15:10,001
+goals if they have the patience.
+
+329
+00:15:11,000 --> 00:15:14,001
+You get to know your computer a little
+bit more because you're figuring out how
+
+330
+00:15:14,001 --> 00:15:16,001
+to set something up because
+you're not just going to
+
+331
+00:15:16,001 --> 00:15:18,001
+set up Windows 95 on your computer.
+
+332
+00:15:18,001 --> 00:15:21,000
+You're going to set up all kinds of different
+programs that you're going to need.
+
+333
+00:15:21,001 --> 00:15:25,000
+So it gave me like a sense of accomplishment
+when I finally got it to work.
+
+334
+00:15:25,000 --> 00:15:29,001
+I was like jumping up and down and I was
+all excited about it, but I think some
+
+335
+00:15:29,001 --> 00:15:32,000
+of the minuses is it can be very frustrating.
+
+336
+00:15:32,001 --> 00:15:36,000
+You know, when you have a question,
+you have to refer to a book for an answer.
+
+337
+00:15:36,001 --> 00:15:39,000
+For the Computer Chronicles, I'm Giles Bateman.
+
+338
+00:15:44,000 --> 00:15:44,001
+[...]
+
+339
+00:15:55,000 --> 00:15:59,000
+Now the bottom line with any operating
+system is what can you do with it?
+
+340
+00:15:59,000 --> 00:16:01,000
+How will it make your applications run better?
+
+341
+00:16:01,000 --> 00:16:06,000
+Just about every software maker is busy
+cranking out new Win95 versions of their
+
+342
+00:16:06,000 --> 00:16:10,000
+programs, so you can take advantage
+of the extra juice in Windows 95.
+
+343
+00:16:10,000 --> 00:16:16,000
+Here to show us two examples of brand
+new Win95 apps are Jeff Rona of 3DI and
+
+344
+00:16:16,000 --> 00:16:18,000
+also over there Kevin Goldberg of Trimark.
+
+345
+00:16:18,000 --> 00:16:21,001
+Let's start with you, Jeff,
+and you have a program called Trispectives.
+
+346
+00:16:22,000 --> 00:16:25,001
+And first of all, what's important
+about Win95 to this 3D design program?
+
+347
+00:16:26,000 --> 00:16:29,001
+Well, our program really isn't able to
+do anything without the power that's
+
+348
+00:16:29,001 --> 00:16:32,000
+behind a 32-bit application like Windows 95.
+
+349
+00:16:32,000 --> 00:16:36,001
+Its multi-threading capabilities allow
+us to render faster, move objects
+
+350
+00:16:36,001 --> 00:16:41,000
+interactively quickly,
+and overall speed performances that just
+
+351
+00:16:41,000 --> 00:16:43,000
+weren't available in Windows 3D.
+
+352
+00:16:43,000 --> 00:16:45,001
+You have some neat examples now,
+so show us a little bit of
+
+353
+00:16:45,001 --> 00:16:47,000
+the program and what it does.
+
+354
+00:16:47,000 --> 00:16:52,001
+Right. We can actually create 3D models
+interactively, and with the power of the
+
+355
+00:16:52,001 --> 00:16:55,000
+32-bit application,
+we can continue moving those.
+
+356
+00:16:55,000 --> 00:17:01,000
+We have a 3D page that we've developed,
+and on this 3D page, we can actually go
+
+357
+00:17:01,000 --> 00:17:05,000
+back in and show you some of the features
+where we have in our graphics package.
+
+358
+00:17:05,000 --> 00:17:09,000
+We can do animation and
+room design layout graphics
+
+359
+00:17:09,000 --> 00:17:11,000
+capabilities that you'd find in other packages.
+
+360
+00:17:11,001 --> 00:17:14,001
+Here we'll show you our
+drag and drop animation.
+
+361
+00:17:16,000 --> 00:17:19,001
+We'll ship the product with over 1,000
+IntelliShape 3D models, which are
+
+362
+00:17:19,001 --> 00:17:21,000
+like intelligent clip art.
+
+363
+00:17:21,000 --> 00:17:24,001
+We simply drag out of a catalog,
+and the model is created
+
+364
+00:17:24,001 --> 00:17:26,001
+instantly and put into the scene.
+
+365
+00:17:27,000 --> 00:17:28,000
+So that's 3D clip art.
+
+366
+00:17:29,000 --> 00:17:32,001
+We call it IntelliShape.
+They have intelligent properties. They know how
+
+367
+00:17:32,001 --> 00:17:34,000
+to land and slide over one another.
+
+368
+00:17:35,000 --> 00:17:38,000
+That makes it more intuitive
+for a user in a drag and drop.
+
+369
+00:17:38,000 --> 00:17:40,000
+And the fact is you can animate
+these things essentially.
+
+370
+00:17:40,000 --> 00:17:44,001
+Exactly. So now I'll just go into our
+animation catalogs, make a spin move on
+
+371
+00:17:44,001 --> 00:17:46,000
+the Earth, and a spin move there.
+
+372
+00:17:46,000 --> 00:17:51,001
+We'll turn on our smart motions and click play,
+and we have a real-time animation
+
+373
+00:17:51,001 --> 00:17:55,000
+sequence that can be exported
+out to an AVI file if you wish.
+
+374
+00:17:55,000 --> 00:17:58,001
+We're using something like
+PowerPoint or in Media Play.
+
+375
+00:18:00,000 --> 00:18:01,001
+What else can we do with this?
+
+376
+00:18:02,000 --> 00:18:05,001
+For many customers,
+many people are working into virtual reality.
+
+377
+00:18:06,000 --> 00:18:09,000
+Here we've got a room scene that we've set up.
+We can actually do a walk-through
+
+378
+00:18:09,000 --> 00:18:11,001
+camera angle to go into our room.
+
+379
+00:18:12,000 --> 00:18:17,000
+And we can turn ourselves
+around so we get the back view.
+
+380
+00:18:17,001 --> 00:18:20,001
+And then for creation,
+we can actually drag and drop more of those
+
+381
+00:18:20,001 --> 00:18:22,000
+models into this.
+
+382
+00:18:23,000 --> 00:18:27,001
+So we have a table and chair,
+and the table knows
+
+383
+00:18:27,001 --> 00:18:29,000
+how to land on its legs,
+and the chair knows how to land.
+
+384
+00:18:29,000 --> 00:18:31,000
+So that's the intelligent shape.
+It knows where it belongs.
+
+385
+00:18:31,001 --> 00:18:34,001
+Exactly.
+So even if we move it across the floor.
+
+386
+00:18:35,001 --> 00:18:39,000
+We can also position it using a new
+feature we have called a tri-ball.
+
+387
+00:18:40,000 --> 00:18:46,001
+And here we'll just move the center,
+and with just a simple mouse click, we can
+
+388
+00:18:46,001 --> 00:18:52,001
+actually replicate this three times
+and create scenes very quickly.
+
+389
+00:18:53,001 --> 00:18:58,001
+Again, something you wouldn't really be
+able to do in a non-32-bit application.
+
+390
+00:19:00,001 --> 00:19:04,001
+And we can save that scene out actually
+as a VRML file or a Visual Basic Text
+
+391
+00:19:04,001 --> 00:19:08,001
+file for the models, AVI files,
+JPEG, and the rest of the standards.
+
+392
+00:19:08,001 --> 00:19:11,000
+[...] the Spector's 3D design with the One 95.
+Thanks a lot.
+
+393
+00:19:11,001 --> 00:19:14,000
+Alright,
+let's see what Windows 95 does for a game now.
+
+394
+00:19:14,001 --> 00:19:16,001
+And I'll interrupt Kevin in
+the middle of playing the
+
+395
+00:19:16,001 --> 00:19:18,001
+hive. And tell us about the game, Kevin.
+
+396
+00:19:19,000 --> 00:19:23,001
+Well, what Windows 95 gave us is the
+ability to do pan-eractive sequences,
+
+397
+00:19:24,001 --> 00:19:28,000
+as well as streaming animation on top of them.
+
+398
+00:19:28,001 --> 00:19:29,001
+Something that we couldn't have done
+
+399
+00:19:29,001 --> 00:19:33,000
+before. And I'll jump right into gameplay here.
+
+400
+00:19:33,000 --> 00:19:35,000
+So tell us what's going on in the
+game here while you're playing.
+
+401
+00:19:35,000 --> 00:19:39,001
+Well, I've just landed on an ocean platform,
+and now I'm just going to
+
+402
+00:19:39,001 --> 00:19:41,001
+basically blow these guys away.
+
+403
+00:19:42,000 --> 00:19:44,000
+You can hear I'm doing pretty well.
+
+404
+00:19:45,000 --> 00:19:49,000
+This is a standard rail sequence
+where your motion is predetermined.
+
+405
+00:19:51,000 --> 00:19:54,001
+And if you get far enough along, I'll be
+able to show you a pan-eractive sequence
+
+406
+00:19:54,001 --> 00:19:59,000
+where you can stationary, and the sprites
+move around you in the same way as
+
+407
+00:19:59,000 --> 00:20:05,001
+it's controlling the motion,
+seamless branching between the two, and with
+
+408
+00:20:05,001 --> 00:20:07,001
+that Windows 95, you couldn't have done it.
+
+409
+00:20:07,001 --> 00:20:09,000
+Very cool. Alright, it's called the hive.
+
+410
+00:20:09,001 --> 00:20:10,000
+Absolutely. Thanks a lot.
+
+411
+00:20:10,001 --> 00:20:14,000
+Alright, you've no doubt heard about
+the new Microsoft Network MSN,
+
+412
+00:20:14,000 --> 00:20:15,001
+which comes with Windows 95.
+
+413
+00:20:16,000 --> 00:20:20,000
+If you want help or more information on
+Windows 95, there are, in fact, a lot
+
+414
+00:20:20,000 --> 00:20:21,001
+of online sites where you can find it.
+
+415
+00:20:22,000 --> 00:20:24,001
+So let's check out this week's
+Net News with Giles Bateman.
+
+416
+00:20:25,001 --> 00:20:28,000
+Thanks, Stuart. I think the best place to
+start is to go straight to the source.
+
+417
+00:20:28,000 --> 00:20:32,001
+Here I am at Microsoft's own Windows website,
+and here I can get Windows 95
+
+418
+00:20:32,001 --> 00:20:37,000
+general information, tech information
+and support, free software, and more.
+
+419
+00:20:37,001 --> 00:20:40,000
+But I think of more interest to online
+users is the Microsoft Network.
+
+420
+00:20:40,001 --> 00:20:43,001
+If you have access to a web browser and
+the Internet, you can actually check out
+
+421
+00:20:43,001 --> 00:20:45,001
+MSN before you ever sign up for it.
+
+422
+00:20:46,000 --> 00:20:50,001
+You just go to the MSN website,
+and you can click About MSN, and, well, you can
+
+423
+00:20:50,001 --> 00:20:54,000
+learn what's on MSN today, and there are
+more things you can do, but you can get
+
+424
+00:20:54,000 --> 00:20:56,000
+a general feel for it before
+you ever become a member.
+
+425
+00:20:56,000 --> 00:21:00,000
+Now, if you're not on the Internet,
+or perhaps you're on an online service and
+
+426
+00:21:00,000 --> 00:21:02,001
+you're not used to using the Internet,
+remember the word Win News.
+
+427
+00:21:03,001 --> 00:21:06,000
+That's W-I-N-N-E-W-S. There are two N's
+
+428
+00:21:06,000 --> 00:21:07,001
+in the middle,
+and there's no space in between it.
+
+429
+00:21:07,001 --> 00:21:11,001
+Now, in just about any service,
+it's Go Win News or Jump Win News. I think only
+
+430
+00:21:11,001 --> 00:21:15,000
+on Genie you do a, what is it, Move to Page 95.
+
+431
+00:21:15,001 --> 00:21:18,000
+So that's the only one that's different.
+The other thing you'll want to remember
+
+432
+00:21:18,000 --> 00:21:20,000
+is the Win 95L Mailing List.
+
+433
+00:21:20,000 --> 00:21:24,001
+Now, just follow the instructions you see here,
+and you will get actual hard-core
+
+434
+00:21:24,001 --> 00:21:27,000
+hands-on information from
+Windows 95 users themselves.
+
+435
+00:21:28,000 --> 00:21:32,000
+Now, time for our weekly summary of
+what's new in the field of personal
+
+436
+00:21:32,000 --> 00:21:36,000
+computing. Let's go to Studio E
+for this week's Computer News.
+
+437
+00:21:37,000 --> 00:21:41,001
+In the random access file this week,
+it's a Pentium World. Computer Intelligence
+
+438
+00:21:41,001 --> 00:21:47,000
+InfoCorp reports that Pentiums now represent
+53 percent of all new PCs sold. 486
+
+439
+00:21:47,000 --> 00:21:52,000
+-based PCs are dying out, and estimates
+are that by December, 486s will account
+
+440
+00:21:52,000 --> 00:21:54,000
+for less than 25 percent of the market.
+
+441
+00:21:55,000 --> 00:21:59,000
+But just as the Pentium begins to dominate,
+Intel has announced P6, the
+
+442
+00:21:59,000 --> 00:22:00,001
+next generation microprocessor.
+
+443
+00:22:01,001 --> 00:22:04,001
+They've given it an official name,
+the Pentium Pro. P6
+
+444
+00:22:04,001 --> 00:22:06,001
+machines are due out later this year.
+
+445
+00:22:06,001 --> 00:22:10,000
+The Pentium Pro has five and a half
+million transistors on the chip.
+
+446
+00:22:10,000 --> 00:22:16,000
+Compaq's new PCs are coming standard with
+MPEG video capability. Compaq is also
+
+447
+00:22:16,000 --> 00:22:20,000
+bundling in 3D surround sound and a
+speech recognition voicemail system.
+
+448
+00:22:21,000 --> 00:22:25,001
+IBM is also making its new Aptiva's more
+multimedia-friendly. The new models just
+
+449
+00:22:25,001 --> 00:22:30,000
+out this week feature a special video
+chip called M-Wave that also enables
+
+450
+00:22:30,000 --> 00:22:33,000
+smooth, full-motion video and duplex sound.
+
+451
+00:22:33,000 --> 00:22:37,001
+If you're looking for a Mac clone,
+Power Computing has announced its first retail
+
+452
+00:22:37,001 --> 00:22:42,000
+deal for the Power100, one of the first
+officially licensed Mac compatibles.
+
+453
+00:22:42,001 --> 00:22:45,001
+They'll be on sale at computer
+city stores around the country.
+
+454
+00:22:46,001 --> 00:22:50,000
+In the fast-changing world of the internet,
+domain names are no longer free.
+
+455
+00:22:50,001 --> 00:22:54,001
+Network Solutions, the company that
+registers net domains, says effective
+
+456
+00:22:54,001 --> 00:22:58,000
+immediately, there will be a
+$50 annual fee to register.
+
+457
+00:22:58,001 --> 00:23:02,000
+Domain names are being listed
+at the rate of 14,000 a month.
+
+458
+00:23:02,001 --> 00:23:06,001
+Netscape says it will soon be out with
+a new software package that makes it
+
+459
+00:23:06,001 --> 00:23:08,000
+easy to create your own webpage.
+
+460
+00:23:08,001 --> 00:23:13,001
+It's called Navigator Gold 2.0.
+It will be available free on the net at the end
+
+461
+00:23:13,001 --> 00:23:16,000
+of October and will go on sale in January.
+
+462
+00:23:16,001 --> 00:23:20,001
+But two UC Berkeley graduate students
+say they have found a security
+
+463
+00:23:20,001 --> 00:23:22,000
+gap in Netscape's web browser.
+
+464
+00:23:22,001 --> 00:23:25,000
+They say a knowledgeable
+computer user can break their
+
+465
+00:23:25,000 --> 00:23:27,000
+existing security code in a minute.
+
+466
+00:23:27,001 --> 00:23:31,000
+Netscape has acknowledged the problem
+and said a fix is on the way.
+
+467
+00:23:31,000 --> 00:23:35,001
+If you're trying to find a new CD-ROM
+title and don't know where to look, check
+
+468
+00:23:35,001 --> 00:23:38,000
+out the new CD-ROM database on CompuServe.
+
+469
+00:23:38,000 --> 00:23:43,000
+The new section called CD-ROM-based
+online lists nearly 10,000 current CD-ROM
+
+470
+00:23:43,000 --> 00:23:46,000
+titles, including description,
+price, and publisher.
+
+471
+00:23:47,000 --> 00:23:51,001
+You may be using a Microsoft mouse or a
+Microsoft keyboard, but now Gates and
+
+472
+00:23:51,001 --> 00:23:54,000
+company are getting into the joystick business.
+
+473
+00:23:54,000 --> 00:23:58,000
+MS has announced a new joystick
+optimized for Windows 95.
+
+474
+00:23:58,001 --> 00:24:02,000
+It features eight buttons and
+new digital optical technology
+
+475
+00:24:02,000 --> 00:24:04,000
+for faster response time.
+
+476
+00:24:04,000 --> 00:24:08,001
+It's called the Sidewinder 3D Pro
+and it sells for under 60 bucks.
+
+477
+00:24:09,000 --> 00:24:12,000
+And finally, if you're really a geek,
+check this out.
+
+478
+00:24:13,000 --> 00:24:18,000
+Website MorsePR.com. It will let you
+follow brick by brick the construction of
+
+479
+00:24:18,000 --> 00:24:20,000
+Bill Gates' new $50 million mansion.
+
+480
+00:24:20,000 --> 00:24:25,000
+The website features aerial views of the
+40,000 square foot home and detailed
+
+481
+00:24:25,000 --> 00:24:29,000
+shots of various parts of the house,
+like the 50 car garage and the
+
+482
+00:24:29,000 --> 00:24:31,000
+underwater pool stereo system.
+
+483
+00:24:31,000 --> 00:24:34,001
+The page was put up by the
+Morse MacFadden PR company.
+
+484
+00:24:35,000 --> 00:24:37,001
+Well, that's it for this week's Computer News.
+Stewart?
+
+485
+00:24:38,000 --> 00:24:42,001
+Before we wrap things up, let me tell
+you about one terrific program I found.
+
+486
+00:24:42,001 --> 00:24:46,001
+If you like computer games and you've
+always wanted to write your own games, but
+
+487
+00:24:46,001 --> 00:24:51,000
+you don't have time to become a C++
+programmer, there is a great package out
+
+488
+00:24:51,000 --> 00:24:54,001
+called Click and Play from an
+English company named Europress.
+
+489
+00:24:55,000 --> 00:24:58,000
+This is a brilliant
+object-oriented point-and-click
+
+490
+00:24:58,000 --> 00:24:59,001
+programming tool for game makers.
+
+491
+00:25:00,000 --> 00:25:04,000
+It comes with 10 games written in the
+Click and Play language, and you can go
+
+492
+00:25:04,000 --> 00:25:07,001
+inside and see exactly how the games work,
+and you can
+
+493
+00:25:07,001 --> 00:25:09,000
+modify them to suit your tastes.
+
+494
+00:25:09,001 --> 00:25:13,001
+This is one of the neatest software
+packages I have come across in a long time.
+
+495
+00:25:13,001 --> 00:25:18,000
+Click and Play runs under Windows.
+It sells for about $50, and
+
+496
+00:25:18,000 --> 00:25:19,001
+it's distributed by Maxis.
+
+497
+00:25:20,001 --> 00:25:23,001
+That's it for this week's Computer Chronicles.
+We'll be back here next week with
+
+498
+00:25:23,001 --> 00:25:27,000
+another half hour of the latest
+in personal computer technology.
+
+499
+00:25:28,000 --> 00:25:30,000
+I'm Stewart Chuffay.
+We'll see you here next time.
+
+500
+00:25:43,001 --> 00:25:46,000
+Please, you're taking a close
+look at remote management.
+
+501
+00:26:13,001 --> 00:26:17,001
+...insights and thoughts about the
+fast-changing world of personal technology.
+
+502
+00:26:18,000 --> 00:26:24,000
+Videotapes and the Chuffay Letter can be
+ordered by calling 1-800-800-9520, or by
+
+503
+00:26:24,000 --> 00:26:25,001
+writing us at the Computer Chronicles.
+

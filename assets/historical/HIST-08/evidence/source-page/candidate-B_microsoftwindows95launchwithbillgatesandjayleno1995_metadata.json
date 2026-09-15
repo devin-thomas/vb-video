@@ -1,0 +1,81 @@
+{
+ "retrieved_from": "https://archive.org/metadata/microsoftwindows95launchwithbillgatesandjayleno1995",
+ "retrieved_at": "2026-09-15",
+ "note": "Trimmed copy: metadata block kept whole; file list reduced to name/format/size/source.",
+ "metadata": {
+  "identifier": "microsoftwindows95launchwithbillgatesandjayleno1995",
+  "mediatype": "movies",
+  "collection": [
+   "vhsinstructionals",
+   "vhsvault"
+  ],
+  "creator": "Microsoft Corporation, Caribiner",
+  "date": "1995-08-24",
+  "description": "<div>Dreams come true: the holy grail of Microsoft launch events finally made available for viewing pleasure after nearly 27 years. This launch event stars Jay Leno as he explores Windows 95 and the campus while making remarkably corny and dated celebrity jokes, so it's an unexpected relief to hear Bill Gates talk when he isn't around.</div><div><br /></div><div>Several pieces of footage from this event have been floating around for many years, but the full uncut version was nowhere to be found up until now, so you'll be witnessing a lot of stuff that hasn't been seen by anyone outside of attendees, the press, and the development team. One example is some of the websites shown near the end, including pages from the older MSN service, and the official homepage for the Windows 95 launch campus complete with rich web graphics. And that was all displayed on Internet Explorer 1.0!</div><div><br /></div><div>This tape also houses that infamous Windows 1.0 \"commercial\" with Steve Ballmer, in case you're wondering where that originates from. It's also one of possibly several different prints for that video, as there are other old copies floating around shown to have different intros.</div><div><br /></div><div>A pretty crucial detail at the beginning of the video regarding Windows 95's release to manufacturing date is also brought up, as the one that's present on Wikipedia wrongly states that its August 15th, so that's another mystery cleared up.</div><div><br /></div><div>I consider this to be the absolute pinnacle of my VHS collection, as I doubt anything else I collect will ever top this. It cost a pretty penny to obtain too! That doesn't mean it won't be the end of my collecting endeavors, as I'll be back to upload more tapes from time to time. So now I bring this crucial piece of software history to you, and I hope you hold this landmark of a tape in high regard as much as I do. Enjoy!</div><div><br /></div><div>\"Start Me Up\" by The Rolling Stones (1981)</div>",
+  "language": "eng",
+  "scanner": "Internet Archive HTML5 Uploader 1.6.4",
+  "subject": [
+   "Microsoft",
+   "Windows",
+   "Windows 95",
+   "Launch",
+   "Bill Gates",
+   "Jay Leno",
+   "VHS",
+   "1995"
+  ],
+  "title": "Microsoft Windows 95 Launch with Bill Gates & Jay Leno (1995)",
+  "uploader": "autismman2000@gmail.com",
+  "publicdate": "2022-04-03 22:31:00",
+  "addeddate": "2022-04-03 22:31:00",
+  "curation": "[curator]validator@archive.org[/curator][date]20220403223407[/date][comment]checked for malware[/comment]",
+  "year": "1995",
+  "sound": "sound",
+  "color": "color",
+  "collection_added": "vhsvault"
+ },
+ "files": [
+  {
+   "name": "Microsoft Windows 95 Launch with Bill Gates & Jay Leno (1995).mkv",
+   "format": "Matroska",
+   "size": "2795064236",
+   "source": "original"
+  },
+  {
+   "name": "Microsoft Windows 95 Launch with Bill Gates & Jay Leno (1995).mp4",
+   "format": "h.264",
+   "size": "565705580",
+   "source": "derivative"
+  },
+  {
+   "name": "__ia_thumb.jpg",
+   "format": "Item Tile",
+   "size": "8010",
+   "source": "original"
+  },
+  {
+   "name": "microsoftwindows95launchwithbillgatesandjayleno1995_archive.torrent",
+   "format": "Archive BitTorrent",
+   "size": "34809",
+   "source": "metadata"
+  },
+  {
+   "name": "microsoftwindows95launchwithbillgatesandjayleno1995_files.xml",
+   "format": "Metadata",
+   "size": null,
+   "source": "original"
+  },
+  {
+   "name": "microsoftwindows95launchwithbillgatesandjayleno1995_meta.sqlite",
+   "format": "Metadata",
+   "size": "28672",
+   "source": "original"
+  },
+  {
+   "name": "microsoftwindows95launchwithbillgatesandjayleno1995_meta.xml",
+   "format": "Metadata",
+   "size": "3301",
+   "source": "original"
+  }
+ ]
+}

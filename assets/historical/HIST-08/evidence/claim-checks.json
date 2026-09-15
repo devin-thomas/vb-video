@@ -1,0 +1,66 @@
+{
+  "id": "HIST-08",
+  "checked_at": "2026-09-15",
+  "checked_by": "HIST-08 worker agent (Historical Screenshots department)",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "reason": "The still is a frame from Computer Chronicles episode 'Windows 95' (CC1301), which the Internet Archive item describes as 'Copyright 1995 Stewart Cheifet Productions.' The English-language item carries no licenseurl or rights field. The French-language version (fr_cc190_windows_95) carries CC BY-NC-ND 2.0, but that license is on a different item, and its NonCommercial and NoDerivatives terms may not fit a published YouTube video or a pillarboxed editorial frame. The on-stage event imagery (Windows logo, Start staging) is Microsoft's event design, and the report may include Microsoft-supplied event video; that underlying ownership is not documented. Evidence cannot settle fair use or permission, so the gate stays open as a rights review question. Nothing was cleared.",
+      "evidence_paths": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/source-page/CC1301_windows_95_meta.xml",
+        "evidence/source-page/CC1301_windows_95_files.xml",
+        "evidence/source-page/fr_cc190_windows_95_metadata.json",
+        "evidence/source-excerpts.md"
+      ],
+      "approver": null,
+      "decision": null,
+      "review_question": "RQ-1 (rights): see qa.md"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The frame depicts the Windows 95 launch event at Microsoft in Redmond, Washington.",
+      "status": "supported",
+      "evidence": [
+        "The broadcast caption burned into the frame reads 'MICROSOFT / REDMOND, WA' (source/original.png).",
+        "CC1301 narration at 00:06:46: 'here's what it was like in Redmond, Washington the day Windows 95 was finally released' (IA ASR transcript, evidence/source-excerpts.md).",
+        "CC1301 narration at 00:06:58: 'Bill Gates invited Jay Leno to launch Windows 95 at this Hollywood-style event at Microsoft headquarters.'",
+        "The stage in the frame (Windows flag screens, 'Start' sign, lectern) matches the independent Microsoft/Caribiner launch tape on the Internet Archive (item microsoftwindows95launchwithbillgatesandjayleno1995, frames at 715 s and 4914 s). This is a visual cross-check only, not the basis of identification."
+      ],
+      "identification_basis": "source caption and narration, not appearance"
+    },
+    {
+      "claim": "Depicted event date: 24 August 1995.",
+      "status": "supported",
+      "evidence": [
+        "Microsoft press release dated 21 August 1996 announces 'the one-year anniversary of the Windows 95 operating system on Saturday, Aug. 24' (https://news.microsoft.com/source/1996/08/21/one-year-anniversary-of-windows-95-to-be-celebrated/, accessed 2026-09-15).",
+        "The CC1301 narration says the footage is from 'the day Windows 95 was finally released' but gives no calendar date."
+      ]
+    },
+    {
+      "claim": "Publication: Computer Chronicles season 13 episode 'Windows 95', originally broadcast in 1995.",
+      "status": "partially_supported",
+      "evidence": [
+        "IA item description: 'Originally broadcast in 1995. Copyright 1995 Stewart Cheifet Productions.'",
+        "Wikipedia 'List of Computer Chronicles episodes' gives 26 September 1995 as the original release date (secondary source, accessed 2026-09-15). No primary broadcast log was found, so the exact air date is recorded as unverified."
+      ]
+    },
+    {
+      "claim": "SCRIPT.md:114 VISUAL: 'Windows 95 launch footage - the Rolling Stones, the lines outside CompUSA, the startup sound.'",
+      "status": "partially_supported_not_depicted",
+      "evidence": [
+        "CC1301 narration at 00:08:01-00:08:04 says the 'Start Me Up commercial' was previewed at the launch. That supports a Rolling Stones connection through the licensed song in the advertisement. It does not show a Stones appearance, and this still does not depict the Stones.",
+        "No examined source substantiates lines specifically outside CompUSA. The CC1301 item description says only 'stores opening at midnight.'",
+        "The startup sound is audio; this ticket carries no audio."
+      ],
+      "action": "SCRIPT.md not edited (worker instruction). Proposed wording change routed to the Writing Lead as RQ-3 in qa.md."
+    }
+  ],
+  "not_checked": [
+    "SCRIPT.md:112 Visual Basic version/date statements belong to gate R15, which is not assigned to HIST-08."
+  ]
+}
