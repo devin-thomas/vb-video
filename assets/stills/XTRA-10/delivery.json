@@ -1,9 +1,9 @@
 {
   "id": "XTRA-10",
   "title": "VB-for-Mac claim visual: evidence-gated decision",
-  "production_status": "blocked",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "evidence-gated research record (internal proof); no media produced",
+  "provenance_type": "original authored composition (composed text card with researched historical content; no external images)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
   "dimensions": {
@@ -13,35 +13,121 @@
   "fps": null,
   "outputs": [
     {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 445,
+      "sha256": "8d35b50fe518797f8ff3a88dad99e224476d5fd3aec1e6ec1cde57537a06bbe5"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 7759,
+      "sha256": "f401e490e52f051bc2f3290df30251d27071dcd2daf5069b7f485d41bbbc711a"
+    },
+    {
       "path": "evidence/provenance.json",
-      "role": "evidence: source provenance, retrieval hashes, search log",
-      "bytes": 19620,
-      "sha256": "72d03b878853c40d34e61d3420023df2c28324d8c6867986df88cba1aa4a7a3e"
+      "role": "evidence / QA",
+      "bytes": 20218,
+      "sha256": "85956c15de40f1f1bd809eb5b2997cb180c096a4a6bb1533d278259da758df5c"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "9b7177bb9e1d80a31e56583e873122914d0b2293ab01aa44b9a0302f876dfca1"
     },
     {
       "path": "evidence/source-excerpts.md",
-      "role": "evidence: verbatim script excerpt and short external excerpts",
+      "role": "evidence / QA",
       "bytes": 4825,
       "sha256": "507ba2672407f64fd309ee036f8b3bc3ac3c2e1644ffcdba55fbb6c5045de585"
     },
     {
-      "path": "evidence/claim-checks.json",
-      "role": "evidence: R09/R14 gate records, claim decomposition, review questions",
-      "bytes": 7477,
-      "sha256": "f152b01f6f8dabc85a86a1775d6dc260f7b9185446c241ba2ab762322d485124"
+      "path": "exports/approved-visual.png",
+      "role": "rendered still",
+      "bytes": 119949,
+      "sha256": "5561b01dd684742bc2305e87b728dc5888e6a3c9dc1e2f4ef0ca80cf6db43d39"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 43727,
+      "sha256": "9ab8d0615e8117b0a071fa20a79445317d76c7a19b23a12bea13ce5f3a67b6fe"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 119949,
+      "sha256": "5561b01dd684742bc2305e87b728dc5888e6a3c9dc1e2f4ef0ca80cf6db43d39"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 170487,
+      "sha256": "522d57661a795e490c2de8b22948b8d5b4d239e2368ce13facce5c1b877ce873"
     },
     {
       "path": "qa.md",
-      "role": "qa: tests actually run, method, blockers",
-      "bytes": 6663,
-      "sha256": "cd10fd6d4510f3d0a7d1a80ce8739b378b3371cc6f27b6634cde2702db8da4ea"
+      "role": "evidence / QA",
+      "bytes": 2586,
+      "sha256": "a38f7c18f5e6e5515ef36bbb526a72958a037db10803ed5e068be5b78d16fa74"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1329,
+      "sha256": "89a188a8f61b9fbe58bbe2a008dc5d7bb95bf0130b95656dbd6eb378fd53ceb3"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 860,
+      "sha256": "56ebbbb6e0d2b73d09401db93f436b9538b57f0c281cb0ad49c60376bf604d1f"
+    },
+    {
+      "path": "src/build.py",
+      "role": "editable source",
+      "bytes": 9405,
+      "sha256": "cd4acd9975bec13dc6e07b03cfc5a46411fca65a99c4ff47fcce706f21d1de12"
+    },
+    {
+      "path": "src/copy.txt",
+      "role": "editable source",
+      "bytes": 605,
+      "sha256": "590444d61d3253dc1f537ce0d8d6ceb916c460bdec1cc1cb57e614965ff014a5"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 7539,
+      "sha256": "b2a92db9df9f4eeab7488f00c050119eacf67d2dda720d2dad4dc34d8857514b"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 5562,
+      "sha256": "ec6e258c70d5a8fed54e91834352ec9e624aefc77447fe24b64f697d700dfaed"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 448,
+      "sha256": "64f9cdf96a109a250a24f3315b1ff453b1b57bbd74780e73cc85dbbe7d21a4ac"
+    },
+    {
+      "path": "src/variant-approved-visual.svg",
+      "role": "editable source",
+      "bytes": 5562,
+      "sha256": "ec6e258c70d5a8fed54e91834352ec9e624aefc77447fe24b64f697d700dfaed"
     }
   ],
   "variants": [
     {
       "name": "approved-visual",
-      "path": null,
-      "status": "not produced - awaiting producer visual decision and R09/R14 resolution"
+      "files": [
+        "exports/approved-visual.png",
+        "src/variant-approved-visual.svg"
+      ]
     }
   ],
   "sources": [
@@ -52,26 +138,41 @@
         647
       ],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
-      "relationship": "literal excerpt (claim under review)"
-    },
-    {
-      "path": "evidence/provenance.json",
-      "relationship": "external source records S02-S28 (historical originals referenced, not acquired)"
+      "relationship": "source creative brief (narration claim under review)"
     }
   ],
-  "credits": [],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
   "tests": [
     {
-      "name": "JSON syntax check",
-      "result": "pass"
+      "test": "required outputs and checksums",
+      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
     },
     {
-      "name": "sources/SCRIPT.md hash unchanged",
-      "result": "pass"
+      "test": "original source files",
+      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
     },
     {
-      "name": "python tools/validate_delivery.py --id XTRA-10",
-      "result": "fails by design (blocked status, visual outputs absent); output recorded in qa.md"
+      "test": "manual visual review",
+      "result": {
+        "mode": "Poster contact-sheet review",
+        "scope": "A 640 × 360 thumbnail, not every full-resolution animation frame.",
+        "status": "No obvious composition issue found at overview size; editorial and final frame-by-frame review remain."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed"
     }
   ],
   "unresolved_gates": [
@@ -79,15 +180,27 @@
     "R14"
   ],
   "toolchain": {
-    "curl": "8.18.0",
+    "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
-    "gh": "2.88.1",
-    "git": "2.53.0.windows.1",
-    "renderer": "none used"
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading."
   },
   "notes": [
-    "INTERNAL PROOF. Discovery stage only; not an editor-ready historical assertion.",
-    "Finding: no Microsoft product named 'Visual Basic for Mac' substantiated; evidence contradicts SCRIPT.md:645.",
-    "src/index.html, exports/poster.png, exports/approved-visual.png intentionally not created (no placeholder media)."
+    "Composed text card: \"Visual Basic for Mac\" was never released.",
+    "QuickBASIC 1.00 for Apple Macintosh (1988) shown as closest real product.",
+    "Editorial decision approved by project owner; script unchanged.",
+    "No external images: all content is authored text using studio.py primitives.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
   ]
 }

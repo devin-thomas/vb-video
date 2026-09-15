@@ -816,5 +816,17 @@
       "R03",
       "R14"
     ]
+  },
+  {
+    "id": "XTRA-10",
+    "title": "VB-for-Mac claim visual: evidence-gated decision",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R09",
+      "R14"
+    ]
   }
 ]

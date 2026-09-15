@@ -1,0 +1,17 @@
+# XTRA-10 on-screen copy (authored production text, not from sources/)
+
+Title: "Visual Basic for Mac"
+Subtitle: Product Not Found
+
+Microsoft never released a standalone product
+called "Visual Basic" for the Macintosh.
+
+The closest Microsoft BASIC for Macintosh:
+  Microsoft QuickBASIC 1.00 for Apple Macintosh
+  Released 1988  |  Last update: 1.00e (April 1992)
+  Platform: Classic Mac OS, 68K (System 4.10+)
+
+Also on Mac:  BASIC Interpreter 1.0–3.0 (1984–1986)
+  BASIC Compiler 1.0  |  VBA in Office for Mac (from ~1994)
+
+Evidence: Microsoft KB, MacWEEK 1996, period sources  —  see provenance.json

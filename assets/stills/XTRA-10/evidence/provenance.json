@@ -325,10 +325,19 @@
   ],
   "downloads": "Text only (archived HTML pages and Internet Archive OCR .txt) saved to the session scratchpad for hashing; not committed. No software disk images, PDFs, screenshots or other media were downloaded.",
   "authored_additions": [
-    "Claim decomposition, candidate-referent analysis and review questions in claim-checks.json are research authorship, not source content."
+    "Claim decomposition, candidate-referent analysis and review questions in claim-checks.json are research authorship, not source content.",
+    "Composed text card (src/scene.svg, src/index.html) is original authored production artwork using studio.py SVG primitives. No external images or screenshots used.",
+    "On-screen copy is an authored production choice: src/copy.txt records exact text. It is not from sources/SCRIPT.md."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    {
+      "decision": "Use composed text card instead of screenshot or 404 gag",
+      "decided_by": "project owner (via producer)",
+      "rationale": "VB for Mac proven fictional; QuickBASIC for Mac is closest real product; no rights-cleared screenshot available",
+      "date": "2026-09-15"
+    }
+  ]
 }

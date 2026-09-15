@@ -1,0 +1,22 @@
+{
+  "id": "XTRA-10",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Evidence and editorial decision first.",
+    "Only then produce the selected screenshot treatment or approved graphic."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "approved-visual"
+  ],
+  "motion_model": "Still asset: one state held for editorial timing."
+}

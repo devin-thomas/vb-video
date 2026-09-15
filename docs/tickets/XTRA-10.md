@@ -95,3 +95,11 @@ First: you weren't using Visual Basic. Microsoft did release a product called "V
 
 **[VISUAL: Maybe a screenshot of VB for Mac if one can be found. Otherwise, a "404 Not Found" joke graphic.]**
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/stills/XTRA-10/delivery.json) · [QA and remaining decisions](../../assets/stills/XTRA-10/qa.md) · [Live state](../../assets/stills/XTRA-10/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

@@ -1,0 +1,33 @@
+{
+  "id": "XTRA-10",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene.svg"
+    }
+  ],
+  "variants": {
+    "approved-visual": "variant-approved-visual.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Composed text card: \"Visual Basic for Mac\" was never released.",
+    "QuickBASIC 1.00 for Apple Macintosh (1988) shown as closest real product.",
+    "Editorial decision approved by project owner; script unchanged.",
+    "No external images: all content is authored text using studio.py primitives."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        645,
+        647
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (narration claim under review)"
+    }
+  ],
+  "kind": "still"
+}

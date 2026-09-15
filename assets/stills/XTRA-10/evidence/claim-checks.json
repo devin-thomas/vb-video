@@ -68,9 +68,15 @@
       "id": "C6",
       "text": "[VISUAL] screenshot of VB for Mac if one can be found; otherwise a \"404 Not Found\" joke graphic",
       "type": "visual direction",
-      "status": "blocked",
+      "status": "resolved_by_editorial_decision",
       "evidence": ["S07", "S08", "S12", "S13", "S14"],
-      "note": "No authentic VB-for-Mac screenshot is possible. A 404 gag cannot serve as evidence and requires producer approval; it would also be misleading if the narration still claims the product existed."
+      "note": "No authentic VB-for-Mac screenshot is possible. Editorial decision (project owner approved): produce a composed text card stating the product was never released, showing QuickBASIC for Macintosh as the closest real product. No external images sourced; all text is authored using studio.py primitives. Neither the 404 gag nor a fictional screenshot is used.",
+      "editorial_decision": {
+        "decided_by": "project owner (via producer)",
+        "approach": "composed text card",
+        "rationale": "VB for Mac proven fictional; QuickBASIC for Mac is the closest real Microsoft BASIC for Macintosh",
+        "script_unchanged": true
+      }
     }
   ],
   "candidate_referents": [
@@ -83,7 +89,7 @@
   ],
   "review_questions": [
     "SCRIPT (Writing Lead): War/SCRIPT.md:702 states Microsoft released 'Visual Basic for Mac' in the early 90s, that it was terrible, abandoned quickly and disliked. Evidence contradicts the product's existence. Rewrite, narrow, or cut? The script is unchanged by this ticket.",
-    "VISUAL (producer): With no real product to screenshot, which approach: (a) neutral text card, e.g. 'Visual Basic for Mac: never released', with a source note; (b) a real screenshot of QuickBASIC for Macintosh or MS BASIC for Mac, which needs a rights-cleared capture or an emulator session and is a boundary item; (c) a MacWEEK 1996 clipping, rights unknown under R14; or (d) the 404 gag, only as labelled humor after the narration is corrected?",
+    "VISUAL (producer): RESOLVED by editorial decision. Project owner approved composed text card approach (option a). Card produced showing 'Visual Basic for Mac: Product Not Found' with QuickBASIC for Mac as closest real product. No external images used.",
     "VOICE (producer/Devin): If the line is rewritten around QuickBASIC or VBA, should the 'terrible / nobody liked it' judgment stay as the narrator's opinion, or be dropped since it was aimed at a product that did not exist?",
     "SCOPE (producer): R09 also covers SCRIPT.md:649-671 (CodeWarrior dominance, Mac Toolbox, Objective-C, ResEdit). XTRA-10 checked only lines 645-647. Which ticket owns the rest of R09?"
   ]

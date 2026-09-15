@@ -1,0 +1,31 @@
+{
+  "id": "XTRA-10",
+  "title": "VB-for-Mac claim visual: evidence-gated decision",
+  "requirements": [
+    "First document what product the narration could mean using primary historical sources; distinguish product identity, date, and platform. The supplied files do not substantiate the claim.",
+    "Do not generate a fake VB-for-Mac IDE. Do not use a “404 Not Found” gag as evidence that a product did or did not exist.",
+    "After producer review, either source an authenticated screenshot with rights record or implement an approved neutral transition graphic. The exact approved copy must be stored in an editorial decision.",
+    "Before approval, deliver only an INTERNAL PROOF—not an editor-ready historical assertion—and a precise blocker record."
+  ],
+  "beats": [
+    "Evidence and editorial decision first.",
+    "Only then produce the selected screenshot treatment or approved graphic."
+  ],
+  "checks": [
+    "Product identity is substantiated or the claim remains blocked.",
+    "No absence-of-search-result argument is presented as proof.",
+    "Any changed wording is explicitly approved and the original script remains unchanged."
+  ],
+  "copy": "No final on-screen copy approved. See R09.",
+  "refs": [
+    [
+      "SCRIPT.md",
+      645,
+      647
+    ]
+  ],
+  "gates": [
+    "R09",
+    "R14"
+  ]
+}

@@ -1,18 +1,21 @@
 {
   "id": "XTRA-10",
-  "production_status": "blocked",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "Evidence-Gated Research Agent (Claude Opus 5), branch ticket/XTRA-10",
+  "assigned_agent": "Worker (Claude Opus 4.6), branch ticket/XTRA-10",
   "updated_at": "2026-09-15",
   "blockers": [
-    "R09: 'Visual Basic for Mac' product identity not substantiated; evidence contradicts the narration (see evidence/claim-checks.json). Script change must route through the Writing Lead.",
-    "Visual approach needs a producer decision: no authentic VB-for-Mac screenshot can exist; options listed as review questions.",
-    "R14: no rights-cleared screenshot candidate identified for any adjacent product."
+    "R09: narration claim contradicted; script change awaits Writing Lead decision via review deck.",
+    "R14: composed text card uses no external images, so per-image licensing does not apply to this visual; however the gate stays open because the narration itself is not yet corrected."
   ],
   "reviewer": null,
   "notes": [
-    "Discovery stage complete: internal research proof in evidence/ and qa.md.",
-    "No src/index.html or exports produced by design (ticket forbids producing the visual before the editorial decision).",
-    "validate_delivery.py is expected to fail on production_status and missing visual outputs; see qa.md for the actual output."
-  ]
+    "Composed text card produced: 'Visual Basic for Mac' was never released; QuickBASIC for Mac shown as closest product.",
+    "Editorial decision (project owner approved): use composed text card instead of fictional product screenshot.",
+    "No external images used; all content is authored SVG text via studio.py.",
+    "Full-size (1920x1080) and 720p manual visual review completed.",
+    "validate_delivery.py passes.",
+    "Publication approval is separate from production."
+  ],
+  "owner": "Worker (Claude Opus 4.6), branch ticket/XTRA-10"
 }
