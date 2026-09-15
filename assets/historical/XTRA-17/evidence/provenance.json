@@ -1,0 +1,69 @@
+{
+  "id": "XTRA-17",
+  "classification": "historical source (archived web page capture)",
+  "plan_row": "SCRIPT-SUPPLEMENT: script-only visual, not an original ASSET_PLAN.md row",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [701, 703],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [758, 760],
+      "sha256": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working-script copy of the same brief (read only, not edited)"
+    },
+    {
+      "path": "source/original.png",
+      "sha256": "04bf146d0a7f8fcbb734d617b3717902f4350f8157b54cdf955741dbe6168c93",
+      "relationship": "historical original: uncropped full-page capture of Wayback snapshot 20050312064351 of http://classicvb.org:80/petition/, banner included"
+    },
+    {
+      "path": "source/archived-html/petition_20050312064351.html",
+      "sha256": "ddbab60834acb88b4ec507cb6641a8ab1f1026ecaab995a2a6b46d16637b0e06",
+      "wayback_cdx_sha1": "TJRKHXRKUYHLTM6GZ65N4XL75QU4YOXR",
+      "relationship": "raw archived bytes of the pictured page (id_ replay), digest-verified"
+    },
+    {
+      "path": "source/archived-html/petition_20060301204941.html",
+      "sha256": "d27d7364a3c94fc20347508ab4cbefe18de507318f71a486ebf110b2706829e4",
+      "wayback_cdx_sha1": "OKWU44MMUMBQEHSGDPODKQDZXJ4MWRX7",
+      "relationship": "corroborating later capture of the same page, digest-verified"
+    },
+    {
+      "path": "source/archived-html/home_20050312230636.html",
+      "sha256": "6b7f553108f36bbaec7d2be947cb7cee12143bd1f2e915aab9b792987d9106c8",
+      "relationship": "classicvb.org home page capture: origin statement, press list, copyright footer"
+    },
+    {
+      "path": "source/archived-html/faq_20050312055510.html",
+      "sha256": "b21a39ca8f04b5af08417059f90fd5311dec5d36794bc789001270e86f8d9dbc",
+      "relationship": "petition FAQ capture: stated motivation (end of VB6 mainstream support, 31 March 2005)"
+    },
+    {
+      "url": "https://web.archive.org/web/20050309123704id_/http://classicvb.org:80/petition/",
+      "sha256": "fb106eb70d24c955819c0fbd5e61ecfd239f90f499d2e1d49df40b351b0041d7",
+      "wayback_cdx_sha1": "A5HGSJYIRM3A4RTCD6H7SIAOSBIEPELO",
+      "relationship": "earliest capture, inspected only; not vendored because it lists signatory names"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/archive/blogs/jroxe/an-open-letter-to-the-community",
+      "relationship": "independent corroboration (Microsoft archived MSDN blog, 2005-03-17), read 2026-09-15"
+    }
+  ],
+  "authored_additions": [
+    "None in the image. exports/editorial-frame.png is a pixel-exact crop (0,0,1920,1080) of source/original.png with no overlays, captions, blur or resampling.",
+    "proofs/*.png are uniform downscales for review only."
+  ],
+  "transformations_script": "evidence/frame.py",
+  "capture_script": "evidence/capture.py",
+  "capture_log": "evidence/capture-log.json",
+  "source_unchanged": true,
+  "personal_data_handling": "Pictured page version contains no signatory names; no blurring needed. The name-bearing 2005-03-09 HTML was not vendored.",
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "ai_generated_content": false,
+  "producer_decisions": []
+}

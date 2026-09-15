@@ -1,0 +1,254 @@
+{
+  "id": "XTRA-17",
+  "title": "Save VB6 petition or advocacy page",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (archived web page capture)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/capture-log.json",
+      "role": "evidence / QA",
+      "bytes": 2858,
+      "sha256": "ccec6205db858543272ff8c3cc365df3d1dbea0a05cd180da3df8cb27a7ce7f2"
+    },
+    {
+      "path": "evidence/capture.py",
+      "role": "evidence / QA",
+      "bytes": 1814,
+      "sha256": "f66ac5c119fbb697632793867abcc024aa19cf07f3121297744e7d9fdd09904c"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 5226,
+      "sha256": "13182937fb2c2ab444fef14d81ece882935f23040564ba259915db26ddbd61cf"
+    },
+    {
+      "path": "evidence/frame.py",
+      "role": "evidence / QA",
+      "bytes": 1601,
+      "sha256": "949a107e3e93bf0d00d1251f0b1220ede0383ce3867b9e3dd0d25e1f9a6af4a9"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3406,
+      "sha256": "970d51a1df4a060898ca70e5ba260f5938bb8d34739435347756902a9d76797b"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 2257,
+      "sha256": "1faac90247ab97bd55c1a5df6a61e1c58a53ef6eb457332dc93c5b6c2c1ea316"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 4248,
+      "sha256": "593491269ffe5bf6c68aee50b657795641067f7ccb995f1de6e524335c8d1ff9"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 5180,
+      "sha256": "8859eb7cef641430bf212890882cf39ecedabcf9a539ca45fcf5aec1262d40eb"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (pixel-exact crop of original)",
+      "bytes": 139522,
+      "sha256": "5529eff818b2c97e8fc4836c26e082807d845fa1b5e9857e454e0e4224cc56fd"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 277558,
+      "sha256": "b253eef06b7d591bc4e1c76d0144194faa744d95df6e8b212a8cff2eeb3c22ef"
+    },
+    {
+      "path": "proofs/original-720h.png",
+      "role": "720-high review proof of whole original",
+      "bytes": 213906,
+      "sha256": "2bcde54839efd0bd96c721b47f70a5814392cdba5184efcf567585d2c4167b28"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6115,
+      "sha256": "9f2be87d232a92a5cb5eda63eb09320fe16f03391273c7fe7847d728b8310d67"
+    },
+    {
+      "path": "source/archived-html/faq_20050312055510.html",
+      "role": "raw archived HTML (Wayback id_ bytes)",
+      "bytes": 5616,
+      "sha256": "b21a39ca8f04b5af08417059f90fd5311dec5d36794bc789001270e86f8d9dbc"
+    },
+    {
+      "path": "source/archived-html/home_20050312230636.html",
+      "role": "raw archived HTML (Wayback id_ bytes)",
+      "bytes": 3880,
+      "sha256": "6b7f553108f36bbaec7d2be947cb7cee12143bd1f2e915aab9b792987d9106c8"
+    },
+    {
+      "path": "source/archived-html/petition_20050312064351.html",
+      "role": "raw archived HTML (Wayback id_ bytes)",
+      "bytes": 7101,
+      "sha256": "ddbab60834acb88b4ec507cb6641a8ab1f1026ecaab995a2a6b46d16637b0e06"
+    },
+    {
+      "path": "source/archived-html/petition_20060301204941.html",
+      "role": "raw archived HTML (Wayback id_ bytes)",
+      "bytes": 6627,
+      "sha256": "d27d7364a3c94fc20347508ab4cbefe18de507318f71a486ebf110b2706829e4"
+    },
+    {
+      "path": "source/original.png",
+      "role": "historical original: uncropped full-page Wayback capture, banner kept",
+      "bytes": 395291,
+      "sha256": "04bf146d0a7f8fcbb734d617b3717902f4350f8157b54cdf955741dbe6168c93"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.png"
+      ],
+      "note": "Uncropped 1920x2457 capture of Wayback snapshot 20050312064351, banner kept."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.png",
+      "crop_box": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "timing": "still; holds for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        701,
+        703
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "source/original.png",
+      "relationship": "historical original",
+      "url": "https://web.archive.org/web/20050312064351/http://classicvb.org:80/petition/",
+      "original_url": "http://classicvb.org:80/petition/",
+      "wayback_timestamp": "20050312064351",
+      "access_date": "2026-09-15"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop"
+    },
+    {
+      "path": "source/archived-html/petition_20050312064351.html",
+      "relationship": "historical original (raw archived HTML)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical source",
+      "credit": "classicvb.org petition page, captured 12 March 2005 by the Internet Archive Wayback Machine (web.archive.org/web/20050312064351/http://classicvb.org/petition/)",
+      "rights_status": "blocked: Copyright 2005 classicvb.org, All Rights Reserved; no permission on record"
+    }
+  ],
+  "tests": [
+    {
+      "test": "Wayback CDX SHA-1 digest matches downloaded HTML",
+      "result": "passed",
+      "detail": {
+        "20050312064351": "TJRKHXRKUYHLTM6GZ65N4XL75QU4YOXR",
+        "20050309123704": "A5HGSJYIRM3A4RTCD6H7SIAOSBIEPELO",
+        "20060301204941": "OKWU44MMUMBQEHSGDPODKQDZXJ4MWRX7"
+      }
+    },
+    {
+      "test": "original unchanged by framing (sha256 before == after)",
+      "result": "passed"
+    },
+    {
+      "test": "PNG dimensions",
+      "result": "passed",
+      "detail": {
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ],
+        "proofs/original-720h.png": [
+          563,
+          720
+        ],
+        "source/original.png": [
+          1920,
+          2457
+        ]
+      }
+    },
+    {
+      "test": "JSON files parse",
+      "result": "passed"
+    },
+    {
+      "test": "privacy scan (local account name, user email, profile paths)",
+      "result": "passed",
+      "hits": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "exports/editorial-frame.png viewed 1:1; source/original.png viewed whole",
+      "proof_720": "proofs/editorial-frame-720.png and proofs/original-720h.png viewed"
+    },
+    {
+      "test": "python tools/validate_delivery.py --id XTRA-17",
+      "result": "see qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "playwright": "1.63.0",
+      "Pillow": "12.3.0"
+    },
+    "browser": "Chromium 153.0.8010.12 (Playwright bundled, headless)",
+    "capture": "page.screenshot(full_page=True), viewport 1280x720 CSS, device_scale_factor 1.5",
+    "framing": "Pillow crop (0,0,1920,1080); proofs Lanczos uniform downscale",
+    "http": "curl (Git Bash) default User-Agent; Playwright default User-Agent; no identifying headers",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Script-only supplement (SCRIPT-SUPPLEMENT), not an ASSET_PLAN row.",
+    "No signatory names appear in the pictured page version; the name-bearing 2005-03-09 capture was inspected but not vendored.",
+    "Wayback replay substituted styles.css (20050313060842) and digital-signing.gif (20050518021902).",
+    "Review questions XTRA-17-RQ1..RQ4 in evidence/claim-checks.json."
+  ]
+}
