@@ -1,15 +1,15 @@
 {
   "tickets": 134,
   "production_status": {
-    "produced": 101,
-    "planned": 25,
+    "produced": 121,
+    "planned": 5,
     "scouted": 6,
     "blocked": 1,
     "in_progress": 1
   },
   "release_status": {
-    "blocked": 82,
-    "unreviewed": 44,
+    "blocked": 81,
+    "unreviewed": 45,
     "approved": 8
   },
   "produced_by_family": {
@@ -22,7 +22,7 @@
     "mockups": 2,
     "reference-code": 5,
     "captures": 7,
-    "historical": 13,
+    "historical": 33,
     "stills": 1,
     "ops": 2
   },

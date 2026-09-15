@@ -82,27 +82,27 @@ TERM-03,Complete Program.vb readable scrollthrough stills,captures,capture,captu
 TERM-04,War-heavy run with chained-war highlight,captures,capture,capture,T2-T04,"1,11","OPS-01,OPS-02","R05,R08",assets/captures/TERM-04,docs/tickets/TERM-04.md,111,produced,approved
 TERM-05,Alternate complete simulation: run B,captures,capture,capture,T2-T02,11,"OPS-01,OPS-02,TERM-02","R06,R08",assets/captures/TERM-05,docs/tickets/TERM-05.md,112,produced,approved
 TERM-06,Alternate complete simulation: run C,captures,capture,capture,T2-T02,11,"OPS-01,OPS-02,TERM-02,TERM-05","R06,R08",assets/captures/TERM-06,docs/tickets/TERM-06.md,113,produced,approved
-HIST-01,VB 1.0 IDE,historical,archive,research,T2-H01,2,OPS-01,R14,assets/historical/HIST-01,docs/tickets/HIST-01.md,114,planned,blocked
-HIST-02,VB 4.0 IDE,historical,archive,research,T2-H01,"1,3",OPS-01,R14,assets/historical/HIST-02,docs/tickets/HIST-02.md,115,planned,blocked
-HIST-03,VB 6.0 IDE,historical,archive,research,T2-H01,15,OPS-01,R14,assets/historical/HIST-03,docs/tickets/HIST-03.md,116,planned,blocked
-HIST-04,Kemeny and Kurtz at Dartmouth,historical,archive,research,T2-H02,2,OPS-01,R14,assets/historical/HIST-04,docs/tickets/HIST-04.md,117,planned,blocked
-HIST-05,Commodore 64 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-05,docs/tickets/HIST-05.md,118,planned,blocked
-HIST-06,Apple II BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-06,docs/tickets/HIST-06.md,119,planned,blocked
-HIST-07,TRS-80 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-07,docs/tickets/HIST-07.md,120,planned,blocked
-HIST-08,Windows 95 launch footage still,historical,archive,research,T2-H04,2,OPS-01,R14,assets/historical/HIST-08,docs/tickets/HIST-08.md,121,planned,blocked
-HIST-09,CompUSA storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-09,docs/tickets/HIST-09.md,122,planned,blocked
-HIST-10,Egghead Software storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-10,docs/tickets/HIST-10.md,123,planned,blocked
-HIST-11,Visual Basic 4 retail box,historical,archive,research,T2-H06,3,OPS-01,R14,assets/historical/HIST-11,docs/tickets/HIST-11.md,124,planned,blocked
+HIST-01,VB 1.0 IDE,historical,archive,research,T2-H01,2,OPS-01,R14,assets/historical/HIST-01,docs/tickets/HIST-01.md,114,produced,blocked
+HIST-02,VB 4.0 IDE,historical,archive,research,T2-H01,"1,3",OPS-01,R14,assets/historical/HIST-02,docs/tickets/HIST-02.md,115,produced,blocked
+HIST-03,VB 6.0 IDE,historical,archive,research,T2-H01,15,OPS-01,R14,assets/historical/HIST-03,docs/tickets/HIST-03.md,116,produced,blocked
+HIST-04,Kemeny and Kurtz at Dartmouth,historical,archive,research,T2-H02,2,OPS-01,R14,assets/historical/HIST-04,docs/tickets/HIST-04.md,117,produced,blocked
+HIST-05,Commodore 64 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-05,docs/tickets/HIST-05.md,118,produced,blocked
+HIST-06,Apple II BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-06,docs/tickets/HIST-06.md,119,produced,blocked
+HIST-07,TRS-80 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-07,docs/tickets/HIST-07.md,120,produced,blocked
+HIST-08,Windows 95 launch footage still,historical,archive,research,T2-H04,2,OPS-01,R14,assets/historical/HIST-08,docs/tickets/HIST-08.md,121,produced,blocked
+HIST-09,CompUSA storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-09,docs/tickets/HIST-09.md,122,produced,blocked
+HIST-10,Egghead Software storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-10,docs/tickets/HIST-10.md,123,produced,blocked
+HIST-11,Visual Basic 4 retail box,historical,archive,research,T2-H06,3,OPS-01,R14,assets/historical/HIST-11,docs/tickets/HIST-11.md,124,produced,blocked
 HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,125,planned,blocked
-HIST-13,Metrowerks CodeWarrior IDE,historical,archive,research,T2-H08,14,OPS-01,R14,assets/historical/HIST-13,docs/tickets/HIST-13.md,126,planned,blocked
-HIST-14,NeXT Cube product photograph,historical,archive,research,T2-H09,14,OPS-01,R14,assets/historical/HIST-14,docs/tickets/HIST-14.md,127,planned,blocked
-HIST-15,PowerBuilder DataWindow,historical,archive,research,T2-H10,13,OPS-01,R14,assets/historical/HIST-15,docs/tickets/HIST-15.md,128,planned,blocked
-HIST-16,Java AWT application,historical,archive,research,T2-H11,13,OPS-01,R14,assets/historical/HIST-16,docs/tickets/HIST-16.md,129,planned,blocked
-HIST-17,TUCOWS archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-17,docs/tickets/HIST-17.md,130,planned,blocked
-HIST-18,Download.com archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-18,docs/tickets/HIST-18.md,131,planned,blocked
-HIST-19,Windows 3.1 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-19,docs/tickets/HIST-19.md,132,planned,blocked
-HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-20,docs/tickets/HIST-20.md,133,planned,blocked
-HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,134,planned,blocked
+HIST-13,Metrowerks CodeWarrior IDE,historical,archive,research,T2-H08,14,OPS-01,R14,assets/historical/HIST-13,docs/tickets/HIST-13.md,126,produced,blocked
+HIST-14,NeXT Cube product photograph,historical,archive,research,T2-H09,14,OPS-01,R14,assets/historical/HIST-14,docs/tickets/HIST-14.md,127,produced,unreviewed
+HIST-15,PowerBuilder DataWindow,historical,archive,research,T2-H10,13,OPS-01,R14,assets/historical/HIST-15,docs/tickets/HIST-15.md,128,produced,blocked
+HIST-16,Java AWT application,historical,archive,research,T2-H11,13,OPS-01,R14,assets/historical/HIST-16,docs/tickets/HIST-16.md,129,produced,blocked
+HIST-17,TUCOWS archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-17,docs/tickets/HIST-17.md,130,produced,blocked
+HIST-18,Download.com archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-18,docs/tickets/HIST-18.md,131,produced,blocked
+HIST-19,Windows 3.1 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-19,docs/tickets/HIST-19.md,132,produced,blocked
+HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-20,docs/tickets/HIST-20.md,133,produced,blocked
+HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,134,produced,blocked
 BROLL-01,Hands shuffling physical cards,broll,scout,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,scouted,blocked
 BROLL-02,Two people playing War,broll,scout,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,scouted,blocked
 BROLL-03,1990s office with CRT monitors,broll,scout,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,scouted,blocked
