@@ -1,0 +1,75 @@
+{
+  "title": "Kiewit Computation Center, Public Terminal Room: John G. Kemeny, Thomas E. Kurtz, Students",
+  "creator": "Dartmouth Photographic Records (Dartmouth College photographic office; no individual photographer named)",
+  "creator_evidence": [
+    "Catalog citation on the Dartmouth Library exhibit item: \"Dartmouth Photographic Records.\" (evidence/source-page/api-items-3661.json, dcterms:bibliographicCitation)",
+    "Verso label, handwritten: \"Photographer: Photographic Records\" (source/original-verso.jpg)"
+  ],
+  "holding_institution": "Rauner Special Collections Library, Dartmouth College",
+  "call_number": "DA-181, Box 9453, \"'User Communications, Computing Services' Photograph Notebook, 1969-1977\"",
+  "source_url": "https://exhibits.library.dartmouth.edu/s/dtss/item/3661",
+  "exhibit": "Sharing the Computer: How the Dartmouth Time-Sharing System Made Computing (More) Accessible (Dartmouth Library online exhibit, site slug dtss)",
+  "api_records": [
+    "https://exhibits.library.dartmouth.edu/api/items/3661",
+    "https://exhibits.library.dartmouth.edu/api/media/3691",
+    "https://exhibits.library.dartmouth.edu/api/media/3692"
+  ],
+  "original_file_urls": {
+    "source/original.jpg": "https://exhibits.library.dartmouth.edu/files/original/278d4f1c65c2b3d994eea1fcc8fd24c9827f101c.jpg",
+    "source/original-verso.jpg": "https://exhibits.library.dartmouth.edu/files/original/97ae6b17f694ec0af8904036df0ed47521fb2c06.jpg"
+  },
+  "original_file_names_at_archive": {
+    "source/original.jpg": "exhibit-dtss-01_04-001a.jpg",
+    "source/original-verso.jpg": "exhibit-dtss-01_04-001b.jpg"
+  },
+  "original_date": "c. 1969 (catalog: \"c. 1969\"; item description: \"circa 1969\"; verso label: \"circa 1969\")",
+  "original_date_uncertainty": "A second, blue-ink verso annotation reads, as best transcribed, \"1968 Oct 1969\". It may indicate a 1968 to October 1969 range. The catalog date c. 1969 is used; the photograph is NOT dated 1964 by any record.",
+  "depicted_event_date": "The photograph documents routine terminal-room use of the Dartmouth Time-Sharing System at the Kiewit Computation Center, c. 1969. It does not depict the 1964 creation of BASIC. Kiewit was dedicated 2 December 1966 (Dartmouth ITS history timeline), so the scene cannot be from 1964.",
+  "narrated_event_date": "1964 (creation of BASIC, SCRIPT.md:67). Separate from the photo date.",
+  "access_date": "2026-09-15",
+  "acquisition_method": "Unauthenticated HTTPS GET of the archive's own 'original' file URLs published in its public Omeka S API. No account, no terms click-through, no payment, no CAPTCHA, no watermark.",
+  "identity_evidence": {
+    "people_named_by_source": ["John G. Kemeny", "Thomas E. Kurtz", "students (unnamed)"],
+    "sources": [
+      "Item title and description: \"Kemeny and Kurtz work with students in the Kiewit Computation Center, circa 1969.\"",
+      "Handwritten verso label: \"Kiewit Computation Center / Public Terminal Room / John G. Kemeny, Thomas E. Kurtz, / Students / Photographer: Photographic Records / circa 1969\"",
+      "Blue-ink verso annotation: \"Photo Records / Kemeny, Kurtz, + students / 1968 Oct 1969 / [CCE negative]\" (transcription uncertain in the last two lines)"
+    ],
+    "position_mapping": "Not provided by any record. The sources establish that both men are in the photograph but do not say which figure is which. This package does not label individual faces.",
+    "hardware_note": "A keyboard terminal (center) and a printing terminal (lower left) are visible. No record names the terminal model; none is asserted."
+  },
+  "verso_other_annotations": "Red-ink reuse labels: \"Interface NOV/DEC 1991 / p. 5 middle right / 'Dartmouth undergraduates...'\" and \"shoot at 64% / crop as shown, to fit / no keyline\". Pencil number \"878\" at upper left. These show the print was reproduced in a 1991 publication.",
+  "original_file": "source/original.jpg",
+  "original_file_sha256": "e89c77570fade62d97d4fc8a1376af4614b6799a614fed15b2c9d1d6873b6d97",
+  "archive_declared_sha256": "e89c77570fade62d97d4fc8a1376af4614b6799a614fed15b2c9d1d6873b6d97 (matches)",
+  "original_dimensions": {"width": 1000, "height": 724, "format": "JPEG, RGB, 600 dpi tag"},
+  "capture_metadata": "EXIF: Phase One iXH 150MP, Capture One 21 Macintosh. The archive holds a far higher-resolution capture; only this 1000 px web derivative is publicly served.",
+  "verso_file": "source/original-verso.jpg",
+  "verso_file_sha256": "7c9264eb56bfa85bd3d650a5737e0b98afa6f3a69316da184c2470704d9be07f",
+  "server_last_modified": "Thu, 20 Apr 2023 17:50:56 GMT (front); Thu, 20 Apr 2023 17:50:57 GMT (verso)",
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "rights_status": "unresolved",
+  "rights_detail": "See evidence/rights.json.",
+  "credit_text": "Courtesy Dartmouth Libraries. Dartmouth Photographic Records, \"Kiewit Computation Center, Public Terminal Room: John G. Kemeny, Thomas E. Kurtz, Students,\" c. 1969. DA-181, Box 9453, Rauner Special Collections Library, Dartmouth College.",
+  "transformations": [
+    "source/original.jpg and source/original-verso.jpg: none (byte-identical to archive files, hashes match the archive API).",
+    "exports/original.png: whole capture (print, mount, crop marks) uniformly scaled to 936 px high, centered on a 1920x1080 #111318 ground.",
+    "exports/editorial-frame.png: rectangular crop to the photographic image area (95,56)-(907,667), removing the mount border, printer's crop marks, and a 4-pixel sliver of ceiling at the top edge (top edge set to 56 because the top-right crop-mark tick carries ink to row 53 and faint tint to row 55 at x~893-896), uniformly scaled to 936 px high, centered on a 1920x1080 #111318 ground.",
+    "Exact parameters: evidence/framing.json; script: src/make_frame.py."
+  ],
+  "other_candidates_considered": [
+    {"source": "https://exhibits.library.dartmouth.edu/s/dtss/item/3660", "title": "John G. Kemeny in Front of Gerry", "deficiency": "Kemeny only; record gives created 1967 but citation says 1964 (internal inconsistency). Not used."},
+    {"source": "https://home.dartmouth.edu/news/2014/04/back-basic-computings-future-was-born-dartmouth", "title": "Kemeny teaching BASIC in Kiewit (news photo)", "deficiency": "Kemeny only; 720 px news rendition; credit 'Photo courtesy of Rauner Special Collections Library'. Not used."},
+    {"source": "https://en.wikipedia.org/wiki/John_G._Kemeny and https://en.wikipedia.org/wiki/Thomas_E._Kurtz", "title": "Separate portraits (File:John_George_Kemeny.jpg, File:Thomas_E._Kurtz.gif)", "deficiency": "Individual portraits, not a photograph of both at Dartmouth. Licenses not checked because the Wikimedia API rate-limited this session (HTTP 429). Not used."}
+  ],
+  "search_log": [
+    "Wikimedia Commons file search 'Kemeny Kurtz' and '\"John Kemeny\"' (API, 2026-09-15): no photograph of either man returned.",
+    "Wikimedia Commons category search and Wikipedia prop=images: rate-limited (HTTP 429 / 'too many requests'); fell back to article pages via WebFetch.",
+    "Dartmouth Library Omeka S API fulltext_search=Kemeny: found item 3661 (both men) and several Kemeny-only items.",
+    "Dartmouth 2014 BASIC anniversary news article: Kemeny-only photo.",
+    "Dartmouth basicfifty page: gallery captions not machine-readable; no two-person photo identified.",
+    "Wayback Machine availability/CDX for the item page: HTTP 429 twice; no archived capture confirmed. A local snapshot is kept at evidence/source-page/item-3661.html."
+  ]
+}

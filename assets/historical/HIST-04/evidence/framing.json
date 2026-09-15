@@ -1,0 +1,70 @@
+{
+  "input": "source/original.jpg",
+  "input_sha256": "e89c77570fade62d97d4fc8a1376af4614b6799a614fed15b2c9d1d6873b6d97",
+  "input_size": [
+    1000,
+    724
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "ground_rgb": [
+    17,
+    19,
+    24
+  ],
+  "resample": "Pillow LANCZOS, uniform (aspect ratio preserved)",
+  "pillow_version": "12.3.0",
+  "variants": {
+    "original": {
+      "crop_box_ltrb_in_original_px": null,
+      "cropped_size": [
+        1000,
+        724
+      ],
+      "uniform_scale": 1.292818,
+      "placed_size": [
+        1293,
+        936
+      ],
+      "placed_offset_xy": [
+        313,
+        72
+      ],
+      "export": "exports/original.png",
+      "proof_720p": "evidence/proof-720p-original.png"
+    },
+    "editorial-frame": {
+      "crop_box_ltrb_in_original_px": [
+        95,
+        56,
+        907,
+        667
+      ],
+      "cropped_size": [
+        812,
+        611
+      ],
+      "uniform_scale": 1.531915,
+      "placed_size": [
+        1244,
+        936
+      ],
+      "placed_offset_xy": [
+        338,
+        72
+      ],
+      "export": "exports/editorial-frame.png",
+      "proof_720p": "evidence/proof-720p-editorial-frame.png"
+    }
+  },
+  "not_done": [
+    "no stretching",
+    "no retouching or dust removal",
+    "no sharpening or tonal change",
+    "no watermark present or removed",
+    "no text, captions, labels or UI added"
+  ],
+  "upscale_note": "Both variants enlarge the 1000x724 web derivative (about 1.29x for original, 1.52x for editorial-frame). Softness at 1080p is expected; a publication-quality scan from Rauner would remove it."
+}

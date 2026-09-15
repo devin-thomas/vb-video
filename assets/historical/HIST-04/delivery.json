@@ -1,0 +1,298 @@
+{
+  "id": "HIST-04",
+  "title": "Kemeny and Kurtz at Dartmouth",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3622,
+      "sha256": "c6cc0f61c9fc886638f9fcae56e58bcc70564d1a1ae2a33283dcd0c3f0ccbff4"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1600,
+      "sha256": "dbd72554b7fb49be27f874b4980e781a946d7042398fae573bd108a6260a103f"
+    },
+    {
+      "path": "evidence/proof-720p-editorial-frame.png",
+      "role": "720p inspection proof",
+      "bytes": 666971,
+      "sha256": "81ac69834da92dc5841182f2531b6851c4a230da7a8c3d6afbac12f544ab2f02"
+    },
+    {
+      "path": "evidence/proof-720p-original.png",
+      "role": "720p inspection proof",
+      "bytes": 656477,
+      "sha256": "da5b2b63f7f54970e45f0dd2949409a5683a394d9cb8a410d4dfa23aaf27d1dc"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2996,
+      "sha256": "cf78339eac6d5a050252b466e0cc8e4f8c01d7c1b6f049a0896e529198003c70"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3485,
+      "sha256": "7574a3ffe1cd6f7b61e0600e6c3f191a809b90b55b24bf31ab0f2074494b2d8a"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3691,
+      "sha256": "7409331af1946d0e423dba04746f18acc3381b68f04db368de63d58a44e417b6"
+    },
+    {
+      "path": "evidence/source-page/api-items-3661.json",
+      "role": "source page snapshot",
+      "bytes": 3687,
+      "sha256": "be93813534ddc90a87b3aa44aae021ee4b2771ab847a4b22b57f231899771d03"
+    },
+    {
+      "path": "evidence/source-page/api-media-3691.json",
+      "role": "source page snapshot",
+      "bytes": 2503,
+      "sha256": "5611520f380607c03ab693c4c0ce7868087166857b47e4f205ebcf7a3189b6ba"
+    },
+    {
+      "path": "evidence/source-page/api-media-3692.json",
+      "role": "source page snapshot",
+      "bytes": 2502,
+      "sha256": "9032bce38add7165aeade7eb0586f3b70291db2e7bcfbb1cc171ac126831bcf5"
+    },
+    {
+      "path": "evidence/source-page/http-headers-original.txt",
+      "role": "source page snapshot",
+      "bytes": 798,
+      "sha256": "9822d19a984bebe0626e00cbebd31a72014b566bb2bb3306793c118f19b08e39"
+    },
+    {
+      "path": "evidence/source-page/item-3661.html",
+      "role": "source page snapshot",
+      "bytes": 27399,
+      "sha256": "9f30310aaba1e4f9c83a8d08aa112c7193107df43384fe4c8666aef9286d4d86"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 7546,
+      "sha256": "51900d8616732b82baf5e94a3b223b0c23b07c0d532e1e5066709cc03d427475"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still",
+      "bytes": 1171719,
+      "sha256": "b373d60d827816b1f373b739a8fbc973efee8f77305d9f1fb371e290c97a41d6"
+    },
+    {
+      "path": "exports/original.png",
+      "role": "rendered still",
+      "bytes": 1164294,
+      "sha256": "f3cbbe0c26db7b5b14e2b969667b37129b40c274a8de57b10cbff8c986cecc24"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 8171,
+      "sha256": "52b4b3d71feec315f7d510f5fc64c35151e66aba88f6544694aed90a89410a89"
+    },
+    {
+      "path": "source/original-verso.jpg",
+      "role": "historical original (unaltered archive file)",
+      "bytes": 98288,
+      "sha256": "7c9264eb56bfa85bd3d650a5737e0b98afa6f3a69316da184c2470704d9be07f"
+    },
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (unaltered archive file)",
+      "bytes": 163113,
+      "sha256": "e89c77570fade62d97d4fc8a1376af4614b6799a614fed15b2c9d1d6873b6d97"
+    },
+    {
+      "path": "src/build_delivery.py",
+      "role": "editable source / build script",
+      "bytes": 5354,
+      "sha256": "71cc0c720e3e3d80ba24f6522a42740649d46e48c0685ffeb66e84bded8b45d1"
+    },
+    {
+      "path": "src/make_frame.py",
+      "role": "editable source / build script",
+      "bytes": 3765,
+      "sha256": "cea488324a0d56b1ecc1b0c11f1fa706f028acb824e7dec34ffd630dab7651c6"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.jpg",
+        "exports/original.png",
+        "evidence/proof-720p-original.png"
+      ],
+      "framing": {
+        "crop_box_ltrb_in_original_px": null,
+        "cropped_size": [
+          1000,
+          724
+        ],
+        "uniform_scale": 1.292818,
+        "placed_size": [
+          1293,
+          936
+        ],
+        "placed_offset_xy": [
+          313,
+          72
+        ],
+        "export": "exports/original.png",
+        "proof_720p": "evidence/proof-720p-original.png"
+      },
+      "timing": "still; hold for editorial timing"
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png",
+        "evidence/proof-720p-editorial-frame.png"
+      ],
+      "framing": {
+        "crop_box_ltrb_in_original_px": [
+          95,
+          56,
+          907,
+          667
+        ],
+        "cropped_size": [
+          812,
+          611
+        ],
+        "uniform_scale": 1.531915,
+        "placed_size": [
+          1244,
+          936
+        ],
+        "placed_offset_xy": [
+          338,
+          72
+        ],
+        "export": "exports/editorial-frame.png",
+        "proof_720p": "evidence/proof-720p-editorial-frame.png"
+      },
+      "timing": "still; hold for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        63,
+        73
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative brief (visual direction and narration for section 2)"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        90,
+        90
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead (source suggestion and rights assumption; not verified holdings)"
+    },
+    {
+      "path": "source/original.jpg",
+      "sha256": "e89c77570fade62d97d4fc8a1376af4614b6799a614fed15b2c9d1d6873b6d97",
+      "relationship": "historical original (archive web derivative of the print, front)",
+      "external_url": "https://exhibits.library.dartmouth.edu/files/original/278d4f1c65c2b3d994eea1fcc8fd24c9827f101c.jpg",
+      "access_date": "2026-09-15"
+    },
+    {
+      "path": "source/original-verso.jpg",
+      "sha256": "7c9264eb56bfa85bd3d650a5737e0b98afa6f3a69316da184c2470704d9be07f",
+      "relationship": "historical original (verso of the same print; identity and date evidence)",
+      "external_url": "https://exhibits.library.dartmouth.edu/files/original/97ae6b17f694ec0af8904036df0ed47521fb2c06.jpg",
+      "access_date": "2026-09-15"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop (mount border removed, uniform scale, pillarboxed)",
+      "derived_from": "source/original.jpg",
+      "parameters": "evidence/framing.json"
+    },
+    {
+      "path": "exports/original.png",
+      "relationship": "derivative framing (uncropped capture, uniform scale, pillarboxed)",
+      "derived_from": "source/original.jpg",
+      "parameters": "evidence/framing.json"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical photograph",
+      "credit": "Courtesy Dartmouth Libraries. Dartmouth Photographic Records, \"Kiewit Computation Center, Public Terminal Room: John G. Kemeny, Thomas E. Kurtz, Students,\" c. 1969. DA-181, Box 9453, Rauner Special Collections Library, Dartmouth College.",
+      "rights_status": "unresolved",
+      "license": null,
+      "evidence": "evidence/rights.json"
+    }
+  ],
+  "tests": [
+    {
+      "test": "original file hashes equal archive API o:sha256",
+      "result": "passed",
+      "evidence": "evidence/source-page/api-media-3691.json, evidence/source-page/api-media-3692.json"
+    },
+    {
+      "test": "export and proof dimensions (1920x1080, 1280x720)",
+      "result": "passed"
+    },
+    {
+      "test": "crop-mark ink scan in editorial-frame image area",
+      "result": "passed after crop top moved 52 -> 56",
+      "evidence": "qa.md"
+    },
+    {
+      "test": "deterministic re-render (sha256sum -c on two consecutive runs)",
+      "result": "passed"
+    },
+    {
+      "test": "manual visual review at 1920x1080 and 1280x720, both variants",
+      "result": "passed with note: visible softness at 1080p from 1.53x enlargement of a 1000 px web file",
+      "evidence": "qa.md"
+    },
+    {
+      "test": "tools/validate_delivery.py --id HIST-04",
+      "result": "recorded in qa.md (not self-referential here)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "curl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP",
+    "render_command": "python assets/historical/HIST-04/src/make_frame.py",
+    "network_used": true,
+    "network_note": "Anonymous HTTPS GETs to exhibits.library.dartmouth.edu, library.dartmouth.edu, dartmouth.edu, and Wikimedia APIs (rate-limited). No accounts, terms, payments or CAPTCHAs.",
+    "installs_performed": false
+  },
+  "notes": [
+    "Photograph is c. 1969 (Kiewit Computation Center), not 1964; see evidence/source.json.",
+    "Release blocked: no item-level license (R14). Review questions RQ-1..RQ-5 in qa.md.",
+    "No text, labels, captions or UI were added to either export."
+  ]
+}

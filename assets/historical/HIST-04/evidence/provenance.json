@@ -1,0 +1,57 @@
+{
+  "classification": "historical source",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [63, 73],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative brief (visual direction and narration for section 2)"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [90, 90],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead (source suggestion and rights assumption; not verified holdings)"
+    },
+    {
+      "path": "source/original.jpg",
+      "sha256": "e89c77570fade62d97d4fc8a1376af4614b6799a614fed15b2c9d1d6873b6d97",
+      "relationship": "historical original (archive web derivative of the print, front)",
+      "external_url": "https://exhibits.library.dartmouth.edu/files/original/278d4f1c65c2b3d994eea1fcc8fd24c9827f101c.jpg",
+      "access_date": "2026-09-15"
+    },
+    {
+      "path": "source/original-verso.jpg",
+      "sha256": "7c9264eb56bfa85bd3d650a5737e0b98afa6f3a69316da184c2470704d9be07f",
+      "relationship": "historical original (verso of the same print; identity and date evidence)",
+      "external_url": "https://exhibits.library.dartmouth.edu/files/original/97ae6b17f694ec0af8904036df0ed47521fb2c06.jpg",
+      "access_date": "2026-09-15"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop (mount border removed, uniform scale, pillarboxed)",
+      "derived_from": "source/original.jpg",
+      "parameters": "evidence/framing.json"
+    },
+    {
+      "path": "exports/original.png",
+      "relationship": "derivative framing (uncropped capture, uniform scale, pillarboxed)",
+      "derived_from": "source/original.jpg",
+      "parameters": "evidence/framing.json"
+    }
+  ],
+  "source_page_snapshots": [
+    "evidence/source-page/item-3661.html (HTML of https://exhibits.library.dartmouth.edu/s/dtss/item/3661, fetched 2026-09-15)",
+    "evidence/source-page/api-items-3661.json (https://exhibits.library.dartmouth.edu/api/items/3661)",
+    "evidence/source-page/api-media-3691.json (https://exhibits.library.dartmouth.edu/api/media/3691)",
+    "evidence/source-page/api-media-3692.json (https://exhibits.library.dartmouth.edu/api/media/3692)",
+    "evidence/source-page/http-headers-original.txt (response headers for both file downloads)"
+  ],
+  "authored_additions": [
+    "Framing only: crop box, uniform scale, and a flat #111318 ground (src/make_frame.py). No text, captions, name labels, dates, UI or graphics were added to either export.",
+    "Transcriptions of the handwritten verso in evidence/source.json are this worker's readings; uncertain words are marked."
+  ],
+  "ai_generated_content": false,
+  "producer_decisions": [],
+  "note": "The archive photograph is c. 1969. It is used, if approved, as a representative image of Kemeny and Kurtz with Dartmouth terminal hardware, not as a photograph of the 1964 event."
+}
