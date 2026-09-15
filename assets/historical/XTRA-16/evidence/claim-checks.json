@@ -1,0 +1,110 @@
+{
+  "id": "XTRA-16",
+  "checked_by": "XTRA-16 worker (Archive Extras department)",
+  "checked_at": "2026-09-15",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "reason": "The creator, rights holder, file-specific terms, access method and credit are recorded (evidence/source.json, evidence/rights.json). No open license exists. Microsoft Learn Terms of Use limit use to personal/non-commercial and bar broadcast. Microsoft's screenshot guidelines may allow video use with \"Used with permission from Microsoft\", but the image contains third-party content (an eFax toolbar button) and is a documentation figure. Rights are unclear, so release stays blocked. Legal risk cannot be settled by evidence; see review question XTRA-16-RQ2.",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/source-excerpts.md"
+      ],
+      "approver": null,
+      "decision": "pending review deck (OPS-04)"
+    }
+  ],
+  "claims": [
+    {
+      "id": "XTRA-16-C1",
+      "claim": "\"What they did was announce, in 2002, that Visual Basic would become VB.NET\"",
+      "script_lines": {
+        "sources/SCRIPT.md": [697, 697],
+        "War/SCRIPT.md": [754, 754]
+      },
+      "status": "incorrect_as_worded",
+      "finding": "The move to VB.NET was public in 2000, not 2002. Visual Studio .NET, which included Visual Basic, was first given to developers at PDC on July 11, 2000. By October 2000 Microsoft was publishing \"Visual Basic .NET is the next version of Visual Basic\" and guidance on upgrading VB6 code with the Upgrade Wizard. 2002 is when it shipped: Gates launched Visual Studio .NET on February 13, 2002, after MSDN subscribers got it in January 2002.",
+      "evidence": [
+        {
+          "source": "Microsoft Corporation, \"Preparing Your Visual Basic 6.0 Applications for the Upgrade to Visual Basic.NET\", October 2000",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa260644(v=vs.60)",
+          "archive": "evidence/captures/wayback-20020601133822-msdn-vb6tovbdotnet.html",
+          "type": "primary (Microsoft publication)"
+        },
+        {
+          "source": "Microsoft press release, July 11, 2000, \"Microsoft Delivers First .NET Platform Developer Tools for Building Web Services\"",
+          "url": "https://news.microsoft.com/source/2000/07/11/microsoft-delivers-first-net-platform-developer-tools-for-building-web-services/",
+          "type": "primary (Microsoft press release)"
+        },
+        {
+          "source": "Microsoft press release, Feb. 13, 2002, \"Microsoft Launches XML Web Services Revolution With Visual Studio .NET and .NET Framework\"",
+          "url": "https://news.microsoft.com/source/2002/02/13/microsoft-launches-xml-web-services-revolution-with-visual-studio-net-and-net-framework/",
+          "type": "primary (Microsoft press release)"
+        }
+      ],
+      "limitations": "The July 2000 release says Visual Studio.NET includes \"updates to the Visual Basic\" system but does not use the name \"Visual Basic.NET\". The earliest Microsoft document found here that uses that name is dated October 2000. The exact first public use of the name is not pinned down, but every source found is from 2000.",
+      "fix_applied": "none. War/SCRIPT.md is not edited by this ticket, per assignment.",
+      "review_question": "XTRA-16-RQ1 (Writing Lead)"
+    },
+    {
+      "id": "XTRA-16-C2",
+      "claim": "\"Code from VB6 did not run in VB.NET.\"",
+      "status": "supported_with_nuance",
+      "finding": "VB6 source had to be upgraded, not compiled as-is. Microsoft's October 2000 guidance says a VB6 project must go through the Upgrade Wizard and that \"in most cases, you will have to make some changes to your code after it is upgraded\". The same document says compiled VB6 COM components could still interoperate with VB.NET. The narration is about source code, so no change is proposed.",
+      "evidence": [
+        "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa260644(v=vs.60)"
+      ],
+      "fix_applied": "none needed"
+    },
+    {
+      "id": "XTRA-16-C3",
+      "claim": "Visual brief: a migration wizard with a long list of warnings and errors, used to back the line \"The migration tools were... let's say 'aspirational.'\"",
+      "status": "depicted_genuinely_with_context_caveats",
+      "finding": "The acquired image is a genuine Microsoft-published Upgrade Report listing 12 compile errors, 2 design errors and 14 warnings (28 total) for the Microsoft sample controls.vbp. Two caveats. (a) It is the Visual Studio 2005 wizard, run in January 2006, not the 2002 release. (b) The author says he chose projects to show weak spots, reports a 96% line success rate, and praises the tool. No errors were added, removed or dramatized.",
+      "evidence": [
+        "source/original.gif",
+        "evidence/source.json",
+        "evidence/source-excerpts.md"
+      ],
+      "fix_applied": "Caption names the product version and the article so the 2006 date isn't hidden.",
+      "review_question": "XTRA-16-RQ3"
+    },
+    {
+      "id": "XTRA-16-C4",
+      "claim": "Visual brief: \"Maybe a meme-style 'this is fine' edit.\"",
+      "status": "not_made",
+      "finding": "Not produced. It is an authored editorial choice, not a fact. It would alter a Microsoft screenshot, which Microsoft's guidelines forbid (\"Do not alter the screenshot except to resize it\"). The \"this is fine\" image is a third-party copyrighted work with its own rights question.",
+      "fix_applied": "none",
+      "review_question": "XTRA-16-RQ4"
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "XTRA-16-RQ1",
+      "route": "Writing Lead",
+      "question": "The script says Microsoft announced VB.NET \"in 2002\". Primary sources put the announcement in 2000 (PDC, July 2000; Microsoft's October 2000 upgrade guidance) and the release in February 2002. Change War/SCRIPT.md:754? Proposed: \"What they did was announce, in 2000, that Visual Basic would become VB.NET, and ship it in 2002: a completely new language...\" Or drop the year.",
+      "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json#XTRA-16-C1"
+    },
+    {
+      "id": "XTRA-16-RQ2",
+      "route": "Devin (legal risk / rights)",
+      "question": "The only genuine wizard-report image found is a Microsoft documentation figure (© Microsoft). Microsoft Learn's Terms of Use are non-commercial and bar broadcast. Microsoft's screenshot guidelines may allow video use with \"Used with permission from Microsoft\", but this image shows a third-party eFax toolbar button. Options: (a) accept the risk and use it with that credit; (b) ask Microsoft for permission; (c) Devin captures a fresh report from a licensed Visual Studio 2005/2008 install upgrading a VB6 project; (d) cut the visual or use a clearly labelled mockup. Release stays blocked until one is chosen.",
+      "evidence": "assets/historical/XTRA-16/evidence/rights.json"
+    },
+    {
+      "id": "XTRA-16-RQ3",
+      "route": "Devin (editorial)",
+      "question": "The narration is about 2002, but the figure is the improved Visual Studio 2005 wizard, run in January 2006, from an article that is mostly positive about the tool. Is that acceptable behind \"aspirational\" with the version caption shown? The only 2000-era Microsoft image found is a pre-release VB.NET beta Task List with one UPGRADE_TODO, which Microsoft's guidelines exclude and which isn't a long list. Keep or remove the burned-in caption in exports/editorial-frame.png? The metadata credit exists either way.",
+      "evidence": "assets/historical/XTRA-16/evidence/source.json"
+    },
+    {
+      "id": "XTRA-16-RQ4",
+      "route": "Devin (editorial)",
+      "question": "The script suggests a \"this is fine\" meme edit. It was not made: it would alter a Microsoft screenshot, which their guidelines forbid, and would bring in a third-party image. Drop the meme idea, or commission it as a separate labelled asset with its own rights check?",
+      "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json#XTRA-16-C4"
+    }
+  ]
+}

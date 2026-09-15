@@ -1,12 +1,17 @@
 {
   "id": "XTRA-16",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "XTRA-16 worker (Archive Extras Manager, session vb-25)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: Microsoft-copyright documentation figure. Learn Terms of Use are non-commercial with no broadcast; screenshot-guideline fit unclear (third-party toolbar content). Rights decision needed (XTRA-16-RQ2).",
+    "Editorial: VS2005 (2006) image for a 2002-era narration beat; caption kept or removed (XTRA-16-RQ3).",
+    "Writing Lead: script says VB.NET was announced \"in 2002\"; primary sources show 2000, shipped Feb 2002 (XTRA-16-RQ1)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Genuine Microsoft-published Upgrade Report figure acquired from the Microsoft Learn previous-versions archive (aa730876, vs.80, Figure 1). Editorial frame rendered locally without stretching or cropping.",
+    "The \"this is fine\" meme edit was not made (XTRA-16-RQ4)."
   ]
 }

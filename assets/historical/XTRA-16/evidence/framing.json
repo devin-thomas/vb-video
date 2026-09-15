@@ -1,0 +1,58 @@
+{
+  "source": "source/original.gif",
+  "source_sha256": "139f1c1a1f785ea0688aa96ce6a04b079136601006d530463504987b23267ad0",
+  "native_size": [
+    525,
+    496
+  ],
+  "scale": 1.65,
+  "resampling": "Pillow LANCZOS, applied once to the whole screenshot",
+  "placed_size": [
+    866,
+    818
+  ],
+  "horizontal_scale": 1.64952,
+  "vertical_scale": 1.64919,
+  "aspect_error_percent": 0.02,
+  "placed_box_xyxy": [
+    527,
+    78,
+    1393,
+    896
+  ],
+  "crop": null,
+  "annotations": null,
+  "border": "2 px #C0C0C0 hairline outside the screenshot; no pixels of the screenshot covered",
+  "background": "#111318",
+  "caption": "Visual Basic Upgrade Wizard report · Visual Studio 2005 · Microsoft\n“Deconstructing the Visual Basic Upgrade Wizard,” Bill Sempf, MSDN, March 2006 · Figure 1",
+  "caption_font": "C:\\Windows\\Fonts\\segoeui.ttf",
+  "caption_px": 28,
+  "caption_box_xyxy": [
+    [
+      548,
+      926,
+      1372,
+      953
+    ],
+    [
+      393,
+      973,
+      1526,
+      1000
+    ]
+  ],
+  "safe_area_xyxy": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "exports": {
+    "editorial-frame": "exports/editorial-frame.png",
+    "proof_720p": "qa/editorial-frame-720p.png"
+  }
+}

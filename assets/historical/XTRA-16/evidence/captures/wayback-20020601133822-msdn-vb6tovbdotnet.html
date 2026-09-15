@@ -1,0 +1,883 @@
+<!--- TOOLBAR_EXEMPT --->
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
+<TITLE>Preparing Your Visual Basic 6.0 Applications For the Upgrade to Visual Basic.NET</TITLE>
+<META NAME="Description" CONTENT="This document provides recommendations for Microsoft Visual Basic developers planning to upgrade their applications to Visual Basic .NET. It includes information on the Visual Basic .NET Upgrade Tool and discusses architectural guidelines for enabling a smooth upgrade from Visual Basic 6 to Visual Basic .NET."/>
+<META NAME="Robots" CONTENT="all"/>
+<META NAME="Keywords" CONTENT="preparing you Visual Basic 6.0 applications for the upgrade to Visual Basic .NET, Visual Basic .NET, Visual Basic, Visual Basic Upgrade Wizard, upgrading Visual Basic 6.0 to Visual Basic .NET, Visual Basic upgrade tool"/>
+<META NAME="MS.LOCALE" CONTENT="en-us"/>
+
+<META NAME="Author" CONTENT="msdn" /><!--- TOOLBAR_EXEMPT --->
+<LINK REL="stylesheet" TYPE="text/css" HREF="ie3.css" />
+<LINK REL="stylesheet" TYPE="text/css" HREF="/library/shared/comments/css/down.css" />
+<style>
+BODY
+{
+font-family:verdana,arial,helvetica;
+margin:0;
+}
+</style>
+
+
+<SCRIPT LANGUAGE="javascript" SRC="/library/toolbar/toolbar.js"></SCRIPT>
+
+<LINK REL="stylesheet" TYPE="text/css" HREF="/library/shared/eyebrow/css/default.css" />
+
+
+   <SCRIPT LANGUAGE="JavaScript"><!--
+   function BrowserData()
+{
+		this.userAgent = "ia_archiver";
+
+		this.bot = true;
+
+		this.browser = "Other";
+
+		this.getsNavBar = false;
+
+		this.doesActiveX = false;
+
+		this.doesPersistence = false;
+
+		this.fullVer = NaN;
+
+   }
+
+   var oBD = new BrowserData();
+
+   //--></SCRIPT>
+
+   <SCRIPT LANGUAGE="JavaScript"><!--
+
+   if (document.layers) {
+    origWidth  = innerWidth;
+  origHeight = innerHeight;
+   }
+
+   function resizeFix() { if (innerWidth != origWidth || innerHeight != origHeight) location.reload(); }
+
+   if (document.layers) onresize = resizeFix;
+
+   //--></SCRIPT><BASE TARGET="_top" />
+
+   <SCRIPT LANGUAGE="JavaScript"><!--
+   function BrowserData()
+{
+		this.userAgent = "ia_archiver";
+
+		this.bot = true;
+
+		this.browser = "Other";
+
+		this.getsNavBar = false;
+
+		this.doesActiveX = false;
+
+		this.doesPersistence = false;
+
+		this.fullVer = NaN;
+
+   }
+
+   var oBD = new BrowserData();
+
+   //--></SCRIPT>
+
+   <SCRIPT LANGUAGE="JavaScript"><!--
+
+   if (document.layers) {
+    origWidth  = innerWidth;
+  origHeight = innerHeight;
+   }
+
+   function resizeFix() { if (innerWidth != origWidth || innerHeight != origHeight) location.reload(); }
+
+   if (document.layers) onresize = resizeFix;
+
+   //--></SCRIPT>
+
+<xml id='xmlPageContext'><eyebrow findmenu="false">
+	<item label="MSDN Home" url="/default.asp"/>
+	<item label="MSDN Library" url="/library/default.asp"/>
+	<item label="Visual Tools and Languages" id="msdnlib1133" xmlsrc="/library/en-us/toc/msdnlib/msdnlib1133_.xml"/><item label="Visual Studio 6.0" id="msdnlib1135"/><item label="Visual Basic 6.0" url="/nhp/default.asp?contentid=28000520" id="msdnlib1136" xmlsrc="/library/en-us/toc/msdnlib/msdnlib1136_.xml"/><item label="Technical Articles" id="msdnlib1140"/><item label="Preparing Your Visual Basic 6.0 Applications For the Upgrade to Visual Basic.NET" url="/library/en-us/dnvb600/html/vb6tovbdotnet.asp" id="dnvb6007"/></eyebrow></xml> </HEAD> <BODY TOPMARGIN="0"  LEFTMARGIN="0" MARGINHEIGHT="0" MARGINWIDTH="0" BGCOLOR="#FFFFFF" TEXT="#000000">
+
+       <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="4" HEIGHT="24" WIDTH="100%" BGCOLOR="#FFFFFF">
+       <TR>
+        <TD CLASS="eyebrow" VALIGN="middle" ALIGN="left" WIDTH="100%">&nbsp;&nbsp;
+
+            <a class="small" target="_top" href="/default.asp">MSDN Home</a>&nbsp;>&nbsp;
+            <a class="small" target="_top" href="/library/default.asp">MSDN Library</a>&nbsp;>&nbsp;
+            <a class="small" target="_top" href="/library/default.asp?url=/nhp/default.asp?contentid=28000520">Visual Basic 6.0</a>&nbsp;>&nbsp;<a href=""></a>
+        </TD>
+       </TR>
+       </TABLE>
+ <TABLE CELLPADDING='0' CELLSPACING='0' WIDTH='100%' BORDER='0'> <TR> <TD VALIGN='top' ALIGN='right' WIDTH='100%' STYLE='padding-right:15px;'>
+    <script>
+    function fnOpenRating( oAnchor )
+    {
+        event.returnValue = false;
+        var sOpts = "menubar=no,status=no,toolbar=no,menubar=no";
+        fnOpenInCenter( oAnchor , "RatingWindow" , sOpts , 150 , 240 );
+        window.onunload = fnCloseRatingWindow;
+        return false;
+    }
+    function fnOpenInCenter( oAnchor , sWindowName , sOpts , iHeight , iWidth )
+    {
+        sOpts = "height=" + String( iHeight ) + ",width=" + String( iWidth ) + "," + sOpts;
+        if( "object" == typeof( window.screen ) )
+        {
+            var iTop = window.screen.height/2 - 75;
+            var iLeft = window.screen.width/2 - 120;
+            sOpts = "left=" + String( iLeft ) + ",top=" + String( iTop ) + "," + sOpts;
+        }
+        window.oRatingWindow = window.open( oAnchor.href , sWindowName , sOpts );
+    }
+    function fnCloseRatingWindow()
+    {
+        window.oRatingWindow.close();
+    }
+    </script>
+    <TABLE CELLPADDING="2" CELLSPACING="0" BORDER="0"><TR><TD ALIGN="right"><A target="_new" onclick="return fnOpenRating( this );" href="/library/shared/ratings/asp/submitrating.asp?aid=645256">Rate this page: </A></TD><TD>864 users&nbsp;</TD><TD VALIGN="bottom"><TABLE CLASS="clsRating" BORDER="2" CELLPADDING="0" CELLSPACING="0"><TR HEIGHT="4"><TD BGCOLOR="#FF3300"><IMG SRC="/msdn-online/shared/graphics/FF3300.gif" WIDTH="20" HEIGHT="4" /></TD><TD BGCOLOR="#FF3300"><IMG SRC="/msdn-online/shared/graphics/FF3300.gif" WIDTH="20" HEIGHT="4" /></TD><TD BGCOLOR="#FF3300"><IMG SRC="/msdn-online/shared/graphics/FF3300.gif" WIDTH="20" HEIGHT="4" /></TD><TD BGCOLOR="#FFFFFF" NOWRAP><IMG SRC="/msdn-online/shared/graphics/FF3300.gif" WIDTH="10" HEIGHT="4" /><IMG SRC="/msdn-online/shared/graphics/ts.gif" WIDTH="10" HEIGHT="4" /></TD><TD BGCOLOR="#FFFFFF"><IMG SRC="/msdn-online/shared/graphics/ts.gif" WIDTH="20" HEIGHT="4" /></TD></TR></TABLE></TD><TD>&nbsp;<B>3.5</B> out of 5</TD></TR></TABLE> </TD> </TR> </TABLE> <TABLE class='clsContainer' CELLPADDING='15' CELLSPACING='0' float='left' WIDTH='100%' BORDER='0'> <TR> <TD VALIGN='top'>
+<!--TOOLBAR_START-->
+<!--TOOLBAR_EXEMPT-->
+<!--TOOLBAR_END-->
+<!----------------->
+<!--BEGIN_CONTENT-->
+<!-----------------><!--NONSCROLLING BANNER START-->
+<div id="nsbanner">
+<div id="TitleRow">
+<H1 class="dtH1"><A NAME="vb6tovbdotnet"></A>Preparing Your Visual Basic 6.0 Applications for the Upgrade to Visual Basic .NET</H1>
+</div></div>
+<!--NONSCROLLING BANNER END-->
+</H1>
+<P>Microsoft Corporation</P>
+
+<P>October 2000</P>
+
+<P><B>Summary: </B>This document provides recommendations for Microsoft Visual Basic<SUP> </SUP>developers planning to upgrade their applications to Visual Basic .NET. It includes information on the Visual Basic .NET Upgrade Tool and discusses architectural guidelines for enabling a smooth upgrade from Visual Basic 6 to Visual Basic .NET. (26 printed pages)</P>
+
+<H4 class="dtH1">Contents</H4>
+
+<P><A TARGET="_self" HREF="#vb6tovbdotnet_overview">Overview</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_whatis">What Is Visual Basic .NET?</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_notcompat">Why Is Visual Basic .NET Not 100% Compatible?</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_upgradingvb">Upgrading to Visual Basic .NET</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_working">Working with Both Visual Basic 6.0 and Visual Basic .NET</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_architecture">Architecture Recommendations</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_browser">Browser-based Applications</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_client">Client/Server Projects</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_single">Single-tier Applications</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_data">Data</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_upgrading">Upgrading</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_variant">Variant to Object</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_integer">Integer to Short</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_property">Property Syntax</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_vbforms">Visual Basic Forms to Windows Forms</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_interfaces">Interfaces</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_report">Upgrade Report and Comments</A><CODE><BR>
+</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_programming">Programming Recommendations</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_useearly">Use Early-Binding</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_usedate">Use Date for Storing Dates</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_resolve">Resolve Parameterless Default Properties</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_avoidnull">Avoid Null Propagation</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_usezero">Use Zero Bound Arrays</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_useconstants">Use Constants Instead of Underlying Values</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_arrays">Arrays and Fixed-Length Strings in User-Defined Types</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_avoidlegacy">Avoid Legacy Features</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_windowsapis">Windows APIs</A><CODE><BR>
+&nbsp;&nbsp;&nbsp;</CODE><A TARGET="_self" HREF="#vb6tovbdotnet_considerations">Considerations for Forms and Controls</A></P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_overview"></A>Overview</H2>
+
+<P>This document provides recommendations for developers using Microsoft&#174; Visual Basic&#174; who are planning to upgrade their applications to Microsoft Visual Basic .NET.</P>
+
+<P>Visual Basic .NET will open and upgrade Visual Basic 6.0 projects to Visual Basic .NET technologies, but in most cases you will need to make some modifications to your projects after bringing them into Visual Basic .NET. The purpose of this document is to recommend how to design and implement your current Visual Basic projects to minimize the number of changes you will need to make when they are upgraded to Visual Basic .NET. Where appropriate, we use new language constructs; however, this document is not intended to be a Visual Basic .NET language reference. </P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_whatis"></A>What Is Visual Basic .NET?</H2>
+
+<P>Visual Basic .NET is the next version of Visual Basic. Rather than simply adding some new features to Visual Basic 6.0, Microsoft has reengineered the product to make it easier than ever before to write distributed applications such as Web and enterprise n-tier systems. Visual Basic .NET has two new forms packages (Windows Forms and Web Forms); a new version of ADO for accessing disconnected data sources; and streamlined language, removing legacy keywords, improving type safety, and exposing low-level constructs that advanced developers require.</P>
+
+<P>These new features open new doors for the Visual Basic developer: With Web Forms and ADO .NET, you can now rapidly develop scalable Web sites; with inheritance, the language now truly supports object-oriented programming; Windows Forms natively supports accessibility and visual inheritance; and deploying your applications is now as simple as copying your executables and components from directory to directory.</P>
+
+<P>Visual Basic .NET is now fully integrated with the other Microsoft Visual Studio .NET languages. Not only can you develop application components in different programming languages, your classes can now inherit from classes written in other languages using cross-language inheritance. With the unified debugger, you can now debug multiple language applications, irrespective of whether they are running locally or on remote computers. Finally, whatever language you use, the Microsoft .NET Framework provides a rich set of APIs for Microsoft Windows&#174; and the Internet.</P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_notcompat"></A>Why Is Visual Basic .NET Not 100% Compatible?</H2>
+
+<P>There were two options to consider when designing Visual Basic .NET&#151;retrofit the existing code base to run on top of the .NET Framework, or build from the ground up, taking full advantage of the platform. To deliver the features most requested by customers (for example, inheritance, threading), to provide full and uninhibited access to the platform, and to ensure that Visual Basic moves forward into the next generation of Web applications, the right decision was to build from the ground up on the new platform.</P>
+
+<P>For example, many of the new features found in Windows Forms could have been added to the existing code base as new controls or more properties. However, this would have been at the cost of all the other great features inherent to Windows Forms, such as security and visual inheritance.</P>
+
+<P>One of our major goals was to ensure Visual Basic code could fully interoperate with code written in other languages, such as Microsoft Visual C#&#8482; or Microsoft Visual C++&#174;, and enable the Visual Basic developer to harness the power of the .NET Framework simply, without resorting to the programming workarounds traditionally required to make Windows APIs work. Visual Basic now has the same variable types, arrays, user-defined types, classes, and interfaces as Visual C++ and any other language that targets the Common Language Runtime; however, we had to remove some features, such as fixed-length strings and non-zero based arrays from the language.</P>
+
+<P>Visual Basic is now a true object-oriented language; some unintuitive and inconsistent features like <B>GoSub/Return</B> and <B>DefInt</B> have been removed from the language.</P>
+
+<P>The result is a re-energized Visual Basic, which will continue to be the most productive tool for creating Windows-based applications, and is now positioned to be the best tool for creating the next generation Web sites. </P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_upgradingvb"></A>Upgrading to Visual Basic .NET </H2>
+
+<P>Visual Basic .NET enables a fundamental shift from traditional Windows development to building next-generation Web and n-tier applications. For this reason, your code will need to be upgraded to take advantage of Visual Basic .NET. </P>
+
+<P>This happens automatically when you open a Visual Basic 6.0 project in Visual Basic .NET: the Upgrade Wizard steps you through the upgrade process and creates a new Visual Basic .NET project (your existing project is left unchanged). This is a one-way process; the new Visual Basic .NET project cannot be opened in Visual Basic 6.0. </P>
+
+<P>When your project is upgraded, the language is modified for any syntax changes and your Visual Basic 6.0 Forms are converted to Windows Forms. In most cases, you will have to make some changes to your code after it is upgraded. This is required because certain objects and language features either have no equivalent in Visual Basic .NET, or have an equivalent too dissimilar for an automatic upgrade. After the upgrade, you may also want to change your application to take advantage of some of the new features in Visual Basic .NET. </P>
+
+<P>For example, Windows Forms supports control anchoring, so you can remove most of your old Visual Basic 6.0 Form resize code:</P>
+<P><img src="vb6tovbdotnetfig1.gif" ALT="VB.NET support for control anchoring" BORDER=0></P>
+<P class="label"><B>Figure 1. VB.NET support for control anchoring</B></P>
+
+<P>To help you make the changes, after your project is upgraded, Visual Basic .NET adds an ‘upgrade report’ to your project itemizing any problems, and inserts comments into your upgraded code alerting you to statements that will need to be changed. Because these comments are displayed as ‘TO DO’ tasks in the new Task List window, you can easily see what changes are required, and navigate to the code statement simply by double-clicking the task. Each task and item in the upgrade report is associated with an online Help topic giving further guidance as to why the code needs to be changed, and what you need to do.</P>
+
+<P>By following the recommendations in this document, you can minimize and, in some cases, eliminate the changes needed after upgrading your project to Visual Basic .NET. In most cases, the recommendations simply represent good programming practices; however, we also identify the objects and methods which have no equivalents, and which should be used sparingly if you intend to upgrade your project to Visual Basic .NET. </P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_working"></A>Working with Both Visual Basic 6.0 and Visual Basic .NET</H2>
+
+<P>Visual Basic .NET supports upgrading Visual Basic 6.0 projects; if you have a project written in Visual Basic versions 1 to 5, we recommend you load it into VB6 (choosing to upgrade Microsoft ActiveX&#174; controls), compile, and save the project before upgrading it to Visual Basic .NET. </P>
+
+<P>Both Visual Basic .NET and Visual Basic 6.0 can be installed on the same computer and run at the same time. Likewise, applications written in Visual Basic .NET and Visual Basic 6.0 can be installed and executed on the same computer. Components written in Visual Basic .NET can interoperate with COM components written in earlier versions of Visual Basic and other languages. For example, you can drop an ActiveX control written in Visual Basic 6.0 onto a Visual Basic .NET Windows Form, use a Visual Basic 6.0 COM object from a Visual Basic .NET class library, or add a reference to a Visual Basic .NET library to a Visual Basic 6.0 executable.</P>
+
+<P>Components compiled with Visual Basic .NET have subtle run-time differences from components compiled with Visual Basic 6.0. For starters, because Visual Basic .NET objects are released through garbage collection, when objects are explicitly destroyed, there may be a lag before they are actually removed from memory. There are additional differences such as the variant/object changes described later in this document. The combined result of these differences is that Visual Basic .NET applications will have similar but not identical run-time behavior to Visual Basic 6.0 applications.</P>
+
+<P>In addition, Visual Basic .NET makes binary compatibility between Visual Basic .NET components and those in Visual Basic 6.0 unnecessary. Components now have a more robust versioning and deployment system than ever before, files can be deployed by simply copying to a directory (no more RegSvr32), and upgrading to a new version of a component is as simple as replacing the old file with a new file. All you have to do is ensure classes and methods are compatible with the previous version.</P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_architecture"></A>Architecture Recommendations</H2>
+
+<P>The .NET platform improves upon previous architectures, and adds greater support for scalability and distributed applications though disconnected data access, HTTP-based message transport, and file-copy based deployment (no more registering of components). To best take advantage of these features, you should design your applications with an architecture similar to that you would use in Visual Basic .NET.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_browser"></A>Browser-based Applications</H3>
+
+<P>Visual Basic 6.0 and Microsoft Visual Studio&#174; 6.0 offered several technologies for creating browser-based Internet and intranet applications:
+
+<UL type="disc">
+	<LI>Webclasses</li>
+
+	<LI>DHTML projects</li>
+
+	<LI>ActiveX documents</li>
+
+	<LI>Active Server Pages (ASP)</li>
+</UL>
+
+<P>Visual Basic .NET introduces ASP.NET, an enhanced version of ASP, and adds to the architecture with Web Forms, which are HTML pages with Visual Basic events. The architecture is server-based. </P>
+
+<P>Below is a list of recommendations and architectural suggestions for developing Visual Basic 6.0 browser-based applications that will most seamlessly migrate to Visual Basic .NET projects:
+
+<UL type="disc">
+	<LI>We recommend you use the Microsoft multi-tier architecture guidelines (see <A HREF = "http://www.microsoft.com/business/products/webplatform/">Building Solutions Today With Microsoft's Web Solution Platform</A>)to create your applications, create the interface with ASP, and use Visual Basic 6.0 or Visual C++ 6.0 COM objects for your business logic. ASP is fully supported in Visual Basic .NET, and you can continue to extend your application using ASP, ASP.NET, and Web Forms. The Visual Basic 6.0 and Visual C++ 6.0 business objects can either be used without modification or upgraded to Visual Studio .NET.</li>
+
+	<LI>DHTML applications contain DHTML pages and client-side DLLs. These applications cannot be automatically upgraded to Visual Basic .NET. We recommend you leave these applications in Visual Basic 6.0.</li>
+
+	<LI>ActiveX documents are not supported in Visual Basic .NET, and like DHTML projects, cannot be automatically upgraded. We recommend you either leave your ActiveX document applications in Visual Basic 6.0 or, where possible, replace ActiveX documents with user controls.</li>
+
+	<LI>Visual Basic 6.0 ActiveX documents and DHTML applications can interoperate with Visual Basic .NET technologies. For example, you can navigate from a Visual Basic .NET Web Form to a Visual Basic 6.0 DHTML page, and vice&#0150;versa. </li>
+
+	<LI>Webclasses no longer exist in Visual Basic .NET. Webclass applications will be upgraded to ASP.NET; however, you will have to make some modifications after upgrading. Existing Webclass applications can interoperate with Visual Basic .NET Web Forms and ASP applications, but for new projects we recommend you use the Windows DNA platform of ASP with Visual Basic 6.0 business objects.</li>
+</UL>
+
+<P>For more information about building applications with the Microsoft multi-tier architecture, see the <A HREF = "http://www.microsoft.com/dna/">Microsoft Windows DNA</A> Web site.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_client"></A>Client/Server Projects</H3>
+
+<P>Visual Basic 6.0 offered several technologies for creating client/server applications:
+
+<UL type="disc">
+	<LI>Visual Basic Forms</li>
+
+	<LI>Microsoft Transaction Server (MTS)/COM+ middle-tier objects</li>
+
+	<LI>User controls</li>
+</UL>
+
+<P>In Visual Basic .NET, there is a new form package: Windows Forms. Windows Forms has a different object model than Visual Basic 6.0 Forms, but is largely compatible. When your project is upgraded, Visual Basic Forms are converted to Windows Forms.</P>
+
+<P>Visual Basic .NET improves support for developing middle-tier MTS and COM+ component services components. Using the unified debugger, you can step from a client application into an MTS/COM+ component and back to the client. You can also use the unified debugger to step through Visual Basic 6.0 MTS/COM+ components (providing they are compiled to native code, with symbolic debug information and no optimizations). </P>
+
+<P>Visual Basic .NET also introduces a new middle-tier component, Web Services. Web Services are hosted by ASP.NET, and use the HTTP transport allowing method requests to pass through firewalls. They pass and return data using industry standard XML, allowing other languages and other platforms to access their functionality. Although they do not support MTS transactions, you may want to change your MTS/COM+ components to Web Services in cases where you do not need distributed transactions but still want to interoperate with other platforms. Although there is no automatic method for this, the task is trivial and can be completed in minutes using a drag-and-drop operation after your project has been upgraded to Visual Basic .NET.</P>
+
+<P>When your project is upgraded, user controls are upgraded to Windows controls; however, custom property tag settings and accelerator keys assignments will not be upgraded.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_single"></A>Single-tier Applications</H3>
+
+<P>Visual Basic 6.0 supported building several types of single-tier applications:
+
+<UL type="disc">
+	<LI>Single-tier database applications</li>
+
+	<LI>Visual Basic add-ins</li>
+
+	<LI>Utility programs and games</li>
+</UL>
+
+<P>Single-tier database applications are typified by a Visual Basic application storing data in an Microsoft Access database. These applications will upgrade to Visual Basic .NET with some limitations (see the Data section later in this document).</P>
+
+<P>Now that the Visual Basic .NET IDE is a fully integrated part of the Visual Studio .NET IDE, Visual Basic .NET has a new language-neutral extensibility model. Visual Basic .NET add-ins are now Visual Studio .NET add-ins, and you can automate and add features to any language in Visual Studio .NET. For example, you can write a Visual Basic .NET add-in that re-colors a Visual C# Windows Form or adds comments to a Visual Basic class. In order to provide this functionality, Visual Basic .NET has moved away from the old extensibility model, and you will need to change the extensibility objects in your application to take advantage of the new features.</P>
+
+<P>Many applications fall under the category of Utility programs. Utility applications that manipulate files, registry settings, and the like will often upgrade without requiring any additional changes. After upgrading, there are many new features you can take advantage of, such as exception handling in the language to capture file system errors, and using .NET Framework registry classes to manipulate the registry. One thing to be aware of is that applications relying on specific performance characteristics of Visual Basic 6.0, such as arcade games, will probably require some modifications because Visual Basic .NET has different performance characteristics. For games support in Visual Basic .NET, you can use Microsoft DirectX&#174; 7, or the new version of GDI. GDI+ introduces many new features, including Alpha blending support for all 2-D graphics primitives, anti-aliasing, and expanded support for image file formats.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_data"></A>Data</H3>
+
+<P>Visual Basic 6.0 offered several types of data access:
+
+<UL type="disc">
+	<LI>ActiveX Data Objects (ADO)</li>
+
+	<LI>Remote Data Objects (RDO)</li>
+
+	<LI>Data Access Objects (DAO)</li>
+</UL>
+
+<P>Visual Basic .NET introduces an enhanced version of ADO called ADO .NET. ADO .NET targets disconnected data, and provides performance improvements over ADO when used in distributed applications. ADO .NET offers read/write data binding to controls for Windows Forms and read-only data binding for Web Forms.</P>
+
+<P>DAO, RDO, and ADO can still be used in code from Visual Basic .NET, with some trivial modifications (covered in the language section of this document). However, Visual Basic .NET does not support DAO and RDO data binding to controls, data controls, or RDO User connection. We recommend that if your applications contain DAO or RDO data binding you either leave them in Visual Basic 6.0 or upgrade the DAO and RDO data binding to ADO before upgrading your project to Visual Basic .NET, as ADO data binding is supported in Windows Forms. Information on how to do this is available in the Visual Basic 6.0 Help.</P>
+
+<P>In summary, we recommend using ADO in your Visual Basic 6.0 projects. </P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_upgrading"></A>Upgrading</H2>
+
+<P>When your code is upgraded, Visual Basic .NET creates a new upgraded project and makes most of the required language and object changes for you. The following sections provide a few examples of how your code is upgraded.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_variant"></A>Variant to Object</H3>
+
+<P>Previous versions of Visual Basic supported the <B>Variant</B> datatype, which could be assigned to any primitive type (except fixed-length strings), Empty, Error, Nothing and Null. In Visual Basic .NET, the functionality of the <B>Variant</B> and <B>Object</B> datatypes is combined into one new datatype: <B>Object</B>. The <B>Object</B> datatype can be assigned to primitive datatypes, Empty, Nothing, Null, and as a pointer to an object.</P>
+
+<P>When your project is upgraded to Visual Basic .NET, all variables declared as <B>Variant</B> are changed to <B>Object</B>. Also, when code is inserted into the editor, the <B>Variant</B> keyword is replaced with <B>Object</B>.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_integer"></A>Integer to Short</H3>
+
+<P>In Visual Basic .NET, the datatype for 16-bit whole numbers is now <B>Short</B>, and the datatype for 32-bit whole numbers is now <B>Integer</B> (<B>Long</B> is now 64 bits). When your project is upgraded, the variable types are changed:</P>
+
+<PRE class="code">Dim x As Integer
+dim y as Long</PRE>
+
+<P>is upgraded to:</P>
+
+<PRE class="code">Dim x As Short
+dim y as Integer
+</PRE>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_property"></A>Property Syntax</H3>
+
+<P>Visual Basic .NET introduces a more intuitive syntax for properties, which groups <B>Get</B> and <B>Set</B> together. Your property statements are upgraded as shown in the following example:</P>
+
+<PRE class="code">Property Get MyProperty() As Integer
+    MyProperty = m_MyProperty
+End Property
+Property Let MyProperty(NewValue As Integer)
+    m_MyProperty = NewValue
+End Property</PRE>
+
+<P>is upgraded to:</P>
+
+<PRE class="code">Property MyProperty() As Short
+    Get
+        MyProperty = m_MyProperty
+    End Get
+    Set
+        m_MyProperty = Value
+    End Set    
+End Property
+</PRE>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_vbforms"></A>Visual Basic Forms to Windows Forms</H3>
+
+<P>Visual Basic .NET has a new forms package, Windows Forms, which has native support for accessibility and has an in-place menu editor. Your existing Visual Basic Forms are upgraded to Windows Forms.</P>
+<P><A HREF="vb6tovbdotnetfig2a.gif" target="_Top"><IMG SRC="vb6tovbdotnetfig2.gif" ALT="Windows Forms in-place menu editor. Click here to see larger image." BORDER=0></A></P>
+<P class="label"><B>Figure 2. Windows Forms in-place menu editor. (Click figure to see larger image.)</B></P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_interfaces"></A>Interfaces</H3>
+
+<P>In previous versions of Visual Basic, interfaces for public classes were always hidden from the user. In Visual Basic .NET, they can be viewed and edited in the Code Editor. When your project is upgraded, you choose whether to have interface declarations automatically created for your public classes.</P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_report"></A>Upgrade Report and Comments</H2>
+
+<P>After your project is upgraded, an upgrade report is added to your project, itemizing any changes you will need to make to your upgraded code. Additionally, comments are added to your code to alert you to any potential problems. These comments show up automatically in the Visual Studio .NET Task List.</P>
+<P><A HREF="vb6tovbdotnetfig3a.gif" target="_Top"><IMG SRC="vb6tovbdotnetfig3.gif" ALT="Upgrade comments are added to Visual Basic code as well as the Task List. Click here to see larger image." BORDER=0></A></P>
+<P class="label"><B>Figure 3. Upgrade comments are added to Visual Basic code as well as the Task List. (Click figure to see larger image.)</B></P>
+
+<H2 class="dtH1"><A NAME="vb6tovbdotnet_programming"></A>Programming Recommendations</H2>
+
+<P>This section provides recommendations for how you should write code to minimize the changes you will need to make after upgrading your project to Visual Basic .NET. </P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_useearly"></A>Use Early-Binding</H3>
+
+<P>Both Visual Basic 6.0 and Visual Basic .NET support late-bound objects, which is the practice of declaring a variable as the <B>Object</B> datatype and assigning it to an instance of a class at run time. However, during the upgrade process, late-bound objects can introduce problems when resolving default properties, or in cases where the underlying object model has changed and properties, methods, and events need to be converted. For example, suppose you have a Form called Form1 with a label called Label1; the following Visual Basic 6.0 code would set the caption of the label to “SomeText”:</P>
+
+<PRE class="code">Dim o As Object
+Set o = Me.Label1
+o.Caption = "SomeText"
+</PRE>
+
+<P>In Visual Basic .NET Windows Forms, the <B>Caption</B> property of a label control is now called <B>Text</B>. When your code is upgraded, all instances of the <B>Caption</B> property are changed to <B>Text</B>, but because a late-bound object is type-less, Visual Basic cannot detect what type of object it is, or if any properties should be translated. In such cases, you will need to change the code yourself after upgrading. </P>
+
+<P>If you rewrite the code using early-bound objects, it will be upgraded automatically:</P>
+
+<PRE class="code">Dim o As Label
+Set o = Me.Label1
+o.Caption = "SomeText"
+</PRE>
+
+<P>Where possible you should declare variables of the appropriate object type rather than simply declaring them as the <B>Object</B> datatype.</P>
+
+<P>In the cases where you do use Object and Variant variables in your Visual Basic 6.0 code, we recommend you use explicit conversions when you assign the variables, perform operations on the variables, or pass the variables to a function. For example, the intention of the ‘+’ operation in the following code is unclear:</P>
+
+<PRE class="code">Dim Var1 As Variant
+Dim Var2 As Variant
+Dim Var3 As Variant
+Var1 = "3"
+Var2 = 4
+Var3 = Var1 + Var2   'UNCLEAR: What is the intention?
+</PRE>
+
+<P>Should Var1 and Var2 be added as strings or integers?</P>
+
+<P>The above example may result in a run-time error in Visual Basic .NET. Rewriting the final line to use explicit conversions ensures the code will work:</P>
+
+<PRE class="code">Var3 = CInt(Var1) + CInt(Var2)   'GOOD: explicit conversion
+</PRE>
+
+<P>Visual Basic .NET supports overloading functions based on parameter type. For example, the <B>Environ</B> function now has two forms: </P>
+
+<PRE class="code">Environ( Expression As Integer) As String
+Environ( Expression As String ) As String </PRE>
+
+<P>Visual Basic .NET determines which function to call based on the parameter type. If you pass an integer to <B>Environ()</B>, the integer version is called; if you pass a string, then the string version is called. Code that passes a <B>Variant</B> or <B>Object</B> datatype to an overloaded function may cause a compile or runtime error. Using an explicit conversion, as in the following example, will mean your code will work as intended after it is upgraded to Visual Basic .NET:</P>
+
+<PRE class="code">Dim a As String
+Dim v As Variant
+v = "Path"
+a = Environ(CStr(v))   'GOOD: explicit conversion
+</PRE>
+
+<P>Using explicit conversions of late bound objects is good coding practice. It makes the intention of the code easy to determine, and makes it easier for you to move your project to Visual Basic .NET.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_usedate"></A>Use Date for Storing Dates</H3>
+
+<P>Earlier versions of Visual Basic supported using the <B>Double</B> datatype to store and manipulate dates. You should not do this in Visual Basic .NET, because dates are not internally stored as doubles. For example, the following is valid in Visual Basic 6.0, but may cause a compile error in Visual Basic .NET:</P>
+
+<PRE class="code">Dim dbl As Double
+Dim dat As Date
+dat = Now
+dbl = dat      'VB.NET: Double can't be assigned to a date
+dbl = DateAdd("d", 1, dbl)   'VB.NET: Can't use Double in date functions
+dat = CDate(dbl)   'VB.NET: CDate can't convert double to date
+</PRE>
+
+<P>The .NET framework provides the <B>ToOADate</B> and <B>FromOADate</B> functions to convert between doubles and dates. However, when your project is upgraded to Visual Basic .NET, it is difficult to determine the intention of code that uses doubles to store dates. To avoid unnecessary modifications to your code in Visual Basic .NET, always use the <B>Date</B> datatype to store dates. </P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_resolve"></A>Resolve Parameterless Default Properties</H3>
+
+<P>In Visual Basic 6.0, many objects expose default properties, which can be omitted as a programming shortcut. For example, <B>TextBox</B> has a default property of <B>Text</B>, so instead of writing:</P>
+
+<PRE class="code">MsgBox Form1.Text1.Text
+</PRE>
+
+<P>you use the shortcut:</P>
+
+<PRE class="code">MsgBox Form1.Text1   
+</PRE>
+
+<P>The default property is resolved when the code is compiled. In addition, you could also use default properties with late-bound objects, as in the following example:</P>
+
+<PRE class="code">Dim obj As Object
+Set obj = Form1.Text1
+MsgBox obj
+</PRE>
+
+<P>In the late-bound example, the default property is resolved at run time, and the <B>MsgBox</B> displays the value of the default property of the <B>TextBox</B> as <B>Text1</B>.</P>
+
+<P>Visual Basic .NET does not support parameterless default properties, and consequently does not allow this programming shortcut. When your project is upgraded, Visual Basic .NET resolves the parameterless default properties, but late-bound usages that rely on run-time resolution cannot be automatically resolved. In these cases, you will have to change the code yourself. An additional complication is that many libraries implement default properties using a property called <B>_Default</B>. <B>_Default</B> acts as a proxy, passing calls to the real default property. So, when your project is upgraded, some default properties will be resolved to <B>_Default</B>. The code will still work as usual, but it will be less understandable than code written explicitly using the actual property. For these reasons, try to avoid using parameterless default properties in your Visual Basic 6.0 code. Instead of writing:</P>
+
+<PRE class="code">Dim obj As Object
+Set obj = Me.Text1
+MsgBox obj   'Relying on default property
+MsgBox Me.Text1   'Relying on default property
+</PRE>
+
+<P>use:</P>
+
+<PRE class="code">Dim obj As Object
+Set obj = Me.Text1
+MsgBox obj.Text   'GOOD: Default property is resolved
+MsgBox Me.Text1.Text   'GOOD: Default property is resolved
+</PRE>
+
+<P>While <I>parameterless</I> default properties are not supported in Visual Basic .NET, default properties <I>with parameters</I> are supported. To understand the difference between the two types, consider that parametered default properties always have an index. An example is the default property of ADO <B>recordset</B>: the <B>Fields</B> collection. The code:</P>
+
+<PRE class="code">Dim rs As ADODB.Recordset
+rs("CompanyName") = "SomeCompany"
+rs!CompanyName = "SomeCompany"
+</PRE>
+
+<P>is actually a shortcut for:</P>
+
+<PRE class="code">Dim rs As ADODB.Recordset
+rs.Fields("CompanyName").Value = "SomeCompany"
+rs.Fields!CompanyName.Value = "SomeCompany"
+</PRE>
+
+<P>In this case, the <B>Fields</B> property is parametered, and so the usage is valid in Visual Basic .NET; however, the default property of the <B>Fields</B> property, <B>Value,</B> is parameterless, so the correct usage in Visual Basic .NET is:</P>
+
+<PRE class="code">Dim rs As ADODB.Recordset
+rs("CompanyName").Value = "SomeCompany"
+rs!CompanyName.Value = "SomeCompany"
+</PRE>
+
+<P>This example and most other default properties are resolved for you when the project is upgraded, so resolving them in Visual Basic 6.0 is simply a good programming practice. However, you should avoid using default properties with the <B>Object</B> and <B>Variant</B> datatypes, as these cannot be resolved and you will have to fix the code yourself in the upgraded project. </P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_avoidnull"></A>Avoid Null Propagation</H3>
+
+<P>Previous versions of Visual Basic supported Null propagation. Null propagation supports the premise that when null is used in an expression, the result of the expression will itself be Null. In each case in the following example, the result of V is always Null.</P>
+
+<PRE class="code">Dim V
+V = 1 + Null
+V = Null + Right$("SomeText", 1)
+V = Right("SomeText", 0)
+</PRE>
+
+<P>Null propagation is not supported in Visual Basic .NET. The statement <B>1+Null</B> will generate a type mismatch in Visual Basic .NET. Additionally, where Visual Basic 6.0 had two versions of the <B>Left</B> function&#151;<B>Left$</B> returning a string, <B>Left</B> returning a variant which could be Null&#151;Visual Basic .NET only has one version, <B>Left</B>, which always returns a string.</P>
+
+<P>In order to be compatible with both Visual Basic 6.0 and Visual Basic .NET you should always write code to test for Null instead of relying on Null propagation. Furthermore, in Visual Basic .NET, the following functions will no longer return Null:</P>
+<table class="data">
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>Chr</B></TD>
+<TD width=50% class="data"><B>Mid</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>Command</B></TD>
+<TD width=50% class="data"><B>Oct</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>CurDir</B></TD>
+<TD width=50% class="data"><B>Right</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>Date</B></TD>
+<TD width=50% class="data"><B>RTrim</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>Environ</B></TD>
+<TD width=50% class="data"><B>Space</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>Error</B></TD>
+<TD width=50% class="data"><B>Str</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>Hex</B></TD>
+<TD width=50% class="data"><B>Time</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>LCase</B></TD>
+<TD width=50% class="data"><B>Trim</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50% class="data"><B>LTrim</B></TD>
+<TD width=50% class="data"><B>UCase</B></TD>
+</TR>
+</table>
+
+<P>Null propagation is commonly used in database applications, where you need to check if a database field contains Null. In these cases you should check results using the function <B>IsNull()</B> and perform the appropriate action.</P>
+
+<P>A related issue involves concatenating a string with a Null value. When programming with database objects, it is common practice to concatenate an "empty string" to a field to ensure that Null values are coerced to an empty string. For example:</P>
+
+<PRE class="code">MyString = rs!Field1 &amp; ""
+</PRE>
+
+<P>This technique is still supported in Visual Basic .NET. When a Null value is concatenated with an empty string (using the &amp; operator), the result is an empty string. </P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_usezero"></A>Use Zero Bound Arrays</H3>
+
+<P>Visual Basic 6.0 allowed you to define arrays with lower and upper bounds of any whole number. You could also use <B>ReDim</B> to reassign a variant as an array. To enable interoperability with other languages, arrays in Visual Basic .NET must have a lower bound of zero, and <B>ReDim</B> cannot be used unless the variable was previously declared with Dim As Array. Although this restricts the way arrays can be defined, it does allow you to pass arrays between Visual Basic .NET and any other .NET language. The following example shows the restriction:</P>
+
+<PRE class="code">Dim a(1 To 10) As Integer   'LBound must be 0 in VB.NET
+Dim v
+ReDim v(10)   'Can't use ReDim without Dim in VB.NET
+Dim b(10) As Integer   'GOOD: Creates an array of 11 integers
+ReDim b(5) As Integer   'GOOD: Can ReDim previously Dimed var
+</PRE>
+
+<P>A side effect is that Option Base 0|1 is removed from the language.</P>
+
+<P>When your project is upgraded to Visual Basic .NET, any option base statements are removed from your code. If the array is zero bound, it is left unchanged. However, if an array is non-zero bound, then the lower bound is removed and a warning is inserted into the code, as in the following example:</P>
+
+<PRE class="code">Dim a(1 To 10) As Integer
+</PRE>
+
+<P>changes to:</P>
+
+<PRE class="code">'UPGRADE_WARNING: Lower Bound of array a was changed from 1 to 0
+Dim a(10) As Integer
+</PRE>
+
+<P>In many cases, the upgraded code will work as it did before. However, if your application logic relies on the lower bound being 1, then you will need to make some modifications. <B>Dim,</B> <B>ReDim</B>, and <B>LBound</B> statements are marked with warnings to help you review the changes.</P>
+
+<P>For this reason, you should use zero bound arrays in your Visual Basic 6.0 code, avoid using <B>ReDim</B> as an array declaration, and avoid using Option Base 1. </P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_useconstants"></A>Use Constants Instead of Underlying Values</H3>
+
+<P>When writing code, try to use constants rather than relying on their underlying values. For example, if you are maximizing a form at run time, use:</P>
+
+<PRE class="code">Me.WindowState = vbMaximized   'Good: Constant name used
+</PRE>
+
+<P>rather than:</P>
+
+<PRE class="code">Me.WindowStyle = 2   'Avoid using underlying value
+Me.WindowStyle = X   'Avoid using variables
+</PRE>
+
+<P>Likewise, use <B>True</B> and <B>False</B> instead of -1 and 0. </P>
+
+<P>In Visual Basic .NET, the values and in some cases the names of some properties and constants have changed. When your project is upgraded to Visual Basic .NET, most constants are changed automatically for you; however, if you use underlying values or variables instead of the constant names, many cases cannot be upgraded automatically. Using constant names minimizes the number of modifications you have to do.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_arrays"></A>Arrays and Fixed-Length Strings in User-Defined Types</H3>
+
+<P>Due to changes made which allow Visual Basic .NET arrays and structures to be fully compatible with other Visual Studio .NET languages, fixed-length strings are no longer supported in the language. In most cases this is not a problem, because there is a compatibility class which provides fixed-length string behavior, so the code:</P>
+
+<PRE class="code">Dim MyFixedLengthString As String * 100
+</PRE>
+
+<P>upgrades to the following:</P>
+
+<PRE class="code">Dim MyFixedLengthString As New VB6.FixedLengthString(100)
+</PRE>
+
+<P>However, fixed-length strings do cause a problem when used in structures (also known as user-defined types). The problem arises because the fixed-length string class is not automatically created when the user-defined type is created. An additional problem is that fixed-size arrays are not created, either, when the user-defined type is created.</P>
+
+<P>When your code is upgraded, user-defined types with fixed-length strings or arrays will be marked with a comment telling you to initialize the fixed-length string or array before using the user-defined type. However, you can shield yourself from this modification by changing your Visual Basic 6.0 user-defined types to use strings instead of fixed-length strings, and uninitialized arrays instead of fixed-size arrays. For example:</P>
+
+<PRE class="code">Private Type MyType
+    MyArray(5) As Integer
+    MyFixedString As String * 100
+End Type
+Sub Bar()
+    Dim MyVariable As MyType
+End Sub
+</PRE>
+
+<P>can be changed to:</P>
+
+<PRE class="code">Private Type MyType
+    MyArray() As Integer
+    MyFixedString As String
+End Type
+Sub Bar()
+    Dim MyVariable As MyType
+    ReDim MyVariable.MyArray(5) As Integer
+    MyVariable.MyFixedString = String$(100, " ")
+End Sub   
+</PRE>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_avoidlegacy"></A>Avoid Legacy Features</H3>
+
+<P>Because they have been removed from the language, you should avoid using the following keywords:
+
+<UL type="disc">
+	<LI><B>Def&lt;type&gt;</B></li>
+
+	<LI><B>Computed GoTo/GoSub</B></li>
+
+	<LI><B>GoSub/Return</B></li>
+
+	<LI><B>Option Base 0|1</B></li>
+
+	<LI><B>VarPtr, ObjPtr, StrPtr</B></li>
+
+	<LI><B>LSet</B></li>
+</UL>
+
+<P>These are explained in more detail below.</P>
+
+<H4 class="dtH1">Def&lt;type&gt;</H4>
+
+<P>In previous versions of Visual Basic, DefBool, DefByte, DefInt, DefLng, DefCur, DefSng, DefDbl, DefDec, DefDate, DefStr, DefObj and DefVar were used in the declarations section of a module to define a range of variables as a certain type. For example:</P>
+
+<PRE class="code">DefInt A-C
+</PRE>
+
+<P>defined all variables beginning with the letter A, B, or C as an integer. Instead of using <B>Def&lt;type&gt;</B> statements, you should explicitly declare variables.</P>
+
+<H4 class="dtH1">Computed GoTo/GoSub</H4>
+
+<P><B>Computed GoTo/GoSub</B> statements take this form:</P>
+
+<PRE class="code">On x GoTo 100, 200, 300
+</PRE>
+
+<P>These are not supported in Visual Basic .NET. Instead, you should use <B>If</B> statements, and Select Case constructs. </P>
+
+<H4 class="dtH1">GoSub/Return</H4>
+
+<P><B>GoSub</B> and <B>Return</B> statements are not supported in Visual Basic .NET. In most cases you can replace these with functions and procedures.</P>
+
+<H4 class="dtH1">Option Base 0|1</H4>
+
+<P><B>Option Base 0|1</B> was used to specify the default lower bound of an array. As mentioned previously, this statement has been removed from the language since Visual Basic .NET natively only supports arrays with a zero lower bound. Non-zero lower bound arrays are supported through a wrapper class.</P>
+
+<H4 class="dtH1">VarPtr, ObjPtr, StrPtr</H4>
+
+<P><B>VarPtr</B>, <B>VarPrtArray</B>, <B>VarPtrStringArray</B>, <B>ObjPtr</B> and <B>StrPtr</B> were undocumented functions used to get the underlying memory address of variables. These functions are not supported in Visual Basic .NET.</P>
+
+<H4 class="dtH1">LSet</H4>
+
+<P>In Visual Basic 6.0, the <B>LSet </B>statement could be used to assign a variable of one user-defined type to another variable of a different user-defined type. This functionality is not supported in Visual Basic .NET.</P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_windowsapis"></A>Windows APIs</H3>
+
+<P>Many APIs can be used exactly as they were in Visual Basic 6.0, with the caveat that you have to adjust your data types accordingly. The Visual Basic 6.0 <B>Long</B> datatype is now the Visual Basic .NET <B>Integer</B> datatype, and the Visual Basic 6.0 <B>Integer</B> datatype is now the Visual Basic .NET <B>Short</B> datatype. During the upgrade, these changes are made for you, and simple APIs work exactly the same as they did in Visual Basic 6.0. For example:</P>
+
+<PRE class="code">Private Declare Function GetVersion Lib "kernel32" () As Long
+Function GetVer()
+    Dim Ver As Long
+    Ver = GetVersion()
+    MsgBox ("System Version is " &amp; Ver)
+End Function
+</PRE>
+
+<P>changes to:</P>
+
+<PRE class="code">Private Declare Function GetVersion Lib "kernel32" () As Integer        
+Function GetVer()
+    Dim Ver As Integer
+    Ver = GetVersion()
+    MsgBox("System Version is " &amp; Ver)
+End Function
+</PRE>
+
+<P>In addition to numeric datatype upgrades, Visual Basic 6.0 had a fixed-length string data type which is not supported in Visual Basic .NET, and which is upgraded to a fixed-length string wrapper class. In many cases in Visual Basic 6.0 you can perform the same action using a normal string. For example:</P>
+
+<PRE class="code">Private Declare Function GetUserName Lib "advapi32.dll" Alias _
+"GetUserNameA" (ByVal lpBuffer As String, ByRef nSize As Long) As Long
+Function GetUser()
+    Dim Ret As Long
+    Dim UserName As String
+    Dim Buffer As String * 25
+    Ret = GetUserName(Buffer, 25)
+    UserName = Left$(Buffer, InStr(Buffer, Chr(0)) - 1)
+    MsgBox (UserName)
+End Function
+</PRE>
+
+<P>can be better written using a normal string explicitly set to length 25 instead of a fixed-length string:</P>
+
+<PRE class="code">    Dim Buffer As String
+    Buffer = String$(25, " ")
+</PRE>
+
+<P>This is upgraded to Visual Basic .NET as follows:</P>
+
+<PRE class="code">Declare Function GetUserName Lib "advapi32.dll" Alias _ 
+"GetUserNameA" (ByVal lpBuffer As String, ByRef nSize As Integer) As Integer
+Function GetUser()
+    Dim Ret As Integer
+    Dim UserName As String
+    Dim Buffer As String
+    Buffer = New String(CChar(" "), 25)
+ &nbsp;&nbsp; Ret = GetUserName(Buffer, 25)
+&nbsp;&nbsp;&nbsp;&nbsp;UserName = Left(Buffer, InStr(Buffer, Chr(0)) - 1)
+&nbsp;&nbsp;&nbsp;&nbsp;MsgBox(UserName)
+End Function
+</PRE>
+
+<P>In some cases, Visual Basic .NET better handles passing strings to APIs, since you can optionally declare how you want strings to be passed using the <B>ANSI</B> and <B>UNICODE</B> keywords.</P>
+
+<P>There are three cases where you may need to make some changes. The first is passing user-defined types that contain fixed-length strings or byte arrays to APIs. In Visual Basic .NET you may need to change your code, adding the <B>MarshallAs</B> attribute (from <B>System.Runtime.InteropServices</B>) to each fixed-length string or byte array in the user-defined type. The second case is using the <B>As Any</B> variable type in a <B>Declare</B> statement. This is not supported in Visual Basic .NET. Variables of type <B>As Any</B> were often used to pass a variable that was either a string or Null; you can replace this Visual Basic 6.0 usage by declaring two forms of the API, one with longs, one with strings. For example, the GetPrivateProfileString API has a parameter <I>lpKeyName</I> of type <B>As Any</B>:</P>
+
+<PRE class="code">Private Declare Function GetPrivateProfileString Lib "kernel32" Alias 
+   "GetPrivateProfileStringA" (ByVal lpApplicationName As String, ByVal 
+      lpKeyName As Any, ByVal lpDefault As String, ByVal 
+         lpReturnedString As String, ByVal nSize As Long, ByVal 
+            lpFileName As String) As Long
+</PRE>
+
+<P>You can remove the “As Any” by replacing the <B>Declare</B> with two versions; one that accepts a long, and one that accepts a string:</P>
+
+<PRE class="code">Private Declare Function <B>GetPrivateProfileStringKey</B> Lib "kernel32" Alias 
+   "GetPrivateProfileStringA" (ByVal lpApplicationName As String, ByVal 
+      lpKeyName As <B>String</B>, ByVal lpDefault As String, ByVal 
+         lpReturnedString As String, ByVal nSize As Long, ByVal 
+            lpFileName As String) As Long
+Private Declare Function <B>GetPrivateProfileStringNullKey</B> Lib "kernel32" 
+   Alias "GetPrivateProfileStringA" (ByVal lpApplicationName As String, 
+      ByVal lpKeyName As <B>Long</B>, ByVal lpDefault As String, ByVal 
+         lpReturnedString As String, ByVal nSize As Long, ByVal 
+            lpFileName As String) As Long
+</PRE>
+
+<P>When you wish to pass the value Null to the API, you use the <B>GetPrivateProfileStringNullKey</B> version. Doing it this way means that the function upgrades to Visual Basic .NET.</P>
+
+<P>The final area where you may need to make some changes is if you are using APIs that perform thread creation, Windows subclassing, message queue hooking, and so on. Some of these functions will cause a run-time error in Visual Basic .NET. Many of these APIs have equivalents in Visual Basic .NET or the .NET Framework. You will have to fix these on a case-by-case basis. </P>
+
+<H3 class="dtH1"><A NAME="vb6tovbdotnet_considerations"></A>Considerations for Forms and Controls</H3>
+
+<P>Visual Basic .NET has a new forms package, Windows Forms. Windows Forms is largely compatible with the forms package found in Visual Basic 6; however, there are some key differences that are outlined below:
+
+<UL type="disc">
+	<LI>Windows Forms does not support the OLE container control; you should avoid using this control in your Visual Basic 6.0 applications.</li>
+
+	<LI>There is no shape control in Windows Forms. Square and rectangular shapes will be upgraded to labels, while ovals and circles cannot be upgraded. You should avoid using these in your applications.</li>
+
+	<LI>There is no line control in Windows Forms. Horizontal and vertical lines are upgraded to labels. Diagonal lines are not upgraded, and you should avoid using them.</li>
+
+	<LI>Windows Forms has a new set of graphics commands that replace the Form methods <B>Circle</B>, <B>CLS</B>, <B>PSet</B>, <B>Line</B>, and <B>Point</B>. Because the new object model is quite different from Visual Basic 6.0, these methods cannot be upgraded.</li>
+
+	<LI>For the Timer control, setting the <B>Interval</B> property to 0 does not disable the timer; instead the interval is reset to 1. In your Visual Basic 6.0 projects, you should set <B>Enabled</B> to <B>False</B> instead of setting the <B>Interval</B> to 0.</li>
+
+	<LI>Windows Forms has two menu controls, MainMenu and ContextMenu, whereas Visual Basic 6.0 has one menu control, Menu, which can be opened as a MainMenu or a ContextMenu. Menu controls are upgraded to MainMenu controls, but you will not be able to use them as ContextMenus; you will have to recreate your ContextMenus.</li>
+
+	<LI>Windows Forms has no support for Dynamic Data Exchange (DDE).</li>
+
+	<LI>Windows Forms does not support the <B>Form.PrintForm</B> method.</li>
+
+	<LI>Although Windows Forms has support for drag-and-drop functionality, the object model is quite different from Visual Basic 6.0. Therefore, the Visual Basic 6.0 drag-and-drop properties and methods cannot be upgraded.</li>
+
+	<LI>The .NET framework has an improved Clipboard object (<B>System.Windows.Clipboard</B>) that offers more functionality and supports more clipboard formats than the Visual Basic 6.0 Clipboard object. However, because of differences between object models, clipboard statements cannot be automatically upgraded.</li>
+
+	<LI>To ensure your forms are upgraded to the right size, you should always use the default ScaleMode of twips in your applications. During the upgrade, Visual Basic .NET transforms your forms coordinates from twips to pixels.</li>
+
+	<LI>Windows Forms only supports true-type and open-type fonts. If your application uses other fonts, these fonts will be changed to the system’s default font, and all formatting (size, bold, italic, underline) will be lost. This applies to the default VB6 font MS Sans Serif. For this reason, we recommend you use Arial instead of MS Sans Serif, wherever you have formatted text.</li>
+</UL>
+
+
+
+<!----------------->
+<!--END_CONTENT-->
+<!----------------->
+ </TD> </TR> </TABLE>
+<TABLE WIDTH="100%" HEIGHT="50" ID="idToolbar" CELLPADDING="0" CELLSPACING="0" BORDER="0" BGCOLOR="#003399">
+<TR>
+<TD BGCOLOR=#003399 HEIGHT="20" VALIGN="middle" NOWRAP ID="idTBLocal" WIDTH="100%">
+<FONT FACE="Verdana, Arial" SIZE="2"><B>
+
+		&nbsp;&nbsp;<A STYLE='color:##FFFFFF;text-decoration:none;' HREF='http://register.microsoft.com/contactus30/contactus.asp?domain=msdn' TARGET='_top'><FONT COLOR='#FFFFFF'>Contact Us</FONT></A>
+
+					&nbsp;&nbsp;<FONT COLOR='#FFFFFF'>|</FONT>
+				
+		&nbsp;&nbsp;<A STYLE='color:##FFFFFF;text-decoration:none;' HREF='mailto:?subject=An article from MSDN&body=Here is an interesting article from MSDN:  msdn.microsoft.com/library/en-us/dnvb600/html/vb6tovbdotnet.asp' TARGET='_top'><FONT COLOR='#FFFFFF'>E-Mail this Page</FONT></A>
+
+					&nbsp;&nbsp;<FONT COLOR='#FFFFFF'>|</FONT>
+				
+		&nbsp;&nbsp;<A STYLE='color:##FFFFFF;text-decoration:none;' HREF='/flash/' TARGET='_top'><FONT COLOR='#FFFFFF'>MSDN Flash Newsletter</FONT></A>
+
+
+</B></FONT>
+</TD>
+</TR>
+<TR>
+<TD BGCOLOR=#003399 HEIGHT="20" VALIGN="middle" NOWRAP ID="idTBLocal" WIDTH="100%">
+<FONT FACE="Verdana, Arial" SIZE="2"><B>
+&nbsp;&nbsp;<FONT COLOR='#FFFFFF'>© 2002 Microsoft Corporation. All rights reserved.</FONT>&nbsp;&nbsp;
+&nbsp;&nbsp;<A STYLE='color:##FFFFFF;text-decoration:none;' HREF=' /isapi/gomscom.asp?target=/info/cpyright.htm' TARGET='_top'><FONT COLOR='#FFFFFF'>Terms of Use</FONT></A>&nbsp;&nbsp;&nbsp;&nbsp;<A STYLE='color:##FFFFFF;text-decoration:none;' HREF='/isapi/gomscom.asp?target=/info/privacy.htm' TARGET='_top'><FONT COLOR='#FFFFFF'>Privacy Statement </FONT></A>&nbsp;&nbsp;&nbsp;&nbsp;<A STYLE='color:##FFFFFF;text-decoration:none;' HREF='/isapi/gomscom.asp?target=/enable/' TARGET='_top'><FONT COLOR='#FFFFFF'>Accessibility </FONT></A>&nbsp;&nbsp;</B></FONT>
+</TD>
+</TR>
+</TABLE>
+ </BODY> </HTML>

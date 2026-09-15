@@ -1,0 +1,54 @@
+{
+  "id": "XTRA-16",
+  "provenance_classification": "historical source (Microsoft-published documentation figure), with a derived editorial frame",
+  "asset_plan_status": "Script-only supplement (SCRIPT-SUPPLEMENT family). Not an original asset-plan row.",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [697, 699],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [754, 756],
+      "sha256": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working script, same text, read only (not edited)"
+    },
+    {
+      "path": "source/original.gif",
+      "sha256": "139f1c1a1f785ea0688aa96ce6a04b079136601006d530463504987b23267ad0",
+      "relationship": "historical original",
+      "source_url": "https://learn.microsoft.com/en-us/previous-versions/images/aa730876.vbuw2005_01(en-us,vs.80).gif",
+      "page_url": "https://learn.microsoft.com/en-us/previous-versions/aa730876(v=vs.80)",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (uniform resize, pillarbox, caption; no crop)",
+      "derived_from": "source/original.gif",
+      "recipe": "src/render_frame.py, parameters in evidence/framing.json"
+    },
+    {
+      "path": "evidence/captures/wayback-20070416014632-msdn2-aa730876.html",
+      "sha256": "9df8d7616345cd645f9f5af2cb264ae609d388bd9a642b89e4fbd99fd88f818b",
+      "relationship": "archive identity evidence for the figure's article (Internet Archive raw capture, id_ mode)"
+    },
+    {
+      "path": "evidence/captures/wayback-20020601133822-msdn-vb6tovbdotnet.html",
+      "sha256": "383cb66919b3719677a6284c7ac42fa6283255ed90fbc1a3f7d6da8b613510cb",
+      "relationship": "archive evidence for claim check XTRA-16-C1 (October 2000 VB.NET upgrade guidance)"
+    }
+  ],
+  "authored_additions": [
+    "The caption line in exports/editorial-frame.png, written by this worker from source.json facts: product version, article title, author, date, figure number.",
+    "Frame background (#111318) and 2 px #C0C0C0 hairline, both production-bible tokens.",
+    "Transcription of the visible report text in evidence/source-excerpts.md, done by eye without OCR."
+  ],
+  "not_added": [
+    "No errors, warnings, counts, highlights, arrows or meme overlays were added to or removed from the screenshot.",
+    "No AI-generated or redrawn imagery."
+  ],
+  "producer_decisions": [],
+  "access_date": "2026-09-15"
+}
