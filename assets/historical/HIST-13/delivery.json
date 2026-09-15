@@ -1,0 +1,230 @@
+{
+  "id": "HIST-13",
+  "title": "Metrowerks CodeWarrior IDE",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (scanned 1995 book reproduction of a Mac CodeWarrior IDE screenshot)",
+  "shared_version": null,
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates.json",
+      "role": "evidence / candidate search record",
+      "bytes": 5168,
+      "sha256": "65266b7f078402fa6ff65b6f0c1af310eab9646563830d79a6a05255e29276cb"
+    },
+    {
+      "path": "evidence/candidates/metrowerks-ide-tour-fig4.gif",
+      "role": "alternate candidate original (not used in export)",
+      "bytes": 12631,
+      "sha256": "777d4cb9da181b3b4f42467e1c0e2b088e517cb617405a0ecd09ce2b8d74afa9"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3070,
+      "sha256": "f98ae5b7397cad1552830ea94294352dd53135b936a165bc08e1d46dd9fc35bd"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2465,
+      "sha256": "b5c81ea52374b510f84d3a8da02d308d1311939a05b5905e0d1968e14506101a"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / rights record",
+      "bytes": 2844,
+      "sha256": "97adceb4fd13b16d86e418d1c1925eef89bbab8a00a2626a06d345af769ea990"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3109,
+      "sha256": "4fc5e288ca02d8b5f913c7cf3c34989cd22d24b4cdab25a434ae9bbd3ae049cc"
+    },
+    {
+      "path": "evidence/source-page/vintageapple-macprogramming-index.headers.txt",
+      "role": "evidence / source page capture",
+      "bytes": 412,
+      "sha256": "f6a5f46eca8cd63e5d537b1e4c6027b521680c794ad4208b9143bed88dec2e0c"
+    },
+    {
+      "path": "evidence/source-page/vintageapple-macprogramming-index.html",
+      "role": "evidence / source page capture",
+      "bytes": 57449,
+      "sha256": "cf99d176a138be5fd1173e7986d960e83c092ceb833c9686f9ced561a78b0912"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / source record",
+      "bytes": 3946,
+      "sha256": "211b88202b8650000620b90cba844ebcdae0c9b5a402f7379007da0614d6de14"
+    },
+    {
+      "path": "evidence/transform.json",
+      "role": "evidence / transformation record",
+      "bytes": 2276,
+      "sha256": "53c56f10068fad0a740d913dbcd7b32766f1a1b93e5071aad175f3470893951d"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "rendered still",
+      "bytes": 880242,
+      "sha256": "36e5bad7c85b2c1e89d9366f0358034f04304329b9501cf3cadf2b874a5ff8e6"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "evidence / QA",
+      "bytes": 373522,
+      "sha256": "f50559e17e3f40914b729c397ca59085329e5b47f593910446b161e451d722f7"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6385,
+      "sha256": "551dfa7777da0fa00bc0647e90f665e7a8bfc216d699103a2e627f6fbe397fcd"
+    },
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (native acquired image)",
+      "bytes": 231101,
+      "sha256": "d92db8928ea9c2be5d8317ff0112a53fa763ec6d537bfb5edbd5b642084da5f5"
+    },
+    {
+      "path": "src/build_frame.py",
+      "role": "editable source",
+      "bytes": 4624,
+      "sha256": "55cb88ae6ea3be519cb856f911e901bb056d21bb1157db2eaed9af829c141bcc"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.jpg"
+      ],
+      "timeline": null,
+      "notes": "Unmodified raw DCT stream of PDF page 63; 2045x2785 greyscale."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "timeline": null,
+      "notes": "Still; hold for editorial timing. Reversible crop parameters in evidence/transform.json."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        96,
+        96
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        649,
+        651
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.jpg",
+      "record": "evidence/source.json",
+      "url": "https://vintageapple.org/macprogramming/pdf/Metrowerks_Code_Worrior_Programming_1995.pdf",
+      "pdf_page_index": 63,
+      "container_sha256": "b129ccb1e14e00b3b089d36b5fe3b2b219bdce197845d6a1967827a304e3d808",
+      "access_date": "2026-09-15",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "record": "evidence/transform.json",
+      "relationship": "derivative crop"
+    },
+    {
+      "path": "evidence/candidates/metrowerks-ide-tour-fig4.gif",
+      "url": "http://web.archive.org/web/19971110021730/http://www.metrowerks.com:80/news/factory_floor/idetour/fig4.gif",
+      "access_date": "2026-09-15",
+      "relationship": "historical original (alternate candidate, not used in export)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical image",
+      "credit": "Screenshot from Dan Parks Sydow, Metrowerks CodeWarrior Programming for the Mac (M&T Books, 1995), p. 43. CodeWarrior © Metrowerks. Scan: vintageapple.org.",
+      "license": null,
+      "rights_status": "unresolved — see evidence/rights.json"
+    },
+    {
+      "type": "framing",
+      "credit": "Crop and layout by this production; no pixels redrawn."
+    }
+  ],
+  "tests": [
+    {
+      "test": "tools/validate_delivery.py --id HIST-13",
+      "result": "run after writing this file; actual output reported in the worker completion report (no self-referential hash)"
+    },
+    {
+      "test": "source file hashes (ASSET_PLAN.md, SCRIPT.md)",
+      "result": "match; sources/ untouched"
+    },
+    {
+      "test": "original JPEG integrity and raw-stream hash",
+      "result": "passed (ffd8..ffd9, 2045x2785 L, sha256 d92db892...)"
+    },
+    {
+      "test": "export dimensions",
+      "result": "passed (1920x1080 RGB; proof 1280x720 RGB)"
+    },
+    {
+      "test": "deterministic rebuild",
+      "result": "passed (frame, 720p proof, transform.json byte-identical on rebuild)"
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "full-size export plus 1:1 tiles; 720p proof",
+        "status": "legible titles/code/project entries; no clipped window edges; print halftone and faint reverse-page show-through noted; no added text/UI"
+      },
+      "evidence": "qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0",
+      "pypdf": "6.13.3",
+      "numpy": "2.4.6"
+    },
+    "curl": "8.18.0 (x86_64-w64-mingw32)",
+    "git": "2.53.0.windows.1",
+    "render_command": "python assets/historical/HIST-13/src/build_frame.py",
+    "network_used": "acquisition only (2026-09-15); none at render time",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Historical proof; release blocked on R14. Not for the cleared-media bin.",
+    "Mac-hosted CodeWarrior (CW5-era, 1995) substantiated by the book text, not appearance alone; Windows-hosted Metrowerks screenshots were rejected.",
+    "The 65.6 MB source PDF is not retained; URL and SHA-256 recorded for re-acquisition.",
+    "shared_version null: archive still does not use the shared frozen template."
+  ]
+}

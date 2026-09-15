@@ -1,0 +1,74 @@
+{
+  "id": "HIST-13",
+  "search_date": "2026-09-15",
+  "selected": {
+    "rank": 1,
+    "label": "Sydow 1995 book, p. 43, Figures 2.40-2.41",
+    "path": "source/original.jpg",
+    "why": "The only candidate dated 1995. It is Mac-hosted, version-anchored by the book text to CW5, and shows both the source editor and the project window. Its captions identify it as CodeWarrior.",
+    "deficiencies": [
+      "A print reproduction scanned from paper: greyscale, halftone softness, faint show-through from the reverse page.",
+      "Rights unresolved (all-rights-reserved book; no host license)."
+    ]
+  },
+  "alternates": [
+    {
+      "rank": 2,
+      "label": "Metrowerks website 'IDE tour' figure 4, project window 'FormEdit (Merged).µ'",
+      "path": "evidence/candidates/metrowerks-ide-tour-fig4.gif",
+      "source_url": "http://www.metrowerks.com:80/news/factory_floor/idetour/fig4.gif",
+      "archive_url": "http://web.archive.org/web/19971110021730/http://www.metrowerks.com:80/news/factory_floor/idetour/fig4.gif",
+      "capture_timestamp": "19971110021730",
+      "creator": "Metrowerks Inc. (published on its own website; site footer 'Copyright Metrowerks, Inc. (c)1997')",
+      "dimensions": [403, 413],
+      "host_os": "Mac OS (classic Mac window chrome, 'µ' project suffix, 68k and PPC targets, MacOS.lib)",
+      "version": "unconfirmed. The 'Targets' tab and MSL libraries suggest IDE 2.x (1997), but the parent article page was not recovered, and appearance alone cannot settle the version.",
+      "deficiencies": [
+        "Later than the 1995 narration (published no later than 1997-11-10).",
+        "Small: 403x413 px, would be upscaled about 2.5x for 1080p.",
+        "Shows only a project window, no editor.",
+        "Parent article not found; the Wayback connection was intermittent. Only 5 of 17 factory_floor issue pages downloaded, and none referenced idetour.",
+        "Rights unresolved (Metrowerks copyright, no license)."
+      ]
+    },
+    {
+      "rank": 3,
+      "label": "Wikimedia Commons: Metrowerks_CodeWarrior_Professional_Release_1.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Metrowerks_CodeWarrior_Professional_Release_1.jpg",
+      "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Metrowerks_CodeWarrior_Professional_Release_1.jpg",
+      "creator": "Gona.eu (own work, 2008-08-20)",
+      "license": "Public domain (PD-user)",
+      "dimensions": [686, 1596],
+      "sha1": "c683894bcf850cc25e1309421b826a04f8b51dda",
+      "media_retained": false,
+      "deficiencies": [
+        "Packaging photo, not an IDE screenshot.",
+        "Shows CodeWarrior Pro 1 (1997) sleeves, one labelled 'CodeWarrior Gold for Windows 95/NT'.",
+        "Cannot satisfy the script cue."
+      ]
+    }
+  ],
+  "rejected": [
+    {"item": "metrowerks.com images/desktop/screengroup.gif, editor.gif, browsers.gif (Wayback 1997-11-10)", "reason": "Windows-hosted IDE: Win95 title bars, paths under C:\\Program Files\\Metrowerks\\CodeWarrior, MFC MULTIPAD example. This is the Windows-version trap the ticket warns about."},
+    {"item": "Internet Archive code-warrior-dr-2 / CodeWarrior_DR2.jpeg", "reason": "Disc label scan, CodeWarrior for BeBox DR2, not Mac, not an IDE."},
+    {"item": "Internet Archive code-warrior-3 / CodeWarrior_3.jpeg", "reason": "Disc label scan, CodeWarrior for BeOS Release 3, not an IDE."},
+    {"item": "Macintosh Garden codewarrior-professional-release-1 'Application Screenshot' (codewarrior_professional_release_1.jpg)", "reason": "Actually a photo of a 'Blood Sweat & Code' mailer (page alt text 'mailer'), not an IDE."},
+    {"item": "Macintosh Garden CodeWarrior_5_Gold.jpg, codewarrior10gold.png", "reason": "Box and CD images, not an IDE."},
+    {"item": "Internet Archive codewarriorsoftw0000harr (Harrington 1996)", "reason": "Controlled-lending item (access-restricted). This is a gated route, so it was not used."},
+    {"item": "Internet Archive cwpro4 (1998), cw4propdfs", "reason": "Later versions; ISO images and PDF docs with no clear license. Not pursued once a 1995 Mac source was found."},
+    {"item": "ja/de Wikipedia CodeWarrior articles", "reason": "No IDE screenshot. The de article only reuses the Commons box photo."}
+  ],
+  "searches": [
+    "Wikimedia Commons MediaSearch 'CodeWarrior' (one relevant file)",
+    "Commons API imageinfo/extmetadata for the one relevant file",
+    "Internet Archive advancedsearch 'codewarrior' (100 rows); texts/image 1993-1997 subset",
+    "Wayback CDX: metrowerks.com domain images 1995-1998; insomnia.metrowerks.com 1996-1997; factory_floor prefix",
+    "Macintosh Garden search 'codewarrior' plus the CW5 Gold, CW6, CW10 Gold and Pro 1 pages",
+    "vintageapple.org /macprogramming/ listing",
+    "Web search: 'Metrowerks CodeWarrior Macintosh 1995 IDE screenshot project window'"
+  ],
+  "capability_notes": [
+    "WebFetch cannot reach web.archive.org. curl reached it over HTTP intermittently; HTTPS and some HTTP requests failed with connect errors.",
+    "preserve.mactech.com HTTPS certificate expired; certificate checks were not bypassed. The HTTP search returned no parseable article links."
+  ]
+}

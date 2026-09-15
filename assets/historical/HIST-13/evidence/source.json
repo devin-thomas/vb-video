@@ -1,0 +1,61 @@
+{
+  "id": "HIST-13",
+  "provenance_classification": "historical source (print reproduction of a period screenshot, scanned)",
+  "title": "Figures 2.40 and 2.41: the source code file and program output for the OOPexample project; the project window for the PowerPC version of OOPexample",
+  "work": {
+    "title": "Metrowerks CodeWarrior Programming for the Mac",
+    "author": "Dan Parks Sydow",
+    "publisher": "M&T Books (a division of MIS:Press, Inc.), New York",
+    "copyright_line_on_page": "© 1995 by M&T Books; All rights reserved",
+    "page": "43 (printed folio)",
+    "pdf_page_index": 63
+  },
+  "creator": {
+    "screenshot_author": "Dan Parks Sydow (author of the book; screenshots captured for the book) — attribution inferred from authorship, not separately stated",
+    "depicted_software_publisher": "Metrowerks Inc. (CodeWarrior IDE); Apple Computer (Mac OS window chrome)",
+    "scanner": "unknown uploader to vintageapple.org (PDF metadata: Creator 'ScanSnap Manager #iX500', Producer 'Acrobat 11.0.20 Paper Capture Plug-in')"
+  },
+  "original_publication_date": "1995",
+  "depicted_event_date": "1995 (screenshot of CodeWarrior CW5-era IDE; book text: 'As of this writing, CodeWarrior CW5 is available, and CW6 soon will be')",
+  "scan_dates": {
+    "pdf_creation_date": "2016-12-13T21:48:26Z",
+    "pdf_mod_date": "2017-05-03T20:39:51-07:00",
+    "http_last_modified": "Thu, 04 May 2017 03:39:51 GMT"
+  },
+  "source_urls": {
+    "file": "https://vintageapple.org/macprogramming/pdf/Metrowerks_Code_Worrior_Programming_1995.pdf",
+    "listing_page": "https://vintageapple.org/macprogramming/",
+    "listing_page_capture": "evidence/source-page/vintageapple-macprogramming-index.html"
+  },
+  "access_date": "2026-09-15",
+  "access_method": "Public HTTPS download, no account, no terms prompt, no CAPTCHA, no paywall.",
+  "acquired_container": {
+    "format": "PDF 1.6, 402 pages, scanned book",
+    "bytes": 65615192,
+    "sha256": "b129ccb1e14e00b3b089d36b5fe3b2b219bdce197845d6a1967827a304e3d808",
+    "retained_in_repo": false,
+    "reason_not_retained": "65.6 MB whole-book scan of an all-rights-reserved book; only the single page image used is retained. Re-acquire from the file URL and verify the hash above."
+  },
+  "native_original": {
+    "path": "source/original.jpg",
+    "extraction": "PDF page 63, XObject /Im0 (/DCTDecode, /DeviceGray, 8 bpc). The raw stream bytes were written unchanged; no decode or re-encode.",
+    "format": "JPEG (baseline DCT, greyscale)",
+    "dimensions": [2045, 2785],
+    "bytes": 231101,
+    "sha256": "d92db8928ea9c2be5d8317ff0112a53fa763ec6d537bfb5edbd5b642084da5f5"
+  },
+  "version_and_host_evidence": {
+    "product": "Metrowerks CodeWarrior (Macintosh-hosted IDE), CW5 era",
+    "host_os": "Mac OS (System 7 era). The book is Mac-only ('for the Mac'); window chrome is classic Mac OS; the project file name uses the Mac 'µ' suffix; the project lists InterfaceLib and MWCRuntime.Lib (PowerPC Mac libraries).",
+    "target": "PowerPC (Figure 2.41 caption: 'The project window for the PowerPC version of OOPexample')",
+    "not_windows_hosted": true,
+    "evidence_excerpts": "evidence/source-excerpts.md",
+    "limits": "The book states CW5 was current 'as of this writing' and shows 'CW5 Gold' CD folders; it does not state the exact IDE build used for page 43. 'CW5-era' is the supported claim; an exact build number is not claimed."
+  },
+  "original_dimensions": [2045, 2785],
+  "transformations": "exports/editorial-frame.png only: two crops, uniform 0.87 scale, side-by-side placement on neutral background. Full parameters in evidence/transform.json. source/original.jpg is untouched.",
+  "license": null,
+  "license_url": null,
+  "rights_status": "unresolved — see evidence/rights.json",
+  "credit_text": "Screenshot from Dan Parks Sydow, Metrowerks CodeWarrior Programming for the Mac (M&T Books, 1995), p. 43. CodeWarrior © Metrowerks. Scan: vintageapple.org."
+}

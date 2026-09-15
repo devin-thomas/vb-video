@@ -1,0 +1,63 @@
+{
+  "id": "HIST-13",
+  "provenance_classification": "historical source",
+  "script_sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [96, 96],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [649, 651],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "historical original",
+      "path": "source/original.jpg",
+      "record": "evidence/source.json",
+      "url": "https://vintageapple.org/macprogramming/pdf/Metrowerks_Code_Worrior_Programming_1995.pdf",
+      "pdf_page_index": 63,
+      "container_sha256": "b129ccb1e14e00b3b089d36b5fe3b2b219bdce197845d6a1967827a304e3d808",
+      "sha256": "d92db8928ea9c2be5d8317ff0112a53fa763ec6d537bfb5edbd5b642084da5f5",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "source page capture",
+      "path": "evidence/source-page/vintageapple-macprogramming-index.html",
+      "url": "https://vintageapple.org/macprogramming/",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "alternate candidate (not used in export)",
+      "path": "evidence/candidates/metrowerks-ide-tour-fig4.gif",
+      "url": "http://web.archive.org/web/19971110021730/http://www.metrowerks.com:80/news/factory_floor/idetour/fig4.gif",
+      "access_date": "2026-09-15"
+    }
+  ],
+  "derived": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "from": "source/original.jpg",
+      "transform_record": "evidence/transform.json",
+      "script": "src/build_frame.py"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "relationship": "QA proof (1280x720 downscale of the editorial frame)",
+      "from": "exports/editorial-frame.png"
+    }
+  ],
+  "authored_additions": [
+    "Neutral dark-grey background (RGB 42,42,42).",
+    "Side-by-side arrangement of the two book figures, which the book stacks vertically.",
+    "No text, captions, labels, arrows, UI or credits were drawn into the frame."
+  ],
+  "script_source_hashes_note": "ASSET_PLAN.md and SCRIPT.md hashes are those recorded for these sources elsewhere in this repository (e.g. CARD-01 delivery.json); sources/ is hash-locked and was not modified.",
+  "producer_decisions": []
+}
