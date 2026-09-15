@@ -1,8 +1,9 @@
 {
   "tickets": 134,
   "production_status": {
-    "produced": 86,
-    "planned": 47,
+    "produced": 99,
+    "planned": 33,
+    "blocked": 1,
     "in_progress": 1
   },
   "release_status": {
@@ -20,6 +21,7 @@
     "mockups": 2,
     "reference-code": 4,
     "captures": 7,
+    "historical": 13,
     "ops": 2
   },
   "gallery_assets": 84,

@@ -699,9 +699,9 @@ So Visual Basic sat in a sweet spot: easier than C++, more established than Delp
 
 What if you wanted to build this same card game in 1995, but you were on a Mac?
 
-First: you weren't using Visual Basic. Microsoft did release a product called "Visual Basic for Mac" in... I want to say around the early 90s. It was terrible. It was abandoned quickly. There's really nothing to say about it except that it existed and nobody liked it.
+First: you weren't using Visual Basic. Microsoft never actually shipped Visual Basic for the Mac. They had something called QuickBASIC for the Apple Macintosh — released in 1988, last updated in 1992 — but that was a plain BASIC compiler, not the visual, drag-and-drop environment that made VB special on Windows. And eventually Mac Office got VBA, the macro language inside Excel and Word, but that was for automating spreadsheets, not building standalone applications.
 
-**[VISUAL: Maybe a screenshot of VB for Mac if one can be found. Otherwise, a "404 Not Found" joke graphic.]**
+**[VISUAL: Text card or graphic noting that Visual Basic for Mac was never released. Alternatively, a screenshot of Microsoft QuickBASIC for Apple Macintosh if a rights-cleared image can be sourced.]**
 
 On a Mac in 1995, you'd probably be using **Metrowerks CodeWarrior**. This was the dominant development environment for the Mac through most of the 90s. It used C and C++ and compiled for both the old Motorola 68k chips and the newer PowerPC architecture. The Mac Toolbox API — the equivalent of the Windows API — was C-based, and CodeWarrior was how most Mac developers interacted with it.
 
