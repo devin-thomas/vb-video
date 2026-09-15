@@ -11,6 +11,8 @@
 **Description:**
 Visual Basic was the most popular programming language on Earth in the mid-1990s — and almost nobody under 30 has ever written a line of it. In this video, I build the card game War from scratch in VB, explain how the language actually worked, why it mattered, and what it was like to write software before C# and Java took over.
 
+Footnote: the OptionExplicit and OptionStrict settings shown in War.vbproj aren't part of the default project that "dotnet new console -lang VB" creates (.NET SDK 10.0.303) — I added them. Program.vb also turns both options on at the top of the file, so the game behaves the same with or without them.
+
 **Tags:**
 visual basic, vb6, vb4, retro programming, 1990s programming, card game tutorial, war card game, programming history, microsoft visual basic, windows 95 programming, retro computing, learn visual basic, basic programming language, programming tutorial, coding history
 
@@ -26,11 +28,12 @@ visual basic, vb6, vb4, retro programming, 1990s programming, card game tutorial
 - 22:00 — The Game Loop
 - 26:00 — War! The Recursion Within the Loop
 - 30:00 — Running It: Full Simulation
-- 32:00 — What This Code Would Have Become
-- 35:00 — VB vs. The Competition in 1995
-- 39:00 — What If You Were on a Mac?
-- 41:00 — Why VB Mattered (and Why It Died)
-- 43:30 — Outro
+- 31:30 — When the Cards Run Out
+- 33:30 — What This Code Would Have Become
+- 36:30 — VB vs. The Competition in 1995
+- 40:30 — What If You Were on a Mac?
+- 42:30 — Why VB Mattered (and Why It Died)
+- 45:00 — Outro
 
 ---
 
@@ -189,9 +192,9 @@ Three. If both players flip the same rank — two sevens, two kings, whatever �
 
 **[VISUAL: Animation — two equal cards appear, then three face-down cards from each player, then two more face-up cards. The pot grows.]**
 
-Four. You keep playing until one player has all 52 cards. That player wins. If a player can't put up enough cards for a war, they lose.
+Four. You keep playing until one player has all 52 cards. That player wins. If a player runs out of cards during a war, they lose.
 
-That's it. No bluffing, no bidding, no trump suits. Just flip, compare, collect. A game a five-year-old can play — and a game that maps beautifully onto about 250 lines of code.
+That's it. No bluffing, no bidding, no trump suits. Just flip, compare, collect. A game a five-year-old can play — and a game that maps beautifully onto about 280 lines of code.
 
 ---
 
@@ -357,7 +360,7 @@ End Function
 
 **[VISUAL: Animation — cards in a row. The leftmost card is removed, and all the others slide left to fill the gap.]**
 
-That shift is O(n) — every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in O(1). But we're writing 1995 VB. Nobody was thinking about algorithmic complexity when they had 26 cards in a hand. Computers were slower, but data sets were tiny. The whole game finishes in a few hundred rounds, and each round shifts at most 52 cards. A Pentium 75 could handle this without breaking a sweat.
+That shift is O(n) — every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in O(1). But we're writing 1995 VB. Nobody was thinking about algorithmic complexity when they had 26 cards in a hand. Computers were slower, but data sets were tiny. The whole game finishes in a few hundred to a couple of thousand rounds, and each round shifts at most 52 cards. A Pentium 75 could handle this without breaking a sweat.
 
 Now, look at the `Function` return syntax:
 
@@ -417,7 +420,7 @@ Loop
 
 **[VISUAL: Flowchart — "Both have cards?" → Yes → Play round → loop back. No → Determine winner.]**
 
-The `MAX_ROUNDS` check is a safety valve. War is theoretically capable of cycling forever — the same cards going back and forth in a loop. In practice, with a random shuffle, games almost always end in a few hundred rounds. But just in case, we cap it at 20,000 rounds and call it a draw. In my testing, I've never actually hit the cap.
+The `MAX_ROUNDS` check is a safety valve. War is theoretically capable of cycling forever — the same cards going back and forth in a loop. In practice, with a random shuffle, games do end — my recorded runs took anywhere from 150 to 2,008 rounds. But just in case, we cap it at 20,000 rounds and call it a draw. In my testing, I've never actually hit the cap.
 
 Notice the string concatenation operator: `&`. In C# and C++, you use `+` to glue strings together. In VB, you use `&`. The reason is that `+` in VB does different things depending on the types involved — it might add numbers or concatenate strings — and this ambiguity caused enough bugs that Microsoft recommended always using `&` for strings. It's one of those "we made it too easy and now we need a rule to prevent the easy thing from biting you" situations.
 
@@ -516,7 +519,7 @@ This is what determines the eventual outcome of the game. The order in which won
 
 ## SECTION 11: RUNNING IT — FULL SIMULATION
 
-**[VISUAL: Terminal. The program runs. Full output scrolling, but slowed down enough to read the first few rounds.]**
+**[VISUAL: Terminal. The program runs. Full output scrolling, but slowed down enough to read the first few rounds. (Capture: TERM-04 — this whole section follows that one run.)]**
 
 **NARRATION:**
 
@@ -535,46 +538,100 @@ dotnet run
 
 Cards dealt: Player 1 has 26, Player 2 has 26.
 
-Round 1: Player 1 plays 10 of Hearts, Player 2 plays King of Hearts.
-        Player 2 wins the round (2 cards).
-Round 2: Player 1 plays Ace of Hearts, Player 2 plays 3 of Diamonds.
+Round 1: Player 1 plays Ace of Clubs, Player 2 plays 10 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 2: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Hearts.
         Player 1 wins the round (2 cards).
 ```
 
 **[VISUAL: Speed up the scrolling — rounds fly by. Pause when a WAR appears:]**
 
 ```
-Round 4: Player 1 plays 4 of Spades, Player 2 plays 4 of Diamonds.
+Round 245: Player 1 plays Ace of Hearts, Player 2 plays Ace of Spades.
         ** WAR! ** (war number 1 this round)
-        War card - Player 1 plays 2 of Spades, Player 2 plays 2 of Hearts.
+        War card - Player 1 plays Queen of Diamonds, Player 2 plays Queen of Spades.
         ** WAR! ** (war number 2 this round)
-        War card - Player 1 plays 9 of Diamonds, Player 2 plays Ace of Diamonds.
-        Player 2 wins the round (18 cards).
+        War card - Player 1 plays Ace of Diamonds, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (18 cards).
 ```
 
 **[VISUAL: Highlight the "18 cards" — that's a huge haul.]**
 
-A double war — both players tied twice in a row before someone won. Eighteen cards in the pot. That's a third of the entire deck changing hands in a single round.
+A double war — Ace against Ace, then Queen against Queen, before an Ace finally beat a 2. Eighteen cards in the pot. That's a third of the entire deck changing hands in a single round.
 
 **[VISUAL: Let it run to completion. Show the final summary:]**
 
 ```
 =====================================
 PLAYER 1 WINS THE WAR!
-Total rounds played : 418
-Total wars fought    : 10
+Total rounds played : 617
+Total wars fought    : 26
 =====================================
 ```
 
-**[VISUAL: Run it a few more times, showing the different results:]**
+**[VISUAL: Run it a few more times, showing the different results: (Captures: TERM-02, TERM-05, TERM-06.)]**
 
-Every run is different because the shuffle is random. Sometimes it's over in 150 rounds. Sometimes it takes 500. The number of wars varies too — sometimes just a handful, sometimes twenty or more. But it always terminates.
+Every run is different because the shuffle is random. Sometimes it's over in 150 rounds. Sometimes it takes more than 2,000. The number of wars varies too — ten in one game, sixty-nine in another. But it always terminates.
 
 This is about 280 lines of Visual Basic. Not 280 lines of boilerplate and framework code — 280 lines that actually do something. That's the whole game. Build, shuffle, deal, play, win. Done.
 
 ---
 
-## SECTION 12: WHAT THIS CODE WOULD HAVE BECOME
+## SECTION 12: WHEN THE CARDS RUN OUT
+
+**[VISUAL: Return to the TERM-04 terminal output. Scroll back from the final summary to the last round. (Capture: TERM-04 — `TERM-04/source/stdout.txt` lines 1289–1291; screenshot `TERM-04/source/raw/04-end.png`; framed `TERM-04/exports/framed-end.png`.)]**
+
+**NARRATION:**
+
+Rewind to that first run for a moment — 617 rounds, Player 1 wins. We saw the final scoreboard, but not the final play. Here's how the game actually ended:
+
+```
+Round 617: Player 1 plays 10 of Diamonds, Player 2 plays 10 of Spades.
+        ** WAR! ** (war number 1 this round)
+Player 2 has no cards left for the war - Player 1 takes the pot.
+```
+
+Player 2 didn't just lose a round. Player 2 ran out of cards in the middle of a war.
+
+Going into round 617, Player 2 had exactly 2 cards left — against Player 1's 50. Both played a 10: tie, war. Normally each player burns three cards face-down and flips a fourth. But Player 2 only had 1 card left after playing that 10. So what does the code do?
+
+```vb
+BurnCount = Math.Min(3, Math.Min(Player1.Count, Player2.Count))
+```
+
+**[VISUAL: `Program.vb` line 264 highlighted, with annotations: "cap at 3" → "cap at the shorter hand" → "result: 1".]**
+
+It doesn't demand three. It caps the burn at however many cards the shorter hand can spare. Player 2 had 1, so both players burned 1. After the burn, Player 2's hand was empty. The loop came back to the top, hit the empty-hand check, and that was it — Player 1 took the four-card pot and the game.
+
+**[VISUAL: Step-by-step diagram, four panels:
+Panel 1: Player 2's hand — 2 cards. Player 1's hand — 50 cards.
+Panel 2: Both play a 10. 1 card left for Player 2, 49 for Player 1.
+Panel 3: Both burn 1. Zero cards left for Player 2.
+Panel 4: "Player 2 has no cards left for the war — Player 1 takes the pot."]**
+
+And it happened again, in the opposite direction, purely by chance. The longest run — 2,008 rounds:
+
+**[VISUAL: Switch to TERM-02 terminal output. (Capture: TERM-02 — `TERM-02/source/stdout.txt` lines 4157–4159; screenshot `TERM-02/source/raw/04-end.png`; framed `TERM-02/exports/framed.png`.)]**
+
+```
+Round 2008: Player 1 plays 8 of Diamonds, Player 2 plays 8 of Clubs.
+        ** WAR! ** (war number 1 this round)
+Player 1 has no cards left for the war - Player 2 takes the pot.
+```
+
+Same mechanic. Player 1 walked into round 2,008 holding 3 cards against 49. Both played an 8, leaving Player 1 with 2. Both burned 2. Player 1's hand was empty, and Player 2 took the six-card pot.
+
+**[VISUAL: Side-by-side comparison:
+TERM-04: 2 cards → play 10 → burn 1 → empty → 4-card pot
+TERM-02: 3 cards → play 8 → burn 2 → empty → 6-card pot]**
+
+This is a subtlety worth noticing. The rule isn't "you need three cards for a war or you forfeit." It's "burn what you have, and if there's nothing left to flip, you're done." A player down to two cards going into a war still gets a reduced burn — one card face-down, one card to compete with — and can still win it. They only lose if that flip ties again and the well is truly dry.
+
+Two of our four recorded runs ended exactly this way. Nobody planned it. The shuffle decided.
+
+---
+
+## SECTION 13: WHAT THIS CODE WOULD HAVE BECOME
 
 **[VISUAL: Screenshots of 90s shareware card games — Solitaire, Hearts, FreeCell. Windows 3.1 and Windows 95 versions. The classic green felt background.]**
 
@@ -604,7 +661,7 @@ This same code — the structures, the shuffle, the deck management — could be
 
 ---
 
-## SECTION 13: VB vs. THE COMPETITION IN 1995
+## SECTION 14: VB vs. THE COMPETITION IN 1995
 
 **[VISUAL: A "class photo" lineup of 1995 development tools — boxes/logos for Visual Basic 4, Visual C++ 4, Borland Delphi 1.0, PowerBuilder, Java 1.0. Maybe arranged like a bracket tournament.]**
 
@@ -634,7 +691,7 @@ So Visual Basic sat in a sweet spot: easier than C++, more established than Delp
 
 ---
 
-## SECTION 14: WHAT IF YOU WERE ON A MAC?
+## SECTION 15: WHAT IF YOU WERE ON A MAC?
 
 **[VISUAL: A mid-90s Macintosh — maybe a Performa or a PowerBook. System 7 desktop. Apple menu, Finder, the classic Mac OS look.]**
 
@@ -674,7 +731,7 @@ That's the real story of Visual Basic's dominance: not that it could do things o
 
 ---
 
-## SECTION 15: WHY VB MATTERED (AND WHY IT DIED)
+## SECTION 16: WHY VB MATTERED (AND WHY IT DIED)
 
 **[VISUAL: A timeline — VB1 through VB6 on the left, then a big gap, then VB.NET on the right. The gap is labeled "the great divide."]**
 
@@ -712,7 +769,7 @@ But the ideas it pioneered — visual form designers, event-driven programming, 
 
 ---
 
-## SECTION 16: OUTRO
+## SECTION 17: OUTRO
 
 **[VISUAL: Return to the terminal. The War simulator runs one more time, fast. Cards fly. A winner is declared.]**
 
@@ -726,13 +783,13 @@ If you want to try it yourself, the code is straightforward. Install the .NET SD
 
 It's readable. It's obvious. And it works.
 
-**[VISUAL: The final summary output one more time:]**
+**[VISUAL: The final summary output one more time: (Capture: TERM-02.)]**
 
 ```
 =====================================
-PLAYER 1 WINS THE WAR!
-Total rounds played : 347
-Total wars fought    : 13
+PLAYER 2 WINS THE WAR!
+Total rounds played : 2008
+Total wars fought    : 69
 =====================================
 ```
 
