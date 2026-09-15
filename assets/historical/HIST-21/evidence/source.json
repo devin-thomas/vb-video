@@ -1,0 +1,167 @@
+{
+  "id": "HIST-21",
+  "selected_candidate": {
+    "title": "Mac Classic II System 7-5-5",
+    "commons_file": "File:Mac_Classic_II_System_7-5-5.jpg",
+    "description_as_published": "A 4MB Macintosh Classic II running classic MacOS System 7.5.5",
+    "structured_data_caption": "An Apple Macintosh Classic II running System 7.5.5",
+    "creator": {
+      "name": "RetroEditor",
+      "kind": "Wikimedia Commons user; real-world identity not stated on the file page",
+      "profile_url": "https://commons.wikimedia.org/wiki/User:RetroEditor",
+      "source_field": "{{own}} (own work)"
+    },
+    "original_date": "2019-07-06",
+    "original_date_evidence": [
+      "Commons Information template: date=2019-07-06",
+      "Embedded EXIF DateTimeOriginal 2019:07:06 14:33:02 (Panasonic DMC-FZ8)"
+    ],
+    "publication_date": "2023-07-09T15:02:10Z",
+    "publication_date_evidence": "Commons upload log: 'Uploaded own work with UploadWizard' by RetroEditor, revision 781746898",
+    "depicted_event_date": "2019-07-06",
+    "depicted_event_note": "A modern (2019) photograph of vintage hardware running vintage software. It is NOT a period 1990s photograph. The software shown is a 1996 release; the hardware model was sold 1991-1993.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mac_Classic_II_System_7-5-5.jpg",
+    "access_date": "2026-09-15",
+    "acquisition": {
+      "method": "Anonymous HTTPS GET of the original file with curl 8.18.0. No account, login, payment, terms click-through, CAPTCHA, or gated route.",
+      "first_attempt": "HTTP 429 Too Many Requests from upload.wikimedia.org (rate limit). Retried once, spaced, with a descriptive User-Agent; HTTP 200.",
+      "bytes": 1057159,
+      "mime": "image/jpeg",
+      "sha1": "ec207d6f8d685ae19ea6ee0765dbb0e0de99b39d",
+      "sha1_matches_commons_api": true,
+      "sha256": "ff86e934dedb26354108f0a80abff503873d84b8e2b7f8486a9afa06a6e77f35",
+      "commons_file_versions": 1,
+      "stored_as": "source/original.jpg"
+    },
+    "original_dimensions": {
+      "width": 1443,
+      "height": 1575
+    },
+    "embedded_metadata": {
+      "camera": "Panasonic DMC-FZ8",
+      "exif_native_sensor_size": [3072, 2304],
+      "software": "GIMP 2.10.30",
+      "software_datetime": "2023:07:09 15:59:34",
+      "note": "The uploaded file is smaller than the camera's native frame and was saved through GIMP on upload day, so the uploader cropped and/or processed it before upload. The exact edits are not documented. No sign of on-screen compositing was observed at 1:1, but this is visual inspection, not forensic proof."
+    },
+    "version_model_evidence": [
+      {
+        "claim": "Operating system is System 7.5.5",
+        "evidence": "On-screen 'About This Macintosh' window reads 'System Software 7.5.5' and '(c) Apple Computer, Inc. 1983-1995' (legible in source/original.jpg at 1:1). The uploader's description independently states System 7.5.5."
+      },
+      {
+        "claim": "Hardware is a Macintosh Classic II",
+        "evidence": "Case badge 'Macintosh Classic II' is visible in the photograph. Apple Support 'Macintosh Classic II: Technical Specifications' (https://support.apple.com/en-us/112201) lists 7.5.5 among supported system versions. Snapshot: evidence/source-page/apple-support-112201-classic-ii-specs.html."
+      },
+      {
+        "claim": "Apple menu and Finder context",
+        "evidence": "Menu bar shows the Apple menu glyph, File, Edit, View, Label, Special (Finder menus), Help and Application menu icons; a Finder window titled 'Utilities'; the Trash on the desktop."
+      },
+      {
+        "claim": "System 7.5.5 release era",
+        "evidence": "TidBITS, 'Apple Releases System 7.5.5 Update', Geoff Duncan, published 1996-09-23 (https://tidbits.com/1996/09/23/apple-releases-system-7-5-5-update/). Snapshot: evidence/source-page/tidbits-1996-09-23-system-7-5-5.html."
+      }
+    ],
+    "transformations_to_original": "None. source/original.jpg is byte-identical to the Commons original.",
+    "derivatives": [
+      {
+        "path": "exports/editorial-frame.png",
+        "transform": "Uniform Lanczos downscale x0.685714 to 989x1080, centered pillarbox on #111318 at x=465..1454. No crop, stretch, retouch, watermark removal, text, or UI added.",
+        "record": "evidence/framing.json"
+      }
+    ],
+    "license": {
+      "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "short": "CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "legalcode_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en",
+      "declared_by": "Uploader self-license: {{self|cc-by-sa-4.0}}",
+      "covers": "The photograph as the photographer's work. It cannot license Apple's copyrighted software interface shown on the screen. See evidence/rights.json."
+    },
+    "rights_status": "unresolved: photograph is file-specifically licensed CC BY-SA 4.0; the depicted Apple System 7.5.5 Finder interface is not covered by that license and needs rights review",
+    "credit_text": "Photo: RetroEditor / Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Resized and pillarboxed. Apple, Macintosh, and Mac OS are trademarks of Apple Inc.",
+    "license_history_check": {
+      "wayback_capture": "https://web.archive.org/web/20230716193413/https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+      "result": "The 2023-07-16 capture (one week after upload) shows the same description, date 6 July 2019, source 'Own work', author RetroEditor, and CC BY-SA 4.0. No deletion or copyright-violation notice.",
+      "snapshot": "evidence/source-page/wayback-20230716193413-commons-file-page.html"
+    },
+    "uploader_consistency_check": "RetroEditor's Commons uploads include other own photographs of the same hardware family uploaded the day before, e.g. 'Inside_an_Apple_Macintosh_Classic_II.jpg' and 'Apple_Macintosh_Classic_II_Main_Board.jpg' (2023-07-08), and 'Welcome_To_Macintosh.jpg' (2023-07-09). Consistent with a genuine own-work collection; not proof of authorship.",
+    "file_usage": "Used on de.wikipedia.org article 'Mac_OS_(Apple)' (Commons globalusage, 2026-09-15)."
+  },
+  "page_snapshots": [
+    {
+      "path": "evidence/source-page/commons-file-page.html",
+      "url": "https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+      "accessed": "2026-09-15"
+    },
+    {
+      "path": "evidence/source-page/commons-file-page.wikitext",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:Mac_Classic_II_System_7-5-5.jpg&action=raw",
+      "accessed": "2026-09-15"
+    },
+    {
+      "path": "evidence/source-page/commons-imageinfo-api.json",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo|revisions&titles=File:Mac_Classic_II_System_7-5-5.jpg",
+      "accessed": "2026-09-15"
+    },
+    {
+      "path": "evidence/source-page/wayback-20230716193413-commons-file-page.html",
+      "url": "https://web.archive.org/web/20230716193413id_/https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+      "accessed": "2026-09-15"
+    },
+    {
+      "path": "evidence/source-page/apple-support-112201-classic-ii-specs.html",
+      "url": "https://support.apple.com/en-us/112201",
+      "accessed": "2026-09-15"
+    },
+    {
+      "path": "evidence/source-page/tidbits-1996-09-23-system-7-5-5.html",
+      "url": "https://tidbits.com/1996/09/23/apple-releases-system-7-5-5-update/",
+      "accessed": "2026-09-15"
+    }
+  ],
+  "candidates_considered": [
+    {
+      "rank": 2,
+      "title": "File:System_7_macintosh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:System_7_macintosh.jpg",
+      "creator": "Nikopol-h (Commons user)",
+      "license_as_tagged": "CC0 ('own work')",
+      "content": "Full-screen capture, teal desktop, Finder menu bar, About This Macintosh reading 'System Software 7.5.3 Revision 2'; disk named 'Mac OS 7.5.3'; 262,144K RAM.",
+      "deficiencies": "A direct screenshot of Apple's software: the uploader's CC0 cannot waive Apple's copyright, and Commons policy (Commons:Screenshots) bars screenshots of non-free software, so this file is at risk of deletion. The memory figure suggests an emulator, and the description has no subversion or date. Not downloaded into the asset; inspected only.",
+      "sha1_commons": "fd0c8916522fb01b1d5754346aa309f9039d8514"
+    },
+    {
+      "rank": 3,
+      "title": "File:System_7.5.5_Update_Apple_-_Macintosh.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:System_7.5.5_Update_Apple_-_Macintosh.jpg",
+      "creator": "Nikopol-h (Commons user)",
+      "license_as_tagged": "CC0 ('own work')",
+      "content": "Three System 7.5.5 Update install floppy disks.",
+      "deficiencies": "No desktop, Apple menu, or Finder, so it fails the ticket's core requirement. Useful only as supporting B-roll. Not downloaded into the asset; inspected only.",
+      "sha1_commons": "20aecd10d8ec9ef2d8b5bd969633840696e9217d"
+    },
+    {
+      "rank": null,
+      "title": "File:Mac_OS_7.6.1_emulated_inside_of_SheepShaver.png (en.wikipedia lead image for 'System 7', the plan's named lead)",
+      "url": "https://en.wikipedia.org/wiki/File:Mac_OS_7.6.1_emulated_inside_of_SheepShaver.png",
+      "license_as_tagged": "Non-free, fair use (local to English Wikipedia, not on Commons)",
+      "deficiencies": "No license; English Wikipedia's fair-use rationale does not transfer to this production. It is also Mac OS 7.6.1, a later rebrand, and a 640x480 emulator capture. Rejected; not downloaded."
+    },
+    {
+      "rank": null,
+      "title": "File:Secret_About_Box_from_System_7.0.png",
+      "url": "https://en.wikipedia.org/wiki/File:Secret_About_Box_from_System_7.0.png",
+      "license_as_tagged": "Non-free, fair use (local to English Wikipedia)",
+      "deficiencies": "Non-free; shows only a small easter-egg dialog, no desktop. Rejected; not downloaded."
+    }
+  ],
+  "search_log": [
+    "Commons full-text search '\"System 7\" Macintosh desktop screenshot' (namespace File): no relevant results.",
+    "Commons full-text search 'System 7 Finder Mac OS': only unrelated PDF scans.",
+    "English Wikipedia 'System 7' article images (the plan's named lead): two non-free local files, rejected.",
+    "Commons Category:System_7 and Category:Classic_Mac_OS_screenshots: empty or nonexistent.",
+    "Commons search 'System 7 Macintosh filetype:bitmap': surfaced the selected file and ranks 2-3; other hits were unrelated (band photos, logos, OS X)."
+  ]
+}

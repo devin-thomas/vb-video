@@ -1,0 +1,55 @@
+{
+  "id": "HIST-21",
+  "provenance_classification": "historical source (modern photograph of vintage hardware and software; third-party, openly licensed photograph)",
+  "brief_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [637, 643],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual brief and narration context (frozen source)"
+    },
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [102, 102],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "asset plan row naming the lead 'Wikipedia \"System 7\"'"
+    }
+  ],
+  "working_script_note": "In War/SCRIPT.md (working script) the same visual brief is now under 'SECTION 15: WHAT IF YOU WERE ON A MAC?' at line 696 (renumbered after a later section insert); the brief text is identical to sources/SCRIPT.md:639. The ticket's section number (14) refers to the frozen source.",
+  "media": [
+    {
+      "path": "source/original.jpg",
+      "classification": "historical original (third-party photograph, acquired unmodified)",
+      "origin": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mac_Classic_II_System_7-5-5.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+      "sha256": "ff86e934dedb26354108f0a80abff503873d84b8e2b7f8486a9afa06a6e77f35",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "classification": "derivative crop/frame (reversible pillarbox of the original)",
+      "derived_from": "source/original.jpg",
+      "record": "evidence/framing.json"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "classification": "720p review proof of exports/editorial-frame.png",
+      "derived_from": "exports/editorial-frame.png"
+    }
+  ],
+  "authored_additions": [
+    "Pillarbox background color #111318 (production-bible 'dark code background' token); a production choice, not historical.",
+    "Framing parameters (scale 0.685714, placement x=465..1454) chosen to fit the full uncropped photograph.",
+    "No text, labels, captions, annotations, or UI were added to any image."
+  ],
+  "external_evidence": [
+    "evidence/source-page/commons-file-page.html",
+    "evidence/source-page/commons-file-page.wikitext",
+    "evidence/source-page/commons-imageinfo-api.json",
+    "evidence/source-page/wayback-20230716193413-commons-file-page.html",
+    "evidence/source-page/apple-support-112201-classic-ii-specs.html",
+    "evidence/source-page/tidbits-1996-09-23-system-7-5-5.html"
+  ],
+  "producer_decisions": [],
+  "not_used": "No AI generation, recreation, retouching, or watermark removal. No other candidate file is included in the asset."
+}

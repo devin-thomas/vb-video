@@ -1,0 +1,271 @@
+{
+  "id": "HIST-21",
+  "title": "System 7 desktop",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (third-party CC BY-SA 4.0 photograph of vintage hardware and software)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / gate and claim checks",
+      "bytes": 6519,
+      "sha256": "32ed4d9b855c0b8b74771d19a384e109789ccaa59eb410e76b1af96f5499c917"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / framing transform record",
+      "bytes": 1249,
+      "sha256": "b91bce3fa35940814a7dd47d24d6b77de1dd8e6755ba218a4c0c8af2bcc26d40"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / provenance",
+      "bytes": 2787,
+      "sha256": "026eb24ebf320878fcf9450cfc48eb44bf14f80741eb6dd7f81ecbc7f5a8a4f5"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / rights record",
+      "bytes": 5638,
+      "sha256": "c7cd4be2e5d780d4502aa783279c238e7164b036ccf362d3e8a7fd33ac096478"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / source excerpts",
+      "bytes": 3036,
+      "sha256": "d6c6f1587a417c60a846860b6ff541ea452a71b49286162823e6c1db55cbbb09"
+    },
+    {
+      "path": "evidence/source-page/apple-support-112201-classic-ii-specs.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 160624,
+      "sha256": "f05d9c8c3567596482c4a94ef14960ec97722c66cf6a221271349843197b37bd"
+    },
+    {
+      "path": "evidence/source-page/commons-file-page.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 104982,
+      "sha256": "9d9cf599b6cfcbfdf9788c71cc8d506d71c0e9732a7e67ede66d3f184dfc553c"
+    },
+    {
+      "path": "evidence/source-page/commons-file-page.wikitext",
+      "role": "evidence / source page snapshot",
+      "bytes": 356,
+      "sha256": "d2ee3671c3ad7a56cd61f8c8ad5583af7e36affe0ba30f11b2fd2787ac49c688"
+    },
+    {
+      "path": "evidence/source-page/commons-imageinfo-api.json",
+      "role": "evidence / source page snapshot",
+      "bytes": 3483,
+      "sha256": "e35f64390d8d02c651ac62078b1afab811eac008075e7f58b3da38d1ad126c2a"
+    },
+    {
+      "path": "evidence/source-page/tidbits-1996-09-23-system-7-5-5.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 77493,
+      "sha256": "fc2971a7d43853e6094b9a878dc202e0a3592d48ff291bf15cc2eb468e39fb37"
+    },
+    {
+      "path": "evidence/source-page/wayback-20230716193413-commons-file-page.html",
+      "role": "evidence / source page snapshot",
+      "bytes": 70448,
+      "sha256": "b8b5f0658590aa3bfccb0aee5018346021955fe256bda503109e194a4814b1c0"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / source record",
+      "bytes": 10693,
+      "sha256": "18a4d42fd66fa7a9e4e2070d158ded2fc87cf858ec364a6f3ef8fda7d2febd84"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (reversible pillarbox of original)",
+      "bytes": 1392361,
+      "sha256": "94dbc0aafc5a8fb1fd264a48cbf9c1ef2758dbe1ad39f885c869c490a0ee19d2"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 648067,
+      "sha256": "f6676ee6fceffa754b933d5b22c108bc2775962f9237bee4283fa7fa7f4527e4"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6331,
+      "sha256": "3e20efbfda1229ce14e6e95a6f307303c10adf6efbe097ddaf7f3e2a8f60398b"
+    },
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (acquired unmodified from Wikimedia Commons)",
+      "bytes": 1057159,
+      "sha256": "ff86e934dedb26354108f0a80abff503873d84b8e2b7f8486a9afa06a6e77f35"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "editable framing source (render script)",
+      "bytes": 3083,
+      "sha256": "e359e0039dfcecaf9ccd058e541a2e1449ccefc64dd3d6288ce630b4bad643bb"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.jpg"
+      ],
+      "dimensions": {
+        "width": 1443,
+        "height": 1575
+      },
+      "timing": "still; holds for editorial timing"
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png",
+        "proofs/editorial-frame-720.png"
+      ],
+      "derived_from": "source/original.jpg",
+      "transform": "uniform downscale + centered pillarbox; no crop, no stretch, no retouch, no overlay",
+      "scale": 0.685714,
+      "placement_on_canvas": {
+        "left": 465,
+        "top": 0,
+        "right": 1454,
+        "bottom": 1080
+      },
+      "crop_box_in_source": [
+        0,
+        0,
+        1443,
+        1575
+      ],
+      "timing": "still; holds for editorial timing (no animation authored)"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        637,
+        643
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual brief and narration context"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        102,
+        102
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "asset plan row (lead: Wikipedia 'System 7')"
+    },
+    {
+      "path": "source/original.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+      "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mac_Classic_II_System_7-5-5.jpg",
+      "record": "evidence/source.json",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "record": "evidence/framing.json",
+      "relationship": "derivative crop"
+    }
+  ],
+  "credits": [
+    {
+      "type": "photograph",
+      "creator": "RetroEditor (Wikimedia Commons)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mac_Classic_II_System_7-5-5.jpg",
+      "credit": "Photo: RetroEditor / Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Resized and pillarboxed.",
+      "modifications": "Uniform resize x0.685714 and pillarbox to 1920x1080; no crop or retouching."
+    },
+    {
+      "type": "depicted third-party rights (not licensed)",
+      "credit": "Apple, Macintosh, and Mac OS are trademarks of Apple Inc. The System 7.5.5 interface is (c) Apple Computer, Inc.; not covered by the photo license. See evidence/rights.json."
+    }
+  ],
+  "tests": [
+    {
+      "test": "downloaded file SHA-1 equals Commons API sha1",
+      "result": "passed",
+      "detail": "ec207d6f8d685ae19ea6ee0765dbb0e0de99b39d"
+    },
+    {
+      "test": "Commons license unchanged since upload (Wayback 2023-07-16 capture)",
+      "result": "passed",
+      "detail": "CC BY-SA 4.0, author RetroEditor, no deletion notice"
+    },
+    {
+      "test": "version text legible in original at 1:1",
+      "result": "passed",
+      "detail": "'System Software 7.5.5' in About This Macintosh"
+    },
+    {
+      "test": "export PNG dimensions",
+      "result": "passed",
+      "exports/editorial-frame.png": [
+        1920,
+        1080
+      ],
+      "proofs/editorial-frame-720.png": [
+        1280,
+        720
+      ]
+    },
+    {
+      "test": "pillarbox placement pixel probe",
+      "result": "passed",
+      "detail": "x=0 and x=1919 are #111318; x=464/1454 background, x=465/1453 image; top 0, bottom 1080"
+    },
+    {
+      "test": "manual visual inspection at full size, 720p, and 1:1 screen crops",
+      "result": "passed",
+      "detail": "See qa.md"
+    },
+    {
+      "test": "privacy scan of text outputs for the local account name and home-directory path",
+      "result": "passed",
+      "hits": []
+    },
+    {
+      "test": "python tools/validate_delivery.py --id HIST-21",
+      "result": "see qa.md and worker report (structure only)"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "download": "curl 8.18.0 (x86_64-w64-mingw32) Schannel",
+    "render_command": "python assets/historical/HIST-21/src/render_frame.py",
+    "renderer": "Pillow LANCZOS resize + paste; PNG compress_level=9",
+    "fonts_used": "none (no text rendered)",
+    "network_used": "Wikimedia Commons API and upload host, web.archive.org, support.apple.com, tidbits.com, creativecommons.org (read-only GETs)",
+    "installs_performed": false
+  },
+  "notes": [
+    "Photograph dated 2019-07-06; not a period 1990s photograph.",
+    "Pictured software System 7.5.5 was released September 1996; the Classic II was sold 1991-1993 (Apple spec page).",
+    "The working War/SCRIPT.md carries this brief under Section 15 (line 696); the frozen source places it in Section 14.",
+    "Review questions RQ-1 to RQ-5 are in evidence/claim-checks.json."
+  ]
+}
