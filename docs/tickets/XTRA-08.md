@@ -99,3 +99,11 @@ Return this ID, concrete output paths, variant/duration information, exact prove
 
 Visual Basic didn't exist in a vacuum. In 1995, if you wanted to build a Windows application, you had choices. Let's talk about what they were and why VB won the market.
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/stills/XTRA-08/delivery.json) · [QA and remaining decisions](../../assets/stills/XTRA-08/qa.md) · [Live state](../../assets/stills/XTRA-08/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

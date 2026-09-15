@@ -1,0 +1,30 @@
+{
+  "id": "XTRA-08",
+  "title": "1995 tools class-photo lineup",
+  "requirements": [
+    "Five equal-height original text-led tiles: Visual Basic 4, Visual C++ 4, Borland Delphi 1.0, PowerBuilder, Java 1.0.",
+    "The script suggests boxes/logos but supplies none. A text-led lineup is the explicit default to avoid inventing package art or unsupported logo reuse.",
+    "Use neutral visual weighting; do not imply a winner, market share, benchmark ranking, or literal simultaneous release date.",
+    "Keep the lineup readable on one frame and transition-compatible with DIA-11."
+  ],
+  "beats": [
+    "Still: the five tiles form one coherent class photo.",
+    "Optional focused-VB overlay leaves all other names readable."
+  ],
+  "checks": [
+    "All five names match the source.",
+    "No unverified logos or recreated retail packaging.",
+    "Version/year claims are cleared before final release."
+  ],
+  "copy": "Visual Basic 4\nVisual C++ 4\nBorland Delphi 1.0\nPowerBuilder\nJava 1.0",
+  "refs": [
+    [
+      "SCRIPT.md",
+      609,
+      613
+    ]
+  ],
+  "gates": [
+    "R15"
+  ]
+}

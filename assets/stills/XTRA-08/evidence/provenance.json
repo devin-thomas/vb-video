@@ -1,0 +1,116 @@
+{
+  "id": "XTRA-08",
+  "classification": "original authored source-based illustration",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        609,
+        613
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "working_script": {
+    "path": "../../../War/SCRIPT.md",
+    "lines": [
+      666,
+      670
+    ],
+    "relationship": "same visual cue and narration as SCRIPT.md:609-613; not edited by this ticket"
+  },
+  "dependency_style_reference": {
+    "path": "../../../diagrams/DIA-11/src/scene.svg",
+    "use": "read-only reference for palette, typeface, content band and tool order; DIA-11 files were not modified"
+  },
+  "external_reference_sources": [
+    {
+      "title": "JAVASOFT SHIPS JAVA 1.0 — Programming environment available free for developers",
+      "publisher": "Sun Microsystems, Inc. (JavaSoft) press release",
+      "date": "1996-01-23",
+      "url": "https://javaalmanac.io/jdk/1.0/pressrelease.pdf",
+      "original_url_in_capture": "http://www.sun.com/smi/Press/sunflash/1996-01/sunflash.960123.10561.xml (Wayback Machine capture 2007-03-15)",
+      "index_page": "https://javaalmanac.io/jdk/1.0/",
+      "accessed": "2026-09-15",
+      "use": "Java 1.0 general release date (23 January 1996); Java announced May 1995; first alpha March 1995",
+      "note": "A reproduction at https://tech-insider.org/java/research/1996/0123.html returned HTTP 403 and was not read.",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Celebrating the 30th Anniversary of Delphi Version 1.0's Launch",
+      "publisher": "Embarcadero Technologies blog (David Intersimone, Borland/Embarcadero developer relations)",
+      "url": "https://blogs.embarcadero.com/celebrating-the-30th-anniversary-of-delphi-version-1-0s-launch/",
+      "accessed": "2026-09-15",
+      "use": "Delphi 1.0 launch 14 February 1995 at Software Development West, San Francisco; RTM 15 February 1995; product named 'Delphi'",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Delphi's 10th Birthday",
+      "publisher": "Marco Cantù (marcocantu.com)",
+      "url": "https://www.marcocantu.com/delphibirth/default.htm",
+      "accessed": "2026-09-15",
+      "use": "corroborates 14 February 1995 release at Software Development Conference 95 West and 15 February RTM",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Now a solid tool, Visual Basic's poised to become a cult classic",
+      "publisher": "Government Computer News (Route Fifty archive), Sean Gallagher",
+      "date": "1995-10-02",
+      "url": "https://www.route-fifty.com/digital-government/1995/10/now-a-solid-tool-visual-basics-poised-to-become-a-cult-classic/307730/",
+      "accessed": "2026-09-15",
+      "use": "period trade press: Visual Basic 4.0 Enterprise Edition reviewed as a shipping product with list and upgrade prices by 2 October 1995",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Microsoft Makes Learning Visual C++ Easier",
+      "publisher": "Microsoft press release (news.microsoft.com)",
+      "date": "1996-02-19",
+      "url": "https://news.microsoft.com/source/1996/02/19/microsoft-makes-learning-visual-c-easier/",
+      "accessed": "2026-09-15",
+      "use": "Visual C++ 4.0 Standard Edition scheduled for March 1996; no ship date for the other 4.0 editions",
+      "stored_in_repo": false
+    },
+    {
+      "title": "microsoft :: visual c++ :: Visual C++ 4.0 Sep95 :: Visual C++ Version 4 Volume 1 1995",
+      "publisher": "Internet Archive (bitsavers collection)",
+      "url": "https://archive.org/details/bitsavers_microsoftv95VisualCVersion4Volume11995_32904177",
+      "accessed": "2026-09-15",
+      "use": "item metadata only: Visual C++ 4 documentation catalogued as September 1995. The scan itself was not opened.",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Mastering PowerBuilder 5.0 is tough but worth the effort",
+      "publisher": "Government Computer News (Route Fifty archive), Peter D. Varhol",
+      "date": "1996-05-27",
+      "url": "https://www.route-fifty.com/digital-government/1996/05/mastering-powerbuilder-50-is-tough-but-worth-the-effort/280381/",
+      "accessed": "2026-09-15",
+      "use": "period trade press: PowerBuilder 5.0 for Windows due June 1996, so the PowerBuilder on sale during 1995 predates 5.0",
+      "stored_in_repo": false
+    },
+    {
+      "title": "Microsoft Visual Basic Enterprise Edition (Version 4.0) (Microsoft) (1995)",
+      "publisher": "Internet Archive (CD-ROM Software Library)",
+      "url": "https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+      "accessed": "2026-09-15",
+      "use": "item metadata only (catalogued 1995); weak corroboration. The ISO was not downloaded.",
+      "stored_in_repo": false
+    }
+  ],
+  "search_leads_not_treated_as_evidence": [
+    "Wikipedia/Wikibooks and derived wikis state Visual Basic 4.0 was released in August 1995 and Visual C++ 4.0 on 11 December 1995; no first-party source for either exact date was reached.",
+    "Wikipedia and PowerBuilder fan blogs place PowerBuilder 4.0 in 1994 and one states 5.0 was released in 1995; the 1996 GCN article contradicts the latter. No first-party PowerBuilder 4.0 ship date was reached.",
+    "Google Books API queries for InfoWorld/Computerworld snippets returned HTTP 429 and were not read."
+  ],
+  "method_note": "Pages were read with a web fetch tool. The Sun press release PDF was cached by the fetch tool in the session tool-results folder outside the repository. No third-party file, logo, box art or screenshot was added to the repository. No account was created and no terms were accepted.",
+  "authored_additions": [
+    "Composition: five equal tiles (316.8 x 336 px) in one row, script order, one shared 40 px Liberation Sans Bold size. Only 'Borland Delphi 1.0' wraps, to 'Borland' / 'Delphi 1.0'.",
+    "No heading, year, vendor sub-line, logo, box art, bracket, ranking, market share or date appears on screen.",
+    "Optional variant vb-focus: blue outline and accent strip on the Visual Basic 4 tile; the other tiles are unchanged.",
+    "Neutral grey accent strip (#738192) on every tile in the clean lineup."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

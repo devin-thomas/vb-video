@@ -1,12 +1,17 @@
 {
   "id": "XTRA-08",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-97, branch ticket/XTRA-08",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R15 release gate: review questions Q1-Q5 in evidence/claim-checks.json (Java 1.0 shipped January 1996; PowerBuilder version; VC++ 4.0 exact date; heading/vb-focus use; Delphi naming)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
-  ]
+    "Produced: poster, lineup and vb-focus stills with offline HTML source; validate_delivery.py passes.",
+    "Full-size and 720p manual review recorded in qa.md.",
+    "Release blocked pending R15 review questions; publication approval is separate from production."
+  ],
+  "owner": "Render Lane worker (Claude Opus 5), branch ticket/XTRA-08"
 }

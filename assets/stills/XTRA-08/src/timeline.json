@@ -1,0 +1,23 @@
+{
+  "id": "XTRA-08",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: the five tiles form one coherent class photo.",
+    "Optional focused-VB overlay leaves all other names readable."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "lineup",
+    "vb-focus"
+  ],
+  "motion_model": "Still asset: one state held for editorial timing; variants are separate stills with identical geometry, so the edit can dissolve between them."
+}
