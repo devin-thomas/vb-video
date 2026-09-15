@@ -1,0 +1,53 @@
+{
+  "id": "HIST-14",
+  "classification": "historical source (third-party licensed photograph)",
+  "source_files": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [653, 655],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "use": "narration context and visual cue"
+    },
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [97, 97],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "use": "research lead only (Wikipedia \"NeXT Computer\"); no image taken from it"
+    }
+  ],
+  "external_media": [
+    {
+      "path": "source/original.jpg",
+      "classification": "historical original (third-party photograph of a museum object)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/NEXT_Cube-IMG_7154.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:NEXT_Cube-IMG_7154.jpg",
+      "sha256": "a96d0970265fe853715b6871a8db045707f7e8a36d7c975710319a93d627530d",
+      "record": "evidence/source.json",
+      "rights": "evidence/rights.json"
+    }
+  ],
+  "derived_media": [
+    {
+      "path": "exports/editorial-frame.png",
+      "classification": "derivative framing (no crop)",
+      "derived_from": "source/original.jpg",
+      "parameters": "evidence/framing.json"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "classification": "review proof",
+      "derived_from": "exports/editorial-frame.png"
+    }
+  ],
+  "authored_additions": [
+    "The solid matte colour, sampled from the photo's own border. No text, caption, label, logo, UI or annotation is added to any image.",
+    "Framing and finishing scripts in tools/.",
+    "The proposed narration wording in review question HIST-14-Q1 is an authored suggestion, not a source fact."
+  ],
+  "external_evidence": [
+    "Wikimedia Commons file page, wikitext and API metadata (evidence/source-page.wikitext.txt, evidence/commons-imageinfo.json)",
+    "Science Museum Group Collection object 2008-5019 \"NeXT Computer\" (case material, price)",
+    "Wikipedia \"NeXT\" with its NYT 10 Feb 1993 citation; Fortune archive listing 8 Feb 1993; Low End Mac (2014) — for the 1993 hardware exit"
+  ],
+  "producer_decisions": []
+}

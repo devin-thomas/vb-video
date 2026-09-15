@@ -1,0 +1,34 @@
+{
+  "input": "assets/historical/HIST-14/source/original.jpg",
+  "input_sha256": "a96d0970265fe853715b6871a8db045707f7e8a36d7c975710319a93d627530d",
+  "input_dimensions": [
+    6000,
+    4000
+  ],
+  "exif_orientation_tag": null,
+  "output": "exports/editorial-frame.png",
+  "output_dimensions": [
+    1920,
+    1080
+  ],
+  "operation": "uniform scale to fit, centred on a solid matte; no crop, no stretch, no retouching",
+  "scale": 0.27,
+  "scaled_dimensions": [
+    1620,
+    1080
+  ],
+  "offset": [
+    150,
+    0
+  ],
+  "matte_rgb": [
+    255,
+    255,
+    255
+  ],
+  "matte_rule": "median of the four 2 px outer border strips of the original",
+  "resampling": "Pillow LANCZOS",
+  "reverse": "crop exports/editorial-frame.png to box (150,0,1770,1080) and resize by 1/scale to 6000x4000",
+  "proof_720": "proofs/editorial-frame-720.png",
+  "pillow": "12.3.0"
+}

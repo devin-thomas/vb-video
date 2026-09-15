@@ -1,0 +1,82 @@
+{
+  "title": "NEXT Cube-IMG 7154.jpg",
+  "creator": "Rama & Musée Bolo (Commons author field); photographer: Rama (Wikimedia Commons user)",
+  "source_url": "https://commons.wikimedia.org/wiki/File:NEXT_Cube-IMG_7154.jpg",
+  "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/NEXT_Cube-IMG_7154.jpg",
+  "original_date": "2014-11-14 (first upload to Wikimedia Commons by Rama; the file page gives the capture date as unknown)",
+  "capture_date": null,
+  "capture_date_note": "Not stated. The page's sponsor template reads \"Musée Bolo (2013) - Supported by Wikimedia CH\", which suggests a 2013 museum shoot, but that is not a capture date and is not recorded as one. The JPEG carries no camera EXIF (only Software = GIMP 2.8.14).",
+  "depicted_event_date": null,
+  "depicted_object_date_note": "Object manufacture date not given by the source. NeXT cube hardware was sold 1988–1993.",
+  "access_date": "2026-09-15",
+  "identity_evidence": {
+    "source_text": "Description (template User:Rama/Bolo/NeXTcube): \"NeXTcube workstation. On display at the Musée Bolo, EPFL, Lausanne.\"",
+    "categories": ["NeXTcube", "Musée Bolo", "Workstation computers with white background"],
+    "exact_model_designation": "NeXTcube",
+    "designation_limits": "The source does not say whether the unit is the 1990 NeXTcube or the 1988 NeXT Computer, which share the cube enclosure. The label is kept exactly as \"NeXTcube\". Visible in frame, and not used as identity evidence: NeXT logo badges on the cube, display and mouse; a MegaPixel-style display; a French AZERTY NeXT keyboard.",
+    "not_a_nextstation": "The pictured machine is a cube; the NeXTstation is a flat pizza-box case."
+  },
+  "original_file": "source/original.jpg",
+  "original_sha256": "a96d0970265fe853715b6871a8db045707f7e8a36d7c975710319a93d627530d",
+  "original_sha1": "5be8d8b7c95f6ae28f0e2144d170a713fac8a77b",
+  "original_sha1_matches_commons_api": true,
+  "original_bytes": 897959,
+  "original_dimensions": [6000, 4000],
+  "original_format": "JPEG, RGB, no ICC profile, no EXIF orientation tag",
+  "author_side_processing": "The published file was saved with GIMP 2.8.14 and shows the equipment on a clean white ground; the background appears to have been isolated by the photographer. This is the author's own published version, not a change made by this production.",
+  "license_name": "CC BY-SA 2.0 FR (author also offers CeCILL)",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+  "permission_evidence": "Author's own license declaration on the file page: {{self|CeCILL|Cc-by-sa-2.0-fr}} (evidence/source-page.wikitext.txt); Commons API extmetadata LicenseShortName \"CC BY-SA 2.0 fr\" (evidence/commons-imageinfo.json).",
+  "rights_status": "licensed_share_alike_review_needed",
+  "credit_text": "Photograph by Rama & Musée Bolo, Wikimedia Commons, CC BY-SA 2.0 FR (https://creativecommons.org/licenses/by-sa/2.0/fr/). Framed for video (scaled, matted; no crop).",
+  "transformations": [
+    "exports/editorial-frame.png: uniform scale to fit 1920x1080 and centred on a solid matte sampled from the photo's own border; no crop, stretch, retouching, text or UI. Exact parameters in evidence/framing.json.",
+    "proofs/editorial-frame-720.png: the editorial frame downscaled to 1280x720 for review."
+  ],
+  "search_record": {
+    "queries": [
+      "Wikimedia Commons file search \"NeXT Cube\" (namespace File, 40 results)",
+      "Wikipedia \"NeXT Computer\" article (the plan's lead; infobox image First_Web_Server.jpg)",
+      "Web search for primary evidence on the case material, price, and NeXT's 1993 hardware exit"
+    ],
+    "access_barriers_met": "Wikimedia HTTP 429 rate limits (shared IP). Handled by honouring Retry-After; no proxy, account or other workaround. nytimes.com and web.archive.org could not be fetched from this environment."
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "chosen": true,
+      "file": "File:NEXT Cube-IMG 7154.jpg",
+      "creator": "Rama & Musée Bolo",
+      "license": "CC BY-SA 2.0 FR / CeCILL",
+      "dimensions": [6000, 4000],
+      "why": "Source text names the NeXTcube; product-style photograph on white; Commons Quality Image; author-declared license with published credit wording."
+    },
+    {
+      "rank": 2,
+      "chosen": false,
+      "file": "File:NeXTcube computer (1990) - Computer History Museum.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:NeXTcube_computer_(1990)_-_Computer_History_Museum.jpg",
+      "origin": "https://www.flickr.com/photos/mulad/12043626553/ (CC BY 2.0 confirmed on Flickr, 2026-09-15; Flickr offers a public original download, 5184x3456)",
+      "creator": "Michael Hicks",
+      "license": "CC BY 2.0",
+      "dimensions": [5184, 3456],
+      "commons_sha1": "fd4240013361f9a7f0c8c85fdc0f81db8b2f141a",
+      "deficiencies": "Gallery shot, ISO 3200, busier frame shared with a MegaPixel display and another terminal (Commons also categorises it under LexisNexis UBIQ terminal). The \"(1990)\" in the file name is the uploader's, not a museum label read in the photo. Not downloaded or visually inspected at full size because the Commons original was rate-limited; kept as the no-share-alike alternative for review question HIST-14-Q2."
+    },
+    {
+      "rank": 3,
+      "chosen": false,
+      "file": "File:NeXTcube.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:NeXTcube.jpg",
+      "creator": "All About Apple museum (uploaded by GeWalt); no photographer named",
+      "license": "CC BY-SA 2.5 IT under a site-wide permission \"unless noted\" (VRT ticket 2010010310012264), also tagged GFDL/CC BY-SA 3.0",
+      "dimensions": [2657, 2667],
+      "commons_sha1": "354385980a4c303981272d086f792a1cce99326e",
+      "deficiencies": "Rights rest on a museum site-wide permission rather than a file-specific declaration; no named photographer or date; page lacks an information template. Not downloaded."
+    }
+  ],
+  "notes": [
+    "Candidate metadata for all three is in evidence/commons-imageinfo.json (Commons API response saved 2026-09-15).",
+    "The source-page wikitext of the chosen file is preserved in evidence/source-page.wikitext.txt."
+  ]
+}

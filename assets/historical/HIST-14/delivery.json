@@ -1,0 +1,225 @@
+{
+  "id": "HIST-14",
+  "title": "NeXT Cube product photograph",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "historical source (third-party licensed photograph of a museum-held NeXTcube)",
+  "shared_version": "not_applicable (archive still; no shared template used)",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 5736,
+      "sha256": "3c7616c40bfc5551b2bf01bd39fdc4b75171fe8a445f6d227883b8c3b06d5c0a"
+    },
+    {
+      "path": "evidence/commons-imageinfo.json",
+      "role": "evidence / QA",
+      "bytes": 16446,
+      "sha256": "093ddbe4e478935e8f10f7ddba285b0620e16c7a7971bb31353ff19cd0d8b9c8"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 897,
+      "sha256": "ee3ed0d4ad90ab64e9ac1b651dbf4d5cae5f5c542e1a501abbc5b855accfccae"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2222,
+      "sha256": "03e12d1abb8d380f9a7ee2edac8415bc8bc07dba116a01e12a8201c1e34cb853"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3041,
+      "sha256": "b7cf331b7feb6a30178def54287d20c31b8e9bc0427db70de2710a570ef70a83"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1779,
+      "sha256": "4eb0d5aef3136b31c98346d7b2dc8b97ced6a845eaf1de743ae2b684baeb8e5c"
+    },
+    {
+      "path": "evidence/source-page.wikitext.txt",
+      "role": "evidence / QA",
+      "bytes": 745,
+      "sha256": "5aa720f663bb40cd5571c4229bec0835bcd96620dd1163257b880de3961fc038"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6205,
+      "sha256": "137274ad034c1038cc21336396da619342db80741f6bc374314709048125cfb8"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (derived: scaled + matted, no crop)",
+      "bytes": 679871,
+      "sha256": "ec7128cbe95340bebbcffd732dcd5b46421547ac098ddc592ac1ee7aff9b49bd"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 369400,
+      "sha256": "516f774261516b7c4438de02f049e1a7f7515ae37989421c0b49e67ccb87f059"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5482,
+      "sha256": "5b86771a0e945b281c1b343a2eacb6777e953048863028ded6fa0835ba2668a6"
+    },
+    {
+      "path": "source/original.jpg",
+      "role": "historical original (native JPEG, byte-identical to the Wikimedia Commons original)",
+      "bytes": 897959,
+      "sha256": "a96d0970265fe853715b6871a8db045707f7e8a36d7c975710319a93d627530d"
+    },
+    {
+      "path": "tools/finish.py",
+      "role": "tooling (reproduction script)",
+      "bytes": 4812,
+      "sha256": "49694e9a991ce3c755d6fdea67583407b8ae2ae320ce41825c9f437dace610b1"
+    },
+    {
+      "path": "tools/frame.py",
+      "role": "tooling (reproduction script)",
+      "bytes": 2987,
+      "sha256": "b9c781e87f190df9ea5a48d3a0e48b3b8c36d852b9baa1aabfca5f88aad240b5"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.jpg"
+      ],
+      "notes": "Untouched native original, 6000x4000."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.jpg",
+      "notes": "Scale 0.270000, offset [150, 0], matte RGB [255, 255, 255]; no crop. Still: hold for editorial timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "source/original.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/NEXT_Cube-IMG_7154.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:NEXT_Cube-IMG_7154.jpg",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop (framing only, no crop)"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        653,
+        655
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        97,
+        97
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief (lead only)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "third-party photograph",
+      "credit": "Photograph by Rama & Musée Bolo, Wikimedia Commons, CC BY-SA 2.0 FR (https://creativecommons.org/licenses/by-sa/2.0/fr/). Framed for video (scaled, matted; no crop).",
+      "license": "CC BY-SA 2.0 FR (author also offers CeCILL)",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
+    }
+  ],
+  "tests": [
+    {
+      "test": "original integrity against the Commons record",
+      "result": "passed",
+      "detail": "source/original.jpg SHA-1 5be8d8b7c95f6ae28f0e2144d170a713fac8a77b equals the Commons API sha1; 897959 bytes; JPEG magic present. SHA-256 a96d0970265fe853715b6871a8db045707f7e8a36d7c975710319a93d627530d is identical for the downloaded file and the repo copy."
+    },
+    {
+      "test": "PNG dimensions (export 1920x1080, proof 1280x720)",
+      "result": "passed",
+      "exports": {
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ]
+      },
+      "proofs": {
+        "proofs/editorial-frame-720.png": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "test": "framing is uniform scale, no crop, seamless matte",
+      "result": "passed",
+      "detail": "Scale 0.27 (6000x4000 -> 1620x1080), offset (150,0). Original's outer border is RGB 255 on every channel; both 20 px seam strips in the export are min=max=255, so the matte join is invisible. Nothing from the original is removed."
+    },
+    {
+      "test": "content position against the shared safe area",
+      "result": "noted",
+      "detail": "Non-white equipment bbox (303,62)-(1609,1034). The monitor top passes y=72 by 10 px and the keyboard bottom passes y=1008 by 26 px. The safe area governs essential text; this still carries no text, so it is left unscaled to keep the photograph as large as possible. An editor wanting clearance can scale the still by ~94% in the edit."
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed source/original.jpg (6000x4000, displayed downscaled) and exports/editorial-frame.png (1920x1080). Black NeXT cube with NeXT logo badge, NeXT display, French AZERTY NeXT keyboard and mouse on white. Nothing is cut off; no watermark, caption, UI, people, or private information. Aspect ratio preserved.",
+      "one_to_one": "Viewed a 400x240 1:1 crop of the export around the cube logo, feet and mouse: logo edges and colours crisp, no ringing, halos or blocking from resampling.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png (1280x720): the cube, its grille and logo, and the display remain clearly recognisable; keyboard legends are not meant to be read and are not."
+    },
+    {
+      "test": "privacy scan of text outputs",
+      "result": "passed",
+      "detail": "Searched every file in the asset folder for the local account name, home-directory paths and the user's email address.",
+      "hits": []
+    },
+    {
+      "test": "write scope",
+      "result": "passed",
+      "detail": "git status lists changes only under assets/historical/HIST-14/; sources/ and War/SCRIPT.md untouched."
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "acquisition": "python urllib GET from upload.wikimedia.org with Retry-After backoff; SHA-1 checked against Commons API",
+    "framing": "python assets/historical/HIST-14/tools/frame.py assets/historical/HIST-14/source/original.jpg assets/historical/HIST-14",
+    "finishing": "python assets/historical/HIST-14/tools/finish.py <tests.json>",
+    "font_files_distributed": false,
+    "network_dependencies_in_outputs": false
+  },
+  "notes": [
+    "Editorial still only; no text, UI, or annotation is added to the photograph.",
+    "Review questions HIST-14-Q1..Q3 are in evidence/claim-checks.json."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/source-page.wikitext.txt"
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Worked by agent: creator, file-specific license (author-declared CC BY-SA 2.0 FR / CeCILL), access method, access date and credit are recorded. Not cleared: the share-alike scope for use in the video and the depicted-design question are legal-risk judgements, raised as review questions. No fair-use or public-domain assumption is made."
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The image shows a NeXT cube (script visual cue, sources/SCRIPT.md:655).",
+      "status": "supported",
+      "evidence": [
+        "Commons file description, written by the photographer: \"NeXTcube workstation. On display at the Musée Bolo, EPFL, Lausanne.\" (evidence/source-page.wikitext.txt, via template User:Rama/Bolo/NeXTcube).",
+        "Commons category: NeXTcube."
+      ],
+      "model_designation": "NeXTcube (as stated by the source). The source does not say whether this unit is the 1990 NeXTcube (68040) or the 1988 NeXT Computer (68030) in the same enclosure; both are cube machines, and the label \"NeXTcube\" is kept exactly as the source gives it. It is not a NeXTstation (a flat \"pizza box\"), which the photograph's cube shape also excludes.",
+      "note": "Identity comes from the source text, not from the machine's appearance."
+    },
+    {
+      "claim": "\"The iconic black magnesium case\" (sources/SCRIPT.md:655).",
+      "status": "supported",
+      "evidence": [
+        "Science Museum Group Collection, object 2008-5019 \"NeXT Computer\": the machine had \"a 1-foot (305 mm) die-cast magnesium cube-shaped case\" and was \"informally referred to as 'The Cube'\" (https://collection.sciencemuseumgroup.org.uk/objects/co8094437/next-computer-personal-computer, accessed 2026-09-15)."
+      ]
+    },
+    {
+      "claim": "\"Very expensive\" (sources/SCRIPT.md:655).",
+      "status": "supported",
+      "evidence": [
+        "Science Museum Group object 2008-5019: \"Priced around $6500 when it was released\" (accessed 2026-09-15)."
+      ]
+    },
+    {
+      "claim": "\"In 1995, NeXT was a niche company selling expensive workstations to universities and Wall Street.\" (sources/SCRIPT.md:653; War/SCRIPT.md:710)",
+      "status": "discrepancy_review_question",
+      "evidence": [
+        "Wikipedia \"NeXT\" (accessed 2026-09-15): NeXT withdrew from hardware in 1993 and was renamed NeXT Software, Inc., citing Lawrence M. Fisher, \"Next to Sell Hardware Side And Focus on Its Software\", The New York Times, 10 February 1993. The NYT page itself could not be opened from this environment, so the primary text was not read.",
+        "Fortune archive listing, 8 February 1993: \"STEVE JOBS' NEXT BIG GAMBLE\" — dek: aims to survive by turning a hardware maker into a major player in software (search-result title; the page body returned HTTP 400).",
+        "Low End Mac, Tom Hormby, \"Full Circle: A Brief History of NeXT\", 2014-04-26: the 1993 porting effort \"marked the end of NeXT's hardware line\" (secondary).",
+        "Apple press release 20 December 1996 names the company \"NeXT Software Inc\" (as cited by Wikipedia \"NeXT\"; not opened directly)."
+      ],
+      "finding": "By 1995 NeXT no longer sold workstations; it sold software (NeXTSTEP/OPENSTEP for other hardware, WebObjects). The picture (a NeXTcube, 1988–1993 hardware) is still a fair illustration of NeXT, but the narration's tense and year do not match the evidence.",
+      "action": "Not edited. Raised to the Writing Lead as a review question with a proposed wording change; War/SCRIPT.md is not mine to change for a material narration edit."
+    },
+    {
+      "claim": "Customers were \"universities and Wall Street\" (sources/SCRIPT.md:653).",
+      "status": "partially_supported",
+      "evidence": [
+        "Science Museum Group object 2008-5019: developed through \"collaboration with the Higher Education sector\".",
+        "Wikipedia \"NeXT\": NeXTSTEP gained popularity at financial institutions (First Chicago NBD, Swiss Bank Corporation, O'Connor and Company), citing EDGE: Work-Group Computing Report, 25 October 1993, p. 40 (not opened directly)."
+      ],
+      "note": "Reasonable shorthand; no correction proposed on its own."
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "HIST-14-Q1",
+      "for": "Writing Lead",
+      "question": "The narration says \"In 1995, NeXT was a niche company selling expensive workstations to universities and Wall Street.\" NeXT left the hardware business in February 1993 and by 1995 sold software. Change the line? Proposed: \"In 1995, NeXT was a niche company. It had stopped making its expensive workstations two years earlier and was selling its software to universities and Wall Street.\"",
+      "evidence": "evidence/claim-checks.json (claims[3])"
+    },
+    {
+      "id": "HIST-14-Q2",
+      "for": "Rights review",
+      "question": "The chosen photograph is CC BY-SA 2.0 FR (Rama & Musée Bolo). Accept share-alike for this shot, or swap to the CC BY 2.0 candidate (Michael Hicks, NeXTcube at the Computer History Museum; busier frame with a monitor and another terminal)?",
+      "evidence": "evidence/rights.json; evidence/source.json (candidates)"
+    },
+    {
+      "id": "HIST-14-Q3",
+      "for": "Rights review",
+      "question": "The photo's license covers the photograph. Is showing the frog-design NeXTcube enclosure, as a museum exhibit, acceptable for this video without any separate clearance?",
+      "evidence": "evidence/rights.json"
+    }
+  ]
+}
