@@ -1,0 +1,80 @@
+{
+  "id": "XTRA-13",
+  "original_plan_family": "SCRIPT-SUPPLEMENT",
+  "plan_row_note": "Script-only addition requested by the SCRIPT.md visual note. It is not a row of the original categorized asset plan and must not be labelled as one.",
+  "provenance_classification": "historical source (third-party archived screenshot)",
+  "script_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [685, 687],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration context and visual brief (collage of real-world VB applications, including simple utilities)"
+    },
+    {
+      "path": "War/SCRIPT.md",
+      "lines": [742, 744],
+      "relationship": "working script; the same paragraph and VISUAL note, word for word, at shifted line numbers. No script change is proposed."
+    }
+  ],
+  "external_sources": [
+    {
+      "file": "source/original.gif",
+      "url": "https://web.archive.org/web/20030917004917id_/http://www.karenware.com:80/powertools/images/ptwinwatch.gif",
+      "sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+      "classification": "historical original (archived web image, byte-exact)",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/wayback-20030917004917-ptwinwatch.gif.headers.txt",
+      "url": "same as above (response headers)",
+      "classification": "archive response metadata",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/wayback-20010428081441-ptwinwatch.asp.html",
+      "url": "https://web.archive.org/web/20010428081441id_/http://www.karenware.com:80/powertools/ptwinwatch.asp",
+      "sha256": "d18132dbea773756db533ecb3254aa033b1db339cc4c7114306354ecb6a15a49",
+      "classification": "period evidence page (VB6 runtime requirement, VB6 source code)",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/wayback-20031209164543-ptwinwatch.asp.html",
+      "url": "https://web.archive.org/web/20031209164543id_/http://www.karenware.com:80/powertools/ptwinwatch.asp",
+      "sha256": "1f709d91176f9d3a72bec558bd03ceb6c450a141fb474288fdabe99a10a823ef",
+      "classification": "period evidence page embedding the pictured image",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/wayback-20010706040951-newsletter-1999-09-28.html",
+      "url": "https://web.archive.org/web/20010706040951id_/http://www.karenware.com:80/newsletters/1999/1999-09-28.html",
+      "sha256": "ad10ed05cddd1bbf8553a62fdae6d2f306612d655939dc0654d31a24e1587a55",
+      "classification": "author statement (newsletter introducing the program, VB6 source code)",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/karenware-20260915-contact.html",
+      "url": "https://www.karenware.com/contact",
+      "classification": "current rights-holder and contact evidence",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/karenware-20260915-licenseme.html",
+      "url": "https://www.karenware.com/licenseme",
+      "classification": "current program license terms (software use only)",
+      "access_date": "2026-09-15"
+    },
+    {
+      "file": "evidence/captures/karenware-20260915-ptwinwatch.html",
+      "url": "https://www.karenware.com/powertools/ptwinwatch",
+      "classification": "current program page (Built with Visual Basic 6; VB runtime v6.0 required)",
+      "access_date": "2026-09-15"
+    }
+  ],
+  "authored_additions": [
+    "exports/editorial-frame.png: 2x nearest-neighbour placement on a #111318 ground (production bible dark token). No text, credit, arrow, highlight, or crop added.",
+    "src/frame.py: the framing script.",
+    "Proposed credit line in evidence/source.json and evidence/rights.json (not approved)."
+  ],
+  "not_fabricated": "No screenshot was redrawn, generated, or captured by running the program. The original bytes are the archive response body.",
+  "producer_decisions": []
+}

@@ -1,0 +1,37 @@
+{
+  "source": "source/original.gif",
+  "source_sha256_before": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+  "source_sha256_after": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+  "source_unmodified": true,
+  "source_size": [
+    489,
+    448
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "safe_area": [
+    120,
+    72,
+    1800,
+    1008
+  ],
+  "scale_factor": 2,
+  "resampling": "nearest-neighbour, whole-number factor (aspect ratio preserved)",
+  "placed_rect": [
+    471,
+    92,
+    1449,
+    988
+  ],
+  "crop": null,
+  "ground_rgb": "#111318",
+  "burned_in_text": null,
+  "reversible_pixel_check": true,
+  "proof_720": {
+    "path": "proofs/editorial-frame-720.png",
+    "resampling": "Lanczos 1920x1080 -> 1280x720"
+  },
+  "pillow": "12.3.0"
+}
