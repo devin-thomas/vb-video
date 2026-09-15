@@ -1,0 +1,191 @@
+{
+  "id": "XTRA-01",
+  "title": "Visual Basic Programmer's Journal cover",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3199,
+      "sha256": "11497243c47a25dae3abac1142f7371bce4a696f516dce7eb19960344c425938"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 703,
+      "sha256": "443827d516224755fa701e91c0cb051691661c034053eadaa3959ba9c9a41500"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3385,
+      "sha256": "1d59844a2d7dd8fe7ad714b3c9291dca416e85a021c89607b280fe537a59e1c1"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3464,
+      "sha256": "8d435f2a505c0fe2fe67bb6983d8e29a0ad734ade2d112997abfda4537befa41"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2540,
+      "sha256": "598e07dd59e9ba41ba708d26a1aa12359bab9d1c2b52ee04867f795ffe6750ec"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6452,
+      "sha256": "0f5d098279de37d07bcf5a6f8dfa8b75abbab497de5e80f9791a4332abb3d2b8"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "framed editorial still (derived from historical original, variant: editorial-frame)",
+      "bytes": 1420590,
+      "sha256": "8d0c858e7ceea4348350b5ca9951dce5fb02584d4025aff8b0a2df09d93d1ebc"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 633165,
+      "sha256": "e85da71b616820531acd88997f7f3301b6e7fe7e9e0a2419f95ad5c722ccb75a"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 7671,
+      "sha256": "3df15b632b6175090c0c1b7cb230621f3557e810c7fb65ed961fe24930a0ed1f"
+    },
+    {
+      "path": "source/original.jp2",
+      "role": "historical original (unmodified Internet Archive page image, variant: original)",
+      "bytes": 1595357,
+      "sha256": "e8f26ad7eff39d18119e1e65c68f598965de1ab136ed1a7a568e8b1e85adaa46"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "editable framing source (render script)",
+      "bytes": 2729,
+      "sha256": "932142bc21ce6cf334c5c2bdd431e761d4ac4e0c8b5914de0fa5152239594692"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.jp2"
+      ],
+      "dimensions": [
+        2362,
+        3235
+      ],
+      "timeline": null,
+      "note": "Unmodified native scan; not a 16:9 editorial export."
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "proof": "proofs/editorial-frame-720.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "timeline": null,
+      "note": "Still; holds for editorial timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        49,
+        49
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script cue"
+    },
+    {
+      "path": "source/original.jp2",
+      "url": "https://archive.org/download/visual_basic_programmers_journal-1996_03/visual_basic_programmers_journal-1996_03_jp2.zip/visual_basic_programmers_journal-1996_03_jp2%2Fvisual_basic_programmers_journal-1996_03_0000.jp2",
+      "item_page": "https://archive.org/details/visual_basic_programmers_journal-1996_03",
+      "access_date": "2026-09-15",
+      "sha256": "e8f26ad7eff39d18119e1e65c68f598965de1ab136ed1a7a568e8b1e85adaa46",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "from": "source/original.jp2",
+      "relationship": "derivative framing (uniform scale + pillarbox; no crop)",
+      "record": "evidence/framing.json"
+    }
+  ],
+  "credits": [
+    {
+      "asset": "source/original.jp2; exports/editorial-frame.png",
+      "text": "Visual Basic Programmer's Journal, March 1996 (Vol. 6, No. 3), © Fawcette Technical Publications. Scan via Internet Archive.",
+      "creator": "Fawcette Technical Publications (publisher); cover photographer/illustrator not identified",
+      "status": "proposed; rights not cleared",
+      "rights_record": "evidence/rights.json"
+    }
+  ],
+  "tests": [
+    {
+      "name": "identity verified from printed cover date line and contents page (leaves 0 and 4)",
+      "result": "passed"
+    },
+    {
+      "name": "original SHA-256 unchanged before/after render",
+      "result": "passed"
+    },
+    {
+      "name": "native dimensions match scandata.xml (2362x3235)",
+      "result": "passed"
+    },
+    {
+      "name": "aspect preserved (0.06% integer rounding), no crop, uniform background outside cover",
+      "result": "passed"
+    },
+    {
+      "name": "export 1920x1080 and proof 1280x720 dimensions",
+      "result": "passed"
+    },
+    {
+      "name": "manual visual inspection at full size (with 1:1 and 4x crops) and 720p",
+      "result": "passed; date line legible only when zoomed"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id XTRA-01",
+      "result": "run after bundling; see producer report"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "openjpeg": "2.5.4",
+    "curl": "8.18.0 (x86_64-w64-mingw32)",
+    "render_command": "python assets/historical/XTRA-01/src/render_frame.py",
+    "shared_render_pipeline_used": false
+  },
+  "notes": [
+    "Script supplement for SCRIPT.md:49 (SCRIPT-SUPPLEMENT); not an original asset-plan row.",
+    "Release blocked: copyrighted cover, no license or permission; review questions XTRA-01-Q1 (rights route) and XTRA-01-Q2 (single cover vs plural cue).",
+    "Cover creator not identified in the issue; not guessed."
+  ]
+}

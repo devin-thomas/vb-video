@@ -1,0 +1,73 @@
+{
+  "id": "XTRA-01",
+  "provenance_classification": "historical source",
+  "plan_status": "Script supplement (original_family SCRIPT-SUPPLEMENT). Not a row of the categorized ASSET_PLAN.md.",
+  "inputs": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [49, 49],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "script cue requesting the visual"
+    }
+  ],
+  "external_sources": [
+    {
+      "path": "source/original.jp2",
+      "relationship": "historical original",
+      "description": "Internet Archive per-page JP2 of the front cover (leaf 0) of Visual Basic Programmer's Journal, March 1996, Vol. 6, No. 3",
+      "url": "https://archive.org/download/visual_basic_programmers_journal-1996_03/visual_basic_programmers_journal-1996_03_jp2.zip/visual_basic_programmers_journal-1996_03_jp2%2Fvisual_basic_programmers_journal-1996_03_0000.jp2",
+      "sha256": "e8f26ad7eff39d18119e1e65c68f598965de1ab136ed1a7a568e8b1e85adaa46",
+      "access_date": "2026-09-15",
+      "record": "evidence/source.json",
+      "rights_record": "evidence/rights.json"
+    }
+  ],
+  "consulted_not_copied": [
+    "Leaf 4 (contents page) JP2 and leaf 7 masthead text of the same item: identity and credit evidence, quoted in evidence/source-excerpts.md; images not added to the package",
+    "https://archive.org/metadata/visual_basic_programmers_journal-1996_03 and _scandata.xml, _djvu.txt, _djvu.xml of the same item",
+    "https://rcpmag.com/articles/2007/01/02/1105-media-to-acquire-fawcette-technical-publications.aspx (rights-successor lead)"
+  ],
+  "derived_outputs": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative framing (uniform scale + pillarbox, no crop)",
+      "from": "source/original.jp2",
+      "script": "src/render_frame.py",
+      "geometry": "evidence/framing.json"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "relationship": "1280x720 review proof of the export",
+      "from": "exports/editorial-frame.png"
+    }
+  ],
+  "authored_additions": [
+    "Solid #111318 background (studio.py BG token) and centered placement inside the y=72..1008 safe area. No text, captions, annotations or graphics are added to the image."
+  ],
+  "candidates_considered": [
+    {
+      "identifier": "visual_basic_programmers_journal-1996_03",
+      "result": "selected: full magazine scan, cover identity printed on the page"
+    },
+    {
+      "identifier": "vbcdmarch-96",
+      "result": "not used: VBCD monthly CD (disc ISO plus phone photos of packaging), not the printed journal cover"
+    },
+    {
+      "identifier": "20230119-160048",
+      "result": "not used: VBCD January 1999 CD packaging photos, not the printed journal cover"
+    },
+    {
+      "identifier": "Visual_Basic_Programmers_Journal_VB-CD_Quarterly_Limited_Edition_1995",
+      "result": "not used: CD-ROM cover art, not a magazine cover"
+    },
+    {
+      "identifier": "officialvisualba0000unse",
+      "result": "not used: 1996 book (lending library, printdisabled), not a magazine cover"
+    }
+  ],
+  "search_log": [
+    "archive.org advancedsearch: \"visual basic programmer's journal\" (8 hits); title:(VBPJ) OR title:(\"Visual Basic Programmers Journal\") (1 hit); vbpj; fawcette; identifier:visual_basic_programmers_journal* (3 hits). Run 2026-09-15."
+  ],
+  "producer_decisions": []
+}

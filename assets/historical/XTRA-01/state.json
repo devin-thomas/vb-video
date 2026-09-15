@@ -1,12 +1,16 @@
 {
   "id": "XTRA-01",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "XTRA-01 worker (Archive Extras Manager, session vb-25)",
+  "updated_at": "2026-09-15T20:45:00Z",
+  "blockers": [
+    "R14: Copyrighted Fawcette Technical Publications cover; no license or permission recorded; current rights holder unverified (review question XTRA-01-Q1)."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Genuine VBPJ March 1996 (Vol. 6, No. 3) cover acquired unmodified from the Internet Archive; identity verified from the printed date line on the scan.",
+    "Editorial frame rendered locally (uniform scale, pillarbox, no crop or stretch); viewed at full size and 720p.",
+    "Script supplement for SCRIPT.md:49, not an original asset-plan row."
   ]
 }
