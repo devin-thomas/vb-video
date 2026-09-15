@@ -1,6 +1,6 @@
 {
   "id": "XTRA-05",
-  "command": "python -B assets/stills/XTRA-05/src/verify.py",
+  "command": "python -B assets/stills/XTRA-05/src/verify.py --id XTRA-05",
   "errors": [],
   "source": {
     "file": "assets/historical/HIST-02/source/original.png",
@@ -12,26 +12,48 @@
       600
     ]
   },
-  "placement": {
-    "rect_xywh": [
-      347,
-      90,
-      1200,
-      900
+  "labels": {
+    "authority": "War/SCRIPT.md:133",
+    "layout_labels": [
+      "Form Designer",
+      "Toolbox",
+      "Properties Window",
+      "Code Window",
+      "Project Window"
     ],
-    "scale_x": 1.5,
-    "scale_y": 1.5,
-    "aspect_error": 0.0,
-    "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
-    "crop": null,
-    "rotation_deg": 0
+    "cue_labels_now": [
+      "Form Designer",
+      "Toolbox",
+      "Properties Window",
+      "Code Window",
+      "Project Window"
+    ],
+    "cue_unchanged_since_build": true
   },
   "variants": {
     "clean-workspace": {
       "svg": "src/variant-clean-workspace.svg",
       "embedded_images": 1,
-      "embedded_png_sha256_matches_layout": true,
-      "embedded_png_equals_fresh_resample": true,
+      "declared_placements": 1,
+      "images": [
+        {
+          "role": "clean",
+          "rect_xywh": [
+            347,
+            90,
+            1200,
+            900
+          ],
+          "scale_x": 1.5,
+          "scale_y": 1.5,
+          "aspect_error": 0.0,
+          "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
+          "crop": null,
+          "rotation_deg": 0,
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_fresh_resample": true
+        }
+      ],
       "svg_text_strings": [],
       "exports": [
         {
@@ -40,19 +62,49 @@
             1920,
             1080
           ],
-          "differing_pixels_in_placed_rect": 0,
-          "pixels_checked": 1080000,
-          "mat_ring_px": 5,
-          "mat_ring_nonmatching_pixels_outside_marks": null,
-          "mat_ring_nonmatching_pixels": 0
+          "placements": [
+            {
+              "role": "clean",
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 1080000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            }
+          ],
+          "gold_audit": {
+            "gold": "#eab676",
+            "gold_pixels_total": 0,
+            "declared_core_pixels": 0,
+            "gold_pixels_outside_declared_cores": 0,
+            "declared_core_pixels_not_gold": 0,
+            "gold_pixels_on_clean_placements": 0
+          }
         }
       ]
     },
     "five-callouts": {
       "svg": "src/variant-five-callouts.svg",
       "embedded_images": 1,
-      "embedded_png_sha256_matches_layout": true,
-      "embedded_png_equals_fresh_resample": true,
+      "declared_placements": 1,
+      "images": [
+        {
+          "role": "annotated",
+          "rect_xywh": [
+            347,
+            90,
+            1200,
+            900
+          ],
+          "scale_x": 1.5,
+          "scale_y": 1.5,
+          "aspect_error": 0.0,
+          "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
+          "crop": null,
+          "rotation_deg": 0,
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_fresh_resample": true
+        }
+      ],
       "svg_text_strings": [
         "Toolbox",
         "Form",
@@ -60,7 +112,7 @@
         "Code",
         "Window",
         "Project",
-        "Explorer",
+        "Window",
         "Properties",
         "Window"
       ],
@@ -71,216 +123,519 @@
             1920,
             1080
           ],
-          "differing_pixels_in_placed_rect": 37080,
-          "pixels_checked": 1080000,
-          "mat_ring_px": 5,
-          "mat_ring_nonmatching_pixels_outside_marks": null,
-          "differing_pixels_outside_marks": 0,
-          "mark_pixels_changed_total": 37080,
-          "mark_pixels_changed_sum_over_marks": 37555,
-          "marks": [
+          "placements": [
             {
-              "target": "Toolbox",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 5800,
-              "original_pixels_overlaid": 2660,
-              "original_bbox_inclusive": [
-                4,
-                78,
-                67,
-                400
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 755,
-                "#fff8ff": 738,
-                "#7f787f": 397,
-                "#000000": 386,
-                "#dfd8df": 384
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Toolbox",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 30,
-              "original_pixels_overlaid": 16,
-              "original_bbox_inclusive": [
-                0,
-                238,
-                3,
-                241
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 16
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Form Designer",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 9215,
-              "original_pixels_overlaid": 4017,
-              "original_bbox_inclusive": [
-                76,
-                76,
-                554,
-                462
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 1571,
-                "#dfd8df": 863,
-                "#fff8ff": 859,
-                "#000000": 363,
-                "#7f787f": 361
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Form Designer",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 570,
-              "original_pixels_overlaid": 304,
-              "original_bbox_inclusive": [
-                0,
-                428,
-                75,
-                431
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 304
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Code Window",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 9420,
-              "original_pixels_overlaid": 4740,
-              "original_bbox_inclusive": [
-                196,
-                327,
-                588,
-                562
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 2240,
-                "#000000": 628,
-                "#dfd8df": 626,
-                "#7f787f": 624,
-                "#fff8ff": 622
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Code Window",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 1470,
-              "original_pixels_overlaid": 588,
-              "original_bbox_inclusive": [
-                0,
-                534,
-                195,
-                536
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 588
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Project Explorer",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 4630,
-              "original_pixels_overlaid": 2305,
-              "original_bbox_inclusive": [
-                600,
-                77,
-                797,
-                187
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 1085,
-                "#000000": 308,
-                "#dfd8df": 306,
-                "#7f787f": 304,
-                "#fff8ff": 302
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Project Explorer",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 15,
-              "original_pixels_overlaid": 8,
-              "original_bbox_inclusive": [
-                798,
-                148,
-                799,
-                151
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 8
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Properties Window",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 6350,
-              "original_pixels_overlaid": 3142,
-              "original_bbox_inclusive": [
-                599,
-                338,
-                792,
-                567
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 1462,
-                "#000000": 423,
-                "#dfd8df": 421,
-                "#7f787f": 419,
-                "#fff8ff": 417
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Properties Window",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 55,
-              "original_pixels_overlaid": 32,
-              "original_bbox_inclusive": [
-                792,
-                468,
-                799,
-                471
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 28,
-                "#000000": 4
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
+              "role": "annotated",
+              "differing_pixels_in_placed_rect": 37080,
+              "pixels_checked": 1080000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels_outside_marks": 0,
+              "differing_pixels_outside_marks": 0,
+              "mark_pixels_changed_total": 37080,
+              "mark_pixels_changed_sum_over_marks": 37555,
+              "marks": [
+                {
+                  "target": "Toolbox",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 5800,
+                  "original_pixels_overlaid": 2660,
+                  "original_bbox_inclusive": [
+                    4,
+                    78,
+                    67,
+                    400
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 755,
+                    "#fff8ff": 738,
+                    "#7f787f": 397,
+                    "#000000": 386,
+                    "#dfd8df": 384
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Toolbox",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 30,
+                  "original_pixels_overlaid": 16,
+                  "original_bbox_inclusive": [
+                    0,
+                    238,
+                    3,
+                    241
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 16
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Form Designer",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 9215,
+                  "original_pixels_overlaid": 4017,
+                  "original_bbox_inclusive": [
+                    76,
+                    76,
+                    554,
+                    462
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1571,
+                    "#dfd8df": 863,
+                    "#fff8ff": 859,
+                    "#000000": 363,
+                    "#7f787f": 361
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Form Designer",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 570,
+                  "original_pixels_overlaid": 304,
+                  "original_bbox_inclusive": [
+                    0,
+                    428,
+                    75,
+                    431
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 304
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Code Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 9420,
+                  "original_pixels_overlaid": 4740,
+                  "original_bbox_inclusive": [
+                    196,
+                    327,
+                    588,
+                    562
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 2240,
+                    "#000000": 628,
+                    "#dfd8df": 626,
+                    "#7f787f": 624,
+                    "#fff8ff": 622
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Code Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 1470,
+                  "original_pixels_overlaid": 588,
+                  "original_bbox_inclusive": [
+                    0,
+                    534,
+                    195,
+                    536
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 588
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Project Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 4630,
+                  "original_pixels_overlaid": 2305,
+                  "original_bbox_inclusive": [
+                    600,
+                    77,
+                    797,
+                    187
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1085,
+                    "#000000": 308,
+                    "#dfd8df": 306,
+                    "#7f787f": 304,
+                    "#fff8ff": 302
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Project Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 15,
+                  "original_pixels_overlaid": 8,
+                  "original_bbox_inclusive": [
+                    798,
+                    148,
+                    799,
+                    151
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 8
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Properties Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 6350,
+                  "original_pixels_overlaid": 3142,
+                  "original_bbox_inclusive": [
+                    599,
+                    338,
+                    792,
+                    567
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1462,
+                    "#000000": 423,
+                    "#dfd8df": 421,
+                    "#7f787f": 419,
+                    "#fff8ff": 417
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Properties Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 55,
+                  "original_pixels_overlaid": 32,
+                  "original_bbox_inclusive": [
+                    792,
+                    468,
+                    799,
+                    471
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 28,
+                    "#000000": 4
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                }
+              ]
             }
-          ]
+          ],
+          "gold_audit": {
+            "gold": "#eab676",
+            "gold_pixels_total": 22872,
+            "declared_core_pixels": 22872,
+            "gold_pixels_outside_declared_cores": 0,
+            "declared_core_pixels_not_gold": 0,
+            "gold_pixels_on_clean_placements": 0
+          }
+        }
+      ],
+      "labels_in_svg_equal_script_cue": true,
+      "layout_boxes": "pass: no label meets the screenshot or its frame; labels inside safe area 120-1800 x 72-1008; labels do not overlap; no mark meets a label; outlines stay on the image and do not touch each other"
+    },
+    "side-by-side": {
+      "svg": "src/variant-side-by-side.svg",
+      "embedded_images": 2,
+      "declared_placements": 2,
+      "images": [
+        {
+          "role": "clean",
+          "rect_xywh": [
+            127,
+            156,
+            800,
+            600
+          ],
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "aspect_error": 0.0,
+          "resampling": "none: native 1.0x, the HIST-02 PNG bytes embedded unchanged and drawn 1:1 (no resampling filter applies)",
+          "crop": null,
+          "rotation_deg": 0,
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_fresh_resample": true,
+          "embedded_png_is_hist02_original_bytes": true
+        },
+        {
+          "role": "annotated",
+          "rect_xywh": [
+            976,
+            156,
+            800,
+            600
+          ],
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "aspect_error": 0.0,
+          "resampling": "none: native 1.0x, the HIST-02 PNG bytes embedded unchanged and drawn 1:1 (no resampling filter applies)",
+          "crop": null,
+          "rotation_deg": 0,
+          "embedded_png_sha256_matches_layout": true,
+          "embedded_png_equals_fresh_resample": true,
+          "embedded_png_is_hist02_original_bytes": true
+        }
+      ],
+      "svg_text_strings": [
+        "Toolbox",
+        "Form Designer",
+        "Code Window",
+        "Project Window",
+        "Properties Window"
+      ],
+      "exports": [
+        {
+          "png": "exports/side-by-side.png",
+          "size": [
+            1920,
+            1080
+          ],
+          "placements": [
+            {
+              "role": "clean",
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 480000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
+            },
+            {
+              "role": "annotated",
+              "differing_pixels_in_placed_rect": 19736,
+              "pixels_checked": 480000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels_outside_marks": 0,
+              "differing_pixels_outside_marks": 0,
+              "mark_pixels_changed_total": 19736,
+              "mark_pixels_changed_sum_over_marks": 20040,
+              "marks": [
+                {
+                  "target": "Toolbox",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 3096,
+                  "original_pixels_overlaid": 3032,
+                  "original_bbox_inclusive": [
+                    4,
+                    78,
+                    67,
+                    400
+                  ],
+                  "original_colours_overlaid": {
+                    "#7f787f": 768,
+                    "#bfb8bf": 756,
+                    "#fff8ff": 738,
+                    "#000000": 386,
+                    "#dfd8df": 384
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Toolbox",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 16,
+                  "original_pixels_overlaid": 16,
+                  "original_bbox_inclusive": [
+                    0,
+                    238,
+                    3,
+                    241
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 16
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Form Designer",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 4908,
+                  "original_pixels_overlaid": 4860,
+                  "original_bbox_inclusive": [
+                    76,
+                    76,
+                    554,
+                    462
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 2418,
+                    "#dfd8df": 863,
+                    "#fff8ff": 859,
+                    "#000000": 361,
+                    "#7f787f": 359
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Form Designer",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 304,
+                  "original_pixels_overlaid": 304,
+                  "original_bbox_inclusive": [
+                    0,
+                    428,
+                    75,
+                    431
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 304
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Code Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 5032,
+                  "original_pixels_overlaid": 4968,
+                  "original_bbox_inclusive": [
+                    196,
+                    327,
+                    588,
+                    562
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 2468,
+                    "#000000": 628,
+                    "#dfd8df": 626,
+                    "#7f787f": 624,
+                    "#fff8ff": 622
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Code Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 784,
+                  "original_pixels_overlaid": 784,
+                  "original_bbox_inclusive": [
+                    0,
+                    533,
+                    195,
+                    536
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 784
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Project Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 2472,
+                  "original_pixels_overlaid": 2408,
+                  "original_bbox_inclusive": [
+                    600,
+                    77,
+                    797,
+                    187
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1188,
+                    "#000000": 308,
+                    "#dfd8df": 306,
+                    "#7f787f": 304,
+                    "#fff8ff": 302
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Project Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 8,
+                  "original_pixels_overlaid": 8,
+                  "original_bbox_inclusive": [
+                    798,
+                    148,
+                    799,
+                    151
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 8
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Properties Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 3392,
+                  "original_pixels_overlaid": 3328,
+                  "original_bbox_inclusive": [
+                    599,
+                    338,
+                    792,
+                    567
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1648,
+                    "#000000": 423,
+                    "#dfd8df": 421,
+                    "#7f787f": 419,
+                    "#fff8ff": 417
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Properties Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 28,
+                  "original_pixels_overlaid": 28,
+                  "original_bbox_inclusive": [
+                    793,
+                    468,
+                    799,
+                    471
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 28
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                }
+              ]
+            }
+          ],
+          "gold_audit": {
+            "gold": "#eab676",
+            "gold_pixels_total": 13586,
+            "declared_core_pixels": 13586,
+            "gold_pixels_outside_declared_cores": 0,
+            "declared_core_pixels_not_gold": 0,
+            "gold_pixels_on_clean_placements": 0
+          }
         },
         {
           "png": "exports/poster.png",
@@ -288,229 +643,252 @@
             1920,
             1080
           ],
-          "differing_pixels_in_placed_rect": 37080,
-          "pixels_checked": 1080000,
-          "mat_ring_px": 5,
-          "mat_ring_nonmatching_pixels_outside_marks": null,
-          "differing_pixels_outside_marks": 0,
-          "mark_pixels_changed_total": 37080,
-          "mark_pixels_changed_sum_over_marks": 37555,
-          "marks": [
+          "placements": [
             {
-              "target": "Toolbox",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 5800,
-              "original_pixels_overlaid": 2660,
-              "original_bbox_inclusive": [
-                4,
-                78,
-                67,
-                400
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 755,
-                "#fff8ff": 738,
-                "#7f787f": 397,
-                "#000000": 386,
-                "#dfd8df": 384
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
+              "role": "clean",
+              "differing_pixels_in_placed_rect": 0,
+              "pixels_checked": 480000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels": 0
             },
             {
-              "target": "Toolbox",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 30,
-              "original_pixels_overlaid": 16,
-              "original_bbox_inclusive": [
-                0,
-                238,
-                3,
-                241
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 16
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Form Designer",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 9215,
-              "original_pixels_overlaid": 4017,
-              "original_bbox_inclusive": [
-                76,
-                76,
-                554,
-                462
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 1571,
-                "#dfd8df": 863,
-                "#fff8ff": 859,
-                "#000000": 363,
-                "#7f787f": 361
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Form Designer",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 570,
-              "original_pixels_overlaid": 304,
-              "original_bbox_inclusive": [
-                0,
-                428,
-                75,
-                431
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 304
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Code Window",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 9420,
-              "original_pixels_overlaid": 4740,
-              "original_bbox_inclusive": [
-                196,
-                327,
-                588,
-                562
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 2240,
-                "#000000": 628,
-                "#dfd8df": 626,
-                "#7f787f": 624,
-                "#fff8ff": 622
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Code Window",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 1470,
-              "original_pixels_overlaid": 588,
-              "original_bbox_inclusive": [
-                0,
-                534,
-                195,
-                536
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 588
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Project Explorer",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 4630,
-              "original_pixels_overlaid": 2305,
-              "original_bbox_inclusive": [
-                600,
-                77,
-                797,
-                187
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 1085,
-                "#000000": 308,
-                "#dfd8df": 306,
-                "#7f787f": 304,
-                "#fff8ff": 302
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Project Explorer",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 15,
-              "original_pixels_overlaid": 8,
-              "original_bbox_inclusive": [
-                798,
-                148,
-                799,
-                151
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 8
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Properties Window",
-              "mark": "outline",
-              "canvas_pixels_changed_on_image": 6350,
-              "original_pixels_overlaid": 3142,
-              "original_bbox_inclusive": [
-                599,
-                338,
-                792,
-                567
-              ],
-              "original_colours_overlaid": {
-                "#bfb8bf": 1462,
-                "#000000": 423,
-                "#dfd8df": 421,
-                "#7f787f": 419,
-                "#fff8ff": 417
-              },
-              "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
-            },
-            {
-              "target": "Properties Window",
-              "mark": "leader",
-              "canvas_pixels_changed_on_image": 55,
-              "original_pixels_overlaid": 32,
-              "original_bbox_inclusive": [
-                792,
-                468,
-                799,
-                471
-              ],
-              "original_colours_overlaid": {
-                "#00787f": 28,
-                "#000000": 4
-              },
-              "rule": "leader: only desktop teal or the target window itself",
-              "pixels_breaking_rule": 0,
-              "core_and_casing_colours_present": true
+              "role": "annotated",
+              "differing_pixels_in_placed_rect": 19736,
+              "pixels_checked": 480000,
+              "mat_ring_px": 5,
+              "mat_ring_nonmatching_pixels_outside_marks": 0,
+              "differing_pixels_outside_marks": 0,
+              "mark_pixels_changed_total": 19736,
+              "mark_pixels_changed_sum_over_marks": 20040,
+              "marks": [
+                {
+                  "target": "Toolbox",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 3096,
+                  "original_pixels_overlaid": 3032,
+                  "original_bbox_inclusive": [
+                    4,
+                    78,
+                    67,
+                    400
+                  ],
+                  "original_colours_overlaid": {
+                    "#7f787f": 768,
+                    "#bfb8bf": 756,
+                    "#fff8ff": 738,
+                    "#000000": 386,
+                    "#dfd8df": 384
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Toolbox",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 16,
+                  "original_pixels_overlaid": 16,
+                  "original_bbox_inclusive": [
+                    0,
+                    238,
+                    3,
+                    241
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 16
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Form Designer",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 4908,
+                  "original_pixels_overlaid": 4860,
+                  "original_bbox_inclusive": [
+                    76,
+                    76,
+                    554,
+                    462
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 2418,
+                    "#dfd8df": 863,
+                    "#fff8ff": 859,
+                    "#000000": 361,
+                    "#7f787f": 359
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Form Designer",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 304,
+                  "original_pixels_overlaid": 304,
+                  "original_bbox_inclusive": [
+                    0,
+                    428,
+                    75,
+                    431
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 304
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Code Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 5032,
+                  "original_pixels_overlaid": 4968,
+                  "original_bbox_inclusive": [
+                    196,
+                    327,
+                    588,
+                    562
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 2468,
+                    "#000000": 628,
+                    "#dfd8df": 626,
+                    "#7f787f": 624,
+                    "#fff8ff": 622
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Code Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 784,
+                  "original_pixels_overlaid": 784,
+                  "original_bbox_inclusive": [
+                    0,
+                    533,
+                    195,
+                    536
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 784
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Project Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 2472,
+                  "original_pixels_overlaid": 2408,
+                  "original_bbox_inclusive": [
+                    600,
+                    77,
+                    797,
+                    187
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1188,
+                    "#000000": 308,
+                    "#dfd8df": 306,
+                    "#7f787f": 304,
+                    "#fff8ff": 302
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Project Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 8,
+                  "original_pixels_overlaid": 8,
+                  "original_bbox_inclusive": [
+                    798,
+                    148,
+                    799,
+                    151
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 8
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Properties Window",
+                  "mark": "outline",
+                  "canvas_pixels_changed_on_image": 3392,
+                  "original_pixels_overlaid": 3328,
+                  "original_bbox_inclusive": [
+                    599,
+                    338,
+                    792,
+                    567
+                  ],
+                  "original_colours_overlaid": {
+                    "#bfb8bf": 1648,
+                    "#000000": 423,
+                    "#dfd8df": 421,
+                    "#7f787f": 419,
+                    "#fff8ff": 417
+                  },
+                  "rule": "outline: only the target window outer frame band (< 4 original px from its edge)",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                },
+                {
+                  "target": "Properties Window",
+                  "mark": "leader",
+                  "canvas_pixels_changed_on_image": 28,
+                  "original_pixels_overlaid": 28,
+                  "original_bbox_inclusive": [
+                    793,
+                    468,
+                    799,
+                    471
+                  ],
+                  "original_colours_overlaid": {
+                    "#00787f": 28
+                  },
+                  "rule": "leader: only desktop teal or the target window itself",
+                  "pixels_breaking_rule": 0,
+                  "core_and_casing_colours_present": true
+                }
+              ]
             }
-          ]
+          ],
+          "gold_audit": {
+            "gold": "#eab676",
+            "gold_pixels_total": 13586,
+            "declared_core_pixels": 13586,
+            "gold_pixels_outside_declared_cores": 0,
+            "declared_core_pixels_not_gold": 0,
+            "gold_pixels_on_clean_placements": 0
+          }
         }
       ],
-      "labels_in_svg_equal_ticket_copy": true,
-      "layout_boxes": "pass: no label meets the screenshot or its frame; labels inside safe area 120-1800 x 72-1008; labels do not overlap; no mark meets a label; outlines stay on the image and do not touch each other"
+      "labels_in_svg_equal_script_cue": true,
+      "layout_boxes": "pass: clean and annotated frames do not overlap (gap 35 px) and sit inside the safe area; no label meets either screenshot or frame; labels inside 120-1800 x 72-1008 and not overlapping; no mark meets the clean screenshot or its frame, a label, or another target's mark; outlines stay on the annotated screenshot"
     }
   },
-  "poster_equals_five_callouts_bytes": true,
+  "poster": "side-by-side",
+  "poster_equals_variant_bytes": true,
   "proofs_written": [
     "proofs/clean-workspace-720.png",
     "proofs/five-callouts-1to1-left.png",
     "proofs/five-callouts-1to1-right.png",
     "proofs/five-callouts-720.png",
-    "proofs/poster-720.png"
+    "proofs/poster-720.png",
+    "proofs/side-by-side-1to1-left.png",
+    "proofs/side-by-side-1to1-right.png",
+    "proofs/side-by-side-720.png"
   ],
   "ok": true
 }

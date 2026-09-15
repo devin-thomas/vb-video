@@ -23,6 +23,41 @@
       600
     ]
   },
+  "labels": {
+    "authority": "War/SCRIPT.md VISUAL cue (working script, the narrative authority)",
+    "path": "War/SCRIPT.md",
+    "line": 133,
+    "cue_text": "**[VISUAL: Side-by-side — the VB4 IDE with labeled callouts: Form Designer, Toolbox, Properties Window, Code Window, Project Window.]**",
+    "script_sha256_at_build": "874e019d002739bb61389329e04cbfc6202d7461782fb947436d90eb1ce2d32c",
+    "labels_in_cue_order": [
+      "Form Designer",
+      "Toolbox",
+      "Properties Window",
+      "Code Window",
+      "Project Window"
+    ],
+    "by_panel": {
+      "form": "Form Designer",
+      "toolbox": "Toolbox",
+      "properties": "Properties Window",
+      "code": "Code Window",
+      "project": "Project Window"
+    },
+    "parse_rule": "the single line containing \"VB4 IDE with labeled callouts\"; the comma-separated list after \"labeled callouts:\"; exactly five; each must contain its panel word (form, toolbox, propert, code, project) in cue order",
+    "ticket_copy": [
+      "Form Designer",
+      "Toolbox",
+      "Properties Window",
+      "Code Window",
+      "Project Explorer"
+    ],
+    "differs_from_ticket_copy": [
+      [
+        "Project Explorer",
+        "Project Window"
+      ]
+    ]
+  },
   "placement": {
     "x": 347,
     "y": 90,
@@ -47,6 +82,65 @@
       "five-callouts"
     ]
   },
+  "side_by_side": {
+    "scale": 1.0,
+    "resampling": "none: native 1.0x, the HIST-02 PNG bytes embedded unchanged and drawn 1:1 (no resampling filter applies)",
+    "embedded_png_sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+    "clean": {
+      "x": 127,
+      "y": 156,
+      "w": 800,
+      "h": 600,
+      "img_box": [
+        127,
+        156,
+        927,
+        756
+      ],
+      "frame_box": [
+        120,
+        149,
+        934,
+        763
+      ]
+    },
+    "annotated": {
+      "x": 976,
+      "y": 156,
+      "w": 800,
+      "h": 600,
+      "img_box": [
+        976,
+        156,
+        1776,
+        756
+      ],
+      "frame_box": [
+        969,
+        149,
+        1783,
+        763
+      ]
+    },
+    "gap_between_frames_px": 35,
+    "spare_px": 0,
+    "rails": {
+      "left_inner_to_outer": [
+        "code",
+        "form",
+        "toolbox"
+      ],
+      "right_inner_to_outer": [
+        "properties",
+        "project"
+      ]
+    },
+    "width_used": [
+      120,
+      1800
+    ],
+    "why_1x": "Two whole 800 px screenshots plus frames, gutters and rails fill the 1680 px safe width at exactly 1.0x; no larger scale fits both, and 1.0x needs no resampling, so every pixel of the pixel fonts is the original."
+  },
   "frame": {
     "mat_px": 6,
     "stroke_px": 2,
@@ -64,7 +158,17 @@
       "ascent": 37,
       "descent": 9
     },
-    "line_breaks": "multi-word labels are stacked one word per line; the words, spelling and capitalisation are the ticket copy"
+    "line_breaks": "five-callouts: multi-word labels are stacked one word per line; the words, spelling and capitalisation are the War/SCRIPT.md cue"
+  },
+  "label_style_side_by_side": {
+    "font": "Liberation Sans Bold",
+    "size_px": 40,
+    "fill": "#f1f3f5",
+    "metrics": {
+      "ascent": 37,
+      "descent": 9
+    },
+    "placement": "one line each in a strip below the annotated screenshot; left-group labels start 24 px inside its left edge, right-group labels end 24 px inside its right edge; row pitch 54 px"
   },
   "mark_style": {
     "thickness_px": 5,
@@ -75,9 +179,20 @@
     "outline_position": "inside each target window outer boundary, so the outline covers only that window's outer frame bevel (about 3.3 original px)",
     "leader_position": "horizontal, on an original row that is desktop teal between the image edge and the target"
   },
+  "mark_style_side_by_side": {
+    "thickness_px": 4,
+    "core": "#eab676",
+    "core_px": 2,
+    "casing": "#111318",
+    "casing_px": 1,
+    "outline_position": "inside each target window outer boundary: 4 original px, the Win95 outer frame band",
+    "leader_position": "exit: horizontal over desktop teal rows (leader_y-2 .. leader_y+1) from the target to the image edge; rail: vertical in the dark gutter outside the image; run: horizontal below the screenshot to the label",
+    "rail_offset_px": 10,
+    "rail_pitch_px": 10,
+    "occlusion_gap_px": 5
+  },
   "targets": [
     {
-      "label": "Toolbox",
       "panel": "Toolbox window (untitled tool window, vertical strip of control icons)",
       "rect": [
         4,
@@ -88,6 +203,8 @@
       "side": "left",
       "leader_y": 240,
       "shape": "closed outline",
+      "key": "toolbox",
+      "label": "Toolbox",
       "canvas_box": [
         353,
         207,
@@ -194,7 +311,6 @@
       ]
     },
     {
-      "label": "Form Designer",
       "panel": "Form window 'LoanSheet' in design mode (grid dots, controls); lower right covered by the Code window",
       "rect": [
         76,
@@ -205,6 +321,8 @@
       "side": "left",
       "leader_y": 430,
       "shape": "open outline along the visible edges, stopping short of the Code Window outline",
+      "key": "form",
+      "label": "Form Designer",
       "canvas_box": [
         461,
         204,
@@ -325,7 +443,6 @@
       ]
     },
     {
-      "label": "Code Window",
       "panel": "Code window 'LoanSheet' (Object: grdPayments, Proc: Click)",
       "rect": [
         196,
@@ -336,6 +453,8 @@
       "side": "left",
       "leader_y": 535,
       "shape": "closed outline",
+      "key": "code",
+      "label": "Code Window",
       "canvas_box": [
         641,
         581,
@@ -456,7 +575,6 @@
       ]
     },
     {
-      "label": "Project Explorer",
       "panel": "Project window titled 'Loan' (View Form / View Code, LOAN.FRM LoanSheet)",
       "rect": [
         600,
@@ -467,6 +585,8 @@
       "side": "right",
       "leader_y": 150,
       "shape": "closed outline",
+      "key": "project",
+      "label": "Project Window",
       "canvas_box": [
         1247,
         206,
@@ -493,7 +613,7 @@
           ]
         },
         {
-          "text": "Explorer",
+          "text": "Window",
           "x": 1603,
           "anchor": "start",
           "baseline": 352.5,
@@ -502,14 +622,14 @@
           "box": [
             1603,
             315.5,
-            1765.0,
+            1755.0,
             361.5
           ]
         }
       ],
       "marks": [
         {
-          "target": "Project Explorer",
+          "target": "Project Window",
           "type": "outline",
           "casing_rects": [
             [
@@ -565,7 +685,7 @@
           ]
         },
         {
-          "target": "Project Explorer",
+          "target": "Project Window",
           "type": "leader",
           "casing_rects": [
             [
@@ -587,7 +707,6 @@
       ]
     },
     {
-      "label": "Properties Window",
       "panel": "Properties window 'Properties - LoanSheet' (grdPayments Grid)",
       "rect": [
         599,
@@ -598,6 +717,8 @@
       "side": "right",
       "leader_y": 470,
       "shape": "closed outline",
+      "key": "properties",
+      "label": "Properties Window",
       "canvas_box": [
         1246,
         597,
@@ -712,6 +833,793 @@
               794,
               1588,
               797
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "targets_side_by_side": [
+    {
+      "panel": "Toolbox window (untitled tool window, vertical strip of control icons)",
+      "rect": [
+        4,
+        78,
+        67,
+        400
+      ],
+      "side": "left",
+      "leader_y": 240,
+      "shape": "closed outline",
+      "key": "toolbox",
+      "label": "Toolbox",
+      "canvas_box": [
+        980,
+        234,
+        1044,
+        557
+      ],
+      "leader_row_canvas": [
+        394,
+        398
+      ],
+      "rail_index": 2,
+      "label_row": 2,
+      "rail_x": [
+        942,
+        946
+      ],
+      "label_row_canvas": [
+        906,
+        910
+      ],
+      "texts": [
+        {
+          "text": "Toolbox",
+          "x": 1000,
+          "anchor": "start",
+          "baseline": 922.0,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1000,
+            885.0,
+            1152.95,
+            931.0
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Toolbox",
+          "type": "outline",
+          "casing_rects": [
+            [
+              980,
+              234,
+              1044,
+              238
+            ],
+            [
+              980,
+              553,
+              1044,
+              557
+            ],
+            [
+              980,
+              234,
+              984,
+              557
+            ],
+            [
+              1040,
+              234,
+              1044,
+              557
+            ]
+          ],
+          "core_rects": [
+            [
+              981,
+              235,
+              1043,
+              237
+            ],
+            [
+              981,
+              554,
+              1043,
+              556
+            ],
+            [
+              981,
+              235,
+              983,
+              556
+            ],
+            [
+              1041,
+              235,
+              1043,
+              556
+            ]
+          ]
+        },
+        {
+          "target": "Toolbox",
+          "type": "leader",
+          "parts": [
+            "exit",
+            "rail",
+            "run"
+          ],
+          "casing_rects": [
+            [
+              942,
+              394,
+              980,
+              398
+            ],
+            [
+              942,
+              394,
+              946,
+              910
+            ],
+            [
+              942,
+              906,
+              986,
+              910
+            ]
+          ],
+          "core_rects": [
+            [
+              943,
+              395,
+              981,
+              397
+            ],
+            [
+              943,
+              395,
+              945,
+              909
+            ],
+            [
+              943,
+              907,
+              985,
+              909
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "Form window 'LoanSheet' in design mode (grid dots, controls); lower right covered by the Code window",
+      "rect": [
+        76,
+        76,
+        554,
+        462
+      ],
+      "side": "left",
+      "leader_y": 430,
+      "shape": "open outline along the visible edges, stopping short of the Code Window outline",
+      "key": "form",
+      "label": "Form Designer",
+      "canvas_box": [
+        1052,
+        232,
+        1531,
+        619
+      ],
+      "leader_row_canvas": [
+        584,
+        588
+      ],
+      "rail_index": 1,
+      "label_row": 1,
+      "rail_x": [
+        952,
+        956
+      ],
+      "label_row_canvas": [
+        852,
+        856
+      ],
+      "texts": [
+        {
+          "text": "Form Designer",
+          "x": 1000,
+          "anchor": "start",
+          "baseline": 868.0,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1000,
+            831.0,
+            1281.0,
+            877.0
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Form Designer",
+          "type": "outline",
+          "casing_rects": [
+            [
+              1052,
+              232,
+              1531,
+              236
+            ],
+            [
+              1052,
+              232,
+              1056,
+              619
+            ],
+            [
+              1527,
+              232,
+              1531,
+              478
+            ],
+            [
+              1052,
+              615,
+              1167,
+              619
+            ]
+          ],
+          "core_rects": [
+            [
+              1053,
+              233,
+              1530,
+              235
+            ],
+            [
+              1053,
+              233,
+              1055,
+              618
+            ],
+            [
+              1528,
+              233,
+              1530,
+              477
+            ],
+            [
+              1053,
+              616,
+              1166,
+              618
+            ]
+          ]
+        },
+        {
+          "target": "Form Designer",
+          "type": "leader",
+          "parts": [
+            "exit",
+            "rail",
+            "run"
+          ],
+          "casing_rects": [
+            [
+              952,
+              584,
+              1052,
+              588
+            ],
+            [
+              952,
+              584,
+              956,
+              856
+            ],
+            [
+              952,
+              852,
+              986,
+              856
+            ]
+          ],
+          "core_rects": [
+            [
+              953,
+              585,
+              1053,
+              587
+            ],
+            [
+              953,
+              585,
+              955,
+              855
+            ],
+            [
+              953,
+              853,
+              985,
+              855
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "Code window 'LoanSheet' (Object: grdPayments, Proc: Click)",
+      "rect": [
+        196,
+        327,
+        588,
+        562
+      ],
+      "side": "left",
+      "leader_y": 535,
+      "shape": "closed outline",
+      "key": "code",
+      "label": "Code Window",
+      "canvas_box": [
+        1172,
+        483,
+        1565,
+        719
+      ],
+      "leader_row_canvas": [
+        689,
+        693
+      ],
+      "rail_index": 0,
+      "label_row": 0,
+      "rail_x": [
+        962,
+        966
+      ],
+      "label_row_canvas": [
+        798,
+        802
+      ],
+      "texts": [
+        {
+          "text": "Code Window",
+          "x": 1000,
+          "anchor": "start",
+          "baseline": 814.0,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1000,
+            777.0,
+            1262.0,
+            823.0
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Code Window",
+          "type": "outline",
+          "casing_rects": [
+            [
+              1172,
+              483,
+              1565,
+              487
+            ],
+            [
+              1172,
+              715,
+              1565,
+              719
+            ],
+            [
+              1172,
+              483,
+              1176,
+              719
+            ],
+            [
+              1561,
+              483,
+              1565,
+              719
+            ]
+          ],
+          "core_rects": [
+            [
+              1173,
+              484,
+              1564,
+              486
+            ],
+            [
+              1173,
+              716,
+              1564,
+              718
+            ],
+            [
+              1173,
+              484,
+              1175,
+              718
+            ],
+            [
+              1562,
+              484,
+              1564,
+              718
+            ]
+          ]
+        },
+        {
+          "target": "Code Window",
+          "type": "leader",
+          "parts": [
+            "exit",
+            "rail",
+            "run"
+          ],
+          "casing_rects": [
+            [
+              962,
+              689,
+              1172,
+              693
+            ],
+            [
+              962,
+              689,
+              966,
+              802
+            ],
+            [
+              962,
+              798,
+              986,
+              802
+            ]
+          ],
+          "core_rects": [
+            [
+              963,
+              690,
+              1173,
+              692
+            ],
+            [
+              963,
+              690,
+              965,
+              801
+            ],
+            [
+              963,
+              799,
+              985,
+              801
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "Project window titled 'Loan' (View Form / View Code, LOAN.FRM LoanSheet)",
+      "rect": [
+        600,
+        77,
+        797,
+        187
+      ],
+      "side": "right",
+      "leader_y": 150,
+      "shape": "closed outline",
+      "key": "project",
+      "label": "Project Window",
+      "canvas_box": [
+        1576,
+        233,
+        1774,
+        344
+      ],
+      "leader_row_canvas": [
+        304,
+        308
+      ],
+      "rail_index": 1,
+      "label_row": 1,
+      "rail_x": [
+        1796,
+        1800
+      ],
+      "label_row_canvas": [
+        852,
+        856
+      ],
+      "texts": [
+        {
+          "text": "Project Window",
+          "x": 1752,
+          "anchor": "end",
+          "baseline": 868.0,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1454.0,
+            831.0,
+            1752.0,
+            877.0
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Project Window",
+          "type": "outline",
+          "casing_rects": [
+            [
+              1576,
+              233,
+              1774,
+              237
+            ],
+            [
+              1576,
+              340,
+              1774,
+              344
+            ],
+            [
+              1576,
+              233,
+              1580,
+              344
+            ],
+            [
+              1770,
+              233,
+              1774,
+              344
+            ]
+          ],
+          "core_rects": [
+            [
+              1577,
+              234,
+              1773,
+              236
+            ],
+            [
+              1577,
+              341,
+              1773,
+              343
+            ],
+            [
+              1577,
+              234,
+              1579,
+              343
+            ],
+            [
+              1771,
+              234,
+              1773,
+              343
+            ]
+          ]
+        },
+        {
+          "target": "Project Window",
+          "type": "leader",
+          "parts": [
+            "exit",
+            "rail",
+            "run"
+          ],
+          "casing_rects": [
+            [
+              1774,
+              304,
+              1800,
+              308
+            ],
+            [
+              1796,
+              304,
+              1800,
+              856
+            ],
+            [
+              1766,
+              852,
+              1800,
+              856
+            ]
+          ],
+          "core_rects": [
+            [
+              1773,
+              305,
+              1799,
+              307
+            ],
+            [
+              1797,
+              305,
+              1799,
+              855
+            ],
+            [
+              1767,
+              853,
+              1799,
+              855
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "Properties window 'Properties - LoanSheet' (grdPayments Grid)",
+      "rect": [
+        599,
+        338,
+        792,
+        567
+      ],
+      "side": "right",
+      "leader_y": 470,
+      "shape": "closed outline",
+      "key": "properties",
+      "label": "Properties Window",
+      "canvas_box": [
+        1575,
+        494,
+        1769,
+        724
+      ],
+      "leader_row_canvas": [
+        624,
+        628
+      ],
+      "rail_index": 0,
+      "label_row": 0,
+      "rail_x": [
+        1786,
+        1790
+      ],
+      "label_row_canvas": [
+        798,
+        802
+      ],
+      "texts": [
+        {
+          "text": "Properties Window",
+          "x": 1752,
+          "anchor": "end",
+          "baseline": 814.0,
+          "size": 40,
+          "bold": true,
+          "box": [
+            1392.0,
+            777.0,
+            1752.0,
+            823.0
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "target": "Properties Window",
+          "type": "outline",
+          "casing_rects": [
+            [
+              1575,
+              494,
+              1769,
+              498
+            ],
+            [
+              1575,
+              720,
+              1769,
+              724
+            ],
+            [
+              1575,
+              494,
+              1579,
+              724
+            ],
+            [
+              1765,
+              494,
+              1769,
+              724
+            ]
+          ],
+          "core_rects": [
+            [
+              1576,
+              495,
+              1768,
+              497
+            ],
+            [
+              1576,
+              721,
+              1768,
+              723
+            ],
+            [
+              1576,
+              495,
+              1578,
+              723
+            ],
+            [
+              1766,
+              495,
+              1768,
+              723
+            ]
+          ]
+        },
+        {
+          "target": "Properties Window",
+          "type": "leader",
+          "parts": [
+            "exit",
+            "rail",
+            "run"
+          ],
+          "casing_rects": [
+            [
+              1769,
+              624,
+              1790,
+              628
+            ],
+            [
+              1786,
+              624,
+              1790,
+              802
+            ],
+            [
+              1766,
+              798,
+              1790,
+              802
+            ]
+          ],
+          "core_rects": [
+            [
+              1768,
+              625,
+              1789,
+              627
+            ],
+            [
+              1787,
+              625,
+              1789,
+              801
+            ],
+            [
+              1767,
+              799,
+              1789,
+              801
             ]
           ]
         }
@@ -1801,7 +2709,7 @@
     {
       "n": 31,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "casing",
       "shape": "filled rectangle",
@@ -1838,7 +2746,7 @@
     {
       "n": 32,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "casing",
       "shape": "filled rectangle",
@@ -1875,7 +2783,7 @@
     {
       "n": 33,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "casing",
       "shape": "filled rectangle",
@@ -1912,7 +2820,7 @@
     {
       "n": 34,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "casing",
       "shape": "filled rectangle",
@@ -1949,7 +2857,7 @@
     {
       "n": 35,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "core",
       "shape": "filled rectangle",
@@ -1986,7 +2894,7 @@
     {
       "n": 36,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "core",
       "shape": "filled rectangle",
@@ -2023,7 +2931,7 @@
     {
       "n": 37,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "core",
       "shape": "filled rectangle",
@@ -2060,7 +2968,7 @@
     {
       "n": 38,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "outline",
       "layer": "core",
       "shape": "filled rectangle",
@@ -2096,7 +3004,7 @@
     {
       "n": 39,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "leader",
       "layer": "casing",
       "shape": "filled rectangle",
@@ -2129,7 +3037,7 @@
     {
       "n": 40,
       "variant": "five-callouts",
-      "target": "Project Explorer",
+      "target": "Project Window",
       "mark": "leader",
       "layer": "core",
       "shape": "filled rectangle",
@@ -2521,26 +3429,2280 @@
           "#000000": 3
         }
       }
+    },
+    {
+      "n": 51,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        980,
+        234,
+        1044,
+        238
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          980,
+          234,
+          1044,
+          238
+        ],
+        "original_px_inclusive": [
+          4,
+          78,
+          67,
+          81
+        ],
+        "original_px_count": 256,
+        "original_colours": {
+          "#dfd8df": 66,
+          "#fff8ff": 63,
+          "#bfb8bf": 62,
+          "#7f787f": 61,
+          "#000000": 4
+        }
+      }
+    },
+    {
+      "n": 52,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        980,
+        553,
+        1044,
+        557
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          980,
+          553,
+          1044,
+          557
+        ],
+        "original_px_inclusive": [
+          4,
+          397,
+          67,
+          400
+        ],
+        "original_px_count": 256,
+        "original_colours": {
+          "#000000": 67,
+          "#7f787f": 64,
+          "#bfb8bf": 62,
+          "#fff8ff": 60,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 53,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        980,
+        234,
+        984,
+        557
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          980,
+          234,
+          984,
+          557
+        ],
+        "original_px_inclusive": [
+          4,
+          78,
+          7,
+          400
+        ],
+        "original_px_count": 1292,
+        "original_colours": {
+          "#dfd8df": 325,
+          "#fff8ff": 323,
+          "#bfb8bf": 322,
+          "#7f787f": 318,
+          "#000000": 4
+        }
+      }
+    },
+    {
+      "n": 54,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1040,
+        234,
+        1044,
+        557
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1040,
+          234,
+          1044,
+          557
+        ],
+        "original_px_inclusive": [
+          64,
+          78,
+          67,
+          400
+        ],
+        "original_px_count": 1292,
+        "original_colours": {
+          "#7f787f": 338,
+          "#000000": 326,
+          "#bfb8bf": 322,
+          "#fff8ff": 303,
+          "#dfd8df": 3
+        }
+      }
+    },
+    {
+      "n": 55,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        981,
+        235,
+        1043,
+        237
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          981,
+          235,
+          1043,
+          237
+        ],
+        "original_px_inclusive": [
+          5,
+          79,
+          66,
+          80
+        ],
+        "original_px_count": 124,
+        "original_colours": {
+          "#fff8ff": 62,
+          "#bfb8bf": 60,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 56,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        981,
+        554,
+        1043,
+        556
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          981,
+          554,
+          1043,
+          556
+        ],
+        "original_px_inclusive": [
+          5,
+          398,
+          66,
+          399
+        ],
+        "original_px_count": 124,
+        "original_colours": {
+          "#7f787f": 63,
+          "#bfb8bf": 60,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 57,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        981,
+        235,
+        983,
+        556
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          981,
+          235,
+          983,
+          556
+        ],
+        "original_px_inclusive": [
+          5,
+          79,
+          6,
+          399
+        ],
+        "original_px_count": 642,
+        "original_colours": {
+          "#fff8ff": 321,
+          "#bfb8bf": 319,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 58,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1041,
+        235,
+        1043,
+        556
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1041,
+          235,
+          1043,
+          556
+        ],
+        "original_px_inclusive": [
+          65,
+          79,
+          66,
+          399
+        ],
+        "original_px_count": 642,
+        "original_colours": {
+          "#7f787f": 322,
+          "#bfb8bf": 319,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 59,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        942,
+        394,
+        980,
+        398
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          976,
+          394,
+          980,
+          398
+        ],
+        "original_px_inclusive": [
+          0,
+          238,
+          3,
+          241
+        ],
+        "original_px_count": 16,
+        "original_colours": {
+          "#00787f": 16
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 60,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        942,
+        394,
+        946,
+        910
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 61,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        942,
+        906,
+        986,
+        910
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 62,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        943,
+        395,
+        981,
+        397
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          976,
+          395,
+          981,
+          397
+        ],
+        "original_px_inclusive": [
+          0,
+          239,
+          4,
+          240
+        ],
+        "original_px_count": 10,
+        "original_colours": {
+          "#00787f": 8,
+          "#dfd8df": 2
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 63,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        943,
+        395,
+        945,
+        909
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 64,
+      "variant": "side-by-side",
+      "target": "Toolbox",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        943,
+        907,
+        985,
+        909
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 65,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1052,
+        232,
+        1531,
+        236
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1052,
+          232,
+          1531,
+          236
+        ],
+        "original_px_inclusive": [
+          76,
+          76,
+          554,
+          79
+        ],
+        "original_px_count": 1916,
+        "original_colours": {
+          "#bfb8bf": 950,
+          "#dfd8df": 481,
+          "#fff8ff": 478,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 66,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1052,
+        232,
+        1056,
+        619
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1052,
+          232,
+          1056,
+          619
+        ],
+        "original_px_inclusive": [
+          76,
+          76,
+          79,
+          462
+        ],
+        "original_px_count": 1548,
+        "original_colours": {
+          "#bfb8bf": 766,
+          "#dfd8df": 389,
+          "#fff8ff": 386,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 67,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1527,
+        232,
+        1531,
+        478
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1527,
+          232,
+          1531,
+          478
+        ],
+        "original_px_inclusive": [
+          551,
+          76,
+          554,
+          321
+        ],
+        "original_px_count": 984,
+        "original_colours": {
+          "#bfb8bf": 488,
+          "#000000": 246,
+          "#7f787f": 245,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 68,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1052,
+        615,
+        1167,
+        619
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1052,
+          615,
+          1167,
+          619
+        ],
+        "original_px_inclusive": [
+          76,
+          459,
+          190,
+          462
+        ],
+        "original_px_count": 460,
+        "original_colours": {
+          "#bfb8bf": 226,
+          "#000000": 115,
+          "#7f787f": 114,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 69,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1053,
+        233,
+        1530,
+        235
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1053,
+          233,
+          1530,
+          235
+        ],
+        "original_px_inclusive": [
+          77,
+          77,
+          553,
+          78
+        ],
+        "original_px_count": 954,
+        "original_colours": {
+          "#fff8ff": 477,
+          "#bfb8bf": 475,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 70,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1053,
+        233,
+        1055,
+        618
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1053,
+          233,
+          1055,
+          618
+        ],
+        "original_px_inclusive": [
+          77,
+          77,
+          78,
+          461
+        ],
+        "original_px_count": 770,
+        "original_colours": {
+          "#fff8ff": 385,
+          "#bfb8bf": 383,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 71,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1528,
+        233,
+        1530,
+        477
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1528,
+          233,
+          1530,
+          477
+        ],
+        "original_px_inclusive": [
+          552,
+          77,
+          553,
+          320
+        ],
+        "original_px_count": 488,
+        "original_colours": {
+          "#7f787f": 244,
+          "#bfb8bf": 243,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 72,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1053,
+        616,
+        1166,
+        618
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1053,
+          616,
+          1166,
+          618
+        ],
+        "original_px_inclusive": [
+          77,
+          460,
+          189,
+          461
+        ],
+        "original_px_count": 226,
+        "original_colours": {
+          "#7f787f": 113,
+          "#bfb8bf": 112,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 73,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        952,
+        584,
+        1052,
+        588
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          976,
+          584,
+          1052,
+          588
+        ],
+        "original_px_inclusive": [
+          0,
+          428,
+          75,
+          431
+        ],
+        "original_px_count": 304,
+        "original_colours": {
+          "#00787f": 304
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 74,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        952,
+        584,
+        956,
+        856
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 75,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        952,
+        852,
+        986,
+        856
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 76,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        953,
+        585,
+        1053,
+        587
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          976,
+          585,
+          1053,
+          587
+        ],
+        "original_px_inclusive": [
+          0,
+          429,
+          76,
+          430
+        ],
+        "original_px_count": 154,
+        "original_colours": {
+          "#00787f": 152,
+          "#dfd8df": 2
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 77,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        953,
+        585,
+        955,
+        855
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 78,
+      "variant": "side-by-side",
+      "target": "Form Designer",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        953,
+        853,
+        985,
+        855
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 79,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1172,
+        483,
+        1565,
+        487
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1172,
+          483,
+          1565,
+          487
+        ],
+        "original_px_inclusive": [
+          196,
+          327,
+          588,
+          330
+        ],
+        "original_px_count": 1572,
+        "original_colours": {
+          "#bfb8bf": 778,
+          "#dfd8df": 395,
+          "#fff8ff": 392,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 80,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1172,
+        715,
+        1565,
+        719
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1172,
+          715,
+          1565,
+          719
+        ],
+        "original_px_inclusive": [
+          196,
+          559,
+          588,
+          562
+        ],
+        "original_px_count": 1572,
+        "original_colours": {
+          "#bfb8bf": 778,
+          "#000000": 396,
+          "#7f787f": 393,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 81,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1172,
+        483,
+        1176,
+        719
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1172,
+          483,
+          1176,
+          719
+        ],
+        "original_px_inclusive": [
+          196,
+          327,
+          199,
+          562
+        ],
+        "original_px_count": 944,
+        "original_colours": {
+          "#bfb8bf": 464,
+          "#dfd8df": 238,
+          "#fff8ff": 235,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 82,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1561,
+        483,
+        1565,
+        719
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1561,
+          483,
+          1565,
+          719
+        ],
+        "original_px_inclusive": [
+          585,
+          327,
+          588,
+          562
+        ],
+        "original_px_count": 944,
+        "original_colours": {
+          "#bfb8bf": 464,
+          "#000000": 239,
+          "#7f787f": 236,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 83,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1173,
+        484,
+        1564,
+        486
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1173,
+          484,
+          1564,
+          486
+        ],
+        "original_px_inclusive": [
+          197,
+          328,
+          587,
+          329
+        ],
+        "original_px_count": 782,
+        "original_colours": {
+          "#fff8ff": 391,
+          "#bfb8bf": 389,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 84,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1173,
+        716,
+        1564,
+        718
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1173,
+          716,
+          1564,
+          718
+        ],
+        "original_px_inclusive": [
+          197,
+          560,
+          587,
+          561
+        ],
+        "original_px_count": 782,
+        "original_colours": {
+          "#7f787f": 392,
+          "#bfb8bf": 389,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 85,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1173,
+        484,
+        1175,
+        718
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1173,
+          484,
+          1175,
+          718
+        ],
+        "original_px_inclusive": [
+          197,
+          328,
+          198,
+          561
+        ],
+        "original_px_count": 468,
+        "original_colours": {
+          "#fff8ff": 234,
+          "#bfb8bf": 232,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 86,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1562,
+        484,
+        1564,
+        718
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1562,
+          484,
+          1564,
+          718
+        ],
+        "original_px_inclusive": [
+          586,
+          328,
+          587,
+          561
+        ],
+        "original_px_count": 468,
+        "original_colours": {
+          "#7f787f": 235,
+          "#bfb8bf": 232,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 87,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        962,
+        689,
+        1172,
+        693
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          976,
+          689,
+          1172,
+          693
+        ],
+        "original_px_inclusive": [
+          0,
+          533,
+          195,
+          536
+        ],
+        "original_px_count": 784,
+        "original_colours": {
+          "#00787f": 784
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 88,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        962,
+        689,
+        966,
+        802
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 89,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        962,
+        798,
+        986,
+        802
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 90,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        963,
+        690,
+        1173,
+        692
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          976,
+          690,
+          1173,
+          692
+        ],
+        "original_px_inclusive": [
+          0,
+          534,
+          196,
+          535
+        ],
+        "original_px_count": 394,
+        "original_colours": {
+          "#00787f": 392,
+          "#dfd8df": 2
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 91,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        963,
+        690,
+        965,
+        801
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 92,
+      "variant": "side-by-side",
+      "target": "Code Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        963,
+        799,
+        985,
+        801
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 93,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1576,
+        233,
+        1774,
+        237
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1576,
+          233,
+          1774,
+          237
+        ],
+        "original_px_inclusive": [
+          600,
+          77,
+          797,
+          80
+        ],
+        "original_px_count": 792,
+        "original_colours": {
+          "#bfb8bf": 388,
+          "#dfd8df": 200,
+          "#fff8ff": 197,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 94,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1576,
+        340,
+        1774,
+        344
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1576,
+          340,
+          1774,
+          344
+        ],
+        "original_px_inclusive": [
+          600,
+          184,
+          797,
+          187
+        ],
+        "original_px_count": 792,
+        "original_colours": {
+          "#bfb8bf": 388,
+          "#000000": 201,
+          "#7f787f": 198,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 95,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1576,
+        233,
+        1580,
+        344
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1576,
+          233,
+          1580,
+          344
+        ],
+        "original_px_inclusive": [
+          600,
+          77,
+          603,
+          187
+        ],
+        "original_px_count": 444,
+        "original_colours": {
+          "#bfb8bf": 214,
+          "#dfd8df": 113,
+          "#fff8ff": 110,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 96,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1770,
+        233,
+        1774,
+        344
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1770,
+          233,
+          1774,
+          344
+        ],
+        "original_px_inclusive": [
+          794,
+          77,
+          797,
+          187
+        ],
+        "original_px_count": 444,
+        "original_colours": {
+          "#bfb8bf": 214,
+          "#000000": 114,
+          "#7f787f": 111,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 97,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1577,
+        234,
+        1773,
+        236
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1577,
+          234,
+          1773,
+          236
+        ],
+        "original_px_inclusive": [
+          601,
+          78,
+          796,
+          79
+        ],
+        "original_px_count": 392,
+        "original_colours": {
+          "#fff8ff": 196,
+          "#bfb8bf": 194,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 98,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1577,
+        341,
+        1773,
+        343
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1577,
+          341,
+          1773,
+          343
+        ],
+        "original_px_inclusive": [
+          601,
+          185,
+          796,
+          186
+        ],
+        "original_px_count": 392,
+        "original_colours": {
+          "#7f787f": 197,
+          "#bfb8bf": 194,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 99,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1577,
+        234,
+        1579,
+        343
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1577,
+          234,
+          1579,
+          343
+        ],
+        "original_px_inclusive": [
+          601,
+          78,
+          602,
+          186
+        ],
+        "original_px_count": 218,
+        "original_colours": {
+          "#fff8ff": 109,
+          "#bfb8bf": 107,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 100,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1771,
+        234,
+        1773,
+        343
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1771,
+          234,
+          1773,
+          343
+        ],
+        "original_px_inclusive": [
+          795,
+          78,
+          796,
+          186
+        ],
+        "original_px_count": 218,
+        "original_colours": {
+          "#7f787f": 110,
+          "#bfb8bf": 107,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 101,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1774,
+        304,
+        1800,
+        308
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1774,
+          304,
+          1776,
+          308
+        ],
+        "original_px_inclusive": [
+          798,
+          148,
+          799,
+          151
+        ],
+        "original_px_count": 8,
+        "original_colours": {
+          "#00787f": 8
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 102,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1796,
+        304,
+        1800,
+        856
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 103,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1766,
+        852,
+        1800,
+        856
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 104,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1773,
+        305,
+        1799,
+        307
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1773,
+          305,
+          1776,
+          307
+        ],
+        "original_px_inclusive": [
+          797,
+          149,
+          799,
+          150
+        ],
+        "original_px_count": 6,
+        "original_colours": {
+          "#00787f": 4,
+          "#000000": 2
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 105,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1797,
+        305,
+        1799,
+        855
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 106,
+      "variant": "side-by-side",
+      "target": "Project Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1767,
+        853,
+        1799,
+        855
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 107,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1575,
+        494,
+        1769,
+        498
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1575,
+          494,
+          1769,
+          498
+        ],
+        "original_px_inclusive": [
+          599,
+          338,
+          792,
+          341
+        ],
+        "original_px_count": 776,
+        "original_colours": {
+          "#bfb8bf": 380,
+          "#dfd8df": 196,
+          "#fff8ff": 193,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 108,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1575,
+        720,
+        1769,
+        724
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1575,
+          720,
+          1769,
+          724
+        ],
+        "original_px_inclusive": [
+          599,
+          564,
+          792,
+          567
+        ],
+        "original_px_count": 776,
+        "original_colours": {
+          "#bfb8bf": 380,
+          "#000000": 197,
+          "#7f787f": 194,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 109,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1575,
+        494,
+        1579,
+        724
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1575,
+          494,
+          1579,
+          724
+        ],
+        "original_px_inclusive": [
+          599,
+          338,
+          602,
+          567
+        ],
+        "original_px_count": 920,
+        "original_colours": {
+          "#bfb8bf": 452,
+          "#dfd8df": 232,
+          "#fff8ff": 229,
+          "#000000": 4,
+          "#7f787f": 3
+        }
+      }
+    },
+    {
+      "n": 110,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1765,
+        494,
+        1769,
+        724
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1765,
+          494,
+          1769,
+          724
+        ],
+        "original_px_inclusive": [
+          789,
+          338,
+          792,
+          567
+        ],
+        "original_px_count": 920,
+        "original_colours": {
+          "#bfb8bf": 452,
+          "#000000": 233,
+          "#7f787f": 230,
+          "#dfd8df": 3,
+          "#fff8ff": 2
+        }
+      }
+    },
+    {
+      "n": 111,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1576,
+        495,
+        1768,
+        497
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1576,
+          495,
+          1768,
+          497
+        ],
+        "original_px_inclusive": [
+          600,
+          339,
+          791,
+          340
+        ],
+        "original_px_count": 384,
+        "original_colours": {
+          "#fff8ff": 192,
+          "#bfb8bf": 190,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 112,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1576,
+        721,
+        1768,
+        723
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1576,
+          721,
+          1768,
+          723
+        ],
+        "original_px_inclusive": [
+          600,
+          565,
+          791,
+          566
+        ],
+        "original_px_count": 384,
+        "original_colours": {
+          "#7f787f": 193,
+          "#bfb8bf": 190,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 113,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1576,
+        495,
+        1578,
+        723
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1576,
+          495,
+          1578,
+          723
+        ],
+        "original_px_inclusive": [
+          600,
+          339,
+          601,
+          566
+        ],
+        "original_px_count": 456,
+        "original_colours": {
+          "#fff8ff": 228,
+          "#bfb8bf": 226,
+          "#7f787f": 2
+        }
+      }
+    },
+    {
+      "n": 114,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "outline",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1766,
+        495,
+        1768,
+        723
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1766,
+          495,
+          1768,
+          723
+        ],
+        "original_px_inclusive": [
+          790,
+          339,
+          791,
+          566
+        ],
+        "original_px_count": 456,
+        "original_colours": {
+          "#7f787f": 229,
+          "#bfb8bf": 226,
+          "#fff8ff": 1
+        }
+      }
+    },
+    {
+      "n": 115,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1769,
+        624,
+        1790,
+        628
+      ],
+      "colour": "#111318",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1769,
+          624,
+          1776,
+          628
+        ],
+        "original_px_inclusive": [
+          793,
+          468,
+          799,
+          471
+        ],
+        "original_px_count": 28,
+        "original_colours": {
+          "#00787f": 28
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 116,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1786,
+        624,
+        1790,
+        802
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 117,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "casing",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1766,
+        798,
+        1790,
+        802
+      ],
+      "colour": "#111318",
+      "overlays_original": null,
+      "part": "run"
+    },
+    {
+      "n": 118,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1768,
+        625,
+        1789,
+        627
+      ],
+      "colour": "#eab676",
+      "overlays_original": {
+        "canvas_rect_on_image": [
+          1768,
+          625,
+          1776,
+          627
+        ],
+        "original_px_inclusive": [
+          792,
+          469,
+          799,
+          470
+        ],
+        "original_px_count": 16,
+        "original_colours": {
+          "#00787f": 14,
+          "#000000": 2
+        }
+      },
+      "part": "exit"
+    },
+    {
+      "n": 119,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1787,
+        625,
+        1789,
+        801
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "rail"
+    },
+    {
+      "n": 120,
+      "variant": "side-by-side",
+      "target": "Properties Window",
+      "mark": "leader",
+      "layer": "core",
+      "shape": "filled rectangle",
+      "canvas_rect_x0y0x1y1": [
+        1767,
+        799,
+        1789,
+        801
+      ],
+      "colour": "#eab676",
+      "overlays_original": null,
+      "part": "run"
     }
   ],
   "build_checks": {
-    "labels_clear_of_screenshot_and_frame": true,
-    "labels_in_safe_area": true,
-    "labels_clear_of_each_other": true,
-    "marks_clear_of_labels": true,
-    "outlines_inside_image_and_not_touching": true,
-    "problems": []
+    "five-callouts": {
+      "labels_clear_of_screenshot_and_frame": true,
+      "labels_in_safe_area": true,
+      "labels_clear_of_each_other": true,
+      "marks_clear_of_labels": true,
+      "outlines_inside_image_and_not_touching": true,
+      "problems": []
+    },
+    "side-by-side": {
+      "frames_do_not_overlap": true,
+      "frames_in_safe_area": true,
+      "labels_clear_of_both_screenshots_and_frames": true,
+      "labels_in_safe_area": true,
+      "labels_clear_of_each_other": true,
+      "marks_clear_of_clean_screenshot_and_frame": true,
+      "marks_clear_of_labels": true,
+      "marks_in_safe_area": true,
+      "outlines_inside_annotated_screenshot": true,
+      "marks_of_different_targets_do_not_touch": true,
+      "gap_between_frames_px": 35,
+      "problems": []
+    }
   },
+  "poster": "side-by-side",
   "variants": {
     "clean-workspace": {
       "svg": "src/variant-clean-workspace.svg",
       "png": "exports/clean-workspace.png",
-      "annotated": false
+      "annotated": false,
+      "images": [
+        {
+          "role": "clean",
+          "x": 347,
+          "y": 90,
+          "w": 1200,
+          "h": 900,
+          "scale_num": 3,
+          "scale_den": 2,
+          "scale_x": 1.5,
+          "scale_y": 1.5,
+          "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
+          "crop": null,
+          "rotation_deg": 0,
+          "retouch": null,
+          "embedded_png_sha256": "4662cb7139c45dc1669ad5a0172c534959189c9fb65bfa490f521020b4f940ee",
+          "embedded_png_bytes": 29391,
+          "frame_outer": [
+            340,
+            83,
+            1554,
+            997
+          ],
+          "annotated": false
+        }
+      ],
+      "targets": null
     },
     "five-callouts": {
       "svg": "src/variant-five-callouts.svg",
       "png": "exports/five-callouts.png",
       "annotated": true,
+      "images": [
+        {
+          "role": "annotated",
+          "x": 347,
+          "y": 90,
+          "w": 1200,
+          "h": 900,
+          "scale_num": 3,
+          "scale_den": 2,
+          "scale_x": 1.5,
+          "scale_y": 1.5,
+          "resampling": "Pillow Image.Resampling.BOX (area average), exact 1.5x on both axes",
+          "crop": null,
+          "rotation_deg": 0,
+          "retouch": null,
+          "embedded_png_sha256": "4662cb7139c45dc1669ad5a0172c534959189c9fb65bfa490f521020b4f940ee",
+          "embedded_png_bytes": 29391,
+          "frame_outer": [
+            340,
+            83,
+            1554,
+            997
+          ],
+          "annotated": true
+        }
+      ],
+      "targets": "targets",
+      "label_lines": "split"
+    },
+    "side-by-side": {
+      "svg": "src/variant-side-by-side.svg",
+      "png": "exports/side-by-side.png",
+      "annotated": true,
+      "images": [
+        {
+          "role": "clean",
+          "x": 127,
+          "y": 156,
+          "w": 800,
+          "h": 600,
+          "scale_num": 1,
+          "scale_den": 1,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "resampling": "none: native 1.0x, the HIST-02 PNG bytes embedded unchanged and drawn 1:1 (no resampling filter applies)",
+          "crop": null,
+          "rotation_deg": 0,
+          "retouch": null,
+          "embedded_png_sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+          "embedded_png_bytes": 13081,
+          "frame_outer": [
+            120,
+            149,
+            934,
+            763
+          ],
+          "annotated": false
+        },
+        {
+          "role": "annotated",
+          "x": 976,
+          "y": 156,
+          "w": 800,
+          "h": 600,
+          "scale_num": 1,
+          "scale_den": 1,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "resampling": "none: native 1.0x, the HIST-02 PNG bytes embedded unchanged and drawn 1:1 (no resampling filter applies)",
+          "crop": null,
+          "rotation_deg": 0,
+          "retouch": null,
+          "embedded_png_sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
+          "embedded_png_bytes": 13081,
+          "frame_outer": [
+            969,
+            149,
+            1783,
+            763
+          ],
+          "annotated": true
+        }
+      ],
+      "targets": "targets_side_by_side",
+      "label_lines": "whole",
       "also_rendered_as": "exports/poster.png"
     }
   }

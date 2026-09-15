@@ -1,23 +1,50 @@
 {
   "id": "XTRA-05",
-  "checked_by": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-97, branch ticket/XTRA-05",
+  "checked_by": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-8c, branch ticket/XTRA-05-rev (revision of ticket/XTRA-05 8fed9c3)",
   "checked_at": "2026-09-15",
+  "devin_rulings": {
+    "decided_by": "Devin",
+    "decided_at": "2026-09-15",
+    "relayed_by": "Render Lane Manager (session vb-8c)",
+    "rulings": [
+      {"question": "XTRA-05-RQ1 (carries RQ-HIST-02-3)", "ruling": "Callout marks over the Microsoft screenshot are allowed. Keep the outline and leader treatment; no fallback needed.", "implemented": "five-callouts and side-by-side keep window-frame outlines and leaders; no fallback built."},
+      {"question": "XTRA-05-RQ2 (Project Explorer vs Project window)", "ruling": "War/SCRIPT.md:133 on main reads '... Code Window, Project Window.' The working script is the narrative authority: the fifth label becomes 'Project Window', and the labels follow the script cue. Classified as a writing change. 'Form Designer' and its VB6-era note stay as they are (still a Writing Lead item).", "implemented": "src/build.py reads the five labels from the War/SCRIPT.md VISUAL cue and asserts exactly five; see copy_override."},
+      {"question": "XTRA-05-RQ3 (narration: code window 'behind', blank centred form)", "ruling": "Routed to the Writing Lead. No art change.", "implemented": "Left open; art unchanged."},
+      {"question": "XTRA-05-RQ4 (credit placement)", "ruling": "Routed to the producer. No art change.", "implemented": "Left open; art unchanged."},
+      {"question": "XTRA-05-RQ5 (authorship of the 'Loan' project)", "ruling": "Research it: is it a sample Microsoft shipped with VB4? Only an unresolved or third-party result stays a review question. This does not clear release; R14 still depends on RQ-HIST-02-1.", "implemented": "loan_project_research below: Microsoft sample."},
+      {"question": "XTRA-05-RQ6 (side-by-side)", "ruling": "Side-by-side is a good default when it makes sense (a good viewing experience), and the cue says 'Side-by-side'. Add a named variant: clean screenshot left, annotated screenshot right, whole, same uniform scale, filling the safe width; label text off the image; decide the poster from the 720p review.", "implemented": "Variant side-by-side at native 1.0x; poster = side-by-side (qa.md)."}
+    ]
+  },
+  "copy_override": {
+    "ticket_exact_copy": ["Form Designer", "Toolbox", "Properties Window", "Code Window", "Project Explorer"],
+    "rendered_labels": ["Form Designer", "Toolbox", "Properties Window", "Code Window", "Project Window"],
+    "changed": [["Project Explorer", "Project Window"]],
+    "authority": "War/SCRIPT.md:133 VISUAL cue at commit 9e6f14a ('Apply 6 HIST-sourced script corrections'): '**[VISUAL: Side-by-side — the VB4 IDE with labeled callouts: Form Designer, Toolbox, Properties Window, Code Window, Project Window.]**'. The working script is the narrative authority (AGENTS.md worker rule 2).",
+    "classification": "writing change (Devin, 2026-09-15)",
+    "decided_by": "Devin",
+    "decided_at": "2026-09-15",
+    "mechanism": "src/build.py reads the single line containing 'VB4 IDE with labeled callouts' from War/SCRIPT.md at build time, takes the comma-separated list after 'labeled callouts:', asserts exactly five non-empty labels, and asserts each still contains its panel word in cue order (form, toolbox, propert, code, project) so a reordered cue stops the build instead of mislabelling a window. The labels, cue line, cue text and the script's SHA-256 at build time are recorded in src/layout.json 'labels'; src/verify.py re-reads the cue and fails if it changed since the build.",
+    "supporting_evidence": "Microsoft KB Q140350 (applies only to VB 4.0 Standard/Professional/Enterprise, 32-bit): 'Open Form1, by double-clicking it in the Project window.' The panel in the capture is titled with the project name ('Loan') and has View Form / View Code buttons.",
+    "not_edited": "The ticket's exact-copy block (docs/tickets/XTRA-05.md) and manifest.json 'copy' still read 'Project Explorer'; both are outside this worker's write scope. src/brief.json keeps the manifest row verbatim; src/copy.txt now holds the rendered labels."
+  },
   "label_checks": [
     {
       "label": "Form Designer",
       "target_original_px_inclusive": [76, 76, 554, 462],
       "target_canvas_box": [461, 204, 1179, 784],
+      "target_canvas_box_side_by_side": [1052, 232, 1531, 619],
       "target_visible_in_screenshot": true,
-      "screenshot_evidence": "Form window titled 'LoanSheet' with design-time grid dots, a selected grid control with sizing handles, and the IDE title bar '[design]'. Its lower right is covered by the Code window (original x 196-588, y 327-562), so the outline follows only the visible edges and stops short of the Code Window outline. Edges measured from the Win95 frame lines: light #DFD8DF run x=76 (y 76-461) and y=76 (x 76-553), black runs x=554 (y 76-326) and y=462 (x 76-195).",
+      "screenshot_evidence": "Form window titled 'LoanSheet' with design-time grid dots, a selected grid control with sizing handles, and the IDE title bar '[design]'. Its lower right is covered by the Code window (original x 196-588, y 327-562), so the outline follows only the visible edges and stops short of the Code Window outline (6 px at 1.5x, 5 px at 1.0x). Edges measured from the Win95 frame lines: light #DFD8DF run x=76 (y 76-461) and y=76 (x 76-553), black runs x=554 (y 76-326) and y=462 (x 76-195).",
       "name_evidence": "Microsoft's VB6 documentation 'Integrated Development Environment Elements' has a 'Form Designer' section. The VB 4.0-applicable KB articles found refer to the form itself ('Open Form1', 'the Form1 code window'); none uses 'Form Designer'. The window carries no panel-type title (it is titled with the form name).",
-      "status": "target_verified; label is a descriptive later-documented (VB6) name, not a VB4 window title",
+      "status": "target_verified; label is a descriptive later-documented (VB6) name, not a VB4 window title; kept as the War/SCRIPT.md cue has it (Devin: still a Writing Lead item)",
       "invented_ui": false,
-      "review_question": "XTRA-05-RQ2 (noted, low priority)"
+      "review_question": "XTRA-05-RQ2 (remaining note, Writing Lead)"
     },
     {
       "label": "Toolbox",
       "target_original_px_inclusive": [4, 78, 67, 400],
       "target_canvas_box": [353, 207, 449, 691],
+      "target_canvas_box_side_by_side": [980, 234, 1044, 557],
       "target_visible_in_screenshot": true,
       "screenshot_evidence": "Untitled tool window at the left edge, two columns of control icons (pointer, PictureBox, Label, TextBox, Frame, CommandButton, CheckBox, OptionButton, ComboBox, ListBox, scroll bars, Timer, file-system lists, Shape, Line, Image, Data, OLE, Grid). Edges: light runs x=4 (y 78-399) and y=78 (x 4-66); black runs x=67 (y 78-400) and y=400 (x 4-67).",
       "name_evidence": "KB Q154885 (applies to VB 4.0 16- and 32-bit editions): 'If the SSTab control does not appear in the toolbox'. VB6 documentation also uses 'Toolbox'.",
@@ -28,6 +55,7 @@
       "label": "Properties Window",
       "target_original_px_inclusive": [599, 338, 792, 567],
       "target_canvas_box": [1246, 597, 1536, 942],
+      "target_canvas_box_side_by_side": [1575, 494, 1769, 724],
       "target_visible_in_screenshot": true,
       "screenshot_evidence": "Window titled 'Properties - LoanSheet', object box 'grdPayments Grid', property grid (GridLines ... Rows). Edges: light runs x=599 (y 338-566) and y=338 (x 599-791); black runs x=792 (y 338-567) and y=567 (x 599-792).",
       "name_evidence": "The window's own title contains 'Properties'. KB Q169772 (applies to VB 4.0 32-bit): title 'VB5 .OCX Property Missing from VB4 Properties Window'. KB Q161344 (VB 4.0 32-bit, VB 5.0): 'The VB4 Properties window will only display control properties that are passed by value.'",
@@ -38,6 +66,7 @@
       "label": "Code Window",
       "target_original_px_inclusive": [196, 327, 588, 562],
       "target_canvas_box": [641, 581, 1230, 934],
+      "target_canvas_box_side_by_side": [1172, 483, 1565, 719],
       "target_visible_in_screenshot": true,
       "screenshot_evidence": "Active window titled 'LoanSheet' with 'Object: grdPayments' and 'Proc: Click' drop-downs and the syntax-coloured event procedure 'Private Sub grdPayments_Click()'. Edges: light runs x=196 (y 327-561) and y=327 (x 196-587); black runs x=588 (y 327-562) and y=562 (x 196-588).",
       "name_evidence": "KB Q216146 (applies to VB 4.0 32-bit editions, VB 5.0, 6.0): 'Add the following code to the Form1 code window:'. VB6 documentation calls it the 'Code Editor Window' and also uses 'Code Window Keyboard Shortcuts'.",
@@ -45,17 +74,152 @@
       "invented_ui": false
     },
     {
-      "label": "Project Explorer",
+      "label": "Project Window",
+      "label_before_revision": "Project Explorer",
       "target_original_px_inclusive": [600, 77, 797, 187],
       "target_canvas_box": [1247, 206, 1544, 372],
+      "target_canvas_box_side_by_side": [1576, 233, 1774, 344],
       "target_visible_in_screenshot": true,
-      "screenshot_evidence": "Window titled 'Loan' (the project name) with 'View Form' and 'View Code' buttons and the entry 'LOAN.FRM  LoanSheet'. No 'Project Explorer' or 'Project' caption appears. Edges: light runs x=600 (y 77-186) and y=77 (x 600-796); black runs x=797 (y 77-187) and y=187 (x 600-797).",
-      "name_evidence": "KB Q140350 (applies only to VB 4.0 Standard/Professional/Enterprise 32-bit): 'Open Form1, by double-clicking it in the Project window.' KB Q136399 (Visual SourceSafe 4.0-6.0) also says 'the Project window'. Microsoft's VB6 documentation names it 'Project Explorer Window'. No VB4-applicable Microsoft document using 'Project Explorer' was found; no primary source for the exact version of the rename was found (a search-summary claim of a VB4-to-VB5 rename was not supported by the page it cited).",
-      "status": "target_verified; label_is_later_version_terminology (VB4's Microsoft term is 'Project window'); kept verbatim per ticket copy and hand-off",
+      "screenshot_evidence": "Window titled 'Loan' (the project name) with 'View Form' and 'View Code' buttons and the entry 'LOAN.FRM  LoanSheet'. No 'Project Explorer' caption appears. Edges: light runs x=600 (y 77-186) and y=77 (x 600-796); black runs x=797 (y 77-187) and y=187 (x 600-797).",
+      "name_evidence": "KB Q140350 (applies only to VB 4.0 Standard/Professional/Enterprise 32-bit): 'Open Form1, by double-clicking it in the Project window.' KB Q136399 (Visual SourceSafe 4.0-6.0) also says 'the Project window'. 'Project Explorer' is VB6-documented terminology ('Project Explorer Window'); no VB4-applicable Microsoft document using it was found.",
+      "status": "verified: 'Project Window' is the VB 4.0 Microsoft term (capitalised as a callout, as in the War/SCRIPT.md:133 cue)",
       "invented_ui": false,
-      "review_question": "XTRA-05-RQ2"
+      "review_question": null,
+      "resolution": "XTRA-05-RQ2 Project part resolved by Devin 2026-09-15 (writing change; label follows War/SCRIPT.md:133 at 9e6f14a)."
     }
   ],
+  "loan_project_research": {
+    "question": "Who authored the 'Loan' project visible in the capture: title 'Loan - Microsoft Visual Basic [design]', LOAN.FRM, form LoanSheet, controls grdPayments (Grid) and cmdCalcAmort, menus Options / Down Payment / Loan Length, frames 'Years in Loan' and 'Interest Rates', buttons 'Show Payments...' and 'Show Amortization...'?",
+    "hypothesis_tested": "A sample application Microsoft shipped with Visual Basic 4.0 (for example in the VB4 SAMPLES directory, perhaps a Grid control demo).",
+    "conclusion": "Microsoft sample (evidence: Microsoft KB Q150726 lists loan.frm, loan.frx and loan.vbp in \\vb\\samples\\grid among the files installed by the Samples option in all editions of Visual Basic 4.0; three archive.org Visual Basic 4.0 CD contents listings (Enterprise 1995, Enterprise 1996, Professional 4.0a) each show VB/SAMPLES/GRID/LOAN.FRM 31,035 bytes, LOAN.FRX 2,336 bytes and LOAN.VBP 382 bytes; the capture shows a project named 'Loan' whose form file is LOAN.FRM and whose selected control is a Grid, which is what the \\vb\\samples\\grid sample directory contains).",
+    "confidence_and_limit": "High for 'Loan / LOAN.FRM is the Microsoft VB 4.0 Grid sample'. The form's contents (LoanSheet, grdPayments, cmdCalcAmort, menus) were not compared with the text of LOAN.FRM, because reading it would mean extracting a file from a disc image; that was not done. The identification rests on the project name, the form file name, the Grid control, and the Samples listing, with no competing 'Loan' project found in any source searched.",
+    "effect": "No third-party content concern remains for the 'Loan' project: it is Microsoft content, the same rights holder as the IDE. This does not clear release. Whether Microsoft's screenshot permission (or another basis) covers the capture is still RQ-HIST-02-1, and XTRA-05 R14 stays blocked on it. RQ-HIST-02-2 in HIST-02 is answered by this evidence; the HIST-02 record itself was not edited (read-only for this worker).",
+    "method": "Read-only web lookups on 2026-09-15 with a generic browser User-Agent (no personal identifiers in headers); no accounts, no terms accepted, no borrow-gated books. Only HTML listing pages and KB article pages were fetched, into the worker scratchpad; no installer, disc image or file from inside a disc image was downloaded, and nothing third-party was added to the repository. URLs, quotes and SHA-256 hashes of the fetched pages are recorded here.",
+    "sources_checked": [
+      {
+        "n": 1,
+        "type": "Microsoft Knowledge Base article (archived copy)",
+        "title": "Q150726: INFO: Files Installed with All Editions of Visual Basic 4.0",
+        "url": "https://jeffpar.github.io/kbarchive/kb/150/Q150726/",
+        "accessed": "2026-09-15",
+        "fetched_page_sha256": "7de9ec92568e2bbe33621ff9f6b471e61c14788b721e4b3e3c9cd0dbbb6e5830",
+        "fetched_page_bytes": 42373,
+        "header": "Version(s): WINDOWS:4.0; Last Modified: 11-JAN-2001; applies to Visual Basic Standard, Professional and Enterprise Editions, 32-bit, for Windows, version 4.0",
+        "quotes": [
+          "F. Samples: / The following files are installed if you click the Samples option: / 1. All Editions:",
+          "loan.frm*         \\vb\\samples\\grid",
+          "loan.frx*         \\vb\\samples\\grid",
+          "loan.vbp*         \\vb\\samples\\grid",
+          "Files that are installed in a 16-bit platform are marked with an asterisk (*)."
+        ],
+        "establishes": "Microsoft itself lists a project LOAN.VBP with form LOAN.FRM (and its binary LOAN.FRX) as sample files installed into VB\\SAMPLES\\GRID by every edition of Visual Basic 4.0 (the asterisk: also on the 16-bit platform). This is the primary evidence that 'Loan' is a Microsoft-shipped sample."
+      },
+      {
+        "n": 2,
+        "type": "Internet Archive software item: disc contents listing (HTML directory page only)",
+        "title": "Microsoft Visual Basic 4.0 Enterprise Edition (item metadata date 1996)",
+        "item_page": "https://archive.org/details/microsoft-visual-basic-4.0-enterprise",
+        "url": "https://archive.org/download/microsoft-visual-basic-4.0-enterprise/microsoft-visual-basic-4.0-enterprise.iso/",
+        "metadata_url": "https://archive.org/metadata/microsoft-visual-basic-4.0-enterprise",
+        "accessed": "2026-09-15",
+        "fetched_page_sha256": "cf675658cc441d3f800e71855d7134b5f9784f2aa2433bd26e93d385d0f229bd",
+        "quotes": [
+          "VB/SAMPLES/GRID/LOAN.FRM 1996-01-12 00:00:00 31035",
+          "VB/SAMPLES/GRID/LOAN.FRX 1996-01-12 00:00:00 2336",
+          "VB/SAMPLES/GRID/LOAN.VBP 1996-01-12 00:00:00 382"
+        ],
+        "establishes": "A VB 4.0 Enterprise CD image carries the Loan project in VB/SAMPLES/GRID, next to VB/SAMPLES/SAMPLES.HLP, confirming the KB listing on shipped media."
+      },
+      {
+        "n": 3,
+        "type": "Internet Archive software item: disc contents listing (HTML directory page only)",
+        "title": "Microsoft Visual Basic Enterprise Edition (Version 4.0) (Microsoft) (1995)",
+        "item_page": "https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+        "url": "https://archive.org/download/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995/Microsoft%20Visual%20Basic%20Enterprise%20Edition%20%28Version%204.0%29%20%28Microsoft%29%20%281995%29.iso/",
+        "metadata_url": "https://archive.org/metadata/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995",
+        "accessed": "2026-09-15",
+        "fetched_page_sha256": "d3a3f80a24c4409cdf6f11392422c67ccde143d2db00389dbd39196a82ca0040",
+        "quotes": [
+          "VB/SAMPLES/GRID/LOAN.FRM 1995-08-15 00:00:00 31035",
+          "VB/SAMPLES/GRID/LOAN.FRX 1995-08-15 00:00:00 2336",
+          "VB/SAMPLES/GRID/LOAN.VBP 1995-08-15 00:00:00 382"
+        ],
+        "establishes": "An earlier (August 1995 file dates) VB 4.0 Enterprise pressing has the same three files with identical byte sizes: the sample shipped from the 1995 release onward, unchanged in size."
+      },
+      {
+        "n": 4,
+        "type": "Internet Archive software item: disc contents listing (HTML directory page only)",
+        "title": "Microsoft Visual Basic 4.0 Professional (4.00.2422) [English] (CD), en_vb40A_pro.iso",
+        "item_page": "https://archive.org/details/microsoft-visual-basic-4.0-professional-4.00.2422-english-cd",
+        "url": "https://archive.org/download/microsoft-visual-basic-4.0-professional-4.00.2422-english-cd/en_vb40A_pro.iso/",
+        "metadata_url": "https://archive.org/metadata/microsoft-visual-basic-4.0-professional-4.00.2422-english-cd",
+        "accessed": "2026-09-15",
+        "fetched_page_sha256": "14b99b0c3454a7993885ae2bbce8ae6ceb68734ccdd9031a627c062ad73e3811",
+        "quotes": [
+          "vb/samples/grid/LOAN.FRM 1996-01-11 20:00:00 31035",
+          "vb/samples/grid/LOAN.FRX 1996-01-11 20:00:00 2336",
+          "vb/samples/grid/LOAN.VBP 1996-01-11 20:00:00 382"
+        ],
+        "establishes": "The Professional edition (4.0a) carries the same sample with the same sizes, so it is not Enterprise-only; consistent with KB Q150726 'All Editions'."
+      },
+      {
+        "n": 5,
+        "type": "The capture itself (HIST-02 source/original.png, SHA-256 065820c5...bde565)",
+        "url": "https://winworldpc.com/res/img/screenshots/40-8f8bee2e0d2810b292e13c9917246fdf-Microsoft%20Visual%20Basic%204.0%2032%20bit%20-%20Edit.png",
+        "accessed": "2026-09-15 (upstream acquisition; re-read locally)",
+        "quotes": ["Loan - Microsoft Visual Basic [design]", "LOAN.FRM  LoanSheet", "grdPayments Grid"],
+        "establishes": "The project open in the capture is named Loan, its form file is LOAN.FRM, and the selected control is a Grid, which matches the \\vb\\samples\\grid Loan sample."
+      },
+      {
+        "n": 6,
+        "type": "Microsoft KB article (archived copy): negative check",
+        "title": "Q153838: FILE: Name Expansion Utility/'Hitchhiker's Guide to VB and SQL'",
+        "url": "https://jeffpar.github.io/kbarchive/kb/153/Q153838/",
+        "accessed": "2026-09-15",
+        "fetched_page_sha256": "4d40c37542def0dbf25da40cff12bd894741b1b875b1637b0ee104fe163408c5",
+        "quotes": [],
+        "establishes": "Returned by a search for LOAN.FRM / LOAN.MAK / LOAN.VBP; the page contains no 'loan' text. False positive; establishes nothing."
+      },
+      {
+        "n": 7,
+        "type": "Microsoft KB article (archived copy): negative check",
+        "title": "Q173840: Hardcore Visual Basic 2nd Ed. Comments and Corrections",
+        "url": "https://jeffpar.github.io/kbarchive/kb/173/Q173840/",
+        "accessed": "2026-09-15",
+        "fetched_page_sha256": "452e9c1c2ba3714d68f11abf8369f6a24db9bdfcb5dd4ee6ca894cdcc3db4d26",
+        "quotes": [],
+        "establishes": "Returned by the same search; no 'loan' text. False positive; establishes nothing (in particular, no third-party book project named Loan)."
+      },
+      {
+        "n": 8,
+        "type": "Web searches (search engine result lists, 2026-09-15)",
+        "queries": [
+          "\"LOAN.VBP\" Visual Basic 4.0 sample",
+          "\"LOAN.MAK\" Visual Basic sample grid",
+          "\"grdPayments\" \"cmdCalcAmort\" Visual Basic",
+          "Visual Basic 4.0 SAMPLES directory list Loan Calc Grid sample application",
+          "\"LoanSheet\" \"Loan Length\" \"Down Payment\" Visual Basic sample",
+          "site:jeffpar.github.io kbarchive Visual Basic 4.0 sample applications LOAN",
+          "site:jeffpar.github.io kbarchive \"Files Installed\" Professional Edition Visual Basic 4.0",
+          "site:jeffpar.github.io kbarchive \"LOAN.FRM\" OR \"LOAN.MAK\" OR \"LOAN.VBP\"",
+          "Visual Basic 4.0 \"samples\\grid\" loan sample Grid control",
+          "Visual Basic 3.0 \"LOAN.MAK\" grid sample \"SAMPLES\"",
+          "archive.org Visual Basic 4.0 \"SAMPLES/GRID\" \"LOAN.VBP\"",
+          "site:jeffpar.github.io kbarchive \"loan.mak\" Visual Basic 3.0 files samples grid",
+          "\"\\vb\\samples\\grid\" OR \"samples\\grid\\loan\" Visual Basic",
+          "\"grdPayments_Click\" OR \"AmortFlag\" Visual Basic loan sample",
+          "\"Visual Basic 4\" Loan sample grid control amortization \"LOAN.VBP\" OR \"Loan.vbp\" book 1995 OR 1996",
+          "Visual Basic 4.0 sample application \"Loan\" \"Grid\" \"Samples.hlp\" OR \"sample applications\" Microsoft grid control demonstrates"
+        ],
+        "establishes": "Located KB Q150726 and the archive.org VB 4.0 items. No result attributed a 'Loan' / LoanSheet / grdPayments project to anyone other than Microsoft; the loan-calculator pages returned (vbtutor.net and similar) are unrelated later tutorials with different names. No VB3 LOAN.MAK listing was found, so whether the sample predates VB4 is not established (not needed for the conclusion)."
+      }
+    ],
+    "not_done": [
+      "LOAN.FRM / LOAN.VBP contents were not read (would require extracting a file from a disc image).",
+      "Borrow-only Internet Archive books (VB4 Programmer's Guide copies, period VB4 books) were not opened.",
+      "No contact with Microsoft, WinWorld or archive.org uploaders."
+    ]
+  },
   "gates": [
     {
       "id": "R03",
@@ -67,14 +231,14 @@
           "id": "V1",
           "claim": "The pictured IDE is Visual Basic 4.0 (not VB.NET, not a mockup).",
           "status": "verified_upstream",
-          "evidence": "HIST-02 claim-checks: host caption 'Microsoft Visual Basic 4.0 32 bit - Edit', title bar 'Loan - Microsoft Visual Basic [design]', sibling About capture 'Microsoft Visual Basic Version 4.0 / For 32-bit Windows Development'. This asset uses that file unchanged (SHA-256 re-checked by build.py and verify.py)."
+          "evidence": "HIST-02 claim-checks: host caption 'Microsoft Visual Basic 4.0 32 bit - Edit', title bar 'Loan - Microsoft Visual Basic [design]', sibling About capture 'Microsoft Visual Basic Version 4.0 / For 32-bit Windows Development'. This asset uses that file unchanged (SHA-256 re-checked by build.py and verify.py; side-by-side embeds the file's own bytes)."
         },
         {
           "id": "N1",
           "claim": "UI panel names on screen match VB4 (R03 required handling).",
-          "status": "four_of_five_supported; one later-version name",
-          "evidence": "label_checks above: Toolbox, Properties Window and Code Window are supported by VB 4.0-applicable Microsoft KB text and by the screenshot. Form Designer is VB6-documented descriptive wording for a visible form window. Project Explorer is VB6 terminology; VB4's Microsoft term is Project window (Q140350).",
-          "review_question": "XTRA-05-RQ2"
+          "status": "five_targets_verified; four VB4-documented names (Toolbox, Properties Window, Code Window, Project Window); Form Designer is VB6-documented descriptive wording",
+          "evidence": "label_checks above. 'Project Explorer' was replaced by 'Project Window' (War/SCRIPT.md:133 at 9e6f14a; KB Q140350 'Project window'), per Devin's 2026-09-15 ruling. 'Form Designer' is unchanged and remains a Writing Lead note.",
+          "review_question": "XTRA-05-RQ2 (remaining note)"
         },
         {
           "id": "L1",
@@ -86,7 +250,7 @@
           "id": "L2",
           "claim": "Narration: 'In the center was your form — a blank gray window that you designed visually.'",
           "status": "partly_consistent",
-          "evidence": "The form window spans original x 76-554 (centre about x=315), so it is centre-left rather than centred, and it is a populated sample form (LoanSheet: labels, text boxes, frames, buttons, grid), not a blank gray window. HIST-02 notes the sibling 32-bit About capture shows a blank Form1 in the same layout, but that capture is not committed (serial number).",
+          "evidence": "The form window spans original x 76-554 (centre about x=315), so it is centre-left rather than centred, and it is a populated sample form (LoanSheet: labels, text boxes, frames, buttons, grid; the Microsoft VB 4.0 Grid sample, see loan_project_research), not a blank gray window. HIST-02 notes the sibling 32-bit About capture shows a blank Form1 in the same layout, but that capture is not committed (serial number).",
           "review_question": "XTRA-05-RQ3"
         },
         {
@@ -112,10 +276,10 @@
           "id": "P1",
           "claim": "The asset makes no VB4 compile/run or Program.vb claim.",
           "status": "supported",
-          "evidence": "On-screen authored text is only the five labels. No code excerpt, output or execution is shown or implied."
+          "evidence": "On-screen authored text is only the five labels (in every annotated variant). No code excerpt, output or execution is shown or implied."
         }
       ],
-      "reason": "The picture is authentic VB4 and three of five labels are VB4-documented names. 'Project Explorer' (and, less critically, 'Form Designer') is later-version wording, and the narration's form/code-window description only partly matches this capture. Those are wording decisions for the Writing Lead that evidence cannot settle, so R03 stays blocked for release. No War/SCRIPT.md edit was made.",
+      "reason": "The picture is authentic VB4, every label has a verified target, and four of five labels are VB4-documented names ('Project Window' now follows the working script). 'Form Designer' is later-version wording, and the narration's form/code-window description only partly matches this capture. Devin routed both to the Writing Lead; they are wording decisions evidence cannot settle, so R03 stays blocked for release. No War/SCRIPT.md edit was made.",
       "review_questions": ["XTRA-05-RQ2", "XTRA-05-RQ3"],
       "approver": null,
       "decision": null
@@ -124,33 +288,33 @@
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
       "status": "blocked",
-      "evidence_paths": ["provenance.json", "placement-checks.json", "../../../historical/HIST-02/evidence/rights.json", "../../../historical/HIST-02/evidence/source.json", "../../../historical/HIST-02/evidence/claim-checks.json"],
+      "evidence_paths": ["provenance.json", "placement-checks.json", "source-excerpts.md", "../../../historical/HIST-02/evidence/rights.json", "../../../historical/HIST-02/evidence/source.json", "../../../historical/HIST-02/evidence/claim-checks.json"],
       "claim_checks": [
         {
           "id": "L1",
           "claim": "The image's rights holder, host terms, access method and credit are recorded.",
-          "status": "supported (inherited)",
-          "evidence": "HIST-02 rights.json: Microsoft (UI copyright), unknown WinWorld capturer, unknown author of the 'Loan' project; WinWorld grants no screenshot license; public URL, no account or terms; rights_status 'unresolved'; credit_text null; proposed credit recorded."
+          "status": "supported (inherited, rights holder list narrowed)",
+          "evidence": "HIST-02 rights.json: Microsoft (UI copyright), unknown WinWorld capturer, 'unknown author of the Loan project'; WinWorld grants no screenshot license; public URL, no account or terms; rights_status 'unresolved'; credit_text null; proposed credit recorded. This asset's research identifies the Loan project as Microsoft's VB 4.0 Grid sample (loan_project_research), so the project's rights holder is Microsoft."
         },
         {
           "id": "L2",
           "claim": "The image is licensed or permitted for use in the video.",
           "status": "not_established",
-          "evidence": "HIST-02 release_status 'blocked' (RQ-HIST-02-1). Annotating it changes nothing about its rights.",
-          "review_question": "XTRA-05-RQ4"
+          "evidence": "HIST-02 release_status 'blocked' (RQ-HIST-02-1: Microsoft's published screenshot permission, another basis, or not at all). Annotating or re-laying out the image changes nothing about its rights.",
+          "review_question": "RQ-HIST-02-1 (upstream)"
         },
         {
           "id": "M1",
-          "claim": "clean-workspace meets Microsoft's stated form conditions 'resize only' and 'no portions'.",
+          "claim": "Clean placements meet Microsoft's stated form conditions 'resize only' and 'no portions'.",
           "status": "supported_for_form_only",
-          "evidence": "placement-checks.json: the whole 800x600 image at exactly 1.5x (1200x900), 0 differing pixels against a fresh BOX resample, mat ring outside untouched, no text. Whether pillarboxing/framing counts as alteration is already open upstream."
+          "evidence": "placement-checks.json: clean-workspace is the whole 800x600 image at exactly 1.5x (1200x900) with 0 differing pixels against a fresh BOX resample; the left screenshot of side-by-side is the whole image at native 1.0x, embedded as the HIST-02 file's own bytes, with 0 differing pixels; both mat rings untouched; no gold pixel on either. Whether framing counts as alteration is already open upstream."
         },
         {
           "id": "M2",
-          "claim": "five-callouts meets 'Do not alter the screenshot except to resize it'.",
-          "status": "unresolved",
-          "evidence": "The whole screenshot is kept (no portion is isolated), but 37,080 export pixels over the image are covered by annotation marks: window-frame outlines and leaders over empty desktop (evidence/placement-checks.json lists the original pixels per mark; none is code or text). Whether overlay callouts count as alteration is a legal reading evidence cannot settle (carries RQ-HIST-02-3).",
-          "review_question": "XTRA-05-RQ1"
+          "claim": "Annotated placements meet 'Do not alter the screenshot except to resize it'.",
+          "status": "resolved: callout marks allowed (Devin, 2026-09-15)",
+          "evidence": "The whole screenshot is kept in every variant. five-callouts: 37,080 export pixels over the image are covered by window-frame outlines and leaders over empty desktop. side-by-side (annotated right screenshot): 19,736 pixels, 4 px outlines inside the 4 px window frame band and leaders over desktop teal only. placement-checks.json lists the original pixels per mark; none is code or text.",
+          "resolution": {"resolved_by": "Devin", "resolved_at": "2026-09-15", "decision": "Marks over the Microsoft screenshot are allowed; keep the outline and leader treatment; no fallback needed.", "carries": "RQ-HIST-02-3", "relayed_by": "Render Lane Manager (session vb-8c)", "applies_to": ["five-callouts", "side-by-side"]}
         },
         {
           "id": "C1",
@@ -161,10 +325,9 @@
         },
         {
           "id": "T1",
-          "claim": "No third-party content concern is introduced or resolved by this asset.",
-          "status": "unresolved (inherited)",
-          "evidence": "The 'Loan' project (LOAN.FRM, form graphic) authorship is unknown (RQ-HIST-02-2); both variants show it whole.",
-          "review_question": "XTRA-05-RQ5"
+          "claim": "No third-party content concern is introduced or left unresolved by this asset.",
+          "status": "resolved_by_evidence: the 'Loan' project is a Microsoft VB 4.0 sample",
+          "evidence": "loan_project_research: KB Q150726 lists loan.frm / loan.frx / loan.vbp in \\vb\\samples\\grid for all VB 4.0 editions; three archive.org VB 4.0 CD listings show VB/SAMPLES/GRID/LOAN.* with identical sizes; the capture shows project 'Loan', LOAN.FRM and a Grid control. Limit: the form file's text was not compared (disc-image extraction not done). Microsoft content, same holder as the IDE; its use is governed by RQ-HIST-02-1, not a separate third-party question."
         },
         {
           "id": "B1",
@@ -173,8 +336,9 @@
           "evidence": "state.json and delivery.json release_status 'blocked', unresolved_gates R03 and R14; no file placed in any cleared-media bin."
         }
       ],
-      "reason": "The underlying screenshot's rights are unresolved upstream, and whether callout marks over a whole Microsoft screenshot are permitted is an open legal/edit question. Internal proof only.",
-      "review_questions": ["XTRA-05-RQ1", "XTRA-05-RQ4", "XTRA-05-RQ5"],
+      "reason": "The marks question (RQ1) is decided (allowed) and the Loan project is Microsoft content (RQ5 answered by evidence), but the underlying screenshot's permission basis is still undecided upstream (RQ-HIST-02-1) and the credit placement is open with the producer (RQ4). Internal proof only.",
+      "review_questions": ["XTRA-05-RQ4"],
+      "upstream_blockers": ["RQ-HIST-02-1"],
       "approver": null,
       "decision": null
     }
@@ -185,24 +349,29 @@
       "gate": "R14",
       "carries": "RQ-HIST-02-3",
       "for": "Devin (rights / edit)",
-      "question": "Microsoft's screenshot terms say 'Do not alter the screenshot except to resize it' and 'Do not use portions of screenshots'. five-callouts keeps the whole screenshot but draws 5 px outlines on five window frames and five leader lines over empty desktop (every covered original pixel is listed in evidence/placement-checks.json; no code or text is covered). Are callout marks over a whole Microsoft screenshot acceptable? If not: use clean-workspace (whole, resize-only, frame outside) and put the labels in a separate layer whose leaders stop at the image edge (buildable on request), or arrange a native capture.",
-      "evidence": "evidence/claim-checks.json (R14 M1, M2); evidence/provenance.json annotation_edit_history; ../../historical/HIST-02/evidence/rights.json",
-      "blocks": "release only"
+      "status": "resolved",
+      "question": "Are callout marks (window-frame outlines and leaders over empty desktop) over a whole Microsoft screenshot acceptable?",
+      "resolution": {"resolved_by": "Devin", "resolved_at": "2026-09-15", "decision": "Allowed. Keep the outline and leader treatment; no fallback needed.", "implemented_in": ["five-callouts", "side-by-side"]},
+      "evidence": "evidence/claim-checks.json (R14 M1, M2); evidence/placement-checks.json",
+      "blocks": "nothing"
     },
     {
       "id": "XTRA-05-RQ2",
       "gate": "R03",
       "carries": "RQ-HIST-02-4",
-      "for": "Writing Lead",
-      "question": "The callout 'Project Explorer' is later-version (VB6-documented) terminology. VB4's window is titled with the project name ('Loan'), and a VB 4.0-only Microsoft KB article (Q140350) calls it the 'Project window'. The render keeps the ticket copy 'Project Explorer' as instructed. Note that War/SCRIPT.md:133 was already changed to 'Project Window' in commit 9e6f14a (Writing Lead batch) while the ticket/manifest copy still says 'Project Explorer', so the picture and the working script now disagree. Confirm 'Project Window' (the label then needs a producer-approved copy override in src/build.py and a re-render; one label only) or keep 'Project Explorer'? Lower priority: 'Form Designer' is also VB6 documentation wording for what VB4 material calls the form; keep it, or use e.g. 'Form'?",
-      "evidence": "evidence/claim-checks.json (label_checks, R03 N1); evidence/source-excerpts.md §2 and §6",
-      "blocks": "release only (R03)"
+      "for": "Writing Lead (remaining note)",
+      "status": "partly_resolved",
+      "question": "Original: 'Project Explorer' (VB6 term) or VB4's 'Project window'? Lower priority: 'Form Designer' is also VB6 documentation wording for what VB4 material calls the form; keep it, or use e.g. 'Form'?",
+      "resolution": {"resolved_by": "Devin", "resolved_at": "2026-09-15", "resolved_part": "Project label: 'Project Window', following War/SCRIPT.md:133 at 9e6f14a (writing change); build.py now reads the labels from that cue.", "open_part": "'Form Designer' wording note stays with the Writing Lead; label unchanged."},
+      "evidence": "evidence/claim-checks.json (copy_override, label_checks, R03 N1); evidence/source-excerpts.md §2 and §6",
+      "blocks": "release only (R03), via the open Form Designer note"
     },
     {
       "id": "XTRA-05-RQ3",
       "gate": "R03",
-      "for": "Writing Lead",
-      "question": "The narration over this visual (War/SCRIPT.md:135) says the form was 'in the center' as 'a blank gray window' and the code window was 'behind all of it'. In the only accepted VB4 capture the form is centre-left, it is a populated sample (LoanSheet), and the Code window is open in front of the form. Toolbox-left and properties-right match. Keep the narration as a general description of the IDE (possibly with 'behind' read as 'the code behind the form'), soften it (for example 'and a code window where you wrote your actual BASIC'), or ask the edit to hold on clean-workspace during that sentence? No script edit was made.",
+      "for": "Writing Lead (routed by Devin, 2026-09-15)",
+      "status": "open",
+      "question": "The narration over this visual (War/SCRIPT.md:135) says the form was 'in the center' as 'a blank gray window' and the code window was 'behind all of it'. In the only accepted VB4 capture the form is centre-left, it is a populated Microsoft sample (LoanSheet), and the Code window is open in front of the form. Toolbox-left and properties-right match. Keep the narration as a general description of the IDE (possibly with 'behind' read as 'the code behind the form'), soften it (for example 'and a code window where you wrote your actual BASIC'), or ask the edit to hold on the clean screenshot during that sentence? No script edit was made and the art is unchanged.",
       "evidence": "evidence/claim-checks.json (R03 L1-L4)",
       "blocks": "release only (R03)"
     },
@@ -210,27 +379,32 @@
       "id": "XTRA-05-RQ4",
       "gate": "R14",
       "carries": "RQ-HIST-02-1",
-      "for": "Devin (rights / credits)",
-      "question": "No credit is burned into either variant, because HIST-02's proposed credit ('... Used with permission from Microsoft.') must not be used before the rights basis is decided. If Microsoft's screenshot permission is the chosen basis, where should the required statement go: video description, end credits, or on screen? At 1.5x there is no room inside the text safe area below the screenshot; an on-screen line would need the image reduced slightly (about 1.44x) and a re-render.",
-      "evidence": "evidence/claim-checks.json (R14 C1); ../../historical/HIST-02/evidence/source.json proposed_credit_notes",
+      "for": "Producer (routed by Devin, 2026-09-15)",
+      "status": "open",
+      "question": "No credit is burned into any variant, because HIST-02's proposed credit ('... Used with permission from Microsoft.') must not be used before the rights basis is decided. If Microsoft's screenshot permission is the chosen basis, where should the required statement go: video description, end credits, or on screen? Layout facts for the decision (no art changed): side-by-side leaves an empty dark area below the clean screenshot inside the safe area (about x 120-935, y 770-1008), so an on-screen line would fit there without re-layout; five-callouts and clean-workspace at 1.5x have no room inside the safe area below the screenshot (an on-screen line would need the image reduced to about 1.44x and a re-render).",
+      "evidence": "evidence/claim-checks.json (R14 C1); ../../historical/HIST-02/evidence/source.json proposed_credit_notes; src/layout.json side_by_side",
       "blocks": "release only"
     },
     {
       "id": "XTRA-05-RQ5",
       "gate": "R14",
       "carries": "RQ-HIST-02-2",
-      "for": "Devin (rights)",
-      "question": "Both variants show the 'Loan' project (LOAN.FRM, including its form graphic) whole; its authorship is unestablished and Microsoft's terms exclude screenshots containing third-party content. Inherited unchanged from HIST-02; release of XTRA-05 follows that decision.",
-      "evidence": "../../historical/HIST-02/evidence/rights.json",
-      "blocks": "release only"
+      "for": "none (answered by evidence)",
+      "status": "resolved_by_evidence",
+      "question": "Who authored the 'Loan' project (LOAN.FRM, form LoanSheet) shown whole in every variant?",
+      "resolution": {"conclusion": "Microsoft sample: the Visual Basic 4.0 Grid sample (\\vb\\samples\\grid\\loan.vbp, loan.frm, loan.frx).", "evidence": "KB Q150726; three archive.org VB 4.0 CD contents listings; the capture's project name, form file and Grid control (loan_project_research).", "limit": "Form file text not compared (no disc-image extraction).", "does_not_clear": "R14 still depends on RQ-HIST-02-1."},
+      "evidence": "evidence/claim-checks.json loan_project_research; evidence/source-excerpts.md §7",
+      "blocks": "nothing (no longer a review question)"
     },
     {
       "id": "XTRA-05-RQ6",
       "gate": "R03",
       "for": "Devin (edit)",
-      "question": "The cue says 'Side-by-side — the VB4 IDE with labeled callouts'. Two full-frame stills share an identical screenshot rectangle, so the edit can cut or dissolve from clean-workspace to five-callouts. A literal side-by-side of both would halve the screenshot (about 0.75x) and make its UI text unreadable at 720p. Is cut/dissolve acceptable, or is a split-screen wanted?",
-      "evidence": "qa.md (manual inspection); src/layout.json placement",
-      "blocks": "nothing (edit choice)"
+      "status": "resolved",
+      "question": "The cue says 'Side-by-side'. Is cut/dissolve between two full-frame stills acceptable, or is a split-screen wanted?",
+      "resolution": {"resolved_by": "Devin", "resolved_at": "2026-09-15", "decision": "Side-by-side is a good default when it makes sense; add a named side-by-side variant.", "implemented": "side-by-side: clean left, annotated right, both whole at native 1.0x; poster.png = side-by-side after the 720p review (qa.md). clean-workspace and five-callouts kept."},
+      "evidence": "qa.md (manual inspection); src/layout.json side_by_side; evidence/placement-checks.json",
+      "blocks": "nothing"
     }
   ]
 }
