@@ -18,7 +18,7 @@ def main() -> int:
     except (OSError,ValueError,KeyError) as exc:
         print(f'ERROR: Cannot read dispatch state: {exc}',file=sys.stderr)
         return 1
-    accepted = {'reviewed','scouted','no_match'}
+    accepted = {'produced','reviewed','scouted','no_match'}
     shown = 0
     for row in rows:
         if args.lane and row['lane'] != args.lane: continue

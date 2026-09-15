@@ -22,9 +22,15 @@ Archives retain an acquired native original, source.json, rights.json, and an ed
 Stock scouting delivers a ranked candidate report, structured candidates, and a handoff. It does not require a video download when access is gated. Each candidate names its inspected shot, source URL, creator, duration, native size, proposed source in/out, license evidence, access barrier, and acquisition status. A no-match result is explicit. Actual downloaded footage, when permitted, is preserved as additional original media; never remove watermarks or bypass restrictions.
 
 ## Distinguish workflow state from release
-Production statuses: planned, in_progress, produced, reviewed, blocked, scouted, no_match. Release statuses: unreviewed, blocked, approved, not_applicable. A still with an unverified historical caption can be produced as a proof while release remains blocked. A scouted B-roll URL is not an acquired video. A reviewed internal proof may serve as a design dependency, but final cleared-media inventory includes only assets with actual media and approved release. Generic release approvals do not override per-source rights or factual gates.
+Production statuses: planned, in_progress, produced, blocked, scouted, no_match. Release statuses: unreviewed, blocked, approved, not_applicable. A still with an unverified historical caption can be produced as a proof while release remains blocked. A scouted B-roll URL is not an acquired video.
 
-The asset owner updates its state file; a producer/reviewer records approval. Include a human-readable decision trail. Do not authorize yourself to resolve a rights/payment/publication question. Production coordination may continue around blocked assets and must report exceptions rather than dropping them silently.
+**A dependency is satisfied once it is produced.** Dependents may proceed as soon as the upstream ticket reaches `produced`; they do not wait for release approval.
+
+**Editorial gates are agent work.** Each worker checks its ticket's flagged claims against primary sources, records evidence in `evidence/claim-checks.json`, and fixes the asset or `War/SCRIPT.md` when the claim is wrong. A question that evidence cannot settle becomes a **review question** handed to the producer for the review deck (OPS-04).
+
+**Release approval comes from the review deck**, not per-asset producer sign-off. The producer collects all produced assets and their review questions into the OPS-04 review deck; Devin approves or requests changes there. Until that review, release stays `unreviewed` or `blocked`.
+
+The asset owner updates its state file. Do not authorize yourself to resolve a rights/payment/publication question. Production coordination may continue around blocked assets and must report exceptions rather than dropping them silently.
 
 ## QA tools
 `python tools/validate_pack.py` validates the planning package: source hashes, ID/path uniqueness, original-plan and script coverage, line ranges, dependencies, cycles, and fixture integrity. It does not require future media to exist.
