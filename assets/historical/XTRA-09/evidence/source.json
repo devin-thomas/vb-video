@@ -1,0 +1,87 @@
+{
+  "id": "XTRA-09",
+  "subject": "Apple Macintosh Performa 630CD (desktop), front view",
+  "creator": {
+    "as_licensed": "Akbkuku",
+    "commons_category": "Photographs by Shelby Jueden",
+    "identity_note": "Commons names the author as 'Akbkuku' and files the photo under 'Photographs by Shelby Jueden' (Tech Tangents). The archived source page shows Akbkuku uploaded it to wiki.techtangents.net as 'own work', and an 'akbkuku' namespace exists on git.techtangents.net. That Akbkuku is Shelby Jueden is an inference, not a documented statement."
+  },
+  "title": "Apple-macintosh-performa-630cd.jpg",
+  "description_at_source": "Apple Macintosh Performa 630CD",
+  "original_publication_date": "2023-07-04 (uploaded to wiki.techtangents.net 19:39, 4 July 2023, the date Commons records)",
+  "commons_transfer_date": "2023-07-21 06:02 (Commons file history, user DigitalIceAge)",
+  "photograph_date": {
+    "value": "unknown",
+    "exif_DateTimeOriginal": "2002:02:09 09:59:45",
+    "exif_DateTime_modified": "2023:07:04 12:31:29 (GIMP 2.10.30)",
+    "assessment": "EXIF DateTimeOriginal is not credible: the camera (NIKON D5300) was announced by Nikon on 2013-10-17, so the camera clock was unset. The photograph was taken between 2013-10-17 and 2023-07-04. Commons structured data repeats the 2002 EXIF date as 'inception'; do not use it.",
+    "evidence": [
+      "https://www.nikon.com/company/news/2013/1017_dslr_01/",
+      "https://www.nikonusa.com/press-room/d5300-capture-create-connect"
+    ]
+  },
+  "depicted_event_date": "not applicable (product photograph of surviving hardware, not a 1990s event)",
+  "depicted_model": {
+    "model": "Macintosh Performa 630CD",
+    "apple_model_number": "M3076",
+    "model_evidence": [
+      "Front badge in source/original.jpg reads 'Macintosh' and 'Performa 630CD' (rainbow Apple logo).",
+      "Rear label in evidence/identity/performa-630cd-tag.jpg (same uploader, same camera, EXIF 5 minutes later) reads 'Apple Computer, Inc. / Cupertino, California / Assembled in U.S.A. / Model Number: M3076' and 'FCC ID: BCGM3076'.",
+      "The badge does not say 'DOS Compatible', so this is not the 630CD DOS Compatible variant (Apple 112346, introduced 5/1/1995)."
+    ],
+    "release": {
+      "introduced": "1994-07-01",
+      "discontinued": "n/a (as listed by Apple)",
+      "original_system_software": "7.1.2P",
+      "source": "https://support.apple.com/en-us/112345",
+      "source_title": "Macintosh Performa 630 and 630CD: Technical Specifications (Apple Support)"
+    },
+    "era_fit": "A 1994 consumer Performa that Apple still sold in 1995, shipping with System 7.1.2P. It fits 'a mid-90s Macintosh — maybe a Performa' for the 1995 narration line."
+  },
+  "source_urls": {
+    "commons_file_page": "https://commons.wikimedia.org/wiki/File:Apple-macintosh-performa-630cd.jpg",
+    "commons_original_file": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Apple-macintosh-performa-630cd.jpg",
+    "upstream_page": "https://wiki.techtangents.net/wiki/File:Apple-macintosh-performa-630cd.jpg",
+    "upstream_page_archived": "https://web.archive.org/web/20230721060206/https://wiki.techtangents.net/wiki/File:Apple-macintosh-performa-630cd.jpg",
+    "upstream_original_file": "https://wiki.techtangents.net/w/images/b/ba/Apple-macintosh-performa-630cd.jpg"
+  },
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS GET of the Commons original (no account, no terms accepted). The live upstream wiki answered with an Anubis bot-check page, which was not bypassed; the upstream page was read from its Internet Archive snapshot instead.",
+  "original_file": {
+    "path": "source/original.jpg",
+    "bytes": 3966535,
+    "sha256": "f92f221b042a6122f5511cfed652e761adae7cee9388d56772ed69ad87f9386f",
+    "format": "JPEG",
+    "dimensions": [5444, 2921],
+    "exif": {
+      "Make": "NIKON CORPORATION",
+      "Model": "NIKON D5300",
+      "Software": "GIMP 2.10.30",
+      "DateTime": "2023:07:04 12:31:29",
+      "DateTimeOriginal": "2002:02:09 09:59:45"
+    },
+    "note": "Byte-identical to the Commons original as downloaded. Already edited upstream (GIMP) before publication; no further change made here."
+  },
+  "identity_evidence_file": {
+    "path": "evidence/identity/performa-630cd-tag.jpg",
+    "commons_file_page": "https://commons.wikimedia.org/wiki/File:Apple-macintosh-performa-630cd-tag.jpg",
+    "retrieved_via": "https://commons.wikimedia.org/wiki/Special:FilePath/Apple-macintosh-performa-630cd-tag.jpg",
+    "bytes": 6860830,
+    "sha256": "8c4ad23b0c8e90b2029386a4c5e8db2b8c5316990de05a88a74e981f80f4eb0c",
+    "dimensions": [4000, 6000],
+    "exif_DateTimeOriginal": "2002:02:09 10:04:16",
+    "licensing": "Same Commons wikitext as the main photo: Author=Akbkuku, {{cc-by-4.0|Akbkuku}}. Evidence only; not for broadcast."
+  },
+  "transformations": [
+    "exports/editorial-frame.png: uniform LANCZOS downscale to fit the safe area x=120..1800, y=72..1008, centred on #111318. No crop, no retouch, no stretch, no burned-in text. Parameters in evidence/framing.json.",
+    "proofs/editorial-frame-720.png: 1280x720 downscale of the export, for review only."
+  ],
+  "license": {
+    "as_recorded_on_commons": "CC BY 4.0 ({{cc-by-4.0|Akbkuku}})",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "as_recorded_upstream": "Footer of the archived upstream page: 'Content is available under Creative Commons Attribution unless otherwise noted.' (no version stated)",
+    "details": "evidence/rights.json"
+  },
+  "rights_status": "unverified",
+  "credit_text": "Macintosh Performa 630CD photo: Akbkuku (Tech Tangents), CC BY 4.0, via Wikimedia Commons. Resized and framed."
+}

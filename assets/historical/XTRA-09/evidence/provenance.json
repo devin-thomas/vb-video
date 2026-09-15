@@ -1,0 +1,54 @@
+{
+  "id": "XTRA-09",
+  "classification": "historical source (third-party archival product photograph)",
+  "original_plan_row": "none — SCRIPT-SUPPLEMENT: a visual named in SCRIPT.md but omitted from the categorized asset plan",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [639, 643],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [696, 700],
+      "sha256": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working script, same wording (Section 15); read only, not edited"
+    },
+    {
+      "path": "source/original.jpg",
+      "sha256": "f92f221b042a6122f5511cfed652e761adae7cee9388d56772ed69ad87f9386f",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Apple-macintosh-performa-630cd.jpg",
+      "relationship": "historical original (native JPEG as published on Wikimedia Commons)"
+    },
+    {
+      "path": "evidence/identity/performa-630cd-tag.jpg",
+      "sha256": "8c4ad23b0c8e90b2029386a4c5e8db2b8c5316990de05a88a74e981f80f4eb0c",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apple-macintosh-performa-630cd-tag.jpg",
+      "relationship": "identity evidence (rear model label of the same machine); not for broadcast"
+    }
+  ],
+  "derived": [
+    {
+      "path": "exports/editorial-frame.png",
+      "from": "source/original.jpg",
+      "relationship": "derivative framing (uniform scale, no crop)",
+      "script": "src/make_frame.py",
+      "parameters": "evidence/framing.json"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "from": "exports/editorial-frame.png",
+      "relationship": "720p review proof"
+    }
+  ],
+  "authored_additions": [
+    "#111318 background outside the photo (bible dark background token).",
+    "Proposed credit text in evidence/source.json and evidence/rights.json."
+  ],
+  "producer_decisions": [],
+  "not_done": [
+    "No AI generation, redraw, upscaling, retouching, colour change, or watermark removal.",
+    "No edit to sources/, War/SCRIPT.md, assets/shared/, manifest.json, or any other asset folder."
+  ]
+}

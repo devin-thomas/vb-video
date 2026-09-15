@@ -1,0 +1,75 @@
+{
+  "id": "XTRA-09",
+  "access_date": "2026-09-15",
+  "search_record": [
+    "Wikimedia Commons Category:Macintosh Performa: 28 files and 2 subcategories listed; file pages inspected for 630CD, 5200, 5260, 580CD and 6200.",
+    "Wikimedia Commons Category:PowerBook: 6 subcategories (68k, Duo, G3, G4, G5, PowerPC) and 1 file (a 2009 museum exhibition photo). The PowerBook subcategories were not browsed file by file. The Performa route gave a clear, identifiable 1994–1995 candidate first.",
+    "The Commons API search returned HTTP 429 (rate limit), so individual file pages were read instead of running scripted API queries.",
+    "Apple Support technical-specification pages were used as the primary source for release dates."
+  ],
+  "selected": "Apple-macintosh-performa-630cd.jpg",
+  "candidates": [
+    {
+      "rank": 1,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Apple-macintosh-performa-630cd.jpg",
+      "model": "Macintosh Performa 630CD (M3076)",
+      "introduced": "1994-07-01 (Apple 112345)",
+      "creator": "Akbkuku (filed under Photographs by Shelby Jueden)",
+      "license": "CC BY 4.0 as recorded on Commons; upstream says only 'Creative Commons Attribution'",
+      "native_size": [5444, 2921],
+      "photo_date": "unknown (EXIF 2002 impossible for a D5300; between 2013-10-17 and 2023-07-04)",
+      "strengths": "Clean studio shot; model badge legible; matching rear model label photo; 16:9-friendly aspect; high resolution.",
+      "limitations": "License version and photographer identity not independently verified. Surface dirt and scuffs on the case. A 1994 model rather than one introduced in 1995.",
+      "acquisition": "acquired (source/original.jpg)"
+    },
+    {
+      "rank": 2,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Macintosh_Performa_6200_(front-top).jpg",
+      "model": "Macintosh Performa 6200",
+      "introduced": "1995-05-01 for the 6200CD (Apple 112367, Orig SSW 7.5.1)",
+      "creator": "Remko van Dokkum",
+      "license": "CC BY 2.0, FlickreviewR passed 2018-01-21; Flickr page (read 2026-09-15) also shows CC BY 2.0",
+      "native_size": [1764, 1452],
+      "photo_date": "2011-12-30 15:32:01 (EXIF; Flickr 'taken' date agrees)",
+      "strengths": "Best-verified license; a model introduced in 1995.",
+      "limitations": "Nokia N95 phone photo from a marketplace listing ('Te koop - For sale'); owner-applied Apple logo sticker, so not stock appearance; lower resolution. The Commons original download returned HTTP 429 repeatedly, so the image was judged from the file page description, not viewed at full size.",
+      "acquisition": "not acquired"
+    },
+    {
+      "rank": 3,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Macintosh_Performa_580CD_-_front.jpg",
+      "model": "Macintosh Performa 580CD",
+      "introduced": "1995-05-01 (Apple 112344, Orig SSW 7.5)",
+      "creator": "National Library of New Zealand",
+      "license": "CC BY 3.0 NZ as recorded on Commons (no license-review template); the linked natlib.govt.nz blog post rendered no text to the fetch tool, so the license at source is unconfirmed",
+      "native_size": [664, 808],
+      "photo_date": "2012-07-27 15:18:04 (EXIF, Canon EOS 5D Mark II)",
+      "strengths": "Institutional creator; a model introduced in 1995; all-in-one with built-in display.",
+      "limitations": "Low resolution (808 px tall) for a 1080p frame; license at source unconfirmed; download returned HTTP 429.",
+      "acquisition": "not acquired"
+    },
+    {
+      "rank": 4,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Macintosh_Performa_5200.jpg",
+      "model": "Macintosh Performa 5200",
+      "creator": "not specified in machine-readable form; source All About Apple museum",
+      "license": "CC BY-SA 2.5 IT / GFDL 1.2+ / CC BY-SA 3.0 (migration)",
+      "native_size": [800, 899],
+      "photo_date": "unknown (uploaded 2005-04-10)",
+      "limitations": "Author not named; low resolution; share-alike.",
+      "acquisition": "not acquired"
+    },
+    {
+      "rank": 5,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Macintosh_Performa_5260_front.jpg",
+      "model": "Macintosh Performa 5260/120",
+      "creator": "Stephen Edmonds",
+      "license": "CC BY-SA 2.5",
+      "native_size": [1280, 1024],
+      "photo_date": "2009-09-01",
+      "limitations": "A 1996 model (later than the narration year); share-alike.",
+      "acquisition": "not acquired"
+    }
+  ],
+  "hist21_separation": "assets/historical/HIST-21/ contains only a planning state.json (production_status planned); no System 7 desktop capture exists there. This package is a hardware photograph with no screen content, so it does not duplicate HIST-21."
+}
