@@ -1,0 +1,63 @@
+{
+  "id": "BROLL-05",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "open",
+      "approver": null,
+      "reason": null,
+      "decision_record": null,
+      "evidence_paths": [
+        "evidence/candidates.json",
+        "exports/candidates.md",
+        "exports/acquisition-handoff.md",
+        "evidence/source-excerpts.md"
+      ],
+      "plan_assumption_checked": "ASSET_PLAN.md:109-122 says Pexels/Pixabay are browsable without login. Confirmed for Pexels (asset page, license page and size dropdown visible without login, no CAPTCHA seen on 2026-09-15). Pixabay browsing worked via WebFetch but yielded no floppy-insertion video. This is not a rights clearance.",
+      "per_candidate": [
+        {
+          "candidate": "Pexels 20503026 (rank 1)",
+          "creator": "Stefan (Pexels)",
+          "file_specific_terms": "Pexels License (asset page badge 'Free'); https://www.pexels.com/license/ read 2026-09-15: free to use, attribution not required, modification allowed; prohibits selling unaltered copies, redistribution on stock platforms, implying endorsement, trademark use, and portraying identifiable people badly.",
+          "access_method": "Public asset page; free download button without login (not exercised).",
+          "credit": "Optional. Suggested: 'Video: Stefan / Pexels'.",
+          "rights_status": "blocked - not acquired; license text read but no license snapshot saved with a downloaded original; release decision pending review deck",
+          "open_points": ["RQ3"]
+        },
+        {
+          "candidate": "Mixkit 48937 (rank 2)",
+          "creator": "not shown on rendered page (unknown)",
+          "file_specific_terms": "Free 720p: Mixkit Restricted License, 'for Personal Use only' (asset page); https://mixkit.co/license/#videoRestricted; Mixkit info page: personal, non-commercial only, not monetized or commercial content. 4K commercial: Envato subscription (paid).",
+          "access_method": "Free 720p link without login (not exercised); 4K via paid Envato subscription.",
+          "credit": "unknown creator",
+          "rights_status": "blocked - license incompatible with a public video unless paid route is approved",
+          "open_points": ["RQ4"]
+        }
+      ],
+      "review_questions": [
+        {
+          "id": "RQ1",
+          "type": "editorial/taste",
+          "question": "The best clip's clean insertion span is about 6.0 s (00:00.00-00:06.00), below the 8-12 s preference. Accept 6 s, slow it to about 75% for ~8 s, or run to ~00:09.50 which adds the eject press and ejection (the opposite action)?"
+        },
+        {
+          "id": "RQ2",
+          "type": "editorial/authenticity",
+          "question": "The recommended clip shows a bare beige drive lying on diamond-plate metal with a warm light flare, shot at a diagonal, not a drive installed in a mid-90s PC. Acceptable for script sections 3 and 12?"
+        },
+        {
+          "id": "RQ3",
+          "type": "legal risk",
+          "question": "The disk label legibly shows 'IBM' (and a partly legible brand word). Pexels terms prohibit implying endorsement by brands shown. Is incidental visible trademark text acceptable here, or should the edit crop/soften the label?"
+        },
+        {
+          "id": "RQ4",
+          "type": "legal/cost",
+          "question": "Mixkit 48937's free version is personal-use only. Confirm it stays excluded, or approve a paid Envato route (currently outside the no-paid-footage boundary)."
+        }
+      ],
+      "notes": "Gate intentionally left open. The agent does not approve R14; release approval comes from the OPS-04 review deck."
+    }
+  ]
+}

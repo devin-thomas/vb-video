@@ -1,0 +1,142 @@
+{
+  "id": "BROLL-05",
+  "title": "Floppy disk insertion close-up",
+  "production_status": "scouted",
+  "release_status": "blocked",
+  "provenance_type": "stock footage scouting report (no media acquired)",
+  "shared_version": "not_applicable (scouting report; no shared template or renderer used)",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "qa.md",
+      "role": "qa report",
+      "bytes": 6084,
+      "sha256": "c373f3e1a9293491d9c5fb13c6f5242779688164b41901a29bbe145e42824121"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 1642,
+      "sha256": "52d01981037cff3ebf04d05bae22af69a91aa695da4b19b025dcb201fe10698a"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 2037,
+      "sha256": "70901ed18a1bd569ea60f13376d1a71ef94a003206f8035762f101c9425b9c96"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "gate evidence and review questions",
+      "bytes": 3729,
+      "sha256": "0d1d80dcbd2bf86c3c1ae3d2dfe49aecc811860847cea390fec397112a173ce1"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "ranked candidate report",
+      "bytes": 4727,
+      "sha256": "eeea78a09e0177152c3e3a2d4a89a48c90b03b006d8a0baae4c8f998f92b89f0"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "role": "structured candidates and search log",
+      "bytes": 14112,
+      "sha256": "6f1fb7de6fb2240e50ae8fdb23f9e962f52403f3c728a013e48fb881b5df208e"
+    },
+    {
+      "path": "exports/acquisition-handoff.md",
+      "role": "acquisition handoff (pending free download + H02)",
+      "bytes": 4112,
+      "sha256": "048245d37037a95ea9c0b87d43cc3aaaa6a487db4f2be1e6f11effffcbcd9bdd"
+    }
+  ],
+  "variants": [
+    {
+      "name": "candidate-report",
+      "path": "exports/candidates.md",
+      "timeline": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        109,
+        122
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        799,
+        805
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503026/",
+      "relationship": "stock candidate",
+      "rank": 1,
+      "creator": "Stefan",
+      "license_url": "https://www.pexels.com/license/",
+      "access_date": "2026-09-15",
+      "acquired": false
+    },
+    {
+      "path": "evidence/candidates.json",
+      "url": "https://mixkit.co/free-stock-video/floppy-disk-being-inserted-into-the-system-unit-48937/",
+      "relationship": "stock candidate",
+      "rank": 2,
+      "creator": null,
+      "license_url": "https://mixkit.co/license/#videoRestricted",
+      "access_date": "2026-09-15",
+      "acquired": false,
+      "rights": "blocked (personal use only)"
+    }
+  ],
+  "credits": [
+    {
+      "candidate": "Pexels 20503026",
+      "text": "Video: Stefan / Pexels",
+      "required": false,
+      "status": "proposed; media not acquired"
+    }
+  ],
+  "tests": [
+    {
+      "name": "validate_delivery",
+      "command": "python tools/validate_delivery.py --id BROLL-05",
+      "result": "pass required before commit; output recorded in worker report"
+    },
+    {
+      "name": "in-page motion review",
+      "method": "Browser seek + screenshot of page preview players",
+      "result": "20503026: 13 frames; 20503027: 5; 48937: 4; 33125208: 3"
+    },
+    {
+      "name": "full-size/720p proof review",
+      "result": "not applicable - no media acquired"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "git": "2.53.0.windows.1",
+    "sha256sum": "GNU coreutils 8.32",
+    "browser": "Claude Code in-app Browser pane (version not exposed)",
+    "web": "WebFetch, WebSearch"
+  },
+  "notes": [
+    "Scouting only: nothing downloaded, nothing cleared. Pexels 20503026 download pending batched approval.",
+    "Recommended in/out 00:00.00-00:06.00 (6.0 s), below the 8-12 s preference; see RQ1.",
+    "R14 left open with per-candidate evidence and review questions RQ1-RQ4 in evidence/claim-checks.json."
+  ]
+}
