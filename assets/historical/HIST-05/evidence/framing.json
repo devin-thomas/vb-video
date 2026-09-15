@@ -1,0 +1,30 @@
+{
+  "input": "original.gif",
+  "input_sha256": "365dca42a5d1ffe14188cc1270cde22f6830c8965a30336e2b06a31cd4f13557",
+  "input_format": "GIF",
+  "input_size": [
+    360,
+    248
+  ],
+  "input_frame_count": 2,
+  "frame_used": 1,
+  "crop": null,
+  "scale": 3,
+  "resample": "nearest",
+  "scaled_size": [
+    1080,
+    744
+  ],
+  "placement": {
+    "x": 420,
+    "y": 168
+  },
+  "canvas": [
+    1920,
+    1080
+  ],
+  "background": "#000000",
+  "added_elements": [],
+  "reverse": "crop box (420,168,1500,912) then downscale by 3 with nearest to recover frame 1",
+  "pillow": "12.3.0"
+}

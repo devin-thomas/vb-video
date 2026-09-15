@@ -1,0 +1,44 @@
+{
+  "id": "HIST-05",
+  "file": "source/original.gif",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:C64_startup_animiert.gif",
+  "rights_holder_or_creator": "Image uploaded as own work by Wikimedia Commons user Gedeon (2006-01-19). The screen content it depicts is the power-on output of the Commodore 64 firmware (Commodore Business Machines).",
+  "license_terms_as_tagged": [
+    {
+      "template": "PD-ineligible",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-ineligible",
+      "claim": "Ineligible for copyright: consists entirely of information that is common property and contains no original authorship."
+    },
+    {
+      "template": "PD-text",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-text",
+      "claim": "The depicted text is not a protected literary work; the template itself notes that this depends on jurisdiction."
+    },
+    {
+      "template": "PD-font",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-font",
+      "claim": "A raster rendering of typeface characters is ineligible for copyright in the United States; the template notes raster renderings may be protected elsewhere."
+    },
+    {
+      "template": "PD-US-1978-89",
+      "url": "https://commons.wikimedia.org/wiki/Template:PD-US-1978-89",
+      "claim": "Published in the United States 1978 to February 1989 without a copyright notice and not registered within 5 years. The template notes the work may remain copyrighted in countries that do not apply the rule of the shorter term."
+    }
+  ],
+  "file_specific": true,
+  "file_specific_note": "The tags are on this file's own page, not inherited from a host page or article.",
+  "access_method": "Public HTTPS download of the original file from upload.wikimedia.org on 2026-09-15. No account, payment, terms acceptance, CAPTCHA or access-control bypass. The file carries no watermark.",
+  "credit_text": "C64 startup screen, by Gedeon, via Wikimedia Commons (public domain)",
+  "credit_text_status": "Proposed by this worker. Public-domain files need no attribution under the tags, but naming the source is recommended.",
+  "rights_status": "unresolved: public domain claimed by Commons tags, not independently cleared",
+  "not_verified": [
+    "Whether the PD-US-1978-89 condition actually applies to the Commodore 64 power-on screen: that it was published without a copyright notice and not registered. No Copyright Office record or firmware notice check was made.",
+    "Whether the firmware start-up text and character set are unprotected outside the United States (PD-text and PD-font are explicitly US-oriented or jurisdiction-dependent).",
+    "The uploader's statement that the image is their own work; the capture method is not documented."
+  ],
+  "non_copyright_notes": [
+    "The words COMMODORE 64 appear on screen. That is a trademark matter, separate from copyright; the Commons page carries no trademark template. Editorial use to identify the product is the intended use here."
+  ],
+  "release_implication": "Release stays blocked under R14 until a rights decision is recorded in the review deck.",
+  "review_question": "Accept the Commons public-domain tagging (PD-ineligible, PD-text, PD-font, PD-US-1978-89) as sufficient for using this C64 start-up screen in the video, or require a separate rights review or a different source?"
+}

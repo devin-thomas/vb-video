@@ -1,0 +1,140 @@
+{
+  "id": "HIST-05",
+  "selected": {
+    "title": "File:C64 startup animiert.gif",
+    "description_on_source": "C64 startup. GIF Animation",
+    "creator": "Gedeon (Wikimedia Commons user; https://commons.wikimedia.org/wiki/User:Gedeon). Real name not given on the file page.",
+    "source_field_on_page": "{{Own}} (own work)",
+    "publication_date": "2006-01-19",
+    "publication_date_evidence": "Information template date=2006-01-19; upload timestamp 2006-01-19T00:25:44Z in the Commons imageinfo API (evidence/commons-imageinfo.json).",
+    "depicted_event_date": null,
+    "depicted_event_date_note": "Unknown. The image shows the Commodore 64 power-on screen, but when or on what machine or emulator it was captured is not stated.",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:C64_startup_animiert.gif",
+    "original_file_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/C64_startup_animiert.gif",
+    "used_on": "Displayed as the startup-screen image in the English Wikipedia article https://en.wikipedia.org/wiki/Commodore_64 (checked 2026-09-15), the lead named in sources/ASSET_PLAN.md:91.",
+    "access": {
+      "date": "2026-09-15",
+      "delivered_copy_fetched_utc": "2026-09-15T20:50:30Z (approximate; start of the fetch after the rate-limit wait)",
+      "route": "Direct HTTPS GET of the original file from upload.wikimedia.org. No account, no terms acceptance, no gated download.",
+      "response_headers": {
+        "Date": "Tue, 15 Sep 2026 20:46:09 GMT (CDN cache date; an earlier request by this worker at about 20:46Z received identical bytes)",
+        "Last-Modified": "Thu, 09 Oct 2014 15:56:07 GMT",
+        "Content-Type": "image/gif"
+      }
+    },
+    "integrity": {
+      "bytes": 1654,
+      "sha1": "79ba302dee5ef066edd31d1e66c5f7c728b62699",
+      "sha1_matches_commons_api": true,
+      "sha256": "365dca42a5d1ffe14188cc1270cde22f6830c8965a30336e2b06a31cd4f13557",
+      "stored_as": "source/original.gif (byte-identical to the downloaded file)"
+    },
+    "original_dimensions": {
+      "width": 360,
+      "height": 248,
+      "format": "GIF89a, palette, 2 frames, 500 ms each, looping",
+      "colours_used": ["#4242E7 (screen)", "#A5A5FF (border and text)"],
+      "palette_transparency_index": 2,
+      "transparency_used": false
+    },
+    "model_and_version_evidence": {
+      "text_in_image": [
+        "row 1: **** COMMODORE 64 BASIC V2 ****",
+        "row 3: 64K RAM SYSTEM  38911 BASIC BYTES FREE",
+        "row 5: READY.",
+        "row 6, column 0: cursor block, visible in frame 1 only"
+      ],
+      "text_read_from": "Both frames viewed at 3x nearest-neighbour enlargement.",
+      "primary_source_match": "Wording and line order match the power-on screen illustrated on printed page 12 of the Commodore 64 User's Guide (Commodore Business Machines, Inc.; https://archive.org/details/commodore-64-user-guide/page/n27/mode/1up). See evidence/source-excerpts.md.",
+      "model_conclusion": "The image names COMMODORE 64 and BASIC V2 and shows 38911 BASIC BYTES FREE, as the C64 manual does. It is a Commodore 64 screen, not a VIC-20 or other Commodore model. This rests on the image's text plus the manual, not on appearance.",
+      "measured_layout": {
+        "border_px": {"left": 20, "right": 20, "top": 22, "bottom": 23},
+        "screen_area_px": [320, 203],
+        "text_grid": "8 x 8 cells aligned at (20,22); row 1 columns 4-34, row 3 columns 1-38, row 5 columns 0-5, cursor at column 0 row 6"
+      },
+      "authenticity_findings": [
+        "Capture method is undocumented: the page says only 'Own work'.",
+        "Only two exact RGB values occur, so the image is a digital render (an emulator capture or an assembled image), not a photograph or video capture of real hardware.",
+        "The blue screen area is 320 x 203 px. A 25-row, 8-pixel text screen is 320 x 200, so the image has 3 extra blue lines at the bottom. This suggests cropping/editing or an inaccurate source rather than an unaltered hardware-exact frame. The text content and layout are unaffected.",
+        "Border and screen colours follow the stock C64 light-blue-on-blue power-on scheme; the exact RGB values are one palette interpretation, not measured hardware output."
+      ]
+    },
+    "transformations_for_editorial_frame": {
+      "record": "evidence/framing.json",
+      "summary": "Frame 1 (cursor visible) of source/original.gif, converted to RGB, scaled 3x with nearest-neighbour to 1080 x 744, centred at (420,168) on a black 1920 x 1080 canvas. No crop, no stretch, no retouching, no watermark removal (the file has none), no added text or UI. Reversible: crop (420,168,1500,912) and downscale 3x nearest to recover frame 1 exactly.",
+      "frame_choice": "Authored production choice: the cursor-visible frame shows the prompt waiting for input. Frame 0 differs only by the missing cursor block."
+    },
+    "license": {
+      "terms_on_page": ["{{PD-ineligible}}", "{{PD-text}}", "{{PD-font}}", "{{PD-US-1978-89}}"],
+      "license_urls": [
+        "https://commons.wikimedia.org/wiki/Template:PD-ineligible",
+        "https://commons.wikimedia.org/wiki/Template:PD-text",
+        "https://commons.wikimedia.org/wiki/Template:PD-font",
+        "https://commons.wikimedia.org/wiki/Template:PD-US-1978-89"
+      ],
+      "rights_status": "public domain as tagged on Commons; not independently cleared (see evidence/rights.json)",
+      "credit_text": "C64 startup screen, by Gedeon, via Wikimedia Commons (public domain)"
+    }
+  },
+  "search_log": [
+    {"date": "2026-09-15", "where": "English Wikipedia, Commodore 64 article", "result": "Startup image is File:C64 startup animiert.gif."},
+    {"date": "2026-09-15", "where": "Wikimedia Commons MediaSearch 'Commodore 64 BASIC startup screen'", "result": "No boot-screen files returned (SX-64 photo, charset chart)."},
+    {"date": "2026-09-15", "where": "Wikimedia Commons Category:Commodore 64 screenshots (full listing)", "result": "Boot-screen candidates listed below."},
+    {"date": "2026-09-15", "where": "Internet Archive advanced search, title 'Commodore 64 User's Guide'", "result": "Item commodore-64-user-guide; page 12 used to verify wording (not an image source)."},
+    {"date": "2026-09-15", "where": "Commons API search (namespace 6) for four boot-screen phrases", "result": "Not completed: non-JSON replies, then Commons rate limiting. The category listing covered the same ground."}
+  ],
+  "candidates_considered": [
+    {
+      "rank": 1,
+      "file": "File:C64 startup animiert.gif",
+      "status": "selected and acquired",
+      "deficiencies": "Low resolution (360 x 248); capture method undocumented; 320 x 203 screen area (3 extra lines); public-domain basis includes a questionable PD-US-1978-89 claim."
+    },
+    {
+      "rank": 2,
+      "file": "File:Commodore 64 Splash.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Commodore_64_Splash.png",
+      "creator": "Retro Devops (uploaded by StickyChannel92, 2020-11-13)",
+      "license": "CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)",
+      "dimensions": [706, 472],
+      "sha1": "8fec9fbc5507c29777a81771ea06dc339aaa5854",
+      "status": "backup; bytes fetched from the Wayback Machine copy https://web.archive.org/web/20251207003328id_/https://upload.wikimedia.org/wikipedia/commons/f/fd/Commodore_64_Splash.png after upload.wikimedia.org returned HTTP 429; SHA-1 matches Commons. Viewed; not stored in this repository.",
+      "deficiencies": "Screenshot of a 2020 web emulator (retrodevops.com), not period hardware; glyphs are unevenly resampled (non-integer scaling); purple-tinted palette; attribution and share-alike obligations."
+    },
+    {
+      "rank": 3,
+      "file": "File:C64 mainscreen.png",
+      "url": "https://commons.wikimedia.org/wiki/File:C64_mainscreen.png",
+      "creator": "Manex, 2008-07-19; 'screenshot from Winvice 1.22 C64 emulator'",
+      "license": "GFDL (migration=relicense)",
+      "dimensions": [352, 240],
+      "sha1": "d4a20858b121c9e367fdd16f1b650a78b2a95344",
+      "status": "not acquired (HTTP 429); metadata only",
+      "deficiencies": "Emulator capture; GFDL is impractical for video (requires distributing the license text); smaller than rank 1."
+    },
+    {
+      "file": "File:Commodore64ready.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Commodore64ready.png",
+      "creator": "Maarten1980, 2007-08-06; derivative of File:C64c system.jpg by Pixel8",
+      "license": "CC BY-SA 2.5",
+      "dimensions": [414, 270],
+      "status": "not acquired; metadata only",
+      "deficiencies": "Derived from a C64C product photo, so a two-level attribution chain; image content not inspected."
+    },
+    {
+      "file": "File:CommodoreBasic.png",
+      "url": "https://commons.wikimedia.org/wiki/File:CommodoreBasic.png",
+      "creator": "Uploaded by Pemu, 2019-02-25; author field empty",
+      "license": "{{PD-ineligible}}",
+      "dimensions": [756, 530],
+      "status": "not acquired; metadata only",
+      "deficiencies": "'Idealisierte Farben' (idealised colours) redraw of File:CommodoreBasic.JPG, which has no stated source or author; recoloured, so not an unaltered original."
+    },
+    {
+      "file": "File:Vice-c64.png",
+      "url": "https://commons.wikimedia.org/wiki/File:Vice-c64.png",
+      "status": "rejected; metadata only",
+      "deficiencies": "Shows the VICE emulator window and Linux window manager around the screen; originated as a rescaled fair-use upload on English Wikipedia."
+    }
+  ]
+}
