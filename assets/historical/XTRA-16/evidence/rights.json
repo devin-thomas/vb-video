@@ -1,0 +1,46 @@
+{
+  "id": "XTRA-16",
+  "file": "source/original.gif",
+  "rights_holder": "Microsoft Corporation (page footer \"© Microsoft Corporation. All rights reserved.\"). Article byline: Bill Sempf.",
+  "license": "none (not openly licensed; not public domain)",
+  "rights_status": "unclear",
+  "release_status": "blocked",
+  "access_method": "Anonymous public HTTPS download from learn.microsoft.com on 2026-09-15. No account, login, payment, CAPTCHA, watermark removal or terms click-through.",
+  "applicable_terms": [
+    {
+      "name": "Microsoft Learn Terms of Use",
+      "url": "https://learn.microsoft.com/en-us/legal/termsofuse",
+      "version": "ms.date 2025-05-12",
+      "accessed": "2026-09-15",
+      "relevant_terms": [
+        "\"Unless otherwise specified, the Services are for your personal and non-commercial use.\"",
+        "Permission to use Documents requires the copyright notice, informational and non-commercial or personal use, and that the documents \"will not be copied or posted on any network computer or broadcast in any media\", with no modifications.",
+        "\"No logo, graphic, sound or image from any Microsoft website may be copied or retransmitted unless expressly permitted by Microsoft.\""
+      ],
+      "effect": "On its face this does not permit use in a published video. Separate Microsoft permission terms (below) may apply to product screenshots."
+    },
+    {
+      "name": "Use of Microsoft Copyrighted Content: Screenshots",
+      "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions/default",
+      "accessed": "2026-09-15",
+      "relevant_terms": [
+        "Screenshots may be used in documentation, tutorial books, videos or websites, subject to conditions.",
+        "\"Do not alter the screenshot except to resize it\"",
+        "\"Do not use portions of screenshots\"",
+        "\"Do not use screenshots that contain third-party content\"",
+        "No screenshots from unreleased products.",
+        "Attribution \"Used with permission from Microsoft\" is required."
+      ],
+      "fit_issues": [
+        "The file is a figure in a Microsoft documentation article, not a screenshot we captured of the product. Whether the screenshot guidelines cover reusing a documentation figure, rather than the Learn Terms of Use, is not settled by either text.",
+        "The image shows a third-party \"efax\" toolbar button in Internet Explorer. That may conflict with the no-third-party-content condition.",
+        "The editorial frame resizes the image and adds a border and caption around it, not over it. It does not crop or alter the screenshot pixels. Any meme edit (\"this is fine\") would alter it."
+      ]
+    }
+  ],
+  "required_credit_if_cleared": "Screenshot: Microsoft Corporation, from \"Deconstructing the Visual Basic Upgrade Wizard\" by Bill Sempf (MSDN, March 2006). Used with permission from Microsoft.",
+  "credit_text_current": "Screenshot: Microsoft Corporation, from \"Deconstructing the Visual Basic Upgrade Wizard\" by Bill Sempf (MSDN, March 2006), Figure 1. © Microsoft Corporation.",
+  "permitted_uses_established": "Internal review proof only. No publication, broadcast or monetized use is established.",
+  "decision_needed": "Human/legal: whether the video's intended use (including any monetization) falls under Microsoft's screenshot permission. Or seek written permission from Microsoft, or replace the figure with a screenshot Devin captures from a licensed Visual Studio install. Review question XTRA-16-RQ2.",
+  "boundary": "No permission request, account, or terms acceptance was made. Contacting Microsoft or accepting terms is a human boundary."
+}

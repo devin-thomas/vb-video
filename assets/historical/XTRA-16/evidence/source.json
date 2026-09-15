@@ -1,0 +1,81 @@
+{
+  "id": "XTRA-16",
+  "file": "source/original.gif",
+  "sha256": "139f1c1a1f785ea0688aa96ce6a04b079136601006d530463504987b23267ad0",
+  "bytes": 65457,
+  "format": "GIF (palette, single frame), exactly as served; not re-encoded",
+  "original_dimensions": {
+    "width": 525,
+    "height": 496
+  },
+  "title": "Figure 1. The Upgrade Report",
+  "container_title": "Deconstructing the Visual Basic Upgrade Wizard",
+  "creator": {
+    "article_author": "Bill Sempf (byline)",
+    "publisher_and_copyright_holder": "Microsoft Corporation (page footer: \"© Microsoft Corporation. All rights reserved.\")",
+    "depicted_software": "Microsoft Visual Studio 2005 Visual Basic Upgrade Wizard output (_UpgradeReport.htm) shown in Microsoft Internet Explorer",
+    "note": "The page does not say who captured the screenshot. The byline and surrounding first-person text (\"I opened the project using Visual Studio 2005\") imply the author did, but that is an inference, not a record."
+  },
+  "original_publication_date": "2006-03 (byline \"March 2006\"; an April 2007 Wayback capture confirms the page existed)",
+  "depicted_event_date": "2006-01-05 23:43 local time, shown as \"Time of Upgrade: 1/5/2006 11:43 PM\" in the image. US month/day order is assumed from the en-US context; not otherwise confirmed.",
+  "source_url": "https://learn.microsoft.com/en-us/previous-versions/aa730876(v=vs.80)",
+  "file_url": "https://learn.microsoft.com/en-us/previous-versions/images/aa730876.vbuw2005_01(en-us,vs.80).gif",
+  "original_msdn_url": "https://msdn.microsoft.com/en-US/library/Aa730876(v=VS.80)",
+  "archive_captures": [
+    {
+      "url": "https://web.archive.org/web/20070416014632/http://msdn2.microsoft.com:80/en-us/library/aa730876(VS.80).aspx",
+      "timestamp": "20070416014632",
+      "saved_copy": "evidence/captures/wayback-20070416014632-msdn2-aa730876.html",
+      "sha256": "9df8d7616345cd645f9f5af2cb264ae609d388bd9a642b89e4fbd99fd88f818b",
+      "confirms": [
+        "Bill Sempf",
+        "March 2006",
+        "The Upgrade Report",
+        "vbuw2005_01(en-US,VS.80).gif"
+      ],
+      "note": "The figure's GIF bytes from 2007 were not retrieved: the Wayback CDX lookup for the image returned 504. Byte identity with 2007 is therefore unconfirmed; the file name and caption match."
+    }
+  ],
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTPS GET with curl (HTTP 200, image/gif, 65457 bytes). No login, account, payment, CAPTCHA or terms click-through.",
+  "version_model_evidence": [
+    "Article header: \"Applies to: Visual Basic 2005 Visual Basic 6\"",
+    "Article text: \"I opened the project using Visual Studio 2005\"",
+    "Image: \"Upgrade Report for controls.vbp\", \"Time of Upgrade: 1/5/2006 11:43 PM\", output name controls.vbproj, path ...\\Migration Wizard\\Controls\\Controls.NET\\_UpgradeReport.htm",
+    "Windows XP–style window chrome and Internet Explorer title bar, consistent with a 2006 capture"
+  ],
+  "era_note": "This is the Visual Studio 2005 edition of the wizard, captured in January 2006. It is not the Visual Studio .NET 2002 release the narration is describing. Microsoft's own article says the 2005 upgrade engine is \"much improved over the previous version\", so a 2002 run would likely have shown different, probably more, issues. That is not verified here.",
+  "transformations": [
+    "None to source/original.gif.",
+    "exports/editorial-frame.png: converted to RGB, uniformly resized ×1.65 with Lanczos resampling (525×496 → 866×818, aspect error 0.02% from rounding), centred at x=527–1393, y=78–896 on a 1920×1080 #111318 canvas with a 2 px gray hairline outside the image and a two-line factual source caption below (y=926–1000, inside the safe area). No crop, annotation, recolouring or pixel edits inside the screenshot. See evidence/framing.json."
+  ],
+  "license_terms": "No open license. Microsoft Learn Terms of Use (personal/non-commercial; documents may not be broadcast in any media without permission) and Microsoft's screenshot permission guidelines apply. See evidence/rights.json.",
+  "license_url": "https://learn.microsoft.com/en-us/legal/termsofuse",
+  "rights_status": "unclear — release blocked pending review",
+  "credit_text": "Screenshot: Microsoft Corporation, from \"Deconstructing the Visual Basic Upgrade Wizard\" by Bill Sempf (MSDN, March 2006), Figure 1. © Microsoft Corporation.",
+  "alternates_considered": [
+    {
+      "file_url": "https://learn.microsoft.com/en-us/previous-versions/images/aa730876.vbuw2005_02(en-us,vs.80).gif",
+      "title": "Figure 2. Upgrade failure (same article)",
+      "size": [525, 128],
+      "sha256": "1f88356e99353fcfe4a996ac51229ab4c9a1ae8d1b3011735bb64356c11fc222",
+      "shows": "\"Visual Basic Upgrade Wizard error\" dialog: \"Upgrade failed: Exception occurred: Could not load referenced components\"",
+      "not_chosen_because": "A single error dialog, not the long issue list the script asks for. The failure only occurs when VB6 isn't installed. Too small for a full frame. Not stored in this package."
+    },
+    {
+      "file_url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/images/aa260644.vb6tovbdotnetfig3(en-us,vs.60).gif",
+      "title": "Figure 3. Upgrade comments are added to Visual Basic code as well as the Task List (\"Preparing Your Visual Basic 6.0 Applications for the Upgrade to Visual Basic.NET\", October 2000)",
+      "size": [512, 384],
+      "sha256": "dd02c9f85e2a9defb71899ad77b8f3ebf1ef4497721113013fe3038e4ee9abe7",
+      "shows": "Pre-release \"Microsoft Visual Basic.NET [design]\" IDE with one UPGRADE_TODO comment and one Task List item",
+      "not_chosen_because": "Shows a pre-release (beta-era) product, which Microsoft's screenshot guidelines exclude. It is the code editor, not the wizard or report, and shows one task rather than a long list. It is the closest image to the 2000–2002 era; recorded as an option for review. Not stored in this package."
+    }
+  ],
+  "searches_performed": [
+    "Wikimedia Commons: Category:Visual Basic .NET and a site search for the upgrade wizard. Only logos found; no wizard screenshot.",
+    "Microsoft Learn previous-versions: Upgrade Wizard (aa291449, vs.71) has text only. Deconstructing the Visual Basic Upgrade Wizard (aa730876, vs.80) has 4 figures. Preparing Your VB6 Applications (aa260644, vs.60) has 3 figures.",
+    "Microsoft Support \"How to use the Visual Basic Upgrade Wizard\": the live URL returned HTTP 404.",
+    "Wayback Machine CDX lookups for the original MSDN URLs of both articles. Captures found, 2002 and 2007.",
+    "Not used: InformIT, flylib, and mirrors of the Microsoft Press book \"Upgrading Microsoft Visual Basic 6.0 to Microsoft Visual Basic .NET\". They are commercial or unauthorized mirrors, not public archives."
+  ]
+}

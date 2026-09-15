@@ -1,0 +1,269 @@
+{
+  "id": "XTRA-16",
+  "title": "VB6-to-.NET migration wizard",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (Microsoft-published documentation figure) with derived editorial frame",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/captures/wayback-20020601133822-msdn-vb6tovbdotnet.html",
+      "role": "archive capture (Wayback Machine raw HTML, identity/claim evidence)",
+      "bytes": 61020,
+      "sha256": "383cb66919b3719677a6284c7ac42fa6283255ed90fbc1a3f7d6da8b613510cb"
+    },
+    {
+      "path": "evidence/captures/wayback-20070416014632-msdn2-aa730876.html",
+      "role": "archive capture (Wayback Machine raw HTML, identity/claim evidence)",
+      "bytes": 85393,
+      "sha256": "9df8d7616345cd645f9f5af2cb264ae609d388bd9a642b89e4fbd99fd88f818b"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 8247,
+      "sha256": "83b0c0bb68d2f8a7a0ef0dbdc711091862e60c011dd079fa9d6e7f685478a912"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 1235,
+      "sha256": "6e85abbe9e31f7c3b444abc6c4bb75460574f567ccda3016cc66c4b0e0ac5b33"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2639,
+      "sha256": "68fa6a16b0b01dc000afa9ab5cb7817377a85b1252500a6c1ad2542d026bac78"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3659,
+      "sha256": "344a571ea3c37afd6ef653f69e6a7029ad0a165580ae226f264d7dfebf107919"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 5443,
+      "sha256": "a5282f96de17b0fd74bde8a86e5f055c626fb762141c6538de3e2da789f9c9c8"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 6835,
+      "sha256": "af6325da117639e45487bbe2185b44c3aff52b8bb0c41e8bdc12ca16f062068e"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "framed editorial still (derived from original; uniform resize, no crop)",
+      "bytes": 506762,
+      "sha256": "ad71458d43888c0b549d1705ebfb044e9c052d9c4072c6ca59684e55b51a66d8"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "720p review proof",
+      "bytes": 296368,
+      "sha256": "6a7c2dfa2021c39077033e8e769b0144cc218d69e3e6d8c96fe55b1befe12acb"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 7222,
+      "sha256": "76da7d7e26479ccb5b094f9d9228ac0d9d3e86f39ef6749841482abd1b0f1c96"
+    },
+    {
+      "path": "source/original.gif",
+      "role": "historical original (untouched Microsoft documentation figure)",
+      "bytes": 65457,
+      "sha256": "139f1c1a1f785ea0688aa96ce6a04b079136601006d530463504987b23267ad0"
+    },
+    {
+      "path": "src/render_frame.py",
+      "role": "editable framing recipe",
+      "bytes": 4939,
+      "sha256": "99f46df9f983fc1e39aed9593847144339ff55e27652f92bab1eb8ea6f47174a"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.gif"
+      ],
+      "native_size": [
+        525,
+        496
+      ]
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.gif",
+      "proof_720p": "qa/editorial-frame-720p.png",
+      "framing": "evidence/framing.json",
+      "timing": "still; holds for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        697,
+        699
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "source/original.gif",
+      "relationship": "historical original",
+      "source_url": "https://learn.microsoft.com/en-us/previous-versions/images/aa730876.vbuw2005_01(en-us,vs.80).gif",
+      "page_url": "https://learn.microsoft.com/en-us/previous-versions/aa730876(v=vs.80)",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "note": "Uniform resize and pillarbox only; no pixels cropped. The contract's closest relationship label is 'derivative crop'."
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical source",
+      "credit": "Screenshot: Microsoft Corporation, from \"Deconstructing the Visual Basic Upgrade Wizard\" by Bill Sempf (MSDN, March 2006), Figure 1. © Microsoft Corporation.",
+      "rights_status": "unclear — release blocked (evidence/rights.json)",
+      "required_if_cleared_under_microsoft_screenshot_guidelines": "Used with permission from Microsoft"
+    },
+    {
+      "type": "authored framing",
+      "credit": "Frame, caption wording and layout by this production; Segoe UI is an installed system font, not distributed."
+    }
+  ],
+  "tests": [
+    {
+      "test": "source hash guard in src/render_frame.py",
+      "result": "passed"
+    },
+    {
+      "test": "safe-area check of screenshot and caption boxes",
+      "result": "passed",
+      "detail": {
+        "screenshot": [
+          527,
+          78,
+          1393,
+          896
+        ],
+        "caption_lines": [
+          [
+            548,
+            926,
+            1372,
+            953
+          ],
+          [
+            393,
+            973,
+            1526,
+            1000
+          ]
+        ],
+        "safe_area": [
+          120,
+          72,
+          1800,
+          1008
+        ]
+      },
+      "earlier_failures_fixed": [
+        "scale 1.75 one-line caption overflowed canvas",
+        "scale 1.7 two-line layout rose above y=72"
+      ]
+    },
+    {
+      "test": "no stretch / no crop",
+      "result": "passed",
+      "detail": {
+        "horizontal_scale": 1.64952,
+        "vertical_scale": 1.64919,
+        "aspect_error_percent": 0.02,
+        "crop": null
+      }
+    },
+    {
+      "test": "PNG/GIF dimensions",
+      "result": "passed",
+      "detail": {
+        "exports/editorial-frame.png": [
+          1920,
+          1080
+        ],
+        "qa/editorial-frame-720p.png": [
+          1280,
+          720
+        ],
+        "source/original.gif": [
+          525,
+          496
+        ]
+      }
+    },
+    {
+      "test": "protected paths unchanged (git diff --stat -- sources War manifest.json assets/shared)",
+      "result": "passed",
+      "detail": "empty diff"
+    },
+    {
+      "test": "UTF-8 / no U+FFFD in text outputs",
+      "result": "passed"
+    },
+    {
+      "test": "privacy scan of text outputs for local account name and home path",
+      "result": "passed",
+      "hits": []
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed exports/editorial-frame.png at 1920×1080 plus two 1:1 crops: all report rows, counts (12/2/1/1/14/14/28), time of upgrade and caption legible; no crop of version/date evidence; no added or removed content.",
+      "proof_720": "Viewed qa/editorial-frame-720p.png: headings, counts and caption readable; fine description text soft but legible."
+    },
+    {
+      "test": "python tools/validate_delivery.py --id XTRA-16",
+      "result": "passed",
+      "detail": "ok: true, errors: [] (exit 0); verbatim output in qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows 11 Pro 10.0.26200",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "renderer": "python assets/historical/XTRA-16/src/render_frame.py",
+    "font": "C:\\Windows\\Fonts\\segoeui.ttf",
+    "acquisition": "curl (anonymous HTTPS GET); Wayback Machine id_ raw captures",
+    "network_used": "acquisition only (learn.microsoft.com, web.archive.org, news.microsoft.com, microsoft.com legal pages); none at render time",
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Script-only supplement (SCRIPT-SUPPLEMENT); not an original asset-plan row.",
+    "Depicts the Visual Studio 2005 Upgrade Wizard (report dated 1/5/2006), not Visual Studio .NET 2002/2003; see evidence/source.json era_note.",
+    "Claim check: narration 'announce, in 2002' is incorrect as worded (announced 2000, shipped Feb 2002); War/SCRIPT.md not edited — review question XTRA-16-RQ1 for the Writing Lead.",
+    "No 'this is fine' meme edit made (XTRA-16-RQ4).",
+    "Review questions: evidence/claim-checks.json review_questions."
+  ]
+}
