@@ -1,0 +1,50 @@
+{
+  "id": "HIST-19",
+  "asset": "source/original.png and exports/editorial-frame.png",
+  "access_date": "2026-09-15",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked pending rights review (R14)",
+  "layers": [
+    {
+      "layer": "capture (screenshot authorship)",
+      "rights_holder": "Matthew Paul Argall (capturer and uploader)",
+      "file_specific_terms": "None. The Internet Archive item has no licenseurl or rights field.",
+      "collection_terms": "The collection summary invites any use of the screenshots and asks for credit. It is an informal permission, not a named licence. Evidence: evidence/source-page/collection-record.json.",
+      "license_url": null,
+      "status": "informal permission from capturer; credit requested"
+    },
+    {
+      "layer": "depicted software (Windows 3.1 UI, Microsoft Solitaire window and card artwork)",
+      "rights_holder": "Microsoft Corporation",
+      "file_specific_terms": "None.",
+      "general_terms": "Microsoft's 'Use of Microsoft copyrighted content' page (screenshot section) permits screenshots in videos on conditions: no alteration except resizing, no use of portions, no third-party content, no identifiable individuals, full product names, and the statement 'Used with permission from Microsoft.'",
+      "license_url": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions/default",
+      "status": "unresolved: whether this use meets Microsoft's guideline is a legal judgement, not a fact this ticket can settle"
+    },
+    {
+      "layer": "capturer's host environment visible in the uncropped original",
+      "rights_holder": "various third parties (desktop wallpaper artwork, Oracle VirtualBox UI, other application icons); the capturer's personal file names and taskbar clock are also visible",
+      "status": "not for on-screen use: the editorial frame crops all of it out; the original is kept only as the reversible source"
+    },
+    {
+      "layer": "host",
+      "rights_holder": "Internet Archive (hosting only)",
+      "terms_url": "https://archive.org/about/terms.php",
+      "status": "public download; no account, payment, CAPTCHA or gated access used"
+    }
+  ],
+  "guideline_fit_notes": [
+    "Resize: the frame scales the guest screen 2x with nearest-neighbour. The guideline allows resizing.",
+    "Portions: the frame crops the capturer's 1920x1080 host capture to the full 640x480 Windows 3.1 guest screen. Whether this counts as a whole Windows screenshot or as a 'portion' is open.",
+    "Third-party content: present in the uncropped original (wallpaper artwork, VirtualBox), absent from the frame.",
+    "Identifiable individuals: none seen in the guest screen. The host wallpaper is a drawn character, and it is cropped out.",
+    "Appearance: the guest uses a non-default Windows colour scheme (black active title bar with red frame) and a cyan patterned wallpaper. Resizing aside, nothing in the guest screen was altered."
+  ],
+  "proposed_credit_text": "Screenshot: Matthew Paul Argall, via Internet Archive (archive.org/details/solitaire-windows-3.1). Microsoft Windows 3.1 and Microsoft Solitaire are products of Microsoft Corporation.",
+  "conditional_credit_text": "Used with permission from Microsoft.",
+  "conditional_credit_note": "Add this only if rights review confirms the use meets Microsoft's screenshot guideline. It is not claimed now.",
+  "review_questions": [
+    "Is the Windows 3.1 Solitaire still cleared for use under Microsoft's published screenshot guideline, given the frame is a crop of a host capture down to the full guest screen? If not, is fair use/fair dealing commentary relied on, or is the shot dropped?",
+    "Is the capturer's informal collection statement (credit preferred) enough for the capture layer, or should written permission be sought from the capturer before release?"
+  ]
+}

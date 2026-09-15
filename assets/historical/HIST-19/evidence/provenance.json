@@ -1,0 +1,59 @@
+{
+  "id": "HIST-19",
+  "provenance_classification": "historical source",
+  "project_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [579, 593],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative context (visual cue line 579; bundling statement line 593)"
+    },
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [101, 101],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "asset request (lead only: Wikipedia 'Microsoft Solitaire'; checked, no Windows 3.x image there)"
+    }
+  ],
+  "external_media": [
+    {
+      "path": "source/original.png",
+      "relationship": "historical original (acquired native file, byte-identical to the Internet Archive original)",
+      "source_url": "https://archive.org/download/solitaire-windows-3.1/Solitaire%20(Windows%203.1).png",
+      "sha256": "07fd42480f9bc4f926724703111235cc47ddfdfe479cad1b077db16c10424c1c",
+      "record": "evidence/source.json"
+    }
+  ],
+  "derived_outputs": [
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop",
+      "variant": "editorial-frame",
+      "generator": "src/frame.py",
+      "transform_steps": [
+        "verify source/original.png SHA-256 = 07fd42480f9bc4f926724703111235cc47ddfdfe479cad1b077db16c10424c1c",
+        "flatten RGBA to RGB (alpha is 255 everywhere; asserted by the script)",
+        "crop box (left 555, top 201, right 1195, bottom 681) = 640x480 VirtualBox guest display",
+        "resize 2x nearest-neighbour to 1280x960 (uniform scale, no stretch)",
+        "paste centred at (320, 60) on a flat 1920x1080 canvas #111318"
+      ],
+      "reversibility": "The original is kept unmodified. Every frame pixel inside (320,60)-(1600,1020) maps to original pixel (555 + floor((x-320)/2), 201 + floor((y-60)/2)). The pillarbox is flat colour. Rerun src/frame.py to regenerate.",
+      "removed_context": "The capturer's Windows 11 host desktop (personal file and folder names, taskbar clock/date, third-party anime wallpaper, pinned apps) and the VirtualBox Manager/VM window chrome, including the 'Windows 3.1 [Running]' title. Keeping the whole guest screen preserves what the image means: a Windows 3.1 screen running Solitaire. The version label that was cropped out stays recorded in evidence.",
+      "safe_area_note": "The 1280x960 image spans y=60..1020, 12 px beyond the proposed text-safe band (72..1008) at top and bottom. The band governs essential text; no text is added. The 2x integer scale was chosen over a non-integer fit to keep the 1992 pixels crisp."
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "relationship": "review proof (1280x720 Lanczos downscale of the editorial frame; not a deliverable)",
+      "generator": "src/frame.py"
+    }
+  ],
+  "authored_additions": [
+    "Pillarbox background colour #111318 (the production bible's dark code background token). No text, captions, arrows or UI were added."
+  ],
+  "producer_decisions": [],
+  "not_done": [
+    "No watermark removal (the file has no watermark).",
+    "No colour correction, sharpening, retouching or AI upscaling.",
+    "No recreation of the Solitaire UI."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "retrieved_from": "https://archive.org/metadata/matthew-paul-argall-screenshots",
+  "access_date": "2026-09-15",
+  "redactions": [
+    "metadata.uploader (personal e-mail address)"
+  ],
+  "response": {
+    "metadata": {
+      "identifier": "matthew-paul-argall-screenshots",
+      "mediatype": "collection",
+      "title": "Matthew Paul Argall's screenshots",
+      "collection": "image",
+      "uploader": "[uploader e-mail address omitted from repository copy]",
+      "publicdate": "2023-03-26 23:35:27",
+      "addeddate": "2023-03-26 23:35:27",
+      "description": "<span style=\"color: rgb(47, 57, 65); font-family: system-ui, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><br></span>",
+      "subject": "Screenshot; 2000s; 2010s; 2020s",
+      "summary": "<div>Screenshots I have taken over the years, ranging from 2006 to 2025. Feel free to do what you wish with these screenshots, however I prefer to be given credit for taking them. You can post them on a blog, a news website, a forum, and even feed them to an alluring spirit!&nbsp;</div>"
+    },
+    "created": 1789446930,
+    "item_last_updated": 1787629963
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "HIST-19",
+  "classification": "historical source (modern emulator capture of period software)",
+  "selected": {
+    "creator": "Matthew Paul Argall (screenshot capturer); depicted software by Microsoft Corporation",
+    "title": "Solitaire (Internet Archive item title); file name 'Solitaire (Windows 3.1).png'",
+    "original_publication_date": "2025-05-17 (Internet Archive publicdate/addeddate 2025-05-17 08:38:19)",
+    "item_date_field": "2025-05-03",
+    "capture_date": "2025-05-03 per the host taskbar clock visible in the image (9:32 PM, shown as 3/05/2025 in day/month order, consistent with the item date field)",
+    "depicted_software_date": "unknown from this file. Windows 3.1 was documented in Microsoft's April 1992 User's Guide (PC21669-0492). The build of the capturer's guest install is not shown.",
+    "source_page_url": "https://archive.org/details/solitaire-windows-3.1",
+    "source_file_url": "https://archive.org/download/solitaire-windows-3.1/Solitaire%20(Windows%203.1).png",
+    "resolved_download_host": "https://dn721600.ca.archive.org/0/items/solitaire-windows-3.1/Solitaire%20(Windows%203.1).png",
+    "metadata_url": "https://archive.org/metadata/solitaire-windows-3.1",
+    "collection_url": "https://archive.org/details/matthew-paul-argall-screenshots",
+    "access_date": "2026-09-15",
+    "access_method": "Anonymous HTTPS GET of the public Internet Archive download URL (curl). No account, cookie, CAPTCHA or paid tier.",
+    "acquired_file": "source/original.png",
+    "native_format": "PNG, 1920x1080, RGBA (alpha fully opaque, 255), sRGB chunk, gamma 0.45455, pHYs ~96 dpi",
+    "bytes": 1202332,
+    "sha256": "07fd42480f9bc4f926724703111235cc47ddfdfe479cad1b077db16c10424c1c",
+    "sha1": "d5f767d4c4d43020bb681035daf29e6ca2e6da0b",
+    "md5": "2ae802371d5d7529ce5bd62825a20b5d",
+    "archive_checksum_match": "SHA-1 and MD5 equal the values in the item's files metadata",
+    "version_model_evidence": [
+      "Capturer's own file name: 'Solitaire (Windows 3.1).png'.",
+      "Emulator window title inside the capture: 'Windows 3.1 [Running] - Oracle VirtualBox'.",
+      "VirtualBox Manager list inside the capture shows the selected VM 'Windows 3.1' as Running, separate from VMs named 'Windows 3.0' and 'Windows 3.11 for Workgroups'.",
+      "Limitation: these are user-assigned labels. No in-guest version string is visible. See evidence/claim-checks.json."
+    ],
+    "depicted_content": "Windows 3.1 guest screen at 640x480 inside VirtualBox. The Solitaire window has a green playfield, Queens on all four foundations, four Kings on the tableau, and the status bar 'Score: 383 Time: 311'. The guest uses a non-default colour scheme (black active title bar, red window frame) and a cyan patterned wallpaper.",
+    "original_dimensions": {"width": 1920, "height": 1080},
+    "guest_display_region_in_original": {"left": 555, "top": 201, "right_exclusive": 1195, "bottom_exclusive": 681, "width": 640, "height": 480, "method": "pixel probe: VirtualBox chrome at x=554 and x=1195, y=200 and y=681"},
+    "transformations": "None to source/original.png. The derived frame is described in evidence/provenance.json.",
+    "license_terms": "No file-specific licence. The capturer's collection summary informally allows any use and asks for credit. The depicted software is Microsoft-copyrighted; see evidence/rights.json.",
+    "license_url": null,
+    "rights_status": "unresolved",
+    "credit_text": "Screenshot: Matthew Paul Argall, via Internet Archive (archive.org/details/solitaire-windows-3.1). Microsoft Windows 3.1 and Microsoft Solitaire are products of Microsoft Corporation."
+  },
+  "rejected_candidates": [
+    {
+      "rank": 2,
+      "source_page_url": "https://news.xbox.com/en-us/2020/05/22/celebrating-30-years-microsoft-solitaire/",
+      "image_url": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/05/Win3.jpg",
+      "creator": "Microsoft (Xbox Wire, 2020-05-22)",
+      "deficiencies": [
+        "According to the page, it depicts Windows 3.0 Solitaire, not 3.1.",
+        "Not acquired: the image URL returned an endless 302 redirect to itself (a Cloudflare/WordPress cookie gate). It was not worked around.",
+        "No file-specific licence seen."
+      ],
+      "acquisition_status": "blocked_access_barrier"
+    },
+    {
+      "rank": 3,
+      "source_page_url": "https://archive.org/details/solitaire-on-windows-3.0",
+      "image_url": "https://archive.org/download/solitaire-on-windows-3.0/Solitaire%20on%20Windows%203.0.png",
+      "creator": "Matthew Paul Argall (capture, 2023-02-18)",
+      "sha1": "d586cca7bd9b59b640fa7d7c2b3fe8efd7db4156",
+      "dimensions": "1920x1080",
+      "deficiencies": [
+        "Labelled Windows 3.0, not 3.1.",
+        "The win-animation card cascade covers most of the green playfield.",
+        "Same capture-layer rights situation as the selected file."
+      ],
+      "acquisition_status": "downloaded to scratch for inspection only; not stored in the asset"
+    }
+  ],
+  "search_log": [
+    {"route": "Wikimedia Commons, Category:Windows 3.1 screenshots (202 files) and Category:Windows 3.0 screenshots (122 files), fully enumerated by API", "result": "no Solitaire file. Five search hits named 'VirtualBox Windows 3.1 ... crop.png' are Graphmatica/Winquilt warning dialogs."},
+    {"route": "Wikimedia Commons full-text and title searches ('Microsoft Solitaire', 'Solitaire Windows 3', 'sol.exe')", "result": "no Windows 3.x Solitaire screenshot"},
+    {"route": "English Wikipedia 'Microsoft Solitaire' article and local file namespace (non-free files)", "result": "article images are Vista icon, Windows 7 and Windows 10 only; no Windows 3.x Solitaire file. 'Windows 3.11 workspace.png' and 'Windows 3.1 (customized colour scheme).png' are non-free and do not show Solitaire."},
+    {"route": "Internet Archive: Microsoft Windows 3.1 User's Guide scans (win-31-users-guide 1993; bitsavers PC21669-0492 Apr 1992; bitsavers PC21670-0492 Getting Started Apr 1992; bitsavers Windows 3.0 User's Guide 1989)", "result": "Solitaire appears in text only (practice-game note, file table, index pointer to online Help). No playfield illustration, and the scans are monochrome. Used as product-context evidence only."},
+    {"route": "Internet Archive lending-library scans (usersguidemicro00micr, microsoftwindows0000unse_g4p8, microsftwindowsv0000vari)", "result": "access-restricted (borrow/login); not used"},
+    {"route": "Internet Archive advanced search for non-software items matching Solitaire and Windows 3.x", "result": "found solitaire-windows-3.1 (selected) and solitaire-on-windows-3.0 (rank 3)"},
+    {"route": "Xbox Wire 30th-anniversary article (Microsoft)", "result": "a Windows 3.0 image is referenced, but the image URL is gated by a redirect loop (rank 2, not acquired)"},
+    {"route": "MobyGames 'Microsoft Windows 3.1 (included games)' screenshot page", "result": "HTTP 403 to automated fetch; not worked around. User-contributed database, not a listed authorized archive."},
+    {"route": "The Cutting Room Floor 'Solitaire (Windows, 1990)'", "result": "the fetched page returned text addressed to AI agents instead of article content. Not followed and not used as evidence."},
+    {"route": "Wayback Machine CDX/availability lookup for the selected item page", "result": "HTTP 403/429 rate limit at access time; no Wayback snapshot recorded. Redacted live metadata preserved instead."}
+  ]
+}

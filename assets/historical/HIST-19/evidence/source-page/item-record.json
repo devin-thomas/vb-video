@@ -1,0 +1,99 @@
+{
+  "retrieved_from": "https://archive.org/metadata/solitaire-windows-3.1",
+  "access_date": "2026-09-15",
+  "redactions": [
+    "metadata.uploader (personal e-mail address)"
+  ],
+  "response": {
+    "metadata": {
+      "identifier": "solitaire-windows-3.1",
+      "mediatype": "image",
+      "collection": "matthew-paul-argall-screenshots",
+      "creator": "Matthew Paul Argall",
+      "date": "2025-05-03",
+      "description": "One of my many goals in life is to win at Solitaire on as many operating systems as possible. <br />",
+      "language": "eng",
+      "scanner": "Internet Archive HTML5 Uploader 1.7.0",
+      "subject": "Screenshot; Solitaire;",
+      "title": "Solitaire",
+      "uploader": "[uploader e-mail address omitted from repository copy]",
+      "publicdate": "2025-05-17 08:38:19",
+      "addeddate": "2025-05-17 08:38:19"
+    },
+    "files": [
+      {
+        "name": "Solitaire (Windows 3.1).png",
+        "source": "original",
+        "mtime": "1747470997",
+        "size": "1202332",
+        "md5": "2ae802371d5d7529ce5bd62825a20b5d",
+        "crc32": "935da693",
+        "sha1": "d5f767d4c4d43020bb681035daf29e6ca2e6da0b",
+        "format": "PNG"
+      },
+      {
+        "name": "Solitaire (Windows 3.1)_thumb.jpg",
+        "source": "derivative",
+        "format": "JPEG Thumb",
+        "original": "Solitaire (Windows 3.1).png",
+        "mtime": "1747471362",
+        "size": "8069",
+        "md5": "1b28a95518de23de4dcc60deda530085",
+        "crc32": "25d19101",
+        "sha1": "981e46a72140b34e570e12e2945a8d10afeda2e2"
+      },
+      {
+        "name": "__ia_thumb.jpg",
+        "source": "original",
+        "mtime": "1747471141",
+        "size": "12300",
+        "md5": "f473257c1603ce3d8811e66a751d5b68",
+        "crc32": "ae27896c",
+        "sha1": "fd7a2e0f527795f66ab6ea5f4b40bab6665c831e",
+        "format": "Item Tile"
+      },
+      {
+        "name": "solitaire-windows-3.1_archive.torrent",
+        "source": "metadata",
+        "btih": "205565918c51ec29678d5f68fd71483ddbb4990f",
+        "mtime": "1757699352",
+        "size": "2137",
+        "md5": "9c2ba2c0e7c3f2a377646ee919c347a4",
+        "crc32": "01972e3f",
+        "sha1": "3342626ccc359706c21c06a2df9f54d9b6c00a9c",
+        "format": "Archive BitTorrent"
+      },
+      {
+        "name": "solitaire-windows-3.1_files.xml",
+        "source": "original",
+        "format": "Metadata",
+        "md5": "d57754fa610853ac330c3bdd511b8ed0",
+        "summation": "md5"
+      },
+      {
+        "name": "solitaire-windows-3.1_meta.sqlite",
+        "source": "original",
+        "mtime": "1747471137",
+        "size": "20480",
+        "md5": "7d760c4306dced1b749c42ba206347f0",
+        "crc32": "66043327",
+        "sha1": "01bd8c965890bc4bce481915490aa9d7ccfcfdb9",
+        "format": "Metadata"
+      },
+      {
+        "name": "solitaire-windows-3.1_meta.xml",
+        "source": "original",
+        "mtime": "1757699351",
+        "size": "704",
+        "md5": "67c4b6fa3ba07f18af7b710adc5dc0e8",
+        "crc32": "984a2bd6",
+        "sha1": "267b97ffebb649e49984d16c40886597bc672113",
+        "format": "Metadata"
+      }
+    ],
+    "created": 1789504630,
+    "item_last_updated": 1757699353,
+    "server": "ia800704.us.archive.org",
+    "dir": "/29/items/solitaire-windows-3.1"
+  }
+}

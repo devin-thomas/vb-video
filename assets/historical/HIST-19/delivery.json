@@ -1,0 +1,198 @@
+{
+  "id": "HIST-19",
+  "title": "Windows 3.1 Solitaire",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (modern emulator capture of period software, acquired from Internet Archive)",
+  "shared_version": null,
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "source/original.png",
+      "role": "historical original (acquired native file)",
+      "bytes": 1202332,
+      "sha256": "07fd42480f9bc4f926724703111235cc47ddfdfe479cad1b077db16c10424c1c"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial-frame variant (1920x1080 derivative crop)",
+      "bytes": 76715,
+      "sha256": "f23b7cfb696a97aa61620a4e3970884599bc514de34b7c379fd98b482998026a"
+    },
+    {
+      "path": "qa/editorial-frame-720p.png",
+      "role": "720p review proof",
+      "bytes": 324034,
+      "sha256": "f2094145e5462e3da811091fbe03825a4dd7e38e77428efaf1b025d243516369"
+    },
+    {
+      "path": "src/frame.py",
+      "role": "editable framing source",
+      "bytes": 3086,
+      "sha256": "2f5a824596e4adb027f792bbc4849216b09f8d40510b0e45977141014d1f12e7"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA report",
+      "bytes": 7899,
+      "sha256": "60e137cfb3cd8cd12efc33ebe753736d37b30e280dae4339729f368a02e81771"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "source record",
+      "bytes": 7452,
+      "sha256": "4b57e2674b656613b77d571a4148f301595391c915c9ff99ca87f8da472ec6de"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 3866,
+      "sha256": "78076939cee53f8366bd3f98fbc8d6f720d7ae31c6df9455438fd05154dbb8d7"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 3256,
+      "sha256": "c26fc188a7f889261c0c070bb83f5a57255fa3ec74126f797312999115920771"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 5741,
+      "sha256": "f3b7933be555802bd8e75830e209125a46bb73f6f16fe6a2c1a086a4e46d7be6"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "gate and claim checks",
+      "bytes": 4819,
+      "sha256": "3592389fd0be762aa7d8198a3183954bba06d6c0c39d94a29b6c64820f0688cf"
+    },
+    {
+      "path": "evidence/source-page/item-record.json",
+      "role": "redacted Internet Archive item metadata",
+      "bytes": 3284,
+      "sha256": "f797c560d110a92859c0ea91fcf2944b58c84a7663f26265c77b8d525573d56d"
+    },
+    {
+      "path": "evidence/source-page/collection-record.json",
+      "role": "redacted Internet Archive collection metadata",
+      "bytes": 1291,
+      "sha256": "161c30e34377bf98d74af3156fd502db8150b9229b864b475f6271c03804fa77"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "paths": [
+        "source/original.png"
+      ],
+      "timeline": null,
+      "note": "uncropped acquired file; includes capturer's host desktop; not for on-screen use"
+    },
+    {
+      "name": "editorial-frame",
+      "paths": [
+        "exports/editorial-frame.png"
+      ],
+      "timeline": null,
+      "note": "still; hold for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "source/original.png",
+      "url": "https://archive.org/download/solitaire-windows-3.1/Solitaire%20(Windows%203.1).png",
+      "sha256": "07fd42480f9bc4f926724703111235cc47ddfdfe479cad1b077db16c10424c1c",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.png",
+      "relationship": "derivative crop",
+      "record": "evidence/provenance.json"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        579,
+        593
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (narrative context)"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        101,
+        101
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt (asset request)"
+    }
+  ],
+  "credits": [
+    {
+      "text": "Screenshot: Matthew Paul Argall, via Internet Archive (archive.org/details/solitaire-windows-3.1). Microsoft Windows 3.1 and Microsoft Solitaire are products of Microsoft Corporation.",
+      "status": "proposed; rights unresolved"
+    },
+    {
+      "text": "Used with permission from Microsoft.",
+      "status": "conditional; add only if rights review confirms the Microsoft screenshot guideline is met"
+    }
+  ],
+  "tests": [
+    {
+      "name": "archive checksum match (SHA-1, MD5)",
+      "result": "pass"
+    },
+    {
+      "name": "alpha fully opaque before flatten",
+      "result": "pass"
+    },
+    {
+      "name": "crop bounds from pixel probe (640x480 guest)",
+      "result": "pass"
+    },
+    {
+      "name": "reversible pixel mapping frame->original",
+      "result": "pass (0 mismatches)"
+    },
+    {
+      "name": "pillarbox purity",
+      "result": "pass (0 exceptions)"
+    },
+    {
+      "name": "deterministic re-render hashes",
+      "result": "pass"
+    },
+    {
+      "name": "manual inspection full size and 720p",
+      "result": "pass (notes in qa.md)"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id HIST-19",
+      "result": "pass (ok: true, exit 0); output recorded in qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "pillow": "12.3.0",
+    "curl": "8.18.0",
+    "os": "Windows 11 10.0.26200",
+    "render_command": "python assets/historical/HIST-19/src/frame.py"
+  },
+  "notes": [
+    "The Windows 3.1 identity rests on the capturer's labels; no in-guest version string.",
+    "The 720p proof and the frame script are extra files beyond the required list; they are inventoried for completeness.",
+    "Review questions: see qa.md."
+  ]
+}
