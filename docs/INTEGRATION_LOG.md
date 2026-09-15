@@ -75,7 +75,7 @@ The pack stopped living in `build-pack/VB_Asset_Delivery/` and became the reposi
 - **Records:** paths that must resolve (`../../../sources/…` in delivery and provenance records) and path mentions in instructions (qa.md, briefs, the export contract, tickets, docs) were updated. Every rewritten file's size and SHA-256 were refreshed in its `delivery.json`. Historical logs and captures were left as recorded.
 - **Manifest:** each ticket gained `asset_dir` and `github_issue`, and its `ticket` and `owned_paths` point at the new locations.
 - **Legacy names:** the 60 file names issues #1–#26 promised now exist as copies, plus the Java AWT card; see [../assets/LEGACY_NAMES.md](../assets/LEGACY_NAMES.md).
-- **Issues:** every ticket (134) and handoff (7) became a GitHub issue. Produced tickets are closed as a record; everything else is open. Each original issue got a comment linking its per-ticket issues.
+- **Issues:** every ticket (134, issues #28–#161) and handoff (7, issues #162–#168) became a GitHub issue, created by `tools/github_issues.py` and recorded in `manifest.json`. The 80 produced tickets are closed as a record; 54 tickets and all 7 handoffs are open. OPS-03 (#30) carries the checklist of 72 produced assets still awaiting a producer release decision. Each original issue (#1–#26) got a comment linking its per-ticket issues.
 
 ## Mapping: original GitHub issues → tickets
 

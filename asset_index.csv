@@ -1,135 +1,135 @@
 id,title,family,kind,lane,original_family,script_sections,dependencies,release_gates,asset_dir,ticket,github_issue,production_status,release_status
-DIA-01,Event-driven programming: action → handler → code,diagrams,motion,motion,T1-D01,3,OPS-01,R03,assets/diagrams/DIA-01,docs/tickets/DIA-01.md,,produced,blocked
-DIA-02,"War rules: shuffle, deal, flip, compare, collect",diagrams,motion,motion,T1-D02,"5,9",OPS-01,R05,assets/diagrams/DIA-02,docs/tickets/DIA-02.md,,produced,blocked
-DIA-03,Card rank mapping: 2 through Ace,diagrams,still,design,T1-D03,6,OPS-01,,assets/diagrams/DIA-03,docs/tickets/DIA-03.md,,produced,unreviewed
-DIA-04,ByRef versus ByVal: caller variable and local parameter,diagrams,motion,motion,T1-D04,"7,10",OPS-01,R04a,assets/diagrams/DIA-04,docs/tickets/DIA-04.md,,produced,blocked
-DIA-05,"Array as queue: live slots, draw, shift, append",diagrams,motion,motion,T1-D05,8,OPS-01,,assets/diagrams/DIA-05,docs/tickets/DIA-05.md,,produced,unreviewed
-DIA-06,Fisher–Yates shuffle: backward swaps,diagrams,motion,motion,T1-D06,7,OPS-01,R15,assets/diagrams/DIA-06,docs/tickets/DIA-06.md,,produced,blocked
-DIA-07,BuildDeck nested loops: 4 suits × 13 ranks,diagrams,motion,motion,T1-D07,7,"OPS-01,CODE-04",,assets/diagrams/DIA-07,docs/tickets/DIA-07.md,,produced,unreviewed
-DIA-08,"War mechanic: tie, burn, flip, award",diagrams,motion,motion,T1-D08,"5,10",OPS-01,R05,assets/diagrams/DIA-08,docs/tickets/DIA-08.md,,produced,blocked
-DIA-09,Pot growth: 2 → 10 → 18,diagrams,motion,motion,T1-D09,"10,11",OPS-01,"R05,R07",assets/diagrams/DIA-09,docs/tickets/DIA-09.md,,produced,blocked
-DIA-10,"Game flowchart: setup, rounds, war loop, result",diagrams,still,design,T1-D10,"9,10",OPS-01,"R04,R05,R06",assets/diagrams/DIA-10,docs/tickets/DIA-10.md,,produced,blocked
-DIA-11,1995 development tools comparison,diagrams,still,design,T1-D11,13,OPS-01,"R11,R15",assets/diagrams/DIA-11,docs/tickets/DIA-11.md,,in_progress,blocked
-DIA-12,Windows VB4 versus Mac CodeWarrior table,diagrams,still,design,T1-D12,14,OPS-01,"R03,R09,R16",assets/diagrams/DIA-12,docs/tickets/DIA-12.md,,in_progress,blocked
-DIA-13,Visual development lineage / influence graphic,diagrams,still,design,T1-D13,15,OPS-01,R13,assets/diagrams/DIA-13,docs/tickets/DIA-13.md,,in_progress,blocked
-DIA-14,VB timeline: VB1 through VB.NET,diagrams,still,design,T1-D14,"2,15",OPS-01,"R15,R12",assets/diagrams/DIA-14,docs/tickets/DIA-14.md,,in_progress,blocked
-CARD-01,Opening title: Win95 message box,cards,motion,design,T1-S01,1,OPS-01,,assets/cards/CARD-01,docs/tickets/CARD-01.md,,produced,unreviewed
-CH-01,Chapter 01: Intro: What Even Is Visual Basic?,chapters,motion,design,T1-S02,1,OPS-01,,assets/chapters/CH-01,docs/tickets/CH-01.md,,produced,unreviewed
-CH-02,Chapter 02: A Very Brief History of BASIC to Visual Basic,chapters,motion,design,T1-S02,2,OPS-01,,assets/chapters/CH-02,docs/tickets/CH-02.md,,produced,unreviewed
-CH-03,Chapter 03: The Toolchain: What You Actually Installed,chapters,motion,design,T1-S02,3,OPS-01,,assets/chapters/CH-03,docs/tickets/CH-03.md,,produced,unreviewed
-CH-04,Chapter 04: How We're Doing This Today,chapters,motion,design,T1-S02,4,OPS-01,,assets/chapters/CH-04,docs/tickets/CH-04.md,,produced,unreviewed
-CH-05,Chapter 05: The Card Game War: Rules in 60 Seconds,chapters,motion,design,T1-S02,5,OPS-01,,assets/chapters/CH-05,docs/tickets/CH-05.md,,produced,unreviewed
-CH-06,Chapter 06: Modeling a Card in VB,chapters,motion,design,T1-S02,6,OPS-01,,assets/chapters/CH-06,docs/tickets/CH-06.md,,produced,unreviewed
-CH-07,Chapter 07: Building and Shuffling the Deck,chapters,motion,design,T1-S02,7,OPS-01,,assets/chapters/CH-07,docs/tickets/CH-07.md,,produced,unreviewed
-CH-08,Chapter 08: The Player's Hand: Arrays as Queues,chapters,motion,design,T1-S02,8,OPS-01,,assets/chapters/CH-08,docs/tickets/CH-08.md,,produced,unreviewed
-CH-09,Chapter 09: The Game Loop,chapters,motion,design,T1-S02,9,OPS-01,,assets/chapters/CH-09,docs/tickets/CH-09.md,,produced,unreviewed
-CH-10,Chapter 10: War! The Recursion Within the Loop,chapters,motion,design,T1-S02,10,OPS-01,R04,assets/chapters/CH-10,docs/tickets/CH-10.md,,produced,blocked
-CH-11,Chapter 11: Running It: Full Simulation,chapters,motion,design,T1-S02,11,OPS-01,,assets/chapters/CH-11,docs/tickets/CH-11.md,,produced,unreviewed
-CH-12,Chapter 12: What This Code Would Have Become,chapters,motion,design,T1-S02,12,OPS-01,,assets/chapters/CH-12,docs/tickets/CH-12.md,,produced,unreviewed
-CH-13,Chapter 13: VB vs. The Competition in 1995,chapters,motion,design,T1-S02,13,OPS-01,,assets/chapters/CH-13,docs/tickets/CH-13.md,,produced,unreviewed
-CH-14,Chapter 14: What If You Were on a Mac?,chapters,motion,design,T1-S02,14,OPS-01,,assets/chapters/CH-14,docs/tickets/CH-14.md,,produced,unreviewed
-CH-15,Chapter 15: Why VB Mattered (and Why It Died),chapters,motion,design,T1-S02,15,OPS-01,R12,assets/chapters/CH-15,docs/tickets/CH-15.md,,produced,blocked
-CH-16,Chapter 16: Outro,chapters,motion,design,T1-S02,16,OPS-01,,assets/chapters/CH-16,docs/tickets/CH-16.md,,produced,unreviewed
-CARD-02,"Outro end card: subscribe, like, next video",cards,motion,design,T1-S06,16,OPS-01,,assets/cards/CARD-02,docs/tickets/CARD-02.md,,produced,unreviewed
-CODE-01,Options: explicit and strict,code,code,code,T1-S03,4,OPS-01,"R03,R17",assets/code/CODE-01,docs/tickets/CODE-01.md,,produced,blocked
-CODE-02,Card structure: Rank and Suit,code,code,code,T1-S03,6,OPS-01,R03,assets/code/CODE-02,docs/tickets/CODE-02.md,,produced,blocked
-CODE-03,BuildDeck procedure,code,code,code,T1-S03,7,OPS-01,,assets/code/CODE-03,docs/tickets/CODE-03.md,,produced,unreviewed
-CODE-04,Nested For / Next matching brackets,code,code,code,T1-S03,7,OPS-01,,assets/code/CODE-04,docs/tickets/CODE-04.md,,produced,unreviewed
-CODE-05,ShuffleDeck procedure,code,code,code,T1-S03,7,OPS-01,R15,assets/code/CODE-05,docs/tickets/CODE-05.md,,produced,blocked
-CODE-06,Hand structure,code,code,code,T1-S03,8,OPS-01,R04a,assets/code/CODE-06,docs/tickets/CODE-06.md,,produced,blocked
-CODE-07,NewHand initialization,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-07,docs/tickets/CODE-07.md,,produced,unreviewed
-CODE-08,AddCardToBottom procedure,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-08,docs/tickets/CODE-08.md,,produced,unreviewed
-CODE-09,DrawTopCard function,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-09,docs/tickets/CODE-09.md,,produced,unreviewed
-CODE-10,Return by assigning to the function name,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-10,docs/tickets/CODE-10.md,,produced,unreviewed
-CODE-11,"Main setup: build, shuffle, new hands, deal",code,code,code,T1-S03,9,OPS-01,,assets/code/CODE-11,docs/tickets/CODE-11.md,,produced,unreviewed
-CODE-12,DealCards: alternating distribution,code,code,code,T1-S03,9,OPS-01,,assets/code/CODE-12,docs/tickets/CODE-12.md,,produced,unreviewed
-CODE-13,Main Do While game loop,code,code,code,T1-S03,9,OPS-01,R06,assets/code/CODE-13,docs/tickets/CODE-13.md,,produced,blocked
-CODE-14,Round-cap safety valve,code,code,code,T1-S03,9,OPS-01,R06,assets/code/CODE-14,docs/tickets/CODE-14.md,,produced,blocked
-CODE-15,PlayRound signature and argument modes,code,code,code,T1-S03,10,OPS-01,R04a,assets/code/CODE-15,docs/tickets/CODE-15.md,,produced,blocked
-CODE-16,Pot declaration and count,code,code,code,T1-S03,10,OPS-01,R07,assets/code/CODE-16,docs/tickets/CODE-16.md,,produced,blocked
-CODE-17,Mid-war empty-hand guards,code,code,code,T1-S03,10,OPS-01,"R04,R05",assets/code/CODE-17,docs/tickets/CODE-17.md,,produced,blocked
-CODE-18,Draw a pair and append to the pot,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-18,docs/tickets/CODE-18.md,,produced,unreviewed
-CODE-19,Rank comparison and round winner,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-19,docs/tickets/CODE-19.md,,produced,unreviewed
-CODE-20,War counters and symmetric burn loop,code,code,code,T1-S03,10,OPS-01,R05,assets/code/CODE-20,docs/tickets/CODE-20.md,,produced,blocked
-CODE-21,Colon statement separator,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-21,docs/tickets/CODE-21.md,,produced,unreviewed
-CODE-22,GiveCardsToWinner procedure,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-22,docs/tickets/CODE-22.md,,produced,unreviewed
-CODE-23,RankName Select Case,code,code,code,T1-S03,"6,11",OPS-01,,assets/code/CODE-23,docs/tickets/CODE-23.md,,produced,unreviewed
-CODE-24,CardText suit names and concatenation,code,code,code,T1-S03,"6,9",OPS-01,,assets/code/CODE-24,docs/tickets/CODE-24.md,,produced,unreviewed
-CODE-25,Winner and final summary output code,code,code,code,T1-S03,"11,16",OPS-01,"R06,R08",assets/code/CODE-25,docs/tickets/CODE-25.md,,produced,blocked
-CMP-01,Variable declaration: type before versus after,comparisons,still,code,T1-S04,6,OPS-01,,assets/comparisons/CMP-01,docs/tickets/CMP-01.md,,produced,unreviewed
-CMP-02,Void method versus Sub procedure,comparisons,still,code,T1-S04,7,OPS-01,R04a,assets/comparisons/CMP-02,docs/tickets/CMP-02.md,,produced,blocked
-CMP-03,For loop and named Next,comparisons,still,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-03,docs/tickets/CMP-03.md,,produced,unreviewed
-CMP-04,Counting backward: decrement versus Step -1,comparisons,still,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-04,docs/tickets/CMP-04.md,,produced,unreviewed
-CMP-05,Returning a value,comparisons,still,code,T1-S04,8,OPS-01,,assets/comparisons/CMP-05,docs/tickets/CMP-05.md,,produced,unreviewed
-CMP-06,String concatenation,comparisons,still,code,T1-S04,9,OPS-01,,assets/comparisons/CMP-06,docs/tickets/CMP-06.md,,produced,unreviewed
-CMP-07,While loop spelling,comparisons,still,code,T1-S04,9,OPS-01,R04a,assets/comparisons/CMP-07,docs/tickets/CMP-07.md,,produced,blocked
-CMP-08,Line continuation,comparisons,still,code,T1-S04,9,OPS-01,R03,assets/comparisons/CMP-08,docs/tickets/CMP-08.md,,produced,blocked
-FACT-01,BASIC acronym,facts,still,design,T1-S05,2,OPS-01,R15,assets/facts/FACT-01,docs/tickets/FACT-01.md,,produced,blocked
-FACT-02,Dim: a word inherited from array dimensions,facts,still,design,T1-S05,6,OPS-01,"R10,R15",assets/facts/FACT-02,docs/tickets/FACT-02.md,,produced,blocked
-FACT-03,RAD: Rapid Application Development,facts,still,design,T1-S05,3,OPS-01,,assets/facts/FACT-03,docs/tickets/FACT-03.md,,produced,unreviewed
-FACT-04,VB3 and the Jet database engine,facts,still,design,T1-S05,2,OPS-01,R15,assets/facts/FACT-04,docs/tickets/FACT-04.md,,produced,blocked
-FACT-05,The function name can hold the return value,facts,still,design,T1-S05,8,OPS-01,,assets/facts/FACT-05,docs/tickets/FACT-05.md,,produced,unreviewed
-FACT-06,The runtime was part of the download story,facts,still,design,T1-S05,12,OPS-01,R16,assets/facts/FACT-06,docs/tickets/FACT-06.md,,produced,blocked
-MOCK-01,VB4-style War GUI on green felt,mockups,still,design,T1-M01,12,OPS-01,,assets/mockups/MOCK-01,docs/tickets/MOCK-01.md,,produced,unreviewed
-MOCK-02,1996 download dialog: 9:42 remaining,mockups,motion,design,T1-M02,12,OPS-01,R16,assets/mockups/MOCK-02,docs/tickets/MOCK-02.md,,produced,blocked
-REF-01,Representative MFC message-map snippet,reference-code,code,code,T1-R01,13,OPS-01,R15,assets/reference-code/REF-01,docs/tickets/REF-01.md,,in_progress,blocked
-REF-02,Windows C Hello World: historical boilerplate comparison,reference-code,motion,code,T1-R02,2,OPS-01,"R03,R15",assets/reference-code/REF-02,docs/tickets/REF-02.md,,in_progress,blocked
-REF-03,Classic VB MsgBox event handler,reference-code,code,code,T1-R03,2,OPS-01,R03,assets/reference-code/REF-03,docs/tickets/REF-03.md,,produced,blocked
-REF-04,BASIC 10 PRINT / 20 GOTO,reference-code,motion,code,T1-R04,2,OPS-01,,assets/reference-code/REF-04,docs/tickets/REF-04.md,,produced,unreviewed
-TERM-01,Project creation and actual SDK version,captures,capture,capture,T2-T01,4,"OPS-01,OPS-02",R17,assets/captures/TERM-01,docs/tickets/TERM-01.md,,produced,approved
-TERM-02,Primary complete War simulation,captures,capture,capture,T2-T02,"1,11,16","OPS-01,OPS-02","R06,R08",assets/captures/TERM-02,docs/tickets/TERM-02.md,,produced,approved
-TERM-03,Complete Program.vb readable scrollthrough stills,captures,capture,capture,T2-T03,"6,7,8,9,10","OPS-01,OPS-02",R03,assets/captures/TERM-03,docs/tickets/TERM-03.md,,produced,approved
-TERM-04,War-heavy run with chained-war highlight,captures,capture,capture,T2-T04,"1,11","OPS-01,OPS-02","R05,R08",assets/captures/TERM-04,docs/tickets/TERM-04.md,,produced,approved
-TERM-05,Alternate complete simulation: run B,captures,capture,capture,T2-T02,11,"OPS-01,OPS-02,TERM-02","R06,R08",assets/captures/TERM-05,docs/tickets/TERM-05.md,,produced,approved
-TERM-06,Alternate complete simulation: run C,captures,capture,capture,T2-T02,11,"OPS-01,OPS-02,TERM-02,TERM-05","R06,R08",assets/captures/TERM-06,docs/tickets/TERM-06.md,,produced,approved
-HIST-01,VB 1.0 IDE,historical,archive,research,T2-H01,2,OPS-01,R14,assets/historical/HIST-01,docs/tickets/HIST-01.md,,planned,blocked
-HIST-02,VB 4.0 IDE,historical,archive,research,T2-H01,"1,3",OPS-01,R14,assets/historical/HIST-02,docs/tickets/HIST-02.md,,planned,blocked
-HIST-03,VB 6.0 IDE,historical,archive,research,T2-H01,15,OPS-01,R14,assets/historical/HIST-03,docs/tickets/HIST-03.md,,planned,blocked
-HIST-04,Kemeny and Kurtz at Dartmouth,historical,archive,research,T2-H02,2,OPS-01,R14,assets/historical/HIST-04,docs/tickets/HIST-04.md,,planned,blocked
-HIST-05,Commodore 64 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-05,docs/tickets/HIST-05.md,,planned,blocked
-HIST-06,Apple II BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-06,docs/tickets/HIST-06.md,,planned,blocked
-HIST-07,TRS-80 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-07,docs/tickets/HIST-07.md,,planned,blocked
-HIST-08,Windows 95 launch footage still,historical,archive,research,T2-H04,2,OPS-01,R14,assets/historical/HIST-08,docs/tickets/HIST-08.md,,planned,blocked
-HIST-09,CompUSA storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-09,docs/tickets/HIST-09.md,,planned,blocked
-HIST-10,Egghead Software storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-10,docs/tickets/HIST-10.md,,planned,blocked
-HIST-11,Visual Basic 4 retail box,historical,archive,research,T2-H06,3,OPS-01,R14,assets/historical/HIST-11,docs/tickets/HIST-11.md,,planned,blocked
-HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,,planned,blocked
-HIST-13,Metrowerks CodeWarrior IDE,historical,archive,research,T2-H08,14,OPS-01,R14,assets/historical/HIST-13,docs/tickets/HIST-13.md,,planned,blocked
-HIST-14,NeXT Cube product photograph,historical,archive,research,T2-H09,14,OPS-01,R14,assets/historical/HIST-14,docs/tickets/HIST-14.md,,planned,blocked
-HIST-15,PowerBuilder DataWindow,historical,archive,research,T2-H10,13,OPS-01,R14,assets/historical/HIST-15,docs/tickets/HIST-15.md,,planned,blocked
-HIST-16,Java AWT application,historical,archive,research,T2-H11,13,OPS-01,R14,assets/historical/HIST-16,docs/tickets/HIST-16.md,,planned,blocked
-HIST-17,TUCOWS archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-17,docs/tickets/HIST-17.md,,planned,blocked
-HIST-18,Download.com archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-18,docs/tickets/HIST-18.md,,planned,blocked
-HIST-19,Windows 3.1 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-19,docs/tickets/HIST-19.md,,planned,blocked
-HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-20,docs/tickets/HIST-20.md,,planned,blocked
-HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,,planned,blocked
-BROLL-01,Hands shuffling physical cards,broll,scout,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,,planned,blocked
-BROLL-02,Two people playing War,broll,scout,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,,planned,blocked
-BROLL-03,1990s office with CRT monitors,broll,scout,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,,planned,blocked
-BROLL-04,Browsing a 1990s software store,broll,scout,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,,planned,blocked
-BROLL-05,Floppy disk insertion close-up,broll,scout,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,,planned,blocked
-BROLL-06,Pentium-era PC booting,broll,scout,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,,planned,blocked
-XTRA-01,Visual Basic Programmer's Journal cover,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-01,docs/tickets/XTRA-01.md,,planned,blocked
-XTRA-02,Period MSDN advertisement,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-02,docs/tickets/XTRA-02.md,,planned,blocked
-XTRA-03,Early BASIC-era terminal hardware,historical,archive,research,SCRIPT-SUPPLEMENT,2,OPS-01,R14,assets/historical/XTRA-03,docs/tickets/XTRA-03.md,,planned,blocked
-XTRA-07,Visual Basic 4 installation media,historical,archive,research,SCRIPT-SUPPLEMENT,3,OPS-01,R14,assets/historical/XTRA-07,docs/tickets/XTRA-07.md,,planned,blocked
-XTRA-09,Mid-1990s Macintosh hardware,historical,archive,research,SCRIPT-SUPPLEMENT,14,OPS-01,R14,assets/historical/XTRA-09,docs/tickets/XTRA-09.md,,planned,blocked
-XTRA-11,Documented VB business application,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,"R14,R11",assets/historical/XTRA-11,docs/tickets/XTRA-11.md,,planned,blocked
-XTRA-12,Documented VB data-entry application,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,"R14,R11",assets/historical/XTRA-12,docs/tickets/XTRA-12.md,,planned,blocked
-XTRA-13,Documented VB utility application,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,"R14,R11",assets/historical/XTRA-13,docs/tickets/XTRA-13.md,,planned,blocked
-XTRA-16,VB6-to-.NET migration wizard,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,R14,assets/historical/XTRA-16,docs/tickets/XTRA-16.md,,planned,blocked
-XTRA-17,Save VB6 petition or advocacy page,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,R14,assets/historical/XTRA-17,docs/tickets/XTRA-17.md,,planned,blocked
-XTRA-18,Period Windows Hearts screenshot,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-18,docs/tickets/XTRA-18.md,,planned,blocked
-XTRA-19,Period Windows FreeCell screenshot,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-19,docs/tickets/XTRA-19.md,,planned,blocked
-XTRA-20,Period BBS file listing,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-20,docs/tickets/XTRA-20.md,,planned,blocked
-XTRA-04,FORTRAN versus BASIC introductory example,reference-code,still,code,SCRIPT-SUPPLEMENT,2,OPS-01,R15,assets/reference-code/XTRA-04,docs/tickets/XTRA-04.md,,planned,blocked
-XTRA-05,VB4 IDE anatomy: five labeled panels,stills,still,design,SCRIPT-SUPPLEMENT,3,"OPS-01,HIST-02","R03,R14",assets/stills/XTRA-05,docs/tickets/XTRA-05.md,,planned,blocked
-XTRA-06,Project settings: actual War.vbproj capture,captures,capture,capture,SCRIPT-SUPPLEMENT,4,"OPS-01,OPS-02",R17,assets/captures/XTRA-06,docs/tickets/XTRA-06.md,,produced,approved
-XTRA-08,1995 tools class-photo lineup,stills,still,design,SCRIPT-SUPPLEMENT,13,OPS-01,R15,assets/stills/XTRA-08,docs/tickets/XTRA-08.md,,planned,blocked
-XTRA-10,VB-for-Mac claim visual: evidence-gated decision,stills,still,research,SCRIPT-SUPPLEMENT,14,OPS-01,"R09,R14",assets/stills/XTRA-10,docs/tickets/XTRA-10.md,,planned,blocked
-XTRA-14,Real-world VB application collage,stills,still,design,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11,XTRA-12,XTRA-13","R11,R14",assets/stills/XTRA-14,docs/tickets/XTRA-14.md,,planned,blocked
-XTRA-15,Windows XP office / legacy VB6 scene,stills,still,research,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11","R01,R11,R14",assets/stills/XTRA-15,docs/tickets/XTRA-15.md,,planned,blocked
-OPS-01,"Shared visual system, reusable primitives, and deterministic export contract",ops,support,orchestrator,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-01,docs/tickets/OPS-01.md,,produced,unreviewed
-OPS-02,Isolated .NET harness and capture preflight,ops,support,capture,COORDINATION,"4,11",,R17,assets/ops/OPS-02,docs/tickets/OPS-02.md,,produced,approved
-OPS-03,"Editorial, historical evidence, and rights clearance ledger",ops,support,research,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-03,docs/tickets/OPS-03.md,,planned,unreviewed
-OPS-04,"Integration QA, coverage audit, and editor handoff",ops,support,qa,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16","DIA-01,DIA-02,DIA-03,DIA-04,DIA-05,DIA-06,DIA-07,DIA-08,DIA-09,DIA-10,DIA-11,DIA-12,DIA-13,DIA-14,CARD-01,CH-01,CH-02,CH-03,CH-04,CH-05,CH-06,CH-07,CH-08,CH-09,CH-10,CH-11,CH-12,CH-13,CH-14,CH-15,CH-16,CARD-02,CODE-01,CODE-02,CODE-03,CODE-04,CODE-05,CODE-06,CODE-07,CODE-08,CODE-09,CODE-10,CODE-11,CODE-12,CODE-13,CODE-14,CODE-15,CODE-16,CODE-17,CODE-18,CODE-19,CODE-20,CODE-21,CODE-22,CODE-23,CODE-24,CODE-25,CMP-01,CMP-02,CMP-03,CMP-04,CMP-05,CMP-06,CMP-07,CMP-08,FACT-01,FACT-02,FACT-03,FACT-04,FACT-05,FACT-06,MOCK-01,MOCK-02,REF-01,REF-02,REF-03,REF-04,TERM-01,TERM-02,TERM-03,TERM-04,TERM-05,TERM-06,HIST-01,HIST-02,HIST-03,HIST-04,HIST-05,HIST-06,HIST-07,HIST-08,HIST-09,HIST-10,HIST-11,HIST-12,HIST-13,HIST-14,HIST-15,HIST-16,HIST-17,HIST-18,HIST-19,HIST-20,HIST-21,BROLL-01,BROLL-02,BROLL-03,BROLL-04,BROLL-05,BROLL-06,XTRA-01,XTRA-02,XTRA-03,XTRA-07,XTRA-09,XTRA-11,XTRA-12,XTRA-13,XTRA-16,XTRA-17,XTRA-18,XTRA-19,XTRA-20,XTRA-04,XTRA-05,XTRA-06,XTRA-08,XTRA-10,XTRA-14,XTRA-15,OPS-01,OPS-02,OPS-03",,assets/ops/OPS-04,docs/tickets/OPS-04.md,,in_progress,blocked
+DIA-01,Event-driven programming: action → handler → code,diagrams,motion,motion,T1-D01,3,OPS-01,R03,assets/diagrams/DIA-01,docs/tickets/DIA-01.md,31,produced,blocked
+DIA-02,"War rules: shuffle, deal, flip, compare, collect",diagrams,motion,motion,T1-D02,"5,9",OPS-01,R05,assets/diagrams/DIA-02,docs/tickets/DIA-02.md,32,produced,blocked
+DIA-03,Card rank mapping: 2 through Ace,diagrams,still,design,T1-D03,6,OPS-01,,assets/diagrams/DIA-03,docs/tickets/DIA-03.md,33,produced,unreviewed
+DIA-04,ByRef versus ByVal: caller variable and local parameter,diagrams,motion,motion,T1-D04,"7,10",OPS-01,R04a,assets/diagrams/DIA-04,docs/tickets/DIA-04.md,34,produced,blocked
+DIA-05,"Array as queue: live slots, draw, shift, append",diagrams,motion,motion,T1-D05,8,OPS-01,,assets/diagrams/DIA-05,docs/tickets/DIA-05.md,35,produced,unreviewed
+DIA-06,Fisher–Yates shuffle: backward swaps,diagrams,motion,motion,T1-D06,7,OPS-01,R15,assets/diagrams/DIA-06,docs/tickets/DIA-06.md,36,produced,blocked
+DIA-07,BuildDeck nested loops: 4 suits × 13 ranks,diagrams,motion,motion,T1-D07,7,"OPS-01,CODE-04",,assets/diagrams/DIA-07,docs/tickets/DIA-07.md,38,produced,unreviewed
+DIA-08,"War mechanic: tie, burn, flip, award",diagrams,motion,motion,T1-D08,"5,10",OPS-01,R05,assets/diagrams/DIA-08,docs/tickets/DIA-08.md,39,produced,blocked
+DIA-09,Pot growth: 2 → 10 → 18,diagrams,motion,motion,T1-D09,"10,11",OPS-01,"R05,R07",assets/diagrams/DIA-09,docs/tickets/DIA-09.md,40,produced,blocked
+DIA-10,"Game flowchart: setup, rounds, war loop, result",diagrams,still,design,T1-D10,"9,10",OPS-01,"R04,R05,R06",assets/diagrams/DIA-10,docs/tickets/DIA-10.md,41,produced,blocked
+DIA-11,1995 development tools comparison,diagrams,still,design,T1-D11,13,OPS-01,"R11,R15",assets/diagrams/DIA-11,docs/tickets/DIA-11.md,42,in_progress,blocked
+DIA-12,Windows VB4 versus Mac CodeWarrior table,diagrams,still,design,T1-D12,14,OPS-01,"R03,R09,R16",assets/diagrams/DIA-12,docs/tickets/DIA-12.md,43,in_progress,blocked
+DIA-13,Visual development lineage / influence graphic,diagrams,still,design,T1-D13,15,OPS-01,R13,assets/diagrams/DIA-13,docs/tickets/DIA-13.md,44,in_progress,blocked
+DIA-14,VB timeline: VB1 through VB.NET,diagrams,still,design,T1-D14,"2,15",OPS-01,"R15,R12",assets/diagrams/DIA-14,docs/tickets/DIA-14.md,45,in_progress,blocked
+CARD-01,Opening title: Win95 message box,cards,motion,design,T1-S01,1,OPS-01,,assets/cards/CARD-01,docs/tickets/CARD-01.md,46,produced,unreviewed
+CH-01,Chapter 01: Intro: What Even Is Visual Basic?,chapters,motion,design,T1-S02,1,OPS-01,,assets/chapters/CH-01,docs/tickets/CH-01.md,47,produced,unreviewed
+CH-02,Chapter 02: A Very Brief History of BASIC to Visual Basic,chapters,motion,design,T1-S02,2,OPS-01,,assets/chapters/CH-02,docs/tickets/CH-02.md,48,produced,unreviewed
+CH-03,Chapter 03: The Toolchain: What You Actually Installed,chapters,motion,design,T1-S02,3,OPS-01,,assets/chapters/CH-03,docs/tickets/CH-03.md,49,produced,unreviewed
+CH-04,Chapter 04: How We're Doing This Today,chapters,motion,design,T1-S02,4,OPS-01,,assets/chapters/CH-04,docs/tickets/CH-04.md,50,produced,unreviewed
+CH-05,Chapter 05: The Card Game War: Rules in 60 Seconds,chapters,motion,design,T1-S02,5,OPS-01,,assets/chapters/CH-05,docs/tickets/CH-05.md,51,produced,unreviewed
+CH-06,Chapter 06: Modeling a Card in VB,chapters,motion,design,T1-S02,6,OPS-01,,assets/chapters/CH-06,docs/tickets/CH-06.md,52,produced,unreviewed
+CH-07,Chapter 07: Building and Shuffling the Deck,chapters,motion,design,T1-S02,7,OPS-01,,assets/chapters/CH-07,docs/tickets/CH-07.md,53,produced,unreviewed
+CH-08,Chapter 08: The Player's Hand: Arrays as Queues,chapters,motion,design,T1-S02,8,OPS-01,,assets/chapters/CH-08,docs/tickets/CH-08.md,54,produced,unreviewed
+CH-09,Chapter 09: The Game Loop,chapters,motion,design,T1-S02,9,OPS-01,,assets/chapters/CH-09,docs/tickets/CH-09.md,55,produced,unreviewed
+CH-10,Chapter 10: War! The Recursion Within the Loop,chapters,motion,design,T1-S02,10,OPS-01,R04,assets/chapters/CH-10,docs/tickets/CH-10.md,56,produced,blocked
+CH-11,Chapter 11: Running It: Full Simulation,chapters,motion,design,T1-S02,11,OPS-01,,assets/chapters/CH-11,docs/tickets/CH-11.md,57,produced,unreviewed
+CH-12,Chapter 12: What This Code Would Have Become,chapters,motion,design,T1-S02,12,OPS-01,,assets/chapters/CH-12,docs/tickets/CH-12.md,58,produced,unreviewed
+CH-13,Chapter 13: VB vs. The Competition in 1995,chapters,motion,design,T1-S02,13,OPS-01,,assets/chapters/CH-13,docs/tickets/CH-13.md,59,produced,unreviewed
+CH-14,Chapter 14: What If You Were on a Mac?,chapters,motion,design,T1-S02,14,OPS-01,,assets/chapters/CH-14,docs/tickets/CH-14.md,60,produced,unreviewed
+CH-15,Chapter 15: Why VB Mattered (and Why It Died),chapters,motion,design,T1-S02,15,OPS-01,R12,assets/chapters/CH-15,docs/tickets/CH-15.md,61,produced,blocked
+CH-16,Chapter 16: Outro,chapters,motion,design,T1-S02,16,OPS-01,,assets/chapters/CH-16,docs/tickets/CH-16.md,62,produced,unreviewed
+CARD-02,"Outro end card: subscribe, like, next video",cards,motion,design,T1-S06,16,OPS-01,,assets/cards/CARD-02,docs/tickets/CARD-02.md,63,produced,unreviewed
+CODE-01,Options: explicit and strict,code,code,code,T1-S03,4,OPS-01,"R03,R17",assets/code/CODE-01,docs/tickets/CODE-01.md,64,produced,blocked
+CODE-02,Card structure: Rank and Suit,code,code,code,T1-S03,6,OPS-01,R03,assets/code/CODE-02,docs/tickets/CODE-02.md,65,produced,blocked
+CODE-03,BuildDeck procedure,code,code,code,T1-S03,7,OPS-01,,assets/code/CODE-03,docs/tickets/CODE-03.md,66,produced,unreviewed
+CODE-04,Nested For / Next matching brackets,code,code,code,T1-S03,7,OPS-01,,assets/code/CODE-04,docs/tickets/CODE-04.md,37,produced,unreviewed
+CODE-05,ShuffleDeck procedure,code,code,code,T1-S03,7,OPS-01,R15,assets/code/CODE-05,docs/tickets/CODE-05.md,67,produced,blocked
+CODE-06,Hand structure,code,code,code,T1-S03,8,OPS-01,R04a,assets/code/CODE-06,docs/tickets/CODE-06.md,68,produced,blocked
+CODE-07,NewHand initialization,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-07,docs/tickets/CODE-07.md,69,produced,unreviewed
+CODE-08,AddCardToBottom procedure,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-08,docs/tickets/CODE-08.md,70,produced,unreviewed
+CODE-09,DrawTopCard function,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-09,docs/tickets/CODE-09.md,71,produced,unreviewed
+CODE-10,Return by assigning to the function name,code,code,code,T1-S03,8,OPS-01,,assets/code/CODE-10,docs/tickets/CODE-10.md,72,produced,unreviewed
+CODE-11,"Main setup: build, shuffle, new hands, deal",code,code,code,T1-S03,9,OPS-01,,assets/code/CODE-11,docs/tickets/CODE-11.md,73,produced,unreviewed
+CODE-12,DealCards: alternating distribution,code,code,code,T1-S03,9,OPS-01,,assets/code/CODE-12,docs/tickets/CODE-12.md,74,produced,unreviewed
+CODE-13,Main Do While game loop,code,code,code,T1-S03,9,OPS-01,R06,assets/code/CODE-13,docs/tickets/CODE-13.md,75,produced,blocked
+CODE-14,Round-cap safety valve,code,code,code,T1-S03,9,OPS-01,R06,assets/code/CODE-14,docs/tickets/CODE-14.md,76,produced,blocked
+CODE-15,PlayRound signature and argument modes,code,code,code,T1-S03,10,OPS-01,R04a,assets/code/CODE-15,docs/tickets/CODE-15.md,77,produced,blocked
+CODE-16,Pot declaration and count,code,code,code,T1-S03,10,OPS-01,R07,assets/code/CODE-16,docs/tickets/CODE-16.md,78,produced,blocked
+CODE-17,Mid-war empty-hand guards,code,code,code,T1-S03,10,OPS-01,"R04,R05",assets/code/CODE-17,docs/tickets/CODE-17.md,79,produced,blocked
+CODE-18,Draw a pair and append to the pot,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-18,docs/tickets/CODE-18.md,80,produced,unreviewed
+CODE-19,Rank comparison and round winner,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-19,docs/tickets/CODE-19.md,81,produced,unreviewed
+CODE-20,War counters and symmetric burn loop,code,code,code,T1-S03,10,OPS-01,R05,assets/code/CODE-20,docs/tickets/CODE-20.md,82,produced,blocked
+CODE-21,Colon statement separator,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-21,docs/tickets/CODE-21.md,83,produced,unreviewed
+CODE-22,GiveCardsToWinner procedure,code,code,code,T1-S03,10,OPS-01,,assets/code/CODE-22,docs/tickets/CODE-22.md,84,produced,unreviewed
+CODE-23,RankName Select Case,code,code,code,T1-S03,"6,11",OPS-01,,assets/code/CODE-23,docs/tickets/CODE-23.md,85,produced,unreviewed
+CODE-24,CardText suit names and concatenation,code,code,code,T1-S03,"6,9",OPS-01,,assets/code/CODE-24,docs/tickets/CODE-24.md,86,produced,unreviewed
+CODE-25,Winner and final summary output code,code,code,code,T1-S03,"11,16",OPS-01,"R06,R08",assets/code/CODE-25,docs/tickets/CODE-25.md,87,produced,blocked
+CMP-01,Variable declaration: type before versus after,comparisons,still,code,T1-S04,6,OPS-01,,assets/comparisons/CMP-01,docs/tickets/CMP-01.md,88,produced,unreviewed
+CMP-02,Void method versus Sub procedure,comparisons,still,code,T1-S04,7,OPS-01,R04a,assets/comparisons/CMP-02,docs/tickets/CMP-02.md,89,produced,blocked
+CMP-03,For loop and named Next,comparisons,still,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-03,docs/tickets/CMP-03.md,90,produced,unreviewed
+CMP-04,Counting backward: decrement versus Step -1,comparisons,still,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-04,docs/tickets/CMP-04.md,91,produced,unreviewed
+CMP-05,Returning a value,comparisons,still,code,T1-S04,8,OPS-01,,assets/comparisons/CMP-05,docs/tickets/CMP-05.md,92,produced,unreviewed
+CMP-06,String concatenation,comparisons,still,code,T1-S04,9,OPS-01,,assets/comparisons/CMP-06,docs/tickets/CMP-06.md,93,produced,unreviewed
+CMP-07,While loop spelling,comparisons,still,code,T1-S04,9,OPS-01,R04a,assets/comparisons/CMP-07,docs/tickets/CMP-07.md,94,produced,blocked
+CMP-08,Line continuation,comparisons,still,code,T1-S04,9,OPS-01,R03,assets/comparisons/CMP-08,docs/tickets/CMP-08.md,95,produced,blocked
+FACT-01,BASIC acronym,facts,still,design,T1-S05,2,OPS-01,R15,assets/facts/FACT-01,docs/tickets/FACT-01.md,96,produced,blocked
+FACT-02,Dim: a word inherited from array dimensions,facts,still,design,T1-S05,6,OPS-01,"R10,R15",assets/facts/FACT-02,docs/tickets/FACT-02.md,97,produced,blocked
+FACT-03,RAD: Rapid Application Development,facts,still,design,T1-S05,3,OPS-01,,assets/facts/FACT-03,docs/tickets/FACT-03.md,98,produced,unreviewed
+FACT-04,VB3 and the Jet database engine,facts,still,design,T1-S05,2,OPS-01,R15,assets/facts/FACT-04,docs/tickets/FACT-04.md,99,produced,blocked
+FACT-05,The function name can hold the return value,facts,still,design,T1-S05,8,OPS-01,,assets/facts/FACT-05,docs/tickets/FACT-05.md,100,produced,unreviewed
+FACT-06,The runtime was part of the download story,facts,still,design,T1-S05,12,OPS-01,R16,assets/facts/FACT-06,docs/tickets/FACT-06.md,101,produced,blocked
+MOCK-01,VB4-style War GUI on green felt,mockups,still,design,T1-M01,12,OPS-01,,assets/mockups/MOCK-01,docs/tickets/MOCK-01.md,102,produced,unreviewed
+MOCK-02,1996 download dialog: 9:42 remaining,mockups,motion,design,T1-M02,12,OPS-01,R16,assets/mockups/MOCK-02,docs/tickets/MOCK-02.md,103,produced,blocked
+REF-01,Representative MFC message-map snippet,reference-code,code,code,T1-R01,13,OPS-01,R15,assets/reference-code/REF-01,docs/tickets/REF-01.md,104,in_progress,blocked
+REF-02,Windows C Hello World: historical boilerplate comparison,reference-code,motion,code,T1-R02,2,OPS-01,"R03,R15",assets/reference-code/REF-02,docs/tickets/REF-02.md,105,in_progress,blocked
+REF-03,Classic VB MsgBox event handler,reference-code,code,code,T1-R03,2,OPS-01,R03,assets/reference-code/REF-03,docs/tickets/REF-03.md,106,produced,blocked
+REF-04,BASIC 10 PRINT / 20 GOTO,reference-code,motion,code,T1-R04,2,OPS-01,,assets/reference-code/REF-04,docs/tickets/REF-04.md,107,produced,unreviewed
+TERM-01,Project creation and actual SDK version,captures,capture,capture,T2-T01,4,"OPS-01,OPS-02",R17,assets/captures/TERM-01,docs/tickets/TERM-01.md,108,produced,approved
+TERM-02,Primary complete War simulation,captures,capture,capture,T2-T02,"1,11,16","OPS-01,OPS-02","R06,R08",assets/captures/TERM-02,docs/tickets/TERM-02.md,109,produced,approved
+TERM-03,Complete Program.vb readable scrollthrough stills,captures,capture,capture,T2-T03,"6,7,8,9,10","OPS-01,OPS-02",R03,assets/captures/TERM-03,docs/tickets/TERM-03.md,110,produced,approved
+TERM-04,War-heavy run with chained-war highlight,captures,capture,capture,T2-T04,"1,11","OPS-01,OPS-02","R05,R08",assets/captures/TERM-04,docs/tickets/TERM-04.md,111,produced,approved
+TERM-05,Alternate complete simulation: run B,captures,capture,capture,T2-T02,11,"OPS-01,OPS-02,TERM-02","R06,R08",assets/captures/TERM-05,docs/tickets/TERM-05.md,112,produced,approved
+TERM-06,Alternate complete simulation: run C,captures,capture,capture,T2-T02,11,"OPS-01,OPS-02,TERM-02,TERM-05","R06,R08",assets/captures/TERM-06,docs/tickets/TERM-06.md,113,produced,approved
+HIST-01,VB 1.0 IDE,historical,archive,research,T2-H01,2,OPS-01,R14,assets/historical/HIST-01,docs/tickets/HIST-01.md,114,planned,blocked
+HIST-02,VB 4.0 IDE,historical,archive,research,T2-H01,"1,3",OPS-01,R14,assets/historical/HIST-02,docs/tickets/HIST-02.md,115,planned,blocked
+HIST-03,VB 6.0 IDE,historical,archive,research,T2-H01,15,OPS-01,R14,assets/historical/HIST-03,docs/tickets/HIST-03.md,116,planned,blocked
+HIST-04,Kemeny and Kurtz at Dartmouth,historical,archive,research,T2-H02,2,OPS-01,R14,assets/historical/HIST-04,docs/tickets/HIST-04.md,117,planned,blocked
+HIST-05,Commodore 64 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-05,docs/tickets/HIST-05.md,118,planned,blocked
+HIST-06,Apple II BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-06,docs/tickets/HIST-06.md,119,planned,blocked
+HIST-07,TRS-80 BASIC boot screen,historical,archive,research,T2-H03,2,OPS-01,R14,assets/historical/HIST-07,docs/tickets/HIST-07.md,120,planned,blocked
+HIST-08,Windows 95 launch footage still,historical,archive,research,T2-H04,2,OPS-01,R14,assets/historical/HIST-08,docs/tickets/HIST-08.md,121,planned,blocked
+HIST-09,CompUSA storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-09,docs/tickets/HIST-09.md,122,planned,blocked
+HIST-10,Egghead Software storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-10,docs/tickets/HIST-10.md,123,planned,blocked
+HIST-11,Visual Basic 4 retail box,historical,archive,research,T2-H06,3,OPS-01,R14,assets/historical/HIST-11,docs/tickets/HIST-11.md,124,planned,blocked
+HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,125,planned,blocked
+HIST-13,Metrowerks CodeWarrior IDE,historical,archive,research,T2-H08,14,OPS-01,R14,assets/historical/HIST-13,docs/tickets/HIST-13.md,126,planned,blocked
+HIST-14,NeXT Cube product photograph,historical,archive,research,T2-H09,14,OPS-01,R14,assets/historical/HIST-14,docs/tickets/HIST-14.md,127,planned,blocked
+HIST-15,PowerBuilder DataWindow,historical,archive,research,T2-H10,13,OPS-01,R14,assets/historical/HIST-15,docs/tickets/HIST-15.md,128,planned,blocked
+HIST-16,Java AWT application,historical,archive,research,T2-H11,13,OPS-01,R14,assets/historical/HIST-16,docs/tickets/HIST-16.md,129,planned,blocked
+HIST-17,TUCOWS archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-17,docs/tickets/HIST-17.md,130,planned,blocked
+HIST-18,Download.com archived site circa 1996,historical,archive,research,T2-H12,12,OPS-01,R14,assets/historical/HIST-18,docs/tickets/HIST-18.md,131,planned,blocked
+HIST-19,Windows 3.1 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-19,docs/tickets/HIST-19.md,132,planned,blocked
+HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-20,docs/tickets/HIST-20.md,133,planned,blocked
+HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,134,planned,blocked
+BROLL-01,Hands shuffling physical cards,broll,scout,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,planned,blocked
+BROLL-02,Two people playing War,broll,scout,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,planned,blocked
+BROLL-03,1990s office with CRT monitors,broll,scout,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,planned,blocked
+BROLL-04,Browsing a 1990s software store,broll,scout,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,planned,blocked
+BROLL-05,Floppy disk insertion close-up,broll,scout,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,139,planned,blocked
+BROLL-06,Pentium-era PC booting,broll,scout,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,planned,blocked
+XTRA-01,Visual Basic Programmer's Journal cover,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-01,docs/tickets/XTRA-01.md,141,planned,blocked
+XTRA-02,Period MSDN advertisement,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-02,docs/tickets/XTRA-02.md,142,planned,blocked
+XTRA-03,Early BASIC-era terminal hardware,historical,archive,research,SCRIPT-SUPPLEMENT,2,OPS-01,R14,assets/historical/XTRA-03,docs/tickets/XTRA-03.md,143,planned,blocked
+XTRA-07,Visual Basic 4 installation media,historical,archive,research,SCRIPT-SUPPLEMENT,3,OPS-01,R14,assets/historical/XTRA-07,docs/tickets/XTRA-07.md,144,planned,blocked
+XTRA-09,Mid-1990s Macintosh hardware,historical,archive,research,SCRIPT-SUPPLEMENT,14,OPS-01,R14,assets/historical/XTRA-09,docs/tickets/XTRA-09.md,145,planned,blocked
+XTRA-11,Documented VB business application,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,"R14,R11",assets/historical/XTRA-11,docs/tickets/XTRA-11.md,146,planned,blocked
+XTRA-12,Documented VB data-entry application,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,"R14,R11",assets/historical/XTRA-12,docs/tickets/XTRA-12.md,147,planned,blocked
+XTRA-13,Documented VB utility application,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,"R14,R11",assets/historical/XTRA-13,docs/tickets/XTRA-13.md,148,planned,blocked
+XTRA-16,VB6-to-.NET migration wizard,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,R14,assets/historical/XTRA-16,docs/tickets/XTRA-16.md,149,planned,blocked
+XTRA-17,Save VB6 petition or advocacy page,historical,archive,research,SCRIPT-SUPPLEMENT,15,OPS-01,R14,assets/historical/XTRA-17,docs/tickets/XTRA-17.md,150,planned,blocked
+XTRA-18,Period Windows Hearts screenshot,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-18,docs/tickets/XTRA-18.md,151,planned,blocked
+XTRA-19,Period Windows FreeCell screenshot,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-19,docs/tickets/XTRA-19.md,152,planned,blocked
+XTRA-20,Period BBS file listing,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-20,docs/tickets/XTRA-20.md,153,planned,blocked
+XTRA-04,FORTRAN versus BASIC introductory example,reference-code,still,code,SCRIPT-SUPPLEMENT,2,OPS-01,R15,assets/reference-code/XTRA-04,docs/tickets/XTRA-04.md,154,planned,blocked
+XTRA-05,VB4 IDE anatomy: five labeled panels,stills,still,design,SCRIPT-SUPPLEMENT,3,"OPS-01,HIST-02","R03,R14",assets/stills/XTRA-05,docs/tickets/XTRA-05.md,155,planned,blocked
+XTRA-06,Project settings: actual War.vbproj capture,captures,capture,capture,SCRIPT-SUPPLEMENT,4,"OPS-01,OPS-02",R17,assets/captures/XTRA-06,docs/tickets/XTRA-06.md,156,produced,approved
+XTRA-08,1995 tools class-photo lineup,stills,still,design,SCRIPT-SUPPLEMENT,13,OPS-01,R15,assets/stills/XTRA-08,docs/tickets/XTRA-08.md,157,planned,blocked
+XTRA-10,VB-for-Mac claim visual: evidence-gated decision,stills,still,research,SCRIPT-SUPPLEMENT,14,OPS-01,"R09,R14",assets/stills/XTRA-10,docs/tickets/XTRA-10.md,158,planned,blocked
+XTRA-14,Real-world VB application collage,stills,still,design,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11,XTRA-12,XTRA-13","R11,R14",assets/stills/XTRA-14,docs/tickets/XTRA-14.md,159,planned,blocked
+XTRA-15,Windows XP office / legacy VB6 scene,stills,still,research,SCRIPT-SUPPLEMENT,15,"OPS-01,XTRA-11","R01,R11,R14",assets/stills/XTRA-15,docs/tickets/XTRA-15.md,160,planned,blocked
+OPS-01,"Shared visual system, reusable primitives, and deterministic export contract",ops,support,orchestrator,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-01,docs/tickets/OPS-01.md,28,produced,unreviewed
+OPS-02,Isolated .NET harness and capture preflight,ops,support,capture,COORDINATION,"4,11",,R17,assets/ops/OPS-02,docs/tickets/OPS-02.md,29,produced,approved
+OPS-03,"Editorial, historical evidence, and rights clearance ledger",ops,support,research,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",,,assets/ops/OPS-03,docs/tickets/OPS-03.md,30,planned,unreviewed
+OPS-04,"Integration QA, coverage audit, and editor handoff",ops,support,qa,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16","DIA-01,DIA-02,DIA-03,DIA-04,DIA-05,DIA-06,DIA-07,DIA-08,DIA-09,DIA-10,DIA-11,DIA-12,DIA-13,DIA-14,CARD-01,CH-01,CH-02,CH-03,CH-04,CH-05,CH-06,CH-07,CH-08,CH-09,CH-10,CH-11,CH-12,CH-13,CH-14,CH-15,CH-16,CARD-02,CODE-01,CODE-02,CODE-03,CODE-04,CODE-05,CODE-06,CODE-07,CODE-08,CODE-09,CODE-10,CODE-11,CODE-12,CODE-13,CODE-14,CODE-15,CODE-16,CODE-17,CODE-18,CODE-19,CODE-20,CODE-21,CODE-22,CODE-23,CODE-24,CODE-25,CMP-01,CMP-02,CMP-03,CMP-04,CMP-05,CMP-06,CMP-07,CMP-08,FACT-01,FACT-02,FACT-03,FACT-04,FACT-05,FACT-06,MOCK-01,MOCK-02,REF-01,REF-02,REF-03,REF-04,TERM-01,TERM-02,TERM-03,TERM-04,TERM-05,TERM-06,HIST-01,HIST-02,HIST-03,HIST-04,HIST-05,HIST-06,HIST-07,HIST-08,HIST-09,HIST-10,HIST-11,HIST-12,HIST-13,HIST-14,HIST-15,HIST-16,HIST-17,HIST-18,HIST-19,HIST-20,HIST-21,BROLL-01,BROLL-02,BROLL-03,BROLL-04,BROLL-05,BROLL-06,XTRA-01,XTRA-02,XTRA-03,XTRA-07,XTRA-09,XTRA-11,XTRA-12,XTRA-13,XTRA-16,XTRA-17,XTRA-18,XTRA-19,XTRA-20,XTRA-04,XTRA-05,XTRA-06,XTRA-08,XTRA-10,XTRA-14,XTRA-15,OPS-01,OPS-02,OPS-03",,assets/ops/OPS-04,docs/tickets/OPS-04.md,161,in_progress,blocked

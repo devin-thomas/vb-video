@@ -1449,7 +1449,8 @@
         "exports/overview.png",
         "exports/click-handler.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-01"
+      "asset_dir": "assets/diagrams/DIA-01",
+      "github_issue": 31
     },
     {
       "id": "DIA-02",
@@ -1559,7 +1560,8 @@
         "exports/normal-round.mp4",
         "exports/single-war.mp4"
       ],
-      "asset_dir": "assets/diagrams/DIA-02"
+      "asset_dir": "assets/diagrams/DIA-02",
+      "github_issue": 32
     },
     {
       "id": "DIA-03",
@@ -1634,7 +1636,8 @@
         "exports/poster.png",
         "exports/full-chart.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-03"
+      "asset_dir": "assets/diagrams/DIA-03",
+      "github_issue": 33
     },
     {
       "id": "DIA-04",
@@ -1723,7 +1726,8 @@
         "exports/keyframes/middle.png",
         "exports/keyframes/end.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-04"
+      "asset_dir": "assets/diagrams/DIA-04",
+      "github_issue": 34
     },
     {
       "id": "DIA-05",
@@ -1813,7 +1817,8 @@
         "exports/draw-and-shift.png",
         "exports/append-at-count.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-05"
+      "asset_dir": "assets/diagrams/DIA-05",
+      "github_issue": 35
     },
     {
       "id": "DIA-06",
@@ -1898,7 +1903,8 @@
         "exports/miniature-trace.png",
         "exports/real-code-bounds.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-06"
+      "asset_dir": "assets/diagrams/DIA-06",
+      "github_issue": 36
     },
     {
       "id": "DIA-07",
@@ -1980,7 +1986,8 @@
         "exports/full-grid.png",
         "exports/first-rank-closeup.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-07"
+      "asset_dir": "assets/diagrams/DIA-07",
+      "github_issue": 38
     },
     {
       "id": "DIA-08",
@@ -2076,7 +2083,8 @@
         "exports/single-war-motion.mp4",
         "exports/award-to-bottom.mp4"
       ],
-      "asset_dir": "assets/diagrams/DIA-08"
+      "asset_dir": "assets/diagrams/DIA-08",
+      "github_issue": 39
     },
     {
       "id": "DIA-09",
@@ -2173,7 +2181,8 @@
         "exports/2-10-18-poster.png",
         "exports/double-war-growth.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-09"
+      "asset_dir": "assets/diagrams/DIA-09",
+      "github_issue": 40
     },
     {
       "id": "DIA-10",
@@ -2264,7 +2273,8 @@
         "exports/main-flow.png",
         "exports/playround-detail.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-10"
+      "asset_dir": "assets/diagrams/DIA-10",
+      "github_issue": 41
     },
     {
       "id": "DIA-11",
@@ -2332,7 +2342,8 @@
         "exports/poster.png",
         "exports/full-comparison.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-11"
+      "asset_dir": "assets/diagrams/DIA-11",
+      "github_issue": 42
     },
     {
       "id": "DIA-12",
@@ -2405,7 +2416,8 @@
         "exports/full-table.png",
         "exports/gui-row-focus.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-12"
+      "asset_dir": "assets/diagrams/DIA-12",
+      "github_issue": 43
     },
     {
       "id": "DIA-13",
@@ -2474,7 +2486,8 @@
         "exports/poster.png",
         "exports/overview.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-13"
+      "asset_dir": "assets/diagrams/DIA-13",
+      "github_issue": 44
     },
     {
       "id": "DIA-14",
@@ -2553,7 +2566,8 @@
         "exports/early-history.png",
         "exports/great-divide.png"
       ],
-      "asset_dir": "assets/diagrams/DIA-14"
+      "asset_dir": "assets/diagrams/DIA-14",
+      "github_issue": 45
     },
     {
       "id": "CARD-01",
@@ -2633,7 +2647,8 @@
         "exports/title-hold.png",
         "exports/ok-click.png"
       ],
-      "asset_dir": "assets/cards/CARD-01"
+      "asset_dir": "assets/cards/CARD-01",
+      "github_issue": 46
     },
     {
       "id": "CH-01",
@@ -2712,7 +2727,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-01"
+      "asset_dir": "assets/chapters/CH-01",
+      "github_issue": 47
     },
     {
       "id": "CH-02",
@@ -2791,7 +2807,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-02"
+      "asset_dir": "assets/chapters/CH-02",
+      "github_issue": 48
     },
     {
       "id": "CH-03",
@@ -2870,7 +2887,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-03"
+      "asset_dir": "assets/chapters/CH-03",
+      "github_issue": 49
     },
     {
       "id": "CH-04",
@@ -2949,7 +2967,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-04"
+      "asset_dir": "assets/chapters/CH-04",
+      "github_issue": 50
     },
     {
       "id": "CH-05",
@@ -3028,7 +3047,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-05"
+      "asset_dir": "assets/chapters/CH-05",
+      "github_issue": 51
     },
     {
       "id": "CH-06",
@@ -3107,7 +3127,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-06"
+      "asset_dir": "assets/chapters/CH-06",
+      "github_issue": 52
     },
     {
       "id": "CH-07",
@@ -3186,7 +3207,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-07"
+      "asset_dir": "assets/chapters/CH-07",
+      "github_issue": 53
     },
     {
       "id": "CH-08",
@@ -3265,7 +3287,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-08"
+      "asset_dir": "assets/chapters/CH-08",
+      "github_issue": 54
     },
     {
       "id": "CH-09",
@@ -3344,7 +3367,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-09"
+      "asset_dir": "assets/chapters/CH-09",
+      "github_issue": 55
     },
     {
       "id": "CH-10",
@@ -3426,7 +3450,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-10"
+      "asset_dir": "assets/chapters/CH-10",
+      "github_issue": 56
     },
     {
       "id": "CH-11",
@@ -3505,7 +3530,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-11"
+      "asset_dir": "assets/chapters/CH-11",
+      "github_issue": 57
     },
     {
       "id": "CH-12",
@@ -3584,7 +3610,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-12"
+      "asset_dir": "assets/chapters/CH-12",
+      "github_issue": 58
     },
     {
       "id": "CH-13",
@@ -3663,7 +3690,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-13"
+      "asset_dir": "assets/chapters/CH-13",
+      "github_issue": 59
     },
     {
       "id": "CH-14",
@@ -3742,7 +3770,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-14"
+      "asset_dir": "assets/chapters/CH-14",
+      "github_issue": 60
     },
     {
       "id": "CH-15",
@@ -3824,7 +3853,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-15"
+      "asset_dir": "assets/chapters/CH-15",
+      "github_issue": 61
     },
     {
       "id": "CH-16",
@@ -3903,7 +3933,8 @@
         "exports/chapter-hold.png",
         "exports/chapter-motion.png"
       ],
-      "asset_dir": "assets/chapters/CH-16"
+      "asset_dir": "assets/chapters/CH-16",
+      "github_issue": 62
     },
     {
       "id": "CARD-02",
@@ -3977,7 +4008,8 @@
         "exports/clean-end-card.png",
         "exports/end-card-motion.png"
       ],
-      "asset_dir": "assets/cards/CARD-02"
+      "asset_dir": "assets/cards/CARD-02",
+      "github_issue": 63
     },
     {
       "id": "CODE-01",
@@ -4061,7 +4093,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-01"
+      "asset_dir": "assets/code/CODE-01",
+      "github_issue": 64
     },
     {
       "id": "CODE-02",
@@ -4148,7 +4181,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-02"
+      "asset_dir": "assets/code/CODE-02",
+      "github_issue": 65
     },
     {
       "id": "CODE-03",
@@ -4230,7 +4264,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-03"
+      "asset_dir": "assets/code/CODE-03",
+      "github_issue": 66
     },
     {
       "id": "CODE-04",
@@ -4312,7 +4347,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-04"
+      "asset_dir": "assets/code/CODE-04",
+      "github_issue": 37
     },
     {
       "id": "CODE-05",
@@ -4395,7 +4431,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-05"
+      "asset_dir": "assets/code/CODE-05",
+      "github_issue": 67
     },
     {
       "id": "CODE-06",
@@ -4480,7 +4517,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-06"
+      "asset_dir": "assets/code/CODE-06",
+      "github_issue": 68
     },
     {
       "id": "CODE-07",
@@ -4560,7 +4598,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-07"
+      "asset_dir": "assets/code/CODE-07",
+      "github_issue": 69
     },
     {
       "id": "CODE-08",
@@ -4642,7 +4681,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-08"
+      "asset_dir": "assets/code/CODE-08",
+      "github_issue": 70
     },
     {
       "id": "CODE-09",
@@ -4724,7 +4764,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-09"
+      "asset_dir": "assets/code/CODE-09",
+      "github_issue": 71
     },
     {
       "id": "CODE-10",
@@ -4806,7 +4847,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-10"
+      "asset_dir": "assets/code/CODE-10",
+      "github_issue": 72
     },
     {
       "id": "CODE-11",
@@ -4886,7 +4928,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-11"
+      "asset_dir": "assets/code/CODE-11",
+      "github_issue": 73
     },
     {
       "id": "CODE-12",
@@ -4966,7 +5009,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-12"
+      "asset_dir": "assets/code/CODE-12",
+      "github_issue": 74
     },
     {
       "id": "CODE-13",
@@ -5051,7 +5095,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-13"
+      "asset_dir": "assets/code/CODE-13",
+      "github_issue": 75
     },
     {
       "id": "CODE-14",
@@ -5134,7 +5179,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-14"
+      "asset_dir": "assets/code/CODE-14",
+      "github_issue": 76
     },
     {
       "id": "CODE-15",
@@ -5219,7 +5265,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-15"
+      "asset_dir": "assets/code/CODE-15",
+      "github_issue": 77
     },
     {
       "id": "CODE-16",
@@ -5302,7 +5349,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-16"
+      "asset_dir": "assets/code/CODE-16",
+      "github_issue": 78
     },
     {
       "id": "CODE-17",
@@ -5388,7 +5436,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-17"
+      "asset_dir": "assets/code/CODE-17",
+      "github_issue": 79
     },
     {
       "id": "CODE-18",
@@ -5470,7 +5519,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-18"
+      "asset_dir": "assets/code/CODE-18",
+      "github_issue": 80
     },
     {
       "id": "CODE-19",
@@ -5552,7 +5602,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-19"
+      "asset_dir": "assets/code/CODE-19",
+      "github_issue": 81
     },
     {
       "id": "CODE-20",
@@ -5635,7 +5686,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-20"
+      "asset_dir": "assets/code/CODE-20",
+      "github_issue": 82
     },
     {
       "id": "CODE-21",
@@ -5715,7 +5767,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-21"
+      "asset_dir": "assets/code/CODE-21",
+      "github_issue": 83
     },
     {
       "id": "CODE-22",
@@ -5797,7 +5850,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-22"
+      "asset_dir": "assets/code/CODE-22",
+      "github_issue": 84
     },
     {
       "id": "CODE-23",
@@ -5878,7 +5932,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-23"
+      "asset_dir": "assets/code/CODE-23",
+      "github_issue": 85
     },
     {
       "id": "CODE-24",
@@ -5964,7 +6019,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-24"
+      "asset_dir": "assets/code/CODE-24",
+      "github_issue": 86
     },
     {
       "id": "CODE-25",
@@ -6054,7 +6110,8 @@
         "exports/clean.png",
         "exports/highlighted.png"
       ],
-      "asset_dir": "assets/code/CODE-25"
+      "asset_dir": "assets/code/CODE-25",
+      "github_issue": 87
     },
     {
       "id": "CMP-01",
@@ -6121,7 +6178,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-01"
+      "asset_dir": "assets/comparisons/CMP-01",
+      "github_issue": 88
     },
     {
       "id": "CMP-02",
@@ -6193,7 +6251,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-02"
+      "asset_dir": "assets/comparisons/CMP-02",
+      "github_issue": 89
     },
     {
       "id": "CMP-03",
@@ -6260,7 +6319,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-03"
+      "asset_dir": "assets/comparisons/CMP-03",
+      "github_issue": 90
     },
     {
       "id": "CMP-04",
@@ -6327,7 +6387,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-04"
+      "asset_dir": "assets/comparisons/CMP-04",
+      "github_issue": 91
     },
     {
       "id": "CMP-05",
@@ -6396,7 +6457,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-05"
+      "asset_dir": "assets/comparisons/CMP-05",
+      "github_issue": 92
     },
     {
       "id": "CMP-06",
@@ -6465,7 +6527,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-06"
+      "asset_dir": "assets/comparisons/CMP-06",
+      "github_issue": 93
     },
     {
       "id": "CMP-07",
@@ -6535,7 +6598,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-07"
+      "asset_dir": "assets/comparisons/CMP-07",
+      "github_issue": 94
     },
     {
       "id": "CMP-08",
@@ -6605,7 +6669,8 @@
         "exports/comparison.png",
         "exports/token-focus.png"
       ],
-      "asset_dir": "assets/comparisons/CMP-08"
+      "asset_dir": "assets/comparisons/CMP-08",
+      "github_issue": 95
     },
     {
       "id": "FACT-01",
@@ -6673,7 +6738,8 @@
         "exports/poster.png",
         "exports/factoid.png"
       ],
-      "asset_dir": "assets/facts/FACT-01"
+      "asset_dir": "assets/facts/FACT-01",
+      "github_issue": 96
     },
     {
       "id": "FACT-02",
@@ -6742,7 +6808,8 @@
         "exports/poster.png",
         "exports/factoid.png"
       ],
-      "asset_dir": "assets/facts/FACT-02"
+      "asset_dir": "assets/facts/FACT-02",
+      "github_issue": 97
     },
     {
       "id": "FACT-03",
@@ -6807,7 +6874,8 @@
         "exports/poster.png",
         "exports/factoid.png"
       ],
-      "asset_dir": "assets/facts/FACT-03"
+      "asset_dir": "assets/facts/FACT-03",
+      "github_issue": 98
     },
     {
       "id": "FACT-04",
@@ -6875,7 +6943,8 @@
         "exports/poster.png",
         "exports/factoid.png"
       ],
-      "asset_dir": "assets/facts/FACT-04"
+      "asset_dir": "assets/facts/FACT-04",
+      "github_issue": 99
     },
     {
       "id": "FACT-05",
@@ -6940,7 +7009,8 @@
         "exports/poster.png",
         "exports/factoid.png"
       ],
-      "asset_dir": "assets/facts/FACT-05"
+      "asset_dir": "assets/facts/FACT-05",
+      "github_issue": 100
     },
     {
       "id": "FACT-06",
@@ -7008,7 +7078,8 @@
         "exports/poster.png",
         "exports/factoid.png"
       ],
-      "asset_dir": "assets/facts/FACT-06"
+      "asset_dir": "assets/facts/FACT-06",
+      "github_issue": 101
     },
     {
       "id": "MOCK-01",
@@ -7082,7 +7153,8 @@
         "exports/concept.png",
         "exports/annotated.png"
       ],
-      "asset_dir": "assets/mockups/MOCK-01"
+      "asset_dir": "assets/mockups/MOCK-01",
+      "github_issue": 102
     },
     {
       "id": "MOCK-02",
@@ -7159,7 +7231,8 @@
         "exports/eta-hold.png",
         "exports/slow-progress.png"
       ],
-      "asset_dir": "assets/mockups/MOCK-02"
+      "asset_dir": "assets/mockups/MOCK-02",
+      "github_issue": 103
     },
     {
       "id": "REF-01",
@@ -7237,7 +7310,8 @@
         "exports/clean.png",
         "exports/teaching-focus.png"
       ],
-      "asset_dir": "assets/reference-code/REF-01"
+      "asset_dir": "assets/reference-code/REF-01",
+      "github_issue": 104
     },
     {
       "id": "REF-02",
@@ -7316,7 +7390,8 @@
         "exports/clean.png",
         "exports/teaching-focus.png"
       ],
-      "asset_dir": "assets/reference-code/REF-02"
+      "asset_dir": "assets/reference-code/REF-02",
+      "github_issue": 105
     },
     {
       "id": "REF-03",
@@ -7394,7 +7469,8 @@
         "exports/clean.png",
         "exports/teaching-focus.png"
       ],
-      "asset_dir": "assets/reference-code/REF-03"
+      "asset_dir": "assets/reference-code/REF-03",
+      "github_issue": 106
     },
     {
       "id": "REF-04",
@@ -7469,7 +7545,8 @@
         "exports/clean.png",
         "exports/teaching-focus.png"
       ],
-      "asset_dir": "assets/reference-code/REF-04"
+      "asset_dir": "assets/reference-code/REF-04",
+      "github_issue": 107
     },
     {
       "id": "TERM-01",
@@ -7557,7 +7634,8 @@
         "exports/framed.png",
         "source/scaffold-transcript.txt"
       ],
-      "asset_dir": "assets/captures/TERM-01"
+      "asset_dir": "assets/captures/TERM-01",
+      "github_issue": 108
     },
     {
       "id": "TERM-02",
@@ -7663,7 +7741,8 @@
         "source/stderr.txt",
         "source/Program.vb"
       ],
-      "asset_dir": "assets/captures/TERM-02"
+      "asset_dir": "assets/captures/TERM-02",
+      "github_issue": 109
     },
     {
       "id": "TERM-03",
@@ -7774,7 +7853,8 @@
         "evidence/viewports.json",
         "exports/contact-sheet.png"
       ],
-      "asset_dir": "assets/captures/TERM-03"
+      "asset_dir": "assets/captures/TERM-03",
+      "github_issue": 110
     },
     {
       "id": "TERM-04",
@@ -7872,7 +7952,8 @@
         "source/stderr.txt",
         "source/Program.vb"
       ],
-      "asset_dir": "assets/captures/TERM-04"
+      "asset_dir": "assets/captures/TERM-04",
+      "github_issue": 111
     },
     {
       "id": "TERM-05",
@@ -7963,7 +8044,8 @@
         "source/stderr.txt",
         "source/Program.vb"
       ],
-      "asset_dir": "assets/captures/TERM-05"
+      "asset_dir": "assets/captures/TERM-05",
+      "github_issue": 112
     },
     {
       "id": "TERM-06",
@@ -8055,7 +8137,8 @@
         "source/stderr.txt",
         "source/Program.vb"
       ],
-      "asset_dir": "assets/captures/TERM-06"
+      "asset_dir": "assets/captures/TERM-06",
+      "github_issue": 113
     },
     {
       "id": "HIST-01",
@@ -8130,7 +8213,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-01"
+      "asset_dir": "assets/historical/HIST-01",
+      "github_issue": 114
     },
     {
       "id": "HIST-02",
@@ -8212,7 +8296,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-02"
+      "asset_dir": "assets/historical/HIST-02",
+      "github_issue": 115
     },
     {
       "id": "HIST-03",
@@ -8285,7 +8370,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-03"
+      "asset_dir": "assets/historical/HIST-03",
+      "github_issue": 116
     },
     {
       "id": "HIST-04",
@@ -8360,7 +8446,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-04"
+      "asset_dir": "assets/historical/HIST-04",
+      "github_issue": 117
     },
     {
       "id": "HIST-05",
@@ -8435,7 +8522,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-05"
+      "asset_dir": "assets/historical/HIST-05",
+      "github_issue": 118
     },
     {
       "id": "HIST-06",
@@ -8510,7 +8598,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-06"
+      "asset_dir": "assets/historical/HIST-06",
+      "github_issue": 119
     },
     {
       "id": "HIST-07",
@@ -8585,7 +8674,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-07"
+      "asset_dir": "assets/historical/HIST-07",
+      "github_issue": 120
     },
     {
       "id": "HIST-08",
@@ -8660,7 +8750,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-08"
+      "asset_dir": "assets/historical/HIST-08",
+      "github_issue": 121
     },
     {
       "id": "HIST-09",
@@ -8733,7 +8824,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-09"
+      "asset_dir": "assets/historical/HIST-09",
+      "github_issue": 122
     },
     {
       "id": "HIST-10",
@@ -8806,7 +8898,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-10"
+      "asset_dir": "assets/historical/HIST-10",
+      "github_issue": 123
     },
     {
       "id": "HIST-11",
@@ -8881,7 +8974,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-11"
+      "asset_dir": "assets/historical/HIST-11",
+      "github_issue": 124
     },
     {
       "id": "HIST-12",
@@ -8956,7 +9050,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-12"
+      "asset_dir": "assets/historical/HIST-12",
+      "github_issue": 125
     },
     {
       "id": "HIST-13",
@@ -9031,7 +9126,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-13"
+      "asset_dir": "assets/historical/HIST-13",
+      "github_issue": 126
     },
     {
       "id": "HIST-14",
@@ -9106,7 +9202,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-14"
+      "asset_dir": "assets/historical/HIST-14",
+      "github_issue": 127
     },
     {
       "id": "HIST-15",
@@ -9181,7 +9278,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-15"
+      "asset_dir": "assets/historical/HIST-15",
+      "github_issue": 128
     },
     {
       "id": "HIST-16",
@@ -9256,7 +9354,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-16"
+      "asset_dir": "assets/historical/HIST-16",
+      "github_issue": 129
     },
     {
       "id": "HIST-17",
@@ -9331,7 +9430,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-17"
+      "asset_dir": "assets/historical/HIST-17",
+      "github_issue": 130
     },
     {
       "id": "HIST-18",
@@ -9406,7 +9506,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-18"
+      "asset_dir": "assets/historical/HIST-18",
+      "github_issue": 131
     },
     {
       "id": "HIST-19",
@@ -9481,7 +9582,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-19"
+      "asset_dir": "assets/historical/HIST-19",
+      "github_issue": 132
     },
     {
       "id": "HIST-20",
@@ -9556,7 +9658,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-20"
+      "asset_dir": "assets/historical/HIST-20",
+      "github_issue": 133
     },
     {
       "id": "HIST-21",
@@ -9631,7 +9734,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/HIST-21"
+      "asset_dir": "assets/historical/HIST-21",
+      "github_issue": 134
     },
     {
       "id": "BROLL-01",
@@ -9706,7 +9810,8 @@
         "evidence/candidates.json",
         "exports/acquisition-handoff.md"
       ],
-      "asset_dir": "assets/broll/BROLL-01"
+      "asset_dir": "assets/broll/BROLL-01",
+      "github_issue": 135
     },
     {
       "id": "BROLL-02",
@@ -9781,7 +9886,8 @@
         "evidence/candidates.json",
         "exports/acquisition-handoff.md"
       ],
-      "asset_dir": "assets/broll/BROLL-02"
+      "asset_dir": "assets/broll/BROLL-02",
+      "github_issue": 136
     },
     {
       "id": "BROLL-03",
@@ -9857,7 +9963,8 @@
         "evidence/candidates.json",
         "exports/acquisition-handoff.md"
       ],
-      "asset_dir": "assets/broll/BROLL-03"
+      "asset_dir": "assets/broll/BROLL-03",
+      "github_issue": 137
     },
     {
       "id": "BROLL-04",
@@ -9933,7 +10040,8 @@
         "evidence/candidates.json",
         "exports/acquisition-handoff.md"
       ],
-      "asset_dir": "assets/broll/BROLL-04"
+      "asset_dir": "assets/broll/BROLL-04",
+      "github_issue": 138
     },
     {
       "id": "BROLL-05",
@@ -10009,7 +10117,8 @@
         "evidence/candidates.json",
         "exports/acquisition-handoff.md"
       ],
-      "asset_dir": "assets/broll/BROLL-05"
+      "asset_dir": "assets/broll/BROLL-05",
+      "github_issue": 139
     },
     {
       "id": "BROLL-06",
@@ -10085,7 +10194,8 @@
         "evidence/candidates.json",
         "exports/acquisition-handoff.md"
       ],
-      "asset_dir": "assets/broll/BROLL-06"
+      "asset_dir": "assets/broll/BROLL-06",
+      "github_issue": 140
     },
     {
       "id": "XTRA-01",
@@ -10155,7 +10265,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-01"
+      "asset_dir": "assets/historical/XTRA-01",
+      "github_issue": 141
     },
     {
       "id": "XTRA-02",
@@ -10225,7 +10336,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-02"
+      "asset_dir": "assets/historical/XTRA-02",
+      "github_issue": 142
     },
     {
       "id": "XTRA-03",
@@ -10295,7 +10407,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-03"
+      "asset_dir": "assets/historical/XTRA-03",
+      "github_issue": 143
     },
     {
       "id": "XTRA-07",
@@ -10365,7 +10478,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-07"
+      "asset_dir": "assets/historical/XTRA-07",
+      "github_issue": 144
     },
     {
       "id": "XTRA-09",
@@ -10435,7 +10549,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-09"
+      "asset_dir": "assets/historical/XTRA-09",
+      "github_issue": 145
     },
     {
       "id": "XTRA-11",
@@ -10506,7 +10621,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-11"
+      "asset_dir": "assets/historical/XTRA-11",
+      "github_issue": 146
     },
     {
       "id": "XTRA-12",
@@ -10577,7 +10693,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-12"
+      "asset_dir": "assets/historical/XTRA-12",
+      "github_issue": 147
     },
     {
       "id": "XTRA-13",
@@ -10648,7 +10765,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-13"
+      "asset_dir": "assets/historical/XTRA-13",
+      "github_issue": 148
     },
     {
       "id": "XTRA-16",
@@ -10718,7 +10836,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-16"
+      "asset_dir": "assets/historical/XTRA-16",
+      "github_issue": 149
     },
     {
       "id": "XTRA-17",
@@ -10788,7 +10907,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-17"
+      "asset_dir": "assets/historical/XTRA-17",
+      "github_issue": 150
     },
     {
       "id": "XTRA-18",
@@ -10858,7 +10978,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-18"
+      "asset_dir": "assets/historical/XTRA-18",
+      "github_issue": 151
     },
     {
       "id": "XTRA-19",
@@ -10928,7 +11049,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-19"
+      "asset_dir": "assets/historical/XTRA-19",
+      "github_issue": 152
     },
     {
       "id": "XTRA-20",
@@ -10998,7 +11120,8 @@
         "evidence/rights.json",
         "exports/editorial-frame.png"
       ],
-      "asset_dir": "assets/historical/XTRA-20"
+      "asset_dir": "assets/historical/XTRA-20",
+      "github_issue": 153
     },
     {
       "id": "XTRA-04",
@@ -11062,7 +11185,8 @@
         "exports/poster.png",
         "exports/comparison.png"
       ],
-      "asset_dir": "assets/reference-code/XTRA-04"
+      "asset_dir": "assets/reference-code/XTRA-04",
+      "github_issue": 154
     },
     {
       "id": "XTRA-05",
@@ -11130,7 +11254,8 @@
         "exports/clean-workspace.png",
         "exports/five-callouts.png"
       ],
-      "asset_dir": "assets/stills/XTRA-05"
+      "asset_dir": "assets/stills/XTRA-05",
+      "github_issue": 155
     },
     {
       "id": "XTRA-06",
@@ -11205,7 +11330,8 @@
         "source/War.vbproj",
         "evidence/project-diff.txt"
       ],
-      "asset_dir": "assets/captures/XTRA-06"
+      "asset_dir": "assets/captures/XTRA-06",
+      "github_issue": 156
     },
     {
       "id": "XTRA-08",
@@ -11269,7 +11395,8 @@
         "exports/poster.png",
         "exports/lineup.png"
       ],
-      "asset_dir": "assets/stills/XTRA-08"
+      "asset_dir": "assets/stills/XTRA-08",
+      "github_issue": 157
     },
     {
       "id": "XTRA-10",
@@ -11334,7 +11461,8 @@
         "exports/poster.png",
         "exports/approved-visual.png"
       ],
-      "asset_dir": "assets/stills/XTRA-10"
+      "asset_dir": "assets/stills/XTRA-10",
+      "github_issue": 158
     },
     {
       "id": "XTRA-14",
@@ -11402,7 +11530,8 @@
         "exports/poster.png",
         "exports/collage.png"
       ],
-      "asset_dir": "assets/stills/XTRA-14"
+      "asset_dir": "assets/stills/XTRA-14",
+      "github_issue": 159
     },
     {
       "id": "XTRA-15",
@@ -11470,7 +11599,8 @@
         "exports/poster.png",
         "exports/legacy-scene.png"
       ],
-      "asset_dir": "assets/stills/XTRA-15"
+      "asset_dir": "assets/stills/XTRA-15",
+      "github_issue": 160
     },
     {
       "id": "OPS-01",
@@ -11547,7 +11677,8 @@
         "exports/capabilities.json",
         "exports/template-contract.md"
       ],
-      "asset_dir": "assets/ops/OPS-01"
+      "asset_dir": "assets/ops/OPS-01",
+      "github_issue": 28
     },
     {
       "id": "OPS-02",
@@ -11618,7 +11749,8 @@
         "evidence/commands.log",
         "exports/harness-manifest.json"
       ],
-      "asset_dir": "assets/ops/OPS-02"
+      "asset_dir": "assets/ops/OPS-02",
+      "github_issue": 29
     },
     {
       "id": "OPS-03",
@@ -11703,7 +11835,8 @@
         "exports/report.md",
         "exports/decision-ledger.json"
       ],
-      "asset_dir": "assets/ops/OPS-03"
+      "asset_dir": "assets/ops/OPS-03",
+      "github_issue": 30
     },
     {
       "id": "OPS-04",
@@ -11918,7 +12051,17 @@
         "exports/editor-inventory.csv",
         "exports/exceptions.md"
       ],
-      "asset_dir": "assets/ops/OPS-04"
+      "asset_dir": "assets/ops/OPS-04",
+      "github_issue": 161
     }
-  ]
+  ],
+  "handoff_issues": {
+    "H01": 162,
+    "H02": 163,
+    "H03": 164,
+    "H04": 165,
+    "H05": 166,
+    "H06": 167,
+    "H07": 168
+  }
 }
