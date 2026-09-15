@@ -1,0 +1,144 @@
+{
+  "id": "BROLL-03",
+  "title": "1990s office with CRT monitors",
+  "production_status": "scouted",
+  "release_status": "blocked",
+  "provenance_type": "stock/archive scouting record (no media acquired)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5457,
+      "sha256": "597c1790cb966e1f4d80bdddb2b84449d68a2e804efb7fceed1353639a4b95a1"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3441,
+      "sha256": "774342106372fd429ded81bdad872206c9316d3001fa706e558bde78071b6f44"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2463,
+      "sha256": "b66db659358bb7267716fe8de477301628dda701e21e2db5a5290a448f780b06"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 4943,
+      "sha256": "674024474e02c3c2a115aa97fbbbaa513127e90fda5499254364f88aff0c51c5"
+    },
+    {
+      "path": "evidence/candidates.json",
+      "role": "structured candidates",
+      "bytes": 18106,
+      "sha256": "0dee4be2f07529d6d9c1f84a9cd5b278690dbc9afb2360edf692e453735994a4"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "candidate report (variant: candidate-report)",
+      "bytes": 10648,
+      "sha256": "2f0bd4bcc41f37038266f2ab5ddf44470829a9171c0e0691b4bcd3465e112730"
+    },
+    {
+      "path": "exports/acquisition-handoff.md",
+      "role": "acquisition handoff (ungated pending approval; H02 none)",
+      "bytes": 4415,
+      "sha256": "d6bf94c382ba700374df899e0e7d1e6c6170651daa06aff1863d8f631909c93b"
+    }
+  ],
+  "variants": [
+    {
+      "name": "candidate-report",
+      "path": "exports/candidates.md",
+      "timeline": null
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        109,
+        122
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        799,
+        805
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt"
+    },
+    {
+      "url": "https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
+      "relationship": "stock candidate",
+      "rank": 1,
+      "acquired": false
+    },
+    {
+      "url": "https://www.pexels.com/video/a-man-talking-on-the-phone-while-using-a-computer-8869644/",
+      "relationship": "stock candidate",
+      "rank": 2,
+      "acquired": false
+    },
+    {
+      "url": "https://archive.org/details/jpo-automation",
+      "relationship": "historical original candidate",
+      "rank": 3,
+      "acquired": false
+    }
+  ],
+  "credits": [
+    {
+      "for": "rank 1 and 2 if used",
+      "text": "Video: MART PRODUCTION / Pexels",
+      "required": false
+    },
+    {
+      "for": "rank 3 if used",
+      "text": "The Computer Systems in the Japanese Patent Office (Japanese Patent Office, c. 1989), via Internet Archive",
+      "required": null
+    }
+  ],
+  "tests": [
+    {
+      "name": "Pexels in-page motion sampling, ranks 1 and 2",
+      "result": "done (sampled frames at pane size; not frame-by-frame)"
+    },
+    {
+      "name": "Internet Archive in-page playback, rank 3",
+      "result": "failed: player NETWORK_NO_SOURCE; thumbnails only"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id BROLL-03",
+      "result": "see qa.md"
+    },
+    {
+      "name": "1080p/720p export inspection",
+      "result": "not applicable: no media acquired"
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "python": "3.14.0",
+    "git": "2.53.0.windows.1",
+    "browser": "Claude Browser pane (version not exposed)",
+    "fetch": "Claude Code WebFetch/WebSearch"
+  },
+  "notes": [
+    "Scouted, not acquired. No files under source/.",
+    "Download approval pending (batched via B-roll Scouting Manager).",
+    "No H02 gated items."
+  ]
+}
