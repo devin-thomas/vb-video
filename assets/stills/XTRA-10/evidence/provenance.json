@@ -1,0 +1,334 @@
+{
+  "id": "XTRA-10",
+  "classification": "evidence-gated research record (internal proof); no visual produced",
+  "access_date": "2026-09-15",
+  "researcher": "Evidence-Gated Research Agent (Claude), branch ticket/XTRA-10",
+  "sources": [
+    {
+      "id": "S01",
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [645, 647],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration under review (claim source); also War/SCRIPT.md:702,704"
+    }
+  ],
+  "external_sources": [
+    {
+      "id": "S02",
+      "title": "Macintosh QuickBASIC 1.00 System Requirements (KB 31937, rev 1.2, last review 2006-11-21)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary (vendor support record)",
+      "url": "http://support.microsoft.com/kb/31937",
+      "archive_url": "https://web.archive.org/web/20070313112649/http://support.microsoft.com:80/kb/31937",
+      "access_method": "curl of Wayback id_ capture, text extracted locally",
+      "retrieved_sha256": "64de536b86a138debe56614b4bc0896a662f97f9f583775fc1f626044d747422",
+      "supports": "Product identity and platform: Microsoft QuickBASIC Version 1.00 for the Apple Macintosh; hardware/System requirements"
+    },
+    {
+      "id": "S03",
+      "title": "Q51412: How BASIC's Graphics GET Statement Stores Graphics in an Array (last modified 1989-12-12)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary text via third-party mirror",
+      "url": "https://github.com/jeffpar/kbarchive/blob/master/kb/051/Q51412/README.md",
+      "access_method": "raw.githubusercontent.com fetch; GitHub code search",
+      "retrieved_sha256": null,
+      "supports": "Enumerates Microsoft's Mac BASIC products as of 1989: QuickBASIC 1.00, BASIC Compiler 1.00, BASIC Interpreter 1.00-3.00 for the Apple Macintosh"
+    },
+    {
+      "id": "S04",
+      "title": "Q66491: QuickBASIC Reply Letters: Appnotes BM0350, BM0351, BM0352 (last modified 1990-11-13)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary text via third-party mirror",
+      "url": "https://github.com/jeffpar/kbarchive/blob/master/kb/066/Q66491/README.md",
+      "access_method": "raw.githubusercontent.com fetch",
+      "retrieved_sha256": null,
+      "supports": "In Nov 1990 Microsoft's current Mac BASIC product was QuickBASIC 1.00 for the Apple Macintosh"
+    },
+    {
+      "id": "S05",
+      "title": "Q31789: Converting Between Decimal, Octal, and Binary Numbers (2001-05-07)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary text via third-party mirror",
+      "url": "https://github.com/jeffpar/kbarchive/blob/master/txt/031/Q31789.TXT",
+      "access_method": "raw.githubusercontent.com fetch",
+      "retrieved_sha256": null,
+      "supports": "Microsoft applicability list: Visual Basic for MS-DOS / for Windows; Mac entries are BASIC Interpreter 1.0-3.0 and BASIC Compiler 1.0 only"
+    },
+    {
+      "id": "S06",
+      "title": "Q181780: WD97: Text from WordBasic.Input Command Truncated After Comma (2002-05-13)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary text via third-party mirror",
+      "url": "https://github.com/jeffpar/kbarchive/blob/master/txt/181/Q181780.TXT",
+      "access_method": "raw.githubusercontent.com fetch",
+      "retrieved_sha256": null,
+      "supports": "Visual Basic for Applications present in Word 98 Macintosh Edition"
+    },
+    {
+      "id": "S07",
+      "title": "Internet Archive item mac_MSBASIC_1: MS-BASIC Version 1.00.00",
+      "creator": "Microsoft Corp. (software); item uploaded by softwarelibrary@textfiles.com 2017-04-03",
+      "evidence_class": "tertiary metadata; emulator screenshot candidate",
+      "url": "https://archive.org/details/mac_MSBASIC_1",
+      "access_method": "archive.org metadata API only; no disk image or screenshot downloaded",
+      "retrieved_sha256": null,
+      "supports": "Item date 1984-01-24; contains 00_screenshot.png (3871 bytes, emulator capture); no rights/license field"
+    },
+    {
+      "id": "S08",
+      "title": "Internet Archive item mac_MSBASIC_2: Microsoft BASIC 2.00.00",
+      "creator": "Microsoft Corp. (software); item uploaded by softwarelibrary@textfiles.com 2017-04-03",
+      "evidence_class": "tertiary metadata; emulator screenshot candidate",
+      "url": "https://archive.org/details/mac_MSBASIC_2",
+      "access_method": "archive.org metadata API only; nothing downloaded",
+      "retrieved_sha256": null,
+      "supports": "Item date 1985; contains 00_screenshot.png (4925 bytes); no rights/license field"
+    },
+    {
+      "id": "S09",
+      "title": "Microsoft Basic 2.0 for the Mac",
+      "creator": "Glenn Hart, Creative Computing v11 n5 (May 1985) p.46",
+      "evidence_class": "primary (period review)",
+      "url": "https://archive.org/stream/creativecomputing-1985-05/Creative_Computing_v11_n05_1985_May#page/n47/mode/2up",
+      "access_method": "WebFetch of IA OCR text (summarized; not hashed)",
+      "retrieved_sha256": null,
+      "supports": "Microsoft BASIC interpreter for Macintosh existed by 1985 (version 2.0), no line numbers required, Toolbox access"
+    },
+    {
+      "id": "S10",
+      "title": "microsoft quickbasic: for apple macintosh systems (manual, 1988)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary document, NOT OPENED",
+      "url": "https://archive.org/details/bwb_S0-DTI-077",
+      "access_method": "archive.org metadata API only; item is access-restricted (lending requires an account) - not opened per boundary",
+      "retrieved_sha256": null,
+      "supports": "Existence and 1988 date of Microsoft's own QuickBASIC for Apple Macintosh manual (metadata only)"
+    },
+    {
+      "id": "S11",
+      "title": "Microsoft BASIC Version Information",
+      "creator": "EMS Professional Software (emsps.com), capture 2000-07-08",
+      "evidence_class": "secondary (reseller/hobbyist reference)",
+      "url": "http://www.emsps.com/oldtools/msbasv.htm",
+      "archive_url": "https://web.archive.org/web/20000708190518/http://www.emsps.com:80/oldtools/msbasv.htm",
+      "access_method": "curl of Wayback id_ capture (live site has TLS certificate error)",
+      "retrieved_sha256": "7c912439b75102f1cdb72a9830ee9e953a26b2e431107df53c3c1ecad6f2c9af",
+      "supports": "QuickBASIC 1.00 for Apple Macintosh Systems, MS product number 025-096V100, manual document number ending -0888 (Aug 1988), 571 pages"
+    },
+    {
+      "id": "S12",
+      "title": "WinWorld: QuickBasic 1.0x for Mac",
+      "creator": "WinWorld",
+      "evidence_class": "secondary (software archive); screenshot candidate without credit",
+      "url": "https://winworldpc.com/product/quickbasic/10x-for-mac",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "1.00e released 1992-04-23; not 32-bit clean; discontinued 1995 (unverified against primary); one screenshot, no attribution"
+    },
+    {
+      "id": "S13",
+      "title": "WinWorld: Microsoft BASIC 3.0 for Mac",
+      "creator": "WinWorld",
+      "evidence_class": "secondary",
+      "url": "https://winworldpc.com/product/microsoft-basic/30-for-mac",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Microsoft BASIC 3.0 for Mac dated 1986; screenshot of About box, no attribution"
+    },
+    {
+      "id": "S14",
+      "title": "Macintosh Repository: Microsoft QuickBASIC 1.00E",
+      "creator": "macintoshrepository.org (community uploads)",
+      "evidence_class": "secondary; screenshot candidate (user-uploaded 2011-08-28, no license)",
+      "url": "https://www.macintoshrepository.org/2770-microsoft-quickbasic-1-00e",
+      "access_method": "WebFetch; no downloads",
+      "retrieved_sha256": null,
+      "supports": "Product listing 1988, System 6-7.6, 68K"
+    },
+    {
+      "id": "S15",
+      "title": "MacBasic",
+      "creator": "Andy Hertzfeld, folklore.org (story dated June 1985)",
+      "evidence_class": "first-hand memoir (Apple Macintosh team member)",
+      "url": "https://www.folklore.org/MacBasic.html",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Apple's MacBASIC (not Microsoft's) was cancelled in 1985 and sold to Microsoft for $1 tied to Applesoft BASIC license renewal; never commercially released"
+    },
+    {
+      "id": "S16",
+      "title": "BASIC Development Environments, Part 1",
+      "creator": "Jonathan Hoyle, macCompanion (May 2006)",
+      "evidence_class": "secondary (retrospective column)",
+      "url": "http://www.jonhoyle.com/maccompanion/columns/200605.html",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Visual Basic never released for Mac; QuickBASIC for Mac final 1.00e April 1992, then stagnant"
+    },
+    {
+      "id": "S17",
+      "title": "MacWEEK Vol 10 Num 05 (1996-02-05) - Oracle Power Objects review",
+      "creator": "MacWEEK (Ziff-Davis); IA item uploaded by pgcaylor@gmail.com",
+      "evidence_class": "primary (period trade press), OCR only",
+      "url": "https://archive.org/details/mac-week-v-10-n-5",
+      "access_method": "IA full-text search (collection macweekmagazine) then download of 'MacWEEK V10N5_djvu.txt' OCR text",
+      "retrieved_sha256": "b614f7120452f44a23e47d2a243c8621472405b4dd9f09f62a4b50d9fac31eec",
+      "supports": "Contemporaneous statement of 'the absence of Visual Basic for the Mac' in early 1996"
+    },
+    {
+      "id": "S18",
+      "title": "MacWEEK Vol 10 Num 01 (1996-01-08) - year-end satirical list",
+      "creator": "MacWEEK (Ziff-Davis); IA item added 2026-01-22",
+      "evidence_class": "primary (period trade press) but satirical and OCR-garbled - weak",
+      "url": "https://archive.org/details/mac-week-v-10-n-1_202601",
+      "access_method": "IA full-text search then download of 'MacWEEK V10N1_djvu.txt' OCR text; page image not inspected",
+      "retrieved_sha256": "be9f39e878e2d0b9a6d2609d8a86bffbdef6351c60367787dd9d0fd87fb89390",
+      "supports": "OCR suggests Microsoft had said it won't do VB for the Mac (verb missing in OCR)"
+    },
+    {
+      "id": "S19",
+      "title": "MacWEEK Vol 10 Num 22 (1996-06-03) p.76 - 'Metrowerks to bring ActiveX tools to Mac'",
+      "creator": "Clifford Colby, MacWEEK",
+      "evidence_class": "primary (period trade press), OCR only",
+      "url": "https://archive.org/details/mac-week-v-10-n-22",
+      "access_method": "IA full-text search then download of 'MacWEEK V10N22_djvu.txt' OCR text",
+      "retrieved_sha256": "e182820410062fd83fec754360bb773bf8750b5ff0667bd8e7dd43da3c6bd5de",
+      "supports": "Microsoft planned a summer-1996 Mac release of Visual Basic Script (VBScript); Visual C++ 4.0 Cross-Development Edition for Macintosh existed"
+    },
+    {
+      "id": "S20",
+      "title": "Saying goodbye to Visual Basic (2006-08-08)",
+      "creator": "Erik Schwiebert, Microsoft Macintosh Business Unit developer, schwieb.com",
+      "evidence_class": "primary (Microsoft engineer statement)",
+      "url": "http://www.schwieb.com/blog/2006/08/08/saying-goodbye-to-visual-basic/",
+      "archive_url": "https://web.archive.org/web/20060831163125/http://www.schwieb.com:80/blog/2006/08/08/saying-goodbye-to-visual-basic/",
+      "access_method": "curl of Wayback id_ capture (live domain does not resolve)",
+      "retrieved_sha256": "735135b10384719f6ca6466c04be633eb44dd972126118b3016d778db708780b",
+      "supports": "VBA removed from next Mac Office (Office 2008), announced Aug 2006; Mac VB was PowerPC-bound"
+    },
+    {
+      "id": "S21",
+      "title": "Saying hello (again) to Visual Basic (2008-05-13)",
+      "creator": "Erik Schwiebert, Microsoft MacBU",
+      "evidence_class": "primary (Microsoft engineer quoting MacBU press release)",
+      "url": "http://www.schwieb.com/blog/2008/05/13/saying-hello-again-to-visual-basic/",
+      "archive_url": "https://web.archive.org/web/20080515030901/http://www.schwieb.com:80/blog/2008/05/13/saying-hello-again-to-visual-basic/",
+      "access_method": "curl of Wayback id_ capture",
+      "retrieved_sha256": "d0b054d3cbbd8eb82ad254f26426847aa1d2bc044fd2d19ca68e1af038fe5177",
+      "supports": "MacBU announced VBA returns to the next Office for Mac"
+    },
+    {
+      "id": "S22",
+      "title": "Microsoft will bring back macros to Mac Office in 2011 (2008-05-14)",
+      "creator": "Gregg Keizer, Computerworld",
+      "evidence_class": "secondary (news report with Microsoft quotes)",
+      "url": "https://www.computerworld.com/article/1565833/microsoft-will-bring-back-macros-to-mac-office-in-2011.html",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Office 2008 for Mac shipped without VBA; Office 2004 VBA tied to PowerPC (Kurt Schmucker quote)"
+    },
+    {
+      "id": "S23",
+      "title": "Q&A: is Visual Basic returning to Office:Mac? (2010-03-02)",
+      "creator": "Microsoft (archived MSDN blog 'nadyne'), Microsoft Learn archive",
+      "evidence_class": "primary (Microsoft blog)",
+      "url": "https://learn.microsoft.com/en-us/archive/blogs/nadyne/qa-is-visual-basic-returning-to-officemac",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Office:Mac 2011 supports VBA 6.5"
+    },
+    {
+      "id": "S24",
+      "title": "Set the properties for a Visual Basic project in Office for Mac",
+      "creator": "Microsoft Support",
+      "evidence_class": "primary (current vendor documentation)",
+      "url": "https://support.microsoft.com/en-us/office/set-the-properties-for-a-visual-basic-project-in-office-for-mac-23b73fb9-0467-46b1-b996-0a3453474881",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Visual Basic (VBA) projects exist today inside Excel, Word, PowerPoint for Mac"
+    },
+    {
+      "id": "S25",
+      "title": "Microsoft Announces March Availability of Office 98 Macintosh Edition (1998-01-06)",
+      "creator": "Microsoft News",
+      "evidence_class": "primary (press release) - checked, does NOT mention Visual Basic",
+      "url": "https://news.microsoft.com/source/1998/01/06/microsoft-announces-march-availability-of-office-98-macintosh-edition/",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Nothing about VBA; recorded so it is not later cited as VBA evidence"
+    },
+    {
+      "id": "S28",
+      "title": "Q120506: How Virtual Memory Works on a Power Macintosh (document dated 2002-02-06; body credited to comp.sys.mac.apps posting of 1994-10-06)",
+      "creator": "Microsoft Corporation",
+      "evidence_class": "primary text via third-party mirror (Microsoft KB republishing 1994 text)",
+      "url": "https://github.com/jeffpar/kbarchive/blob/master/txt/120/Q120506.TXT",
+      "access_method": "raw.githubusercontent.com fetch",
+      "retrieved_sha256": null,
+      "supports": "Applies to Excel for the Power Macintosh 5.0, Word for the Power Macintosh, and the 98 Macintosh Editions; lists 'The Visual Basic, Applications Edition, macro language' among the shared libraries of Microsoft Power Macintosh applications"
+    },
+    {
+      "id": "S26",
+      "title": "List of Macintosh software published by Microsoft",
+      "creator": "Wikipedia",
+      "evidence_class": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/List_of_Macintosh_software_published_by_Microsoft",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Lists Microsoft BASIC 1.0-3.0 (1984-1986) and QuickBASIC 1.0 (1988); no Visual Basic product"
+    },
+    {
+      "id": "S27",
+      "title": "Wikipedia: MS BASIC for Macintosh; QuickBASIC; Visual Basic for Applications",
+      "creator": "Wikipedia",
+      "evidence_class": "tertiary (used only as pointers to S02, S09, S22)",
+      "url": "https://en.wikipedia.org/wiki/MS_BASIC_for_Macintosh",
+      "access_method": "WebFetch",
+      "retrieved_sha256": null,
+      "supports": "Pointers only"
+    }
+  ],
+  "unverified_leads": [
+    {
+      "lead": "Excel 5.0 for the Macintosh shipped Visual Basic for Applications (1994)",
+      "basis": "KB Q120506 (S28), 1994-dated text applying to Excel for the Power Macintosh 5.0, lists the Visual Basic, Applications Edition macro language as a shared library. Also search-result listings (not opened) for Microsoft Press 'Microsoft Excel Visual Basic for Applications: Step by Step, Version 5 for the Macintosh' (Goodreads/Amazon, 1994-11-01)",
+      "status": "partially confirmed: Microsoft text places VBA in Power Macintosh Office apps by Oct 1994. The exact 68K Excel 5 for Mac ship date is not confirmed from a primary source."
+    },
+    {
+      "lead": "REALbasic (1998, REAL Software, Mac-hosted, third-party) marketed as a Visual Basic-like tool for Mac",
+      "basis": "Search snippets only (lowendmac Andrew Barry interview; xojo.pro 'Twenty years'); TidBITS 1998-08-17 returned HTTP 403",
+      "status": "unchecked; not Microsoft; context only"
+    },
+    {
+      "lead": "QuickBASIC for Mac officially discontinued in 1995",
+      "basis": "WinWorld (S12) and emsps search snippet; no Microsoft record found",
+      "status": "secondary only"
+    }
+  ],
+  "searches_without_matching_result": [
+    "Wikimedia Commons (File namespace, API): '\"Visual Basic\" Macintosh' 41 hits none relevant; '\"Visual Basic\" \"Mac OS\"' 7 none relevant; 'intitle:QuickBASIC' 2 hits (a 2025 'Microsoft QuickBASIC setup disk' photo, platform not inspected); 'intitle:REALbasic' 0; 'intitle:\"Visual Basic\"' 16, none Mac; 'intitle:Macintosh intitle:BASIC' 0; 'insource:\"Visual Basic\" insource:Macintosh' 0",
+    "Internet Archive advancedsearch: title 'visual basic' AND mac/macintosh -> 0; collection softwarelibrary_mac AND basic -> only mac_MSBASIC_1 and mac_MSBASIC_2",
+    "Internet Archive full text, collections macweekmagazine and applemagazines: '\"Visual Basic for the Macintosh\"' 0; '\"Visual Basic for Macintosh\"' 0; '\"Visual Basic on the Mac\"' 0; '\"Visual Basic for the Mac\"' 1 (S17); '\"Mac version of Visual Basic\"' 1 (S19, VBScript); '\"VB for the Mac\"' 1 (S18)",
+    "GitHub code search, jeffpar/kbarchive (Microsoft KB mirror): '\"Visual Basic for the Macintosh\"' 0; '\"Visual Basic for Macintosh\"' 0",
+    "Macintosh Garden site search 'visual basic': no Microsoft Visual Basic product; results include REALbasic and Visual MacStandardBasic (third-party)",
+    "Web search: '\"Mac version of Visual Basic\" Microsoft 1990s', 'Microsoft \"no plans\" \"Visual Basic\" Macintosh' - no product or announcement found"
+  ],
+  "access_failures": [
+    "betaarchive.com KB wiki: HTTP 403 (WebFetch)",
+    "visualstudiomagazine.com 2017 article: HTTP 403",
+    "tidbits.com 1998 REALbasic article: HTTP 403",
+    "emsps.com live: TLS certificate mismatch (used Wayback capture instead)",
+    "web.archive.org via WebFetch: blocked by tool (used curl instead)",
+    "Google Books API: daily quota exceeded (no results)",
+    "macintoshrepository.org search URL: HTTP 404",
+    "schwieb.com live: DNS does not resolve (used Wayback)"
+  ],
+  "downloads": "Text only (archived HTML pages and Internet Archive OCR .txt) saved to the session scratchpad for hashing; not committed. No software disk images, PDFs, screenshots or other media were downloaded.",
+  "authored_additions": [
+    "Claim decomposition, candidate-referent analysis and review questions in claim-checks.json are research authorship, not source content."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

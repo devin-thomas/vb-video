@@ -1,0 +1,93 @@
+{
+  "id": "XTRA-10",
+  "title": "VB-for-Mac claim visual: evidence-gated decision",
+  "production_status": "blocked",
+  "release_status": "blocked",
+  "provenance_type": "evidence-gated research record (internal proof); no media produced",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence: source provenance, retrieval hashes, search log",
+      "bytes": 19620,
+      "sha256": "72d03b878853c40d34e61d3420023df2c28324d8c6867986df88cba1aa4a7a3e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence: verbatim script excerpt and short external excerpts",
+      "bytes": 4825,
+      "sha256": "507ba2672407f64fd309ee036f8b3bc3ac3c2e1644ffcdba55fbb6c5045de585"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence: R09/R14 gate records, claim decomposition, review questions",
+      "bytes": 7477,
+      "sha256": "f152b01f6f8dabc85a86a1775d6dc260f7b9185446c241ba2ab762322d485124"
+    },
+    {
+      "path": "qa.md",
+      "role": "qa: tests actually run, method, blockers",
+      "bytes": 6663,
+      "sha256": "cd10fd6d4510f3d0a7d1a80ce8739b378b3371cc6f27b6634cde2702db8da4ea"
+    }
+  ],
+  "variants": [
+    {
+      "name": "approved-visual",
+      "path": null,
+      "status": "not produced - awaiting producer visual decision and R09/R14 resolution"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        645,
+        647
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "literal excerpt (claim under review)"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "relationship": "external source records S02-S28 (historical originals referenced, not acquired)"
+    }
+  ],
+  "credits": [],
+  "tests": [
+    {
+      "name": "JSON syntax check",
+      "result": "pass"
+    },
+    {
+      "name": "sources/SCRIPT.md hash unchanged",
+      "result": "pass"
+    },
+    {
+      "name": "python tools/validate_delivery.py --id XTRA-10",
+      "result": "fails by design (blocked status, visual outputs absent); output recorded in qa.md"
+    }
+  ],
+  "unresolved_gates": [
+    "R09",
+    "R14"
+  ],
+  "toolchain": {
+    "curl": "8.18.0",
+    "python": "3.14.0",
+    "gh": "2.88.1",
+    "git": "2.53.0.windows.1",
+    "renderer": "none used"
+  },
+  "notes": [
+    "INTERNAL PROOF. Discovery stage only; not an editor-ready historical assertion.",
+    "Finding: no Microsoft product named 'Visual Basic for Mac' substantiated; evidence contradicts SCRIPT.md:645.",
+    "src/index.html, exports/poster.png, exports/approved-visual.png intentionally not created (no placeholder media)."
+  ]
+}
