@@ -1,0 +1,51 @@
+{
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/source-page/ia-item-meta.xml",
+        "evidence/source-page/ia-collection-metadata.json",
+        "evidence/source-page/microsoft-copyright-permissions-text.txt"
+      ],
+      "checks_performed": [
+        "Recorded the file-specific creator (Matthew Paul Argall), archive item, file URL, checksums matching the archive manifest, and access date 2026-09-15.",
+        "Checked the image's own licence, not only its host: no licenseurl on the item or collection; only an informal collection-level permission statement.",
+        "Checked the depicted software's terms against Microsoft's published screenshot guidelines (Wayback capture 20260913212510); the conditions on portions and third-party content are not clearly met.",
+        "Acquisition route: anonymous public download; no account, payment, terms acceptance, CAPTCHA or watermark removal."
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Rights stay unresolved: an informal screenshot-author permission and Microsoft's conditional screenshot guidelines do not amount to item-specific clearance. Raised as a review question; no fair-use or public-domain assumption is made."
+    }
+  ],
+  "content_claims": [
+    {
+      "claim": "Ticket: the asset shows the distinct Windows 95 Solitaire look, not a relabelled Windows 3.1 image.",
+      "status": "supported",
+      "evidence": [
+        "evidence/source.json#identity_evidence",
+        "source/original.png"
+      ],
+      "note": "Supported by the VirtualBox 'Windows 95 [Running]' window title, the VM list, the item description and the Windows 95 caption buttons (close X). The exact build cannot be determined. It is a 2024 emulated capture, not a 1995 screenshot."
+    },
+    {
+      "claim": "SCRIPT.md:579 visual cue: 'The classic green felt background.'",
+      "status": "supported",
+      "evidence": [
+        "source/original.png"
+      ],
+      "note": "The play area is uniform RGB (0,128,0), the most common colour in the capture."
+    },
+    {
+      "claim": "SCRIPT.md:593 (working script War/SCRIPT.md:650): Solitaire and Minesweeper were 'written in C'.",
+      "status": "not_checked",
+      "evidence": [],
+      "note": "Not an assigned gate for this ticket and not settled by a screenshot. Left for the owning research ticket; no script change proposed here."
+    }
+  ]
+}

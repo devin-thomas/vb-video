@@ -1,0 +1,48 @@
+{
+  "id": "HIST-20",
+  "rights_status": "unresolved",
+  "release_recommendation": "blocked until a rights decision is recorded",
+  "access_date": "2026-09-15",
+  "layers": [
+    {
+      "layer": "Screenshot capture",
+      "holder": "Matthew Paul Argall (uploader/creator per archive.org metadata)",
+      "terms": "No licence field (licenseurl absent) on the item or collection. The collection summary informally says: 'Feel free to do what you wish with these screenshots, however I prefer to be given credit for taking them.'",
+      "terms_url": "https://archive.org/details/matthew-paul-argall-screenshots",
+      "evidence": [
+        "evidence/source-page/ia-collection-metadata.json",
+        "evidence/source-page/ia-item-metadata.json",
+        "evidence/source-page/ia-item-meta.xml"
+      ],
+      "assessment": "Broad informal permission with a credit preference. It is not a named licence and gives no warranty; whether it is sufficient for a published video is a review question."
+    },
+    {
+      "layer": "Depicted software: Microsoft Solitaire UI and card artwork, Windows 95 window chrome",
+      "holder": "Microsoft Corporation",
+      "terms": "The 'Use of Microsoft Copyrighted Content' Screenshots section allows screenshots 'in videos' provided that you: do not alter the screenshot except to resize it; do not use portions of screenshots; do not include screenshots in your product user interface; do not use screenshots that contain third-party content; do not use screenshots that contain an image of an identifiable individual. Boot/splash/beta screens are excluded. Attribution: 'Used with permission from Microsoft'.",
+      "terms_url": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+      "evidence": [
+        "evidence/source-page/microsoft-copyright-permissions-wayback-20260913.html",
+        "evidence/source-page/microsoft-copyright-permissions-text.txt"
+      ],
+      "assessment": "Conditions conflict with both usable forms. The uncropped original contains third-party content (host wallpaper artwork, Oracle VirtualBox, Firefox, AVG, Spotify and other icons, an unidentified guest wallpaper). The editorial frame is a portion (window crop) with an added background. Guideline compliance is therefore not established, and fair use is not assumed."
+    },
+    {
+      "layer": "Privacy / third-party content inside the original",
+      "holder": "Various",
+      "terms": "The original shows the uploader's personal desktop (folder names such as 'Buying', 'Savings', '2024 photo dates'), a date/clock, and a third-party cartoon wallpaper.",
+      "evidence": [
+        "source/original.png"
+      ],
+      "assessment": "Keep the original as a provenance record only; do not show it on screen. The editorial frame excludes all of this."
+    }
+  ],
+  "fair_use_or_public_domain_assumed": false,
+  "clearance_granted_by_this_ticket": false,
+  "proposed_credit_text": "Microsoft Solitaire (Windows 95), screenshot by Matthew Paul Argall via Internet Archive.",
+  "open_questions": [
+    "Is the uploader's informal permission plus the Microsoft screenshot guidelines (or a fair-use/commentary rationale) acceptable for this video, given that the frame is a window crop and the original contains third-party content?",
+    "If not: should Devin capture a clean, uncropped Windows 95 Solitaire screenshot from his own licensed Windows 95 install (human handoff; needs Windows 95 media/licence that this ticket cannot acquire)?",
+    "Credit wording: include 'Used with permission from Microsoft' only if the Microsoft conditions are judged met."
+  ]
+}

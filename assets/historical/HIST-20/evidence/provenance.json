@@ -1,0 +1,46 @@
+{
+  "id": "HIST-20",
+  "classification": "historical source (archival third-party screenshot; modern 2024 emulated capture of Windows 95 software)",
+  "sources": [
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [101, 101],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "source creative brief (lead only; the Wikipedia lead held no Windows 95 image)"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [579, 593],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "source/original.png",
+      "url": "https://archive.org/download/solitiare-windows-95/Solitiare%20(Windows%2095).png",
+      "sha256": "7bb19b94109cfd09d19fd8240411443b3f98a1e5a76a59b0734bf0652715e4e7",
+      "relationship": "historical original (acquired native file, byte-identical to archive copy)"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "derived_from": "source/original.png",
+      "relationship": "derivative crop (reversible; see evidence/source.json transformations)"
+    }
+  ],
+  "external_evidence": [
+    "evidence/source-page/ia-details-page.html",
+    "evidence/source-page/ia-item-metadata.json",
+    "evidence/source-page/ia-item-meta.xml",
+    "evidence/source-page/ia-collection-metadata.json",
+    "evidence/source-page/microsoft-copyright-permissions-wayback-20260913.html",
+    "evidence/source-page/microsoft-copyright-permissions-text.txt"
+  ],
+  "authored_additions": [
+    "Flat #111318 background padding around the cropped window in exports/editorial-frame.png (production-bible token); no text, UI, caption or watermark added.",
+    "src/build_editorial_frame.py (reproduction script)."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "ai_generated_content": false,
+  "producer_decisions": []
+}
