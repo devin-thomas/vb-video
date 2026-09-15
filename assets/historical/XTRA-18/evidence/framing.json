@@ -1,0 +1,31 @@
+{
+  "source": "source/original.gif",
+  "source_sha256": "43aed772b74691983af34bb3c5d1288e8432a5474fe7a057502ff51f948890c5",
+  "source_size": [
+    640,
+    480
+  ],
+  "crop": null,
+  "scale_factor": 2,
+  "resample": "nearest-neighbour (PIL Image.Resampling.NEAREST), integer factor",
+  "placed_size": [
+    1280,
+    960
+  ],
+  "placement_top_left": [
+    320,
+    60
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "ground_rgb_hex": "#111318",
+  "aspect_ratio_preserved": true,
+  "pixel_exact_check": "passed",
+  "burned_in_text": null,
+  "export": "exports/editorial-frame.png",
+  "proof_720": "proofs/editorial-frame-720.png",
+  "proof_720_resample": "LANCZOS 1920x1080 -> 1280x720 (uniform, review proof only)",
+  "safe_area_note": "Placed image spans x=320..1599, y=60..1019. The capture's status-bar text (source rows 461..473) lands at y=982..1007, inside the bible's y<=1008 essential-text line; the window frame itself extends into the margin. 2x is the only integer scale that fits 1080 lines."
+}

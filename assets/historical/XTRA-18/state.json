@@ -1,12 +1,17 @@
 {
   "id": "XTRA-18",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "XTRA-18 worker (Archive Extras Manager, session vb-25)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "R14: rights unclear. Microsoft UI copyright under conditional published screenshot permission; the third-party capture (Nathan Lineback, toastytech.com) has no stated licence. Review question RQ-1.",
+    "Script wording: War/SCRIPT.md:636 labels Hearts as 90s shareware and as Windows 3.1, and line 650 says the shareware games were written in VB. Referred to the Writing Lead as RQ-2."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Historical proof produced: original WfW 3.11 Hearts GIF plus a 1920x1080 editorial frame (2x nearest-neighbour, uncropped).",
+    "Game version not visible; OS version rests on the archive page label and the period window chrome.",
+    "Release stays blocked until the review deck records a rights decision."
   ]
 }

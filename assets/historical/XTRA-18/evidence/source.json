@@ -1,0 +1,68 @@
+{
+  "id": "XTRA-18",
+  "title": "Microsoft Hearts (\"The Microsoft Hearts Network\") running under Windows for Workgroups 3.11",
+  "archive_title_as_published": "Microsoft Hearts",
+  "creator": {
+    "capture": "Nathan Lineback (Nathan's Toasty Technology page, GUI Gallery, toastytech.com) — inferred from site ownership; the image itself carries no byline, but the human player seat in the capture is labelled \"Nathan\" and the site's About page names Nathan Lineback as its author",
+    "depicted_software": "Microsoft Corporation"
+  },
+  "software": {
+    "product": "Microsoft Hearts, title bar \"The Microsoft Hearts Network\"",
+    "operating_system": "Microsoft Windows for Workgroups 3.11",
+    "operating_system_evidence": [
+      "Archive page heading \"Microsoft Windows for Workgroups Version 3.11\" (capturer's own label)",
+      "16-bit Windows 3.x window chrome: control-menu box, single down-arrow minimise button, navy title bar, system font",
+      "Title bar name \"The Microsoft Hearts Network\", the name used before the Windows XP-era rename (Wikipedia: Microsoft Hearts, secondary)",
+      "Default opponent names Anna and Terri visible; Wikipedia (secondary) gives Anna, Lynda and Terri as the Windows for Workgroups 3.1 defaults and Pauline, Michele and Ben for later versions"
+    ],
+    "game_version": "not shown — no About box, version string or build number is visible, and none is stated on the archive page",
+    "version_limitations": [
+      "Windows for Workgroups 3.1 and 3.11 cannot be told apart from these pixels; 3.11 rests on the capturer's page label.",
+      "The top seat reads \"Bill\" rather than the documented default \"Lynda\"; it may be a renamed or networked player. Not interpreted further.",
+      "A second Hearts window is partly visible at the right edge; the capture is full-screen 640x480 and it is kept uncropped."
+    ],
+    "software_release_date": null,
+    "software_release_date_note": "Not verified against a primary source in this ticket. Secondary only: Wikidata Q17281123 gives Hearts P577 = 1992-10-01; Wikipedia dates Windows for Workgroups 3.11 to 1993. Microsoft KB 126746 (version history) exists only on web.archive.org, which was unreachable from this environment."
+  },
+  "original_publication_date": null,
+  "original_publication_date_note": "Unknown. HTTP Last-Modified of the GIF is 2011-06-23T19:16:44Z; that is a server file time, not a capture or first-publication date. Wayback availability lookup returned no snapshot for the GIF, then HTTP 429 on retry.",
+  "depicted_event_date": null,
+  "depicted_event_date_note": "The date the screen was captured is unknown.",
+  "source_url": "http://toastytech.com/guis/win311hearts.gif",
+  "source_page_url": "http://toastytech.com/guis/win311.html",
+  "access_date": "2026-09-15",
+  "access_method": "Plain HTTP GET with curl, no login, no terms prompt, no CAPTCHA. The https URL 301-redirects to http.",
+  "http_response": {
+    "status": 200,
+    "content_type": "image/gif",
+    "content_length": 17876,
+    "last_modified": "Thu, 23 Jun 2011 19:16:44 GMT"
+  },
+  "file": {
+    "path": "source/original.gif",
+    "format": "GIF89a, single frame, palette",
+    "dimensions": [640, 480],
+    "bytes": 17876,
+    "sha256": "43aed772b74691983af34bb3c5d1288e8432a5474fe7a057502ff51f948890c5",
+    "sha1": "502be71cc829b7bb9c10179374bf09b4204b2181",
+    "md5": "cac7966b8419c44afa6ed40514219bdb",
+    "modified": false
+  },
+  "transformations": [
+    {
+      "output": "exports/editorial-frame.png",
+      "steps": "Whole capture, no crop; palette to RGB; exact 2x nearest-neighbour enlargement to 1280x960; centred at (320,60) on a 1920x1080 #111318 ground. No text, credit or annotation added.",
+      "record": "evidence/framing.json",
+      "script": "src/render_editorial_frame.py"
+    },
+    {
+      "output": "proofs/editorial-frame-720.png",
+      "steps": "Uniform LANCZOS reduction of the finished 1920x1080 frame to 1280x720, review proof only."
+    }
+  ],
+  "license_terms": "None stated by the capturer. Microsoft publishes conditional permission for screenshots of its products; see evidence/rights.json.",
+  "license_url": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions",
+  "rights_status": "unclear — release blocked",
+  "credit_text": "Microsoft Hearts, Microsoft Windows for Workgroups 3.11. Used with permission from Microsoft. Screenshot: Nathan Lineback, Toasty Technology GUI Gallery (toastytech.com).",
+  "credit_text_status": "proposed; not approved by anyone"
+}

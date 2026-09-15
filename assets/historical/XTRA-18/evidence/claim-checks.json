@@ -1,0 +1,69 @@
+{
+  "id": "XTRA-18",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/rights.json",
+        "evidence/search-log.json",
+        "evidence/source-excerpts.md"
+      ],
+      "checked": "The rights holder for the depicted UI (Microsoft Corporation), the capture's creator (Nathan Lineback, inferred from site ownership), the file's exact URL, access method, access date, hash and proposed credit are recorded. No licence or reuse statement exists on the archive site. Microsoft's published screenshot permission is conditional and was summarised, not applied.",
+      "decision": null,
+      "approver": null,
+      "reason": "Rights are unclear. Under R14, unknown rights stay blocked. Microsoft's conditional permission may or may not cover a third-party capture, and the capturer grants nothing in writing.",
+      "review_question": "RQ-1 in review_questions"
+    }
+  ],
+  "claims": [
+    {
+      "id": "XTRA-18-C1",
+      "claim": "The image shows Microsoft Hearts from the early-to-mid-1990s Windows era, specifically Windows for Workgroups 3.11.",
+      "status": "supported with limits",
+      "evidence": [
+        "evidence/source.json",
+        "evidence/source-excerpts.md"
+      ],
+      "finding": "Supported: title bar \"The Microsoft Hearts Network\", 16-bit Windows 3.x chrome, the documented WfW default opponent names Anna and Terri, and the archive page's label \"Microsoft Windows for Workgroups Version 3.11\". Limits: no version string is visible, so 3.1 and 3.11 are indistinguishable from pixels; the capture date is unknown; release-date facts are secondary (Wikipedia/Wikidata) because web.archive.org, which holds Microsoft KB 126746, was unreachable."
+    },
+    {
+      "id": "XTRA-18-C2",
+      "claim": "Showing Hearts in the section 13 GUI montage must not imply Hearts was written in Visual Basic.",
+      "status": "handled in the asset; script wording referred",
+      "evidence": [
+        "evidence/source-excerpts.md",
+        "exports/editorial-frame.png"
+      ],
+      "finding": "No primary source consulted states the implementation language of Microsoft Hearts: Wikipedia, Wikidata (no \"programmed in\" statement), the archive page, and the Windows 95 manual (Introducing Microsoft Windows 95, archive.org windows-95-manual_202412, which does not mention Hearts). This asset therefore makes no language claim. The frame carries no burned-in label, and the proposed credit names only the product and OS. The risk is in the script: War/SCRIPT.md:636 files Hearts under \"90s shareware card games\", and the narration at line 650 goes straight to card games \"written in Visual Basic\". Hearts was Microsoft software bundled with Windows for Workgroups, not shareware, so the montage can imply VB authorship. War/SCRIPT.md was not edited; see RQ-2.",
+      "action_taken": "No edit. Referred to the Writing Lead as RQ-2."
+    },
+    {
+      "id": "XTRA-18-C3",
+      "claim": "War/SCRIPT.md:636 says \"Windows 3.1 and Windows 95 versions\".",
+      "status": "discrepancy for Hearts",
+      "evidence": [
+        "evidence/source-excerpts.md",
+        "evidence/search-log.json"
+      ],
+      "finding": "Hearts shipped with Windows for Workgroups, not plain Windows 3.1. The archive page lists it among applications built for the WfW networking system. Wikipedia's Windows 3.1 article (secondary) also says Hearts was added in the Workgroups edition. This capture is WfW 3.11, not Windows 3.1. A Windows 95 Hearts capture with period Windows 95 chrome was not found (see search-log.json).",
+      "action_taken": "No edit. Folded into RQ-2."
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "RQ-1",
+      "to": "Producer, for the review deck (legal/rights)",
+      "question": "Is Microsoft's published screenshot permission (\"Used with permission from Microsoft\", resize only, no portions) enough to use this third-party Windows for Workgroups 3.11 Hearts capture by Nathan Lineback (toastytech.com), which has no licence of its own? If not: ask the capturer for permission, or authorise a first-party emulator capture?",
+      "evidence": "evidence/rights.json"
+    },
+    {
+      "id": "RQ-2",
+      "to": "Writing Lead",
+      "question": "War/SCRIPT.md:636 calls the montage \"90s shareware card games — Solitaire, Hearts, FreeCell. Windows 3.1 and Windows 95 versions.\" Hearts was not shareware and was not in plain Windows 3.1; it was bundled with Windows for Workgroups (and later Windows 95). Line 650 then says the shareware card games were \"written in Visual Basic\", so the montage can suggest Microsoft's bundled games were VB apps. Proposed wording for line 636: \"[VISUAL: Card games bundled with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x / Windows for Workgroups and Windows 95. The classic green felt background. On-screen label, if any: 'Bundled with Windows'.]\" Accept, revise, or keep?",
+      "evidence": "evidence/claim-checks.json#XTRA-18-C2, evidence/source-excerpts.md"
+    }
+  ]
+}

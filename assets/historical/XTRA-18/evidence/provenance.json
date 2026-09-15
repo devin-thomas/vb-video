@@ -1,0 +1,50 @@
+{
+  "id": "XTRA-18",
+  "classification": "historical source — third-party archive screenshot of Microsoft software UI",
+  "asset_plan_status": "Script-only supplement (original_family SCRIPT-SUPPLEMENT). Not an original ASSET_PLAN.md row.",
+  "script_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [579, 593],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "visual brief (line 579) and surrounding narration"
+    },
+    {
+      "path": "War/SCRIPT.md",
+      "lines": [636, 650],
+      "sha256_at_check": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working-script copy of the same visual brief and narration; read only, not edited"
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "acquired historical original",
+      "url": "http://toastytech.com/guis/win311hearts.gif",
+      "page": "http://toastytech.com/guis/win311.html",
+      "local_copy": "source/original.gif",
+      "sha256": "43aed772b74691983af34bb3c5d1288e8432a5474fe7a057502ff51f948890c5",
+      "access_date": "2026-09-15",
+      "record": "evidence/source.json"
+    },
+    {
+      "role": "rights terms (not a licence grant for this file)",
+      "url": "https://www.microsoft.com/en-us/legal/intellectualproperty/permissions",
+      "access_date": "2026-09-15",
+      "record": "evidence/rights.json"
+    }
+  ],
+  "secondary_context_consulted": [
+    "https://en.wikipedia.org/wiki/Microsoft_Hearts (history, default opponent names)",
+    "https://en.wikipedia.org/wiki/Windows_3.1 (Hearts added in Windows for Workgroups)",
+    "https://www.wikidata.org/wiki/Q17281123 (P577 1992-10-01; no P277 'programmed in')",
+    "https://archive.org/details/windows-95-manual_202412 (Introducing Microsoft Windows 95; OCR text has no 'Hearts')"
+  ],
+  "authored_additions": [
+    "Canvas 1920x1080 with ground colour #111318 (production-bible token)",
+    "Integer 2x nearest-neighbour enlargement and centred placement at (320,60)",
+    "Proposed credit text and review-question wording"
+  ],
+  "unmodified_originals": ["source/original.gif"],
+  "producer_decisions": [],
+  "not_used": "The Internet Archive item MicrosoftHearts (Italian Windows 9x build under a modern Windows window frame) was inspected and rejected; see evidence/search-log.json. Its file was not included."
+}
