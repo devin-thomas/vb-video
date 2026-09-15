@@ -1,0 +1,66 @@
+{
+  "id": "BROLL-03",
+  "provenance_type": "stock/archive scouting record (no media acquired)",
+  "source_files": [
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "lines": [[109, 122], [119, 119]],
+      "relationship": "literal excerpt: shot request and suggested sources"
+    },
+    {
+      "path": "sources/SCRIPT.md",
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "lines": [[799, 805]],
+      "relationship": "literal excerpt: script B-roll suggestion 3"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
+      "relationship": "stock candidate (rank 1)",
+      "creator": "MART PRODUCTION",
+      "original_publication_date": "2021-07-23 (Pexels upload)",
+      "depicted_period": "staged retro office, no documented date",
+      "license_url": "https://www.pexels.com/license/",
+      "rights_status": "Pexels License shown; not acquired; R14 open",
+      "accessed": "2026-09-15"
+    },
+    {
+      "url": "https://www.pexels.com/video/a-man-talking-on-the-phone-while-using-a-computer-8869644/",
+      "relationship": "stock candidate (rank 2)",
+      "creator": "MART PRODUCTION",
+      "original_publication_date": "2021-07-23 (Pexels upload)",
+      "depicted_period": "staged retro office, no documented date",
+      "license_url": "https://www.pexels.com/license/",
+      "rights_status": "Pexels License shown; not acquired; R14 open",
+      "accessed": "2026-09-15"
+    },
+    {
+      "url": "https://archive.org/details/jpo-automation",
+      "relationship": "historical original candidate (rank 3)",
+      "creator": "Japanese Patent Office (item creator field); uploader TheHoard",
+      "original_publication_date": "1989 (item date)",
+      "archive_upload_date": "2025-08-27",
+      "depicted_period": "circa 1989 (item description)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rights_status": "uploader-applied Public Domain Mark, unverified; blocked",
+      "accessed": "2026-09-15"
+    }
+  ],
+  "terms_pages_consulted": [
+    {"url": "https://www.pexels.com/license/", "accessed": "2026-09-15"},
+    {"url": "https://www.pexels.com/terms-of-service/", "accessed": "2026-09-15", "last_updated_shown": "November 15th, 2024"},
+    {"url": "https://pixabay.com/service/license-summary/", "accessed": "2026-09-15", "note": "consulted for the search log; no Pixabay candidate"},
+    {"url": "https://creativecommons.org/publicdomain/mark/1.0/", "accessed": "2026-09-15"},
+    {"url": "https://creativecommons.org/licenses/publicdomain/", "accessed": "2026-09-15", "note": "retired tool used by the FedFlix 1993 lead; the page says CC retired it (notice dated October 11, 2010)"},
+    {"url": "https://help.archive.org/help/rights/", "accessed": "2026-09-15"},
+    {"url": "https://archive.org/about/terms", "accessed": "2026-09-15", "note": "WebFetch returned only the site title; terms text not captured"}
+  ],
+  "authored_additions": [
+    "Candidate ranking, proposed in/out timecodes, visual-fit notes, archive-vs-recreation findings, and suggested credit lines are the scouting worker's editorial proposals, not source facts.",
+    "Local filenames in the acquisition handoff are proposed names; no such files exist."
+  ],
+  "producer_decisions": [],
+  "media_acquired": []
+}

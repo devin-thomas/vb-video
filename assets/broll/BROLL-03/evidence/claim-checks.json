@@ -1,0 +1,65 @@
+{
+  "id": "BROLL-03",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "open",
+      "approver": null,
+      "reason": null,
+      "checked_by": "BROLL-03 scouting worker (agent), 2026-09-15",
+      "evidence_paths": [
+        "evidence/candidates.json",
+        "exports/candidates.md",
+        "exports/acquisition-handoff.md",
+        "evidence/provenance.json"
+      ],
+      "per_candidate": [
+        {
+          "candidate": "rank 1: https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
+          "rights_holder_creator": "MART PRODUCTION (Pexels contributor, https://www.pexels.com/@mart-production/)",
+          "file_specific_terms": "Page label 'License: Free', meaning the Pexels License (https://www.pexels.com/license/): free to use, attribution not required, modification allowed. Restrictions: no bad-light or offensive depiction of identifiable people, no implied endorsement, no resale of unaltered copies, no redistribution on stock platforms, no trademark use.",
+          "warranty": "Pexels Terms (updated November 15th, 2024) disclaim any warranty that model releases or other consents exist; permission responsibility rests with the user.",
+          "access_method": "Public page, no login; 'Free download' visible; no CAPTCHA observed. Not downloaded.",
+          "credit": "Not required. Suggested: 'Video: MART PRODUCTION / Pexels'.",
+          "archive_or_recreation": "Modern recreation (2021 upload, 4096x2160/25 fps digital, 'retro-styled office' description).",
+          "finding": "Rights terms recorded from the live page. Identifiable actors appear; no release evidence exists on the page. Actual download and file-version check still to do.",
+          "status": "open"
+        },
+        {
+          "candidate": "rank 2: https://www.pexels.com/video/a-man-talking-on-the-phone-while-using-a-computer-8869644/",
+          "rights_holder_creator": "MART PRODUCTION",
+          "file_specific_terms": "Page label 'License: Free' (Pexels License), same as rank 1.",
+          "access_method": "Public page, no login; size menu and 'Download Selected Size' visible; no CAPTCHA. Not downloaded.",
+          "credit": "Not required. Suggested: 'Video: MART PRODUCTION / Pexels'.",
+          "archive_or_recreation": "Modern recreation (2021, same set as rank 1).",
+          "finding": "Same as rank 1.",
+          "status": "open"
+        },
+        {
+          "candidate": "rank 3: https://archive.org/details/jpo-automation",
+          "rights_holder_creator": "Item creator field 'Japanese Patent Office'; uploaded 2025-08-27 by TheHoard (Patron Libraries). Original rights holder not otherwise documented.",
+          "file_specific_terms": "Public Domain Mark 1.0 set on the item (https://creativecommons.org/publicdomain/mark/1.0/). The PDM deed says the identifier makes no warranties and the work may not be free of restrictions in all jurisdictions. Internet Archive does not guarantee rights information on item pages (https://help.archive.org/help/rights/).",
+          "access_method": "Public item page and file list, no login. Not downloaded.",
+          "credit": "Suggested if used: 'The Computer Systems in the Japanese Patent Office (Japanese Patent Office, c. 1989), via Internet Archive'.",
+          "archive_or_recreation": "Genuine period archive (1989).",
+          "finding": "Rights status unverified: a third-party PDM on a foreign government film is not a rights record. Treated as blocked. Motion not reviewed (player did not load).",
+          "status": "blocked"
+        },
+        {
+          "candidate": "lead: https://archive.org/details/TheVistaGroup-UnknownFoundFootageOfficeRecording1990s",
+          "file_specific_terms": "No license or rights field shown on the item page; author unknown.",
+          "finding": "Rights unknown, so rights-blocked. Not ranked.",
+          "status": "blocked"
+        }
+      ],
+      "review_questions": [
+        "Is a clearly modern retro-styled recreation (Pexels, MART PRODUCTION, 2021) acceptable for a narration beat about 1990s offices, or must this shot be genuine period footage? If a recreation is used, should the video avoid implying it is archival?",
+        "Rank 1 and 2 set dressing (wood paneling, mushroom lamp, rotary phone) reads 1970s-80s more than 1990s US corporate. Is that period look acceptable?",
+        "Legal risk: accept Pexels' no-warranty position on model releases for identifiable actors (Pexels forbids showing identifiable people in a bad light)?",
+        "Legal risk: is the uploader-applied Public Domain Mark on the 1989 Japanese Patent Office film enough to use it, given Internet Archive disclaims rights guarantees? If not, it stays blocked."
+      ],
+      "note": "Evidence recorded; release is not approved by this worker. Release decision belongs to the OPS-04 review deck."
+    }
+  ]
+}

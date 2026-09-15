@@ -1,0 +1,163 @@
+{
+  "id": "BROLL-03",
+  "shot": "1990s office with CRT monitors",
+  "access_date": "2026-09-15",
+  "acquisition_status_all": "not acquired; no media downloaded in this pass (download approval pending with the B-roll Scouting Manager)",
+  "candidates": [
+    {
+      "rank": 1,
+      "title": "A Man Working at an Office",
+      "asset_page": "https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
+      "platform": "Pexels",
+      "pexels_id": 8869925,
+      "creator": "MART PRODUCTION",
+      "creator_profile": "https://www.pexels.com/@mart-production/",
+      "upload_date": "2021-07-23",
+      "duration_page": "0:28",
+      "duration_player_seconds": 27.84,
+      "source_dimensions": {"width": 4096, "height": 2160, "aspect_ratio": "256:135", "orientation": "horizontal"},
+      "fps": 25,
+      "proposed_in": "00:00:01.00",
+      "proposed_out": "00:00:11.00",
+      "proposed_segment_seconds": 10.0,
+      "edit_handles": "1.0 s before in; about 16.8 s after out, and the push-in continues to about 16 s",
+      "camera_motion": "Slow push-in from a wide room shot (0 s) to a medium shot of the man at the desk (about 16 s), then a slow pull-back to wide by 27.5 s.",
+      "visual_fit": "Wood-paneled office with vertical blinds and recessed ceiling lights. A beige CRT monitor with side vent slats sits on a beige desktop case, desk-left, seen from the side so no screen content is visible. Beige keyboard, cream rotary landline phone, piles of coins, stacks of folders and papers, orange mushroom desk lamp, snake plant, leather chairs. A man in glasses, blue shirt, and yellow tie works at the desk (counting coins, handling papers). The CRT is prominent in every sampled frame.",
+      "modern_item_check": "No flat panel, smartphone, laptop, modern keyboard or mouse, or UI overlay seen in frames sampled at 0, 1, 4, 6, 8, 11, 12, 16, 20, 24, and 27.5 s. This was sampling, not frame-by-frame: the frames between samples (roughly 3 s gaps inside the segment) were not individually inspected.",
+      "period_fit_caveat": "Set dressing (wood paneling, mushroom lamp, rotary phone) reads as a 1970s-80s Eastern-European-style office more than a 1990s US corporate office. The CRT and beige PC are plausible for the early 1990s.",
+      "archive_or_recreation": "modern recreation (retro-styled stock shoot)",
+      "archive_or_recreation_evidence": [
+        "Pexels upload date Jul 23, 2021; native master 4096x2160 at 25 fps, a digital cinema resolution not used for 1990s office video.",
+        "Page description: 'Man working at a desk with vintage computer in retro-styled office.'",
+        "Clean, grain-free digital image with shallow depth of field and controlled grading; no VHS/film artifacts in sampled frames.",
+        "Same set, cast, and wardrobe appear across dozens of MART PRODUCTION uploads from Jul 23-24, 2021 (e.g. 8869644, 8869773, 8869920, 8870064).",
+        "Creator bio on profile: 'We distribute and create datasets for AI training'."
+      ],
+      "license": {
+        "label_on_page": "License: Free",
+        "terms_summary": "Pexels License: 'All photos and videos on Pexels are free to use.' 'Attribution is not required.' Modification allowed. Not allowed: identifiable people in a bad light or offensive way; selling unaltered copies; implying endorsement by people or brands; redistributing or selling on other stock or wallpaper platforms; use in a trademark or business name.",
+        "license_url": "https://www.pexels.com/license/",
+        "terms_of_service_url": "https://www.pexels.com/terms-of-service/",
+        "terms_of_service_notes": "ToS last updated November 15th, 2024. Pexels makes no warranty regarding content and does not warrant that consents or licenses (e.g. model releases) were obtained; 'Responsibility for determining whether permissions are needed always rests solely and exclusively with you.'",
+        "accessed": "2026-09-15"
+      },
+      "login_download_barrier": "None observed. The 'Free download' button and size menu are shown without login. No CAPTCHA or bot wall encountered. Download not performed.",
+      "download_options_observed": "Size menu 'Choose a size:' lists SD 426x226, SD 640x338, SD 960x506, HD 1366x720, Full HD 2048x1080, Quad HD 2732x1440, 4K UHD 4096x2160; button 'Download Selected Size' and 'Free download' both link to https://www.pexels.com/download/video/8869925/. No file sizes displayed.",
+      "watermark_captions_narration": "No watermark or baked-in captions in sampled frames. Audio not reviewed (player muted).",
+      "motion_review": {
+        "status": "reviewed (sampled)",
+        "method": "Pexels in-page player (UHD 2732x1440 stream) in the Claude Browser pane: seeked via currentTime and screenshotted; muted real-time playback confirmed currentTime advancing from 1.00 to 6.04 s over about 5 s.",
+        "frames_inspected_seconds": [0, 1, 4, 6, 8, 11, 12, 16, 20, 24, 27.5],
+        "limits": "Screenshots at browser-pane size (about 800 px wide), not at 1080p/4K. Pexels' play-button overlay covered a small circle in the centre of paused frames (around the man's head and torso). Intermediate frames not individually inspected."
+      },
+      "local_filename_if_acquired": "assets/broll/BROLL-03/source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4"
+    },
+    {
+      "rank": 2,
+      "title": "A Man Talking on the Phone while Using a Computer",
+      "asset_page": "https://www.pexels.com/video/a-man-talking-on-the-phone-while-using-a-computer-8869644/",
+      "platform": "Pexels",
+      "pexels_id": 8869644,
+      "creator": "MART PRODUCTION",
+      "creator_profile": "https://www.pexels.com/@mart-production/",
+      "upload_date": "2021-07-23",
+      "duration_page": "0:24",
+      "duration_player_seconds": 23.92,
+      "source_dimensions": {"width": 4096, "height": 2160, "aspect_ratio": "256:135", "orientation": "horizontal"},
+      "fps": 25,
+      "proposed_in": "00:00:02.00",
+      "proposed_out": "00:00:12.00",
+      "proposed_segment_seconds": 10.0,
+      "edit_handles": "2.0 s before in; about 11.9 s after out",
+      "camera_motion": "Near-locked-off medium shot with very slight drift; the subject moves (phone to ear, typing, looking at the screen).",
+      "visual_fit": "Same wood-paneled set. A man in glasses, striped shirt, and yellow tie holds a cream rotary handset and types on a beige keyboard. A beige CRT monitor on a desktop case fills frame-left, cropped by the left edge and angled away so no screen content is visible. Orange mushroom lamp dominates the right foreground; folders, filing cabinet, plant. Tighter and more human than rank 1, but the CRT is only partly in frame.",
+      "modern_item_check": "No flat panel, smartphone, laptop, modern keyboard or mouse, or UI overlay seen in frames sampled at 0, 4, 8, 12, 16, 20, and 23.4 s. Sampling, not frame-by-frame.",
+      "period_fit_caveat": "Same set-dressing caveat as rank 1. The rotary phone and lamp push the look earlier than the 1990s.",
+      "archive_or_recreation": "modern recreation (retro-styled stock shoot)",
+      "archive_or_recreation_evidence": [
+        "Pexels upload date Jul 23, 2021; native 4096x2160 at 25 fps.",
+        "Page description: 'Businessman in vintage office setting, using a rotary phone and computer.'",
+        "Clean digital image, same cast and set as rank 1 and the rest of the MART PRODUCTION Jul 2021 series."
+      ],
+      "license": {
+        "label_on_page": "License: Free",
+        "terms_summary": "Pexels License, as for rank 1.",
+        "license_url": "https://www.pexels.com/license/",
+        "terms_of_service_url": "https://www.pexels.com/terms-of-service/",
+        "accessed": "2026-09-15"
+      },
+      "login_download_barrier": "None observed. The size menu opened without login; no CAPTCHA. Download not performed.",
+      "download_options_observed": "Size menu 'Choose a size:' lists SD 426x226, SD 640x338, SD 960x506, HD 1366x720, Full HD 2048x1080, Quad HD 2732x1440, 4K UHD 4096x2160; button 'Download Selected Size' links to https://www.pexels.com/download/video/8869644/. No file sizes displayed.",
+      "watermark_captions_narration": "No watermark or baked-in captions in sampled frames. Audio not reviewed.",
+      "motion_review": {
+        "status": "reviewed (sampled)",
+        "method": "Pexels in-page player (UHD 2732x1440 stream, duration 23.92 s) seeked via currentTime and screenshotted in the Claude Browser pane.",
+        "frames_inspected_seconds": [0, 4, 8, 12, 16, 20, 23.4],
+        "limits": "Pane-size screenshots, not 1080p. Play overlay covered a centre circle. No real-time playback check on this clip (seek-only)."
+      },
+      "local_filename_if_acquired": "assets/broll/BROLL-03/source/pexels-8869644-mart-production-man-on-phone-using-computer-4096x2160-25fps.mp4"
+    },
+    {
+      "rank": 3,
+      "title": "The Computer Systems in the Japanese Patent Office 1989",
+      "asset_page": "https://archive.org/details/jpo-automation",
+      "platform": "Internet Archive (collections: TheHoard's Patent Library; Patron Libraries)",
+      "creator": "Japanese Patent Office (item creator field)",
+      "uploader": "TheHoard",
+      "publication_date": "1989",
+      "upload_date": "2025-08-27",
+      "duration_seconds": 1186.52,
+      "source_dimensions": {"width": 640, "height": 480, "aspect_ratio": "4:3", "orientation": "horizontal (4:3; needs pillarbox or crop for 16:9)"},
+      "fps": null,
+      "proposed_in": "tentative, around 00:03:58 (thumbnail frame at 238 s)",
+      "proposed_out": "tentative, not set: shot boundaries unknown",
+      "proposed_segment_seconds": null,
+      "visual_fit": "From Internet Archive's own thumbnail frames only: 238 s shows an open-plan office with staff at CRT terminal workstations; 598 s and 775 s show men seated at CRT terminals. 174 s shows an office counter with a CRT but has a baked-in 'Application' caption (reject that moment). Other thumbnails are diagrams, document scans, green-screen terminal text, and an optical disc.",
+      "modern_item_check": "Genuine 1989 footage, so no modern devices expected. Baked-in captions exist in parts of the film. Not checked frame by frame.",
+      "period_fit_caveat": "1989 and Japanese government offices: period-accurate CRT hardware, but not a 1990s US office. Standard-definition analog source.",
+      "archive_or_recreation": "genuine period archive footage (per item metadata)",
+      "archive_or_recreation_evidence": [
+        "Item date 1989; description: 'The Computer Systems in the Japanese Patent Office, Japanese Patent Office, circa 1989.'",
+        "640x480 SD source with analog-video look and period on-screen typography in the thumbnail frames.",
+        "Hardware and interfaces visible in thumbnails (green-on-black terminal text, beige CRT terminals) are consistent with the late 1980s."
+      ],
+      "license": {
+        "label_on_page": "Public Domain Mark 1.0 (licenseurl https://creativecommons.org/publicdomain/mark/1.0/), as set on the item",
+        "terms_summary": "PDM deed: 'This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.' It also warns the work 'may not be free of known copyright restrictions in all jurisdictions' and 'The person who identified the work makes no warranties about the work.'",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "platform_rights_note": "Internet Archive help (https://help.archive.org/help/rights/): 'The Internet Archive does not make guarantees as to the copyright status of items on archive.org and cannot guarantee information posted on item details or collection pages regarding copyright or other intellectual property rights.'",
+        "accessed": "2026-09-15",
+        "rights_assessment": "Unverified. The PDM was applied by the uploader, not the rights holder. Copyright status of a 1989 Japanese government film is not established by any evidence found. Treated as rights-blocked pending a review decision."
+      },
+      "login_download_barrier": "No login needed to view the item page or file list. Files: JPO_Automation.mp4 (MPEG4, 114,642,865 bytes, 640x480) and JPO_Automation.ia.mp4 (h.264 IA, same size). Download not performed.",
+      "watermark_captions_narration": "Baked-in captions present at least around 174 s; English narration likely (item language: English), not verified.",
+      "motion_review": {
+        "status": "motion not reviewed: the item's in-page player never loaded in the Claude Browser pane (video networkState NETWORK_NO_SOURCE, readyState 0, duration null on two fresh page loads). Only the 20 Internet Archive thumbnail frames were viewed.",
+        "frames_inspected_seconds": [1, 116, 174, 238, 301, 356, 416, 476, 539, 598, 656, 714, 775, 839, 898, 955, 1023, 1076, 1137, 1186],
+        "limits": "Thumbnails are about 160x120 as displayed. Thumbnail filenames were read as seconds (they run 000001 to 001186, matching the runtime), but that mapping is an inference, not documented."
+      },
+      "local_filename_if_acquired": "assets/broll/BROLL-03/source/archive-jpo-automation-1989-640x480.mp4"
+    }
+  ],
+  "rejected_or_unreviewed_leads": [
+    {"url": "https://www.pexels.com/video/video-of-a-office-room-8869773/", "creator": "MART PRODUCTION", "dims": "4096x2160", "duration": "0:17 page / 0:16 player", "reason": "Rejected: no CRT. Frames at 0, 5, and 11 s show only a typewriter, rotary phone, and lamp on the desk. Recreation (2021)."},
+    {"url": "https://www.pexels.com/video/man-answering-a-phone-call-while-typing-on-a-computer-8869920/", "creator": "MART PRODUCTION", "dims": "4096x2160", "duration": "0:29", "reason": "Same set, horizontal; metadata only, motion not reviewed. Backup if ranks 1-2 fail."},
+    {"url": "https://www.pexels.com/video/man-using-telephone-in-office-8870064/", "creator": "MART PRODUCTION", "dims": "4096x2160", "duration": "0:26", "reason": "Description says rotary phone call, no computer mentioned; not motion reviewed."},
+    {"url": "https://www.pexels.com/video/coworkers-looking-at-a-computer-in-an-office-8869612/", "creator": "MART PRODUCTION", "dims": "2160x4096", "duration": "0:38", "reason": "Rejected: vertical."},
+    {"url": "https://www.pexels.com/video/a-man-answering-the-telephone-at-an-office-8869785/", "creator": "MART PRODUCTION", "dims": "2160x4096", "duration": "0:19", "reason": "Rejected: vertical."},
+    {"url": "https://www.pexels.com/video/coworkers-talking-at-an-office-8869782/", "creator": "MART PRODUCTION", "dims": "2160x4096", "duration": "0:17", "reason": "Rejected: vertical."},
+    {"url": "https://www.pexels.com/video/a-man-talking-to-his-boss-at-an-office-8869630/", "creator": "MART PRODUCTION", "dims": "2160x4096", "duration": "0:22", "reason": "Rejected: vertical."},
+    {"url": "https://www.pexels.com/video/a-businessman-making-a-call-after-counting-cash-8870081/", "creator": "MART PRODUCTION", "dims": "2160x4096", "duration": "0:26", "reason": "Rejected: vertical."},
+    {"url": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/", "creator": "MART PRODUCTION", "dims": "4096x2160", "duration": "0:12", "reason": "Description 'cozy retro room with a vintage PC': a home or den set, not an office. Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/person-using-telephone-8888777/", "creator": "MART PRODUCTION", "dims": "4096x2160", "duration": "0:29", "reason": "Described as 'retro-themed office scene' but tagged dark or cinematic, and siblings are a home gaming room. Not motion reviewed."},
+    {"url": "https://www.pexels.com/video/computers-on-a-office-8347242/", "creator": "Kampus Production", "dims": "2160x3840", "duration": "0:12", "reason": "Rejected: vertical; described as modern dual-monitor setup."},
+    {"url": "https://www.pexels.com/video/computer-monitors-on-the-table-8346903/", "creator": "Kampus Production", "dims": "3840x2160", "duration": "0:12", "reason": "Rejected: described as 'sleek modern office' with monitors."},
+    {"url": "https://www.pexels.com/video/businesswoman-using-a-computer-at-an-office-desk-12896410/", "creator": "Mizuno K", "dims": "2160x3840", "duration": "0:10", "reason": "Rejected: vertical, modern coding scene."},
+    {"url": "https://www.pexels.com/video/stacked-computers-and-keyboard-12271136/", "creator": "Sasha Poberailo", "dims": "1080x1920", "duration": "0:08", "reason": "Rejected: vertical hardware stack, not an office scene."},
+    {"url": "https://www.pexels.com/video/employees-typing-on-a-keyboard-of-a-computer-8865871/", "creator": "Yan Krukau", "dims": "1920x1080", "duration": "0:11", "reason": "Description and tags point to a modern call centre; not motion reviewed."},
+    {"url": "https://www.pexels.com/video/people-working-at-an-office-8691678/", "creator": "Ron Lach", "dims": "4096x2160", "duration": "0:41", "reason": "Rejected: tagged 'Dual Monitor', modern call-centre desk."},
+    {"url": "https://archive.org/details/TheVistaGroup-UnknownFoundFootageOfficeRecording1990s", "creator": "unknown (uploader The Vista Group, uploaded 2020-12-20)", "dims": "not recorded (59.94 fps H.264)", "duration": "not recorded", "reason": "Possibly genuine 1990s VHS office recording ('estimate to be the 1990s'), but the item shows no license or rights field and the author is unknown: rights-blocked. Not motion reviewed."},
+    {"url": "https://archive.org/details/gov.ntis.ava19485vnb1", "creator": "Federal Judicial Center (1993)", "dims": "720x480 (MPEG4, 1,160,206,281 bytes)", "duration": "2877.31 s", "reason": "Genuine 1993 US federal-agency video marked with the retired CC Public Domain dedication/certification. It is a panel discussion, so office or CRT visuals are unconfirmed. Not motion reviewed."},
+    {"url": "https://archive.org/details/automating-uspto-longer", "creator": "listed 1985, collection thehoardpatents", "dims": "not recorded", "duration": "not recorded", "reason": "PDM-marked 1985 film; pre-1990s, not opened or reviewed."}
+  ]
+}

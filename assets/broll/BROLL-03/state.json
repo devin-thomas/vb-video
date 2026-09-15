@@ -1,12 +1,18 @@
 {
   "id": "BROLL-03",
-  "production_status": "planned",
+  "production_status": "scouted",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "BROLL-03 scouting worker (subagent of B-roll Scouting Manager, session vb-99)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "No media acquired: batched download approval is pending with the B-roll Scouting Manager and Devin.",
+    "R14 open: recreation-vs-archive acceptability, model-release risk on Pexels clips, and the unverified Public Domain Mark on the archive alternative need review-deck decisions.",
+    "Archive alternative (jpo-automation) motion not reviewed: its in-page player did not load in the Browser pane."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Scouting complete: 3 ranked candidates (2 motion-reviewed Pexels recreations, 1 genuine 1989 archive film triaged from thumbnails only).",
+    "Scouted is not acquired: no source/ media exists for this ticket yet.",
+    "No H02 gated items; best and first alternative are ungated free downloads."
   ]
 }
