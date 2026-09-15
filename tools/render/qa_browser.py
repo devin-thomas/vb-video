@@ -2,11 +2,13 @@
 """Offline SVG/HTML checks in installed Chromium. Does not download a browser."""
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-import json,hashlib,sys
+import json,hashlib,sys,os
 ROOT=Path(__file__).resolve().parents[2]
 results=[]
+# System Chromium on the original Linux build machine; otherwise Playwright's bundled Chromium.
+LAUNCH={'executable_path':'/usr/bin/chromium','args':['--no-sandbox']} if os.path.exists('/usr/bin/chromium') else {}
 with sync_playwright() as p:
- b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
+ b=p.chromium.launch(headless=True,**LAUNCH)
  page=b.new_page(viewport={'width':1920,'height':1080},device_scale_factor=1)
  for fp in sorted((ROOT/'assets').glob('*/*/src/build.json')):
   data=json.loads(fp.read_text());base=fp.parents[1];id=base.name;errors=[];remote=[]
