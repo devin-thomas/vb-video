@@ -1,0 +1,65 @@
+{
+  "id": "XTRA-02",
+  "classification": "historical source (period print advertisement, scanned magazine page)",
+  "creator": "Microsoft Corporation (advertiser; ad carries \"© 1996 Microsoft Corporation\")",
+  "title": "Microsoft Developer Network / Visual C++ Subscription advertisement (\"Freshness dated\")",
+  "title_note": "Descriptive title from the ad's headline and products; the ad itself has no formal title.",
+  "publication": {
+    "magazine": "Boardwatch Magazine",
+    "issue": "June 1996",
+    "issue_date_evidence": "Printed running footers on neighbouring leaves read \"96 Boardwatch - June 1996\" (leaf 95) and \"98 Boardwatch - June 1996\" (leaf 97); IA item metadata date 1996-06.",
+    "printed_page": 97,
+    "printed_page_evidence": "The ad carries no folio of its own. Leaf 95 is printed page 96 and leaf 97 is printed page 98, so leaf 96 is page 97. The faint footer text on this leaf is mirrored show-through reading \"98 Boardwatch - June 1996\" from the reverse side (evidence/folio-showthrough.png). IA scandata also assigns pageNumber 97 to leaf 96 (auto-inferred).",
+    "scan_leaf": 96,
+    "scan_leaf_note": "Zero-based leaf index; file boardwatch-1996-06_0096.jp2; BookReader URL segment n96."
+  },
+  "original_publication_date": "1996-06",
+  "depicted_event_date": null,
+  "depicted_event_date_note": "An advertisement, not a photograph of an event. The ad cites \"PC Week Analyst's Choice, November 27, 1995\" for Visual C++ 4.0; that is the ad's own claim and is not independently verified here.",
+  "copyright_line_in_image": "© 1996 Microsoft Corporation. All rights reserved.",
+  "source_urls": {
+    "item_details": "https://archive.org/details/boardwatch-1996-06",
+    "page_view": "https://archive.org/details/boardwatch-1996-06/page/n96/mode/1up",
+    "downloaded_file": "https://archive.org/download/boardwatch-1996-06/boardwatch-1996-06_jp2.zip/boardwatch-1996-06_jp2%2Fboardwatch-1996-06_0096.jp2",
+    "download_redirect_served_by": "https://ia800704.us.archive.org/view_archive.php?archive=/9/items/boardwatch-1996-06/boardwatch-1996-06_jp2.zip&file=boardwatch-1996-06_jp2%2Fboardwatch-1996-06_0096.jp2",
+    "item_metadata_api": "https://archive.org/metadata/boardwatch-1996-06",
+    "scandata": "https://ia800704.us.archive.org/9/items/boardwatch-1996-06/boardwatch-1996-06_scandata.xml",
+    "ocr_djvu_xml": "https://ia800704.us.archive.org/9/items/boardwatch-1996-06/boardwatch-1996-06_djvu.xml",
+    "collection": "https://archive.org/details/boardwatchmagazine"
+  },
+  "archive_item_metadata": {
+    "identifier": "boardwatch-1996-06",
+    "identifier_ark": "ark:/13960/t53g3n346",
+    "title": "Boardwatch Magazine, June 1996",
+    "date": "1996-06",
+    "collections": ["boardwatchmagazine", "computermagazines", "magazine_rack"],
+    "publicdate": "2020-06-24 12:46:22",
+    "imagecount": "129",
+    "ocr": "ABBYY FineReader 11.0 (Extended OCR)",
+    "uploader": "Internet Archive patron account (address withheld here; visible in public item metadata)",
+    "rights_field": null,
+    "licenseurl_field": null,
+    "access_restricted_item": null
+  },
+  "access": {
+    "access_date_utc": "2026-09-15T20:32:43Z",
+    "method": "Anonymous HTTPS GET of a single zip member via archive.org/download (302 to ia800704 view_archive.php, 200 image/jp2). No account, login, lending, payment, CAPTCHA or terms acceptance.",
+    "tool": "curl 8.21.0 (Windows)"
+  },
+  "acquired_file": {
+    "path": "source/original.jp2",
+    "format": "JPEG 2000 (image/jp2)",
+    "bytes": 735141,
+    "sha256": "e0108c4d6daecfc0e68a82b31f62d231ff2c5311290733cfa5a878989fdc3df3",
+    "dimensions": {"width": 2489, "height": 3228},
+    "scan_ppi": 300,
+    "dimension_evidence": "Matches scandata leaf 96 origWidth 2489 / origHeight 3228 (neighbour leaf 95 is 2423x3222), confirming the file is the intended leaf.",
+    "modified": false
+  },
+  "version_model_evidence": "Products shown: Microsoft Developer Network box and Microsoft Visual C++ Subscription box; copy names Visual C++ 4.0; URLs http://www.microsoft.com/msdn and http://www.microsoft.com/visualc; Microsoft Visual Tools nav strip with \"Latest Technology\" highlighted; footer \"Where do you want to go today?\" tagline.",
+  "transformations": "None to source/original.jp2. The editorial frame is a separate derived copy; see evidence/framing.json.",
+  "license_terms": "None recorded. The item has no rights or licenseurl field. Internet Archive hosting and public viewability are not a licence. The IA terms-of-use page could not be retrieved as text (script-rendered live and in the Wayback capture), so no IA terms are quoted here.",
+  "license_url": null,
+  "rights_status": "unknown / not cleared (third-party copyrighted advertisement)",
+  "credit_text": "Microsoft Developer Network advertisement, Boardwatch Magazine, June 1996, p. 97. © 1996 Microsoft Corporation. Scan via Internet Archive (boardwatch-1996-06)."
+}
