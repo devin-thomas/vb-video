@@ -1,12 +1,20 @@
 {
   "id": "BROLL-06",
-  "production_status": "planned",
+  "production_status": "scouted",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "BROLL-06 worker subagent (spawned by B-roll Scouting Manager, session vb-99)",
+  "updated_at": "2026-09-15",
+  "blockers": [
+    "No free clip shows a Pentium-era PC boot or period power-on (confirmed by in-page motion review); best free options are a period CRT set shot and a low-res POST-code insert.",
+    "CPU/hardware unverified for all free candidates.",
+    "Free downloads (Pexels 8888818, Commons BIOS_POST_IMGP9357_wp.ogv) pending the manager's batched download approval from Devin; nothing acquired; full-resolution inspection awaits acquisition.",
+    "Leads that show an actual period boot (LGR AST Advantage 622; 'Old computer boot up Windows 95') are YouTube, rights-blocked, routed to H02.",
+    "R14 open; review questions pending in the OPS-04 deck."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Scouted = candidates inspected with recorded terms; not acquired media.",
+    "Rework pass 2026-09-15: motion reviewed in-page for Pixabay 126935 (rejected), Commons POST clip (rank 2), Pexels 8888818 (rank 1).",
+    "An earlier Cloudflare security-verification page on Pexels was not bypassed; none appeared in the rework pass."
   ]
 }
