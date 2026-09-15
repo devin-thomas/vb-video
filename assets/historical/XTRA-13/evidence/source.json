@@ -1,0 +1,109 @@
+{
+  "id": "XTRA-13",
+  "subject": "Karen's Window Watcher — a small freeware Windows utility written in Visual Basic 6.0 by Karen Kenworthy",
+  "subject_category": "simple utility (system inspection: lists every top-level and child window of every running program, including hidden windows)",
+  "creator": {
+    "program_author": "Karen Kenworthy",
+    "screenshot_publisher": "Karen Kenworthy, karenware.com (the image is served from her Window Watcher download page and referenced there by an <img> tag)",
+    "screenshot_capture_person": "not stated by the source; unknown"
+  },
+  "title": "ptwinwatch.gif — main window of Karen's Window Watcher",
+  "original_file": "source/original.gif",
+  "exact_source_url": "https://web.archive.org/web/20030917004917id_/http://www.karenware.com:80/powertools/images/ptwinwatch.gif",
+  "original_url_as_published": "http://www.karenware.com/powertools/images/ptwinwatch.gif",
+  "archive": {
+    "name": "Internet Archive Wayback Machine",
+    "capture_timestamp_utc": "2003-09-17T00:49:17Z",
+    "capture_record": "x-archive-src: DS_crawl9.20030916102538-c/DS_crawl9.20030917004738.arc.gz",
+    "cdx_digest_sha1_base32": "FNXV7VAC6J7I2JLNAWZU2JLJYSBDDHKL",
+    "response_headers": "evidence/captures/wayback-20030917004917-ptwinwatch.gif.headers.txt"
+  },
+  "embedding_page": {
+    "url": "http://www.karenware.com/powertools/ptwinwatch.asp",
+    "archived_capture": "https://web.archive.org/web/20031209164543/http://www.karenware.com:80/powertools/ptwinwatch.asp",
+    "stored_copy": "evidence/captures/wayback-20031209164543-ptwinwatch.asp.html",
+    "page_heading": "Window Watcher v2.2.1",
+    "page_updated": "Sep 23, 2003",
+    "img_tag_dimensions": [489, 448]
+  },
+  "original_publication_date": {
+    "value": "2003-09-03",
+    "basis": "Origin server Last-Modified header preserved by the archive: 'Wed, 03 Sep 2003 13:22:03 GMT'. The earliest archived copy of this exact file is 2003-09-17. This is the file's modification date on karenware.com, not proof of first public posting.",
+    "confidence": "file date documented; exact first-posting date unknown"
+  },
+  "depicted_event_date": {
+    "value": "2003-09-03",
+    "basis": "The program's own status bar in the image reads '9/3/2003' and '8:19 AM' (the capturing computer's clock at capture time).",
+    "note": "Separate from the program's first release. Window Watcher was introduced in Karen's Power Tools newsletter dated September 28, 1999 (archived copy stored), so the image shows a 2003 build of a 1999 VB6 utility."
+  },
+  "version_model_evidence": {
+    "program_version_shown": "unknown exact version; 2.1 or later",
+    "basis": [
+      "The Explorer-like tree view is the interface the 2003 page credits to version 2.0.",
+      "The 'Locate' button matches the version 2.1 change 'Can now display on-screen location of selected windows'.",
+      "The file's Last-Modified date (2003-09-03) precedes the v2.2.1 page update (Sep 23, 2003), so the build shown may be 2.1 or 2.2; no version number is visible in the image."
+    ],
+    "operating_system_shown": "Windows XP-style (Luna) window frame and controls; module path C:\\WINDOWS\\System32. Inferred from appearance; no OS version string is visible.",
+    "vb_version_evidence_in_image": "The selected child window is the program's own 'Find Next' button. Its details read 'Module File Name: C:\\WINDOWS\\System32\\MSVBVM60.DLL' (the Visual Basic 6.0 runtime library) and 'Class Name: ThunderRT6CommandButton' (the window class of a command button in a compiled VB6 program)."
+  },
+  "vb_provenance_evidence": [
+    {
+      "type": "author statement",
+      "source": "Karen's Power Tools Newsletter, September 28, 1999, by Karen Kenworthy",
+      "url": "https://web.archive.org/web/20010706040951/http://www.karenware.com:80/newsletters/1999/1999-09-28.html",
+      "stored_copy": "evidence/captures/wayback-20010706040951-newsletter-1999-09-28.html",
+      "also_live_at": "https://www.karenware.com/n/kptnl/1999/09/28/a-fond-farewell-to-windows-magazine-and-a-new-beginning_this-month-s-new-power-tool-karen-s-windows-watcher",
+      "evidence": "Offers the program's Visual Basic 6.0 source code; separately notes the Visual Basic Runtime v6.0 is required by all the Power Tools."
+    },
+    {
+      "type": "period download page: runtime requirement and source code",
+      "source": "karenware.com Window Watcher v1.5 page, archived 2001-04-28",
+      "url": "https://web.archive.org/web/20010428081441/http://www.karenware.com:80/powertools/ptwinwatch.asp",
+      "stored_copy": "evidence/captures/wayback-20010428081441-ptwinwatch.asp.html",
+      "evidence": "Lists 'Visual Basic Runtime v6.0' as required to run Window Watcher and offers 'VB6 Source Code of Window Watcher'."
+    },
+    {
+      "type": "period download page for the build pictured",
+      "source": "karenware.com Window Watcher v2.2.1 page, archived 2003-12-09",
+      "url": "https://web.archive.org/web/20031209164543/http://www.karenware.com:80/powertools/ptwinwatch.asp",
+      "stored_copy": "evidence/captures/wayback-20031209164543-ptwinwatch.asp.html",
+      "evidence": "Embeds this same images/ptwinwatch.gif at 489x448; lists Visual Basic Runtime v6.0 as required; offers VB6 Source Code (68,096 bytes)."
+    },
+    {
+      "type": "image content",
+      "source": "source/original.gif",
+      "evidence": "MSVBVM60.DLL module and ThunderRT6CommandButton class displayed for the program's own button (supporting observation; the author statements above are the primary provenance).",
+      "class_name_reference": "VB6 intrinsic controls use proprietary 'ThunderRT6…' window classes in compiled programs. See O'Reilly, 'Subclassing and Hooking with Visual Basic', ch. 7 'How the Superclassing Example Works' (https://www.oreilly.com/library/view/subclassing-and-hooking/0596001185/ch07s02.html), located by search on 2026-09-15; the page text was not stored. Treat as secondary support only."
+    }
+  ],
+  "original_dimensions": [489, 448],
+  "original_format": "GIF89a, palette (mode P), single frame",
+  "original_bytes": 17757,
+  "original_sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+  "identity_check": "The archived 2003-09-17 file and the file currently served at https://www.karenware.com/images/powertools/ptwinwatch.gif (accessed 2026-09-15) are byte-identical (same SHA-256; same SHA-1 as the Wayback CDX digest).",
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous HTTP GET of the archive's raw (id_) replay; no login, account, payment, terms acceptance or CAPTCHA. No executable was downloaded or run.",
+  "transformations": {
+    "source/original.gif": "none (byte-exact archive response body)",
+    "exports/editorial-frame.png": "palette converted to RGB; scaled 2x with nearest-neighbour (aspect preserved, no crop); centred at x=471..1449, y=92..988 on a #111318 1920x1080 ground; no text or annotation added. See evidence/framing.json.",
+    "proofs/editorial-frame-720.png": "the export downsampled to 1280x720 (Lanczos) for review only"
+  },
+  "license_terms": "None found for the screenshot or website content. See evidence/rights.json.",
+  "license_url": null,
+  "rights_status": "all rights reserved / no reuse permission — release blocked",
+  "credit_text": "Proposed, not approved: \"Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine\"",
+  "candidates_considered": [
+    {
+      "candidate": "Wikimedia Commons File:Visual_Basic_Classic_Jarithmetic_mdi_form.png (Wikibooks JArithmetic case study, Kwhitefoot, 2005, GFDL/CC BY-SA 3.0)",
+      "reason_not_used": "Clear free license, but it is a 378x247 tutorial case-study form rather than a real distributed utility, and its VB version is not stated."
+    },
+    {
+      "candidate": "Wikimedia Commons File:Setup-installer-vb6-herman-mas.png (Herman Mas, 2018, CC BY-SA 4.0)",
+      "reason_not_used": "Depicts Microsoft's VB6 setup/packaging tooling output, not an independent utility someone built with VB; 2018 capture."
+    },
+    {
+      "candidate": "Mid-1990s VB3 shareware with VBRUN300.DLL requirement",
+      "reason_not_used": "Search found runtime-DLL pages only; no published period screenshot tied to a named VB3 utility was located without running an executable, which this ticket forbids."
+    }
+  ]
+}

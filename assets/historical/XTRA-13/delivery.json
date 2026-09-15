@@ -1,0 +1,243 @@
+{
+  "id": "XTRA-13",
+  "title": "Documented VB utility application",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (archived third-party screenshot)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/captures/karenware-20260915-contact.html",
+      "role": "stored evidence page / archive response",
+      "bytes": 15655,
+      "sha256": "8b9904a69143b3119ae971928653fca5dad5bb725d5eb7671d0c32fefef41f39"
+    },
+    {
+      "path": "evidence/captures/karenware-20260915-licenseme.html",
+      "role": "stored evidence page / archive response",
+      "bytes": 19190,
+      "sha256": "2335fc479311690315a4d134231c8aedbcbb254c19c2f3f0260ef0c715799998"
+    },
+    {
+      "path": "evidence/captures/karenware-20260915-ptwinwatch.html",
+      "role": "stored evidence page / archive response",
+      "bytes": 20811,
+      "sha256": "5d3ac908e4b1991aa271fa37adc81e5351bf4a13eca346b25648ca1d409a84bc"
+    },
+    {
+      "path": "evidence/captures/wayback-20010428081441-ptwinwatch.asp.html",
+      "role": "stored evidence page / archive response",
+      "bytes": 4922,
+      "sha256": "d18132dbea773756db533ecb3254aa033b1db339cc4c7114306354ecb6a15a49"
+    },
+    {
+      "path": "evidence/captures/wayback-20010706040951-newsletter-1999-09-28.html",
+      "role": "stored evidence page / archive response",
+      "bytes": 18828,
+      "sha256": "ad10ed05cddd1bbf8553a62fdae6d2f306612d655939dc0654d31a24e1587a55"
+    },
+    {
+      "path": "evidence/captures/wayback-20030917004917-ptwinwatch.gif.headers.txt",
+      "role": "stored evidence page / archive response",
+      "bytes": 1856,
+      "sha256": "9cae621a070ee47a3d2f9e5ff1bb9babb52079f79b3905adde98d8324844ee06"
+    },
+    {
+      "path": "evidence/captures/wayback-20031209164543-ptwinwatch.asp.html",
+      "role": "stored evidence page / archive response",
+      "bytes": 14250,
+      "sha256": "1f709d91176f9d3a72bec558bd03ceb6c450a141fb474288fdabe99a10a823ef"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 3506,
+      "sha256": "409b7b93c2cd230c1043b03f7cf23dda0a665cc2654a61bd6f0c3d26551e54dd"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "evidence / QA",
+      "bytes": 834,
+      "sha256": "24fbae4ae3de91850e685d7df11f6fa203968255ce9314a10bb833b3737c1b9e"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 4012,
+      "sha256": "62587b8a48d166e2d366e33b4057ad75737b7e45e6b768f1a474ee88745557c7"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "evidence / QA",
+      "bytes": 3180,
+      "sha256": "1056c1e185a533311b4bc81a201f95f17495ccb7d2cf87148e38b2db1c182944"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3686,
+      "sha256": "abb3f02ffab192caecfce039a214b2dca5b8299173a002d1da8fdbf2fd0d3b00"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "evidence / QA",
+      "bytes": 8387,
+      "sha256": "42c0dbd0fc6067e16fa9a4feab006cb06999e873b1b7346d3cca8c8782d326e9"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (derived from source/original.gif)",
+      "bytes": 29125,
+      "sha256": "059c551c3a8fc94646103eb2b9a498ba3701d3cd929cfc1080085e532c42c984"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 111453,
+      "sha256": "5bc4e87b50c39c91271b9884176f9ec0790159d0508417f94507e5b920f5a493"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6219,
+      "sha256": "a8ce6cc7831d9b51ad617a80af2c064a5130ec9b13093e3db6789cae1c5d1d7a"
+    },
+    {
+      "path": "source/original.gif",
+      "role": "historical original (byte-exact Wayback image, unmodified)",
+      "bytes": 17757,
+      "sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33"
+    },
+    {
+      "path": "src/frame.py",
+      "role": "framing script",
+      "bytes": 3315,
+      "sha256": "a9585c485d5bf81e6f1c2255eac51074e5a6d19a2737dd90270509da9f685e62"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.gif"
+      ],
+      "size": [
+        489,
+        448
+      ],
+      "note": "unmodified archive bytes"
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "proof_720": "proofs/editorial-frame-720.png",
+      "derived_from": "source/original.gif",
+      "transform": "2x nearest-neighbour, centred, no crop, no text; see evidence/framing.json",
+      "timing": "still; hold for editorial timing"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        685,
+        687
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief (script supplement)"
+    },
+    {
+      "path": "source/original.gif",
+      "url": "https://web.archive.org/web/20030917004917id_/http://www.karenware.com:80/powertools/images/ptwinwatch.gif",
+      "sha256": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33",
+      "relationship": "historical original",
+      "record": "evidence/source.json"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical original",
+      "subject": "Karen's Window Watcher (Visual Basic 6.0 utility)",
+      "creator": "Karen Kenworthy",
+      "rights_status": "All Rights Reserved; no permission on record (release blocked)",
+      "credit_proposed": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+      "credit_approved": null,
+      "record": "evidence/rights.json"
+    }
+  ],
+  "tests": [
+    {
+      "test": "original unmodified by framing",
+      "result": "passed",
+      "detail": "bf77dbc0e26345ae839517045f9eb1a509d3655027792188de12c4927e86df33"
+    },
+    {
+      "test": "archive identity: SHA-1 base32 equals Wayback CDX digest FNXV7VAC6J7I2JLNAWZU2JLJYSBDDHKL; current karenware.com file has same SHA-256",
+      "result": "passed"
+    },
+    {
+      "test": "image dimensions match 2003 embedding page img tag (489x448)",
+      "result": "passed"
+    },
+    {
+      "test": "reversible unstretched framing (integer 2x, pixel round-trip)",
+      "result": "passed",
+      "placed_rect": [
+        471,
+        92,
+        1449,
+        988
+      ]
+    },
+    {
+      "test": "PNG dimensions",
+      "result": "passed"
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Whole export plus two 1:1 crops; detail and status-bar text legible, no blur/distortion, no added text or private data. See qa.md.",
+      "proof_720": "proofs/editorial-frame-720.png viewed; key text readable."
+    },
+    {
+      "test": "tools/validate_delivery.py --id XTRA-13",
+      "result": "passed",
+      "detail": "exit 0, ok true, errors []; re-run after final bundling; verbatim output in qa.md"
+    },
+    {
+      "test": "tools/validate_pack.py",
+      "result": "passed",
+      "detail": "exit 0, errors []"
+    }
+  ],
+  "unresolved_gates": [
+    "R14",
+    "R11"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "curl": "curl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP",
+    "render_command": "python assets/historical/XTRA-13/src/frame.py",
+    "network_used": "anonymous HTTP GET to web.archive.org and karenware.com only",
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "executables_downloaded_or_run": false
+  },
+  "notes": [
+    "Script-supplement addition for SCRIPT.md:685-687; not an original asset-plan row.",
+    "Era limitation: 2003 Windows XP capture of a VB6 utility first published in 1999.",
+    "Release blocked pending rights permission (R14) and review-deck decision (R11)."
+  ]
+}

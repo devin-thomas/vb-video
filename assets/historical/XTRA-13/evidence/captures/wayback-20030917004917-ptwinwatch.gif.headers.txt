@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 15 Sep 2026 20:34:31 GMT
+Content-Type: image/gif
+Content-Length: 17757
+Connection: keep-alive
+x-archive-orig-server: Microsoft-IIS/5.0
+x-archive-orig-date: Wed, 17 Sep 2003 00:49:17 GMT
+x-archive-orig-accept-ranges: bytes
+x-archive-orig-last-modified: Wed, 03 Sep 2003 13:22:03 GMT
+x-archive-orig-etag: "dfc86a5d1e72c31:a61"
+x-archive-orig-content-length: 17757
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Wed, 17 Sep 2003 00:49:17 GMT
+link: <http://www.karenware.com:80/powertools/images/ptwinwatch.gif>; rel="original", <https://web.archive.org/web/timemap/link/http://www.karenware.com:80/powertools/images/ptwinwatch.gif>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://www.karenware.com:80/powertools/images/ptwinwatch.gif>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: DS_crawl9.20030916102538-c/DS_crawl9.20030917004738.arc.gz
+server-timing: captures_list;dur=0.396749, exclusion.robots;dur=0.045194, exclusion.robots.policy;dur=0.036746, esindex;dur=0.008119, cdx.remote;dur=12.135862, LoadShardBlock;dur=613.079215, PetaboxLoader3.datanode;dur=572.507320, PetaboxLoader3.resolve;dur=123.735786, load_resource;dur=104.430897
+x-app-server: wwwb-app266-dc8
+x-ts: 200
+x-tr: 743
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app266; path=/
+cache-control: private
+X-location: All
+X-AS: 7018
+X-RL: 0
+X-NA: 0
+X-Page-Cache: MISS
+Server-Timing: MISS
+X-NID: ATT-INTERNET4
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+X-sd: 0
+

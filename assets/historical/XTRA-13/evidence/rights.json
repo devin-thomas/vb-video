@@ -1,0 +1,37 @@
+{
+  "id": "XTRA-13",
+  "file": "source/original.gif",
+  "rights_holder": {
+    "original": "Karen Kenworthy (program author and publisher of the screenshot on karenware.com)",
+    "current_claimed": "The 2026 karenware.com footer reads 'Copyright ©1997-2026 Karen Kenworthy, Joe Winett - All Rights Reserved'. The site's contact page says Karen bequeathed the site and her intellectual properties to family member Terry Starr, and that Joe Winett operates the site.",
+    "evidence": [
+      "evidence/captures/karenware-20260915-contact.html",
+      "evidence/captures/wayback-20031209164543-ptwinwatch.asp.html"
+    ]
+  },
+  "period_notice": "The 2003 page embedding the image carries 'Copyright © 1997-2003 Karen Kenworthy All Rights Reserved'; the 2001 page carries 'Copyright © 2001 Karen Kenworthy All Rights Reserved'.",
+  "license_found": false,
+  "license_terms": "No license, public-domain dedication, or media/press permission for website images or screenshots was found. The karenware.com licensing page covers use of the programs (free for personal and educational use; a paid license for work use). That is a software-use license and does not grant reuse of the screenshot in a published video. The site's 'Open Source Licenses' page lists only third-party web components (Bootstrap, PHPMailer, Timeago, html2text).",
+  "license_evidence": [
+    "evidence/captures/karenware-20260915-licenseme.html",
+    "https://www.karenware.com/opensource (read 2026-09-15; not stored)"
+  ],
+  "archive_terms_note": "Internet Archive availability is not a license. The archive holds a copy; the copyright stays with the original rights holder.",
+  "public_availability_is_not_permission": true,
+  "rights_status": "blocked — all rights reserved; no permission on record",
+  "release_status": "blocked",
+  "fair_use_assessment": "Not made. Whether a short, credited use of this screenshot in a commentary video is acceptable is a legal-risk question for Devin, not an agent decision.",
+  "handoff": {
+    "type": "permission request (human boundary: sending a message on Devin's behalf)",
+    "existing_handoff_id": null,
+    "note": "None of H01–H07 covers archival image permission, so this is a specific new human handoff.",
+    "who": "Joe Winett, karenware.com site operator, who says he acts for Karen Kenworthy's heir Terry Starr. The site's contact page (evidence/captures/karenware-20260915-contact.html) lists his contact address.",
+    "ask": "Written permission to show the karenware.com Window Watcher screenshot (ptwinwatch.gif, 489x448) unaltered in a YouTube video about Visual Basic history, with the credit line in evidence/source.json, or the credit they prefer.",
+    "alternative": "Devin makes a recorded fair-use decision, or drops this image from the collage."
+  },
+  "credit_text_proposed": "Karen's Window Watcher (Visual Basic 6), screenshot © Karen Kenworthy, karenware.com — via Internet Archive Wayback Machine",
+  "credit_text_approved": null,
+  "access_date": "2026-09-15",
+  "access_method": "Anonymous public HTTP; no account, payment, terms acceptance, watermark removal, or CAPTCHA.",
+  "watermark": "none present; nothing removed"
+}
