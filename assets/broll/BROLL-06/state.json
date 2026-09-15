@@ -5,15 +5,16 @@
   "assigned_agent": "BROLL-06 worker subagent (spawned by B-roll Scouting Manager, session vb-99)",
   "updated_at": "2026-09-15",
   "blockers": [
-    "Motion review not performed: in-app Browser pane hidden (screenshots timed out); no frames of any candidate were viewed.",
-    "No free candidate verified to depict a period PC boot sequence; hardware/CPU unverified for all free candidates.",
-    "Free downloads pending the manager's batched download approval from Devin; nothing acquired.",
-    "Best-matching leads (LGR AST Advantage 622; 'Old computer boot up Windows 95') are YouTube, rights-blocked, routed to H02.",
+    "No free clip shows a Pentium-era PC boot or period power-on (confirmed by in-page motion review); best free options are a period CRT set shot and a low-res POST-code insert.",
+    "CPU/hardware unverified for all free candidates.",
+    "Free downloads (Pexels 8888818, Commons BIOS_POST_IMGP9357_wp.ogv) pending the manager's batched download approval from Devin; nothing acquired; full-resolution inspection awaits acquisition.",
+    "Leads that show an actual period boot (LGR AST Advantage 622; 'Old computer boot up Windows 95') are YouTube, rights-blocked, routed to H02.",
     "R14 open; review questions pending in the OPS-04 deck."
   ],
   "reviewer": null,
   "notes": [
-    "Scouted = URL/metadata scout with recorded terms; not acquired media.",
-    "Pexels presented a Cloudflare security-verification page in the in-app browser; not bypassed."
+    "Scouted = candidates inspected with recorded terms; not acquired media.",
+    "Rework pass 2026-09-15: motion reviewed in-page for Pixabay 126935 (rejected), Commons POST clip (rank 2), Pexels 8888818 (rank 1).",
+    "An earlier Cloudflare security-verification page on Pexels was not bypassed; none appeared in the rework pass."
   ]
 }

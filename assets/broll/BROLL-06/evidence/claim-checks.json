@@ -7,15 +7,17 @@
       "status": "open",
       "approver": null,
       "reason": null,
-      "decision": "No clearance authorized. Scouting recorded item-specific terms; nothing acquired; release blocked.",
+      "decision": "No clearance authorized. Scouting recorded item-specific terms and in-page motion review; nothing acquired; release blocked.",
       "checked_on": "2026-09-15",
       "evidence_paths": [
         "evidence/candidates.json",
         "exports/candidates.md",
         "exports/acquisition-handoff.md",
-        "evidence/source-excerpts.md"
+        "evidence/source-excerpts.md",
+        "qa.md"
       ],
       "plan_assumption_checked": "ASSET_PLAN.md:122 suggests 'YouTube clips (screenshot-able)'. That is not a rights basis: the standard YouTube license is not reuse permission, so YouTube leads are rights-blocked.",
+      "shot_claim_checked": "SCRIPT.md:805 'A Pentium-era PC booting up'. No free candidate shows a boot on a period PC, and no free candidate identifies a Pentium CPU. Only the H02 LGR lead carries a creator-stated Pentium (100MHz), and that is unverified on screen.",
       "candidates": [
         {
           "rank": 1,
@@ -23,29 +25,30 @@
           "rights_holder": "MART PRODUCTION (Pexels contributor)",
           "terms": "Pexels license, page shows 'Free'; attribution not required",
           "license_url": "https://www.pexels.com/license/",
-          "access_method": "public page; 'Free download' button; no login seen; Cloudflare verification seen on later browser navigations",
+          "access_method": "public page; 'Free download' button; no login seen; no Cloudflare check in rework pass (one seen and not bypassed earlier the same day)",
           "credit": "optional: MART PRODUCTION / Pexels",
-          "status": "terms recorded; not acquired; content (boot, hardware) unverified"
+          "motion_review": "viewed in-page: beige CRT in dim room, blank screen, slow camera drift; no power-on or boot",
+          "status": "terms recorded; not acquired; boot not shown; CPU unverified"
         },
         {
           "rank": 2,
-          "asset_page": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/",
-          "rights_holder": "Kmeel_com (Pixabay contributor)",
-          "terms": "Pixabay Content License; attribution not required; trademark/brand commercial-use restriction",
-          "license_url": "https://pixabay.com/service/license-summary/",
-          "access_method": "public page; 'Free download'; size-menu login needs unverified",
-          "credit": "optional: Kmeel_com / Pixabay",
-          "status": "terms recorded; not acquired; era unverified"
-        },
-        {
-          "rank": 3,
           "asset_page": "https://commons.wikimedia.org/wiki/File:BIOS_POST_IMGP9357_wp.ogv",
           "rights_holder": "Rainer Knäpper (Smial)",
           "terms": "Free Art License (also GFDL 1.2 listed on file page); attribution required; copyleft on modifications; Article 4 larger-work condition",
           "license_url": "http://artlibre.org/licence/lal/en/",
           "access_method": "public file page; direct original file link; no login",
           "credit": "\"BIOS POST IMGP9357 wp.ogv\" by Rainer Knäpper (Smial), Free Art License 1.3, via Wikimedia Commons",
+          "motion_review": "viewed in-page (240p): POST card codes cycle in a boot loop; no CRT/OS",
           "status": "terms recorded; not acquired; hardware era unverified"
+        },
+        {
+          "rejected": true,
+          "asset_page": "https://pixabay.com/videos/switch-off-turn-on-on-off-computer-126935/",
+          "rights_holder": "Kmeel_com (Pixabay contributor)",
+          "terms": "Pixabay Content License; attribution not required; trademark/brand commercial-use restriction",
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "motion_review": "viewed in-page: modern flat-panel monitor LED/backlight switching on and off",
+          "status": "rejected for fit (not period); not to be acquired"
         },
         {
           "lead": "H02-A",
@@ -63,11 +66,11 @@
         }
       ],
       "review_questions": [
-        "No free candidate is verified to show a boot: accept a non-boot period-PC shot, pursue H02 permission, or commission a separately approved labeled stand-in?",
-        "Windows 95/3.x splash screens are Microsoft-copyrighted UI and BIOS vendor logos are third-party marks: is incidental on-screen OS/BIOS UI acceptable?",
+        "No free clip shows a period boot: use the Pexels period set shot (optionally with the POST-code insert) with narration carrying 'booting', pursue H02 permission, or commission a separately approved labeled stand-in?",
+        "Windows 95/3.x splash screens are Microsoft-copyrighted UI and BIOS vendor logos are third-party marks: is incidental on-screen OS/BIOS UI acceptable if H02 or a stand-in is pursued?",
         "Is the Free Art License attribution and Article 4 larger-work condition acceptable for the final video if the Commons clip is used?",
-        "Does the Pixabay trademark clause matter for a monetized video if brand logos are visible on the hardware?",
-        "If the used clip's CPU stays unverified, confirm the edit will not caption or imply 'Pentium'."
+        "Is a ~2.6x upscale of the 640x416 Commons clip visually acceptable as a brief insert?",
+        "Neither free candidate identifies a CPU: confirm the edit will not caption or imply 'Pentium' over them."
       ]
     }
   ]

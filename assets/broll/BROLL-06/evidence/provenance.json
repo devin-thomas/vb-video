@@ -30,7 +30,8 @@
   ],
   "authored_additions": [
     "Candidate ranking, proposed in/out timecodes, visual-fit notes and local filenames are production proposals by this worker, not facts from the sources.",
-    "All proposed in/out points are provisional: they come from the page-stated duration only, because no frames were viewed (see qa.md)."
+    "In/out points were chosen from in-page playback in the rework pass (preview resolution; see qa.md) and must be confirmed on the acquired files.",
+    "Frame descriptions in evidence/candidates.json are this worker's observations of in-page playback, not creator metadata."
   ],
   "producer_decisions": [],
   "media_acquired": false
