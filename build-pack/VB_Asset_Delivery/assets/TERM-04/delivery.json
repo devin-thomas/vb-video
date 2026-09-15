@@ -2,7 +2,7 @@
   "id": "TERM-04",
   "title": "War-heavy run with chained-war highlight",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "actual runtime capture",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 1140,
-      "sha256": "f9b72e95d20155e85997b9dadad6a9e22dbfa78238972ef1b66da13da0f0365f"
+      "bytes": 1549,
+      "sha256": "afe2c286ee3d16acc2af87aeaeffcc972c024245bf4d72836e76f7ca6ca517bd"
     },
     {
       "path": "evidence/commands.log",
@@ -45,8 +45,8 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1943,
-      "sha256": "52a85cb3a1a88ddeab041f07c7725a57033cd02c2a0e289e6ea553a34579627b"
+      "bytes": 2677,
+      "sha256": "f81b061cc45774774fde3a1838dc416a1eb3777fd0f54e8a2fd1649856fe782b"
     },
     {
       "path": "evidence/search-log.json",
@@ -117,8 +117,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3743,
-      "sha256": "3fe2eb96cd74cff45affcf7aee5505dc4820195e7aade9db5cf97ece44be2d3f"
+      "bytes": 4165,
+      "sha256": "992c696a2675803a38c487f96978e93c41291d507c61cf2238e1bb7ce80971da"
     },
     {
       "path": "source/Program.vb",
@@ -384,10 +384,7 @@
       "hits": []
     }
   ],
-  "unresolved_gates": [
-    "R05",
-    "R08"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "dotnet_sdk": "10.0.303",

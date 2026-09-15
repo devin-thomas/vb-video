@@ -15,7 +15,7 @@ Counted from `build-pack/VB_Asset_Delivery/assets/*/state.json` on 2026-09-15, a
 | **in_progress** | 1 | OPS-04 (integration QA) |
 | **blocked** | 0 | — |
 
-*Produced* is not *release-approved*. Assets with editorial gates keep `release_status: blocked` until a producer records each decision in the asset's `evidence/claim-checks.json`. See `build-pack/VB_Asset_Delivery/review/REMAINING_TICKETS.md` for everything still planned.
+*Produced* is not *release-approved*. Assets with editorial gates keep `release_status: blocked` until a producer records each decision in the asset's `evidence/claim-checks.json`. See `build-pack/VB_Asset_Delivery/review/REMAINING_TICKETS.md` for everything still planned. The 8 session-3 captures are release-approved (producer decisions recorded 2026-09-15).
 
 ## Session 1 — build pack import (2026-09-15)
 
@@ -41,7 +41,7 @@ The pack expanded our original 26 GitHub issues into 134 fine-grained tickets. P
 
 The pack had blocked 8 tickets because its production machine had no .NET SDK. They are now produced on Windows 11 with .NET SDK 10.0.303. Every capture is genuine: commands were typed into a real conhost/pwsh window, screenshots are unedited window images, and the console buffer was read back and compared line-for-line with the saved stdout or source file.
 
-| ID | Capture | Actual result | Release gates |
+| ID | Capture | Actual result | Gates (approved 2026-09-15) |
 |---|---|---|---|
 | OPS-02 | Isolated harness: SDK scaffold, byte-identical Program.vb, two derived Option nodes | Build: 0 warnings, 0 errors. Harness check run: Player 2 wins, 1001 rounds, 41 wars | R17 |
 | TERM-01 | `dotnet --version`, `dotnet new console -lang VB` in an empty folder | 10.0.303; template and restore succeeded | R17 |
@@ -52,12 +52,13 @@ The pack had blocked 8 tickets because its production machine had no .NET SDK. T
 | TERM-06 | Independent run C + three-run results table | Player 2 wins, 150 rounds, 10 wars | R06, R08 |
 | XTRA-06 | War.vbproj and Program.vb directives in vim, settings close-up | Both Option nodes present in the derived project file (diff logged) | R17 |
 
-Notes for the producer:
+Producer decisions (2026-09-15):
 
-- None of the script's sample results (418 rounds/10 wars, 347 rounds/13 wars) came from this code; narration that quotes them needs a decision (R08).
-- TERM-02 and TERM-04 both end through the "has no cards left for the war" branch, which is what R05 asks about.
-- The SDK scaffold has no `OptionExplicit`/`OptionStrict` nodes. They exist only in the derived harness project (R17).
-- All three independent runs happened to be Player 2 wins; the tickets treat a different winner as a preference, and no run was repeated to get one.
+- **R08, script numbers:** `War/SCRIPT.md` now quotes real capture output instead of the original samples (418 rounds/10 wars, 347/13). Section 11 follows TERM-04 from start to finish (first rounds, the round-245 double war, 617 rounds / 26 wars); the "run it a few more times" beat cites TERM-02, TERM-05 and TERM-06 (150 to 2,008 rounds, 10 to 69 wars); the outro summary is TERM-02 (2,008 / 69). The hash-locked `build-pack/VB_Asset_Delivery/sources/SCRIPT.md` is unchanged, so `War/SCRIPT.md` is now the revised script.
+- **R17, Option settings:** the video description in `War/SCRIPT.md` has a footnote saying `OptionExplicit`/`OptionStrict` were added to War.vbproj by hand and are not scaffold defaults.
+- **R05, running out of cards mid-war:** captures approved as shown. TERM-02 and TERM-04 both end that way; a new script section about it is tracked in [issue #27](https://github.com/devin-thomas/vb-video/issues/27) and has not been written.
+- **R03, R06:** approved as captured.
+- All three independent runs happened to be Player 2 wins; no run was repeated to get a different winner.
 - These are stills. A live screen recording (handoff H01) was not made.
 
 Tooling and rules: `build-pack/VB_Asset_Delivery/work/war-harness/README.md`. Structure validation: `build-pack/VB_Asset_Delivery/review/capture-delivery-validation.json`.

@@ -1,6 +1,6 @@
 # TERM-03 — Production QA
 
-**Production:** produced. **Release:** blocked — gates R03 await a producer decision.
+**Production:** produced. **Release:** approved — producer decisions for R03 are in `evidence/claim-checks.json`.
 
 ## Delivered
 - `source/raw/viewport-*.png` — 12 overlapping editor captures
@@ -34,8 +34,8 @@ A capture refuses to overwrite existing raw files. A new run of the game is a ne
 
 Toolchain: Windows-11-10.0.26200-SP0; .NET SDK 10.0.303; PowerShell 7.6.6; conhost 10.0.26100.9444; Python 3.14.0; Pillow 12.3.0; pywin32 312, vim VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Jan 13 2026 10:32:17).
 
-## Remaining gates and limits
-- **R03:** The capture shows the VB.NET Program.vb (its own header calls it classic-inspired) in vim on Windows 11. No VB4 IDE, VB4 compile, or VB4 run is shown or implied. Awaiting producer decision.
+## Gates and limits
+- **R03** (approved 2026-09-15 — Approved as captured.): The capture shows the VB.NET Program.vb (its own header calls it classic-inspired) in vim on Windows 11. No VB4 IDE, VB4 compile, or VB4 run is shown or implied.
 - Stills only. A live screen recording (handoff H01) was not made.
 - Structure validation (`tools/validate_delivery.py`) runs after bundling; results are in `review/capture-delivery-validation.json`.
-- No independent reviewer is recorded; the capturing agent's checks are not a producer review.
+- Production stays `produced`, not `reviewed`: release approval is the producer's, but no file-by-file media review by anyone other than the capturing agent is recorded.

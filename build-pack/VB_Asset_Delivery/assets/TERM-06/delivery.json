@@ -2,7 +2,7 @@
   "id": "TERM-06",
   "title": "Alternate complete simulation: run C",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "actual runtime capture",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 1055,
-      "sha256": "9b2c215f47f029dccedd3fe165e9ad710d17eb871836fb001f92565241ec734d"
+      "bytes": 1319,
+      "sha256": "885b16e4d4c132fc424a7e5a33093f3a64565c514e1ac7725822db08f2514a70"
     },
     {
       "path": "evidence/commands.log",
@@ -45,8 +45,8 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1749,
-      "sha256": "5172bdbf113b9697df5c6b85c671fc0ed61e8e2f43c6d0d864a302b369688a48"
+      "bytes": 2331,
+      "sha256": "8a3793dcde5afe1c1ca6c16366614be9deaf0af3f888f45b03fa26e72d9be6bd"
     },
     {
       "path": "evidence/results-table.json",
@@ -117,8 +117,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3493,
-      "sha256": "f5a7520e759a83133068b31165453f7f4fafcd57a9341749cf84776ab349f22d"
+      "bytes": 3770,
+      "sha256": "e2b187d85d7647704b14f55a2c94a0bc2044100ac6c7cfbc3252451bb6acb0c2"
     },
     {
       "path": "source/Program.vb",
@@ -388,10 +388,7 @@
       "hits": []
     }
   ],
-  "unresolved_gates": [
-    "R06",
-    "R08"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "dotnet_sdk": "10.0.303",

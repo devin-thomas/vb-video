@@ -1,6 +1,6 @@
 # OPS-02 — Isolated .NET harness report
 
-**Production:** produced. **Release:** blocked (R17 awaits a producer decision).
+**Production:** produced. **Release:** approved; the producer's R17 decision is in `evidence/claim-checks.json`.
 
 ## Environment
 - Windows-11-10.0.26200-SP0, .NET SDK 10.0.303 (`dotnet --info` in `evidence/dotnet-info.stdout.txt`). Nothing was installed.

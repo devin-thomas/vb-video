@@ -2,28 +2,28 @@
   "gates": [
     {
       "id": "R06",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "source/stdout.txt",
         "evidence/run-stats.json"
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "This run ended with a winner after 1056 rounds, so the round-cap 'deck cycle detected' line does not appear. The counter/wording caveat still applies to any narration about draws. Awaiting producer decision."
+      "decision": "Approved as captured.",
+      "approver": "Producer (repo owner devin-thomas), in the Claude Code session",
+      "approval_date": "2026-09-15",
+      "reason": "This run ended with a winner after 1056 rounds, so the round-cap 'deck cycle detected' line does not appear. The counter/wording caveat still applies to any narration about draws."
     },
     {
       "id": "R08",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "source/stdout.txt",
         "evidence/run-stats.json",
         "evidence/comparison-with-TERM-02.json"
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Real totals from this run (PLAYER 2 WINS THE WAR!; 1056 rounds; 10 wars) replace, not confirm, the script's sample results (418 rounds/10 wars, 347 rounds/13 wars). Narration quoting sample numbers still needs a producer decision."
+      "decision": "Approved. War/SCRIPT.md Section 11's 'run it a few more times' beat now cites the real results of TERM-02, TERM-05 and TERM-06 (150 to 2,008 rounds, 10 to 69 wars) instead of the sample numbers.",
+      "approver": "Producer (repo owner devin-thomas), in the Claude Code session",
+      "approval_date": "2026-09-15",
+      "reason": "Real totals from this run (PLAYER 2 WINS THE WAR!; 1056 rounds; 10 wars) replace, not confirm, the script's original sample results (418 rounds/10 wars, 347 rounds/13 wars)."
     }
   ]
 }

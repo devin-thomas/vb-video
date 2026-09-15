@@ -1,6 +1,6 @@
 # XTRA-06 — Production QA
 
-**Production:** produced. **Release:** blocked — gates R17 await a producer decision.
+**Production:** produced. **Release:** approved — producer decisions for R17 are in `evidence/claim-checks.json`.
 
 ## Delivered
 - `source/raw/01-war-vbproj.png`, `02-program-vb-directives.png` — raw vim captures
@@ -35,8 +35,8 @@ A capture refuses to overwrite existing raw files. A new run of the game is a ne
 
 Toolchain: Windows-11-10.0.26200-SP0; .NET SDK 10.0.303; PowerShell 7.6.6; conhost 10.0.26100.9444; Python 3.14.0; Pillow 12.3.0; pywin32 312, vim VIM - Vi IMproved 9.1 (2024 Jan 02, compiled Jan 13 2026 10:32:17).
 
-## Remaining gates and limits
-- **R17:** The pictured War.vbproj is the OPS-02 derived harness file: the SDK 10.0.303 scaffold plus two added nodes (evidence/project-diff.txt). It is not an uploaded original or a scaffold default. Awaiting producer decision.
+## Gates and limits
+- **R17** (approved 2026-09-15 — Approved. The video description in War/SCRIPT.md carries a footnote that the OptionExplicit and OptionStrict project settings were added by hand and are not part of the dotnet new scaffold.): The pictured War.vbproj is the OPS-02 derived harness file: the SDK 10.0.303 scaffold plus two added nodes (evidence/project-diff.txt). It is not an uploaded original or a scaffold default.
 - Stills only. A live screen recording (handoff H01) was not made.
 - Structure validation (`tools/validate_delivery.py`) runs after bundling; results are in `review/capture-delivery-validation.json`.
-- No independent reviewer is recorded; the capturing agent's checks are not a producer review.
+- Production stays `produced`, not `reviewed`: release approval is the producer's, but no file-by-file media review by anyone other than the capturing agent is recorded.

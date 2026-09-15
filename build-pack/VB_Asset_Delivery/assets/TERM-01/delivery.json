@@ -2,7 +2,7 @@
   "id": "TERM-01",
   "title": "Project creation and actual SDK version",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "actual runtime capture",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 591,
-      "sha256": "43d36a621a0b84b785bc1a051f287d615e4c8a4f8a8fde3fc8d91c00f83aa2dd"
+      "bytes": 798,
+      "sha256": "35095e8d1f0aa442c01f17a14719ede7787f1f95420df79c29cde10e9f00b17c"
     },
     {
       "path": "evidence/commands.log",
@@ -45,8 +45,8 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1663,
-      "sha256": "8b1eb6045441aec87d1f3a85fc9b6a9c817c0f2985d425494917d39e31581d4e"
+      "bytes": 2037,
+      "sha256": "40f554f72b2d0ef666161b3a32d9ca3e980418a2880125a1eddcf8e483aa53f2"
     },
     {
       "path": "evidence/scaffold/Program.vb",
@@ -87,8 +87,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3013,
-      "sha256": "2b18ee9a60211fe1ab27de53dfed94385e1d174e53441764a050fe35ec1ca150"
+      "bytes": 3273,
+      "sha256": "b0c4767c595d0811a7f800d9fbc061dfaf8cd2a8827885c1fa11416696fcd27b"
     },
     {
       "path": "source/raw/01-dotnet-version.png",
@@ -262,9 +262,7 @@
       "hits": []
     }
   ],
-  "unresolved_gates": [
-    "R17"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "dotnet_sdk": "10.0.303",

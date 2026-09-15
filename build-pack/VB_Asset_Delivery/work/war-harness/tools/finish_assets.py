@@ -30,7 +30,37 @@ ALL_IDS = ["OPS-02", *CAPTURE_IDS]
 VIM_EXE = r"C:\Program Files\Git\usr\bin\vim.exe"
 SOURCE_SHA = sha256(ROOT / "sources" / "Program.vb")
 TEXT_SUFFIXES = {".txt", ".json", ".jsonl", ".md", ".log", ".vb", ".vbproj"}
-SCRIPT_SAMPLES = "the script's sample results (418 rounds/10 wars, 347 rounds/13 wars)"
+SCRIPT_SAMPLES = "the script's original sample results (418 rounds/10 wars, 347 rounds/13 wars)"
+
+# Producer gate decisions, recorded from the producer's own instructions. Asset ID -> gate -> decision record.
+APPROVER = "Producer (repo owner devin-thomas), in the Claude Code session"
+APPROVED_ON = "2026-09-15"
+
+
+def _approved(decision: str) -> dict[str, str]:
+    return {"decision": decision, "approver": APPROVER, "approval_date": APPROVED_ON}
+
+
+R17_FOOTNOTE = ("Approved. The video description in War/SCRIPT.md carries a footnote that the OptionExplicit and "
+                "OptionStrict project settings were added by hand and are not part of the dotnet new scaffold.")
+MONTAGE = ("Approved. War/SCRIPT.md Section 11's 'run it a few more times' beat now cites the real results of "
+           "TERM-02, TERM-05 and TERM-06 (150 to 2,008 rounds, 10 to 69 wars) instead of the sample numbers.")
+PRODUCER_DECISIONS: dict[str, dict[str, dict[str, str]]] = {
+    "OPS-02": {"R17": _approved(R17_FOOTNOTE)},
+    "TERM-01": {"R17": _approved(R17_FOOTNOTE)},
+    "XTRA-06": {"R17": _approved(R17_FOOTNOTE)},
+    "TERM-03": {"R03": _approved("Approved as captured.")},
+    "TERM-02": {"R06": _approved("Approved as captured."),
+                "R08": _approved(MONTAGE + " The Section 16 outro summary is this run: PLAYER 2 WINS THE WAR!, "
+                                           "2008 rounds, 69 wars.")},
+    "TERM-05": {"R06": _approved("Approved as captured."), "R08": _approved(MONTAGE)},
+    "TERM-06": {"R06": _approved("Approved as captured."), "R08": _approved(MONTAGE)},
+    "TERM-04": {"R05": _approved("Approved as captured. The producer wants a new script section about a player running "
+                                 "out of cards mid-war; it is tracked in https://github.com/devin-thomas/vb-video/issues/27 "
+                                 "and has not been written."),
+                "R08": _approved("Approved. War/SCRIPT.md Section 11 now follows this run from start to finish: its first "
+                                 "rounds, the round-245 double war (18 cards), and the 617-round, 26-war summary.")},
+}
 
 # Manual inspection notes, written only after viewing the named PNGs at full size and as 720p proofs.
 REVIEWS: dict[str, dict[str, str]] = {
@@ -252,7 +282,7 @@ def spec_term01(base: Path, capture: dict) -> dict:
         gates={"R17": {"evidence": ["source/scaffold-transcript.txt", "evidence/scaffold/War.vbproj", "evidence/capture.json"],
                        "reason": "Handled as R17 requires: the project shown is a fresh `dotnet new console -lang VB` "
                                  "scaffold made with the installed SDK 10.0.303, before any property change, and it is "
-                                 "not presented as an uploaded original. Awaiting a producer decision; not self-approved."}},
+                                 "not presented as an uploaded original."}},
         variants=[{"name": "raw", "files": raw_files(capture), "notes": "Unedited window captures in capture order."},
                   {"name": "framed", "files": ["exports/framed.png"], "derived_from": "source/raw/03-scaffold-files.png"}],
         tests=[{"test": "scaffold files match the OPS-02 scaffold",
@@ -294,7 +324,7 @@ def spec_run(asset_id: str, base: Path, capture: dict) -> dict:
     ran_out = next((l for l in stdout.splitlines() if "has no cards left for the war" in l), None)
     if ran_out:
         notes.append(f"This run ends through the insufficient-cards-during-war branch ('{ran_out.strip()}'). That is the "
-                     "behaviour editorial register R05 asks the producer to decide how to narrate; it is shown as captured.")
+                     "behaviour editorial register R05 covers; it is shown as captured.")
     if asset_id == "TERM-05":
         mine, primary = run_summary("TERM-05"), run_summary("TERM-02")
         comparison = {"TERM-02": primary, "TERM-05": mine,
@@ -321,9 +351,9 @@ def spec_run(asset_id: str, base: Path, capture: dict) -> dict:
         tests.append({"test": "three independent runs", "result": "passed" if distinct else "failed", "detail": rows})
     capped = stats["draw_message_present"]
     r06 = ("This run hit the 20000-round cap: output says 'deck cycle detected' and the round counter reads 20001. "
-           "Kept unaltered; wording is the producer's decision." if capped else
+           "Kept unaltered." if capped else
            f"This run ended with a winner after {rounds} rounds, so the round-cap 'deck cycle detected' line does not "
-           "appear. The counter/wording caveat still applies to any narration about draws. Awaiting producer decision.")
+           "appear. The counter/wording caveat still applies to any narration about draws.")
     return dict(
         provenance_type="actual runtime capture",
         relationships={"Program.vb": "executed source (byte-identical copy in source/Program.vb)",
@@ -331,7 +361,7 @@ def spec_run(asset_id: str, base: Path, capture: dict) -> dict:
         gates={"R06": {"evidence": ["source/stdout.txt", "evidence/run-stats.json"], "reason": r06},
                "R08": {"evidence": ["source/stdout.txt", "evidence/run-stats.json", *extra_evidence],
                        "reason": f"Real totals from this run ({result}; {rounds} rounds; {wars} wars) replace, not confirm, "
-                                 f"{SCRIPT_SAMPLES}. Narration quoting sample numbers still needs a producer decision."}},
+                                 f"{SCRIPT_SAMPLES}."}},
         variants=[{"name": "raw", "files": raw_files(capture), "notes": "Unedited window captures of one live run."},
                   {"name": "framed", "files": [f["file"] for f in framed], "mapping": framed}],
         tests=tests, notes=notes,
@@ -358,16 +388,16 @@ def spec_term04(base: Path, capture: dict) -> dict:
            "not depend on the insufficient-card ordering R05 describes.")
     if ran_out:
         r05 += (f" The same run's ending (framed-end.png) does go through that branch: '{ran_out}'. It is shown as "
-                "captured; how to narrate it is the producer's decision.")
+                "captured.")
     return dict(
         provenance_type="actual runtime capture",
         relationships={"Program.vb": "executed source (byte-identical copy in source/Program.vb)",
                        "SCRIPT.md": "narration and visual brief", "ASSET_PLAN.md": "source creative brief"},
         gates={"R05": {"evidence": ["source/stdout.txt", "evidence/search-log.json", "source/raw/04-end.png"],
-                       "reason": r05 + " Awaiting producer decision."},
+                       "reason": r05},
                "R08": {"evidence": ["source/stdout.txt", "evidence/search-log.json"],
                        "reason": f"The double war is from a real run (attempt {capture['selected_attempt']} of a bounded search). "
-                                 "The script's example double-war text is not reproduced as evidence. Awaiting producer decision."}},
+                                 "The script's original example double-war text was not reproduced as evidence."}},
         variants=[{"name": "raw", "files": raw_files(capture), "notes": "Unedited window captures of the selected live run."},
                   {"name": "framed", "files": ["exports/framed.png", "exports/framed-highlight.png",
                                                *(["exports/framed-start.png"] if (base / "exports" / "framed-start.png").exists() else []),
@@ -403,7 +433,7 @@ def spec_term03(base: Path, capture: dict) -> dict:
                        "SCRIPT.md": "narration and visual brief", "ASSET_PLAN.md": "source creative brief"},
         gates={"R03": {"evidence": ["evidence/viewports.json", "source/Program.vb"],
                        "reason": "The capture shows the VB.NET Program.vb (its own header calls it classic-inspired) in vim on "
-                                 "Windows 11. No VB4 IDE, VB4 compile, or VB4 run is shown or implied. Awaiting producer decision."}},
+                                 "Windows 11. No VB4 IDE, VB4 compile, or VB4 run is shown or implied."}},
         variants=[{"name": "raw", "files": raw_files(capture), "notes": "One unedited capture per viewport."},
                   {"name": "framed", "files": sorted(p.relative_to(base).as_posix() for p in (base / "exports").glob("framed*.png")),
                    "contact_sheet": "exports/contact-sheet.png",
@@ -438,8 +468,7 @@ def spec_xtra06(base: Path, capture: dict) -> dict:
                        "SCRIPT.md": "narration and visual brief"},
         gates={"R17": {"evidence": ["source/War.vbproj", "evidence/project-diff.txt", "evidence/highlight-targets.json"],
                        "reason": "The pictured War.vbproj is the OPS-02 derived harness file: the SDK 10.0.303 scaffold plus two "
-                                 "added nodes (evidence/project-diff.txt). It is not an uploaded original or a scaffold default. "
-                                 "Awaiting producer decision."}},
+                                 "added nodes (evidence/project-diff.txt). It is not an uploaded original or a scaffold default."}},
         variants=[{"name": "project-file", "files": ["source/raw/01-war-vbproj.png", *framed]},
                   {"name": "settings-focus", "files": ["exports/settings-focus.png"],
                    "derived_from": "source/raw/01-war-vbproj.png",
@@ -470,12 +499,20 @@ SPECS = {"TERM-01": spec_term01, "TERM-03": spec_term03, "TERM-04": spec_term04,
          **{i: (lambda b, c, i=i: spec_run(i, b, c)) for i in RUN_IDS}}
 
 
+def gate_status(asset_id: str, gate: str) -> str:
+    decision = PRODUCER_DECISIONS.get(asset_id, {}).get(gate)
+    return f"approved {decision['approval_date']} — {decision['decision']}" if decision else "awaiting a producer decision"
+
+
 def qa_text(asset_id: str, spec: dict, tests: list[dict], tc: dict) -> str:
     row = ticket(asset_id)
     review = REVIEWS[asset_id]
     vim = f", vim {tc['vim']}" if "vim" in tc else ""
+    open_gates = [g for g in row["gates"] if g not in PRODUCER_DECISIONS.get(asset_id, {})]
+    release = (f"blocked — {', '.join(open_gates)} await a producer decision" if open_gates else
+               f"approved — producer decisions for {', '.join(row['gates'])} are in `evidence/claim-checks.json`")
     lines = [f"# {asset_id} — Production QA", "",
-             f"**Production:** produced. **Release:** blocked — gates {', '.join(row['gates'])} await a producer decision.", "",
+             f"**Production:** produced. **Release:** {release}.", "",
              "## Delivered", *[f"- {d}" for d in spec["delivered"]],
              "- Every file is listed with bytes and SHA-256 in `delivery.json`.", "",
              "## Method",
@@ -495,12 +532,13 @@ def qa_text(asset_id: str, spec: dict, tests: list[dict], tc: dict) -> str:
               "delivered as a new capture, never relabelled as this one.", "",
               f"Toolchain: {tc['os']}; .NET SDK {tc['dotnet_sdk']}; {tc['shell']}; conhost {tc['conhost_file_version']}; "
               f"Python {tc['python']}; Pillow {tc['packages']['Pillow']}; pywin32 {tc['packages']['pywin32']}{vim}.", "",
-              "## Remaining gates and limits"]
-    lines += [f"- **{gate}:** {spec['gates'][gate]['reason']}" for gate in row["gates"]]
+              "## Gates and limits"]
+    lines += [f"- **{gate}** ({gate_status(asset_id, gate)}): {spec['gates'][gate]['reason']}" for gate in row["gates"]]
     lines += ["- Stills only. A live screen recording (handoff H01) was not made.",
               "- Structure validation (`tools/validate_delivery.py`) runs after bundling; results are in "
               "`review/capture-delivery-validation.json`.",
-              "- No independent reviewer is recorded; the capturing agent's checks are not a producer review.", ""]
+              "- Production stays `produced`, not `reviewed`: release approval is the producer's, but no file-by-file "
+              "media review by anyone other than the capturing agent is recorded.", ""]
     return "\n".join(lines)
 
 
@@ -520,7 +558,8 @@ def bundle_capture(asset_id: str) -> None:
     tests.append(privacy_scan(base))
     write_bundle(asset_id, provenance_type=spec["provenance_type"], variants=spec["variants"],
                  relationships=spec["relationships"], gates=spec["gates"], tests=tests, toolchain_data=tc,
-                 notes=spec["notes"], authored_additions=spec["authored_additions"], qa_md=qa_text(asset_id, spec, tests, tc))
+                 notes=spec["notes"], authored_additions=spec["authored_additions"], qa_md=qa_text(asset_id, spec, tests, tc),
+                 decisions=PRODUCER_DECISIONS.get(asset_id))
 
 
 # ----- OPS-02 ------------------------------------------------------------------------------------
@@ -551,9 +590,12 @@ def bundle_ops02() -> None:
         path = base_of(asset_id) / "evidence" / "capture.json"
         if path.exists() and any("copied frozen harness" in s for s in load(path)["pre_session_steps"]):
             users.append(asset_id)
+    decided = PRODUCER_DECISIONS.get("OPS-02", {})
+    release_line = ("approved; the producer's R17 decision is in `evidence/claim-checks.json`" if "R17" in decided
+                    else "blocked; R17 awaits a producer decision")
     report = f"""# OPS-02 — Isolated .NET harness report
 
-**Production:** produced. **Release:** blocked (R17 awaits a producer decision).
+**Production:** produced. **Release:** {release_line}.
 
 ## Environment
 - {manifest['os']}, .NET SDK {manifest['sdk_version']} (`dotnet --info` in `evidence/dotnet-info.stdout.txt`). Nothing was installed.
@@ -588,7 +630,7 @@ No code bug was fixed; Program.vb is unchanged.
     tests.append(privacy_scan(base))
     qa = f"""# OPS-02 — Production QA
 
-**Production:** produced. **Release:** blocked — R17 awaits a producer decision.
+**Production:** produced. **Release:** {release_line}.
 
 ## Delivered
 - `exports/report.md` — what was built and observed
@@ -607,9 +649,9 @@ python work/war-harness/tools/finish_assets.py --id OPS-02 --stage bundle
 ```
 `build_harness.py` refuses to overwrite an existing harness. Toolchain: {tc['os']}; .NET SDK {tc['dotnet_sdk']}; Python {tc['python']}.
 
-## Remaining gates and limits
-- **R17:** The derived War.vbproj is generated with the installed SDK and every property change is logged; a producer still has to accept this handling.
-- No independent reviewer is recorded.
+## Gates and limits
+- **R17** ({gate_status('OPS-02', 'R17')}): The derived War.vbproj is generated with the installed SDK and every property change is logged.
+- No independent media reviewer is recorded.
 """
     write_bundle("OPS-02", provenance_type="support infrastructure: derived local .NET harness",
                  variants=[{"name": "harness", "files": ["exports/harness-manifest.json", "exports/report.md"],
@@ -617,10 +659,10 @@ python work/war-harness/tools/finish_assets.py --id OPS-02 --stage bundle
                  relationships={"Program.vb": "copied byte-for-byte into the harness", "SCRIPT.md": "harness requirements context"},
                  gates={"R17": {"evidence": ["exports/harness-manifest.json", "exports/report.md"],
                                 "reason": "Derived isolated project generated with the installed SDK; every property change "
-                                          "is in work/war-harness/project-diff.txt. Awaiting producer decision."}},
+                                          "is in work/war-harness/project-diff.txt."}},
                  tests=tests, toolchain_data=tc, notes=["Harness run output is a check, not a capture asset."],
                  authored_additions=["Two OptionExplicit/OptionStrict project nodes in the derived War.vbproj."],
-                 qa_md=qa, dimensions=None)
+                 qa_md=qa, dimensions=None, decisions=decided)
 
 
 # ----- validate ----------------------------------------------------------------------------------

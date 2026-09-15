@@ -2,7 +2,7 @@
   "id": "XTRA-06",
   "title": "Project settings: actual War.vbproj capture",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "actual editor capture",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 546,
-      "sha256": "d14ec899e53a0320ed5307b2a7ae4bba4ba4519d9c20fefc3a22409c7deee6ae"
+      "bytes": 774,
+      "sha256": "a8afc4ca1119f6e06762b1ec1f30129f7701a613d5666dba4463b73f39c7697c"
     },
     {
       "path": "evidence/commands.log",
@@ -57,8 +57,8 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1184,
-      "sha256": "3826028b759f5cd651964962ac99c4f6f9d9fdf305b9d5f77c652b39b015b43d"
+      "bytes": 1558,
+      "sha256": "8a28ad71b2190c35eaf32e6a98a28f236e93ac8bddeb50030d11d381927b05a0"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -111,8 +111,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3349,
-      "sha256": "34ad45db2e8e3be693aa5706556911c9a12ee77bead63359216158a605624aed"
+      "bytes": 3630,
+      "sha256": "aa41140a5ed93786b4928e302fca07ad88c15582c6915a493c35f3a3b20a6e8c"
     },
     {
       "path": "source/raw/01-war-vbproj.png",
@@ -298,9 +298,7 @@
       "hits": []
     }
   ],
-  "unresolved_gates": [
-    "R17"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "dotnet_sdk": "10.0.303",

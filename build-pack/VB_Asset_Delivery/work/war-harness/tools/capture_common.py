@@ -248,11 +248,15 @@ def write_bundle(asset_id: str, *, provenance_type: str, variants: list[dict], r
                  gates: dict[str, dict], tests: list[dict], toolchain_data: dict, notes: list[str],
                  authored_additions: list[str], qa_md: str, production_status: str = "produced",
                  state_notes: list[str] | None = None,
-                 dimensions: dict | None = {"width": 1920, "height": 1080}) -> dict:
+                 dimensions: dict | None = {"width": 1920, "height": 1080},
+                 decisions: dict[str, dict] | None = None) -> dict:
+    """decisions maps a gate ID to the producer's recorded {decision, approver, approval_date}."""
     row = ticket(asset_id)
     base = ROOT / "assets" / asset_id
     (base / "BLOCKER.md").unlink(missing_ok=True)
-    release_status = "blocked" if row["gates"] else "unreviewed"
+    decisions = {g: d for g, d in (decisions or {}).items() if g in row["gates"]}
+    unresolved = [g for g in row["gates"] if g not in decisions]
+    release_status = ("blocked" if unresolved else "approved") if row["gates"] else "unreviewed"
     sources = source_records(asset_id, relationships)
     (base / "evidence" / "source-excerpts.md").write_text(source_excerpts(asset_id), encoding="utf-8")
     dump(base / "evidence" / "provenance.json", {
@@ -260,11 +264,13 @@ def write_bundle(asset_id: str, *, provenance_type: str, variants: list[dict], r
         "authored_additions": authored_additions, "source_unchanged": sha256(ROOT / "sources" / "Program.vb")
         == "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
         "remote_assets": [], "font_files_distributed": False,
-        "producer_decisions": [], "prior_blocker_resolved": "The pack's 2026-09-15 capability blocker (no dotnet "
+        "producer_decisions": [{"gate": g, **d} for g, d in decisions.items()], "prior_blocker_resolved": "The pack's 2026-09-15 capability blocker (no dotnet "
         "executable) does not apply on this machine; the .NET SDK is installed and was used directly."})
     dump(base / "evidence" / "claim-checks.json", {"gates": [
-        {"id": gate, "status": "blocked", "evidence": gates[gate]["evidence"], "decision": None, "approver": None,
-         "approval_date": None, "reason": gates[gate]["reason"]} for gate in row["gates"]]})
+        {"id": gate, "status": "approved" if gate in decisions else "blocked", "evidence": gates[gate]["evidence"],
+         "decision": decisions.get(gate, {}).get("decision"), "approver": decisions.get(gate, {}).get("approver"),
+         "approval_date": decisions.get(gate, {}).get("approval_date"), "reason": gates[gate]["reason"]}
+        for gate in row["gates"]]})
     (base / "qa.md").write_text(qa_md, encoding="utf-8")
 
     outputs = []
@@ -280,13 +286,15 @@ def write_bundle(asset_id: str, *, provenance_type: str, variants: list[dict], r
         "outputs": outputs, "variants": variants, "sources": sources,
         "credits": [{"type": "actual local capture", "credit": "Screens captured from this production's own "
                      "machine; no third-party images or font files included."}],
-        "tests": tests, "unresolved_gates": list(row["gates"]), "toolchain": toolchain_data, "notes": notes,
+        "tests": tests, "unresolved_gates": unresolved, "toolchain": toolchain_data, "notes": notes,
     }
     dump(base / "delivery.json", delivery)
     dump(base / "state.json", {
         "id": asset_id, "production_status": production_status, "release_status": release_status,
         "assigned_agent": "Claude Code (Opus 5)", "updated_at": now_utc(), "blockers": [], "reviewer": None,
         "notes": state_notes or ["Real local capture delivered; see delivery.json and qa.md.",
+                                 "Release approved by the producer; decisions are in evidence/claim-checks.json."
+                                 if release_status == "approved" else
                                  "Release stays blocked until a producer records each gate decision."],
         "owner": "Claude Code — local capture"})
     return delivery

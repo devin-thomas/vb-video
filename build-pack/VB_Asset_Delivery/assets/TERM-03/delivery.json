@@ -2,7 +2,7 @@
   "id": "TERM-03",
   "title": "Complete Program.vb readable scrollthrough stills",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "actual editor capture",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 472,
-      "sha256": "dd3b031d739caa1a9acf135ac069028b6f16c462d7026bdc0fd8801d6a754103"
+      "bytes": 532,
+      "sha256": "210467e4799e57dc79239276ff91cf6f4cbbaf03622f5d2a58854b16a06a211b"
     },
     {
       "path": "evidence/commands.log",
@@ -45,8 +45,8 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 2666,
-      "sha256": "9d7eb0846df606ccc1151cd7641e5b681d8661a740aa453636c6d4b6995901d0"
+      "bytes": 2872,
+      "sha256": "04b76133aed3c651bda67e5ea204fe17d6db384c20c9614234168e02a194191b"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -219,8 +219,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3276,
-      "sha256": "912ee353e23b51f3194c02ec213819fb648b827ffc266fca929df843a294de63"
+      "bytes": 3389,
+      "sha256": "0ac1582e55cbadbe22b6d8ca42a5e3459d5ce6b78479a6cc1b6c6ec8bdccde83"
     },
     {
       "path": "source/Program.vb",
@@ -759,9 +759,7 @@
       "hits": []
     }
   ],
-  "unresolved_gates": [
-    "R03"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "dotnet_sdk": "10.0.303",

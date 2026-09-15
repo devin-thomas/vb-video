@@ -1,14 +1,14 @@
 {
   "id": "XTRA-06",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Claude Code (Opus 5)",
-  "updated_at": "2026-09-15T15:19:59+00:00",
+  "updated_at": "2026-09-15T15:38:31+00:00",
   "blockers": [],
   "reviewer": null,
   "notes": [
     "Real local capture delivered; see delivery.json and qa.md.",
-    "Release stays blocked until a producer records each gate decision."
+    "Release approved by the producer; decisions are in evidence/claim-checks.json."
   ],
   "owner": "Claude Code — local capture"
 }

@@ -2,16 +2,16 @@
   "gates": [
     {
       "id": "R17",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "source/scaffold-transcript.txt",
         "evidence/scaffold/War.vbproj",
         "evidence/capture.json"
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Handled as R17 requires: the project shown is a fresh `dotnet new console -lang VB` scaffold made with the installed SDK 10.0.303, before any property change, and it is not presented as an uploaded original. Awaiting a producer decision; not self-approved."
+      "decision": "Approved. The video description in War/SCRIPT.md carries a footnote that the OptionExplicit and OptionStrict project settings were added by hand and are not part of the dotnet new scaffold.",
+      "approver": "Producer (repo owner devin-thomas), in the Claude Code session",
+      "approval_date": "2026-09-15",
+      "reason": "Handled as R17 requires: the project shown is a fresh `dotnet new console -lang VB` scaffold made with the installed SDK 10.0.303, before any property change, and it is not presented as an uploaded original."
     }
   ]
 }

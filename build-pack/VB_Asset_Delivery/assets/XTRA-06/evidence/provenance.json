@@ -29,6 +29,13 @@
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": [],
+  "producer_decisions": [
+    {
+      "gate": "R17",
+      "decision": "Approved. The video description in War/SCRIPT.md carries a footnote that the OptionExplicit and OptionStrict project settings were added by hand and are not part of the dotnet new scaffold.",
+      "approver": "Producer (repo owner devin-thomas), in the Claude Code session",
+      "approval_date": "2026-09-15"
+    }
+  ],
   "prior_blocker_resolved": "The pack's 2026-09-15 capability blocker (no dotnet executable) does not apply on this machine; the .NET SDK is installed and was used directly."
 }

@@ -2,7 +2,7 @@
   "id": "TERM-02",
   "title": "Primary complete War simulation",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "actual runtime capture",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 979,
-      "sha256": "78c0ca839ff5f83c21d84e27ac1daee238ac2bae38da43337a77ec05bd46f2c9"
+      "bytes": 1331,
+      "sha256": "cc5948e313b045e98d11c97770f8d9eb767458876daed436a509fcdba4c559dc"
     },
     {
       "path": "evidence/commands.log",
@@ -45,8 +45,8 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 2247,
-      "sha256": "9d0f6188b5e6335d11f413422c7e5b0fb7a70ab41939574c35c2374e13b2329e"
+      "bytes": 2917,
+      "sha256": "3d3a5add659d3dfdd34779664ef42e43672d3ceffebac1a2b48cd9ea5d085925"
     },
     {
       "path": "evidence/run-stats.json",
@@ -105,8 +105,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3383,
-      "sha256": "fe844ae6964ba8fb5ac5f8ed15e090ab4fa9605267bdca594b8c2ad3e1ed6293"
+      "bytes": 3748,
+      "sha256": "35f7233a63c0ccb342ecdef935faaee41fb6d801599913978de2dab381924b42"
     },
     {
       "path": "source/Program.vb",
@@ -361,10 +361,7 @@
       "hits": []
     }
   ],
-  "unresolved_gates": [
-    "R06",
-    "R08"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "dotnet_sdk": "10.0.303",
@@ -387,6 +384,6 @@
   "notes": [
     "Actual result of this run: PLAYER 2 WINS THE WAR! after 2008 rounds with 69 wars.",
     "ShuffleDeck uses New Random() without a seed, so a rerun is a different game; do not relabel another run as this one.",
-    "This run ends through the insufficient-cards-during-war branch ('Player 1 has no cards left for the war - Player 2 takes the pot.'). That is the behaviour editorial register R05 asks the producer to decide how to narrate; it is shown as captured."
+    "This run ends through the insufficient-cards-during-war branch ('Player 1 has no cards left for the war - Player 2 takes the pot.'). That is the behaviour editorial register R05 covers; it is shown as captured."
   ]
 }

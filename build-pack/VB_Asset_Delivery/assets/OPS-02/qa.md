@@ -1,6 +1,6 @@
 # OPS-02 — Production QA
 
-**Production:** produced. **Release:** blocked — R17 awaits a producer decision.
+**Production:** produced. **Release:** approved; the producer's R17 decision is in `evidence/claim-checks.json`.
 
 ## Delivered
 - `exports/report.md` — what was built and observed
@@ -25,6 +25,6 @@ python work/war-harness/tools/finish_assets.py --id OPS-02 --stage bundle
 ```
 `build_harness.py` refuses to overwrite an existing harness. Toolchain: Windows-11-10.0.26200-SP0; .NET SDK 10.0.303; Python 3.14.0.
 
-## Remaining gates and limits
-- **R17:** The derived War.vbproj is generated with the installed SDK and every property change is logged; a producer still has to accept this handling.
-- No independent reviewer is recorded.
+## Gates and limits
+- **R17** (approved 2026-09-15 — Approved. The video description in War/SCRIPT.md carries a footnote that the OptionExplicit and OptionStrict project settings were added by hand and are not part of the dotnet new scaffold.): The derived War.vbproj is generated with the installed SDK and every property change is logged.
+- No independent media reviewer is recorded.
