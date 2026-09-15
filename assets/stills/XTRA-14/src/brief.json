@@ -1,0 +1,41 @@
+{
+  "id": "XTRA-14",
+  "title": "Real-world VB application collage",
+  "brief": "Compose three individually verified application images into the script’s business-tools / data-entry / utility collage.",
+  "requirements": [
+    "Use XTRA-11, XTRA-12, and XTRA-13 only after their VB provenance is confirmed.",
+    "Build three readable, labeled panels with a consistent frame treatment. Do not bury all screenshots beneath generic office imagery.",
+    "Retain a separate credit for every panel and a mapping from collage coordinates to the original source asset.",
+    "No invented user counts, revenue numbers, bank/hospital claims, or modern customer data."
+  ],
+  "beats": [
+    "Still: three source images with balanced visual hierarchy.",
+    "Optional focus variants enlarge each panel without changing its underlying image."
+  ],
+  "checks": [
+    "All three source assets are distinct and documented VB applications.",
+    "Per-panel credits and edit history survive the composition.",
+    "Each application is readable and not cropped into a misleading context."
+  ],
+  "copy": "Business tools · Data entry · Utilities",
+  "refs": [
+    [
+      "SCRIPT.md",
+      685,
+      687
+    ]
+  ],
+  "gates": [
+    "R11",
+    "R14"
+  ],
+  "deps": [
+    "OPS-01",
+    "XTRA-11",
+    "XTRA-12",
+    "XTRA-13"
+  ],
+  "variants": [
+    "collage"
+  ]
+}

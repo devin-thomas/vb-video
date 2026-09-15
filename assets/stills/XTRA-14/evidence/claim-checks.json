@@ -1,0 +1,156 @@
+{
+  "id": "XTRA-14",
+  "checked_by": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-97, branch ticket/XTRA-14",
+  "checked_at": "2026-09-15",
+  "gates": [
+    {
+      "id": "R11",
+      "title": "Popularity, installed base, prices, and real VB applications",
+      "status": "blocked",
+      "evidence_paths": [
+        "source-excerpts.md",
+        "provenance.json",
+        "placement-checks.json",
+        "../../../historical/XTRA-11/evidence/claim-checks.json",
+        "../../../historical/XTRA-12/evidence/claim-checks.json",
+        "../../../historical/XTRA-13/evidence/claim-checks.json"
+      ],
+      "claim_checks": [
+        {
+          "id": "P1",
+          "claim": "Ticket requirement 1: each of the three images shows an application whose implementation in classic Visual Basic is documented, not inferred from appearance.",
+          "status": "supported",
+          "evidence": "Re-read each upstream claim-checks record and the quotes they rely on (source-excerpts.md). XTRA-11 R11 check 'verified': the publisher's own 1993 RELEASE.TXT says 'Recompiled program using Visual BASIC 2.0' and MANUAL.WRI requires VBRUN200.DLL. XTRA-12 R11 check 'verified': Microsoft's article names the Visual Basic 6.0 Data Object Wizard and captions the figure as a DOW-generated Single Record User Control. XTRA-13 R11 'passed for this image's VB provenance': the author's 1999 newsletter and 2001/2003 download pages offer VB6 source and require the VB6 runtime; I confirmed those phrases occur in the stored capture HTML. All three upstream tickets are production 'produced'."
+        },
+        {
+          "id": "P2",
+          "claim": "The three images are distinct applications matching the cue's three categories.",
+          "status": "supported",
+          "evidence": "XTRA-11 is an invoicing program (business tool), XTRA-12 a single-record data-entry form, XTRA-13 a window-inspection utility. Three different programs, authors and SHA-256 values (provenance.json)."
+        },
+        {
+          "id": "S1",
+          "claim": "The artwork adds no statistic, user count, price, revenue, ranking, bank/hospital claim or customer data.",
+          "status": "supported",
+          "evidence": "On-screen text is only the three ticket-copy labels and the upstream credits (src/layout.json texts; placement-checks.json lists labels and date-like strings found). Data visible inside the screenshots is original: XTRA-11 shows an empty invoice form with program defaults; XTRA-12 shows Microsoft sample data ('Peter Rabbit', public US county names); XTRA-13 shows generic window titles (upstream qa.md files)."
+        },
+        {
+          "id": "D1",
+          "claim": "No label, caption or credit presents the XTRA-11 or XTRA-13 screenshot as a mid-1990s capture.",
+          "status": "supported",
+          "evidence": "No capture date or era caption is drawn. The XTRA-11 credit's software year ('1993') is left off screen because, beside a form whose Date field reads 02-27-2016, it could be read as the capture year. The only year in on-screen text is 'December 1998' in the verbatim Microsoft credit for XTRA-12, which is that figure's publication date (placement-checks.json date_like_strings). The in-image dates 02-27-2016 and 9/3/2003 remain visible as original pixels."
+        },
+        {
+          "id": "N1",
+          "claim": "Narration SCRIPT.md:685 (War/SCRIPT.md:742): accountants, teachers and small business owners, 'people with problems' who 'would not have called themselves programmers', built VB tools.",
+          "status": "not_supported_by_this_asset",
+          "evidence": "None of the three panels is documented as the work of a non-programmer solving their own problem. XTRA-11 is commercial shareware from a software publisher; XTRA-12 is Microsoft's own documentation example of wizard-generated UI; XTRA-13 is freeware by a Windows Magazine columnist (upstream R11 records). The collage documents real VB applications of the three named kinds, not who wrote them.",
+          "review_question": "XTRA-14-RQ2"
+        },
+        {
+          "id": "E1",
+          "claim": "The collage fits the paragraph's early/mid-1990s setting ($100 purchase, library book).",
+          "status": "partly_supported",
+          "evidence": "XTRA-11 is a 1993 VB 2.0 program but pictured in a 2016 emulator capture. XTRA-12 is VB6, December 1998. XTRA-13 is a 1999 VB6 utility pictured on Windows XP in 2003. Only XTRA-11's software is from the early 1990s, and none of the pictures are period captures from those years.",
+          "review_question": "XTRA-14-RQ3"
+        }
+      ],
+      "reason": "VB provenance of all three images is documented upstream and re-checked here, so the images may be used in the proof. The narration's generalizations and the era fit are editorial questions evidence cannot settle, so R11 stays blocked for release.",
+      "review_questions": ["XTRA-14-RQ2", "XTRA-14-RQ3"],
+      "approver": null,
+      "decision": null
+    },
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence_paths": [
+        "provenance.json",
+        "placement-checks.json",
+        "../../../historical/XTRA-11/evidence/rights.json",
+        "../../../historical/XTRA-12/evidence/rights.json",
+        "../../../historical/XTRA-13/evidence/rights.json"
+      ],
+      "claim_checks": [
+        {
+          "id": "L1",
+          "claim": "Each panel's rights holder, terms and credit are recorded.",
+          "status": "supported",
+          "evidence": "Inherited from the upstream rights records: XTRA-11 rights_status 'unclear' (Eastern Digital Resources; no license on the Internet Archive item); XTRA-12 'unclear_blocked' (Microsoft; candidate route via Microsoft's copyrighted-content screenshot guidelines, unconfirmed); XTRA-13 'blocked — all rights reserved; no permission on record' (Karen Kenworthy / heirs). Each panel shows its own credit from those records."
+        },
+        {
+          "id": "L2",
+          "claim": "The images are licensed or permitted for use in the video.",
+          "status": "not_established",
+          "evidence": "None of the three upstream assets is release-approved (all release_status 'blocked'). Composing them does not change their rights; the collage is at least as restricted as its most restricted panel.",
+          "review_question": "XTRA-14-RQ1"
+        },
+        {
+          "id": "M1",
+          "claim": "If Microsoft's screenshot guidelines are accepted for XTRA-12, the collage meets their stated form conditions: resize only, no portions, required attribution statement.",
+          "status": "supported_for_form_only",
+          "evidence": "placement-checks.json: in every variant the XTRA-12 rectangle equals the uniformly scaled whole figure pixel for pixel (0 differing pixels), its aspect error is whole-pixel rounding only, the mat ring outside it is untouched, no text or frame box intersects it, and the SVG text includes 'Used with permission from Microsoft.'. Whether the guidelines cover a documentation figure at all, and whether a collage context is acceptable, is not settled (XTRA-12-RQ1)."
+        },
+        {
+          "id": "C1",
+          "claim": "On-screen credit wording is taken from the upstream records without invention.",
+          "status": "supported_with_one_deletion",
+          "evidence": "XTRA-12 and XTRA-13 credits are verbatim. XTRA-11 omits ', 1993' on screen (see R11 D1); delivery.json keeps the full record text. The XTRA-13 credit is upstream 'proposed, not approved'.",
+          "review_question": "XTRA-14-RQ4"
+        },
+        {
+          "id": "B1",
+          "claim": "The proof is kept out of cleared media.",
+          "status": "supported",
+          "evidence": "state.json and delivery.json release_status 'blocked'; unresolved_gates R11 and R14; no file placed in any cleared-media bin."
+        }
+      ],
+      "reason": "All three panels are rights-blocked upstream, so the collage is an internal proof only. Release needs each upstream rights question decided.",
+      "review_questions": ["XTRA-14-RQ1", "XTRA-14-RQ4"],
+      "approver": null,
+      "decision": null
+    }
+  ],
+  "review_questions": [
+    {
+      "id": "XTRA-14-RQ1",
+      "gate": "R14",
+      "for": "Devin (rights)",
+      "question": "The collage can only be released if all three panels are cleared: XTRA-11 (Internet Archive capture of INVOICE-IT, no license: fair-use/commentary rationale, permission, or cut), XTRA-12-RQ1 (do Microsoft's screenshot guidelines cover this documentation figure, including its use in a collage with other screenshots?), and the XTRA-13 R14 question (permission request to the karenware.com operator, a recorded fair-use decision, or cut). If any panel is cut, the collage must be recomposed with a substitute or as two panels; do you want that fallback prepared?",
+      "evidence": "evidence/claim-checks.json (R14 L1, L2, M1); upstream rights.json files",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-14-RQ2",
+      "gate": "R11",
+      "for": "Writing Lead / Devin (editorial)",
+      "question": "The script frames the collage as real-world VB applications by 'people with problems' who were not programmers (War/SCRIPT.md:742, cue at 744). XTRA-12 is not that: it is a form generated by the VB6 Data Object Wizard and shown with sample data in Microsoft's own documentation. Is a Microsoft documentation sample acceptable as the 'data entry' panel, or should the project look for a user-built VB data-entry app (the upstream search found none with documented VB provenance; the VB3 Data Access Guide scan is borrow-only)? More broadly, none of the three panels is documented as made by an accountant, teacher or small-business owner (XTRA-11 is publisher shareware, XTRA-13 is by a magazine columnist). Keep the narration as illustrative color over these examples, or soften it?",
+      "evidence": "evidence/claim-checks.json (R11 N1); XTRA-12-RQ2; XTRA-11 R11 review question; XTRA-13 R11 review question",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-14-RQ3",
+      "gate": "R11",
+      "for": "Writing Lead / Devin (editorial)",
+      "question": "The narration's setting is VB's early years, but the pictures are a 2016 emulator capture of a 1993 program (its Date field shows 02-27-2016), a December 1998 VB6 documentation figure, and a 2003 Windows XP capture of a 1999 VB6 utility (status bar 9/3/2003). No caption dates them. Are these acceptable under that paragraph, or should the edit avoid lingering where the in-image dates are legible (for example, prefer the collage over the focus variants)?",
+      "evidence": "evidence/claim-checks.json (R11 E1, D1); XTRA-12-RQ3; XTRA-13 R11 review question",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-14-RQ4",
+      "gate": "R14",
+      "for": "Devin (credits)",
+      "question": "On-screen credits: (a) XTRA-11's credit drops the software year ('Eastern Digital Resources, 1993') on screen to avoid implying a 1993 capture. Accept, or restore the year in the video description only? (b) XTRA-13's credit is still 'proposed, not approved' upstream. (c) The Microsoft statement is shown as instructed, but it is accurate only if XTRA-12-RQ1 is accepted; if not, the line must come off. (d) Should per-panel credits stay burned into the picture, or move to the description, keeping only the Microsoft statement on screen, which the guidelines require?",
+      "evidence": "evidence/source-excerpts.md (upstream credit records); evidence/claim-checks.json (R14 C1)",
+      "blocks": "release only"
+    },
+    {
+      "id": "XTRA-14-RQ5",
+      "gate": "R11",
+      "for": "Devin (edit)",
+      "question": "In the three-up collage, each screenshot is only about 1.0–1.3x its native size (the widest panel sets the common height), so the finest UI text is small at 720p; see qa.md for what stays readable. The optional focus variants enlarge one panel to about 1.7–2x. Use the collage as a brief hold and cut to focus variants while the narration names each kind of program, or hold only the collage?",
+      "evidence": "qa.md (manual inspection); src/layout.json scale factors",
+      "blocks": "nothing (edit choice)"
+    }
+  ]
+}

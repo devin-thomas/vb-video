@@ -804,5 +804,17 @@
     "unresolved_gates": [
       "R15"
     ]
+  },
+  {
+    "id": "XTRA-14",
+    "title": "Real-world VB application collage",
+    "production_status": "produced",
+    "release_status": "blocked",
+    "duration_seconds": null,
+    "fps": null,
+    "unresolved_gates": [
+      "R11",
+      "R14"
+    ]
   }
 ]

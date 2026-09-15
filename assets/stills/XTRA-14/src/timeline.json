@@ -1,0 +1,25 @@
+{
+  "id": "XTRA-14",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: three source images with balanced visual hierarchy.",
+    "Optional focus variants enlarge each panel without changing its underlying image."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "variant-collage.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "collage",
+    "focus-business",
+    "focus-data-entry",
+    "focus-utilities"
+  ],
+  "motion_model": "Still asset: each variant is a separate still held for editorial timing; no animation or named cutdown."
+}

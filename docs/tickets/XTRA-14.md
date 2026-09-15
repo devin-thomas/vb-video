@@ -94,3 +94,11 @@ That's not hyperbole. Before VB, writing a Windows application was a professiona
 
 **[VISUAL: Collage of real-world VB applications — maybe screenshots from old forums or software archives. Internal business tools, data entry forms, simple utilities.]**
 ~~~~
+
+## Production delivery — this batch
+
+**Media/source production: produced. Publication status: blocked.**
+
+[Individual delivery inventory](../../assets/stills/XTRA-14/delivery.json) · [QA and remaining decisions](../../assets/stills/XTRA-14/qa.md) · [Live state](../../assets/stills/XTRA-14/state.json)
+
+The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.

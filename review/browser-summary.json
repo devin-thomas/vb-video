@@ -1183,5 +1183,20 @@
       "Checks canvas bounds, not every possible overlap or semantic correctness.",
       "Typography depends on installed fonts for editable sources; rendered media is frozen."
     ]
+  },
+  {
+    "id": "XTRA-14",
+    "browser": "installed Chromium 153.0.8010.12",
+    "loading_mode": "In-memory HTML",
+    "offline": true,
+    "deterministic_seek": true,
+    "svg_files_checked": 4,
+    "text_boxes_checked": 57,
+    "out_of_canvas": [],
+    "errors": [],
+    "limitations": [
+      "Checks canvas bounds, not every possible overlap or semantic correctness.",
+      "Typography depends on installed fonts for editable sources; rendered media is frozen."
+    ]
   }
 ]
