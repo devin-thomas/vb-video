@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Tue, 15 Sep 2026 20:30:25 GMT
+Server: Apache
+Last-Modified: Wed, 10 Sep 1997 20:38:57 GMT
+ETag: "2685-31ad445d35a40"
+Accept-Ranges: bytes
+Content-Length: 9861
+Content-Type: text/html
+

@@ -1,0 +1,98 @@
+{
+  "id": "HIST-16",
+  "provenance_classification": "historical source (third-party original screenshot), framed derivative",
+  "script_sources": [
+    {
+      "path": "sources/SCRIPT.md",
+      "lines": [629, 631],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief (hash-locked original)"
+    },
+    {
+      "path": "sources/ASSET_PLAN.md",
+      "lines": [99, 99],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "asset-plan row; its lead (Wikipedia \"Abstract Window Toolkit\") was checked and not used, see below"
+    },
+    {
+      "path": "War/SCRIPT.md",
+      "lines": [686, 688],
+      "sha256": "11e06a8618eb97b734f3eb907508e6f2d4a8cf9655e6e537d5639501c7a43014",
+      "relationship": "working script; same passage text as sources/SCRIPT.md 629-631, moved to lines 686-688. Not edited."
+    }
+  ],
+  "external_sources": [
+    {
+      "role": "selected historical original",
+      "local_path": "source/original.gif",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/images/GUIWindow.gif",
+      "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+      "access_date": "2026-09-15",
+      "record": "evidence/source.json"
+    },
+    {
+      "role": "source page (preserved separately from the image)",
+      "local_path": "evidence/source-pages/princeton-spring96/components.html",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/components.html",
+      "sha256": "9ec51a0c44cdb3a5003d00cc1c64f816df57ccacee2fc9cdc75f1d6ed961bb74",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "program source identifying the window (identity evidence)",
+      "local_path": "evidence/source-pages/princeton-spring96/GUIWindow.java",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/example/GUIWindow.java",
+      "sha256": "fd32f4b6182f0eb4991979e23ba5c13d097947eab89a1925e7d0b27c0fea7ab1",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "copyright terms, 1995 edition",
+      "local_path": "evidence/source-pages/princeton-spring96/copyright.html",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/copyright.html",
+      "sha256": "5d048d60eb7672917cabf148da968f7424d3530b6681d8b324eab2d5acff4b56",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "corroborating mirror, JDK 1.1-era edition (page, headers, copyright)",
+      "local_path": "evidence/source-pages/upenn-1997/",
+      "url": "https://www.cis.upenn.edu/~bcpierce/courses/629/papers/Java-tutorial/ui/overview/components.html",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "corroborating mirror, 1998 (page, headers, copyright)",
+      "local_path": "evidence/source-pages/cmu-1998/",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15212-s98/www/java/tutorial/ui/overview/components.html",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "fallback candidate (public domain, later era)",
+      "local_path": "evidence/candidates/AWT_at_Linux.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/AWT_at_Linux.png",
+      "sha256": "257cfb437db9c9c299a13138bf73b59d8cc5dfa5a24eb5e198df65e9ff7333e5",
+      "access_date": "2026-09-15"
+    },
+    {
+      "role": "fallback candidate (public domain, later era); this is the image the ASSET_PLAN lead (Wikipedia 'Abstract Window Toolkit') actually uses",
+      "local_path": "evidence/candidates/Easy_Java_AWT_example.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Easy_Java_AWT_example.jpg",
+      "sha256": "33b68bd8ae78cff4846540f5e2090a809f495c7ba06dd93153d4a30dccc11c36",
+      "access_date": "2026-09-15"
+    }
+  ],
+  "search_log": [
+    "Wikipedia 'Abstract Window Toolkit' (ASSET_PLAN lead): single image File:Easy_Java_AWT_example.jpg, uploaded 2006 — later era, kept as candidate.",
+    "Wikimedia Commons Category:Abstract_Window_Toolkit (27 files): all inspected by name; dated items are 2004-2007+ uploads; AWT_at_Linux.png kept as candidate; Awt-icedTea.png and Accueil_hotjava.jpg rejected (see evidence/rights.json).",
+    "Web search 'JDK 1.0 AWT applet screenshot 1996 Windows 95 archive' and Java Tutorial queries led to university mirrors of Sun's The Java Tutorial.",
+    "Wayback Machine: CDX for java.sun.com/docs/books/tutorial/ui/overview/* lists components.html from 1999-01-17 only; the image lookup returned 'Temporarily Offline', then HTTP 429, then empty. No further retries.",
+    "Mirrors compared: Princeton spring 1996, UPenn 1997, CMU 1998 copies of GUIWindow.gif are byte-identical (sha256 e11f4e6c...).",
+    "Not pursued: running the archived JDK 1.0.2 binaries to make a fresh capture (executing downloaded third-party binaries is outside the authorized method; a 2026 capture would also not be a period original)."
+  ],
+  "authored_additions": [
+    {
+      "where": "exports/editorial-frame.png",
+      "what": "Neutral dark ground (RGB 27,29,34), centred placement at 3x, and the credit line: “The AWT Components” example window — The Java Tutorial, Sun Microsystems (online copy dated Feb. 1996)",
+      "status": "production choice; the wording is authored, the facts in it are backed by evidence/source.json"
+    }
+  ],
+  "transformations": "See evidence/framing.json. No crop, no retouching, no watermark involved, integer nearest-neighbour scale verified reversible.",
+  "producer_decisions": []
+}

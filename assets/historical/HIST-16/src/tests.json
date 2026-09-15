@@ -1,0 +1,38 @@
+[
+  {
+    "test": "original is byte-exact and identical across three independent mirrors",
+    "result": "passed",
+    "detail": "sha256 e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed for the Princeton (1996), UPenn (1997) and CMU (1998) copies; source/original.gif is the unmodified Princeton copy (5319 bytes, GIF87a, 506x232)."
+  },
+  {
+    "test": "identity: window in the image matches the program source",
+    "result": "passed",
+    "detail": "GUIWindow.java (same mirror) calls setTitle(\"The AWT Components\") and builds exactly the visible java.awt components (Menu, Canvas, Label, TextArea, List, TextField, Button, Checkbox, Choice). Manually compared against the image at 3x."
+  },
+  {
+    "test": "candidate files match their Commons file pages",
+    "result": "passed",
+    "detail": "SHA-1 of AWT_at_Linux.png = c4279edf45b40192aebca4795c13ff05420e3124 and Easy_Java_AWT_example.jpg = 1372dbe57815234298a1965d9439cb5af47360ac, as published on each file page."
+  },
+  {
+    "test": "framing reversibility (automated in build_frame.py)",
+    "result": "passed",
+    "detail": "Image region of the export, nearest-downsampled to 506x232, is byte-identical to the original's RGB pixels. No crop."
+  },
+  {
+    "test": "safe area and dimensions (automated in build_frame.py)",
+    "result": "passed",
+    "detail": "exports/editorial-frame.png 1920x1080; image box [201,161,1719,857] and credit box [205,891,1715,919] inside safe area [120,72,1800,1008]; proofs/editorial-frame-720.png 1280x720."
+  },
+  {
+    "test": "manual visual inspection",
+    "result": "passed",
+    "full_size": "Viewed exports/editorial-frame.png at 1920x1080: whole window including all four border corners and title bar present; pixel-doubled edges crisp with no smoothing or colour shift; every widget label legible; credit line fully readable, not clipped; no watermark, no personal data, no added UI.",
+    "proof_720": "Viewed proofs/editorial-frame-720.png at 1280x720: title, Menu, list items, TextField/Button/Checkbox/Choice labels and the credit line remain readable; the small canvas coordinate labels (10,10)/(50,50)/(100,100) are soft but legible and non-essential."
+  },
+  {
+    "test": "privacy scan of the selected image",
+    "result": "passed",
+    "detail": "GUIWindow.gif contains only generic component labels. The page's separate FileDialog.gif shows a Sun employee's home-directory path; it was deliberately not downloaded or used."
+  }
+]

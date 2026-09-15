@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Tue, 15 Sep 2026 20:32:55 GMT
+Server: Apache
+Last-Modified: Mon, 26 Feb 1996 18:15:19 GMT
+ETag: "1b8c-2eea8c1565bc0"
+Accept-Ranges: bytes
+Content-Length: 7052
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Via: 1.1 www.cs.princeton.edu
+Strict-Transport-Security: max-age=15778800
+

@@ -1,0 +1,332 @@
+{
+  "id": "HIST-16",
+  "title": "Java AWT application",
+  "production_status": "produced",
+  "release_status": "blocked",
+  "provenance_type": "historical source (third-party screenshot, rights restricted) with framed derivative",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/candidates/AWT_at_Linux.png",
+      "role": "fallback candidate original (public domain, evidence only)",
+      "bytes": 11296,
+      "sha256": "257cfb437db9c9c299a13138bf73b59d8cc5dfa5a24eb5e198df65e9ff7333e5"
+    },
+    {
+      "path": "evidence/candidates/Easy_Java_AWT_example.jpg",
+      "role": "fallback candidate original (public domain, evidence only)",
+      "bytes": 11731,
+      "sha256": "33b68bd8ae78cff4846540f5e2090a809f495c7ba06dd93153d4a30dccc11c36"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "editorial gate record",
+      "bytes": 4383,
+      "sha256": "e38befcf02445e0ff40a361106b1ccc0c090b8a74f6f344df835e1783cd16089"
+    },
+    {
+      "path": "evidence/framing.json",
+      "role": "framing / reversibility record",
+      "bytes": 1312,
+      "sha256": "a770110902d28eed437668622a9b44f33d6d0f1270e10247293eb7f9b3e7e407"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "provenance record",
+      "bytes": 5640,
+      "sha256": "0d652f6dfeb1166c93c1a51ede4ca22033ba9bcc4a9f0e128bf206bf147c030f"
+    },
+    {
+      "path": "evidence/rights.json",
+      "role": "rights record",
+      "bytes": 5163,
+      "sha256": "604f9430044c8e412ed2f0ca0e73cfe1c0a15cf7a4e71dd1cb399e5724463f41"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "source excerpts",
+      "bytes": 2481,
+      "sha256": "bea87702ff27269d0c0856cfd53bcb970a4d48f9f512850de1babfb7748dd6f8"
+    },
+    {
+      "path": "evidence/source-pages/cmu-1998/components.html",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 10828,
+      "sha256": "fab7e2252b3db7a53d5ec33a0ccb1451abc67a538fb8cd41a34e961b3a39d2b1"
+    },
+    {
+      "path": "evidence/source-pages/cmu-1998/components.html.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 399,
+      "sha256": "5c3507dbdfd4385b207d93fe934315711d3883d64df7a07ac23e5c96d44980d1"
+    },
+    {
+      "path": "evidence/source-pages/cmu-1998/copyright.html",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 4164,
+      "sha256": "db0d6e16cccc680cdb62964ed158b24b6c4c53c033177706bc4f953498723788"
+    },
+    {
+      "path": "evidence/source-pages/cmu-1998/GUIWindow.gif.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 449,
+      "sha256": "0a0312e59e34ea31e9d20be548181e38ce2733a461ef670d5a2539c997624105"
+    },
+    {
+      "path": "evidence/source-pages/princeton-spring96/components.html",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 7052,
+      "sha256": "9ec51a0c44cdb3a5003d00cc1c64f816df57ccacee2fc9cdc75f1d6ed961bb74"
+    },
+    {
+      "path": "evidence/source-pages/princeton-spring96/components.html.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 329,
+      "sha256": "5fd1b562f4e720e7c636d29917b2885ad12f896770dcef71929ef43b34a2f3aa"
+    },
+    {
+      "path": "evidence/source-pages/princeton-spring96/copyright.html",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 4081,
+      "sha256": "5d048d60eb7672917cabf148da968f7424d3530b6681d8b324eab2d5acff4b56"
+    },
+    {
+      "path": "evidence/source-pages/princeton-spring96/GUIWindow.gif.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 291,
+      "sha256": "6c4d5496cf537455c6e0899f931ef1e8459ab13f18b7875329696b89ea91556b"
+    },
+    {
+      "path": "evidence/source-pages/princeton-spring96/GUIWindow.java",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 4073,
+      "sha256": "fd32f4b6182f0eb4991979e23ba5c13d097947eab89a1925e7d0b27c0fea7ab1"
+    },
+    {
+      "path": "evidence/source-pages/princeton-spring96/GUIWindow.java.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 329,
+      "sha256": "260527c23c25f47f40c77949108dddb760fd20305b1c091355ef072d58a35948"
+    },
+    {
+      "path": "evidence/source-pages/upenn-1997/components.html",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 9861,
+      "sha256": "440f77e738b69964e8e494e0c5149cd854a39e6fc6b20dab1c85b01c68b21858"
+    },
+    {
+      "path": "evidence/source-pages/upenn-1997/components.html.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 215,
+      "sha256": "9b4f32261aa1837168cf96bb3739199bb838a7c19ab829bafd6c59aa0a5a586f"
+    },
+    {
+      "path": "evidence/source-pages/upenn-1997/copyright.html",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 4164,
+      "sha256": "431a086a4782dc85479776a635d39c395f9c005305f9b36964109b3a1c354d85"
+    },
+    {
+      "path": "evidence/source-pages/upenn-1997/copyright.html.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 215,
+      "sha256": "9df5f18af80897b8488c65f68c139b9624e113e1e34f3bb808297219785ece8e"
+    },
+    {
+      "path": "evidence/source-pages/upenn-1997/GUIWindow.gif.headers.txt",
+      "role": "preserved source page / HTTP headers (third-party, evidence only)",
+      "bytes": 215,
+      "sha256": "c195265b6e66165bf93553eb1d67a547e78b4c8b5f666882218e7f9797a09cd6"
+    },
+    {
+      "path": "evidence/source.json",
+      "role": "source record",
+      "bytes": 5119,
+      "sha256": "95760235a9adc784e413379ab9db9a923d8bc439e4992bb94f5f8896b8579431"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "role": "editorial frame 1920x1080 (derived: whole image, 3x nearest, credit line)",
+      "bytes": 29381,
+      "sha256": "1c5c16ec41b286739e5bdeef5707f74f22cacccf075ff9b6014aaa99c75eb25b"
+    },
+    {
+      "path": "proofs/editorial-frame-720.png",
+      "role": "720p review proof",
+      "bytes": 66368,
+      "sha256": "9dce07cbc479b3792fe1904f8bdda24eb1dfdded316d897ec9bd75847fcf154f"
+    },
+    {
+      "path": "qa.md",
+      "role": "QA record",
+      "bytes": 5727,
+      "sha256": "418219311914d0d100e14389c8a2868ba68db77fac18cbbfda834c6f58155aa8"
+    },
+    {
+      "path": "source/original.gif",
+      "role": "historical original (byte-exact download, unmodified)",
+      "bytes": 5319,
+      "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed"
+    },
+    {
+      "path": "src/build_frame.py",
+      "role": "editable framing source / render driver",
+      "bytes": 4610,
+      "sha256": "4f70ad262b2d0cdb785a2c8ae604c6d9f49fc0bc71b17325f8567690d67a09c8"
+    },
+    {
+      "path": "src/finish_delivery.py",
+      "role": "delivery bundler",
+      "bytes": 7410,
+      "sha256": "0e1f8a6fbc3771b28d41253171840eb3b23943eb8578a4a7c11a470c24c6a4e5"
+    },
+    {
+      "path": "src/tests.json",
+      "role": "evidence / QA",
+      "bytes": 2468,
+      "sha256": "fac5f2a5934e4dbf5da823b5fa2ff27f54021e7d40be2b2852cca04cdecb88a5"
+    }
+  ],
+  "variants": [
+    {
+      "name": "original",
+      "files": [
+        "source/original.gif"
+      ],
+      "notes": "Byte-exact 506x232 GIF87a from The Java Tutorial (Sun Microsystems), Princeton spring-1996 mirror."
+    },
+    {
+      "name": "editorial-frame",
+      "files": [
+        "exports/editorial-frame.png"
+      ],
+      "derived_from": "source/original.gif",
+      "proof_720": "proofs/editorial-frame-720.png",
+      "notes": "Still; holds for editorial timing. No crop; 3x nearest; authored credit line. See evidence/framing.json."
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        629,
+        631
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narration and visual brief"
+    },
+    {
+      "path": "../../../sources/ASSET_PLAN.md",
+      "lines": [
+        99,
+        99
+      ],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "asset-plan row (lead checked; see evidence/provenance.json)"
+    },
+    {
+      "path": "source/original.gif",
+      "url": "https://www.cs.princeton.edu/courses/archive/spring96/cs333/java/tutorial/ui/overview/images/GUIWindow.gif",
+      "sha256": "e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed",
+      "relationship": "historical original"
+    },
+    {
+      "path": "exports/editorial-frame.png",
+      "relationship": "derivative crop (no crop applied; framed enlargement)"
+    },
+    {
+      "path": "evidence/candidates/AWT_at_Linux.png",
+      "relationship": "stock candidate (public domain, Commons, 2007)"
+    },
+    {
+      "path": "evidence/candidates/Easy_Java_AWT_example.jpg",
+      "relationship": "stock candidate (public domain, Commons, 2006)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "historical original (rights restricted)",
+      "file": "source/original.gif",
+      "credit": "The Java Tutorial, © 1995 Sun Microsystems, Inc. (now Oracle). “AWT Components” example window.",
+      "rights_status": "restricted — all rights reserved; no licence; release blocked"
+    },
+    {
+      "type": "candidate, not used in export",
+      "file": "evidence/candidates/AWT_at_Linux.png",
+      "credit": "“AWT at Linux” by Sven, Wikimedia Commons, public domain"
+    },
+    {
+      "type": "candidate, not used in export",
+      "file": "evidence/candidates/Easy_Java_AWT_example.jpg",
+      "credit": "“Easy Java AWT example” by Fiete Groth, Wikimedia Commons, public domain"
+    }
+  ],
+  "tests": [
+    {
+      "test": "original is byte-exact and identical across three independent mirrors",
+      "result": "passed",
+      "detail": "sha256 e11f4e6c41ec798b9f663cb99d1c7950853fde2b0125060fdfaf1209b9d3b5ed for the Princeton (1996), UPenn (1997) and CMU (1998) copies; source/original.gif is the unmodified Princeton copy (5319 bytes, GIF87a, 506x232)."
+    },
+    {
+      "test": "identity: window in the image matches the program source",
+      "result": "passed",
+      "detail": "GUIWindow.java (same mirror) calls setTitle(\"The AWT Components\") and builds exactly the visible java.awt components (Menu, Canvas, Label, TextArea, List, TextField, Button, Checkbox, Choice). Manually compared against the image at 3x."
+    },
+    {
+      "test": "candidate files match their Commons file pages",
+      "result": "passed",
+      "detail": "SHA-1 of AWT_at_Linux.png = c4279edf45b40192aebca4795c13ff05420e3124 and Easy_Java_AWT_example.jpg = 1372dbe57815234298a1965d9439cb5af47360ac, as published on each file page."
+    },
+    {
+      "test": "framing reversibility (automated in build_frame.py)",
+      "result": "passed",
+      "detail": "Image region of the export, nearest-downsampled to 506x232, is byte-identical to the original's RGB pixels. No crop."
+    },
+    {
+      "test": "safe area and dimensions (automated in build_frame.py)",
+      "result": "passed",
+      "detail": "exports/editorial-frame.png 1920x1080; image box [201,161,1719,857] and credit box [205,891,1715,919] inside safe area [120,72,1800,1008]; proofs/editorial-frame-720.png 1280x720."
+    },
+    {
+      "test": "manual visual inspection",
+      "result": "passed",
+      "full_size": "Viewed exports/editorial-frame.png at 1920x1080: whole window including all four border corners and title bar present; pixel-doubled edges crisp with no smoothing or colour shift; every widget label legible; credit line fully readable, not clipped; no watermark, no personal data, no added UI.",
+      "proof_720": "Viewed proofs/editorial-frame-720.png at 1280x720: title, Menu, list items, TextField/Button/Checkbox/Choice labels and the credit line remain readable; the small canvas coordinate labels (10,10)/(50,50)/(100,100) are soft but legible and non-essential."
+    },
+    {
+      "test": "privacy scan of the selected image",
+      "result": "passed",
+      "detail": "GUIWindow.gif contains only generic component labels. The page's separate FileDialog.gif shows a Sun employee's home-directory path; it was deliberately not downloaded or used."
+    }
+  ],
+  "unresolved_gates": [
+    "R14"
+  ],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "packages": {
+      "Pillow": "12.3.0"
+    },
+    "downloader": "curl (Git for Windows), anonymous HTTPS GET",
+    "font": "LiberationSans-Regular.ttf (installed system font, not distributed)",
+    "commands": [
+      "python assets/historical/HIST-16/src/build_frame.py",
+      "python assets/historical/HIST-16/src/finish_delivery.py",
+      "python tools/validate_delivery.py --id HIST-16"
+    ],
+    "installs_performed": false,
+    "font_files_distributed": false
+  },
+  "notes": [
+    "Produced as an internal proof. Release is blocked: the selected image is Sun copyright, all rights reserved (R14 open).",
+    "Two public-domain Commons fallbacks are preserved in evidence/candidates/ but are 2006-2007 captures, not 1995-96 AWT.",
+    "state.json and delivery.json are excluded from the hashed inventory."
+  ]
+}

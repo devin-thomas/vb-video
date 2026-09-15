@@ -1,0 +1,68 @@
+{
+  "id": "HIST-16",
+  "gates": [
+    {
+      "id": "R14",
+      "title": "Per-image licensing, archive capture, and public availability",
+      "status": "blocked",
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/source.json",
+        "evidence/source-pages/princeton-spring96/copyright.html",
+        "evidence/source-pages/upenn-1997/copyright.html",
+        "evidence/source-pages/cmu-1998/copyright.html"
+      ],
+      "findings": [
+        "Creator/rights holder recorded: Sun Microsystems, Inc., The Java Tutorial (© 1995); successor presumed Oracle, not verified.",
+        "File-specific terms: none. The Tutorial's copyright page forbids publication in other works or reproduction without Sun's written permission.",
+        "Access method: anonymous HTTPS GET from a public university course mirror. No account, payment, terms acceptance, watermark, or CAPTCHA involved. Host is not the rights holder.",
+        "Credit text recorded. No fair-use or public-domain assumption made.",
+        "Public-domain fallbacks exist (Commons, 2006/2007, rights as stated by uploaders) but depict later Java versions."
+      ],
+      "decision": null,
+      "approver": null,
+      "approval_date": null,
+      "reason": "Unknown/restricted rights stay blocked under R14. Seeking permission, a fair-use call, or substituting a later-era public-domain image is a reviewer decision.",
+      "review_question": "The only period-authentic AWT screenshot found is © 1995 Sun (now Oracle), all rights reserved. Choose one: (a) use it under a documented fair-use decision, (b) request permission from Oracle, or (c) use the public-domain Commons fallback AWT_at_Linux.png (2007, Java 5, Linux) with narration/credit not implying it is from 1995."
+    }
+  ],
+  "supporting_checks": [
+    {
+      "claim": "The image shows a genuine AWT application, not Swing/JavaFX",
+      "status": "verified",
+      "evidence": ["evidence/source-pages/princeton-spring96/GUIWindow.java", "evidence/source-pages/princeton-spring96/components.html"],
+      "note": "GUIWindow extends java.awt.Frame; title \"The AWT Components\"; only java.awt components. Swing did not exist until 1997-98."
+    },
+    {
+      "claim": "The capture dates from the JDK 1.0 period",
+      "status": "verified with stated limits",
+      "evidence": [
+        "evidence/source-pages/princeton-spring96/GUIWindow.gif.headers.txt",
+        "JavaSoft press release 'JAVASOFT SHIPS JAVA 1.0', Palo Alto, January 23, 1996 — Wayback print of http://www.sun.com/smi/Press/sunflash/1996-01/sunflash.960123.10561.xml, retrieved as https://javaalmanac.io/jdk/1.0/pressrelease.pdf (accessed 2026-09-15)"
+      ],
+      "note": "Copy on a university server with Last-Modified 26 Feb 1996, one month after Java 1.0 shipped on 23 Jan 1996. The exact JDK build and platform of the capture are not stated anywhere, so neither is claimed."
+    },
+    {
+      "claim": "Platform of the capture",
+      "status": "unknown",
+      "evidence": ["evidence/source-pages/princeton-spring96/components.html"],
+      "note": "Looks like X11/Motif, but that is not asserted. The page's 'Solaris Applet Viewer' sentence refers only to FileDialog.gif."
+    }
+  ],
+  "script_observations_for_writing_lead": [
+    {
+      "script_ref": "sources/SCRIPT.md:629 (War/SCRIPT.md:686)",
+      "text": "\"which Sun Microsystems released in 1995\"",
+      "finding": "Consistent with the primary record, with nuance. Sun's 23 Jan 1996 release refers to the 'announcement in May 1995' and a 'first alpha release to the web in March' (1995); the 1.0 general release shipped 23 Jan 1996.",
+      "proposed_change": "None required. Optional precision: \"which Sun Microsystems unveiled in 1995\".",
+      "blocking": false
+    },
+    {
+      "script_ref": "sources/SCRIPT.md:631 (War/SCRIPT.md:688)",
+      "text": "\"[VISUAL: A Java AWT application. The buttons look wrong on every platform.]\"",
+      "finding": "One period screenshot shows one platform. Showing 'every platform' would need same-era captures from several OSes; none with usable rights was found. Mixing in 2006-07 Commons captures would misdate the comparison.",
+      "proposed_change": "Writing Lead to decide whether the cue can be met by a single 1996 AWT window, or should be reworded (e.g. \"A Java AWT application from 1996.\").",
+      "blocking": false
+    }
+  ]
+}
