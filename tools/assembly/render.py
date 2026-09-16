@@ -57,12 +57,12 @@ def visual_inputs(v: dict, slot: float, w: int, h: int, fps: int, idx: int) -> t
     elif v.get("poster") and v.get("duration") and v["duration"] < slot - 0.05:
         # motion preview shorter than its slot: play it, then hold its designed poster frame
         rest = slot - v["duration"]
-        args = ["-i", str(f), "-loop", "1", "-framerate", str(fps), "-t", f"{rest:.3f}", "-i", str(ROOT / v["poster"])]
+        args = [*(["-ss", f"{float(v['offset']):.3f}"] if v.get("offset") else []), "-i", str(f), "-loop", "1", "-framerate", str(fps), "-t", f"{rest:.3f}", "-i", str(ROOT / v["poster"])]
         chain = (f"[{idx}:v]{fit(w, h, fps)},trim=duration={v['duration']:.3f},setpts=PTS-STARTPTS[m{idx}];"
                  f"[{idx + 1}:v]{fit(w, h, fps)},trim=duration={rest:.3f},setpts=PTS-STARTPTS[p{idx}];[m{idx}][p{idx}]concat=n=2:v=1:a=0[v{idx}]")
         return args, chain, 2
     else:
-        args = ["-i", str(f)]
+        args = [*(["-ss", f"{float(v['offset']):.3f}"] if v.get("offset") else []), "-i", str(f)]
         chain = f"[{idx}:v]{fit(w, h, fps)},tpad=stop_mode=clone:stop_duration={slot:.3f},trim=duration={slot:.3f},setpts=PTS-STARTPTS[v{idx}]"
     return args, chain, 1
 

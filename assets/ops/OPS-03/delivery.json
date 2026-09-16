@@ -30,8 +30,8 @@
     {
       "path": "exports/decision-ledger.json",
       "role": "coordination export",
-      "bytes": 162216,
-      "sha256": "301a51666367ea8bfdd045d74491bd5e8d07d52a36ba0a89043bc3c399394e21"
+      "bytes": 163391,
+      "sha256": "0790c7330cc7a2892e5125047d743d21f421c9802324dabde190d7966c7fb382"
     },
     {
       "path": "exports/report.md",

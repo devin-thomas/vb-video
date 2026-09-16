@@ -1,17 +1,18 @@
 {
   "id": "DIA-02",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "DIA-02 revision 2 worker (Claude Fable 5.1), branch ticket/DIA-02-r2",
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": "Producer for Devin",
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
     "Release approved 2026-09-15 for the first cut: producer review under Devin's delegation; R14 by Devin's standing ruling.",
     "Revision 2 opened 2026-09-16 from Devin's review notes 9 and 11.",
-    "Revision 2 produced 2026-09-16: five named cutdowns (deck-hold 30 s, alternating-deal 20 s, normal-round 16 s, single-war 20 s, final-hold 14 s) with key_second per cutdown, plus the 35 s continuous full-rules/preview, on the revised shared card faces (win95-workbench-1.1.0). Release unreviewed until the producer approves the new exports; review questions in qa.md."
+    "Revision 2 produced 2026-09-16: five named cutdowns (deck-hold 30 s, alternating-deal 20 s, normal-round 16 s, single-war 20 s, final-hold 14 s) with key_second per cutdown, plus the 35 s continuous full-rules/preview, on the revised shared card faces (win95-workbench-1.1.0). Release unreviewed until the producer approves the new exports; review questions in qa.md.",
+    "Release approved 2026-09-16 by the producer after viewing the cutdowns' key frames and holds."
   ],
-  "owner": "Claude Fable 5.1 — local production (revision 2); first cut ChatGPT — local production"
+  "owner": "Claude Fable 5.1 \u2014 local production (revision 2); first cut ChatGPT \u2014 local production"
 }

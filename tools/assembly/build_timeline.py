@@ -77,7 +77,7 @@ PLACE: dict[str, list] = {
     "S01-B01": ["TERM-03", ("CARD-01", None, "It was the single most popular")], "S01-B02": [HOLD],
     "S05-B01": [("DIA-02", "deck-hold", None)],
     "S05-B02": [("DIA-15", "riffle", "shuffle it"), ("DIA-02", "alternating-deal", "Deal it evenly")],
-    "S05-B03": [("DIA-02", "normal-round", "Aces are high")],
+    "S05-B03": [("DIA-02", "normal-round", "flip their top card")],
     "S05-B04": [("DIA-02", "single-war", "it's War")],
     "S05-B05": [("DIA-02", "final-hold", None)],
     "S05-B06": ["BROLL-02"],
@@ -102,7 +102,7 @@ PLACE: dict[str, list] = {
     # section 11: the double war, then the four runs
     "S11-B01": ["TERM-04"], "S11-B02": [("TERM-02", "first-war", None)], "S11-B03": ["FACT-07"], "S11-B04": [HOLD],
     # section 12 (ids after NAR-01 removed the two stage directions): the ending, the endgame panels, the two endgames
-    "S12-B01": [("TERM-04", "end", None)], "S12-B02": [HOLD], "S12-B03": [("DIA-08", "endgame", "tie, war")], "S12-B04": ["CODE-20"],
+    "S12-B01": [("TERM-04", "end", None)], "S12-B02": [HOLD], "S12-B03": [("DIA-08", "endgame", "tie, war")], "S12-B04": ["CODE-20", ("DIA-08", "endgame@27.36", "so both players burned")],
     "S12-B05": [("TERM-02", "end", None)], "S12-B06": [HOLD], "S12-B07": ["FACT-08"], "S12-B08": [HOLD], "S12-B09": [HOLD],
     # section 13: the GUI mockup when the GUI is discussed, games where games are named, no frozen dialog
     "S13-B01": ["HIST-19"], "S13-B02": ["MOCK-01"], "S13-B03": [HOLD], "S13-B04": [HOLD], "S13-B05": [HOLD],
@@ -162,6 +162,8 @@ def visual_record(tid: str, cutdown: str | None = None) -> dict | None:
         if not (ROOT / f).is_file(): pending = f"{tid}:{cutdown} (missing {f})"; f = r["primary_file"]
         return {"id": tid, "kind": r["kind"], "file": f, "duration": None, "segment": "", "still": f.endswith(".png"), "in_out": None, "poster": None,
                 "cutdown": cutdown, "key_second": 0.0, "pending": pending}
+    offset = 0.0
+    if cutdown and "@" in cutdown: cutdown, off = cutdown.split("@", 1); offset = float(off)
     rec = recording_for(tid)
     if rec and not cutdown: return rec
     if rec: rec.update({"cutdown": cutdown, "key_second": 0.0}); return rec
@@ -180,8 +182,9 @@ def visual_record(tid: str, cutdown: str | None = None) -> dict | None:
     seg = r.get("segment") or ""
     m = re.findall(r"(\d+:\d\d(?:\.\d+)?|\d+\.\d+)", seg)
     poster = f"{by_id[tid]['asset_dir']}/exports/poster.png" if (d / "exports/poster.png").is_file() else None
+    if offset: key = 0.0; dur = (dur - offset) if dur else dur
     return {"id": tid, "kind": r["kind"], "file": f, "duration": dur, "segment": seg, "still": f.endswith(".png"),
-            "in_out": m[:2] if f.endswith(".mp4") and "/source/" in f else None, "poster": poster, "cutdown": cutdown, "key_second": key, "pending": pending}
+            "in_out": m[:2] if f.endswith(".mp4") and "/source/" in f else None, "poster": poster, "cutdown": cutdown, "key_second": key, "offset": offset, "pending": pending}
 
 def probe(path: Path) -> float | None:
     import subprocess

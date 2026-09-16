@@ -29,6 +29,7 @@
      "poster": "assets/chapters/CH-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -65,6 +66,7 @@
      "poster": "assets/cards/CARD-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.891
     }
    ],
@@ -115,6 +117,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.8
     }
    ],
@@ -140,6 +143,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 24.64
     }
    ],
@@ -165,6 +169,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.88
     }
    ],
@@ -190,6 +195,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 0.64
     }
    ],
@@ -213,6 +219,7 @@
      "poster": "assets/chapters/CH-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -237,6 +244,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.36
     }
    ],
@@ -262,6 +270,7 @@
      "poster": "assets/reference-code/XTRA-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 19.6
     }
    ],
@@ -287,6 +296,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 22.16
     }
    ],
@@ -312,6 +322,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.96
     }
    ],
@@ -337,6 +348,7 @@
      "poster": "assets/reference-code/REF-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.0
     }
    ],
@@ -362,6 +374,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 27.36
     }
    ],
@@ -387,6 +400,7 @@
      "poster": "assets/reference-code/REF-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.32
     }
    ],
@@ -412,6 +426,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 9.44
     }
    ],
@@ -437,6 +452,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.32
     }
    ],
@@ -462,6 +478,7 @@
      "poster": "assets/reference-code/REF-03/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 13.52
     }
    ],
@@ -487,6 +504,7 @@
      "poster": "assets/diagrams/DIA-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 32.4
     }
    ],
@@ -512,6 +530,7 @@
      "poster": "assets/facts/FACT-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 7.28
     }
    ],
@@ -540,6 +559,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.56
     }
    ],
@@ -563,6 +583,7 @@
      "poster": "assets/chapters/CH-03/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -587,6 +608,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.48
     }
    ],
@@ -612,6 +634,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.72
     }
    ],
@@ -640,6 +663,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.0
     }
    ],
@@ -665,6 +689,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 19.44
     }
    ],
@@ -690,6 +715,7 @@
      "poster": "assets/stills/XTRA-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 11.44
     }
    ],
@@ -715,6 +741,7 @@
      "poster": "assets/facts/FACT-03/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 17.44
     }
    ],
@@ -740,6 +767,7 @@
      "poster": "assets/diagrams/DIA-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 22.4
     }
    ],
@@ -765,6 +793,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 2.96
     }
    ],
@@ -788,6 +817,7 @@
      "poster": "assets/chapters/CH-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -886,6 +916,7 @@
      "poster": "assets/code/CODE-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 25.92
     }
    ],
@@ -948,6 +979,7 @@
      "poster": "assets/code/CODE-26/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 9.815
     }
    ],
@@ -973,6 +1005,7 @@
      "poster": "assets/code/CODE-27/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.88
     }
    ],
@@ -996,6 +1029,7 @@
      "poster": "assets/chapters/CH-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -1010,16 +1044,17 @@
    "written": "Before we write any code, let's make sure we all know how War works, because you might not have played it since you were eight. Or maybe you've never played it at all. It's a children's card game — no strategy, no decisions, pure luck — which makes it perfect for a computer simulation, because there are no choices to model.",
    "visuals": [
     {
-     "id": "CODE-27",
+     "id": "DIA-02",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/poster.png",
-     "duration": null,
+     "file": "assets/diagrams/DIA-02/exports/deck-hold.mp4",
+     "duration": 30.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
+     "poster": "assets/diagrams/DIA-02/exports/poster.png",
+     "cutdown": "deck-hold",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 19.12
     }
    ],
@@ -1045,7 +1080,22 @@
      "poster": "assets/diagrams/DIA-15/exports/poster.png",
      "cutdown": "riffle",
      "key_second": 2.0,
-     "slot": 10.4
+     "offset": 0.0,
+     "slot": 3.907
+    },
+    {
+     "id": "DIA-02",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-02/exports/alternating-deal.mp4",
+     "duration": 20.0,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/diagrams/DIA-02/exports/poster.png",
+     "cutdown": "alternating-deal",
+     "key_second": 0.6,
+     "offset": 0.0,
+     "slot": 6.493
     }
    ],
    "held": false
@@ -1060,16 +1110,17 @@
    "written": "Two. Each round, both players flip their top card face-up at the same time. Whoever played the higher card takes both cards and puts them at the bottom of their pile. Aces are high — they beat everything.",
    "visuals": [
     {
-     "id": "DIA-15",
+     "id": "DIA-02",
      "kind": "motion",
-     "file": "assets/diagrams/DIA-15/exports/poster.png",
-     "duration": null,
+     "file": "assets/diagrams/DIA-02/exports/normal-round.mp4",
+     "duration": 16.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
-     "key_second": 0.0,
+     "poster": "assets/diagrams/DIA-02/exports/poster.png",
+     "cutdown": "normal-round",
+     "key_second": 1.2,
+     "offset": 0.0,
      "slot": 13.52
     }
    ],
@@ -1085,9 +1136,9 @@
    "written": "Three. If both players flip the same rank — two sevens, two kings, whatever — it's War. Each player places three cards face-down, then flips a fourth card face-up. Whoever's face-up card is higher takes the entire pot — all ten cards. If it's another tie, you do it again. War can chain.",
    "visuals": [
     {
-     "id": "DIA-15",
+     "id": "DIA-02",
      "kind": "motion",
-     "file": "assets/diagrams/DIA-15/exports/poster.png",
+     "file": "assets/diagrams/DIA-02/exports/poster.png",
      "duration": null,
      "segment": "",
      "still": true,
@@ -1095,7 +1146,21 @@
      "poster": null,
      "cutdown": "poster",
      "key_second": 0.0,
-     "slot": 20.88
+     "slot": 4.909
+    },
+    {
+     "id": "DIA-02",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-02/exports/single-war.mp4",
+     "duration": 20.0,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/diagrams/DIA-02/exports/poster.png",
+     "cutdown": "single-war",
+     "key_second": 1.0,
+     "offset": 0.0,
+     "slot": 15.971
     }
    ],
    "held": false
@@ -1110,16 +1175,17 @@
    "written": "Four. You keep playing until one player has all 52 cards. That player wins. If a player runs out of cards during a war, they lose.",
    "visuals": [
     {
-     "id": "DIA-15",
+     "id": "DIA-02",
      "kind": "motion",
-     "file": "assets/diagrams/DIA-15/exports/poster.png",
-     "duration": null,
+     "file": "assets/diagrams/DIA-02/exports/final-hold.mp4",
+     "duration": 14.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
+     "poster": "assets/diagrams/DIA-02/exports/poster.png",
+     "cutdown": "final-hold",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.24
     }
    ],
@@ -1145,6 +1211,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 12.8
     }
    ],
@@ -1168,6 +1235,7 @@
      "poster": "assets/chapters/CH-06/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -1192,6 +1260,7 @@
      "poster": "assets/code/CODE-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.32
     }
    ],
@@ -1242,6 +1311,7 @@
      "poster": "assets/code/CODE-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.32
     }
    ],
@@ -1267,6 +1337,7 @@
      "poster": "assets/code/CODE-23/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 13.36
     }
    ],
@@ -1292,6 +1363,7 @@
      "poster": "assets/diagrams/DIA-03/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 22.96
     }
    ],
@@ -1317,6 +1389,7 @@
      "poster": "assets/code/CODE-24/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 7.12
     }
    ],
@@ -1342,6 +1415,7 @@
      "poster": "assets/code/CODE-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.28
     }
    ],
@@ -1367,6 +1441,7 @@
      "poster": "assets/facts/FACT-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 9.04
     }
    ],
@@ -1392,6 +1467,7 @@
      "poster": "assets/comparisons/CMP-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 20.4
     }
    ],
@@ -1415,6 +1491,7 @@
      "poster": "assets/chapters/CH-07/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -1439,6 +1516,7 @@
      "poster": "assets/code/CODE-03/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 5.84
     }
    ],
@@ -1464,6 +1542,7 @@
      "poster": "assets/code/CODE-03/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 17.04
     }
    ],
@@ -1489,6 +1568,7 @@
      "poster": "assets/diagrams/DIA-07/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.2
     }
    ],
@@ -1514,6 +1594,7 @@
      "poster": "assets/comparisons/CMP-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.48
     }
    ],
@@ -1539,6 +1620,7 @@
      "poster": "assets/diagrams/DIA-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 25.44
     }
    ],
@@ -1589,6 +1671,7 @@
      "poster": "assets/comparisons/CMP-03/exports/poster.png",
      "cutdown": "transform",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 20.96
     }
    ],
@@ -1614,6 +1697,7 @@
      "poster": "assets/comparisons/CMP-03/exports/poster.png",
      "cutdown": "transform",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.4
     }
    ],
@@ -1639,6 +1723,7 @@
      "poster": "assets/code/CODE-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 0.96
     }
    ],
@@ -1664,6 +1749,7 @@
      "poster": "assets/code/CODE-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 25.28
     }
    ],
@@ -1689,6 +1775,7 @@
      "poster": "assets/comparisons/CMP-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 7.04
     }
    ],
@@ -1714,6 +1801,7 @@
      "poster": "assets/diagrams/DIA-06/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 20.4
     }
    ],
@@ -1739,6 +1827,7 @@
      "poster": "assets/code/CODE-28/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.153
     },
     {
@@ -1752,6 +1841,7 @@
      "poster": "assets/reference-code/REF-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.407
     }
    ],
@@ -1775,6 +1865,7 @@
      "poster": "assets/chapters/CH-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -1789,16 +1880,17 @@
    "written": "Here's where things get interesting from a data structures perspective. Each player has a hand of cards, and that hand needs to behave like a queue — first in, first out. When you win cards, they go to the bottom of your pile. When you play a card, it comes off the top.",
    "visuals": [
     {
-     "id": "REF-05",
-     "kind": "still",
-     "file": "assets/reference-code/REF-05/exports/poster.png",
-     "duration": null,
+     "id": "DIA-05",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-05/exports/live-slots.mp4",
+     "duration": 18.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": "assets/reference-code/REF-05/exports/poster.png",
-     "cutdown": null,
+     "poster": "assets/diagrams/DIA-05/exports/poster.png",
+     "cutdown": "live-slots",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.4
     }
    ],
@@ -1824,6 +1916,7 @@
      "poster": "assets/comparisons/CMP-09/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 17.52
     }
    ],
@@ -1849,6 +1942,7 @@
      "poster": "assets/comparisons/CMP-09/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 1.2
     }
    ],
@@ -1874,6 +1968,7 @@
      "poster": "assets/code/CODE-06/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.72
     },
     {
@@ -1887,6 +1982,7 @@
      "poster": "assets/code/CODE-07/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.72
     }
    ],
@@ -1912,7 +2008,21 @@
      "poster": null,
      "cutdown": "poster",
      "key_second": 0.0,
-     "slot": 6.0
+     "slot": 3.5
+    },
+    {
+     "id": "DIA-05",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-05/exports/append.mp4",
+     "duration": 12.0,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/diagrams/DIA-05/exports/poster.png",
+     "cutdown": "append",
+     "key_second": 1.0,
+     "offset": 0.0,
+     "slot": 2.5
     }
    ],
    "held": false
@@ -1937,6 +2047,7 @@
      "poster": "assets/code/CODE-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 7.52
     }
    ],
@@ -1952,17 +2063,32 @@
    "written": "That shift is O(n) — every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in O(1). But we're writing 1995 VB. Nobody was thinking about algorithmic complexity when they had 26 cards in a hand. Computers were slower, but data sets were tiny.",
    "visuals": [
     {
-     "id": "CODE-08",
-     "kind": "code",
-     "file": "assets/code/CODE-08/exports/poster.png",
-     "duration": null,
+     "id": "DIA-05",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-05/exports/draw-shift.mp4",
+     "duration": 12.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
-     "key_second": 0.0,
-     "slot": 20.16
+     "poster": "assets/diagrams/DIA-05/exports/poster.png",
+     "cutdown": "draw-shift",
+     "key_second": 1.2,
+     "offset": 0.0,
+     "slot": 0.633
+    },
+    {
+     "id": "DIA-05",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-05/exports/cost.mp4",
+     "duration": 20.0,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/diagrams/DIA-05/exports/poster.png",
+     "cutdown": "cost",
+     "key_second": 1.2,
+     "offset": 0.0,
+     "slot": 19.527
     }
    ],
    "held": false
@@ -1987,6 +2113,7 @@
      "poster": "assets/code/CODE-09/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.96
     }
    ],
@@ -2037,6 +2164,7 @@
      "poster": "assets/code/CODE-10/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.16
     },
     {
@@ -2050,6 +2178,7 @@
      "poster": "assets/comparisons/CMP-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.16
     }
    ],
@@ -2075,6 +2204,7 @@
      "poster": "assets/comparisons/CMP-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 4.8
     }
    ],
@@ -2100,6 +2230,7 @@
      "poster": "assets/facts/FACT-05/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.72
     }
    ],
@@ -2123,6 +2254,7 @@
      "poster": "assets/chapters/CH-09/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -2147,6 +2279,7 @@
      "poster": "assets/diagrams/DIA-10/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 4.96
     }
    ],
@@ -2172,6 +2305,7 @@
      "poster": "assets/code/CODE-11/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.44
     },
     {
@@ -2185,6 +2319,7 @@
      "poster": "assets/code/CODE-12/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.44
     }
    ],
@@ -2235,6 +2370,7 @@
      "poster": "assets/comparisons/CMP-07/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.8
     }
    ],
@@ -2260,6 +2396,7 @@
      "poster": "assets/code/CODE-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 22.4
     }
    ],
@@ -2310,6 +2447,7 @@
      "poster": "assets/comparisons/CMP-06/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 26.88
     }
    ],
@@ -2335,6 +2473,7 @@
      "poster": "assets/comparisons/CMP-06/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 7.2
     }
    ],
@@ -2360,6 +2499,7 @@
      "poster": "assets/comparisons/CMP-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 24.64
     }
    ],
@@ -2383,6 +2523,7 @@
      "poster": "assets/chapters/CH-10/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -2407,6 +2548,7 @@
      "poster": "assets/code/CODE-15/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 13.12
     }
    ],
@@ -2457,6 +2599,7 @@
      "poster": "assets/code/CODE-16/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 4.56
     }
    ],
@@ -2495,6 +2638,7 @@
      "poster": "assets/diagrams/DIA-09/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.436
     }
    ],
@@ -2545,6 +2689,7 @@
      "poster": "assets/code/CODE-17/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 7.04
     }
    ],
@@ -2570,6 +2715,7 @@
      "poster": "assets/code/CODE-18/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 4.72
     }
    ],
@@ -2595,6 +2741,7 @@
      "poster": "assets/code/CODE-19/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 13.28
     }
    ],
@@ -2610,16 +2757,17 @@
    "written": "Each player burns up to three cards face-down — or fewer, if they don't have three left. Then the loop goes back to the top, draws again, and compares again. If it's another tie, another war. The pot keeps growing.",
    "visuals": [
     {
-     "id": "CODE-19",
-     "kind": "code",
-     "file": "assets/code/CODE-19/exports/poster.png",
-     "duration": null,
+     "id": "DIA-08",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-08/exports/preview.mp4",
+     "duration": 12.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
+     "poster": "assets/diagrams/DIA-08/exports/poster.png",
+     "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.32
     }
    ],
@@ -2635,9 +2783,9 @@
    "written": "Notice this line:",
    "visuals": [
     {
-     "id": "CODE-19",
-     "kind": "code",
-     "file": "assets/code/CODE-19/exports/poster.png",
+     "id": "DIA-08",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-08/exports/poster.png",
      "duration": null,
      "segment": "",
      "still": true,
@@ -2670,6 +2818,7 @@
      "poster": "assets/code/CODE-21/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.72
     }
    ],
@@ -2695,6 +2844,7 @@
      "poster": "assets/code/CODE-22/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.72
     }
    ],
@@ -2743,6 +2893,7 @@
      "poster": "assets/chapters/CH-11/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -2816,6 +2967,7 @@
      "poster": "assets/facts/FACT-07/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.4
     }
    ],
@@ -2841,6 +2993,7 @@
      "poster": "assets/facts/FACT-07/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.64
     }
    ],
@@ -2864,6 +3017,7 @@
      "poster": "assets/chapters/CH-12/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -2928,16 +3082,17 @@
    "written": "Going into round 617, Player 2 had exactly 2 cards left — against Player 1's 50. Both played a 10: tie, war. Normally each player burns three cards face-down and flips a fourth. But Player 2 only had 1 card left after playing that 10. So what does the code do?",
    "visuals": [
     {
-     "id": "TERM-04",
-     "kind": "capture",
-     "file": "assets/captures/TERM-04/exports/framed-end.png",
-     "duration": null,
+     "id": "DIA-08",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-08/exports/endgame.mp4",
+     "duration": 42.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "end",
-     "key_second": 0.0,
+     "poster": "assets/diagrams/DIA-08/exports/poster.png",
+     "cutdown": "endgame",
+     "key_second": 6.5,
+     "offset": 0.0,
      "slot": 21.12
     }
    ],
@@ -2963,7 +3118,22 @@
      "poster": "assets/code/CODE-20/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
-     "slot": 21.28
+     "offset": 0.0,
+     "slot": 7.574
+    },
+    {
+     "id": "DIA-08",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-08/exports/endgame.mp4",
+     "duration": 14.64,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/diagrams/DIA-08/exports/poster.png",
+     "cutdown": "endgame",
+     "key_second": 0.0,
+     "offset": 27.36,
+     "slot": 13.706
     }
    ],
    "held": false
@@ -3038,6 +3208,7 @@
      "poster": "assets/facts/FACT-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.2
     }
    ],
@@ -3063,6 +3234,7 @@
      "poster": "assets/facts/FACT-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 4.64
     }
    ],
@@ -3088,6 +3260,7 @@
      "poster": "assets/facts/FACT-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 5.76
     }
    ],
@@ -3111,6 +3284,7 @@
      "poster": "assets/chapters/CH-13/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -3135,6 +3309,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.16
     }
    ],
@@ -3160,6 +3335,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 5.36
     }
    ],
@@ -3185,6 +3361,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.48
     }
    ],
@@ -3210,6 +3387,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 3.92
     }
    ],
@@ -3235,6 +3413,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 19.36
     }
    ],
@@ -3260,6 +3439,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.56
     },
     {
@@ -3273,6 +3453,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.56
     }
    ],
@@ -3298,6 +3479,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.04
     },
     {
@@ -3311,6 +3493,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.04
     }
    ],
@@ -3336,6 +3519,7 @@
      "poster": "assets/facts/FACT-06/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 15.76
     }
    ],
@@ -3361,6 +3545,7 @@
      "poster": "assets/mockups/MOCK-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.28
     },
     {
@@ -3374,6 +3559,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.28
     }
    ],
@@ -3399,6 +3585,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 21.28
     }
    ],
@@ -3424,6 +3611,7 @@
      "poster": "assets/mockups/MOCK-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 5.52
     }
    ],
@@ -3447,6 +3635,7 @@
      "poster": "assets/chapters/CH-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -3471,6 +3660,7 @@
      "poster": "assets/stills/XTRA-08/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.56
     }
    ],
@@ -3496,6 +3686,7 @@
      "poster": "assets/reference-code/REF-01/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 28.56
     }
    ],
@@ -3546,6 +3737,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 25.2
     }
    ],
@@ -3571,6 +3763,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.0
     }
    ],
@@ -3596,6 +3789,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.88
     }
    ],
@@ -3621,6 +3815,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 9.84
     }
    ],
@@ -3646,6 +3841,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 21.84
     }
    ],
@@ -3671,6 +3867,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 27.84
     }
    ],
@@ -3696,6 +3893,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.0
     }
    ],
@@ -3721,6 +3919,7 @@
      "poster": "assets/diagrams/DIA-11/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 20.4
     }
    ],
@@ -3744,6 +3943,7 @@
      "poster": "assets/chapters/CH-15/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -3768,6 +3968,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 5.6
     }
    ],
@@ -3793,6 +3994,7 @@
      "poster": "assets/stills/XTRA-10/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 20.32
     }
    ],
@@ -3818,6 +4020,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.4
     }
    ],
@@ -3843,6 +4046,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.56
     }
    ],
@@ -3868,6 +4072,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 9.6
     }
    ],
@@ -3893,6 +4098,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 18.48
     }
    ],
@@ -3918,6 +4124,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.88
     }
    ],
@@ -3943,6 +4150,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 17.44
     }
    ],
@@ -3968,6 +4176,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 10.88
     }
    ],
@@ -3993,6 +4202,7 @@
      "poster": "assets/diagrams/DIA-12/exports/poster.png",
      "cutdown": "row-console",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 24.0
     }
    ],
@@ -4018,6 +4228,7 @@
      "poster": "assets/diagrams/DIA-12/exports/poster.png",
      "cutdown": "row-gui",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.44
     }
    ],
@@ -4043,6 +4254,7 @@
      "poster": "assets/diagrams/DIA-12/exports/poster.png",
      "cutdown": "row-gui",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 3.28
     }
    ],
@@ -4068,6 +4280,7 @@
      "poster": "assets/diagrams/DIA-12/exports/poster.png",
      "cutdown": "full",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 14.32
     }
    ],
@@ -4091,6 +4304,7 @@
      "poster": "assets/chapters/CH-16/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -4115,6 +4329,7 @@
      "poster": "assets/diagrams/DIA-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 27.52
     }
    ],
@@ -4140,6 +4355,7 @@
      "poster": "assets/stills/XTRA-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 8.64
     }
    ],
@@ -4165,6 +4381,7 @@
      "poster": "assets/code/CODE-29/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.28
     }
    ],
@@ -4190,6 +4407,7 @@
      "poster": "assets/code/CODE-29/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 2.48
     }
    ],
@@ -4215,6 +4433,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.04
     }
    ],
@@ -4243,6 +4462,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 9.6
     }
    ],
@@ -4268,6 +4488,7 @@
      "poster": "assets/stills/XTRA-15/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 17.68
     }
    ],
@@ -4293,6 +4514,7 @@
      "poster": "assets/stills/XTRA-15/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 17.92
     }
    ],
@@ -4318,6 +4540,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 25.44
     }
    ],
@@ -4343,6 +4566,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 3.12
     }
    ],
@@ -4368,6 +4592,7 @@
      "poster": null,
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 12.24
     }
    ],
@@ -4393,6 +4618,7 @@
      "poster": "assets/diagrams/DIA-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 23.2
     }
    ],
@@ -4418,6 +4644,7 @@
      "poster": "assets/diagrams/DIA-14/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 6.16
     }
    ],
@@ -4443,6 +4670,7 @@
      "poster": "assets/diagrams/DIA-13/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 24.96
     }
    ],
@@ -4565,6 +4793,7 @@
      "poster": "assets/cards/CARD-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 16.88
     }
    ],
@@ -4613,6 +4842,7 @@
      "poster": "assets/cards/CARD-02/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
+     "offset": 0.0,
      "pending": null
     }
    ]
@@ -4678,10 +4908,13 @@
   "CODE-28",
   "CODE-29",
   "DIA-01",
+  "DIA-02",
   "DIA-03",
   "DIA-04",
+  "DIA-05",
   "DIA-06",
   "DIA-07",
+  "DIA-08",
   "DIA-09",
   "DIA-10",
   "DIA-11",

@@ -1,6 +1,6 @@
 # ASM-03 timeline report
 
-181 segments, 41.4 min, assets used 122/136, beats without audio 0, unmapped cues 0.
+181 segments, 41.4 min, assets used 125/139, beats without audio 0, unmapped cues 0.
 
 ## Pending cutdowns (asset not delivered yet; current export used)
 
@@ -8,17 +8,7 @@
 
 ## Decisions and guards
 
-- S05-B01: DIA-02 is not cleared or has no record; skipped
-- S05-B02: DIA-02 is not cleared or has no record; skipped
-- S05-B03: DIA-02 is not cleared or has no record; skipped
-- S05-B04: DIA-02 is not cleared or has no record; skipped
-- S05-B05: DIA-02 is not cleared or has no record; skipped
-- S08-B01: DIA-05 is not cleared or has no record; skipped
-- S08-B05: DIA-05 is not cleared or has no record; skipped
-- S08-B07: DIA-05 is not cleared or has no record; skipped
-- S08-B07: DIA-05 is not cleared or has no record; skipped
-- S10-B09: DIA-08 is not cleared or has no record; skipped
-- S12-B03: DIA-08 is not cleared or has no record; skipped
+- none
 
 ## Every beat
 
@@ -58,11 +48,11 @@
 | 8:24 | S04-B05 | 6.2 | hold | CODE-01:poster (6.2 s) |
 | 8:31 | S04-B06 | 17.6 | placement map | XTRA-06 (7.8 s), CODE-26 (9.8 s) |
 | 8:49 | S04-B07 | 18.9 | placement map | CODE-27 (18.9 s) |
-| 9:12 | S05-B01 | 19.1 | placement map | CODE-27:poster (19.1 s) |
-| 9:32 | S05-B02 | 10.4 | placement map | DIA-15:riffle (8.6 s) |
-| 9:43 | S05-B03 | 13.5 | placement map | DIA-15:poster (13.5 s) |
-| 9:56 | S05-B04 | 20.9 | placement map | DIA-15:poster (20.9 s) |
-| 10:18 | S05-B05 | 10.2 | placement map | DIA-15:poster (10.2 s) |
+| 9:12 | S05-B01 | 19.1 | placement map | DIA-02:deck-hold (19.1 s) |
+| 9:32 | S05-B02 | 10.4 | placement map | DIA-15:riffle (3.9 s), DIA-02:alternating-deal (6.5 s) |
+| 9:43 | S05-B03 | 13.5 | placement map | DIA-02:normal-round (13.5 s) |
+| 9:56 | S05-B04 | 20.9 | placement map | DIA-02:poster (4.9 s), DIA-02:single-war (16.0 s) |
+| 10:18 | S05-B05 | 10.2 | placement map | DIA-02:final-hold (10.2 s) |
 | 10:28 | S05-B06 | 12.8 | placement map | BROLL-02 (12.8 s) |
 | 10:46 | S06-B01 | 6.3 | cue | CODE-02 (6.3 s) |
 | 10:53 | S06-B02 | 22.1 | hold | CODE-02:poster (22.1 s) |
@@ -86,13 +76,13 @@
 | 15:46 | S07-B11 | 7.0 | cue overflow | CMP-04 (7.0 s) |
 | 15:54 | S07-B12 | 20.4 | placement map | DIA-06 (20.4 s) |
 | 16:15 | S07-B13 | 24.6 | placement map | CODE-28 (14.2 s), REF-05 (10.4 s) |
-| 16:44 | S08-B01 | 16.4 | placement map | REF-05 (16.4 s) |
+| 16:44 | S08-B01 | 16.4 | placement map | DIA-05:live-slots (16.4 s) |
 | 17:00 | S08-B02 | 17.5 | placement map | CMP-09 (17.5 s) |
 | 17:18 | S08-B03 | 1.2 | placement map | CMP-09 (1.2 s) |
 | 17:20 | S08-B04 | 17.4 | placement map | CODE-06 (8.7 s), CODE-07 (8.7 s) |
-| 17:38 | S08-B05 | 6.0 | placement map | CODE-07:poster (6.0 s) |
+| 17:38 | S08-B05 | 6.0 | placement map | CODE-07:poster (3.5 s), DIA-05:append (2.5 s) |
 | 17:44 | S08-B06 | 7.5 | placement map | CODE-08 (7.5 s) |
-| 17:52 | S08-B07 | 20.2 | placement map | CODE-08:poster (20.2 s) |
+| 17:52 | S08-B07 | 20.2 | placement map | DIA-05:draw-shift (0.6 s), DIA-05:cost (19.5 s) |
 | 18:13 | S08-B08 | 11.0 | placement map | CODE-09 (11.0 s) |
 | 18:24 | S08-B09 | 2.4 | placement map | CODE-09:poster (2.4 s) |
 | 18:27 | S08-B10 | 20.3 | placement map | CODE-10 (10.2 s), CMP-05 (10.2 s) |
@@ -115,8 +105,8 @@
 | 22:14 | S10-B06 | 7.0 | placement map | CODE-17 (7.0 s) |
 | 22:22 | S10-B07 | 4.7 | placement map | CODE-18 (4.7 s) |
 | 22:27 | S10-B08 | 13.3 | placement map | CODE-19 (13.3 s) |
-| 22:41 | S10-B09 | 14.3 | placement map | CODE-19:poster (14.3 s) |
-| 22:55 | S10-B10 | 1.1 | placement map | CODE-19:poster (1.1 s) |
+| 22:41 | S10-B09 | 14.3 | placement map | DIA-08 (14.3 s) |
+| 22:55 | S10-B10 | 1.1 | placement map | DIA-08:poster (1.1 s) |
 | 22:57 | S10-B11 | 16.7 | placement map | CODE-21 (16.7 s) |
 | 23:14 | S10-B12 | 8.7 | placement map | CODE-22 (8.7 s) |
 | 23:23 | S10-B13 | 23.7 | placement map | CODE-22:poster (23.7 s) |
@@ -126,8 +116,8 @@
 | 24:21 | S11-B04 | 16.6 | placement map | FACT-07 (16.6 s) |
 | 24:42 | S12-B01 | 11.4 | placement map | TERM-04:end (11.4 s) |
 | 24:54 | S12-B02 | 5.9 | placement map | TERM-04:end (5.9 s) |
-| 25:00 | S12-B03 | 21.1 | placement map | TERM-04:end (21.1 s) |
-| 25:22 | S12-B04 | 21.3 | placement map | CODE-20 (21.3 s) |
+| 25:00 | S12-B03 | 21.1 | placement map | DIA-08:endgame (21.1 s) |
+| 25:22 | S12-B04 | 21.3 | placement map | CODE-20 (7.6 s), DIA-08:endgame (13.7 s) |
 | 25:44 | S12-B05 | 8.2 | placement map | TERM-02:end (8.2 s) |
 | 25:52 | S12-B06 | 14.7 | placement map | TERM-02:end (14.7 s) |
 | 26:07 | S12-B07 | 23.2 | placement map | FACT-08 (23.2 s) |
@@ -161,7 +151,7 @@
 | 33:15 | S15-B04 | 18.6 | placement map | HIST-13 (18.6 s) |
 | 33:34 | S15-B05 | 9.6 | placement map | HIST-13 (9.6 s) |
 | 33:44 | S15-B06 | 18.5 | placement map | HIST-13 (18.5 s) |
-| 34:03 | S15-B07 | 16.9 | placement map | HIST-14 (16.0 s) |
+| 34:03 | S15-B07 | 16.9 | placement map | HIST-14 (16.9 s) |
 | 34:20 | S15-B08 | 17.4 | placement map | HIST-14 (17.4 s) |
 | 34:38 | S15-B09 | 10.9 | placement map | HIST-14 (10.9 s) |
 | 34:49 | S15-B10 | 24.0 | placement map | DIA-12:row-console (24.0 s) |

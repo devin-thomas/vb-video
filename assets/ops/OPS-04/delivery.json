@@ -36,20 +36,20 @@
     {
       "path": "exports/editor-inventory.csv",
       "role": "coordination export",
-      "bytes": 41067,
-      "sha256": "e266f9d90a148bcb19964357d77945a40137039fd2c4544bfd5f478312aafb52"
+      "bytes": 41284,
+      "sha256": "fa25c56348d293fa78b8a139d9f030e2b37a06d300248dde774b42a9aea7ade8"
     },
     {
       "path": "exports/exceptions.md",
       "role": "coordination export",
       "bytes": 10197,
-      "sha256": "8dc2a45545392059138be1cb247400066a063d62bac5cfcf4f366ff88a88bc94"
+      "sha256": "e97ac1c7084115cef18b05c1c212e0fba1302f34fa509737587517f75575c7ab"
     },
     {
       "path": "exports/report.md",
       "role": "coordination export",
       "bytes": 1858,
-      "sha256": "4753c434ea7a6ae876457e489197996765369d645d012469e0e01d4c87425300"
+      "sha256": "eb51cfc8fd4b84e5c2ab39dbf8842f7df6ba6589434a7c490da4da2006b9e88a"
     },
     {
       "path": "qa.md",
