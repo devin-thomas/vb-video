@@ -40,10 +40,15 @@
     }
   ],
   "authored_additions": [
-    "Authored queue demonstration with exact assignment order. Temporary duplicate memory values during copying are intentional; Count distinguishes the live range from stale storage."
+    "Authored queue demonstration with exact assignment order. Temporary duplicate memory values during copying are intentional and drawn as faded copies; Count distinguishes the live range from stale storage.",
+    "Revision 2 (2026-09-16): the demonstration follows narration order (append before draw), so the ticket's illustrative cards [2♠,5♥,9♦,K♣] receive A♠ at index 4 (Count 4→5) and the draw then copies 5♥→0, 9♦→1, K♣→2, A♠→3 (Count 5→4). Code lines shown are verbatim Program.vb lines 24–25 and 154–166.",
+    "The cost view's 26-card hand is an authored illustrative fixture (the four ticket cards plus 22 further distinct cards); 26 is the dealt hand size stated in Program.vb's DealCards comment. It is not recorded program output.",
+    "Card faces are the shared win95-workbench-1.1.0 primitives drawn by tools/render/studio.py; no third-party images."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "Revision 2 opened from review/cut-notes-2026-09-16.md (Devin's approval of proposal 1, 17:20–18:24): beat-accurate cutdowns live-slots, append, draw-shift, cost with key_second recorded for ASM-03."
+  ]
 }

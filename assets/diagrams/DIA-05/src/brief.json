@@ -8,11 +8,10 @@
     "Count is an integer marking the live boundary, not a memory-address pointer. Keep “next to draw” at index 0."
   ],
   "beats": [
-    "0–3 s: 52-slot overview, capacity 52, live boundary at 4.",
-    "3–6 s: zoom and take index 0 into the returned-card area.",
-    "6–11 s: perform the three assignments in increasing i order.",
-    "11–14 s: Count becomes 3 and the stale tail becomes inactive.",
-    "14–18 s: append A♠ at index 3; Count becomes 4."
+    "0–4 s: live-slots — the array at rest, Count = 4 marking the live boundary; holds 4 s.",
+    "4–8.5 s: append — the card C lands in slot 4 (position Count); holds 2.2 s.",
+    "8.5–16.5 s: draw-shift — the first shift movement: H.Cards(0) = H.Cards(1); holds 2.6 s.",
+    "16.5–22.5 s: cost — every remaining card starts moving one slot forward at once; holds 3.2 s."
   ],
   "checks": [
     "No card is drawn from the array end.",
@@ -43,5 +42,43 @@
       167
     ]
   ],
-  "gates": []
+  "gates": [],
+  "revision": 2,
+  "cutdowns": {
+    "live-slots": {
+      "duration_seconds": 18,
+      "key_second": 0.0,
+      "key_moment": "the array at rest, Count = 4 marking the live boundary",
+      "serves": [
+        "S08-B01",
+        "S08-B04"
+      ]
+    },
+    "append": {
+      "duration_seconds": 12,
+      "key_second": 1.0,
+      "key_moment": "the card C lands in slot 4 (position Count)",
+      "serves": [
+        "S08-B05"
+      ]
+    },
+    "draw-shift": {
+      "duration_seconds": 12,
+      "key_second": 1.2,
+      "key_moment": "the first shift movement: H.Cards(0) = H.Cards(1)",
+      "serves": [
+        "S08-B06",
+        "S08-B07"
+      ]
+    },
+    "cost": {
+      "duration_seconds": 20,
+      "key_second": 1.2,
+      "key_moment": "every remaining card starts moving one slot forward at once",
+      "serves": [
+        "S08-B07",
+        "S08-B08"
+      ]
+    }
+  }
 }
