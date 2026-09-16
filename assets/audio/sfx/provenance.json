@@ -1,0 +1,52 @@
+{
+ "acquired": "2026-09-15",
+ "approved_by": "Devin, in chat, 2026-09-15 ('Yes for the downloads')",
+ "method": "curl with a generic Mozilla/5.0 User-Agent; no login, payment or terms click-through",
+ "files": {
+  "mixkit-3175-thin-metal-card-deck-shuffle.wav": {
+   "role": "card shuffle",
+   "source": "https://mixkit.co/free-sound-effects/cards/",
+   "download": "https://assets.mixkit.co/active_storage/sfx/3175/3175.wav",
+   "title": "Thin metal card deck shuffle",
+   "licence": "Mixkit Sound Effects Free License (https://mixkit.co/license/#sfxFree): free for commercial use, no attribution required",
+   "bytes": 353530,
+   "sha256": "64dc42ccad3200e0c76cd78b1fa3c2a3b6b3eccf1058c74ef32bef87e4b6bd37"
+  },
+  "mixkit-2001-poker-card-placement.wav": {
+   "role": "card slap candidate",
+   "source": "https://mixkit.co/free-sound-effects/cards/",
+   "download": "https://assets.mixkit.co/active_storage/sfx/2001/2001.wav",
+   "title": "Poker card placement",
+   "licence": "Mixkit Sound Effects Free License",
+   "bytes": 199628,
+   "sha256": "ab50a48a5d063534b7ed6968156b68bf111f50efc86163af61e7346d16c067c8"
+  },
+  "mixkit-1994-cards-deck-hits.wav": {
+   "role": "card slap candidate",
+   "source": "https://mixkit.co/free-sound-effects/cards/",
+   "download": "https://assets.mixkit.co/active_storage/sfx/1994/1994.wav",
+   "title": "Cards deck hits",
+   "licence": "Mixkit Sound Effects Free License",
+   "bytes": 184024,
+   "sha256": "c851935f1a95792bce58f879cbbe2f226d59ddf1e2eb4bcd8da508fe4c2f95a2"
+  },
+  "mixkit-2002-poker-card-flick.wav": {
+   "role": "spare card flick",
+   "source": "https://mixkit.co/free-sound-effects/cards/",
+   "download": "https://assets.mixkit.co/active_storage/sfx/2002/2002.wav",
+   "title": "Poker card flick",
+   "licence": "Mixkit Sound Effects Free License",
+   "bytes": 239768,
+   "sha256": "5d238e066c0e2031d989e978f3d9a2bc92cdabe22d84af626cd11d628a07e1a9"
+  },
+  "ia-win95sounds-mssound.wav": {
+   "role": "Windows 95 startup sound, one comedic use (script Audio notes)",
+   "source": "https://archive.org/details/win95sounds",
+   "download": "https://archive.org/download/win95sounds/mssound.wav",
+   "title": "The Microsoft Sound (Windows 95 startup)",
+   "licence": "Microsoft Corporation (Brian Eno composition); no licence on the archive item. Used under Devin's standing rights ruling of 2026-09-15; not cleared by the archive.",
+   "bytes": 135876,
+   "sha256": "9d667f61d830fc908405d2392a2d695abd046437a2859e9289984fae2e62c0a2"
+  }
+ }
+}
