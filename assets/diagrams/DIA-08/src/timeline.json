@@ -121,7 +121,101 @@
   "variant_names": [
     "four-panel-poster",
     "single-war-motion",
-    "award-to-bottom"
+    "award-to-bottom",
+    "endgame"
   ],
-  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps.",
+  "variants": {},
+  "cuts_note": "endgame is a separate word-timed timeline (below), not a window of the 12 s war sequence.",
+  "endgame": {
+    "duration": 42.0,
+    "fps": 30,
+    "frames": [
+      {
+        "time": 0.0,
+        "file": "endgame-0000.svg"
+      },
+      {
+        "time": 6.5,
+        "file": "endgame-0001.svg"
+      },
+      {
+        "time": 7.33,
+        "file": "endgame-0002.svg"
+      },
+      {
+        "time": 11.88,
+        "file": "endgame-0003.svg"
+      },
+      {
+        "time": 27.36,
+        "file": "endgame-0004.svg"
+      },
+      {
+        "time": 29.17,
+        "file": "endgame-0005.svg"
+      },
+      {
+        "time": 32.05,
+        "file": "endgame-0006.svg"
+      },
+      {
+        "time": 37.82,
+        "file": "endgame-0007.svg"
+      },
+      {
+        "time": 37.97,
+        "file": "endgame-0008.svg"
+      },
+      {
+        "time": 38.12,
+        "file": "endgame-0009.svg"
+      },
+      {
+        "time": 38.27,
+        "file": "endgame-0010.svg"
+      },
+      {
+        "time": 38.42,
+        "file": "endgame-0011.svg"
+      },
+      {
+        "time": 38.57,
+        "file": "endgame-0012.svg"
+      },
+      {
+        "time": 38.72,
+        "file": "endgame-0013.svg"
+      },
+      {
+        "time": 38.87,
+        "file": "endgame-0014.svg"
+      },
+      {
+        "time": 39.02,
+        "file": "endgame-0014.svg"
+      }
+    ],
+    "poster": "variant-endgame.svg",
+    "html": "endgame.html",
+    "key_second": 6.5,
+    "stage_seconds": [
+      0.0,
+      6.5,
+      27.36,
+      37.82
+    ],
+    "sub_states": {
+      "normally": 7.33,
+      "only-one": 11.88,
+      "empty": 29.17,
+      "loop-top": 32.05
+    },
+    "landing": {
+      "key_second": "S12-B03 \"tie, war\"",
+      "stage_3": "S12-B04 \"so both players burned 1\"",
+      "stage_4": "S12-B04 \"Player 1 took the four-card pot\""
+    },
+    "render": "assets/diagrams/DIA-08/src/endgame.py render (CairoSVG raster + ffmpeg concat encode, the raster()/encode() functions of tools/render/render_assets.py)"
+  }
 }

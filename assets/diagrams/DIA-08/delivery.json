@@ -2,9 +2,10 @@
   "id": "DIA-08",
   "title": "War mechanic: tie, burn, flip, award",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "original authored source-based illustration",
-  "shared_version": "win95-workbench-1.0.0",
+  "shared_version": "win95-workbench-1.1.0",
+  "revision": 2,
   "duration_seconds": 12,
   "dimensions": {
     "width": 1920,
@@ -15,98 +16,140 @@
     {
       "path": "evidence/browser-tests.json",
       "role": "evidence / QA",
-      "bytes": 506,
-      "sha256": "56588f31b777ac085038bd69c659a7dc2f7705d5be79d040c3537793db835b39"
+      "bytes": 1162,
+      "sha256": "ebfc694adf07bc1ede3b779565dd0b11c54f6a37f8bc780ea62418de1f85beca"
     },
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 562,
-      "sha256": "416016e42edf5a594e1ff57e628208390cef3e19d2ef18bd56c22be0623c96ee"
+      "bytes": 1615,
+      "sha256": "8178d438213d521d9d07e77fd648df324332d2886b488c157641e1a94f52a270"
     },
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1485,
-      "sha256": "c9ed1b9d1d8aa02a377a2f45ccf7cc88d04318b83457f3c58d98f03ca1777dbb"
+      "bytes": 3743,
+      "sha256": "d33ee458c202bb4808732ca5bd4335e35342c612542ed3c7c5b803f79572864a"
     },
     {
       "path": "evidence/render-tests.json",
       "role": "evidence / QA",
-      "bytes": 2669,
-      "sha256": "a5bcd1ea115d7092c9191758d2dbf5d8705cad619a532a731a8934b625285ccb"
+      "bytes": 4016,
+      "sha256": "d30db1351352b18848dbfe55ab0d0c4253f62c8210d4bb766b790ba425f59181"
     },
     {
       "path": "evidence/source-excerpts.md",
       "role": "evidence / QA",
-      "bytes": 2893,
-      "sha256": "fd225e6983207cf395e446823f691ba4bf0bc8c406997d91e338ed98762e3927"
+      "bytes": 6967,
+      "sha256": "35332dbc747ed3c18e69c3b2a4045b89c880a3515de93f641a18cecb59b0dff8"
     },
     {
       "path": "exports/award-to-bottom.mp4",
       "role": "rendered motion",
-      "bytes": 208832,
-      "sha256": "6e15a5f5c69a45a0673d03e43fa98e86171e831d32dc36b8ac0b4de9f81370aa"
+      "bytes": 216839,
+      "sha256": "a91c33c5357b52699c1c2acaa6925576d0bc7bfe9a47d4b394893f83905bbbb5"
     },
     {
       "path": "exports/award-to-bottom.png",
       "role": "rendered still",
-      "bytes": 83207,
-      "sha256": "37182580ef7eea9e4b4538b82ab631d2c3a73004dba4ab524822a1309e8db163"
+      "bytes": 83201,
+      "sha256": "be445b70da68178dfff37b522591f79ae68a15a275f948465567f8da2b037eba"
     },
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 113753,
-      "sha256": "86a490067308133554f59f365214ab304f26ac3a620cf12795e2685820e60b0e"
+      "bytes": 162551,
+      "sha256": "1bed59453d59474ae22722361142bf5d8026f25662da146a0134713c38b6de96"
+    },
+    {
+      "path": "exports/endgame.mp4",
+      "role": "rendered motion",
+      "bytes": 1337609,
+      "sha256": "6b5761bbdb68e4e9f8b0e4e15bbe6e3bb42f8f6a091e30a5743a48845f145720"
+    },
+    {
+      "path": "exports/endgame.png",
+      "role": "rendered still",
+      "bytes": 119322,
+      "sha256": "8e54fc8abc8a6fbaff2d9a10ef2f2df2662ccc48bb18efb122fb1350073b9952"
     },
     {
       "path": "exports/four-panel-poster.png",
       "role": "rendered still",
-      "bytes": 67952,
-      "sha256": "7d23179586b97c933576b92d35d6ced9aa1688dbf04715e4f8a391e9018a309c"
+      "bytes": 71135,
+      "sha256": "f17c4443761468b32b04cbcc9de4cd4169ddd66849bf3f50058f645743efa824"
     },
     {
       "path": "exports/keyframes/end.png",
       "role": "rendered still",
-      "bytes": 65452,
-      "sha256": "74cac031f6a4057ccbf3e804f661a013b1573f150a68d0eb02c73331350604cd"
+      "bytes": 63610,
+      "sha256": "238d56592c4f1276f19176be3177cf00e00dcbc1346661765c06603961700e11"
     },
     {
       "path": "exports/keyframes/middle.png",
       "role": "rendered still",
-      "bytes": 89703,
-      "sha256": "3ef2e94557caeb05dae80b6f98a530738571531a2d7a6cc36636192319e476ac"
+      "bytes": 91421,
+      "sha256": "3dbc9e2a26be6399ba0166eb802dd3ce89b1029bd187f94247af825da315878b"
     },
     {
       "path": "exports/keyframes/start.png",
       "role": "rendered still",
-      "bytes": 70036,
-      "sha256": "4938a5ff61e871fe85cccc55133f87ede576109426dbce4dff2647d3c4fdeed6"
+      "bytes": 68808,
+      "sha256": "bf8e69bd9ac4f6afec853193b9253bb64110077b909c0205b0117422225aba9e"
     },
     {
       "path": "exports/poster.png",
       "role": "rendered still",
-      "bytes": 67952,
-      "sha256": "7d23179586b97c933576b92d35d6ced9aa1688dbf04715e4f8a391e9018a309c"
+      "bytes": 71135,
+      "sha256": "f17c4443761468b32b04cbcc9de4cd4169ddd66849bf3f50058f645743efa824"
     },
     {
       "path": "exports/preview.mp4",
       "role": "rendered motion",
-      "bytes": 430861,
-      "sha256": "51cd25f0e152d3ace173697e31920831ae0cb9b71399f04fe5c303204eae944d"
+      "bytes": 447654,
+      "sha256": "1177894c57d4f8ac52ab446d51bfdb8a55ed72f749f7391321a1772d72e3bfea"
     },
     {
       "path": "exports/single-war-motion.mp4",
       "role": "rendered motion",
-      "bytes": 430861,
-      "sha256": "51cd25f0e152d3ace173697e31920831ae0cb9b71399f04fe5c303204eae944d"
+      "bytes": 447654,
+      "sha256": "1177894c57d4f8ac52ab446d51bfdb8a55ed72f749f7391321a1772d72e3bfea"
     },
     {
       "path": "exports/single-war-motion.png",
       "role": "rendered still",
-      "bytes": 82192,
-      "sha256": "23d6b93296a47678d2cfcdf70c2aa01123c07e806fecf342d06b1dad08d1f4e4"
+      "bytes": 84227,
+      "sha256": "a6aa8ed8e7d180fd222fe15afc0b9c6fd7f13957109f8a5253936f2aaccd49b1"
+    },
+    {
+      "path": "proofs/endgame-720.png",
+      "role": "evidence / QA",
+      "bytes": 178356,
+      "sha256": "aabfa162f9bc6cf443bc287a9640fd6bfa1937ed9e627d89779192fe4e9cba7b"
+    },
+    {
+      "path": "proofs/endgame-stage1-720.png",
+      "role": "evidence / QA",
+      "bytes": 137819,
+      "sha256": "61ff46d89edeb8bcabe01edbba65498689d2b5cbe98be74530cd79c2ebe9e46c"
+    },
+    {
+      "path": "proofs/endgame-stage2-720.png",
+      "role": "evidence / QA",
+      "bytes": 139211,
+      "sha256": "358e7f1934aa158498bdac61f4abb0c9e58651ba77c7b5aebaf02c3c79db521d"
+    },
+    {
+      "path": "proofs/endgame-stage3-720.png",
+      "role": "evidence / QA",
+      "bytes": 171152,
+      "sha256": "d954edd38516ad6979dbca83900e7a3541c8a285c6fc0298454d9f4d44057c98"
+    },
+    {
+      "path": "proofs/endgame-stage4-720.png",
+      "role": "evidence / QA",
+      "bytes": 175557,
+      "sha256": "538cb3b5e8002c2d7c3d56af46bc4817df5dc67f75b49c9552a1be5de9f7ed01"
     },
     {
       "path": "proofs/gallery.jpg",
@@ -117,14 +160,14 @@
     {
       "path": "proofs/poster-720.png",
       "role": "evidence / QA",
-      "bytes": 82219,
-      "sha256": "b835a7c0c15ce1f1d6c558adef904686313d2fd2bc67f36ce10d93bbc3a32686"
+      "bytes": 94922,
+      "sha256": "5c0908a30fe4e6e2fda9c79ece3dc3b83ad107e13a164e555fba0140c1937dc8"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2574,
-      "sha256": "13c61c0d5ed283f0c4377c4006aefdeabbe4208ed444375ecfe44f836ccfacf1"
+      "bytes": 10949,
+      "sha256": "c5ccd3b6b2f6896077e3c78adf7b022e09f9e082c106bc6a82d1f19b7da463dd"
     },
     {
       "path": "src/brief.json",
@@ -135,146 +178,248 @@
     {
       "path": "src/build.json",
       "role": "editable source",
-      "bytes": 3215,
-      "sha256": "1957d86d3910a2bfe8fdeb36e9fda47d5a9fe54009f307b7843fb73438252073"
+      "bytes": 5170,
+      "sha256": "37eb2504f09d7e357122fe72126cbde49361c18d8dbbf186ab41b5f0390602a6"
+    },
+    {
+      "path": "src/endgame-0000.svg",
+      "role": "editable source",
+      "bytes": 8119,
+      "sha256": "2e11ee4c9234197d7964facd982f651454a08a1b8dfa1d16fc9b8a6734c8a0b7"
+    },
+    {
+      "path": "src/endgame-0001.svg",
+      "role": "editable source",
+      "bytes": 13528,
+      "sha256": "5dd18fac8feb7b8f2f7543019b1106911979b69a45e73cd452000346389d4ae6"
+    },
+    {
+      "path": "src/endgame-0002.svg",
+      "role": "editable source",
+      "bytes": 15004,
+      "sha256": "fe56ec3a56420c939acc5f41d6d0d74608b869f644b159ee15b1d25779e08d7b"
+    },
+    {
+      "path": "src/endgame-0003.svg",
+      "role": "editable source",
+      "bytes": 13506,
+      "sha256": "fdf8d27c897b9973262a8f6e78e51b1f458ccd70287d3c32c2a0346c129a6d9a"
+    },
+    {
+      "path": "src/endgame-0004.svg",
+      "role": "editable source",
+      "bytes": 14546,
+      "sha256": "7a060a232258099c1a65c20cc45537db07603174c6739a69b1644884b4ea820a"
+    },
+    {
+      "path": "src/endgame-0005.svg",
+      "role": "editable source",
+      "bytes": 14508,
+      "sha256": "527b6752392f9e03beba40da106cf9b2bf9e7301ac0011aa165e1adfae6403ef"
+    },
+    {
+      "path": "src/endgame-0006.svg",
+      "role": "editable source",
+      "bytes": 14523,
+      "sha256": "3817c34a435c496cf5948f84a9aa7ee4ceb0a972ce28bed46bc16932da19ba59"
+    },
+    {
+      "path": "src/endgame-0007.svg",
+      "role": "editable source",
+      "bytes": 14989,
+      "sha256": "f77e3f6c7b5214fedcc18994b93a90092ffee256afa39f4259800d5642528116"
+    },
+    {
+      "path": "src/endgame-0008.svg",
+      "role": "editable source",
+      "bytes": 12112,
+      "sha256": "54035d1df4378361363dfbc9dda91e36268f075e8167b60ffad6086c07cbcd29"
+    },
+    {
+      "path": "src/endgame-0009.svg",
+      "role": "editable source",
+      "bytes": 12112,
+      "sha256": "f3540fb9c89082c664e89d2b6db38d33d771e76b57749985b1d17d01484f2f19"
+    },
+    {
+      "path": "src/endgame-0010.svg",
+      "role": "editable source",
+      "bytes": 9063,
+      "sha256": "5b9e900fb9dfc1c1a9609e067e9a5e0620ce3bc0d4554635829f2238b4baf96e"
+    },
+    {
+      "path": "src/endgame-0011.svg",
+      "role": "editable source",
+      "bytes": 9063,
+      "sha256": "6f168c2504f1055d8060aed758cb36f7513b124e2b4c2d12badf52faa1f42fe1"
+    },
+    {
+      "path": "src/endgame-0012.svg",
+      "role": "editable source",
+      "bytes": 8551,
+      "sha256": "afdad76d0f743378c8f73b893bd2786b08883f66ea0fe67fece3251ec19776e4"
+    },
+    {
+      "path": "src/endgame-0013.svg",
+      "role": "editable source",
+      "bytes": 8551,
+      "sha256": "2866a73b33a50d02e742129017c3530b255381cd8d4616bff7597ba44349cc9a"
+    },
+    {
+      "path": "src/endgame-0014.svg",
+      "role": "editable source",
+      "bytes": 7634,
+      "sha256": "32d693a5322806f8698f27fd450d068e59e67bfe5913411d0b8ae3eed26bb2df"
+    },
+    {
+      "path": "src/endgame.html",
+      "role": "editable source",
+      "bytes": 199089,
+      "sha256": "5dc078b7c365394cb1af3ad3aabe9049d264e9eb5137a6be2941c8443bb49ceb"
+    },
+    {
+      "path": "src/endgame.py",
+      "role": "editable source",
+      "bytes": 15107,
+      "sha256": "d6fb97739f612402b172019d7b93e2d4228b3ce7ef0c9b4a1938623d3ceeb9e5"
     },
     {
       "path": "src/index.html",
       "role": "editable source",
-      "bytes": 251234,
-      "sha256": "b2fb01cfd1b5a9ebce4324b9a2fcfdb81ab8a2550146b5ab16bed13f9dba34b6"
+      "bytes": 297512,
+      "sha256": "ae8bfc6e5a39deade70cb89040c31dfc9016f4b584c88193ea615792e517cd14"
     },
     {
       "path": "src/scene-0000.svg",
       "role": "editable source",
-      "bytes": 7677,
-      "sha256": "416e86d895a76289260ba20f53d8231b4306af7b1165028f26872213f2a7d7ac"
+      "bytes": 9215,
+      "sha256": "7ff8890b9f337addbd94b1552034b1ba10214f01ee2473ed3222451f4d502ebc"
     },
     {
       "path": "src/scene-0001.svg",
       "role": "editable source",
-      "bytes": 10764,
-      "sha256": "888a1df7d2022df709c2deb85cc8cd8dfba7277b8799c28b851c2be1ce7973b0"
+      "bytes": 12302,
+      "sha256": "0e52a4f57b249f6c78da029bc7c6932ba27c669a8617ab95f53ac49187cef4c0"
     },
     {
       "path": "src/scene-0002.svg",
       "role": "editable source",
-      "bytes": 12676,
-      "sha256": "aac64266c3e025d0a0b06ec881ab97e7ceb7359b42f7a6a47dca8a0c9fb32ba6"
+      "bytes": 16106,
+      "sha256": "b7f35faf4c84f1610295480418d50e0a4dd22a9b578734c1f54c40b196baf7c1"
     },
     {
       "path": "src/scene-0003.svg",
       "role": "editable source",
-      "bytes": 12934,
-      "sha256": "9d68cf7f86b62cbadec6a630d253ffe27b4b041d51e2d1e9388412fc3c6e5cc1"
+      "bytes": 16370,
+      "sha256": "576f1b81a343be9301a666ae5f58a0ea2127641ae4810fb74c2cdd758c70b277"
     },
     {
       "path": "src/scene-0004.svg",
       "role": "editable source",
-      "bytes": 11976,
-      "sha256": "f8a7bd8bfd7905e08b5d83f14390744fdf7bd6f4975b93ee82deb4a883c99e64"
+      "bytes": 14637,
+      "sha256": "9dadd8f8653bdace0eea27f1c7c5440aef344bbb87fd864ee2bfdd50d1160b1e"
     },
     {
       "path": "src/scene-0005.svg",
       "role": "editable source",
-      "bytes": 11984,
-      "sha256": "ba9fd00831ec564e544b36f997760645217eff557b5d3939203a088253ac205d"
+      "bytes": 14651,
+      "sha256": "5e3269f93cca459adec883569e2a29613f7c3136b6c55b01084994e6d3cb305c"
     },
     {
       "path": "src/scene-0006.svg",
       "role": "editable source",
-      "bytes": 11026,
-      "sha256": "f9ad539b6f4468aa7c8b62b30de60cbe1a82f9cfeff7b426eb4e3f064157206a"
+      "bytes": 12918,
+      "sha256": "5f19f4e01a664b2dccac0c26c68e9c5e750b0ea51a852c0ce32123940172b6cb"
     },
     {
       "path": "src/scene-0007.svg",
       "role": "editable source",
-      "bytes": 11031,
-      "sha256": "ec70d82cfb1e9a0a0ed790af9e7115618ce3bf149026892222170ddcc0831f6b"
+      "bytes": 12923,
+      "sha256": "6e7977a8ecae837c3c1766f136845d264aed6a1dc328dc49a9dac36096ab8be4"
     },
     {
       "path": "src/scene-0008.svg",
       "role": "editable source",
-      "bytes": 10514,
-      "sha256": "4eae4257ef67516dca4b4813b16c65c6d17d65606e9c7bff115cd06b6e38adbb"
+      "bytes": 12406,
+      "sha256": "851c6b30efdab0b24507e2a06d3715c26f2bebedff3a73a8ec59f3bdeea0a728"
     },
     {
       "path": "src/scene-0009.svg",
       "role": "editable source",
-      "bytes": 10519,
-      "sha256": "d27e8d1185036801b3a0a713f70e1c05015bbf324fe0463a437bb512fa5f8522"
+      "bytes": 12411,
+      "sha256": "e07ed97e8229a4b746ae3bcd05c984b20fb7796ae2b9817ba724126c0da1e67d"
     },
     {
       "path": "src/scene-0010.svg",
       "role": "editable source",
-      "bytes": 10002,
-      "sha256": "d6203cb6b348ba3132403f29ad1afee5fb27014515e94eb19c187ffd2206a139"
+      "bytes": 11894,
+      "sha256": "236eaaea05f118834f8cd2596e8fd0f478aab32e38015e2566205cf8720021a8"
     },
     {
       "path": "src/scene-0011.svg",
       "role": "editable source",
-      "bytes": 10007,
-      "sha256": "d859a063fea14def2c58626c373e1aa88c0aa06cb6f188aef4511d56c5f1bc55"
+      "bytes": 11899,
+      "sha256": "279d729cc750429b9bfcaf4860680cd6327605668532742aacba3d888b64f289"
     },
     {
       "path": "src/scene-0012.svg",
       "role": "editable source",
-      "bytes": 9490,
-      "sha256": "141c5107656846d0d3edab9de29125fa1b10d447ed30ddcb34eacd33cd1f925d"
+      "bytes": 11382,
+      "sha256": "4683952b675d5de19ac5ad6f84611b367a78216405e597aa257685512768df55"
     },
     {
       "path": "src/scene-0013.svg",
       "role": "editable source",
-      "bytes": 9495,
-      "sha256": "7279306e08d916541546d8aa85b9ff3aaec32a9b6da9af4fc0c84dc732fe5cbc"
+      "bytes": 11387,
+      "sha256": "93d8e71a518c7c29ac91fda8e1a0b242f6d45da7b7bc7abe6c8871074f231f06"
     },
     {
       "path": "src/scene-0014.svg",
       "role": "editable source",
-      "bytes": 8978,
-      "sha256": "2fe580af005e2aa4eecae3cdf37727779fef76e8fd2b0fb053bc38a96bafc03a"
+      "bytes": 10870,
+      "sha256": "3f2d748b3382ee19fd8e8a7b9495a3853ff33703b2c424837491eb4fa7e4040f"
     },
     {
       "path": "src/scene-0015.svg",
       "role": "editable source",
-      "bytes": 8978,
-      "sha256": "36b2c0817d51e07e6cdde1d98936b1d33a53bbbe3799cdce257acccfe4fb6a20"
+      "bytes": 10870,
+      "sha256": "daa4147a4ee6fb072237babefc961f96b8af28186292c2e4c103117f48c2a2c6"
     },
     {
       "path": "src/scene-0016.svg",
       "role": "editable source",
-      "bytes": 8461,
-      "sha256": "6b9ea5c5acde98561485a983d36e6552ee4c3081df516f4d81a59b19f502a647"
+      "bytes": 10353,
+      "sha256": "50032dc32199b5c54a8d122285bce513f515858d22ab185b7434d580905bffca"
     },
     {
       "path": "src/scene-0017.svg",
       "role": "editable source",
-      "bytes": 8461,
-      "sha256": "2487bafe3afcd7ec6ec4d421bef2624f8ad1c3501848b1e5fc9015870d55da2b"
+      "bytes": 10353,
+      "sha256": "2732058bd1914ef3dd27388d1cbd2e07066d936f7517ff93aa55610b8e3b0619"
     },
     {
       "path": "src/scene-0018.svg",
       "role": "editable source",
-      "bytes": 7944,
-      "sha256": "c4a6964052a5de66eaeaa74feba5a2232106db010d8ca7246d4b482f8b9a14d1"
+      "bytes": 9836,
+      "sha256": "7e3c706662e608c1cb1404d202c175386f34fa05381e222fdcc8afb41f28c44c"
     },
     {
       "path": "src/scene-0019.svg",
       "role": "editable source",
-      "bytes": 7944,
-      "sha256": "38e95c5682ff8e24c7ed6f72e58bc9189db0724ca2e582c6f951a241ab98e9d1"
+      "bytes": 9836,
+      "sha256": "e7e0e8f889b870020d18ac5427a732f3f023b1421c621b145faa5363752de951"
     },
     {
       "path": "src/scene-0020.svg",
       "role": "editable source",
-      "bytes": 6987,
-      "sha256": "284b784fec16efe992dc0fa13a499048651d95f020041085e0fe9fdec60ca0e2"
+      "bytes": 7157,
+      "sha256": "7a9311c48317b3ccc543709f48bc1e2173d66b17d755bfc687c6d14bfbe0dd61"
     },
     {
       "path": "src/scene-0021.svg",
       "role": "editable source",
-      "bytes": 6988,
-      "sha256": "2e7b2b4548bf059753da5e0337e4e2708d79a9ccbc3fae5325a5fa0cc1de9e38"
+      "bytes": 7158,
+      "sha256": "1d04142c251a48001d611205861400bad07c872b1143f75921dab9667df04c0d"
     },
     {
       "path": "src/scene-0022.svg",
@@ -285,56 +430,69 @@
     {
       "path": "src/scene.svg",
       "role": "editable source",
-      "bytes": 14806,
-      "sha256": "0b11310d3845f650a3216577695cff730085e0094e7cf2485ee07aaa60bca92d"
+      "bytes": 20105,
+      "sha256": "200427b2b9cf92598befc56ed4609d45792cf1850f3ac34087c17f0638c6fbdf"
     },
     {
       "path": "src/timeline.json",
       "role": "editable source",
-      "bytes": 2195,
-      "sha256": "318ff5bec916227f4ddaa0a53a9bf80e7a18fb2d3088f9088ee392d3bc7af6d6"
+      "bytes": 4253,
+      "sha256": "43ebfc62abc808adc5f98de8c6f6b7f4685b0d919232f2287818afb868dbacd3"
     },
     {
       "path": "src/variant-award-to-bottom.svg",
       "role": "editable source",
-      "bytes": 9495,
-      "sha256": "7279306e08d916541546d8aa85b9ff3aaec32a9b6da9af4fc0c84dc732fe5cbc"
+      "bytes": 11387,
+      "sha256": "93d8e71a518c7c29ac91fda8e1a0b242f6d45da7b7bc7abe6c8871074f231f06"
+    },
+    {
+      "path": "src/variant-endgame.svg",
+      "role": "editable source",
+      "bytes": 20398,
+      "sha256": "68b99dd0bee654ff7e4738b1c6a6f970869bc2ca1353e6f25e291d5aa02ed6ed"
     },
     {
       "path": "src/variant-four-panel-poster.svg",
       "role": "editable source",
-      "bytes": 14806,
-      "sha256": "0b11310d3845f650a3216577695cff730085e0094e7cf2485ee07aaa60bca92d"
+      "bytes": 20105,
+      "sha256": "200427b2b9cf92598befc56ed4609d45792cf1850f3ac34087c17f0638c6fbdf"
     },
     {
       "path": "src/variant-single-war-motion.svg",
       "role": "editable source",
-      "bytes": 12483,
-      "sha256": "47fa8b8ac80e24d92ce47e90fa394b961cb95f328e8aa791889c8089bf6922db"
+      "bytes": 15913,
+      "sha256": "7618bdc72395675546b361a41b457b975bdd8fa539bfeead41851e5b41d92656"
     }
   ],
   "variants": [
     {
       "name": "four-panel-poster",
-      "files": [
-        "exports/four-panel-poster.png",
-        "src/variant-four-panel-poster.svg"
-      ]
+      "file": "exports/four-panel-poster.png",
+      "duration_seconds": null,
+      "key_second": 0
     },
     {
       "name": "single-war-motion",
-      "files": [
-        "exports/single-war-motion.png",
-        "src/variant-single-war-motion.svg",
-        "exports/single-war-motion.mp4"
-      ]
+      "file": "exports/single-war-motion.mp4",
+      "duration_seconds": 12,
+      "key_second": 0
     },
     {
       "name": "award-to-bottom",
-      "files": [
-        "exports/award-to-bottom.png",
-        "src/variant-award-to-bottom.svg",
-        "exports/award-to-bottom.mp4"
+      "file": "exports/award-to-bottom.mp4",
+      "duration_seconds": 4,
+      "key_second": 1.0
+    },
+    {
+      "name": "endgame",
+      "file": "exports/endgame.mp4",
+      "duration_seconds": 42,
+      "key_second": 6.5,
+      "stage_seconds": [
+        0.0,
+        6.5,
+        27.36,
+        37.82
       ]
     }
   ],
@@ -374,65 +532,98 @@
       ],
       "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
       "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        220,
+        232
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (revision 2: the empty-hand checks the endgame cutdown depicts)"
+    },
+    {
+      "path": "../../captures/TERM-04/source/stdout.txt",
+      "lines": [
+        1289,
+        1291
+      ],
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "relationship": "real capture (revision 2: round 617 of the 617-round run; line 5 for the deal, lines 7-1288 replayed for the 50 / 2 hand sizes, lines 1293-1297 for the result)"
     }
   ],
   "credits": [
     {
       "type": "original graphics",
-      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+      "credit": "Source-based vector graphics authored for this production; card faces are the shared win95-workbench-1.1.0 primitives; no third-party images or font files included."
     }
   ],
   "tests": [
     {
       "test": "required outputs and checksums",
-      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+      "result": "python tools/validate_delivery.py --id DIA-08 run after src/endgame.py inventory rebuilt the output list; result in the revision-2 completion report."
     },
     {
       "test": "original source files",
-      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+      "result": "sources/ untouched; Program.vb SHA-256 8069f62b… and TERM-04/source/stdout.txt SHA-256 026ce1d7… recorded against the excerpts quoted in evidence/source-excerpts.md."
     },
     {
-      "test": "manual visual review",
-      "result": {
-        "mode": "Standalone 1920 × 1080 poster inspection plus overview sheet",
-        "scope": "Reviewed the full-resolution still and its appearance in the overview.",
-        "status": "Type, negative space, card legibility, and annotations inspected. CODE-02 pointer, code soft wrapping, small-card details, and saved-top labeling were corrected during this pass. Not all temporal frames received independent manual review."
-      }
+      "test": "endgame numbers against the captured run",
+      "evidence": "evidence/source-excerpts.md",
+      "result": "passed: stdout line 5 (26 / 26), lines 1289-1291 (10 of Diamonds / 10 of Spades, ** WAR! **, Player 2 has no cards left for the war - Player 1 takes the pot.), lines 1293-1297 (PLAYER 1 WINS THE WAR!, 617 rounds); hand sizes replayed from lines 7-1288 give 50 / 2 entering round 617, hence 49 / 1, 48 / 0 and 52 / 0 with pot 2, 4, 0. The capture agrees with the ticket."
     },
     {
       "test": "raster dimensions and video codec/fps/duration",
       "evidence": "evidence/render-tests.json",
-      "result": "passed"
+      "result": "passed: PNGs 1920x1080; preview.mp4 and single-war-motion.mp4 360 frames / 12.000 s, award-to-bottom.mp4 120 / 4.000 s, endgame.mp4 1260 / 42.000 s; all H.264 yuv420p 30/1."
     },
     {
       "test": "offline HTML, deterministic seek, every SVG text bounding box",
       "evidence": "evidence/browser-tests.json",
-      "result": "passed"
+      "result": "passed for src/index.html (qa_browser.py: 28 files, 942 boxes) and src/endgame.html (same checks by a scratch script: 16 files, 526 boxes; renderAt returns endgame-0000/0001/0004/0007 at the four stage seconds)."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Read tool at full size (1920 x 1080) and 1280 x 720",
+        "scope": "exports/endgame.png; endgame.mp4 frames at 0, 6.5, 7.5, 12, 27.5, 32.2, 38.3 and 41.5 s; exports/four-panel-poster.png; exports/keyframes/middle.png; a preview.mp4 frame at 9.5 s; proofs/endgame-720.png, proofs/endgame-stage1..4-720.png, proofs/poster-720.png.",
+        "status": "Cards read as playing cards at 57 and 117 px (10s show two columns of four plus two centre pips; 4s, 9 and A as designed); counters, pot and the stdout line are legible at both sizes. A first pass of the endgame poster drew panel 4's cards twice under the caption; fixed and re-rendered. Sub-state and award frames of the endgame were also viewed; the moving card briefly crosses the pot border as in the existing award cut."
+      }
     }
   ],
   "unresolved_gates": [],
   "toolchain": {
-    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
-    "python": "3.13.5",
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
-    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
-    "dotnet_path": null,
-    "node": "v22.16.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Playwright bundled Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.exe (not used by this ticket)",
+    "node": "v25.0.0 (not used by this ticket)",
     "packages": {
-      "cairosvg": "2.8.2",
+      "cairosvg": "2.9.1",
       "Pillow": "12.3.0",
-      "playwright": "1.57.0"
+      "playwright": "1.63.0"
     },
+    "cairo": "MSYS2 ucrt64 Cairo through CAIROCFFI_DLL_DIRECTORIES; fonts resolved by fontconfig (fc-match) to Liberation Sans and DejaVu Sans Mono",
     "network_used": false,
     "installs_performed": false,
     "font_files_distributed": false,
-    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+    "browser_note": "HTML tested by in-memory content loading in Playwright's bundled Chromium; qa_browser.py's project-wide summary in review/ was restored after the run.",
+    "render_commands": [
+      "python -c \"import sys; sys.path.insert(0,'tools/render'); import build_assets, diagrams; diagrams.war_mechanic(); build_assets.save_assets({'DIA-08'}, 'Claude Fable 5.1 — local production')\"",
+      "python assets/diagrams/DIA-08/src/endgame.py author",
+      "python tools/render/render_assets.py --id DIA-08",
+      "python assets/diagrams/DIA-08/src/endgame.py render",
+      "python assets/diagrams/DIA-08/src/endgame.py inventory"
+    ]
   },
   "notes": [
     "Uses the supplied single-war fixture; burns conceal their faces. This is not an actual Program.vb run.",
     "The ten-card award moves individually in stored play order. The final counts are 21 / 31 / pot 0.",
-    "No insufficient-card case or recursive function is illustrated.",
-    "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "No insufficient-card case or recursive function is illustrated in the generic sequence (preview, four-panel-poster, single-war-motion, award-to-bottom).",
+    "Revision 2 (2026-09-16, Devin's approval of proposal 4): every scene re-rendered with the win95-workbench-1.1.0 card faces, otherwise unchanged; the generic sequence stays as preview.",
+    "Revision 2: the endgame cutdown (42 s) tells round 617 of the TERM-04 run with the captured cards and replayed counts: 50 / 2 -> both play a 10 (49 / 1, pot 2, tie at key_second 6.5) -> both burn 1 (48 / 0, pot 4, at 27.36 s) -> Player 2 cannot flip, Player 1 takes the 4-card pot (52 / 0, pot 0, at 37.82 s; the award finishes at 39.02 s and the final state holds to the end). Sub-states inside stage 2 (7.33 s ghost 'normally: burn 3, then flip 1' slots; 11.88 s Player 2's last card highlighted) and stage 3 (29.17 s hand empty; 32.05 s back to the top of the loop) follow the narration's asides. Stage seconds are word-timed over S12-B03 and S12-B04 as build_timeline.py places cutdowns; stages 3 and 4 need S12-B04 to show the endgame (review question in qa.md).",
+    "Revision 2: exports/endgame.png is a four-panel still of the same four stages for the deck and the editor; exports/poster.png remains the generic four-panel poster.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation for the 1.0.0 exports (rights: Devin's standing R14 ruling); superseded by revision 2, release unreviewed until the producer approves the new exports."
   ]
 }

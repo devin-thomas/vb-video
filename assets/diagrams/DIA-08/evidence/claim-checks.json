@@ -3,13 +3,15 @@
     {
       "id": "R05",
       "status": "approved",
-      "reason": "Program unchanged. Examples use fully supplied normal cases; the short-hand ordering edge case is documented in the register and never depicted.",
+      "reason": "Program unchanged. The generic sequence (preview, four-panel-poster, single-war-motion, award-to-bottom) still uses only the fully supplied normal fixture. Revision 2 adds one short-hand depiction, the endgame cutdown, under the separate exact-state test and producer decision the register asks for: the state is a real recorded run (TERM-04/source/stdout.txt lines 1289-1291, hand sizes replayed from lines 5-1288: 50 / 2), the program's own line 1291 is quoted for the outcome, and the producer's revision-2 ticket (Devin's approval of proposal 4, 2026-09-16) is the decision to depict it. The register's ambiguous ordering case (both hands empty after the burn) does not arise here: Player 1 holds 48 after the burn, so only the Player2.Count = 0 check (Program.vb:228) fires, exactly as line 1291 shows.",
       "evidence_paths": [
-        "source-excerpts.md"
+        "source-excerpts.md",
+        "../../captures/TERM-04/source/stdout.txt",
+        "../../../sources/Program.vb"
       ],
-      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-      "approval_date": "2026-09-15",
-      "decision": "Approved: the asset matches the script and source as they now stand."
+      "approver": "DIA-08 revision 2 worker (Claude Fable 5.1) recording the exact-state evidence; depiction authorised by the producer's revision-2 ticket (Devin's approval of proposal 4). The 2026-09-15 producer approval covered the generic sequence only; release of the revision-2 exports is unreviewed.",
+      "approval_date": "2026-09-16",
+      "decision": "Approved: the generic sequence matches the script and source as before; the endgame cutdown matches the captured run line for line and the narration of S12-B03/S12-B04 number for number."
     }
   ]
 }
