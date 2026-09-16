@@ -1,0 +1,31 @@
+{
+  "id": "DIA-15",
+  "browser": "Playwright Chromium 153.0.8010.12",
+  "loading_mode": "In-memory HTML (page.set_content)",
+  "offline": true,
+  "deterministic_seek": true,
+  "seek_files": [
+    "scene-0000.svg",
+    "scene-0000.svg",
+    "scene-0000.svg",
+    "scene-0030.svg",
+    "scene-0045.svg",
+    "scene-0109.svg",
+    "scene-0000.svg",
+    "scene-0000.svg",
+    "scene-0000.svg"
+  ],
+  "loop_renderAt_wraps": [
+    "loop-0000.svg",
+    "loop-0000.svg",
+    "loop-0000.svg",
+    "loop-0012.svg"
+  ],
+  "text_boxes_checked": 24,
+  "out_of_canvas": [],
+  "errors": [],
+  "limitations": [
+    "Checks seek determinism, loop wrap-around, network silence and text canvas bounds on five states; not visual quality.",
+    "Run from a scratch script rather than tools/render/qa_browser.py, which also writes review/browser-summary.json outside this ticket's owned paths."
+  ]
+}

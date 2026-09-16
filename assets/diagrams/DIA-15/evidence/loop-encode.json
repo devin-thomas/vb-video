@@ -1,0 +1,30 @@
+{
+  "renderer": "CairoSVG 2.9.1",
+  "png_dimensions": "1920x1080",
+  "video_probes": [
+    {
+      "file": "exports/loop.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a03f9bfe776b3532b\\assets\\diagrams\\DIA-15\\exports\\loop.concat.txt -vf fps=30,format=yuv420p -frames:v 120 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a03f9bfe776b3532b\\assets\\diagrams\\DIA-15\\exports\\loop.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "120"
+          }
+        ],
+        "format": {
+          "duration": "4.000000",
+          "size": "2623544"
+        }
+      }
+    }
+  ],
+  "seamless": true,
+  "command": "python assets/diagrams/DIA-15/src/build_riffle.py encode-loop"
+}

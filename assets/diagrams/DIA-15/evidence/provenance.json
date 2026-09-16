@@ -1,0 +1,40 @@
+{
+  "id": "DIA-15",
+  "classification": "original authored motion illustration",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [180, 180],
+      "relationship": "source creative brief",
+      "note": "Beat S05-B02: 'Take a standard 52-card deck and shuffle it. Deal it evenly.' The motion answers the word 'shuffle'; no narration is quoted on screen."
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [14, 16],
+      "relationship": "review note (Devin, notes 8 and 10)",
+      "note": "The stock clip at about 9:30 was a deck cut that froze; Devin asked for an actual shuffle, animated is fine. This asset replaces BROLL-01 at the shuffle cues."
+    }
+  ],
+  "shared_dependencies": [
+    {
+      "path": "../../../tools/render/studio.py",
+      "what": "card() primitive (win95-workbench-1.1.0): the blue diamond-lattice back and the regular playing-card faces with corner index, pip layouts and court marks",
+      "version": "win95-workbench-1.1.0 (OPS-01 revision 2, 2026-09-16)"
+    },
+    {
+      "path": "../../../assets/shared/cards/",
+      "what": "reference renders of the same primitives; not embedded, the scenes draw the primitives directly at 240 × 336 px"
+    }
+  ],
+  "authored_additions": [
+    "Top-down stylised riffle: the squared deck splits into two tilted halves; each half releases cards from its top into a centre pile in a seeded, mostly alternating order (26 from each side); the ragged pile squares up. A top-down 'lift' arc and a scale bump stand in for the cards springing off the thumbs. Not a physical simulation.",
+    "The deck's initial order is a seeded Fisher–Yates permutation of the 52 cards (seed 20260916); it only matters for which faces flash. Main riffle: 8S, 6S, QS, 6H flash. Loop: 8C, 2H, 9C, QS flash. Every card lands face down.",
+    "The loop timeline continues from the main timeline's riffled order (apart → riffle → square → split → apart) so its first and last authored frames are identical."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "fonts_at_render": "Liberation Sans (C:/WINDOWS/fonts/LiberationSans-Regular.ttf and -Bold.ttf via fc-match) for the flashed faces' index and pips; rendered media does not depend on the viewer's fonts.",
+  "producer_decisions": [],
+  "rights": "Original vector graphics only; rights settled by Devin's standing R14 ruling. No downloads, no third-party files."
+}
