@@ -1,23 +1,86 @@
 {
   "id": "CMP-03",
-  "durationSeconds": null,
-  "fps": null,
+  "durationSeconds": 9,
+  "fps": 30,
   "width": 1920,
   "height": 1080,
   "beats": [
-    "Still: both code columns visible at once.",
-    "Focus overlay: highlight the specific contrasting tokens without changing layout."
+    "0–2.5 s: authored teaching example, i on both sides (comparison state).",
+    "2.5–4.5 s: focus overlay on the compared range tokens i <= 14 and 2 To 14 (token-focus state).",
+    "4.5–4.9 s: on the VB side the identifier i morphs in place into Rank on the For and Next lines (12 eased steps, one frame each).",
+    "4.9–5.4 s: real loop, Rank highlighted; 5.4–9 s: margin label appears and the real-code state holds to the end (transform state)."
   ],
   "frames": [
     {
-      "time": 0,
+      "time": 0.0,
       "file": "scene-0000.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 4.533333,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 4.566667,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 4.6,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 4.633333,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 4.666667,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 4.7,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 4.733333,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 4.766667,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 4.8,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 4.833333,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 4.866667,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 4.9,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 5.4,
+      "file": "scene-0015.svg"
     }
   ],
   "cuts": {},
   "variant_names": [
     "comparison",
-    "token-focus"
+    "token-focus",
+    "transform"
   ],
   "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
 }

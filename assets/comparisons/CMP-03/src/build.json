@@ -1,20 +1,83 @@
 {
   "id": "CMP-03",
-  "duration": null,
+  "duration": 9,
   "frames": [
     {
-      "time": 0,
+      "time": 0.0,
       "file": "scene-0000.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 4.533333,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 4.566667,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 4.6,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 4.633333,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 4.666667,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 4.7,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 4.733333,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 4.766667,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 4.8,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 4.833333,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 4.866667,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 4.9,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 5.4,
+      "file": "scene-0015.svg"
     }
   ],
   "variants": {
     "comparison": "variant-comparison.svg",
-    "token-focus": "variant-token-focus.svg"
+    "token-focus": "variant-token-focus.svg",
+    "transform": "variant-transform.svg"
   },
   "poster": "scene.svg",
   "cuts": {},
   "notes": [
-    "The C# side is a proposed equivalent-bounds example, not verbatim supplied code. Keep the inclusive upper bound 14 on both sides.",
+    "Revision 2: both columns are an authored teaching example with the counter named i (for (int i = 2; i <= 14; i++) / For i = 2 To 14 ... Next i); it is not a Program.vb excerpt. The C-family side is a proposed equivalent-bounds example, not verbatim supplied code; the inclusive upper bound 14 is kept on both sides.",
+    "Left header lists the languages the snippet is valid in: C / C++ / C# / Java.",
+    "Transform: the VB identifier i morphs into Rank in place; the end state is the real loop from Program.vb lines 104–110 (For Rank = 2 To 14 ... Next Rank) shown as lines 104 and 110 with the common indent removed and body lines 105–109 elided as \"...\". src/excerpt.vb holds the seven lines byte-exactly.",
     "No compile/run is claimed for illustrative counterparts."
   ],
   "sources": [
@@ -35,7 +98,16 @@
       ],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
       "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        104,
+        110
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
     }
   ],
-  "kind": "still"
+  "kind": "motion"
 }

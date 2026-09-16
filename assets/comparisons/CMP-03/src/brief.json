@@ -30,5 +30,29 @@
       279
     ]
   ],
-  "gates": []
+  "gates": [],
+  "revision_2": {
+    "left_header": "C / C++ / C# / Java",
+    "left": [
+      "for (int i = 2; i <= 14; i++) {",
+      "    ...",
+      "}"
+    ],
+    "right": [
+      "For i = 2 To 14",
+      "    ...",
+      "Next i"
+    ],
+    "real_loop_lines": [
+      104,
+      110
+    ],
+    "label": "in the real program the counter is called Rank",
+    "beats": [
+      "0–2.5 s: authored teaching example, i on both sides (comparison state).",
+      "2.5–4.5 s: focus overlay on the compared range tokens i <= 14 and 2 To 14 (token-focus state).",
+      "4.5–4.9 s: on the VB side the identifier i morphs in place into Rank on the For and Next lines (12 eased steps, one frame each).",
+      "4.9–5.4 s: real loop, Rank highlighted; 5.4–9 s: margin label appears and the real-code state holds to the end (transform state)."
+    ]
+  }
 }
