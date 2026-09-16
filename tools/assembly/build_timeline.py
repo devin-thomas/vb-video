@@ -275,11 +275,13 @@ def main() -> int:
                 report.append(f"- {b['id']}: {v['id']} shown {t - last_seen[v['id']]:.0f} s ago without a cue naming it; holding {last_visual['id']} instead")
                 visuals = [(hold_of(last_visual), 0.0)]; source = "hold (no-return guard)"
         # a second visual needs room; a word-timed first visual starts where the word is, the previous visual fills the lead
-        if len(visuals) > 1 and dur < MIN_SPLIT_S:
+        if len(visuals) > 1 and dur < MIN_SPLIT_S and source != "placement map":
             report.append(f"- {b['id']}: {dur:.1f} s is too short for two visuals; keeping {visuals[0][0]['id']} only"); visuals = visuals[:1]
         out = []
         if visuals[0][1] > MIN_SLOT_S / 2 and last_visual:
             out.append((hold_of(last_visual), 0.0))
+        else:
+            visuals[0] = (visuals[0][0], 0.0)  # a key moment within 2 s of the beat start just starts with the beat
         out += visuals
         # slots: each visual runs from its start to the next visual's start; unstarted visuals split the remainder equally
         starts = [s for _, s in out]; n = len(out)
