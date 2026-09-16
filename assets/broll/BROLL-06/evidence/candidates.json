@@ -2,7 +2,9 @@
   "id": "BROLL-06",
   "shot": "Pentium-era desktop PC power-on / boot sequence with plausible CRT and OS, horizontal, 8-12 s usable",
   "accessed": "2026-09-15",
-  "motion_review_pass": "rework pass 2026-09-15: frames viewed in-page in the in-app browser (tab-6), no files saved",
+  "motion_review_pass": "rework pass 2026-09-15: frames viewed in-page in the in-app browser (tab-6), no files saved. Acquisition pass 2026-09-15: the rank-1 clip was downloaded under Devin's approval and inspected at full 4096x2160 resolution and at 720p; frames saved to evidence/frames/.",
+  "acquisition_summary": "One file acquired: rank 1, Pexels 8888818. The Commons POST clip was not approved and was not downloaded; Pixabay 126935 stays rejected; the YouTube leads stay rights-blocked. Acquisition is not clearance: R14 remains open and release remains blocked.",
+  "binding_label": "The acquired clip is a period-setting cutaway only. It shows a beige CRT with a blank screen in a dim room. It is NOT a boot and NOT a power-on, and no CPU, model or date identifies a Pentium. Never label it a boot; never caption or imply 'Pentium'.",
   "summary": "No free clip shows a Pentium-era PC boot or a period power-on. After viewing frames: Pexels 8888818 is a period set shot (beige CRT in a dim room, blank screen, slow camera drift); the Commons POST-card clip is real boot-loop footage but shows no CRT or OS; Pixabay 126935 is a modern flat-panel monitor being switched on and off, so it is rejected. The only leads that show an actual Windows 95-era boot are YouTube videos and are rights-blocked (H02).",
   "candidates": [
     {
@@ -17,7 +19,16 @@
       "duration_seconds": 11.8,
       "duration_basis": "in-page player duration 11.8 s (page states 0:12)",
       "source_dimensions": {"width": 4096, "height": 2160},
-      "played_rendition": "8888818-uhd_2732_1440_25fps.mp4, player reported 2732x1440",
+      "played_rendition": "8888818-uhd_2732_1440_25fps.mp4, player reported 2732x1440 (in-page preview rendition only)",
+      "acquired_file": {
+        "local_path": "source/pexels-8888818-mart-production-vintage-computer.mp4",
+        "acquired_on": "2026-09-15",
+        "bytes": 29243915,
+        "sha256": "5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f",
+        "ffprobe": {"duration_seconds": 11.8, "width": 4096, "height": 2160, "fps": 25, "video_codec": "h264", "audio_stream": false},
+        "matches_page_claim": true,
+        "note": "The download endpoint served the 4096x2160 rendition, so the real resolution matches the page's 4096x2160 claim. The 2732x1440 figure above was the in-page preview."
+      },
       "orientation": "horizontal",
       "fps": 25,
       "proposed_in": "00:00:00.500",
@@ -32,7 +43,15 @@
         {"t": 11.8, "shows": "Player reached the end and reset to 0 (paused)."}
       ],
       "visual_fit": "A plausible late-80s/90s beige CRT in a moody room, with a clean, slow camera move and no people. It does not show a power-on, POST, memory count or OS. It can serve as a period-setting cutaway, not as the 'booting' shot.",
-      "hardware_date_evidence": "unverified. No readable model badge, CPU, BIOS text or OS visible at in-page preview size. Period PC; boot not shown; CPU unverified.",
+      "hardware_date_evidence": "CPU unverified and unverifiable from this clip. Re-checked on the acquired 4096x2160 file: no PC case, tower or chassis appears anywhere in frame, so no CPU is visible. No date, serial, BIOS text or OS is legible. The one marking that IS legible at full resolution is the monitor bezel: a 'ViewSonic' wordmark with the ViewSonic bird logo, and an 'E70' model marking. That identifies a monitor make and model, not a CPU, a system or a date, and is not Pentium evidence. At 720p neither marking is legible. Period-plausible set; boot not shown; CPU unverified.",
+      "full_resolution_frames_inspected": [
+        {"t": 0.5, "path": "evidence/frames/frame-t0p5s.png", "shows": "Dim room, warm/green light. Beige CRT monitor and beige keyboard on a dark wooden desk; pink rotary telephone, folding camera, glass flask, foil object and coloured booklets on the desk; two audio cassettes on top of the monitor; green metal chair back at left foreground; pendant lamp at top centre; poster taped to the wall at top right; wall sockets and cables below. CRT screen blank and dark."},
+        {"t": 5.0, "path": "evidence/frames/frame-t5s.png", "shows": "Same set, camera drifted so the desk sits slightly right and the chair moved left. CRT screen still blank and dark."},
+        {"t": 10.5, "path": "evidence/frames/frame-t10p5s.png", "shows": "Drift continues; monitor now centre-left, more of the right wall visible. CRT screen still blank and dark."},
+        {"t": 5.0, "path": "evidence/frames/frame-t5s-720p.png", "scale": "1366x720", "shows": "Composition reads clearly at 720p and the screen is unmistakably dark and blank. The ViewSonic wordmark and the E70 marking are NOT legible at this size."}
+      ],
+      "boot_check_on_acquired_file": "No boot and no power-on. Across the selected 0.5-10.5 s range the screen never lights or flickers; there is no POST, memory count, BIOS screen or OS, and nobody touches the machine. The only motion is the slow camera drift.",
+      "watermark_check_on_acquired_file": "No watermark, baked-in caption or burned-in text in any inspected frame. Nothing was removed; the original is preserved byte-identical.",
       "license": {
         "name": "Pexels license (page shows License: Free)",
         "url": "https://www.pexels.com/license/",
@@ -47,8 +66,8 @@
         "file_size": "not displayed",
         "local_filename": "assets/broll/BROLL-06/source/pexels-8888818-mart-production-vintage-computer.mp4"
       },
-      "motion_review": "reviewed in-page: played the asset's own mux-player rendition (2732x1440, 11.8 s) and took screenshots at 0, 3.0, 6.4 and 9.4 s. Viewed at preview size only, not full 4K.",
-      "acquisition_status": "not acquired; pending batched download approval"
+      "motion_review": "Scouting: played the asset's own mux-player rendition (2732x1440, 11.8 s) with screenshots at 0, 3.0, 6.4 and 9.4 s, at preview size. Acquisition pass 2026-09-15: frames extracted from the acquired 4096x2160 file at 0.5, 5 and 10.5 s and viewed at full size, plus one frame at 720p.",
+      "acquisition_status": "ACQUIRED 2026-09-15 under Devin's approval; verified against the page's claim; release still blocked (R14 open)"
     },
     {
       "rank": 2,
@@ -98,7 +117,7 @@
         "local_filename": "assets/broll/BROLL-06/source/commons-BIOS_POST_IMGP9357_wp.ogv"
       },
       "motion_review": "reviewed in-page: played the Commons player's 240p transcode (370x240) and took screenshots at 0 (poster), 2.1, 6.2, 10.2 and 15.3 s. The 640x416 original was not viewed.",
-      "acquisition_status": "not acquired; pending batched download approval"
+      "acquisition_status": "NOT acquired. This clip was not part of the 2026-09-15 approval and no download was attempted; the 640x416 original remains uninspected."
     }
   ],
   "rejected_after_motion_review": [

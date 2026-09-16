@@ -1,20 +1,24 @@
 {
   "id": "BROLL-06",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "BROLL-06 worker subagent (spawned by B-roll Scouting Manager, session vb-99)",
+  "assigned_agent": "BROLL-06 acquisition worker subagent (spawned by the B-roll Scouting Manager, session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
-    "No free clip shows a Pentium-era PC boot or period power-on (confirmed by in-page motion review); best free options are a period CRT set shot and a low-res POST-code insert.",
-    "CPU/hardware unverified for all free candidates.",
-    "Free downloads (Pexels 8888818, Commons BIOS_POST_IMGP9357_wp.ogv) pending the manager's batched download approval from Devin; nothing acquired; full-resolution inspection awaits acquisition.",
-    "Leads that show an actual period boot (LGR AST Advantage 622; 'Old computer boot up Windows 95') are YouTube, rights-blocked, routed to H02.",
-    "R14 open; review questions pending in the OPS-04 deck."
+    "The acquired clip does not show a boot. Confirmed at full 4096x2160 resolution: a beige CRT with a blank, dark screen in a dim room, with no power-on, POST, memory count, BIOS screen or OS anywhere in the selected range. It is a period-setting cutaway only and must never be labelled a boot.",
+    "CPU unverified, and unverifiable from this clip: no PC case, tower or chassis appears anywhere in frame. Nothing identifies a Pentium, and the edit must never caption or imply 'Pentium' over this footage.",
+    "No date is legible on the acquired file. The only hardware marking readable at full resolution is a ViewSonic 'E70' monitor bezel marking, which identifies a monitor rather than a machine or a date.",
+    "Still no free clip that shows a period boot. The fallback for the boot beat is an open review question for the OPS-04 deck.",
+    "Leads that show an actual period boot (LGR AST Advantage 622; 'Old computer boot up Windows 95') remain YouTube, rights-blocked, routed to H02.",
+    "R14 open; review questions pending in the OPS-04 deck. Acquisition is not clearance."
   ],
   "reviewer": null,
   "notes": [
-    "Scouted = candidates inspected with recorded terms; not acquired media.",
-    "Rework pass 2026-09-15: motion reviewed in-page for Pixabay 126935 (rejected), Commons POST clip (rank 2), Pexels 8888818 (rank 1).",
-    "An earlier Cloudflare security-verification page on Pexels was not bypassed; none appeared in the rework pass."
+    "Acquisition pass 2026-09-15: Devin approved one download and it succeeded. Pexels 8888818 was fetched with curl and a generic Mozilla/5.0 User-Agent; HTTP 302 then 200, no Cloudflare check, no login, no terms click-through, no CAPTCHA, nothing bypassed, no personal data sent.",
+    "The real file matches the asset page: 4096x2160, 25 fps, 11.8 s, h264 High, video stream only with no audio. 29,243,915 bytes, sha256 5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f. The 2732x1440 figure from the scouting pass was an in-page preview rendition, not the delivered file.",
+    "Frames at 0.5 s, 5 s and 10.5 s were extracted and viewed at native 4096x2160, and one frame was viewed again at 720p. The clip reads as a period-setting cutaway at both sizes; the bezel markings are legible only at full resolution.",
+    "No watermark or baked-in caption; nothing was removed. The original is preserved byte-identical as downloaded.",
+    "The Wikimedia Commons BIOS POST clip was NOT approved and was NOT downloaded. Pixabay 126935 stays rejected.",
+    "Earlier passes: candidates motion-reviewed in-page at preview resolution. An earlier Cloudflare security-verification page on Pexels was not bypassed; none appeared in the rework or acquisition passes."
   ]
 }

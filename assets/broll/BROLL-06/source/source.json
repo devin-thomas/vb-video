@@ -1,0 +1,60 @@
+{
+  "id": "BROLL-06",
+  "file": "source/pexels-8888818-mart-production-vintage-computer.mp4",
+  "title": "A Vintage Computer on a Table",
+  "creator": "MART PRODUCTION",
+  "platform": "Pexels",
+  "asset_page": "https://www.pexels.com/video/a-vintage-computer-on-a-table-8888818/",
+  "download_url": "https://www.pexels.com/download/video/8888818/",
+  "resolved_url": "https://videos.pexels.com/video-files/8888818/8888818-uhd_4096_2160_25fps.mp4",
+  "resolved_url_note": "The download URL returned HTTP 302 to this file URL. No login, terms click-through, CAPTCHA or bot check was encountered or bypassed.",
+  "access_date": "2026-09-15",
+  "upload_date_on_page": "2021-07-24",
+  "container_creation_time_tag": "2021-07-24T12:04:16.000000Z",
+  "approval": "Devin approved this specific download on 2026-09-15. Only this one file was downloaded. The Wikimedia Commons BIOS POST clip was not approved and was not downloaded.",
+  "license": {
+    "name": "Pexels License",
+    "url": "https://www.pexels.com/license/",
+    "attribution_required": false,
+    "credit_optional": "Video by MART PRODUCTION from Pexels",
+    "terms_recorded_2026-09-15": "Free to use; attribution not required; modification allowed. Not allowed: showing identifiable people in a bad or offensive light; implying endorsement by people or brands shown; selling unaltered copies; redistributing or reselling on other stock platforms; use as part of a trademark.",
+    "rights_status": "License terms recorded from the license page. Legal sufficiency for the final video is not certified by this worker; R14 remains open."
+  },
+  "integrity": {
+    "bytes": 29243915,
+    "sha256": "5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f",
+    "http_content_length": 29243915,
+    "http_last_modified": "Tue, 26 Mar 2024 22:38:13 GMT"
+  },
+  "ffprobe": {
+    "command": "ffprobe -v error -show_format -show_streams -print_format json source/pexels-8888818-mart-production-vintage-computer.mp4",
+    "tool_version": "ffprobe 6.0-essentials_build-www.gyan.dev",
+    "container": "mov,mp4,m4a,3gp,3g2,mj2 (major_brand mp42)",
+    "duration_seconds": 11.8,
+    "width": 4096,
+    "height": 2160,
+    "dimensions": "4096x2160",
+    "fps": 25,
+    "r_frame_rate": "25/1",
+    "avg_frame_rate": "25/1",
+    "nb_frames": 295,
+    "video_codec": "h264 (High profile, level 5.2, yuv420p, progressive, bt709)",
+    "video_bit_rate": 19823275,
+    "audio_stream": false,
+    "audio_note": "nb_streams = 1; the file contains a video stream only and no audio stream."
+  },
+  "page_claim_vs_file": "The asset page stated 4096x2160, 25 fps, about 12 s. The downloaded file is exactly 4096x2160 at 25 fps with a measured duration of 11.8 s. The real resolution IS 4096x2160; the 2732x1440 rendition seen in the in-page player during scouting was a preview rendition only. No watermark, no baked-in caption and no burned-in text appears in the frames inspected.",
+  "selected_segment": {
+    "in": "00:00:00.500",
+    "out": "00:00:10.500",
+    "seconds": 10.0,
+    "basis": "Confirmed on the acquired full-resolution file. The shot is one continuous slow camera drift with no cut or event; a 0.5 s head handle is used and the out point sits 1.3 s before the 11.8 s end."
+  },
+  "content_label": {
+    "what_it_shows": "A beige CRT monitor with a keyboard on a wooden desk in a dim, warm-lit room, with a slow camera drift. The monitor screen is blank and dark for the whole inspected range.",
+    "what_it_does_not_show": "It does NOT show a boot, a power-on, POST, a memory count, a BIOS screen or any OS. No PC case or tower is visible anywhere in frame, so no CPU is visible and none can be identified.",
+    "editorial_use": "Period-setting cutaway only. Never label this clip a boot. Never caption or imply 'Pentium' over it.",
+    "hardware_markings_legible_at_full_resolution": "The monitor bezel reads 'ViewSonic' (lower bezel) with the ViewSonic bird logo and an 'E70' model marking (upper-right bezel). These identify a monitor make and model only, not a CPU, a system or a date. No date, serial, BIOS text or OS marking is legible anywhere in the frame. The 'Pentium-era' framing therefore remains unverified.",
+    "other_props": "Two audio cassettes rest on top of the monitor; a rotary telephone, a folding camera, a glass flask and a foil-wrapped object sit on the desk."
+  }
+}
