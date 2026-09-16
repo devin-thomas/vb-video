@@ -1138,14 +1138,15 @@
     {
      "id": "DIA-02",
      "kind": "motion",
-     "file": "assets/diagrams/DIA-02/exports/poster.png",
+     "file": "assets/diagrams/DIA-02/exports/normal-round.png",
      "duration": null,
      "segment": "",
      "still": true,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
+     "poster": "assets/diagrams/DIA-02/exports/poster.png",
+     "cutdown": "normal-round-hold",
      "key_second": 0.0,
+     "offset": 0.0,
      "slot": 4.909
     },
     {
@@ -2048,7 +2049,21 @@
      "cutdown": null,
      "key_second": 0.0,
      "offset": 0.0,
-     "slot": 7.52
+     "slot": 3.927
+    },
+    {
+     "id": "DIA-05",
+     "kind": "motion",
+     "file": "assets/diagrams/DIA-05/exports/draw-shift.mp4",
+     "duration": 12.0,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/diagrams/DIA-05/exports/poster.png",
+     "cutdown": "draw-shift",
+     "key_second": 1.2,
+     "offset": 0.0,
+     "slot": 3.593
     }
    ],
    "held": false
@@ -2065,20 +2080,6 @@
     {
      "id": "DIA-05",
      "kind": "motion",
-     "file": "assets/diagrams/DIA-05/exports/draw-shift.mp4",
-     "duration": 12.0,
-     "segment": "",
-     "still": false,
-     "in_out": null,
-     "poster": "assets/diagrams/DIA-05/exports/poster.png",
-     "cutdown": "draw-shift",
-     "key_second": 1.2,
-     "offset": 0.0,
-     "slot": 0.633
-    },
-    {
-     "id": "DIA-05",
-     "kind": "motion",
      "file": "assets/diagrams/DIA-05/exports/cost.mp4",
      "duration": 20.0,
      "segment": "",
@@ -2088,7 +2089,7 @@
      "cutdown": "cost",
      "key_second": 1.2,
      "offset": 0.0,
-     "slot": 19.527
+     "slot": 20.16
     }
    ],
    "held": false

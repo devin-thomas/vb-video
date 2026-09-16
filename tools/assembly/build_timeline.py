@@ -89,8 +89,8 @@ PLACE: dict[str, list] = {
     "S07-B12": [("DIA-06", None, None)], "S07-B13": ["CODE-28", ("REF-05", None, "like writing C89")],
     # section 8: queue in three languages, the array-as-queue moments, code on its sentences
     "S08-B01": [("DIA-05", "live-slots", None)], "S08-B02": ["CMP-09"], "S08-B03": [HOLD], "S08-B04": ["CODE-06", "CODE-07"],
-    "S08-B05": [("DIA-05", "append", "position Count")], "S08-B06": ["CODE-08"],
-    "S08-B07": [("DIA-05", "draw-shift", None), ("DIA-05", "cost", "every card in the hand moves")], "S08-B08": ["CODE-09"], "S08-B09": [HOLD],
+    "S08-B05": [("DIA-05", "append", "position Count")], "S08-B06": ["CODE-08", ("DIA-05", "draw-shift", "shift everything")],
+    "S08-B07": [("DIA-05", "cost", "every card in the hand moves")], "S08-B08": ["CODE-09"], "S08-B09": [HOLD],
     "S08-B10": ["CODE-10", "CMP-05"], "S08-B11": [HOLD], "S08-B12": ["FACT-05"],
     # section 9: no flash, concatenation on its sentence, continuation alone
     "S09-B01": ["DIA-10"], "S09-B02": ["CODE-11", "CODE-12"], "S09-B03": [HOLD], "S09-B04": ["CMP-07"], "S09-B05": ["CODE-14"], "S09-B06": [HOLD],
@@ -204,6 +204,9 @@ def hold_of(v: dict) -> dict:
     rather than replaying from the start (Devin: animations must not repeat)."""
     h = dict(v); h.pop("slot", None)
     if not v.get("still") and v.get("kind") != "archive":
+        cd = v.get("cutdown")
+        if cd and cd != "poster" and (ROOT / by_id[v["id"]]["asset_dir"] / "exports" / f"{cd}.png").is_file():  # the cutdown's own end frame
+            return dict(h, file=f"{by_id[v['id']]['asset_dir']}/exports/{cd}.png", still=True, duration=None, in_out=None, cutdown=cd + "-hold", key_second=0.0, offset=0.0)
         still = visual_record(v["id"], "poster") if v.get("cutdown") != "poster" else None
         if still: return still
         if v.get("poster"): return dict(h, file=v["poster"], still=True, duration=None, in_out=None, cutdown="poster", key_second=0.0)
