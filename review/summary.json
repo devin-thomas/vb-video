@@ -1,15 +1,15 @@
 {
-  "tickets": 143,
+  "tickets": 147,
   "production_status": {
-    "produced": 121,
-    "planned": 22
+    "produced": 118,
+    "planned": 29
   },
   "release_status": {
-    "approved": 121,
-    "unreviewed": 22
+    "approved": 118,
+    "unreviewed": 29
   },
   "produced_by_family": {
-    "diagrams": 12,
+    "diagrams": 9,
     "cards": 2,
     "chapters": 16,
     "code": 24,
@@ -22,7 +22,7 @@
     "stills": 5,
     "ops": 3
   },
-  "gallery_assets": 78,
+  "gallery_assets": 75,
   "mp4_files": 62,
-  "issues_recorded": 143
+  "issues_recorded": 147
 }

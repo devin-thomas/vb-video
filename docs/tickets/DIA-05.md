@@ -217,3 +217,11 @@ That shift is O(n) — every card in the hand moves one position. With a proper 
 [Individual delivery inventory](../../assets/diagrams/DIA-05/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-05/qa.md) · [Live state](../../assets/diagrams/DIA-05/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's approval of proposal 1 (17:20–18:24))
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/DIA-05-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Make the array-as-queue animation beat-accurate, as DIA-02 is for the rules. Deliver named cutdowns, each starting at its key moment and holding its end state: `live-slots` (the array with Count marking the live boundary, hold), `append` (a card dropped at position Count and Count incrementing, for "drop it at position Count and increment"), `draw-shift` (the card at position zero leaves, every card shifts one slot forward, for "take the card at position zero, then shift everything else forward"), and `cost` (the O(n) shift shown as every card moving, hold). Record the second of each key moment in delivery.json so ASM-03 can land it on the word. Use the revised shared card faces (OPS-01).
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket.

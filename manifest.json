@@ -7,7 +7,7 @@
   "source_lock": "sources/LOCK.json",
   "counts": {
     "original_families": 50,
-    "asset_tickets": 135,
+    "asset_tickets": 139,
     "coordination_tickets": 8,
     "script_only_asset_tickets": 20,
     "chapter_cards": 16,
@@ -724,7 +724,11 @@
         "CODE-26",
         "CODE-27",
         "CODE-28",
-        "REF-05"
+        "REF-05",
+        "CMP-09",
+        "FACT-07",
+        "FACT-08",
+        "CODE-29"
       ]
     },
     {
@@ -1853,12 +1857,16 @@
         "OPS-01"
       ],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16): see the ticket.",
       "priority": "required",
       "variants": [
         "52-slot-overview",
+        "append",
+        "append-at-count",
+        "cost",
         "draw-and-shift",
-        "append-at-count"
+        "draw-shift",
+        "live-slots"
       ],
       "source_hint": "",
       "ticket": "docs/tickets/DIA-05.md",
@@ -2116,12 +2124,13 @@
       "gates": [
         "R05"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16): see the ticket.",
       "priority": "required",
       "variants": [
+        "award-to-bottom",
+        "endgame",
         "four-panel-poster",
-        "single-war-motion",
-        "award-to-bottom"
+        "single-war-motion"
       ],
       "source_hint": "",
       "ticket": "docs/tickets/DIA-08.md",
@@ -2413,7 +2422,7 @@
       "id": "DIA-12",
       "title": "Windows VB4 versus Mac CodeWarrior table",
       "parent": "T1-D12",
-      "kind": "still",
+      "kind": "motion",
       "lane": "design",
       "sections": [
         14
@@ -2458,11 +2467,15 @@
         "R09",
         "R16"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16): see the ticket.",
       "priority": "required",
       "variants": [
+        "full",
         "full-table",
-        "gui-row-focus"
+        "gui-row-focus",
+        "reveal",
+        "row-console",
+        "row-gui"
       ],
       "source_hint": "",
       "ticket": "docs/tickets/DIA-12.md",
@@ -2471,14 +2484,18 @@
       ],
       "required_outputs": [
         "delivery.json",
-        "qa.md",
+        "evidence/claim-checks.json",
         "evidence/provenance.json",
         "evidence/source-excerpts.md",
-        "evidence/claim-checks.json",
-        "src/scene.svg",
-        "exports/poster.png",
         "exports/full-table.png",
-        "exports/gui-row-focus.png"
+        "exports/full.png",
+        "exports/gui-row-focus.png",
+        "exports/poster.png",
+        "exports/preview.mp4",
+        "exports/row-console.png",
+        "exports/row-gui.png",
+        "qa.md",
+        "src/scene.svg"
       ],
       "asset_dir": "assets/diagrams/DIA-12",
       "github_issue": 43
@@ -12321,7 +12338,8 @@
         "Stock footage sits at the edges of technical stretches: BROLL-02 (the card game) moves to the tail of section 5 (S05-B06) or the head (S05-B01), not inside. BROLL-01 leaves the cut (replaced by DIA-15). The same rule applies wherever a B-roll clip currently interrupts code or diagrams.",
         "A clip shorter than its slot must not freeze: loop a motion asset's action or trim the slot; never hold the last frame for more than 1 s on a motion asset (stills are unaffected).",
         "New and revised assets go where the words are: CODE-26 at S04-B06 from \"You could just start using a variable\"; CODE-27 at S04-B07; CODE-28 then REF-05 at S07-B13; DIA-04 (revised) on S07-B05/B06 (the ByRef beats) and CMP-03 on S07-B07/B08; CMP-02 (revised) on the Sub/Function beat; REF-02 (revised) at its section 2 cue. When a dependency is not yet produced, place the current asset and mark the slot in the report.",
-        "Change only `tools/assembly/build_timeline.py` and `narration/timeline.json`. Do not edit assets, takes or the script."
+        "Change only `tools/assembly/build_timeline.py` and `narration/timeline.json`. Do not edit assets, takes or the script.",
+        "Apply every placement in the ticket addendum 'placements approved by Devin' and list each as done in the report."
       ],
       "beats": [
         "Rebuild the timeline and render a review cut of sections 1, 4, 5 and 7 (`render.py --profile review --sections 1,4,5,7`) for Devin to check the fixes before the full re-render.",
@@ -12335,16 +12353,25 @@
       "copy": "",
       "cues": [],
       "deps": [
-        "DIA-02",
-        "DIA-15",
-        "DIA-04",
         "CMP-02",
         "CMP-03",
+        "CMP-09",
         "CODE-26",
         "CODE-27",
         "CODE-28",
-        "REF-05",
-        "REF-02"
+        "CODE-29",
+        "DIA-02",
+        "DIA-04",
+        "DIA-05",
+        "DIA-08",
+        "DIA-12",
+        "DIA-15",
+        "FACT-07",
+        "FACT-08",
+        "NAR-01",
+        "OPS-01",
+        "REF-02",
+        "REF-05"
       ],
       "gates": [],
       "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
@@ -12738,6 +12765,243 @@
       ],
       "asset_dir": "assets/diagrams/DIA-15",
       "github_issue": 172
+    },
+    {
+      "id": "CMP-09",
+      "title": "A queue in 1995: Queue<Card>, std::queue, and a VB array with ReDim",
+      "parent": "R2-CODE",
+      "kind": "still",
+      "lane": "code",
+      "sections": [
+        8
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          317,
+          317
+        ]
+      ],
+      "brief": "A three-column comparison so the code is on screen the moment the narration names it: C# `Queue<Card>`, C++ `std::queue<Card>`, and what 1995 VB had instead.",
+      "requirements": [
+        "Three equal columns headed \"C#\", \"C++\", \"Visual Basic (1995)\". Left (C#): `var hand = new Queue<Card>();` / `hand.Enqueue(c);` / `var top = hand.Dequeue();`. Middle: `std::queue<Card> hand;` / `hand.push(c);` / `Card top = hand.front(); hand.pop();`. Right: the real program's approach, quoted from Program.vb (the `Hand` structure with `Cards()` and `Count`, and the `ReDim`/shift), marked as the excerpt it is.",
+        "The point on screen: two languages have a queue; VB has an array and a counter. A one-line footer: \"No generic collections, no built-in queue: an array and a counter.\"",
+        "Same comparison treatment as CMP-01..08; language headers per the round-2 rule (each column names exactly the language its snippet is valid in).",
+        "Still with `comparison` and `token-focus` (the queue operations highlighted) variants."
+      ],
+      "beats": [
+        "Still: three columns.",
+        "Still: token-focus on Enqueue/push/ReDim-shift."
+      ],
+      "checks": [
+        "Each column's code is valid in the language its header names.",
+        "The VB column is a byte-exact Program.vb excerpt with its line range recorded.",
+        "720p proof legible with three columns."
+      ],
+      "copy": "C#\nvar hand = new Queue<Card>();\nhand.Enqueue(c);\nvar top = hand.Dequeue();\n\nC++\nstd::queue<Card> hand;\nhand.push(c);\nCard top = hand.front(); hand.pop();\n\nVisual Basic (1995): see Program.vb, the Hand structure and its shift loop",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "comparison",
+        "token-focus"
+      ],
+      "source_hint": "still",
+      "ticket": "docs/tickets/CMP-09.md",
+      "owned_paths": [
+        "assets/comparisons/CMP-09/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/comparison.png",
+        "exports/token-focus.png"
+      ],
+      "asset_dir": "assets/comparisons/CMP-09",
+      "github_issue": 178
+    },
+    {
+      "id": "FACT-07",
+      "title": "Four recorded runs: rounds, wars, winner",
+      "parent": "R2-CODE",
+      "kind": "still",
+      "lane": "design",
+      "sections": [
+        11
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          571,
+          571
+        ]
+      ],
+      "brief": "One summary card of the four recorded simulations so \"every run is different\" is shown as numbers, not as four terminal captures cycling.",
+      "requirements": [
+        "Four rows, one per recorded run (the runs behind TERM-02, TERM-04, TERM-05, TERM-06 and recordings R4-01..R4-04): run label, rounds played, wars fought, winner, and how it ended (normal win, or ran out of cards during a war). Every number is read from the run's captured stdout (`recordings/*/stdout.txt` or the capture evidence under `assets/captures/`); record the file and line for each in evidence/source-excerpts.md. No invented numbers.",
+        "Fact-card treatment as FACT-01..06 (dark card, one bold line per row, tabular figures). Title: \"Every run is different\". Footer: the shortest and longest run in one line.",
+        "Highlight variant marks the row the narration singles out (the 617-round run, and the 2,008-round run)."
+      ],
+      "beats": [
+        "Still: the four-row table.",
+        "Still: `highlight` with the two named runs marked."
+      ],
+      "checks": [
+        "Every figure traces to a captured stdout line cited in the evidence file.",
+        "The two runs the narration names (617 rounds, 2,008 rounds) are present and match.",
+        "720p proof legible."
+      ],
+      "copy": "(figures from the captures; worker fills the table from the recorded stdout)",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "table",
+        "highlight"
+      ],
+      "source_hint": "still",
+      "ticket": "docs/tickets/FACT-07.md",
+      "owned_paths": [
+        "assets/facts/FACT-07/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/table.png",
+        "exports/highlight.png"
+      ],
+      "asset_dir": "assets/facts/FACT-07",
+      "github_issue": 180
+    },
+    {
+      "id": "FACT-08",
+      "title": "Two endgames side by side: run 1 and run 4",
+      "parent": "R2-CODE",
+      "kind": "still",
+      "lane": "design",
+      "sections": [
+        12
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          267,
+          267
+        ]
+      ],
+      "brief": "The two-column card the script's side-by-side cue asks for: how the 617-round run and the 2,008-round run each ended in a war with too few cards.",
+      "requirements": [
+        "Two columns from the script's own cue text, verbatim: left \"Run 1 · 617 rounds\": 2 cards → play 10 → burn 1 → empty → 4-card pot; right \"Run 4 · 2,008 rounds\": 3 cards → play 8 → burn 2 → empty → 6-card pot. Each step on its own line with the arrow as a connector, the final step emphasised.",
+        "Verify both sequences against the captured stdout of those runs (the same sources as FACT-07) and cite the lines; if the capture disagrees with the script's numbers, keep the script's wording on the card and raise a review question with the evidence.",
+        "Fact-card treatment; the two columns share one baseline so the steps align row by row."
+      ],
+      "beats": [
+        "Still: both columns.",
+        "Still: `step-focus` with the final step of each column highlighted."
+      ],
+      "checks": [
+        "Both sequences match the script cue and are checked against the captures (cited).",
+        "Rows align across the two columns.",
+        "720p proof legible."
+      ],
+      "copy": "Run 1 · 617 rounds\n2 cards → play 10 → burn 1 → empty → 4-card pot\n\nRun 4 · 2,008 rounds\n3 cards → play 8 → burn 2 → empty → 6-card pot",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "comparison",
+        "step-focus"
+      ],
+      "source_hint": "still",
+      "ticket": "docs/tickets/FACT-08.md",
+      "owned_paths": [
+        "assets/facts/FACT-08/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/comparison.png",
+        "exports/step-focus.png"
+      ],
+      "asset_dir": "assets/facts/FACT-08",
+      "github_issue": 181
+    },
+    {
+      "id": "CODE-29",
+      "title": "Reads like English: If PlayerScore > HighScore Then, For Each Item In Collection",
+      "parent": "R2-CODE",
+      "kind": "code",
+      "lane": "code",
+      "sections": [
+        16
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          689,
+          689
+        ]
+      ],
+      "brief": "A code card for the two VB lines the narration quotes as reading like English, so the code is on screen when it is spoken.",
+      "requirements": [
+        "Exactly the two lines the script quotes, as authored teaching examples (they are not in Program.vb): `If PlayerScore > HighScore Then` and `For Each Item In Collection`. Header \"Visual Basic\". Label the card as an example, not an excerpt.",
+        "Highlight variant: a faint English gloss under each line (\"if the player's score is higher than the high score, then…\" / \"for each item in the collection…\") entering from the margin, never across the code.",
+        "CODE-family treatment."
+      ],
+      "beats": [
+        "Still: the two lines.",
+        "Still: `gloss` with the English reading under each line."
+      ],
+      "checks": [
+        "Both lines are verbatim from the script.",
+        "The gloss does not cross the code.",
+        "720p proof legible."
+      ],
+      "copy": "If PlayerScore > HighScore Then\n\nFor Each Item In Collection",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "clean",
+        "gloss"
+      ],
+      "source_hint": "code",
+      "ticket": "docs/tickets/CODE-29.md",
+      "owned_paths": [
+        "assets/code/CODE-29/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/clean.png",
+        "exports/gloss.png"
+      ],
+      "asset_dir": "assets/code/CODE-29",
+      "github_issue": 179
     }
   ],
   "handoff_issues": {

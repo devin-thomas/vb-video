@@ -3,14 +3,14 @@ DIA-01,Event-driven programming: action → handler → code,diagrams,motion,mot
 DIA-02,"War rules: shuffle, deal, flip, compare, collect",diagrams,motion,motion,T1-D02,"5,9",OPS-01,R05,assets/diagrams/DIA-02,docs/tickets/DIA-02.md,32,planned,unreviewed
 DIA-03,Card rank mapping: 2 through Ace,diagrams,still,design,T1-D03,6,OPS-01,,assets/diagrams/DIA-03,docs/tickets/DIA-03.md,33,produced,approved
 DIA-04,ByRef versus ByVal: caller variable and local parameter,diagrams,motion,motion,T1-D04,"7,10",OPS-01,R04a,assets/diagrams/DIA-04,docs/tickets/DIA-04.md,34,planned,unreviewed
-DIA-05,"Array as queue: live slots, draw, shift, append",diagrams,motion,motion,T1-D05,8,OPS-01,,assets/diagrams/DIA-05,docs/tickets/DIA-05.md,35,produced,approved
+DIA-05,"Array as queue: live slots, draw, shift, append",diagrams,motion,motion,T1-D05,8,OPS-01,,assets/diagrams/DIA-05,docs/tickets/DIA-05.md,35,planned,unreviewed
 DIA-06,Fisher–Yates shuffle: backward swaps,diagrams,motion,motion,T1-D06,7,OPS-01,R15,assets/diagrams/DIA-06,docs/tickets/DIA-06.md,36,produced,approved
 DIA-07,BuildDeck nested loops: 4 suits × 13 ranks,diagrams,motion,motion,T1-D07,7,"OPS-01,CODE-04",,assets/diagrams/DIA-07,docs/tickets/DIA-07.md,38,produced,approved
-DIA-08,"War mechanic: tie, burn, flip, award",diagrams,motion,motion,T1-D08,"5,10",OPS-01,R05,assets/diagrams/DIA-08,docs/tickets/DIA-08.md,39,produced,approved
+DIA-08,"War mechanic: tie, burn, flip, award",diagrams,motion,motion,T1-D08,"5,10",OPS-01,R05,assets/diagrams/DIA-08,docs/tickets/DIA-08.md,39,planned,unreviewed
 DIA-09,Pot growth: 2 → 10 → 18,diagrams,motion,motion,T1-D09,"10,11",OPS-01,"R05,R07",assets/diagrams/DIA-09,docs/tickets/DIA-09.md,40,produced,approved
 DIA-10,"Game flowchart: setup, rounds, war loop, result",diagrams,still,design,T1-D10,"9,10",OPS-01,"R04,R05,R06",assets/diagrams/DIA-10,docs/tickets/DIA-10.md,41,produced,approved
 DIA-11,1995 development tools comparison,diagrams,still,design,T1-D11,13,OPS-01,"R11,R15",assets/diagrams/DIA-11,docs/tickets/DIA-11.md,42,produced,approved
-DIA-12,Windows VB4 versus Mac CodeWarrior table,diagrams,still,design,T1-D12,14,OPS-01,"R03,R09,R16",assets/diagrams/DIA-12,docs/tickets/DIA-12.md,43,produced,approved
+DIA-12,Windows VB4 versus Mac CodeWarrior table,diagrams,motion,design,T1-D12,14,OPS-01,"R03,R09,R16",assets/diagrams/DIA-12,docs/tickets/DIA-12.md,43,planned,unreviewed
 DIA-13,Visual development lineage / influence graphic,diagrams,still,design,T1-D13,15,OPS-01,R13,assets/diagrams/DIA-13,docs/tickets/DIA-13.md,44,produced,approved
 DIA-14,VB timeline: VB1 through VB.NET,diagrams,still,design,T1-D14,"2,15",OPS-01,"R15,R12",assets/diagrams/DIA-14,docs/tickets/DIA-14.md,45,produced,approved
 CARD-01,Opening title: Win95 message box,cards,motion,design,T1-S01,1,OPS-01,,assets/cards/CARD-01,docs/tickets/CARD-01.md,46,produced,approved
@@ -58,7 +58,7 @@ CODE-24,CardText suit names and concatenation,code,code,code,T1-S03,"6,9",OPS-01
 CODE-25,Winner and final summary output code,code,code,code,T1-S03,"11,16",OPS-01,"R06,R08",assets/code/CODE-25,docs/tickets/CODE-25.md,87,produced,approved
 CMP-01,Variable declaration: type before versus after,comparisons,still,code,T1-S04,6,OPS-01,,assets/comparisons/CMP-01,docs/tickets/CMP-01.md,88,planned,unreviewed
 CMP-02,Void method versus Sub procedure,comparisons,motion,code,T1-S04,7,OPS-01,R04a,assets/comparisons/CMP-02,docs/tickets/CMP-02.md,89,planned,unreviewed
-CMP-03,For loop and named Next,comparisons,still,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-03,docs/tickets/CMP-03.md,90,planned,unreviewed
+CMP-03,For loop and named Next,comparisons,motion,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-03,docs/tickets/CMP-03.md,90,planned,unreviewed
 CMP-04,Counting backward: decrement versus Step -1,comparisons,still,code,T1-S04,7,OPS-01,,assets/comparisons/CMP-04,docs/tickets/CMP-04.md,91,planned,unreviewed
 CMP-05,Returning a value,comparisons,still,code,T1-S04,8,OPS-01,,assets/comparisons/CMP-05,docs/tickets/CMP-05.md,92,planned,unreviewed
 CMP-06,String concatenation,comparisons,still,code,T1-S04,9,OPS-01,,assets/comparisons/CMP-06,docs/tickets/CMP-06.md,93,planned,unreviewed
@@ -135,10 +135,14 @@ OPS-03,"Editorial, historical evidence, and rights clearance ledger",ops,support
 OPS-04,"Integration QA, coverage audit, and editor handoff",ops,support,qa,COORDINATION,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16","DIA-01,DIA-02,DIA-03,DIA-04,DIA-05,DIA-06,DIA-07,DIA-08,DIA-09,DIA-10,DIA-11,DIA-12,DIA-13,DIA-14,CARD-01,CH-01,CH-02,CH-03,CH-04,CH-05,CH-06,CH-07,CH-08,CH-09,CH-10,CH-11,CH-12,CH-13,CH-14,CH-15,CH-16,CARD-02,CODE-01,CODE-02,CODE-03,CODE-04,CODE-05,CODE-06,CODE-07,CODE-08,CODE-09,CODE-10,CODE-11,CODE-12,CODE-13,CODE-14,CODE-15,CODE-16,CODE-17,CODE-18,CODE-19,CODE-20,CODE-21,CODE-22,CODE-23,CODE-24,CODE-25,CMP-01,CMP-02,CMP-03,CMP-04,CMP-05,CMP-06,CMP-07,CMP-08,FACT-01,FACT-02,FACT-03,FACT-04,FACT-05,FACT-06,MOCK-01,MOCK-02,REF-01,REF-02,REF-03,REF-04,TERM-01,TERM-02,TERM-03,TERM-04,TERM-05,TERM-06,HIST-01,HIST-02,HIST-03,HIST-04,HIST-05,HIST-06,HIST-07,HIST-08,HIST-09,HIST-10,HIST-11,HIST-12,HIST-13,HIST-14,HIST-15,HIST-16,HIST-17,HIST-18,HIST-19,HIST-20,HIST-21,BROLL-01,BROLL-02,BROLL-03,BROLL-04,BROLL-05,BROLL-06,XTRA-01,XTRA-02,XTRA-03,XTRA-07,XTRA-09,XTRA-11,XTRA-12,XTRA-13,XTRA-16,XTRA-17,XTRA-18,XTRA-19,XTRA-20,XTRA-04,XTRA-05,XTRA-06,XTRA-08,XTRA-10,XTRA-14,XTRA-15,OPS-01,OPS-02,OPS-03",,assets/ops/OPS-04,docs/tickets/OPS-04.md,161,produced,approved
 ASM-01,"Mix: quieter music throughout, and effects that duck the bed to the floor",ops,support,orchestrator,R2-MIX,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",ASM-02,,assets/ops/ASM-01,docs/tickets/ASM-01.md,171,planned,unreviewed
 ASM-02,"Bed transitions: fade to silence, a gap, then the next bed; no crossfades",ops,support,orchestrator,R2-MIX,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",,,assets/ops/ASM-02,docs/tickets/ASM-02.md,169,planned,unreviewed
-ASM-03,"Timeline stabilisation: one visual per beat, no back-and-forth, beat-accurate section 5, code scroll-through in the cold open",ops,support,orchestrator,R2-EDIT,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17","DIA-02,DIA-15,DIA-04,CMP-02,CMP-03,CODE-26,CODE-27,CODE-28,REF-05,REF-02",,assets/ops/ASM-03,docs/tickets/ASM-03.md,177,planned,unreviewed
-NAR-01,Narration re-reads: C++ and C# must be heard as spoken,ops,support,orchestrator,R2-NAR,8,,,assets/ops/NAR-01,docs/tickets/NAR-01.md,170,planned,unreviewed
+ASM-03,"Timeline stabilisation: one visual per beat, no back-and-forth, beat-accurate section 5, code scroll-through in the cold open",ops,support,orchestrator,R2-EDIT,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17","CMP-02,CMP-03,CMP-09,CODE-26,CODE-27,CODE-28,CODE-29,DIA-02,DIA-04,DIA-05,DIA-08,DIA-12,DIA-15,FACT-07,FACT-08,NAR-01,OPS-01,REF-02,REF-05",,assets/ops/ASM-03,docs/tickets/ASM-03.md,177,planned,unreviewed
+NAR-01,Narration re-reads: C++ and C# must be heard as spoken,ops,support,orchestrator,R2-NAR,"8,12",,,assets/ops/NAR-01,docs/tickets/NAR-01.md,170,planned,unreviewed
 CODE-26,Undeclared variable: created on first use as a Variant,code,motion,code,R2-CODE,4,,,assets/code/CODE-26,docs/tickets/CODE-26.md,173,planned,unreviewed
 CODE-27,"Nintendo and Nintendont: the silent typo, and what Option Explicit does about it",code,motion,code,R2-CODE,4,,,assets/code/CODE-27,docs/tickets/CODE-27.md,174,planned,unreviewed
 CODE-28,Every variable declared at the top: the Dim block of a Program.vb subroutine,code,code,code,R2-CODE,7,,,assets/code/CODE-28,docs/tickets/CODE-28.md,175,planned,unreviewed
 REF-05,C89: declarations at the top of the block,reference-code,still,code,R2-CODE,7,,,assets/reference-code/REF-05,docs/tickets/REF-05.md,176,planned,unreviewed
 DIA-15,Animated riffle shuffle of a real deck,diagrams,motion,motion,R2-MOTION,"5,7",OPS-01,,assets/diagrams/DIA-15,docs/tickets/DIA-15.md,172,planned,unreviewed
+CMP-09,"A queue in 1995: Queue<Card>, std::queue, and a VB array with ReDim",comparisons,still,code,R2-CODE,8,,,assets/comparisons/CMP-09,docs/tickets/CMP-09.md,178,planned,unreviewed
+FACT-07,"Four recorded runs: rounds, wars, winner",facts,still,design,R2-CODE,11,,,assets/facts/FACT-07,docs/tickets/FACT-07.md,180,planned,unreviewed
+FACT-08,Two endgames side by side: run 1 and run 4,facts,still,design,R2-CODE,12,,,assets/facts/FACT-08,docs/tickets/FACT-08.md,181,planned,unreviewed
+CODE-29,"Reads like English: If PlayerScore > HighScore Then, For Each Item In Collection",code,code,code,R2-CODE,16,,,assets/code/CODE-29,docs/tickets/CODE-29.md,179,planned,unreviewed

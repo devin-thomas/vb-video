@@ -177,3 +177,11 @@ Each player burns up to three cards face-down — or fewer, if they don't have t
 [Individual delivery inventory](../../assets/diagrams/DIA-08/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-08/qa.md) · [Live state](../../assets/diagrams/DIA-08/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's approval of proposal 4 (25:43))
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/DIA-08-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Add an `endgame` variant that tells the specific ending the narration walks through, with the real numbers: Player 2 holds 2 cards against Player 1's 50; both play a 10 (1 left against 49); both burn 1 (0 left against 48); Player 2 cannot flip, Player 1 takes the 4-card pot. Four panels, each landing on its sentence, with the counters shown; record each panel's second in delivery.json. Verify the numbers against the 617-round run's captured stdout (the same source FACT-07 and FACT-08 use) and cite the lines. Use the revised shared card faces (OPS-01). The existing generic war sequence stays as `preview`.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket.

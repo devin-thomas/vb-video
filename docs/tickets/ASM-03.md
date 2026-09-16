@@ -102,3 +102,23 @@ Three. If both players flip the same rank — two sevens, two kings, whatever �
 
 Four. You keep playing until one player has all 52 cards. That player wins. If a player can't put up enough cards for a war, they lose.
 ~~~~
+
+## Addendum — placements approved by Devin (2026-09-16, from the producer's 17:00–end pass)
+
+All of these are in scope; each is a checklist item for the report. Timestamps are the first cut's.
+- 19:31: no flash of DIA-02 on "Then the loop:"; hold CODE-13.
+- 20:10: CMP-06 (concatenation) on "Notice the string concatenation operator"; CMP-08 alone at 20:45.
+- 21:14: CODE-15 alone; 22:14 / 22:21 / 22:26 ("One… Two… Three…") get CODE-17 / CODE-18 / CODE-19 on those words.
+- 23:52: TERM-02's first-war frame alone on the double-war sentence. 24:06: FACT-07 (four runs) instead of the four captures cycling.
+- 24:42: the ending of the first run (TERM-04's end frame, or the recording's last seconds), never the recording from its start.
+- 25:43: DIA-08 `endgame` panels on "Panel 1..4"'s sentences (the narration itself, once NAR-01 removes the read-aloud stage direction). 26:31–27:18: FACT-08 instead of CMP-02.
+- 17:00: CMP-09 on the Queue<Card> sentence. 17:20–18:24: DIA-05 cutdowns on their words (`append` at 17:37, `draw-shift` at 17:44, `cost` at 17:52), code cards on their sentences.
+- 27:29: MOCK-01 from "put a GUI on it" through the Deal button; HIST-19/HIST-20/XTRA-18/XTRA-19 at 28:18 where Solitaire is named (no more than two of them).
+- 29:16: MOCK-02 plays once, then MOCK-01 for "make your own version of Solitaire"; no frozen dialog.
+- 30:16: REF-01 (MFC code) on Visual C++/MFC; 30:50: HIST-12 (Delphi IDE); 31:51: HIST-15 (PowerBuilder DataWindow); 32:14: HIST-16 (Java AWT); 32:48: DIA-11 on "sweet spot".
+- 33:19: XTRA-10 on "never shipped Visual Basic for the Mac"; 33:51: HIST-13 (CodeWarrior IDE); 34:39: HIST-14 (NeXT cube) when NeXT is named; XTRA-09 (Mac hardware) and HIST-21 (System 7) at 33:13 only.
+- 35:25 / 35:50 / 36:18: DIA-12 `row-console` / `row-gui` / `full`.
+- 37:04: XTRA-11..14 (two at most) on "none of these people would have called themselves programmers"; 37:13: CODE-29 on the quoted lines.
+- 37:40: HIST-03 alone on the VB6 sentence; 38:04: BROLL-03 alone.
+- 39:20: XTRA-17 (petition) on "organized an actual petition"; 39:32–40:02: DIA-14's end state.
+- 40:29: TERM-04's final scoreboard on "So that's Visual Basic… we built"; 40:47: TERM-03 scroll-through on "in about 280 lines"; 41:04: TERM-01 on "dotnet new console -lang VB"; 41:28: TERM-03 hold; 41:32 to the end: CARD-02 alone.

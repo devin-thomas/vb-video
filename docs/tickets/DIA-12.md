@@ -120,3 +120,11 @@ Where VB had the massive advantage was in the next step — putting a GUI on it.
 [Individual delivery inventory](../../assets/diagrams/DIA-12/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-12/qa.md) · [Live state](../../assets/diagrams/DIA-12/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's approval of proposal 7 (35:25))
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/DIA-12-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Reveal the Windows-vs-Mac table row by row instead of holding the whole table for 63 s. Deliver `row-console` (only the console-logic row visible: "roughly comparable"), `row-gui` (adds the GUI row: "an afternoon" vs "a week, minimum"), and `full` (the complete table), each as a still, plus a short motion `reveal` (rows fading in with a 1 s gap) if the source is HTML. ASM-03 places `row-console` at 35:25, `row-gui` at 35:50 and `full` at 36:18.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket.
