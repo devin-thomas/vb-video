@@ -1,16 +1,17 @@
 {
   "id": "CMP-03",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
-  "assigned_agent": null,
+  "assigned_agent": "Claude Fable 5.1 — worker, revision 2",
   "updated_at": "2026-09-16",
   "blockers": [],
   "reviewer": "Producer for Devin",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
-    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling.",
-    "Revision 2 opened 2026-09-16 from Devin's review notes 13 and 15; previous exports stay until replaced."
+    "Release approved 2026-09-15 for revision 1 (producer review under Devin's delegation; R14 by Devin's standing ruling). That approval does not carry to revision 2.",
+    "Revision 2 produced 2026-09-16 on branch ticket/CMP-03-r2 from Devin's review notes 13 and 15: counter named i on both sides, left header C / C++ / C# / Java, kind motion with the i example transforming into the real Program.vb loop (lines 104-110), held at the end. Release back to unreviewed until the producer approves the new exports.",
+    "Review question: the ticket cites Program.vb lines 244-255 for the loop; the For Rank = 2 To 14 ... Next Rank loop is at lines 104-110 and the asset uses that range."
   ],
-  "owner": "ChatGPT \u2014 local production"
+  "owner": "Claude Fable 5.1 — worker, revision 2"
 }

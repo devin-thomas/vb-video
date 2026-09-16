@@ -1,3 +1,15 @@
 {
-  "gates": []
+  "gates": [],
+  "self_checks": [
+    {
+      "check": "src/excerpt.vb equals sources/Program.vb lines 104–110 and War/Program.vb lines 104–110 (newline-normalized)",
+      "result": "passed",
+      "by": "src/compose.py assertions"
+    },
+    {
+      "check": "the on-screen For/Next lines of the end state equal the stripped lines 104 and 110",
+      "result": "passed",
+      "by": "src/compose.py assertions"
+    }
+  ]
 }

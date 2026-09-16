@@ -19,14 +19,51 @@
       ],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
       "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        104,
+        110
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
     }
   ],
   "authored_additions": [
-    "The C# side is a proposed equivalent-bounds example, not verbatim supplied code. Keep the inclusive upper bound 14 on both sides.",
+    "Revision 2: both columns are an authored teaching example with the counter named i (for (int i = 2; i <= 14; i++) / For i = 2 To 14 ... Next i); it is not a Program.vb excerpt. The C-family side is a proposed equivalent-bounds example, not verbatim supplied code; the inclusive upper bound 14 is kept on both sides.",
+    "Left header lists the languages the snippet is valid in: C / C++ / C# / Java.",
+    "Transform: the VB identifier i morphs into Rank in place; the end state is the real loop from Program.vb lines 104–110 (For Rank = 2 To 14 ... Next Rank) shown as lines 104 and 110 with the common indent removed and body lines 105–109 elided as \"...\". src/excerpt.vb holds the seven lines byte-exactly.",
     "No compile/run is claimed for illustrative counterparts."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "Revision 2 (2026-09-16), from Devin’s review notes 13 and 15: counter named i on screen; left header C / C++ / C# / Java; motion transform into the real Rank loop, held at the end."
+  ],
+  "authored_example": {
+    "left_header": "C / C++ / C# / Java",
+    "left": [
+      "for (int i = 2; i <= 14; i++) {",
+      "    ...",
+      "}"
+    ],
+    "right_header": "VB",
+    "right": [
+      "For i = 2 To 14",
+      "    ...",
+      "Next i"
+    ],
+    "status": "agent-authored teaching example, not a Program.vb excerpt, not compiled"
+  },
+  "real_loop": {
+    "file": "sources/Program.vb",
+    "lines": [
+      104,
+      110
+    ],
+    "excerpt_file": "src/excerpt.vb",
+    "display": "lines 104 and 110 with the common indent removed; lines 105–109 elided as ..."
+  }
 }
