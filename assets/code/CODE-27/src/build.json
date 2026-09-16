@@ -1,0 +1,105 @@
+{
+  "id": "CODE-27",
+  "duration": 9,
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.4,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 0.8,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 1.2,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 1.6,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 2.0,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 2.25,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 5.0,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 5.3,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 5.6,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 6.3,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 6.6,
+      "file": "scene-0013.svg"
+    }
+  ],
+  "variants": {
+    "typo": "variant-typo.svg",
+    "option-explicit": "variant-option-explicit.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Authored teaching example in classic VB4 style; not an excerpt of Program.vb. Names are exactly Nintendo (declared) and Nintendont (misspelled).",
+    "State A (Option Explicit off): the misspelled line silently creates a new, empty Nintendont; Nintendo stays 1985 and Print Nintendo outputs 1985.",
+    "State B (Option Explicit On): the same line is flagged with the classic VB message \"Variable not defined\", pointing at Nintendont. The card header switches to \"Option Explicit on\".",
+    "The long line 3 leaves no room beside the code, so both callouts sit below the code and their connectors enter from the right-margin lane (x=1745, right of every line end); no annotation crosses code text.",
+    "Discrete deterministic step states: lines type in 0.4–1.6 s, State A callout 2–2.5 s, Option Explicit On types in 5–5.6 s, State B error 6–6.6 s, hold to 9 s (poster)."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        166,
+        166
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (beat S04-B07 narration)"
+    },
+    {
+      "path": "../../../docs/tickets/CODE-27.md",
+      "lines": [
+        36,
+        43
+      ],
+      "sha256": "c135d0f77ea39f3ff9a224ccce7b96a87e1c6ba79eda9baee74439639fadd869",
+      "relationship": "teaching illustration (authored copy from the ticket)"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        12,
+        12
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "source creative brief (Devin's review note 6: the names Nintendo and Nintendont)"
+    }
+  ],
+  "kind": "code"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "CODE-26",
+  "durationSeconds": 6,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–1 s: header and empty editor.",
+    "1–2.35 s: `x = 42` types in, then `Print x` with its comment.",
+    "2.5–2.9 s: callout enters from the right margin: x was never declared; VB creates it here as a Variant.",
+    "2.9–6 s: hold (poster state, loop-safe)."
+  ],
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 1.0,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 1.2,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 1.4,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 1.6,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 1.8,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 2.0,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 2.2,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 2.35,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 2.7,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 2.9,
+      "file": "scene-0011.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "clean",
+    "callout"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

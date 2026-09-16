@@ -1,0 +1,333 @@
+{
+  "id": "CODE-26",
+  "title": "Undeclared variable: created on first use as a Variant",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "authored teaching example (VB4-style illustration; not a Program.vb excerpt)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 6,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 447,
+      "sha256": "6ab6c4818fa935ea733cd5e14a8ed76a677f11f743ac19df06337f39bb927a04"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 295,
+      "sha256": "e21735545c19ca2a2ff283d99fb926399700f8dbc11849d00e11432219ffc78a"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2510,
+      "sha256": "8271693ce4c52c5b98681e2eb0bfd859500da98954753846f0dc6267dbafbd95"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 1081,
+      "sha256": "e1573f4c04e2f16204d2c4f935f3f0a0e09d69aeb44401ee92f1051359df0df3"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1560,
+      "sha256": "a6775d86d05b26b2cfb59910197be3605f2dbabac38bf2fbfe2e6504f79ecd95"
+    },
+    {
+      "path": "exports/callout.png",
+      "role": "rendered still",
+      "bytes": 59607,
+      "sha256": "29160e736a18bf0deaa0d36688c2f67392da61ab38890bd17fac2f8b3fd2d291"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 44392,
+      "sha256": "7c89569bdbbbafbd4b4eb3a451b153ad514cab396ee5946e249091b10a037480"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 67646,
+      "sha256": "7cc41ff3955f187cd3b11db9fae3ea6f34491e4b9551a60090d4e23bcea1365e"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 59607,
+      "sha256": "29160e736a18bf0deaa0d36688c2f67392da61ab38890bd17fac2f8b3fd2d291"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 59607,
+      "sha256": "29160e736a18bf0deaa0d36688c2f67392da61ab38890bd17fac2f8b3fd2d291"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 38040,
+      "sha256": "5e40d909036eaa46e00798deb4ea104184f76223b29c3030b06eb1e1594fa2f5"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 59607,
+      "sha256": "29160e736a18bf0deaa0d36688c2f67392da61ab38890bd17fac2f8b3fd2d291"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 52250,
+      "sha256": "8aaa2ada30ba6aa5182832f7228909eb69d56dd42dc9989e996a82785b53fa4d"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 78154,
+      "sha256": "330b47cd967b692bc94dfb2f765b03706b5956db6d20973983414ea29ed14b74"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3054,
+      "sha256": "ebe2e505f2b45c15af7605127e0e6bf054a235f84f50a3c12723e4392a7ab673"
+    },
+    {
+      "path": "src/author.py",
+      "role": "editable source",
+      "bytes": 8828,
+      "sha256": "1442dd012cbfee0a80035eef4255223d1a6fd82a5e99b98c653e4e7e0851c214"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2323,
+      "sha256": "cdef377a3cab94c566d7f91d2c40040de5311557667e4e2907d2b2b0badd4225"
+    },
+    {
+      "path": "src/example.vb",
+      "role": "editable source",
+      "bytes": 67,
+      "sha256": "f2940620fa0d79c9ad540eb364ca04c83c3e7d7530f4e0a3e340ce8c70eecebd"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 38066,
+      "sha256": "533a49b775a883a560e90b804c80a114ceb631953546a8ba788d7a9f86c6e419"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 1862,
+      "sha256": "d93f1d27fa991c91c291284857ac6169ab073de68aedc31c442591bf170fbaf1"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 2030,
+      "sha256": "eecaa1b38b355349eb19425dfb0ebc0820c2a7a7fe212723336ba5b3a8ab3955"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 2198,
+      "sha256": "ae3624eb8ec872df17f93a163f95c1b5a6fe652f80c5aa488d214a731be986d6"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 2199,
+      "sha256": "27bc0d376174aac5744a17f24657168e08594ef82f01a430d47e41a9a9302acc"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 2200,
+      "sha256": "8d2bfe07d5d041219f48030850d3cd03c2d822b415a4d9ac82447cf863288176"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 2368,
+      "sha256": "4281348c9cfd67c639016315fdfffd318b30eca7e293d25e4d8b151059f76806"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 2369,
+      "sha256": "b5a0aeb3a25641a097914b1867033e47c8cd961c389a4f2278e9a6728c4fb684"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 2877,
+      "sha256": "2fd114b7553512f0a6d250935081f51e74443030804dbad8df2068c2dab2c85e"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 3133,
+      "sha256": "bdbe06553ffd48b0db64bb54833542b5227f89df197b8a8e635389a28adffe4e"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 3220,
+      "sha256": "4391f366eb53f2a25244d5b82358f952e104d3dd6d0908d8f3b143a038e8d713"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 3481,
+      "sha256": "510c9afda8943de83e8635473af1f4e61cc9c5944aa521edc1bac1b260873e01"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 4200,
+      "sha256": "cff5f9830c142445e76f3800a14f4a28455a6bf023dcd2725e66c28e18520b12"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 4200,
+      "sha256": "cff5f9830c142445e76f3800a14f4a28455a6bf023dcd2725e66c28e18520b12"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 1351,
+      "sha256": "92a9279692dde0f720d8759e7d91311bde751aa5696b0c41862efb1b093fd614"
+    },
+    {
+      "path": "src/variant-callout.svg",
+      "role": "editable source",
+      "bytes": 4200,
+      "sha256": "cff5f9830c142445e76f3800a14f4a28455a6bf023dcd2725e66c28e18520b12"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 3133,
+      "sha256": "bdbe06553ffd48b0db64bb54833542b5227f89df197b8a8e635389a28adffe4e"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "callout",
+      "files": [
+        "exports/callout.png",
+        "src/variant-callout.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        166,
+        166
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (beat S04-B06 narration)"
+    },
+    {
+      "path": "../../../docs/tickets/CODE-26.md",
+      "lines": [
+        36,
+        38
+      ],
+      "sha256": "c9579af15fdf90ea2123fd9277a51d2251f48df175d21087e572d23368dd2429",
+      "relationship": "teaching illustration (authored copy from the ticket)"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        12,
+        12
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "source creative brief (Devin's review note 6)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Vector graphics authored for this production with the shared win95-workbench system; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id CODE-26: run after this manifest was written; see qa.md for the recorded output."
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: PNGs 1920x1080; preview.mp4 h264 yuv420p 30/1, 180 frames, 6.000 s (ffprobe)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: 15 SVG files, 162 text boxes, no out-of-canvas text, no network request, seek deterministic (installed Chromium 153.0.8010.12)"
+    },
+    {
+      "test": "copy check",
+      "result": "src/author.py asserts the required names/words are present in the poster and variant SVGs; the exact code lines equal the ticket payload (src/example.vb)."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-size and 1280-wide inspection of every poster, variant PNG and extracted preview frames",
+        "scope": "All named states; three or more MP4 frames per preview extracted with ffmpeg.",
+        "status": "Poster, clean.png, callout.png and preview frames at 1.5 s, 2.6 s and 5.9 s inspected at 1920 × 1080 and at 1280 × 720 (proofs/poster-720.png plus 1280-wide downsizes made in a scratch folder). The word Variant is on screen from 2.9 s to the end and in the poster; the callout arrow enters from the right margin and ends 26 px right of `42`, touching no code; the `x` highlight sits behind the token only; type legible at 720p."
+      }
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": null,
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "cairo_dll": "MSYS2 ucrt64 via CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin",
+    "fonts": "DejaVu Sans Mono and Liberation Sans installed locally; not distributed",
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading in Playwright's bundled Chromium."
+  },
+  "notes": [
+    "Authored teaching example in classic VB4 style with Option Explicit off; not an excerpt of Program.vb.",
+    "The ticket's header comment line is carried by the card header (\"Visual Basic 4 · Option Explicit off\"); the two code lines are the exact ticket copy.",
+    "Callout enters from the right margin and stops at the end of line 1; no annotation crosses code text.",
+    "Discrete deterministic step states: typing 1–2.35 s, callout 2.5–2.9 s, hold to 6 s (loop-safe; last state is the poster).",
+    "Authored teaching example, labelled as such on the card; not a Program.vb excerpt.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

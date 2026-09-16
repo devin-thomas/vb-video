@@ -1,0 +1,54 @@
+{
+  "id": "CODE-27",
+  "classification": "authored teaching example (VB4-style illustration; not a Program.vb excerpt)",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        166,
+        166
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (beat S04-B07 narration)"
+    },
+    {
+      "path": "../../../docs/tickets/CODE-27.md",
+      "lines": [
+        36,
+        43
+      ],
+      "sha256": "c135d0f77ea39f3ff9a224ccce7b96a87e1c6ba79eda9baee74439639fadd869",
+      "relationship": "teaching illustration (authored copy from the ticket)"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        12,
+        12
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "source creative brief (Devin's review note 6: the names Nintendo and Nintendont)"
+    }
+  ],
+  "authored_additions": [
+    "Four-line VB4-style example from the ticket, names exactly Nintendo (declared) and Nintendont (misspelled), as Devin asked in review note 6.",
+    "State A callout copy (from the ticket's composition section): \"Nintendont is a new, empty variable. Nintendo is still 1985. Nothing told you.\" plus an Output chip reading 1985 (the printed result).",
+    "State B: `Option Explicit On` types in at line 1, the card header switches to \"Visual Basic 4 · Option Explicit on\", Nintendont is tinted red with a wavy underline, and an error callout reads \"Compile error / Variable not defined / Nintendont\".",
+    "Because line 3 with its comment reaches x=1637, both callouts sit below the code and their connectors enter from a right-margin lane at x=1745, right of every line end.",
+    "Authored teaching example in classic VB4 style; not an excerpt of Program.vb. Names are exactly Nintendo (declared) and Nintendont (misspelled).",
+    "State A (Option Explicit off): the misspelled line silently creates a new, empty Nintendont; Nintendo stays 1985 and Print Nintendo outputs 1985.",
+    "State B (Option Explicit On): the same line is flagged with the classic VB message \"Variable not defined\", pointing at Nintendont. The card header switches to \"Option Explicit on\".",
+    "The long line 3 leaves no room beside the code, so both callouts sit below the code and their connectors enter from the right-margin lane (x=1745, right of every line end); no annotation crosses code text.",
+    "Discrete deterministic step states: lines type in 0.4–1.6 s, State A callout 2–2.5 s, Option Explicit On types in 5–5.6 s, State B error 6–6.6 s, hold to 9 s (poster)."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": [
+    "Devin (review note 6, review/cut-notes-2026-09-16.md:12) fixed the names Nintendo and Nintendont; used verbatim."
+  ],
+  "not_program_vb": true,
+  "fact_notes": [
+    "\"Variable not defined\" is the classic VB IDE compile error raised under Option Explicit for an undeclared name; the text is the one the ticket requires. No primary VB documentation copy is stored in the repository."
+  ]
+}

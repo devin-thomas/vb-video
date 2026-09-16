@@ -1,0 +1,5 @@
+{
+  "id": "CODE-26",
+  "gates": [],
+  "note": "manifest.json assigns no R gate to this ticket. The card is an authored teaching example whose only factual content restates the final narration (SCRIPT.md:166); see fact_notes in provenance.json. Rights: settled by Devin's standing R14 ruling."
+}
