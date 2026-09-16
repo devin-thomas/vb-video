@@ -1,11 +1,11 @@
 {
   "id": "DIA-07",
-  "browser": "installed Chromium 144.0.7559.96",
-  "loading_mode": "In-memory HTML (file:// navigation restricted by this browser environment)",
+  "browser": "installed Chromium 153.0.8010.12",
+  "loading_mode": "In-memory HTML",
   "offline": true,
   "deterministic_seek": true,
   "svg_files_checked": 56,
-  "text_boxes_checked": 4534,
+  "text_boxes_checked": 4542,
   "out_of_canvas": [],
   "errors": [],
   "limitations": [

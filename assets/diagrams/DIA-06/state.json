@@ -1,15 +1,16 @@
 {
   "id": "DIA-06",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "assigned_agent": null,
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": "Producer for Devin",
+  "reviewer": null,
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
-    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling.",
+    "Re-rendered 2026-09-16 for the card-face revision (win95-workbench-1.1.0): the 152 inlined 1.0.0 single-pip faces in 19 src SVGs (151 px) were replaced by the 1.1.0 card() output at the same identity, position, size, opacity and accent, index.html was rebuilt from them, and every export was re-rendered with render_assets.py; timing, layout, text and file names are unchanged. The 2026-09-15 release approval covered the 1.0.0 faces and does not carry over."
   ],
   "owner": "ChatGPT — local production"
 }

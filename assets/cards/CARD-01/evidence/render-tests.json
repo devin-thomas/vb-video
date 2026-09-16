@@ -1,13 +1,12 @@
 {
-  "renderer": "CairoSVG 2.8.2",
+  "renderer": "CairoSVG 2.9.1",
   "png_dimensions": "1920x1080",
   "video_probes": [
     {
-      "file": "exports/preview.mp4",
-      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/CARD-01/exports/preview.concat.txt -vf fps=30,format=yuv420p -frames:v 210 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/CARD-01/exports/preview.mp4",
+      "file": "exports\\preview.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a3176aa5d18b03d4c\\assets\\cards\\CARD-01\\exports\\preview.concat.txt -vf fps=30,format=yuv420p -frames:v 210 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a3176aa5d18b03d4c\\assets\\cards\\CARD-01\\exports\\preview.mp4",
       "probe": {
         "programs": [],
-        "stream_groups": [],
         "streams": [
           {
             "codec_name": "h264",
@@ -21,10 +20,10 @@
         ],
         "format": {
           "duration": "7.000000",
-          "size": "45888"
+          "size": "53955"
         }
       }
     }
   ],
-  "command": "python shared/render_assets.py --id CARD-01"
+  "command": "python tools/render/render_assets.py --id CARD-01"
 }
