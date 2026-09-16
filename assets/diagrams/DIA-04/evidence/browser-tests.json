@@ -1,13 +1,15 @@
 {
   "id": "DIA-04",
-  "browser": "installed Chromium 144.0.7559.96",
-  "loading_mode": "In-memory HTML (file:// navigation restricted by this browser environment)",
+  "browser": "installed Chromium 153.0.8010.12",
+  "loading_mode": "In-memory HTML",
   "offline": true,
   "deterministic_seek": true,
-  "svg_files_checked": 4,
-  "text_boxes_checked": 64,
+  "frame_boundary_seeks_checked": 10,
+  "svg_files_checked": 10,
+  "text_boxes_checked": 1063,
   "out_of_canvas": [],
   "errors": [],
+  "command": "Scratch replica of tools/render/qa_browser.py restricted to DIA-04 (the shared script also rewrites review/browser-summary.json, outside this ticket\u2019s write paths).",
   "limitations": [
     "Checks canvas bounds, not every possible overlap or semantic correctness.",
     "Typography depends on installed fonts for editable sources; rendered media is frozen."

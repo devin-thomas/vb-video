@@ -1,14 +1,16 @@
 {
   "id": "DIA-04",
-  "durationSeconds": 12,
+  "durationSeconds": 10,
   "fps": 30,
   "width": 1920,
   "height": 1080,
   "beats": [
-    "0–2 s: show two caller x=7 boxes and their parameters.",
-    "2–6 s: resolve the ByRef connection and update to 9.",
-    "6–10 s: resolve the ByVal local copy and update only the local parameter.",
-    "10–12 s: hold both caller outcomes."
+    "0–1.5 s: three columns show the code; x holds 5 everywhere.",
+    "1.5–3 s: the call line Bump(x) / bump(x) is the running line.",
+    "3–4.5 s: entering the Sub: ByVal shows n as a copy of 5 beside x; ByRef shows n as a tag whose arrow points back at x. The C++ rows do the same for int n and int& n.",
+    "4.5–6 s: n = n + 1 runs: the ByVal copy becomes 6 while x stays 5; under ByRef x itself becomes 6.",
+    "6–7.5 s: End Sub: the ByVal copy is struck through and marked discarded; the ByRef tag fades.",
+    "7.5–10 s: held result: \"x is still 5\" (ByVal) against \"x is now 6\" (ByRef), and the same pair in the C++ column."
   ],
   "frames": [
     {
@@ -16,15 +18,31 @@
       "file": "scene-0000.svg"
     },
     {
-      "time": 4,
+      "time": 1.5,
       "file": "scene-0001.svg"
     },
     {
-      "time": 8,
+      "time": 3.0,
       "file": "scene-0002.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0005.svg"
     }
   ],
   "cuts": {},
-  "variant_names": [],
+  "variant_names": [
+    "byval",
+    "byref",
+    "cpp"
+  ],
   "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
 }

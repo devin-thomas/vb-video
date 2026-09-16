@@ -8,13 +8,15 @@
     "Historical default-passing statements stay out of the graphic until separately verified."
   ],
   "beats": [
-    "0–2 s: show two caller x=7 boxes and their parameters.",
-    "2–6 s: resolve the ByRef connection and update to 9.",
-    "6–10 s: resolve the ByVal local copy and update only the local parameter.",
-    "10–12 s: hold both caller outcomes."
+    "0–1.5 s: three columns show the code; x holds 5 everywhere.",
+    "1.5–3 s: the call line Bump(x) / bump(x) is the running line.",
+    "3–4.5 s: entering the Sub: ByVal shows n as a copy of 5 beside x; ByRef shows n as a tag whose arrow points back at x.",
+    "4.5–6 s: n = n + 1 runs: the ByVal copy becomes 6 while x stays 5; under ByRef x itself becomes 6.",
+    "6–7.5 s: End Sub: the ByVal copy is struck through and marked discarded; the ByRef tag fades.",
+    "7.5–10 s: held result: x is still 5 (ByVal) against x is now 6 (ByRef)."
   ],
   "checks": [
-    "The two results are numerically unambiguous: caller 9 versus caller 7.",
+    "The two results are numerically unambiguous: x stays 5 under ByVal, x becomes 6 under ByRef.",
     "No duplicated array storage is depicted as an automatic result of ByVal.",
     "ByRef and ByVal labels remain visible in every state."
   ],
@@ -48,5 +50,10 @@
   ],
   "gates": [
     "R04a"
-  ]
+  ],
+  "revision_2": {
+    "date": "2026-09-16",
+    "origin": "Devin's cut note 16 (review/cut-notes-2026-09-16.md)",
+    "change": "Diagram replaced by a code-driven demonstration: Sub Bump(ByVal n As Integer) / Sub Bump(ByRef n As Integer), n = n + 1, called with x = 5; ByVal leaves x at 5, ByRef makes it 6; third column C++ void bump(int n) / void bump(int& n). Variants byval, byref, cpp. About 10 s of motion with a held end state."
+  }
 }
