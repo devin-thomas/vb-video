@@ -1,13 +1,34 @@
 {
-  "renderer": "CairoSVG 2.8.2",
+  "renderer": "CairoSVG 2.9.1",
   "png_dimensions": "1920x1080",
   "video_probes": [
     {
-      "file": "exports/preview.mp4",
-      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-05/exports/preview.concat.txt -vf fps=30,format=yuv420p -frames:v 540 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-05/exports/preview.mp4",
+      "file": "exports\\preview.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\preview.concat.txt -vf fps=30,format=yuv420p -frames:v 675 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\preview.mp4",
       "probe": {
         "programs": [],
-        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "675"
+          }
+        ],
+        "format": {
+          "duration": "22.500000",
+          "size": "412410"
+        }
+      }
+    },
+    {
+      "file": "exports\\live-slots.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\live-slots.concat.txt -vf fps=30,format=yuv420p -frames:v 540 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\live-slots.mp4",
+      "probe": {
+        "programs": [],
         "streams": [
           {
             "codec_name": "h264",
@@ -21,10 +42,93 @@
         ],
         "format": {
           "duration": "18.000000",
-          "size": "174976"
+          "size": "197800"
         }
-      }
+      },
+      "cutdown": "live-slots",
+      "key_second": 0.0,
+      "key_moment": "the array at rest, Count = 4 marking the live boundary",
+      "states": 1
+    },
+    {
+      "file": "exports\\append.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\append.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\append.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "360"
+          }
+        ],
+        "format": {
+          "duration": "12.000000",
+          "size": "154622"
+        }
+      },
+      "cutdown": "append",
+      "key_second": 1.0,
+      "key_moment": "the card C lands in slot 4 (position Count)",
+      "states": 22
+    },
+    {
+      "file": "exports\\draw-shift.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\draw-shift.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\draw-shift.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "360"
+          }
+        ],
+        "format": {
+          "duration": "12.000000",
+          "size": "192804"
+        }
+      },
+      "cutdown": "draw-shift",
+      "key_second": 1.2,
+      "key_moment": "the first shift movement: H.Cards(0) = H.Cards(1)",
+      "states": 62
+    },
+    {
+      "file": "exports\\cost.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\cost.concat.txt -vf fps=30,format=yuv420p -frames:v 600 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-aa4c7c5da8a71a5f1\\assets\\diagrams\\DIA-05\\exports\\cost.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "600"
+          }
+        ],
+        "format": {
+          "duration": "20.000000",
+          "size": "361659"
+        }
+      },
+      "cutdown": "cost",
+      "key_second": 1.2,
+      "key_moment": "every remaining card starts moving one slot forward at once",
+      "states": 35
     }
   ],
-  "command": "python shared/render_assets.py --id DIA-05"
+  "command": "python assets/diagrams/DIA-05/src/render.py",
+  "cutdown_encoder": "tools/render/render_assets.py encode(), called per cutdown from src/render.py"
 }
