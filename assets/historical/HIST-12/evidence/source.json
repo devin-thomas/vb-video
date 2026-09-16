@@ -1,0 +1,81 @@
+{
+  "title": "Figure 1, \"Delphi, a visual development environment and two-way tool\" — Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi",
+  "creator": "Borland International, Inc.",
+  "source_url": "https://web.archive.org/web/19961223104420/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+  "raw_capture_url": "https://web.archive.org/web/19961223104420id_/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+  "original_url": "http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+  "host_page_url": "https://web.archive.org/web/19961221223414/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.4.html",
+  "original_date": null,
+  "original_date_notes": "The GIF87a file format carries no timestamp and the image contains no visible date. The host page footer reads 'Content last modified June 12, 1995' with a 'Copyright (c) 1996' site footer; the Wayback captures are dated 1996-12-23 and 1997-05-09. None of these is the image's creation date, so it is left null. The depicted software is Delphi 1 (16-bit, Windows 3.x), released in 1995.",
+  "depicted_event_date": null,
+  "access_date": "2026-09-15",
+  "acquisition_date": "2026-09-15",
+  "acquisition_status": "acquired — byte-exact raw capture, SHA-1 verified against the Wayback CDX record",
+  "acquisition_authorization": "Devin approved this specific download in chat (relayed by the Historical Screenshots Manager, session vb-20). The download used a public Wayback id_ URL: no account, no payment, no terms accepted, no CAPTCHA, no access control bypassed.",
+  "wayback_captures": [
+    {
+      "timestamp": "19961223104420",
+      "mimetype": "image/gif",
+      "status": 200,
+      "cdx_length_bytes": 35423,
+      "cdx_length_note": "CDX 'length' is the compressed WARC record length, not the payload length. The retrieved payload is 35,163 bytes; the SHA-1 digest below is computed over the payload and matches the CDX digest exactly.",
+      "sha1_base32_digest": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW"
+    },
+    {
+      "timestamp": "19970509094337",
+      "mimetype": "image/gif",
+      "status": 200,
+      "cdx_length_bytes": 35423,
+      "sha1_base32_digest": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW",
+      "note": "Same digest as the acquired capture; the two captures are the same bytes."
+    }
+  ],
+  "original_file": "source/original.gif",
+  "original_format": "GIF87a, non-animated, single frame, 16-colour palette (mode P)",
+  "original_dimensions": {
+    "width": 444,
+    "height": 282
+  },
+  "original_bytes": 35163,
+  "original_sha1_base32": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW",
+  "original_sha1_hex": "d803cd5cd2550a3eae052a54f213a801ca2b29f6",
+  "original_md5": "f1cc0ec6a7a233bfa60cef6ec896e4b2",
+  "original_sha256": "467a198503033616d228194120846f2d7dcd364e4b5911589ef7ce963f14314a",
+  "identity_evidence": [
+    "Host page title (archived HTML, 1996-12-21 capture, sha256 bc0b1abd...35339a, re-verified on acquisition): 'Delphi 1.0 Reviewer's Guide: Quick Tour of Delphi'.",
+    "The page links fig1.gif from thumbnail smfig1.gif (displayed 100x64) with the caption 'Delphi, a visual development environment and two-way tool'.",
+    "The text directly above the figure lists the startup environment: customizable speedbar, component palette, Object Inspector, form design area, and code window.",
+    "The URL path sits under /delphi/delphi1.0/. The archived directory index page is titled 'Delphi 1.0 Product Information' and labels itself 'Previous Version 1.0', linking the 'Delphi 1.0 Reviewer's Guide'.",
+    "Reviewer's Guide table of contents (guide/8.1.1.html) describes Delphi and Delphi Client/Server as two products about to be released to market, consistent with 1995 launch-era material.",
+    "VERIFIED AT FULL RESOLUTION (2026-09-15, native 444x282 and a 2x nearest-neighbour inspection copy). The image is a single screenshot of the Delphi IDE containing, exactly as the host page describes: the main window titled 'Delphi - Project1' with menu bar File / Edit / Search / View / Compile / Run / Options / Tools / Help; a speedbar of two toolbar rows; a tabbed component palette (Standard, Additional, Data Access, Data Controls, Dialogs, System, VBX, Samples); a floating 'Object Inspector' window with an object selector reading 'Warning: TButton', an alphabetical property grid (Cancel, Caption, Cursor, Default, DragCursor, DragMode, Enabled, Font, Height, HelpContext, Hint, Left, ModalResult, Name, ParentFont) and Properties / Events page tabs; a form-design window titled 'Form1' with a dotted alignment grid and a selected TButton captioned 'Warning'; and a code window titled 'UNIT1.PAS' showing Object Pascal source ('type', 'TForm1 = class(TForm)', 'Warning: TButton;', 'procedure WarningClick(Sender: TObject);', 'private', '{ Private declarations }', 'public', '{ Public declarations }') with a status strip reading '28  1  Modified  Insert' and a 'Unit1' page tab.",
+    "VERSION MARKERS (Delphi 1, 16-bit): window chrome is Windows 3.x — a minimise/maximise triangle pair at the right of each title bar and a single control-menu box at the left, with no Windows 95 close button, no title-bar 3D bevel and no taskbar. The component palette carries a 'VBX' tab, which is specific to the 16-bit Delphi 1 line (Delphi 2 and later are 32-bit and use OCX/ActiveX rather than VBX). The code editor uses the Delphi 1 filename-titled window ('UNIT1.PAS' in 8.3 uppercase) rather than the later 'Unit1.pas' / project-manager-integrated editor.",
+    "NOT PRESENT IN THE IMAGE: no version number string, no About box, no date. The '1.0' identification rests on the vendor URL path and page title plus the 16-bit/VBX/Windows 3.x markers above, not on a number printed in the screenshot."
+  ],
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "rights_status": "unresolved",
+  "credit_text": null,
+  "proposed_credit_text": "Borland International, Inc. — Delphi 1.0 Reviewer's Guide (1995), via the Internet Archive Wayback Machine",
+  "watermark": "none. Inspected at native resolution and at 2x: the image carries no watermark, logo overlay, archive banner or added caption. Nothing was removed.",
+  "transformations": [
+    {
+      "output": "exports/editorial-frame.png",
+      "operation": "uncropped 3x integer nearest-neighbour upscale (444x282 -> 1332x846), centred on a flat RGB(32,34,38) matte in a 1920x1080 canvas",
+      "reversible": true,
+      "reversibility_proof": "src/build_frame.py decimates the placed region back to 444x282 and asserts the raster is byte-identical to the original before writing any output; src/framing-result.json records reversible_bit_exact = true.",
+      "additions": "none — no text, UI, retouching, colour grading or sharpening"
+    },
+    {
+      "output": "proofs/editorial-frame-720.png",
+      "operation": "LANCZOS downscale of the 1920x1080 frame to 1280x720 for the 720p legibility proof",
+      "reversible": false,
+      "additions": "none"
+    }
+  ],
+  "notes": [
+    "The image is a small mid-1990s web GIF (444x282). It is presented at a 3x integer upscale rather than stretched to fill the frame, so it occupies 1332x846 of the 1920x1080 canvas. See src/framing.json for why a fractional fit was rejected.",
+    "Inspected archived HTML is Borland copyright material and is deliberately not committed; its sha256 values in provenance.json let any later worker confirm the same captures.",
+    "Rights are unresolved. See evidence/rights.json and the R14 review question in evidence/claim-checks.json."
+  ]
+}

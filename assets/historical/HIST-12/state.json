@@ -1,12 +1,18 @@
 {
   "id": "HIST-12",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
-  "blockers": [],
+  "assigned_agent": "HIST-12 worker (Historical Screenshots Manager, session vb-20)",
+  "updated_at": "2026-09-15T19:05:00Z",
+  "blockers": [
+    "R14 rights unresolved: the delivered original is Borland International, Inc. marketing material. The archived 1996 borland.com notice prohibits reproduction for redistribution except as otherwise provided, and no licence or permission was found. Acquiring and inspecting the file added no licence evidence. This needs a rights decision in the review deck, not agent clearance. See RQ-1 in evidence/claim-checks.json."
+  ],
   "reviewer": null,
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Resumes the blocked candidate record at commit 94f4073. The documented search and the three ranked candidates were kept. C1 was acquired byte-exact after Devin approved the download in chat; its payload SHA-1 matches the Wayback CDX digest. C2 and C3 were approved as fallbacks but not downloaded, because C1 proved usable.",
+    "Delivered: source/original.gif (444x282 GIF87a, unmodified), exports/editorial-frame.png (1920x1080, uncropped 3x integer nearest-neighbour upscale on a matte, bit-exactly reversible), proofs/editorial-frame-720.png, delivery.json, qa.md and the evidence set.",
+    "Identity and the Delphi 1 / 16-bit reading are verified at full resolution: Windows 3.x window chrome and a VBX component-palette tab, with Borland's own page title and caption as the documentary leg.",
+    "SCRIPT.md:621 ('It looks a lot like the VB IDE') was checked at full resolution against the HIST-01 and HIST-02 VB IDE exports and is accurate as written. No script change is proposed; War/SCRIPT.md was not edited.",
+    "Keep out of the cleared-media bin until R14 is decided in the review deck."
   ]
 }

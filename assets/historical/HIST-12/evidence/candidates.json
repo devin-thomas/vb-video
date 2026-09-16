@@ -1,0 +1,98 @@
+{
+  "asset_id": "HIST-12",
+  "access_date": "2026-09-15",
+  "acquisition_status": "C1 acquired 2026-09-15 (byte-exact, SHA-1 verified against the CDX record) under Devin's explicit chat approval. C2 and C3 were approved as fallbacks but were NOT downloaded, because C1 proved usable on inspection.",
+  "acquisition_date": "2026-09-15",
+  "candidates": [
+    {
+      "rank": 1,
+      "id": "C1",
+      "description": "Borland's own full IDE figure for the Delphi 1.0 Reviewer's Guide, Quick Tour page",
+      "source_url": "https://web.archive.org/web/19961223104420/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+      "raw_capture_url": "https://web.archive.org/web/19961223104420id_/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+      "host_page_url": "https://web.archive.org/web/19961221223414/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.4.html",
+      "creator": "Borland International, Inc.",
+      "format": "image/gif",
+      "bytes": 35423,
+      "cdx_sha1_base32": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW",
+      "native_dimensions": "444x282, GIF87a, 16-colour palette, single frame (measured after acquisition)",
+      "outcome": "SELECTED and delivered as source/original.gif",
+      "identity_strength": "strong textual evidence: vendor page explicitly titled Delphi 1.0 and captioned as the environment",
+      "license_evidence": "none; Borland copyright; see rights.json",
+      "access_barrier": "none technical; policy boundary: file download needs Devin's explicit approval",
+      "deficiencies": [
+        "RESOLVED — viewed at full resolution. Version markers are present (Windows 3.x chrome, VBX palette tab) and the code window is visible with Object Pascal source. See evidence/claim-checks.json.",
+        "CONFIRMED and accepted — the native raster is only 444x282 with a 16-colour palette. It is presented at an exact 3x integer nearest-neighbour upscale (1332x846) centred on a matte, so it does not fill the 1920x1080 frame and shows period pixel structure. No detail is invented and nothing is stretched. Screen text stays legible at 720p. Raised as review question RQ-2 for the editor.",
+        "STILL OPEN — rights unresolved (Borland copyright, reproduction for redistribution prohibited by the archived site notice). Acquiring the file did not change this. Review question RQ-1."
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "C2",
+      "description": "Figure 1.1 'The Delphi programming environment' in the Delphi for Windows User's Guide (chapter 1, Introducing Delphi), with printed callouts for Component palette, SpeedBar, Object Inspector, Form and Code Editor",
+      "source_url": "https://archive.org/details/delphi-1-for-windows-users-guide",
+      "file": "Delphi 1 for Windows - User's Guide.PDF (original upload)",
+      "bytes": 3063958,
+      "creator": "Borland (per item metadata)",
+      "item_date": "1995-02-08 (uploader-supplied metadata, not verified against the printed colophon)",
+      "identity_strength": "moderate: item title says Delphi 1 for Windows and the OCR text describes a Windows 3.1-era install (WIN DELPHI, Program Manager); the printed edition/version line was not located in OCR",
+      "license_evidence": "none; no licenseurl; OCR shows a copyright page",
+      "access_barrier": "none technical; policy boundary: 3 MB PDF download needs approval",
+      "deficiencies": [
+        "A printed manual figure with callout labels and leader lines overlaid on the UI; the editorial frame would carry manual annotations, not a clean screen.",
+        "Likely grayscale print reproduction of a scan.",
+        "Rights unresolved."
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "C3",
+      "description": "Borland Delphi brochure (1995, GB) including an IDE screenshot (OCR picks up a 'Delphi - Project1' title bar)",
+      "source_url": "https://archive.org/details/borland-delphi-1-brochure-1995-gb",
+      "file": "Borland Delphi 1 brochure (1995 GB).pdf (original upload, image-container PDF, 300 ppi)",
+      "bytes": 5345846,
+      "creator": "Borland International, Inc.",
+      "item_date": "1995 (brochure copyright line 1995; references Windows 3.1 and a forthcoming Windows 95 version)",
+      "identity_strength": "moderate: 1995 Delphi brochure that pre-dates the 32-bit release; the screenshot itself was not viewed",
+      "license_evidence": "none; 'Copyright © 1995 Borland International, Inc. All rights reserved.'",
+      "access_barrier": "none technical; policy boundary: 5.3 MB PDF download needs approval",
+      "deficiencies": [
+        "Halftone print scan inside a marketing layout; screen detail and text legibility are probably poor.",
+        "Not viewed; the screenshot size on the page is unknown.",
+        "Rights unresolved."
+      ]
+    }
+  ],
+  "rejected_leads": [
+    {
+      "lead": "Wikipedia 'Delphi (software)' article (ASSET_PLAN.md:95 lead)",
+      "url": "https://en.wikipedia.org/wiki/Delphi_(software)",
+      "reason": "The infobox screenshot is Delphi 10.4 with a dark theme, a much later release; ticket requirement 1 forbids it."
+    },
+    {
+      "lead": "Wikipedia 'History of Delphi (software)'",
+      "url": "https://en.wikipedia.org/wiki/History_of_Delphi_(software)",
+      "reason": "Only Delphi 6/7 install discs and a RAD Studio XE2 photo; no Delphi 1 image."
+    },
+    {
+      "lead": "Wikimedia Commons Category:Delphi (software) and a MediaSearch for 'Delphi 1.0'",
+      "url": "https://commons.wikimedia.org/wiki/Category:Delphi_(software)",
+      "reason": "25 files; the IDE screenshots are Delphi 7 and XE6, with no Delphi 1.0 or 16-bit image. No freely licensed Delphi 1.0 screenshot was found."
+    },
+    {
+      "lead": "WinWorld Borland Delphi 1.x product page",
+      "url": "https://winworldpc.com/product/delphi/1x",
+      "reason": "The only visible screenshot is an About box, not a workspace; creator and licensing are unstated. Not pursued."
+    },
+    {
+      "lead": "Wayback delphi1.0/guide figures fig20, fig22, fig24, fig25 (larger linked figures)",
+      "url": "https://web.archive.org/web/1996*/http://www.borland.com:80/delphi/delphi1.0/guide/*",
+      "reason": "Same source and rights as C1, but the captions describe partial views (event handler list, pasted text representation, debugger, rename sync) rather than the startup workspace. Kept as fallbacks if C1 proves unusable."
+    },
+    {
+      "lead": "Native capture from Delphi 1.0 install media on Internet Archive (e.g. borland-delphi-1.0-de, borland-delphi)",
+      "url": "https://archive.org/details/borland-delphi",
+      "reason": "Would require downloading and executing third-party software images in a Windows 3.1 emulator. That is outside the authorized routes and my operating rules (no downloading or executing files from untrusted sources), and the software EULA was not reviewed."
+    }
+  ]
+}

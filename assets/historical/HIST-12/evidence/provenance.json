@@ -1,0 +1,128 @@
+{
+  "asset_id": "HIST-12",
+  "classification": "historical source (acquired third-party original, rights unresolved) with derivative editorial framing",
+  "production_status": "produced",
+  "project_sources": [
+    {
+      "path": "../../../../sources/ASSET_PLAN.md",
+      "lines": [95, 95],
+      "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7",
+      "relationship": "planning lead (Wikipedia article) — checked and rejected: shows Delphi 10.4"
+    },
+    {
+      "path": "../../../../sources/SCRIPT.md",
+      "lines": [619, 621],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "narrative context and visual cue"
+    }
+  ],
+  "external_evidence_inspected": [
+    {
+      "role": "host page for candidate C1 (identity evidence)",
+      "url": "https://web.archive.org/web/19961221223414id_/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.4.html",
+      "bytes": 8533,
+      "sha256": "bc0b1abdc248f00275e21fc738c6f72a8ca5d504361be386203644bb1835339a",
+      "reverified_on_acquisition": "2026-09-15: re-fetched and sha256 recomputed; identical to the recorded value."
+    },
+    {
+      "role": "Reviewer's Guide table of contents",
+      "url": "https://web.archive.org/web/19961221161914id_/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.html",
+      "bytes": 9303,
+      "sha256": "d98fa81a175650998ea22100127f8ec9dc72990b1d81c923649dac88d523075c"
+    },
+    {
+      "role": "Reviewer's Guide 'Delphi In Depth' (inheritance, alternate figures)",
+      "url": "https://web.archive.org/web/19961221223732id_/http://www.borland.com:80/delphi/delphi1.0/guide/8.1.1.14.html",
+      "bytes": 30318,
+      "sha256": "c6a89fdab1ba27544b2292d8f86aac2f2f0c83de3368521bc09e5a211144a50e"
+    },
+    {
+      "role": "Delphi 1.0 Product Information index ('Previous Version 1.0')",
+      "url": "https://web.archive.org/web/19961221140523id_/http://www.borland.com:80/delphi/delphi1.0/",
+      "bytes": 4729,
+      "sha256": "72dfd4f2551266499da1e76e5308b977b046d5e4fb03e6e780e382393150267a"
+    },
+    {
+      "role": "Delphi 1.0 Fact Sheet (native code claim)",
+      "url": "https://web.archive.org/web/19961221161852id_/http://www.borland.com:80/delphi/delphi1.0/dpfctsht.html",
+      "bytes": 22046,
+      "sha256": "0d0c5f823322b9cf04e3d2c072c78a0601f99f3999b9f3e612bd4e1016f98c06"
+    },
+    {
+      "role": "Borland 1996 site copyright notice (rights evidence)",
+      "url": "https://web.archive.org/web/19961221134154id_/http://www.borland.com:80/copyright.html",
+      "bytes": 6759,
+      "sha256": "93c088f17525c3b371e2bc02bbc1ae54c33c31627691c0cfb981e56a2e2a4814"
+    },
+    {
+      "role": "Borland 1995 press release index (release-year evidence)",
+      "url": "https://web.archive.org/web/19961221153637id_/http://www.borland.com:80/about/press/rels95.html",
+      "sha256": "fdf2a11b6d488db434a638d0656b849858d1ea24f4b7faa625785470da7b8ed0"
+    },
+    {
+      "role": "Wayback CDX index (capture list, lengths, digests)",
+      "url": "https://web.archive.org/cdx/search/cdx?url=borland.com/delphi/delphi1.0/*&fl=timestamp,original,mimetype,statuscode,length,digest&limit=500",
+      "sha256": null
+    },
+    {
+      "role": "Internet Archive item metadata for candidates C2 and C3",
+      "url": "https://archive.org/metadata/delphi-1-for-windows-users-guide ; https://archive.org/metadata/borland-delphi-1-brochure-1995-gb",
+      "sha256": null
+    },
+    {
+      "role": "Internet Archive OCR text derivatives (streamed and grepped, not stored)",
+      "url": "https://archive.org/download/delphi-1-for-windows-users-guide/Delphi%201%20for%20Windows%20-%20User%27s%20Guide_djvu.txt ; https://archive.org/download/borland-delphi-1-brochure-1995-gb/Borland%20Delphi%201%20brochure%20%281995%20GB%29_djvu.txt",
+      "sha256": null
+    }
+  ],
+  "evidence_storage_note": "Inspected archived HTML is Borland copyright material. It was read into session scratch space for analysis and is not committed; only its hashes are recorded here. The acquired image itself IS committed, at source/original.gif, because the ticket requires the preserved native original.",
+  "original_media": {
+    "path": "source/original.gif",
+    "acquired_from": "https://web.archive.org/web/19961223104420id_/http://www.borland.com:80/delphi/delphi1.0/guide/fig1.gif",
+    "acquired_on": "2026-09-15",
+    "bytes": 35163,
+    "sha256": "467a198503033616d228194120846f2d7dcd364e4b5911589ef7ce963f14314a",
+    "sha1_base32": "3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW",
+    "md5": "f1cc0ec6a7a233bfa60cef6ec896e4b2",
+    "integrity": "byte-exact: the payload SHA-1 matches the Wayback CDX digest for captures 19961223104420 and 19970509094337. The CDX length field (35,423) is the compressed WARC record length, not the payload length (35,163).",
+    "modified": false,
+    "authorization": "Devin's explicit chat approval for this specific download, relayed by the Historical Screenshots Manager (session vb-20)."
+  },
+  "transformations": [
+    {
+      "from": "source/original.gif (444x282, GIF87a, 16-colour)",
+      "to": "exports/editorial-frame.png (1920x1080 RGB PNG)",
+      "operation": "uncropped 3x integer nearest-neighbour upscale to 1332x846, centred at (294,117) on a flat RGB(32,34,38) matte",
+      "script": "src/build_frame.py",
+      "parameters": "src/framing.json",
+      "measured_result": "src/framing-result.json",
+      "reversible": true,
+      "reversibility_proof": "build_frame.py decimates the placed region back to 444x282 and refuses to write outputs unless the raster is byte-identical to the original. Recorded as reversible_bit_exact = true.",
+      "added_elements": "none — the dark matte is an authored production ground, and nothing was drawn, retouched, captioned or removed",
+      "aspect_error_pct": 0.0
+    },
+    {
+      "from": "exports/editorial-frame.png",
+      "to": "proofs/editorial-frame-720.png (1280x720)",
+      "operation": "LANCZOS downscale for the 720p legibility proof",
+      "script": "src/build_frame.py",
+      "reversible": false,
+      "added_elements": "none"
+    }
+  ],
+  "authored_additions": [
+    "Proposed credit text in evidence/rights.json (authored proposal, not a source fact, and not yet applied as credit_text).",
+    "Candidate ranking and deficiency notes in evidence/candidates.json (agent judgment).",
+    "The neutral dark matte and the 3x integer presentation scale in exports/editorial-frame.png (production choices; see src/framing.json).",
+    "The Delphi 1 / 16-bit version reading in evidence/source.json identity_evidence is agent interpretation of visible UI markers (Windows 3.x chrome, VBX palette tab), corroborating — not replacing — the vendor URL path and page title."
+  ],
+  "producer_decisions": [
+    {
+      "decision": "Download approval for candidate C1 (and C2/C3 as fallbacks).",
+      "given_by": "Devin, in chat",
+      "relayed_by": "Historical Screenshots Manager, session vb-20",
+      "date": "2026-09-15",
+      "scope": "Downloading the named candidate files only. It is not a rights clearance and does not resolve R14."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "original_size": [
+    444,
+    282
+  ],
+  "original_mode": "P",
+  "original_palette_colors": 16,
+  "scale": 3,
+  "resample": "NEAREST",
+  "placed_size": [
+    1332,
+    846
+  ],
+  "placed_offset": [
+    294,
+    117
+  ],
+  "aspect_original": 1.574468085106383,
+  "aspect_placed": 1.574468085106383,
+  "aspect_error_pct": 0.0,
+  "cropped": false,
+  "reversible_bit_exact": true,
+  "outputs": [
+    "exports/editorial-frame.png",
+    "proofs/editorial-frame-720.png"
+  ]
+}

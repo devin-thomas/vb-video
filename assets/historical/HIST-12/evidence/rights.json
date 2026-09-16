@@ -1,0 +1,36 @@
+{
+  "asset_id": "HIST-12",
+  "candidate": "C1 — borland.com/delphi/delphi1.0/guide/fig1.gif (Wayback capture 19961223104420) — ACQUIRED, byte-exact",
+  "rights_status": "unresolved",
+  "rights_holder_at_creation": "Borland International, Inc.",
+  "rights_holder_evidence": [
+    "Host page footer: 'Copyright © 1996. Borland International, Inc.' (capture 19961221223414).",
+    "Borland's 1996 legal notice page (https://web.archive.org/web/19961221134154/http://www.borland.com:80/copyright.html) states that, except as otherwise provided, copying or reproducing material from the site to another location for further reproduction or redistribution is expressly prohibited."
+  ],
+  "current_rights_holder": "unknown — not verified. Borland's development-tools business passed to CodeGear and then Embarcadero Technologies. That chain comes from general background knowledge, not a document checked for this ticket, and it does not establish who holds this screenshot today.",
+  "license_name": null,
+  "license_url": null,
+  "permission_evidence": null,
+  "archive_terms": "The Internet Archive Wayback Machine provides access to the capture. Access through the archive does not license the image, and no archive-level license was found for it.",
+  "public_domain_evidence": "none. The image is a 1995 corporate work with a copyright notice; no public-domain dedication or expiry applies.",
+  "fair_use_assessment": "Not made, and deliberately not made. Whether a brief editorial use of this screenshot in the video qualifies is a legal question for rights review. Acquiring and inspecting the file resolved identity, not rights: the rights position is unchanged from the blocked candidate record.",
+  "access_method": "Public Wayback Machine id_ URL over HTTPS with a generic User-Agent. No account, no payment, no terms accepted, no CAPTCHA, no paywall or access control involved. The image file was downloaded and is preserved byte-exact at source/original.gif (SHA-1 base32 3AB42XGSKUFD5LQFFJKPEE5IAHFCWKPW, matching the CDX record).",
+  "watermark": "none. Verified at native 444x282 resolution and at a 2x nearest-neighbour inspection copy: no watermark, logo overlay, archive banner or added caption is present, and nothing was removed.",
+  "proposed_credit_text": "Borland International, Inc. — Delphi 1.0 Reviewer's Guide (1995), via the Internet Archive Wayback Machine",
+  "proposed_credit_status": "Authored proposal only; becomes final only with a rights decision. Not written into source.json credit_text, which stays null while rights are unresolved.",
+  "alternates": [
+    {
+      "candidate": "C2 — Internet Archive item delphi-1-for-windows-users-guide, Figure 1.1",
+      "rights_status": "unresolved",
+      "evidence": "The item metadata names Borland as creator and has no licenseurl field. It is an uploader-supplied scan (uploader field present) in the manuals collection. The OCR text of the guide includes a copyright page. No license was found."
+    },
+    {
+      "candidate": "C3 — Internet Archive item borland-delphi-1-brochure-1995-gb",
+      "rights_status": "unresolved",
+      "evidence": "The OCR text contains 'Copyright © 1995 Borland International, Inc. All rights reserved.' The item metadata has no licenseurl. Its placement in the 'opensource' community collection is not a license."
+    }
+  ],
+  "review_question": "May the video use this 1995 Borland International marketing screenshot of the Delphi 1.0 IDE (now acquired byte-exact from the Wayback Machine, Borland copyright, no licence found, site notice prohibiting reproduction for redistribution) under an editorial/commentary rationale, with the proposed credit? Or must HIST-12 stay blocked for release, or be replaced by a clearly labelled original reconstruction (a separate ticket decision)? No agent clearance has been given.",
+  "acquisition_status": "acquired 2026-09-15 with Devin's explicit chat approval (relayed by the Historical Screenshots Manager, session vb-20). Approval covered downloading this file; it did not clear rights.",
+  "post_acquisition_note": "Inspecting the acquired file added no licence evidence. The image itself contains no copyright notice, no licence text and no attribution mark; absence of a notice is not a licence and does not place a 1995 corporate work in the public domain."
+}
