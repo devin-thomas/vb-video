@@ -1,6 +1,6 @@
 # ASM-03 timeline report
 
-181 segments, 41.4 min, assets used 118/132, beats without audio 0, unmapped cues 0.
+181 segments, 41.4 min, assets used 120/134, beats without audio 0, unmapped cues 0.
 
 ## Pending cutdowns (asset not delivered yet; current export used)
 
@@ -20,9 +20,7 @@
 - S08-B07: DIA-05 is not cleared or has no record; skipped
 - S08-B07: DIA-05 is not cleared or has no record; skipped
 - S10-B09: DIA-08 is not cleared or has no record; skipped
-- S11-B03: FACT-07 is not cleared or has no record; skipped
 - S12-B03: DIA-08 is not cleared or has no record; skipped
-- S12-B07: FACT-08 is not cleared or has no record; skipped
 
 ## Every beat
 
@@ -126,17 +124,17 @@
 | 23:23 | S10-B13 | 23.7 | placement map | CODE-22 (23.7 s) |
 | 23:51 | S11-B01 | 0.6 | placement map | TERM-04 (0.6 s) |
 | 23:52 | S11-B02 | 13.2 | placement map | TERM-02:first-war (13.2 s) |
-| 24:06 | S11-B03 | 14.4 | placement map | TERM-02:first-war (14.4 s) |
-| 24:21 | S11-B04 | 16.6 | placement map | TERM-02:first-war (16.6 s) |
+| 24:06 | S11-B03 | 14.4 | placement map | FACT-07 (14.4 s) |
+| 24:21 | S11-B04 | 16.6 | placement map | FACT-07 (16.6 s) |
 | 24:42 | S12-B01 | 11.4 | placement map | TERM-04:end (11.4 s) |
 | 24:54 | S12-B02 | 5.9 | placement map | TERM-04:end (5.9 s) |
 | 25:00 | S12-B03 | 21.1 | placement map | TERM-04:end (21.1 s) |
 | 25:22 | S12-B04 | 21.3 | placement map | CODE-20 (21.3 s) |
 | 25:44 | S12-B05 | 8.2 | placement map | TERM-02:end (8.2 s) |
 | 25:52 | S12-B06 | 14.7 | placement map | TERM-02:end (14.7 s) |
-| 26:07 | S12-B07 | 23.2 | placement map | TERM-02:end (23.2 s) |
-| 26:31 | S12-B08 | 4.6 | placement map | TERM-02:end (4.6 s) |
-| 26:36 | S12-B09 | 5.8 | placement map | TERM-02:end (5.8 s) |
+| 26:07 | S12-B07 | 23.2 | placement map | FACT-08 (23.2 s) |
+| 26:31 | S12-B08 | 4.6 | placement map | FACT-08 (4.6 s) |
+| 26:36 | S12-B09 | 5.8 | placement map | FACT-08 (5.8 s) |
 | 26:46 | S13-B01 | 6.2 | placement map | HIST-19 (6.2 s) |
 | 26:53 | S13-B02 | 5.4 | placement map | MOCK-01 (5.4 s) |
 | 26:59 | S13-B03 | 18.5 | placement map | MOCK-01 (18.5 s) |

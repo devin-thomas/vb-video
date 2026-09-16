@@ -4064,23 +4064,41 @@
    "id": "FACT-07",
    "title": "Four recorded runs: rounds, wars, winner",
    "kind": "still",
-   "production_status": "planned",
-   "release_status": "unreviewed",
-   "reviewer": null,
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
-   "questions": []
+   "questions": [
+    {
+     "status": "resolved",
+     "question": "Run numbering. The ticket copy for FACT-08 fixes Run 1 = 617 rounds and Run 4 = 2,008 rounds; this card follows that and numbers the remaining two captures in script order (Run 2 = TERM-05, 1,056 rounds; Run 3 = TERM-06, 150 rounds). Evidence cannot settle the order of runs 2 and 3; swap them if the cut prefers ascending length."
+    },
+    {
+     "status": "resolved",
+     "question": "Source scope. The ticket names both the TERM-02/04/05/06 captures and recordings R4-01..R4-04 (plus R2, R3a, R3b) as sources. Those recordings are different games (685, 240, 169, 112, 338, 190 and 557 rounds); none contains the 617-round or 2,008-round run the narration names, so the card is built from the four captures only."
+    }
+   ]
   },
   {
    "id": "FACT-08",
    "title": "Two endgames side by side: run 1 and run 4",
    "kind": "still",
-   "production_status": "planned",
-   "release_status": "unreviewed",
-   "reviewer": null,
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
-   "questions": []
+   "questions": [
+    {
+     "status": "resolved",
+     "question": "No disagreement found: the reconstruction from both transcripts matches every step of the script cue (evidence/endgame-check.json). The hand sizes, burn count and pot size are not printed by the program; they are derived from the transcript and Program.vb:264, and the derivation is recorded line by line in evidence/source-excerpts.md."
+    },
+    {
+     "status": "resolved",
+     "question": "The card carries a kicker (\"When the cards run out\", the script's section 12 title) and the ticket title as a heading above the two verbatim columns. Drop either if the cut wants the columns alone."
+    }
+   ]
   },
   {
    "id": "CODE-29",

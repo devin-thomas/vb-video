@@ -40,7 +40,7 @@ Produced 2026-09-15 by the producer. The ledger is `exports/decision-ledger.json
 | R17 | Missing project file | 4 | 4 | 0 |
 | R04a | ByRef / ByVal simplification | 5 | 4 | 1 |
 
-Review questions recorded: 70 (6 open).
+Review questions recorded: 74 (6 open).
 
 ## What stays explicitly unresolved
 

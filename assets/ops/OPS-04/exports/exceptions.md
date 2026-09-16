@@ -1,6 +1,6 @@
 # OPS-04 — Exceptions and editor must-knows
 
-Generated 2026-09-15. Every asset in `editor-inventory.csv` marked `cleared` may go in the edit; `BLOCKED` assets (currently 7) must not. The notes below are the labels and constraints that travel with specific assets.
+Generated 2026-09-15. Every asset in `editor-inventory.csv` marked `cleared` may go in the edit; `BLOCKED` assets (currently 5) must not. The notes below are the labels and constraints that travel with specific assets.
 
 - **BROLL-01** — Shuffle on printed casino felt (yellow '10', betting lines; partial 'TEXAS HOLD'EM' lettering enters near the 16.0 s out). Cut 00:05.0–00:16.0.
 - **BROLL-02** — NOT War: a generic two-player card game (fanned hands, shared stock). Use as a labeled fallback only; 9.6 s with no handles.
