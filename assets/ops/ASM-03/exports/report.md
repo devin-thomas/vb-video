@@ -1,6 +1,6 @@
 # ASM-03 timeline report
 
-181 segments, 41.4 min, assets used 120/134, beats without audio 0, unmapped cues 0.
+181 segments, 41.4 min, assets used 121/135, beats without audio 0, unmapped cues 0.
 
 ## Pending cutdowns (asset not delivered yet; current export used)
 
@@ -14,7 +14,6 @@
 - S05-B03: DIA-02 is not cleared or has no record; skipped
 - S05-B04: DIA-02 is not cleared or has no record; skipped
 - S05-B05: DIA-02 is not cleared or has no record; skipped
-- S07-B05: DIA-04 is not cleared or has no record; skipped
 - S08-B01: DIA-05 is not cleared or has no record; skipped
 - S08-B05: DIA-05 is not cleared or has no record; skipped
 - S08-B07: DIA-05 is not cleared or has no record; skipped
@@ -26,8 +25,8 @@
 
 | time | beat | s | source | visuals |
 |---|---|---|---|---|
-| 0:04 | S01-B01 | 22.6 | placement map | TERM-03 (22.6 s) |
-| 0:27 | S01-B02 | 1.8 | placement map | CARD-01 (1.8 s) |
+| 0:04 | S01-B01 | 22.6 | placement map | TERM-03 (11.7 s), CARD-01 (10.9 s) |
+| 0:27 | S01-B02 | 1.8 | placement map | CARD-01:poster (1.8 s) |
 | 0:29 | S01-B03 | 14.8 | cue | HIST-02 (14.8 s) |
 | 0:44 | S01-B04 | 24.6 | cue overflow | XTRA-01 (24.6 s) |
 | 1:09 | S01-B05 | 10.9 | cue overflow | XTRA-02 (10.9 s) |
@@ -54,20 +53,20 @@
 | 6:45 | S03-B07 | 22.4 | cue | DIA-01 (22.4 s) |
 | 7:08 | S03-B08 | 3.0 | cue overflow | HIST-10 (3.0 s) |
 | 7:15 | S04-B01 | 20.8 | cue | TERM-01 (20.8 s) |
-| 7:36 | S04-B02 | 18.2 | hold | TERM-01 (18.2 s) |
+| 7:36 | S04-B02 | 18.2 | hold | TERM-01:poster (18.2 s) |
 | 7:55 | S04-B03 | 2.2 | cue | TERM-01 (2.2 s) |
 | 7:58 | S04-B04 | 25.9 | placement map | CODE-01 (25.9 s) |
-| 8:24 | S04-B05 | 6.2 | hold | CODE-01 (6.2 s) |
+| 8:24 | S04-B05 | 6.2 | hold | CODE-01:poster (6.2 s) |
 | 8:31 | S04-B06 | 17.6 | placement map | XTRA-06 (7.8 s), CODE-26 (9.8 s) |
 | 8:49 | S04-B07 | 18.9 | placement map | CODE-27 (18.9 s) |
-| 9:12 | S05-B01 | 19.1 | placement map | CODE-27 (19.1 s) |
-| 9:32 | S05-B02 | 10.4 | placement map | CODE-27 (10.4 s) |
-| 9:43 | S05-B03 | 13.5 | placement map | CODE-27 (13.5 s) |
-| 9:56 | S05-B04 | 20.9 | placement map | CODE-27 (20.9 s) |
-| 10:18 | S05-B05 | 10.2 | placement map | CODE-27 (10.2 s) |
+| 9:12 | S05-B01 | 19.1 | placement map | CODE-27:poster (19.1 s) |
+| 9:32 | S05-B02 | 10.4 | placement map | CODE-27:poster (10.4 s) |
+| 9:43 | S05-B03 | 13.5 | placement map | CODE-27:poster (13.5 s) |
+| 9:56 | S05-B04 | 20.9 | placement map | CODE-27:poster (20.9 s) |
+| 10:18 | S05-B05 | 10.2 | placement map | CODE-27:poster (10.2 s) |
 | 10:28 | S05-B06 | 12.8 | placement map | BROLL-02 (12.8 s) |
 | 10:46 | S06-B01 | 6.3 | cue | CODE-02 (6.3 s) |
-| 10:53 | S06-B02 | 22.1 | hold | CODE-02 (22.1 s) |
+| 10:53 | S06-B02 | 22.1 | hold | CODE-02:poster (22.1 s) |
 | 11:15 | S06-B03 | 18.3 | cue | CODE-02 (18.3 s) |
 | 11:34 | S06-B04 | 13.4 | cue overflow | CODE-23 (13.4 s) |
 | 11:48 | S06-B05 | 23.0 | cue | DIA-03 (23.0 s) |
@@ -79,8 +78,8 @@
 | 13:23 | S07-B02 | 17.0 | cue | CODE-03 (17.0 s) |
 | 13:40 | S07-B03 | 23.2 | cue | DIA-07 (23.2 s) |
 | 14:04 | S07-B04 | 10.5 | cue overflow | CMP-02 (10.5 s) |
-| 14:15 | S07-B05 | 25.4 | placement map | CMP-02 (25.4 s) |
-| 14:41 | S07-B06 | 5.4 | placement map | CMP-02 (5.4 s) |
+| 14:15 | S07-B05 | 25.4 | placement map | DIA-04 (25.4 s) |
+| 14:41 | S07-B06 | 5.4 | placement map | DIA-04:poster (5.4 s) |
 | 14:47 | S07-B07 | 21.0 | placement map | CMP-03:transform (21.0 s) |
 | 15:08 | S07-B08 | 10.4 | placement map | CMP-03:transform (10.4 s) |
 | 15:19 | S07-B09 | 1.0 | cue | CODE-04 (1.0 s) |
@@ -92,36 +91,36 @@
 | 17:00 | S08-B02 | 17.5 | placement map | CMP-09 (17.5 s) |
 | 17:18 | S08-B03 | 1.2 | placement map | CMP-09 (1.2 s) |
 | 17:20 | S08-B04 | 17.4 | placement map | CODE-06 (8.7 s), CODE-07 (8.7 s) |
-| 17:38 | S08-B05 | 6.0 | placement map | CODE-07 (6.0 s) |
+| 17:38 | S08-B05 | 6.0 | placement map | CODE-07:poster (6.0 s) |
 | 17:44 | S08-B06 | 7.5 | placement map | CODE-08 (7.5 s) |
-| 17:52 | S08-B07 | 20.2 | placement map | CODE-08 (20.2 s) |
+| 17:52 | S08-B07 | 20.2 | placement map | CODE-08:poster (20.2 s) |
 | 18:13 | S08-B08 | 11.0 | placement map | CODE-09 (11.0 s) |
-| 18:24 | S08-B09 | 2.4 | placement map | CODE-09 (2.4 s) |
+| 18:24 | S08-B09 | 2.4 | placement map | CODE-09:poster (2.4 s) |
 | 18:27 | S08-B10 | 20.3 | placement map | CODE-10 (10.2 s), CMP-05 (10.2 s) |
 | 18:48 | S08-B11 | 4.8 | placement map | CMP-05 (4.8 s) |
 | 18:53 | S08-B12 | 14.7 | placement map | FACT-05 (14.7 s) |
 | 19:12 | S09-B01 | 5.0 | placement map | DIA-10 (5.0 s) |
 | 19:18 | S09-B02 | 12.9 | placement map | CODE-11 (6.4 s), CODE-12 (6.4 s) |
-| 19:31 | S09-B03 | 0.7 | placement map | CODE-12 (0.7 s) |
+| 19:31 | S09-B03 | 0.7 | placement map | CODE-12:poster (0.7 s) |
 | 19:32 | S09-B04 | 10.8 | placement map | CMP-07 (10.8 s) |
 | 19:44 | S09-B05 | 22.4 | placement map | CODE-14 (22.4 s) |
-| 20:06 | S09-B06 | 3.2 | placement map | CODE-14 (3.2 s) |
+| 20:06 | S09-B06 | 3.2 | placement map | CODE-14:poster (3.2 s) |
 | 20:10 | S09-B07 | 26.9 | placement map | CMP-06 (26.9 s) |
 | 20:37 | S09-B08 | 7.2 | placement map | CMP-06 (7.2 s) |
 | 20:45 | S09-B09 | 24.6 | placement map | CMP-08 (24.6 s) |
 | 21:14 | S10-B01 | 13.1 | placement map | CODE-15 (13.1 s) |
-| 21:28 | S10-B02 | 9.9 | placement map | CODE-15 (9.9 s) |
+| 21:28 | S10-B02 | 9.9 | placement map | CODE-15:poster (9.9 s) |
 | 21:38 | S10-B03 | 4.6 | placement map | CODE-16 (4.6 s) |
-| 21:43 | S10-B04 | 18.6 | placement map | CODE-16 (4.1 s), DIA-09 (14.4 s) |
-| 22:02 | S10-B05 | 11.6 | placement map | DIA-09 (11.6 s) |
+| 21:43 | S10-B04 | 18.6 | placement map | CODE-16:poster (4.1 s), DIA-09 (14.4 s) |
+| 22:02 | S10-B05 | 11.6 | placement map | DIA-09:poster (11.6 s) |
 | 22:14 | S10-B06 | 7.0 | placement map | CODE-17 (7.0 s) |
 | 22:22 | S10-B07 | 4.7 | placement map | CODE-18 (4.7 s) |
 | 22:27 | S10-B08 | 13.3 | placement map | CODE-19 (13.3 s) |
-| 22:41 | S10-B09 | 14.3 | placement map | CODE-19 (14.3 s) |
-| 22:55 | S10-B10 | 1.1 | placement map | CODE-19 (1.1 s) |
+| 22:41 | S10-B09 | 14.3 | placement map | CODE-19:poster (14.3 s) |
+| 22:55 | S10-B10 | 1.1 | placement map | CODE-19:poster (1.1 s) |
 | 22:57 | S10-B11 | 16.7 | placement map | CODE-21 (16.7 s) |
 | 23:14 | S10-B12 | 8.7 | placement map | CODE-22 (8.7 s) |
-| 23:23 | S10-B13 | 23.7 | placement map | CODE-22 (23.7 s) |
+| 23:23 | S10-B13 | 23.7 | placement map | CODE-22:poster (23.7 s) |
 | 23:51 | S11-B01 | 0.6 | placement map | TERM-04 (0.6 s) |
 | 23:52 | S11-B02 | 13.2 | placement map | TERM-02:first-war (13.2 s) |
 | 24:06 | S11-B03 | 14.4 | placement map | FACT-07 (14.4 s) |
@@ -148,7 +147,7 @@
 | 29:19 | S13-B11 | 5.5 | placement map | MOCK-01 (5.5 s) |
 | 29:29 | S14-B01 | 10.6 | placement map | XTRA-08 (10.6 s) |
 | 29:40 | S14-B02 | 28.6 | placement map | REF-01 (28.6 s) |
-| 30:09 | S14-B03 | 4.2 | placement map | REF-01 (4.2 s) |
+| 30:09 | S14-B03 | 4.2 | placement map | REF-01:poster (4.2 s) |
 | 30:13 | S14-B04 | 25.2 | placement map | HIST-12 (25.2 s) |
 | 30:39 | S14-B05 | 8.0 | placement map | HIST-12 (8.0 s) |
 | 30:48 | S14-B06 | 16.9 | placement map | HIST-12 (16.9 s) |
@@ -189,7 +188,7 @@
 | 40:28 | S17-B03 | 23.9 | placement map | TERM-01 (23.9 s) |
 | 40:52 | S17-B04 | 3.0 | placement map | TERM-03 (3.0 s) |
 | 40:56 | S17-B05 | 16.9 | placement map | CARD-02 (16.9 s) |
-| 41:13 | S17-B06 | 1.4 | placement map | CARD-02 (1.4 s) |
+| 41:13 | S17-B06 | 1.4 | placement map | CARD-02:poster (1.4 s) |
 
 ## Unused cleared assets
 

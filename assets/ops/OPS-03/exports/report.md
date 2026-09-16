@@ -38,7 +38,7 @@ Produced 2026-09-15 by the producer. The ledger is `exports/decision-ledger.json
 | R15 | Dates, versions, and representative historical code | 11 | 10 | 1 |
 | R16 | Download/runtime/version and price assumptions | 3 | 3 | 0 |
 | R17 | Missing project file | 4 | 4 | 0 |
-| R04a | ByRef / ByVal simplification | 5 | 4 | 1 |
+| R04a | ByRef / ByVal simplification | 5 | 3 | 2 |
 
 Review questions recorded: 74 (6 open).
 

@@ -74,7 +74,7 @@ def ids_for_code(block: str) -> list[str]:
 HOLD = "hold"
 PLACE: dict[str, list] = {
     # cold open and rules (Devin: the code scrolling, and the animations at the words)
-    "S01-B01": ["TERM-03"], "S01-B02": ["CARD-01"],
+    "S01-B01": ["TERM-03", ("CARD-01", None, "It was the single most popular")], "S01-B02": [HOLD],
     "S05-B01": [("DIA-02", "deck-hold", None)],
     "S05-B02": [("DIA-15", "riffle", "shuffle it"), ("DIA-02", "alternating-deal", "Deal it evenly")],
     "S05-B03": [("DIA-02", "normal-round", "Aces are high")],
@@ -155,6 +155,8 @@ def visual_record(tid: str, cutdown: str | None = None) -> dict | None:
     r = inv.get(tid)
     if not r or r["release_eligibility"] != "cleared": return None
     d = ROOT / by_id[tid]["asset_dir"]; pending = None
+    if cutdown == "poster" and (d / "exports/poster.png").is_file():
+        return {"id": tid, "kind": r["kind"], "file": f"{by_id[tid]['asset_dir']}/exports/poster.png", "duration": None, "segment": "", "still": True, "in_out": None, "poster": None, "cutdown": "poster", "key_second": 0.0, "pending": None}
     if cutdown and (tid, cutdown) in STILL_CUTDOWNS:
         f = f"{by_id[tid]['asset_dir']}/{STILL_CUTDOWNS[(tid, cutdown)]}"
         if not (ROOT / f).is_file(): pending = f"{tid}:{cutdown} (missing {f})"; f = r["primary_file"]
@@ -193,6 +195,16 @@ def take_attempt(beat_id: str) -> str:
 def take_duration(beat_id: str) -> float | None:
     p = TAKES / beat_id / take_attempt(beat_id) / "metadata.json"
     return json.loads(p.read_text(encoding="utf-8"))["duration_s"] if p.exists() else None
+
+def hold_of(v: dict) -> dict:
+    """What a following beat shows when it holds `v`: a still stays; a motion asset or recording shows its end state (the poster)
+    rather than replaying from the start (Devin: animations must not repeat)."""
+    h = dict(v); h.pop("slot", None)
+    if not v.get("still") and v.get("kind") != "archive":
+        still = visual_record(v["id"], "poster") if v.get("cutdown") != "poster" else None
+        if still: return still
+        if v.get("poster"): return dict(h, file=v["poster"], still=True, duration=None, in_out=None, cutdown="poster", key_second=0.0)
+    return h
 
 def word_time(beat: dict, dur: float, phrase: str | None) -> float:
     """Seconds into the beat at which `phrase` is spoken (proportional word timing, as captions.py uses)."""
@@ -249,25 +261,25 @@ def main() -> int:
         visuals = []
         for tid, cutdown, phrase in specs:
             if tid == HOLD:
-                v = dict(last_visual) if last_visual else visual_record("CARD-01"); v.pop("slot", None); visuals.append((v, 0.0)); continue
+                v = hold_of(last_visual) if last_visual else visual_record("CARD-01"); visuals.append((v, 0.0)); continue
             v = visual_record(tid, cutdown)
             if not v: report.append(f"- {b['id']}: {tid} is not cleared or has no record; skipped"); continue
             if v.get("pending"): pending.append(f"{b['id']}: {v['pending']}")
             start_at = max(0.0, word_time(b, dur, phrase) - float(v.get("key_second") or 0.0)) if phrase else 0.0
             visuals.append((v, start_at))
-        if not visuals: visuals = [(dict(last_visual) if last_visual else visual_record("CARD-01"), 0.0)]
+        if not visuals: visuals = [(hold_of(last_visual) if last_visual else visual_record("CARD-01"), 0.0)]
         # no-return guard for cue-derived choices (the placement map may name anything)
         if source == "cue overflow":
             v, s = visuals[0]
             if v["id"] in last_seen and t - last_seen[v["id"]] < NO_RETURN_S and last_visual and v["id"] != last_visual["id"]:
                 report.append(f"- {b['id']}: {v['id']} shown {t - last_seen[v['id']]:.0f} s ago without a cue naming it; holding {last_visual['id']} instead")
-                visuals = [(dict(last_visual), 0.0)]; source = "hold (no-return guard)"
+                visuals = [(hold_of(last_visual), 0.0)]; source = "hold (no-return guard)"
         # a second visual needs room; a word-timed first visual starts where the word is, the previous visual fills the lead
         if len(visuals) > 1 and dur < MIN_SPLIT_S:
             report.append(f"- {b['id']}: {dur:.1f} s is too short for two visuals; keeping {visuals[0][0]['id']} only"); visuals = visuals[:1]
         out = []
         if visuals[0][1] > MIN_SLOT_S / 2 and last_visual:
-            lead = dict(last_visual); lead.pop("slot", None); out.append((lead, 0.0))
+            out.append((hold_of(last_visual), 0.0))
         out += visuals
         # slots: each visual runs from its start to the next visual's start; unstarted visuals split the remainder equally
         starts = [s for _, s in out]; n = len(out)

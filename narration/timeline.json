@@ -52,7 +52,20 @@
      "in_out": null,
      "recording": "R5",
      "poster": "assets/captures/TERM-03/exports/contact-sheet.png",
-     "slot": 22.56
+     "slot": 11.669
+    },
+    {
+     "id": "CARD-01",
+     "kind": "motion",
+     "file": "assets/cards/CARD-01/exports/preview.mp4",
+     "duration": 7.0,
+     "segment": "",
+     "still": false,
+     "in_out": null,
+     "poster": "assets/cards/CARD-01/exports/poster.png",
+     "cutdown": null,
+     "key_second": 0.0,
+     "slot": 10.891
     }
    ],
    "held": false
@@ -69,13 +82,13 @@
     {
      "id": "CARD-01",
      "kind": "motion",
-     "file": "assets/cards/CARD-01/exports/preview.mp4",
-     "duration": 7.0,
+     "file": "assets/cards/CARD-01/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/cards/CARD-01/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 1.84
     }
@@ -822,6 +835,8 @@
      "in_out": null,
      "recording": "R1",
      "poster": "assets/captures/TERM-01/exports/framed.png",
+     "cutdown": "poster",
+     "key_second": 0.0,
      "slot": 18.16
     }
    ],
@@ -888,13 +903,13 @@
     {
      "id": "CODE-01",
      "kind": "code",
-     "file": "assets/code/CODE-01/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-01/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-01/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 6.24
     }
@@ -997,13 +1012,13 @@
     {
      "id": "CODE-27",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/preview.mp4",
-     "duration": 9.0,
+     "file": "assets/code/CODE-27/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-27/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 19.12
     }
@@ -1022,13 +1037,13 @@
     {
      "id": "CODE-27",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/preview.mp4",
-     "duration": 9.0,
+     "file": "assets/code/CODE-27/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-27/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 10.4
     }
@@ -1047,13 +1062,13 @@
     {
      "id": "CODE-27",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/preview.mp4",
-     "duration": 9.0,
+     "file": "assets/code/CODE-27/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-27/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 13.52
     }
@@ -1072,13 +1087,13 @@
     {
      "id": "CODE-27",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/preview.mp4",
-     "duration": 9.0,
+     "file": "assets/code/CODE-27/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-27/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 20.88
     }
@@ -1097,13 +1112,13 @@
     {
      "id": "CODE-27",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/preview.mp4",
-     "duration": 9.0,
+     "file": "assets/code/CODE-27/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-27/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 10.24
     }
@@ -1194,13 +1209,13 @@
     {
      "id": "CODE-02",
      "kind": "code",
-     "file": "assets/code/CODE-02/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-02/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-02/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 22.08
     }
@@ -1514,14 +1529,14 @@
    "written": "Second: `ByRef`. See that in the parameter list? In VB, you had to explicitly say whether a parameter was passed by reference or by value. `ByRef` means the subroutine receives a pointer to the original — changes are visible to the caller. `ByVal` means it gets a copy. In classic VB4, the default was `ByRef` for everything, which was efficient but dangerous.",
    "visuals": [
     {
-     "id": "CMP-02",
+     "id": "DIA-04",
      "kind": "motion",
-     "file": "assets/comparisons/CMP-02/exports/preview.mp4",
-     "duration": 8.0,
+     "file": "assets/diagrams/DIA-04/exports/preview.mp4",
+     "duration": 10.0,
      "segment": "",
      "still": false,
      "in_out": null,
-     "poster": "assets/comparisons/CMP-02/exports/poster.png",
+     "poster": "assets/diagrams/DIA-04/exports/poster.png",
      "cutdown": null,
      "key_second": 0.0,
      "slot": 25.44
@@ -1539,15 +1554,15 @@
    "written": "It meant you could accidentally modify data the caller didn't expect you to touch.",
    "visuals": [
     {
-     "id": "CMP-02",
+     "id": "DIA-04",
      "kind": "motion",
-     "file": "assets/comparisons/CMP-02/exports/preview.mp4",
-     "duration": 8.0,
+     "file": "assets/diagrams/DIA-04/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/comparisons/CMP-02/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 5.44
     }
@@ -1889,13 +1904,13 @@
     {
      "id": "CODE-07",
      "kind": "code",
-     "file": "assets/code/CODE-07/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-07/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-07/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 6.0
     }
@@ -1939,13 +1954,13 @@
     {
      "id": "CODE-08",
      "kind": "code",
-     "file": "assets/code/CODE-08/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-08/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-08/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 20.16
     }
@@ -1989,13 +2004,13 @@
     {
      "id": "CODE-09",
      "kind": "code",
-     "file": "assets/code/CODE-09/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-09/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-09/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 2.4
     }
@@ -2187,13 +2202,13 @@
     {
      "id": "CODE-12",
      "kind": "code",
-     "file": "assets/code/CODE-12/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-12/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-12/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 0.72
     }
@@ -2262,13 +2277,13 @@
     {
      "id": "CODE-14",
      "kind": "code",
-     "file": "assets/code/CODE-14/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-14/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-14/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 3.2
     }
@@ -2409,13 +2424,13 @@
     {
      "id": "CODE-15",
      "kind": "code",
-     "file": "assets/code/CODE-15/exports/preview.mp4",
-     "duration": 10.25,
+     "file": "assets/code/CODE-15/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-15/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 9.92
     }
@@ -2459,13 +2474,13 @@
     {
      "id": "CODE-16",
      "kind": "code",
-     "file": "assets/code/CODE-16/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-16/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-16/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 4.124
     },
@@ -2497,13 +2512,13 @@
     {
      "id": "DIA-09",
      "kind": "motion",
-     "file": "assets/diagrams/DIA-09/exports/preview.mp4",
-     "duration": 15.0,
+     "file": "assets/diagrams/DIA-09/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/diagrams/DIA-09/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 11.6
     }
@@ -2597,13 +2612,13 @@
     {
      "id": "CODE-19",
      "kind": "code",
-     "file": "assets/code/CODE-19/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-19/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-19/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 14.32
     }
@@ -2622,13 +2637,13 @@
     {
      "id": "CODE-19",
      "kind": "code",
-     "file": "assets/code/CODE-19/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-19/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-19/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 1.12
     }
@@ -2697,13 +2712,13 @@
     {
      "id": "CODE-22",
      "kind": "code",
-     "file": "assets/code/CODE-22/exports/preview.mp4",
-     "duration": 10.0,
+     "file": "assets/code/CODE-22/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/code/CODE-22/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 23.68
     }
@@ -3498,13 +3513,13 @@
     {
      "id": "REF-01",
      "kind": "code",
-     "file": "assets/reference-code/REF-01/exports/preview.mp4",
-     "duration": 16.0,
+     "file": "assets/reference-code/REF-01/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/reference-code/REF-01/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 4.16
     }
@@ -4567,13 +4582,13 @@
     {
      "id": "CARD-02",
      "kind": "motion",
-     "file": "assets/cards/CARD-02/exports/preview.mp4",
-     "duration": 12.0,
+     "file": "assets/cards/CARD-02/exports/poster.png",
+     "duration": null,
      "segment": "",
-     "still": false,
+     "still": true,
      "in_out": null,
-     "poster": "assets/cards/CARD-02/exports/poster.png",
-     "cutdown": null,
+     "poster": null,
+     "cutdown": "poster",
      "key_second": 0.0,
      "slot": 1.36
     }
@@ -4664,6 +4679,7 @@
   "CODE-29",
   "DIA-01",
   "DIA-03",
+  "DIA-04",
   "DIA-06",
   "DIA-07",
   "DIA-09",

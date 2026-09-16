@@ -4,10 +4,10 @@ Produced 2026-09-15 by the producer.
 
 ## Coverage
 
-- Tickets: 147 (139 asset tickets, 8 coordination). Produced: 138.
+- Tickets: 147 (139 asset tickets, 8 coordination). Produced: 139.
 - Script visual cues tracked by the manifest: 74; `docs/COVERAGE.md` maps all 50 original plan families and the 16 chapter cards to tickets.
-- Release: 138 approved, 0 blocked, 9 unreviewed.
-- Produced by family: broll 6, captures 7, cards 2, chapters 16, code 29, comparisons 9, diagrams 10, facts 8, historical 34, mockups 2, ops 4, reference-code 6, stills 5.
+- Release: 139 approved, 0 blocked, 8 unreviewed.
+- Produced by family: broll 6, captures 7, cards 2, chapters 16, code 29, comparisons 9, diagrams 11, facts 8, historical 34, mockups 2, ops 4, reference-code 6, stills 5.
 
 ## Validation actually run
 
@@ -17,7 +17,7 @@ Produced 2026-09-15 by the producer.
 
 ## Editor inventory
 
-`exports/editor-inventory.csv`: one row per ticket in script order with section, script lines, primary file, exports, duration, variants, B-roll segment, credits, release eligibility and editor notes. 134 assets are cleared for the media bin; 5 blocked; support tickets are listed but are not media.
+`exports/editor-inventory.csv`: one row per ticket in script order with section, script lines, primary file, exports, duration, variants, B-roll segment, credits, release eligibility and editor notes. 135 assets are cleared for the media bin; 4 blocked; support tickets are listed but are not media.
 `exports/exceptions.md`: labels and constraints that travel with specific assets, plus the credits list.
 
 ## Not done here
