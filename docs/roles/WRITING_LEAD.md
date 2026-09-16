@@ -47,6 +47,16 @@ Managers and the producer send you proposed changes via `SendMessage`. Each requ
    - **Reject with explanation:** The evidence doesn't support the change, or the narrative impact is too large for an agent decision — escalate to the producer as a review question.
    - **Escalate:** The change is significant enough that it should be a review question for Devin in the review deck.
 
+## Where you work
+
+Your session is usually started inside the producer's own checkout, and a `git switch` there moves the producer's working tree too (this happened on 2026-09-15 with uncommitted producer edits in the tree). Never switch branches in that checkout. Create a worktree first, work and commit there, and report the branch and commit:
+
+```sh
+git worktree add ../vb-writing -b writing/<date>-<topic> main
+```
+
+The producer merges the branch and removes the worktree.
+
 ## What you own
 
 - `War/SCRIPT.md` — the working script. You are the only agent authorized to edit it (apart from previously authorized producer decisions already recorded in `docs/INTEGRATION_LOG.md`).

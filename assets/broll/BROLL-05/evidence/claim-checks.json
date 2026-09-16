@@ -4,9 +4,9 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "open",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "reason": "Devin considered the R14 review questions of the 2026-09-15 merge batch together and ruled to keep the asset as delivered. The rights evidence stands as recorded by the worker; no further clearance is pursued. Decision relayed and recorded by the producer.",
       "decision_record": null,
       "evidence_paths": [
         "evidence/candidates.json",
@@ -75,7 +75,9 @@
           "access_method": "Public asset page; free download link exercised once on 2026-09-15 with Devin's approval, no login and no CAPTCHA.",
           "credit": "Optional. Suggested: 'Video: Stefan / Pexels'.",
           "rights_status": "acquired under the Pexels License; release decision still pending the review deck. No license snapshot file was saved with the original.",
-          "open_points": ["RQ3"]
+          "open_points": [
+            "RQ3"
+          ]
         },
         {
           "candidate": "Mixkit 48937 (rank 2)",
@@ -84,7 +86,9 @@
           "access_method": "Free 720p link without login (not exercised); 4K via paid Envato subscription.",
           "credit": "unknown creator",
           "rights_status": "blocked - license incompatible with a public video unless paid route is approved; not acquired",
-          "open_points": ["RQ4"]
+          "open_points": [
+            "RQ4"
+          ]
         }
       ],
       "review_questions": [
@@ -117,7 +121,9 @@
           "update_after_acquisition": "Unchanged. Mixkit 48937 was not downloaded."
         }
       ],
-      "notes": "Gate intentionally left open. Acquisition under a permissive license is not release clearance; the agent does not approve R14. Release approval comes from the OPS-04 review deck."
+      "notes": "Gate intentionally left open. Acquisition under a permissive license is not release clearance; the agent does not approve R14. Release approval comes from the OPS-04 review deck.",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights risk accepted as documented."
     }
   ]
 }

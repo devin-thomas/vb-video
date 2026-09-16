@@ -120,6 +120,18 @@ The producer moved to a fresh checkout at `C:\dev\youtube\vb-video-checkout-2` (
 - **Tooling.** `tools/github_issues.py` sniffed the manifest layout from raw text and, on a `core.autocrlf=true` checkout where `manifest.json` carries CRLF, wrote the whole 12,067-line file back as one line. It now normalises line endings before sniffing; the collapsed file was restored from `HEAD` (no data changed).
 - **Role documents.** `docs/roles/PRODUCER.md` names the new checkout, the model, and three gotchas (shallow clone, branch suffixes, lost reports). The four department documents that still hardcoded `vb-05 [7bc7f1]` now tell managers to confirm the producer via `ListAgents` and this log. Historical evidence files under `assets/` that mention `C:\dev\experiments\vb` are byte-exact records of where the work ran and were left alone.
 
+## Session 7 — first release decisions and the Writing Lead round (2026-09-15)
+
+Devin ruled on the review ledger in chat with the producer, ahead of the OPS-04 deck.
+
+- **R14, all 33 questions from the session-6 batch:** keep every asset; rights risk accepted as documented, no further clearance pursued. Recorded per question in `review/editorial-review.json` and as gate decisions in each ticket's `evidence/claim-checks.json`.
+- **Release approved** (state, delivery and gate records; validator ok): HIST-12, BROLL-01, BROLL-02, BROLL-05, XTRA-05. Release now stands at 13 approved.
+- **Still blocked pending Devin's choice:** BROLL-03, BROLL-04, BROLL-06, the three clips that do not match their brief. Their options (keep the labeled fallback, an alternative free source, an archive candidate, or an H02 outside request) are laid out with frames on the "B-roll Options" page at https://claude.ai/artifact/Si3a9xuQtatkKpkmuLAXtC.
+- **Writing Lead round** (branch `writing/2026-09-15-r03`, commit `542f37e`, merged): `War/SCRIPT.md:135` no longer says the code window was "behind all of it" (the accepted VB4 capture shows it in front); `:151` says "today" instead of "in 2024"; the "Form Designer" label at `:133` is kept, so XTRA-05 needs no rebuild. Credit placement for XTRA-05 (RQ4) is a producer decision: end credits, nothing burned in.
+- **Manifest:** BROLL-01 to BROLL-06 reclassed from kind `scout` to `archive`. Each ticket permitted ungated acquisition and now holds a verified original with provenance; `validate_delivery.py` refuses to approve a `scout` row.
+- **Process:** the Writing Lead session ran inside the producer's checkout and its `git switch` moved the producer's working tree. No damage (the commit touched only the script), but `docs/roles/WRITING_LEAD.md` now requires a worktree.
+- **Open in the ledger:** only HIST-12 RQ-2, an information item about presenting the 444×282 Delphi GIF at an exact 3× upscale on a matte rather than stretched.
+
 ## Mapping: original GitHub issues → tickets
 
 | GitHub Issue | Title | Tickets | Status |

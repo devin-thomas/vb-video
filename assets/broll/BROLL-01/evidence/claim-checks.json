@@ -4,9 +4,9 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "open",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "reason": "Devin considered the R14 review questions of the 2026-09-15 merge batch together and ruled to keep the asset as delivered. The rights evidence stands as recorded by the worker; no further clearance is pursued. Decision relayed and recorded by the producer.",
       "checked_on": "2026-09-15",
       "claim": "ASSET_PLAN.md:117 lists 'Pexels, Pixabay (browsable without login)' as sources for hands shuffling cards; ASSET_PLAN.md:109-122 treats free stock as browsable without login.",
       "finding_on_plan_claim": "Partly false for the agent on 2026-09-15. Pixabay search pages were browsable but held no suitable shuffling clip. Pexels individual video pages were not browsable by the agent (HTTP 403; Cloudflare verification interstitial). Mixkit, which the plan did not name, was browsable without login and supplied all three candidates.",
@@ -80,7 +80,9 @@
           "question": "Boundary: approve the batched download of rank 1 Full HD (70.51 MB), or all three (173.39 MB)?",
           "resolution": "Devin approved rank 1 only on 2026-09-15. Acquired; ranks 2 and 3 were not downloaded. This question is closed."
         }
-      ]
+      ],
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights risk accepted as documented."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "id": "BROLL-02",
   "title": "Two people playing War",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "stock candidate scouting record plus one acquired stock original (labeled generic card-game fallback, not War)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 9.634625,
@@ -33,8 +33,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "gate evidence",
-      "bytes": 7872,
-      "sha256": "89aa2368ab997d0f6edbaa6d3fca69628a04c25230b9a9c94d948d4d75409f83"
+      "bytes": 8373,
+      "sha256": "c227a6d5113b027fada733dff70f3d58767522f43be03d5180f616489118eb81"
     },
     {
       "path": "exports/candidates.md",
@@ -215,9 +215,7 @@
       "result": "run after this file was written; result in the completion report"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
@@ -235,6 +233,7 @@
     "The original is stored byte-identical to what the server returned: no re-encode, trim, crop or watermark change. The PNG frames are inspection stills derived from it.",
     "Size mismatch against the download brief (about 4.19 MiB vs roughly 20 MB) is recorded in qa.md; the download was complete and self-consistent.",
     "Acquisition is not clearance. R14 stays open: no model release is published for the identifiable people, and the standing review question that no free clip shows real War is unresolved.",
-    "duration_seconds, dimensions and fps above describe the acquired MP4, not the candidate-report variant."
+    "duration_seconds, dimensions and fps above describe the acquired MP4, not the candidate-report variant.",
+    "Release approved by Devin on 2026-09-15 (R14 questions considered as a batch, asset kept as delivered); see review/editorial-review.json."
   ]
 }

@@ -2,7 +2,7 @@
   "id": "BROLL-05",
   "title": "Floppy disk insertion close-up",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "stock footage scouting report plus one acquired original (Pexels 20503026, Pexels License)",
   "shared_version": "not_applicable (acquired stock footage and scouting report; no shared template or renderer used)",
   "duration_seconds": 11.156667,
@@ -45,8 +45,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "gate evidence and review questions",
-      "bytes": 10251,
-      "sha256": "67e2eecb9f42251940b9ee7c4d761af6d848b37198d9b71016133a56ffffc003"
+      "bytes": 10720,
+      "sha256": "af86fd6579d70379c2403e08408e4bee9a38d7f374984246887bfba7ff3e3d8c"
     },
     {
       "path": "evidence/candidates.json",
@@ -217,9 +217,7 @@
       "result": "20503026: 13 frames; 20503027: 5; 48937: 4; 33125208: 3"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
@@ -238,6 +236,7 @@
     "Acquired under a permissive license is not cleared for release. R14 stays open and release_status stays blocked pending the OPS-04 review deck.",
     "Recommended in/out 00:00.00-00:06.00 (6.0 s), below the 8-12 s preference; see RQ1.",
     "The file carries an audio stream that was not auditioned; the edit is expected to use picture only.",
-    "Shutter-first insertion remains an inference: the metal shutter is never in view. See qa.md and evidence/claim-checks.json for the corroborating observations."
+    "Shutter-first insertion remains an inference: the metal shutter is never in view. See qa.md and evidence/claim-checks.json for the corroborating observations.",
+    "Release approved by Devin on 2026-09-15 (R14 questions considered as a batch, asset kept as delivered); see review/editorial-review.json."
   ]
 }

@@ -2,7 +2,7 @@
   "id": "BROLL-01",
   "title": "Hands shuffling physical cards",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "acquired third-party stock original (rank 1 downloaded unmodified under an approved free licence) plus the scouting record for ranks 2-3",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 19.394375,
@@ -18,8 +18,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gate record",
-      "bytes": 7679,
-      "sha256": "729b7fed3b4db77dabfdfefe23b41f847d45b8bf91c19fb57ae8a714a107129a"
+      "bytes": 8100,
+      "sha256": "e3acc4859faf29dce4ac1e806735dd6be21b15bc92d8f77cfa90ef3659519934"
     },
     {
       "path": "evidence/frames/frame-in-05.000s-720p.png",
@@ -205,9 +205,7 @@
       "result": "Three full-resolution frames (5.0, 10.5, 16.0 s) extracted with ffmpeg and viewed at full size, plus the in-point frame viewed again at 1280x720. No watermark, caption or logo. Casino felt layout confirmed present throughout the segment. Details in qa.md section 3."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
@@ -225,6 +223,7 @@
     "The file has no audio stream, so the narration/audio-clearance question is closed.",
     "Editorial review question: the printed casino felt (yellow '10', betting lines, partial 'TEXAS HOLD'EM' lettering entering frame near the 16.0 s out point) is more present in the cut than scouting implied.",
     "Only 3 of 465 frames were inspected and continuous playback was never watched; motion quality between sample points is unverified.",
-    "Pexels could not be inspected (Cloudflare verification interstitial / HTTP 403); not bypassed."
+    "Pexels could not be inspected (Cloudflare verification interstitial / HTTP 403); not bypassed.",
+    "Release approved by Devin on 2026-09-15 (R14 questions considered as a batch, asset kept as delivered); see review/editorial-review.json."
   ]
 }

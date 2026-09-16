@@ -2,7 +2,7 @@
   "id": "XTRA-05",
   "title": "VB4 IDE anatomy: five labeled panels",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "derivative annotation of a historical source (the whole HIST-02 screenshot, uniformly scaled 1.5x or placed at native 1.0x, with authored labels from the War/SCRIPT.md cue, window-frame outlines, leader lines and gutter rails)",
   "shared_version": "win95-workbench-1.0.0 (tools/render/studio.py colour tokens and text primitives)",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence",
-      "bytes": 35484,
-      "sha256": "2af1994c88e3f38501f1f4fa3ed1cbe08f930f7b073c53b7d6b6937c21aa5a95"
+      "bytes": 37928,
+      "sha256": "bb43480e262fd93329601b1f4eea296f91ac7bcd5dcb7677e60488eec5da1ee1"
     },
     {
       "path": "evidence/placement-checks.json",
@@ -379,10 +379,7 @@
       "result": "see qa.md (verbatim output of the run after this inventory was written)"
     }
   ],
-  "unresolved_gates": [
-    "R03",
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -424,7 +421,8 @@
     "Release blocked under R03 and R14 until the review deck decides; internal proof only.",
     "Upstream status at use: HIST-02 production produced, release blocked.",
     "Devin rulings of 2026-09-15 implemented (evidence/claim-checks.json devin_rulings). Open review questions: XTRA-05-RQ2 (Form Designer note, Writing Lead), XTRA-05-RQ3 (Writing Lead), XTRA-05-RQ4 (producer); upstream RQ-HIST-02-1.",
-    "Internal proof only: not placed in any cleared-media bin."
+    "Internal proof only: not placed in any cleared-media bin.",
+    "Release approved 2026-09-15: R14 by Devin (batch ruling), R03 by the Writing Lead (commit 542f37e). See review/editorial-review.json."
   ],
   "poster": {
     "file": "exports/poster.png",

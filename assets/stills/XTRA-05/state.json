@@ -1,18 +1,19 @@
 {
   "id": "XTRA-05",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-8c, branch ticket/XTRA-05-rev",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14 release gate: the HIST-02 permission basis is undecided (RQ-HIST-02-1: Microsoft's screenshot permission, another basis, or none), and the credit placement is open with the producer (XTRA-05-RQ4). Resolved on 2026-09-15: callout marks are allowed (Devin, XTRA-05-RQ1); the \"Loan\" project is Microsoft's VB 4.0 Grid sample, so no third-party content concern remains (XTRA-05-RQ5, evidence: KB Q150726 and archive.org VB 4.0 CD listings).",
     "R03 release gate: the narration's form/code-window description only partly matches the capture (XTRA-05-RQ3, Writing Lead); \"Form Designer\" is VB6-documented wording (XTRA-05-RQ2 remaining note, Writing Lead). \"Project Window\" now follows War/SCRIPT.md:133."
   ],
-  "reviewer": null,
+  "reviewer": "Devin",
   "notes": [
     "Produced: poster (= side-by-side), side-by-side, clean-workspace and five-callouts stills with offline HTML source; validate_delivery.py passes.",
     "Labels read from the War/SCRIPT.md:133 VISUAL cue (fifth label Project Window). Whole HIST-02 screenshot in every variant: 1.5x BOX (clean-workspace, five-callouts) or native 1.0x (side-by-side), pixel-verified; every mark and the original pixels it overlays recorded.",
-    "Full-size and 720p manual review recorded in qa.md. Internal proof only; release blocked pending the review deck."
+    "Full-size and 720p manual review recorded in qa.md. Internal proof only; release blocked pending the review deck.",
+    "Release approved 2026-09-15: R14 by Devin, R03 resolved by the Writing Lead in 542f37e. Recorded by the producer."
   ],
   "owner": "Render Lane worker (Claude Opus 5) under Render Lane Manager vb-8c, branch ticket/XTRA-05-rev"
 }

@@ -5,12 +5,22 @@
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
       "register": "docs/EDITORIAL_REGISTER.md#r14",
-      "status": "open",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "reason": "Devin considered the R14 review questions of the 2026-09-15 merge batch together and ruled to keep the asset as delivered. The rights evidence stands as recorded by the worker; no further clearance is pursued. Decision relayed and recorded by the producer.",
       "checked_on": "2026-09-15",
       "checked_by": "BROLL-02 scouting worker (Claude, spawned by B-roll Scouting Manager vb-99)",
-      "evidence_paths": ["evidence/candidates.json", "exports/candidates.md", "exports/acquisition-handoff.md", "qa.md", "source/source.json", "evidence/frames/frame-01s.png", "evidence/frames/frame-04s.png", "evidence/frames/frame-08s.png", "evidence/frames/frame-04s-720p.png"],
+      "evidence_paths": [
+        "evidence/candidates.json",
+        "exports/candidates.md",
+        "exports/acquisition-handoff.md",
+        "qa.md",
+        "source/source.json",
+        "evidence/frames/frame-01s.png",
+        "evidence/frames/frame-04s.png",
+        "evidence/frames/frame-08s.png",
+        "evidence/frames/frame-04s-720p.png"
+      ],
       "findings": "ASSET_PLAN.md:109-122 assumes Pexels and Pixabay are browsable without login. On 2026-09-15 that held for both: asset pages were viewable and free download buttons were visible without login. However, no free candidate visibly shows War, which the SCRIPT.md:801 shot requires. Item-specific license terms and creators are recorded below. On 2026-09-15, with Devin's approval relayed by the B-roll Scouting Manager (session vb-bf), the rank 1 candidate was downloaded ungated under the Pexels License and is now held locally with a full source record (source/source.json). Inspecting the real file confirmed the scouting verdict: it is a generic two-person card game, not War. Acquisition does not clear release: no model release is published for the two identifiable people, and the fallback-acceptability question is unresolved, so R14 stays open for the OPS-04 review deck.",
       "acquisition_evidence": {
         "acquired_on": "2026-09-15",
@@ -93,7 +103,9 @@
         "Legal risk: no model releases are shown for identifiable people on the Pexels or Pixabay pages, including on the clip now acquired. Are the stock license terms sufficient for this use?",
         "The acquired clip is 9.634625 s end to end with no handles. Is a 9.6 s fallback long enough for the section 5 cutaway, or should a longer clip be sought?"
       ],
-      "decision_record": null
+      "decision_record": null,
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights risk accepted as documented."
     }
   ]
 }

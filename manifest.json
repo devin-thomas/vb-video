@@ -9741,7 +9741,7 @@
       "id": "BROLL-01",
       "title": "Hands shuffling physical cards",
       "parent": "T2-B01",
-      "kind": "scout",
+      "kind": "archive",
       "lane": "research",
       "sections": [
         5
@@ -9817,7 +9817,7 @@
       "id": "BROLL-02",
       "title": "Two people playing War",
       "parent": "T2-B02",
-      "kind": "scout",
+      "kind": "archive",
       "lane": "research",
       "sections": [
         5
@@ -9893,7 +9893,7 @@
       "id": "BROLL-03",
       "title": "1990s office with CRT monitors",
       "parent": "T2-B03",
-      "kind": "scout",
+      "kind": "archive",
       "lane": "research",
       "sections": [
         3,
@@ -9970,7 +9970,7 @@
       "id": "BROLL-04",
       "title": "Browsing a 1990s software store",
       "parent": "T2-B04",
-      "kind": "scout",
+      "kind": "archive",
       "lane": "research",
       "sections": [
         3,
@@ -10047,7 +10047,7 @@
       "id": "BROLL-05",
       "title": "Floppy disk insertion close-up",
       "parent": "T2-B05",
-      "kind": "scout",
+      "kind": "archive",
       "lane": "research",
       "sections": [
         3,
@@ -10124,7 +10124,7 @@
       "id": "BROLL-06",
       "title": "Pentium-era PC booting",
       "parent": "T2-B06",
-      "kind": "scout",
+      "kind": "archive",
       "lane": "research",
       "sections": [
         3,
@@ -12063,5 +12063,8 @@
     "H05": 166,
     "H06": 167,
     "H07": 168
-  }
+  },
+  "notes": [
+    "2026-09-15 producer: BROLL-01..06 reclassed from kind 'scout' to 'archive'. Each ticket permitted ungated acquisition (BROLL ticket step 5) and now holds a verified original with provenance, like the HIST archive rows; 'scout' had blocked release approval in validate_delivery.py."
+  ]
 }

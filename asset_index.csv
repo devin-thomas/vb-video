@@ -93,7 +93,7 @@ HIST-08,Windows 95 launch footage still,historical,archive,research,T2-H04,2,OPS
 HIST-09,CompUSA storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-09,docs/tickets/HIST-09.md,122,produced,blocked
 HIST-10,Egghead Software storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-10,docs/tickets/HIST-10.md,123,produced,blocked
 HIST-11,Visual Basic 4 retail box,historical,archive,research,T2-H06,3,OPS-01,R14,assets/historical/HIST-11,docs/tickets/HIST-11.md,124,produced,blocked
-HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,125,produced,blocked
+HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,125,produced,approved
 HIST-13,Metrowerks CodeWarrior IDE,historical,archive,research,T2-H08,14,OPS-01,R14,assets/historical/HIST-13,docs/tickets/HIST-13.md,126,produced,blocked
 HIST-14,NeXT Cube product photograph,historical,archive,research,T2-H09,14,OPS-01,R14,assets/historical/HIST-14,docs/tickets/HIST-14.md,127,produced,unreviewed
 HIST-15,PowerBuilder DataWindow,historical,archive,research,T2-H10,13,OPS-01,R14,assets/historical/HIST-15,docs/tickets/HIST-15.md,128,produced,blocked
@@ -103,12 +103,12 @@ HIST-18,Download.com archived site circa 1996,historical,archive,research,T2-H12
 HIST-19,Windows 3.1 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-19,docs/tickets/HIST-19.md,132,produced,blocked
 HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-20,docs/tickets/HIST-20.md,133,produced,blocked
 HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,134,produced,blocked
-BROLL-01,Hands shuffling physical cards,broll,scout,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,produced,blocked
-BROLL-02,Two people playing War,broll,scout,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,produced,blocked
-BROLL-03,1990s office with CRT monitors,broll,scout,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,produced,blocked
-BROLL-04,Browsing a 1990s software store,broll,scout,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,produced,blocked
-BROLL-05,Floppy disk insertion close-up,broll,scout,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,139,produced,blocked
-BROLL-06,Pentium-era PC booting,broll,scout,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,produced,blocked
+BROLL-01,Hands shuffling physical cards,broll,archive,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,produced,approved
+BROLL-02,Two people playing War,broll,archive,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,produced,approved
+BROLL-03,1990s office with CRT monitors,broll,archive,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,produced,blocked
+BROLL-04,Browsing a 1990s software store,broll,archive,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,produced,blocked
+BROLL-05,Floppy disk insertion close-up,broll,archive,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,139,produced,approved
+BROLL-06,Pentium-era PC booting,broll,archive,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,produced,blocked
 XTRA-01,Visual Basic Programmer's Journal cover,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-01,docs/tickets/XTRA-01.md,141,produced,blocked
 XTRA-02,Period MSDN advertisement,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-02,docs/tickets/XTRA-02.md,142,produced,blocked
 XTRA-03,Early BASIC-era terminal hardware,historical,archive,research,SCRIPT-SUPPLEMENT,2,OPS-01,R14,assets/historical/XTRA-03,docs/tickets/XTRA-03.md,143,produced,blocked
@@ -123,7 +123,7 @@ XTRA-18,Period Windows Hearts screenshot,historical,archive,research,SCRIPT-SUPP
 XTRA-19,Period Windows FreeCell screenshot,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-19,docs/tickets/XTRA-19.md,152,produced,blocked
 XTRA-20,Period BBS file listing,historical,archive,research,SCRIPT-SUPPLEMENT,12,OPS-01,R14,assets/historical/XTRA-20,docs/tickets/XTRA-20.md,153,produced,blocked
 XTRA-04,FORTRAN versus BASIC introductory example,reference-code,still,code,SCRIPT-SUPPLEMENT,2,OPS-01,R15,assets/reference-code/XTRA-04,docs/tickets/XTRA-04.md,154,produced,blocked
-XTRA-05,VB4 IDE anatomy: five labeled panels,stills,still,design,SCRIPT-SUPPLEMENT,3,"OPS-01,HIST-02","R03,R14",assets/stills/XTRA-05,docs/tickets/XTRA-05.md,155,produced,blocked
+XTRA-05,VB4 IDE anatomy: five labeled panels,stills,still,design,SCRIPT-SUPPLEMENT,3,"OPS-01,HIST-02","R03,R14",assets/stills/XTRA-05,docs/tickets/XTRA-05.md,155,produced,approved
 XTRA-06,Project settings: actual War.vbproj capture,captures,capture,capture,SCRIPT-SUPPLEMENT,4,"OPS-01,OPS-02",R17,assets/captures/XTRA-06,docs/tickets/XTRA-06.md,156,produced,approved
 XTRA-08,1995 tools class-photo lineup,stills,still,design,SCRIPT-SUPPLEMENT,13,OPS-01,R15,assets/stills/XTRA-08,docs/tickets/XTRA-08.md,157,produced,blocked
 XTRA-10,VB-for-Mac claim visual: evidence-gated decision,stills,still,research,SCRIPT-SUPPLEMENT,14,OPS-01,"R09,R14",assets/stills/XTRA-10,docs/tickets/XTRA-10.md,158,produced,blocked

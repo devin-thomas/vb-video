@@ -2,16 +2,16 @@
   "gates": [
     {
       "id": "R14",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
         "evidence/candidates.json"
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Worked, not cleared. Rights holder at creation: Borland International, Inc. File-specific terms: no licence or permission found; the archived 1996 borland.com notice prohibits copying material from the site elsewhere for further reproduction or redistribution except as otherwise provided. Access method: public Wayback id_ URL with a generic User-Agent — no account, payment, terms acceptance, CAPTCHA or access-control bypass. The file has now been acquired byte-exact with Devin's explicit chat approval, and inspecting it added no licence evidence: the image carries no copyright notice, no licence text, no attribution mark and no watermark, and absence of a notice is not a licence. Per R14, unknown rights stay blocked. Proposed credit recorded in evidence/rights.json. See review question RQ-1."
+      "decision": "Approved: keep the asset. Rights risk accepted as documented.",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin considered the R14 review questions of the 2026-09-15 merge batch together and ruled to keep the asset as delivered. The rights evidence stands as recorded by the worker; no further clearance is pursued. Decision relayed and recorded by the producer."
     }
   ],
   "claims": [

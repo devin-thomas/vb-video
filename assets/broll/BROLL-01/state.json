@@ -1,15 +1,15 @@
 {
   "id": "BROLL-01",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "BROLL-01 acquisition worker (spawned by B-roll Scouting Manager, session vb-bf)",
-  "updated_at": "2026-09-15T23:40:00Z",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14 open: rights are recorded per candidate and for the acquired original, but not cleared. The release decision belongs to the OPS-04 review deck.",
     "Editorial review question outstanding: the printed casino felt (yellow '10', betting lines, partial 'TEXAS HOLD'EM' lettering entering frame near the 16.0 s out point) may be wrong in tone for a family card-game segment. See evidence/claim-checks.json.",
     "Mixkit User Terms s.13 (third-party components such as the card-back pattern and table layout) is known only from a WebFetch summary, not read verbatim."
   ],
-  "reviewer": null,
+  "reviewer": "Devin",
   "notes": [
     "Rank 1 candidate acquired 2026-09-15 under Devin's explicit approval, relayed by the B-roll Scouting Manager: source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4, 73935932 bytes, sha256 65b65dd09d9fcb074304b9e33123aaa6d4dd0da2906833a36c2b0c8727f73ff2.",
     "Verified with ffprobe: 1920x1080, 19.394375 s, 23.976 fps (24000/1001), h264 High, 465 frames, no audio stream. Duration, dimensions and byte size match the scouted values; fps does not (page and scouting record said 24).",
@@ -17,6 +17,7 @@
     "Selected segment in 00:05.0 / out 00:16.0 still holds on the acquired file (11.0 s, riffle then bridge, 5.0 s head and 3.394375 s tail handles).",
     "Download encountered no login, payment, CAPTCHA, bot check or terms click-through. The approved URL returned the site's own download modal naming the asset URL; the bytes came from there.",
     "Ranks 2 and 3 remain not acquired. Pexels leads remain uninspected (Cloudflare bot wall, not bypassed).",
-    "Produced is not cleared: release stays blocked pending the OPS-04 review deck."
+    "Produced is not cleared: release stays blocked pending the OPS-04 review deck.",
+    "Release approved by Devin on 2026-09-15: R14 rights questions considered as a batch and the asset kept as delivered. Recorded by the producer in review/editorial-review.json."
   ]
 }

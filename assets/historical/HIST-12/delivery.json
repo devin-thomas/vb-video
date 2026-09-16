@@ -2,7 +2,7 @@
   "id": "HIST-12",
   "title": "Borland Delphi 1.0 IDE",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (archived vendor screenshot, unlicensed third-party copyright) with derivative editorial framing",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 8861,
-      "sha256": "f89198c0c472860a7b8b59b9d8e1f87c522911b57ac00f63c881399df62bf3b5"
+      "bytes": 8424,
+      "sha256": "9884401eb63c91e6f9e94ecde77f1c2e8d9b23babcdebe46c331fd73981a9c16"
     },
     {
       "path": "evidence/provenance.json",
@@ -187,9 +187,7 @@
       "result": "see qa.md (run after this file is written)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -213,6 +211,7 @@
     "The native raster is only 444x282. It is shown at an exact 3x integer upscale on a matte rather than stretched to fill the frame, so it occupies 1332x846 of 1920x1080. Review question RQ-2 asks the editor to confirm that presentation.",
     "Release blocked on R14 (RQ-1). Keep out of the cleared-media bin.",
     "SCRIPT.md:621 ('It looks a lot like the VB IDE') was checked at full resolution against the HIST-01 and HIST-02 VB IDE exports and is accurate as written. No script change is proposed and War/SCRIPT.md was not edited.",
-    "Review questions RQ-1 and RQ-2 are in evidence/claim-checks.json."
+    "Review questions RQ-1 and RQ-2 are in evidence/claim-checks.json.",
+    "Release approved by Devin on 2026-09-15 (R14 questions considered as a batch, asset kept as delivered); see review/editorial-review.json."
   ]
 }
