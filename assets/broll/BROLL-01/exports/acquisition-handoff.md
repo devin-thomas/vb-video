@@ -1,5 +1,13 @@
 # BROLL-01 acquisition handoff
 
+> **STATUS UPDATE 2026-09-15 — rank 1 acquired.** Devin approved the rank 1 download; it was fetched, verified and committed as
+> `source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4` (73,935,932 bytes, sha256 `65b65dd0…7f73ff2`, 1920x1080, 19.394375 s, 23.976 fps, no audio).
+> Production status is now `produced`. Release remains `blocked` (R14 open). **Ranks 2 and 3 were not approved and were not downloaded.**
+> The download encountered no login, payment, CAPTCHA or terms gate. See `source/source.json` and section 3 of `qa.md`.
+> The table below is the pre-acquisition record, left as written.
+
+**Original text follows.**
+
 **No file has been downloaded.** Scouting status: `scouted`. Acquisition status: not acquired. Release: `blocked` (R14 open).
 
 ## Ungated free acquisition — pending download approval

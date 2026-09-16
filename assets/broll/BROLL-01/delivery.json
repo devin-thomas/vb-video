@@ -1,13 +1,13 @@
 {
   "id": "BROLL-01",
   "title": "Hands shuffling physical cards",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "stock footage scouting record (candidates inspected; no media acquired)",
+  "provenance_type": "acquired third-party stock original (rank 1 downloaded unmodified under an approved free licence) plus the scouting record for ranks 2-3",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": null,
-  "dimensions": null,
-  "fps": null,
+  "duration_seconds": 19.394375,
+  "dimensions": "1920x1080",
+  "fps": 23.976023976023978,
   "outputs": [
     {
       "path": "evidence/candidates.json",
@@ -18,14 +18,38 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gate record",
-      "bytes": 4539,
-      "sha256": "347e3c144c553d2af034e2d37e49d97c0553ad025ebe4bf61bdf70ddcff3cb7b"
+      "bytes": 7679,
+      "sha256": "729b7fed3b4db77dabfdfefe23b41f847d45b8bf91c19fb57ae8a714a107129a"
+    },
+    {
+      "path": "evidence/frames/frame-in-05.000s-720p.png",
+      "role": "720p inspection frame (in point downscaled to 1280x720)",
+      "bytes": 1417811,
+      "sha256": "bf4812a7131c1b27ae045330c08185920d5a590c4c3c3d5122efa95ae33e5c65"
+    },
+    {
+      "path": "evidence/frames/frame-in-05.000s.png",
+      "role": "inspection frame at the segment in point (5.0 s, 1920x1080)",
+      "bytes": 2794595,
+      "sha256": "ec315ba039af869a22d5e2bdb438a979587812d986d727f5563a23a8a2477d4f"
+    },
+    {
+      "path": "evidence/frames/frame-mid-10.500s.png",
+      "role": "inspection frame at the segment mid point (10.5 s, 1920x1080)",
+      "bytes": 2615159,
+      "sha256": "cc01f2459bf222b6d42d0a2b6d327a37437d0439d1a19a98ebbc7fab249898e6"
+    },
+    {
+      "path": "evidence/frames/frame-out-16.000s.png",
+      "role": "inspection frame at the segment out point (16.0 s, 1920x1080)",
+      "bytes": 2854129,
+      "sha256": "29ebae9c3823cf3f198d5cc451751c6d20db3b78a5b41f9d7dd784de516f809a"
     },
     {
       "path": "evidence/provenance.json",
       "role": "evidence / provenance",
-      "bytes": 2996,
-      "sha256": "0f8fedd9abd041265d78e814cce698627d065e1ce9d3bf5897742e4bd6371790"
+      "bytes": 4629,
+      "sha256": "326954c020cd472fc695fd382dc0f3231d26d1de84adf785947dee32ef26840f"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -36,8 +60,8 @@
     {
       "path": "exports/acquisition-handoff.md",
       "role": "acquisition handoff (ungated pending approval + H02)",
-      "bytes": 4033,
-      "sha256": "7a07c0eb8fcee960d3f3bc506ba92a5fa5233e9dc5a68d702bdae9d2da8a9006"
+      "bytes": 4675,
+      "sha256": "16b4fb820850c53dae0ff2a6f592ed046ba0aab4790bd635def74d72ce1bb9df"
     },
     {
       "path": "exports/candidates.md",
@@ -48,8 +72,20 @@
     {
       "path": "qa.md",
       "role": "QA report",
-      "bytes": 4915,
-      "sha256": "4e78229249684512ad3235a951f315bdcd52c63b74b80c853cceb4bfca0b5876"
+      "bytes": 13222,
+      "sha256": "be6ad5d7dc2d8fbdb0e5a45cd699f564b7c132d747d94e5d872fe5906c586757"
+    },
+    {
+      "path": "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4",
+      "role": "acquired original (unmodified third-party stock video)",
+      "bytes": 73935932,
+      "sha256": "65b65dd09d9fcb074304b9e33123aaa6d4dd0da2906833a36c2b0c8727f73ff2"
+    },
+    {
+      "path": "source/source.json",
+      "role": "source record for the acquired original",
+      "bytes": 4259,
+      "sha256": "69c8bf09cf22906894b970fe85ab7d99bc537c48043efd8a290cd30828703e15"
     },
     {
       "path": "src/build_excerpts.py",
@@ -60,8 +96,8 @@
     {
       "path": "src/finish_delivery.py",
       "role": "reproduction script",
-      "bytes": 4435,
-      "sha256": "583e8baccdd3cc26517254396905b12714fc39a60b5ad188b44b38a78d6eeda4"
+      "bytes": 8796,
+      "sha256": "ca1d77bb248fcd5243113de864f8464c721d8a9464f4881dff75a5ce2d20d6a8"
     }
   ],
   "variants": [
@@ -70,6 +106,20 @@
       "files": [
         "exports/candidates.md"
       ]
+    },
+    {
+      "name": "acquired-original",
+      "files": [
+        "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4"
+      ],
+      "timeline": {
+        "selected_in_seconds": 5.0,
+        "selected_out_seconds": 16.0,
+        "selected_length_seconds": 11.0,
+        "head_handle_seconds": 5.0,
+        "tail_handle_seconds": 3.394375,
+        "note": "Proposed local edit range (riffle then bridge), confirmed against the acquired file; not final narration sync."
+      }
     }
   ],
   "sources": [
@@ -94,7 +144,14 @@
     {
       "url": "https://mixkit.co/free-stock-video/deck-of-cards-being-shuffled-100384/",
       "accessed": "2026-09-15",
-      "relationship": "stock candidate (rank 1, not acquired)"
+      "relationship": "acquired stock original (rank 1) — real capture of a third-party work, downloaded unmodified",
+      "path": "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4",
+      "source_record": "source/source.json",
+      "creator": "Mixkit (Envato); no individual creator named on the asset page",
+      "license": "Mixkit Stock Video Free License",
+      "license_url": "https://mixkit.co/license/",
+      "sha256": "65b65dd09d9fcb074304b9e33123aaa6d4dd0da2906833a36c2b0c8727f73ff2",
+      "rights_status": "recorded, not cleared (R14 open)"
     },
     {
       "url": "https://mixkit.co/free-stock-video/person-shuffling-playing-cards-over-green-table-100398/",
@@ -109,7 +166,15 @@
   ],
   "credits": [
     {
-      "asset": "all ranked candidates",
+      "asset": "source/mixkit-100384-deck-of-cards-being-shuffled-1080p.mp4",
+      "credit": "Footage: Mixkit",
+      "required": false,
+      "basis": "Mixkit Stock Video Free License, read 2026-09-15: 'Attribution is not required, however, we would appreciate it if you credit Mixkit where reasonably possible.'",
+      "license_url": "https://mixkit.co/license/",
+      "note": "Credit wording is the producer's call (see project rulings); this is the licence-supported suggestion, not a final on-screen credit."
+    },
+    {
+      "asset": "ranked candidates 2-3 (not acquired)",
       "credit": "Mixkit",
       "required": false,
       "basis": "Mixkit Stock Video Free License: attribution not required (credit appreciated)"
@@ -126,8 +191,18 @@
       "result": "done for 3 candidates; continuous real-time playback not observed"
     },
     {
-      "name": "1080p/720p export inspection",
-      "result": "not applicable: no rendered or acquired media; previews were 720p streams"
+      "name": "download",
+      "command": "curl -L -A \"Mozilla/5.0\" <approved 1080p download URL>",
+      "result": "The approved URL returned the site's download modal (HTTP 200, text/html, 2738 B) naming the asset URL; the bytes were fetched from there (HTTP 200, video/mp4, 73935932 B). No login, payment, CAPTCHA, bot check or terms gate encountered or bypassed."
+    },
+    {
+      "name": "ffprobe verification",
+      "command": "ffprobe -v error -show_entries format=format_name,duration,size,bit_rate -show_streams -of json <file>",
+      "result": "1920x1080, 19.394375 s, 24000/1001 (23.976) fps, h264 High, 465 frames, no audio stream. Size and sha256 recorded in source/source.json. Matches the scouted clip; fps differs from the page's stated 24."
+    },
+    {
+      "name": "1080p/720p manual inspection",
+      "result": "Three full-resolution frames (5.0, 10.5, 16.0 s) extracted with ffmpeg and viewed at full size, plus the in-point frame viewed again at 1280x720. No watermark, caption or logo. Casino felt layout confirmed present throughout the segment. Details in qa.md section 3."
     }
   ],
   "unresolved_gates": [
@@ -138,11 +213,18 @@
     "git": "2.53.0.windows.1",
     "browser": "Claude Browser pane (embedded Chromium; version not exposed)",
     "web": "Claude Code WebFetch and WebSearch tools",
-    "ffprobe": "not used (no media acquired)"
+    "curl": "8.18.0 (x86_64-w64-mingw32), libcurl/8.18.0 Schannel, release 2026-01-07",
+    "ffprobe": "6.0-essentials_build-www.gyan.dev",
+    "ffmpeg": "6.0-essentials_build-www.gyan.dev"
   },
   "notes": [
-    "Scouting complete is not cleared media acquired. No download was performed.",
-    "Pexels could not be inspected (Cloudflare verification interstitial / HTTP 403); not bypassed.",
-    "Release blocked pending R14 review questions and batched download approval."
+    "Produced is not cleared. The original is acquired and verified, but R14 is open and release stays blocked for the OPS-04 review deck.",
+    "Devin approved this one download on 2026-09-15, relayed by the B-roll Scouting Manager (session vb-bf). Ranks 2 and 3 were not approved and were not downloaded.",
+    "The acquired file is byte-identical to what the server returned: no re-encode, trim, crop or watermark change.",
+    "fps mismatch: the asset page and the scouting record state 24 fps; ffprobe reports 24000/1001 (23.976). Duration, dimensions and byte size match the scouted values exactly.",
+    "The file has no audio stream, so the narration/audio-clearance question is closed.",
+    "Editorial review question: the printed casino felt (yellow '10', betting lines, partial 'TEXAS HOLD'EM' lettering entering frame near the 16.0 s out point) is more present in the cut than scouting implied.",
+    "Only 3 of 465 frames were inspected and continuous playback was never watched; motion quality between sample points is unverified.",
+    "Pexels could not be inspected (Cloudflare verification interstitial / HTTP 403); not bypassed."
   ]
 }
