@@ -1,6 +1,6 @@
 # BROLL-04 — Browsing a 1990s software store: candidate report
 
-**Status:** scouted (URL/metadata scout plus in-page motion sampling). **No media downloaded. Nothing cleared.** Release stays blocked (R14 open).
+**Status of this report:** the scouting pass, written before any download. **Candidate 1 has since been acquired** (2026-09-15, branch `ticket/BROLL-04-media`) on Devin's approval; candidates 2 and 3 were not. **Nothing is cleared.** Release stays blocked (R14 open). Where this report and `qa.md` Part 2 disagree — above all the out point 00:02:24.0, which does not survive contact with the real file — Part 2 wins.
 **Access date for every page below:** 2026-09-15. **Scout:** Claude worker on branch `ticket/BROLL-04`.
 
 ## Summary
@@ -133,6 +133,6 @@
 
 ## What this report is not
 
-- Not an acquisition: no file was downloaded or saved.
-- Not a rights clearance: the CC0 on candidates 1 and 2 is asserted by the uploader, and Internet Archive "does not make guarantees as to the copyright status of items" (help.archive.org/help/rights).
+- Not an acquisition **at the time this report was written**: no file had been downloaded or saved. Candidate 1 was acquired afterwards, on 2026-09-15, in the separate acquisition pass recorded in `qa.md` Part 2 and `source/source.json`.
+- Not a rights clearance: the CC0 on candidates 1 and 2 is asserted by the uploader, and Internet Archive "does not make guarantees as to the copyright status of items" (help.archive.org/help/rights). Devin accepted that uploader-applied CC0 as-is for candidate 1 on 2026-09-15 and ruled that filmmaker permission will not be pursued; that decides the licensing basis, it does not clear the asset for release.
 - Not an AI stand-in or reenactment commission.

@@ -1,25 +1,43 @@
 {
   "id": "BROLL-04",
   "title": "Browsing a 1990s software store",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "stock/archive scouting report; no media acquired",
+  "provenance_type": "stock/archive scouting report plus one acquired archival original (real camcorder footage, 1995; not a reenactment and not AI-generated)",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": null,
-  "dimensions": null,
-  "fps": null,
+  "duration_seconds": 230.621,
+  "dimensions": {
+    "width": 854,
+    "height": 480,
+    "active_picture": {
+      "width": 632,
+      "height": 480,
+      "x": 112,
+      "y": 0,
+      "note": "4:3 picture pillarboxed inside the 854x480 container (ffmpeg cropdetect). A 1080p timeline needs about a 2.25x upscale or an authored archival frame treatment; do not stretch to 16:9."
+    }
+  },
+  "fps": 29.97,
+  "media_note": "duration_seconds, dimensions and fps are ffprobe values for the acquired original source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4 (the whole 230.6 s file), not for the selected segment. The candidate report remains the ticket's named variant.",
+  "selected_segment": {
+    "in": "00:02:16.0",
+    "out_as_scouted": "00:02:24.0",
+    "out_recommended": "00:02:22.5",
+    "duration_recommended_seconds": 6.5,
+    "note": "Checked against the real file: the in point holds (soft; about 00:02:16.3 is cleaner), the scouted out point does not. The browse ends about 00:02:22.5 and 02:23-02:24 becomes a two-man handshake. The recommended 6.5 s is under the ticket's preferred 8-12 s; the choice is an editorial review question. No cut was rendered."
+  },
   "outputs": [
     {
       "path": "qa.md",
-      "role": "qa record",
-      "bytes": 6597,
-      "sha256": "c2e3c7f6ded0680a8b77724817f52fdf88508b2fe1196bec42040de06d630f01"
+      "role": "qa record (scouting pass plus acquisition/media QA pass)",
+      "bytes": 19119,
+      "sha256": "d4413f07ed47643feae2bcb7cb9d8b0551e69c2fc06d65526b67f2dbc33b8572"
     },
     {
       "path": "evidence/provenance.json",
-      "role": "provenance record",
-      "bytes": 3692,
-      "sha256": "fc7aa2af70e7e9c2ff8c432bf432db32244613cbe704bc04ab6d8cd3aa64b5f1"
+      "role": "provenance record (candidate 1 flipped to acquired)",
+      "bytes": 8129,
+      "sha256": "135596e9c17873cde57c1eb9c9fd2d8cc317942a340cb41e43a536c462c93f1d"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -29,27 +47,63 @@
     },
     {
       "path": "evidence/claim-checks.json",
-      "role": "editorial gate record (R14 open)",
-      "bytes": 4874,
-      "sha256": "8e49383802a7c28f2b6928776758f7f7c25381887ecd8463796b662fee2b17a7"
+      "role": "editorial gate record (R14 open; Devin's 2026-09-15 ruling recorded)",
+      "bytes": 8017,
+      "sha256": "e2f2267f4b8d62bf9f297671905c0b502469c6f90fda755e68242f43786b7719"
     },
     {
       "path": "exports/candidates.md",
       "role": "ranked candidate report (variant candidate-report)",
-      "bytes": 11919,
-      "sha256": "a234e82657177f4231af0a1b91ca427cab6d193044b5a0872718eb21529542d1"
+      "bytes": 12585,
+      "sha256": "1bde0c1be8df6b1e1bcbe6834ffef5e1b14248a7df2c8e400daeb2210c6523cb"
     },
     {
       "path": "evidence/candidates.json",
       "role": "structured candidates",
-      "bytes": 11489,
-      "sha256": "d69c15fd377bc5b6c7eeb868881d18df5985d691e29a2e7ec55ea195ab4d3159"
+      "bytes": 12782,
+      "sha256": "f5f759ed5b7f2cf0fb3322537619c7272bb76a7315b31a4df6e8663f51ab9337"
     },
     {
       "path": "exports/acquisition-handoff.md",
-      "role": "ungated download list and H02 gated handoff",
-      "bytes": 5235,
-      "sha256": "fe472e74561bb5ba20da9d4b7d6a6fa1a42b9c0869ab8a26997bdf6ead006d71"
+      "role": "download list and H02 gated handoff, updated for the completed acquisition",
+      "bytes": 6103,
+      "sha256": "f89376ed3d617d4a988872344d41d878f4b8432ae2a3b696865bf5836d37a093"
+    },
+    {
+      "path": "source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4",
+      "role": "acquired archival original (unmodified Internet Archive MPEG4)",
+      "bytes": 32302815,
+      "sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6"
+    },
+    {
+      "path": "source/source.json",
+      "role": "source record for the acquired original (creator, uploader, URLs, access date, rights, hashes, ffprobe)",
+      "bytes": 6681,
+      "sha256": "9bbaf11925ba0793e013440745e5d2161f74faac2ca129c1498b74b9bcc0a005"
+    },
+    {
+      "path": "evidence/frames/frame_02-16-0.png",
+      "role": "verification frame at the in point 00:02:16.0 (854x480, extracted with ffmpeg)",
+      "bytes": 612391,
+      "sha256": "fa7d89a0f49669a08cbf4a09d2735e043cb43fcfb598ee5aa585165a451d8f04"
+    },
+    {
+      "path": "evidence/frames/frame_02-20-0.png",
+      "role": "verification frame at 00:02:20.0, mid-segment (854x480)",
+      "bytes": 666034,
+      "sha256": "397e8e781dafa993a7a0eb54ecabe9738a2888071aa1a22e99dc21e573249bd7"
+    },
+    {
+      "path": "evidence/frames/frame_02-24-0.png",
+      "role": "verification frame at the scouted out point 00:02:24.0 (854x480)",
+      "bytes": 664746,
+      "sha256": "8c626eaae1636b2308040abf74e1ca3051b86a37d2c6919c3a2ab8e806487b15"
+    },
+    {
+      "path": "evidence/frames/frame_02-20-0_720p.png",
+      "role": "the 00:02:20.0 frame scaled to 720p height for the required 720p inspection (1282x720: scale=-2:720 keeps the 854x480 aspect, so the width lands on 1282 rather than 1280)",
+      "bytes": 1343985,
+      "sha256": "b5b3ab4a9c2aeb1c65998c1f81b810c7299ae1a13aa24b12d41b3c7793c1ca3c"
     }
   ],
   "variants": [
@@ -80,10 +134,19 @@
     },
     {
       "url": "https://archive.org/details/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480",
+      "download_url": "https://archive.org/download/1995.08.23-windows-95-midnight-madness-norwalk-ct-wg-g-7-klymsg-0-854x-480/1995.08.23-Windows95-Midnight-Madness-NorwalkCT%5BWgG7KLymsg0%5D%5B854x480%5D.mp4",
       "accessed": "2026-09-15",
-      "relationship": "stock candidate (archival home video; rank 1; not acquired)",
+      "relationship": "historical original, acquired (rank 1)",
+      "local_path": "source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4",
+      "source_record": "source/source.json",
+      "filmmaker": "Dan Lynch",
+      "uploader_to_internet_archive": "The Nostalgist777",
+      "bytes": 32302815,
+      "sha256": "f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6",
       "proposed_in": "00:02:16.0",
-      "proposed_out": "00:02:24.0"
+      "proposed_out": "00:02:22.5",
+      "license": "The Internet Archive item page states CC0 1.0 Universal. That CC0 dedication was applied by the Internet Archive uploader 'The Nostalgist777', not by the filmmaker Dan Lynch. Devin accepted that uploader-applied CC0 as-is on 2026-09-15 and ruled that filmmaker permission will not be pursued.",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "url": "https://archive.org/details/comp-usa-windows-95-launch-pt-1-of-3",
@@ -95,20 +158,22 @@
     {
       "url": "https://texashistory.unt.edu/ark:/67531/metadc2152255/",
       "accessed": "2026-09-15",
-      "relationship": "stock candidate (archival broadcast; rank 3; gated, not viewed)"
+      "relationship": "stock candidate (archival broadcast; rank 3; gated, not viewed, not acquired)"
     }
   ],
   "credits": [
     {
-      "for": "candidate 1 (if cleared)",
-      "text": "Video: Dan Lynch (via Internet Archive)"
+      "for": "the acquired footage (candidate 1)",
+      "text": "Windows 95 launch night, CompUSA, Norwalk, Connecticut, 23 August 1995. Video: Dan Lynch, via the Internet Archive.",
+      "filmmaker": "Dan Lynch",
+      "note": "Exact on-screen credit wording is the producer's call. Dan Lynch is credited as the filmmaker; he did not license this footage."
     },
     {
-      "for": "candidate 2 (if cleared)",
+      "for": "candidate 2 (if ever used)",
       "text": "Video: Ted Spero (via Internet Archive)"
     },
     {
-      "for": "candidate 3 (if licensed)",
+      "for": "candidate 3 (if ever licensed)",
       "text": "NBC 5/KXAS Television News Collection (AR0776), University of North Texas Special Collections"
     }
   ],
@@ -127,7 +192,35 @@
     },
     {
       "name": "license text recorded from item pages/records",
-      "result": "done; CC0 authority unverified for 1-2; InC for 3"
+      "result": "done; the CC0 on candidates 1-2 is uploader-applied; InC for 3"
+    },
+    {
+      "name": "download of the one approved file (curl -L, generic browser User-Agent)",
+      "result": "succeeded: 32,302,815 bytes, exactly the expected size; no login, payment, terms, CAPTCHA or bot check involved"
+    },
+    {
+      "name": "integrity check against the IA metadata API (sha1, md5, byte size)",
+      "result": "all three match; the local copy is byte-identical to the published original. Local sha256 f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6 (IA publishes no sha256)"
+    },
+    {
+      "name": "ffprobe 6.0 on the acquired file",
+      "result": "854x480, h264 Main, 29.97 fps (30000/1001), 6911 frames, 230.621 s; opus stereo 48 kHz audio stream present; plus a 640x480 attached_pic PNG cover-art stream"
+    },
+    {
+      "name": "ffmpeg cropdetect over 00:02:16-00:02:23",
+      "result": "crop=632:480:112:0 on every sampled frame: the 4:3 picture is pillarboxed inside the 854x480 container"
+    },
+    {
+      "name": "frame extraction (ffmpeg) at 00:02:16.0, 00:02:20.0, 00:02:24.0 plus a 720p-height copy of 00:02:20.0",
+      "result": "4 PNGs written to evidence/frames/ and all viewed; findings in qa.md Part 2"
+    },
+    {
+      "name": "manual inspection at full size and at 720p",
+      "result": "done. Full size: 02:16.0 soft close pass of a shopper against a bay of yellow boxed software; 02:20.0 a man walking the aisle between 'BEAST' game boxes and yellow boxes under an 'Up to $35 Rebate' banner; 02:24.0 not a browse but a two-man handshake at the 'New For Windows 95' pyramid under a COMPUSA sign. At 720p the 02:20.0 frame holds up: signage and box art stay readable, with camcorder softness and pillarbox bars, and no captions, timecode burn-in or watermark"
+    },
+    {
+      "name": "in/out point re-check against the real file",
+      "result": "in 00:02:16.0 holds (soft); out 00:02:24.0 does NOT hold; recommended out 00:02:22.5"
     },
     {
       "name": "python tools/validate_delivery.py --id BROLL-04",
@@ -139,15 +232,22 @@
   ],
   "toolchain": {
     "curl": "8.18.0",
+    "ffmpeg": "6.0-essentials_build-www.gyan.dev",
+    "ffprobe": "6.0-essentials_build-www.gyan.dev",
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
-    "browser": "Claude Browser pane (built-in)",
-    "web": "WebFetch/WebSearch",
-    "ffprobe": "installed, not run (no media)"
+    "powershell": "7 (Get-FileHash for sha256/sha1/md5)",
+    "browser": "Claude Browser pane (built-in), scouting pass only",
+    "web": "WebFetch/WebSearch, scouting pass only"
   },
   "notes": [
-    "Scouting complete; no media downloaded; nothing cleared.",
-    "Best candidate CC0 was applied by a third-party IA uploader, not the named creator: review question and H02-a.",
-    "All candidates are genuine archival; no reenactment or AI stand-in."
+    "Rights, recorded exactly: the Internet Archive item page states CC0 1.0 Universal; that CC0 dedication was applied by the Internet Archive uploader 'The Nostalgist777', not by the filmmaker Dan Lynch. Devin accepted that uploader-applied CC0 as-is on 2026-09-15 and ruled that filmmaker permission will not be pursued. The filmmaker did not license this footage and was not contacted.",
+    "Acquisition is not clearance. R14 stays open and release stays blocked for the OPS-04 review deck; the recognizable-people question is unresolved.",
+    "Only the one approved file was downloaded. No account, login, payment, terms click-through, CAPTCHA or bot-check bypass, no watermark removal, and no personal data in any request.",
+    "The raw Internet Archive metadata JSON was deliberately not committed: its uploader field contains a third party's personal email address. The uploader is recorded only by the display name shown on the item page.",
+    "The source is SD: 854x480 with a 632x480 active picture, so a 1080p timeline needs upscaling or a framing treatment. None was produced here.",
+    "The file carries an opus stereo audio track. It was probed but not auditioned; audio rights and content are unchecked.",
+    "The original is stored unmodified. The only derived files are the four PNG verification frames in evidence/frames/.",
+    "Genuine archival footage; no reenactment and no AI stand-in was created or commissioned."
   ]
 }

@@ -1,18 +1,23 @@
 {
   "id": "BROLL-04",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "claude-worker ticket/BROLL-04 (B-roll Scouting Manager, session vb-99)",
+  "assigned_agent": "claude-worker ticket/BROLL-04-media (acquisition worker, B-roll Scouting Manager session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
-    "R14 open: best and alternate candidates carry a CC0 dedication applied by a third-party Internet Archive uploader, not the named camera operators; authority unverified (review question / H02-a).",
-    "No media downloaded: pending batched download approval (see exports/acquisition-handoff.md).",
-    "KXAS 1993 news clip requires a paid license and its viewer is behind a CAPTCHA (H02-b); not viewed."
+    "R14 open: the CC0 on the acquired file was applied by the Internet Archive uploader 'The Nostalgist777', not by the filmmaker Dan Lynch. Devin accepted that uploader-applied CC0 as-is on 2026-09-15 and ruled that filmmaker permission will not be pursued. That decides the licensing basis; it is not a release clearance, so release stays blocked for the OPS-04 review deck.",
+    "Privacy / recognizable people unresolved: the footage shows identifiable members of the public and a CompUSA employee with a visible name badge, most clearly in the last 1.5 s of the scouted segment. Review question.",
+    "Out point unresolved: the scouted out 00:02:24.0 does not hold against the real file. Recommended out is 00:02:22.5 (6.5 s), which is under the ticket's preferred 8-12 s. Editorial decision needed."
   ],
   "reviewer": null,
   "notes": [
-    "Free stock (Pexels, Pixabay, Mixkit, Coverr) had no genuine 1990s software store footage; Videvo and Pond5 blocked automated access.",
-    "Best: archive.org 1995 Norwalk CompUSA Windows 95 launch home video, proposed 00:02:16.0-00:02:24.0; motion sampled in-page.",
-    "All candidates are genuine archival; no reenactment or AI stand-in created or commissioned."
+    "Acquired 2026-09-15 on Devin's approval of this one file: source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4, 32,302,815 bytes (the expected size), sha256 f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6. The sha1 and md5 both match the values published by the Internet Archive metadata API, so the file is byte-identical to the published original.",
+    "ffprobe on the real file: 854x480, h264 Main, 29.97 fps (30000/1001), 6911 frames, 230.621 s, plus an opus stereo audio track (present, not auditioned) and a 640x480 attached_pic PNG cover-art stream.",
+    "The active picture is only 632x480, pillarboxed inside the 854x480 container (ffmpeg cropdetect). A 1080p timeline needs roughly a 2.25x upscale or an authored archival frame treatment; do not stretch to 16:9.",
+    "Three PNG frames at 02:16.0, 02:20.0 and 02:24.0 are in evidence/frames/ and were inspected at full size; the 02:20.0 frame was also inspected at 720p. 02:20.0 is the strongest: a man walking an aisle of boxed software under an 'Up to $35 Rebate' banner, with 'BEAST' game boxes opposite.",
+    "Only this one file was downloaded. No account, login, payment, terms click-through, CAPTCHA or bot-check bypass, and no watermark removal. A generic browser User-Agent was used and no personal data was sent.",
+    "The raw Internet Archive metadata JSON was deliberately not committed: its uploader field carries a third party's personal email address.",
+    "Candidate 2 (670 MB) and the gated KXAS candidate 3 remain not acquired.",
+    "Still a genuine archival source; no reenactment or AI stand-in was created or commissioned."
   ]
 }
