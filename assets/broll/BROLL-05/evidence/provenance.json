@@ -1,6 +1,6 @@
 {
   "id": "BROLL-05",
-  "provenance_type": "stock footage scouting report (no media acquired)",
+  "provenance_type": "stock footage scouting report plus one acquired original (Pexels 20503026)",
   "access_date": "2026-09-15",
   "source_files": [
     {
@@ -16,15 +16,106 @@
       "classification": "narrative authority for the requested shot (B-roll suggestion 5)"
     }
   ],
-  "external_sources": "Per-candidate asset pages, creators, durations, dimensions, license URLs and license text are recorded in evidence/candidates.json. Every URL there was loaded on 2026-09-15 via WebFetch or the in-app Browser; download endpoints that would start a file transfer were recorded from the page's link href only and were not loaded.",
-  "authored_additions": [
-    "Proposed source in/out timecodes and edit notes in exports/candidates.md and evidence/candidates.json are the scout's editorial proposals, not facts from the source pages.",
-    "Candidate ranking and visual-fit judgements (media size, drive type, insertion direction) are the scout's observations from in-page playback frames."
+  "external_sources": "Per-candidate asset pages, creators, durations, dimensions, license URLs and license text are recorded in evidence/candidates.json. Every URL there was loaded on 2026-09-15 via WebFetch or the in-app Browser. Only the rank-1 candidate's download endpoint was loaded, on 2026-09-15, after Devin's approval; every other download endpoint was recorded from the page's link href only and was never requested.",
+  "candidates": [
+    {
+      "candidate": "Pexels 20503026 (rank 1)",
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503026/",
+      "creator": "Stefan",
+      "acquired": true,
+      "local_path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+      "bytes": 7816241,
+      "sha256": "a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c",
+      "download_url_on_page": "https://www.pexels.com/download/video/20503026/",
+      "resolved_file_url": "https://videos.pexels.com/video-files/20503026/20503026-hd_1920_1080_24fps.mp4",
+      "acquisition_date": "2026-09-15",
+      "license": "Pexels License (https://www.pexels.com/license/), attribution optional",
+      "record": "source/source.json"
+    },
+    {
+      "candidate": "Pexels 20503027",
+      "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503027/",
+      "acquired": false,
+      "reason": "rejected during scouting - shows an eject, not an insertion"
+    },
+    {
+      "candidate": "Pexels 33125208",
+      "asset_page_url": "https://www.pexels.com/video/inserting-floppy-disk-into-vintage-commodore-1541-33125208/",
+      "acquired": false,
+      "reason": "rejected during scouting - 5.25-inch media and drive"
+    },
+    {
+      "candidate": "Pexels 20503028 / 20503030 / 20503031",
+      "acquired": false,
+      "reason": "rejected during scouting on page description; no insertion shown"
+    },
+    {
+      "candidate": "Mixkit 48937 (rank 2)",
+      "asset_page_url": "https://mixkit.co/free-stock-video/floppy-disk-being-inserted-into-the-system-unit-48937/",
+      "acquired": false,
+      "reason": "rights-blocked - the free 720p version is Mixkit Restricted License, personal use only; the commercial 4K route needs a paid Envato subscription, which is outside the no-paid-footage boundary"
+    }
   ],
-  "acquired_media": [],
-  "transformations": [],
-  "producer_decisions": [],
+  "acquired_media": [
+    {
+      "path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+      "role": "clean original, byte-exact as downloaded",
+      "bytes": 7816241,
+      "sha256": "a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c",
+      "dimensions": [1920, 1080],
+      "fps": "24000/1001 (23.976)",
+      "duration_seconds": 11.156667,
+      "audio_stream": true,
+      "source_record": "source/source.json"
+    }
+  ],
+  "transformations": [
+    {
+      "output": "evidence/frames/frame-1p5s.png",
+      "from": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 @ 1.5 s",
+      "operation": "ffmpeg single-frame extraction at native 1920x1080"
+    },
+    {
+      "output": "evidence/frames/frame-2p2s.png",
+      "from": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 @ 2.2 s",
+      "operation": "ffmpeg single-frame extraction at native 1920x1080"
+    },
+    {
+      "output": "evidence/frames/frame-3p0s.png",
+      "from": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 @ 3.0 s",
+      "operation": "ffmpeg single-frame extraction at native 1920x1080"
+    },
+    {
+      "output": "evidence/frames/frame-6p0s.png",
+      "from": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 @ 6.0 s",
+      "operation": "ffmpeg single-frame extraction at native 1920x1080"
+    },
+    {
+      "output": "evidence/frames/frame-1p5s-720p.png",
+      "from": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 @ 1.5 s",
+      "operation": "ffmpeg single-frame extraction scaled to 720 px height (1280x720) for the 720p legibility check"
+    },
+    {
+      "output": "evidence/frames/frame-1p5s-label-zoom.png",
+      "from": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 @ 1.5 s",
+      "operation": "ffmpeg crop 700x500 at (450,280), transpose=1 (rotate 90 degrees clockwise), upscaled to 1100 px height. A derived reading aid for the disk label, not a clean frame."
+    }
+  ],
+  "authored_additions": [
+    "Proposed source in/out timecodes and edit notes in exports/candidates.md, evidence/candidates.json and source/source.json are the scout's editorial proposals, not facts from the source pages.",
+    "Candidate ranking and visual-fit judgements (media size, drive type, insertion direction) are observations made by this worker from extracted frames and, during scouting, from in-page playback frames."
+  ],
+  "producer_decisions": [
+    {
+      "date": "2026-09-15",
+      "decision": "Devin approved downloading the rank-1 candidate (Pexels 20503026, Full HD 1920x1080) from its public Pexels download link.",
+      "relayed_by": "B-roll Scouting Manager (session vb-bf)",
+      "scope": "This one file only. No account, payment, terms acceptance, CAPTCHA bypass or watermark removal was involved or permitted."
+    }
+  ],
   "notes": [
-    "No media file was downloaded in this pass, per the manager's instruction; the download is batched for Devin's approval (exports/acquisition-handoff.md)."
+    "The download was ungated: a single anonymous HTTPS GET with a generic browser User-Agent returned HTTP 200 and video/mp4 after one redirect. No Cloudflare check appeared.",
+    "The original is preserved byte-exact; no re-encode, crop or watermark removal was applied to it.",
+    "Acquisition is not clearance. R14 stays open and release remains blocked pending the OPS-04 review deck."
   ]
 }

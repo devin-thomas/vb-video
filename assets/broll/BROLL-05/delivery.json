@@ -1,25 +1,40 @@
 {
   "id": "BROLL-05",
   "title": "Floppy disk insertion close-up",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "stock footage scouting report (no media acquired)",
-  "shared_version": "not_applicable (scouting report; no shared template or renderer used)",
-  "duration_seconds": null,
-  "dimensions": null,
-  "fps": null,
+  "provenance_type": "stock footage scouting report plus one acquired original (Pexels 20503026, Pexels License)",
+  "shared_version": "not_applicable (acquired stock footage and scouting report; no shared template or renderer used)",
+  "duration_seconds": 11.156667,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 23.976023976023978,
   "outputs": [
+    {
+      "path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+      "role": "acquired clean original (byte-exact download)",
+      "bytes": 7816241,
+      "sha256": "a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c"
+    },
+    {
+      "path": "source/source.json",
+      "role": "source record for the acquired original",
+      "bytes": 6017,
+      "sha256": "ac6213fe96b05a767b295b1a34bc25336d3f20a4da3d0b2e06fb0b366f1b42ba"
+    },
     {
       "path": "qa.md",
       "role": "qa report",
-      "bytes": 6084,
-      "sha256": "c373f3e1a9293491d9c5fb13c6f5242779688164b41901a29bbe145e42824121"
+      "bytes": 15747,
+      "sha256": "e5a7cd16a78003dd118fdf0e297e24d41cd19eedc72bc2ba141af704b4d053ef"
     },
     {
       "path": "evidence/provenance.json",
       "role": "provenance record",
-      "bytes": 1642,
-      "sha256": "52d01981037cff3ebf04d05bae22af69a91aa695da4b19b025dcb201fe10698a"
+      "bytes": 6260,
+      "sha256": "e93c512b0eb5a9bca0fd4b1fb4105e685f2699452de291280122d2291005c919"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -30,14 +45,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "gate evidence and review questions",
-      "bytes": 3729,
-      "sha256": "0d1d80dcbd2bf86c3c1ae3d2dfe49aecc811860847cea390fec397112a173ce1"
-    },
-    {
-      "path": "exports/candidates.md",
-      "role": "ranked candidate report",
-      "bytes": 4727,
-      "sha256": "eeea78a09e0177152c3e3a2d4a89a48c90b03b006d8a0baae4c8f998f92b89f0"
+      "bytes": 10251,
+      "sha256": "67e2eecb9f42251940b9ee7c4d761af6d848b37198d9b71016133a56ffffc003"
     },
     {
       "path": "evidence/candidates.json",
@@ -46,10 +55,52 @@
       "sha256": "6f1fb7de6fb2240e50ae8fdb23f9e962f52403f3c728a013e48fb881b5df208e"
     },
     {
+      "path": "evidence/frames/frame-1p5s.png",
+      "role": "full-size inspection frame @ 1.5 s (1920x1080)",
+      "bytes": 2458172,
+      "sha256": "d78ac87053ea9b6211dac5cd8c624952dae5d18e47e3141bbd8e3c00240ab342"
+    },
+    {
+      "path": "evidence/frames/frame-2p2s.png",
+      "role": "full-size inspection frame @ 2.2 s (1920x1080)",
+      "bytes": 2486953,
+      "sha256": "1105378e108934d1141442304c4d386a7ddcfa590a01ba193d8bd64a931c5806"
+    },
+    {
+      "path": "evidence/frames/frame-3p0s.png",
+      "role": "full-size inspection frame @ 3.0 s (1920x1080)",
+      "bytes": 2646203,
+      "sha256": "4c44c9043df9b7d2f84894381fe528b3f5c2f16e51f178842127c9a3f755a599"
+    },
+    {
+      "path": "evidence/frames/frame-6p0s.png",
+      "role": "full-size inspection frame @ 6.0 s (1920x1080)",
+      "bytes": 3121203,
+      "sha256": "4a1d00ff8ce99bed0a24cffda09a2d96ae30ab470115741fa799579db1889236"
+    },
+    {
+      "path": "evidence/frames/frame-1p5s-720p.png",
+      "role": "720p inspection frame @ 1.5 s (1280x720)",
+      "bytes": 1275454,
+      "sha256": "8840e7d7b863c65131bb6b8827e86eaaf9d266543b20b21e4dd5f958eca834a9"
+    },
+    {
+      "path": "evidence/frames/frame-1p5s-label-zoom.png",
+      "role": "derived label crop of the 1.5 s frame (rotated, upscaled reading aid)",
+      "bytes": 824177,
+      "sha256": "1ea02901a8bc042b8f6b5c11edb22d3ec2d1318a17b6364e26562d05c7f9c103"
+    },
+    {
+      "path": "exports/candidates.md",
+      "role": "ranked candidate report",
+      "bytes": 4727,
+      "sha256": "eeea78a09e0177152c3e3a2d4a89a48c90b03b006d8a0baae4c8f998f92b89f0"
+    },
+    {
       "path": "exports/acquisition-handoff.md",
-      "role": "acquisition handoff (pending free download + H02)",
-      "bytes": 4112,
-      "sha256": "048245d37037a95ea9c0b87d43cc3aaaa6a487db4f2be1e6f11effffcbcd9bdd"
+      "role": "acquisition handoff (rank 1 acquired; H02 items still gated)",
+      "bytes": 4813,
+      "sha256": "19bb2a4ea8894b030f05c517bcdc5a41855da75c31ec22a8cc8f9b32b6d7f010"
     }
   ],
   "variants": [
@@ -57,6 +108,16 @@
       "name": "candidate-report",
       "path": "exports/candidates.md",
       "timeline": null
+    },
+    {
+      "name": "selected-segment",
+      "path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+      "timeline": {
+        "in_seconds": 0.0,
+        "out_seconds": 6.0,
+        "length_seconds": 6.0
+      },
+      "note": "Proposed local edit range within the acquired original. No cutdown file was rendered; the original is delivered whole."
     }
   ],
   "sources": [
@@ -79,14 +140,20 @@
       "relationship": "literal excerpt"
     },
     {
-      "path": "evidence/candidates.json",
+      "path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
       "url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503026/",
-      "relationship": "stock candidate",
+      "download_url": "https://www.pexels.com/download/video/20503026/",
+      "resolved_file_url": "https://videos.pexels.com/video-files/20503026/20503026-hd_1920_1080_24fps.mp4",
+      "relationship": "acquired stock footage original",
       "rank": 1,
       "creator": "Stefan",
+      "license": "Pexels License",
       "license_url": "https://www.pexels.com/license/",
       "access_date": "2026-09-15",
-      "acquired": false
+      "acquired": true,
+      "sha256": "a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c",
+      "bytes": 7816241,
+      "record": "source/source.json"
     },
     {
       "path": "evidence/candidates.json",
@@ -97,31 +164,57 @@
       "license_url": "https://mixkit.co/license/#videoRestricted",
       "access_date": "2026-09-15",
       "acquired": false,
-      "rights": "blocked (personal use only)"
+      "rights": "blocked (free 720p is personal use only; commercial 4K needs a paid Envato subscription)"
     }
   ],
   "credits": [
     {
-      "candidate": "Pexels 20503026",
+      "asset": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
       "text": "Video: Stefan / Pexels",
       "required": false,
-      "status": "proposed; media not acquired"
+      "status": "proposed; attribution is optional under the Pexels License. Final credit wording is the producer's call."
     }
   ],
   "tests": [
     {
       "name": "validate_delivery",
       "command": "python tools/validate_delivery.py --id BROLL-05",
-      "result": "pass required before commit; output recorded in worker report"
+      "result": "pass; output recorded in the worker report"
     },
     {
-      "name": "in-page motion review",
+      "name": "download",
+      "command": "curl -L -sS -A \"Mozilla/5.0\" -o source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4 https://www.pexels.com/download/video/20503026/",
+      "result": "HTTP 200, Content-Type video/mp4, 1 redirect, 7816241 bytes. Ungated: no login, terms click-through, payment or CAPTCHA, and no Cloudflare check appeared."
+    },
+    {
+      "name": "ffprobe",
+      "command": "ffprobe -v error -show_format -show_streams -print_format json source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+      "result": "1920x1080, h264 High L4.2, yuv420p, bt709, progressive, 24000/1001 (23.976) fps, 266 video frames, video stream 11.093333 s, container 11.156667 s, video bit rate 5441068. Audio stream present: AAC LC, 48000 Hz, stereo, 189387 bps."
+    },
+    {
+      "name": "integrity",
+      "command": "wc -c and sha256sum on the downloaded file",
+      "result": "7816241 bytes; sha256 a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c"
+    },
+    {
+      "name": "frame extraction",
+      "command": "ffmpeg -ss <t> -i <original> -frames:v 1 evidence/frames/frame-<t>s.png for t in 1.5, 2.2, 3.0, 6.0; plus scale=-2:720 at 1.5 s",
+      "result": "Six PNGs written to evidence/frames/ (four native 1920x1080, one 1280x720, one derived label crop)."
+    },
+    {
+      "name": "manual visual review at full size and 720p",
+      "method": "Viewed each extracted PNG at 1920x1080, and frame-1p5s-720p.png at 1280x720",
+      "result": "3.5-inch media PASS ('2HD', 'IBM', '1.44 MB' legible at full size; 'IBM' and '2HD' still discernible at 720p). Matching 3.5-inch drive PASS. Label side up PASS, directly observed. Shutter-first INFERRED, not directly seen. No captions, watermark or burned-in timecode."
+    },
+    {
+      "name": "audio level probe",
+      "command": "ffmpeg -t 6 -i <original> -af volumedetect -f null NUL",
+      "result": "mean_volume -42.4 dB, max_volume -3.6 dB over 00:00-00:06. Not silence. Content not auditioned; no audio playback in this environment."
+    },
+    {
+      "name": "in-page motion review (scouting pass)",
       "method": "Browser seek + screenshot of page preview players",
       "result": "20503026: 13 frames; 20503027: 5; 48937: 4; 33125208: 3"
-    },
-    {
-      "name": "full-size/720p proof review",
-      "result": "not applicable - no media acquired"
     }
   ],
   "unresolved_gates": [
@@ -130,13 +223,21 @@
   "toolchain": {
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
+    "curl": "8.18.0 (x86_64-w64-mingw32) libcurl/8.18.0 Schannel",
+    "ffmpeg": "6.0-essentials_build-www.gyan.dev",
+    "ffprobe": "6.0-essentials_build-www.gyan.dev",
     "sha256sum": "GNU coreutils 8.32",
-    "browser": "Claude Code in-app Browser pane (version not exposed)",
-    "web": "WebFetch, WebSearch"
+    "shell": "PowerShell 7 (pwsh) on Windows 11 Pro 10.0.26200",
+    "browser": "Claude Code in-app Browser pane (scouting pass only; version not exposed)",
+    "web": "WebFetch, WebSearch (scouting pass only)"
   },
   "notes": [
-    "Scouting only: nothing downloaded, nothing cleared. Pexels 20503026 download pending batched approval.",
+    "Devin approved this one download on 2026-09-15; it was relayed by the B-roll Scouting Manager (session vb-bf). One file was fetched and nothing else.",
+    "The original is preserved byte-exact. No re-encode, crop, watermark removal or cutdown render was applied to it.",
+    "duration_seconds, dimensions and fps are the container/video values from ffprobe on the acquired file, not page claims. The video stream is 11.093333 s; the container runs to 11.156667 s because the audio track is slightly longer.",
+    "Acquired under a permissive license is not cleared for release. R14 stays open and release_status stays blocked pending the OPS-04 review deck.",
     "Recommended in/out 00:00.00-00:06.00 (6.0 s), below the 8-12 s preference; see RQ1.",
-    "R14 left open with per-candidate evidence and review questions RQ1-RQ4 in evidence/claim-checks.json."
+    "The file carries an audio stream that was not auditioned; the edit is expected to use picture only.",
+    "Shutter-first insertion remains an inference: the metal shutter is never in view. See qa.md and evidence/claim-checks.json for the corroborating observations."
   ]
 }

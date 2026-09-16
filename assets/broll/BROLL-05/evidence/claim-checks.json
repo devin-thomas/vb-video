@@ -12,17 +12,69 @@
         "evidence/candidates.json",
         "exports/candidates.md",
         "exports/acquisition-handoff.md",
-        "evidence/source-excerpts.md"
+        "evidence/source-excerpts.md",
+        "source/source.json",
+        "evidence/provenance.json",
+        "evidence/frames/frame-1p5s.png",
+        "evidence/frames/frame-2p2s.png",
+        "evidence/frames/frame-3p0s.png",
+        "evidence/frames/frame-6p0s.png",
+        "evidence/frames/frame-1p5s-720p.png",
+        "evidence/frames/frame-1p5s-label-zoom.png"
       ],
       "plan_assumption_checked": "ASSET_PLAN.md:109-122 says Pexels/Pixabay are browsable without login. Confirmed for Pexels (asset page, license page and size dropdown visible without login, no CAPTCHA seen on 2026-09-15). Pixabay browsing worked via WebFetch but yielded no floppy-insertion video. This is not a rights clearance.",
+      "acquisition_evidence": {
+        "acquired": true,
+        "candidate": "Pexels 20503026 (rank 1)",
+        "approval": "Devin approved this specific download on 2026-09-15, relayed by the B-roll Scouting Manager (session vb-bf).",
+        "acquisition_date": "2026-09-15",
+        "local_path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+        "bytes": 7816241,
+        "sha256": "a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c",
+        "download_url_on_page": "https://www.pexels.com/download/video/20503026/",
+        "resolved_file_url": "https://videos.pexels.com/video-files/20503026/20503026-hd_1920_1080_24fps.mp4",
+        "http_result": "HTTP 200, Content-Type video/mp4, 1 redirect, 7816241 bytes",
+        "access_method": "curl 8.18.0, -L -sS -A \"Mozilla/5.0\". No login, cookie, terms acceptance, payment, CAPTCHA or bot-check bypass. No personal data sent.",
+        "ffprobe": "1920x1080, h264 High, yuv420p, progressive, 24000/1001 (23.976) fps, 266 video frames, video stream 11.093333 s, container 11.156667 s; AAC LC 48 kHz stereo audio stream present (11.156667 s).",
+        "match_against_scouted_candidate": "Matches the scouted record on dimensions, duration, fps and file name. One addition: an audio stream exists, which scouting had not checked.",
+        "license_at_acquisition": "Pexels License, https://www.pexels.com/license/, attribution optional. License text was read on 2026-09-15 but no license snapshot file was saved alongside the original.",
+        "brief_requirements_rechecked_on_the_real_file": [
+          {
+            "requirement": "media is a 3.5-inch disk",
+            "verdict": "PASS - directly observed",
+            "seen": "At 1.5 s (full size 1920x1080) the disk is a rigid square translucent-red shell with a white factory label. The label reads '2HD' and 'IBM' clearly, and '1.44 MB' less sharply; a black logo block on the label is unreadable. Through the shell the metal hub with its centre hole and drive-pin slot is visible. No flexible sleeve, no large exposed hub ring, no oval head window in the shell face - it is not 5.25-inch or 8-inch media. '2HD' and '1.44' are the 3.5-inch high-density designations."
+          },
+          {
+            "requirement": "drive is a matching 3.5-inch drive, not 5.25-inch",
+            "verdict": "PASS - directly observed",
+            "seen": "At 3.0 s and 6.0 s (full size) the drive is a bare beige 3.5-inch mechanism: one narrow horizontal slot whose width matches the disk, a small rectangular push-button eject at the right end of the bezel and a small indicator window at the left. There is no 5.25-inch rotating latch lever or door. The disk is swallowed fully by the slot with only a red sliver showing at 6.0 s, which a 5.25-inch bay would not do."
+          },
+          {
+            "requirement": "insertion direction is possible (shutter first, label side up)",
+            "verdict": "PASS on label-side-up (directly observed); shutter-first still INFERRED, not directly seen",
+            "seen": "Label side up is directly observed: at 1.5 s the printed label faces the camera on a drive lying flat, and the hub is visible only as a silhouette through the translucent shell, i.e. on the underside. Shutter-first remains inferred because the metal shutter is never in view in any sampled frame - at 0.95 s the leading edge is motion-blurred, from 1.5 s onward it is already inside the slot, and during the 8.6 s withdrawal it is still inside the drive. Two direct observations support the inference: (1) at 2.2 s the exposed trailing edge is bare red plastic with an open square through-hole at its corner and no metal shutter, and on a 3.5-inch disk the write-protect and HD-detect holes sit on the edge opposite the shutter; (2) the head-access window silhouette visible through the shell at 1.5 s lies on the half of the disk that goes into the drive - it is absent from the trailing half exposed during the 8.6 s withdrawal - which places the window, and therefore the shutter, on the leading edge."
+          },
+          {
+            "requirement": "is 'IBM' readable on the label",
+            "verdict": "YES",
+            "seen": "'IBM' is readable at full size at 1.5 s and remains discernible at 720p (evidence/frames/frame-1p5s-720p.png). '2HD' is readable at both sizes; '1.44 MB' is readable at full size and marginal at 720p. The brand logo inside the black block on the label is not resolvable at either size. RQ3 therefore remains live at delivery resolution."
+          }
+        ],
+        "other_observations_on_the_real_file": [
+          "No baked-in captions, watermark or burned-in timecode in any extracted frame.",
+          "Clean pre-roll: at 0.70 s the drive is empty and no hand is in frame; the disk enters around 0.95 s.",
+          "Hand and disk are both in frame roughly 0.95-3.2 s; 3.2-6.0 s is a static hold on the seated disk with no hand.",
+          "An audio stream exists (AAC LC 48 kHz stereo). It was not auditioned - no audio playback in this environment. ffmpeg volumedetect over 00:00-00:06 gives mean -42.4 dB, max -3.6 dB, so it is not silence; whether it carries speech is unverified."
+        ]
+      },
       "per_candidate": [
         {
           "candidate": "Pexels 20503026 (rank 1)",
           "creator": "Stefan (Pexels)",
           "file_specific_terms": "Pexels License (asset page badge 'Free'); https://www.pexels.com/license/ read 2026-09-15: free to use, attribution not required, modification allowed; prohibits selling unaltered copies, redistribution on stock platforms, implying endorsement, trademark use, and portraying identifiable people badly.",
-          "access_method": "Public asset page; free download button without login (not exercised).",
+          "access_method": "Public asset page; free download link exercised once on 2026-09-15 with Devin's approval, no login and no CAPTCHA.",
           "credit": "Optional. Suggested: 'Video: Stefan / Pexels'.",
-          "rights_status": "blocked - not acquired; license text read but no license snapshot saved with a downloaded original; release decision pending review deck",
+          "rights_status": "acquired under the Pexels License; release decision still pending the review deck. No license snapshot file was saved with the original.",
           "open_points": ["RQ3"]
         },
         {
@@ -31,7 +83,7 @@
           "file_specific_terms": "Free 720p: Mixkit Restricted License, 'for Personal Use only' (asset page); https://mixkit.co/license/#videoRestricted; Mixkit info page: personal, non-commercial only, not monetized or commercial content. 4K commercial: Envato subscription (paid).",
           "access_method": "Free 720p link without login (not exercised); 4K via paid Envato subscription.",
           "credit": "unknown creator",
-          "rights_status": "blocked - license incompatible with a public video unless paid route is approved",
+          "rights_status": "blocked - license incompatible with a public video unless paid route is approved; not acquired",
           "open_points": ["RQ4"]
         }
       ],
@@ -39,25 +91,33 @@
         {
           "id": "RQ1",
           "type": "editorial/taste",
-          "question": "The best clip's clean insertion span is about 6.0 s (00:00.00-00:06.00), below the 8-12 s preference. Accept 6 s, slow it to about 75% for ~8 s, or run to ~00:09.50 which adds the eject press and ejection (the opposite action)?"
+          "status": "open",
+          "question": "The acquired clip's clean insertion span is 6.0 s (00:00.00-00:06.00), below the 8-12 s preference. Accept 6 s, slow it to about 75% for ~8 s, or run past 00:06.50 which adds the eject press and the withdrawal (the opposite action)?",
+          "update_after_acquisition": "Confirmed on the real file. Drive empty and no hand at 0.70 s; disk enters about 0.95 s; seated about 3.0 s; static hold with no hand through 6.0 s; hand returns after 6.0 s and the disk is out of the drive by about 8.6-9.3 s."
         },
         {
           "id": "RQ2",
           "type": "editorial/authenticity",
-          "question": "The recommended clip shows a bare beige drive lying on diamond-plate metal with a warm light flare, shot at a diagonal, not a drive installed in a mid-90s PC. Acceptable for script sections 3 and 12?"
+          "status": "open",
+          "question": "The clip shows a bare beige drive lying on diamond-plate metal with a warm light flare, shot at a diagonal, not a drive installed in a mid-90s PC. Acceptable for script sections 3 and 12?",
+          "update_after_acquisition": "Confirmed on the real file at full size: the drive is unmounted, sitting loose on a diamond-plate aluminium sheet, with a warm practical flare in the upper right."
         },
         {
           "id": "RQ3",
           "type": "legal risk",
-          "question": "The disk label legibly shows 'IBM' (and a partly legible brand word). Pexels terms prohibit implying endorsement by brands shown. Is incidental visible trademark text acceptable here, or should the edit crop/soften the label?"
+          "status": "open",
+          "question": "The disk label legibly shows 'IBM'. Pexels terms prohibit implying endorsement by brands shown. Is incidental visible trademark text acceptable here, or should the edit crop or soften the label?",
+          "update_after_acquisition": "Confirmed on the real file: 'IBM' is readable at 1920x1080 and still discernible at 1280x720. The separate brand logo block on the label is unreadable at both sizes."
         },
         {
           "id": "RQ4",
           "type": "legal/cost",
-          "question": "Mixkit 48937's free version is personal-use only. Confirm it stays excluded, or approve a paid Envato route (currently outside the no-paid-footage boundary)."
+          "status": "open",
+          "question": "Mixkit 48937's free version is personal-use only. Confirm it stays excluded, or approve a paid Envato route (currently outside the no-paid-footage boundary).",
+          "update_after_acquisition": "Unchanged. Mixkit 48937 was not downloaded."
         }
       ],
-      "notes": "Gate intentionally left open. The agent does not approve R14; release approval comes from the OPS-04 review deck."
+      "notes": "Gate intentionally left open. Acquisition under a permissive license is not release clearance; the agent does not approve R14. Release approval comes from the OPS-04 review deck."
     }
   ]
 }

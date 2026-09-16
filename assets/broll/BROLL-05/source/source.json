@@ -1,0 +1,99 @@
+{
+  "id": "BROLL-05",
+  "record_type": "acquired stock footage original",
+  "acquired_original": {
+    "path": "source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+    "title": "Floppy Disk 80s Computer Retro Diskette",
+    "depicts": "Close-up of a hand inserting a translucent red 3.5-inch floppy disk (white label reading '2HD', 'IBM', '1.44 MB') into a bare beige 3.5-inch floppy drive lying on a diamond-plate aluminium surface, then pressing eject and withdrawing the disk.",
+    "creator": "Stefan",
+    "creator_profile_href": "/@stefan-239928581/ (as linked on the asset page; profile page not loaded)",
+    "platform": "Pexels",
+    "pexels_id": "20503026",
+    "asset_page_url": "https://www.pexels.com/video/floppy-disk-80s-computer-retro-diskette-20503026/",
+    "download_url_on_page": "https://www.pexels.com/download/video/20503026/",
+    "resolved_file_url": "https://videos.pexels.com/video-files/20503026/20503026-hd_1920_1080_24fps.mp4",
+    "download_option_chosen": "Full HD 1920x1080",
+    "upload_date_shown_on_page": "Mar 4, 2024",
+    "container_creation_time_tag": "2024-03-04T12:24:45Z",
+    "depicted_event_date": "unknown - an undated staged close-up, not a dated historical recording",
+    "access_date": "2026-09-15",
+    "access_method": "Anonymous HTTPS GET with curl 8.18.0, flags -L -sS -A \"Mozilla/5.0\". No account, login, cookie, terms click-through, payment or CAPTCHA. One redirect (HTTP 200, Content-Type video/mp4). No personal data, email address or credential was sent.",
+    "download_approval": "Devin approved this specific download on 2026-09-15; relayed to this worker by the B-roll Scouting Manager (session vb-bf).",
+    "file_integrity": {
+      "bytes": 7816241,
+      "sha256": "a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c"
+    },
+    "ffprobe": {
+      "tool": "ffprobe 6.0-essentials_build-www.gyan.dev",
+      "command": "ffprobe -v error -show_format -show_streams -print_format json source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4",
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "major_brand": "mp42",
+      "format_duration_seconds": 11.156667,
+      "format_bit_rate": 5604714,
+      "video": {
+        "codec_name": "h264",
+        "profile": "High",
+        "level": 42,
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "field_order": "progressive",
+        "r_frame_rate": "24000/1001",
+        "fps_decimal": 23.976023976023978,
+        "duration_seconds": 11.093333,
+        "nb_frames": 266,
+        "bit_rate": 5441068
+      },
+      "audio": {
+        "present": true,
+        "codec_name": "aac",
+        "profile": "LC",
+        "sample_rate": 48000,
+        "channels": 2,
+        "channel_layout": "stereo",
+        "duration_seconds": 11.156667,
+        "nb_frames": 523,
+        "bit_rate": 189387
+      },
+      "container_tags": {
+        "handler_name_video": "Vimeo Artax Video Handler",
+        "handler_name_audio": "Vimeo Artax Audio Handler",
+        "encoder": "AVC Coding"
+      }
+    },
+    "match_against_scouted_candidate": {
+      "dimensions": "match - 1920x1080 as scouted",
+      "duration": "match - 11.156667 s container duration, the same value the scout read from the page player",
+      "fps": "match - 24000/1001 = 23.976 fps; the scout recorded the page's rounded '23.98'",
+      "file_name": "match - the redirect target 20503026-hd_1920_1080_24fps.mp4 is the same file name the scout saw on the page's preview player",
+      "audio": "new information - the scout did not check audio; the real file carries an AAC LC 48 kHz stereo track (not auditioned here)",
+      "mismatches": "none found"
+    },
+    "original_dimensions": [1920, 1080],
+    "transformations_in_repository": "None to the original file (byte-exact as downloaded). evidence/frames/*.png are ffmpeg still extractions; frame-1p5s-720p.png is scaled to 720 px height; frame-1p5s-label-zoom.png is a crop of the 1.5 s frame rotated 90 degrees and upscaled for label reading. No watermark removal, no re-encode of the original.",
+    "selected_segment": {
+      "in": "00:00.00",
+      "out": "00:06.00",
+      "seconds": 6.0,
+      "basis": "Hand and disk enter about 0.95 s, disk fully seated about 3.0 s, static hold with the disk in the drive through 6.0 s. The hand returns for the eject press after 6.0 s and the disk is withdrawn around 8.6 s, which is the opposite action.",
+      "note": "Below the ticket's 8-12 s preference; see review question RQ1."
+    },
+    "license": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/",
+      "attribution": "optional",
+      "terms_in_substance": [
+        "All photos and videos on Pexels are free to use.",
+        "Attribution is not required; giving credit is appreciated.",
+        "You can modify the photos and videos.",
+        "Not allowed: showing identifiable people in a bad light or offensive way; selling unaltered copies; implying endorsement by people or brands shown; redistributing or selling on other stock platforms; use in trademarks, business names or service marks."
+      ],
+      "read_via": "WebFetch of https://www.pexels.com/license/ on 2026-09-15 during scouting; no version or date shown on the page; no license snapshot file saved."
+    },
+    "rights_status": "acquired under the Pexels License; release clearance still blocked pending R14 and the OPS-04 review deck",
+    "credit_text_proposed": "Video: Stefan / Pexels (attribution optional under the Pexels License)",
+    "baked_in_overlays": "None seen in the extracted frames at 1.5 s, 2.2 s, 3.0 s and 6.0 s: no captions, no watermark, no burned-in timecode.",
+    "audio_content": "Not auditioned - this environment has no audio playback. ffmpeg volumedetect over 00:00-00:06 reports mean_volume -42.4 dB, max_volume -3.6 dB, so the track is not digital silence. Whether it contains speech or narration is unverified; the edit is expected to use picture only."
+  }
+}

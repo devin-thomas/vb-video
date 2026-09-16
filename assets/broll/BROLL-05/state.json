@@ -1,19 +1,22 @@
 {
   "id": "BROLL-05",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "BROLL-05 scouting worker (subagent of B-roll Scouting Manager, session vb-99)",
+  "assigned_agent": "BROLL-05 acquisition worker (subagent of B-roll Scouting Manager, session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
-    "No media acquired: Pexels 20503026 download pending Devin's batched download approval (exports/acquisition-handoff.md).",
-    "R14 open: rights recorded per candidate but not approved; review questions RQ1-RQ4 pending the OPS-04 review deck.",
-    "Best clean insertion span is ~6 s, below the 8-12 s preference (RQ1)."
+    "R14 open: the clip is acquired under the Pexels License but not cleared; review questions RQ1-RQ4 pending the OPS-04 review deck.",
+    "RQ1: the clean insertion span is 6.0 s (00:00.00-00:06.00), below the ticket's 8-12 s preference.",
+    "RQ3: 'IBM' is readable on the disk label at 1080p and still discernible at 720p; Pexels terms forbid implying brand endorsement.",
+    "Audio not auditioned: the file carries an AAC stereo track that this environment cannot play, so a narration check is outstanding."
   ],
   "reviewer": null,
   "notes": [
-    "Scouting complete; this is not acquired or cleared media.",
-    "Rank 1: Pexels 20503026 (Stefan), 1920x1080 23.98 fps, in 00:00.00 out 00:06.00, motion reviewed in-page.",
-    "Rank 2: Mixkit 48937, motion reviewed, rights-blocked (Mixkit Restricted License, personal use only; 4K needs paid Envato).",
-    "Videvo and Vista Create returned HTTP 403 to WebFetch and were not browser-checked."
+    "Media acquired 2026-09-15 with Devin's approval: source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4, 7816241 bytes, sha256 a4f8aefe35b79055d6e9c9eab1d278ecdbc7f98de6b8c8d708a75e45ccb5600c.",
+    "ffprobe: 1920x1080, h264 High, 24000/1001 (23.976) fps, container 11.156667 s, video stream 11.093333 s / 266 frames, AAC LC 48 kHz stereo audio present. Matches the scouted candidate on dimensions, duration, fps and served file name; no mismatch.",
+    "Download was ungated: one anonymous HTTPS GET with a generic User-Agent, HTTP 200, video/mp4, one redirect, no Cloudflare check, no login, no CAPTCHA, no watermark removal.",
+    "Brief checks on the real file at full size and 720p: 3.5-inch media PASS (label reads '2HD', 'IBM', '1.44 MB'); matching 3.5-inch drive PASS (narrow slot, push-button eject, no latch lever); label-side-up PASS directly observed; shutter-first still INFERRED - the shutter is never in view, but the trailing edge shows the write-protect/HD corner hole and the head-window silhouette sits on the leading half.",
+    "Rank 2 Mixkit 48937 was not downloaded (Mixkit Restricted License, personal use only; 4K needs paid Envato).",
+    "Acquired is not cleared. Release approval comes from the OPS-04 review deck."
   ]
 }
