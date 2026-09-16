@@ -6,8 +6,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "The file-specific rights record is complete for the photograph (CC BY-SA 4.0, RetroEditor, verified on the Commons page, API record, and a 2023 Wayback capture). The depicted Apple software interface has no license or recorded decision, and the ShareAlike scope for the in-video frame is a legal question. Evidence cannot settle either point, so they are raised as review questions rather than cleared.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -21,9 +21,14 @@
         "Rejected non-free (fair-use) English Wikipedia files, including the plan's named lead image.",
         "No account, payment, terms acceptance, CAPTCHA, or watermark removal."
       ],
-      "approver": null,
-      "decision": null,
-      "review_questions": ["RQ-1", "RQ-2", "RQ-3"]
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "review_questions": [
+        "RQ-1",
+        "RQ-2",
+        "RQ-3"
+      ],
+      "approval_date": "2026-09-15"
     }
   ],
   "claims": [
@@ -75,40 +80,74 @@
       "claim": "The image is a period photograph",
       "status": "false_if_implied",
       "result": "Photographed 2019-07-06 (EXIF and Commons date) on vintage hardware. Captions or credits must not present it as a 1990s photograph.",
-      "evidence": ["evidence/source.json (embedded_metadata, original_date_evidence)"]
+      "evidence": [
+        "evidence/source.json (embedded_metadata, original_date_evidence)"
+      ]
     },
     {
       "claim": "Uploader's own-work authorship",
       "status": "consistent_not_proven",
       "result": "The camera EXIF is consistent across the uploader's sibling Classic II photos uploaded the same week, and the license has been unchanged since upload. There is no independent proof of authorship.",
-      "evidence": ["evidence/source.json (uploader_consistency_check, license_history_check)"]
+      "evidence": [
+        "evidence/source.json (uploader_consistency_check, license_history_check)"
+      ]
     }
   ],
   "review_questions": [
     {
       "id": "RQ-1",
       "kind": "legal risk",
-      "question": "The photo is CC BY-SA 4.0, but that license covers only the photographer's work, not Apple's System 7.5.5 Finder interface that fills the screen. Is using this shot acceptable, and on what basis (commentary/fair use), or should the video use an alternative?"
+      "question": "The photo is CC BY-SA 4.0, but that license covers only the photographer's work, not Apple's System 7.5.5 Finder interface that fills the screen. Is using this shot acceptable, and on what basis (commentary/fair use), or should the video use an alternative?",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "RQ-2",
       "kind": "legal risk",
-      "question": "Is the resized, pillarboxed frame shown in the video 'Adapted Material' under CC BY-SA 4.0 (which would need a BY-SA-compatible license for that frame), or does plain attribution suffice? The worker checked the legal code: the automatic 'synched with moving image' rule covers only music, performances, and sound recordings, so a photo does not trigger it automatically."
+      "question": "Is the resized, pillarboxed frame shown in the video 'Adapted Material' under CC BY-SA 4.0 (which would need a BY-SA-compatible license for that frame), or does plain attribution suffice? The worker checked the legal code: the automatic 'synched with moving image' rule covers only music, performances, and sound recordings, so a photo does not trigger it automatically.",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "RQ-3",
       "kind": "editorial / credits",
-      "question": "Where should the required attribution ('Photo: RetroEditor / Wikimedia Commons, CC BY-SA 4.0') appear: an on-screen lower third during the shot, end credits, the video description, or a combination?"
+      "question": "Where should the required attribution ('Photo: RetroEditor / Wikimedia Commons, CC BY-SA 4.0') appear: an on-screen lower third during the shot, end credits, the video description, or a combination?",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "RQ-4",
       "kind": "taste / accuracy of framing",
-      "question": "The script asks for 'a mid-90s Macintosh — maybe a Performa or a PowerBook' under a '1995' narration line. This shot is a 1991-93 Classic II running System 7.5.5 (September 1996), photographed in 2019. Is that close enough for an evocative 'classic Mac' beat, or should research continue for a Performa or PowerBook on System 7.5-7.5.1 (1994-95)?"
+      "question": "The script asks for 'a mid-90s Macintosh — maybe a Performa or a PowerBook' under a '1995' narration line. This shot is a 1991-93 Classic II running System 7.5.5 (September 1996), photographed in 2019. Is that close enough for an evocative 'classic Mac' beat, or should research continue for a Performa or PowerBook on System 7.5-7.5.1 (1994-95)?",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "RQ-5",
       "kind": "taste / framing",
-      "question": "The editorial frame shows the whole uncropped photo pillarboxed, so the version text is small but legible at 1080p. Would the editor prefer an extra tighter push-in on the screen, which would drop the 'Macintosh Classic II' badge? That would be a new named variant, not in this ticket."
+      "question": "The editorial frame shows the whole uncropped photo pillarboxed, so the version text is small but legible at 1080p. Would the editor prefer an extra tighter push-in on the screen, which would drop the 'Macintosh Classic II' badge? That would be a new named variant, not in this ticket.",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     }
   ]
 }

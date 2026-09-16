@@ -2,7 +2,7 @@
   "id": "CH-15",
   "title": "Chapter 15: Why VB Mattered (and Why It Died)",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 4,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "4c614d5345831dcf136191910825930f3846c5ffb9f4b75dc2f91f6f399ecb41"
+      "bytes": 522,
+      "sha256": "bae8c27af98ecb8f842e3ab2c2e24448ce32d0f1015c914e0506dc371ea24f6a"
     },
     {
       "path": "evidence/provenance.json",
@@ -242,9 +242,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R12"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -263,6 +261,7 @@
     "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
   },
   "notes": [
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

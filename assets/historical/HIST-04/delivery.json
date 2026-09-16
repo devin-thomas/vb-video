@@ -2,7 +2,7 @@
   "id": "HIST-04",
   "title": "Kemeny and Kurtz at Dartmouth",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3622,
-      "sha256": "c6cc0f61c9fc886638f9fcae56e58bcc70564d1a1ae2a33283dcd0c3f0ccbff4"
+      "bytes": 3788,
+      "sha256": "53a9638f32eba67ad91957e5b3842b49b6cb9ee3cba9c7be454909eeebb7ef90"
     },
     {
       "path": "evidence/framing.json",
@@ -277,9 +277,7 @@
       "result": "recorded in qa.md (not self-referential here)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -293,6 +291,7 @@
   "notes": [
     "Photograph is c. 1969 (Kiewit Computation Center), not 1964; see evidence/source.json.",
     "Release blocked: no item-level license (R14). Review questions RQ-1..RQ-5 in qa.md.",
-    "No text, labels, captions or UI were added to either export."
+    "No text, labels, captions or UI were added to either export.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -1,16 +1,17 @@
 {
   "id": "HIST-10",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Historical Screenshots worker (manager session vb-7a)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: footage rights holder unknown; no license. Rights review question handed to the producer."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Archival proof produced from Internet Archive item youtube-CcbAC4qI9pQ, decoded frame 462.",
     "Date 1995-08-24 is the uploader's claim (partly corroborated); place unknown and not recorded.",
-    "OPS-01 not consumed: archival still framed without the shared template."
+    "OPS-01 not consumed: archival still framed without the shared template.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

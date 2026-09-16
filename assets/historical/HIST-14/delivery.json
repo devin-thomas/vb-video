@@ -2,7 +2,7 @@
   "id": "HIST-14",
   "title": "NeXT Cube product photograph",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "provenance_type": "historical source (third-party licensed photograph of a museum-held NeXTcube)",
   "shared_version": "not_applicable (archive still; no shared template used)",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 5736,
-      "sha256": "3c7616c40bfc5551b2bf01bd39fdc4b75171fe8a445f6d227883b8c3b06d5c0a"
+      "bytes": 6437,
+      "sha256": "e20e677030343e181b0c205859ddb1cd73a471bd7485896f6b1df3325e0b1915"
     },
     {
       "path": "evidence/commons-imageinfo.json",
@@ -203,9 +203,7 @@
       "detail": "git status lists changes only under assets/historical/HIST-14/; sources/ and War/SCRIPT.md untouched."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -220,6 +218,7 @@
   },
   "notes": [
     "Editorial still only; no text, UI, or annotation is added to the photograph.",
-    "Review questions HIST-14-Q1..Q3 are in evidence/claim-checks.json."
+    "Review questions HIST-14-Q1..Q3 are in evidence/claim-checks.json.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -2,7 +2,7 @@
   "id": "XTRA-13",
   "title": "Documented VB utility application",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (archived third-party screenshot)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -57,8 +57,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3506,
-      "sha256": "409b7b93c2cd230c1043b03f7cf23dda0a665cc2654a61bd6f0c3d26551e54dd"
+      "bytes": 4007,
+      "sha256": "4787803c794e716e00dde321ed40c99da5660e1575d6154fec30f294d435304b"
     },
     {
       "path": "evidence/framing.json",
@@ -218,10 +218,7 @@
       "detail": "exit 0, errors []"
     }
   ],
-  "unresolved_gates": [
-    "R14",
-    "R11"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -238,6 +235,7 @@
   "notes": [
     "Script-supplement addition for SCRIPT.md:685-687; not an original asset-plan row.",
     "Era limitation: 2003 Windows XP capture of a VB6 utility first published in 1999.",
-    "Release blocked pending rights permission (R14) and review-deck decision (R11)."
+    "Release blocked pending rights permission (R14) and review-deck decision (R11).",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Karen's Window Watcher accepted as the utility panel."
   ]
 }

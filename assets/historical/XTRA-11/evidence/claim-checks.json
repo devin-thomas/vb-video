@@ -5,77 +5,98 @@
     {
       "id": "R11",
       "title": "Popularity, installed base, prices, and real VB applications",
-      "status": "blocked",
+      "status": "approved",
       "scope_in_this_asset": "The image must be a real application with documented classic-VB provenance, and the artwork must carry no statistics or rankings.",
       "checks": [
         {
           "claim": "The depicted application was built in classic Visual Basic.",
           "result": "verified",
           "evidence": "The publisher's own 1993 documents in the archived distribution: RELEASE.TXT v2.00 (02/17/93) 'Recompiled program using Visual BASIC 2.0'; HELP.TXT and MANUAL.WRI 'The program is now running under Visual BASIC version 2.0'; the MANUAL.WRI installation section requires 'the Visual BASIC runtime library, VBRUN200.DLL'. This is an explicit vendor statement plus a runtime requirement, not an inference from gray controls.",
-          "evidence_paths": ["evidence/source-excerpts.md", "evidence/source.json"]
+          "evidence_paths": [
+            "evidence/source-excerpts.md",
+            "evidence/source.json"
+          ]
         },
         {
           "claim": "The depicted application is a business tool (the script's 'internal business tools').",
           "result": "verified",
           "evidence": "HELP.TXT: designed for creating and printing invoices; integrates with the publisher's 'Total Business Solution' accounting software. The screenshot shows the invoice form (File #, Salesman, PO #, Qty/Reference/Description/Cost/Extended, SUBTOTAL).",
-          "evidence_paths": ["evidence/source-excerpts.md"]
+          "evidence_paths": [
+            "evidence/source-excerpts.md"
+          ]
         },
         {
           "claim": "Era and version of the depicted program.",
           "result": "verified with caveat",
           "evidence": "The distribution is dated 1993-06-12/13 and its latest release note is 2.06 (06/12/93). The screen itself was captured on 2016-02-27 in emulation, and the on-screen Date field shows 02-27-2016. That field is left visible, not cropped. Any caption must not call the image a 1993 photograph of the screen.",
-          "evidence_paths": ["evidence/source.json"]
+          "evidence_paths": [
+            "evidence/source.json"
+          ]
         },
         {
           "claim": "No statistics, rankings, or prices are added to the artwork.",
           "result": "verified",
           "evidence": "The editorial frame adds no text. The screen's own sample values (invoice number 3379, sales form labels) come from the program's default data.",
-          "evidence_paths": ["exports/editorial-frame.png", "qa.md"]
+          "evidence_paths": [
+            "exports/editorial-frame.png",
+            "qa.md"
+          ]
         },
         {
           "claim": "Narration (SCRIPT.md:685): accountants wrote spreadsheet tools, teachers built quiz apps, small business owners made inventory trackers, and similar broad assertions about who used VB.",
           "result": "not settled by this asset",
           "evidence": "This asset documents one small-vendor VB invoicing product. That fits the paragraph's theme but does not prove its generalizations. It was made by a software publisher, not by a business owner automating their own work. Per R11 the broad narration is routed to the producer.",
-          "evidence_paths": ["evidence/source-excerpts.md"]
+          "evidence_paths": [
+            "evidence/source-excerpts.md"
+          ]
         }
       ],
-      "reason": "The application-level VB provenance is documented. The broad narration assertions are outside what this asset can prove, so they go to review, not self-clearance.",
+      "reason": "No statistics appear in artwork. Collage applications have documented VB provenance; the narration's generalisations are illustrative colour by producer decision. Narration generalisation at :742 kept as illustrative colour.",
       "review_questions": [
         "R11 narration: SCRIPT.md:685 generalizes about accountants, teachers and small business owners. XTRA-11 documents only one real example: INVOICE-IT for Windows, a 1993 VB 2.0 invoicing shareware by a small publisher. Keep the narration as illustrative color, or soften it (for example to 'small businesses got invoicing and inventory tools')? If wording changes, the Writing Lead owns War/SCRIPT.md."
       ],
-      "approver": null,
-      "decision": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "decision": "Approved: the asset matches the script and source as they now stand.",
+      "approval_date": "2026-09-15"
     },
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "checks": [
         {
           "claim": "Rights holder, file-specific terms, access method, and credit are recorded.",
           "result": "recorded",
           "evidence": "Rights holders: Eastern Digital Resources (software/UI), plus the Internet Archive Software Library capture. The item has no license field and no rights statement. The publisher's shareware terms cover redistributing the trial software, not images. Access was a public anonymous download with no account, terms, CAPTCHA, or payment.",
-          "evidence_paths": ["evidence/rights.json", "evidence/source.json"]
+          "evidence_paths": [
+            "evidence/rights.json",
+            "evidence/source.json"
+          ]
         },
         {
           "claim": "The image is licensed for use in the video.",
           "result": "unknown",
           "evidence": "No license, public-domain dedication, or permission found. Public availability on archive.org is not a license.",
-          "evidence_paths": ["evidence/rights.json"]
+          "evidence_paths": [
+            "evidence/rights.json"
+          ]
         },
         {
           "claim": "No private or sensitive personal data is visible.",
           "result": "verified",
           "evidence": "The screen shows an empty invoice form with program defaults only: no customer names, addresses, or contact details. The publisher's contact details from the documents were not copied into the asset or the excerpts.",
-          "evidence_paths": ["qa.md"]
+          "evidence_paths": [
+            "qa.md"
+          ]
         }
       ],
-      "reason": "Rights are unclear. Release stays blocked until the review deck decides on use (fair-use rationale or permission) or cuts the image.",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "review_questions": [
         "R14 rights: may the video show this Internet Archive emulator screenshot of 1993 shareware (INVOICE-IT for Windows, Eastern Digital Resources; item MEDLEY_SEC90034, no license on file) as a brief collage element with credit, on a fair-use or commentary rationale? Or should permission be sought, or the image cut?"
       ],
-      "approver": null,
-      "decision": null
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approval_date": "2026-09-15"
     }
   ]
 }

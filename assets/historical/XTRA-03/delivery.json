@@ -2,7 +2,7 @@
   "id": "XTRA-03",
   "title": "Early BASIC-era terminal hardware",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (modern museum photograph of period hardware; representative, not the Dartmouth unit)",
   "shared_version": "not applicable (archive still; no shared template components used)",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gate and claim checks",
-      "bytes": 4134,
-      "sha256": "a52d3cadbca49c6a44bee815b8c44aefdf7f251b039101800b2c1f523d104c28"
+      "bytes": 4484,
+      "sha256": "0bc2f5bd08ba6ae5676c62d6a8d0feebf407134884a8826e6c905cf0a1f1a12f"
     },
     {
       "path": "evidence/framing.json",
@@ -158,9 +158,7 @@
       "result": "exit 0; ok=ok; errors=[] (validate_delivery.py JSON output, 2026-09-15)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -174,6 +172,7 @@
   "notes": [
     "Script-supplement asset (SCRIPT.md:63), not an ASSET_PLAN row.",
     "Pictured: Teletype Model 33 ASR museum unit (photographed 2014). Dartmouth's 19 Oct 1964 description names Model 35 consoles; GE's 26 Mar 1965 revision names model 33/35. Do not caption as Dartmouth or 1964 hardware.",
-    "Review questions RQ1-RQ3 are in evidence/claim-checks.json. Release blocked."
+    "Review questions RQ1-RQ3 are in evidence/claim-checks.json. Release blocked.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

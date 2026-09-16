@@ -2,7 +2,7 @@
   "id": "CODE-17",
   "title": "Mid-war empty-hand guards",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "literal source-code illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 12.0,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 595,
-      "sha256": "ad969e62fcab42dc0f2098c2c1db5fb06628257b366fffc4baa6e0311dd5510e"
+      "bytes": 1174,
+      "sha256": "c4f9fbc0392bb84adc658a8ccf677da89e0ff64acad84f0c736c8fc11fa7d67e"
     },
     {
       "path": "evidence/provenance.json",
@@ -291,10 +291,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R04",
-    "R05"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -316,6 +313,7 @@
     "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
     "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
     "All focus targets have individually timed holds.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

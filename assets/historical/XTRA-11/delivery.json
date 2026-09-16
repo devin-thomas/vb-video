@@ -2,7 +2,7 @@
   "id": "XTRA-11",
   "title": "Documented VB business application",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "not_applicable: archive still; no shared template or style from assets/shared is used",
   "duration_seconds": null,
@@ -51,8 +51,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "editorial gate record (R11, R14)",
-      "bytes": 5799,
-      "sha256": "9a8583576bc71f381eff15135b6b5a28a9d3bfcc3a9a041ff66d4b1634b81927"
+      "bytes": 6493,
+      "sha256": "e87690332883ec0328986f66ac919b7b72936d084d15eb51191f0f574edf208b"
     },
     {
       "path": "evidence/source.json",
@@ -185,10 +185,7 @@
       "result": "see qa.md (verbatim)"
     }
   ],
-  "unresolved_gates": [
-    "R14",
-    "R11"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -200,6 +197,7 @@
     "Script-only supplement (SCRIPT-SUPPLEMENT), not an original asset-plan row.",
     "Application: INVOICE-IT for Windows v2.06 by Eastern Digital Resources (1993), a business invoicing tool. Classic VB proof comes from the publisher's documentation: recompiled with Visual BASIC 2.0; requires VBRUN200.DLL.",
     "The on-screen Date 02-27-2016 is the emulator clock on the 2016 archive capture; do not caption the image as a 1993 capture.",
-    "Release blocked: rights unclear (no license on the archive item). Not cleared media."
+    "Release blocked: rights unclear (no license on the archive item). Not cleared media.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Narration generalisation at :742 kept as illustrative colour."
   ]
 }

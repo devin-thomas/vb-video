@@ -3,7 +3,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "agent_check": "done",
       "evidence": [
         "evidence/rights.json",
@@ -14,16 +14,16 @@
         "evidence/captures/karenware-20260915-licenseme.html"
       ],
       "findings": "Creator and publisher: Karen Kenworthy (karenware.com). Period and current page footers say All Rights Reserved. The only license on the site covers program use (free for personal and educational use), not reuse of website images. According to the site, Karen's intellectual property passed to family member Terry Starr, and Joe Winett operates the site. Access was an anonymous Wayback raw replay: no account, payment, terms, watermark, or CAPTCHA. Credit text is proposed only.",
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "No permission or license on record for reuse of the screenshot. Public and archival availability is not permission.",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "review_question": "Should Devin ask the karenware.com operator for permission to show this screenshot, make a recorded fair-use decision, or leave it out of the collage? Sending the request is a human boundary."
     },
     {
       "id": "R11",
       "title": "Popularity, installed base, prices, and real VB applications",
-      "status": "unreviewed",
+      "status": "approved",
       "agent_check": "passed for this image's VB provenance; narration claims out of scope",
       "evidence": [
         "evidence/captures/wayback-20010706040951-newsletter-1999-09-28.html",
@@ -37,10 +37,10 @@
         "The image is a 2003 capture on a Windows XP-style desktop of a VB6 utility first introduced in 1999, not a mid-1990s VB3/VB4 program.",
         "The author was a Windows Magazine columnist who published utilities for readers, so the example does not show a self-described non-programmer."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Agent evidence recorded; the review deck decides release and narration fit.",
+      "decision": "Approved: the asset matches the script and source as they now stand.",
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "reason": "No statistics appear in artwork. Collage applications have documented VB provenance; the narration's generalisations are illustrative colour by producer decision. Karen's Window Watcher accepted as the utility panel.",
       "review_question": "The image is a 2003 Windows XP capture of a 1999 VB6 utility by a magazine columnist. Is that acceptable as the collage's 'simple utility' beside narration set in VB's early years about non-programmers, or should the collage keep looking for a VB3/VB4-era example?"
     }
   ]

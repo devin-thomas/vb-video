@@ -3,7 +3,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -16,41 +16,53 @@
         "The plan's 'likely public domain' assumption is not supported: c. 1969 institutional photograph, presumptively Dartmouth-owned, reproduced in 1991.",
         "No account, payment, terms acceptance, watermark removal or CAPTCHA was involved in acquisition."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Rights unresolved. Dartmouth's policy routes Dartmouth-owned copyright to its Office of General Counsel for permission and licensing. Needs a human permission request or a documented rights-review decision (review question RQ-1)."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "claim_checks": [
     {
       "claim": "Photo shows both John Kemeny and Thomas Kurtz at Dartmouth.",
       "status": "supported",
-      "evidence": ["evidence/source-page/api-items-3661.json", "source/original-verso.jpg"],
+      "evidence": [
+        "evidence/source-page/api-items-3661.json",
+        "source/original-verso.jpg"
+      ],
       "detail": "Archive title and description and the handwritten verso label both name John G. Kemeny and Thomas E. Kurtz, at the Kiewit Computation Center, Hanover NH. No record maps names to figures; faces are not labeled in this package."
     },
     {
       "claim": "Script visual direction: photo of Kemeny and Kurtz at Dartmouth, 1964 (sources/SCRIPT.md:63; War/SCRIPT.md:66).",
       "status": "contradicted_for_this_photo",
-      "evidence": ["evidence/source.json", "evidence/source-excerpts.md"],
+      "evidence": [
+        "evidence/source.json",
+        "evidence/source-excerpts.md"
+      ],
       "detail": "The photograph is c. 1969 (catalog, description, verso); a verso note may read '1968 Oct 1969'. Kiewit was dedicated 2 December 1966, so the room cannot be 1964. No 1964 photograph of both men was found in the sources searched. The visual cannot be captioned or narrated over as a 1964 photo. War/SCRIPT.md was NOT edited; routed as review question RQ-2 for the Writing Lead."
     },
     {
       "claim": "Old terminal hardware is visible.",
       "status": "supported_descriptively",
-      "evidence": ["source/original.jpg"],
+      "evidence": [
+        "source/original.jpg"
+      ],
       "detail": "A keyboard terminal and a printing terminal are visible. No source names the model, so no model is asserted."
     },
     {
       "claim": "BASIC was invented in 1964 at Dartmouth College by John Kemeny and Thomas Kurtz (narration, sources/SCRIPT.md:67).",
       "status": "supported",
-      "evidence": ["evidence/source-excerpts.md"],
+      "evidence": [
+        "evidence/source-excerpts.md"
+      ],
       "detail": "Dartmouth ITS history timeline records the 1 May 1964 first run under DTSS credited to Kemeny, Kurtz and students; Dartmouth News (2014) states the same year and creators. Both are Dartmouth institutional sources rather than 1964 documents. Undergraduate contributors are omitted by the narration; this is a simplification, not an error, and no change is proposed."
     },
     {
       "claim": "Credits list: 'Kemeny and Kurtz at Dartmouth (1964) — public domain / educational use' (War/SCRIPT.md:808).",
       "status": "unsupported",
-      "evidence": ["evidence/rights.json"],
+      "evidence": [
+        "evidence/rights.json"
+      ],
       "detail": "Neither the date nor the public-domain status is supported for the found image. War/SCRIPT.md was NOT edited; proposed replacement text is in review question RQ-3 for the Writing Lead."
     }
   ]

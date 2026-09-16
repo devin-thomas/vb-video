@@ -2,7 +2,7 @@
   "id": "HIST-13",
   "title": "Metrowerks CodeWarrior IDE",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (scanned 1995 book reproduction of a Mac CodeWarrior IDE screenshot)",
   "shared_version": null,
   "duration_seconds": null,
@@ -27,8 +27,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3070,
-      "sha256": "f98ae5b7397cad1552830ea94294352dd53135b936a165bc08e1d46dd9fc35bd"
+      "bytes": 2980,
+      "sha256": "7fc19aa46f56e866b08c8bb16280abd70b9610af8c8914d77f18c2d6b2bf6c10"
     },
     {
       "path": "evidence/provenance.json",
@@ -203,9 +203,7 @@
       "evidence": "qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -225,6 +223,7 @@
     "Historical proof; release blocked on R14. Not for the cleared-media bin.",
     "Mac-hosted CodeWarrior (CW5-era, 1995) substantiated by the book text, not appearance alone; Windows-hosted Metrowerks screenshots were rejected.",
     "The 65.6 MB source PDF is not retained; URL and SHA-256 recorded for re-acquisition.",
-    "shared_version null: archive still does not use the shared frozen template."
+    "shared_version null: archive still does not use the shared frozen template.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

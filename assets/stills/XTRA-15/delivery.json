@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3949,
-      "sha256": "03d3447d5133acd8cfff7758a229ce02beb42b3e43c30a51fe6a72c6afc60799"
+      "bytes": 4006,
+      "sha256": "8c378982412c838a1adff03c17cf1d520c8b360430865a3dac017c95ecc3fb01"
     },
     {
       "path": "evidence/provenance.json",

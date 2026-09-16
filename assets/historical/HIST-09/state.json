@@ -1,15 +1,16 @@
 {
   "id": "HIST-09",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Claude Code (Opus 5)",
-  "updated_at": "2026-09-15T20:49:58+00:00",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14: rights unresolved. The IA CC0 marking was applied by a third-party uploader; the creator's YouTube original has the standard license (evidence/rights.json)."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Historical proof produced: 1995 CompUSA storefront frame from Dan Lynch home video via Internet Archive; see delivery.json and qa.md.",
-    "Release blocked pending review questions RQ-1 to RQ-3 in evidence/claim-checks.json."
+    "Release blocked pending review questions RQ-1 to RQ-3 in evidence/claim-checks.json.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

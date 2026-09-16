@@ -2,7 +2,7 @@
   "id": "HIST-02",
   "title": "VB 4.0 IDE",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 5470,
-      "sha256": "ff326e3d46c20b1ddbd6f6de8ecc16295e7f588939bad23ed0b82da0af54b4da"
+      "bytes": 5458,
+      "sha256": "bb14604f753958cb75b327dff275a876717caf8c7e6b7e246d5475f442451075"
     },
     {
       "path": "evidence/pages/microsoft-copyright-permissions.html",
@@ -203,9 +203,7 @@
       "result": "see qa.md for recorded output"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -228,6 +226,7 @@
     "Real historical screenshot acquired from WinWorld; not an AI recreation or mockup.",
     "Edition verified as 32-bit via sibling About capture from the same session (see evidence/claim-checks.json).",
     "Release blocked on R14 rights review; production complete as an internal proof.",
-    "Microsoft's screenshot terms forbid using portions of screenshots: downstream crops/zooms (e.g. XTRA-05) need the rights decision first."
+    "Microsoft's screenshot terms forbid using portions of screenshots: downstream crops/zooms (e.g. XTRA-05) need the rights decision first.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -1,17 +1,18 @@
 {
   "id": "HIST-07",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "HIST-07 worker (Historical Screenshots Manager session vb-7a)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: CC BY-SA 4.0 ShareAlike/attribution acceptability for the video is pending rights review (RQ-1)",
     "R14: incidental trademark/ROM banner text, no legal determination made (RQ-2)"
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Selected File:Trinity77.jpg, 2019 original upload (Tim Colegrove, CC BY-SA 4.0): TRS-80 Model I running Level II BASIC. The screen shows power-up text followed by a typed ?MEM command and its result; it is not a clean boot screen (RQ-6).",
     "Variants: original -> source/original.jpg; editorial-frame -> exports/editorial-frame.png.",
-    "Review questions RQ-1..RQ-6 are in qa.md."
+    "Review questions RQ-1..RQ-6 are in qa.md.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

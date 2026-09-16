@@ -2,7 +2,7 @@
   "id": "XTRA-20",
   "title": "Period BBS file listing",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0 (palette tokens and safe area only; frame built by src/build_frame.py, not the shared renderer)",
   "duration_seconds": null,
@@ -75,8 +75,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "R14 gate and script claim checks",
-      "bytes": 6599,
-      "sha256": "0e1f82c5e8bed3ddf39d7a3a95f425e4e7a9d6fcf88fcd34aff9cccd0400d5ee"
+      "bytes": 7458,
+      "sha256": "1ff48e26faeb7329ff0ea2a8b906b656cbbf63b83979c3f2a85bc41d71ab5a52"
     }
   ],
   "variants": [
@@ -159,9 +159,7 @@
       "result": "see qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "cairosvg": "2.9.1",
@@ -180,6 +178,7 @@
   "notes": [
     "Script-supplement visual for SCRIPT.md:595-597; not an ASSET_PLAN.md row.",
     "Rights unresolved; release blocked under R14. Script figures for bundled size and 14.4k time not supported as stated; see evidence/claim-checks.json review questions.",
-    "No archives or executables downloaded; no live-board reconstruction; no AI-generated material."
+    "No archives or executables downloaded; no live-board reconstruction; no AI-generated material.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). 1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
   ]
 }

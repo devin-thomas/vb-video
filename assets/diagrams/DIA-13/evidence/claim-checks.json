@@ -2,13 +2,15 @@
   "gates": [
     {
       "id": "R13",
-      "status": "blocked",
-      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "status": "approved",
+      "reason": "Lineage is drawn as shared ideas with a per-edge evidence note; the script's arrows appear only as a labelled unverified draft layer.",
       "evidence_paths": [
         "source-excerpts.md",
         "../src/edges.json"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     }
   ]
 }

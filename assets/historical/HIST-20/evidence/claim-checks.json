@@ -3,7 +3,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -17,10 +17,10 @@
         "Checked the depicted software's terms against Microsoft's published screenshot guidelines (Wayback capture 20260913212510); the conditions on portions and third-party content are not clearly met.",
         "Acquisition route: anonymous public download; no account, payment, terms acceptance, CAPTCHA or watermark removal."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Rights stay unresolved: an informal screenshot-author permission and Microsoft's conditional screenshot guidelines do not amount to item-specific clearance. Raised as a review question; no fair-use or public-domain assumption is made."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "content_claims": [

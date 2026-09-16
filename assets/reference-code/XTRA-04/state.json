@@ -1,15 +1,16 @@
 {
   "id": "XTRA-04",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Render Lane worker (subagent of vb-97)",
-  "updated_at": "2026-09-15T21:00:00+00:00",
+  "updated_at": "2026-09-15",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
-    "R15 stays blocked with five review questions (Q1-Q5) in evidence/claim-checks.json: list-free FORTRAN II PRINT, the 'more readable' framing for the Writing Lead, on-screen dialect labels, batch-versus-terminal fairness, and plain O rendering."
+    "R15 stays blocked with five review questions (Q1-Q5) in evidence/claim-checks.json: list-free FORTRAN II PRINT, the 'more readable' framing for the Writing Lead, on-screen dialect labels, batch-versus-terminal fairness, and plain O rendering.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ],
   "owner": "Claude Code — local production"
 }

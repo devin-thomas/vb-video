@@ -2,7 +2,7 @@
   "id": "FACT-02",
   "title": "Dim: a word inherited from array dimensions",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 595,
-      "sha256": "c27f1aba771e05ae21e9bdb94ebf4badf308b7a54b7b3293d7c1bb31fa30f7d7"
+      "bytes": 1184,
+      "sha256": "2c62ed714aa61ab2e1673a8d364b1ce38f74255fbe4279eb273b9fa8ba691e9f"
     },
     {
       "path": "evidence/provenance.json",
@@ -184,10 +184,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R10",
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -207,6 +204,7 @@
   },
   "notes": [
     "Face copy is taken from the supplied ticket. Historical claims, where assigned, remain producer-review gates; no verification is implied by this design.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

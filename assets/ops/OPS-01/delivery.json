@@ -2,7 +2,7 @@
   "id": "OPS-01",
   "title": "Shared visual system, reusable primitives, and deterministic export contract",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "provenance_type": "original design infrastructure",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -130,6 +130,7 @@
   },
   "notes": [
     "Shared system only; no .NET captures or historical verification.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Shared card system; no gates; validated and used by every card asset."
   ]
 }

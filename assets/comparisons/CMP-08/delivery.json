@@ -2,7 +2,7 @@
   "id": "CMP-08",
   "title": "Line continuation",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "2acf7089ca758f1ef877f449b8ebfdc91860689aae59b54fc04adb96131ef99f"
+      "bytes": 592,
+      "sha256": "bd13db8411c2dfe4f70e5d46c75feb9dd367f90947b2355abb49526b98444993"
     },
     {
       "path": "evidence/provenance.json",
@@ -203,9 +203,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R03"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -226,6 +224,7 @@
   "notes": [
     "This is a proposed minimal illustration of the narrated underscore contrast, not a screenshot of the supplied program. Retain the explicit underscore; do not claim every modern VB multiline expression always requires one.",
     "No compile/run is claimed for illustrative counterparts.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

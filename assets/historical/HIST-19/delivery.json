@@ -2,7 +2,7 @@
   "id": "HIST-19",
   "title": "Windows 3.1 Solitaire",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (modern emulator capture of period software, acquired from Internet Archive)",
   "shared_version": null,
   "duration_seconds": null,
@@ -69,8 +69,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "gate and claim checks",
-      "bytes": 4819,
-      "sha256": "3592389fd0be762aa7d8198a3183954bba06d6c0c39d94a29b6c64820f0688cf"
+      "bytes": 4887,
+      "sha256": "761bce22498ac45d97ea3234afe4a0496261576a9c66a20b39d4dfca51e7bfac"
     },
     {
       "path": "evidence/source-page/item-record.json",
@@ -180,9 +180,7 @@
       "result": "pass (ok: true, exit 0); output recorded in qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -193,6 +191,7 @@
   "notes": [
     "The Windows 3.1 identity rests on the capturer's labels; no in-guest version string.",
     "The 720p proof and the frame script are extra files beyond the required list; they are inventoried for completeness.",
-    "Review questions: see qa.md."
+    "Review questions: see qa.md.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

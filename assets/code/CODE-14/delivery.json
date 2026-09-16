@@ -2,7 +2,7 @@
   "id": "CODE-14",
   "title": "Round-cap safety valve",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "literal source-code illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 10,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "84c9b3abc2b930d7a7a8815e76322d424b7f7ac748bf698ba53000b94c8fccf8"
+      "bytes": 557,
+      "sha256": "163c2a40c4741b812b1cedc4f7234338b51b7fa57d20c0a42b0dd46d13c90e20"
     },
     {
       "path": "evidence/provenance.json",
@@ -260,9 +260,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R06"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -284,6 +282,7 @@
     "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
     "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
     "All focus targets have individually timed holds.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

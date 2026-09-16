@@ -1,16 +1,17 @@
 {
   "id": "XTRA-02",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Archive Extras worker (manager session vb-25)",
-  "updated_at": "2026-09-15T21:00:00Z",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14: third-party copyrighted advertisement (© 1996 Microsoft Corporation); no licence on record. Review question RQ-XTRA-02-1."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Source: Boardwatch Magazine, June 1996, printed page 97 (Internet Archive boardwatch-1996-06, leaf 96). Full-page Microsoft MSDN / Visual C++ Subscription ad.",
     "Delivered: source/original.jp2 (unmodified), exports/editorial-frame.png, evidence records, qa.md.",
-    "Open choices for the review deck: RQ-XTRA-02-2 (MSDN+Visual C++ ad vs a VB-inclusive alternate), RQ-XTRA-02-3 (burned-in caption vs editor lower-third)."
+    "Open choices for the review deck: RQ-XTRA-02-2 (MSDN+Visual C++ ad vs a VB-inclusive alternate), RQ-XTRA-02-3 (burned-in caption vs editor lower-third).",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

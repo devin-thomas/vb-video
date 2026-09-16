@@ -2,7 +2,7 @@
   "id": "XTRA-17",
   "title": "Save VB6 petition or advocacy page",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (archived web page capture)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -27,8 +27,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 5226,
-      "sha256": "13182937fb2c2ab444fef14d81ece882935f23040564ba259915db26ddbd61cf"
+      "bytes": 6262,
+      "sha256": "bba32406d9ca08b121890a35300c2e6c80746c7808dfaea1630cd88cdc3f005c"
     },
     {
       "path": "evidence/frame.py",
@@ -228,9 +228,7 @@
       "result": "see qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -249,6 +247,7 @@
     "Script-only supplement (SCRIPT-SUPPLEMENT), not an ASSET_PLAN row.",
     "No signatory names appear in the pictured page version; the name-bearing 2005-03-09 capture was inspected but not vendored.",
     "Wayback replay substituted styles.css (20050313060842) and digital-signing.gif (20050518021902).",
-    "Review questions XTRA-17-RQ1..RQ4 in evidence/claim-checks.json."
+    "Review questions XTRA-17-RQ1..RQ4 in evidence/claim-checks.json.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Wayback banner kept as date evidence; the narration now dates the petition to 2005."
   ]
 }

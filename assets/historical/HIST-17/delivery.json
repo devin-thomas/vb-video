@@ -2,7 +2,7 @@
   "id": "HIST-17",
   "title": "TUCOWS archived site circa 1996",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical original: Wayback Machine capture of http://www.tucows.com/ dated 1996-10-22 17:56:12 GMT, with a derivative 16:9 editorial crop",
   "shared_version": "not_applicable (archival capture; no shared template used)",
   "duration_seconds": null,
@@ -27,8 +27,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3473,
-      "sha256": "8ef7f80ef62cf2354c49495bc108c690477605371f68918b9d66051b2281b40f"
+      "bytes": 3329,
+      "sha256": "080b6a1473b841a6ca8f3704f87e6f6e9e11129404a59641486184cac472b2ba"
     },
     {
       "path": "evidence/frame.json",
@@ -339,9 +339,7 @@
       "result": "Viewed exports/editorial-frame.png at 1920x1080 and proofs/editorial-frame-720.png at 1280x720; logo, headline, banner and mirror rows are legible at 720p. See qa.md."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -365,6 +363,7 @@
     "The Wayback replay draws each image from its nearest capture. The page is 1996-10-22. Logo.gif is 1996-10-22. blue.gif, fast-burst.gif and cs_ad.gif are 1996-10-23. The background tile is 1996-12-28 (background.gif; the page asks for BACKGROUND.GIF). See evidence/acquisition-log.json.",
     "The editorial frame omits the regional mirror lists below the Canada heading and the copyright footer; the Wayback toolbar is excluded.",
     "Alternate candidates B (idirect mirror, 1996-12-30) and C (phoenix mirror, 1996-11-17) are preserved with deficiencies recorded in evidence/source.json.",
-    "Produced is not release approval. R14 rights review is open."
+    "Produced is not release approval. R14 rights review is open.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

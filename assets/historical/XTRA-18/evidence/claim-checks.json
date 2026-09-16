@@ -4,7 +4,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/source.json",
         "evidence/rights.json",
@@ -12,10 +12,11 @@
         "evidence/source-excerpts.md"
       ],
       "checked": "The rights holder for the depicted UI (Microsoft Corporation), the capture's creator (Nathan Lineback, inferred from site ownership), the file's exact URL, access method, access date, hash and proposed credit are recorded. No licence or reuse statement exists on the archive site. Microsoft's published screenshot permission is conditional and was summarised, not applied.",
-      "decision": null,
-      "approver": null,
-      "reason": "Rights are unclear. Under R14, unknown rights stay blocked. Microsoft's conditional permission may or may not cover a third-party capture, and the capturer grants nothing in writing.",
-      "review_question": "RQ-1 in review_questions"
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
+      "review_question": "RQ-1 in review_questions",
+      "approval_date": "2026-09-15"
     }
   ],
   "claims": [
@@ -57,13 +58,25 @@
       "id": "RQ-1",
       "to": "Producer, for the review deck (legal/rights)",
       "question": "Is Microsoft's published screenshot permission (\"Used with permission from Microsoft\", resize only, no portions) enough to use this third-party Windows for Workgroups 3.11 Hearts capture by Nathan Lineback (toastytech.com), which has no licence of its own? If not: ask the capturer for permission, or authorise a first-party emulator capture?",
-      "evidence": "evidence/rights.json"
+      "evidence": "evidence/rights.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Montage cue rewritten to 'bundled with Windows' (applied); Hearts capture accepted."
+      }
     },
     {
       "id": "RQ-2",
       "to": "Writing Lead",
       "question": "War/SCRIPT.md:636 calls the montage \"90s shareware card games — Solitaire, Hearts, FreeCell. Windows 3.1 and Windows 95 versions.\" Hearts was not shareware and was not in plain Windows 3.1; it was bundled with Windows for Workgroups (and later Windows 95). Line 650 then says the shareware card games were \"written in Visual Basic\", so the montage can suggest Microsoft's bundled games were VB apps. Proposed wording for line 636: \"[VISUAL: Card games bundled with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x / Windows for Workgroups and Windows 95. The classic green felt background. On-screen label, if any: 'Bundled with Windows'.]\" Accept, revise, or keep?",
-      "evidence": "evidence/claim-checks.json#XTRA-18-C2, evidence/source-excerpts.md"
+      "evidence": "evidence/claim-checks.json#XTRA-18-C2, evidence/source-excerpts.md",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Montage cue rewritten to 'bundled with Windows' (applied); Hearts capture accepted."
+      }
     }
   ]
 }

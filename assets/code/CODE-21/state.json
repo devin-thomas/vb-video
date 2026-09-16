@@ -1,14 +1,15 @@
 {
   "id": "CODE-21",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": null,
-  "updated_at": null,
+  "updated_at": "2026-09-15",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
-    "Publication approval is separate from production."
+    "Publication approval is separate from production.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ],
   "owner": "ChatGPT — local production"
 }

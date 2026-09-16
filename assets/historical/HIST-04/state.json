@@ -1,16 +1,17 @@
 {
   "id": "HIST-04",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "HIST-04 worker (Historical Screenshots Manager, session vb-7a)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: no item-level license; presumptively Dartmouth-owned; permission via Dartmouth Office of General Counsel not requested (review question RQ-1, human boundary)."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Historical proof produced from Dartmouth Library exhibit item 3661 (DA-181, Box 9453), c. 1969; not a 1964 photograph.",
     "Exports inspected at full size and 720p; see qa.md.",
-    "Script discrepancies at War/SCRIPT.md:66 and :808 routed to the Writing Lead as RQ-2 and RQ-3; script not edited."
+    "Script discrepancies at War/SCRIPT.md:66 and :808 routed to the Writing Lead as RQ-2 and RQ-3; script not edited.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

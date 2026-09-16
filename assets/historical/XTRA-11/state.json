@@ -1,17 +1,18 @@
 {
   "id": "XTRA-11",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "XTRA-11 worker (Archive Extras Manager, session vb-25)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: no license or permission on file for the Internet Archive emulator screenshot of INVOICE-IT for Windows (Eastern Digital Resources, 1993); rights unclear, so release is blocked pending the review deck.",
     "R11: SCRIPT.md:685 generalizations about who built VB tools are not proven by this single example; narration question routed to the producer/Writing Lead."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Produced: INVOICE-IT for Windows v2.06 (1993 shareware invoicing program, Eastern Digital Resources). Classic-VB provenance comes from the publisher's own RELEASE.TXT/HELP.TXT/MANUAL.WRI: 'Recompiled program using Visual BASIC 2.0' and 'requires VBRUN200.DLL'.",
     "Source: https://archive.org/download/MEDLEY_SEC90034/screenshot_01.jpg (accessed 2026-09-15), kept unmodified as source/original.jpg; 1920x1080 editorial frame at exports/editorial-frame.png.",
-    "Business tool (invoicing), distinct from XTRA-12 (data entry/database) and XTRA-13 (small utility)."
+    "Business tool (invoicing), distinct from XTRA-12 (data entry/database) and XTRA-13 (small utility).",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

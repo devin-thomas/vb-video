@@ -2,7 +2,7 @@
   "id": "XTRA-09",
   "title": "Mid-1990s Macintosh hardware",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (third-party archival product photograph; SCRIPT-SUPPLEMENT, not an original asset-plan row)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gates and review questions",
-      "bytes": 3808,
-      "sha256": "f99135d4c065ba29007ee869343d2eaae7c7dbd264d1e0950b32ea4ae2328070"
+      "bytes": 4466,
+      "sha256": "076a5e8992f48ae0da8b913fb144169fe2b499ff3f60d9e2b3f9384a33d99bc6"
     },
     {
       "path": "evidence/framing.json",
@@ -219,9 +219,7 @@
       "result": "passed: {\"id\": \"XTRA-09\", \"ok\": true, \"errors\": []} (exit 0, run 2026-09-15 before recording this entry; delivery.json is not in the hashed inventory)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -239,6 +237,7 @@
     "Model: Macintosh Performa 630CD, Apple model number M3076; introduced 1994-07-01 (Apple Support 112345), Orig SSW 7.1.2P.",
     "Photograph date unknown: EXIF DateTimeOriginal 2002-02-09 is impossible for the NIKON D5300; bounds 2013-10-17 to 2023-07-04.",
     "Review questions RQ-XTRA09-1 (rights), RQ-XTRA09-2 (credit name), RQ-XTRA09-3 (1994 model for a 1995 line) in evidence/claim-checks.json.",
-    "Kept separate from HIST-21 (System 7 desktop capture): no screen content here; HIST-21 has no capture yet."
+    "Kept separate from HIST-21 (System 7 desktop capture): no screen content here; HIST-21 has no capture yet.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
   ]
 }

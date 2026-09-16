@@ -4,9 +4,9 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "work_done": "Recorded the creator, the file-specific dual licence (CC BY-SA 3.0 / GFDL 1.2+), the anonymous access method and access date, a SHA-1 match against Commons, credit text, and third-party content visible in frame. No 'public domain' or 'educational use' assumption is made. The only genuine 1964 Dartmouth terminal photos found are marked all rights reserved, so they were not acquired.",
       "evidence": [
         "evidence/source.json",
@@ -17,7 +17,9 @@
         "RQ1 (legal): Is CC BY-SA 3.0 acceptable for a still in the finished video? Reinhold's photo carries ShareAlike, and whether the video is an Adaptation or a Collection is a legal call. If not, the fallback is a CC BY 2.0 Model 33 photo (Kai Wegner, not yet inspected).",
         "RQ2 (editorial/permission): Use this representative museum Model 33 ASR, or seek permission for the genuine Nov 1964 Dartmouth Alumni Magazine photo of students at the College Hall stations? That route needs a human request and a high-resolution scan.",
         "RQ3 (taste): The in-frame 'TimeShare Corporation' decal and cut-off CHM display card are left visible because cropping them would hide context. Acceptable on screen?"
-      ]
+      ],
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "claim_checks": [

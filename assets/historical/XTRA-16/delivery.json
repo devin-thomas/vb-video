@@ -2,7 +2,7 @@
   "id": "XTRA-16",
   "title": "VB6-to-.NET migration wizard",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (Microsoft-published documentation figure) with derived editorial frame",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -27,8 +27,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 8247,
-      "sha256": "83b0c0bb68d2f8a7a0ef0dbdc711091862e60c011dd079fa9d6e7f685478a912"
+      "bytes": 8968,
+      "sha256": "260a1d4a91f45ae76287f83f42fc626c07f7657245f6df839fb712b4eee24236"
     },
     {
       "path": "evidence/framing.json",
@@ -243,9 +243,7 @@
       "detail": "ok: true, errors: [] (exit 0); verbatim output in qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows 11 Pro 10.0.26200",
     "python": "3.14.0",
@@ -264,6 +262,7 @@
     "Depicts the Visual Studio 2005 Upgrade Wizard (report dated 1/5/2006), not Visual Studio .NET 2002/2003; see evidence/source.json era_note.",
     "Claim check: narration 'announce, in 2002' is incorrect as worded (announced 2000, shipped Feb 2002); War/SCRIPT.md not edited — review question XTRA-16-RQ1 for the Writing Lead.",
     "No 'this is fine' meme edit made (XTRA-16-RQ4).",
-    "Review questions: evidence/claim-checks.json review_questions."
+    "Review questions: evidence/claim-checks.json review_questions.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
   ]
 }

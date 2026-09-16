@@ -1,169 +1,245 @@
 {
   "purpose": "Single source of review questions for the OPS-04 review deck. One entry per question a worker could not settle by evidence; the producer appends here at merge time (docs/roles/PRODUCER.md step 5).",
-  "generated_by": "producer, 2026-09-15 (OPS-03 full sweep)",
+  "generated_by": "producer, 2026-09-15 (release review)",
   "count": 115,
   "questions": [
     {
       "id": "HIST-01-RQ-HIST01-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "May the video use this third-party capture of Microsoft Visual Basic 1.0 (from WinWorld, capturer unknown, no licence) under Microsoft's screenshot guidelines, credited 'Used with permission from Microsoft', given that the frame resizes the whole screenshot and adds a dark pillarbox? If not, is an agent-run capture from a properly licensed VB 1.0 copy (which would need a licence or boundary decision) wanted instead?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "HIST-01",
       "evidence": "assets/historical/HIST-01/evidence/claim-checks.json"
     },
     {
       "id": "HIST-01-RQ-HIST01-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "War/SCRIPT.md:97 asks for 'the form designer, the toolbox, the properties window'. The authenticated VB 1.0 captures show a properties bar under the menu, not a Properties window. Proposed wording: 'the form designer, the toolbox, the properties bar'. Change or keep as-is?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "HIST-01",
       "evidence": "assets/historical/HIST-01/evidence/claim-checks.json"
     },
     {
       "id": "HIST-01-RQ-HIST01-3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The selected Edit capture proves the version only indirectly; the About capture proves it in frame but hides the form designer and shows a serial number. Use the Edit capture alone (current export), or also cut to the About capture briefly as on-screen version evidence (which would need the serial number handled without breaking Microsoft's no-alteration rule)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "HIST-01",
       "evidence": "assets/historical/HIST-01/evidence/claim-checks.json"
     },
     {
       "id": "HIST-02-Q1",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-HIST-02-1",
       "ticket": "HIST-02",
-      "evidence": "assets/historical/HIST-02/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-02/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      }
     },
     {
       "id": "HIST-02-Q2",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-HIST-02-2",
       "ticket": "HIST-02",
-      "evidence": "assets/historical/HIST-02/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-02/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      }
     },
     {
       "id": "HIST-02-Q3",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-HIST-02-3",
       "ticket": "HIST-02",
-      "evidence": "assets/historical/HIST-02/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-02/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      }
     },
     {
       "id": "HIST-05-Q1",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Accept the Commons public-domain tagging as sufficient for this C64 start-up screen, or require a separate rights review or another source?",
       "ticket": "HIST-05",
-      "evidence": "assets/historical/HIST-05/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-05/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "The C64 image is an undocumented render of the boot screen; acceptable for a montage of BASIC prompts."
+      }
     },
     {
       "id": "HIST-07-Q1",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-1",
       "ticket": "HIST-07",
-      "evidence": "assets/historical/HIST-07/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-07/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "TRS-80 typed ?MEM session; acceptable for the BASIC-prompt montage. GPS EXIF stays in the byte-exact original only."
+      }
     },
     {
       "id": "HIST-07-Q2",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-2",
       "ticket": "HIST-07",
-      "evidence": "assets/historical/HIST-07/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-07/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "TRS-80 typed ?MEM session; acceptable for the BASIC-prompt montage. GPS EXIF stays in the byte-exact original only."
+      }
     },
     {
       "id": "HIST-07-Q3",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-3",
       "ticket": "HIST-07",
-      "evidence": "assets/historical/HIST-07/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-07/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "TRS-80 typed ?MEM session; acceptable for the BASIC-prompt montage. GPS EXIF stays in the byte-exact original only."
+      }
     },
     {
       "id": "HIST-09-RQ-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Rights for the Dan Lynch 1995 home-video frame: seek the creator's permission (contacting him needs your approval), approve a fair-use basis after legal review, or substitute a rights-clear but later photo (Commons 'CompUSA Santa Clara 2.jpg', 2005, CC BY-SA 3.0, captioned 2005)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
+      },
       "ticket": "HIST-09",
       "evidence": "assets/historical/HIST-09/evidence/claim-checks.json"
     },
     {
       "id": "HIST-09-RQ-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "If a location caption is wanted, accept the creator's statement that this is Norwalk, Conn., or caption only 'CompUSA, Aug. 24, 1995'?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
+      },
       "ticket": "HIST-09",
       "evidence": "assets/historical/HIST-09/evidence/claim-checks.json"
     },
     {
       "id": "HIST-09-RQ-3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Editorial fit: the frame is from Windows 95 launch night, a night exterior with a burned-in camcorder date stamp. Keep the stamp visible as authenticity (current framing) under the narration 'You went to a store… CompUSA'? The same footage could also serve War/SCRIPT.md:117's 'lines outside CompUSA' beat if that ticket wants it.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
+      },
       "ticket": "HIST-09",
       "evidence": "assets/historical/HIST-09/evidence/claim-checks.json"
     },
     {
       "id": "HIST-11-RQ-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The only authorized-archive VB4 image is an unlicensed scan of Microsoft's 1995 disc artwork (Internet Archive, textfiles.com collection). Use it in the video on a fair-use basis, or keep it out and source a licensed or self-shot image?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Retail Enterprise CD accepted for the 'install CD' cue; no box image exists on an authorised route."
+      },
       "ticket": "HIST-11",
       "evidence": "assets/historical/HIST-11/evidence/claim-checks.json"
     },
     {
       "id": "HIST-11-RQ-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The ticket asks for a VB4 retail box; no archive holds one, but the script's visual cue allows 'A VB4 install CD'. Accept the retail Enterprise CD for this shot, or open a boundary item for a box image (e.g. ask an eBay seller for permission, or photograph a physical box)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Retail Enterprise CD accepted for the 'install CD' cue; no box image exists on an authorised route."
+      },
       "ticket": "HIST-11",
       "evidence": "assets/historical/HIST-11/evidence/claim-checks.json"
     },
     {
       "id": "HIST-11-RQ-3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "SCRIPT.md:122 says the packaging is 'purple and teal'. The retail disc shows purple/magenta only, and box colors could not be checked. Keep the note, or soften it to 'purple' / drop the colors?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Retail Enterprise CD accepted for the 'install CD' cue; no box image exists on an authorised route."
+      },
       "ticket": "HIST-11",
       "evidence": "assets/historical/HIST-11/evidence/claim-checks.json"
     },
     {
       "id": "HIST-11-Q4",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-1",
       "ticket": "HIST-11",
-      "evidence": "assets/historical/HIST-11/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-11/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Retail Enterprise CD accepted for the 'install CD' cue; no box image exists on an authorised route."
+      }
     },
     {
       "id": "HIST-12-RQ-1",
@@ -199,109 +275,156 @@
     {
       "id": "HIST-14-Q1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "Writing Lead",
       "question": "The narration says \"In 1995, NeXT was a niche company selling expensive workstations to universities and Wall Street.\" NeXT left the hardware business in February 1993 and by 1995 sold software. Change the line? Proposed: \"In 1995, NeXT was a niche company. It had stopped making its expensive workstations two years earlier and was selling its software to universities and Wall Street.\"",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "HIST-14",
       "evidence": "assets/historical/HIST-14/evidence/claim-checks.json"
     },
     {
       "id": "HIST-14-Q2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "Rights review",
       "question": "The chosen photograph is CC BY-SA 2.0 FR (Rama & Musée Bolo). Accept share-alike for this shot, or swap to the CC BY 2.0 candidate (Michael Hicks, NeXTcube at the Computer History Museum; busier frame with a monitor and another terminal)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "HIST-14",
       "evidence": "assets/historical/HIST-14/evidence/claim-checks.json"
     },
     {
       "id": "HIST-14-Q3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "Rights review",
       "question": "The photo's license covers the photograph. Is showing the frog-design NeXTcube enclosure, as a museum exhibit, acceptable for this video without any separate clearance?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "HIST-14",
       "evidence": "assets/historical/HIST-14/evidence/claim-checks.json"
     },
     {
       "id": "HIST-21-RQ-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The photo is CC BY-SA 4.0, but that license covers only the photographer's work, not Apple's System 7.5.5 Finder interface that fills the screen. Is using this shot acceptable, and on what basis (commentary/fair use), or should the video use an alternative?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      },
       "ticket": "HIST-21",
       "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
     },
     {
       "id": "HIST-21-RQ-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Is the resized, pillarboxed frame shown in the video 'Adapted Material' under CC BY-SA 4.0 (which would need a BY-SA-compatible license for that frame), or does plain attribution suffice? The worker checked the legal code: the automatic 'synched with moving image' rule covers only music, performances, and sound recordings, so a photo does not trigger it automatically.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      },
       "ticket": "HIST-21",
       "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
     },
     {
       "id": "HIST-21-RQ-3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Where should the required attribution ('Photo: RetroEditor / Wikimedia Commons, CC BY-SA 4.0') appear: an on-screen lower third during the shot, end credits, the video description, or a combination?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      },
       "ticket": "HIST-21",
       "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
     },
     {
       "id": "HIST-21-RQ-4",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The script asks for 'a mid-90s Macintosh — maybe a Performa or a PowerBook' under a '1995' narration line. This shot is a 1991-93 Classic II running System 7.5.5 (September 1996), photographed in 2019. Is that close enough for an evocative 'classic Mac' beat, or should research continue for a Performa or PowerBook on System 7.5-7.5.1 (1994-95)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      },
       "ticket": "HIST-21",
       "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
     },
     {
       "id": "HIST-21-RQ-5",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The editorial frame shows the whole uncropped photo pillarboxed, so the version text is small but legible at 1080p. Would the editor prefer an extra tighter push-in on the screen, which would drop the 'Macintosh Classic II' badge? That would be a new named variant, not in this ticket.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      },
       "ticket": "HIST-21",
       "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
     },
     {
       "id": "HIST-21-Q6",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-1",
       "ticket": "HIST-21",
-      "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-21/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "HIST-21-Q7",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-2",
       "ticket": "HIST-21",
-      "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-21/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "HIST-21-Q8",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-3",
       "ticket": "HIST-21",
-      "evidence": "assets/historical/HIST-21/evidence/claim-checks.json"
+      "evidence": "assets/historical/HIST-21/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
+      }
     },
     {
       "id": "BROLL-01-Q1",
@@ -846,333 +969,476 @@
     {
       "id": "XTRA-03-Q1",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ1 (legal): Is CC BY-SA 3.0 acceptable for a still in the finished video? Reinhold's photo carries ShareAlike, and whether the video is an Adaptation or a Collection is a legal call. If not, the fallback is a CC BY 2.0 Model 33 photo (Kai Wegner, not yet inspected).",
       "ticket": "XTRA-03",
-      "evidence": "assets/historical/XTRA-03/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-03/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      }
     },
     {
       "id": "XTRA-03-Q2",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ2 (editorial/permission): Use this representative museum Model 33 ASR, or seek permission for the genuine Nov 1964 Dartmouth Alumni Magazine photo of students at the College Hall stations? That route needs a human request and a high-resolution scan.",
       "ticket": "XTRA-03",
-      "evidence": "assets/historical/XTRA-03/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-03/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      }
     },
     {
       "id": "XTRA-03-Q3",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ3 (taste): The in-frame 'TimeShare Corporation' decal and cut-off CHM display card are left visible because cropping them would hide context. Acceptable on screen?",
       "ticket": "XTRA-03",
-      "evidence": "assets/historical/XTRA-03/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-03/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      }
     },
     {
       "id": "XTRA-07-RQ-XTRA-07-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "producer / Devin (legal risk)",
       "question": "Release the anonymous Internet Archive scan of the Microsoft VB4 Enterprise disc label on an editorial/fair-use basis, replace it with a production-owned photo of a physically owned VB4 disc, or cut the visual?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "XTRA-07",
       "evidence": "assets/historical/XTRA-07/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-07-RQ-XTRA-07-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "Writing Lead",
       "question": "SCRIPT.md:122 says the packaging is \"purple and teal\", but the retail VB4 media found is magenta-on-silver (Enterprise disc) and green-on-silver (Professional disc). Change the visual note to \"The packaging is very mid-90s.\" (proposed) or keep it pending HIST-11's box evidence?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "XTRA-07",
       "evidence": "assets/historical/XTRA-07/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-07-RQ-XTRA-07-3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "producer / Devin (editorial taste)",
       "question": "Is the Enterprise Edition disc acceptable as the representative VB4 install disc? The narration's store buyer more likely bought Standard or Professional. The only Professional disc scan found is 643x650, too small for 1080p.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: asset matches the words; no change needed."
+      },
       "ticket": "XTRA-07",
       "evidence": "assets/historical/XTRA-07/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-09-RQ-XTRA09-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "legal risk",
       "question": "Accept this Tech Tangents photo of a Performa 630CD as CC BY 4.0, as Wikimedia Commons records it? The source wiki says only 'Creative Commons Attribution' with no version. The uploader 'Akbkuku' is probably, but not provably, Shelby Jueden. If not, swap to the Performa 6200 photo (CC BY 2.0, license verified by Commons' Flickr review, but a phone snapshot with an owner-applied sticker), or ask Tech Tangents to confirm.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      },
       "ticket": "XTRA-09",
       "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-09-RQ-XTRA09-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "credit wording",
       "question": "Credit as 'Akbkuku (Tech Tangents), CC BY 4.0, via Wikimedia Commons' (the licensed author name), or as 'Shelby Jueden / Tech Tangents' (the Commons category name, identity not documented)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      },
       "ticket": "XTRA-09",
       "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-09-RQ-XTRA09-3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": "editorial taste",
       "question": "The narration says 'in 1995'. The pictured Performa 630CD was introduced in July 1994 and still sold in 1995. Is that close enough, or should the shot use a model introduced in 1995? Options: the Performa 6200 (verified CC BY 2.0, but a soft phone photo with a large owner-applied sticker), or the Performa 580CD (National Library of NZ, only 664×808, license at source unconfirmed). The 580CD shows a live Classic Mac OS Finder desktop, which fits the script's full visual line but overlaps HIST-21.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      },
       "ticket": "XTRA-09",
       "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-09-Q4",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-XTRA09-1",
       "ticket": "XTRA-09",
-      "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      }
     },
     {
       "id": "XTRA-09-Q5",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "RQ-XTRA09-2",
       "ticket": "XTRA-09",
-      "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-09/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      }
     },
     {
       "id": "XTRA-11-Q1",
       "gate": "R11",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "R11 narration: SCRIPT.md:685 generalizes about accountants, teachers and small business owners. XTRA-11 documents only one real example: INVOICE-IT for Windows, a 1993 VB 2.0 invoicing shareware by a small publisher. Keep the narration as illustrative color, or soften it (for example to 'small businesses got invoicing and inventory tools')? If wording changes, the Writing Lead owns War/SCRIPT.md.",
       "ticket": "XTRA-11",
-      "evidence": "assets/historical/XTRA-11/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-11/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Narration generalisation at :742 kept as illustrative colour."
+      }
     },
     {
       "id": "XTRA-11-Q2",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "R14 rights: may the video show this Internet Archive emulator screenshot of 1993 shareware (INVOICE-IT for Windows, Eastern Digital Resources; item MEDLEY_SEC90034, no license on file) as a brief collage element with credit, on a fair-use or commentary rationale? Or should permission be sought, or the image cut?",
       "ticket": "XTRA-11",
-      "evidence": "assets/historical/XTRA-11/evidence/claim-checks.json"
+      "evidence": "assets/historical/XTRA-11/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Narration generalisation at :742 kept as illustrative colour."
+      }
     },
     {
       "id": "XTRA-12-RQ1",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": "Devin (legal/rights)",
       "question": "Can this Microsoft documentation figure (VB6 Data Object Wizard article, Figure 16, December 1998) be used in the video and in the XTRA-14/15 collage under Microsoft's \"Use of Microsoft copyrighted content\" screenshot guidelines, with the credit \"Used with permission from Microsoft\"? Those guidelines allow resizing only and forbid portions of screenshots, so a collage that crops, overlaps or rotates it may not qualify. If not, should the project request written permission or drop the image?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "A Microsoft VB6 documentation figure is acceptable as the data-entry panel; no on-screen note needed, the credit identifies it."
+      },
       "ticket": "XTRA-12",
       "evidence": "assets/historical/XTRA-12/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-12-RQ2",
       "gate": "R11",
-      "status": "open",
+      "status": "resolved",
       "for": "Writing Lead / Devin (editorial)",
       "question": "The best-provenanced data-entry form found is a Microsoft sample (wizard-generated VB6 control with dummy data), not an application built by an accountant, teacher or small-business owner. Is a documented Microsoft VB sample acceptable in a collage the script describes as real-world VB applications, and should an on-screen or edit note identify it as a Microsoft VB6 documentation example? No SCRIPT.md change is proposed.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Microsoft VB6 documentation figure is acceptable as the data-entry panel; no on-screen note needed, the credit identifies it."
+      },
       "ticket": "XTRA-12",
       "evidence": "assets/historical/XTRA-12/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-12-RQ3",
       "gate": "R11",
-      "status": "open",
+      "status": "resolved",
       "for": "Writing Lead (editorial)",
       "question": "The script's framing is mid-1990s VB ($100 purchase, library book), but this figure is VB6 from late 1998. Is a 1998 classic-VB image acceptable, or should the project seek a VB3/VB4-era data form? The known VB3 Data Access Guide scan on Internet Archive is borrow-only, so getting it would need a human with an account (a boundary action).",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "A Microsoft VB6 documentation figure is acceptable as the data-entry panel; no on-screen note needed, the credit identifies it."
+      },
       "ticket": "XTRA-12",
       "evidence": "assets/historical/XTRA-12/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-16-RQ1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The script says Microsoft announced VB.NET \"in 2002\". Primary sources put the announcement in 2000 (PDC, July 2000; Microsoft's October 2000 upgrade guidance) and the release in February 2002. Change War/SCRIPT.md:754? Proposed: \"What they did was announce, in 2000, that Visual Basic would become VB.NET, and ship it in 2002: a completely new language...\" Or drop the year.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      },
       "ticket": "XTRA-16",
       "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-16-RQ2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The only genuine wizard-report image found is a Microsoft documentation figure (© Microsoft). Microsoft Learn's Terms of Use are non-commercial and bar broadcast. Microsoft's screenshot guidelines may allow video use with \"Used with permission from Microsoft\", but this image shows a third-party eFax toolbar button. Options: (a) accept the risk and use it with that credit; (b) ask Microsoft for permission; (c) Devin captures a fresh report from a licensed Visual Studio 2005/2008 install upgrading a VB6 project; (d) cut the visual or use a clearly labelled mockup. Release stays blocked until one is chosen.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      },
       "ticket": "XTRA-16",
       "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-16-RQ3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The narration is about 2002, but the figure is the improved Visual Studio 2005 wizard, run in January 2006, from an article that is mostly positive about the tool. Is that acceptable behind \"aspirational\" with the version caption shown? The only 2000-era Microsoft image found is a pre-release VB.NET beta Task List with one UPGRADE_TODO, which Microsoft's guidelines exclude and which isn't a long list. Keep or remove the burned-in caption in exports/editorial-frame.png? The metadata credit exists either way.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      },
       "ticket": "XTRA-16",
       "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-16-RQ4",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The script suggests a \"this is fine\" meme edit. It was not made: it would alter a Microsoft screenshot, which their guidelines forbid, and would bring in a third-party image. Drop the meme idea, or commission it as a separate labelled asset with its own rights check?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      },
       "ticket": "XTRA-16",
       "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-17-RQ1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The page is 'Copyright ©2005, classicvb.org, All Rights Reserved Worldwide' and forbids reproduction without written permission. Should the video show the Wayback frame under a commentary/fair-use rationale, seek permission, or cut the visual?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      },
       "ticket": "XTRA-17",
       "evidence": "assets/historical/XTRA-17/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-17-RQ2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The frame keeps the Wayback Machine banner (dated MAR 12 2005) as date evidence. Show it in the edit as is, or let the editor mask or pan past it? Any trimmed version must keep the date attribution in a caption.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      },
       "ticket": "XTRA-17",
       "evidence": "assets/historical/XTRA-17/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-17-RQ3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "For the Writing Lead: the petition is from March 2005 (end of VB6 mainstream support), not the 2002 VB.NET launch. Add a date cue ('2005') to the narration or an on-screen caption? War/SCRIPT.md has not been edited.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      },
       "ticket": "XTRA-17",
       "evidence": "assets/historical/XTRA-17/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-17-RQ4",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The frame shows the petition heading and objectives but not the page's self-reported counter ('1376 signatories including 203 Microsoft MVPs since March 8th, 2005'). Is a second framing of the counter wanted, captioned as the site's own 12 March 2005 figure?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      },
       "ticket": "XTRA-17",
       "evidence": "assets/historical/XTRA-17/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-18-RQ-1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Is Microsoft's published screenshot permission (\"Used with permission from Microsoft\", resize only, no portions) enough to use this third-party Windows for Workgroups 3.11 Hearts capture by Nathan Lineback (toastytech.com), which has no licence of its own? If not: ask the capturer for permission, or authorise a first-party emulator capture?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Montage cue rewritten to 'bundled with Windows' (applied); Hearts capture accepted."
+      },
       "ticket": "XTRA-18",
       "evidence": "assets/historical/XTRA-18/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-18-RQ-2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "War/SCRIPT.md:636 calls the montage \"90s shareware card games — Solitaire, Hearts, FreeCell. Windows 3.1 and Windows 95 versions.\" Hearts was not shareware and was not in plain Windows 3.1; it was bundled with Windows for Workgroups (and later Windows 95). Line 650 then says the shareware card games were \"written in Visual Basic\", so the montage can suggest Microsoft's bundled games were VB apps. Proposed wording for line 636: \"[VISUAL: Card games bundled with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x / Windows for Workgroups and Windows 95. The classic green felt background. On-screen label, if any: 'Bundled with Windows'.]\" Accept, revise, or keep?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Montage cue rewritten to 'bundled with Windows' (applied); Hearts capture accepted."
+      },
       "ticket": "XTRA-18",
       "evidence": "assets/historical/XTRA-18/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-20-Q1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Clear or reject use of the typeset 1992 Access System BBS catalog excerpt, given unknown creator and no license (see evidence/rights.json).",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
+      },
       "ticket": "XTRA-20",
       "evidence": "assets/historical/XTRA-20/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-20-Q2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "War/SCRIPT.md:654 figures do not reconcile: the VB3 runtime makes a 200 KB game about 0.4-0.6 MB, not 1.5 MB, and 1.5 MB at 14.4k is about 14-17 minutes, not nearly ten. Proposed fix (option A, keeps VBRUN300): \"...which could turn a 200-kilobyte game into a download two or three times that size. On a 14.4 modem, that's another four or five minutes of waiting. For a card game.\" Option B (keeps the big numbers, VB4 16-bit runtime): \"...which could turn a 200-kilobyte game into a download of more than a megabyte. On a 14.4 modem, that's over ten minutes of downloading. For a card game.\" Keep the progress-bar mockup at line 854 consistent with whichever is chosen.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
+      },
       "ticket": "XTRA-20",
       "evidence": "assets/historical/XTRA-20/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-20-Q3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The best dated board listing found is from September 1992 and shows VBRUN.ZIP, a pre-VB3 runtime, while the narration names VBRUN300.DLL in a VB4-era story. Is a 1992 listing acceptable under \"maybe a BBS file listing\", with a caption that does not mention VBRUN300? No textfiles.com board listing mentions VBRUN300; the VBRUN300 mentions found are on 1994-95 shareware CD-ROM FILES.BBS listings, which are not live boards.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
+      },
       "ticket": "XTRA-20",
       "evidence": "assets/historical/XTRA-20/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-04-Q1",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The FORTRAN II sample uses PRINT 1 with no output list. IBM's 7090/7094 FORTRAN II manual allows an all-alphameric FORMAT without a list but shows no list-free PRINT example, and nothing was executed. Accept it as an illustrative listing, or should an emulator run be commissioned before release? Adding a dummy variable to the list would pad FORTRAN and is not recommended.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "'More readable' stays in narration as the narrator's judgement; the frame itself makes no readability claim."
+      },
       "ticket": "XTRA-04",
       "evidence": "assets/reference-code/XTRA-04/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-04-Q2",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "For Writing Lead: honestly compared, BASIC is shorter (2 statements to 4), but the gap is small for a one-line task, and 'more readable' is a judgement. Keep the narration and visual cue as written, or soften to 'shorter, with less ceremony'? No SCRIPT.md change is required for this asset to stay accurate; it shows the programs and makes no readability claim on screen.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "'More readable' stays in narration as the narrator's judgement; the frame itself makes no readability claim."
+      },
       "ticket": "XTRA-04",
       "evidence": "assets/reference-code/XTRA-04/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-04-Q3",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The exports add dialect labels ('FORTRAN II for the IBM 7090/7094', 'Dartmouth BASIC, October 1964') beyond the ticket copy 'FORTRAN | BASIC / Same task, different syntax'. Keep them on screen, or move them to the edit's lower third?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "'More readable' stays in narration as the narrator's judgement; the frame itself makes no readability claim."
+      },
       "ticket": "XTRA-04",
       "evidence": "assets/reference-code/XTRA-04/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-04-Q4",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The two programs come from different workflows: a batch deck on a 7090/7094 (job control cards not shown) and a time-sharing terminal (RUN and other commands not shown). Is listing-only comparison fair enough for the narration, or should a caption acknowledge it?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "'More readable' stays in narration as the narrator's judgement; the frame itself makes no readability claim."
+      },
       "ticket": "XTRA-04",
       "evidence": "assets/reference-code/XTRA-04/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-04-Q5",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Both 1964 manuals' conventions aside, the listings show plain letter O rather than the BASIC manual's slashed O. Accept the modern rendering?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "'More readable' stays in narration as the narrator's judgement; the frame itself makes no readability claim."
+      },
       "ticket": "XTRA-04",
       "evidence": "assets/reference-code/XTRA-04/evidence/claim-checks.json"
     },
@@ -1289,136 +1555,196 @@
     {
       "id": "XTRA-08-Q1",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "For Writing Lead: Java 1.0 shipped on 23 January 1996 (Sun press release), though Java was announced and in public alpha/beta during 1995. The lineup keeps 'Java 1.0' and shows no year, so the frame itself is accurate. But the cue ('1995 development tools') and War/SCRIPT.md:686 ('which Sun Microsystems released in 1995') imply a 1995 release. Keep as written; relabel the tile 'Java' (drop 1.0); or change line 686 to, for example, 'which Sun Microsystems unveiled in 1995 and shipped as Java 1.0 in January 1996'? SCRIPT.md was not edited.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Tiles kept as the script names them; Java 1.0 is accurate for the lineup even though it shipped January 1996, which the narration now says."
+      },
       "ticket": "XTRA-08",
       "evidence": "assets/stills/XTRA-08/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-08-Q2",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The script names no PowerBuilder version. In 1995 it was PowerBuilder 4.x; 5.0 followed in June 1996 (GCN, 27 May 1996). Keep the unversioned tile, which is accurate and the script's wording, or add '4.0' to match the other tiles? Adding it would be authored copy, and no first-party 4.0 ship date was reached.",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Tiles kept as the script names them; Java 1.0 is accurate for the lineup even though it shipped January 1996, which the narration now says."
+      },
       "ticket": "XTRA-08",
       "evidence": "assets/stills/XTRA-08/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-08-Q3",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "Visual C++ 4.0's exact first ship date was not confirmed from a Microsoft source: documentation dated September 1995, Standard Edition March 1996, and December 1995 from secondary sources only. Is 'a 1995 release' good enough for the section framing, or should the Writing Lead avoid dating it more precisely in narration?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Tiles kept as the script names them; Java 1.0 is accurate for the lineup even though it shipped January 1996, which the narration now says."
+      },
       "ticket": "XTRA-08",
       "evidence": "assets/stills/XTRA-08/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-08-Q4",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The exports carry no heading. Should the edit add a title such as DIA-11's '1995 development tools' (which reasserts the Java date issue), a neutral lower-third, or nothing? And should the optional vb-focus variant be used at 'why VB won the market', or does emphasising VB there read as announcing a winner?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Tiles kept as the script names them; Java 1.0 is accurate for the lineup even though it shipped January 1996, which the narration now says."
+      },
       "ticket": "XTRA-08",
       "evidence": "assets/stills/XTRA-08/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-08-Q5",
       "gate": "R15",
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "The vendor history names the 1995 product 'Delphi'; the script's 'Borland Delphi 1.0' adds the publisher name. Accept it as descriptive?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Tiles kept as the script names them; Java 1.0 is accurate for the lineup even though it shipped January 1996, which the narration now says."
+      },
       "ticket": "XTRA-08",
       "evidence": "assets/stills/XTRA-08/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-10-Q1",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "SCRIPT (Writing Lead): War/SCRIPT.md:702 states Microsoft released 'Visual Basic for Mac' in the early 90s, that it was terrible, abandoned quickly and disliked. Evidence contradicts the product's existence. Rewrite, narrow, or cut? The script is unchanged by this ticket.",
       "ticket": "XTRA-10",
-      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json"
+      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Text card approach approved by Devin earlier; narration rewritten around QuickBASIC."
+      }
     },
     {
       "id": "XTRA-10-Q2",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "VISUAL (producer): RESOLVED by editorial decision. Project owner approved composed text card approach (option a). Card produced showing 'Visual Basic for Mac: Product Not Found' with QuickBASIC for Mac as closest real product. No external images used.",
       "ticket": "XTRA-10",
-      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json"
+      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Text card approach approved by Devin earlier; narration rewritten around QuickBASIC."
+      }
     },
     {
       "id": "XTRA-10-Q3",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "VOICE (producer/Devin): If the line is rewritten around QuickBASIC or VBA, should the 'terrible / nobody liked it' judgment stay as the narrator's opinion, or be dropped since it was aimed at a product that did not exist?",
       "ticket": "XTRA-10",
-      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json"
+      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Text card approach approved by Devin earlier; narration rewritten around QuickBASIC."
+      }
     },
     {
       "id": "XTRA-10-Q4",
       "gate": null,
-      "status": "open",
+      "status": "resolved",
       "for": null,
       "question": "SCOPE (producer): R09 also covers SCRIPT.md:649-671 (CodeWarrior dominance, Mac Toolbox, Objective-C, ResEdit). XTRA-10 checked only lines 645-647. Which ticket owns the rest of R09?",
       "ticket": "XTRA-10",
-      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json"
+      "evidence": "assets/stills/XTRA-10/evidence/claim-checks.json",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Text card approach approved by Devin earlier; narration rewritten around QuickBASIC."
+      }
     },
     {
       "id": "XTRA-14-RQ1",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": "Devin (rights)",
       "question": "The collage can only be released if all three panels are cleared: XTRA-11 (Internet Archive capture of INVOICE-IT, no license: fair-use/commentary rationale, permission, or cut), XTRA-12-RQ1 (do Microsoft's screenshot guidelines cover this documentation figure, including its use in a collage with other screenshots?), and the XTRA-13 R14 question (permission request to the karenware.com operator, a recorded fair-use decision, or cut). If any panel is cut, the collage must be recomposed with a substitute or as two panels; do you want that fallback prepared?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Per-panel credits stay burned in as produced; in-image dates are not captioned and the collage variant is preferred in the edit."
+      },
       "ticket": "XTRA-14",
       "evidence": "assets/stills/XTRA-14/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-14-RQ2",
       "gate": "R11",
-      "status": "open",
+      "status": "resolved",
       "for": "Writing Lead / Devin (editorial)",
       "question": "The script frames the collage as real-world VB applications by 'people with problems' who were not programmers (War/SCRIPT.md:742, cue at 744). XTRA-12 is not that: it is a form generated by the VB6 Data Object Wizard and shown with sample data in Microsoft's own documentation. Is a Microsoft documentation sample acceptable as the 'data entry' panel, or should the project look for a user-built VB data-entry app (the upstream search found none with documented VB provenance; the VB3 Data Access Guide scan is borrow-only)? More broadly, none of the three panels is documented as made by an accountant, teacher or small-business owner (XTRA-11 is publisher shareware, XTRA-13 is by a magazine columnist). Keep the narration as illustrative color over these examples, or soften it?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Per-panel credits stay burned in as produced; in-image dates are not captioned and the collage variant is preferred in the edit."
+      },
       "ticket": "XTRA-14",
       "evidence": "assets/stills/XTRA-14/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-14-RQ3",
       "gate": "R11",
-      "status": "open",
+      "status": "resolved",
       "for": "Writing Lead / Devin (editorial)",
       "question": "The narration's setting is VB's early years, but the pictures are a 2016 emulator capture of a 1993 program (its Date field shows 02-27-2016), a December 1998 VB6 documentation figure, and a 2003 Windows XP capture of a 1999 VB6 utility (status bar 9/3/2003). No caption dates them. Are these acceptable under that paragraph, or should the edit avoid lingering where the in-image dates are legible (for example, prefer the collage over the focus variants)?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Per-panel credits stay burned in as produced; in-image dates are not captioned and the collage variant is preferred in the edit."
+      },
       "ticket": "XTRA-14",
       "evidence": "assets/stills/XTRA-14/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-14-RQ4",
       "gate": "R14",
-      "status": "open",
+      "status": "resolved",
       "for": "Devin (credits)",
       "question": "On-screen credits: (a) XTRA-11's credit drops the software year ('Eastern Digital Resources, 1993') on screen to avoid implying a 1993 capture. Accept, or restore the year in the video description only? (b) XTRA-13's credit is still 'proposed, not approved' upstream. (c) The Microsoft statement is shown as instructed, but it is accurate only if XTRA-12-RQ1 is accepted; if not, the line must come off. (d) Should per-panel credits stay burned into the picture, or move to the description, keeping only the Microsoft statement on screen, which the guidelines require?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "Devin (standing ruling)",
+        "resolved_at": "2026-09-15",
+        "decision": "Per-panel credits stay burned in as produced; in-image dates are not captioned and the collage variant is preferred in the edit."
+      },
       "ticket": "XTRA-14",
       "evidence": "assets/stills/XTRA-14/evidence/claim-checks.json"
     },
     {
       "id": "XTRA-14-RQ5",
       "gate": "R11",
-      "status": "open",
+      "status": "resolved",
       "for": "Devin (edit)",
       "question": "In the three-up collage, each screenshot is only about 1.0–1.3x its native size (the widest panel sets the common height), so the finest UI text is small at 720p; see qa.md for what stays readable. The optional focus variants enlarge one panel to about 1.7–2x. Use the collage as a brief hold and cut to focus variants while the narration names each kind of program, or hold only the collage?",
-      "resolution": null,
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Per-panel credits stay burned in as produced; in-image dates are not captioned and the collage variant is preferred in the edit."
+      },
       "ticket": "XTRA-14",
       "evidence": "assets/stills/XTRA-14/evidence/claim-checks.json"
     },

@@ -1,16 +1,17 @@
 {
   "id": "HIST-20",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Historical Screenshots worker (manager session vb-7a), branch ticket/HIST-20",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14 rights unresolved: screenshot author gives only informal permission (no licence); Microsoft's screenshot guidelines bar portions and third-party content, so compliance for the crop and the original is not established."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Acquired Internet Archive item solitiare-windows-95 (Matthew Paul Argall, 2024 capture of Windows 95 in VirtualBox); original preserved byte-identical in source/original.png.",
     "exports/editorial-frame.png is a reversible 2x nearest-neighbour crop of the Solitaire window on a neutral background; the host desktop's private content is excluded.",
-    "Review questions are recorded in qa.md and evidence/rights.json."
+    "Review questions are recorded in qa.md and evidence/rights.json.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

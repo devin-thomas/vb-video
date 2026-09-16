@@ -2,17 +2,17 @@
   "gates": [
     {
       "id": "R14",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/source.json",
         "evidence/rights.json",
         "evidence/candidates.json",
         "evidence/archive-records/youtube-CcbAC4qI9pQ_files.xml"
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Per-image record completed as R14 requires. Creator: unknown. File-specific terms: none (no license in the YouTube or Internet Archive metadata). Access method: public anonymous archive.org download, hashes verified. Credit text: drafted. The rights holder is unknown, so under R14 the rights stay blocked. No fair-use or public-domain assumption was made. This is handed to review as a rights question."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "claims": [

@@ -1,14 +1,15 @@
 {
   "id": "HIST-14",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "worker under Historical Screenshots Manager vb-7a",
   "updated_at": "2026-09-15",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Acquired Wikimedia Commons File:NEXT_Cube-IMG_7154.jpg (Rama & Musée Bolo, CC BY-SA 2.0 FR); editorial frame produced and inspected at 1080p, 1:1 and 720p.",
     "R14 worked but not cleared: review questions HIST-14-Q2 (share-alike) and HIST-14-Q3 (depicted design).",
-    "Script discrepancy for the Writing Lead: HIST-14-Q1 (NeXT left hardware in 1993; narration says it sold workstations in 1995)."
+    "Script discrepancy for the Writing Lead: HIST-14-Q1 (NeXT left hardware in 1993; narration says it sold workstations in 1995).",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

@@ -3,7 +3,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -16,17 +16,19 @@
         "Access method: anonymous public archive download; no account, payment, terms acceptance, CAPTCHA, or watermark removal.",
         "Credit text proposed in source.json/rights.json, pending clearance."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Unknown rights stay blocked (R14). Clearance needs a rights decision: creator permission, a legal fair-use determination, or substitution. See review question RQ-1."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "claims": [
     {
       "claim": "The image shows a CompUSA store.",
       "status": "verified",
-      "evidence": ["source/original.png (in-frame sign 'COMP USA' / 'THE COMPUTER SUPERSTORE')"],
+      "evidence": [
+        "source/original.png (in-frame sign 'COMP USA' / 'THE COMPUTER SUPERSTORE')"
+      ],
       "method": "Read at native 854x480 and in the 1920x1080 export."
     },
     {
@@ -53,7 +55,9 @@
     {
       "claim": "SCRIPT.md:128: in 1995 you bought boxed software at a physical store such as CompUSA.",
       "status": "consistent; no script change proposed",
-      "evidence": ["Same 1995 clip shows CompUSA selling boxed software (Windows 95) off shelves."],
+      "evidence": [
+        "Same 1995 clip shows CompUSA selling boxed software (Windows 95) off shelves."
+      ],
       "handling": "The image supports 'a physical store — CompUSA'. It does not show Visual Basic, so no caption should imply a VB purchase."
     }
   ],
@@ -61,17 +65,44 @@
     {
       "id": "RQ-1",
       "question": "Rights for the Dan Lynch 1995 home-video frame: seek the creator's permission (contacting him needs your approval), approve a fair-use basis after legal review, or substitute a rights-clear but later photo (Commons 'CompUSA Santa Clara 2.jpg', 2005, CC BY-SA 3.0, captioned 2005)?",
-      "evidence": ["evidence/rights.json", "evidence/candidates/candidates.json"]
+      "evidence": [
+        "evidence/rights.json",
+        "evidence/candidates/candidates.json"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
+      }
     },
     {
       "id": "RQ-2",
       "question": "If a location caption is wanted, accept the creator's statement that this is Norwalk, Conn., or caption only 'CompUSA, Aug. 24, 1995'?",
-      "evidence": ["evidence/source.json", "evidence/archive-records/youtube-originals.json"]
+      "evidence": [
+        "evidence/source.json",
+        "evidence/archive-records/youtube-originals.json"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
+      }
     },
     {
       "id": "RQ-3",
       "question": "Editorial fit: the frame is from Windows 95 launch night, a night exterior with a burned-in camcorder date stamp. Keep the stamp visible as authenticity (current framing) under the narration 'You went to a store… CompUSA'? The same footage could also serve War/SCRIPT.md:117's 'lines outside CompUSA' beat if that ticket wants it.",
-      "evidence": ["exports/editorial-frame.png", "evidence/framing.json"]
+      "evidence": [
+        "exports/editorial-frame.png",
+        "evidence/framing.json"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "id": "DIA-14",
   "title": "VB timeline: VB1 through VB.NET",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 663,
-      "sha256": "e0fd645cc4249befdb91280cee129849743ce9096d45e9fbec1b867ee61a6d04"
+      "bytes": 1171,
+      "sha256": "360b20f190bd8c0dffc4f815e206fd7ddd4e0c2af07dc65e1ea0f9faa4af73aa"
     },
     {
       "path": "evidence/provenance.json",
@@ -212,10 +212,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R15",
-    "R12"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -238,6 +235,7 @@
     "Feature callouts (VB3 and Jet, VB4 and 32-bit, VB6 as the last classic release, the VB.NET runtime change) are left off until verified.",
     "early-history spaces 1991–1998 in proportion to time. great-divide is schematic and says so; its break marks do not imply a period without development.",
     "No “today”, support or lifecycle label is shown (R12).",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

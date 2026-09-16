@@ -2,7 +2,7 @@
   "id": "CODE-07",
   "title": "NewHand initialization",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "provenance_type": "literal source-code illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 10,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 17,
-      "sha256": "aeecdc6900a2a6c7a40441af73030c93a8eee35192f48a499210fed7f71eb249"
+      "bytes": 18,
+      "sha256": "ed1be178bd7583e82fa8b292e38c589f4d0e2328015f78eaea7f99c79f803247"
     },
     {
       "path": "evidence/provenance.json",
@@ -282,6 +282,7 @@
     "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
     "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
     "All focus targets have individually timed holds.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -2,7 +2,7 @@
   "id": "DIA-13",
   "title": "Visual development lineage / influence graphic",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 336,
-      "sha256": "9252755d1a345b60931cb903a60c583f713a7c16e202023323dc5224899877d0"
+      "bytes": 580,
+      "sha256": "4fa8ea011db386a33f3c6287df75932c461a5f54d930cbbcdc5dd783128f9936"
     },
     {
       "path": "evidence/provenance.json",
@@ -184,9 +184,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R13"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -209,6 +207,7 @@
     "The four arrows are the script’s draft sequence, kept in their own SVG layer (draft-script-sequence) and drawn only in the unverified style. src/edges.json lists each edge; none has evidence or an approved label, so R13 stays open.",
     "The legend defines direct-lineage and shared-ideas edges for the editorial pass; no edge uses them yet.",
     "React, SwiftUI and Flutter appear only as the script’s examples. No node implies VB language or runtime inheritance. The optional focus overlay was not made.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

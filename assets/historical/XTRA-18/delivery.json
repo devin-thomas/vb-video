@@ -2,7 +2,7 @@
   "id": "XTRA-18",
   "title": "Period Windows Hearts screenshot",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (third-party archive screenshot of Microsoft software UI)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 5159,
-      "sha256": "83d5bb3dbba1b9628f6b470a6438f1cc87f236e7b0f6ab3027f413199cce7322"
+      "bytes": 5779,
+      "sha256": "be26e290a353888e94a2168bf0f540722be29906f592c766e07afa2d1ad16f3a"
     },
     {
       "path": "evidence/framing.json",
@@ -186,9 +186,7 @@
       "result": "see qa.md / worker report (run after this file is written)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "shell": "PowerShell 7.6.6; Git Bash for curl",
@@ -205,6 +203,7 @@
     "Script-only supplement (SCRIPT-SUPPLEMENT), not an original asset-plan row.",
     "Game version not visible in the capture; OS version from archive page label and period chrome.",
     "The asset makes no claim about Hearts' implementation language; see evidence/claim-checks.json (C2, RQ-2).",
-    "Release blocked under R14 pending review question RQ-1."
+    "Release blocked under R14 pending review question RQ-1.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Montage cue rewritten to 'bundled with Windows' (applied); Hearts capture accepted."
   ]
 }

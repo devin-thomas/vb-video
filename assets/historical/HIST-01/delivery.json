@@ -2,7 +2,7 @@
   "id": "HIST-01",
   "title": "VB 1.0 IDE",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source: third-party screenshot of Microsoft Visual Basic 1.0 for Windows (WinWorld), with reversible editorial framing",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 4989,
-      "sha256": "8117ac040633c0b81a5d1ed35fff9eaa7b283518f962c5871085cd105d4da907"
+      "bytes": 5676,
+      "sha256": "71b1c4ea234ffb1517d2c245883850b0290aef8969cf570c6b19d33008352e7e"
     },
     {
       "path": "evidence/provenance.json",
@@ -245,9 +245,7 @@
       "result": "see qa.md 'Validator output'"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -265,6 +263,7 @@
     "Capturer and capture date unknown; no licence for the screenshot. Release blocked under R14 (RQ-HIST01-1).",
     "Script visual direction says 'properties window'; VB 1.0 shows a properties bar (RQ-HIST01-2, Writing Lead). War/SCRIPT.md not edited.",
     "Internet Archive meta.xml saved with the uploader e-mail redacted; unredacted MD5 c2e15eb385fad6b2006ba7859a30e01e.",
-    "Produced is not release-approved; approval comes from the OPS-04 review deck."
+    "Produced is not release-approved; approval comes from the OPS-04 review deck.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

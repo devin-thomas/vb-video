@@ -2,7 +2,7 @@
   "id": "CODE-01",
   "title": "Options: explicit and strict",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "literal source-code illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 10,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 595,
-      "sha256": "e5dc14beb5fd9dcc76c7d7451105fccc5c24a1442beb2eef75dae350a0842e4b"
+      "bytes": 1128,
+      "sha256": "afb4285b16407a4f41467f389d27532d978427c878b343314d5aed2caaabd284"
     },
     {
       "path": "evidence/provenance.json",
@@ -254,10 +254,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R03",
-    "R17"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -279,6 +276,7 @@
     "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
     "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
     "All focus targets have individually timed holds.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

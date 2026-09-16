@@ -2,7 +2,7 @@
   "id": "HIST-08",
   "title": "Windows 95 launch footage still",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source: uncropped frame capture from an archival 1995 television news program (Internet Archive native MPEG-2 original)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 4578,
-      "sha256": "01c65f89848ad4c1b6e86a29e9481fba4575b73dcf983e64679dd6b2c78c35c4"
+      "bytes": 4130,
+      "sha256": "d73f3039c034339086cff7c2b65a833200ab6f46300fe6f6238b00016284d38e"
     },
     {
       "path": "evidence/provenance.json",
@@ -210,9 +210,7 @@
       "result": "see qa.md (actual output recorded)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -226,6 +224,7 @@
   "notes": [
     "Historical proof. Release blocked on R14 rights; see qa.md RQ-1..RQ-3.",
     "The full native MPEG-2 (1.99 GB) is not vendored. It is identified by IA-published md5/sha1 in evidence/source-page/CC1301_windows_95_files.xml.",
-    "No audio, AI-generated content, watermark removal, or added text."
+    "No audio, AI-generated content, watermark removal, or added text.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

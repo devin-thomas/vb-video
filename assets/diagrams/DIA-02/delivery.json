@@ -2,7 +2,7 @@
   "id": "DIA-02",
   "title": "War rules: shuffle, deal, flip, compare, collect",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 28,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "c7135913aed20b3af2670184ea6d248ee5350ccefaabccfe2a1d40b8037c721e"
+      "bytes": 562,
+      "sha256": "416016e42edf5a594e1ff57e628208390cef3e19d2ef18bd56c22be0623c96ee"
     },
     {
       "path": "evidence/provenance.json",
@@ -746,9 +746,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R05"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -770,6 +768,7 @@
     "Shuffle is an abstraction; dealing is alternating, one card at a time, with 52 counted transfers.",
     "Normal-round and single-war scenes reset to independent supplied fixtures.",
     "All count states conserve 52; the win-all-52 closing caption is a rule, not an alleged conclusion of the short example.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

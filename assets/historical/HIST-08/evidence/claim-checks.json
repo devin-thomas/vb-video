@@ -6,8 +6,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "The still is a frame from Computer Chronicles episode 'Windows 95' (CC1301), which the Internet Archive item describes as 'Copyright 1995 Stewart Cheifet Productions.' The English-language item carries no licenseurl or rights field. The French-language version (fr_cc190_windows_95) carries CC BY-NC-ND 2.0, but that license is on a different item, and its NonCommercial and NoDerivatives terms may not fit a published YouTube video or a pillarboxed editorial frame. The on-stage event imagery (Windows logo, Start staging) is Microsoft's event design, and the report may include Microsoft-supplied event video; that underlying ownership is not documented. Evidence cannot settle fair use or permission, so the gate stays open as a rights review question. Nothing was cleared.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence_paths": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -16,9 +16,10 @@
         "evidence/source-page/fr_cc190_windows_95_metadata.json",
         "evidence/source-excerpts.md"
       ],
-      "approver": null,
-      "decision": null,
-      "review_question": "RQ-1 (rights): see qa.md"
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "review_question": "RQ-1 (rights): see qa.md",
+      "approval_date": "2026-09-15"
     }
   ],
   "claims": [

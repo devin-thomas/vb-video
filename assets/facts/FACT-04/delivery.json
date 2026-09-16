@@ -2,7 +2,7 @@
   "id": "FACT-04",
   "title": "VB3 and the Jet database engine",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "f691452605b152212659db5056b676228484476784694d58bc4e56fe29df068f"
+      "bytes": 601,
+      "sha256": "acdf3edd7341e0718a56a317c0bae1d36cc36ca1871d42c23f7a35be4ad8dcaf"
     },
     {
       "path": "evidence/provenance.json",
@@ -184,9 +184,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -206,6 +204,7 @@
   },
   "notes": [
     "Face copy is taken from the supplied ticket. Historical claims, where assigned, remain producer-review gates; no verification is implied by this design.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

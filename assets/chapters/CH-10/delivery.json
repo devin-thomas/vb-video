@@ -2,7 +2,7 @@
   "id": "CH-10",
   "title": "Chapter 10: War! The Recursion Within the Loop",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 4,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "0db28df3c1fd3ea9da8b7efe2ff8c753aac92e80b9586f7a94babd49a78fbe9b"
+      "bytes": 760,
+      "sha256": "0d76fcbae739087c78a6842189ad69c5d2da346a4e29cb362ea42e10b5e42681"
     },
     {
       "path": "evidence/provenance.json",
@@ -242,9 +242,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R04"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -263,6 +261,7 @@
     "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
   },
   "notes": [
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Chapter title kept: the narration itself explains the loop; the heading is the author's joke about a war inside the round loop."
   ]
 }

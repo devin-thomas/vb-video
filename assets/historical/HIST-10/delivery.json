@@ -2,7 +2,7 @@
   "id": "HIST-10",
   "title": "Egghead Software storefront",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical original (third-party archival video frame)",
   "shared_version": "not_applicable (archival still; no shared template used)",
   "duration_seconds": null,
@@ -57,8 +57,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gates and claim checks",
-      "bytes": 2746,
-      "sha256": "bd5df7f6d7d0a6cea3cf3fed112ad8af699efaaad3fd45674234c8c67f3f3f67"
+      "bytes": 2642,
+      "sha256": "277925eb65798f6b5b3b5b303276b7212a4097f6e2373d699a0169fb288e67b7"
     },
     {
       "path": "evidence/source.json",
@@ -218,9 +218,7 @@
       "bad": {}
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -236,6 +234,7 @@
   "notes": [
     "Production produced as an archival proof; release blocked on R14 (rights holder unknown, no license).",
     "Place is not stated by any source and is not recorded. The date 1995-08-24 is the uploader's claim, partly corroborated.",
-    "state.json is live workflow state and is not in the output inventory."
+    "state.json is live workflow state and is not in the output inventory.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

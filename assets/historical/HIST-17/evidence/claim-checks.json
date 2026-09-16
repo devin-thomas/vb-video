@@ -2,8 +2,8 @@
   "gates": [
     {
       "id": "R14",
-      "status": "blocked",
-      "reason": "The archive capture and public availability are verified: the capture is dated 1996-10-22 17:56:12 GMT, and Wayback access needs no login. Per-image licensing is not: the page has a 1996 copyright notice (Scott A. Swedorski), the TUCOWS logo, and a third-party ConnectSoft banner, and no licence was found. The Internet Archive terms grant access for scholarship and research only. No fair-use or public-domain assumption is made. This is a legal-risk question that evidence cannot settle, so it goes to the review deck.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence_paths": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -11,7 +11,9 @@
         "evidence/acquisition-log.json"
       ],
       "review_question": "Can a 1996 TUCOWS home page capture from the Wayback Machine, with the TUCOWS logo and a third-party ConnectSoft banner ad, be shown for about 5 seconds as commentary in a monetized YouTube video without permission? If not, who should be asked (Tucows Inc. or another successor), or should the ad be obscured, or the shot dropped?",
-      "approver": null
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "claims": [
@@ -19,7 +21,10 @@
       "claim": "TUCOWS existed as a shareware download site circa 1996 (War/SCRIPT.md:652, sources/SCRIPT.md:595).",
       "status": "supported",
       "evidence": "www.tucows.com captured 1996-10-22 with the title 'The Ultimate Collection of Winsock Software' and a worldwide mirror list. Mirror tucows.idirect.com captured 1996-12-30 reads 'The UDDERLY INCREDIBLE SHAREWARE CENTER' with 'Software Listings for: Windows 95 | Windows 3.x | Macintosh'.",
-      "evidence_paths": ["source/original.html", "source/candidates/B-idirect-19961230/original.html"]
+      "evidence_paths": [
+        "source/original.html",
+        "source/candidates/B-idirect-19961230/original.html"
+      ]
     },
     {
       "claim": "The asset shows TUCOWS circa 1996.",

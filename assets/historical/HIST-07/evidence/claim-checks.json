@@ -5,9 +5,9 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "work_done": "Recorded the creator, file-specific license (CC BY-SA 4.0, taken from the file's own Commons page wikitext and API metadata), the exact version and hashes, the access method (anonymous public download, no account, terms, payment or CAPTCHA) and the credit text. The license is open and documented. Release clearance is not self-authorized. The ShareAlike obligation for the video and the embedded GPS metadata remain review questions.",
       "evidence": [
         "evidence/rights.json",
@@ -16,7 +16,13 @@
         "evidence/source-page/commons-imageinfo.json",
         "evidence/source-page/commons-file-page.html"
       ],
-      "review_questions": ["RQ-1", "RQ-2", "RQ-3"]
+      "review_questions": [
+        "RQ-1",
+        "RQ-2",
+        "RQ-3"
+      ],
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "content_claims": [
@@ -24,32 +30,46 @@
       "claim": "Identity: the image shows a TRS-80 at its BASIC prompt (ticket requirement 1).",
       "status": "verified",
       "evidence_summary": "The keyboard and Expansion Interface badges read 'Radio Shack TRS-80'. The screen's first lines read 'MEMORY SIZE?' (twice) / 'RADIO SHACK LEVEL II BASIC' / 'READY', which the Radio Shack Level II BASIC Reference Manual, 1st ed. (1978), documents as the power-up sequence (with 'MEMORY SIZE?' once). The lines that follow ('>?MEM', ' 31956', 'READY', '>_') are a typed command and its output, not power-up text. The Commons author description and category name the TRS-80 Model I.",
-      "evidence": ["evidence/source-excerpts.md", "evidence/source.json"]
+      "evidence": [
+        "evidence/source-excerpts.md",
+        "evidence/source.json"
+      ]
     },
     {
       "claim": "Model and software context: TRS-80 Model I with Level II BASIC in ROM.",
       "status": "verified_with_limits",
       "evidence_summary": "The Model I form factor (separate keyboard unit, Expansion Interface, 'VIDEO DISPLAY' monitor) and the 'RADIO SHACK LEVEL II BASIC' banner agree with the 1978 manual. The ROM revision is not identifiable from the screen and is recorded as unknown. The photo dates from 2019, not the period.",
-      "evidence": ["evidence/source-excerpts.md"]
+      "evidence": [
+        "evidence/source-excerpts.md"
+      ]
     },
     {
       "claim": "SCRIPT.md:73 'Your TRS-80 had BASIC.'",
       "status": "consistent",
       "evidence_summary": "Radio Shack's 1977 Model I Preliminary Users Manual describes Level I BASIC and says the screen should show READY at power-on. The 1978 Level II manual documents Level II BASIC. The narration line holds for the Model I. No script change is proposed.",
-      "evidence": ["evidence/source-excerpts.md"]
+      "evidence": [
+        "evidence/source-excerpts.md"
+      ]
     },
     {
       "claim": "SCRIPT.md:73 'When you turned on a home computer in 1982, you were usually staring at a BASIC prompt.'",
       "status": "not_contradicted_for_this_asset",
       "evidence_summary": "For the TRS-80 Model I (Level II, cassette or no-disk configuration) and the Model III (1980 manual), power-up lands in ROM BASIC. A disk-equipped Expansion Interface system could boot DOS instead. The broad 'usually' generalization across all home computers is outside this ticket's single-image scope and was not verified.",
-      "evidence": ["evidence/source-excerpts.md"]
+      "evidence": [
+        "evidence/source-excerpts.md"
+      ]
     },
     {
       "claim": "The visual depicts a boot screen (script cue: 'Boot screens ... all showing their BASIC prompts').",
       "status": "partially_supported",
       "evidence_summary": "Checked at 1:1 and 4x nearest-neighbour. The screen is a short session after power-up, not a clean boot screen. Only the first lines ('MEMORY SIZE?' twice, 'RADIO SHACK LEVEL II BASIC', 'READY') are documented power-up text; the 1978 manual shows 'MEMORY SIZE?' once. The following lines are not part of the documented power-up text: a typed command '>?MEM' (PRINT MEM), its result ' 31956', a second 'READY', and the '>_' cursor. The frame does show a BASIC prompt, which matches the cue's 'showing their BASIC prompts'. Whether it is acceptable as a 'boot screen' is an editorial question (RQ-6). An earlier record transcribed the command as '>MEM' and the caption said 'power-up prompt'. Both were corrected: the caption now reads 'TRS-80 Model I running Level II BASIC'.",
-      "evidence": ["evidence/source-excerpts.md", "evidence/source.json"],
-      "review_questions": ["RQ-6"]
+      "evidence": [
+        "evidence/source-excerpts.md",
+        "evidence/source.json"
+      ],
+      "review_questions": [
+        "RQ-6"
+      ]
     }
   ],
   "script_change_proposed": false

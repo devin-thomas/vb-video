@@ -2,7 +2,7 @@
   "id": "HIST-21",
   "title": "System 7 desktop",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (third-party CC BY-SA 4.0 photograph of vintage hardware and software)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gate and claim checks",
-      "bytes": 6519,
-      "sha256": "32ed4d9b855c0b8b74771d19a384e109789ccaa59eb410e76b1af96f5499c917"
+      "bytes": 7744,
+      "sha256": "2e88cc225e2be3ef1af51006735d7f3a0b4756bb891542b0bb78c951afe46429"
     },
     {
       "path": "evidence/framing.json",
@@ -246,9 +246,7 @@
       "result": "see qa.md and worker report (structure only)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200",
     "python": "3.14.0",
@@ -266,6 +264,7 @@
     "Photograph dated 2019-07-06; not a period 1990s photograph.",
     "Pictured software System 7.5.5 was released September 1996; the Classic II was sold 1991-1993 (Apple spec page).",
     "The working War/SCRIPT.md carries this brief under Section 15 (line 696); the frozen source places it in Section 14.",
-    "Review questions RQ-1 to RQ-5 are in evidence/claim-checks.json."
+    "Review questions RQ-1 to RQ-5 are in evidence/claim-checks.json.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). A Classic II on System 7.5.5 is close enough for 'System 7 desktop, the classic Mac OS look'."
   ]
 }

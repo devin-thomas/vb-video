@@ -2,7 +2,7 @@
   "id": "XTRA-01",
   "title": "Visual Basic Programmer's Journal cover",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3199,
-      "sha256": "11497243c47a25dae3abac1142f7371bce4a696f516dce7eb19960344c425938"
+      "bytes": 3625,
+      "sha256": "1971634a917859c0d73bb41a3ee30b7cb78d2a385a4f48513d6a7a37de281488"
     },
     {
       "path": "evidence/framing.json",
@@ -171,9 +171,7 @@
       "result": "run after bundling; see producer report"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -186,6 +184,7 @@
   "notes": [
     "Script supplement for SCRIPT.md:49 (SCRIPT-SUPPLEMENT); not an original asset-plan row.",
     "Release blocked: copyrighted cover, no license or permission; review questions XTRA-01-Q1 (rights route) and XTRA-01-Q2 (single cover vs plural cue).",
-    "Cover creator not identified in the issue; not guessed."
+    "Cover creator not identified in the issue; not guessed.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

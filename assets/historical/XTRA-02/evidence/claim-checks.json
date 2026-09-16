@@ -4,7 +4,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -16,10 +16,11 @@
         "Access was an anonymous public download of one leaf: no account, lending, payment, CAPTCHA, terms acceptance or watermark removal.",
         "Magazine publisher's 1996 legal entity was not established from a primary record."
       ],
-      "reason": "Third-party copyrighted advertisement with no licence on record. Clearance or a fair-use determination is a legal-risk judgement that evidence cannot settle.",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "review_question": "RQ-XTRA-02-1",
-      "decision": null,
-      "approver": null
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15"
     }
   ],
   "claims": [

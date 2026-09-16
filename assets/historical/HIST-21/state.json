@@ -1,17 +1,18 @@
 {
   "id": "HIST-21",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "HIST-21 worker (subagent of Historical Screenshots Manager, session vb-7a)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: the depicted Apple System 7.5.5 interface is not covered by the photo's CC BY-SA 4.0 license (RQ-1)",
     "R14: CC BY-SA 4.0 ShareAlike scope for the in-video frame is undecided (RQ-2)"
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Acquired Wikimedia Commons File:Mac_Classic_II_System_7-5-5.jpg (RetroEditor, CC BY-SA 4.0), a 2019 photograph of a Macintosh Classic II showing the System 7.5.5 Finder and About This Macintosh.",
     "Delivered source/original.jpg (byte-identical to Commons, SHA-1 verified) and exports/editorial-frame.png (uncropped, uniformly scaled, pillarboxed).",
-    "Review questions RQ-1 to RQ-5 are in evidence/claim-checks.json."
+    "Review questions RQ-1 to RQ-5 are in evidence/claim-checks.json.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

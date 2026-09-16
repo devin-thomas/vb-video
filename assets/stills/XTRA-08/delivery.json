@@ -2,7 +2,7 @@
   "id": "XTRA-08",
   "title": "1995 tools class-photo lineup",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 7433,
-      "sha256": "96958cd36ad54c05dc9919328819fc2a763e59fcc2edd427f64df030c8cc80c4"
+      "bytes": 9043,
+      "sha256": "f02bc7369aafb4e34b5dca1aeb0ff2ee9990d6477bff5e4053fa248f837c345b"
     },
     {
       "path": "evidence/provenance.json",
@@ -212,9 +212,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -240,6 +238,7 @@
     "Named variant lineup is the clean class photo (identical to the poster). Optional variant vb-focus adds a blue outline and accent strip to the Visual Basic 4 tile only; the other four tiles are unchanged and fully readable.",
     "Transition-compatible with DIA-11: same canvas, background #111318, panel #1b2027, text #f1f3f5, Liberation Sans, and 120-1800 px content band, with tools in the same order.",
     "Release stays blocked under R15 pending the review questions in evidence/claim-checks.json.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Tiles kept as the script names them; Java 1.0 is accurate for the lineup even though it shipped January 1996, which the narration now says."
   ]
 }

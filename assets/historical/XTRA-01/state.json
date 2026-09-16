@@ -1,16 +1,17 @@
 {
   "id": "XTRA-01",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "XTRA-01 worker (Archive Extras Manager, session vb-25)",
-  "updated_at": "2026-09-15T20:45:00Z",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14: Copyrighted Fawcette Technical Publications cover; no license or permission recorded; current rights holder unverified (review question XTRA-01-Q1)."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Genuine VBPJ March 1996 (Vol. 6, No. 3) cover acquired unmodified from the Internet Archive; identity verified from the printed date line on the scan.",
     "Editorial frame rendered locally (uniform scale, pillarbox, no crop or stretch); viewed at full size and 720p.",
-    "Script supplement for SCRIPT.md:49, not an original asset-plan row."
+    "Script supplement for SCRIPT.md:49, not an original asset-plan row.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

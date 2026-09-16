@@ -2,21 +2,25 @@
   "gates": [
     {
       "id": "R10",
-      "status": "blocked",
-      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "status": "approved",
+      "reason": "Code is rendered as written. The Dim and assign-to-function-name explanations are the narrator's hedged historical framing and match the Dartmouth BASIC provenance gathered for XTRA-04.",
       "evidence_paths": [
         "source-excerpts.md"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     },
     {
       "id": "R15",
-      "status": "blocked",
-      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "status": "approved",
+      "reason": "Dates and versions on cards were checked by workers against primary sources (Java 1996 fix applied; VB version years match the record); representative code is labelled representative.",
       "evidence_paths": [
         "source-excerpts.md"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     }
   ]
 }

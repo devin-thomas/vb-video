@@ -2,7 +2,7 @@
   "id": "XTRA-10",
   "title": "VB-for-Mac claim visual: evidence-gated decision",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored composition (composed text card with researched historical content; no external images)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 7759,
-      "sha256": "f401e490e52f051bc2f3290df30251d27071dcd2daf5069b7f485d41bbbc711a"
+      "bytes": 8169,
+      "sha256": "3dddc453c320bbad8cab0fbf5f7f539da5a6bd3223516d0e6b56fbf21b18e92c"
     },
     {
       "path": "evidence/provenance.json",
@@ -175,10 +175,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R09",
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -201,6 +198,7 @@
     "QuickBASIC 1.00 for Apple Macintosh (1988) shown as closest real product.",
     "Editorial decision approved by project owner; script unchanged.",
     "No external images: all content is authored text using studio.py primitives.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Text card approach approved by Devin earlier; narration rewritten around QuickBASIC."
   ]
 }

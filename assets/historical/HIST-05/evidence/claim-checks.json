@@ -4,8 +4,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "Worked: creator, file-specific license tags, access method, integrity and credit are recorded for the exact file. Rights clearance remains a legal judgement that evidence cannot settle. The public-domain basis rests on Commons tags, one of which (PD-US-1978-89) makes an unverified factual claim about the C64 firmware's publication. Handed to the review deck as a question, not auto-cleared.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence_paths": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -15,7 +15,9 @@
       "review_questions": [
         "Accept the Commons public-domain tagging as sufficient for this C64 start-up screen, or require a separate rights review or another source?"
       ],
-      "approver": null
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "content_checks": [
@@ -23,20 +25,27 @@
       "claim": "The image is a Commodore 64 (not VIC-20 or another Commodore model) BASIC boot screen.",
       "status": "verified",
       "evidence": "Image text reads '**** COMMODORE 64 BASIC V2 ****', '64K RAM SYSTEM  38911 BASIC BYTES FREE', 'READY.'. Wording and line order match the power-on screen on printed page 12 of the Commodore 64 User's Guide (Internet Archive commodore-64-user-guide, leaf n27).",
-      "evidence_paths": ["evidence/source-excerpts.md", "evidence/source.json"]
+      "evidence_paths": [
+        "evidence/source-excerpts.md",
+        "evidence/source.json"
+      ]
     },
     {
       "claim": "The image is an authentic, unaltered capture of real C64 output.",
       "status": "unresolved",
       "evidence": "Capture method undocumented ('Own work'). Two exact colours only (digital render). Screen area measures 320 x 203 px, 3 lines more than a 25-row, 200-line text screen, which indicates cropping, editing or an inaccurate emulator. Text and layout match the real screen.",
-      "evidence_paths": ["evidence/source.json"],
+      "evidence_paths": [
+        "evidence/source.json"
+      ],
       "review_question": "Is a community-uploaded digital render with an undocumented capture method (and a 3-line geometry anomaly) acceptable as the 'authentic' C64 boot screen, or should a photographed real-hardware screen or a documented emulator capture be sourced instead?"
     },
     {
       "claim": "SCRIPT.md:73 'Your Commodore 64 had BASIC.'",
       "status": "verified",
       "evidence": "The C64 User's Guide page 12 shows the machine starting directly into COMMODORE 64 BASIC V2 at power-on. No script change needed.",
-      "evidence_paths": ["evidence/source-excerpts.md"]
+      "evidence_paths": [
+        "evidence/source-excerpts.md"
+      ]
     },
     {
       "claim": "SCRIPT.md:73 'When you turned on a home computer in 1982, you were usually staring at a BASIC prompt.'",

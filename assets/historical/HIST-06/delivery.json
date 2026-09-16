@@ -2,7 +2,7 @@
   "id": "HIST-06",
   "title": "Apple II BASIC boot screen",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 4054,
-      "sha256": "dd76315dd4cb6a356b3fb66092db6719d348fd427b9bb23b9ca3cd75e0b37635"
+      "bytes": 4193,
+      "sha256": "5b737865df1b37ef3cf48ca6beb8f7625860a5a15f8b4a6ccfc9e97e8e0e6e59"
     },
     {
       "path": "evidence/framing.json",
@@ -258,9 +258,7 @@
       "proof_720": "Viewed proofs/editorial-frame-720.png (1280x720): every line, including CHR$ (7), readable."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -276,6 +274,7 @@
   "notes": [
     "Not a boot screen: shows the Applesoft ] prompt after a typed Hello World was run and listed. Label only as an Applesoft BASIC prompt on an Apple II-family text screen (model and emulator unknown).",
     "Title kept from the ticket for traceability; the ticket title is not a claim this asset supports.",
-    "Release blocked on R14 rights review; see qa.md for review questions and the optional boundary need."
+    "Release blocked on R14 rights review; see qa.md for review questions and the optional boundary need.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). The Applesoft image is a typed session showing the ] prompt, not a power-on screen; acceptable under the cue 'boot screens ... showing their BASIC prompts' because the prompt is the point of the montage."
   ]
 }

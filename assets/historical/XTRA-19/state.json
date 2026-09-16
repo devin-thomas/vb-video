@@ -1,17 +1,18 @@
 {
   "id": "XTRA-19",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "XTRA-19 worker (Archive Extras Manager, session vb-25)",
-  "updated_at": "2026-09-15T21:05:00Z",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14: Microsoft-copyrighted FreeCell/Tut's Tomb/Windows 3.x UI; screenshot capturer unidentified; no license or permission (review question XTRA-19-Q1)."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Genuine Microsoft FreeCell in Windows 3.x chrome (WinWorld 'Microsoft Entertainment Pack 2 - Cards'), acquired unmodified; identity read from the pixels.",
     "Editorial frame rendered locally (integer 2x nearest-neighbour, pillarbox, no crop or stretch); viewed at full size and 720p.",
     "Writing Lead question XTRA-19-Q2: SCRIPT cue calls these '90s shareware card games' and pairs FreeCell with 'Windows 3.1'; War/SCRIPT.md not edited.",
-    "Script supplement for SCRIPT.md:579, not an original asset-plan row."
+    "Script supplement for SCRIPT.md:579, not an original asset-plan row.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

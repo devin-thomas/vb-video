@@ -4,7 +4,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -19,10 +19,10 @@
         "Credit text recorded. No fair-use or public-domain assumption made.",
         "Public-domain fallbacks exist (Commons, 2006/2007, rights as stated by uploaders) but depict later Java versions."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Unknown/restricted rights stay blocked under R14. Seeking permission, a fair-use call, or substituting a later-era public-domain image is a reviewer decision.",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "review_question": "The only period-authentic AWT screenshot found is © 1995 Sun (now Oracle), all rights reserved. Choose one: (a) use it under a documented fair-use decision, (b) request permission from Oracle, or (c) use the public-domain Commons fallback AWT_at_Linux.png (2007, Java 5, Linux) with narration/credit not implying it is from 1995."
     }
   ],
@@ -30,7 +30,10 @@
     {
       "claim": "The image shows a genuine AWT application, not Swing/JavaFX",
       "status": "verified",
-      "evidence": ["evidence/source-pages/princeton-spring96/GUIWindow.java", "evidence/source-pages/princeton-spring96/components.html"],
+      "evidence": [
+        "evidence/source-pages/princeton-spring96/GUIWindow.java",
+        "evidence/source-pages/princeton-spring96/components.html"
+      ],
       "note": "GUIWindow extends java.awt.Frame; title \"The AWT Components\"; only java.awt components. Swing did not exist until 1997-98."
     },
     {
@@ -45,7 +48,9 @@
     {
       "claim": "Platform of the capture",
       "status": "unknown",
-      "evidence": ["evidence/source-pages/princeton-spring96/components.html"],
+      "evidence": [
+        "evidence/source-pages/princeton-spring96/components.html"
+      ],
       "note": "Looks like X11/Motif, but that is not asserted. The page's 'Solaris Applet Viewer' sentence refers only to FileDialog.gif."
     }
   ],

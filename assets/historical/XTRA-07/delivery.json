@@ -2,7 +2,7 @@
   "id": "XTRA-07",
   "title": "Visual Basic 4 installation media",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (acquired archival scan) with reversible editorial framing",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 5474,
-      "sha256": "6500cfdaa7ccbb6e98e69f587acb76f86991e5b413452f98d56e7dd4d7f2752d"
+      "bytes": 6448,
+      "sha256": "17737a0c6d82aae8cdcfd06197bdc46709bf9cbe434a546c21686c08a245b80c"
     },
     {
       "path": "evidence/framing.json",
@@ -226,9 +226,7 @@
       "note": "Verbatim stdout of the first validator run; the validator was re-run after this file was added and delivery.json rebuilt."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "shell": "PowerShell 7.6.6",
@@ -245,6 +243,7 @@
   "notes": [
     "Subject read from the disc: Microsoft Visual Basic Enterprise Edition, Version 4.0, CD-ROM, Part No. 69944, print code 0296. Bitness not printed.",
     "Distinct from HIST-11 (retail box). Jewel-case scans were inspected for identity only and are not delivered.",
-    "Review questions RQ-XTRA-07-1..3 in evidence/claim-checks.json. Release stays blocked until a recorded rights decision."
+    "Review questions RQ-XTRA-07-1..3 in evidence/claim-checks.json. Release stays blocked until a recorded rights decision.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

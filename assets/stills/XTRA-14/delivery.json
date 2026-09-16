@@ -2,7 +2,7 @@
   "id": "XTRA-14",
   "title": "Real-world VB application collage",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "derivative composition of historical sources (three upstream archive screenshots, whole and uniformly scaled, with authored labels, frames and credits)",
   "shared_version": "win95-workbench-1.0.0 (tools/render/studio.py colour tokens and text primitives)",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence",
-      "bytes": 12347,
-      "sha256": "f07e4cbfbb29f0ab46067ced664e544f4efcb4fa68d02cb7592e1505f671a8f2"
+      "bytes": 14245,
+      "sha256": "9b8b03a7c32db16b2b5fc6c99cc4f4c31affe8af78d28aa8e6b3d5541276ea12"
     },
     {
       "path": "evidence/placement-checks.json",
@@ -444,10 +444,7 @@
       "result": "see qa.md (verbatim output of the run after this inventory was written)"
     }
   ],
-  "unresolved_gates": [
-    "R11",
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -485,7 +482,8 @@
     "Optional focus variants enlarge one panel and keep the other two whole, reduced and credited.",
     "Release stays blocked under R11 and R14 until the review deck decides; internal proof only.",
     "Upstream status at use: XTRA-11 production produced, release blocked; XTRA-12 production produced, release blocked; XTRA-13 production produced, release blocked.",
-    "Internal proof only: not placed in any cleared-media bin. Review questions XTRA-14-RQ1..RQ5 in evidence/claim-checks.json."
+    "Internal proof only: not placed in any cleared-media bin. Review questions XTRA-14-RQ1..RQ5 in evidence/claim-checks.json.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Per-panel credits stay burned in as produced; in-image dates are not captioned and the collage variant is preferred in the edit."
   ],
   "panel_map": {
     "coordinates": "pixels, origin top-left of the 1920x1080 export; x/y/w/h is the exact placed image rectangle",

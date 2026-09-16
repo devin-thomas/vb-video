@@ -2,17 +2,17 @@
   "gates": [
     {
       "id": "R14",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/source.json",
         "evidence/rights.json",
         "evidence/source-excerpts.md"
       ],
       "checked": "Creator/rights holder, file-specific terms, access method and credit recorded. Creator unknown; no license; textfiles.com disclaims ownership but grants nothing. Access was a plain public HTTP GET with no account, payment, CAPTCHA, terms, or watermark issues.",
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Rights unresolved: no license or permission from a rights holder. Kept release-blocked and handed to the review deck as a legal-risk question."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "script_claims": {
@@ -63,15 +63,33 @@
   "review_questions": [
     {
       "to": "Devin (legal risk / publication)",
-      "question": "Clear or reject use of the typeset 1992 Access System BBS catalog excerpt, given unknown creator and no license (see evidence/rights.json)."
+      "question": "Clear or reject use of the typeset 1992 Access System BBS catalog excerpt, given unknown creator and no license (see evidence/rights.json).",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
+      }
     },
     {
       "to": "Writing Lead",
-      "question": "War/SCRIPT.md:654 figures do not reconcile: the VB3 runtime makes a 200 KB game about 0.4-0.6 MB, not 1.5 MB, and 1.5 MB at 14.4k is about 14-17 minutes, not nearly ten. Proposed fix (option A, keeps VBRUN300): \"...which could turn a 200-kilobyte game into a download two or three times that size. On a 14.4 modem, that's another four or five minutes of waiting. For a card game.\" Option B (keeps the big numbers, VB4 16-bit runtime): \"...which could turn a 200-kilobyte game into a download of more than a megabyte. On a 14.4 modem, that's over ten minutes of downloading. For a card game.\" Keep the progress-bar mockup at line 854 consistent with whichever is chosen."
+      "question": "War/SCRIPT.md:654 figures do not reconcile: the VB3 runtime makes a 200 KB game about 0.4-0.6 MB, not 1.5 MB, and 1.5 MB at 14.4k is about 14-17 minutes, not nearly ten. Proposed fix (option A, keeps VBRUN300): \"...which could turn a 200-kilobyte game into a download two or three times that size. On a 14.4 modem, that's another four or five minutes of waiting. For a card game.\" Option B (keeps the big numbers, VB4 16-bit runtime): \"...which could turn a 200-kilobyte game into a download of more than a megabyte. On a 14.4 modem, that's over ten minutes of downloading. For a card game.\" Keep the progress-bar mockup at line 854 consistent with whichever is chosen.",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
+      }
     },
     {
       "to": "Writing Lead / Devin (editorial)",
-      "question": "The best dated board listing found is from September 1992 and shows VBRUN.ZIP, a pre-VB3 runtime, while the narration names VBRUN300.DLL in a VB4-era story. Is a 1992 listing acceptable under \"maybe a BBS file listing\", with a caption that does not mention VBRUN300? No textfiles.com board listing mentions VBRUN300; the VBRUN300 mentions found are on 1994-95 shareware CD-ROM FILES.BBS listings, which are not live boards."
+      "question": "The best dated board listing found is from September 1992 and shows VBRUN.ZIP, a pre-VB3 runtime, while the narration names VBRUN300.DLL in a VB4-era story. Is a 1992 listing acceptable under \"maybe a BBS file listing\", with a caption that does not mention VBRUN300? No textfiles.com board listing mentions VBRUN300; the VBRUN300 mentions found are on 1994-95 shareware CD-ROM FILES.BBS listings, which are not live boards.",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "1992 BBS listing accepted under 'maybe a BBS file listing'; no VBRUN300 caption."
+      }
     }
   ]
 }

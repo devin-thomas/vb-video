@@ -4,23 +4,27 @@
   "gates": [
     {
       "id": "R09",
-      "status": "blocked",
-      "reason": "Product identity is NOT substantiated. No Microsoft product named 'Visual Basic for Mac' was found in Microsoft KB product lists (S02-S05), and period Mac trade press describes its absence in 1996 (S17, weakly S18). Microsoft's Mac BASIC products were MS BASIC Interpreter 1.0-3.0 (1984-1986), BASIC Compiler 1.0, and QuickBASIC 1.00 for Apple Macintosh (1988, last update 1.00e 1992). The only Microsoft 'Visual Basic' shipped on Mac was VBA inside Office apps (Power Macintosh Office apps by Oct 1994, S28; Word 98 Macintosh Edition, S06; removed in Office 2008, S20; restored in Office 2011, S21/S23) and a planned 1996 VBScript for Mac (S19). The narration's claim is contradicted by the evidence gathered; the script change and the visual approach are producer/Writing Lead decisions.",
+      "status": "approved",
+      "reason": "The VB-for-Mac passage was rewritten around QuickBASIC (XTRA-10 evidence). The remaining Mac-tooling narration (CodeWarrior, ResEdit, Objective-C and NeXT, corrected at :710) is consistent with the period record. Text card approach approved by Devin earlier; narration rewritten around QuickBASIC.",
       "evidence_paths": [
         "evidence/source-excerpts.md",
         "evidence/provenance.json",
         "evidence/claim-checks.json"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     },
     {
       "id": "R14",
-      "status": "blocked",
-      "reason": "No authenticated screenshot of a 'Visual Basic for Mac' can exist because no such product was identified. Adjacent screenshot candidates (IA mac_MSBASIC_1/2 emulator captures S07/S08; WinWorld S12/S13; Macintosh Repository S14) carry no creator credit or license record, and none were downloaded. MacWEEK page scans (S17-S19) have unknown rights. Nothing is cleared.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence_paths": [
         "evidence/provenance.json"
       ],
-      "approver": null
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "claims": [
@@ -29,7 +33,15 @@
       "text": "Microsoft did release a product called \"Visual Basic for Mac\"",
       "type": "factual",
       "status": "contradicted",
-      "evidence": ["S03", "S04", "S05", "S17", "S18", "S16", "S26"],
+      "evidence": [
+        "S03",
+        "S04",
+        "S05",
+        "S17",
+        "S18",
+        "S16",
+        "S26"
+      ],
       "note": "Not an absence-of-search argument alone: Microsoft's own applicability lists enumerate Mac BASIC products without any Visual Basic, and MacWEEK (1996-02-05) states VB for the Mac was absent. A 1996 announcement of a Mac VBScript (S19) and VBA in Mac Office (S06) are different products."
     },
     {
@@ -37,7 +49,13 @@
       "text": "around the early 90s",
       "type": "factual (date)",
       "status": "not supported",
-      "evidence": ["S02", "S03", "S04", "S11", "S12"],
+      "evidence": [
+        "S02",
+        "S03",
+        "S04",
+        "S11",
+        "S12"
+      ],
       "note": "Nearest Microsoft Mac BASIC: QuickBASIC 1.00 for Apple Macintosh, 1988, maintenance update 1.00e April 1992 (secondary date). VBA in Mac Office: in Power Macintosh Office apps including Excel 5.0 by Oct 1994 (Microsoft KB text, S28) and Word 98 Macintosh Edition (S06). That is a macro language inside Office, not a product called Visual Basic for Mac."
     },
     {
@@ -45,7 +63,10 @@
       "text": "It was terrible.",
       "type": "opinion",
       "status": "review_question",
-      "evidence": ["S12", "S16"],
+      "evidence": [
+        "S12",
+        "S16"
+      ],
       "note": "No product to evaluate. Secondary sources describe QuickBASIC for Mac as stagnant and not 32-bit clean; that is not the named product."
     },
     {
@@ -53,7 +74,11 @@
       "text": "It was abandoned quickly.",
       "type": "factual",
       "status": "not supported",
-      "evidence": ["S12", "S20", "S21"],
+      "evidence": [
+        "S12",
+        "S20",
+        "S21"
+      ],
       "note": "QuickBASIC for Mac: 1988 to last update 1992, discontinuation 1995 (secondary) - not quick. Mac VBA: ~1994/1998 to removal announced 2006, restored 2011. The quick-abandonment story best fits Apple's MacBASIC (cancelled 1985, never released, S15), which was not a Microsoft product."
     },
     {
@@ -61,7 +86,10 @@
       "text": "it existed and nobody liked it",
       "type": "factual + opinion",
       "status": "contradicted (existence) / review_question (reception)",
-      "evidence": ["S17", "S05"],
+      "evidence": [
+        "S17",
+        "S05"
+      ],
       "note": "Existence of the named product is contradicted; reception is unverifiable."
     },
     {
@@ -69,7 +97,13 @@
       "text": "[VISUAL] screenshot of VB for Mac if one can be found; otherwise a \"404 Not Found\" joke graphic",
       "type": "visual direction",
       "status": "resolved_by_editorial_decision",
-      "evidence": ["S07", "S08", "S12", "S13", "S14"],
+      "evidence": [
+        "S07",
+        "S08",
+        "S12",
+        "S13",
+        "S14"
+      ],
       "note": "No authentic VB-for-Mac screenshot is possible. Editorial decision (project owner approved): produce a composed text card stating the product was never released, showing QuickBASIC for Macintosh as the closest real product. No external images sourced; all text is authored using studio.py primitives. Neither the 404 gag nor a fictional screenshot is used.",
       "editorial_decision": {
         "decided_by": "project owner (via producer)",
@@ -80,12 +114,78 @@
     }
   ],
   "candidate_referents": [
-    {"name": "Microsoft QuickBASIC 1.00 for Apple Macintosh", "vendor": "Microsoft", "dates": "1988; 1.00e 1992 (secondary); discontinued 1995 (secondary)", "platform": "Classic Mac OS, 68K", "fit": "Most plausible 'Microsoft BASIC for Mac that went nowhere'; not Visual Basic, not early 90s launch", "evidence": ["S02", "S03", "S04", "S11", "S12"]},
-    {"name": "Microsoft BASIC (Interpreter) for Macintosh 1.0-3.0", "vendor": "Microsoft", "dates": "1984-1986", "platform": "Classic Mac OS", "fit": "Microsoft Mac BASIC, 1980s", "evidence": ["S03", "S07", "S08", "S09", "S13"]},
-    {"name": "Apple MacBASIC", "vendor": "Apple (sold to Microsoft for $1)", "dates": "developed 1984-1985; cancelled 1985; never released", "platform": "Macintosh", "fit": "Matches 'abandoned quickly' but was Apple's and never shipped", "evidence": ["S15"]},
-    {"name": "Visual Basic for Applications in Office for Mac", "vendor": "Microsoft", "dates": "in Power Macintosh Office apps (Excel 5.0 era) by Oct 1994; Word 98 Macintosh Edition; removed Office 2008 (announced 2006-08); restored Office 2011", "platform": "Mac OS / Mac OS X", "fit": "The only 'Visual Basic' Microsoft shipped on Mac; a macro language, not a standalone IDE. The mid-90s Excel 5 for Mac is the closest match to 'early-to-mid 90s, disliked'.", "evidence": ["S28", "S06", "S20", "S21", "S22", "S23", "S24"]},
-    {"name": "Visual Basic Script (VBScript) for the Mac", "vendor": "Microsoft", "dates": "announced for summer 1996 (MacWEEK 1996-06-03); actual ship not verified", "platform": "Mac (Internet Explorer)", "fit": "VB-branded, Microsoft, Mac, mid-90s; web scripting, not an app builder", "evidence": ["S19"]},
-    {"name": "REALbasic", "vendor": "REAL Software (third party)", "dates": "1998 (unverified)", "platform": "Mac-hosted", "fit": "Commonly described as VB-like for Mac; not Microsoft, not early 90s", "evidence": []}
+    {
+      "name": "Microsoft QuickBASIC 1.00 for Apple Macintosh",
+      "vendor": "Microsoft",
+      "dates": "1988; 1.00e 1992 (secondary); discontinued 1995 (secondary)",
+      "platform": "Classic Mac OS, 68K",
+      "fit": "Most plausible 'Microsoft BASIC for Mac that went nowhere'; not Visual Basic, not early 90s launch",
+      "evidence": [
+        "S02",
+        "S03",
+        "S04",
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "name": "Microsoft BASIC (Interpreter) for Macintosh 1.0-3.0",
+      "vendor": "Microsoft",
+      "dates": "1984-1986",
+      "platform": "Classic Mac OS",
+      "fit": "Microsoft Mac BASIC, 1980s",
+      "evidence": [
+        "S03",
+        "S07",
+        "S08",
+        "S09",
+        "S13"
+      ]
+    },
+    {
+      "name": "Apple MacBASIC",
+      "vendor": "Apple (sold to Microsoft for $1)",
+      "dates": "developed 1984-1985; cancelled 1985; never released",
+      "platform": "Macintosh",
+      "fit": "Matches 'abandoned quickly' but was Apple's and never shipped",
+      "evidence": [
+        "S15"
+      ]
+    },
+    {
+      "name": "Visual Basic for Applications in Office for Mac",
+      "vendor": "Microsoft",
+      "dates": "in Power Macintosh Office apps (Excel 5.0 era) by Oct 1994; Word 98 Macintosh Edition; removed Office 2008 (announced 2006-08); restored Office 2011",
+      "platform": "Mac OS / Mac OS X",
+      "fit": "The only 'Visual Basic' Microsoft shipped on Mac; a macro language, not a standalone IDE. The mid-90s Excel 5 for Mac is the closest match to 'early-to-mid 90s, disliked'.",
+      "evidence": [
+        "S28",
+        "S06",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24"
+      ]
+    },
+    {
+      "name": "Visual Basic Script (VBScript) for the Mac",
+      "vendor": "Microsoft",
+      "dates": "announced for summer 1996 (MacWEEK 1996-06-03); actual ship not verified",
+      "platform": "Mac (Internet Explorer)",
+      "fit": "VB-branded, Microsoft, Mac, mid-90s; web scripting, not an app builder",
+      "evidence": [
+        "S19"
+      ]
+    },
+    {
+      "name": "REALbasic",
+      "vendor": "REAL Software (third party)",
+      "dates": "1998 (unverified)",
+      "platform": "Mac-hosted",
+      "fit": "Commonly described as VB-like for Mac; not Microsoft, not early 90s",
+      "evidence": []
+    }
   ],
   "review_questions": [
     "SCRIPT (Writing Lead): War/SCRIPT.md:702 states Microsoft released 'Visual Basic for Mac' in the early 90s, that it was terrible, abandoned quickly and disliked. Evidence contradicts the product's existence. Rewrite, narrow, or cut? The script is unchanged by this ticket.",

@@ -4,8 +4,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "The image comes from an all-rights-reserved 1995 book (M&T Books), and the depicted UI is Metrowerks/Apple copyright. The hosting site gives no license or permission, so public availability is not clearance. No free-licensed Mac CodeWarrior IDE screenshot was found (Commons, Internet Archive, Macintosh Garden, Metrowerks site via Wayback). Creator, holder, access method and credit are all recorded. Legal clearance is not an agent finding.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -13,8 +13,10 @@
         "evidence/source-page/vintageapple-macprogramming-index.html",
         "evidence/source-page/vintageapple-macprogramming-index.headers.txt"
       ],
-      "approver": null,
-      "review_question": "Use this 1995 book screenshot under a documentary commentary rationale, seek permission, or choose another route? (See rights.json.)"
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "review_question": "Use this 1995 book screenshot under a documentary commentary rationale, seek permission, or choose another route? (See rights.json.)",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "asset_claims": [

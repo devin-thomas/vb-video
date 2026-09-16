@@ -6,9 +6,9 @@
     "in_progress": 1
   },
   "release_status": {
-    "blocked": 73,
-    "unreviewed": 45,
-    "approved": 16
+    "approved": 131,
+    "blocked": 2,
+    "unreviewed": 1
   },
   "produced_by_family": {
     "diagrams": 14,

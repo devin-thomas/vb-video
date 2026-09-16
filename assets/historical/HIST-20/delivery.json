@@ -2,7 +2,7 @@
   "id": "HIST-20",
   "title": "Windows 95 Solitaire",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (archival third-party screenshot; 2024 emulated capture of Windows 95 software)",
   "shared_version": "not consumed (archive still; uses production-bible background token and safe area only)",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 2615,
-      "sha256": "c61a38422d0285f1e0139f03a593452f16ce916c524fa1b0eb66c00e1362dd98"
+      "bytes": 2680,
+      "sha256": "a51791b1bd8ddc97dd859b29aed384d73e79e870184c718b21b005ddf1f5d38c"
     },
     {
       "path": "evidence/proof-720p.png",
@@ -212,9 +212,7 @@
       "output": "{\"id\": \"HIST-20\", \"ok\": true, \"errors\": []} (2026-09-15; limitations: no OCR/visual/legal clearance)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -224,6 +222,7 @@
   },
   "notes": [
     "Release blocked on R14 rights review; see evidence/rights.json and qa.md review questions.",
-    "Image is a 2024 VirtualBox capture of Windows 95, not a 1995 period screenshot; exact build not determinable."
+    "Image is a 2024 VirtualBox capture of Windows 95, not a 1995 period screenshot; exact build not determinable.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -2,7 +2,7 @@
   "id": "HIST-03",
   "title": "VB 6.0 IDE",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (Microsoft documentation figure) with resize-only editorial framing",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -57,8 +57,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 2594,
-      "sha256": "f0e1595a3121faf77465f266b857a89e0ae9ac3d90c432113ef3c98b7c73695e"
+      "bytes": 2792,
+      "sha256": "1af73a14f975185ad4f6af3c0ac57214826fe6b86bd9322baaa1ab471d7bc6da"
     },
     {
       "path": "evidence/pages/aa242109.html",
@@ -240,9 +240,7 @@
       "result": "see qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -254,6 +252,7 @@
   "notes": [
     "Historical proof with unresolved rights. Release is blocked until the R14 rights review is recorded.",
     "Microsoft's in-figure callouts are original to the source and retained.",
-    "VB6 identity rests on publication in Microsoft's VB6 documentation. Pixel capture version (6.0 vs reused 5.0 art) is not proven; see evidence/source.json identity_limits."
+    "VB6 identity rests on publication in Microsoft's VB6 documentation. Pixel capture version (6.0 vs reused 5.0 art) is not proven; see evidence/source.json identity_limits.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

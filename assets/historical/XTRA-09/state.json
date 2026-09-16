@@ -1,17 +1,18 @@
 {
   "id": "XTRA-09",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "XTRA-09 worker (Archive Extras Manager, vb-25)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: rights unverified — Commons records CC BY 4.0 (author Akbkuku, no license review); the upstream Tech Tangents wiki states only 'Creative Commons Attribution' with no version. Review questions RQ-XTRA09-1 and RQ-XTRA09-2."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Macintosh Performa 630CD (Apple model M3076, introduced 1994-07-01 per Apple Support 112345), photographed between 2013-10-17 and 2023-07-04; the EXIF date is wrong.",
     "Source: https://commons.wikimedia.org/wiki/File:Apple-macintosh-performa-630cd.jpg, accessed 2026-09-15.",
     "Editorial-frame export produced and viewed at 1080p and 720p; the release gate stays blocked until the review deck.",
-    "RQ-XTRA09-3 (editorial): the pictured machine is a 1994 model for a narration line set in 1995."
+    "RQ-XTRA09-3 (editorial): the pictured machine is a 1994 model for a narration line set in 1995.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

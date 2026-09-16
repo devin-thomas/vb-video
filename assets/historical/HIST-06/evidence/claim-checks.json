@@ -4,7 +4,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -14,10 +14,10 @@
         "evidence/source-page/wayback-cdx-image.json"
       ],
       "work_done": "Recorded the file-specific terms from the file page and the API: PD-self and Free screenshot with an empty license parameter. Also recorded the uploader, the empty Author field, the access method (anonymous, no terms or account), the credit text, the single file version, and Wayback corroboration that these bytes have been public since 2012. The plan's 'likely public domain' assumption was not relied on.",
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Rights are labelled but not cleared. The PD-self claim comes from an uploader with no stated author, and whether Applesoft text output and Apple II glyphs are copyright-eligible is a legal question. Handed to review; it is not self-cleared.",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "review_question": "May the video use this Commons PD-self text-mode screenshot of Applesoft BASIC, credited as in evidence/rights.json, without further clearance?"
     }
   ],
@@ -26,14 +26,20 @@
       "claim": "The image shows the Applesoft BASIC prompt.",
       "where": "Asset label; SCRIPT.md:73 'Your Apple II had Applesoft BASIC.'",
       "status": "verified",
-      "evidence": ["evidence/source-excerpts.md#3-prompt-characters", "evidence/source-excerpts.md#4-statements-on-screen"],
+      "evidence": [
+        "evidence/source-excerpts.md#3-prompt-characters",
+        "evidence/source-excerpts.md#4-statements-on-screen"
+      ],
       "finding": "Apple's manuals define ] as the Applesoft prompt (> is Integer BASIC, * is the Monitor). The image shows ] and runs HOME, INVERSE and NORMAL, which the Applesoft manual documents."
     },
     {
       "claim": "The image is an Apple II boot screen (ticket title; visual note at SCRIPT.md:75, 'Boot screens ... all showing their BASIC prompts').",
       "where": "Ticket title and visual brief",
       "status": "not_supported",
-      "evidence": ["evidence/source.json", "evidence/source-excerpts.md#5-what-a-cold-start-shows"],
+      "evidence": [
+        "evidence/source.json",
+        "evidence/source-excerpts.md#5-what-a-cold-start-shows"
+      ],
       "finding": "The screen shows a program listing after RUN and LIST, not the power-on state. An Autostart ROM cold start shows a machine-name banner top centre (manual OCR reads 'APPLE II'); no banner is present. The asset is labelled as an Applesoft prompt, not a boot screen.",
       "review_question": "Does the montage accept an Applesoft ] prompt screen (typed Hello World) for the Apple II tile, or does it need a true power-on screen? A true one needs a new capture; see the boundary need."
     },
@@ -41,14 +47,18 @@
       "claim": "A specific Apple II model or ROM is shown.",
       "where": "Ticket requirement 1",
       "status": "not_established",
-      "evidence": ["evidence/source.json"],
+      "evidence": [
+        "evidence/source.json"
+      ],
       "finding": "Nothing on screen or on the file page identifies the model, ROM revision, or emulator. The raster is consistent with emulator output, but that is appearance, not evidence. No model name is used."
     },
     {
       "claim": "'Your Apple II had Applesoft BASIC.' (SCRIPT.md:73)",
       "where": "Narration",
       "status": "qualified",
-      "evidence": ["evidence/source-excerpts.md#6-which-apple-ii-had-applesoft-in-rom"],
+      "evidence": [
+        "evidence/source-excerpts.md#6-which-apple-ii-had-applesoft-in-rom"
+      ],
       "finding": "True of the Apple II Plus, which has Applesoft II in ROM in place of Integer BASIC. The original Apple II shipped with Integer BASIC in ROM, with Applesoft on cassette, disk, or a firmware card. By 1981 most Apples in use were II Plus machines. The sentence is defensible for the family in the early 1980s but not for every Apple II.",
       "script_change_made": false,
       "review_question": "Writing Lead (optional, low priority): keep 'Your Apple II had Applesoft BASIC', or tighten it to 'Your Apple II Plus had Applesoft BASIC'? Evidence supports either for a 1982 frame; no edit was made."

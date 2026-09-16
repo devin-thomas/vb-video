@@ -2,7 +2,7 @@
   "id": "XTRA-19",
   "title": "Period Windows FreeCell screenshot",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 7383,
-      "sha256": "c106007af96fe91d0b21883eb1f1a2e48f5ff59172e6a057cceefd1c2928892e"
+      "bytes": 7857,
+      "sha256": "01634b9bd5fe7a0518a5186d4b79b8ce90822e825cfd3989845a0a6d49acb526"
     },
     {
       "path": "evidence/framing.json",
@@ -175,9 +175,7 @@
       "result": "passed: {\"id\": \"XTRA-19\", \"ok\": true, \"errors\": []} (run 2026-09-15 after bundling)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -189,6 +187,7 @@
   "notes": [
     "Script supplement for SCRIPT.md:579 (SCRIPT-SUPPLEMENT); not an original asset-plan row.",
     "Release blocked: Microsoft-copyrighted UI, unidentified capturer, no license. Review questions XTRA-19-Q1 (rights), XTRA-19-Q2 (Writing Lead: cue wording 'shareware' / 'Windows 3.1'), XTRA-19-Q3 (overlapping-window composition vs Windows 7-chrome alternate).",
-    "Period UI reference only; not evidence of Visual Basic authorship."
+    "Period UI reference only; not evidence of Visual Basic authorship.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

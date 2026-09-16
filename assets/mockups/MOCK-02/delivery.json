@@ -2,7 +2,7 @@
   "id": "MOCK-02",
   "title": "1996 download dialog: 9:42 remaining",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 9,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "27765ac2e758e82b9251bfc3da2cbca6c53c4f13e43974b1ec5877f06bf8d9b7"
+      "bytes": 545,
+      "sha256": "6ef77741d4aea6652cf6776118e49c41c5d3bcc75c1872215dee591f7da7db9a"
     },
     {
       "path": "evidence/provenance.json",
@@ -239,9 +239,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R16"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -261,6 +259,7 @@
   },
   "notes": [
     "War.zip is an authored illustrative filename. ETA and modem context come from the ticket, not measured transfer performance.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

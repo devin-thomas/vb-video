@@ -2,21 +2,25 @@
   "gates": [
     {
       "id": "R06",
-      "status": "blocked",
-      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "status": "approved",
+      "reason": "Captures keep real output; diagrams and code cards call it a round cap. The counter wording is recorded in the register and left unpatched.",
       "evidence_paths": [
         "source-excerpts.md"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     },
     {
       "id": "R08",
-      "status": "blocked",
-      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "status": "approved",
+      "reason": "The script now quotes real capture output (session 3 decision); this asset is literal source or real output.",
       "evidence_paths": [
         "source-excerpts.md"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     }
   ]
 }

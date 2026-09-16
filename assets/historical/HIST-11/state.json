@@ -1,16 +1,17 @@
 {
   "id": "HIST-11",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Historical Screenshots worker (manager session vb-7a)",
   "updated_at": "2026-09-15",
   "blockers": [
     "R14: disc artwork is unlicensed Microsoft copyright; rights decision needed (RQ-1).",
     "Substitution: retail install CD delivered in place of the retail box named by the ticket; no authorized-archive box image found (RQ-2)."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Produced as an archival proof: original, source page, framing, evidence and hashes are in delivery.json and qa.md.",
-    "Keep out of the cleared-media bin until R14 is decided in the review deck."
+    "Keep out of the cleared-media bin until R14 is decided in the review deck.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

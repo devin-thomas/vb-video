@@ -4,55 +4,75 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "checks": [
         {
           "claim": "The image depicts genuine period Microsoft FreeCell, not the Vista+ remake or a clone.",
           "result": "verified",
           "evidence": "Read from the pixels at 1:1 and 4x. The title bar reads \"FreeCell Game #14601\" and the menu reads Game / Options / Help with \"Cards Left: 52\". The FreeCell king icon sits between the free cells and home cells. The chrome is Windows 3.x: a system-menu box, minimize/maximize arrows, no close button, and a dithered 16-colour title bar. Tut's Tomb, another Microsoft Entertainment Pack 2 game, is open behind FreeCell. Clones (GNOME, KDE, PySol, Marc L. Allen shareware) and the Windows 7-chrome capture were rejected; see provenance.json.",
-          "paths": ["source/original.png", "evidence/source.json", "evidence/source-excerpts.md"]
+          "paths": [
+            "source/original.png",
+            "evidence/source.json",
+            "evidence/source-excerpts.md"
+          ]
         },
         {
           "claim": "Exact version and OS.",
           "result": "partly verified",
           "evidence": "The pixels establish Windows 3.x-era Microsoft FreeCell. They cannot separate Windows 3.0 from 3.1, or the Entertainment Pack 2 binary from the Best of Entertainment Pack or Win32s builds. The Entertainment Pack 2 label is WinWorld's gallery caption, and the co-running Tut's Tomb supports it. Recorded as-is, not upgraded.",
-          "paths": ["evidence/source.json"]
+          "paths": [
+            "evidence/source.json"
+          ]
         },
         {
           "claim": "The screenshot's own date.",
           "result": "unknown (recorded as null)",
           "evidence": "No capture date is published. The HTTP Last-Modified header reads 2015-10-02, which is a server file time. This is a later capture of period software (likely emulated), not a 1990s screenshot.",
-          "paths": ["evidence/source.json"]
+          "paths": [
+            "evidence/source.json"
+          ]
         },
         {
           "claim": "Original rights holder or creator recorded.",
           "result": "partly verified",
           "evidence": "Microsoft Corporation holds the software UI (FreeCell, Tut's Tomb, Windows 3.x). The screenshot capturer is not identified by WinWorld, and it is recorded as unknown rather than guessed.",
-          "paths": ["evidence/rights.json"]
+          "paths": [
+            "evidence/rights.json"
+          ]
         },
         {
           "claim": "File-specific terms recorded.",
           "result": "verified: no license exists",
           "evidence": "The WinWorld gallery and detail pages carry no license. WinWorld's copyright page says copyright is retained by the original publisher even for abandoned software; its CC BY-SA 4.0 notice covers library descriptions only. Quoted exactly in rights.json.",
-          "paths": ["evidence/rights.json"]
+          "paths": [
+            "evidence/rights.json"
+          ]
         },
         {
           "claim": "The access method involved no account, payment, watermark removal or CAPTCHA.",
           "result": "verified",
           "evidence": "Anonymous public HTTPS GET, with response headers recorded. No watermark is present. No disk images or executables were downloaded or run at any point in the search.",
-          "paths": ["evidence/source.json", "evidence/provenance.json"]
+          "paths": [
+            "evidence/source.json",
+            "evidence/provenance.json"
+          ]
         },
         {
           "claim": "The image is evidence of Visual Basic authorship or of VB shareware.",
           "result": "not applicable / explicitly not claimed",
           "evidence": "FreeCell is a Microsoft product. It is period UI reference for what 1990s Windows card games looked like, and it is not evidence that any game was written in Visual Basic. Captions must not imply otherwise.",
-          "paths": ["evidence/provenance.json"]
+          "paths": [
+            "evidence/provenance.json"
+          ]
         },
         {
           "claim": "The asset may be used in the published video.",
           "result": "not settled by evidence",
           "evidence": "Microsoft-copyrighted UI, unknown capturer, no license. Fair use is a legal-risk judgment. Handed off as review question XTRA-19-Q1.",
-          "paths": ["evidence/rights.json", "qa.md"]
+          "paths": [
+            "evidence/rights.json",
+            "qa.md"
+          ]
         }
       ],
       "evidence": [
@@ -61,11 +81,11 @@
         "evidence/source-excerpts.md",
         "evidence/provenance.json"
       ],
-      "decision": "Open. Unknown rights stay blocked per R14. No clearance recorded.",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
       "review_question": "XTRA-19-Q1",
-      "approver": null,
-      "approval_date": null,
-      "reason": null
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "script_check": {

@@ -2,16 +2,16 @@
   "gates": [
     {
       "id": "R14",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
         "evidence/source-page.wikitext.txt"
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Worked by agent: creator, file-specific license (author-declared CC BY-SA 2.0 FR / CeCILL), access method, access date and credit are recorded. Not cleared: the share-alike scope for use in the video and the depicted-design question are legal-risk judgements, raised as review questions. No fair-use or public-domain assumption is made."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "claims": [
@@ -66,19 +66,37 @@
       "id": "HIST-14-Q1",
       "for": "Writing Lead",
       "question": "The narration says \"In 1995, NeXT was a niche company selling expensive workstations to universities and Wall Street.\" NeXT left the hardware business in February 1993 and by 1995 sold software. Change the line? Proposed: \"In 1995, NeXT was a niche company. It had stopped making its expensive workstations two years earlier and was selling its software to universities and Wall Street.\"",
-      "evidence": "evidence/claim-checks.json (claims[3])"
+      "evidence": "evidence/claim-checks.json (claims[3])",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     },
     {
       "id": "HIST-14-Q2",
       "for": "Rights review",
       "question": "The chosen photograph is CC BY-SA 2.0 FR (Rama & Musée Bolo). Accept share-alike for this shot, or swap to the CC BY 2.0 candidate (Michael Hicks, NeXTcube at the Computer History Museum; busier frame with a monitor and another terminal)?",
-      "evidence": "evidence/rights.json; evidence/source.json (candidates)"
+      "evidence": "evidence/rights.json; evidence/source.json (candidates)",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     },
     {
       "id": "HIST-14-Q3",
       "for": "Rights review",
       "question": "The photo's license covers the photograph. Is showing the frog-design NeXTcube enclosure, as a museum exhibit, acceptable for this video without any separate clearance?",
-      "evidence": "evidence/rights.json"
+      "evidence": "evidence/rights.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     }
   ]
 }

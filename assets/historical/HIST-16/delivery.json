@@ -2,7 +2,7 @@
   "id": "HIST-16",
   "title": "Java AWT application",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (third-party screenshot, rights restricted) with framed derivative",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -27,8 +27,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "editorial gate record",
-      "bytes": 4383,
-      "sha256": "e38befcf02445e0ff40a361106b1ccc0c090b8a74f6f344df835e1783cd16089"
+      "bytes": 4564,
+      "sha256": "bec18c58e757760e9d03c216877b2038a684b0021e50f0cebd8784ca047f5717"
     },
     {
       "path": "evidence/framing.json",
@@ -305,9 +305,7 @@
       "detail": "GUIWindow.gif contains only generic component labels. The page's separate FileDialog.gif shows a Sun employee's home-directory path; it was deliberately not downloaded or used."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -327,6 +325,7 @@
   "notes": [
     "Produced as an internal proof. Release is blocked: the selected image is Sun copyright, all rights reserved (R14 open).",
     "Two public-domain Commons fallbacks are preserved in evidence/candidates/ but are 2006-2007 captures, not 1995-96 AWT.",
-    "state.json and delivery.json are excluded from the hashed inventory."
+    "state.json and delivery.json are excluded from the hashed inventory.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

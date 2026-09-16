@@ -2,7 +2,7 @@
   "id": "DIA-04",
   "title": "ByRef versus ByVal: caller variable and local parameter",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 12,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 308,
-      "sha256": "a4dcfe5fec796dcb2a6f6c701b3d37fcb533d4b6011a1fa19264fd77d1be0eda"
+      "bytes": 565,
+      "sha256": "be0f71bda230ef85900d7e82f4a399fdbf3912e1facd1cdefb09ed98f7a5e097"
     },
     {
       "path": "evidence/provenance.json",
@@ -227,9 +227,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R04a"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -250,6 +248,7 @@
   "notes": [
     "Scoped authored Integer example only; no claim of automatic deep copying for arrays.",
     "No .NET SDK is installed; the separate VB validation harness requested by R04a was not executed. This is a produced internal proof, not a closed semantic gate.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -1,18 +1,19 @@
 {
   "id": "HIST-15",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "HIST-15 worker (Historical Screenshots Manager, session vb-7a)",
-  "updated_at": "2026-09-15T20:50:00Z",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14: rights unresolved. Image is (c) 1995 Powersoft Corporation / CBT Systems Ltd training material with no licence or permission; needs a human rights decision before release."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Original acquired: Internet Archive item cbt-systems-microsoft-office-and-powersoft, ISO member pbdatc/PD4_504.DIB (640x480 8-bit BMP, ISO timestamp 1995-04-24), stored byte-identical as source/original.dib.",
     "Depicts the PowerBuilder DataWindow painter in preview inside a CBT Systems simulation screen; the course chrome (title bar, clock, callout, CBT Controls bar) is part of the original.",
     "PowerBuilder version is not stated by the source; era 1995 and pre-5.0 are supported; 4.0 is an inference only.",
     "Editorial frame rendered at 1920x1080 and inspected at full size and 720p.",
-    "Review questions: rights (R14), framing with course chrome, caption/version level."
+    "Review questions: rights (R14), framing with course chrome, caption/version level.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

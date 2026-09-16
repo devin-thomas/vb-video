@@ -6,15 +6,16 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "The creator, rights holder, file-specific terms, access method and credit are recorded (evidence/source.json, evidence/rights.json). No open license exists. Microsoft Learn Terms of Use limit use to personal/non-commercial and bar broadcast. Microsoft's screenshot guidelines may allow video use with \"Used with permission from Microsoft\", but the image contains third-party content (an eFax toolbar button) and is a documentation figure. Rights are unclear, so release stays blocked. Legal risk cannot be settled by evidence; see review question XTRA-16-RQ2.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence": [
         "evidence/source.json",
         "evidence/rights.json",
         "evidence/source-excerpts.md"
       ],
-      "approver": null,
-      "decision": "pending review deck (OPS-04)"
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approval_date": "2026-09-15"
     }
   ],
   "claims": [
@@ -22,8 +23,14 @@
       "id": "XTRA-16-C1",
       "claim": "\"What they did was announce, in 2002, that Visual Basic would become VB.NET\"",
       "script_lines": {
-        "sources/SCRIPT.md": [697, 697],
-        "War/SCRIPT.md": [754, 754]
+        "sources/SCRIPT.md": [
+          697,
+          697
+        ],
+        "War/SCRIPT.md": [
+          754,
+          754
+        ]
       },
       "status": "incorrect_as_worded",
       "finding": "The move to VB.NET was public in 2000, not 2002. Visual Studio .NET, which included Visual Basic, was first given to developers at PDC on July 11, 2000. By October 2000 Microsoft was publishing \"Visual Basic .NET is the next version of Visual Basic\" and guidance on upgrading VB6 code with the Upgrade Wizard. 2002 is when it shipped: Gates launched Visual Studio .NET on February 13, 2002, after MSDN subscribers got it in January 2002.",
@@ -86,25 +93,49 @@
       "id": "XTRA-16-RQ1",
       "route": "Writing Lead",
       "question": "The script says Microsoft announced VB.NET \"in 2002\". Primary sources put the announcement in 2000 (PDC, July 2000; Microsoft's October 2000 upgrade guidance) and the release in February 2002. Change War/SCRIPT.md:754? Proposed: \"What they did was announce, in 2000, that Visual Basic would become VB.NET, and ship it in 2002: a completely new language...\" Or drop the year.",
-      "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json#XTRA-16-C1"
+      "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json#XTRA-16-C1",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      }
     },
     {
       "id": "XTRA-16-RQ2",
       "route": "Devin (legal risk / rights)",
       "question": "The only genuine wizard-report image found is a Microsoft documentation figure (© Microsoft). Microsoft Learn's Terms of Use are non-commercial and bar broadcast. Microsoft's screenshot guidelines may allow video use with \"Used with permission from Microsoft\", but this image shows a third-party eFax toolbar button. Options: (a) accept the risk and use it with that credit; (b) ask Microsoft for permission; (c) Devin captures a fresh report from a licensed Visual Studio 2005/2008 install upgrading a VB6 project; (d) cut the visual or use a clearly labelled mockup. Release stays blocked until one is chosen.",
-      "evidence": "assets/historical/XTRA-16/evidence/rights.json"
+      "evidence": "assets/historical/XTRA-16/evidence/rights.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      }
     },
     {
       "id": "XTRA-16-RQ3",
       "route": "Devin (editorial)",
       "question": "The narration is about 2002, but the figure is the improved Visual Studio 2005 wizard, run in January 2006, from an article that is mostly positive about the tool. Is that acceptable behind \"aspirational\" with the version caption shown? The only 2000-era Microsoft image found is a pre-release VB.NET beta Task List with one UPGRADE_TODO, which Microsoft's guidelines exclude and which isn't a long list. Keep or remove the burned-in caption in exports/editorial-frame.png? The metadata credit exists either way.",
-      "evidence": "assets/historical/XTRA-16/evidence/source.json"
+      "evidence": "assets/historical/XTRA-16/evidence/source.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      }
     },
     {
       "id": "XTRA-16-RQ4",
       "route": "Devin (editorial)",
       "question": "The script suggests a \"this is fine\" meme edit. It was not made: it would alter a Microsoft screenshot, which their guidelines forbid, and would bring in a third-party image. Drop the meme idea, or commission it as a separate labelled asset with its own rights check?",
-      "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json#XTRA-16-C4"
+      "evidence": "assets/historical/XTRA-16/evidence/claim-checks.json#XTRA-16-C4",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "The 'this is fine' meme idea is dropped; the wizard screenshot stands alone."
+      }
     }
   ]
 }

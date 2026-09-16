@@ -1,7 +1,7 @@
 {
   "id": "XTRA-03",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Archive Extras worker (manager session vb-25)",
   "updated_at": "2026-09-15",
   "blockers": [
@@ -9,10 +9,11 @@
     "Editorial fit: pictured Model 33 ASR is representative; Dartmouth's Oct 1964 document names Model 35. Choose this image or seek permission for the Nov 1964 Dartmouth Alumni Magazine terminal photo (RQ2).",
     "In-frame third-party decal and museum signage left visible (RQ3)."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Historical proof produced: source/original.jpg (Arnold Reinhold, 'ASR-33 at CHM.agr.jpg', Wikimedia Commons, 2014) and exports/editorial-frame.png (uniform scale, pillarbox).",
     "Hashes, tests and toolchain are in delivery.json; viewing at full size and 720p is recorded in qa.md.",
-    "Not to be captioned as Dartmouth or 1964 hardware. Release stays blocked until the review deck decides."
+    "Not to be captioned as Dartmouth or 1964 hardware. Release stays blocked until the review deck decides.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

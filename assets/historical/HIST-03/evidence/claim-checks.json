@@ -3,7 +3,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -17,10 +17,10 @@
         "The ASSET_PLAN lead ('Wikipedia Visual Basic article, Wikimedia Commons ... these exist on Wikipedia') was checked: the only VB6 IDE image on the Wikipedia article is a non-free, fair-use-tagged local en.wikipedia file (not on Commons), so the plan's implied free availability is not supported. No Commons file inspected shows a VB6 IDE.",
         "No file-specific license permits reuse. Microsoft Learn Terms of Use restrict copying images; Microsoft's screenshot permission may permit an unaltered, uncropped, resized screenshot in a video with 'Used with permission from Microsoft.', but its applicability to a documentation figure is not stated. Evidence cannot settle this; it is a legal-risk question."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Unknown rights stay blocked (R14). Rights review question handed to the producer for the review deck."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "supplementary_checks": [

@@ -2,7 +2,7 @@
   "id": "DIA-10",
   "title": "Game flowchart: setup, rounds, war loop, result",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 883,
-      "sha256": "d3a00831e6ff1f39346266fd1b905a2adc6c2c2b2276886a7454cc2cc75d915d"
+      "bytes": 1711,
+      "sha256": "546bbf83b1abdce686998efc2decf8ec57024f11732207dad0b70085404aae04"
     },
     {
       "path": "evidence/provenance.json",
@@ -230,11 +230,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R04",
-    "R05",
-    "R06"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -256,6 +252,7 @@
     "Overview and inner-loop detail are separate readable diagrams.",
     "The main graphic abbreviates the source increment as RoundNumber += 1 in prose only; it is not presented as a literal VB line.",
     "Source behavior retained: first empty-hand guard, second guard, draw, compare, tie/burn, repeat. R04/R05/R06 remain editorial gates.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

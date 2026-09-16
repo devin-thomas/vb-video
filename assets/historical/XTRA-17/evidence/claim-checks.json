@@ -4,7 +4,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/source.json",
         "evidence/rights.json",
@@ -17,10 +17,10 @@
         "Access method recorded: anonymous public Wayback replay; no account, payment, CAPTCHA, terms acceptance, watermark removal, or form submission.",
         "Credit text recorded in evidence/source.json and evidence/rights.json."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "Unknown or reserved rights stay blocked per R14. Whether to rely on fair use/commentary, seek permission, or cut the visual is a legal-risk question evidence cannot settle; raised as review question XTRA-17-RQ1."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "claims": [
@@ -61,22 +61,46 @@
     {
       "id": "XTRA-17-RQ1",
       "question": "The page is 'Copyright ©2005, classicvb.org, All Rights Reserved Worldwide' and forbids reproduction without written permission. Should the video show the Wayback frame under a commentary/fair-use rationale, seek permission, or cut the visual?",
-      "evidence": "evidence/rights.json"
+      "evidence": "evidence/rights.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      }
     },
     {
       "id": "XTRA-17-RQ2",
       "question": "The frame keeps the Wayback Machine banner (dated MAR 12 2005) as date evidence. Show it in the edit as is, or let the editor mask or pan past it? Any trimmed version must keep the date attribution in a caption.",
-      "evidence": "exports/editorial-frame.png"
+      "evidence": "exports/editorial-frame.png",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      }
     },
     {
       "id": "XTRA-17-RQ3",
       "question": "For the Writing Lead: the petition is from March 2005 (end of VB6 mainstream support), not the 2002 VB.NET launch. Add a date cue ('2005') to the narration or an on-screen caption? War/SCRIPT.md has not been edited.",
-      "evidence": "evidence/claim-checks.json"
+      "evidence": "evidence/claim-checks.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      }
     },
     {
       "id": "XTRA-17-RQ4",
       "question": "The frame shows the petition heading and objectives but not the page's self-reported counter ('1376 signatories including 203 Microsoft MVPs since March 8th, 2005'). Is a second framing of the counter wanted, captioned as the site's own 12 March 2005 figure?",
-      "evidence": "source/original.png"
+      "evidence": "source/original.png",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Wayback banner kept as date evidence; the narration now dates the petition to 2005."
+      }
     }
   ]
 }

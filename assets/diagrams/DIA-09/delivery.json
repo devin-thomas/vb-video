@@ -2,7 +2,7 @@
   "id": "DIA-09",
   "title": "Pot growth: 2 → 10 → 18",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 15,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 595,
-      "sha256": "c775d1924baf64f406e939c84b5b022f09d4bca88aef42f162241b06d3ae77cf"
+      "bytes": 1070,
+      "sha256": "d34ec102e3033c21c53f3b7336bfb1ce00e0d6625541516d30e1a2caa5f928e1"
     },
     {
       "path": "evidence/provenance.json",
@@ -386,10 +386,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R05",
-    "R07"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Linux-6.18.44-x86_64-with-glibc2.41",
     "python": "3.13.5",
@@ -410,6 +407,7 @@
   "notes": [
     "The double-war fixture produces live pot milestones 2, 8, 10, 16, 18 and final counts 17 / 35 / 0.",
     "104 is allocation capacity in the supplied code, not the size of the physical deck. No 104-card graphic is used.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

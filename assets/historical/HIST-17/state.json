@@ -1,15 +1,16 @@
 {
   "id": "HIST-17",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "Historical Screenshots worker (manager session vb-7a)",
-  "updated_at": "2026-09-15T20:53:49+00:00",
+  "updated_at": "2026-09-15",
   "blockers": [
     "R14: no licence found for the 1996 TUCOWS page, logo or ConnectSoft banner; rights review question raised."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Archived capture, uncropped evidence, and 16:9 editorial frame delivered; see delivery.json and qa.md.",
-    "Release stays blocked pending the rights decision in the review deck."
+    "Release stays blocked pending the rights decision in the review deck.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

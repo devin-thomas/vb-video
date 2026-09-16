@@ -2,7 +2,7 @@
   "id": "HIST-09",
   "title": "CompUSA storefront",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -57,8 +57,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 4429,
-      "sha256": "bb360e9a8927c3484fe7c890485693f60037d477fb7ea2e7dd8d540c55275b1d"
+      "bytes": 5367,
+      "sha256": "972de6659efd75cb46e79c06a75d71122d69d8e05ed8474940ce4d3d98f6e8c8"
     },
     {
       "path": "evidence/framing.json",
@@ -257,9 +257,7 @@
       }
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "shell": "PowerShell 7.6.6",
@@ -278,6 +276,7 @@
   "notes": [
     "Produced as a historical proof; release blocked under R14 until rights are decided (review questions RQ-1 to RQ-3 in evidence/claim-checks.json).",
     "Source MP4 (32.3 MB) is not committed; identified by URL and hashes for re-fetch.",
-    "Location (Norwalk, CT) is uploader attestation only and is not asserted in any caption."
+    "Location (Norwalk, CT) is uploader attestation only and is not asserted in any caption.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Camcorder date stamp kept as authenticity under the 'you went to a store' beat."
   ]
 }

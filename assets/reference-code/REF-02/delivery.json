@@ -2,7 +2,7 @@
   "id": "REF-02",
   "title": "Windows C Hello World: historical boilerplate comparison",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "authored teaching illustration: representative code written for this production",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 22,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 651,
-      "sha256": "848220e8d67b188adebd247734334277060d303184fbf6c0f8e49b37a7af6485"
+      "bytes": 1229,
+      "sha256": "fe34989dc72fb72c5896a319624b61db37b70e1a6ff2e57181976193c5ed6864"
     },
     {
       "path": "evidence/provenance.json",
@@ -587,10 +587,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R03",
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -614,6 +611,7 @@
     "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
     "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
     "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

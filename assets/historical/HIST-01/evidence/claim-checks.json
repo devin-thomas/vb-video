@@ -4,8 +4,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "Worked by the agent: creator, host, file-specific terms, access method, integrity and proposed credit are recorded for both captures. No licence exists for the screenshot file; the capturer is unknown; WinWorld's CC BY-SA 4.0 covers descriptions only. Microsoft's screenshot guidelines may permit use in a video if the image is unaltered except for resizing and carries 'Used with permission from Microsoft', but whether that covers a third-party capture and this production is a legal judgement. Release stays blocked pending review question RQ-HIST01-1.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence_paths": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -13,7 +13,9 @@
         "evidence/source-pages/microsoft-copyright-permissions.html",
         "evidence/source-pages/ia-3d-4d-42c-meta.redacted.xml"
       ],
-      "approver": null
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "claims_checked": [
@@ -21,25 +23,37 @@
       "claim": "The image shows Visual Basic 1.0 (ticket requirement 1; SCRIPT.md:94 'Screenshot of VB 1.0 IDE').",
       "result": "supported, with a stated limit",
       "evidence": "The companion About capture shows 'Microsoft Visual Basic Version 1.0' in frame. The selected Edit capture is labelled VB 1.0 by WinWorld and matches the About capture in resolution, title bar, menus, properties bar, toolbox and desktop icons. There is no in-frame version string in the Edit capture itself.",
-      "evidence_paths": ["evidence/source.json", "evidence/version-evidence/about-original.png", "evidence/source-pages/winworld-product-vb10.html"]
+      "evidence_paths": [
+        "evidence/source.json",
+        "evidence/version-evidence/about-original.png",
+        "evidence/source-pages/winworld-product-vb10.html"
+      ]
     },
     {
       "claim": "The image shows 'the form designer, the toolbox' (SCRIPT.md:94).",
       "result": "supported",
       "evidence": "Form designer (Calculator form with a selected button and dot grid) and the 16-cell toolbox are visible and legible at 720p.",
-      "evidence_paths": ["exports/editorial-frame.png", "proofs/editorial-frame-720.png"]
+      "evidence_paths": [
+        "exports/editorial-frame.png",
+        "proofs/editorial-frame-720.png"
+      ]
     },
     {
       "claim": "The image shows 'the properties window' (SCRIPT.md:94; War/SCRIPT.md:97).",
       "result": "not as worded",
       "evidence": "Neither VB 1.0 capture shows a separate Properties window. Both show a properties bar under the menu (property list, value box, position and size readouts). I found no primary document confirming when a Properties window was introduced, so the claim is not called false; it is sent to the Writing Lead as RQ-HIST01-2. War/SCRIPT.md is not edited.",
-      "evidence_paths": ["source/original.png", "evidence/version-evidence/about-original.png"]
+      "evidence_paths": [
+        "source/original.png",
+        "evidence/version-evidence/about-original.png"
+      ]
     },
     {
       "claim": "Context only, not an assigned gate: Visual Basic 1.0 dates from May 1991 and Cooper's work fed into it (War/SCRIPT.md:95).",
       "result": "consistent; not independently verified here (R15 belongs to other tickets)",
       "evidence": "About capture: 'Copyright (c) 1987-1991 Microsoft Corp.' and 'Portions of this product were developed for Microsoft by Cooper Software, Inc.' Microsoft VB Team blog, 'Happy 20th Birthday Visual Basic!' (2011-05-20, https://devblogs.microsoft.com/vbteam/happy-20th-birthday-visual-basic/): Bill Gates demoed Visual Basic 1.0 on May 20, 1991 at Windows World in Atlanta.",
-      "evidence_paths": ["evidence/version-evidence/about-original.png"]
+      "evidence_paths": [
+        "evidence/version-evidence/about-original.png"
+      ]
     }
   ],
   "review_questions": [
@@ -47,19 +61,44 @@
       "id": "RQ-HIST01-1",
       "to": "producer (rights review)",
       "question": "May the video use this third-party capture of Microsoft Visual Basic 1.0 (from WinWorld, capturer unknown, no licence) under Microsoft's screenshot guidelines, credited 'Used with permission from Microsoft', given that the frame resizes the whole screenshot and adds a dark pillarbox? If not, is an agent-run capture from a properly licensed VB 1.0 copy (which would need a licence or boundary decision) wanted instead?",
-      "evidence_paths": ["evidence/rights.json"]
+      "evidence_paths": [
+        "evidence/rights.json"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     },
     {
       "id": "RQ-HIST01-2",
       "to": "Writing Lead",
       "question": "War/SCRIPT.md:97 asks for 'the form designer, the toolbox, the properties window'. The authenticated VB 1.0 captures show a properties bar under the menu, not a Properties window. Proposed wording: 'the form designer, the toolbox, the properties bar'. Change or keep as-is?",
-      "evidence_paths": ["source/original.png", "evidence/version-evidence/about-original.png"]
+      "evidence_paths": [
+        "source/original.png",
+        "evidence/version-evidence/about-original.png"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     },
     {
       "id": "RQ-HIST01-3",
       "to": "producer (editorial)",
       "question": "The selected Edit capture proves the version only indirectly; the About capture proves it in frame but hides the form designer and shows a serial number. Use the Edit capture alone (current export), or also cut to the About capture briefly as on-screen version evidence (which would need the serial number handled without breaking Microsoft's no-alteration rule)?",
-      "evidence_paths": ["evidence/source.json"]
+      "evidence_paths": [
+        "evidence/source.json"
+      ],
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     }
   ]
 }

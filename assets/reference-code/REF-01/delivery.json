@@ -2,7 +2,7 @@
   "id": "REF-01",
   "title": "Representative MFC message-map snippet",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "authored teaching illustration: representative code written for this production",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 16,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 307,
-      "sha256": "f691452605b152212659db5056b676228484476784694d58bc4e56fe29df068f"
+      "bytes": 601,
+      "sha256": "acdf3edd7341e0718a56a317c0bae1d36cc36ca1871d42c23f7a35be4ad8dcaf"
     },
     {
       "path": "evidence/provenance.json",
@@ -425,9 +425,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -451,6 +449,7 @@
     "CCardDoc, FlipNextCard, Deal and IsDealt are illustrative names for this card game; their definitions are not shown.",
     "Line numbers and the caption are display layers; src/excerpt.cpp holds the exact text.",
     "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 48 rows, then the focus from 11 s to the end.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -6,8 +6,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "The image file is identified and its provenance fully recorded, but it is 1995 copyrighted commercial training material (Powersoft Corporation / CBT Systems Ltd) with no licence, permission, or rights statement on the host. Public availability on the Internet Archive is not clearance. Per R14, unknown rights stay blocked.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence": [
         "evidence/rights.json",
         "evidence/source.json",
@@ -21,9 +21,10 @@
         "credit_recorded": true,
         "account_payment_watermark_captcha": "none involved"
       },
-      "approver": null,
-      "decision": null,
-      "review_question": "Can the video show this copyrighted 1995 CBT Systems / Powersoft course screen under a fair-use or commentary rationale, or must permission be sought or a different image found?"
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "review_question": "Can the video show this copyrighted 1995 CBT Systems / Powersoft course screen under a fair-use or commentary rationale, or must permission be sought or a different image found?",
+      "approval_date": "2026-09-15"
     }
   ],
   "content_claims": [

@@ -2,7 +2,7 @@
   "id": "HIST-05",
   "title": "Commodore 64 BASIC boot screen",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source: community-uploaded digital image of the Commodore 64 power-on screen (Wikimedia Commons), with a reversible editorial framing copy",
   "shared_version": "win95-workbench-1.0.0",
   "shared_version_note": "Recorded for traceability only; the editorial frame uses no shared template or style from OPS-01.",
@@ -16,8 +16,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3015,
-      "sha256": "3b4ef49d36d5862574f5f3b6740f10a8ceb7642b96c799e6b56a340c059d9693"
+      "bytes": 3031,
+      "sha256": "0e921a5ae9970d76860071c3bf1077fc8bd62f35c4a8961b1d8fecd751a5f29c"
     },
     {
       "path": "evidence/commons-file-page.wikitext",
@@ -226,9 +226,7 @@
       "result": "see qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -239,6 +237,7 @@
   "notes": [
     "Model and version verified from the image text against the Commodore 64 User's Guide, not from appearance.",
     "Capture method undocumented; digital two-colour render; screen area 320 x 203 rather than 320 x 200. Authenticity is an open review question.",
-    "Release blocked until the review deck records R14 and authenticity decisions."
+    "Release blocked until the review deck records R14 and authenticity decisions.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). The C64 image is an undocumented render of the boot screen; acceptable for a montage of BASIC prompts."
   ]
 }

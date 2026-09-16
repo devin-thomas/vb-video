@@ -1,7 +1,7 @@
 {
   "id": "XTRA-12",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "XTRA-12 worker (Archive Extras Manager, session vb-25), branch ticket/XTRA-12",
   "updated_at": "2026-09-15",
   "blockers": [
@@ -9,10 +9,11 @@
     "Release: XTRA-12-RQ2 (R11) - editorial acceptance of a Microsoft VB6 sample form as a 'real-world VB application' in the collage.",
     "Release: XTRA-12-RQ3 (R11) - editorial acceptance of a late-1998 VB6 image against the script's mid-1990s framing."
   ],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
     "Subject: Figure 16 'Single Record User Control' from Microsoft's December 1998 article 'Developing Applications with the Microsoft Visual Basic 6.0 Data Object Wizard' (Microsoft Learn previous-versions archive, aa260632). A VB6-wizard-generated data-entry form with sample data.",
     "source/original.gif is byte-identical to the fetched file (SHA-256 ef828e695c2bb25e7947c3815807611a264e87bc997a772d2b5fb96ce8dd9b2d). exports/editorial-frame.png is an uncropped 2x nearest-neighbour pillarbox on #008080.",
-    "Production proof is usable by dependents XTRA-14/XTRA-15. Release is not cleared."
+    "Production proof is usable by dependents XTRA-14/XTRA-15. Release is not cleared.",
+    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling."
   ]
 }

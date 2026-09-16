@@ -2,7 +2,7 @@
   "id": "HIST-11",
   "title": "Visual Basic 4 retail box",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source (archival scan, unlicensed third-party artwork) with derivative editorial framing",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 3921,
-      "sha256": "7092a7922064d200ceb3e2d9dab644d70859d4008075f46e568f3dfc3a6ac369"
+      "bytes": 4874,
+      "sha256": "6e1018b8f73d7baf72a0b38e80b5ac7db19f1052805b9412a9d6413e0d52f5dc"
     },
     {
       "path": "evidence/provenance.json",
@@ -191,9 +191,7 @@
       "result": "see qa.md (run after this file is written)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -214,6 +212,7 @@
   "notes": [
     "SUBSTITUTION: the ticket names a retail box; no authorized-archive box image exists. The acquired original is the VB4 retail install CD, which SCRIPT.md:122 lists first. See evidence/candidates.json and review question RQ-2.",
     "Release blocked on R14 (RQ-1). Keep out of the cleared-media bin.",
-    "Review questions RQ-1..RQ-3 are in evidence/claim-checks.json."
+    "Review questions RQ-1..RQ-3 are in evidence/claim-checks.json.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Retail Enterprise CD accepted for the 'install CD' cue; no box image exists on an authorised route."
   ]
 }

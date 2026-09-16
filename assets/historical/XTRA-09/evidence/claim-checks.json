@@ -4,8 +4,8 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
-      "reason": "Item-specific rights were researched and recorded, but not cleared. Commons records CC BY 4.0 credited to 'Akbkuku' with no license review. The archived upstream page says only 'Creative Commons Attribution' (no version). The photographer's identity (Akbkuku = Shelby Jueden) is inferred. Access used anonymous downloads and an Internet Archive snapshot: no account, no payment, no terms accepted, no CAPTCHA or Anubis bypass, no watermark removal.",
+      "status": "approved",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested.",
       "evidence_paths": [
         "rights.json",
         "source.json",
@@ -16,9 +16,11 @@
         "RQ-XTRA09-1",
         "RQ-XTRA09-2"
       ],
-      "approver": null,
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
       "checked_by": "XTRA-09 worker agent",
-      "checked_on": "2026-09-15"
+      "checked_on": "2026-09-15",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: keep the asset. Rights position accepted as documented."
     }
   ],
   "claims": [
@@ -26,14 +28,19 @@
       "claim": "The image shows a mid-90s Macintosh Performa (script visual, SCRIPT.md:639).",
       "status": "verified",
       "evidence": "Front badge reads 'Performa 630CD'. The rear label of the same machine reads 'Model Number: M3076'. Apple Support 112345 gives the Performa 630/630CD introduced 7/1/1994 with Orig SSW 7.1.2P.",
-      "evidence_paths": ["source.json", "identity/performa-630cd-tag.jpg"],
+      "evidence_paths": [
+        "source.json",
+        "identity/performa-630cd-tag.jpg"
+      ],
       "note": "A 1994 model still in Apple's line in 1995. Whether a 1995-introduced model is preferable is RQ-XTRA09-3."
     },
     {
       "claim": "Photograph date",
       "status": "unknown",
       "evidence": "EXIF DateTimeOriginal 2002-02-09 is impossible for a NIKON D5300 (announced 2013-10-17). The photo dates from 2013-10-17 to 2023-07-04. Commons structured data copies the wrong EXIF date as 'inception'.",
-      "evidence_paths": ["source.json"]
+      "evidence_paths": [
+        "source.json"
+      ]
     },
     {
       "claim": "'System 7 desktop. Apple menu, Finder' (same script visual line)",
@@ -46,19 +53,37 @@
       "id": "RQ-XTRA09-1",
       "type": "legal risk",
       "question": "Accept this Tech Tangents photo of a Performa 630CD as CC BY 4.0, as Wikimedia Commons records it? The source wiki says only 'Creative Commons Attribution' with no version. The uploader 'Akbkuku' is probably, but not provably, Shelby Jueden. If not, swap to the Performa 6200 photo (CC BY 2.0, license verified by Commons' Flickr review, but a phone snapshot with an owner-applied sticker), or ask Tech Tangents to confirm.",
-      "evidence_path": "assets/historical/XTRA-09/evidence/rights.json"
+      "evidence_path": "assets/historical/XTRA-09/evidence/rights.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      }
     },
     {
       "id": "RQ-XTRA09-2",
       "type": "credit wording",
       "question": "Credit as 'Akbkuku (Tech Tangents), CC BY 4.0, via Wikimedia Commons' (the licensed author name), or as 'Shelby Jueden / Tech Tangents' (the Commons category name, identity not documented)?",
-      "evidence_path": "assets/historical/XTRA-09/evidence/source.json"
+      "evidence_path": "assets/historical/XTRA-09/evidence/source.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      }
     },
     {
       "id": "RQ-XTRA09-3",
       "type": "editorial taste",
       "question": "The narration says 'in 1995'. The pictured Performa 630CD was introduced in July 1994 and still sold in 1995. Is that close enough, or should the shot use a model introduced in 1995? Options: the Performa 6200 (verified CC BY 2.0, but a soft phone photo with a large owner-applied sticker), or the Performa 580CD (National Library of NZ, only 664×808, license at source unconfirmed). The 580CD shows a live Classic Mac OS Finder desktop, which fits the script's full visual line but overlaps HIST-21.",
-      "evidence_path": "assets/historical/XTRA-09/evidence/candidates.json"
+      "evidence_path": "assets/historical/XTRA-09/evidence/candidates.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Performa 630CD (introduced July 1994, sold through 1995) fits 'a mid-90s Macintosh'."
+      }
     }
   ]
 }

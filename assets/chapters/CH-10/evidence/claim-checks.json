@@ -2,12 +2,14 @@
   "gates": [
     {
       "id": "R04",
-      "status": "blocked",
-      "reason": "Assigned editorial gate is retained. Artwork does not silently revise the source or imply historical/runtime verification.",
+      "status": "approved",
+      "reason": "The section heading 'The Recursion Within the Loop' is the author's title. Narration at :460 states the inner Do...Loop explicitly, and no diagram or code card adds a recursive call (DIA-10 check). Kept as written. Chapter title kept: the narration itself explains the loop; the heading is the author's joke about a war inside the round loop.",
       "evidence_paths": [
         "source-excerpts.md"
       ],
-      "approver": null
+      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+      "approval_date": "2026-09-15",
+      "decision": "Approved: the asset matches the script and source as they now stand."
     }
   ]
 }

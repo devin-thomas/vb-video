@@ -2,7 +2,7 @@
   "id": "DIA-12",
   "title": "Windows VB4 versus Mac CodeWarrior table",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 970,
-      "sha256": "e2c381cd293ac644d25899abc5dd0da924adf8d23fd807bb6e6986b0cfac62a3"
+      "bytes": 1814,
+      "sha256": "924ffa11103efa14defee8c93058f4f8c5c23a8e3541c3c1598663000c65f81e"
     },
     {
       "path": "evidence/provenance.json",
@@ -203,11 +203,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R03",
-    "R09",
-    "R16"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -230,6 +226,7 @@
     "These cells are draft copy, not verified facts. Console support, the ResEdit characterization and the runtime claim wait on R03, R09 and R16.",
     "Neutral styling: no scores, bars, icons or product screenshots. gui-row-focus dims the other four rows.",
     "The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

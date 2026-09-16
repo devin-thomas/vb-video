@@ -2,7 +2,7 @@
   "id": "XTRA-04",
   "title": "FORTRAN versus BASIC introductory example",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "authored teaching illustration: representative code written for this production",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 7476,
-      "sha256": "c82ebf89391b142392a321f03ae195a5da789ef92f27864e1e28d46c99afce18"
+      "bytes": 9130,
+      "sha256": "2ab4a0eb17e1dfe3594588823099dd8180556fecf2dffcb2f5b63dc6437a7357"
     },
     {
       "path": "evidence/provenance.json",
@@ -198,9 +198,7 @@
       "result": "checked; one point supported by implication only (F2 / Q1); R15 blocked"
     }
   ],
-  "unresolved_gates": [
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -225,6 +223,7 @@
     "Same code size (48 px DejaVu Sans Mono) and line pitch in both panels. The comparison variant adds line bands, a card-column guide and two captions; it does not resize or move the code.",
     "Neither program uses the manuals’ slashed letter O; plain O is shown in both. Job control cards (FORTRAN) and terminal commands such as RUN (BASIC) are outside both listings.",
     "Release stays blocked under R15 pending editorial review of the length/readability framing.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). 'More readable' stays in narration as the narrator's judgement; the frame itself makes no readability claim."
   ]
 }

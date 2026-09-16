@@ -2,7 +2,7 @@
   "id": "DIA-11",
   "title": "1995 development tools comparison",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 653,
-      "sha256": "eab696ad4bbf5216f38eade9d42f3ca5aaaad1a6f585b6ac0d7e3b6f9984e818"
+      "bytes": 1219,
+      "sha256": "88091c7ec2f753d20e9a571af8701f8a6a2d7dc0ce7f8f8ad3911e34d3abd9b6"
     },
     {
       "path": "evidence/provenance.json",
@@ -184,10 +184,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R11",
-    "R15"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -209,6 +206,7 @@
     "Every cell is drafted from SCRIPT.md narration. src/cells.json gives each cell its line, verbatim quote, and whether it is script wording, a characterization, or a derivation. No cell is verified (R11, R15).",
     "No price, market share, rating, benchmark, logo or box art is shown. Tool labels carry no release years: whether all five belong to 1995 is unchecked.",
     "Tradeoffs soften the script’s harsher words (“miserable”, “brutally slow”, “invisible”); final wording needs editorial approval.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

@@ -2,7 +2,7 @@
   "id": "XTRA-02",
   "title": "Period MSDN advertisement",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / gate and claim checks",
-      "bytes": 3396,
-      "sha256": "b806090b0f9f67ac410680080d352a705ee5522851936c01722b16091a150f3e"
+      "bytes": 3567,
+      "sha256": "cc03321370f5eb6c7d201e158e1c1f9a98c642c131eb84cee879e4e89b0d1d2c"
     },
     {
       "path": "evidence/folio-showthrough.png",
@@ -167,9 +167,7 @@
       "result": "see qa.md (verbatim)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -189,6 +187,7 @@
   "notes": [
     "Script-supplement asset (SCRIPT.md:49), not an original asset-plan row.",
     "Historical proof: release blocked until R14 rights question RQ-XTRA-02-1 is decided in the review deck.",
-    "Caption text in the editorial frame is an authored production addition (evidence/provenance.json)."
+    "Caption text in the editorial frame is an authored production addition (evidence/provenance.json).",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
   ]
 }

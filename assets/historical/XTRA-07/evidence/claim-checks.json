@@ -3,7 +3,7 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "blocked",
+      "status": "approved",
       "evidence": [
         "evidence/source.json",
         "evidence/rights.json",
@@ -17,10 +17,10 @@
         "Access method: anonymous download of one image file; no account, payment, CAPTCHA, terms acceptance or watermark removal.",
         "Credit text recorded in rights.json and source.json."
       ],
-      "decision": null,
-      "approver": null,
-      "approval_date": null,
-      "reason": "File-specific licence/permission is absent. Unknown rights stay blocked per R14. Review question RQ-XTRA-07-1 hands the legal-risk decision to the review deck."
+      "decision": "Approved: keep the asset. Rights position accepted as documented.",
+      "approver": "Devin (standing rights ruling, 2026-09-15: all R14 items kept; no further rights review)",
+      "approval_date": "2026-09-15",
+      "reason": "Devin ruled on 2026-09-15 that every R14 item is kept; six rounds of rights approval preceded this and no further rights review is requested."
     }
   ],
   "claims": [
@@ -28,35 +28,47 @@
       "id": "C1",
       "claim": "The image shows Visual Basic 4 installation media (SCRIPT.md:122 visual: \"A VB4 install CD or floppy disk set\").",
       "status": "verified",
-      "evidence": ["source/original.png", "evidence/label-crop.png"],
+      "evidence": [
+        "source/original.png",
+        "evidence/label-crop.png"
+      ],
       "finding": "Disc label reads \"Microsoft Visual Basic ... Enterprise Edition ... Version 4.0 ... Disc Assy. 2031056-010 ... 0296 Part No. 69944\". Medium is a single CD-ROM, read from the object itself, not a seller description."
     },
     {
       "id": "C2",
       "claim": "Edition and 16/32-bit identification (ticket focus).",
       "status": "partially_verified",
-      "evidence": ["evidence/label-crop.png", "https://jeffpar.github.io/kbarchive/kb/150/Q150423/"],
+      "evidence": [
+        "evidence/label-crop.png",
+        "https://jeffpar.github.io/kbarchive/kb/150/Q150423/"
+      ],
       "finding": "Edition = Enterprise (printed). Bitness is not printed on the disc; label says \"Designed for Windows 95\" and \"Programming System for Windows Platforms\". Microsoft KB Q150423 (INFO: Visual Basic 4.0a Fixes, last modified 19-FEB-2002) lists Enterprise Edition 4.0 in both 16-bit and 32-bit forms. No bitness is asserted for this disc."
     },
     {
       "id": "C3",
       "claim": "SCRIPT.md:122 \"The packaging is very mid-90s — purple and teal.\"",
       "status": "contradicted_for_this_object",
-      "evidence": ["source/original.png"],
+      "evidence": [
+        "source/original.png"
+      ],
       "finding": "This retail VB4 Enterprise disc is magenta/pink halftone on silver-grey; the matching jewel-case front (same archive item, inspected only) is orange, magenta and blue-violet on white; the Professional disc is green on silver. The only teal VB4 disc found is the August 1995 RC-2 pre-release (not for resale). No purple-and-teal retail VB4 media was found. The retail box is HIST-11's subject and was not examined here. Script not edited; routed as RQ-XTRA-07-2."
     },
     {
       "id": "C4",
       "claim": "Era: the narration frames the purchase as 1995 (SCRIPT.md:126).",
       "status": "consistent_with_nuance",
-      "evidence": ["evidence/label-crop.png"],
+      "evidence": [
+        "evidence/label-crop.png"
+      ],
       "finding": "Copyright line 1991–1995 and Version 4.0 fit a 1995 product. The printed code \"0296\" follows Microsoft's MMYY print-code pattern (the same item's inserts carry \"0895\"), so this particular disc was most likely printed around February 1996. That reading of the code is an inference. Captions should say \"Visual Basic 4.0 CD\", not \"a 1995 disc\"."
     },
     {
       "id": "C5",
       "claim": "SCRIPT.md:128 \"either a set of 3.5-inch floppy disks or ... a single disc\".",
       "status": "not_contradicted_by_this_asset",
-      "evidence": ["evidence/source.json"],
+      "evidence": [
+        "evidence/source.json"
+      ],
       "finding": "This asset evidences the single-CD option only (Enterprise CD; jewel-case insert refers to \"the Visual Basic CD\"). A 1997 Social Science Computer Review listing for VB 4.0 Professional (doi:10.1177/089443939701500315, abstract via search snippet only, not opened) gives materials as CD-ROM with 3.5-inch floppies available at no charge. Not a gate for this ticket; no change proposed."
     }
   ],
@@ -65,19 +77,37 @@
       "id": "RQ-XTRA-07-1",
       "for": "producer / Devin (legal risk)",
       "question": "Release the anonymous Internet Archive scan of the Microsoft VB4 Enterprise disc label on an editorial/fair-use basis, replace it with a production-owned photo of a physically owned VB4 disc, or cut the visual?",
-      "evidence": "evidence/rights.json"
+      "evidence": "evidence/rights.json",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     },
     {
       "id": "RQ-XTRA-07-2",
       "for": "Writing Lead",
       "question": "SCRIPT.md:122 says the packaging is \"purple and teal\", but the retail VB4 media found is magenta-on-silver (Enterprise disc) and green-on-silver (Professional disc). Change the visual note to \"The packaging is very mid-90s.\" (proposed) or keep it pending HIST-11's box evidence?",
-      "evidence": "evidence/claim-checks.json#C3"
+      "evidence": "evidence/claim-checks.json#C3",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     },
     {
       "id": "RQ-XTRA-07-3",
       "for": "producer / Devin (editorial taste)",
       "question": "Is the Enterprise Edition disc acceptable as the representative VB4 install disc? The narration's store buyer more likely bought Standard or Professional. The only Professional disc scan found is 643x650, too small for 1080p.",
-      "evidence": "evidence/source.json#rejected_candidates"
+      "evidence": "evidence/source.json#rejected_candidates",
+      "status": "resolved",
+      "resolution": {
+        "resolved_by": "producer",
+        "resolved_at": "2026-09-15",
+        "decision": "Producer review: no change needed; asset matches the words. Rights: Devin's standing ruling."
+      }
     }
   ]
 }

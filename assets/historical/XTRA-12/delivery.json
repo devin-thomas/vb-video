@@ -2,7 +2,7 @@
   "id": "XTRA-12",
   "title": "Documented VB data-entry application",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "historical source",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -63,8 +63,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "editorial gate record (R14, R11) and review questions",
-      "bytes": 5477,
-      "sha256": "72fabb7f7a96a3c27a1f1393e7f89daed553b8bb397fb1857270c7bd34fe0ea2"
+      "bytes": 7067,
+      "sha256": "7bf64beba7b77910484c07f96468851c4396bef33e39152487749401b8acef2e"
     },
     {
       "path": "qa.md",
@@ -160,10 +160,7 @@
       "result": "see qa.md"
     }
   ],
-  "unresolved_gates": [
-    "R14",
-    "R11"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "python": "3.14.0",
     "pillow": "12.3.0",
@@ -176,6 +173,7 @@
     "Script supplement (SCRIPT-SUPPLEMENT), not an ASSET_PLAN.md row.",
     "Subject: VB6 Data Object Wizard 'Single Record User Control', a data-entry form bound to a sample Person table. Microsoft documentation figure with sample data.",
     "Not the PowerBuilder DataWindow. Distinct from XTRA-11 (business tool) and XTRA-13 (utility).",
-    "Release blocked on review questions XTRA-12-RQ1..RQ3 (evidence/claim-checks.json)."
+    "Release blocked on review questions XTRA-12-RQ1..RQ3 (evidence/claim-checks.json).",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). A Microsoft VB6 documentation figure is acceptable as the data-entry panel; no on-screen note needed, the credit identifies it."
   ]
 }
