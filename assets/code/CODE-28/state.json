@@ -1,12 +1,14 @@
 {
   "id": "CODE-28",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
-  "assigned_agent": null,
+  "assigned_agent": "Claude Fable 5.1 (worker, ticket/CODE-02-28-REF-05)",
   "updated_at": "2026-09-16",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "Opened 2026-09-16 from Devin's review of the first cut."
-  ]
+    "Opened 2026-09-16 from Devin's review of the first cut.",
+    "Opened 2026-09-16 from review note 18; produced 2026-09-16 as a literal excerpt of Program.vb lines 114–126 (Sub ShuffleDeck). Release unreviewed."
+  ],
+  "owner": "Claude Fable 5.1 (worker, ticket/CODE-02-28-REF-05)"
 }

@@ -1,0 +1,251 @@
+{
+  "id": "CODE-28",
+  "title": "Every variable declared at the top: the Dim block of a Program.vb subroutine",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "literal source-code illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 1029,
+      "sha256": "7fabd1e7fa475b6ff4ef49c07f024ff2dffc253a200cd2c9841cbcc7cec350e7"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1525,
+      "sha256": "e3fd2608f64af0c20d3397e34c0fafcb91326a511de435556e0cd0d80a30c438"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "abbbed23cf3bbebdbcd211251633459896159c0db32d3de5e70a67c32a9e9d10"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1176,
+      "sha256": "bcd601899839bc1d0932233171f27b735d4587d14b3488e22a4ad2f74b3a82ac"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 99327,
+      "sha256": "bfc089b15f9cb414f835013251f3ed2ba24bf6e1bef94c3ed1ee1ee8f0e48cfb"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 84934,
+      "sha256": "a22d06010d55573cb94678d49080f2dd08948e45f0e01ab7537f36c14f375274"
+    },
+    {
+      "path": "exports/highlighted.png",
+      "role": "rendered still",
+      "bytes": 104019,
+      "sha256": "04f1ce0a906f8d61f16059128942fbd10a8dfcfa6830691e90d845a34e83d3dc"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 104019,
+      "sha256": "04f1ce0a906f8d61f16059128942fbd10a8dfcfa6830691e90d845a34e83d3dc"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 23961,
+      "sha256": "329c5c1ca59261ffa05f06e65c7c8381fca02887ecdaaa5d28b4c56fbf7cd332"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 141770,
+      "sha256": "c5368c0f348f429ed158f1e08b81b50f3735a1810ab41b15e287d659e1c02c40"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 4152,
+      "sha256": "d0b8ef861d3e11e991285af68c4f2a9d6280774b4f5f7e11e3c168d79929d457"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1329,
+      "sha256": "1bdb7492acbfbf584cac8cb223643f751daaee0ec6402233847de8c27be7ae4a"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1598,
+      "sha256": "72ea1575c4615d7ee9119a255ca7631c8ade41dbd44cce16d046f8387e362c4d"
+    },
+    {
+      "path": "src/excerpt.vb",
+      "role": "editable source",
+      "bytes": 328,
+      "sha256": "ef83c920154450eab0f816c72b504bf313fb79d29b053379086422329d5a2936"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 26172,
+      "sha256": "8ec0d8dbfa59dadbe92a7e3a3713e4eda9ab655a8e8082c1a8f3a661abcc6f30"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 22001,
+      "sha256": "df69c337e436ba8d944020b39917b635689f96ac05ca19550c8f721d9e9ca51f"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 22001,
+      "sha256": "df69c337e436ba8d944020b39917b635689f96ac05ca19550c8f721d9e9ca51f"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 476,
+      "sha256": "1b8f02cea60cf3c1f1d0c5ffcef0ba5f01a32e23c1baa32acdee3ec2abefe93b"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 21650,
+      "sha256": "f071b96b5f951bd84660043c4ba774a6daa7e373462dc3a8f2f56ed6098c184b"
+    },
+    {
+      "path": "src/variant-highlighted.svg",
+      "role": "editable source",
+      "bytes": 22001,
+      "sha256": "df69c337e436ba8d944020b39917b635689f96ac05ca19550c8f721d9e9ca51f"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "highlighted",
+      "files": [
+        "exports/highlighted.png",
+        "src/variant-highlighted.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        305,
+        305
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        114,
+        126
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../War/Program.vb",
+      "lines": [
+        114,
+        126
+      ],
+      "sha256": "42d0bcf3320d6b29342961b97a4247e5dff69249c06a2a838c9c6fcda0e14f02",
+      "relationship": "literal excerpt (same lines; the working copy named by the ticket)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id CODE-28 run after this inventory was written; output recorded in qa.md."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-size inspection of clean.png and highlighted.png (poster.png is byte-identical to highlighted.png); 1280 × 720 copies of both viewed as the 720p proof.",
+        "scope": "Both named variants.",
+        "status": "Lines 114–126 legible at both sizes; the Dim block (115–118) is visibly the first thing inside the Sub, barred and labelled in the right margin; nothing crosses code text."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed (render_assets.py asserts 1920 × 1080 for every PNG)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box, annotation-versus-code overlap",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: 4 SVG files, 491 text boxes, 6 annotation elements, 0 overlaps, no network request"
+    },
+    {
+      "test": "literal excerpt equals canonical Program.vb range",
+      "evidence": "src/excerpt.vb",
+      "result": "passed (line-for-line against sources/Program.vb and War/Program.vb; recorded in qa.md)"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "cairo_dll": "CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin (MSYS2 UCRT64 Cairo)",
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading in Playwright Chromium."
+  },
+  "notes": [
+    "Literal excerpt of Program.vb lines 114–126 (Sub ShuffleDeck), stored unmodified in src/excerpt.vb; line numbers are a display layer.",
+    "The four Dim lines (115–118) are the first statements inside the Sub; the highlighted variant bars that block and labels it in the right margin. Nothing crosses code text.",
+    "The on-card title is the short form “Every variable declared at the top”; the ticket title is kept in the HTML title.",
+    "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ],
+  "excerpt": {
+    "file": "src/excerpt.vb",
+    "source": "Program.vb",
+    "lines": [
+      114,
+      126
+    ],
+    "subroutine": "Sub ShuffleDeck"
+  }
+}

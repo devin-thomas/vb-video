@@ -1,0 +1,52 @@
+{
+  "id": "CODE-28",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "clean": "variant-clean.svg",
+    "highlighted": "variant-highlighted.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Literal excerpt of Program.vb lines 114–126 (Sub ShuffleDeck), stored unmodified in src/excerpt.vb; line numbers are a display layer.",
+    "The four Dim lines (115–118) are the first statements inside the Sub; the highlighted variant bars that block and labels it in the right margin. Nothing crosses code text.",
+    "The on-card title is the short form “Every variable declared at the top”; the ticket title is kept in the HTML title.",
+    "Literal modern VB.NET source illustration; not a live IDE or VB4 capture."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        305,
+        305
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        114,
+        126
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../War/Program.vb",
+      "lines": [
+        114,
+        126
+      ],
+      "sha256": "42d0bcf3320d6b29342961b97a4247e5dff69249c06a2a838c9c6fcda0e14f02",
+      "relationship": "literal excerpt (same lines; the working copy named by the ticket)"
+    }
+  ],
+  "kind": "code"
+}

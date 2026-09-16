@@ -33,7 +33,8 @@
   "authored_additions": [
     "Exact source text, separately stored. Soft visual wraps do not change source line breaks.",
     "Literal modern VB.NET source illustration; not a live IDE or VB4 capture.",
-    "All focus targets have individually timed holds."
+    "All focus targets have individually timed holds.",
+    "Revision 2 (2026-09-16, review note 12): arrows removed. Each focus now has a row highlight bar that stops short of a right-margin label; the label’s leader and the Dimension? thought bubble stay in the margin, right of the bar’s edge, so no annotation crosses code text in any state."
   ],
   "source_unchanged": true,
   "remote_assets": [],
