@@ -37,15 +37,39 @@
       ],
       "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
       "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        220,
+        232
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (revision 2: the empty-hand checks the endgame cutdown depicts)"
+    },
+    {
+      "path": "../../captures/TERM-04/source/stdout.txt",
+      "lines": [
+        1289,
+        1291
+      ],
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "relationship": "real capture (revision 2: round 617 of the 617-round run; line 5 for the deal, lines 7-1288 replayed for the 50 / 2 hand sizes, lines 1293-1297 for the result)"
     }
   ],
   "authored_additions": [
     "Uses the supplied single-war fixture; burns conceal their faces. This is not an actual Program.vb run.",
     "The ten-card award moves individually in stored play order. The final counts are 21 / 31 / pot 0.",
-    "No insufficient-card case or recursive function is illustrated."
+    "No insufficient-card case or recursive function is illustrated in the generic sequence (preview, four-panel-poster, single-war-motion, award-to-bottom).",
+    "Revision 2: the endgame cutdown depicts one real short-hand case, round 617 of the TERM-04 capture, with the captured cards (10 of Diamonds, 10 of Spades) and the replayed hand sizes (50 / 2 -> 49 / 1 -> 48 / 0 -> 52 / 0, pot 0 -> 2 -> 4 -> 0). The two burned cards are drawn face-down because the program does not print them. Headings, captions, the 'normally: burn 3, then flip 1' ghost slots and the step counter are authored teaching copy; the two mono lines are the program's own output (stdout lines 1291 and 1294).",
+    "Revision 2: the Player 1 pile is drawn as a stack of at most eight backs; the counter carries the exact number. Player 2's pile is drawn card for card (2, 1, then an empty dashed outline).",
+    "Revision 2: card faces are the shared win95-workbench-1.1.0 primitives (regular pip layouts) drawn by tools/render/studio.py card(); every scene of the generic sequence was regenerated from tools/render/diagrams.py war_mechanic() with no other change."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "2026-09-15: release of the generic war sequence approved by the producer under Devin's delegation (R14 by Devin's standing ruling).",
+    "2026-09-16: revision 2 opened from Devin's approval of proposal 4 in review/cut-notes-2026-09-16.md (25:43): add an endgame variant with the real 2-vs-50 numbers, panels landing on the words; re-render with the OPS-01 1.1.0 card faces; the generic sequence stays as preview. Release back to unreviewed until the producer approves the new exports."
+  ]
 }

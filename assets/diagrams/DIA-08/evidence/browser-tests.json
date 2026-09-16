@@ -1,15 +1,33 @@
 {
   "id": "DIA-08",
-  "browser": "installed Chromium 144.0.7559.96",
-  "loading_mode": "In-memory HTML (file:// navigation restricted by this browser environment)",
+  "browser": "Playwright bundled Chromium 153.0.8010.12 (Windows); tools/render/qa_browser.py --id DIA-08, revision 2, 2026-09-16",
+  "loading_mode": "In-memory HTML",
   "offline": true,
   "deterministic_seek": true,
-  "svg_files_checked": 27,
-  "text_boxes_checked": 556,
+  "svg_files_checked": 28,
+  "text_boxes_checked": 942,
   "out_of_canvas": [],
   "errors": [],
   "limitations": [
     "Checks canvas bounds, not every possible overlap or semantic correctness.",
     "Typography depends on installed fonts for editable sources; rendered media is frozen."
-  ]
+  ],
+  "endgame_html": {
+    "html": "src/endgame.html",
+    "browser": "Playwright bundled Chromium 153.0.8010.12",
+    "loading_mode": "In-memory HTML",
+    "offline": true,
+    "deterministic_seek": true,
+    "stage_files": {
+      "0.0": "endgame-0000.svg",
+      "6.5": "endgame-0001.svg",
+      "27.36": "endgame-0004.svg",
+      "37.82": "endgame-0007.svg"
+    },
+    "svg_files_checked": 16,
+    "text_boxes_checked": 526,
+    "out_of_canvas": [],
+    "errors": [],
+    "command": "the qa_browser.py checks applied to src/endgame.html by a scratch script (the tool itself only reads src/index.html); revision 2, 2026-09-16"
+  }
 }

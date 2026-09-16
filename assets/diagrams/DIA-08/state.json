@@ -1,16 +1,17 @@
 {
   "id": "DIA-08",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
-  "assigned_agent": null,
+  "assigned_agent": "Claude Fable 5.1 worker (DIA-08 revision 2)",
   "updated_at": "2026-09-16",
   "blockers": [],
   "reviewer": "Producer for Devin",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
-    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling.",
-    "Revision 2 opened 2026-09-16: Devin's approval of proposal 4 (25:43); previous exports stay until replaced."
+    "Release approved 2026-09-15 for the generic war sequence with the 1.0.0 card faces (producer review under Devin's delegation; R14 by Devin's standing ruling); superseded by revision 2.",
+    "Revision 2 produced 2026-09-16 from Devin's approval of proposal 4 (25:43): the generic sequence re-rendered unchanged with the win95-workbench-1.1.0 card faces, plus the endgame cutdown (exports/endgame.mp4, 42 s, key_second 6.5, stages at 0 / 6.5 / 27.36 / 37.82 s) with the real round-617 numbers from the TERM-04 capture. Release back to unreviewed until the producer approves the new exports.",
+    "Review question for the producer: the endgame's stages 3 and 4 land on S12-B04 sentences, but the placement map gives all of S12-B04 to CODE-20 (qa.md, Remaining decisions)."
   ],
-  "owner": "ChatGPT \u2014 local production"
+  "owner": "Claude Fable 5.1 — local production"
 }

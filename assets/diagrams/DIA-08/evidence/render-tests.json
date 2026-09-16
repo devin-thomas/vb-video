@@ -1,13 +1,12 @@
 {
-  "renderer": "CairoSVG 2.8.2",
+  "renderer": "CairoSVG 2.9.1",
   "png_dimensions": "1920x1080",
   "video_probes": [
     {
-      "file": "exports/preview.mp4",
-      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-08/exports/preview.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-08/exports/preview.mp4",
+      "file": "exports\\preview.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\preview.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\preview.mp4",
       "probe": {
         "programs": [],
-        "stream_groups": [],
         "streams": [
           {
             "codec_name": "h264",
@@ -21,16 +20,15 @@
         ],
         "format": {
           "duration": "12.000000",
-          "size": "430861"
+          "size": "447654"
         }
       }
     },
     {
-      "file": "exports/single-war-motion.mp4",
-      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-08/exports/single-war-motion.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-08/exports/single-war-motion.mp4",
+      "file": "exports\\single-war-motion.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\single-war-motion.concat.txt -vf fps=30,format=yuv420p -frames:v 360 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\single-war-motion.mp4",
       "probe": {
         "programs": [],
-        "stream_groups": [],
         "streams": [
           {
             "codec_name": "h264",
@@ -44,16 +42,15 @@
         ],
         "format": {
           "duration": "12.000000",
-          "size": "430861"
+          "size": "447654"
         }
       }
     },
     {
-      "file": "exports/award-to-bottom.mp4",
-      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /mnt/data/VB_Asset_Delivery/assets/DIA-08/exports/award-to-bottom.concat.txt -vf fps=30,format=yuv420p -frames:v 120 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart /mnt/data/VB_Asset_Delivery/assets/DIA-08/exports/award-to-bottom.mp4",
+      "file": "exports\\award-to-bottom.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\award-to-bottom.concat.txt -vf fps=30,format=yuv420p -frames:v 120 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\award-to-bottom.mp4",
       "probe": {
         "programs": [],
-        "stream_groups": [],
         "streams": [
           {
             "codec_name": "h264",
@@ -67,10 +64,33 @@
         ],
         "format": {
           "duration": "4.000000",
-          "size": "208832"
+          "size": "216839"
+        }
+      }
+    },
+    {
+      "file": "exports\\endgame.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\endgame.concat.txt -vf fps=30,format=yuv420p -frames:v 1260 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-a25aee6eb110b6f88\\assets\\diagrams\\DIA-08\\exports\\endgame.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "1260"
+          }
+        ],
+        "format": {
+          "duration": "42.000000",
+          "size": "1337609"
         }
       }
     }
   ],
-  "command": "python shared/render_assets.py --id DIA-08"
+  "command": "python tools/render/render_assets.py --id DIA-08",
+  "endgame_command": "python assets/diagrams/DIA-08/src/endgame.py render"
 }
