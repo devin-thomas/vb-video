@@ -8,98 +8,98 @@
  },
  {
   "effect": "chapter-sting",
-  "at": 326.39,
+  "at": 317.19,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-03"
  },
  {
   "effect": "chapter-sting",
-  "at": 442.31,
+  "at": 431.67,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-04"
  },
  {
   "effect": "chapter-sting",
-  "at": 559.06,
+  "at": 548.58,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-05"
  },
  {
   "effect": "chapter-sting",
-  "at": 652.72,
+  "at": 642.24,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-06"
  },
  {
   "effect": "chapter-sting",
-  "at": 805.09,
+  "at": 793.17,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-07"
  },
  {
   "effect": "chapter-sting",
-  "at": 1011.42,
+  "at": 1000.06,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-08"
  },
  {
   "effect": "chapter-sting",
-  "at": 1158.1,
+  "at": 1148.42,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-09"
  },
  {
   "effect": "chapter-sting",
-  "at": 1279.19,
+  "at": 1270.15,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-10"
  },
  {
   "effect": "chapter-sting",
-  "at": 1436.32,
+  "at": 1427.36,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-11"
  },
  {
   "effect": "chapter-sting",
-  "at": 1488.28,
+  "at": 1478.04,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-12"
  },
  {
   "effect": "chapter-sting",
-  "at": 1650.999,
+  "at": 1638.99,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-13"
  },
  {
   "effect": "chapter-sting",
-  "at": 1818.411,
+  "at": 1801.54,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-14"
  },
  {
   "effect": "chapter-sting",
-  "at": 1993.515,
+  "at": 1989.77,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-15"
  },
  {
   "effect": "chapter-sting",
-  "at": 2196.442,
+  "at": 2192.82,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-16"

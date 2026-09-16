@@ -1,0 +1,2417 @@
+{
+ "S01-B01": {
+  "attempt": 1,
+  "wpm": 154.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    154.3,
+    ""
+   ]
+  ]
+ },
+ "S01-B02": {
+  "attempt": 1,
+  "wpm": 163.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    163.0,
+    ""
+   ]
+  ]
+ },
+ "S01-B03": {
+  "attempt": 1,
+  "wpm": 182.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    182.4,
+    ""
+   ]
+  ]
+ },
+ "S01-B04": {
+  "attempt": 1,
+  "wpm": 143.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    143.7,
+    ""
+   ]
+  ]
+ },
+ "S01-B05": {
+  "attempt": 1,
+  "wpm": 165.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    165.4,
+    ""
+   ]
+  ]
+ },
+ "S01-B06": {
+  "attempt": 1,
+  "wpm": 187.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    187.5,
+    ""
+   ]
+  ]
+ },
+ "S02-B01": {
+  "attempt": 1,
+  "wpm": 128.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    128.4,
+    ""
+   ]
+  ]
+ },
+ "S02-B02": {
+  "attempt": 2,
+  "wpm": 159.2,
+  "flags": [
+   "content words not heard: fortran cobol"
+  ],
+  "candidates": [
+   [
+    1,
+    157.3,
+    "content words not heard: fortran"
+   ],
+   [
+    2,
+    159.2,
+    "content words not heard: fortran cobol"
+   ]
+  ]
+ },
+ "S02-B03": {
+  "attempt": 2,
+  "wpm": 148.9,
+  "flags": [
+   "content words not heard: seventies eighties"
+  ],
+  "candidates": [
+   [
+    1,
+    117.5,
+    "content words not heard: seventies eighties; slow (118 wpm)"
+   ],
+   [
+    2,
+    148.9,
+    "content words not heard: seventies eighties"
+   ]
+  ]
+ },
+ "S02-B04": {
+  "attempt": 1,
+  "wpm": 175.2,
+  "flags": [
+   "content words not heard: learned"
+  ],
+  "candidates": [
+   [
+    1,
+    175.2,
+    "content words not heard: learned"
+   ],
+   [
+    2,
+    206.9,
+    "content words not heard: learned; fast (207 wpm)"
+   ]
+  ]
+ },
+ "S02-B05": {
+  "attempt": 1,
+  "wpm": 190.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    190.0,
+    ""
+   ]
+  ]
+ },
+ "S02-B06": {
+  "attempt": 2,
+  "wpm": 125.0,
+  "flags": [
+   "content words not heard: win sixteen"
+  ],
+  "candidates": [
+   [
+    1,
+    116.2,
+    "content words not heard: win sixteen; slow (116 wpm)"
+   ],
+   [
+    2,
+    125.0,
+    "content words not heard: win sixteen"
+   ]
+  ]
+ },
+ "S02-B07": {
+  "attempt": 1,
+  "wpm": 176.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    176.5,
+    ""
+   ]
+  ]
+ },
+ "S02-B08": {
+  "attempt": 1,
+  "wpm": 133.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    133.5,
+    ""
+   ]
+  ]
+ },
+ "S02-B09": {
+  "attempt": 1,
+  "wpm": 167.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    167.0,
+    ""
+   ]
+  ]
+ },
+ "S02-B10": {
+  "attempt": 1,
+  "wpm": 164.2,
+  "flags": [
+   "content words not heard: five"
+  ],
+  "candidates": [
+   [
+    1,
+    164.2,
+    "content words not heard: five"
+   ],
+   [
+    2,
+    151.6,
+    "content words not heard: five"
+   ]
+  ]
+ },
+ "S02-B11": {
+  "attempt": 1,
+  "wpm": 118.5,
+  "flags": [
+   "slow (119 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    118.5,
+    "slow (119 wpm)"
+   ],
+   [
+    2,
+    130.1,
+    "content words not heard: jet"
+   ]
+  ]
+ },
+ "S02-B12": {
+  "attempt": 2,
+  "wpm": 148.4,
+  "flags": [
+   "content words not heard: four"
+  ],
+  "candidates": [
+   [
+    1,
+    140.6,
+    "content words not heard: four"
+   ],
+   [
+    2,
+    148.4,
+    "content words not heard: four"
+   ]
+  ]
+ },
+ "S02-B13": {
+  "attempt": 2,
+  "wpm": 142.2,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    138.1,
+    "content words not heard: five six four"
+   ],
+   [
+    2,
+    142.2,
+    ""
+   ]
+  ]
+ },
+ "S03-B01": {
+  "attempt": 1,
+  "wpm": 157.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    157.4,
+    ""
+   ]
+  ]
+ },
+ "S03-B02": {
+  "attempt": 2,
+  "wpm": 165.1,
+  "flags": [
+   "content words not heard: disc"
+  ],
+  "candidates": [
+   [
+    1,
+    151.3,
+    "content words not heard: compusa disc"
+   ],
+   [
+    2,
+    165.1,
+    "content words not heard: disc"
+   ]
+  ]
+ },
+ "S03-B03": {
+  "attempt": 1,
+  "wpm": 162.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    162.0,
+    ""
+   ]
+  ]
+ },
+ "S03-B04": {
+  "attempt": 1,
+  "wpm": 145.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    145.1,
+    ""
+   ]
+  ]
+ },
+ "S03-B05": {
+  "attempt": 1,
+  "wpm": 199.3,
+  "flags": [
+   "content words not heard: basic"
+  ],
+  "candidates": [
+   [
+    1,
+    199.3,
+    "content words not heard: basic"
+   ],
+   [
+    2,
+    231.7,
+    "content words not heard: basic; fast (232 wpm)"
+   ]
+  ]
+ },
+ "S03-B06": {
+  "attempt": 1,
+  "wpm": 154.8,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    154.8,
+    ""
+   ]
+  ]
+ },
+ "S03-B07": {
+  "attempt": 1,
+  "wpm": 160.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    160.7,
+    ""
+   ]
+  ]
+ },
+ "S03-B08": {
+  "attempt": 2,
+  "wpm": 162.2,
+  "flags": [
+   "content words not heard: gooey"
+  ],
+  "candidates": [
+   [
+    1,
+    166.7,
+    "content words not heard: gooey"
+   ],
+   [
+    2,
+    162.2,
+    "content words not heard: gooey"
+   ]
+  ]
+ },
+ "S04-B01": {
+  "attempt": 1,
+  "wpm": 138.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    138.5,
+    ""
+   ]
+  ]
+ },
+ "S04-B02": {
+  "attempt": 1,
+  "wpm": 152.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    152.0,
+    ""
+   ]
+  ]
+ },
+ "S04-B03": {
+  "attempt": 1,
+  "wpm": 194.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    194.4,
+    ""
+   ]
+  ]
+ },
+ "S04-B04": {
+  "attempt": 1,
+  "wpm": 138.9,
+  "flags": [
+   "content words not heard: proj linq"
+  ],
+  "candidates": [
+   [
+    1,
+    138.9,
+    "content words not heard: proj linq"
+   ],
+   [
+    2,
+    132.7,
+    "content words not heard: proj linq"
+   ]
+  ]
+ },
+ "S04-B05": {
+  "attempt": 2,
+  "wpm": 182.7,
+  "flags": [
+   "content words not heard: four"
+  ],
+  "candidates": [
+   [
+    1,
+    187.5,
+    "content words not heard: four"
+   ],
+   [
+    2,
+    182.7,
+    "content words not heard: four"
+   ]
+  ]
+ },
+ "S04-B06": {
+  "attempt": 1,
+  "wpm": 177.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    177.3,
+    ""
+   ]
+  ]
+ },
+ "S04-B07": {
+  "attempt": 1,
+  "wpm": 143.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    143.0,
+    ""
+   ]
+  ]
+ },
+ "S05-B01": {
+  "attempt": 1,
+  "wpm": 191.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    191.4,
+    ""
+   ]
+  ]
+ },
+ "S05-B02": {
+  "attempt": 1,
+  "wpm": 173.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    173.1,
+    ""
+   ]
+  ]
+ },
+ "S05-B03": {
+  "attempt": 1,
+  "wpm": 168.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    168.6,
+    ""
+   ]
+  ]
+ },
+ "S05-B04": {
+  "attempt": 1,
+  "wpm": 152.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    152.3,
+    ""
+   ]
+  ]
+ },
+ "S05-B05": {
+  "attempt": 1,
+  "wpm": 152.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    152.3,
+    ""
+   ]
+  ]
+ },
+ "S05-B06": {
+  "attempt": 1,
+  "wpm": 150.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    150.0,
+    ""
+   ]
+  ]
+ },
+ "S06-B01": {
+  "attempt": 1,
+  "wpm": 180.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    180.4,
+    ""
+   ]
+  ]
+ },
+ "S06-B02": {
+  "attempt": 1,
+  "wpm": 125.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    125.0,
+    ""
+   ]
+  ]
+ },
+ "S06-B03": {
+  "attempt": 1,
+  "wpm": 137.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    137.6,
+    ""
+   ]
+  ]
+ },
+ "S06-B04": {
+  "attempt": 1,
+  "wpm": 143.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    143.7,
+    ""
+   ]
+  ]
+ },
+ "S06-B05": {
+  "attempt": 1,
+  "wpm": 146.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    146.3,
+    ""
+   ]
+  ]
+ },
+ "S06-B06": {
+  "attempt": 1,
+  "wpm": 160.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    160.1,
+    ""
+   ]
+  ]
+ },
+ "S06-B07": {
+  "attempt": 1,
+  "wpm": 157.2,
+  "flags": [
+   "content words not heard: dim dim"
+  ],
+  "candidates": [
+   [
+    1,
+    157.2,
+    "content words not heard: dim dim"
+   ],
+   [
+    2,
+    146.2,
+    "content words not heard: allocate"
+   ]
+  ]
+ },
+ "S06-B08": {
+  "attempt": 1,
+  "wpm": 146.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    146.0,
+    ""
+   ]
+  ]
+ },
+ "S06-B09": {
+  "attempt": 2,
+  "wpm": 155.9,
+  "flags": [
+   "content words not heard: char suit"
+  ],
+  "candidates": [
+   [
+    1,
+    145.6,
+    "content words not heard: char suit"
+   ],
+   [
+    2,
+    155.9,
+    "content words not heard: char suit"
+   ]
+  ]
+ },
+ "S07-B01": {
+  "attempt": 2,
+  "wpm": 123.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    115.4,
+    "slow (115 wpm)"
+   ],
+   [
+    2,
+    123.3,
+    ""
+   ]
+  ]
+ },
+ "S07-B02": {
+  "attempt": 1,
+  "wpm": 165.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    165.5,
+    ""
+   ]
+  ]
+ },
+ "S07-B03": {
+  "attempt": 1,
+  "wpm": 131.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    131.9,
+    ""
+   ]
+  ]
+ },
+ "S07-B04": {
+  "attempt": 1,
+  "wpm": 137.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    137.4,
+    ""
+   ]
+  ]
+ },
+ "S07-B05": {
+  "attempt": 1,
+  "wpm": 146.2,
+  "flags": [
+   "content words not heard: four"
+  ],
+  "candidates": [
+   [
+    1,
+    146.2,
+    "content words not heard: four"
+   ],
+   [
+    2,
+    135.2,
+    "content words not heard: had four"
+   ]
+  ]
+ },
+ "S07-B06": {
+  "attempt": 1,
+  "wpm": 154.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    154.4,
+    ""
+   ]
+  ]
+ },
+ "S07-B07": {
+  "attempt": 2,
+  "wpm": 157.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    158.0,
+    "content words not heard: next next"
+   ],
+   [
+    2,
+    157.4,
+    ""
+   ]
+  ]
+ },
+ "S07-B08": {
+  "attempt": 2,
+  "wpm": 173.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    202.7,
+    "fast (203 wpm)"
+   ],
+   [
+    2,
+    173.1,
+    ""
+   ]
+  ]
+ },
+ "S07-B09": {
+  "attempt": 1,
+  "wpm": 187.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    187.5,
+    ""
+   ]
+  ]
+ },
+ "S07-B10": {
+  "attempt": 1,
+  "wpm": 147.2,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    147.2,
+    ""
+   ]
+  ]
+ },
+ "S07-B11": {
+  "attempt": 1,
+  "wpm": 161.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    161.9,
+    ""
+   ]
+  ]
+ },
+ "S07-B12": {
+  "attempt": 1,
+  "wpm": 132.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    132.4,
+    ""
+   ]
+  ]
+ },
+ "S07-B13": {
+  "attempt": 2,
+  "wpm": 144.1,
+  "flags": [
+   "content words not heard: dim eighty"
+  ],
+  "candidates": [
+   [
+    1,
+    140.5,
+    "content words not heard: dim eighty"
+   ],
+   [
+    2,
+    144.1,
+    "content words not heard: dim eighty"
+   ]
+  ]
+ },
+ "S08-B01": {
+  "attempt": 1,
+  "wpm": 193.9,
+  "flags": [
+   "content words not heard: structures queue"
+  ],
+  "candidates": [
+   [
+    1,
+    193.9,
+    "content words not heard: structures queue"
+   ],
+   [
+    2,
+    208.1,
+    "content words not heard: structures queue; fast (208 wpm)"
+   ]
+  ]
+ },
+ "S08-B02": {
+  "attempt": 1,
+  "wpm": 147.9,
+  "flags": [
+   "content words not heard: queue plus plus queue queue dim"
+  ],
+  "candidates": [
+   [
+    1,
+    147.9,
+    "content words not heard: queue plus plus queue queue dim"
+   ],
+   [
+    2,
+    145.8,
+    "content words not heard: queue queue queue dim"
+   ]
+  ]
+ },
+ "S08-B03": {
+  "attempt": 2,
+  "wpm": 200.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    300.0,
+    "fast (300 wpm)"
+   ],
+   [
+    2,
+    200.0,
+    ""
+   ]
+  ]
+ },
+ "S08-B04": {
+  "attempt": 1,
+  "wpm": 151.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    151.4,
+    ""
+   ]
+  ]
+ },
+ "S08-B05": {
+  "attempt": 2,
+  "wpm": 160.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    203.4,
+    "fast (203 wpm)"
+   ],
+   [
+    2,
+    160.0,
+    ""
+   ]
+  ]
+ },
+ "S08-B06": {
+  "attempt": 1,
+  "wpm": 175.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    175.5,
+    ""
+   ]
+  ]
+ },
+ "S08-B07": {
+  "attempt": 1,
+  "wpm": 163.7,
+  "flags": [
+   "content words not heard: data sets"
+  ],
+  "candidates": [
+   [
+    1,
+    163.7,
+    "content words not heard: data sets"
+   ],
+   [
+    2,
+    156.2,
+    "content words not heard: data sets"
+   ]
+  ]
+ },
+ "S08-B08": {
+  "attempt": 1,
+  "wpm": 175.2,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    175.2,
+    ""
+   ]
+  ]
+ },
+ "S08-B09": {
+  "attempt": 1,
+  "wpm": 175.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    175.0,
+    ""
+   ]
+  ]
+ },
+ "S08-B10": {
+  "attempt": 1,
+  "wpm": 153.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    153.5,
+    ""
+   ]
+  ]
+ },
+ "S08-B11": {
+  "attempt": 1,
+  "wpm": 175.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    175.0,
+    ""
+   ]
+  ]
+ },
+ "S08-B12": {
+  "attempt": 1,
+  "wpm": 150.8,
+  "flags": [
+   "content words not heard: sixties assign nineties"
+  ],
+  "candidates": [
+   [
+    1,
+    150.8,
+    "content words not heard: sixties assign nineties"
+   ],
+   [
+    2,
+    142.3,
+    "content words not heard: sixties assign nineties"
+   ]
+  ]
+ },
+ "S09-B01": {
+  "attempt": 1,
+  "wpm": 169.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    169.4,
+    ""
+   ]
+  ]
+ },
+ "S09-B02": {
+  "attempt": 1,
+  "wpm": 149.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    149.1,
+    ""
+   ]
+  ]
+ },
+ "S09-B03": {
+  "attempt": 2,
+  "wpm": 250.0,
+  "flags": [
+   "fast (250 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    281.2,
+    "fast (281 wpm)"
+   ],
+   [
+    2,
+    250.0,
+    "fast (250 wpm)"
+   ]
+  ]
+ },
+ "S09-B04": {
+  "attempt": 1,
+  "wpm": 194.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    194.4,
+    ""
+   ]
+  ]
+ },
+ "S09-B05": {
+  "attempt": 1,
+  "wpm": 160.7,
+  "flags": [
+   "content words not heard: thousand thousand"
+  ],
+  "candidates": [
+   [
+    1,
+    160.7,
+    "content words not heard: thousand thousand"
+   ],
+   [
+    2,
+    157.3,
+    "content words not heard: thousand thousand"
+   ]
+  ]
+ },
+ "S09-B06": {
+  "attempt": 2,
+  "wpm": 168.8,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    204.5,
+    "fast (205 wpm)"
+   ],
+   [
+    2,
+    168.8,
+    ""
+   ]
+  ]
+ },
+ "S09-B07": {
+  "attempt": 1,
+  "wpm": 133.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    133.9,
+    ""
+   ]
+  ]
+ },
+ "S09-B08": {
+  "attempt": 1,
+  "wpm": 200.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    200.0,
+    ""
+   ]
+  ]
+ },
+ "S09-B09": {
+  "attempt": 1,
+  "wpm": 133.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    133.9,
+    ""
+   ]
+  ]
+ },
+ "S10-B01": {
+  "attempt": 1,
+  "wpm": 155.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    155.5,
+    ""
+   ]
+  ]
+ },
+ "S10-B02": {
+  "attempt": 1,
+  "wpm": 163.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    163.3,
+    ""
+   ]
+  ]
+ },
+ "S10-B03": {
+  "attempt": 2,
+  "wpm": 210.5,
+  "flags": [
+   "fast (211 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    214.3,
+    "fast (214 wpm)"
+   ],
+   [
+    2,
+    210.5,
+    "fast (211 wpm)"
+   ]
+  ]
+ },
+ "S10-B04": {
+  "attempt": 1,
+  "wpm": 145.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    145.5,
+    ""
+   ]
+  ]
+ },
+ "S10-B05": {
+  "attempt": 1,
+  "wpm": 144.8,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    144.8,
+    ""
+   ]
+  ]
+ },
+ "S10-B06": {
+  "attempt": 1,
+  "wpm": 196.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    196.0,
+    ""
+   ]
+  ]
+ },
+ "S10-B07": {
+  "attempt": 1,
+  "wpm": 178.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    178.0,
+    ""
+   ]
+  ]
+ },
+ "S10-B08": {
+  "attempt": 1,
+  "wpm": 153.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    153.6,
+    ""
+   ]
+  ]
+ },
+ "S10-B09": {
+  "attempt": 1,
+  "wpm": 167.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    167.6,
+    ""
+   ]
+  ]
+ },
+ "S10-B10": {
+  "attempt": 1,
+  "wpm": 160.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    160.7,
+    ""
+   ]
+  ]
+ },
+ "S10-B11": {
+  "attempt": 1,
+  "wpm": 154.3,
+  "flags": [
+   "content words not heard: b's"
+  ],
+  "candidates": [
+   [
+    1,
+    154.3,
+    "content words not heard: b's"
+   ],
+   [
+    2,
+    145.9,
+    "content words not heard: b's"
+   ]
+  ]
+ },
+ "S10-B12": {
+  "attempt": 1,
+  "wpm": 172.0,
+  "flags": [
+   "content words not heard: pot array"
+  ],
+  "candidates": [
+   [
+    1,
+    172.0,
+    "content words not heard: pot array"
+   ],
+   [
+    2,
+    206.0,
+    "content words not heard: pot array; fast (206 wpm)"
+   ]
+  ]
+ },
+ "S10-B13": {
+  "attempt": 1,
+  "wpm": 162.2,
+  "flags": [
+   "content words not heard: won"
+  ],
+  "candidates": [
+   [
+    1,
+    162.2,
+    "content words not heard: won"
+   ],
+   [
+    2,
+    165.5,
+    "content words not heard: won"
+   ]
+  ]
+ },
+ "S11-B01": {
+  "attempt": 1,
+  "wpm": 281.2,
+  "flags": [
+   "fast (281 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    281.2,
+    "fast (281 wpm)"
+   ],
+   [
+    2,
+    281.2,
+    "fast (281 wpm)"
+   ]
+  ]
+ },
+ "S11-B02": {
+  "attempt": 1,
+  "wpm": 163.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    163.6,
+    ""
+   ]
+  ]
+ },
+ "S11-B03": {
+  "attempt": 2,
+  "wpm": 162.5,
+  "flags": [
+   "content words not heard: thousand"
+  ],
+  "candidates": [
+   [
+    1,
+    149.2,
+    "content words not heard: thousand"
+   ],
+   [
+    2,
+    162.5,
+    "content words not heard: thousand"
+   ]
+  ]
+ },
+ "S11-B04": {
+  "attempt": 1,
+  "wpm": 119.0,
+  "flags": [
+   "slow (119 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    119.0,
+    "slow (119 wpm)"
+   ],
+   [
+    2,
+    111.5,
+    "slow (111 wpm)"
+   ]
+  ]
+ },
+ "S12-B01": {
+  "attempt": 1,
+  "wpm": 158.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    158.5,
+    ""
+   ]
+  ]
+ },
+ "S12-B02": {
+  "attempt": 1,
+  "wpm": 192.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    192.6,
+    ""
+   ]
+  ]
+ },
+ "S12-B03": {
+  "attempt": 1,
+  "wpm": 144.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    144.9,
+    ""
+   ]
+  ]
+ },
+ "S12-B04": {
+  "attempt": 1,
+  "wpm": 166.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    166.4,
+    ""
+   ]
+  ]
+ },
+ "S12-B05": {
+  "attempt": 1,
+  "wpm": 147.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    147.0,
+    ""
+   ]
+  ]
+ },
+ "S12-B06": {
+  "attempt": 2,
+  "wpm": 125.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    131.4,
+    "content words not heard: thousand"
+   ],
+   [
+    2,
+    125.0,
+    ""
+   ]
+  ]
+ },
+ "S12-B07": {
+  "attempt": 1,
+  "wpm": 150.8,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    150.8,
+    ""
+   ]
+  ]
+ },
+ "S12-B08": {
+  "attempt": 1,
+  "wpm": 138.2,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    138.2,
+    ""
+   ]
+  ]
+ },
+ "S12-B09": {
+  "attempt": 1,
+  "wpm": 162.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    162.9,
+    ""
+   ]
+  ]
+ },
+ "S12-B10": {
+  "attempt": 1,
+  "wpm": 181.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    181.0,
+    ""
+   ]
+  ]
+ },
+ "S12-B11": {
+  "attempt": 1,
+  "wpm": 166.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    166.7,
+    ""
+   ]
+  ]
+ },
+ "S13-B01": {
+  "attempt": 1,
+  "wpm": 146.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    146.1,
+    ""
+   ]
+  ]
+ },
+ "S13-B02": {
+  "attempt": 1,
+  "wpm": 212.7,
+  "flags": [
+   "content words not heard: gooey",
+   "fast (213 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    212.7,
+    "content words not heard: gooey; fast (213 wpm)"
+   ],
+   [
+    2,
+    219.2,
+    "content words not heard: gooey; fast (219 wpm)"
+   ]
+  ]
+ },
+ "S13-B03": {
+  "attempt": 1,
+  "wpm": 175.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    175.3,
+    ""
+   ]
+  ]
+ },
+ "S13-B04": {
+  "attempt": 1,
+  "wpm": 183.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    183.7,
+    ""
+   ]
+  ]
+ },
+ "S13-B05": {
+  "attempt": 1,
+  "wpm": 164.3,
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "candidates": [
+   [
+    1,
+    164.3,
+    "content words not heard: nineties"
+   ],
+   [
+    2,
+    173.6,
+    "content words not heard: nineties"
+   ]
+  ]
+ },
+ "S13-B06": {
+  "attempt": 1,
+  "wpm": 153.4,
+  "flags": [
+   "content words not heard: nineties web sites"
+  ],
+  "candidates": [
+   [
+    1,
+    153.4,
+    "content words not heard: nineties web sites"
+   ],
+   [
+    2,
+    176.1,
+    "content words not heard: nineties web sites"
+   ]
+  ]
+ },
+ "S13-B07": {
+  "attempt": 2,
+  "wpm": 152.4,
+  "flags": [
+   "content words not heard: runtime run three dot"
+  ],
+  "candidates": [
+   [
+    1,
+    151.2,
+    "content words not heard: runtime run three dot"
+   ],
+   [
+    2,
+    152.4,
+    "content words not heard: runtime run three dot"
+   ]
+  ]
+ },
+ "S13-B08": {
+  "attempt": 1,
+  "wpm": 144.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    144.7,
+    ""
+   ]
+  ]
+ },
+ "S13-B09": {
+  "attempt": 1,
+  "wpm": 170.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    170.3,
+    ""
+   ]
+  ]
+ },
+ "S13-B10": {
+  "attempt": 1,
+  "wpm": 152.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    152.3,
+    ""
+   ]
+  ]
+ },
+ "S13-B11": {
+  "attempt": 1,
+  "wpm": 163.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    163.0,
+    ""
+   ]
+  ]
+ },
+ "S14-B01": {
+  "attempt": 1,
+  "wpm": 181.8,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    181.8,
+    ""
+   ]
+  ]
+ },
+ "S14-B02": {
+  "attempt": 2,
+  "wpm": 119.7,
+  "flags": [
+   "slow (120 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    119.1,
+    "slow (119 wpm)"
+   ],
+   [
+    2,
+    119.7,
+    "slow (120 wpm)"
+   ]
+  ]
+ },
+ "S14-B03": {
+  "attempt": 1,
+  "wpm": 173.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    173.1,
+    ""
+   ]
+  ]
+ },
+ "S14-B04": {
+  "attempt": 1,
+  "wpm": 140.5,
+  "flags": [
+   "content words not heard: preferred"
+  ],
+  "candidates": [
+   [
+    1,
+    140.5,
+    "content words not heard: preferred"
+   ],
+   [
+    2,
+    139.6,
+    "content words not heard: preferred"
+   ]
+  ]
+ },
+ "S14-B05": {
+  "attempt": 1,
+  "wpm": 165.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    165.0,
+    ""
+   ]
+  ]
+ },
+ "S14-B06": {
+  "attempt": 1,
+  "wpm": 156.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    156.4,
+    ""
+   ]
+  ]
+ },
+ "S14-B07": {
+  "attempt": 1,
+  "wpm": 134.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    134.1,
+    ""
+   ]
+  ]
+ },
+ "S14-B08": {
+  "attempt": 1,
+  "wpm": 145.6,
+  "flags": [
+   "content words not heard: datawindows"
+  ],
+  "candidates": [
+   [
+    1,
+    145.6,
+    "content words not heard: datawindows"
+   ],
+   [
+    2,
+    138.5,
+    "content words not heard: datawindows"
+   ]
+  ]
+ },
+ "S14-B09": {
+  "attempt": 1,
+  "wpm": 133.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    133.6,
+    ""
+   ]
+  ]
+ },
+ "S14-B10": {
+  "attempt": 1,
+  "wpm": 120.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    120.0,
+    ""
+   ]
+  ]
+ },
+ "S14-B11": {
+  "attempt": 2,
+  "wpm": 167.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    178.9,
+    "content words not heard: powerbuilder"
+   ],
+   [
+    2,
+    167.6,
+    ""
+   ]
+  ]
+ },
+ "S15-B01": {
+  "attempt": 2,
+  "wpm": 192.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    210.9,
+    "content words not heard: mac; fast (211 wpm)"
+   ],
+   [
+    2,
+    192.9,
+    ""
+   ]
+  ]
+ },
+ "S15-B02": {
+  "attempt": 1,
+  "wpm": 150.6,
+  "flags": [
+   "content words not heard: quickbasic"
+  ],
+  "candidates": [
+   [
+    1,
+    150.6,
+    "content words not heard: quickbasic"
+   ],
+   [
+    2,
+    150.0,
+    "content words not heard: quickbasic"
+   ]
+  ]
+ },
+ "S15-B03": {
+  "attempt": 1,
+  "wpm": 132.7,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    132.7,
+    ""
+   ]
+  ]
+ },
+ "S15-B04": {
+  "attempt": 2,
+  "wpm": 139.0,
+  "flags": [
+   "content words not heard: metrowerks nineties eight"
+  ],
+  "candidates": [
+   [
+    1,
+    131.1,
+    "content words not heard: metrowerks codewarrior nineties eight"
+   ],
+   [
+    2,
+    139.0,
+    "content words not heard: metrowerks nineties eight"
+   ]
+  ]
+ },
+ "S15-B05": {
+  "attempt": 1,
+  "wpm": 150.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    150.0,
+    ""
+   ]
+  ]
+ },
+ "S15-B06": {
+  "attempt": 1,
+  "wpm": 139.6,
+  "flags": [
+   "content words not heard: nineties jobs's"
+  ],
+  "candidates": [
+   [
+    1,
+    139.6,
+    "content words not heard: nineties jobs's"
+   ],
+   [
+    2,
+    125.0,
+    "content words not heard: nineties jobs's"
+   ]
+  ]
+ },
+ "S15-B07": {
+  "attempt": 1,
+  "wpm": 142.2,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    142.2,
+    ""
+   ]
+  ]
+ },
+ "S15-B08": {
+  "attempt": 1,
+  "wpm": 158.3,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    158.3,
+    ""
+   ]
+  ]
+ },
+ "S15-B09": {
+  "attempt": 1,
+  "wpm": 176.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    176.5,
+    ""
+   ]
+  ]
+ },
+ "S15-B10": {
+  "attempt": 1,
+  "wpm": 160.0,
+  "flags": [
+   "content words not heard: gooey dot write line"
+  ],
+  "candidates": [
+   [
+    1,
+    160.0,
+    "content words not heard: gooey dot write line"
+   ],
+   [
+    2,
+    151.9,
+    "content words not heard: gooey you'd use dot write line"
+   ]
+  ]
+ },
+ "S15-B11": {
+  "attempt": 2,
+  "wpm": 153.6,
+  "flags": [
+   "content words not heard: gooey grafports"
+  ],
+  "candidates": [
+   [
+    1,
+    150.0,
+    "content words not heard: gooey grafports"
+   ],
+   [
+    2,
+    153.6,
+    "content words not heard: gooey grafports"
+   ]
+  ]
+ },
+ "S15-B12": {
+  "attempt": 1,
+  "wpm": 237.8,
+  "flags": [
+   "fast (238 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    237.8,
+    "fast (238 wpm)"
+   ],
+   [
+    2,
+    195.0,
+    "content words not heard: week"
+   ]
+  ]
+ },
+ "S15-B13": {
+  "attempt": 1,
+  "wpm": 188.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    188.5,
+    ""
+   ]
+  ]
+ },
+ "S16-B01": {
+  "attempt": 1,
+  "wpm": 135.2,
+  "flags": [
+   "content words not heard: dollar"
+  ],
+  "candidates": [
+   [
+    1,
+    135.2,
+    "content words not heard: dollar"
+   ],
+   [
+    2,
+    127.7,
+    "content words not heard: dollar"
+   ]
+  ]
+ },
+ "S16-B02": {
+  "attempt": 1,
+  "wpm": 173.6,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    173.6,
+    ""
+   ]
+  ]
+ },
+ "S16-B03": {
+  "attempt": 1,
+  "wpm": 152.1,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    152.1,
+    ""
+   ]
+  ]
+ },
+ "S16-B04": {
+  "attempt": 1,
+  "wpm": 217.7,
+  "flags": [
+   "fast (218 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    217.7,
+    "fast (218 wpm)"
+   ],
+   [
+    2,
+    232.8,
+    "fast (233 wpm)"
+   ]
+  ]
+ },
+ "S16-B05": {
+  "attempt": 2,
+  "wpm": 130.2,
+  "flags": [
+   "content words not heard: nineties six six"
+  ],
+  "candidates": [
+   [
+    1,
+    126.7,
+    "content words not heard: nineties"
+   ],
+   [
+    2,
+    130.2,
+    "content words not heard: nineties six six"
+   ]
+  ]
+ },
+ "S16-B06": {
+  "attempt": 1,
+  "wpm": 162.5,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    162.5,
+    ""
+   ]
+  ]
+ },
+ "S16-B07": {
+  "attempt": 1,
+  "wpm": 162.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    162.9,
+    ""
+   ]
+  ]
+ },
+ "S16-B08": {
+  "attempt": 1,
+  "wpm": 117.2,
+  "flags": [
+   "content words not heard: six",
+   "slow (117 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    117.2,
+    "content words not heard: six; slow (117 wpm)"
+   ],
+   [
+    2,
+    108.5,
+    "content words not heard: six; slow (108 wpm)"
+   ]
+  ]
+ },
+ "S16-B09": {
+  "attempt": 2,
+  "wpm": 153.3,
+  "flags": [
+   "content words not heard: six"
+  ],
+  "candidates": [
+   [
+    1,
+    148.6,
+    "content words not heard: six"
+   ],
+   [
+    2,
+    153.3,
+    "content words not heard: six"
+   ]
+  ]
+ },
+ "S16-B10": {
+  "attempt": 1,
+  "wpm": 134.6,
+  "flags": [
+   "content words not heard: six"
+  ],
+  "candidates": [
+   [
+    1,
+    134.6,
+    "content words not heard: six"
+   ],
+   [
+    2,
+    131.2,
+    "content words not heard: six"
+   ]
+  ]
+ },
+ "S16-B11": {
+  "attempt": 1,
+  "wpm": 122.5,
+  "flags": [
+   "content words not heard: six"
+  ],
+  "candidates": [
+   [
+    1,
+    122.5,
+    "content words not heard: six"
+   ],
+   [
+    2,
+    122.5,
+    "content words not heard: six"
+   ]
+  ]
+ },
+ "S16-B12": {
+  "attempt": 1,
+  "wpm": 147.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    147.4,
+    ""
+   ]
+  ]
+ },
+ "S16-B13": {
+  "attempt": 1,
+  "wpm": 136.4,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    136.4,
+    ""
+   ]
+  ]
+ },
+ "S16-B14": {
+  "attempt": 1,
+  "wpm": 125.0,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    125.0,
+    ""
+   ]
+  ]
+ },
+ "S17-B01": {
+  "attempt": 2,
+  "wpm": 159.5,
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "candidates": [
+   [
+    1,
+    156.0,
+    "content words not heard: nineties"
+   ],
+   [
+    2,
+    159.5,
+    "content words not heard: nineties"
+   ]
+  ]
+ },
+ "S17-B02": {
+  "attempt": 1,
+  "wpm": 157.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    157.9,
+    ""
+   ]
+  ]
+ },
+ "S17-B03": {
+  "attempt": 2,
+  "wpm": 158.0,
+  "flags": [
+   "content words not heard: dotnet lang"
+  ],
+  "candidates": [
+   [
+    1,
+    164.1,
+    "content words not heard: dotnet lang"
+   ],
+   [
+    2,
+    158.0,
+    "content words not heard: dotnet lang"
+   ]
+  ]
+ },
+ "S17-B04": {
+  "attempt": 1,
+  "wpm": 141.9,
+  "flags": [],
+  "candidates": [
+   [
+    1,
+    141.9,
+    ""
+   ]
+  ]
+ },
+ "S17-B05": {
+  "attempt": 2,
+  "wpm": 170.6,
+  "flags": [
+   "content words not heard: four"
+  ],
+  "candidates": [
+   [
+    1,
+    193.5,
+    "content words not heard: four"
+   ],
+   [
+    2,
+    170.6,
+    "content words not heard: four"
+   ]
+  ]
+ },
+ "S17-B06": {
+  "attempt": 2,
+  "wpm": 264.7,
+  "flags": [
+   "fast (265 wpm)"
+  ],
+  "candidates": [
+   [
+    1,
+    300.0,
+    "fast (300 wpm)"
+   ],
+   [
+    2,
+    264.7,
+    "fast (265 wpm)"
+   ]
+  ]
+ }
+}

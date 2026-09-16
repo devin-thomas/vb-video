@@ -153,7 +153,7 @@ def mix(video: Path, music: str | None, sfx_json: str | None, out: Path) -> Path
         delay = int(float(item["at"]) * 1000)
         filters.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,volume={item.get('gain_db', -6)}dB,adelay={delay}|{delay}[fx{k}]")
         mix_in.append(f"[fx{k}]"); n += 1
-    filters.append("".join(mix_in) + f"amix=inputs={len(mix_in)}:duration=first:normalize=0,volume=4dB,alimiter=limit=0.94:attack=5:release=80[aout]")
+    filters.append("".join(mix_in) + f"amix=inputs={len(mix_in)}:duration=first:normalize=0,volume=4dB,alimiter=limit=0.89:attack=5:release=80:level=0[aout]")
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *inputs, "-filter_complex", ";".join(filters), "-map", "0:v", "-map", "[aout]",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", str(out)])
     print(f"[ok] {out}")

@@ -62,11 +62,11 @@ PLACEMENTS = [  # (asset, section, pattern on the beat's written text) for asset
     ("CMP-02", 7, r"`Sub`"), ("CMP-03", 7, r"Next Rank"), ("CMP-04", 7, r"Fisher-Yates|Step -1"),
     ("CODE-07", 8, r"ReDim|NewHand"), ("CMP-05", 8, r"return Top;|assign to the function"), ("FACT-05", 8, r"old-school BASIC heritage"),
     ("CODE-12", 9, r"alternating cards"), ("CMP-07", 9, r"`Do While"), ("CODE-14", 9, r"safety valve"), ("CMP-08", 9, r"line continuation|underscore"),
-    ("CODE-25", 11, r"Every run is different|final summary"), ("FACT-06", 12, r"VB runtime|shipped separately"), ("BROLL-06", 12, r"wouldn't launch|installer"),
-    ("DIA-11", 13, r"why VB won the market|Let's talk about what they were"), ("DIA-13", 16, r"ideas it pioneered"), ("HIST-03", 16, r"VB6, released in 1998"),
+    ("CODE-25", 11, r"Every run is different|final summary"), ("FACT-06", 13, r"bundle the runtime|megabyte-plus"), ("BROLL-06", 3, r"ran the installer"),
+    ("DIA-11", 14, r"sweet spot"), ("DIA-13", 16, r"ideas it pioneered"), ("HIST-03", 16, r"VB6, released in 1998"),
     ("FACT-01", 2, r"it's an acronym"), ("FACT-04", 2, r"Jet engine"), ("FACT-03", 3, r"Rapid Application Development"),
     ("HIST-09", 3, r"You went to a store"), ("HIST-10", 3, r"Egghead"), ("BROLL-05", 3, r"floppy disks"), ("CODE-01", 4, r"Option Explicit On"),
-    ("BROLL-01", 5, r"shuffle it"), ("BROLL-02", 5, r"flip their top card"), ("BROLL-03", 16, r"banks, hospitals"),
+    ("BROLL-01", 5, r"shuffle it"), ("BROLL-02", 5, r"flip their top card"), ("BROLL-03", 16, r"banks, hospitals"), ("TERM-03", 17, r"code is straightforward"),
 ]
 def placements_for(beat: dict) -> list[str]:
     return [tid for tid, sec, pat in PLACEMENTS if beat["section"] == sec and re.search(pat, beat["written"])]

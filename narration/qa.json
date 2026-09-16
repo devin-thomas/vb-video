@@ -1,0 +1,5044 @@
+{
+ "S01-B01/01": {
+  "beat": "S01-B01",
+  "attempt": 1,
+  "duration_s": 22.56,
+  "wpm": 154.3,
+  "peak": 0.7266,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "In 1995, there was a programming language that more people used than C++, more people used than Java, which had literally just been invented. It was the single most popular programming language on the planet, and it powered everything from corporate accounting software to shareware games, Your dad downloaded off of BBS.",
+  "word_diff_ratio": 0.0924,
+  "diffs": [
+   {
+    "op": "delete",
+    "expected": "more people used than c",
+    "heard": ""
+   },
+   {
+    "op": "replace",
+    "expected": "a b b s",
+    "heard": "of bbs"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 30.0
+ },
+ "S01-B02/01": {
+  "beat": "S01-B02",
+  "attempt": 1,
+  "duration_s": 1.84,
+  "wpm": 163.0,
+  "peak": 0.6211,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "That language was visual basic.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.0
+ },
+ "S01-B03/01": {
+  "beat": "S01-B03",
+  "attempt": 1,
+  "duration_s": 14.8,
+  "wpm": 182.4,
+  "peak": 0.7031,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "And today, almost nobody talks about it. If you're under 30 and you learned a program, you probably learned Python, or JavaScript, or maybe C++. You've probably never written a line of Visual Basic in your life. You might not even know what it is.",
+  "word_diff_ratio": 0.0213,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "to",
+    "heard": "a"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 19.8
+ },
+ "S01-B04/01": {
+  "beat": "S01-B04",
+  "attempt": 1,
+  "duration_s": 24.64,
+  "wpm": 143.7,
+  "peak": 0.9141,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.08,
+  "transcript": "So I'm going to write something in it. Specifically, I'm going to build a complete simulation of the card game War to computer players. A full deck of 52 cards. Shuffling. Dealing. Comparing. And the whole, I declare, War mechanic. All in Visual Basic. written the way someone would have actually written it in 1995 or 1996.",
+  "word_diff_ratio": 0.0161,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "two",
+    "heard": "to"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 34.2
+ },
+ "S01-B05/01": {
+  "beat": "S01-B05",
+  "attempt": 1,
+  "duration_s": 10.88,
+  "wpm": 165.4,
+  "peak": 0.7773,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "And along the way, I'm going to explain what this language was, why it mattered, why millions of people loved it, and why Microsoft eventually put a bullet in it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.2
+ },
+ "S01-B06/01": {
+  "beat": "S01-B06",
+  "attempt": 1,
+  "duration_s": 0.64,
+  "wpm": 187.5,
+  "peak": 0.8398,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "Let's go.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 14.4
+ },
+ "S02-B01/01": {
+  "beat": "S02-B01",
+  "attempt": 1,
+  "duration_s": 23.36,
+  "wpm": 128.4,
+  "peak": 0.5039,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "To understand Visual Basic, you need to understand BASIC. Capital B, Capital A, Capital Everything. It's an acronym, Beginner's All-Purpose Symbolic Instruction Code. It was invented in 1964 at Dartmouth College by John Kemeny and Thomas Kurtz, and its entire reason for existing was that programming was too hard.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 45.5
+ },
+ "S02-B02/01": {
+  "beat": "S02-B02",
+  "attempt": 1,
+  "duration_s": 19.84,
+  "wpm": 157.3,
+  "peak": 0.8594,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "In 1964, if you wanted to write a program, you were probably writing for TRAN or COBOL or assembly language. You were probably punching cards. The learning curve was brutal. Kemeny and Kurtz wanted something that a college freshman with no technical background could sit down and start using. So they made basic.",
+  "word_diff_ratio": 0.0275,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "fortran",
+    "heard": "for tran"
+   }
+  ],
+  "flags": [
+   "content words not heard: fortran"
+  ],
+  "asr_seconds": 43.7
+ },
+ "S02-B03/01": {
+  "beat": "S02-B03",
+  "attempt": 1,
+  "duration_s": 28.08,
+  "wpm": 117.5,
+  "peak": 0.707,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "And it worked. It worked incredibly well. Through the 1970s and 1980s, BASIC became the language that shipped with almost every home computer. Your Commodore 64 had BASIC. Your Apple II had Applesoft BASIC. Your TRS-80 had BASIC. When you turned on a home computer in 1982, you were usually staring at a BASIC prompt.",
+  "word_diff_ratio": 0.0806,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "seventies",
+    "heard": "seventys"
+   },
+   {
+    "op": "replace",
+    "expected": "eighties",
+    "heard": "eightys"
+   },
+   {
+    "op": "replace",
+    "expected": "two",
+    "heard": "ii"
+   },
+   {
+    "op": "replace",
+    "expected": "t r s",
+    "heard": "trs"
+   }
+  ],
+  "flags": [
+   "content words not heard: seventies eighties",
+   "slow (118 wpm)"
+  ],
+  "asr_seconds": 39.1
+ },
+ "S02-B04/01": {
+  "beat": "S02-B04",
+  "attempt": 1,
+  "duration_s": 10.96,
+  "wpm": 175.2,
+  "peak": 0.75,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "This is important because it means that an entire generation of programmers, the people who would go on to build the software industry, learn to code by writing things like",
+  "word_diff_ratio": 0.0333,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "learned",
+    "heard": "learn"
+   }
+  ],
+  "flags": [
+   "content words not heard: learned"
+  ],
+  "asr_seconds": 16.9
+ },
+ "S02-B05/01": {
+  "beat": "S02-B05",
+  "attempt": 1,
+  "duration_s": 6.0,
+  "wpm": 190.0,
+  "peak": 0.7383,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.06,
+  "transcript": "Basic was how you learned. It was the Python of its era, except it came pre-installed on your hardware.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 13.4
+ },
+ "S02-B06/01": {
+  "beat": "S02-B06",
+  "attempt": 1,
+  "duration_s": 29.44,
+  "wpm": 116.2,
+  "peak": 0.5703,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "Now, fast forward to 1991. Microsoft has Windows 3.0, and Windows programming is a nightmare. If you want to write a Windows application in C, you need to understand message loops, window procedures, callback functions, resource files. The entire Win16 API. A hello world window in C is 73 lines of code. It's not beginner friendly. It's barely expert friendly.",
+  "word_diff_ratio": 0.0382,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "win sixteen",
+    "heard": "winsixteen"
+   }
+  ],
+  "flags": [
+   "content words not heard: win sixteen",
+   "slow (116 wpm)"
+  ],
+  "asr_seconds": 32.3
+ },
+ "S02-B07/01": {
+  "beat": "S02-B07",
+  "attempt": 1,
+  "duration_s": 16.32,
+  "wpm": 176.5,
+  "peak": 0.707,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "A guy named Alan Cooper had built a prototype of a drag-and-drop interface builder. He called it Tripod. You could take a blank window and just drop a button onto it, drop a text box, drop a label, and it would wire up the event handling for you.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 20.0
+ },
+ "S02-B08/01": {
+  "beat": "S02-B08",
+  "attempt": 1,
+  "duration_s": 9.44,
+  "wpm": 133.5,
+  "peak": 0.7422,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "Microsoft saw this, bought it, married it to a basic dialect, and in May of 1991, Visual Basic 1.0 was born.",
+  "word_diff_ratio": 0.04,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 13.5
+ },
+ "S02-B09/01": {
+  "beat": "S02-B09",
+  "attempt": 1,
+  "duration_s": 18.32,
+  "wpm": 167.0,
+  "peak": 0.8359,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.01,
+  "transcript": "and it changed everything. Here's what made Visual Basic revolutionary. In C, if you wanted a button that said click me and popped up a message, you were writing dozens of lines of boilerplate. In Visual Basic, you drew the button on the form with your mouse, double clicked it, and typed.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.1
+ },
+ "S02-B10/01": {
+  "beat": "S02-B10",
+  "attempt": 1,
+  "duration_s": 13.52,
+  "wpm": 164.2,
+  "peak": 0.6484,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "That's it. Three lines. You hit F5. The program ran. The button worked. The gap between having an idea and seeing it work on screen was shorter than it had ever been in the history of programming.",
+  "word_diff_ratio": 0.04,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "f five",
+    "heard": "ffive"
+   }
+  ],
+  "flags": [
+   "content words not heard: five"
+  ],
+  "asr_seconds": 17.1
+ },
+ "S02-B11/01": {
+  "beat": "S02-B11",
+  "attempt": 1,
+  "duration_s": 32.4,
+  "wpm": 118.5,
+  "peak": 0.6797,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "VB 1.0 came out in 1991 for Windows 3.0, VB 2.0 in 1992, VB 3.0 in 1993 added database support through something called the JET engine, yes, the same engine inside Microsoft Access, VB 4.0 in 1995 was the first version that could compile to 32-bit code for Windows 95. And that's right around the era we're talking about today. 1995-1996",
+  "word_diff_ratio": 0.1236,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "oh v b",
+    "heard": "zero vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   }
+  ],
+  "flags": [
+   "slow (119 wpm)"
+  ],
+  "asr_seconds": 33.4
+ },
+ "S02-B12/01": {
+  "beat": "S02-B12",
+  "attempt": 1,
+  "duration_s": 7.68,
+  "wpm": 140.6,
+  "peak": 0.6406,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "VB4 was the current version, Windows 95 was brand new, and everyone was excited about the start menu.",
+  "word_diff_ratio": 0.1,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 13.5
+ },
+ "S02-B13/01": {
+  "beat": "S02-B13",
+  "attempt": 1,
+  "duration_s": 19.12,
+  "wpm": 138.1,
+  "peak": 0.6914,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "VB5.0 would come in 1997, and VB6.0 in 1998, that last one became the version people remember most fondly, but the spirit of the language, the way you actually thought about problems and wrote code, that was all established by VB4.",
+  "word_diff_ratio": 0.1538,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b five",
+    "heard": "vbfive"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: five six four"
+  ],
+  "asr_seconds": 18.6
+ },
+ "S03-B01/01": {
+  "beat": "S03-B01",
+  "attempt": 1,
+  "duration_s": 6.48,
+  "wpm": 157.4,
+  "peak": 0.7695,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "So, what did it actually look like to set up a visual basic development environment in 1995?",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 13.1
+ },
+ "S03-B02/01": {
+  "beat": "S03-B02",
+  "attempt": 1,
+  "duration_s": 18.24,
+  "wpm": 151.3,
+  "peak": 0.7461,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "You went to a store, a physical store, Kampuse, egghead software, maybe a Babbage's in the mall. You bought a box. Inside the box was either a set of three and a half inch floppy disks, or, if you were lucky, and had a CD-ROM drive, a single disk.",
+  "word_diff_ratio": 0.0693,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "compusa",
+    "heard": "kampuse"
+   },
+   {
+    "op": "replace",
+    "expected": "c d",
+    "heard": "cd"
+   },
+   {
+    "op": "replace",
+    "expected": "disc",
+    "heard": "disk"
+   }
+  ],
+  "flags": [
+   "content words not heard: compusa disc"
+  ],
+  "asr_seconds": 20.3
+ },
+ "S03-B03/01": {
+  "beat": "S03-B03",
+  "attempt": 1,
+  "duration_s": 10.0,
+  "wpm": 162.0,
+  "peak": 0.7109,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.07,
+  "transcript": "You ran the installer, it unpacked onto your hard drive, and you had an integrated development environment, an IDE, that looked like a Windows application.",
+  "word_diff_ratio": 0.0769,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "i d e",
+    "heard": "ide"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 14.1
+ },
+ "S03-B04/01": {
+  "beat": "S03-B04",
+  "attempt": 1,
+  "duration_s": 19.44,
+  "wpm": 145.1,
+  "peak": 0.793,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.02,
+  "transcript": "This IDE had a few key pieces. On the left, you had a toolbox, a vertical strip of icons for things like buttons, text boxes, labels, picture boxes, timers, scroll bars. In the center was your form, a blank gray window that you designed visually Thanks for watching.",
+  "word_diff_ratio": 0.0737,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "i d e",
+    "heard": "ide"
+   },
+   {
+    "op": "insert",
+    "expected": "",
+    "heard": "thanks for watching"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 30.8
+ },
+ "S03-B05/01": {
+  "beat": "S03-B05",
+  "attempt": 1,
+  "duration_s": 11.44,
+  "wpm": 199.3,
+  "peak": 0.8359,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "on the right was the properties panel where you could set things like the caption on a button or the font size of a label and then there was the code window where you wrote your actual basics",
+  "word_diff_ratio": 0.0263,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "basic",
+    "heard": "basics"
+   }
+  ],
+  "flags": [
+   "content words not heard: basic"
+  ],
+  "asr_seconds": 16.2
+ },
+ "S03-B06/01": {
+  "beat": "S03-B06",
+  "attempt": 1,
+  "duration_s": 17.44,
+  "wpm": 154.8,
+  "peak": 0.7578,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "This was called RAD, Rapid Application Development. The whole point was speed. You weren't writing code to create a window. The IDE did that for you. You were writing code to respond to events. A button click, a timer tick, a key press.",
+  "word_diff_ratio": 0.0455,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "i d e",
+    "heard": "ide"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 19.0
+ },
+ "S03-B07/01": {
+  "beat": "S03-B07",
+  "attempt": 1,
+  "duration_s": 22.4,
+  "wpm": 160.7,
+  "peak": 0.8828,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "Now, for today's project, we're not going to use any of that visual stuff. WAR is a console program. Two CPUs playing cards against each other in a terminal. No forms, no buttons. But I want you to understand that the form designer was the reason people bought VB. The language itself was just one part of the package.",
+  "word_diff_ratio": 0.0579,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "c p us",
+    "heard": "cpus"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 30.5
+ },
+ "S03-B08/01": {
+  "beat": "S03-B08",
+  "attempt": 1,
+  "duration_s": 2.88,
+  "wpm": 166.7,
+  "peak": 0.7695,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "The drag-and-drop GUI builder was the killer feature.",
+  "word_diff_ratio": 0.1,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey"
+  ],
+  "asr_seconds": 10.2
+ },
+ "S04-B01/01": {
+  "beat": "S04-B01",
+  "attempt": 1,
+  "duration_s": 20.8,
+  "wpm": 138.5,
+  "peak": 0.832,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Here's a small confession. You cannot legally install Visual Basic 4.0 today. Microsoft stopped selling it decades ago. There's no download. The license doesn't transfer. You could find it on abandonware sites, but I'm making a YouTube video. So, let's stay on the right side of copyright law.",
+  "word_diff_ratio": 0.02,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 27.6
+ },
+ "S04-B02/01": {
+  "beat": "S04-B02",
+  "attempt": 1,
+  "duration_s": 18.16,
+  "wpm": 152.0,
+  "peak": 0.9023,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.09,
+  "transcript": "What you can do is use vv.net, the modern descendant of Visual Basic, which ships with every copy of the .NET SDK. When you install .NET, you get a compiler called VVC, the Visual Basic Compiler. It's the real thing. Microsoft still maintains it.",
+  "word_diff_ratio": 0.1089,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vv"
+   },
+   {
+    "op": "replace",
+    "expected": "s d k",
+    "heard": "sdk"
+   },
+   {
+    "op": "replace",
+    "expected": "v b c",
+    "heard": "vvc"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 20.9
+ },
+ "S04-B03/01": {
+  "beat": "S04-B03",
+  "attempt": 1,
+  "duration_s": 2.16,
+  "wpm": 194.4,
+  "peak": 0.7383,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "So we create a new console project.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.1
+ },
+ "S04-B04/01": {
+  "beat": "S04-B04",
+  "attempt": 1,
+  "duration_s": 25.92,
+  "wpm": 138.9,
+  "peak": 0.6914,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.1,
+  "transcript": "And we get a .vbproj file and a program.vb file. That's our canvas. Now, the code I'm going to write uses modern vb.net syntax. But I'm deliberately writing it in the old style. One module. One sub-main. Structures instead of classes. Manual array management instead of generic collections Select case instead of pattern matching Do while loop instead of link",
+  "word_diff_ratio": 0.1045,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "dot v b proj",
+    "heard": "vbproj"
+   },
+   {
+    "op": "replace",
+    "expected": "dot v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "linq",
+    "heard": "link"
+   }
+  ],
+  "flags": [
+   "content words not heard: proj linq"
+  ],
+  "asr_seconds": 34.6
+ },
+ "S04-B05/01": {
+  "beat": "S04-B05",
+  "attempt": 1,
+  "duration_s": 6.08,
+  "wpm": 187.5,
+  "peak": 0.6719,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "If you squint at this code, it should feel like something you'd see in a VB4 textbook from 1996.",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 13.9
+ },
+ "S04-B06/01": {
+  "beat": "S04-B06",
+  "attempt": 1,
+  "duration_s": 17.6,
+  "wpm": 177.3,
+  "peak": 0.7656,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "Two important settings in the project file, option explicit on and option strict on. In classic Vzeria, variables didn't need to be declared. You could just start using a variable called x and vzeri would create it for you on the spot as a variant, the type that could hold anything.",
+  "word_diff_ratio": 0.0769,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vzeria"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vzeri"
+   },
+   {
+    "op": "replace",
+    "expected": "a",
+    "heard": "the"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 25.8
+ },
+ "S04-B07/01": {
+  "beat": "S04-B07",
+  "attempt": 1,
+  "duration_s": 18.88,
+  "wpm": 143.0,
+  "peak": 0.6445,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.09,
+  "transcript": "This was convenient and also the source of approximately 10 million bugs, because if you misspelled a variable name, VB would just silently create a new empty variable instead of telling you something was wrong. Option explicit forces you to declare everything. We're being responsible.",
+  "word_diff_ratio": 0.033,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 24.3
+ },
+ "S05-B01/01": {
+  "beat": "S05-B01",
+  "attempt": 1,
+  "duration_s": 19.12,
+  "wpm": 191.4,
+  "peak": 0.8594,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "Before we write any code, let's make sure we all know how war works, because you might not have played it since you were eight, or maybe you've never played it at all. It's a children's card game, no strategy, no decisions, pure luck, which makes it perfect for a computer simulation, because there are no choices to model.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 31.3
+ },
+ "S05-B02/01": {
+  "beat": "S05-B02",
+  "attempt": 1,
+  "duration_s": 10.4,
+  "wpm": 173.1,
+  "peak": 0.8984,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.05,
+  "transcript": "here are the rules one take a standard 52 card deck and shuffle it deal it evenly 26 cards to each player face down neither player looks at their cards",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 20.7
+ },
+ "S05-B03/01": {
+  "beat": "S05-B03",
+  "attempt": 1,
+  "duration_s": 13.52,
+  "wpm": 168.6,
+  "peak": 0.918,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.01,
+  "transcript": "2. Each round, both players flip their top card face up at the same time. Whoever played the higher card takes both cards and puts them at the bottom of their pile. Aces are high. They beat everything.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 16.8
+ },
+ "S05-B04/01": {
+  "beat": "S05-B04",
+  "attempt": 1,
+  "duration_s": 20.88,
+  "wpm": 152.3,
+  "peak": 0.875,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "Three. If both players flip the same rank, two sevens, two kings, whatever, it's war. Each player places three cards face down, then flips a fourth card face up. Whoever's face up card is higher takes the entire pot, all ten cards. If it's another tie, you do it again. War can chain.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 33.1
+ },
+ "S05-B05/01": {
+  "beat": "S05-B05",
+  "attempt": 1,
+  "duration_s": 10.24,
+  "wpm": 152.3,
+  "peak": 0.6641,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "4. You keep playing until one player has all 52 cards. That player wins. If a player runs out of cards during a war, they lose.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 14.9
+ },
+ "S05-B06/01": {
+  "beat": "S05-B06",
+  "attempt": 1,
+  "duration_s": 12.8,
+  "wpm": 150.0,
+  "peak": 0.7148,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "That's it. No bluffing, no bidding, no trump suits. Just flip, compare, collect. A game a five-year-old can play, and a game that maps beautifully onto about 280 lines of code.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 34.6
+ },
+ "S06-B01/01": {
+  "beat": "S06-B01",
+  "attempt": 1,
+  "duration_s": 6.32,
+  "wpm": 180.4,
+  "peak": 0.7422,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "Let's start building. The first question any card game has to answer is how do you represent a card?",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 17.5
+ },
+ "S06-B02/01": {
+  "beat": "S06-B02",
+  "attempt": 1,
+  "duration_s": 22.08,
+  "wpm": 125.0,
+  "peak": 0.7148,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.04,
+  "transcript": "In C++ or C Sharp, you'd probably make a class, or at least a struct. In 1995 Visual Basic, you'd use something called a user-defined type, a type block. In VB.NET, the equivalent is structure. Same idea, a container that groups related pieces of data together.",
+  "word_diff_ratio": 0.028,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 41.3
+ },
+ "S06-B03/01": {
+  "beat": "S06-B03",
+  "attempt": 1,
+  "duration_s": 18.32,
+  "wpm": 137.6,
+  "peak": 0.8281,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "A card has two things, a rank and a suit. The rank is an integer from 2 to 14. 2 through 10 are obvious. 11 is jack, 12 is queen, 13 is king, and 14 is ace. Why not 1 for ace?",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 28.6
+ },
+ "S06-B04/01": {
+  "beat": "S06-B04",
+  "attempt": 1,
+  "duration_s": 13.36,
+  "wpm": 143.7,
+  "peak": 0.6406,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Because in war, aces are high, they beat everything, and if ace is 14, then comparing two cards is just comparing two integers. Higher number wins, no special cases needed.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 18.9
+ },
+ "S06-B05/01": {
+  "beat": "S06-B05",
+  "attempt": 1,
+  "duration_s": 22.96,
+  "wpm": 146.3,
+  "peak": 0.793,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "The suit is a single character, S, H, D, or C. Spades, hearts, diamonds, clubs, War doesn't actually care about suits. They're there purely so the output looks nice. When the program tells you, Player 1 plays the Ace of Spades, that's the suit doing its job. But the game logic never looks at it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 38.3
+ },
+ "S06-B06/01": {
+  "beat": "S06-B06",
+  "attempt": 1,
+  "duration_s": 7.12,
+  "wpm": 160.1,
+  "peak": 0.918,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "Now, let's talk about something that might look weird if you're coming from C-sharp or C++, the keyword dim.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 15.8
+ },
+ "S06-B07/01": {
+  "beat": "S06-B07",
+  "attempt": 1,
+  "duration_s": 23.28,
+  "wpm": 157.2,
+  "peak": 0.7344,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.05,
+  "transcript": "DIMM is how you declare a variable in Visual Basic. It stands for Dimension, as in, Dimension and Array, allocate space for this thing. That name goes all the way back to the original 1964 Basic at Dartmouth. In the earliest versions, DIMM was specifically for declaring the dimensions of arrays. Over time, it got repurposed to declare any variable.",
+  "word_diff_ratio": 0.0484,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "dim",
+    "heard": "dimm"
+   },
+   {
+    "op": "replace",
+    "expected": "an",
+    "heard": "and"
+   },
+   {
+    "op": "replace",
+    "expected": "dim",
+    "heard": "dimm"
+   }
+  ],
+  "flags": [
+   "content words not heard: dim dim"
+  ],
+  "asr_seconds": 36.3
+ },
+ "S06-B08/01": {
+  "beat": "S06-B08",
+  "attempt": 1,
+  "duration_s": 9.04,
+  "wpm": 146.0,
+  "peak": 0.6445,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "50 years later, VB programmers are still typing dim, and most of them have no idea they're invoking an abbreviation from 1964.",
+  "word_diff_ratio": 0.0612,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 14.6
+ },
+ "S06-B09/01": {
+  "beat": "S06-B09",
+  "attempt": 1,
+  "duration_s": 21.84,
+  "wpm": 145.6,
+  "peak": 0.793,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "Compare that to C-sharp, where you'd write int rank or charsuit. In VB, the type comes after the name. Dim rank as integer. It reads more like English. Dimension a variable called rank as an integer. That's very much a deliberate design choice. Basic was always supposed to read like English.",
+  "word_diff_ratio": 0.0566,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "char suit",
+    "heard": "charsuit"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: char suit"
+  ],
+  "asr_seconds": 36.9
+ },
+ "S07-B01/01": {
+  "beat": "S07-B01",
+  "attempt": 1,
+  "duration_s": 6.24,
+  "wpm": 115.4,
+  "peak": 0.793,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "Next, we need a deck. 52 cards, 13 ranks times 4 suits.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "slow (115 wpm)"
+  ],
+  "asr_seconds": 15.8
+ },
+ "S07-B02/01": {
+  "beat": "S07-B02",
+  "attempt": 1,
+  "duration_s": 17.04,
+  "wpm": 165.5,
+  "peak": 0.8008,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Two nested for loops. The outer loop walks through ranks 2 to 14. The inner loop walks through the four suits. We drop each card into the array at the current index and bump the index. After both loops finish, we have a perfectly ordered 52 card deck.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 20.6
+ },
+ "S07-B03/01": {
+  "beat": "S07-B03",
+  "attempt": 1,
+  "duration_s": 23.2,
+  "wpm": 131.9,
+  "peak": 0.8047,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.0,
+  "transcript": "Let's pause and look at a few VB-specific things here. First, sub. Not void. Not function. Sub. Short for subroutine. In Visual Basic, there's a hard distinction between a sub, which does something and doesn't return a value, and a function which does something and gives you back a result.",
+  "word_diff_ratio": 0.0291,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 39.0
+ },
+ "S07-B04/01": {
+  "beat": "S07-B04",
+  "attempt": 1,
+  "duration_s": 10.48,
+  "wpm": 137.4,
+  "peak": 0.6016,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "In C family languages, a function that returns nothing is just a function with a void return type. In VB, it's a completely different keyword.",
+  "word_diff_ratio": 0.0588,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 16.0
+ },
+ "S07-B05/01": {
+  "beat": "S07-B05",
+  "attempt": 1,
+  "duration_s": 25.44,
+  "wpm": 146.2,
+  "peak": 0.9258,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "Second, By Ref. See that in the parameter list? In VB, you had to explicitly say whether a parameter was passed by reference or by value. By Ref means the subroutine receives a pointer to the original. Changes are visible to the caller. By Val means it gets a copy. In classic VB4, the default was by ref for everything, which was efficient but dangerous.",
+  "word_diff_ratio": 0.0526,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 37.4
+ },
+ "S07-B06/01": {
+  "beat": "S07-B06",
+  "attempt": 1,
+  "duration_s": 5.44,
+  "wpm": 154.4,
+  "peak": 0.6406,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "It meant you could accidentally modify data. The caller didn't expect you to touch.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 14.4
+ },
+ "S07-B07/01": {
+  "beat": "S07-B07",
+  "attempt": 1,
+  "duration_s": 20.88,
+  "wpm": 158.0,
+  "peak": 0.7578,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "Third, look at the for loop syntax. For rank equals 2 to 14, then, at the end, nextRank, that nextRank is closing the loop and telling you what variable is being incremented. If you're used to C style for int i equals 0, i less than 14, i plus plus. This is going to look almost quaint.",
+  "word_diff_ratio": 0.0517,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "next rank",
+    "heard": "nextrank"
+   },
+   {
+    "op": "replace",
+    "expected": "next rank",
+    "heard": "nextrank"
+   }
+  ],
+  "flags": [
+   "content words not heard: next next"
+  ],
+  "asr_seconds": 41.7
+ },
+ "S07-B08/01": {
+  "beat": "S07-B08",
+  "attempt": 1,
+  "duration_s": 8.88,
+  "wpm": 202.7,
+  "peak": 0.5469,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "But there's something kind of nice about it. When you have nested loops, each next names its variable. So you can see at a glance which loop is ending.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (203 wpm)"
+  ],
+  "asr_seconds": 20.9
+ },
+ "S07-B09/01": {
+  "beat": "S07-B09",
+  "attempt": 1,
+  "duration_s": 0.96,
+  "wpm": 187.5,
+  "peak": 0.7773,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "Now, the shuffle.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 12.1
+ },
+ "S07-B10/01": {
+  "beat": "S07-B10",
+  "attempt": 1,
+  "duration_s": 25.28,
+  "wpm": 147.2,
+  "peak": 0.9414,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "This is a Fisher-Yates shuffle, the gold standard for producing an unbiased random permutation. You walk backwards through the array, and for each position, you swap it with a randomly chosen position at or before it. Every possible ordering of the deck is equally likely. This is the same algorithm you'd use in C++ or C Sharp or Python or anything else.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 72.9
+ },
+ "S07-B11/01": {
+  "beat": "S07-B11",
+  "attempt": 1,
+  "duration_s": 7.04,
+  "wpm": 161.9,
+  "peak": 0.7852,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "It's one of those algorithms that's just correct, and has been since 1938 when Fisher and Yates published it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 32.5
+ },
+ "S07-B12/01": {
+  "beat": "S07-B12",
+  "attempt": 1,
+  "duration_s": 20.4,
+  "wpm": 132.4,
+  "peak": 0.7812,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "The VB specific thing to notice here is for i equals 51 to 1. Step minus 1. That step minus 1 is how you count backwards. See family languages just use i minus minus in the for loop update. VB makes you spell it out. Step by negative 1. Verbose but unambiguous.",
+  "word_diff_ratio": 0.0741,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "c",
+    "heard": "see"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 67.6
+ },
+ "S07-B13/01": {
+  "beat": "S07-B13",
+  "attempt": 1,
+  "duration_s": 25.2,
+  "wpm": 140.5,
+  "peak": 0.7188,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Also notice, every single variable is declared at the top of the subroutine with DIMM. In classic VB, you couldn't declare variables in the middle of the code. Everything went at the top. It's like writing C89, all declarations before any statements. C-sharp and modern C++ let you declare variables wherever you want. VB was stricter about this.",
+  "word_diff_ratio": 0.0866,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "dim",
+    "heard": "dimm"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "c eighty",
+    "heard": "ceighty"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: dim eighty"
+  ],
+  "asr_seconds": 61.3
+ },
+ "S08-B01/01": {
+  "beat": "S08-B01",
+  "attempt": 1,
+  "duration_s": 16.4,
+  "wpm": 193.9,
+  "peak": 0.6758,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.1,
+  "transcript": "Here's where things get interesting from a data structure's perspective. Each player has a hand of cards, and that hand needs to behave like a cue. First in, first out. When you win cards, they go to the bottom of your pile. When you play a card, it comes off the top.",
+  "word_diff_ratio": 0.0385,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "structures",
+    "heard": "structure's"
+   },
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "cue"
+   }
+  ],
+  "flags": [
+   "content words not heard: structures queue"
+  ],
+  "asr_seconds": 31.0
+ },
+ "S08-B02/01": {
+  "beat": "S08-B02",
+  "attempt": 1,
+  "duration_s": 17.04,
+  "wpm": 147.9,
+  "peak": 0.8242,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "In C-Sharp, you'd use Q of card and call it a day. In 2++, you'd use standard Q. In 1995 VB, you didn't have generic collections. You didn't even have a built-in Q. You had arrays, and you had redim, and that was about it.",
+  "word_diff_ratio": 0.1569,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "q"
+   },
+   {
+    "op": "replace",
+    "expected": "c plus plus",
+    "heard": "two"
+   },
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "q"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "q"
+   },
+   {
+    "op": "replace",
+    "expected": "re dim",
+    "heard": "redim"
+   }
+  ],
+  "flags": [
+   "content words not heard: queue plus plus queue queue dim"
+  ],
+  "asr_seconds": 26.9
+ },
+ "S08-B03/01": {
+  "beat": "S08-B03",
+  "attempt": 1,
+  "duration_s": 0.8,
+  "wpm": 300.0,
+  "peak": 0.7227,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "So we fake it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (300 wpm)"
+  ],
+  "asr_seconds": 9.6
+ },
+ "S08-B04/01": {
+  "beat": "S08-B04",
+  "attempt": 1,
+  "duration_s": 17.44,
+  "wpm": 151.4,
+  "peak": 0.707,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "The hand is an array of 52 slots, the maximum possible, since you could theoretically hold all the cards, and a counter that tracks how many slots are actually in use. Cards 0 through count minus 1 are live. Everything past count is garbage.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 27.2
+ },
+ "S08-B05/01": {
+  "beat": "S08-B05",
+  "attempt": 1,
+  "duration_s": 4.72,
+  "wpm": 203.4,
+  "peak": 0.8633,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Adding a card to the bottom is simple. Drop it at position, count, and increment.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (203 wpm)"
+  ],
+  "asr_seconds": 25.6
+ },
+ "S08-B06/01": {
+  "beat": "S08-B06",
+  "attempt": 1,
+  "duration_s": 7.52,
+  "wpm": 175.5,
+  "peak": 0.832,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "Drawing from the top is more expensive. You take the card at position zero, then shift everything else forward by one slot.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 20.3
+ },
+ "S08-B07/01": {
+  "beat": "S08-B07",
+  "attempt": 1,
+  "duration_s": 20.16,
+  "wpm": 163.7,
+  "peak": 0.7969,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "That shift is OS. Every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in O1. But we're writing 1995 VB. Nobody was thinking about algorithmic complexity when they had 26 cards in a hand. Computers were slower, but datasets were tiny.",
+  "word_diff_ratio": 0.1034,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "o n",
+    "heard": "os"
+   },
+   {
+    "op": "replace",
+    "expected": "o one",
+    "heard": "oone"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "data sets",
+    "heard": "datasets"
+   }
+  ],
+  "flags": [
+   "content words not heard: data sets"
+  ],
+  "asr_seconds": 45.9
+ },
+ "S08-B08/01": {
+  "beat": "S08-B08",
+  "attempt": 1,
+  "duration_s": 10.96,
+  "wpm": 175.2,
+  "peak": 0.7305,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "The whole game finishes in a few hundred to a couple of thousand rounds, and each round shifts at most 52 cards. A Pentium 75 could handle this without breaking a sweat.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 23.3
+ },
+ "S08-B09/01": {
+  "beat": "S08-B09",
+  "attempt": 1,
+  "duration_s": 2.4,
+  "wpm": 175.0,
+  "peak": 0.8164,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "Now, look at the function return syntax.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 14.8
+ },
+ "S08-B10/01": {
+  "beat": "S08-B10",
+  "attempt": 1,
+  "duration_s": 20.32,
+  "wpm": 153.5,
+  "peak": 0.8594,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "This is one of the weirdest things in VB. If you're coming from any other language, to return a value from a function, you assign to the function's own name. You don't write return top. You write draw top card equals top. where drawtopcard is the name of the function you're inside of.",
+  "word_diff_ratio": 0.0642,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "draw top card",
+    "heard": "drawtopcard"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 37.6
+ },
+ "S08-B11/01": {
+  "beat": "S08-B11",
+  "attempt": 1,
+  "duration_s": 4.8,
+  "wpm": 175.0,
+  "peak": 0.6484,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "The function name acts as an implicit local variable that holds the return value.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.6
+ },
+ "S08-B12/01": {
+  "beat": "S08-B12",
+  "attempt": 1,
+  "duration_s": 14.72,
+  "wpm": 150.8,
+  "peak": 0.4941,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "This is pure old-school basic heritage. It's been this way since the 1960s. VB.net also supports the return keyword, but the assigned-to-function name style is the traditional way. And it's what you would have seen in the 90s.",
+  "word_diff_ratio": 0.1011,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "sixties v b",
+    "heard": "sixtys vb"
+   },
+   {
+    "op": "replace",
+    "expected": "assign",
+    "heard": "assigned"
+   },
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   }
+  ],
+  "flags": [
+   "content words not heard: sixties assign nineties"
+  ],
+  "asr_seconds": 17.6
+ },
+ "S09-B01/01": {
+  "beat": "S09-B01",
+  "attempt": 1,
+  "duration_s": 4.96,
+  "wpm": 169.4,
+  "peak": 0.7188,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "The main game loop is where everything comes together. Let's walk through sub-main.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 11.3
+ },
+ "S09-B02/01": {
+  "beat": "S09-B02",
+  "attempt": 1,
+  "duration_s": 12.88,
+  "wpm": 149.1,
+  "peak": 0.7773,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "We build a deck, shuffle it, create two empty hands, and deal alternating cards one to player one, one to player two, until all 52 are distributed. Each player gets 26.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 16.4
+ },
+ "S09-B03/01": {
+  "beat": "S09-B03",
+  "attempt": 1,
+  "duration_s": 0.64,
+  "wpm": 281.2,
+  "peak": 0.6406,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Then the loop.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (281 wpm)"
+  ],
+  "asr_seconds": 10.1
+ },
+ "S09-B04/01": {
+  "beat": "S09-B04",
+  "attempt": 1,
+  "duration_s": 10.8,
+  "wpm": 194.4,
+  "peak": 0.8281,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "Do I a loop? In C. That's while. It keeps going as long as both players have at least one card. When either player hits zero, the loop ends and we have a winner.",
+  "word_diff_ratio": 0.0448,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "while",
+    "heard": "i a"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 15.2
+ },
+ "S09-B05/01": {
+  "beat": "S09-B05",
+  "attempt": 1,
+  "duration_s": 22.4,
+  "wpm": 160.7,
+  "peak": 0.8828,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.05,
+  "transcript": "The max rounds check is a safety valve. War is theoretically capable of cycling forever. The same cards going back and forth in a loop. In practice, with a random shuffle, games do end. My recorded runs took anywhere from 150 to 2,008 rounds. But just in case. We cap it at 20,000 rounds and call it a draw.",
+  "word_diff_ratio": 0.0236,
+  "diffs": [
+   {
+    "op": "delete",
+    "expected": "thousand",
+    "heard": ""
+   },
+   {
+    "op": "replace",
+    "expected": "thousand",
+    "heard": "zero"
+   }
+  ],
+  "flags": [
+   "content words not heard: thousand thousand"
+  ],
+  "asr_seconds": 27.7
+ },
+ "S09-B06/01": {
+  "beat": "S09-B06",
+  "attempt": 1,
+  "duration_s": 2.64,
+  "wpm": 204.5,
+  "peak": 0.5469,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "In my testing, I've never actually hit the cap.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (205 wpm)"
+  ],
+  "asr_seconds": 10.5
+ },
+ "S09-B07/01": {
+  "beat": "S09-B07",
+  "attempt": 1,
+  "duration_s": 26.88,
+  "wpm": 133.9,
+  "peak": 0.8984,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "Notice the string concatenation operator, the ampersand. In C-sharp and C++, you use plus to glue strings together. In VB, you use the ampersand. The reason is that plus in VB does different things depending on the types involved. It might add numbers or concatenate strings, and this ambiguity caused enough bugs that Microsoft recommended always using the ampersand for strings.",
+  "word_diff_ratio": 0.0462,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 38.2
+ },
+ "S09-B08/01": {
+  "beat": "S09-B08",
+  "attempt": 1,
+  "duration_s": 7.2,
+  "wpm": 200.0,
+  "peak": 0.6406,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "It's one of those, we made it too easy, and now we need a rule to prevent the easy thing from biting you situations.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 15.9
+ },
+ "S09-B09/01": {
+  "beat": "S09-B09",
+  "attempt": 1,
+  "duration_s": 24.64,
+  "wpm": 133.9,
+  "peak": 0.8555,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "Also, notice line continuation. The underscore at the end of a line means this statement continues on the next line. In C-family languages, a statement continues until you hit a semicolon. In V, B, every line is its own statement by default. The underscore is the escape hatch when a line gets too long.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 37.8
+ },
+ "S10-B01/01": {
+  "beat": "S10-B01",
+  "attempt": 1,
+  "duration_s": 13.12,
+  "wpm": 155.5,
+  "peak": 0.8047,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "The play-round subroutine is the heart of the game, and it's where the most interesting logic lives. It's also where the war mechanic, the thing the game is named after, actually happens.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.0
+ },
+ "S10-B02/01": {
+  "beat": "S10-B02",
+  "attempt": 1,
+  "duration_s": 9.92,
+  "wpm": 163.3,
+  "peak": 0.7461,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "Four parameters. The round number is passed by Val because we just read it. The two hands and the war counter are by Ref, because this subroutine modifies them.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 18.5
+ },
+ "S10-B03/01": {
+  "beat": "S10-B03",
+  "attempt": 1,
+  "duration_s": 4.48,
+  "wpm": 214.3,
+  "peak": 0.7422,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "Inside, there's a pot, an array that collects all the cards at stake this round.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (214 wpm)"
+  ],
+  "asr_seconds": 13.6
+ },
+ "S10-B04/01": {
+  "beat": "S10-B04",
+  "attempt": 1,
+  "duration_s": 18.56,
+  "wpm": 145.5,
+  "peak": 0.7773,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "The pot can, theoretically, hold every card in the game. In a normal round, it holds two cards. In a war, it holds ten. In a double war, eighteen. In theory, wars can chain indefinitely, though in practice, it's extremely rare to go past three.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.6
+ },
+ "S10-B05/01": {
+  "beat": "S10-B05",
+  "attempt": 1,
+  "duration_s": 11.6,
+  "wpm": 144.8,
+  "peak": 0.6562,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "Then there's an inner do loop, not a do while, just do loop, which is an infinite loop that we exit with exit sub when someone wins each iteration.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 13.4
+ },
+ "S10-B06/01": {
+  "beat": "S10-B06",
+  "attempt": 1,
+  "duration_s": 7.04,
+  "wpm": 196.0,
+  "peak": 0.625,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "1. Check if either player is out of cards. If you can't play, you lose and the other player takes the pot.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 11.9
+ },
+ "S10-B07/01": {
+  "beat": "S10-B07",
+  "attempt": 1,
+  "duration_s": 4.72,
+  "wpm": 178.0,
+  "peak": 0.7109,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "2. Both players draw their top card. Both cards go into the pot.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 11.0
+ },
+ "S10-B08/01": {
+  "beat": "S10-B08",
+  "attempt": 1,
+  "duration_s": 13.28,
+  "wpm": 153.6,
+  "peak": 0.7773,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "3. Compare ranks. If player 1's rank is higher, player 1 wins the pot. Exit sub. If player 2's rank is higher, player 2 wins the pot. Exit sub. If they're equal, war.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 15.3
+ },
+ "S10-B09/01": {
+  "beat": "S10-B09",
+  "attempt": 1,
+  "duration_s": 14.32,
+  "wpm": 167.6,
+  "peak": 0.7852,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.07,
+  "transcript": "Each player burns up to three cards face down, or fewer, if they don't have three left. Then the loop goes back to the top, draws again, and compares again. If it's another tie, another war. The pot keeps growing.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 14.2
+ },
+ "S10-B10/01": {
+  "beat": "S10-B10",
+  "attempt": 1,
+  "duration_s": 1.12,
+  "wpm": 160.7,
+  "peak": 0.6328,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Notice this line.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 7.8
+ },
+ "S10-B11/01": {
+  "beat": "S10-B11",
+  "attempt": 1,
+  "duration_s": 16.72,
+  "wpm": 154.3,
+  "peak": 0.7109,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "That colon is VB's statement separator. It puts two statements on one line. It's the equivalent of putting two lines on one line, frowned upon by style guides. But convenient for cases like this where the two operations are conceptually atomic.",
+  "word_diff_ratio": 0.0361,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b's",
+    "heard": "vb's"
+   }
+  ],
+  "flags": [
+   "content words not heard: b's"
+  ],
+  "asr_seconds": 16.1
+ },
+ "S10-B12/01": {
+  "beat": "S10-B12",
+  "attempt": 1,
+  "duration_s": 8.72,
+  "wpm": 172.0,
+  "peak": 0.7266,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "The give cards to winner subroutine at the end is simple. It walks the potteray and adds each card to the bottom of the winner's hand.",
+  "word_diff_ratio": 0.0566,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "pot array",
+    "heard": "potteray"
+   }
+  ],
+  "flags": [
+   "content words not heard: pot array"
+  ],
+  "asr_seconds": 13.3
+ },
+ "S10-B13/01": {
+  "beat": "S10-B13",
+  "attempt": 1,
+  "duration_s": 23.68,
+  "wpm": 162.2,
+  "peak": 0.7812,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "This is what determines the eventual outcome of the game. The order in which one cards get added to your hand affects what you'll play in future rounds, which affects who wins those rounds. War is deterministic after the shuffle. The outcome is sealed the moment the cards are dealt. There's no randomness during play. The only randomness is in the initial shuffle.",
+  "word_diff_ratio": 0.0159,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "won",
+    "heard": "one"
+   }
+  ],
+  "flags": [
+   "content words not heard: won"
+  ],
+  "asr_seconds": 28.5
+ },
+ "S11-B01/01": {
+  "beat": "S11-B01",
+  "attempt": 1,
+  "duration_s": 0.64,
+  "wpm": 281.2,
+  "peak": 0.5938,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.09,
+  "transcript": "Let's run it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (281 wpm)"
+  ],
+  "asr_seconds": 9.0
+ },
+ "S11-B02/01": {
+  "beat": "S11-B02",
+  "attempt": 1,
+  "duration_s": 13.2,
+  "wpm": 163.6,
+  "peak": 0.6953,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "A double war, ace against ace, then queen against queen, before an ace finally beat a two. Eighteen cards in the pot. That's a third of the entire deck, changing hands in a single round.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 14.7
+ },
+ "S11-B03/01": {
+  "beat": "S11-B03",
+  "attempt": 1,
+  "duration_s": 15.68,
+  "wpm": 149.2,
+  "peak": 0.8242,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Every run is different because the shuffle is random. Sometimes it's over in 150 rounds. Sometimes it takes more than 2,000. The number of wars varies too. 10 in one game, 69 in another. But it always terminates.",
+  "word_diff_ratio": 0.0238,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "thousand",
+    "heard": "zero"
+   }
+  ],
+  "flags": [
+   "content words not heard: thousand"
+  ],
+  "asr_seconds": 15.9
+ },
+ "S11-B04/01": {
+  "beat": "S11-B04",
+  "attempt": 1,
+  "duration_s": 16.64,
+  "wpm": 119.0,
+  "peak": 0.7422,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "This is about 280 lines of visual basic, not 280 lines of boilerplate and framework code, 280 lines that actually do something. That's the whole game. Build, shuffle, deal, play, win. Done.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "slow (119 wpm)"
+  ],
+  "asr_seconds": 14.2
+ },
+ "S12-B01/01": {
+  "beat": "S12-B01",
+  "attempt": 1,
+  "duration_s": 11.36,
+  "wpm": 158.5,
+  "peak": 0.7188,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Rewind to that first run for a moment. 617 rounds. Player 1 wins. We saw the final scoreboard, but not the final play. Here's how the game actually ended.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 13.4
+ },
+ "S12-B02/01": {
+  "beat": "S12-B02",
+  "attempt": 1,
+  "duration_s": 5.92,
+  "wpm": 192.6,
+  "peak": 0.8711,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "Player 2 didn't just lose a round. Player 2 ran out of cards in the middle of a war.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.6
+ },
+ "S12-B03/01": {
+  "beat": "S12-B03",
+  "attempt": 1,
+  "duration_s": 21.12,
+  "wpm": 144.9,
+  "peak": 0.8672,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "Going into round 617, player 2 had exactly 2 cards left against player 1's 50. Both played a 10, tie, war. Normally each player burns 3 cards face down and flips a 4th, but player 2 only had 1 card left after playing that 10. So what does the code do?",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 25.7
+ },
+ "S12-B04/01": {
+  "beat": "S12-B04",
+  "attempt": 1,
+  "duration_s": 21.28,
+  "wpm": 166.4,
+  "peak": 0.7305,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "It doesn't demand three. It caps the burn at however many cards the shorter hand can spare. Player two had one, so both players burned one. After the burn, player two's hand was empty. The loop came back to the top, hit the empty hand check, and that was it. Player 1 took the four-card pot and the game.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 25.5
+ },
+ "S12-B05/01": {
+  "beat": "S12-B05",
+  "attempt": 1,
+  "duration_s": 23.68,
+  "wpm": 147.0,
+  "peak": 0.7422,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "Panel 1. Player 2's hand, 2 cards. Player 1's hand, 50 cards. Panel 2, both play a 10. 1 card left for Player 2, 49 for Player 1. Panel 3, both burn 1. 0 cards left for Player 2. Panel 4 Player 2 has no cards left for the war Player 1 takes the pot",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 23.2
+ },
+ "S12-B06/01": {
+  "beat": "S12-B06",
+  "attempt": 1,
+  "duration_s": 7.76,
+  "wpm": 131.4,
+  "peak": 0.6758,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "And it happened again in the opposite direction, purely by chance. The longest run, 2,008 rounds.",
+  "word_diff_ratio": 0.0286,
+  "diffs": [
+   {
+    "op": "delete",
+    "expected": "thousand",
+    "heard": ""
+   }
+  ],
+  "flags": [
+   "content words not heard: thousand"
+  ],
+  "asr_seconds": 11.1
+ },
+ "S12-B07/01": {
+  "beat": "S12-B07",
+  "attempt": 1,
+  "duration_s": 14.72,
+  "wpm": 150.8,
+  "peak": 0.6992,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "Same mechanic, player 1 walked into round 2008 holding 3 cards against 49. Both played an 8, leaving player 1 with 2. Both burned 2. Player 1's hand was empty, and player 2 took the 6 card pot.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 15.3
+ },
+ "S12-B08/01": {
+  "beat": "S12-B08",
+  "attempt": 1,
+  "duration_s": 12.16,
+  "wpm": 138.2,
+  "peak": 0.7773,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "Term 4. Two cards play ten. Burn one empty. Four card pot. Term 2. Three cards play eight. Burn two empty. Six card pot.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 12.0
+ },
+ "S12-B09/01": {
+  "beat": "S12-B09",
+  "attempt": 1,
+  "duration_s": 23.2,
+  "wpm": 162.9,
+  "peak": 0.8516,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "This is a subtlety worth noticing. The rule isn't, you need three cards for a war or you forfeit. It's, burn what you have, and if there's nothing left to flip, you're done. A player down to two cards going into a war still gets a reduced burn. one card face down, one card to compete with, and can still win it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 27.9
+ },
+ "S12-B10/01": {
+  "beat": "S12-B10",
+  "attempt": 1,
+  "duration_s": 4.64,
+  "wpm": 181.0,
+  "peak": 0.5859,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.06,
+  "transcript": "They only lose if that flip ties again, and the well is truly dry.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.1
+ },
+ "S12-B11/01": {
+  "beat": "S12-B11",
+  "attempt": 1,
+  "duration_s": 5.76,
+  "wpm": 166.7,
+  "peak": 0.7656,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Two of our four recorded runs ended exactly this way. Nobody planned it. The shuffle decided.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.9
+ },
+ "S13-B01/01": {
+  "beat": "S13-B01",
+  "attempt": 1,
+  "duration_s": 6.16,
+  "wpm": 146.1,
+  "peak": 0.8438,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.08,
+  "transcript": "Okay, so, we've built a console war simulator. In 1995, what would have happened next?",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.7
+ },
+ "S13-B02/01": {
+  "beat": "S13-B02",
+  "attempt": 1,
+  "duration_s": 5.36,
+  "wpm": 212.7,
+  "peak": 0.6719,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "you would have put a GUI on it. This is where Visual Basic's form designer would have come in.",
+  "word_diff_ratio": 0.0526,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey",
+   "fast (213 wpm)"
+  ],
+  "asr_seconds": 10.9
+ },
+ "S13-B03/01": {
+  "beat": "S13-B03",
+  "attempt": 1,
+  "duration_s": 18.48,
+  "wpm": 175.3,
+  "peak": 0.7539,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "You'd open the IDE, draw a form the size of a card table, drop some picture box controls on it to represent the card positions, maybe load bitmap images of playing cards from a resource file, and wire up the game logic to a timer control that advanced the game one round at a time.",
+  "word_diff_ratio": 0.0357,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "i d e",
+    "heard": "ide"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 16.9
+ },
+ "S13-B04/01": {
+  "beat": "S13-B04",
+  "attempt": 1,
+  "duration_s": 3.92,
+  "wpm": 183.7,
+  "peak": 0.8633,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "You'd add a deal button, a watch button, maybe a speed slider.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.7
+ },
+ "S13-B05/01": {
+  "beat": "S13-B05",
+  "attempt": 1,
+  "duration_s": 19.36,
+  "wpm": 164.3,
+  "peak": 0.7305,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.08,
+  "transcript": "And this is how a lot of actual software got made in the mid-90s. People would start with the logic, get the algorithms working in a console or a simple form, and then layer the visual design on top. Visual Basic made that second step dramatically easier than anything else available.",
+  "word_diff_ratio": 0.0192,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "asr_seconds": 16.7
+ },
+ "S13-B06/01": {
+  "beat": "S13-B06",
+  "attempt": 1,
+  "duration_s": 21.12,
+  "wpm": 153.4,
+  "peak": 0.8672,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "The shareware scene of the 1990s was full of card games, board games, and puzzle games written in Visual Basic. Windows came bundled with Solitaire and Minesweeper, written in C. But the thousands of freeware and shareware alternatives that flooded BBS boards and early websites? A huge number of those were VB apps.",
+  "word_diff_ratio": 0.1071,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "b b s",
+    "heard": "bbs"
+   },
+   {
+    "op": "replace",
+    "expected": "web sites",
+    "heard": "websites"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties web sites"
+  ],
+  "asr_seconds": 25.0
+ },
+ "S13-B07/01": {
+  "beat": "S13-B07",
+  "attempt": 1,
+  "duration_s": 20.24,
+  "wpm": 151.2,
+  "peak": 0.8164,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "You'd distribute your game by uploading it to a BBS or a shareware site. Users would download it, but they'd also need the VBRuntime, a DLL file called something like VBRun300.dll that shipped separately from your program. If the user didn't already have it installed, your game wouldn't launch.",
+  "word_diff_ratio": 0.193,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "b b s",
+    "heard": "bbs"
+   },
+   {
+    "op": "replace",
+    "expected": "v b runtime",
+    "heard": "vbruntime"
+   },
+   {
+    "op": "replace",
+    "expected": "d l l",
+    "heard": "dll"
+   },
+   {
+    "op": "replace",
+    "expected": "v b run three",
+    "heard": "vbrunthree"
+   },
+   {
+    "op": "replace",
+    "expected": "dot d l l",
+    "heard": "dll"
+   }
+  ],
+  "flags": [
+   "content words not heard: runtime run three dot"
+  ],
+  "asr_seconds": 23.4
+ },
+ "S13-B08/01": {
+  "beat": "S13-B08",
+  "attempt": 1,
+  "duration_s": 15.76,
+  "wpm": 144.7,
+  "peak": 0.7969,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.05,
+  "transcript": "So, a lot of shareware authors would bundle the runtime with their download, which could turn a 200 kilobyte game into a megabyte plus download. On a 14.4 modem, that's 10 minutes or more of downloading for a card game.",
+  "word_diff_ratio": 0.0118,
+  "diffs": [
+   {
+    "op": "insert",
+    "expected": "",
+    "heard": "point"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 15.9
+ },
+ "S13-B09/01": {
+  "beat": "S13-B09",
+  "attempt": 1,
+  "duration_s": 16.56,
+  "wpm": 170.3,
+  "peak": 0.8203,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "But people did it, and the games worked, and if you were a teenager in 1996 who wanted to make your own version of Solitaire, or Hearts, or Spades, Visual Basic was the fastest path from I have an idea to my friends are playing my game.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 16.5
+ },
+ "S13-B10/01": {
+  "beat": "S13-B10",
+  "attempt": 1,
+  "duration_s": 21.28,
+  "wpm": 152.3,
+  "peak": 0.793,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "This same code, the structures, the shuffle, the deck management, could be adapted for almost any card game. Poker hand evaluation is more complex, but the deck building and shuffling is identical. Blackjack would be simpler than war. Bridge or hearts would need trick-taking logic, but the card representation is the same.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 25.8
+ },
+ "S13-B11/01": {
+  "beat": "S13-B11",
+  "attempt": 1,
+  "duration_s": 5.52,
+  "wpm": 163.0,
+  "peak": 0.6328,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "This 280 line program is a seed that could grow into a lot of different things.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.8
+ },
+ "S14-B01/01": {
+  "beat": "S14-B01",
+  "attempt": 1,
+  "duration_s": 10.56,
+  "wpm": 181.8,
+  "peak": 0.6055,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "Visual Basic didn't exist in a vacuum. In 1995, if you wanted to build a Windows application, you had choices. Let's talk about what they were and why VB won the market.",
+  "word_diff_ratio": 0.0435,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 13.7
+ },
+ "S14-B02/01": {
+  "beat": "S14-B02",
+  "attempt": 1,
+  "duration_s": 28.72,
+  "wpm": 119.1,
+  "peak": 0.8867,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "Visual C++ 4.0 was Microsoft's professional grade tool. MFC, the Microsoft Foundation classes, gave you a C++ framework for building Windows apps. It was powerful, fast, and absolutely miserable to learn. MFC was notorious for its deep class hierarchies, its reliance on macros, and its unforgiving error messages. Professional developers used it. Game studios used it.",
+  "word_diff_ratio": 0.0781,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "m f c",
+    "heard": "mfc"
+   },
+   {
+    "op": "replace",
+    "expected": "m f c",
+    "heard": "mfc"
+   }
+  ],
+  "flags": [
+   "slow (119 wpm)"
+  ],
+  "asr_seconds": 26.9
+ },
+ "S14-B03/01": {
+  "beat": "S14-B03",
+  "attempt": 1,
+  "duration_s": 4.16,
+  "wpm": 173.1,
+  "peak": 0.7695,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "Nobody starting from scratch would choose MFC if they had another option.",
+  "word_diff_ratio": 0.1538,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "m f c",
+    "heard": "mfc"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 9.8
+ },
+ "S14-B04/01": {
+  "beat": "S14-B04",
+  "attempt": 1,
+  "duration_s": 25.2,
+  "wpm": 140.5,
+  "peak": 0.9492,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "Borland Delphi was the dark horse. Released in 1995, Delphi was basically Visual Basic but for Object Pascal. It had the same kind of drag-and-drop form designer. The same rad philosophy. But it compiled to native code from day one and its language. Object Pascal was genuinely well designed. A lot of experienced programmers prefer Delphi to VB.",
+  "word_diff_ratio": 0.04,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "preferred",
+    "heard": "prefer"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: preferred"
+  ],
+  "asr_seconds": 28.4
+ },
+ "S14-B05/01": {
+  "beat": "S14-B05",
+  "attempt": 1,
+  "duration_s": 8.0,
+  "wpm": 165.0,
+  "peak": 0.7344,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.02,
+  "transcript": "It was faster at runtime, it had a real object system with inheritance, and Borland's component model was arguably better than Ivan B's.",
+  "word_diff_ratio": 0.0435,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v",
+    "heard": "ivan"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 10.4
+ },
+ "S14-B06/01": {
+  "beat": "S14-B06",
+  "attempt": 1,
+  "duration_s": 16.88,
+  "wpm": 156.4,
+  "peak": 0.8359,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "Delphi never caught VB in market share, though. VB had Microsoft behind it, and Microsoft controlled the operating system. VB was the default. If you were a self-taught programmer or a small business writing internal tools, you used VB, because everyone else used VB.",
+  "word_diff_ratio": 0.1579,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 15.1
+ },
+ "S14-B07/01": {
+  "beat": "S14-B07",
+  "attempt": 1,
+  "duration_s": 9.84,
+  "wpm": 134.1,
+  "peak": 0.6953,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "The ecosystem was bigger, more books, more tutorials, more third-party components, more people on CompuServe forums who could answer your questions.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.7
+ },
+ "S14-B08/01": {
+  "beat": "S14-B08",
+  "attempt": 1,
+  "duration_s": 21.84,
+  "wpm": 145.6,
+  "peak": 0.7227,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "PowerBuilder was huge in the corporate database world. If you were building a line of business application that talked to an Oracle or Sybase database, PowerBuilder was the tool. It had a thing called data windows that made building data entry forms almost trivially easy. But it was expensive, corporate, and basically invisible outside of IT departments.",
+  "word_diff_ratio": 0.0265,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "datawindows",
+    "heard": "data windows"
+   }
+  ],
+  "flags": [
+   "content words not heard: datawindows"
+  ],
+  "asr_seconds": 23.8
+ },
+ "S14-B09/01": {
+  "beat": "S14-B09",
+  "attempt": 1,
+  "duration_s": 27.84,
+  "wpm": 133.6,
+  "peak": 0.8594,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "And then there was Java, which Sun Microsystems unveiled in 1995 with the slogan, Write Once, Run Anywhere, and shipped as version 1.0 in January 1996. Java was the future. Everyone knew it, but in 1995, Java was brand new, brutally slow, had almost no libraries, and its gooey toolkit, AWT, was so ugly it could make you cry.",
+  "word_diff_ratio": 0.0441,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "a w t",
+    "heard": "awt"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 24.6
+ },
+ "S14-B10/01": {
+  "beat": "S14-B10",
+  "attempt": 1,
+  "duration_s": 6.0,
+  "wpm": 120.0,
+  "peak": 0.6289,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Java would eventually eat the world. But not yet. Not in 1995.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 8.9
+ },
+ "S14-B11/01": {
+  "beat": "S14-B11",
+  "attempt": 1,
+  "duration_s": 19.12,
+  "wpm": 178.9,
+  "peak": 0.9219,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.06,
+  "transcript": "So Visual Basic sat in a sweet spot, easier than C++, more established than Delphi, cheaper than Power Builder, and more practical than Java. It wasn't the best tool for any single job, but it was a good enough tool for almost every job, and good enough for almost everything is a very powerful position to be in.",
+  "word_diff_ratio": 0.0252,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "powerbuilder",
+    "heard": "power builder"
+   }
+  ],
+  "flags": [
+   "content words not heard: powerbuilder"
+  ],
+  "asr_seconds": 16.5
+ },
+ "S15-B01/01": {
+  "beat": "S15-B01",
+  "attempt": 1,
+  "duration_s": 5.12,
+  "wpm": 210.9,
+  "peak": 0.7539,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "What if you wanted to build this same card game in 1995, but you were on a mat?",
+  "word_diff_ratio": 0.05,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "mac",
+    "heard": "mat"
+   }
+  ],
+  "flags": [
+   "content words not heard: mac",
+   "fast (211 wpm)"
+  ],
+  "asr_seconds": 9.4
+ },
+ "S15-B02/01": {
+  "beat": "S15-B02",
+  "attempt": 1,
+  "duration_s": 20.32,
+  "wpm": 150.6,
+  "peak": 0.7188,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "First, you weren't using Visual Basic. Microsoft never actually shipped Visual Basic for the Mac. They had something called Quick Basic for the Apple Macintosh, released in 1988, last updated in 1992. But that was a plain, basic compiler, not the visual drag-and-drop environment that made VB special on Windows.",
+  "word_diff_ratio": 0.0536,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "quickbasic",
+    "heard": "quick basic"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: quickbasic"
+  ],
+  "asr_seconds": 22.0
+ },
+ "S15-B03/01": {
+  "beat": "S15-B03",
+  "attempt": 1,
+  "duration_s": 10.4,
+  "wpm": 132.7,
+  "peak": 0.7305,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "And eventually Mac Office got VBA, the macro language inside Excel and Word, but that was for automating spreadsheets, not building standalone applications.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.5
+ },
+ "S15-B04/01": {
+  "beat": "S15-B04",
+  "attempt": 1,
+  "duration_s": 19.68,
+  "wpm": 131.1,
+  "peak": 0.8008,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.04,
+  "transcript": "On a Mac in 1995, you'd probably be using MetroWorks Code Warrior. This was the dominant development environment for the Mac from the mid-90s onward. It used C and C++ and compiled for both the old Motorola 68K chips and the newer PowerPC architecture.",
+  "word_diff_ratio": 0.1,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "metrowerks codewarrior",
+    "heard": "metroworks code warrior"
+   },
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "eight k",
+    "heard": "eightk"
+   }
+  ],
+  "flags": [
+   "content words not heard: metrowerks codewarrior nineties eight"
+  ],
+  "asr_seconds": 14.5
+ },
+ "S15-B05/01": {
+  "beat": "S15-B05",
+  "attempt": 1,
+  "duration_s": 9.6,
+  "wpm": 150.0,
+  "peak": 0.8867,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "The Mac Toolbox API, the equivalent of the Windows API, was C-based, and CodeWarrior was how most Mac developers interacted with it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.7
+ },
+ "S15-B06/01": {
+  "beat": "S15-B06",
+  "attempt": 1,
+  "duration_s": 18.48,
+  "wpm": 139.6,
+  "peak": 0.9414,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "Now, here's a misconception I want to address. Objective-C. Some people assume that Mac programming in the 90s meant Objective-C. It didn't. Objective-C was a Next Step language. It was the language of Steve Jobs' other company, Next, and the Next Step operating system.",
+  "word_diff_ratio": 0.0426,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "jobs's",
+    "heard": "jobs"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties jobs's"
+  ],
+  "asr_seconds": 16.2
+ },
+ "S15-B07/01": {
+  "beat": "S15-B07",
+  "attempt": 1,
+  "duration_s": 16.88,
+  "wpm": 142.2,
+  "peak": 0.9141,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "In 1995, Next was a niche software company. It had stopped making its famous workstations two years earlier. Selling its operating system and developer tools to universities and Wall Street, regular Mac developers weren't using Objective-C at all.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 13.6
+ },
+ "S15-B08/01": {
+  "beat": "S15-B08",
+  "attempt": 1,
+  "duration_s": 17.44,
+  "wpm": 158.3,
+  "peak": 0.8633,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.02,
+  "transcript": "Objective-C wouldn't become a Mac language until 2001, when Apple released Mac OS X. OS X was built on Next Step's foundation, and it brought Objective-C with it. So if someone asks, would it have been harder in Objective-C in 1995? The question doesn't quite apply.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 15.3
+ },
+ "S15-B09/01": {
+  "beat": "S15-B09",
+  "attempt": 1,
+  "duration_s": 10.88,
+  "wpm": 176.5,
+  "peak": 0.8398,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "You wouldn't have been using Objective-C unless you were on a next workstation. And if you were on a next workstation, you were probably doing more interesting things than a card game.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 11.8
+ },
+ "S15-B10/01": {
+  "beat": "S15-B10",
+  "attempt": 1,
+  "duration_s": 24.0,
+  "wpm": 160.0,
+  "peak": 0.8477,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "For a console card game like ours, no GUI, just logic and text output, the difficulty would have been roughly comparable. C is a harder language than basic, but the actual logic of building a deck, shuffling, and comparing cards is the same in any language. You'd use structs, arrays, and printf instead of structures. Arrays and console.WriteLine. The algorithm doesn't change.",
+  "word_diff_ratio": 0.0469,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   },
+   {
+    "op": "replace",
+    "expected": "dot write line",
+    "heard": "writeline"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey dot write line"
+  ],
+  "asr_seconds": 25.7
+ },
+ "S15-B11/01": {
+  "beat": "S15-B11",
+  "attempt": 1,
+  "duration_s": 24.0,
+  "wpm": 150.0,
+  "peak": 0.8438,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.05,
+  "transcript": "Where VB had the massive advantage was in the next step, putting a GUI on it. In VB, that was an afternoon of dragging controls onto a form. On the Mac with CodeWarrior, you'd be writing Carbon or Toolbox API calls, managing window records, handling update events, and doing your own drawing into graph ports. It was not an afternoon.",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "grafports",
+    "heard": "graph ports"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey grafports"
+  ],
+  "asr_seconds": 23.7
+ },
+ "S15-B12/01": {
+  "beat": "S15-B12",
+  "attempt": 1,
+  "duration_s": 3.28,
+  "wpm": 237.8,
+  "peak": 0.7305,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "It was a week, minimum, for someone who knew what they were doing.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (238 wpm)"
+  ],
+  "asr_seconds": 8.7
+ },
+ "S15-B13/01": {
+  "beat": "S15-B13",
+  "attempt": 1,
+  "duration_s": 14.32,
+  "wpm": 188.5,
+  "peak": 0.6953,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "That's the real story of Visual Basic's dominance. Not that it could do things other tools couldn't, but that it made the common case. Put a window on the screen with some buttons and make them do stuff dramatically faster than anything else.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 13.5
+ },
+ "S16-B01/01": {
+  "beat": "S16-B01",
+  "attempt": 1,
+  "duration_s": 27.52,
+  "wpm": 135.2,
+  "peak": 0.8359,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "Visual Basic mattered because it democratized programming. That's not hyperbole. Before VB, writing a Windows application was a professional skill that required significant training. After VB, a motivated person with a $100 software purchase and a library book could build something real in a weekend. Accountants wrote tools to automate their spreadsheets. Teachers built quiz applications. Small business owners made inventory trackers.",
+  "word_diff_ratio": 0.0698,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "insert",
+    "expected": "",
+    "heard": "one"
+   },
+   {
+    "op": "replace",
+    "expected": "dollar",
+    "heard": "dollars"
+   }
+  ],
+  "flags": [
+   "content words not heard: dollar"
+  ],
+  "asr_seconds": 24.3
+ },
+ "S16-B02/01": {
+  "beat": "S16-B02",
+  "attempt": 1,
+  "duration_s": 8.64,
+  "wpm": 173.6,
+  "peak": 0.6602,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.09,
+  "transcript": "None of these people would have called themselves programmers. They were people with problems who discovered that Visual Basic was good enough to solve them.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.3
+ },
+ "S16-B03/01": {
+  "beat": "S16-B03",
+  "attempt": 1,
+  "duration_s": 23.28,
+  "wpm": 152.1,
+  "peak": 0.7773,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "The language was readable in a way that C-based languages aren't. If player score is greater than high score, then reads like an English sentence. For each item in collection tells you exactly what it's doing. You didn't need to know what a pointer was. You didn't need to manage memory. You didn't need to understand header files or linking or preprocessor directives.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 24.3
+ },
+ "S16-B04/01": {
+  "beat": "S16-B04",
+  "attempt": 1,
+  "duration_s": 2.48,
+  "wpm": 217.7,
+  "peak": 0.4297,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "You just wrote what you meant, and it worked.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (218 wpm)"
+  ],
+  "asr_seconds": 8.4
+ },
+ "S16-B05/01": {
+  "beat": "S16-B05",
+  "attempt": 1,
+  "duration_s": 23.68,
+  "wpm": 126.7,
+  "peak": 0.7852,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "Microsoft estimated that by the late 1990s, there were more lines of visual basic code in production than any other language. VB6, released in 1998, became one of the most beloved development tools ever made. There are VB-6 applications still running today in banks, hospitals, manufacturing plants, and government offices.",
+  "word_diff_ratio": 0.0811,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "asr_seconds": 21.0
+ },
+ "S16-B06/01": {
+  "beat": "S16-B06",
+  "attempt": 1,
+  "duration_s": 9.6,
+  "wpm": 162.5,
+  "peak": 0.418,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "Software that was written a quarter century ago, still doing its job, and nobody wants to touch it because rewriting it would be expensive and risky.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.5
+ },
+ "S16-B07/01": {
+  "beat": "S16-B07",
+  "attempt": 1,
+  "duration_s": 17.68,
+  "wpm": 162.9,
+  "peak": 0.8125,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "and then Microsoft killed it. Well, they didn't kill it outright. What they did was announce around 2000 that Visual Basic would become VB.NET, and then ship it in 2002 as a completely new language that shared the name, but was fundamentally different under the hood.",
+  "word_diff_ratio": 0.0291,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 13.9
+ },
+ "S16-B08/01": {
+  "beat": "S16-B08",
+  "attempt": 1,
+  "duration_s": 17.92,
+  "wpm": 117.2,
+  "peak": 0.7695,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "VB.NET ran on the .NET framework, used the Common Language Runtime, and had a different syntax, different semantics, different everything. Code from VB6 did not run in VB.NET. The migration tools were, let's say, aspirational.",
+  "word_diff_ratio": 0.119,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: six",
+   "slow (117 wpm)"
+  ],
+  "asr_seconds": 15.2
+ },
+ "S16-B09/01": {
+  "beat": "S16-B09",
+  "attempt": 1,
+  "duration_s": 26.24,
+  "wpm": 148.6,
+  "peak": 0.7852,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "The VB community was furious. They'd been promised that VB was a platform they could build careers on. And now Microsoft was telling them to start over. Many VB6 developers moved to VB.net and eventually adapted. Many moved to C Sharp instead. Figuring that if they had to learn a new .NET language They might as well learn the one Microsoft clearly favored And some just",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: six"
+  ],
+  "asr_seconds": 25.0
+ },
+ "S16-B10/01": {
+  "beat": "S16-B10",
+  "attempt": 1,
+  "duration_s": 3.12,
+  "wpm": 134.6,
+  "peak": 0.6797,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "Stayed on VB6. Some are still there.",
+  "word_diff_ratio": 0.25,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   }
+  ],
+  "flags": [
+   "content words not heard: six"
+  ],
+  "asr_seconds": 8.6
+ },
+ "S16-B11/01": {
+  "beat": "S16-B11",
+  "attempt": 1,
+  "duration_s": 12.24,
+  "wpm": 122.5,
+  "peak": 0.793,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "In 2005, as Microsoft ended mainstream support for VB6, a group of developers and MVPs organized an actual petition to keep unmanaged Visual Basic alive.",
+  "word_diff_ratio": 0.0714,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   }
+  ],
+  "flags": [
+   "content words not heard: six"
+  ],
+  "asr_seconds": 10.8
+ },
+ "S16-B12/01": {
+  "beat": "S16-B12",
+  "attempt": 1,
+  "duration_s": 23.2,
+  "wpm": 147.4,
+  "peak": 0.5117,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "VB.NET still exists today. It's the language we wrote this card game in, but it's a niche within a niche. Microsoft has officially stated that they will not add new language features to VB.NET. It will continue to compile and run, but it's in maintenance mode. C-Sharp gets all the new toys. VB.net gets security patches.",
+  "word_diff_ratio": 0.0698,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 24.1
+ },
+ "S16-B13/01": {
+  "beat": "S16-B13",
+  "attempt": 1,
+  "duration_s": 6.16,
+  "wpm": 136.4,
+  "peak": 0.7109,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.03,
+  "transcript": "The language that taught a generation to program is, for all practical purposes, finished.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 8.7
+ },
+ "S16-B14/01": {
+  "beat": "S16-B14",
+  "attempt": 1,
+  "duration_s": 24.96,
+  "wpm": 125.0,
+  "peak": 0.7266,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.08,
+  "transcript": "But the ideas it pioneered, visual form designers, event-driven programming, RAD tools, components you can drop onto a surface and configure through properties, those ideas won completely. Every modern UI framework, from React to SwiftUI to Flutter, carries DNA that traces back to Alan Cooper's prototype and Microsoft's Visual Basic.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.4
+ },
+ "S17-B01/01": {
+  "beat": "S17-B01",
+  "attempt": 1,
+  "duration_s": 18.08,
+  "wpm": 156.0,
+  "peak": 0.8516,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "So that's Visual Basic, a language born from the idea that programming should be accessible. A tool that put software development within reach of people who'd never taken a computer science class. A product that dominated the 1990s and then got swept aside by its own successor.",
+  "word_diff_ratio": 0.0208,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "asr_seconds": 21.2
+ },
+ "S17-B02/01": {
+  "beat": "S17-B02",
+  "attempt": 1,
+  "duration_s": 16.72,
+  "wpm": 157.9,
+  "peak": 0.7812,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "And in about 280 lines, we used it to build something that works. A complete card game with real deck management, a proper shuffle algorithm, and a game loop that handles every edge case, including wars that chain three and four levels deep.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 12.7
+ },
+ "S17-B03/01": {
+  "beat": "S17-B03",
+  "attempt": 1,
+  "duration_s": 23.04,
+  "wpm": 164.1,
+  "peak": 0.7383,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "If you want to try it yourself, the code is straightforward. Install the .NET SDK. It's free. Run .NET New Console LangVB and start typing. The language will feel strange if you're used to curly braces and semicolons, but give it a few minutes and you might start to see what millions of people saw in it 30 years ago",
+  "word_diff_ratio": 0.0794,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "s d k",
+    "heard": "sdk"
+   },
+   {
+    "op": "replace",
+    "expected": "dotnet",
+    "heard": "dot net"
+   },
+   {
+    "op": "replace",
+    "expected": "lang vb",
+    "heard": "langvb"
+   }
+  ],
+  "flags": [
+   "content words not heard: dotnet lang"
+  ],
+  "asr_seconds": 23.1
+ },
+ "S17-B04/01": {
+  "beat": "S17-B04",
+  "attempt": 1,
+  "duration_s": 2.96,
+  "wpm": 141.9,
+  "peak": 0.6641,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "It's readable, it's obvious, and it works.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 8.2
+ },
+ "S17-B05/01": {
+  "beat": "S17-B05",
+  "attempt": 1,
+  "duration_s": 14.88,
+  "wpm": 193.5,
+  "peak": 0.7969,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Thanks for watching. If you enjoyed this, consider subscribing. I've got more of these retro language deep dives planned. And if you were around in 1995, and you actually wrote VB4 code, leave a comment and tell me what I got wrong. I want to hear about it.",
+  "word_diff_ratio": 0.0392,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 14.3
+ },
+ "S17-B06/01": {
+  "beat": "S17-B06",
+  "attempt": 1,
+  "duration_s": 1.2,
+  "wpm": 300.0,
+  "peak": 0.6992,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "See you in the next one.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (300 wpm)"
+  ],
+  "asr_seconds": 7.7
+ },
+ "S02-B02/02": {
+  "beat": "S02-B02",
+  "attempt": 2,
+  "duration_s": 19.6,
+  "wpm": 159.2,
+  "peak": 0.75,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "In 1964, if you wanted to write a program, you were probably writing for tran or cobalt or assembly language. You were probably punching cards. The learning curve was brutal. Kemeny and Kurtz wanted something that a college freshman with no technical background could sit down and start using. So they made BASIC.",
+  "word_diff_ratio": 0.0459,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "fortran",
+    "heard": "for tran"
+   },
+   {
+    "op": "replace",
+    "expected": "cobol",
+    "heard": "cobalt"
+   }
+  ],
+  "flags": [
+   "content words not heard: fortran cobol"
+  ],
+  "asr_seconds": 15.8
+ },
+ "S02-B03/02": {
+  "beat": "S02-B03",
+  "attempt": 2,
+  "duration_s": 22.16,
+  "wpm": 148.9,
+  "peak": 0.7812,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.06,
+  "transcript": "And it worked. It worked incredibly well. Through the 1970s and 1980s, BASIC became the language that shipped with almost every home computer. Your Commodore 64 had BASIC. Your Apple II had Applesoft BASIC. Your TRS-80 had BASIC. When you turned on a home computer in 1982, you were usually staring at a basic prompt.",
+  "word_diff_ratio": 0.0806,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "seventies",
+    "heard": "seventys"
+   },
+   {
+    "op": "replace",
+    "expected": "eighties",
+    "heard": "eightys"
+   },
+   {
+    "op": "replace",
+    "expected": "two",
+    "heard": "ii"
+   },
+   {
+    "op": "replace",
+    "expected": "t r s",
+    "heard": "trs"
+   }
+  ],
+  "flags": [
+   "content words not heard: seventies eighties"
+  ],
+  "asr_seconds": 24.0
+ },
+ "S02-B04/02": {
+  "beat": "S02-B04",
+  "attempt": 2,
+  "duration_s": 9.28,
+  "wpm": 206.9,
+  "peak": 0.6406,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.09,
+  "transcript": "This is important because it means that an entire generation of programmers, the people who would go on to build the software industry, learn to code by writing things like",
+  "word_diff_ratio": 0.0333,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "learned",
+    "heard": "learn"
+   }
+  ],
+  "flags": [
+   "content words not heard: learned",
+   "fast (207 wpm)"
+  ],
+  "asr_seconds": 10.8
+ },
+ "S02-B06/02": {
+  "beat": "S02-B06",
+  "attempt": 2,
+  "duration_s": 27.36,
+  "wpm": 125.0,
+  "peak": 0.7188,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.09,
+  "transcript": "Now, fast forward to 1991. Microsoft has Windows 3.0, and Windows programming is a nightmare. If you want to write a Windows application in C, you need to understand message loops, window procedures, callback functions, resource files, the entire Win16 API. A hello world window in C is 73 lines of code. It's not beginner friendly. It's barely expert friendly.",
+  "word_diff_ratio": 0.0382,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "win sixteen",
+    "heard": "winsixteen"
+   }
+  ],
+  "flags": [
+   "content words not heard: win sixteen"
+  ],
+  "asr_seconds": 23.8
+ },
+ "S02-B10/02": {
+  "beat": "S02-B10",
+  "attempt": 2,
+  "duration_s": 14.64,
+  "wpm": 151.6,
+  "peak": 0.8438,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "That's it. Three lines. You hit F5. The program ran. The button worked. The gap between having an idea and seeing it work on screen was shorter than it had ever been in the history of programming.",
+  "word_diff_ratio": 0.04,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "f five",
+    "heard": "ffive"
+   }
+  ],
+  "flags": [
+   "content words not heard: five"
+  ],
+  "asr_seconds": 12.3
+ },
+ "S02-B11/02": {
+  "beat": "S02-B11",
+  "attempt": 2,
+  "duration_s": 29.52,
+  "wpm": 130.1,
+  "peak": 0.6094,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "VB 1.0 came out in 1991 for Windows 3.0, VB 2.0 in 1992, VB 3.0 in 1993 added database support through something called the JetEngine. Yes, the same engine inside Microsoft Access. VB 4.0 in 1995 was the first version that could compile to 32-bit code for Windows 95. And that's right around the era we're talking about today. 1995-1996",
+  "word_diff_ratio": 0.1412,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "oh v b",
+    "heard": "zero vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "jet engine",
+    "heard": "jetengine"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   }
+  ],
+  "flags": [
+   "content words not heard: jet"
+  ],
+  "asr_seconds": 25.5
+ },
+ "S02-B12/02": {
+  "beat": "S02-B12",
+  "attempt": 2,
+  "duration_s": 7.28,
+  "wpm": 148.4,
+  "peak": 0.6641,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "VB4 was the current version, Windows 95 was brand new, and everyone was excited about the start menu.",
+  "word_diff_ratio": 0.1,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 9.3
+ },
+ "S02-B13/02": {
+  "beat": "S02-B13",
+  "attempt": 2,
+  "duration_s": 18.56,
+  "wpm": 142.2,
+  "peak": 0.7773,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "VB 5.0 would come in 1997, and VB 6.0 in 1998. That last one became the version people remember most fondly. But the spirit of the language, the way you actually thought about problems and wrote code, that was all established by VB 4.",
+  "word_diff_ratio": 0.1215,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [],
+  "asr_seconds": 13.3
+ },
+ "S03-B02/02": {
+  "beat": "S03-B02",
+  "attempt": 2,
+  "duration_s": 16.72,
+  "wpm": 165.1,
+  "peak": 0.7109,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "You went to a store, a physical store, CompuSA, Egghead Software, maybe a Babbage's in the mall. You bought a box. Inside the box was either a set of three and a half inch floppy disks, or, if you were lucky and had a CD-ROM drive, a single disk.",
+  "word_diff_ratio": 0.0495,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "c d",
+    "heard": "cd"
+   },
+   {
+    "op": "replace",
+    "expected": "disc",
+    "heard": "disk"
+   }
+  ],
+  "flags": [
+   "content words not heard: disc"
+  ],
+  "asr_seconds": 14.3
+ },
+ "S03-B05/02": {
+  "beat": "S03-B05",
+  "attempt": 2,
+  "duration_s": 9.84,
+  "wpm": 231.7,
+  "peak": 0.7852,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "On the right was the properties panel where you could set things like the caption on a button or the font size of a label and then there was the code window where you wrote your actual basics.",
+  "word_diff_ratio": 0.0263,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "basic",
+    "heard": "basics"
+   }
+  ],
+  "flags": [
+   "content words not heard: basic",
+   "fast (232 wpm)"
+  ],
+  "asr_seconds": 10.6
+ },
+ "S03-B08/02": {
+  "beat": "S03-B08",
+  "attempt": 2,
+  "duration_s": 2.96,
+  "wpm": 162.2,
+  "peak": 0.7031,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "The drag-and-drop GUI builder was the killer feature.",
+  "word_diff_ratio": 0.1,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey"
+  ],
+  "asr_seconds": 7.8
+ },
+ "S04-B04/02": {
+  "beat": "S04-B04",
+  "attempt": 2,
+  "duration_s": 27.12,
+  "wpm": 132.7,
+  "peak": 0.8125,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.03,
+  "transcript": "And we get a .vbproj file and a program.vb file. That's our canvas. Now, the code I'm going to write uses modern vb.net syntax, but I'm deliberately writing it in the old style. One module, one sub-main, structures instead of classes, Manual Array Management instead of Generic Collections Select Case instead of Pattern Matching Do While Loop instead of Link",
+  "word_diff_ratio": 0.1045,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "dot v b proj",
+    "heard": "vbproj"
+   },
+   {
+    "op": "replace",
+    "expected": "dot v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "linq",
+    "heard": "link"
+   }
+  ],
+  "flags": [
+   "content words not heard: proj linq"
+  ],
+  "asr_seconds": 23.9
+ },
+ "S04-B05/02": {
+  "beat": "S04-B05",
+  "attempt": 2,
+  "duration_s": 6.24,
+  "wpm": 182.7,
+  "peak": 0.7812,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "If you squint at this code, it should feel like something you'd see in a VB4 textbook from 1996.",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 9.1
+ },
+ "S06-B07/02": {
+  "beat": "S06-B07",
+  "attempt": 2,
+  "duration_s": 25.04,
+  "wpm": 146.2,
+  "peak": 0.5352,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "DIMM is how you declare a variable in Visual Basic. It stands for Dimension, as in Dimension. An array allocates space for this thing. That name goes all the way back to the original 1964 Basic at Dartmouth. In the earliest versions, DIM was specifically for declaring the dimensions of arrays. Over time, it got repurposed to declare any variable.",
+  "word_diff_ratio": 0.0323,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "dim",
+    "heard": "dimm"
+   },
+   {
+    "op": "replace",
+    "expected": "allocate",
+    "heard": "allocates"
+   }
+  ],
+  "flags": [
+   "content words not heard: allocate"
+  ],
+  "asr_seconds": 21.4
+ },
+ "S06-B09/02": {
+  "beat": "S06-B09",
+  "attempt": 2,
+  "duration_s": 20.4,
+  "wpm": 155.9,
+  "peak": 0.8203,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "Compare that to C-sharp, where you'd write int rank or charsuit. In VB, the type comes after the name. Dim rank as integer. It reads more like English. Dimension a variable called rank as an integer. That's very much a deliberate design choice. Basic was always supposed to read like English.",
+  "word_diff_ratio": 0.0566,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "char suit",
+    "heard": "charsuit"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: char suit"
+  ],
+  "asr_seconds": 21.8
+ },
+ "S07-B01/02": {
+  "beat": "S07-B01",
+  "attempt": 2,
+  "duration_s": 5.84,
+  "wpm": 123.3,
+  "peak": 0.7266,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "Next, we need a deck. 52 cards. 13 ranks times 4 suits.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 8.5
+ },
+ "S07-B05/02": {
+  "beat": "S07-B05",
+  "attempt": 2,
+  "duration_s": 27.52,
+  "wpm": 135.2,
+  "peak": 0.875,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.06,
+  "transcript": "Second, bi-ref. See that in the parameter list? In VADP, JOPI explicitly say whether a parameter was passed by reference or by value. Bi-ref means the subroutine receives a pointer to the original. Changes are visible to the caller. Bi-val means it gets a copy. In classic VB4, the default was by ref for everything, which was efficient but dangerous.",
+  "word_diff_ratio": 0.1298,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "by",
+    "heard": "bi"
+   },
+   {
+    "op": "replace",
+    "expected": "v b you had to",
+    "heard": "vadp jopi"
+   },
+   {
+    "op": "replace",
+    "expected": "by",
+    "heard": "bi"
+   },
+   {
+    "op": "replace",
+    "expected": "by",
+    "heard": "bi"
+   },
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: had four"
+  ],
+  "asr_seconds": 23.2
+ },
+ "S07-B07/02": {
+  "beat": "S07-B07",
+  "attempt": 2,
+  "duration_s": 20.96,
+  "wpm": 157.4,
+  "peak": 0.7266,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.09,
+  "transcript": "Third, look at the for loop syntax. For rank equals 2 to 14, then, at the end, next rank. That next rank is closing the loop and telling you what variable is being incremented. If you're used to C style for int i equals 0, i less than 14, i plus plus, This is going to look almost quaint.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.8
+ },
+ "S07-B08/02": {
+  "beat": "S07-B08",
+  "attempt": 2,
+  "duration_s": 10.4,
+  "wpm": 173.1,
+  "peak": 0.7461,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "But there's something kind of nice about it. When you have nested loops, each next names its variable, so you can see at a glance which loop is ending.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 10.4
+ },
+ "S07-B13/02": {
+  "beat": "S07-B13",
+  "attempt": 2,
+  "duration_s": 24.56,
+  "wpm": 144.1,
+  "peak": 0.8359,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.05,
+  "transcript": "Also notice, every single variable is declared at the top of the subroutine with DIMM. In classic VB, you couldn't declare variables in the middle of the code. Everything went at the top. It's like writing C89. All declarations before any statements. C-sharp and modern C++ let you declare variables wherever you want. VB was stricter about this.",
+  "word_diff_ratio": 0.0866,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "dim",
+    "heard": "dimm"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "c eighty",
+    "heard": "ceighty"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: dim eighty"
+  ],
+  "asr_seconds": 22.7
+ },
+ "S08-B01/02": {
+  "beat": "S08-B01",
+  "attempt": 2,
+  "duration_s": 15.28,
+  "wpm": 208.1,
+  "peak": 0.5508,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "Here's where things get interesting from a data structure's perspective. Each player has a hand of cards, and that hand needs to behave like a cue. First in, first out. When you win cards, they go to the bottom of your pile. When you play a card, it comes off the top.",
+  "word_diff_ratio": 0.0385,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "structures",
+    "heard": "structure's"
+   },
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "cue"
+   }
+  ],
+  "flags": [
+   "content words not heard: structures queue",
+   "fast (208 wpm)"
+  ],
+  "asr_seconds": 14.0
+ },
+ "S08-B02/02": {
+  "beat": "S08-B02",
+  "attempt": 2,
+  "duration_s": 17.28,
+  "wpm": 145.8,
+  "peak": 0.8438,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "In C-Sharp, you'd use Q of card and call it a day. In C++, you'd use standard Q. In 1995 VKO Icebee, you didn't have generic collections. You didn't even have a built-in Q. You had arrays, and you had redim. And that was about it.",
+  "word_diff_ratio": 0.1238,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "q"
+   },
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "q"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vko icebee"
+   },
+   {
+    "op": "replace",
+    "expected": "queue",
+    "heard": "q"
+   },
+   {
+    "op": "replace",
+    "expected": "re dim",
+    "heard": "redim"
+   }
+  ],
+  "flags": [
+   "content words not heard: queue queue queue dim"
+  ],
+  "asr_seconds": 15.6
+ },
+ "S08-B03/02": {
+  "beat": "S08-B03",
+  "attempt": 2,
+  "duration_s": 1.2,
+  "wpm": 200.0,
+  "peak": 0.6562,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "So, we fake it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 7.3
+ },
+ "S08-B05/02": {
+  "beat": "S08-B05",
+  "attempt": 2,
+  "duration_s": 6.0,
+  "wpm": 160.0,
+  "peak": 0.7383,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "Adding a card to the bottom is simple. Drop it at position, count, and increment.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 8.4
+ },
+ "S08-B07/02": {
+  "beat": "S08-B07",
+  "attempt": 2,
+  "duration_s": 21.12,
+  "wpm": 156.2,
+  "peak": 0.8242,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "That shift is 0-1-N. Every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in 0-1-N. But we're writing 1995 VB. Nobody was thinking about algorithmic complexity when they had 26 cards in a hand. computers were slower, but datasets were tiny.",
+  "word_diff_ratio": 0.1,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "o",
+    "heard": "zero one"
+   },
+   {
+    "op": "replace",
+    "expected": "o",
+    "heard": "zero"
+   },
+   {
+    "op": "insert",
+    "expected": "",
+    "heard": "n"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "data sets",
+    "heard": "datasets"
+   }
+  ],
+  "flags": [
+   "content words not heard: data sets"
+  ],
+  "asr_seconds": 22.9
+ },
+ "S08-B12/02": {
+  "beat": "S08-B12",
+  "attempt": 2,
+  "duration_s": 15.6,
+  "wpm": 142.3,
+  "peak": 0.8555,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.01,
+  "transcript": "This is pure old-school basic heritage. It's been this way since the 1960s. VB.net also supports the return keyword, but the assigned-to-function name style is the traditional way, and it's what you would have seen in the 90s.",
+  "word_diff_ratio": 0.1011,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "sixties v b",
+    "heard": "sixtys vb"
+   },
+   {
+    "op": "replace",
+    "expected": "assign",
+    "heard": "assigned"
+   },
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   }
+  ],
+  "flags": [
+   "content words not heard: sixties assign nineties"
+  ],
+  "asr_seconds": 12.6
+ },
+ "S09-B03/02": {
+  "beat": "S09-B03",
+  "attempt": 2,
+  "duration_s": 0.72,
+  "wpm": 250.0,
+  "peak": 0.7734,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "Then the loop.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (250 wpm)"
+  ],
+  "asr_seconds": 7.1
+ },
+ "S09-B05/02": {
+  "beat": "S09-B05",
+  "attempt": 2,
+  "duration_s": 22.88,
+  "wpm": 157.3,
+  "peak": 0.7305,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "The max rounds check is a safety valve. War is theoretically capable of cycling forever, same cards going back and forth in a loop. In practice, with a random shuffle, games do end. My recorded runs took anywhere from 150 to 2,008 rounds, but just in case, we cap it at 20,000 rounds and call it a draw.",
+  "word_diff_ratio": 0.0317,
+  "diffs": [
+   {
+    "op": "delete",
+    "expected": "the",
+    "heard": ""
+   },
+   {
+    "op": "delete",
+    "expected": "thousand",
+    "heard": ""
+   },
+   {
+    "op": "replace",
+    "expected": "thousand",
+    "heard": "zero"
+   }
+  ],
+  "flags": [
+   "content words not heard: thousand thousand"
+  ],
+  "asr_seconds": 22.8
+ },
+ "S09-B06/02": {
+  "beat": "S09-B06",
+  "attempt": 2,
+  "duration_s": 3.2,
+  "wpm": 168.8,
+  "peak": 0.5977,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.11,
+  "transcript": "In my testing, I've never actually hit the cap.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 7.8
+ },
+ "S10-B03/02": {
+  "beat": "S10-B03",
+  "attempt": 2,
+  "duration_s": 4.56,
+  "wpm": 210.5,
+  "peak": 0.6719,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "Inside, there's a pot, an array that collects all the cards at stake this round.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (211 wpm)"
+  ],
+  "asr_seconds": 8.5
+ },
+ "S10-B11/02": {
+  "beat": "S10-B11",
+  "attempt": 2,
+  "duration_s": 17.68,
+  "wpm": 145.9,
+  "peak": 0.9258,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.02,
+  "transcript": "That colon is VB's statement separator. It puts two statements on one line. It's the equivalent of putting two lines on one line, frowned upon by style guides, but convenient for cases like this, where the two operations are conceptually atomic.",
+  "word_diff_ratio": 0.0361,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b's",
+    "heard": "vb's"
+   }
+  ],
+  "flags": [
+   "content words not heard: b's"
+  ],
+  "asr_seconds": 13.0
+ },
+ "S10-B12/02": {
+  "beat": "S10-B12",
+  "attempt": 2,
+  "duration_s": 7.28,
+  "wpm": 206.0,
+  "peak": 0.5117,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "The give cards to winner subroutine at the end is simple. It walks the potteray and adds each card to the bottom of the winner's hand.",
+  "word_diff_ratio": 0.0566,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "pot array",
+    "heard": "potteray"
+   }
+  ],
+  "flags": [
+   "content words not heard: pot array",
+   "fast (206 wpm)"
+  ],
+  "asr_seconds": 10.2
+ },
+ "S10-B13/02": {
+  "beat": "S10-B13",
+  "attempt": 2,
+  "duration_s": 23.2,
+  "wpm": 165.5,
+  "peak": 0.8047,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.08,
+  "transcript": "This is what determines the eventual outcome of the game. The order in which one cards get added to your hand affects what you'll play in future rounds, which affects who wins those rounds. War is deterministic after the shuffle. The outcome is sealed the moment the cards are dealt. There's no randomness during play. The only randomness is in the initial shuffle.",
+  "word_diff_ratio": 0.0159,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "won",
+    "heard": "one"
+   }
+  ],
+  "flags": [
+   "content words not heard: won"
+  ],
+  "asr_seconds": 22.3
+ },
+ "S11-B01/02": {
+  "beat": "S11-B01",
+  "attempt": 2,
+  "duration_s": 0.64,
+  "wpm": 281.2,
+  "peak": 0.832,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Let's run it.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (281 wpm)"
+  ],
+  "asr_seconds": 7.1
+ },
+ "S11-B03/02": {
+  "beat": "S11-B03",
+  "attempt": 2,
+  "duration_s": 14.4,
+  "wpm": 162.5,
+  "peak": 0.8828,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.09,
+  "transcript": "Every run is different because the shuffle is random. Sometimes it's over in 150 rounds. Sometimes it takes more than 2,000. The number of wars varies too. 10 in one game, 69 in another. But it always terminates.",
+  "word_diff_ratio": 0.0238,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "thousand",
+    "heard": "zero"
+   }
+  ],
+  "flags": [
+   "content words not heard: thousand"
+  ],
+  "asr_seconds": 13.0
+ },
+ "S11-B04/02": {
+  "beat": "S11-B04",
+  "attempt": 2,
+  "duration_s": 17.76,
+  "wpm": 111.5,
+  "peak": 0.7695,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "This is about 280 lines of visual basic. Not 280 lines of boilerplate and framework code. 280 lines that actually do something. That's the whole game. Build. Shuffle. Deal. Play. Win. Done.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "slow (111 wpm)"
+  ],
+  "asr_seconds": 13.2
+ },
+ "S12-B06/02": {
+  "beat": "S12-B06",
+  "attempt": 2,
+  "duration_s": 8.16,
+  "wpm": 125.0,
+  "peak": 0.7422,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "And it happened again, in the opposite direction, purely by chance. The longest run, 2008 rounds.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 9.1
+ },
+ "S13-B02/02": {
+  "beat": "S13-B02",
+  "attempt": 2,
+  "duration_s": 5.2,
+  "wpm": 219.2,
+  "peak": 0.8281,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.1,
+  "transcript": "You would have put a GUI on it. This is where Visual Basic's form designer would have come in.",
+  "word_diff_ratio": 0.0526,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey",
+   "fast (219 wpm)"
+  ],
+  "asr_seconds": 8.7
+ },
+ "S13-B05/02": {
+  "beat": "S13-B05",
+  "attempt": 2,
+  "duration_s": 18.32,
+  "wpm": 173.6,
+  "peak": 0.6836,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.08,
+  "transcript": "And this is how a lot of actual software got made in the mid-90s. People would start with the logic, get the algorithms working in a console or a simple form, and then layer the visual design on top. Visual Basic made that second step dramatically easier than anything else available.",
+  "word_diff_ratio": 0.0192,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "asr_seconds": 13.3
+ },
+ "S13-B06/02": {
+  "beat": "S13-B06",
+  "attempt": 2,
+  "duration_s": 18.4,
+  "wpm": 176.1,
+  "peak": 0.75,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "The shareware scene of the 1990s was full of card games, board games, and puzzle games written in Visual Basic. Windows came bundled with Solitaire and Minesweeper, written in C. But the thousands of freeware and shareware alternatives that flooded BBS boards and early websites. A huge number of those were VB apps.",
+  "word_diff_ratio": 0.1071,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "b b s",
+    "heard": "bbs"
+   },
+   {
+    "op": "replace",
+    "expected": "web sites",
+    "heard": "websites"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties web sites"
+  ],
+  "asr_seconds": 15.1
+ },
+ "S13-B07/02": {
+  "beat": "S13-B07",
+  "attempt": 2,
+  "duration_s": 20.08,
+  "wpm": 152.4,
+  "peak": 0.7852,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "You'd distribute your game by uploading it to a BBS or a shareware site. Users would download it, but they'd also need the VBRuntime, a DLL file called something like VBRun300.dll that shipped separately from your program. If the user didn't already have it installed, your game wouldn't launch. Thank you.",
+  "word_diff_ratio": 0.2069,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "b b s",
+    "heard": "bbs"
+   },
+   {
+    "op": "replace",
+    "expected": "v b runtime",
+    "heard": "vbruntime"
+   },
+   {
+    "op": "replace",
+    "expected": "d l l",
+    "heard": "dll"
+   },
+   {
+    "op": "replace",
+    "expected": "v b run three",
+    "heard": "vbrunthree"
+   },
+   {
+    "op": "replace",
+    "expected": "dot d l l",
+    "heard": "dll"
+   },
+   {
+    "op": "insert",
+    "expected": "",
+    "heard": "thank you"
+   }
+  ],
+  "flags": [
+   "content words not heard: runtime run three dot"
+  ],
+  "asr_seconds": 22.1
+ },
+ "S14-B02/02": {
+  "beat": "S14-B02",
+  "attempt": 2,
+  "duration_s": 28.56,
+  "wpm": 119.7,
+  "peak": 0.8984,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.08,
+  "transcript": "Visual C++ 4.0 was Microsoft's professional-grade tool. MFC, the Microsoft Foundation Classes, gave you a C++ framework for building Windows apps. It was powerful, fast, and absolutely miserable to learn. MFC was notorious for its deep class hierarchies. its reliance on macros, and its unforgiving error messages. Professional developers used it. Game studios used it.",
+  "word_diff_ratio": 0.0781,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "oh",
+    "heard": "zero"
+   },
+   {
+    "op": "replace",
+    "expected": "m f c",
+    "heard": "mfc"
+   },
+   {
+    "op": "replace",
+    "expected": "m f c",
+    "heard": "mfc"
+   }
+  ],
+  "flags": [
+   "slow (120 wpm)"
+  ],
+  "asr_seconds": 22.2
+ },
+ "S14-B04/02": {
+  "beat": "S14-B04",
+  "attempt": 2,
+  "duration_s": 25.36,
+  "wpm": 139.6,
+  "peak": 0.707,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.07,
+  "transcript": "Borland Delphi was the dark horse. Released in 1995, Delphi was basically visual basic but for Object Pascal. It had the same kind of drag-and-drop form designer, the same rad philosophy, but it compiled to native code from day one and its language. Object Pascal was genuinely well designed. A lot of experienced programmers prefer Delphi to VB.",
+  "word_diff_ratio": 0.04,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "preferred",
+    "heard": "prefer"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: preferred"
+  ],
+  "asr_seconds": 22.1
+ },
+ "S14-B08/02": {
+  "beat": "S14-B08",
+  "attempt": 2,
+  "duration_s": 22.96,
+  "wpm": 138.5,
+  "peak": 0.7773,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.03,
+  "transcript": "PowerBuilder was huge in the corporate database world. If you were building a line of business application that talked to an Oracle or Sybase database, PowerBuilder was the tool. It had a thing called data windows that made building data entry forms almost trivially easy. but it was expensive, corporate, and basically invisible outside of IT departments.",
+  "word_diff_ratio": 0.0265,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "datawindows",
+    "heard": "data windows"
+   }
+  ],
+  "flags": [
+   "content words not heard: datawindows"
+  ],
+  "asr_seconds": 21.4
+ },
+ "S14-B11/02": {
+  "beat": "S14-B11",
+  "attempt": 2,
+  "duration_s": 20.4,
+  "wpm": 167.6,
+  "peak": 0.7734,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.06,
+  "transcript": "So Visual Basic sat in a sweet spot. Easier than C++, more established than Delphi, cheaper than PowerBuilder, and more practical than Java. It wasn't the best tool for any single job, but it was a good enough tool for almost every job. and good enough for almost everything is a very powerful position to be in.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 21.2
+ },
+ "S15-B01/02": {
+  "beat": "S15-B01",
+  "attempt": 2,
+  "duration_s": 5.6,
+  "wpm": 192.9,
+  "peak": 0.7812,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "What if you wanted to build this same card game in 1995, but you were on a Mac?",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [],
+  "asr_seconds": 8.5
+ },
+ "S15-B02/02": {
+  "beat": "S15-B02",
+  "attempt": 2,
+  "duration_s": 20.4,
+  "wpm": 150.0,
+  "peak": 0.7734,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "First, you weren't using Visual Basic. Microsoft never actually shipped Visual Basic for the Mac. They had something called Quick Basic for the Apple Macintosh, released in 1988, last updated in 1992. But that was a plain basic compiler, not the visual drag-and-drop environment that made VB special on Windows.",
+  "word_diff_ratio": 0.0536,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "quickbasic",
+    "heard": "quick basic"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: quickbasic"
+  ],
+  "asr_seconds": 20.1
+ },
+ "S15-B04/02": {
+  "beat": "S15-B04",
+  "attempt": 2,
+  "duration_s": 18.56,
+  "wpm": 139.0,
+  "peak": 0.8867,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "On a Mac, in 1995, you'd probably be using MetroWorks CodeWarrior. This was the dominant development environment for the Mac from the mid-90s onward. It used C and C++ and compiled for both the old Motorola 68K chips and the newer PowerPC architecture.",
+  "word_diff_ratio": 0.0707,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "metrowerks",
+    "heard": "metroworks"
+   },
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "eight k",
+    "heard": "eightk"
+   }
+  ],
+  "flags": [
+   "content words not heard: metrowerks nineties eight"
+  ],
+  "asr_seconds": 14.0
+ },
+ "S15-B06/02": {
+  "beat": "S15-B06",
+  "attempt": 2,
+  "duration_s": 20.64,
+  "wpm": 125.0,
+  "peak": 0.75,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.01,
+  "transcript": "Now, here's a misconception I want to address. Objective Deucesum. People assume that Mac programming in the 90s meant Objective Deucey. It didn't. Objective C was a next-step language. It was the language of Steve Jobs' other company, Next and the next step operating system.",
+  "word_diff_ratio": 0.0968,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "c some",
+    "heard": "deucesum"
+   },
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "c",
+    "heard": "deucey"
+   },
+   {
+    "op": "replace",
+    "expected": "jobs's",
+    "heard": "jobs"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties jobs's"
+  ],
+  "asr_seconds": 21.3
+ },
+ "S15-B10/02": {
+  "beat": "S15-B10",
+  "attempt": 2,
+  "duration_s": 25.28,
+  "wpm": 151.9,
+  "peak": 0.8555,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.0,
+  "transcript": "For a console card game like ours, no GUI, just logic and text output, the difficulty would have been roughly comparable. C is a harder language than basic, but the actual logic of building a deck, shuffling, and comparing cards is the same in any language. You do structs, arrays and printf instead of structures, arrays, and console.WriteLine. The algorithm doesn't change.",
+  "word_diff_ratio": 0.0781,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   },
+   {
+    "op": "replace",
+    "expected": "you'd use",
+    "heard": "you do"
+   },
+   {
+    "op": "replace",
+    "expected": "dot write line",
+    "heard": "writeline"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey you'd use dot write line"
+  ],
+  "asr_seconds": 22.8
+ },
+ "S15-B11/02": {
+  "beat": "S15-B11",
+  "attempt": 2,
+  "duration_s": 23.44,
+  "wpm": 153.6,
+  "peak": 0.7852,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.06,
+  "transcript": "Where VB had the massive advantage was in the next step, putting a GUI on it. In VB, that was an afternoon of dragging controls onto a form. On the Mac with CodeWarrior, you'd be writing Carbon or Toolbox API calls, managing window records, handling update events, and doing your own drawing into graph ports. It was not an afternoon.",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "gooey",
+    "heard": "gui"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "grafports",
+    "heard": "graph ports"
+   }
+  ],
+  "flags": [
+   "content words not heard: gooey grafports"
+  ],
+  "asr_seconds": 21.9
+ },
+ "S15-B12/02": {
+  "beat": "S15-B12",
+  "attempt": 2,
+  "duration_s": 4.0,
+  "wpm": 195.0,
+  "peak": 0.9492,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.02,
+  "transcript": "It was a weak minimum for someone who knew what they were doing.",
+  "word_diff_ratio": 0.0769,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "week",
+    "heard": "weak"
+   }
+  ],
+  "flags": [
+   "content words not heard: week"
+  ],
+  "asr_seconds": 8.0
+ },
+ "S16-B01/02": {
+  "beat": "S16-B01",
+  "attempt": 2,
+  "duration_s": 29.12,
+  "wpm": 127.7,
+  "peak": 0.6289,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "Visual Basic mattered because it democratized programming. That's not hyperbole. Before VB, writing a Windows application was a professional skill that required significant training. After VB, a motivated person with a $100 software purchase and a library book could build something real in a weekend. Accountants wrote tools to automate their spreadsheets. Teachers built quiz applications. Small business owners made inventory trackers.",
+  "word_diff_ratio": 0.0698,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "insert",
+    "expected": "",
+    "heard": "one"
+   },
+   {
+    "op": "replace",
+    "expected": "dollar",
+    "heard": "dollars"
+   }
+  ],
+  "flags": [
+   "content words not heard: dollar"
+  ],
+  "asr_seconds": 22.6
+ },
+ "S16-B04/02": {
+  "beat": "S16-B04",
+  "attempt": 2,
+  "duration_s": 2.32,
+  "wpm": 232.8,
+  "peak": 0.8008,
+  "lead_silence_s": 0.1,
+  "trail_silence_s": 0.02,
+  "transcript": "You just wrote what you meant, and it worked.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (233 wpm)"
+  ],
+  "asr_seconds": 7.6
+ },
+ "S16-B05/02": {
+  "beat": "S16-B05",
+  "attempt": 2,
+  "duration_s": 23.04,
+  "wpm": 130.2,
+  "peak": 0.7422,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.0,
+  "transcript": "Microsoft estimated that by the late 1990s, there were more lines of visual basic code in production than any other language. VB6, released in 1998, became one of the most beloved development tools ever made. There are VB6 applications still running today in banks, hospitals, manufacturing plants, and government offices.",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties six six"
+  ],
+  "asr_seconds": 19.9
+ },
+ "S16-B08/02": {
+  "beat": "S16-B08",
+  "attempt": 2,
+  "duration_s": 19.36,
+  "wpm": 108.5,
+  "peak": 0.7891,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.08,
+  "transcript": "VB.NET ran on the .NET framework, used the Common Language Runtime, and had a different syntax, different semantics, different everything. Code from VB6 did not run in VB.NET. The migration tools were, let's say, aspirational.",
+  "word_diff_ratio": 0.119,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: six",
+   "slow (108 wpm)"
+  ],
+  "asr_seconds": 13.1
+ },
+ "S16-B09/02": {
+  "beat": "S16-B09",
+  "attempt": 2,
+  "duration_s": 25.44,
+  "wpm": 153.3,
+  "peak": 0.832,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.07,
+  "transcript": "The VB community was furious. They'd been promised that VB was a platform they could build careers on, and now Microsoft was telling them to start over. Many VB6 developers moved to VB.NET and eventually adapted. Many moved to C Sharp instead, figuring that if they had to learn a new .NET language, they might as well learn the one Microsoft clearly favored. And some just",
+  "word_diff_ratio": 0.0909,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   }
+  ],
+  "flags": [
+   "content words not heard: six"
+  ],
+  "asr_seconds": 22.2
+ },
+ "S16-B10/02": {
+  "beat": "S16-B10",
+  "attempt": 2,
+  "duration_s": 3.2,
+  "wpm": 131.2,
+  "peak": 0.6445,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "Stayed on VP6. Some are still there.",
+  "word_diff_ratio": 0.25,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vpsix"
+   }
+  ],
+  "flags": [
+   "content words not heard: six"
+  ],
+  "asr_seconds": 7.7
+ },
+ "S16-B11/02": {
+  "beat": "S16-B11",
+  "attempt": 2,
+  "duration_s": 12.24,
+  "wpm": 122.5,
+  "peak": 0.7891,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.05,
+  "transcript": "In 2005, as Microsoft ended mainstream support for VB6, a group of developers and MVPs organized an actual petition to keep unmanaged Visual Basic alive.",
+  "word_diff_ratio": 0.0714,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b six",
+    "heard": "vbsix"
+   }
+  ],
+  "flags": [
+   "content words not heard: six"
+  ],
+  "asr_seconds": 9.9
+ },
+ "S17-B01/02": {
+  "beat": "S17-B01",
+  "attempt": 2,
+  "duration_s": 17.68,
+  "wpm": 159.5,
+  "peak": 0.7734,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.04,
+  "transcript": "So that's Visual Basic, a language born from the idea that programming should be accessible. A tool that put software development within reach of people who'd never taken a computer science class. A product that dominated the 1990s and then got swept aside by its own successor.",
+  "word_diff_ratio": 0.0208,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "nineties",
+    "heard": "ninetys"
+   }
+  ],
+  "flags": [
+   "content words not heard: nineties"
+  ],
+  "asr_seconds": 12.6
+ },
+ "S17-B03/02": {
+  "beat": "S17-B03",
+  "attempt": 2,
+  "duration_s": 23.92,
+  "wpm": 158.0,
+  "peak": 0.9297,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.02,
+  "transcript": "If you want to try it yourself, the code is straightforward. Install the .NET SDK. It's free. Run .NET, new console, langvb, and start typing. The language will feel strange if you're used to curly braces and semicolons, but give it a few minutes. and you might start to see what millions of people saw in it 30 years ago.",
+  "word_diff_ratio": 0.0794,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "s d k",
+    "heard": "sdk"
+   },
+   {
+    "op": "replace",
+    "expected": "dotnet",
+    "heard": "dot net"
+   },
+   {
+    "op": "replace",
+    "expected": "lang vb",
+    "heard": "langvb"
+   }
+  ],
+  "flags": [
+   "content words not heard: dotnet lang"
+  ],
+  "asr_seconds": 22.5
+ },
+ "S17-B05/02": {
+  "beat": "S17-B05",
+  "attempt": 2,
+  "duration_s": 16.88,
+  "wpm": 170.6,
+  "peak": 0.8672,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.04,
+  "transcript": "Thanks for watching. If you enjoyed this, consider subscribing. I've got more of these retro language deep dives planned. And if you were around in 1995 and you actually wrote VB4 code, leave a comment and tell me what I got wrong. I want to hear about it.",
+  "word_diff_ratio": 0.0392,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "v b four",
+    "heard": "vbfour"
+   }
+  ],
+  "flags": [
+   "content words not heard: four"
+  ],
+  "asr_seconds": 21.6
+ },
+ "S17-B06/02": {
+  "beat": "S17-B06",
+  "attempt": 2,
+  "duration_s": 1.36,
+  "wpm": 264.7,
+  "peak": 0.5859,
+  "lead_silence_s": 0.08,
+  "trail_silence_s": 0.06,
+  "transcript": "See you in the next one.",
+  "word_diff_ratio": 0.0,
+  "diffs": [],
+  "flags": [
+   "fast (265 wpm)"
+  ],
+  "asr_seconds": 7.3
+ }
+}
