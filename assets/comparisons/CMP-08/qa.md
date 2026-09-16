@@ -1,6 +1,6 @@
 # CMP-08 — Production QA
 
-**Production:** produced. **Release:** blocked.
+**Production:** produced. **Release:** unreviewed.
 
 ## Delivered
 Each required media/source/evidence file is enumerated by byte count and SHA-256 in delivery.json. Existing outputs are real rendered media, not placeholder filenames. Independent variants belong to this ticket. The original source brief and code remain unchanged.
@@ -23,3 +23,11 @@ No narration sync, sound design, final video assembly, full independent editoria
 ## Asset-specific notes
 - This is a proposed minimal illustration of the narrated underscore contrast, not a screenshot of the supplied program. Retain the explicit underscore; do not claim every modern VB multiline expression always requires one.
 - No compile/run is claimed for illustrative counterparts.
+
+## Revision 2 — 2026-09-16 (Devin's cut note 13)
+
+- Change: left-column header kept as "C#": `Console.WriteLine` is .NET-only (C++ would be `std::cout <<`, Java `System.out.println`), and nothing else in the snippet (`+` concatenation, the wrapped argument) implies another language, so no re-render was needed and the exports are unchanged.
+- No file under `src/` or `exports/` changed; every export hash in delivery.json is the one the 2026-09-15 release review looked at. Only this section, state.json and the delivery metadata (release status, notes, this file's hash) were updated.
+- Tests run: `python tools/validate_delivery.py --id CMP-08` (ok). The revision 1 render and browser checks recorded above still describe these exports.
+- Gate R03: the recorded decision in evidence/claim-checks.json (2026-09-15) concerns the code as written, which revision 2 does not change; it is therefore not listed as unresolved. Release is unreviewed because revision 2 asks the producer to confirm the header decision, not because of the gate.
+- Status: production produced; release unreviewed until the producer confirms the header decision. The 2026-09-15 release approval is superseded by the revision 2 review.
