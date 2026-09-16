@@ -125,13 +125,26 @@ def main() -> int:
         print(f"[ok] {master}")
     return 0
 
+def music_plan(music: str) -> list[dict]:
+    """One file, or a JSON plan: [{"file": ..., "from": seconds, "to": seconds, "gain_db": -16}, ...] covering the timeline in order."""
+    if music.lower().endswith(".json"):
+        return json.loads(Path(music).read_text(encoding="utf-8"))
+    return [{"file": music, "from": 0, "to": None, "gain_db": -16}]
+
 def mix(video: Path, music: str | None, sfx_json: str | None, out: Path) -> Path:
-    """Music bed ducked under narration with sidechain compression; sound effects placed at timeline seconds."""
+    """Music bed(s) ducked under narration with sidechain compression; sound effects placed at timeline seconds."""
     inputs = ["-i", str(video)]; filters = []; mix_in = ["[0:a]"]; n = 1
     if music:
-        inputs += ["-stream_loop", "-1", "-i", music]
-        filters.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,volume=-16dB[bed];[0:a]asplit[nar][key];[bed][key]sidechaincompress=threshold=0.05:ratio=6:attack=40:release=600[ducked]")
-        mix_in = ["[nar]", "[ducked]"]; n += 1
+        beds = []
+        for k, cue in enumerate(music_plan(music)):
+            start = float(cue.get("from", 0)); end = cue.get("to")
+            inputs += ["-stream_loop", "-1", "-i", cue["file"]]
+            length = f",atrim=duration={float(end) - start:.3f}" if end is not None else ""
+            fade = f",afade=t=in:d=2{',afade=t=out:st=' + str(float(end) - start - 3) + ':d=3' if end is not None else ''}"
+            filters.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo{length}{fade},volume={cue.get('gain_db', -16)}dB,adelay={int(start * 1000)}|{int(start * 1000)}[bed{k}]")
+            beds.append(f"[bed{k}]"); n += 1
+        filters.append("".join(beds) + f"amix=inputs={len(beds)}:duration=longest:normalize=0[bed];[0:a]asplit[nar][key];[bed][key]sidechaincompress=threshold=0.05:ratio=6:attack=40:release=600[ducked]")
+        mix_in = ["[nar]", "[ducked]"]
     sfx = json.loads(Path(sfx_json).read_text(encoding="utf-8")) if sfx_json else []
     for k, item in enumerate(sfx):
         inputs += ["-i", str(ROOT / item["file"])]
