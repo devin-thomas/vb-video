@@ -1,0 +1,14 @@
+{
+  "id": "OPS-03",
+  "produced": "2026-09-15",
+  "by": "Producer (vb-video-checkout-2-38, Claude Fable 5.1)",
+  "inputs": [
+    "manifest.json",
+    "assets/*/*/state.json",
+    "assets/*/*/evidence/claim-checks.json",
+    "docs/EDITORIAL_REGISTER.md",
+    "review/editorial-review.json"
+  ],
+  "method": "Aggregated by script from every ticket's own evidence; decisions recorded in the tickets first, then rolled up here.",
+  "network_used": false
+}

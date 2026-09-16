@@ -1,0 +1,82 @@
+{
+  "id": "OPS-03",
+  "title": "Editorial, historical evidence, and rights clearance ledger",
+  "production_status": "produced",
+  "release_status": "approved",
+  "provenance_type": "coordination record",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 153,
+      "sha256": "8f49964c3f915364c3bfa382b246f6dc649e3269e1c7f85777d27d5d081bcf1d"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 452,
+      "sha256": "14d7735ba5cb8640614463019ef1c3b952c69d7b2e3bbbe6ac8a1ba88aedd67c"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 251,
+      "sha256": "6192db9f4a88183ad650d596537f5d563ed8bccc7ebc02fabba17a2a578e54b4"
+    },
+    {
+      "path": "exports/decision-ledger.json",
+      "role": "coordination export",
+      "bytes": 154567,
+      "sha256": "6778c95d582db7b994e98b8910e794caf52edb9c1c668d5b3870b4cbe7ecb26c"
+    },
+    {
+      "path": "exports/report.md",
+      "role": "coordination export",
+      "bytes": 3524,
+      "sha256": "0698ac04e9e94ffe7639af80974966ea4982641ffc62e7429f847ac4bc90b896"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 741,
+      "sha256": "564b352c219c0337cfafd943d6fe232bf9ed9ea2fc731b4f123c60937edf8ab5"
+    }
+  ],
+  "variants": [],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": null,
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "audited against; unchanged"
+    }
+  ],
+  "credits": [
+    {
+      "type": "coordination",
+      "credit": "Producer-generated record; no media."
+    }
+  ],
+  "tests": [
+    {
+      "test": "validate_pack",
+      "result": "passed"
+    },
+    {
+      "test": "validate_delivery on every produced ticket",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0"
+  },
+  "notes": [
+    "Produced 2026-09-15. Devin's R14 standing ruling and the producer's delegated review are recorded per ticket; this ledger rolls them up."
+  ]
+}

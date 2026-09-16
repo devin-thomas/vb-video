@@ -133,6 +133,16 @@ Devin ruled on the review ledger in chat with the producer, ahead of the OPS-04 
 - **B-roll choices (later the same evening):** Devin approved all three recommendations from the options page. BROLL-03 keeps the labeled recreation; BROLL-04 uses the 6.5 s cut 02:16.0 to 02:22.5, pillarboxed and muted; BROLL-06 uses the cutaway alone with narration carrying the boot. All three release-approved; release now stands at 16 approved.
 - **Open in the ledger:** only HIST-12 RQ-2, an information item about presenting the 444×282 Delphi GIF at an exact 3× upscale on a matte rather than stretched.
 
+## Session 8 — delegated release review, OPS-03 and OPS-04 (2026-09-15)
+
+Devin stopped the deck-based review after seeing its size: the producer exists so that Devin does not review a hundred items, rights are settled after six rounds, and the producer should judge the rest against the words. So:
+
+- **Rights.** Every R14 gate now records Devin's standing ruling (keep as documented). No rights question goes back to Devin.
+- **Everything else.** The producer checked each of the 115 remaining produced assets against `War/SCRIPT.md` and `Program.vb` (code cards are also validator-checked as literal excerpts) and recorded a per-gate reason in each `evidence/claim-checks.json`; review questions are resolved with the decision. Script fixes the workers had proposed were confirmed already applied (properties bar, NeXT 1993, VB.NET 2000/2002, bundled Windows games, QuickBASIC for Mac, runtime size, petition 2005, Java 1996). Producer calls: CH-10 keeps the author's "Recursion" title (narration at :460 says it is a loop); the "more readable" line, the "accountants and teachers" colour, and the "this is fine" meme drop stand as decided; XTRA-14 credits stay burned in; HIST-12 stays at its 3× integer upscale.
+- **One fix.** XTRA-15's frame carried two burned-in provenance sentences; the producer stripped them to the RECONSTRUCTION label, rebuilt and re-rendered (`python tools/render/render_assets.py --id XTRA-15` with `C:\Python314\python.exe`; prepending the MSYS2 bin to PATH picks up the wrong python).
+- **OPS-03 and OPS-04 produced** by `tools/producer/build_ops.py`: the decision ledger, the coverage report, `editor-inventory.csv` (134 rows in script order, 130 media assets cleared), `exceptions.md` (labels and cuts that travel with specific assets, plus the credits list). Both validated.
+- **State.** 134/134 produced, 134/134 release-approved, `validate_pack` and every `validate_delivery` ok. GitHub issues #30 and #161 closed. Production is complete; what remains is the human work in `docs/handoffs/`.
+
 ## Mapping: original GitHub issues → tickets
 
 | GitHub Issue | Title | Tickets | Status |

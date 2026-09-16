@@ -1,14 +1,10 @@
 {
   "tickets": 134,
   "production_status": {
-    "produced": 132,
-    "planned": 1,
-    "in_progress": 1
+    "produced": 134
   },
   "release_status": {
-    "approved": 131,
-    "blocked": 2,
-    "unreviewed": 1
+    "approved": 134
   },
   "produced_by_family": {
     "diagrams": 14,
@@ -23,7 +19,7 @@
     "historical": 34,
     "broll": 6,
     "stills": 5,
-    "ops": 2
+    "ops": 4
   },
   "gallery_assets": 90,
   "mp4_files": 62,

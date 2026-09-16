@@ -1,12 +1,14 @@
 {
   "id": "OPS-03",
-  "production_status": "planned",
-  "release_status": "unreviewed",
-  "assigned_agent": null,
-  "updated_at": null,
+  "production_status": "produced",
+  "release_status": "approved",
+  "assigned_agent": "Producer (vb-video-checkout-2-38, Claude Fable 5.1)",
+  "updated_at": "2026-09-15",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
-    "Planning scaffold only; no rendered asset, capture, or source acquisition completed."
+    "Planning scaffold only; no rendered asset, capture, or source acquisition completed.",
+    "Produced 2026-09-15 by the producer.",
+    "Produced 2026-09-15 by the producer."
   ]
 }

@@ -1,13 +1,15 @@
 {
   "id": "OPS-04",
-  "production_status": "in_progress",
-  "release_status": "blocked",
-  "assigned_agent": null,
-  "updated_at": null,
+  "production_status": "produced",
+  "release_status": "approved",
+  "assigned_agent": "Producer (vb-video-checkout-2-38, Claude Fable 5.1)",
+  "updated_at": "2026-09-15",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer for Devin",
   "notes": [
-    "Batch audit complete for 71 media packages and OPS-01; whole-pack integration remains incomplete while 59 media tickets and publication decisions remain."
+    "Batch audit complete for 71 media packages and OPS-01; whole-pack integration remains incomplete while 59 media tickets and publication decisions remain.",
+    "Produced 2026-09-15 by the producer.",
+    "Produced 2026-09-15 by the producer."
   ],
-  "owner": "ChatGPT \u2014 batch QA"
+  "owner": "ChatGPT — batch QA"
 }

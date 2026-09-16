@@ -1,0 +1,7 @@
+{
+  "id": "OPS-03",
+  "gates": [],
+  "notes": [
+    "Coordination ticket; carries no editorial gate of its own. See exports/decision-ledger.json."
+  ]
+}

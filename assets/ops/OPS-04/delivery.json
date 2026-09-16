@@ -1,0 +1,94 @@
+{
+  "id": "OPS-04",
+  "title": "Integration QA, coverage audit, and editor handoff",
+  "production_status": "produced",
+  "release_status": "approved",
+  "provenance_type": "coordination record",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": null,
+  "fps": null,
+  "outputs": [
+    {
+      "path": "BATCH_AUDIT.md",
+      "role": "coordination export",
+      "bytes": 838,
+      "sha256": "c2bc74c360639ec6ed085f47d9ffe6c452f72dcd732148cc62123c7cceedb9a6"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 111,
+      "sha256": "ec3bfef65ae9b671c51fe33dfa62f56246bea8991fc58a5aa355f753fddb0832"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 412,
+      "sha256": "c866107e4b70898ef6b12a527a18dde7f8403416e25464a54d1410800c046bc3"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 167,
+      "sha256": "1b8ee00ac2e27c2de0e7a3a1160a6706024ce9ff159956a9a1941a6fc3b0b104"
+    },
+    {
+      "path": "exports/editor-inventory.csv",
+      "role": "coordination export",
+      "bytes": 38107,
+      "sha256": "883a1362a180f53e60b1f465b6adffa60d6f8d4a44f1862ae76973a04426af71"
+    },
+    {
+      "path": "exports/exceptions.md",
+      "role": "coordination export",
+      "bytes": 10197,
+      "sha256": "e97ac1c7084115cef18b05c1c212e0fba1302f34fa509737587517f75575c7ab"
+    },
+    {
+      "path": "exports/report.md",
+      "role": "coordination export",
+      "bytes": 1858,
+      "sha256": "8b04434a503a01fef4225ef73abc47c1e3391073ce9b119df7a5eac1b48e3c6c"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 521,
+      "sha256": "d75025ba0680d00aac55c18319933285103cdcd8c202352a07d7fd2b9fb5f3a8"
+    }
+  ],
+  "variants": [],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": null,
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "audited against; unchanged"
+    }
+  ],
+  "credits": [
+    {
+      "type": "coordination",
+      "credit": "Producer-generated record; no media."
+    }
+  ],
+  "tests": [
+    {
+      "test": "validate_pack",
+      "result": "passed"
+    },
+    {
+      "test": "validate_delivery on every produced ticket",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0"
+  },
+  "notes": [
+    "Produced 2026-09-15. Final assembly and upload are not claimed; see docs/handoffs/."
+  ]
+}
