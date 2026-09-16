@@ -145,12 +145,12 @@ Open with **CH-11** (assets/chapters/CH-11/exports/preview.mp4). Script chapter 
 
 | # | Cue (from the script) | Ticket(s) | File |
 |---|---|---|---|
-| 1 | Terminal. The program runs. Full output scrolling, but slowed down enough to read the first few rounds. (Capture: TERM-04 — this whole section follows that one run.) | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
+| 1 | Terminal. The program runs. Full output scrolling, but slowed down enough to read the first few rounds. (Capture: TERM-04 — this whole section follows that one run.) | TERM-04 | `assets/captures/TERM-04/exports/framed-end.png` |
 | 2 | Output appearing on screen: | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
 | 3 | Speed up the scrolling — rounds fly by. Pause when a WAR appears: | TERM-04 | `assets/captures/TERM-04/exports/framed-end.png` |
 | 4 | Highlight the "18 cards" — that's a huge haul. | DIA-09, TERM-04 | `assets/diagrams/DIA-09/exports/preview.mp4`<br>`assets/captures/TERM-04/exports/framed-end.png` |
 | 5 | Let it run to completion. Show the final summary: | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
-| 6 | Run it a few more times, showing the different results: (Captures: TERM-02, TERM-05, TERM-06.) | TERM-05, TERM-06 | `assets/captures/TERM-05/exports/framed-first-war.png`<br>`assets/captures/TERM-06/exports/framed-first-war.png` |
+| 6 | Run it a few more times, showing the different results: (Captures: TERM-02, TERM-05, TERM-06.) | TERM-02, TERM-05, TERM-06 | `assets/captures/TERM-02/exports/framed-first-war.png`<br>`assets/captures/TERM-05/exports/framed-first-war.png`<br>`assets/captures/TERM-06/exports/framed-first-war.png` |
 
 Also assigned to this section: **CODE-23** (code, `assets/code/CODE-23/exports/preview.mp4`), **CODE-25** (code, `assets/code/CODE-25/exports/preview.mp4`), **OPS-01** (support, ``), **OPS-02** (support, ``), **OPS-03** (support, ``), **OPS-04** (support, ``)
 
@@ -160,10 +160,10 @@ Open with **CH-12** (assets/chapters/CH-12/exports/preview.mp4). Script chapter 
 
 | # | Cue (from the script) | Ticket(s) | File |
 |---|---|---|---|
-| 1 | Return to the TERM-04 terminal output. Scroll back from the final summary to the last round. (Capture: TERM-04 — `TERM-04/source/stdout.txt` lines 1289–1291; screenshot `… | (section assets below) | — |
+| 1 | Return to the TERM-04 terminal output. Scroll back from the final summary to the last round. (Capture: TERM-04 — `TERM-04/source/stdout.txt` lines 1289–1291; screenshot `… | TERM-04 | `assets/captures/TERM-04/exports/framed-end.png` |
 | 2 | `Program.vb` line 264 highlighted, with annotations: "cap at 3" → "cap at the shorter hand" → "result: 1". | (section assets below) | — |
 | 3 | Step-by-step diagram, four panels: | (section assets below) | — |
-| 4 | Switch to TERM-02 terminal output. (Capture: TERM-02 — `TERM-02/source/stdout.txt` lines 4157–4159; screenshot `TERM-02/source/raw/04-end.png`; framed `TERM-02/exports/fr… | (section assets below) | — |
+| 4 | Switch to TERM-02 terminal output. (Capture: TERM-02 — `TERM-02/source/stdout.txt` lines 4157–4159; screenshot `TERM-02/source/raw/04-end.png`; framed `TERM-02/exports/fr… | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
 | 5 | Side-by-side comparison: | CMP-02 | `assets/comparisons/CMP-02/exports/poster.png` |
 
 Also assigned to this section: **BROLL-03** (archive, `assets/broll/BROLL-03/source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4`), **BROLL-04** (archive, `assets/broll/BROLL-04/source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4`), **BROLL-05** (archive, `assets/broll/BROLL-05/source/pexels-20503026-stefan-floppy-insert-1920x1080.mp4`), **BROLL-06** (archive, `assets/broll/BROLL-06/source/pexels-8888818-mart-production-vintage-computer.mp4`), **FACT-06** (still, `assets/facts/FACT-06/exports/poster.png`), **HIST-17** (archive, `assets/historical/HIST-17/exports/editorial-frame.png`), **HIST-18** (archive, `assets/historical/HIST-18/exports/editorial-frame.png`), **HIST-19** (archive, `assets/historical/HIST-19/exports/editorial-frame.png`), **HIST-20** (archive, `assets/historical/HIST-20/exports/editorial-frame.png`), **MOCK-01** (still, `assets/mockups/MOCK-01/exports/poster.png`), **MOCK-02** (motion, `assets/mockups/MOCK-02/exports/preview.mp4`), **OPS-01** (support, ``), **OPS-03** (support, ``), **OPS-04** (support, ``), **XTRA-18** (archive, `assets/historical/XTRA-18/exports/editorial-frame.png`), **XTRA-19** (archive, `assets/historical/XTRA-19/exports/editorial-frame.png`), **XTRA-20** (archive, `assets/historical/XTRA-20/exports/editorial-frame.png`)
@@ -231,11 +231,11 @@ Open with **CH-17** (). Script chapter estimate: 45:00.
 | # | Cue (from the script) | Ticket(s) | File |
 |---|---|---|---|
 | 1 | Return to the terminal. The War simulator runs one more time, fast. Cards fly. A winner is declared. | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
-| 2 | The final summary output one more time: (Capture: TERM-02.) | (section assets below) | — |
+| 2 | The final summary output one more time: (Capture: TERM-02.) | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
 | 3 | Cut to black. End card with subscribe/like buttons and a suggested next video. | CARD-02 | `assets/cards/CARD-02/exports/preview.mp4` |
 
 ## Notes
 
-- 10 cue lines could not be matched to a ticket by text (the cue was reworded during production); their assets are listed under 'also assigned to this section'.
+- 7 cue lines could not be matched to a ticket by text (the cue was reworded during production); their assets are listed under 'also assigned to this section'.
 - The 62 MP4 previews are deterministic renders; play them at speed or scrub, both are frame-accurate.
 - Credits: the list in `exceptions.md` goes in the end credits and the description; XTRA-14 carries its own on-screen credit line and it must stay.

@@ -77,7 +77,7 @@ for r in rows:
     for n in r.get("sections") or []:
         sec_assets[n].append(r["id"])
 
-ID_RE = re.compile(r"(?:TERM|CODE|DIA|HIST|XTRA|BROLL|CH|CARD|CMP|FACT|MOCK|REF|OPS)-\d{2}")
+ID_RE = re.compile(r"\b(?:TERM|CODE|DIA|HIST|XTRA|BROLL|CH|CARD|CMP|FACT|MOCK|REF|OPS)-\d{2}\b")
 def ids_for_visual(text):
     named = sorted(set(ID_RE.findall(text)))
     if named:
