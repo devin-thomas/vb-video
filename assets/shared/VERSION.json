@@ -1,5 +1,5 @@
 {
-  "version": "win95-workbench-1.0.0",
+  "version": "win95-workbench-1.1.0",
   "canvas": [
     1920,
     1080
@@ -11,5 +11,5 @@
     "DejaVu Sans Mono"
   ],
   "fonts_included": false,
-  "date_utc": "2026-09-15T03:06:25.843977+00:00"
+  "date_utc": "2026-09-16T22:34:13.138626+00:00"
 }

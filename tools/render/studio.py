@@ -64,6 +64,15 @@ class SVG:
  def heading(self,title,sub=None):
   ls=wrap(title,1630,58,'bold');self.lines(ls,120,138,58,FG,True,leading=1.1)
   if sub:self.text(sub,120,196+max(0,len(ls)-1)*60,28,MUTED)
+ # Court marks in unit coordinates (about 36 wide, y from -14 to 10), scaled by w/100. Simple original shapes, not copied art.
+ COURT_MARKS={'K':'<path d="M-18 10V-4L-9 3 0-13 9 3 18-4V10Z"/><circle cx="-18" cy="-5.5" r="2.4"/><circle cx="0" cy="-14" r="2.6"/><circle cx="18" cy="-5.5" r="2.4"/>',
+  'Q':'<path d="M-18 10V0A9 10 0 0 1 0 0A9 10 0 0 1 18 0V10Z"/><circle cx="-9" cy="-11.5" r="2.6"/><circle cx="9" cy="-11.5" r="2.6"/><circle cx="0" cy="-3" r="2"/>',
+  'J':'<path d="M-16 6Q-16-9 0-10Q16-9 16 6Z"/><path d="M-16 6H21Q23 8 21 10H-16Z"/><circle cx="0" cy="-12.5" r="3"/>'}
+ def _pip(self,sym,px,py,size,col,flip=False):
+  # One suit glyph centred on (px, py); the Liberation Sans suit glyphs sit on the baseline about .72 em tall.
+  if flip:self.raw(f'<g transform="rotate(180 {px:.2f} {py:.2f})">')
+  self.text(sym,px,py+size*.36,size,col,False,False,'middle')
+  if flip:self.raw('</g>')
  def card(self,identity,x,y,w=144,h=202,back=False,opacity=1,accent=None):
   # Original vector artwork. Face-down cards have no exposed rank/suit.
   self.raw(f'<g opacity="{opacity}">')
@@ -73,11 +82,38 @@ class SVG:
    self.rect(x+8,y+8,w-16,h-16,'#223b72',rx=2);self.rect(x+12,y+12,w-24,h-24,'url(#back)');self.rect(x+17,y+17,w-34,h-34,'none','#c5cfdf',1)
   else:
    rank,suit=identity[:-1],identity[-1];sym={'S':'♠','H':'♥','D':'♦','C':'♣'}[suit];col='#b53b34' if suit in 'HD' else '#172128'
-   fs=max(18,round(w*.22));self.text(rank,x+13,y+fs+8,fs,col,True)
-   if w>=110:self.text(sym,x+13,y+fs*2+9,fs,col)
-   self.text(sym,x+w/2,y+h*.63,round(w*.5),col,False,False,'middle')
-   if w>=110:
-    self.raw(f'<g transform="rotate(180 {x+w/2} {y+h/2})">');self.text(rank,x+13,y+fs+8,fs,col,True);self.raw('</g>')
+   fs=max(18,round(w*.22));full=w>=110;cx,cy=x+w/2,y+h/2
+   # Corner index: rank over a small suit, repeated rotated in the opposite corner. Small cards keep only the top-left rank.
+   self.text(rank,x+13,y+fs+8,fs,col,True)
+   if full:
+    self.text(sym,x+13,y+fs*2+9,fs,col)
+    self.raw(f'<g transform="rotate(180 {cx} {cy})">');self.text(rank,x+13,y+fs+8,fs,col,True);self.text(sym,x+13,y+fs*2+9,fs,col);self.raw('</g>')
+   if rank=='A':
+    self.text(sym,cx,y+h*.63,round(w*.5),col,False,False,'middle')
+   elif rank in 'JQK':
+    s=w/100;mc=y+fs+10+14*s;pc=y+h-(mc-y);ps=round(w*.17)
+    self.raw(f'<g transform="translate({cx:.2f} {mc:.2f}) scale({s:.3f})" fill="{col}">{self.COURT_MARKS[rank]}</g>')
+    ls=round(w*.34);gap=(pc-ps*.4)-(mc+10*s)
+    if gap>=ls*.9:self.text(rank,cx,(mc+10*s+pc-ps*.4)/2+ls*.36,ls,col,True,False,'middle')
+    self._pip(sym,cx,pc,ps,col)
+   else:
+    # Standard pip layout: the upper half is authored and the lower half is the same set rotated 180°.
+    n=int(rank);ps=round(w*((.22 if n<=5 else .2 if n<=8 else .18) if full else .14))
+    dx=w*.15
+    if full:dx=min(dx,w/2-(13+width(sym,fs))-2-ps*.45)
+    top=y+fs+10+ps/2;bottom=y+h-(top-y);L,R=cx-dx,cx+dx
+    rows4=[top+(bottom-top)*k/3 for k in range(4)]
+    mirrored=[];upright=[]
+    if n in (2,3):mirrored=[(cx,top)]
+    elif n in (4,5):mirrored=[(L,top),(R,top)]
+    elif n in (6,7,8):mirrored=[(L,top),(R,top)];upright=[(L,cy),(R,cy)]
+    else:mirrored=[(L,rows4[0]),(R,rows4[0]),(L,rows4[1]),(R,rows4[1])]
+    if n in (3,5,9):upright.append((cx,cy))
+    if n==7:upright.append((cx,(top+cy)/2))
+    if n==8:mirrored.append((cx,(top+cy)/2))
+    if n==10:mirrored.append((cx,(rows4[0]+rows4[1])/2))
+    for px,py in mirrored:self._pip(sym,px,py,ps,col);self._pip(sym,2*cx-px,2*cy-py,ps,col,flip=True)
+    for px,py in upright:self._pip(sym,px,py,ps,col)
   self.raw('</g>')
  def finish(self):return ''.join(self.a)+'</svg>'
 
