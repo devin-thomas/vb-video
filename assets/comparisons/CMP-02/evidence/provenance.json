@@ -19,14 +19,40 @@
       ],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
       "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        20,
+        21
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "Devin's review notes 13 and 14 (revision 2 brief)"
     }
   ],
   "authored_additions": [
-    "Use the script’s illustrative pair. Label as syntax comparison, not a claim that these signatures have identical parameter-rebinding behavior; the C# snippet has no ref keyword.",
-    "No compile/run is claimed for illustrative counterparts."
+    "Revision 2 (2026-09-16, review notes 13 and 14): Sub versus Function, animated. Left header lists C / C++ / C# because both left-hand snippets are valid in all three.",
+    "HelloWorld and Add are agent-authored teaching snippets, not Program.vb excerpts; Add(3, 4) → 7 is an illustration of a returned value, not recorded program output. No compile/run is claimed.",
+    "The VB Function signature is soft-wrapped for display (As Integer on a second visual line); the wrap is not a source line break and inserts no line-continuation syntax.",
+    "Syntax comparison only: the HelloWorld pair shows that a Sub, like void, returns nothing; the Add pair shows that a Function, like int, returns a value. No other equivalence is claimed.",
+    "byref-note keeps the script's literal BuildDeck pair (void BuildDeck(Card[] deck) versus Sub BuildDeck(ByRef Deck() As Card)) as a still; the C# snippet has no ref keyword, and it makes no parameter-rebinding claim."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "2026-09-16 revision 2 (Devin's review notes 13 and 14): rework into the Sub-versus-Function comparison with the HelloWorld / Add pairing, animated; header 'C / C++ / C#'; BuildDeck pair kept only as the byref-note still."
+  ],
+  "agent_authored_snippets": {
+    "c_cpp_csharp": [
+      "void HelloWorld() { ... }",
+      "int Add(int a, int b) { return a + b; }"
+    ],
+    "vb": [
+      "Sub HelloWorld() ... End Sub",
+      "Function Add(a As Integer, b As Integer) As Integer ... End Function"
+    ],
+    "call_illustration": "Add(3, 4) -> 7; HelloWorld() -> nothing",
+    "status": "Teaching snippets written for this production from the review brief. Not Program.vb excerpts, not compiled or run here."
+  }
 }

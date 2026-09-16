@@ -8,8 +8,11 @@
     "Ellipses mean an intentional excerpt, never runnable complete source. Only the compared tokens receive accent highlighting."
   ],
   "beats": [
-    "Still: both code columns visible at once.",
-    "Focus overlay: highlight the specific contrasting tokens without changing layout."
+    "0–2.6 s: heading, both columns, then the HelloWorld / Sub row and the Add / Function row appear.",
+    "2.6–3.4 s: the call strip appears: HelloWorld() and Add(3, 4) with empty result slots.",
+    "3.4–4.8 s: the returned value 7 leaves the Function / int row and drops into the Add(3, 4) slot; the Sub / void slot stays empty.",
+    "4.8–6.0 s: the Sub / void slot is labelled \"nothing\"; the summary line appears.",
+    "6.0–8 s: hold on the end state (poster)."
   ],
   "checks": [
     "Both column headings and the exact comparison subject are visible.",
@@ -32,5 +35,8 @@
   ],
   "gates": [
     "R04a"
-  ]
+  ],
+  "revision": 2,
+  "revision_brief": "2026-09-16, review notes 13 and 14: Sub-versus-Function comparison, animated. Left column 'C / C++ / C#': void HelloWorld() { ... } and int Add(int a, int b) { return a + b; }. Right column 'VB': Sub HelloWorld() ... End Sub and Function Add(a As Integer, b As Integer) As Integer ... End Function. Motion about 8 s: both rows appear, then 7 (from Add(3, 4)) travels out of the Function/int row while the Sub/void row shows nothing returned; hold. BuildDeck pair kept as the byref-note still. Kind changes to motion.",
+  "copy_revision_2": "C / C++ / C#\nvoid HelloWorld() { ... }\nint Add(int a, int b) { return a + b; }\n\nVB\nSub HelloWorld()\n    ...\nEnd Sub\nFunction Add(a As Integer, b As Integer) As Integer\n    ...\nEnd Function"
 }

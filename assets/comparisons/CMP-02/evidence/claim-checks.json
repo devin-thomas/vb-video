@@ -2,14 +2,19 @@
   "gates": [
     {
       "id": "R04a",
-      "status": "approved",
-      "reason": "Only DIA-04's scoped Integer illustration makes a passing-mode claim, and it was verified in the harness. Code cards render the source as written.",
+      "status": "checked",
+      "reason": "Revision 2 makes no parameter-passing claim at all: the animated card compares Sub/void (nothing returned) with Function/int (a value returned), which is exactly the script's statement at SCRIPT.md:265 ('a Sub, which does something and doesn't return a value, and a Function, which does something and gives you back a result'). The left-hand snippets use no ref/ByRef; the VB Function returns its value as declared by 'As Integer'. The script's literal BuildDeck pair (with ByRef) survives only as the byref-note still, labelled 'Syntax comparison' and without any rebinding claim, as in the first cut. The 2026-09-15 approval covered the first cut; the producer re-reviews the new exports.",
       "evidence_paths": [
-        "source-excerpts.md"
+        "source-excerpts.md",
+        "provenance.json",
+        "../src/build.json",
+        "../exports/poster.png",
+        "../exports/preview.mp4"
       ],
-      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-      "approval_date": "2026-09-15",
-      "decision": "Approved: the asset matches the script and source as they now stand."
+      "approver": null,
+      "checked_by": "Worker (ticket/CMP-02-r2, Claude Fable 5.1)",
+      "check_date": "2026-09-16",
+      "decision": "Pending producer review of the revision 2 exports; no evidence question is open."
     }
   ]
 }

@@ -1,21 +1,101 @@
 {
   "id": "CMP-02",
-  "duration": null,
+  "duration": 8,
   "frames": [
     {
-      "time": 0,
+      "time": 0.0,
       "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.4,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 1.4,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 2.6,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 3.4,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 3.5,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 3.6,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 3.7,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 3.8,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 3.9,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 4.0,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 4.1,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 4.2,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 4.3,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 4.4,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 4.6,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 4.8,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 5.4,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0019.svg"
     }
   ],
   "variants": {
     "comparison": "variant-comparison.svg",
-    "token-focus": "variant-token-focus.svg"
+    "token-focus": "variant-token-focus.svg",
+    "byref-note": "variant-byref-note.svg"
   },
   "poster": "scene.svg",
   "cuts": {},
   "notes": [
-    "Use the script’s illustrative pair. Label as syntax comparison, not a claim that these signatures have identical parameter-rebinding behavior; the C# snippet has no ref keyword.",
-    "No compile/run is claimed for illustrative counterparts."
+    "Revision 2 (2026-09-16, review notes 13 and 14): Sub versus Function, animated. Left header lists C / C++ / C# because both left-hand snippets are valid in all three.",
+    "HelloWorld and Add are agent-authored teaching snippets, not Program.vb excerpts; Add(3, 4) → 7 is an illustration of a returned value, not recorded program output. No compile/run is claimed.",
+    "The VB Function signature is soft-wrapped for display (As Integer on a second visual line); the wrap is not a source line break and inserts no line-continuation syntax.",
+    "Syntax comparison only: the HelloWorld pair shows that a Sub, like void, returns nothing; the Add pair shows that a Function, like int, returns a value. No other equivalence is claimed.",
+    "byref-note keeps the script's literal BuildDeck pair (void BuildDeck(Card[] deck) versus Sub BuildDeck(ByRef Deck() As Card)) as a still; the C# snippet has no ref keyword, and it makes no parameter-rebinding claim."
   ],
   "sources": [
     {
@@ -35,7 +115,16 @@
       ],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
       "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        20,
+        21
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "Devin's review notes 13 and 14 (revision 2 brief)"
     }
   ],
-  "kind": "still"
+  "kind": "motion"
 }
