@@ -1,6 +1,6 @@
 {
   "id": "DIA-12",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
   "assigned_agent": null,
   "updated_at": "2026-09-16",
@@ -10,7 +10,8 @@
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
     "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling.",
-    "Revision 2 opened 2026-09-16: Devin's approval of proposal 7 (35:25); previous exports stay until replaced."
+    "Revision 2 opened 2026-09-16: Devin's approval of proposal 7 (35:25); previous exports stay until replaced.",
+    "Revision 2 produced 2026-09-16 on branch ticket/DIA-12-r2: row-by-row reveal. Stills row-console, row-gui, full; motion reveal as exports/preview.mp4 (6 s, 30 fps). Table content and styling unchanged. Release back to unreviewed until the producer approves the new exports."
   ],
-  "owner": "Claude Code \u2014 local production"
+  "owner": "Claude Code — local production"
 }

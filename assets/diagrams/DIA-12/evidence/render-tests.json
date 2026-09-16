@@ -1,6 +1,29 @@
 {
   "renderer": "CairoSVG 2.9.1",
   "png_dimensions": "1920x1080",
-  "video_probes": [],
+  "video_probes": [
+    {
+      "file": "exports\\preview.mp4",
+      "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-ae2f8d3ba53bb8671\\assets\\diagrams\\DIA-12\\exports\\preview.concat.txt -vf fps=30,format=yuv420p -frames:v 180 -c:v libx264 -preset veryfast -crf 18 -threads 2 -movflags +faststart C:\\dev\\youtube\\vb-video-checkout-2\\.claude\\worktrees\\agent-ae2f8d3ba53bb8671\\assets\\diagrams\\DIA-12\\exports\\preview.mp4",
+      "probe": {
+        "programs": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "nb_frames": "180"
+          }
+        ],
+        "format": {
+          "duration": "6.000000",
+          "size": "142346"
+        }
+      }
+    }
+  ],
   "command": "python tools/render/render_assets.py --id DIA-12"
 }

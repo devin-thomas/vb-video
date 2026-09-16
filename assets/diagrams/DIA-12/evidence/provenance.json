@@ -25,10 +25,18 @@
     "All five rows and both column headings are the script’s draft table (SCRIPT.md:661–667), word for word; src/cells.json records each row’s line.",
     "These cells are draft copy, not verified facts. Console support, the ResEdit characterization and the runtime claim wait on R03, R09 and R16.",
     "Neutral styling: no scores, bars, icons or product screenshots. gui-row-focus dims the other four rows.",
-    "The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run."
+    "The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run.",
+    "Revision 2 (2026-09-16): the table is revealed row by row. Reveal states are derived from src/scene.svg by changing only each row's text opacity; no cell, heading, colour or position changed.",
+    "Reveal order and timing are an authored production choice: console row first (the 'roughly comparable' beat), then GUI builder, then Language, Learning curve, Runtime required, 1 s apart, 0.4 s fades, 6 s total."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    {
+      "date": "2026-09-16",
+      "decision": "Devin approved proposal 7 of the producer's 17:00-end pass: reveal the Windows-vs-Mac table row by row (console row at 35:25, GUI row at 35:50, full table at 36:18) instead of holding the whole table for 63 s.",
+      "source": "review/cut-notes-2026-09-16.md"
+    }
+  ]
 }

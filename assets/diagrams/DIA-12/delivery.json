@@ -2,21 +2,23 @@
   "id": "DIA-12",
   "title": "Windows VB4 versus Mac CodeWarrior table",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
+  "kind": "motion",
+  "revision": 2,
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": null,
+  "duration_seconds": 6.0,
   "dimensions": {
     "width": 1920,
     "height": 1080
   },
-  "fps": null,
+  "fps": 30,
   "outputs": [
     {
       "path": "evidence/browser-tests.json",
       "role": "evidence / QA",
-      "bytes": 444,
-      "sha256": "8f7e3b55d47bca2c37bdb4e8ae1100ab5e23ff064ee0fb762fe5090df7a690d9"
+      "bytes": 649,
+      "sha256": "1210b5dcc7645530f1354cf9539f318e2b4e366042624a3780f132ec12ad1da0"
     },
     {
       "path": "evidence/claim-checks.json",
@@ -27,14 +29,14 @@
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1268,
-      "sha256": "0937776976675499dfb045e7a5ad1b85a4f4732ee114fa7e04930c7a0bf9ed50"
+      "bytes": 2010,
+      "sha256": "1b42491c0d418bdca83c7a6e1aa84f3bf22598d52f7d660452974c6db7b9f6d8"
     },
     {
       "path": "evidence/render-tests.json",
       "role": "evidence / QA",
-      "bytes": 154,
-      "sha256": "3a4015f00c8f3b39b29ce322b2765b053d96ea7a3df51c00b6ee95a4fde596bc"
+      "bytes": 1087,
+      "sha256": "30b7f56011e82913135fd5eaaf5ad37c34d18174a99e83519504014051529344"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -45,11 +47,17 @@
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 59639,
-      "sha256": "3a4ffae58131c614691f9ba52c60ff3a73e040e7b47d7bb3e001692f60f1f2b3"
+      "bytes": 164598,
+      "sha256": "c3997bb136349ba33a20f248d61ae28cd72e1d2c7c47b6e4f7e1f9e8a93f45cb"
     },
     {
       "path": "exports/full-table.png",
+      "role": "rendered still",
+      "bytes": 93517,
+      "sha256": "0023c2334865efbf022c04d754925825206f099c6b087e697c3d3c94e8bf311d"
+    },
+    {
+      "path": "exports/full.png",
       "role": "rendered still",
       "bytes": 93517,
       "sha256": "0023c2334865efbf022c04d754925825206f099c6b087e697c3d3c94e8bf311d"
@@ -61,10 +69,46 @@
       "sha256": "2c53c25da2c37891f9466fa6cf79faa87732f561bc5ae208862358675c9326e9"
     },
     {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 93517,
+      "sha256": "0023c2334865efbf022c04d754925825206f099c6b087e697c3d3c94e8bf311d"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 68049,
+      "sha256": "03c88e413d09abd206035d3a8558ee5dda0102ff6b4ea08726b653662c803b4f"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 24715,
+      "sha256": "0edda23d5b1b74f651573fdbcbfb3d2d2ad6b0d613058c4c12441adba5403bb6"
+    },
+    {
       "path": "exports/poster.png",
       "role": "rendered still",
       "bytes": 93517,
       "sha256": "0023c2334865efbf022c04d754925825206f099c6b087e697c3d3c94e8bf311d"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 142346,
+      "sha256": "fcf7bd1b6f3033d711638f6382ec950c50e21ba360b8d1d96120b7290ce9d37a"
+    },
+    {
+      "path": "exports/row-console.png",
+      "role": "rendered still",
+      "bytes": 42774,
+      "sha256": "f581db44381ea5315d13c1bb058f52182f3c745019bfd39dfccf65afd3b09f62"
+    },
+    {
+      "path": "exports/row-gui.png",
+      "role": "rendered still",
+      "bytes": 60236,
+      "sha256": "de8dd114b150baff221744003086dbf5c438ff38e7f27682f98a8cf5d943898a"
     },
     {
       "path": "proofs/poster-720.png",
@@ -75,8 +119,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2926,
-      "sha256": "8f9337fb7897563d68f7421146ff87b862ccd1642dab1f63e0f854fb1ca6c14a"
+      "bytes": 5901,
+      "sha256": "d8d61fec26b62db6fa08965630c71529c74876150d582c420635216fd98a5db5"
     },
     {
       "path": "src/brief.json",
@@ -87,8 +131,8 @@
     {
       "path": "src/build.json",
       "role": "editable source",
-      "bytes": 1345,
-      "sha256": "a9acae9cdd0a8edd81453a971eb68a53747272129671da2bbf1163a362f0bcdd"
+      "bytes": 6242,
+      "sha256": "aff61d191820a78984bef97db799b591503921f60667b52bc0842e6547ab965a"
     },
     {
       "path": "src/cells.json",
@@ -99,11 +143,371 @@
     {
       "path": "src/index.html",
       "role": "editable source",
-      "bytes": 6268,
-      "sha256": "e649307c80749cc5cfc8035bd1a14d31be42c3ce10088b5ad263239cfa6ccedb"
+      "bytes": 278619,
+      "sha256": "e393caeb473395f48497c9ef81771f2f9fe904008b1fa61027976e941f8f2bd5"
     },
     {
       "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "71a22c595505510d331813948dd67d7fab6d579f833580b620e970203e332549"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "bb8de1aefb601de5b587c35735a605d15d472c51cbbbe2484b986d0ad623daeb"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "1ae8a2a7d73e52ad12dd724400f1642e21422d7c9846e0ebe303ed3a1e693482"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "4f9f29a91885e327bfb1c89ea2cab82ab15442639b7ff5c5692461edde92f3b5"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "cc5a3e662c7dcd67fe358c1a3bc924115c3d5280ba18a2feda334461a945c10e"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "cd8017935bd96fa9f262856353bcc025294542064a8cdae999c55f8a634bb1c6"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 4060,
+      "sha256": "a6b09f815efb74abff6d986f8f142303745fbb6ca2e26c6d91fd1eefc0e0c647"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "326b1e445ce19529e968124b85a5ef07220bfc5b5b335c4694ffa3e555e06ea5"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "e2065b5701e48635fbd2c3f551fdd7e36677088b25871507aaf6f47d3178d7b8"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "5384735a0e38bb0bde3c0a4681c885a314ba761d67d6d6aa5891f389b5ae74c3"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "a0a0616630eb1c3f53781c8697b859d4a5689af8eb289cfeaab1ec31715036eb"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "759639e7b76172f8659b886ae4ef693889227a6d0e970e9810b63ce196b06282"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "b0da579c9566c47c44469d179fd430e5bd361212e2322f14bac2581f4a7ea1dd"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "3eb7367d3088920df24867aa9b3ab44261d0162bb57b584e8adbe452e7542181"
+    },
+    {
+      "path": "src/scene-0014.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "6bf2be0a72192be396c8108ac970d573767ff2c8a24ed826cc838a679529d5e9"
+    },
+    {
+      "path": "src/scene-0015.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "6a5c8578a5b3e9ab5b6df0279b41b951812c3e76c3ed77f9a572b757188a946d"
+    },
+    {
+      "path": "src/scene-0016.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "c9b20daee7961935fa839873ed4123fd36b58ec0a7468c6304c3f506fbb4faa1"
+    },
+    {
+      "path": "src/scene-0017.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "1f534b70d549b88db20605befdbc9c1a354d01ba55a4bf3abaaf4ea248a11dda"
+    },
+    {
+      "path": "src/scene-0018.svg",
+      "role": "editable source",
+      "bytes": 4060,
+      "sha256": "1938329d990bbf77abd05d46dc7f33de9da163b0db909034f20dd430bcc72c15"
+    },
+    {
+      "path": "src/scene-0019.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "110c6dc5a7df883121e6e3c59f3dc6264cff7d9c2e79486c8d139bdd6ca7a59e"
+    },
+    {
+      "path": "src/scene-0020.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "e4a831a1b93a4fd2716801f3d217066643d677e2f6168a0fa8936c26bdbc0f2a"
+    },
+    {
+      "path": "src/scene-0021.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "dc2fe892c020e5f6edd57224aa05ae1c0a571e86b38b152d502748c854d4c0db"
+    },
+    {
+      "path": "src/scene-0022.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "be746a4820fa60a572440c908f3d07c1ed4e92ee5f4a2add5a06387a1a22ee26"
+    },
+    {
+      "path": "src/scene-0023.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "123d635cd4770362ecd2f4d5886d4f03f5d2a3f64d93133a832faadd4bdc5b6e"
+    },
+    {
+      "path": "src/scene-0024.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "d80b47e59debd80c407224765346458446b7fc8a481ff4a763f3a1efe3ffc9e8"
+    },
+    {
+      "path": "src/scene-0025.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "64947a65bb625e68feb8c045f878baa652a5c5016b760b28d689b89326c7da91"
+    },
+    {
+      "path": "src/scene-0026.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "a727ff02c70395383a882eba4477c5813e3cbe22aebb6fb9d8510d9997f60996"
+    },
+    {
+      "path": "src/scene-0027.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "69fe39834b6fe933b48f7976e179e8c330a6d83c4ed665a8c71d1df44f29c28d"
+    },
+    {
+      "path": "src/scene-0028.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "e2a527daa850b0c7e060d1c709f358435ec9f9282542308db0b2246e3224048d"
+    },
+    {
+      "path": "src/scene-0029.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "0423e2fcd556ea8d1382717c3f1c1252403f25eb908faf8e740f1baf68f88382"
+    },
+    {
+      "path": "src/scene-0030.svg",
+      "role": "editable source",
+      "bytes": 4060,
+      "sha256": "951d4814b6915d0be1774f552da731f25d202c637012ce808f53ef10c348376d"
+    },
+    {
+      "path": "src/scene-0031.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "a44f8fa411cf45393fe043d2e11e3914f07f8b63247e3fa17922f84286b85fd3"
+    },
+    {
+      "path": "src/scene-0032.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "24eb81bcb0bd0d2eb9258c039c42c8501670c09a742ce22c73f93470759e43aa"
+    },
+    {
+      "path": "src/scene-0033.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "e46780e2cb0c855ed234b56fbe8227ae15f7599ce0a56682644cb012c229b1e1"
+    },
+    {
+      "path": "src/scene-0034.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "936fd1d5d5f5c54e1f3aaf392a8614869e4f2d88ba55b6742dd2daeeb1ead7b8"
+    },
+    {
+      "path": "src/scene-0035.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "606f57ea2b1f1d27fe327ce279d0ff624ccf832c2cc79e1408bb28bd659d2ee6"
+    },
+    {
+      "path": "src/scene-0036.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "ceb0aaeec68f1e9527ee764a2a4db340266f0e938fc5bb591f7186221a2c5c0d"
+    },
+    {
+      "path": "src/scene-0037.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "c19345b1a2fcfa71b106355c6a96ef97f6babad34d074cf33397b4e5e64fdeb6"
+    },
+    {
+      "path": "src/scene-0038.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "eff28962d7cc5ea096be4f39b735232f516ef5148e33bfda7df6ef04cc9dbfea"
+    },
+    {
+      "path": "src/scene-0039.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "af18a4fe771488babc10a4750ec850001fd155c35acbb2018e24cbfe78bdc228"
+    },
+    {
+      "path": "src/scene-0040.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "27ce4ff31bab8940bba8a4d064c3df22b44a130274f83923a24bd7b3b5024153"
+    },
+    {
+      "path": "src/scene-0041.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "f50cd1ffc331c11dddccc096a804af70b4438d1a6fd87c28d23df71354ee606c"
+    },
+    {
+      "path": "src/scene-0042.svg",
+      "role": "editable source",
+      "bytes": 4060,
+      "sha256": "8c2d08049203750f855ea04c3a0a8777cb5fb63538449742df97f46e2370aa79"
+    },
+    {
+      "path": "src/scene-0043.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "0fed91f451e6c307d1e2d9aea4c8514e2fd18c602f15f1a89f5ee6941fa83bcd"
+    },
+    {
+      "path": "src/scene-0044.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "b253b71e9ded1afa36d351402b2ed28fc14a1882e5f88b1eb61229e3b1c9548d"
+    },
+    {
+      "path": "src/scene-0045.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "faad16d6848f433477f8f990be6637128192b28bc93f7b5baadc4180f4f0cbc7"
+    },
+    {
+      "path": "src/scene-0046.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "1d35bda585c765792c58b3fefa96f34732b178723c4e3eaf77d27419e8710eda"
+    },
+    {
+      "path": "src/scene-0047.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "9e67566fe7fc84df991d91b2dea6f35a91f36c1e292b7496d17d8888610b7a41"
+    },
+    {
+      "path": "src/scene-0048.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "e7f96e58aaf42aadf88d5add70cb7ee887bc254ac8e087e02ba7d853788a6b2f"
+    },
+    {
+      "path": "src/scene-0049.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "db7628c8dfe2b83c55bc5fc148174c879b3cfd8faa1e58868a2e3a3356f6693d"
+    },
+    {
+      "path": "src/scene-0050.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "342e75277b26ec1dfcf350aceeececb76aac7993a1f8bff95fa378129ec07b55"
+    },
+    {
+      "path": "src/scene-0051.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "e3f58f92d013251b6585f1db42e6e17eb27c6e88e5cc2a6705ef0fe9e288771f"
+    },
+    {
+      "path": "src/scene-0052.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "6ef50046d40fdac0f115a6581204f7ed8b0cd373fcd18f01de6bf0285ead35ab"
+    },
+    {
+      "path": "src/scene-0053.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "95375360eeedf3532725350dd5cc78080c9d29f17348a3b12e7a77b173b3bb2b"
+    },
+    {
+      "path": "src/scene-0054.svg",
+      "role": "editable source",
+      "bytes": 4060,
+      "sha256": "fb19eb92767b06bc526f165f6c491b061096fdfdb16977aed1770f58217d365b"
+    },
+    {
+      "path": "src/scene-0055.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "8f1604633c2d5f566cd3e010d870cde45b3244c9805b75a9d06f8a08705e3ae6"
+    },
+    {
+      "path": "src/scene-0056.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "cd8d976895858c481cf8bc0adee90b266add75a1a576bac626d5c700692cacb9"
+    },
+    {
+      "path": "src/scene-0057.svg",
+      "role": "editable source",
+      "bytes": 4063,
+      "sha256": "becaeeac191973607b7be57a7486e896430a06ad38193a226c67d9fe3230480d"
+    },
+    {
+      "path": "src/scene-0058.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "6b68db1ddbd119aabd96a45c1955d2b523fac277ffe51bdfca94a102bc0e7271"
+    },
+    {
+      "path": "src/scene-0059.svg",
+      "role": "editable source",
+      "bytes": 4069,
+      "sha256": "97c273f6d1f3ea1f9e39638e765ff0e7c94e16d93e6efb73197a085e85a52743"
+    },
+    {
+      "path": "src/scene-0060.svg",
       "role": "editable source",
       "bytes": 4054,
       "sha256": "28780e2604631935e5433a2b7f70f99f8befa259db2edd3bc43b6963eb67bf48"
@@ -117,11 +521,17 @@
     {
       "path": "src/timeline.json",
       "role": "editable source",
-      "bytes": 515,
-      "sha256": "cb208e96360547176ff703656b9d709eae55f46afd473ce6c74b832d7a1df652"
+      "bytes": 5040,
+      "sha256": "b6a239cd026d27dbedb77cafff00ff120bf9a8dfffd523e4d205ac65e9e36808"
     },
     {
       "path": "src/variant-full-table.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "28780e2604631935e5433a2b7f70f99f8befa259db2edd3bc43b6963eb67bf48"
+    },
+    {
+      "path": "src/variant-full.svg",
       "role": "editable source",
       "bytes": 4054,
       "sha256": "28780e2604631935e5433a2b7f70f99f8befa259db2edd3bc43b6963eb67bf48"
@@ -131,22 +541,74 @@
       "role": "editable source",
       "bytes": 4207,
       "sha256": "ac0b40eb3b9a538da7e572f979a65f8ff9312febe05586959274016210c9ef82"
+    },
+    {
+      "path": "src/variant-row-console.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "b0da579c9566c47c44469d179fd430e5bd361212e2322f14bac2581f4a7ea1dd"
+    },
+    {
+      "path": "src/variant-row-gui.svg",
+      "role": "editable source",
+      "bytes": 4054,
+      "sha256": "d80b47e59debd80c407224765346458446b7fc8a481ff4a763f3a1efe3ffc9e8"
     }
   ],
   "variants": [
+    {
+      "name": "row-console",
+      "files": [
+        "exports/row-console.png",
+        "src/variant-row-console.svg"
+      ],
+      "placement": "ASM-03 35:25",
+      "state": "console row only"
+    },
+    {
+      "name": "row-gui",
+      "files": [
+        "exports/row-gui.png",
+        "src/variant-row-gui.svg"
+      ],
+      "placement": "ASM-03 35:50",
+      "state": "console and GUI-builder rows"
+    },
+    {
+      "name": "full",
+      "files": [
+        "exports/full.png",
+        "src/variant-full.svg"
+      ],
+      "placement": "ASM-03 36:18",
+      "state": "complete table (identical to full-table and poster)"
+    },
     {
       "name": "full-table",
       "files": [
         "exports/full-table.png",
         "src/variant-full-table.svg"
-      ]
+      ],
+      "state": "first-delivery name for the complete table, kept unchanged"
     },
     {
       "name": "gui-row-focus",
       "files": [
         "exports/gui-row-focus.png",
         "src/variant-gui-row-focus.svg"
-      ]
+      ],
+      "state": "first-delivery focus state, kept unchanged"
+    },
+    {
+      "name": "reveal",
+      "files": [
+        "exports/preview.mp4",
+        "src/timeline.json",
+        "src/index.html"
+      ],
+      "duration_seconds": 6,
+      "fps": 30,
+      "state": "rows fade in 1 s apart: console 0.5 s, GUI builder 1.5 s, Language 2.5 s, Learning curve 3.5 s, Runtime required 4.5 s; full table held 4.9–6 s"
     }
   ],
   "sources": [
@@ -178,29 +640,33 @@
   "tests": [
     {
       "test": "required outputs and checksums",
-      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+      "result": "python tools/validate_delivery.py --id DIA-12 run after this manifest was written; see qa.md for the result."
     },
     {
       "test": "original source files",
-      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+      "result": "sources/ untouched by this revision; hash-locked originals retained."
     },
     {
       "test": "manual visual review",
       "result": {
-        "mode": "Full-resolution exports and 720p proof",
-        "scope": "Viewed exports/full-table.png, exports/gui-row-focus.png and proofs/poster-720.png.",
-        "status": "Five rows and both headings match the script table word for word and are readable at 720p. gui-row-focus outlines the GUI-builder row and dims the other four, which stay legible."
+        "mode": "Full-resolution exports, 1280 × 720 copies and three frames extracted from preview.mp4",
+        "scope": "Viewed exports/poster.png, row-console.png, row-gui.png, full.png, proofs/poster-720.png and preview.mp4 frames at 0.70 s, 2.00 s and 5.50 s, each at 1920 × 1080 and 1280 wide.",
+        "status": "row-console shows the headings, rules and only the console row; row-gui adds the GUI-builder row in its own slot; full and poster are the unchanged complete table. The 0.70 s frame shows the console row mid-fade, 2.00 s shows console and GUI rows complete, 5.50 s the complete table. All cells match the script table word for word and are legible at 720p; no clipping or overlap."
       }
     },
     {
       "test": "raster dimensions and video codec/fps/duration",
       "evidence": "evidence/render-tests.json",
-      "result": "passed"
+      "result": "passed: every PNG 1920 × 1080; preview.mp4 h264 yuv420p 30/1, 180 frames, 6.000 s; ffprobe -count_frames read 180"
     },
     {
       "test": "offline HTML, deterministic seek, every SVG text bounding box",
       "evidence": "evidence/browser-tests.json",
-      "result": "passed"
+      "result": "passed: 67 SVG files, 1139 text boxes, 61 state boundaries forward and backward, no network request"
+    },
+    {
+      "test": "final motion state equals the untouched full table",
+      "result": "passed: src/scene-0060.svg is byte-identical to src/scene.svg; exports/full.png, full-table.png, poster.png and keyframes/end.png are byte-identical"
     }
   ],
   "unresolved_gates": [],
@@ -226,7 +692,11 @@
     "These cells are draft copy, not verified facts. Console support, the ResEdit characterization and the runtime claim wait on R03, R09 and R16.",
     "Neutral styling: no scores, bars, icons or product screenshots. gui-row-focus dims the other four rows.",
     "The VB column describes classic VB4 as the script does; it is not presented as this project’s VB.NET console run.",
-    "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "Revision 2 (2026-09-16, Devin's approval of proposal 7): the table is revealed row by row. Row slots keep their table positions; hidden rows are drawn at text opacity 0 with the rules left in place, so the still variants and the motion states line up frame for frame.",
+    "Reveal order: console row (\"roughly comparable\" beat), then GUI builder (\"an afternoon\" vs \"a week, minimum\"), then Language, Learning curve, Runtime required. Each row fades in over 12 frames (0.4 s); rows start 1 s apart after a 0.5 s skeleton hold; the full table holds from 4.9 s to 6 s.",
+    "Stills: row-console (35:25), row-gui (35:50), full (36:18) per ASM-03. full-table and gui-row-focus from the first delivery are kept unchanged; full is identical artwork to full-table under the revision's name.",
+    "Revision 2 exports are not producer publication approval; release_status is unreviewed until the producer approves them.",
+    "R03/R09/R16 decisions of 2026-09-15 in evidence/claim-checks.json still describe the content: no cell changed in this revision.",
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling) applied to the first delivery; superseded by revision 2 pending review."
   ]
 }
