@@ -1,0 +1,68 @@
+{
+ "approved_by": "Devin, from the 16-bit bench ratings, 2026-09-16",
+ "files": {
+  "shady.flac": {
+   "title": "Shady Business (YM2612)",
+   "artist": "ognomo",
+   "licence": "CC0 (Bandcamp)",
+   "page": "https://ognomo.bandcamp.com/album/chiptune-collection",
+   "bytes": 16740970,
+   "sha256": "0ca0a4215cca2b0b421668a2e3743df36707c894aa4ae81f68fa40314e8299c6",
+   "note": "FLAC from Bandcamp free download (no email required)"
+  },
+  "dmg.flac": {
+   "title": "2038 D.M.G. (Gameboy)",
+   "artist": "ognomo",
+   "licence": "CC0 (Bandcamp)",
+   "page": "https://ognomo.bandcamp.com/album/chiptune-collection",
+   "bytes": 20208459,
+   "sha256": "6eec9b18a236e14c23cbe4343e52c0ec717e7f4276442e0be949641ce42f8263",
+   "note": "FLAC from Bandcamp free download (no email required)"
+  },
+  "crypto.flac": {
+   "title": "Cryptosphere (Gameboy)",
+   "artist": "ognomo",
+   "licence": "CC0 (Bandcamp)",
+   "page": "https://ognomo.bandcamp.com/album/chiptune-collection",
+   "bytes": 24522832,
+   "sha256": "96646e76fc319b88c9f5b471bfe65874bdce491a9f0e02ee35a82e6c9899fa9d",
+   "note": "FLAC from Bandcamp free download (no email required)"
+  },
+  "gravebyte.flac": {
+   "title": "Gravebyte (Gameboy)",
+   "artist": "ognomo",
+   "licence": "CC0 (Bandcamp)",
+   "page": "https://ognomo.bandcamp.com/album/chiptune-collection",
+   "bytes": 23948367,
+   "sha256": "294178e0f5ccb4d867bdeaded61a48abb2ccae17f25ff786fb02e480d95d5ab0",
+   "note": "FLAC from Bandcamp free download (no email required)"
+  },
+  "hexel.flac": {
+   "title": "Hexel (Gameboy)",
+   "artist": "ognomo",
+   "licence": "CC0 (Bandcamp)",
+   "page": "https://ognomo.bandcamp.com/album/chiptune-collection",
+   "bytes": 27672601,
+   "sha256": "196dc20e91d793397eb9ef40488460cc54ee8f4cdd71b804ee5b1512b019401a",
+   "note": "FLAC from Bandcamp free download (no email required)"
+  },
+  "auldjack.wav": {
+   "title": "Auld Jack",
+   "artist": "Safety Stoat Studios",
+   "licence": "CC0 1.0 (github.com/jerellsworth/free_vgms LICENSE)",
+   "page": "https://safetystoatstudios.itch.io/free-vgms",
+   "bytes": 15241008,
+   "sha256": "e180aa0899ee6fbdecccff4f0a35e5f164f994e5f3c5b20a7e737e5f1c9ef635",
+   "note": "source file"
+  },
+  "chipper.mp3": {
+   "title": "Chipper Doodle v2",
+   "artist": "Kevin MacLeod",
+   "licence": "CC BY 4.0 (incompetech.com)",
+   "page": "https://incompetech.com/music/royalty-free/music.html",
+   "bytes": 6892257,
+   "sha256": "addaad1315a5b1d3dd37ff22690941b1ca2575a7769d25fc2fa6e6b95a4d364a",
+   "note": "source file"
+  }
+ }
+}
