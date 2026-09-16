@@ -2,9 +2,9 @@
   "id": "OPS-01",
   "title": "Shared visual system, reusable primitives, and deterministic export contract",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "original design infrastructure",
-  "shared_version": "win95-workbench-1.0.0",
+  "shared_version": "win95-workbench-1.1.0",
   "duration_seconds": null,
   "dimensions": {
     "width": 1920,
@@ -16,7 +16,7 @@
       "path": "evidence/card-checks.json",
       "role": "evidence / QA",
       "bytes": 8507,
-      "sha256": "c43175867ba8b1fb97af0e13c2412edc9b6cd0a93aa806d6cfe81709790c377b"
+      "sha256": "f0d1f6ad2786f2b9526ff833ce9211bae34bc92de8a70d4b27747e636484a652"
     },
     {
       "path": "evidence/provenance.json",
@@ -39,8 +39,8 @@
     {
       "path": "exports/card-atlas.png",
       "role": "rendered still",
-      "bytes": 59235,
-      "sha256": "4b059e274741b826bd95661b719e4bfeaf090ff1ed16c867f79e4bfa6d66c94e"
+      "bytes": 134563,
+      "sha256": "7e2df12409df14df3a7a0dd8887e6433cb894dbec0d9dc4e14098ff4cc8dcd0c"
     },
     {
       "path": "exports/report.md",
@@ -51,14 +51,32 @@
     {
       "path": "exports/template-contract.md",
       "role": "evidence / QA",
-      "bytes": 2697,
-      "sha256": "49efe1de6e792aa2ae0615ef57f681ca3c4a6f18115002b196c0db77800f94ad"
+      "bytes": 3334,
+      "sha256": "c344d079b8e85df8bdab64a7ce177b6d1364a7076d250c3a2365cb336b05d2bb"
+    },
+    {
+      "path": "proofs/card-atlas-720p.png",
+      "role": "visual proof",
+      "bytes": 70316,
+      "sha256": "64a35866ceeb23f98af92cba13ffe3431f6d3aab46da8fb5b88ab6e59f9e8182"
+    },
+    {
+      "path": "proofs/card-sizes.png",
+      "role": "visual proof",
+      "bytes": 98619,
+      "sha256": "918c0b27ca0d9889f0464079b6f4ec09c88b93a0e4fbf1c9df11951a45936ffa"
+    },
+    {
+      "path": "proofs/card-sizes.svg",
+      "role": "visual proof",
+      "bytes": 43810,
+      "sha256": "f02ee05fd5da0e0bd6887e531fe227dd1dd3bdb364f5b4e3af4d060f5635a7f0"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2247,
-      "sha256": "e990a5f9a4ae1ec82b5553a39792b17e37e027e60063f87bd98b2b1f5b7a5290"
+      "bytes": 7832,
+      "sha256": "2243488971f65319d2bb6364d5b66c664916724d9abb2e7e924703bbe278f7ec"
     }
   ],
   "variants": [
@@ -90,47 +108,63 @@
   "tests": [
     {
       "test": "required outputs and checksums",
-      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+      "result": "python tools/validate_delivery.py --id OPS-01 run after this inventory was written; see the completion report and review/delivery-validation.json once the producer re-runs it."
     },
     {
       "test": "original source files",
-      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+      "result": "sources/ untouched by this revision."
     },
     {
       "test": "manual visual review",
       "result": {
-        "mode": "Shared primitives instantiated in reviewed assets",
-        "scope": "52 distinct vector face definitions and atlas generated; representative cards inspected in the diagram/mockup review.",
-        "status": "No copied sprites or bundled fonts. Not every atlas cell was independently magnified."
+        "mode": "Atlas and standalone faces inspected by the worker at 1920 × 1080, at 4× magnification, at 720p and at the 57–144 px diagram sizes",
+        "scope": "All 52 faces in exports/card-atlas.png; 10S, 9H, KD, QC, JS, 7C, 8D at 4×; proofs/card-atlas-720p.png; proofs/card-sizes.png.",
+        "status": "Every rank shows its standard pip layout or court mark; 10s, 9s and courts are legible at full size and 720p; the corner rank is readable at 72 px and 57 px. Dependent assets still carry the 1.0.0 faces until re-rendered."
       }
     },
     {
       "test": "52 distinct original card identities",
       "evidence": "evidence/card-checks.json",
-      "result": "passed"
+      "result": "passed: 52 identities, 52 distinct face SHA-256 values, back provided"
+    },
+    {
+      "test": "raster dimensions",
+      "result": "passed: exports/card-atlas.png 1920 × 1080; proofs/card-atlas-720p.png 1280 × 720; proofs/card-sizes.png 1920 × 1080 (PNG headers read)"
+    },
+    {
+      "test": "no remote resources",
+      "result": "passed: the only URL in the regenerated SVGs is the SVG namespace; no font files distributed"
+    },
+    {
+      "test": "dependent assets carrying local face copies",
+      "evidence": "qa.md",
+      "result": "confirmed by src/ grep: DIA-02, DIA-03, DIA-05, DIA-06, DIA-07, DIA-08, DIA-09, CARD-01, MOCK-01; not re-rendered by this ticket"
     }
   ],
   "unresolved_gates": [],
   "toolchain": {
-    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
-    "python": "3.13.5",
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
-    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev (not used by this revision)",
+    "chromium": "not used by this revision",
     "dotnet_path": null,
-    "node": "v22.16.0",
+    "node": "v25.0.0 (not used by this revision)",
     "packages": {
-      "cairosvg": "2.8.2",
+      "cairosvg": "2.9.1",
       "Pillow": "12.3.0",
-      "playwright": "1.57.0"
+      "playwright": "1.63.0 (not used by this revision)"
     },
+    "cairo": "MSYS2 ucrt64 Cairo DLL via CAIROCFFI_DLL_DIRECTORIES",
+    "fonts": "Liberation Sans Regular/Bold and DejaVu Sans Mono resolved by fontconfig fc-match",
     "network_used": false,
     "installs_performed": false,
     "font_files_distributed": false,
-    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+    "browser_note": "No browser check: OPS-01 is a still support ticket; the 1.0.0 batch environment stays in exports/capabilities.json."
   },
   "notes": [
     "Shared system only; no .NET captures or historical verification.",
-    "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Shared card system; no gates; validated and used by every card asset."
+    "Revision 2 (2026-09-16, Devin review note 17): card faces redrawn as regular playing cards; shared version bumped to win95-workbench-1.1.0. The 2026-09-15 release approval covered the 1.0.0 faces and does not carry over.",
+    "Assets with local copies of the faces (DIA-02, DIA-03, DIA-05, DIA-06, DIA-07, DIA-08, DIA-09, CARD-01, MOCK-01) were not re-rendered here; see qa.md for the dispatch list.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
   ]
 }
