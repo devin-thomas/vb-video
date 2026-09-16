@@ -1,6 +1,17 @@
 # DIA-06 — Production QA
 
-**Production:** produced. **Release:** blocked.
+**Production:** produced. **Release:** unreviewed (revision 2, 2026-09-16; the 2026-09-15 approval covered the 1.0.0 faces and does not carry over).
+
+## Revision 2 — card faces re-rendered (win95-workbench-1.1.0)
+
+OPS-01 revision 2 redrew the shared card faces as regular playing cards (Devin’s note 17: every 1.0.0 face drew one centre pip, so every rank read as an ace). This asset carried its own copies of the 1.0.0 faces, inlined in every scene SVG, in `src/index.html` and in the exports, so it was re-rendered on 2026-09-16. Nothing but the card faces changed.
+
+- Card art source: the faces are not referenced from `assets/shared/cards/`; they were emitted inline by `shuffle_svg` in tools/render/diagrams.py calling `studio.card()` when the scenes were authored.
+- Replacement: 152 face groups in 19 `src/*.svg` files (151 px) were replaced by the win95-workbench-1.1.0 `card()` output from `tools/render/studio.py` at the same identity, position, size, opacity and accent. Each group’s parameters were recovered from the SVG and proved exact by re-emitting the 1.0.0 group byte for byte before it was replaced; the remainder of every file is untouched. Face-down backs are drawn identically by both versions. The scene table inlined in `src/index.html` was rebuilt from the edited SVGs after checking that the old table matched the old files; `timeline.json`, `build.json`, text, layout and file names are unchanged. `build_assets.py` was not run (it would reset this ticket and rewrite other assets).
+- Exports: `python tools/render/render_assets.py --id DIA-06` (the asset’s `src/build.json` driver) re-rendered poster.png, miniature-trace.png, real-code-bounds.png, keyframes/start|middle|end.png, preview.mp4 (21 s, 630 frames), contact-sheet.png and proofs/poster-720.png; it also rewrote `evidence/render-tests.json`.
+- Browser check: the offline in-memory Chromium check of `tools/render/qa_browser.py` was re-run through a scratch copy that writes only this asset’s `evidence/browser-tests.json` (the original also rewrites `review/browser-summary.json`, outside this ticket): 19 SVG files, 1787 text boxes, no out-of-canvas text, deterministic seek, no network request.
+- Manual visual review with the poster at 1920 × 1080 and 1280 wide plus one extracted frame of each MP4 at both sizes: The eight spade cards 2–9 at 151 px in the poster and in the frame extracted from preview.mp4 at 10 s (i = 3, j = 1, Temp = 6S) show pips matching their ranks with both corner indices; the gold and blue accent borders, the green fixed-suffix marks, the code and the captions are unchanged. At 1280 wide the 6, 8 and 9 remain distinguishable by pip count.
+- `python tools/validate_delivery.py --id DIA-06` was run after delivery.json was rebuilt; the result is in the completion report. Tool versions for this revision: the toolchain in delivery.json.
 
 ## Delivered
 Each required media/source/evidence file is enumerated by byte count and SHA-256 in delivery.json. Existing outputs are real rendered media, not placeholder filenames. Independent variants belong to this ticket. The original source brief and code remain unchanged.

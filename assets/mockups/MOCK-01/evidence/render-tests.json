@@ -1,6 +1,6 @@
 {
-  "renderer": "CairoSVG 2.8.2",
+  "renderer": "CairoSVG 2.9.1",
   "png_dimensions": "1920x1080",
   "video_probes": [],
-  "command": "python shared/render_assets.py --id MOCK-01"
+  "command": "python tools/render/render_assets.py --id MOCK-01"
 }

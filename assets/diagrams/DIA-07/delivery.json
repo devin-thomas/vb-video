@@ -2,9 +2,9 @@
   "id": "DIA-07",
   "title": "BuildDeck nested loops: 4 suits × 13 ranks",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "original authored source-based illustration",
-  "shared_version": "win95-workbench-1.0.0",
+  "shared_version": "win95-workbench-1.1.0",
   "duration_seconds": 18,
   "dimensions": {
     "width": 1920,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/browser-tests.json",
       "role": "evidence / QA",
-      "bytes": 507,
-      "sha256": "1bde03b028119ff8b981239f710455314a278dba4041f7c7c89b75de084f18f4"
+      "bytes": 447,
+      "sha256": "49165cc632eba98a63666d1812d982d7c79bf963a4c1df4ebbb5b735720abe8d"
     },
     {
       "path": "evidence/claim-checks.json",
@@ -33,8 +33,8 @@
     {
       "path": "evidence/render-tests.json",
       "role": "evidence / QA",
-      "bytes": 972,
-      "sha256": "3256eae1563d23364e2a4881611812f458e766572355cde8a45106fd4f305e3e"
+      "bytes": 1088,
+      "sha256": "ec43b1d52c4cfdbc04a56abbd29355dd6786805faa6a8a68444670ad2bd175eb"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -45,50 +45,50 @@
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 134527,
-      "sha256": "b9f755083aef0bf3a598ea7adffe3cfc2149369a45616c748256e4c70fb5b93f"
+      "bytes": 139069,
+      "sha256": "ee9f0b0c9d9fbc335262e2a92c5f0c812ac6c63d11bd1697e6dabdea6f9b5a2c"
     },
     {
       "path": "exports/first-rank-closeup.png",
       "role": "rendered still",
-      "bytes": 56316,
-      "sha256": "21116a681fa17e6aad3910fde93305a54d0c6bdad324a63a489d156220ee2fd4"
+      "bytes": 56409,
+      "sha256": "26b191fdf7acca526e79e1a6d4223c2d6beaeb4c273a09c664aaad976d43beaf"
     },
     {
       "path": "exports/full-grid.png",
       "role": "rendered still",
-      "bytes": 113275,
-      "sha256": "08b4afe59efaa2726bff1f7fa801418827ced38c57abf22802d16d25bcaffc1a"
+      "bytes": 102371,
+      "sha256": "b5d671fb1fbb45d6e81cfc6fc2e5e3d1162f58b64568c68bfb9fbdd4212fb69a"
     },
     {
       "path": "exports/keyframes/end.png",
       "role": "rendered still",
-      "bytes": 113275,
-      "sha256": "08b4afe59efaa2726bff1f7fa801418827ced38c57abf22802d16d25bcaffc1a"
+      "bytes": 102371,
+      "sha256": "b5d671fb1fbb45d6e81cfc6fc2e5e3d1162f58b64568c68bfb9fbdd4212fb69a"
     },
     {
       "path": "exports/keyframes/middle.png",
       "role": "rendered still",
-      "bytes": 87824,
-      "sha256": "efae0028eb8d17abe41f311a4adaf652f9532c180413814c2faa9f373d2e5073"
+      "bytes": 78994,
+      "sha256": "810780264ce8471de77a1a409722861da461d43492bcf048d4475d559bf8b21c"
     },
     {
       "path": "exports/keyframes/start.png",
       "role": "rendered still",
-      "bytes": 82933,
-      "sha256": "e67050d66671d006d8e87d7a680564063f2000c5f07cde87cfac8a19b77813cd"
+      "bytes": 74334,
+      "sha256": "9a182bec413382ecc21d56b8b36edb0523c3a86c13f660db92c3a6e988f771ad"
     },
     {
       "path": "exports/poster.png",
       "role": "rendered still",
-      "bytes": 113275,
-      "sha256": "08b4afe59efaa2726bff1f7fa801418827ced38c57abf22802d16d25bcaffc1a"
+      "bytes": 102371,
+      "sha256": "b5d671fb1fbb45d6e81cfc6fc2e5e3d1162f58b64568c68bfb9fbdd4212fb69a"
     },
     {
       "path": "exports/preview.mp4",
       "role": "rendered motion",
-      "bytes": 292868,
-      "sha256": "bb88ddc9b12baf24074598992b0102c2e475f81ed46239cd573f2e220f817c65"
+      "bytes": 327811,
+      "sha256": "807a46e8d9a94e194d5c49fca2068c4928c164942d492c8053cc5b40f5603977"
     },
     {
       "path": "proofs/gallery.jpg",
@@ -99,14 +99,14 @@
     {
       "path": "proofs/poster-720.png",
       "role": "evidence / QA",
-      "bytes": 141558,
-      "sha256": "d751a36d6b761c29f6722c55d26991f12cfa96020e05f3f4666c6fd2c9da7cc2"
+      "bytes": 148574,
+      "sha256": "56718478af80b289a5026a460416a0face9e4d8a9b9176ceded0678e6055845c"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2342,
-      "sha256": "a451a5e52c48bcc8b12f9c9bec6a59c7b65baf7977c31413f9be4acb10b6e542"
+      "bytes": 5383,
+      "sha256": "467ce7dc91f3988f8ec7821eb6363a0997d7b76360664f9e9c1d2f820bf552db"
     },
     {
       "path": "src/brief.json",
@@ -459,8 +459,8 @@
     {
       "path": "src/variant-first-rank-closeup.svg",
       "role": "editable source",
-      "bytes": 6347,
-      "sha256": "278bfe966fb364dcc9fb80a5bafd966aa9714dc87aabea001d229104d51ebbd4"
+      "bytes": 7889,
+      "sha256": "3fa70d7d04cd6c944d4bc9bf101be870d8c3b8d507b06330c174d3c28a611f09"
     },
     {
       "path": "src/variant-full-grid.svg",
@@ -546,30 +546,43 @@
       "test": "offline HTML, deterministic seek, every SVG text bounding box",
       "evidence": "evidence/browser-tests.json",
       "result": "passed"
+    },
+    {
+      "test": "card-face re-render (win95-workbench-1.1.0)",
+      "result": "4 inlined 1.0.0 faces in 1 src SVGs (186 px) replaced by the 1.1.0 studio.card() output at identical parameters (each recovered parameter set re-emitted the 1.0.0 group byte for byte); index.html scene table rebuilt; python tools/render/render_assets.py --id DIA-07 re-rendered every export; the offline browser check was re-run (evidence/browser-tests.json)."
+    },
+    {
+      "test": "manual visual review (revision 2)",
+      "result": {
+        "mode": "Poster at 1920 × 1080 and 1280 wide, plus one extracted frame of each MP4 at both sizes, viewed by the worker.",
+        "scope": "Card faces only; timing, layout and text were not re-reviewed beyond confirming they are unchanged.",
+        "status": "Only variant-first-rank-closeup.svg draws card faces: the four 2s at 186 px show two pips (top and rotated bottom), red hearts/diamonds and black spades/clubs, and the rank-over-suit index in both corners. The poster, the 53 motion states and the frame extracted from preview.mp4 at 10 s draw the index grid; its S/H/D/C column headers are text glyphs, not card faces, and are unchanged, so preview.mp4 was re-encoded but is visually identical."
+      }
     }
   ],
   "unresolved_gates": [],
   "toolchain": {
-    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
-    "python": "3.13.5",
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
-    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
-    "dotnet_path": null,
-    "node": "v22.16.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
     "packages": {
-      "cairosvg": "2.8.2",
+      "cairosvg": "2.9.1",
       "Pillow": "12.3.0",
-      "playwright": "1.57.0"
+      "playwright": "1.63.0"
     },
     "network_used": false,
     "installs_performed": false,
     "font_files_distributed": false,
-    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+    "browser_note": "HTML tested by in-memory content loading (Playwright Chromium on Windows)."
   },
   "notes": [
     "Grid cells show the Deck array index, not a shuffled order.",
     "Rank-major order is S,H,D,C within each rank. Final populated index is 51, followed by Index = 52.",
     "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb.",
+    "Re-rendered 2026-09-16 for the card-face revision (win95-workbench-1.1.0): the 4 inlined 1.0.0 single-pip faces in 1 src SVGs (186 px) were replaced by the 1.1.0 card() output at the same identity, position, size, opacity and accent, index.html was rebuilt from them, and every export was re-rendered with render_assets.py; timing, layout, text and file names are unchanged. The 2026-09-15 release approval covered the 1.0.0 faces and does not carry over."
   ]
 }

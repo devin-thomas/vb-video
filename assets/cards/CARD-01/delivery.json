@@ -2,9 +2,9 @@
   "id": "CARD-01",
   "title": "Opening title: Win95 message box",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "original authored source-based illustration",
-  "shared_version": "win95-workbench-1.0.0",
+  "shared_version": "win95-workbench-1.1.0",
   "duration_seconds": 7,
   "dimensions": {
     "width": 1920,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/browser-tests.json",
       "role": "evidence / QA",
-      "bytes": 505,
-      "sha256": "7d8df1d333d84a201e9b51dd5ea9dda82c0a4f9da9193f9e94ca83338eee0616"
+      "bytes": 445,
+      "sha256": "d44146630584059910aac153409d84a4047f2d6d33a398be5b214d4711586612"
     },
     {
       "path": "evidence/claim-checks.json",
@@ -33,8 +33,8 @@
     {
       "path": "evidence/render-tests.json",
       "role": "evidence / QA",
-      "bytes": 973,
-      "sha256": "aa87374c64c502081a791f7246baba24d4ff96fa8116d00d86b98b164269fb3a"
+      "bytes": 1083,
+      "sha256": "3e58b7817fabe552ef3593f072d1b71235b4973bd6e31ed123805fa284b95d10"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -45,8 +45,8 @@
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 64075,
-      "sha256": "887700660b6afffd4c3582967dbedbd5ccc64f9a5db8f4e464e2d1ade2075a7c"
+      "bytes": 70297,
+      "sha256": "85ba6e53c28ef2fd00b57e534b5c6743c11a60049d694a0d18d4eff673f054ce"
     },
     {
       "path": "exports/keyframes/end.png",
@@ -57,8 +57,8 @@
     {
       "path": "exports/keyframes/middle.png",
       "role": "rendered still",
-      "bytes": 48452,
-      "sha256": "1527689029f10c726893e5530b6a6648e785983c9d8914183ba6d7271596e0eb"
+      "bytes": 49909,
+      "sha256": "a836e1933718711ffeb0533c65e6a887f945c2b6dc0bfc11dbdcf2051d6ad783"
     },
     {
       "path": "exports/keyframes/start.png",
@@ -69,26 +69,26 @@
     {
       "path": "exports/ok-click.png",
       "role": "rendered still",
-      "bytes": 50487,
-      "sha256": "849ffc4b289dcfd8a9b11e3595210aad61a48d6cf358c74a64a3372acb3bbd2c"
+      "bytes": 51952,
+      "sha256": "239fe40e5f3f1da739c572a37add3a3308bbb37a3b35f9d9402898e8ed2745a3"
     },
     {
       "path": "exports/poster.png",
       "role": "rendered still",
-      "bytes": 48452,
-      "sha256": "1527689029f10c726893e5530b6a6648e785983c9d8914183ba6d7271596e0eb"
+      "bytes": 49909,
+      "sha256": "a836e1933718711ffeb0533c65e6a887f945c2b6dc0bfc11dbdcf2051d6ad783"
     },
     {
       "path": "exports/preview.mp4",
       "role": "rendered motion",
-      "bytes": 45888,
-      "sha256": "a6957c71914310bb26e724d9d7ac7aec8ba4c85d21a65924e4ae239d7511861c"
+      "bytes": 53955,
+      "sha256": "d860d7609837a68a03f580351d8e16ebbb4021312db73c49d42ebac5ee0ae12b"
     },
     {
       "path": "exports/title-hold.png",
       "role": "rendered still",
-      "bytes": 48452,
-      "sha256": "1527689029f10c726893e5530b6a6648e785983c9d8914183ba6d7271596e0eb"
+      "bytes": 49909,
+      "sha256": "a836e1933718711ffeb0533c65e6a887f945c2b6dc0bfc11dbdcf2051d6ad783"
     },
     {
       "path": "proofs/gallery.jpg",
@@ -99,14 +99,14 @@
     {
       "path": "proofs/poster-720.png",
       "role": "evidence / QA",
-      "bytes": 60332,
-      "sha256": "e8e9231641a618154178592e56fdaa1aa7c123a0e05a916e8c4ec2ab11824918"
+      "bytes": 82254,
+      "sha256": "af772db7ff8c7917c9acfcbda27096fc16359476af0a26ac0df85cbf1ccf007c"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2364,
-      "sha256": "c93a1f8af6cb8f865aefaf9df924183e5af3f91ee059a482b2c442fcc33289c0"
+      "bytes": 5276,
+      "sha256": "8715194d1e750d20cd937c15ab44c805efc6cb94787e60b2185e32df8df5edfa"
     },
     {
       "path": "src/brief.json",
@@ -123,8 +123,8 @@
     {
       "path": "src/index.html",
       "role": "editable source",
-      "bytes": 15807,
-      "sha256": "61710199f2ed44ab815ad7e94bb13d9205832cfd1a91b1364f7913f777ca1df8"
+      "bytes": 17781,
+      "sha256": "98cab27628a97ddfe35b424298aaaa85a4b2d86ba6b0adee7db7e117c0ae8c54"
     },
     {
       "path": "src/scene-0000.svg",
@@ -135,26 +135,26 @@
     {
       "path": "src/scene-0001.svg",
       "role": "editable source",
-      "bytes": 3847,
-      "sha256": "1d31d2ee098a4785a6001290822c49f1e2fc6e6e0bad439926fdc3d22890a71c"
+      "bytes": 4447,
+      "sha256": "0c0281a08be1ce3b2ef4df5832eaeee24b4539f89be16d4ffb6836f882603b6c"
     },
     {
       "path": "src/scene-0002.svg",
       "role": "editable source",
-      "bytes": 3965,
-      "sha256": "464fd4dddeb2d113472230a240eb9b87a5b52eb414b7462eef47cd166df26452"
+      "bytes": 4565,
+      "sha256": "020e9bc8b2c2b8dfe40fc329cfe048fbf760f0acf588c797e775667a7030dd64"
     },
     {
       "path": "src/scene-0003.svg",
       "role": "editable source",
-      "bytes": 3965,
-      "sha256": "c36740e0aece1d0c635e8f58eefbcc7a89cee3a10acb60c0438bd110ff232e8a"
+      "bytes": 4565,
+      "sha256": "94ae86b5055e114b25532b07b7435ec506be11ebdf4d4df465c9aba2fa473221"
     },
     {
       "path": "src/scene.svg",
       "role": "editable source",
-      "bytes": 3847,
-      "sha256": "1d31d2ee098a4785a6001290822c49f1e2fc6e6e0bad439926fdc3d22890a71c"
+      "bytes": 4447,
+      "sha256": "0c0281a08be1ce3b2ef4df5832eaeee24b4539f89be16d4ffb6836f882603b6c"
     },
     {
       "path": "src/timeline.json",
@@ -165,14 +165,14 @@
     {
       "path": "src/variant-ok-click.svg",
       "role": "editable source",
-      "bytes": 3965,
-      "sha256": "c36740e0aece1d0c635e8f58eefbcc7a89cee3a10acb60c0438bd110ff232e8a"
+      "bytes": 4565,
+      "sha256": "94ae86b5055e114b25532b07b7435ec506be11ebdf4d4df465c9aba2fa473221"
     },
     {
       "path": "src/variant-title-hold.svg",
       "role": "editable source",
-      "bytes": 3847,
-      "sha256": "1d31d2ee098a4785a6001290822c49f1e2fc6e6e0bad439926fdc3d22890a71c"
+      "bytes": 4447,
+      "sha256": "0c0281a08be1ce3b2ef4df5832eaeee24b4539f89be16d4ffb6836f882603b6c"
     }
   ],
   "variants": [
@@ -252,28 +252,41 @@
       "test": "offline HTML, deterministic seek, every SVG text bounding box",
       "evidence": "evidence/browser-tests.json",
       "result": "passed"
+    },
+    {
+      "test": "card-face re-render (win95-workbench-1.1.0)",
+      "result": "12 inlined 1.0.0 faces in 6 src SVGs (108 px (small mode)) replaced by the 1.1.0 studio.card() output at identical parameters (each recovered parameter set re-emitted the 1.0.0 group byte for byte); index.html scene table rebuilt; python tools/render/render_assets.py --id CARD-01 re-rendered every export; the offline browser check was re-run (evidence/browser-tests.json)."
+    },
+    {
+      "test": "manual visual review (revision 2)",
+      "result": {
+        "mode": "Poster at 1920 × 1080 and 1280 wide, plus one extracted frame of each MP4 at both sizes, viewed by the worker.",
+        "scope": "Card faces only; timing, layout and text were not re-reviewed beyond confirming they are unchanged.",
+        "status": "The title dialog’s A♠ and 4♥ at 108 px in the poster, title-hold.png, ok-click.png and the frame extracted from preview.mp4 at 3 s: the 4♥ shows its rank and four corner pips, the A♠ its rank with the large pip partly covered by the overlapping 4♥ exactly as before; no rotated corner at this size. Dialog, title text, OK button and cursor states are unchanged; the blank first and last frames are byte-identical to the previous render."
+      }
     }
   ],
   "unresolved_gates": [],
   "toolchain": {
-    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
-    "python": "3.13.5",
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
-    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
-    "dotnet_path": null,
-    "node": "v22.16.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
     "packages": {
-      "cairosvg": "2.8.2",
+      "cairosvg": "2.9.1",
       "Pillow": "12.3.0",
-      "playwright": "1.57.0"
+      "playwright": "1.63.0"
     },
     "network_used": false,
     "installs_performed": false,
     "font_files_distributed": false,
-    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+    "browser_note": "HTML tested by in-memory content loading (Playwright Chromium on Windows)."
   },
   "notes": [
     "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb.",
+    "Re-rendered 2026-09-16 for the card-face revision (win95-workbench-1.1.0): the 12 inlined 1.0.0 single-pip faces in 6 src SVGs (108 px (small mode)) were replaced by the 1.1.0 card() output at the same identity, position, size, opacity and accent, index.html was rebuilt from them, and every export was re-rendered with render_assets.py; timing, layout, text and file names are unchanged. The 2026-09-15 release approval covered the 1.0.0 faces and does not carry over."
   ]
 }
