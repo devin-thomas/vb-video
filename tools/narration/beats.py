@@ -67,7 +67,10 @@ PLAIN = [  # spoken forms applied outside backticks, longest first
     ("20,000", "twenty thousand"), ("200-kilobyte", "two-hundred-kilobyte"), ("68k", "sixty-eight K"), ("TRS-80", "T R S eighty"),
     ("Commodore 64", "Commodore sixty-four"), ("Apple II", "Apple two"), ("mid-90s", "mid-nineties"), ("90s", "nineties"), ("C89", "C eighty-nine"), ("Win16", "Win sixteen"), ("VB", "V B"),
 ]
-NAMES = {"Kemeny": "Kemeny", "Kurtz": "Kurtz"}  # kept as written; the C05 fixture read them acceptably
+NAMES = {"Kemeny": "Kemeny", "Kurtz": "Kurtz"}
+# per-beat pronunciation fixes, keyed by a substring of the written text so beat renumbering cannot move them
+# (2026-09-16, Devin heard "Q++" at S08-B02; the take's transcript read "2++")
+SPOKEN_FIXES = [("In C++, you'd use `std::queue`", "In C plus plus, you'd use", "In see plus plus, you'd use")]  # kept as written; the C05 fixture read them acceptably
 
 def spoken_form(text: str, glossary: dict) -> str:
     entries = sorted(glossary["entries"], key=lambda e: -len(e["written"]))
@@ -113,6 +116,7 @@ def parse(script_lines: list[str]):
         pending_cues, pending_code, para = [], [], []
         items = []  # (text, cues, code)
         in_code, code = False, []
+        in_cue, cue_lines = False, []
         def flush():
             nonlocal para, pending_cues, pending_code
             if para:
@@ -124,8 +128,15 @@ def parse(script_lines: list[str]):
                 else: flush(); in_code = True
                 continue
             if in_code: code.append(s); continue
+            if in_cue:  # continuation lines of a multi-line **[VISUAL: ...]** block belong to the cue, never to the narration
+                cue_lines.append(s.strip())
+                if s.rstrip().endswith("]**"): pending_cues.append(re.sub(r"^\*\*\[VISUAL:\s*|\]\*\*$", "", " ".join(cue_lines)).strip()); in_cue, cue_lines = False, []
+                continue
             if s.startswith("**[VISUAL:"):
-                flush(); pending_cues.append(re.sub(r"^\*\*\[VISUAL:\s*|\]\*\*$", "", s).strip()); continue
+                flush()
+                if s.rstrip().endswith("]**"): pending_cues.append(re.sub(r"^\*\*\[VISUAL:\s*|\]\*\*$", "", s).strip())
+                else: in_cue, cue_lines = True, [s.strip()]
+                continue
             if s.startswith("**NARRATION:**") or s == "---" or s.startswith("**Step") or s.startswith("|"): flush(); continue
             if not s.strip(): flush(); continue
             para.append(s.strip())
@@ -164,6 +175,8 @@ def main() -> int:
     beats = parse(SCRIPT.read_text(encoding="utf-8").split("\n"))
     for b in beats:
         b["spoken"] = decades(spoken_form(b["written"], glossary))
+        for key, old, new in SPOKEN_FIXES:
+            if key in b["written"]: b["spoken"] = b["spoken"].replace(old, new)
         b["words"] = len(b["written"].split())
         b["spoken_sha256"] = hashlib.sha256(b["spoken"].encode("utf-8")).hexdigest()
     OUT.parent.mkdir(parents=True, exist_ok=True)

@@ -2,56 +2,56 @@
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/shady.flac",
   "from": 0.0,
-  "to": 317.19,
-  "gain_db": -9,
+  "to": 316.19,
+  "gain_db": -15,
   "why": "opening; Devin: let it run a few seconds before the voice, then duck",
   "title": "Shady Business (YM2612)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/auldjack.wav",
-  "from": 317.19,
-  "to": 548.58,
-  "gain_db": -11,
+  "from": 325.69,
+  "to": 547.58,
+  "gain_db": -17,
   "why": "toolchain and setup",
   "title": "Auld Jack"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/crypto.flac",
-  "from": 548.58,
-  "to": 1148.42,
-  "gain_db": -11,
+  "from": 557.08,
+  "to": 1147.42,
+  "gain_db": -17,
   "why": "rules, card, deck, hand",
   "title": "Cryptosphere (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/chipper.mp3",
-  "from": 1148.42,
-  "to": 1478.04,
-  "gain_db": -11,
+  "from": 1156.92,
+  "to": 1477.04,
+  "gain_db": -17,
   "why": "game loop, war, runs",
   "title": "Chipper Doodle v2"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/gravebyte.flac",
-  "from": 1478.04,
-  "to": 1801.54,
-  "gain_db": -11,
+  "from": 1486.54,
+  "to": 1800.54,
+  "gain_db": -17,
   "why": "what it would have become, competition",
   "title": "Gravebyte (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/crypto.flac",
-  "from": 1801.54,
-  "to": 2192.82,
-  "gain_db": -11,
+  "from": 1810.04,
+  "to": 2191.82,
+  "gain_db": -17,
   "why": "Mac, why it mattered",
   "title": "Cryptosphere (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/hexel.flac",
-  "from": 2192.82,
-  "to": 2429.3,
-  "gain_db": -15,
+  "from": 2201.32,
+  "to": 2428.3,
+  "gain_db": -21,
   "why": "why it died; Devin: spooky, very loud, so 4 dB lower",
   "title": "Hexel (Gameboy)"
  },
@@ -59,7 +59,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/shady.flac",
   "from": 2429.3,
   "to": 2519.5,
-  "gain_db": -8,
+  "gain_db": -14,
   "why": "outro and end card, a touch more forward",
   "title": "Shady Business (YM2612)"
  }

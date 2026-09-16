@@ -85,6 +85,7 @@ def main() -> int:
     ap.add_argument("--profile", choices=["review", "master"], default="review")
     ap.add_argument("--sections", help="comma-separated section numbers for a test cut")
     ap.add_argument("--music"); ap.add_argument("--sfx"); ap.add_argument("--force", action="store_true")
+    ap.add_argument("--bed-stem", help="also write the ducked music alone (no voice, no effects) to this WAV, for measurement")
     args = ap.parse_args()
     tl = json.loads(TIMELINE.read_text(encoding="utf-8"))
     segs = tl["segments"]
@@ -116,7 +117,7 @@ def main() -> int:
     print(f"[ok] {joined} ({sum(lengths)/60:.1f} min timeline)")
     final = joined
     if args.music or args.sfx:
-        final = mix(joined, args.music, args.sfx, BUILD / f"{stem}-mixed.mp4")
+        final = mix(joined, args.music, args.sfx, BUILD / f"{stem}-mixed.mp4", Path(args.bed_stem) if args.bed_stem else None)
     if args.profile == "master":
         master = BUILD / stem.replace("review-1080p60", "master-2160p60").replace("review", "master")
         master = master.with_suffix(".mp4")
@@ -131,9 +132,30 @@ def music_plan(music: str) -> list[dict]:
         return json.loads(Path(music).read_text(encoding="utf-8"))
     return [{"file": music, "from": 0, "to": None, "gain_db": -16}]
 
-def mix(video: Path, music: str | None, sfx_json: str | None, out: Path) -> Path:
-    """Music bed(s) ducked under narration with sidechain compression; sound effects placed at timeline seconds."""
+def probe_duration(path: Path) -> float:
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)], capture_output=True, text=True)
+    return float(r.stdout.strip() or 0)
+
+def effect_duck_expr(cues: list[dict], floor: float = 0.01, lead: float = 0.3, ramp_in: float = 0.15, tail: float = 0.2, release: float = 0.8) -> str:
+    """volume expression (eval=frame) that drops the bed to `floor` from `lead` s before each effect until `tail` s after it
+    ends, ramping down over `ramp_in` s and back up over `release` s. Devin (2026-09-16): a unique effect needs the music
+    to duck sharply to the bottom right before it, play in its entirety, then the music returns."""
+    parts = []
+    for c in cues:
+        a = float(c["at"]) - lead; b = float(c["at"]) + probe_duration(ROOT / c["file"]) + tail
+        parts.append(f"if(lt(t,{a - ramp_in:.3f}),1,if(lt(t,{a:.3f}),1-(t-{a - ramp_in:.3f})/{ramp_in}*{1 - floor},if(lt(t,{b:.3f}),{floor},if(lt(t,{b + release:.3f}),{floor}+(t-{b:.3f})/{release}*{1 - floor},1))))")
+    expr = parts[0]
+    for q in parts[1:]: expr = f"min({expr},{q})"
+    return expr
+
+def mix(video: Path, music: str | None, sfx_json: str | None, out: Path, bed_stem: Path | None = None) -> Path:
+    """Music bed(s) ducked under narration with sidechain compression and pushed to the floor around every sound effect;
+    effects placed at timeline seconds. With bed_stem, also writes the ducked music alone (no voice, no effects) as a WAV."""
     inputs = ["-i", str(video)]; filters = []; mix_in = ["[0:a]"]; n = 1
+    sfx = []
+    for sj in (sfx_json or "").split(","):
+        if sj.strip(): sfx += json.loads(Path(sj.strip()).read_text(encoding="utf-8"))
+    effects = [c for c in sfx if c.get("effect") != "chapter-sting"]
     if music:
         beds = []
         for k, cue in enumerate(music_plan(music)):
@@ -143,20 +165,19 @@ def mix(video: Path, music: str | None, sfx_json: str | None, out: Path) -> Path
             fade = f",afade=t=in:d=2{',afade=t=out:st=' + str(float(end) - start - 3) + ':d=3' if end is not None else ''}"
             filters.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-18:TP=-2:LRA=9{length}{fade},volume={cue.get('gain_db', -16)}dB,adelay={int(start * 1000)}|{int(start * 1000)}[bed{k}]")
             beds.append(f"[bed{k}]"); n += 1
-        filters.append("".join(beds) + f"amix=inputs={len(beds)}:duration=longest:normalize=0[bed];[0:a]asplit[nar][key];[bed][key]sidechaincompress=threshold=0.05:ratio=6:attack=40:release=600[ducked]")
+        duck = f",volume='{effect_duck_expr(effects)}':eval=frame" if effects else ""
+        filters.append("".join(beds) + f"amix=inputs={len(beds)}:duration=longest:normalize=0{duck}[bed];[0:a]asplit[nar][key];[bed][key]sidechaincompress=threshold=0.05:ratio=6:attack=40:release=600" + ("[ducked0];[ducked0]asplit[ducked][stem]" if bed_stem else "[ducked]"))
         mix_in = ["[nar]", "[ducked]"]
-    sfx = []
-    for sj in (sfx_json or "").split(","):
-        if sj.strip(): sfx += json.loads(Path(sj.strip()).read_text(encoding="utf-8"))
     for k, item in enumerate(sfx):
         inputs += ["-i", str(ROOT / item["file"])]
         delay = int(float(item["at"]) * 1000)
         filters.append(f"[{n}:a]aresample=48000,aformat=channel_layouts=stereo,volume={item.get('gain_db', -6)}dB,adelay={delay}|{delay}[fx{k}]")
         mix_in.append(f"[fx{k}]"); n += 1
     filters.append("".join(mix_in) + f"amix=inputs={len(mix_in)}:duration=first:normalize=0,volume=4dB,alimiter=limit=0.89:attack=5:release=80:level=0[aout]")
+    stem_args = ["-map", "[stem]", "-c:a:1", "pcm_s16le", str(bed_stem)] if (bed_stem and music) else []
     run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", *inputs, "-filter_complex", ";".join(filters), "-map", "0:v", "-map", "[aout]",
-         "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", str(out)])
-    print(f"[ok] {out}")
+         "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", str(out), *stem_args])
+    print(f"[ok] {out}" + (f" (+ bed stem {bed_stem})" if stem_args else ""))
     return out
 
 if __name__ == "__main__":

@@ -847,9 +847,9 @@
    "cues": [],
    "code": [],
    "continues": false,
-   "spoken": "In C sharp, you'd use queue of card and call it a day. In C plus plus, you'd use standard queue. In nineteen ninety-five V B? You didn't have generic collections. You didn't even have a built-in queue. You had arrays, and you had re-dim, and that was about it.",
+   "spoken": "In C sharp, you'd use queue of card and call it a day. In see plus plus, you'd use standard queue. In nineteen ninety-five V B? You didn't have generic collections. You didn't even have a built-in queue. You had arrays, and you had re-dim, and that was about it.",
    "words": 42,
-   "spoken_sha256": "ac2b417740325140a3747cf7946d2f784e41dcfc73eeb8dd198880040b1340de"
+   "spoken_sha256": "5359a75ab51b00c0c61a20b98cd68819fdd28f5cb2c11ee9c93e9a8da15aa679"
   },
   {
    "id": "S08-B03",
@@ -1404,22 +1404,10 @@
    "id": "S12-B05",
    "section": 12,
    "section_title": "WHEN THE CARDS RUN OUT",
-   "written": "Panel 1: Player 2's hand — 2 cards. Player 1's hand — 50 cards. Panel 2: Both play a 10. 1 card left for Player 2, 49 for Player 1. Panel 3: Both burn 1. Zero cards left for Player 2. Panel 4: \"Player 2 has no cards left for the war — Player 1 takes the pot.\"]**",
-   "cues": [
-    "Step-by-step diagram, four panels:"
-   ],
-   "code": [],
-   "continues": false,
-   "spoken": "Panel one: Player two's hand, two cards. Player one's hand, fifty cards. Panel two: Both play a ten. one card left for Player two, forty-nine for Player one. Panel three: Both burn one. Zero cards left for Player two. Panel four: \"Player two has no cards left for the war, Player one takes the pot.\"]",
-   "words": 58,
-   "spoken_sha256": "866c58b9688511a7b2ec876d0aa77ffac3fc002bb61251289e8c984c09c1fbde"
-  },
-  {
-   "id": "S12-B06",
-   "section": 12,
-   "section_title": "WHEN THE CARDS RUN OUT",
    "written": "And it happened again, in the opposite direction, purely by chance. The longest run — 2,008 rounds:",
-   "cues": [],
+   "cues": [
+    "Step-by-step diagram, four panels: Panel 1: Player 2's hand — 2 cards. Player 1's hand — 50 cards. Panel 2: Both play a 10. 1 card left for Player 2, 49 for Player 1. Panel 3: Both burn 1. Zero cards left for Player 2. Panel 4: \"Player 2 has no cards left for the war — Player 1 takes the pot.\""
+   ],
    "code": [],
    "continues": false,
    "spoken": "And it happened again, in the opposite direction, purely by chance. The longest run, two thousand eight rounds:",
@@ -1427,7 +1415,7 @@
    "spoken_sha256": "103627105fac01ebab6e345f99c66ef4fdd3b899c95eed3f48651e36d5999ebd"
   },
   {
-   "id": "S12-B07",
+   "id": "S12-B06",
    "section": 12,
    "section_title": "WHEN THE CARDS RUN OUT",
    "written": "Same mechanic. Player 1 walked into round 2,008 holding 3 cards against 49. Both played an 8, leaving Player 1 with 2. Both burned 2. Player 1's hand was empty, and Player 2 took the six-card pot.",
@@ -1443,25 +1431,13 @@
    "spoken_sha256": "b70b56794f2c1cf2314352dfc6894965020c5e18fa5295fd8d5e15f91289b685"
   },
   {
-   "id": "S12-B08",
-   "section": 12,
-   "section_title": "WHEN THE CARDS RUN OUT",
-   "written": "TERM-04: 2 cards → play 10 → burn 1 → empty → 4-card pot TERM-02: 3 cards → play 8 → burn 2 → empty → 6-card pot]**",
-   "cues": [
-    "Side-by-side comparison:"
-   ],
-   "code": [],
-   "continues": false,
-   "spoken": "TERM-four: two cards → play ten → burn one → empty → four-card pot TERM-two: three cards → play eight → burn two → empty → six-card pot]",
-   "words": 28,
-   "spoken_sha256": "587c647eec0ba82681b7dccdede2fb12664926b523e13a602baa1346e113dfa7"
-  },
-  {
-   "id": "S12-B09",
+   "id": "S12-B07",
    "section": 12,
    "section_title": "WHEN THE CARDS RUN OUT",
    "written": "This is a subtlety worth noticing. The rule isn't \"you need three cards for a war or you forfeit.\" It's \"burn what you have, and if there's nothing left to flip, you're done.\" A player down to two cards going into a war still gets a reduced burn — one card face-down, one card to compete with — and can still win it.",
-   "cues": [],
+   "cues": [
+    "Side-by-side comparison: TERM-04: 2 cards → play 10 → burn 1 → empty → 4-card pot TERM-02: 3 cards → play 8 → burn 2 → empty → 6-card pot"
+   ],
    "code": [],
    "continues": false,
    "spoken": "This is a subtlety worth noticing. The rule isn't \"you need three cards for a war or you forfeit.\" It's \"burn what you have, and if there's nothing left to flip, you're done.\" A player down to two cards going into a war still gets a reduced burn, one card face-down, one card to compete with, and can still win it.",
@@ -1469,7 +1445,7 @@
    "spoken_sha256": "25e3f17b5137ece345e564a84656a729ae8a2fe72517f2c1f9232a8039379b11"
   },
   {
-   "id": "S12-B10",
+   "id": "S12-B08",
    "section": 12,
    "section_title": "WHEN THE CARDS RUN OUT",
    "written": "They only lose if that flip ties again and the well is truly dry.",
@@ -1481,7 +1457,7 @@
    "spoken_sha256": "efe7ca534e460526c4421fc834b735a738495ee57b22e577560f114a53fd0294"
   },
   {
-   "id": "S12-B11",
+   "id": "S12-B09",
    "section": 12,
    "section_title": "WHEN THE CARDS RUN OUT",
    "written": "Two of our four recorded runs ended exactly this way. Nobody planned it. The shuffle decided.",

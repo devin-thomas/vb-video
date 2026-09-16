@@ -27,14 +27,14 @@ SOURCES = {  # key -> (source file, title, artist, licence, page)
 }
 # section ranges -> bed key and gain (dB relative to the loudness-matched bed)
 PLAN = [
-    ((1, 2), "shady", -9, "opening; Devin: let it run a few seconds before the voice, then duck"),
-    ((3, 4), "auldjack", -11, "toolchain and setup"),
-    ((5, 8), "crypto", -11, "rules, card, deck, hand"),
-    ((9, 11), "chipper", -11, "game loop, war, runs"),
-    ((12, 13), "gravebyte", -11, "what it would have become, competition"),
-    ((14, 15), "crypto", -11, "Mac, why it mattered"),
-    ((16, 16), "hexel", -15, "why it died; Devin: spooky, very loud, so 4 dB lower"),
-    ((17, 17), "shady", -8, "outro and end card, a touch more forward"),
+    ((1, 2), "shady", -15, "opening; Devin: let it run a few seconds before the voice, then duck"),
+    ((3, 4), "auldjack", -17, "toolchain and setup"),
+    ((5, 8), "crypto", -17, "rules, card, deck, hand"),
+    ((9, 11), "chipper", -17, "game loop, war, runs"),
+    ((12, 13), "gravebyte", -17, "what it would have become, competition"),
+    ((14, 15), "crypto", -17, "Mac, why it mattered"),
+    ((16, 16), "hexel", -21, "why it died; Devin: spooky, very loud, so 4 dB lower"),
+    ((17, 17), "shady", -14, "outro and end card, a touch more forward"),
 ]
 
 def sha(p: Path) -> str: return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -54,9 +54,15 @@ def main() -> int:
         files[key] = dst; prov["files"][dst.name] = {"title": title, "artist": artist, "licence": lic, "page": page, "bytes": dst.stat().st_size, "sha256": sha(dst),
                                                    "note": "FLAC from Bandcamp free download (no email required)" if src.suffix == ".flac" else "source file"}
     (OUT_DIR / "provenance.json").write_text(json.dumps(prov, indent=1, ensure_ascii=False) + LF, encoding="utf-8")
+    # Devin (2026-09-16): a bed fades out fully, then silence, then the next bed; the chapter sting plays in that silence.
+    # Bed k ends (fade-out complete) GAP_BEFORE s before the next chapter card; the sting (STING_S long) plays over the card;
+    # bed k+1 starts GAP_AFTER s after the sting ends and fades in over 2 s. Sections 1 and 17 have no sting.
+    STING_S, GAP_BEFORE, GAP_AFTER = 8.0, 1.0, 0.5
     plan = []
     for (a, b), key, gain, why in PLAN:
-        plan.append({"file": str(files[key]).replace("\\", "/"), "from": round(sec_start(a), 3), "to": round(sec_end(b), 3), "gain_db": gain, "why": why, "title": SOURCES[key][1]})
+        start = sec_start(a) + (STING_S + GAP_AFTER if a not in (1, 17) else 0.0)
+        stop = sec_end(b) - (GAP_BEFORE if b < 17 else 0.0)
+        plan.append({"file": str(files[key]).replace("\\", "/"), "from": round(start, 3), "to": round(stop, 3), "gain_db": gain, "why": why, "title": SOURCES[key][1]})
     (ROOT / "narration/music-plan.json").write_text(json.dumps(plan, indent=1, ensure_ascii=False) + LF, encoding="utf-8", newline=LF)
     # transition sting: first 8 s of 2038 D.M.G. over every chapter card except the first (the opening bed covers it)
     sting = OUT_DIR / "dmg-sting-8s.mp3"
