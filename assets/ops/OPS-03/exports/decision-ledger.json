@@ -65,8 +65,8 @@
    "id": "DIA-02",
    "title": "War rules: shuffle, deal, flip, compare, collect",
    "kind": "motion",
-   "production_status": "produced",
-   "release_status": "approved",
+   "production_status": "planned",
+   "release_status": "unreviewed",
    "reviewer": "Producer for Devin",
    "manifest_gates": [
     "R05"
@@ -101,8 +101,8 @@
    "id": "DIA-04",
    "title": "ByRef versus ByVal: caller variable and local parameter",
    "kind": "motion",
-   "production_status": "produced",
-   "release_status": "approved",
+   "production_status": "planned",
+   "release_status": "unreviewed",
    "reviewer": "Producer for Devin",
    "manifest_gates": [
     "R04a"
@@ -126,8 +126,8 @@
    "id": "DIA-05",
    "title": "Array as queue: live slots, draw, shift, append",
    "kind": "motion",
-   "production_status": "produced",
-   "release_status": "approved",
+   "production_status": "planned",
+   "release_status": "unreviewed",
    "reviewer": "Producer for Devin",
    "manifest_gates": [],
    "gates": [],
@@ -173,8 +173,8 @@
    "id": "DIA-08",
    "title": "War mechanic: tie, burn, flip, award",
    "kind": "motion",
-   "production_status": "produced",
-   "release_status": "approved",
+   "production_status": "planned",
+   "release_status": "unreviewed",
    "reviewer": "Producer for Devin",
    "manifest_gates": [
     "R05"
@@ -322,10 +322,10 @@
   {
    "id": "DIA-12",
    "title": "Windows VB4 versus Mac CodeWarrior table",
-   "kind": "still",
+   "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R03",
     "R09",
@@ -705,7 +705,7 @@
    "kind": "code",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R03"
    ],
@@ -1133,7 +1133,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -1141,23 +1141,25 @@
   {
    "id": "CMP-02",
    "title": "Void method versus Sub procedure",
-   "kind": "still",
+   "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R04a"
    ],
    "gates": [
     {
      "id": "R04a",
-     "status": "approved",
-     "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-     "approval_date": "2026-09-15",
-     "decision": "Approved: the asset matches the script and source as they now stand.",
-     "reason": "Only DIA-04's scoped Integer illustration makes a passing-mode claim, and it was verified in the harness. Code cards render the source as written.",
+     "status": "checked",
+     "decision": "Pending producer review of the revision 2 exports; no evidence question is open.",
+     "reason": "Revision 2 makes no parameter-passing claim at all: the animated card compares Sub/void (nothing returned) with Function/int (a value returned), which is exactly the script's statement at SCRIPT.md:265 ('a Sub, which does something and doesn't return a value, and a Function, which does something and gives you back a result'). The left-hand snippets use no ref/ByRef; the VB Function returns its value as declared by 'As Integer'. The script's literal BuildDeck pair (with ByRef) survives only as the byref-note still, labelled 'Syntax comparison' and without any rebinding claim, as in the first cut. The 2026-09-15 approval covered the first cut; the producer re-reviews the new exports.",
      "evidence_paths": [
-      "source-excerpts.md"
+      "source-excerpts.md",
+      "provenance.json",
+      "../src/build.json",
+      "../exports/poster.png",
+      "../exports/preview.mp4"
      ]
     }
    ],
@@ -1166,10 +1168,10 @@
   {
    "id": "CMP-03",
    "title": "For loop and named Next",
-   "kind": "still",
+   "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -1180,7 +1182,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -1191,7 +1193,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -1202,7 +1204,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -1213,7 +1215,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R04a"
    ],
@@ -1238,7 +1240,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R03"
    ],
@@ -1458,7 +1460,7 @@
    "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R03",
     "R15"
@@ -1466,26 +1468,26 @@
    "gates": [
     {
      "id": "R03",
-     "status": "approved",
-     "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-     "approval_date": "2026-09-15",
-     "decision": "Approved: the asset matches the script and source as they now stand.",
-     "reason": "The asset shows Program.vb or the script's own text as written. The demo is labelled VB.NET in narration (:162) and in the captures; the artwork makes no VB4 execution claim.",
+     "status": "blocked",
+     "decision": "Awaiting review of revision 2 in the deck.",
+     "reason": "Revision 2 (2026-09-16) replaces the code the producer approved on 2026-09-15, so the gate is re-opened for the review deck. The asset makes no VB4 execution or platform claim: it shows agent-authored representative Windows 3.x C, labelled as such on screen, and quotes only the script's own title copy.",
      "evidence_paths": [
       "source-excerpts.md",
-      "../src/hello.def"
+      "../src/excerpt.c",
+      "../src/hello.def",
+      "../qa.md"
      ]
     },
     {
      "id": "R15",
-     "status": "approved",
-     "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-     "approval_date": "2026-09-15",
-     "decision": "Approved: the asset matches the script and source as they now stand.",
-     "reason": "Dates and versions on cards were checked by workers against primary sources (Java 1996 fix applied; VB version years match the record); representative code is labelled representative.",
+     "status": "blocked",
+     "decision": "Awaiting review of revision 2 in the deck; era spelling is a review question.",
+     "reason": "Representative code, newly written: hello.c is a complete 73-line Win16 Hello World (WinMain, WNDCLASS/RegisterClass, CreateWindow, ShowWindow/UpdateWindow, GetMessage/TranslateMessage/DispatchMessage, WndProc with WM_PAINT/TextOut and WM_DESTROY/PostQuitMessage, DefWindowProc) plus hello.def. Labelled 'Representative Windows 3.x C (Win16)' on screen. The 73-line count matches War/SCRIPT.md (producer decision 2026-09-15) and was measured, not padded. Not compiled (no 16-bit toolchain); read line by line against the Windows 3.1 SDK, checklist in qa.md. Open question for the deck: the listing uses Windows 3.1 SDK spellings (__export, UINT/LONG) while the narration dates the scene to Windows 3.0 / 1991; a 3.0-SDK spelling (unsigned/WORD, no __export) is available at the same line count.",
      "evidence_paths": [
       "source-excerpts.md",
-      "../src/hello.def"
+      "../src/excerpt.c",
+      "../src/hello.def",
+      "../qa.md"
      ]
     }
    ],
@@ -3895,7 +3897,7 @@
    "kind": "support",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -3944,6 +3946,149 @@
    "production_status": "produced",
    "release_status": "approved",
    "reviewer": "Producer for Devin",
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "ASM-01",
+   "title": "Mix: quieter music throughout, and effects that duck the bed to the floor",
+   "kind": "support",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "ASM-02",
+   "title": "Bed transitions: fade to silence, a gap, then the next bed; no crossfades",
+   "kind": "support",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "ASM-03",
+   "title": "Timeline stabilisation: one visual per beat, no back-and-forth, beat-accurate section 5, code scroll-through in the cold open",
+   "kind": "support",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "NAR-01",
+   "title": "Narration re-reads: C++ and C# must be heard as spoken",
+   "kind": "support",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "CODE-26",
+   "title": "Undeclared variable: created on first use as a Variant",
+   "kind": "motion",
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "CODE-27",
+   "title": "Nintendo and Nintendont: the silent typo, and what Option Explicit does about it",
+   "kind": "motion",
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "CODE-28",
+   "title": "Every variable declared at the top: the Dim block of a Program.vb subroutine",
+   "kind": "code",
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "REF-05",
+   "title": "C89: declarations at the top of the block",
+   "kind": "still",
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "DIA-15",
+   "title": "Animated riffle shuffle of a real deck",
+   "kind": "motion",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "CMP-09",
+   "title": "A queue in 1995: Queue<Card>, std::queue, and a VB array with ReDim",
+   "kind": "still",
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "FACT-07",
+   "title": "Four recorded runs: rounds, wars, winner",
+   "kind": "still",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "FACT-08",
+   "title": "Two endgames side by side: run 1 and run 4",
+   "kind": "still",
+   "production_status": "planned",
+   "release_status": "unreviewed",
+   "reviewer": null,
+   "manifest_gates": [],
+   "gates": [],
+   "questions": []
+  },
+  {
+   "id": "CODE-29",
+   "title": "Reads like English: If PlayerScore > HighScore Then, For Each Item In Collection",
+   "kind": "code",
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []

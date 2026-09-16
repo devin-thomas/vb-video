@@ -895,10 +895,10 @@
   ]
  },
  "S08-B02": {
-  "attempt": 1,
-  "wpm": 147.9,
+  "attempt": 3,
+  "wpm": 143.8,
   "flags": [
-   "content words not heard: queue plus plus queue queue dim"
+   "content words not heard: see dim"
   ],
   "candidates": [
    [
@@ -916,7 +916,8 @@
     143.8,
     "content words not heard: see dim"
    ]
-  ]
+  ],
+  "producer_override": "2026-09-16: attempt 03 chosen because its transcript reads 'C++' (attempt 01 was heard as '2++'; Devin heard 'Q++')"
  },
  "S08-B03": {
   "attempt": 2,

@@ -1,16 +1,17 @@
 {
   "id": "CMP-02",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "Claude Fable 5.1 - worker ticket/CMP-02-r2",
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": "Producer for Devin",
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
     "Revision 2 produced 2026-09-16 on branch ticket/CMP-02-r2 from Devin's review notes 13 and 14: Sub versus Function, animated (8 s, 30 fps); kind changed from still to motion; byref-note keeps the first-cut BuildDeck still.",
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md; the worker inspected the exports at full size and 720p.",
     "Release unreviewed: the 2026-09-15 approval covered the first cut; the producer re-reviews the revision 2 exports. R04a re-checked in evidence/claim-checks.json.",
-    "Publication approval is separate from production."
+    "Publication approval is separate from production.",
+    "Release approved 2026-09-16 by the producer after viewing the exports (round-2 review sheets); rights per Devin's standing R14 ruling."
   ],
   "owner": "Claude Fable 5.1 - worker ticket/CMP-02-r2"
 }

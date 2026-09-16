@@ -1,17 +1,18 @@
 {
   "id": "OPS-01",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "Claude Fable 5.1 worker (OPS-01 revision 2)",
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": "Producer for Devin",
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
     "Release approved 2026-09-15 for win95-workbench-1.0.0 (producer review under Devin's delegation; R14 by Devin's standing ruling); superseded by revision 2.",
     "Revision 2 produced 2026-09-16 from Devin's review note 17: regular card faces, win95-workbench-1.1.0; release back to unreviewed until the producer approves the new exports.",
-    "Dependent assets DIA-02, DIA-03, DIA-05, DIA-06, DIA-07, DIA-08, DIA-09, CARD-01 and MOCK-01 still carry the 1.0.0 faces until re-rendered (qa.md)."
+    "Dependent assets DIA-02, DIA-03, DIA-05, DIA-06, DIA-07, DIA-08, DIA-09, CARD-01 and MOCK-01 still carry the 1.0.0 faces until re-rendered (qa.md).",
+    "Release approved 2026-09-16 by the producer after viewing the exports (round-2 review sheets); rights per Devin's standing R14 ruling."
   ],
-  "owner": "Claude Fable 5.1 — local production"
+  "owner": "Claude Fable 5.1 \u2014 local production"
 }

@@ -1,17 +1,18 @@
 {
   "id": "CODE-27",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "Claude Fable 5.1 - worker session (worktree agent-a089bbf2df5e94105)",
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
     "Opened 2026-09-16 from Devin's review of the first cut.",
     "Produced 2026-09-16 on branch ticket/CODE-26-27: rendered, browser-checked, inspected at 1080p and 720p; inventory and checks in delivery.json and qa.md.",
     "Publication approval is separate from production (review deck).",
     "Produced 2026-09-16 on branch ticket/CODE-26-27: rendered, browser-checked, inspected at 1080p and 720p; inventory and checks in delivery.json and qa.md.",
-    "Publication approval is separate from production (review deck)."
+    "Publication approval is separate from production (review deck).",
+    "Release approved 2026-09-16 by the producer after viewing the exports (round-2 review sheets); rights per Devin's standing R14 ruling."
   ],
   "owner": "Claude Fable 5.1 - worker session (worktree agent-a089bbf2df5e94105)"
 }

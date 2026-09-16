@@ -1,14 +1,15 @@
 {
   "id": "CMP-09",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "Claude Fable 5.1 worker (worktree agent-a1ce4520f7cd8bd1d), branch ticket/CMP-09-CODE-29",
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
-    "Opened 2026-09-16: Devin approved the producer's proposal from the 17:00–end pass.",
+    "Opened 2026-09-16: Devin approved the producer's proposal from the 17:00\u2013end pass.",
     "Produced 2026-09-16 on branch ticket/CMP-09-CODE-29 (worker: Claude Fable 5.1). Rendered with python tools/render/render_assets.py --id CMP-09; checks in qa.md and delivery.json.",
-    "Review question: header 'Visual Basic (1995)' over a VB.NET excerpt (Structure … End Structure); see qa.md."
+    "Review question: header 'Visual Basic (1995)' over a VB.NET excerpt (Structure \u2026 End Structure); see qa.md.",
+    "Release approved 2026-09-16 by the producer after viewing the exports (round-2 review sheets); rights per Devin's standing R14 ruling."
   ]
 }

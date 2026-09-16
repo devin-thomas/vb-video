@@ -23,7 +23,7 @@ Produced 2026-09-15 by the producer. The ledger is `exports/decision-ledger.json
 | Gate | Register issue | Tickets carrying it | Approved | Other |
 |---|---|---|---|---|
 | R01 | Stale “today” dates | 1 | 1 | 0 |
-| R03 | Classic-inspired VB.NET versus actual VB4 | 9 | 9 | 0 |
+| R03 | Classic-inspired VB.NET versus actual VB4 | 9 | 8 | 1 |
 | R04 | “Recursion” heading versus repeated inner loop | 3 | 3 | 0 |
 | R05 | Insufficient cards and symmetric burn behavior | 7 | 7 | 0 |
 | R06 | Round cap, counter reporting, and cycle wording | 7 | 7 | 0 |
@@ -35,10 +35,10 @@ Produced 2026-09-15 by the producer. The ledger is `exports/decision-ledger.json
 | R12 | Current VB.NET status and migration/lifecycle claims | 2 | 2 | 0 |
 | R13 | Influence diagram versus proven lineage | 1 | 1 | 0 |
 | R14 | Per-image licensing, archive capture, and public availability | 44 | 44 | 0 |
-| R15 | Dates, versions, and representative historical code | 11 | 11 | 0 |
+| R15 | Dates, versions, and representative historical code | 11 | 10 | 1 |
 | R16 | Download/runtime/version and price assumptions | 3 | 3 | 0 |
 | R17 | Missing project file | 4 | 4 | 0 |
-| R04a | ByRef / ByVal simplification | 5 | 5 | 0 |
+| R04a | ByRef / ByVal simplification | 5 | 4 | 1 |
 
 Review questions recorded: 70 (6 open).
 

@@ -1,15 +1,16 @@
 {
   "id": "CMP-05",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": null,
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": "Producer for Devin",
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
     "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
     "Publication approval is separate from production.",
-    "Revision 2 (2026-09-16, Devin's cut note 13): left-column header changed from \"C#\" to \"C / C++ / C# / Java\" (`return top;` is valid in all four). Exports re-rendered on Windows; release back to unreviewed pending the producer's approval of revision 2. The 2026-09-15 release approval covered revision 1."
+    "Revision 2 (2026-09-16, Devin's cut note 13): left-column header changed from \"C#\" to \"C / C++ / C# / Java\" (`return top;` is valid in all four). Exports re-rendered on Windows; release back to unreviewed pending the producer's approval of revision 2. The 2026-09-15 release approval covered revision 1.",
+    "Release approved 2026-09-16 by the producer after viewing the exports (round-2 review sheets); rights per Devin's standing R14 ruling."
   ],
   "owner": "Claude Fable 5.1 worker session (revision 2)"
 }
