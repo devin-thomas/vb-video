@@ -1,0 +1,61 @@
+{
+  "id": "FACT-08",
+  "classification": "original authored source-based illustration",
+  "sources": [
+    {
+      "path": "../../captures/TERM-04/source/stdout.txt",
+      "lines": [
+        1289,
+        1295
+      ],
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-02/source/stdout.txt",
+      "lines": [
+        4157,
+        4163
+      ],
+      "sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        624,
+        626
+      ],
+      "sha256": "7ba0621316aca8092c31c1f839b169d26eb9ea7469376f47c1763ce9600a82f6",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        267,
+        267
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        264,
+        264
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "authored_additions": [
+    "Both columns are the script cue (War/SCRIPT.md:625-626) word for word, with the ticket's Run 1 / Run 4 labels in place of the capture IDs; each step on its own line, drawn arrows as connectors, the final step emphasised.",
+    "Checked against the captured stdout of both runs by src/compose.py: the played rank and the \"no cards left\" line are read directly; hand sizes, burn and pot are reconstructed from the transcript (src/cells.json, evidence/endgame-check.json). The reconstruction agrees with the script on every step.",
+    "The two columns share one baseline grid so the steps align row by row; step-focus boxes the final step of each column and dims the earlier steps.",
+    "Kicker \"When the cards run out\" is the script's section 12 title (War/SCRIPT.md:581); \"Two endgames side by side\" is the ticket title."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

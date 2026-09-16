@@ -1,0 +1,8 @@
+{
+  "gates": [],
+  "note": "No R gate is assigned to this ticket in manifest.json. Figures were checked against the captured stdout; see evidence/source-excerpts.md.",
+  "review_questions": [
+    "No disagreement found: the reconstruction from both transcripts matches every step of the script cue (evidence/endgame-check.json). The hand sizes, burn count and pot size are not printed by the program; they are derived from the transcript and Program.vb:264, and the derivation is recorded line by line in evidence/source-excerpts.md.",
+    "The card carries a kicker (\"When the cards run out\", the script's section 12 title) and the ticket title as a heading above the two verbatim columns. Drop either if the cut wants the columns alone."
+  ]
+}

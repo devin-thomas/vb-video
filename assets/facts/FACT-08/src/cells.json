@@ -1,0 +1,51 @@
+{
+  "id": "FACT-08",
+  "kicker": "When the cards run out",
+  "title": "Two endgames side by side",
+  "columns": [
+    {
+      "header": "Run 1 · 617 rounds",
+      "steps": [
+        "2 cards",
+        "play 10",
+        "burn 1",
+        "empty",
+        "4-card pot"
+      ],
+      "capture": "TERM-04",
+      "round": 617,
+      "script_line": 625,
+      "stdout": "assets/captures/TERM-04/source/stdout.txt",
+      "derived_steps": [
+        "2 cards",
+        "play 10",
+        "burn 1",
+        "empty",
+        "4-card pot"
+      ],
+      "matches_script": true
+    },
+    {
+      "header": "Run 4 · 2,008 rounds",
+      "steps": [
+        "3 cards",
+        "play 8",
+        "burn 2",
+        "empty",
+        "6-card pot"
+      ],
+      "capture": "TERM-02",
+      "round": 2008,
+      "script_line": 626,
+      "stdout": "assets/captures/TERM-02/source/stdout.txt",
+      "derived_steps": [
+        "3 cards",
+        "play 8",
+        "burn 2",
+        "empty",
+        "6-card pot"
+      ],
+      "matches_script": true
+    }
+  ]
+}

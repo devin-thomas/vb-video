@@ -1,0 +1,93 @@
+{
+  "id": "FACT-08",
+  "method": "Hand sizes reconstructed from every \"wins the round (N cards)\" line (N/2 cards move from loser to winner; each side contributes half of any pot because Program.vb:264 burns the same count from both hands). Burn = min(3, shorter hand after both played one card); pot = 2 played + 2 × burn.",
+  "columns": [
+    {
+      "header": "Run 1 · 617 rounds",
+      "capture": "TERM-04",
+      "round": 617,
+      "steps": [
+        "2 cards",
+        "play 10",
+        "burn 1",
+        "empty",
+        "4-card pot"
+      ],
+      "derived_steps": [
+        "2 cards",
+        "play 10",
+        "burn 1",
+        "empty",
+        "4-card pot"
+      ],
+      "matches_script": true,
+      "hand_before": {
+        "player1": 50,
+        "player2": 2
+      },
+      "burn": 1,
+      "pot": 4,
+      "evidence": {
+        "round_line": 1289,
+        "round_text": "Round 617: Player 1 plays 10 of Diamonds, Player 2 plays 10 of Spades.",
+        "p1_before": 50,
+        "p2_before": 2,
+        "rank1": "10",
+        "rank2": "10",
+        "out_line": 1291,
+        "out_text": "Player 2 has no cards left for the war - Player 1 takes the pot.",
+        "loser": 2,
+        "winner": 1,
+        "total_line": 1295,
+        "total_text": "Total rounds played : 617",
+        "total": 617
+      },
+      "stdout": "assets/captures/TERM-04/source/stdout.txt",
+      "stdout_sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0"
+    },
+    {
+      "header": "Run 4 · 2,008 rounds",
+      "capture": "TERM-02",
+      "round": 2008,
+      "steps": [
+        "3 cards",
+        "play 8",
+        "burn 2",
+        "empty",
+        "6-card pot"
+      ],
+      "derived_steps": [
+        "3 cards",
+        "play 8",
+        "burn 2",
+        "empty",
+        "6-card pot"
+      ],
+      "matches_script": true,
+      "hand_before": {
+        "player1": 3,
+        "player2": 49
+      },
+      "burn": 2,
+      "pot": 6,
+      "evidence": {
+        "round_line": 4157,
+        "round_text": "Round 2008: Player 1 plays 8 of Diamonds, Player 2 plays 8 of Clubs.",
+        "p1_before": 3,
+        "p2_before": 49,
+        "rank1": "8",
+        "rank2": "8",
+        "out_line": 4159,
+        "out_text": "Player 1 has no cards left for the war - Player 2 takes the pot.",
+        "loser": 1,
+        "winner": 2,
+        "total_line": 4163,
+        "total_text": "Total rounds played : 2008",
+        "total": 2008
+      },
+      "stdout": "assets/captures/TERM-02/source/stdout.txt",
+      "stdout_sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6"
+    }
+  ],
+  "all_match": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "FACT-07",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: the four-row table.",
+    "Still: highlight with the two named runs marked."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "table",
+    "highlight"
+  ],
+  "motion_model": "Still asset; renderAt(t) always shows the single authored state."
+}

@@ -1,0 +1,112 @@
+{
+  "id": "FACT-07",
+  "title": "Every run is different",
+  "subtitle": "Four recorded runs of the same program",
+  "columns": [
+    "Run",
+    "Rounds",
+    "Wars",
+    "Winner",
+    "How it ended"
+  ],
+  "rows": [
+    {
+      "run": "Run 1",
+      "capture": "TERM-04",
+      "stdout": "assets/captures/TERM-04/source/stdout.txt",
+      "stdout_sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "stdout_lines": 1297,
+      "rounds": 617,
+      "rounds_line": 1295,
+      "rounds_source": "Total rounds played : 617",
+      "wars": 26,
+      "wars_line": 1296,
+      "wars_source": "Total wars fought    : 26",
+      "winner": "Player 1",
+      "winner_line": 1294,
+      "winner_source": "PLAYER 1 WINS THE WAR!",
+      "ending": {
+        "text": "Player 2 ran out of cards in a war",
+        "line": 1291,
+        "source": "Player 2 has no cards left for the war - Player 1 takes the pot."
+      }
+    },
+    {
+      "run": "Run 2",
+      "capture": "TERM-05",
+      "stdout": "assets/captures/TERM-05/source/stdout.txt",
+      "stdout_sha256": "a94ee70d34f82f9aafa6f7732dc994fa27c6db5260c0d7162c9dc99932f88603",
+      "stdout_lines": 2144,
+      "rounds": 1056,
+      "rounds_line": 2142,
+      "rounds_source": "Total rounds played : 1056",
+      "wars": 10,
+      "wars_line": 2143,
+      "wars_source": "Total wars fought    : 10",
+      "winner": "Player 2",
+      "winner_line": 2141,
+      "winner_source": "PLAYER 2 WINS THE WAR!",
+      "ending": {
+        "text": "Normal round win",
+        "line": 2137,
+        "source": "Round 1056: Player 1 plays 4 of Spades, Player 2 plays 5 of Spades.",
+        "last_round_line": 2137,
+        "last_round": "Round 1056: Player 1 plays 4 of Spades, Player 2 plays 5 of Spades."
+      }
+    },
+    {
+      "run": "Run 3",
+      "capture": "TERM-06",
+      "stdout": "assets/captures/TERM-06/source/stdout.txt",
+      "stdout_sha256": "7db51b66f27a01d32325f366ec184ecd19a1ca2000e712e29a21a42438f091ce",
+      "stdout_lines": 332,
+      "rounds": 150,
+      "rounds_line": 330,
+      "rounds_source": "Total rounds played : 150",
+      "wars": 10,
+      "wars_line": 331,
+      "wars_source": "Total wars fought    : 10",
+      "winner": "Player 2",
+      "winner_line": 329,
+      "winner_source": "PLAYER 2 WINS THE WAR!",
+      "ending": {
+        "text": "Normal round win",
+        "line": 325,
+        "source": "Round 150: Player 1 plays 5 of Clubs, Player 2 plays 6 of Spades.",
+        "last_round_line": 325,
+        "last_round": "Round 150: Player 1 plays 5 of Clubs, Player 2 plays 6 of Spades."
+      }
+    },
+    {
+      "run": "Run 4",
+      "capture": "TERM-02",
+      "stdout": "assets/captures/TERM-02/source/stdout.txt",
+      "stdout_sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6",
+      "stdout_lines": 4165,
+      "rounds": 2008,
+      "rounds_line": 4163,
+      "rounds_source": "Total rounds played : 2008",
+      "wars": 69,
+      "wars_line": 4164,
+      "wars_source": "Total wars fought    : 69",
+      "winner": "Player 2",
+      "winner_line": 4162,
+      "winner_source": "PLAYER 2 WINS THE WAR!",
+      "ending": {
+        "text": "Player 1 ran out of cards in a war",
+        "line": 4159,
+        "source": "Player 1 has no cards left for the war - Player 2 takes the pot."
+      }
+    }
+  ],
+  "footer": {
+    "shortest": "Run 3",
+    "shortest_rounds": 150,
+    "longest": "Run 4",
+    "longest_rounds": 2008
+  },
+  "highlight_rounds": [
+    617,
+    2008
+  ]
+}
