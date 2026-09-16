@@ -1,6 +1,6 @@
 # ASM-03 timeline report
 
-181 segments, 41.4 min, assets used 121/135, beats without audio 0, unmapped cues 0.
+181 segments, 41.4 min, assets used 122/136, beats without audio 0, unmapped cues 0.
 
 ## Pending cutdowns (asset not delivered yet; current export used)
 
@@ -9,7 +9,6 @@
 ## Decisions and guards
 
 - S05-B01: DIA-02 is not cleared or has no record; skipped
-- S05-B02: DIA-15 is not cleared or has no record; skipped
 - S05-B02: DIA-02 is not cleared or has no record; skipped
 - S05-B03: DIA-02 is not cleared or has no record; skipped
 - S05-B04: DIA-02 is not cleared or has no record; skipped
@@ -60,10 +59,10 @@
 | 8:31 | S04-B06 | 17.6 | placement map | XTRA-06 (7.8 s), CODE-26 (9.8 s) |
 | 8:49 | S04-B07 | 18.9 | placement map | CODE-27 (18.9 s) |
 | 9:12 | S05-B01 | 19.1 | placement map | CODE-27:poster (19.1 s) |
-| 9:32 | S05-B02 | 10.4 | placement map | CODE-27:poster (10.4 s) |
-| 9:43 | S05-B03 | 13.5 | placement map | CODE-27:poster (13.5 s) |
-| 9:56 | S05-B04 | 20.9 | placement map | CODE-27:poster (20.9 s) |
-| 10:18 | S05-B05 | 10.2 | placement map | CODE-27:poster (10.2 s) |
+| 9:32 | S05-B02 | 10.4 | placement map | DIA-15:riffle (8.6 s) |
+| 9:43 | S05-B03 | 13.5 | placement map | DIA-15:poster (13.5 s) |
+| 9:56 | S05-B04 | 20.9 | placement map | DIA-15:poster (20.9 s) |
+| 10:18 | S05-B05 | 10.2 | placement map | DIA-15:poster (10.2 s) |
 | 10:28 | S05-B06 | 12.8 | placement map | BROLL-02 (12.8 s) |
 | 10:46 | S06-B01 | 6.3 | cue | CODE-02 (6.3 s) |
 | 10:53 | S06-B02 | 22.1 | hold | CODE-02:poster (22.1 s) |

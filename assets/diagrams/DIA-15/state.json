@@ -1,14 +1,15 @@
 {
   "id": "DIA-15",
   "production_status": "produced",
-  "release_status": "unreviewed",
+  "release_status": "approved",
   "assigned_agent": "worker ticket/DIA-15 (Claude Fable 5.1)",
   "updated_at": "2026-09-16",
   "blockers": [],
-  "reviewer": null,
+  "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
   "notes": [
     "Opened 2026-09-16 from Devin's review of the first cut.",
     "Produced 2026-09-16: riffle.mp4 (12 s, key 2.0 s), loop.mp4 (4 s seamless, key 0.1 s), poster.png, riffle.png, loop.png; rendered on shared card faces win95-workbench-1.1.0. Details, checks and review questions in qa.md and delivery.json.",
-    "Release review pending: two taste questions in qa.md (stylised top-down reading; face flashes)."
+    "Release review pending: two taste questions in qa.md (stylised top-down reading; face flashes).",
+    "Release approved 2026-09-16 by the producer after viewing riffle frames; original vector art on the shared 1.1.0 cards."
   ]
 }

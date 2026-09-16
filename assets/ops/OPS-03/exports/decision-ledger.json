@@ -4044,9 +4044,9 @@
    "id": "DIA-15",
    "title": "Animated riffle shuffle of a real deck",
    "kind": "motion",
-   "production_status": "planned",
-   "release_status": "unreviewed",
-   "reviewer": null,
+   "production_status": "produced",
+   "release_status": "approved",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []

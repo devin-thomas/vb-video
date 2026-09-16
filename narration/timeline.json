@@ -1035,17 +1035,17 @@
    "written": "Here are the rules: One. Take a standard 52-card deck and shuffle it. Deal it evenly — 26 cards to each player, face down. Neither player looks at their cards.",
    "visuals": [
     {
-     "id": "CODE-27",
+     "id": "DIA-15",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/poster.png",
-     "duration": null,
+     "file": "assets/diagrams/DIA-15/exports/riffle.mp4",
+     "duration": 12.0,
      "segment": "",
-     "still": true,
+     "still": false,
      "in_out": null,
-     "poster": null,
-     "cutdown": "poster",
-     "key_second": 0.0,
-     "slot": 10.4
+     "poster": "assets/diagrams/DIA-15/exports/poster.png",
+     "cutdown": "riffle",
+     "key_second": 2.0,
+     "slot": 8.587
     }
    ],
    "held": false
@@ -1060,9 +1060,9 @@
    "written": "Two. Each round, both players flip their top card face-up at the same time. Whoever played the higher card takes both cards and puts them at the bottom of their pile. Aces are high — they beat everything.",
    "visuals": [
     {
-     "id": "CODE-27",
+     "id": "DIA-15",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/poster.png",
+     "file": "assets/diagrams/DIA-15/exports/poster.png",
      "duration": null,
      "segment": "",
      "still": true,
@@ -1085,9 +1085,9 @@
    "written": "Three. If both players flip the same rank — two sevens, two kings, whatever — it's War. Each player places three cards face-down, then flips a fourth card face-up. Whoever's face-up card is higher takes the entire pot — all ten cards. If it's another tie, you do it again. War can chain.",
    "visuals": [
     {
-     "id": "CODE-27",
+     "id": "DIA-15",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/poster.png",
+     "file": "assets/diagrams/DIA-15/exports/poster.png",
      "duration": null,
      "segment": "",
      "still": true,
@@ -1110,9 +1110,9 @@
    "written": "Four. You keep playing until one player has all 52 cards. That player wins. If a player runs out of cards during a war, they lose.",
    "visuals": [
     {
-     "id": "CODE-27",
+     "id": "DIA-15",
      "kind": "motion",
-     "file": "assets/code/CODE-27/exports/poster.png",
+     "file": "assets/diagrams/DIA-15/exports/poster.png",
      "duration": null,
      "segment": "",
      "still": true,
@@ -4688,6 +4688,7 @@
   "DIA-12",
   "DIA-13",
   "DIA-14",
+  "DIA-15",
   "FACT-02",
   "FACT-03",
   "FACT-04",
