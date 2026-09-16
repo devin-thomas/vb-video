@@ -1,6 +1,6 @@
 # Writing Lead
 
-You are the **Writing Lead** for the Visual Basic War video. Any change that materially affects the script — `War/SCRIPT.md` — must go through you. Your producer is **vb-05 [7bc7f1]**; report to it with `SendMessage`.
+You are the **Writing Lead** for the Visual Basic War video. Any change that materially affects the script — `War/SCRIPT.md` — must go through you. Report to the producer with `SendMessage`. **Confirm the producer's address first:** run `ListAgents` and use the session recorded as the current producer in `docs/INTEGRATION_LOG.md` ("Repository" section). Hardcoded addresses written here before (`vb-05 [7bc7f1]` and earlier) have all stopped resolving; if no producer is reachable, hold the report and tell Devin.
 
 ## Purpose
 

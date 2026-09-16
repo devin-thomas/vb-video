@@ -11,7 +11,7 @@ You manage the **render lane** for the Visual Basic War video — tickets that u
 | XTRA-04 | FORTRAN versus BASIC introductory example | `assets/reference-code/XTRA-04/` | Done, merged (`8b3ba87`) |
 | XTRA-08 | 1995 tools class-photo lineup | `assets/stills/XTRA-08/` | Done, merged (`aedda73`) |
 | XTRA-14 | Real-world VB application collage | `assets/stills/XTRA-14/` | Done, reported (`778d38a`) |
-| XTRA-05 | VB4 IDE anatomy: five labeled panels | `assets/stills/XTRA-05/` | Done (`8fed9c3`, merged) + revision on `ticket/XTRA-05-rev` (`f05ecf7`) |
+| XTRA-05 | VB4 IDE anatomy: five labeled panels | `assets/stills/XTRA-05/` | Done (`8fed9c3`, merged) + revision `ticket/XTRA-05-rev` (`f05ecf7`, merged 2026-09-15 in `dfd63a2`) |
 | XTRA-15 | Windows XP office / legacy VB6 scene | `assets/stills/XTRA-15/` | **Not started** — blocked on a producer decision (below) |
 
 Every one of them carries `release_status: blocked`. Release is Devin's call in the OPS-04 review deck, never the lane's.
@@ -53,7 +53,7 @@ The producer approved this route: scout for a documentary photo first (public ar
 - CairoSVG smooths embedded rasters. Pre-scale with Pillow (integer, NEAREST or BOX as the content needs) and record both hashes. A blank panel is a failure, not a pass.
 - **Worktree base:** `Agent` worktrees are cut from `origin/main`, which lags whenever a push is pending. Every hand-off must open with `git checkout -B ticket/<ID> main` plus an ancestor check.
 - **Never `Set-Location` in your own PowerShell calls.** It moves this session's working directory, and later worktrees then branch from the wrong base. Use `Push-Location`/`Pop-Location` inside one command.
-- A branch already checked out in another worktree cannot be checked out again; branch a revision as `ticket/<ID>-rev` from it.
+- A branch already checked out in another worktree cannot be checked out again; branch a revision as `ticket/<ID>-rev` from it. (This bit the retired checkout at `C:\dev\experiments\vb`; the current checkout at `C:\dev\youtube\vb-video-checkout-2` has no pinned worktrees.)
 - Workers use a **generic browser User-Agent** and put no personal identifiers in request headers.
 
 ## Upstream constraints for collage and scene work
@@ -84,7 +84,7 @@ Editorial gates are yours: check each claim against primary sources, record evid
 Render env: set CAIROCFFI_DLL_DIRECTORIES=C:\msys64\ucrt64\bin and prepend it to PATH in every command. Do NOT Set-Location outside your worktree root. Pass --id <ID> to every render tool; finish_delivery.py takes --deliveries-only and must never run without --id. Rewrite its generic qa.md and re-hash delivery.json. Create proofs/ first.
 Prefer a side-by-side layout where the content suits it; check it at 720p and fall back only with a recorded reason.
 If the work needs a material change to War/SCRIPT.md, do NOT edit it — flag it for the Writing Lead.
-Done means: state.json produced (release blocked), `python tools/validate_delivery.py --id <ID>` passing, and every export viewed with the Read tool at full size and at 720p, recorded in qa.md. Commit on your branch with a message ending "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>". Do not push, merge, or touch GitHub issues or the gallery.
+Done means: state.json produced (release blocked), `python tools/validate_delivery.py --id <ID>` passing, and every export viewed with the Read tool at full size and at 720p, recorded in qa.md. Commit on your branch with a message ending "Co-Authored-By: <the model you run on> <noreply@anthropic.com>" (for example `Claude Fable 5.1`). Do not push, merge, or touch GitHub issues or the gallery.
 Report: ticket ID; branch, commit and base; worktree path; files; sources with URLs and what each established; tests actually run with results; validator output; what you saw at full size and 720p; review questions; any SCRIPT.md discrepancy; any boundary need.
 ```
 

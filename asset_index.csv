@@ -93,7 +93,7 @@ HIST-08,Windows 95 launch footage still,historical,archive,research,T2-H04,2,OPS
 HIST-09,CompUSA storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-09,docs/tickets/HIST-09.md,122,produced,blocked
 HIST-10,Egghead Software storefront,historical,archive,research,T2-H05,3,OPS-01,R14,assets/historical/HIST-10,docs/tickets/HIST-10.md,123,produced,blocked
 HIST-11,Visual Basic 4 retail box,historical,archive,research,T2-H06,3,OPS-01,R14,assets/historical/HIST-11,docs/tickets/HIST-11.md,124,produced,blocked
-HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,125,planned,blocked
+HIST-12,Borland Delphi 1.0 IDE,historical,archive,research,T2-H07,13,OPS-01,R14,assets/historical/HIST-12,docs/tickets/HIST-12.md,125,produced,blocked
 HIST-13,Metrowerks CodeWarrior IDE,historical,archive,research,T2-H08,14,OPS-01,R14,assets/historical/HIST-13,docs/tickets/HIST-13.md,126,produced,blocked
 HIST-14,NeXT Cube product photograph,historical,archive,research,T2-H09,14,OPS-01,R14,assets/historical/HIST-14,docs/tickets/HIST-14.md,127,produced,unreviewed
 HIST-15,PowerBuilder DataWindow,historical,archive,research,T2-H10,13,OPS-01,R14,assets/historical/HIST-15,docs/tickets/HIST-15.md,128,produced,blocked
@@ -103,12 +103,12 @@ HIST-18,Download.com archived site circa 1996,historical,archive,research,T2-H12
 HIST-19,Windows 3.1 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-19,docs/tickets/HIST-19.md,132,produced,blocked
 HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,assets/historical/HIST-20,docs/tickets/HIST-20.md,133,produced,blocked
 HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,134,produced,blocked
-BROLL-01,Hands shuffling physical cards,broll,scout,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,scouted,blocked
-BROLL-02,Two people playing War,broll,scout,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,scouted,blocked
-BROLL-03,1990s office with CRT monitors,broll,scout,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,scouted,blocked
-BROLL-04,Browsing a 1990s software store,broll,scout,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,scouted,blocked
-BROLL-05,Floppy disk insertion close-up,broll,scout,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,139,scouted,blocked
-BROLL-06,Pentium-era PC booting,broll,scout,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,scouted,blocked
+BROLL-01,Hands shuffling physical cards,broll,scout,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,produced,blocked
+BROLL-02,Two people playing War,broll,scout,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,produced,blocked
+BROLL-03,1990s office with CRT monitors,broll,scout,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,produced,blocked
+BROLL-04,Browsing a 1990s software store,broll,scout,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,produced,blocked
+BROLL-05,Floppy disk insertion close-up,broll,scout,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,139,produced,blocked
+BROLL-06,Pentium-era PC booting,broll,scout,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,produced,blocked
 XTRA-01,Visual Basic Programmer's Journal cover,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-01,docs/tickets/XTRA-01.md,141,produced,blocked
 XTRA-02,Period MSDN advertisement,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-02,docs/tickets/XTRA-02.md,142,produced,blocked
 XTRA-03,Early BASIC-era terminal hardware,historical,archive,research,SCRIPT-SUPPLEMENT,2,OPS-01,R14,assets/historical/XTRA-03,docs/tickets/XTRA-03.md,143,produced,blocked

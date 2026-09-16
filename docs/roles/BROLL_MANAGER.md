@@ -12,7 +12,7 @@ BROLL-01 through BROLL-06 — card shuffling, card playing, 90s offices, softwar
 
 ## Status (2026-09-15)
 
-Scouting is complete and merged to `main` (all six at `scouted`). Acquisition is complete on six unmerged branches, each at `produced` / `release_status: blocked`, R14 open.
+Scouting and acquisition are both complete and merged to `main`: all six tickets are `produced` / `release_status: blocked`, R14 open. The six acquisition branches below were merged by the producer on 2026-09-15, after sitting unmerged while the producer address was unreachable.
 
 | Ticket | Scouting | Acquisition branch | Commit | Acquired clip |
 |---|---|---|---|---|
@@ -23,7 +23,7 @@ Scouting is complete and merged to `main` (all six at `scouted`). Acquisition is
 | BROLL-05 | `7921999` | `ticket/BROLL-05-media` | `37efa0a` | Pexels 20503026 floppy insert |
 | BROLL-06 | `f322f77` then `d2dacf0` | `ticket/BROLL-06-media` | `6861e4f` | Pexels 8888818 CRT (**cutaway, no boot**) |
 
-The acquisition branches are named `-media` because the original `ticket/BROLL-<NN>` branches are still checked out in the scouting worktrees under `.claude/worktrees/`, so they cannot be checked out again.
+The acquisition branches were named `-media` because, in the retired checkout (`C:\dev\experiments\vb`), the original `ticket/BROLL-<NN>` branches were still checked out in scouting worktrees under `.claude/worktrees/`. The current checkout (`C:\dev\youtube\vb-video-checkout-2`) has no such worktrees; use plain `ticket/BROLL-<NN>` for any further work.
 
 **Only BROLL-01 and BROLL-05 fully match their brief.** 02, 03 and 06 carry labels that must survive every later edit, and 04 rests on a rights decision (below).
 

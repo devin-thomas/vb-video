@@ -196,6 +196,9 @@ def ensure_labels(needed: set[str], dry: bool) -> None:
 
 
 def save_manifest(manifest: dict, raw: str) -> None:
+    # A Windows checkout with core.autocrlf=true hands us CRLF; normalise before sniffing the layout, or the
+    # pretty-printed 12k-line manifest silently collapses to one line.
+    raw = raw.replace("\r\n", "\n")
     indent = 2 if raw.startswith("{\n") else None
     text = json.dumps(manifest, indent=indent, ensure_ascii="\\u" in raw) + ("\n" if raw.endswith("\n") else "")
     (ROOT / "manifest.json").write_bytes(text.encode("utf-8"))

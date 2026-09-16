@@ -96,6 +96,30 @@ DIA-11 to DIA-14, REF-01 and REF-02 are now **produced**; release stays **blocke
 - **Toolchain:** Windows 11, Python 3.14.0, CairoSVG 2.9.1 on MSYS2 Cairo 1.18.4, Pillow 12.3.0, Playwright 1.63.0 with Chromium 153, ffmpeg 6.0.
 - **Legacy names:** the six legacy files now copy the new sources; REF-01 and REF-02 use the clean first viewport. See [../assets/LEGACY_NAMES.md](../assets/LEGACY_NAMES.md).
 
+## Session 6 — new producer checkout and department merges (2026-09-15)
+
+The producer moved to a fresh checkout at `C:\dev\youtube\vb-video-checkout-2` (the checkout at `C:\dev\experiments\vb` is retired) and now runs on Claude Fable 5.1, upgraded from Claude Opus 4.6. Current producer address: **vb-video-checkout-2-38 [20c133]**. Departments confirm it with `ListAgents` rather than trusting a role document.
+
+- **Shallow clone.** The new checkout had been cloned with `--depth 1`, so `main` was a single parentless commit and every ticket branch reported 124 commits ahead with no merge base. `git fetch --unshallow origin` restored the history; nothing was rewritten.
+- **Lost reports.** Eight finished department branches were never merged because their completion reports went to producer addresses that had stopped resolving. They were found from `git branch -r`, validated (`tools/validate_delivery.py` ok for all eight; `tools/validate_pack.py` no errors), viewed at 720p, and merged with no conflicts:
+
+| Ticket | Branch | Tip | Merge |
+|---|---|---|---|
+| XTRA-05 | `ticket/XTRA-05-rev` | `f05ecf7` | `dfd63a2` |
+| HIST-12 | `ticket/HIST-12-resume` | `a9b6f81` | `18d5382` |
+| BROLL-01 | `ticket/BROLL-01-media` | `a74461e` | `dbbe998` |
+| BROLL-02 | `ticket/BROLL-02-media` | `41fcd89` | `f623ef1` |
+| BROLL-03 | `ticket/BROLL-03-media` | `25fc106` | `8ec7229` |
+| BROLL-04 | `ticket/BROLL-04-media` | `05d12b2` | `6eff35f` |
+| BROLL-05 | `ticket/BROLL-05-media` | `37efa0a` | `94f6bfc` |
+| BROLL-06 | `ticket/BROLL-06-media` | `6861e4f` | `faccfae` |
+
+  `ticket/HIST-12` (`94f4073`) is an ancestor of `ticket/HIST-12-resume` and came in with it.
+- **Indexes and issues.** `tools/github_issues.py` closed #125 (HIST-12) and #135–#140 (BROLL-01 to BROLL-06) as produced and refreshed bodies; `tools/build_indexes.py` rebuilt the gallery, `asset_index.csv`, `review/REMAINING_TICKETS.md` and `review/summary.json`.
+- **Review ledger.** `review/editorial-review.json` now exists as the single source for the OPS-04 deck, seeded with the 37 review questions (33 open) recorded by these eight tickets. Every one still carries `release_status: blocked` on R14; acquisition is not clearance.
+- **Tooling.** `tools/github_issues.py` sniffed the manifest layout from raw text and, on a `core.autocrlf=true` checkout where `manifest.json` carries CRLF, wrote the whole 12,067-line file back as one line. It now normalises line endings before sniffing; the collapsed file was restored from `HEAD` (no data changed).
+- **Role documents.** `docs/roles/PRODUCER.md` names the new checkout, the model, and three gotchas (shallow clone, branch suffixes, lost reports). The four department documents that still hardcoded `vb-05 [7bc7f1]` now tell managers to confirm the producer via `ListAgents` and this log. Historical evidence files under `assets/` that mention `C:\dev\experiments\vb` are byte-exact records of where the work ran and were left alone.
+
 ## Mapping: original GitHub issues → tickets
 
 | GitHub Issue | Title | Tickets | Status |
@@ -115,5 +139,6 @@ DIA-11 to DIA-14, REF-01 and REF-02 are now **produced**; release stays **blocke
 
 ## Repository
 
+- **Current producer:** `vb-video-checkout-2-38 [20c133]` (Claude Fable 5.1, since 2026-09-15) working in `C:\dev\youtube\vb-video-checkout-2`. Departments confirm this with `ListAgents` before reporting.
 - Default branch is `main` (renamed from `master` on 2026-09-15; GitHub redirects old links).
 - `.gitattributes` stores every asset folder and the hash-locked sources and harness byte-for-byte (`-text`). With `core.autocrlf=true`, Git would otherwise rewrite line endings on checkout and break the SHA-256 hashes recorded in `delivery.json` and `harness-manifest.json`.
