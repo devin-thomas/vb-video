@@ -177,7 +177,7 @@ def cpp_column(s, x, y, w, h, step):
             s.text(text, x + 40, ry, 22, MUTED)
 
 
-SUB = 'Authored teaching example with one Integer. It shows nothing about what ByVal does with an array.'
+SUB = 'One Integer, one Sub: a copy of the value versus the variable itself.'
 
 
 def main_scene(step):
@@ -226,7 +226,7 @@ def main():
         vmap[name] = fn
     notes = [
         'Revision 2 (2026-09-16, Devin’s cut note 16): the diagram is replaced by a code-driven demonstration. Bump adds one to its parameter; x = 5 before the call; ByVal leaves x at 5, ByRef makes it 6. The C++ column shows int n versus int& n with the same outcome.',
-        'The Bump / bump example is an authored teaching example, not supplied code; the canvas says so. Scoped to one Integer: no claim of automatic deep copying for arrays, and no historical default-passing statement.',
+        'The Bump / bump example is an authored teaching example, not supplied code. It shows one Integer only: nothing on screen claims or shows what ByVal does with an array (no automatic deep copy is depicted), and no historical default-passing statement appears. This caveat lives here and in qa.md, not on screen (producer decision 2026-09-16).',
         'Timing: steps at 0, 1.5, 3, 4.5, 6 and 7.5 s (x holds 5; the call; the parameter appears; n = n + 1 runs; the Sub ends; the result), and the result holds from 7.5 s to 10 s.',
         'Annotations (current-line marker, copy arrow, back-pointing reference arrow, labels) sit in the margins and value area, never over code text.',
     ]
