@@ -1,0 +1,22 @@
+{
+  "compiler": "gcc.exe (Rev3, Built by MSYS2 project) 16.2.0",
+  "note": "The card copy has no #include; each check file is exactly one line \"#include <stdlib.h>\" (for rand) followed by the card copy. The contrast file uncomments line 11 of the copy.",
+  "runs": [
+    {
+      "file": "a363_ref05_valid.c",
+      "source": "#include <stdlib.h>\n/* C (C89): declarations first, then statements */\nvoid shuffle(int *deck, int count)\n{\n    int i;\n    int j;\n    int temp;\n    for (i = count - 1; i > 0; i--) {\n        j = rand() % (i + 1);\n        temp = deck[i]; deck[i] = deck[j]; deck[j] = temp;\n    }\n    /* int late = 0;   <- not allowed in C89 after a statement */\n}\n",
+      "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c89 -pedantic-errors -Wall -Wextra -c a363_ref05_valid.c -o a363_ref05_valid.c.o",
+      "exit_code": 0,
+      "stderr": "",
+      "expected": "compiles"
+    },
+    {
+      "file": "a363_ref05_contrast.c",
+      "source": "#include <stdlib.h>\n/* C (C89): declarations first, then statements */\nvoid shuffle(int *deck, int count)\n{\n    int i;\n    int j;\n    int temp;\n    for (i = count - 1; i > 0; i--) {\n        j = rand() % (i + 1);\n        temp = deck[i]; deck[i] = deck[j]; deck[j] = temp;\n    }\n    int late = 0;   /* the same declaration, uncommented */\n}\n",
+      "command": "C:/msys64/ucrt64/bin/gcc.exe -std=c89 -pedantic-errors -Wall -Wextra -c a363_ref05_contrast.c -o a363_ref05_contrast.c.o",
+      "exit_code": 1,
+      "stderr": "a363_ref05_contrast.c: In function 'shuffle':\na363_ref05_contrast.c:12:5: error: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]\n   12 |     int late = 0;   /* the same declaration, uncommented */\n      |     ^~~\na363_ref05_contrast.c:12:9: warning: unused variable 'late' [-Wunused-variable]\n   12 |     int late = 0;   /* the same declaration, uncommented */\n      |         ^~~~",
+      "expected": "rejected"
+    }
+  ]
+}

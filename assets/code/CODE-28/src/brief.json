@@ -1,0 +1,33 @@
+{
+  "id": "CODE-28",
+  "title": "Every variable declared at the top: the Dim block of a Program.vb subroutine",
+  "requirements": [
+    "Literal excerpt of `War/Program.vb` (byte-exact text; the validator checks code cards as excerpts). Choose the subroutine the narration is looking at in section 7 (the shuffle, `Program.vb` lines 114–126 per DIA-06's anchors, or the nearest subroutine whose Dims are all at the top). Record the exact line range.",
+    "Highlight variant: the `Dim` block gets the family's highlight bar; a margin label reads \"all declarations first\". Nothing crosses code text.",
+    "Header shows `Program.vb` and `VB.NET`, as the CODE family does.",
+    "Still with the standard `clean` and `highlighted` variants; the renderer holds it for the beat."
+  ],
+  "beats": [
+    "Still: clean excerpt.",
+    "Still: highlighted Dim block with the margin label."
+  ],
+  "checks": [
+    "Excerpt is byte-identical to the recorded Program.vb line range.",
+    "The Dim block is visibly first in the subroutine.",
+    "720p proof legible."
+  ],
+  "copy": "(literal excerpt; worker records the exact Program.vb line range in delivery.json and evidence/source-excerpts.md)",
+  "refs": [
+    [
+      "SCRIPT.md",
+      305,
+      305
+    ],
+    [
+      "Program.vb",
+      114,
+      126
+    ]
+  ],
+  "gates": []
+}

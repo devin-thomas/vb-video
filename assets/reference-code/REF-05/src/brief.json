@@ -1,0 +1,27 @@
+{
+  "id": "REF-05",
+  "title": "C89: declarations at the top of the block",
+  "requirements": [
+    "Authored representative C89 (about 12 lines): a function whose locals are all declared at the top, then a comment-marked line showing a declaration after a statement with the label \"not allowed in C89 (C99 and later only)\". Header: \"C (C89)\".",
+    "Compile-check the C89-valid part with any available C compiler in C89 mode if one is installed; if none is, say so in qa.md. Do not claim a compile that did not run.",
+    "Same reference-code treatment as REF-01..REF-04 (dark card, monospace, margin labels)."
+  ],
+  "beats": [
+    "Still: full card.",
+    "Still: `top-focus` with the declaration block highlighted."
+  ],
+  "checks": [
+    "The C89 rule is stated correctly (declarations precede statements within a block).",
+    "The disallowed line is clearly marked as the contrast, not as valid C89.",
+    "720p proof legible."
+  ],
+  "copy": "/* C (C89): declarations first, then statements */\nvoid shuffle(int *deck, int count)\n{\n    int i;\n    int j;\n    int temp;\n    for (i = count - 1; i > 0; i--) {\n        j = rand() % (i + 1);\n        temp = deck[i]; deck[i] = deck[j]; deck[j] = temp;\n    }\n    /* int late = 0;   <- not allowed in C89 after a statement */\n}",
+  "refs": [
+    [
+      "SCRIPT.md",
+      305,
+      305
+    ]
+  ],
+  "gates": []
+}

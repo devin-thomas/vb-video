@@ -1,0 +1,235 @@
+{
+  "id": "REF-05",
+  "title": "C89: declarations at the top of the block",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "authored teaching illustration: representative code written for this production",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 1027,
+      "sha256": "8c08be4db9546dda31cf6987b2a03bbd20db47764f6da839ed61728515370c7e"
+    },
+    {
+      "path": "evidence/compile-check.json",
+      "role": "evidence / QA",
+      "bytes": 1957,
+      "sha256": "ed12bad1efc522c81b2fa883954495bef73763714ed611301e169fbb3ae572bb"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1020,
+      "sha256": "55c9e2a08328fcbb1db40a0b8256eb170211f32618648a6d30e3b1690fbcd7ec"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 154,
+      "sha256": "b7ddfb989d1a0db227e16f0f81f7bf870ad8a5117aa601397fdd8eaa0570e079"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 382,
+      "sha256": "1ea7170d3eb16dadf1021c7eddc6161cc20334597ec036838e6de8b3bd5a834a"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 108724,
+      "sha256": "5432209de3ef3f6ce4d2b57a93b599dcc622f2cd20b6a1432eedbe16235447ed"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 90323,
+      "sha256": "340c132ba3c70eac5cbf7d5257c4360cb5a372ebdb0cfd0eae67d92446833d1c"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 114201,
+      "sha256": "b6dfef0ba6a281f41bbc8292b4db7b6e5cdcfe55cea46a0473fc5cf7e0614d80"
+    },
+    {
+      "path": "exports/top-focus.png",
+      "role": "rendered still",
+      "bytes": 114201,
+      "sha256": "b6dfef0ba6a281f41bbc8292b4db7b6e5cdcfe55cea46a0473fc5cf7e0614d80"
+    },
+    {
+      "path": "proofs/gallery.jpg",
+      "role": "evidence / QA",
+      "bytes": 27713,
+      "sha256": "61fc8338a0082059547fb355debbf9172ec7e1cdaf18fb192dde2cf5ac5ece1b"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 155864,
+      "sha256": "9936796cbde9211b95dc7bdf45c131714ecb75965e3d68c9723f82ce4d53bbd1"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 4900,
+      "sha256": "9ae22664dec9e71a2c58e1033a78184ce36d51b35ede8069771e68b14938acc5"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1377,
+      "sha256": "30ec3336521a9071b692b6f2bbddbfbf1d60ccea62836be5b1e5e3b8762063f6"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 1043,
+      "sha256": "e4e4116f684976c4a50891bcda8ec39781d2bbebb72a5b524a7b075912a19d4d"
+    },
+    {
+      "path": "src/excerpt.c",
+      "role": "editable source",
+      "bytes": 325,
+      "sha256": "e8c75fc157d9a21fb0bf0783a2f5c500a503d91ee6c27fc80444e94ee50230ba"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 21726,
+      "sha256": "47995fec19a98aa66ca18d28279a1d320e7ff1ecc7dca1ccc2f19b1f438003d8"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 18051,
+      "sha256": "20927eda5e21d36323f678aa9f362339b7186dc6728051a405d5bf8acae9e888"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 18051,
+      "sha256": "20927eda5e21d36323f678aa9f362339b7186dc6728051a405d5bf8acae9e888"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 476,
+      "sha256": "02b916fb692bc1fb957777bf53da63d86e568a273e9a3fcb9efd31209b7da56d"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 17704,
+      "sha256": "ffedc585eb1b73aa5c83e6b8d544efc1f9885d4e2e7eff7e876898db6cf1b063"
+    },
+    {
+      "path": "src/variant-top-focus.svg",
+      "role": "editable source",
+      "bytes": 18051,
+      "sha256": "20927eda5e21d36323f678aa9f362339b7186dc6728051a405d5bf8acae9e888"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "top-focus",
+      "files": [
+        "exports/top-focus.png",
+        "src/variant-top-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        305,
+        305
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id REF-05 run after this inventory was written; output recorded in qa.md."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-size inspection of clean.png and top-focus.png (poster.png is byte-identical to top-focus.png); 1280 × 720 copies of both viewed as the 720p proof.",
+        "scope": "Both named variants.",
+        "status": "Twelve lines legible at both sizes; the declaration block bar and the line-11 contrast bar end before their margin labels; nothing crosses code text."
+      }
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed (render_assets.py asserts 1920 × 1080 for every PNG)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box, annotation-versus-code overlap",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: 4 SVG files, 391 text boxes, 22 annotation elements, 0 overlaps, no network request"
+    },
+    {
+      "test": "C89 compile check",
+      "evidence": "evidence/compile-check.json",
+      "result": "gcc.exe (Rev3, Built by MSYS2 project) 16.2.0: the card copy plus one #include <stdlib.h> compiles with -std=c89 -pedantic-errors -Wall -Wextra (exit 0, no diagnostics); with line 11 uncommented it is rejected (exit 1, 'ISO C90 forbids mixed declarations and code')."
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "cairo_dll": "CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin (MSYS2 UCRT64 Cairo)",
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading in Playwright Chromium.",
+    "gcc": "gcc.exe (Rev3, Built by MSYS2 project) 16.2.0"
+  },
+  "notes": [
+    "Authored representative C89 written for this production from the ticket’s copy; not from Program.vb, a textbook, or any recovered source. The file name shuffle.c is a display label.",
+    "The commented line 11 is the contrast: a declaration after a statement, which C89 forbids and C99 and later allow. Its tinted bar and margin label appear on both variants; the top-focus variant adds the declaration-block bar.",
+    "Compile check recorded in evidence/compile-check.json and qa.md.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ],
+  "authored": {
+    "kind": "authored representative C89 (ticket copy, verbatim)",
+    "file": "src/excerpt.c",
+    "literal_excerpt_of_program": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CODE-28",
+  "browser": "installed Chromium 153.0.8010.12",
+  "loading_mode": "In-memory HTML (Playwright set_content; file:// not exercised)",
+  "offline": true,
+  "deterministic_seek": true,
+  "svg_files_checked": 4,
+  "text_boxes_checked": 491,
+  "out_of_canvas": [],
+  "annotation_overlap_check": {
+    "files": [
+      "scene-0000.svg",
+      "scene.svg",
+      "variant-clean.svg",
+      "variant-highlighted.svg"
+    ],
+    "annotation_elements": 6,
+    "code_text_elements": 284,
+    "overlaps": [],
+    "method": "getBBox of every gold (#eab676) filled or stroked element that is not itself a monospace code token (numeric literals share the gold colour) against every monospace code text element inside the panel, in every scene state and variant."
+  },
+  "errors": [],
+  "limitations": [
+    "Checks canvas bounds and annotation-versus-code bounding boxes, not every possible overlap or semantic correctness.",
+    "Typography depends on installed fonts for editable sources; rendered media is frozen."
+  ]
+}
