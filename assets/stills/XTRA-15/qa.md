@@ -26,3 +26,6 @@ No narration sync, sound design, final video assembly, full independent editoria
 - Desktop: generic XP appearance with plain blue background (no Bliss wallpaper; rights unclear).
 - Explicitly labeled "Reconstruction" on screen. Not a documentary photograph.
 - Internal proof only; release blocked under R01, R11, R14 pending the review deck.
+
+## Producer revision (2026-09-15)
+The release frame now carries only the red RECONSTRUCTION label. The two provenance sentences that were burned into the picture (authored scene, app source, not a documentary photograph) moved to copy.txt, provenance.json and the credits. Sources rebuilt with src/build.py and re-rendered with tools/render/render_assets.py --id XTRA-15 (Python 3.14.0, CairoSVG 2.9.1). Poster and 720p proof viewed by the producer: label present, application whole, no other change.

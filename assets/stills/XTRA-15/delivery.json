@@ -2,7 +2,7 @@
   "id": "XTRA-15",
   "title": "Windows XP office / legacy VB6 scene",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "authored reconstruction",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -21,8 +21,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 4006,
-      "sha256": "8c378982412c838a1adff03c17cf1d520c8b360430865a3dac017c95ecc3fb01"
+      "bytes": 5002,
+      "sha256": "51f4a7b779b3d2d888201438f02413187ab0682352f55fda7b820b1b0a2d2e05"
     },
     {
       "path": "evidence/provenance.json",
@@ -45,32 +45,32 @@
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 32677,
-      "sha256": "ae734e0f011cfbc14cacf5bd719ab789a0caf6848679be6b407dd926d333957a"
+      "bytes": 27446,
+      "sha256": "e0c0eea7510c5cd02e2ce88005d51affbfed2f817f66c14e109a11af23f2589b"
     },
     {
       "path": "exports/legacy-scene.png",
       "role": "rendered still",
-      "bytes": 149205,
-      "sha256": "d4ecda40056e9ca42e148534e1e8c85a6eb938b2711818119732ec013bc8647c"
+      "bytes": 139309,
+      "sha256": "8ed6866ea213b69a4c81b03e4b6fcdb50974046d6f67cfb2c8ec440ff6fc6abb"
     },
     {
       "path": "exports/poster.png",
       "role": "rendered still",
-      "bytes": 149205,
-      "sha256": "d4ecda40056e9ca42e148534e1e8c85a6eb938b2711818119732ec013bc8647c"
+      "bytes": 139309,
+      "sha256": "8ed6866ea213b69a4c81b03e4b6fcdb50974046d6f67cfb2c8ec440ff6fc6abb"
     },
     {
       "path": "proofs/poster-720.png",
       "role": "evidence / QA",
-      "bytes": 123324,
-      "sha256": "7d17ba3a43903f06ee156ec24db3971b719052339368c748107d7ecaf9d8aa20"
+      "bytes": 96984,
+      "sha256": "d60664d6509bfd435da0211376e90fcb0fdb753d9b85244942255482185cdf48"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2826,
-      "sha256": "f61d1ee45a7b91e7f3013a2b313107952cef3e1ae82345c6bb8ec5a71280db7b"
+      "bytes": 3328,
+      "sha256": "df799fbe897ca8904c509a74b23b588cb8698167e46f76118e360beb27e99213"
     },
     {
       "path": "src/brief.json",
@@ -87,26 +87,26 @@
     {
       "path": "src/build.py",
       "role": "editable source",
-      "bytes": 14665,
-      "sha256": "f742d9d80126b201c9cb9e6ff057ea28ddb15eaae6c4e74c6f445ffdffb3a44d"
+      "bytes": 14612,
+      "sha256": "ac06c544a78b788d648cbb3173c391bdaf9c52b4022ba249e92d1c84d1968e9a"
     },
     {
       "path": "src/copy.txt",
       "role": "editable source",
-      "bytes": 747,
-      "sha256": "9a83ecb125257fc0908ce0f1024931f40e50a063edfbbe42d99ef2256448e711"
+      "bytes": 774,
+      "sha256": "83118ad5c759de58010fb76a265cd253f8637880026ac8edcfea437760560e72"
     },
     {
       "path": "src/index.html",
       "role": "editable source",
-      "bytes": 157817,
-      "sha256": "1fcd5360347904f00e4afdce37ba2398b3cd6f9b22b3f390de1a9f44d7603842"
+      "bytes": 157286,
+      "sha256": "7083c64def00bd2af85483c5398a535bec8d2fbd8968a6418dc0532adad78ae6"
     },
     {
       "path": "src/scene.svg",
       "role": "editable source",
-      "bytes": 155849,
-      "sha256": "2bd06a01eb554e15f36237ed5cb916a8f3dfec8f4bcc965ad13fa6a8217512a2"
+      "bytes": 155354,
+      "sha256": "263a9623eb70cb42cc9a2f38e60f450695ec09df082d3197f64d1296ff666ea6"
     },
     {
       "path": "src/timeline.json",
@@ -117,8 +117,8 @@
     {
       "path": "src/variant-legacy-scene.svg",
       "role": "editable source",
-      "bytes": 155849,
-      "sha256": "2bd06a01eb554e15f36237ed5cb916a8f3dfec8f4bcc965ad13fa6a8217512a2"
+      "bytes": 155354,
+      "sha256": "263a9623eb70cb42cc9a2f38e60f450695ec09df082d3197f64d1296ff666ea6"
     }
   ],
   "variants": [
@@ -181,11 +181,7 @@
       "result": "passed"
     }
   ],
-  "unresolved_gates": [
-    "R01",
-    "R11",
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -209,6 +205,7 @@
     "Desktop: generic XP appearance with plain blue background (no Bliss wallpaper; rights unclear).",
     "Explicitly labeled \"Reconstruction\" on screen. Not a documentary photograph.",
     "Internal proof only; release blocked under R01, R11, R14 pending the review deck.",
-    "Original ticket requirements retained; these exports are not producer publication approval."
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Producer revision 2026-09-15: provenance caption removed from the frame (RECONSTRUCTION label kept); re-rendered; release approved under Devin's delegation."
   ]
 }

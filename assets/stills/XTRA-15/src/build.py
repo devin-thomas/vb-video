@@ -195,11 +195,9 @@ def build_scene_svg(img, title):
 
     # -- Reconstruction label (below the monitor, within safe area) --
     label_y = scr_y + scr_h + bezel + 8
+    # Producer revision 2026-09-15: the release frame keeps the RECONSTRUCTION label only; the
+    # provenance sentence lives in copy.txt, provenance.json and the credits, not in the picture.
     s.text('RECONSTRUCTION', 160, label_y + 30, 28, RECONSTRUCTION_RED, bold=True)
-    s.text('Authored scene  |  App source: INVOICE-IT for Windows (XTRA-11, VB 2.0 provenance)',
-           160, label_y + 58, 20, MUTED)
-    s.text('Not a documentary photograph. Windows XP desktop is a stylistic reconstruction.',
-           160, label_y + 80, 18, MUTED)
 
     return s.finish()
 
@@ -293,8 +291,8 @@ def main():
         '',
         'Labels:',
         '  RECONSTRUCTION',
-        '  Authored scene  |  App source: INVOICE-IT for Windows (XTRA-11, VB 2.0 provenance)',
-        '  Not a documentary photograph. Windows XP desktop is a stylistic reconstruction.',
+        '  (Provenance is recorded off-screen: authored scene; app source INVOICE-IT for Windows, XTRA-11, VB 2.0;',
+        '   not a documentary photograph; the Windows XP desktop is a stylistic reconstruction.)',
         '',
         'No present-day usage claim, no "today in 2024" wording, no business data.',
     ])

@@ -10,7 +10,7 @@ On-screen elements (all authored reconstruction, not documentary):
 
 Labels:
   RECONSTRUCTION
-  Authored scene  |  App source: INVOICE-IT for Windows (XTRA-11, VB 2.0 provenance)
-  Not a documentary photograph. Windows XP desktop is a stylistic reconstruction.
+  (Provenance is recorded off-screen: authored scene; app source INVOICE-IT for Windows, XTRA-11, VB 2.0;
+   not a documentary photograph; the Windows XP desktop is a stylistic reconstruction.)
 
 No present-day usage claim, no "today in 2024" wording, no business data.
