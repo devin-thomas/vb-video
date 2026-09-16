@@ -5,11 +5,13 @@
       "status": "approved",
       "reason": "Program unchanged. Examples use fully supplied normal cases; the short-hand ordering edge case is documented in the register and never depicted.",
       "evidence_paths": [
-        "source-excerpts.md"
+        "source-excerpts.md",
+        "../src/build.json"
       ],
       "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
       "approval_date": "2026-09-15",
-      "decision": "Approved: the asset matches the script and source as they now stand."
+      "decision": "Approved: the asset matches the script and source as they now stand.",
+      "revision_2_check": "Re-checked by the DIA-02 revision 2 worker on 2026-09-16: the five cutdowns show only the deal (52 counted transfers), one fully supplied normal round (A♠ over K♥, 27 / 25) and one fully supplied single war (three burns each, 9♦ / A♦, 21 / 31) from tools/fixtures/war_storyboard.json. No insufficient-cards ending, no short-hand war, and no 'runs out of cards' rule text is depicted; the final-hold card carries only the win-all-52 rule. The producer's 2026-09-15 decision is unchanged by this revision; the release status of the new exports is separately unreviewed."
     }
   ]
 }

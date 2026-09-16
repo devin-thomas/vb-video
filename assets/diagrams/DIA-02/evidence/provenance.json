@@ -46,15 +46,37 @@
       ],
       "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
       "relationship": "literal excerpt"
+    },
+    {
+      "path": "../../../tools/fixtures/war_storyboard.json",
+      "lines": [
+        1,
+        1
+      ],
+      "sha256": "835d1bba8174576880e948ffdf3f1efc7210d841febd6adbee7537611fe13c36",
+      "relationship": "deterministic teaching fixture (normal_round, single_war)"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        16,
+        18
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "Devin's review notes 9 and 11 (revision 2 brief)"
     }
   ],
   "authored_additions": [
-    "Shuffle is an abstraction; dealing is alternating, one card at a time, with 52 counted transfers.",
-    "Normal-round and single-war scenes reset to independent supplied fixtures.",
-    "All count states conserve 52; the win-all-52 closing caption is a rule, not an alleged conclusion of the short example."
+    "Revision 2 (2026-09-16, review notes 9 and 11): re-authored as five named cutdowns (deck-hold, alternating-deal, normal-round, single-war, final-hold) that each start at their named moment and hold their end state; key_second per cutdown marks the moment for placement on the narrated word. Cards use the revised shared faces (win95-workbench-1.1.0).",
+    "Shuffle is not animated here (DIA-15 carries the shuffle cue); the deck-hold is the squared deck at rest. Dealing is alternating, one card at a time, with 52 counted transfers.",
+    "Normal-round and single-war scenes are independent supplied fixtures (tools/fixtures/war_storyboard.json); the continuous version shows a visible reset between them.",
+    "All count states conserve 52; the win-all-52 closing caption is a rule, not an alleged conclusion of the short example. The insufficient-cards ending (R05) is not depicted.",
+    "Captions \"Ace beats King\", \"Same rank · tie\", \"Three face-down each\", \"Alternate one card at a time\", \"26 cards per player\", \"To Player 2’s bottom\", \"New example · 26 cards each\" and the heading \"52 cards\" are authored production copy; the five ticket copy lines appear verbatim."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "Revision 2 (2026-09-16) opened from Devin's review notes 9 and 11; release status returned to unreviewed until the producer approves the new exports."
+  ]
 }

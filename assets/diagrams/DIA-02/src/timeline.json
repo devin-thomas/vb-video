@@ -1,15 +1,16 @@
 {
   "id": "DIA-02",
-  "durationSeconds": 28,
+  "durationSeconds": 35,
   "fps": 30,
   "width": 1920,
   "height": 1080,
   "beats": [
-    "0–4 s: full deck, shuffle abstraction, 52 label.",
-    "4–10 s: alternating deal ends at 26 / 26 / pot 0.",
-    "10–16 s: A♠ beats K♥; pot 2 travels to Player 1 bottom; counters become 27 / 25.",
-    "16–24 s: reset visibly to the independent single-war fixture and show the tie, six burns, and deciding pair.",
-    "24–28 s: collect the ten-card pot and hold the rank-only rule."
+    "0–3 s: the full squared deck at rest (deck-hold).",
+    "3–11 s: alternating deal, one card at a time from 3.6 s; 26 / 26 from 8.77 s (alternating-deal).",
+    "11–17 s: A♠ and K♥ flip at 12.2 s; the pair travels to Player 1's bottom; 27 / 25 from 15 s (normal-round).",
+    "17–18.5 s: visible reset to the independent single-war fixture, 26 cards each.",
+    "18.5–31 s: the tie at 19.5 s, three face-down each by 22.9 s, the deciding flip at 24.8 s, the ten-card pot collected 27–28.9 s; 21 / 31 from 29.1 s (single-war).",
+    "31–35 s: the rank-only rule card, Win all 52 cards. (final-hold)."
   ],
   "frames": [
     {
@@ -17,317 +18,1706 @@
       "file": "scene-0000.svg"
     },
     {
-      "time": 1,
+      "time": 3,
       "file": "scene-0001.svg"
     },
     {
-      "time": 3,
-      "file": "scene-0000.svg"
-    },
-    {
-      "time": 4.096154,
+      "time": 3.6,
       "file": "scene-0002.svg"
     },
     {
-      "time": 4.192308,
+      "time": 3.6333333333333333,
       "file": "scene-0003.svg"
     },
     {
-      "time": 4.288462,
+      "time": 3.6666666666666665,
       "file": "scene-0004.svg"
     },
     {
-      "time": 4.384615,
+      "time": 3.7,
       "file": "scene-0005.svg"
     },
     {
-      "time": 4.480769,
+      "time": 3.7333333333333334,
       "file": "scene-0006.svg"
     },
     {
-      "time": 4.576923,
+      "time": 3.7666666666666666,
       "file": "scene-0007.svg"
     },
     {
-      "time": 4.673077,
+      "time": 3.8,
       "file": "scene-0008.svg"
     },
     {
-      "time": 4.769231,
+      "time": 3.8333333333333335,
       "file": "scene-0009.svg"
     },
     {
-      "time": 4.865385,
+      "time": 3.8666666666666667,
       "file": "scene-0010.svg"
     },
     {
-      "time": 4.961538,
+      "time": 3.9,
       "file": "scene-0011.svg"
     },
     {
-      "time": 5.057692,
+      "time": 3.9333333333333336,
       "file": "scene-0012.svg"
     },
     {
-      "time": 5.153846,
+      "time": 3.966666666666667,
       "file": "scene-0013.svg"
     },
     {
-      "time": 5.25,
+      "time": 4.0,
       "file": "scene-0014.svg"
     },
     {
-      "time": 5.346154,
+      "time": 4.033333333333333,
       "file": "scene-0015.svg"
     },
     {
-      "time": 5.442308,
+      "time": 4.066666666666666,
       "file": "scene-0016.svg"
     },
     {
-      "time": 5.538462,
+      "time": 4.1,
       "file": "scene-0017.svg"
     },
     {
-      "time": 5.634615,
+      "time": 4.133333333333333,
       "file": "scene-0018.svg"
     },
     {
-      "time": 5.730769,
+      "time": 4.166666666666667,
       "file": "scene-0019.svg"
     },
     {
-      "time": 5.826923,
+      "time": 4.2,
       "file": "scene-0020.svg"
     },
     {
-      "time": 5.923077,
+      "time": 4.233333333333333,
       "file": "scene-0021.svg"
     },
     {
-      "time": 6.019231,
+      "time": 4.266666666666667,
       "file": "scene-0022.svg"
     },
     {
-      "time": 6.115385,
+      "time": 4.3,
       "file": "scene-0023.svg"
     },
     {
-      "time": 6.211538,
+      "time": 4.333333333333333,
       "file": "scene-0024.svg"
     },
     {
-      "time": 6.307692,
+      "time": 4.366666666666667,
       "file": "scene-0025.svg"
     },
     {
-      "time": 6.403846,
+      "time": 4.4,
       "file": "scene-0026.svg"
     },
     {
-      "time": 6.5,
+      "time": 4.433333333333334,
       "file": "scene-0027.svg"
     },
     {
-      "time": 6.596154,
+      "time": 4.466666666666667,
       "file": "scene-0028.svg"
     },
     {
-      "time": 6.692308,
+      "time": 4.5,
       "file": "scene-0029.svg"
     },
     {
-      "time": 6.788462,
+      "time": 4.533333333333333,
       "file": "scene-0030.svg"
     },
     {
-      "time": 6.884615,
+      "time": 4.566666666666666,
       "file": "scene-0031.svg"
     },
     {
-      "time": 6.980769,
+      "time": 4.6,
       "file": "scene-0032.svg"
     },
     {
-      "time": 7.076923,
+      "time": 4.633333333333333,
       "file": "scene-0033.svg"
     },
     {
-      "time": 7.173077,
+      "time": 4.666666666666667,
       "file": "scene-0034.svg"
     },
     {
-      "time": 7.269231,
+      "time": 4.7,
       "file": "scene-0035.svg"
     },
     {
-      "time": 7.365385,
+      "time": 4.733333333333333,
       "file": "scene-0036.svg"
     },
     {
-      "time": 7.461538,
+      "time": 4.766666666666667,
       "file": "scene-0037.svg"
     },
     {
-      "time": 7.557692,
+      "time": 4.8,
       "file": "scene-0038.svg"
     },
     {
-      "time": 7.653846,
+      "time": 4.833333333333333,
       "file": "scene-0039.svg"
     },
     {
-      "time": 7.75,
+      "time": 4.866666666666667,
       "file": "scene-0040.svg"
     },
     {
-      "time": 7.846154,
+      "time": 4.9,
       "file": "scene-0041.svg"
     },
     {
-      "time": 7.942308,
+      "time": 4.933333333333334,
       "file": "scene-0042.svg"
     },
     {
-      "time": 8.038462,
+      "time": 4.966666666666667,
       "file": "scene-0043.svg"
     },
     {
-      "time": 8.134615,
+      "time": 5.0,
       "file": "scene-0044.svg"
     },
     {
-      "time": 8.230769,
+      "time": 5.033333333333333,
       "file": "scene-0045.svg"
     },
     {
-      "time": 8.326923,
+      "time": 5.066666666666666,
       "file": "scene-0046.svg"
     },
     {
-      "time": 8.423077,
+      "time": 5.1,
       "file": "scene-0047.svg"
     },
     {
-      "time": 8.519231,
+      "time": 5.133333333333333,
       "file": "scene-0048.svg"
     },
     {
-      "time": 8.615385,
+      "time": 5.166666666666666,
       "file": "scene-0049.svg"
     },
     {
-      "time": 8.711538,
+      "time": 5.2,
       "file": "scene-0050.svg"
     },
     {
-      "time": 8.807692,
+      "time": 5.233333333333333,
       "file": "scene-0051.svg"
     },
     {
-      "time": 8.903846,
+      "time": 5.266666666666667,
       "file": "scene-0052.svg"
     },
     {
-      "time": 9.0,
+      "time": 5.3,
       "file": "scene-0053.svg"
     },
     {
-      "time": 10,
+      "time": 5.333333333333334,
       "file": "scene-0054.svg"
     },
     {
-      "time": 11,
+      "time": 5.366666666666667,
       "file": "scene-0055.svg"
     },
     {
-      "time": 14,
+      "time": 5.4,
       "file": "scene-0056.svg"
     },
     {
-      "time": 16,
+      "time": 5.433333333333334,
       "file": "scene-0057.svg"
     },
     {
-      "time": 17,
+      "time": 5.466666666666667,
       "file": "scene-0058.svg"
     },
     {
-      "time": 19,
+      "time": 5.5,
       "file": "scene-0059.svg"
     },
     {
-      "time": 22,
+      "time": 5.533333333333333,
       "file": "scene-0060.svg"
     },
     {
-      "time": 24.0,
+      "time": 5.566666666666666,
       "file": "scene-0061.svg"
     },
     {
-      "time": 24.18,
+      "time": 5.6,
       "file": "scene-0062.svg"
     },
     {
-      "time": 24.36,
+      "time": 5.633333333333333,
       "file": "scene-0063.svg"
     },
     {
-      "time": 24.54,
+      "time": 5.666666666666666,
       "file": "scene-0064.svg"
     },
     {
-      "time": 24.72,
+      "time": 5.7,
       "file": "scene-0065.svg"
     },
     {
-      "time": 24.9,
+      "time": 5.733333333333333,
       "file": "scene-0066.svg"
     },
     {
-      "time": 25.08,
+      "time": 5.766666666666667,
       "file": "scene-0067.svg"
     },
     {
-      "time": 25.26,
+      "time": 5.8,
       "file": "scene-0068.svg"
     },
     {
-      "time": 25.44,
+      "time": 5.833333333333334,
       "file": "scene-0069.svg"
     },
     {
-      "time": 25.62,
+      "time": 5.866666666666667,
       "file": "scene-0070.svg"
     },
     {
-      "time": 26,
+      "time": 5.9,
       "file": "scene-0071.svg"
+    },
+    {
+      "time": 5.933333333333334,
+      "file": "scene-0072.svg"
+    },
+    {
+      "time": 5.966666666666667,
+      "file": "scene-0073.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0074.svg"
+    },
+    {
+      "time": 6.033333333333333,
+      "file": "scene-0075.svg"
+    },
+    {
+      "time": 6.066666666666666,
+      "file": "scene-0076.svg"
+    },
+    {
+      "time": 6.1,
+      "file": "scene-0077.svg"
+    },
+    {
+      "time": 6.133333333333333,
+      "file": "scene-0078.svg"
+    },
+    {
+      "time": 6.166666666666666,
+      "file": "scene-0079.svg"
+    },
+    {
+      "time": 6.2,
+      "file": "scene-0080.svg"
+    },
+    {
+      "time": 6.233333333333333,
+      "file": "scene-0081.svg"
+    },
+    {
+      "time": 6.266666666666667,
+      "file": "scene-0082.svg"
+    },
+    {
+      "time": 6.3,
+      "file": "scene-0083.svg"
+    },
+    {
+      "time": 6.333333333333334,
+      "file": "scene-0084.svg"
+    },
+    {
+      "time": 6.366666666666667,
+      "file": "scene-0085.svg"
+    },
+    {
+      "time": 6.4,
+      "file": "scene-0086.svg"
+    },
+    {
+      "time": 6.433333333333334,
+      "file": "scene-0087.svg"
+    },
+    {
+      "time": 6.466666666666667,
+      "file": "scene-0088.svg"
+    },
+    {
+      "time": 6.5,
+      "file": "scene-0089.svg"
+    },
+    {
+      "time": 6.533333333333333,
+      "file": "scene-0090.svg"
+    },
+    {
+      "time": 6.566666666666666,
+      "file": "scene-0091.svg"
+    },
+    {
+      "time": 6.6,
+      "file": "scene-0092.svg"
+    },
+    {
+      "time": 6.633333333333333,
+      "file": "scene-0093.svg"
+    },
+    {
+      "time": 6.666666666666666,
+      "file": "scene-0094.svg"
+    },
+    {
+      "time": 6.7,
+      "file": "scene-0095.svg"
+    },
+    {
+      "time": 6.733333333333333,
+      "file": "scene-0096.svg"
+    },
+    {
+      "time": 6.766666666666667,
+      "file": "scene-0097.svg"
+    },
+    {
+      "time": 6.8,
+      "file": "scene-0098.svg"
+    },
+    {
+      "time": 6.833333333333334,
+      "file": "scene-0099.svg"
+    },
+    {
+      "time": 6.866666666666667,
+      "file": "scene-0100.svg"
+    },
+    {
+      "time": 6.9,
+      "file": "scene-0101.svg"
+    },
+    {
+      "time": 6.933333333333334,
+      "file": "scene-0102.svg"
+    },
+    {
+      "time": 6.966666666666667,
+      "file": "scene-0103.svg"
+    },
+    {
+      "time": 7.0,
+      "file": "scene-0104.svg"
+    },
+    {
+      "time": 7.033333333333333,
+      "file": "scene-0105.svg"
+    },
+    {
+      "time": 7.066666666666666,
+      "file": "scene-0106.svg"
+    },
+    {
+      "time": 7.1,
+      "file": "scene-0107.svg"
+    },
+    {
+      "time": 7.133333333333334,
+      "file": "scene-0108.svg"
+    },
+    {
+      "time": 7.166666666666667,
+      "file": "scene-0109.svg"
+    },
+    {
+      "time": 7.2,
+      "file": "scene-0110.svg"
+    },
+    {
+      "time": 7.233333333333333,
+      "file": "scene-0111.svg"
+    },
+    {
+      "time": 7.266666666666667,
+      "file": "scene-0112.svg"
+    },
+    {
+      "time": 7.3,
+      "file": "scene-0113.svg"
+    },
+    {
+      "time": 7.333333333333333,
+      "file": "scene-0114.svg"
+    },
+    {
+      "time": 7.366666666666666,
+      "file": "scene-0115.svg"
+    },
+    {
+      "time": 7.4,
+      "file": "scene-0116.svg"
+    },
+    {
+      "time": 7.433333333333334,
+      "file": "scene-0117.svg"
+    },
+    {
+      "time": 7.466666666666667,
+      "file": "scene-0118.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0119.svg"
+    },
+    {
+      "time": 7.533333333333333,
+      "file": "scene-0120.svg"
+    },
+    {
+      "time": 7.566666666666666,
+      "file": "scene-0121.svg"
+    },
+    {
+      "time": 7.6,
+      "file": "scene-0122.svg"
+    },
+    {
+      "time": 7.633333333333334,
+      "file": "scene-0123.svg"
+    },
+    {
+      "time": 7.666666666666667,
+      "file": "scene-0124.svg"
+    },
+    {
+      "time": 7.7,
+      "file": "scene-0125.svg"
+    },
+    {
+      "time": 7.733333333333333,
+      "file": "scene-0126.svg"
+    },
+    {
+      "time": 7.766666666666667,
+      "file": "scene-0127.svg"
+    },
+    {
+      "time": 7.8,
+      "file": "scene-0128.svg"
+    },
+    {
+      "time": 7.833333333333333,
+      "file": "scene-0129.svg"
+    },
+    {
+      "time": 7.866666666666666,
+      "file": "scene-0130.svg"
+    },
+    {
+      "time": 7.9,
+      "file": "scene-0131.svg"
+    },
+    {
+      "time": 7.933333333333334,
+      "file": "scene-0132.svg"
+    },
+    {
+      "time": 7.966666666666667,
+      "file": "scene-0133.svg"
+    },
+    {
+      "time": 8.0,
+      "file": "scene-0134.svg"
+    },
+    {
+      "time": 8.033333333333333,
+      "file": "scene-0135.svg"
+    },
+    {
+      "time": 8.066666666666666,
+      "file": "scene-0136.svg"
+    },
+    {
+      "time": 8.1,
+      "file": "scene-0137.svg"
+    },
+    {
+      "time": 8.133333333333333,
+      "file": "scene-0138.svg"
+    },
+    {
+      "time": 8.166666666666668,
+      "file": "scene-0139.svg"
+    },
+    {
+      "time": 8.2,
+      "file": "scene-0140.svg"
+    },
+    {
+      "time": 8.233333333333334,
+      "file": "scene-0141.svg"
+    },
+    {
+      "time": 8.266666666666666,
+      "file": "scene-0142.svg"
+    },
+    {
+      "time": 8.3,
+      "file": "scene-0143.svg"
+    },
+    {
+      "time": 8.333333333333332,
+      "file": "scene-0144.svg"
+    },
+    {
+      "time": 8.366666666666667,
+      "file": "scene-0145.svg"
+    },
+    {
+      "time": 8.4,
+      "file": "scene-0146.svg"
+    },
+    {
+      "time": 8.433333333333334,
+      "file": "scene-0147.svg"
+    },
+    {
+      "time": 8.466666666666667,
+      "file": "scene-0148.svg"
+    },
+    {
+      "time": 8.5,
+      "file": "scene-0149.svg"
+    },
+    {
+      "time": 8.533333333333333,
+      "file": "scene-0150.svg"
+    },
+    {
+      "time": 8.566666666666666,
+      "file": "scene-0151.svg"
+    },
+    {
+      "time": 8.6,
+      "file": "scene-0152.svg"
+    },
+    {
+      "time": 8.633333333333333,
+      "file": "scene-0153.svg"
+    },
+    {
+      "time": 8.666666666666668,
+      "file": "scene-0154.svg"
+    },
+    {
+      "time": 8.7,
+      "file": "scene-0155.svg"
+    },
+    {
+      "time": 8.733333333333334,
+      "file": "scene-0156.svg"
+    },
+    {
+      "time": 8.766666666666666,
+      "file": "scene-0157.svg"
+    },
+    {
+      "time": 11,
+      "file": "scene-0158.svg"
+    },
+    {
+      "time": 11.8,
+      "file": "scene-0159.svg"
+    },
+    {
+      "time": 12.0,
+      "file": "scene-0160.svg"
+    },
+    {
+      "time": 12.2,
+      "file": "scene-0161.svg"
+    },
+    {
+      "time": 12.9,
+      "file": "scene-0162.svg"
+    },
+    {
+      "time": 14.4,
+      "file": "scene-0163.svg"
+    },
+    {
+      "time": 14.5,
+      "file": "scene-0164.svg"
+    },
+    {
+      "time": 14.6,
+      "file": "scene-0165.svg"
+    },
+    {
+      "time": 14.7,
+      "file": "scene-0166.svg"
+    },
+    {
+      "time": 14.8,
+      "file": "scene-0167.svg"
+    },
+    {
+      "time": 14.9,
+      "file": "scene-0168.svg"
+    },
+    {
+      "time": 15.0,
+      "file": "scene-0169.svg"
+    },
+    {
+      "time": 17,
+      "file": "scene-0205.svg"
+    },
+    {
+      "time": 18.5,
+      "file": "scene-0170.svg"
+    },
+    {
+      "time": 19.2,
+      "file": "scene-0171.svg"
+    },
+    {
+      "time": 19.366666666666667,
+      "file": "scene-0172.svg"
+    },
+    {
+      "time": 19.5,
+      "file": "scene-0173.svg"
+    },
+    {
+      "time": 21.733333333333334,
+      "file": "scene-0174.svg"
+    },
+    {
+      "time": 21.9,
+      "file": "scene-0175.svg"
+    },
+    {
+      "time": 22.233333333333334,
+      "file": "scene-0176.svg"
+    },
+    {
+      "time": 22.4,
+      "file": "scene-0177.svg"
+    },
+    {
+      "time": 22.733333333333334,
+      "file": "scene-0178.svg"
+    },
+    {
+      "time": 22.9,
+      "file": "scene-0179.svg"
+    },
+    {
+      "time": 24.5,
+      "file": "scene-0180.svg"
+    },
+    {
+      "time": 24.666666666666668,
+      "file": "scene-0181.svg"
+    },
+    {
+      "time": 24.8,
+      "file": "scene-0182.svg"
+    },
+    {
+      "time": 27.0,
+      "file": "scene-0183.svg"
+    },
+    {
+      "time": 27.1,
+      "file": "scene-0184.svg"
+    },
+    {
+      "time": 27.2,
+      "file": "scene-0185.svg"
+    },
+    {
+      "time": 27.3,
+      "file": "scene-0186.svg"
+    },
+    {
+      "time": 27.4,
+      "file": "scene-0187.svg"
+    },
+    {
+      "time": 27.5,
+      "file": "scene-0188.svg"
+    },
+    {
+      "time": 27.6,
+      "file": "scene-0189.svg"
+    },
+    {
+      "time": 27.7,
+      "file": "scene-0190.svg"
+    },
+    {
+      "time": 27.8,
+      "file": "scene-0191.svg"
+    },
+    {
+      "time": 27.9,
+      "file": "scene-0192.svg"
+    },
+    {
+      "time": 28.0,
+      "file": "scene-0193.svg"
+    },
+    {
+      "time": 28.1,
+      "file": "scene-0194.svg"
+    },
+    {
+      "time": 28.2,
+      "file": "scene-0195.svg"
+    },
+    {
+      "time": 28.3,
+      "file": "scene-0196.svg"
+    },
+    {
+      "time": 28.4,
+      "file": "scene-0197.svg"
+    },
+    {
+      "time": 28.5,
+      "file": "scene-0198.svg"
+    },
+    {
+      "time": 28.6,
+      "file": "scene-0199.svg"
+    },
+    {
+      "time": 28.7,
+      "file": "scene-0200.svg"
+    },
+    {
+      "time": 28.8,
+      "file": "scene-0201.svg"
+    },
+    {
+      "time": 28.9,
+      "file": "scene-0202.svg"
+    },
+    {
+      "time": 29.1,
+      "file": "scene-0203.svg"
+    },
+    {
+      "time": 31,
+      "file": "scene-0204.svg"
     }
   ],
   "cuts": {
     "full-rules": [
       0,
-      28
-    ],
-    "alternating-deal": [
-      3,
-      10
-    ],
-    "normal-round": [
-      10,
-      16
-    ],
-    "single-war": [
-      16,
-      28
+      35
     ]
+  },
+  "cutdowns": {
+    "deck-hold": {
+      "frames": [
+        {
+          "time": 0,
+          "file": "scene-0000.svg"
+        }
+      ],
+      "duration": 30,
+      "key_second": 0.0,
+      "poster": "variant-deck-hold.svg",
+      "key_moment": "still: the full squared deck at rest (loopable)",
+      "serves": "S05-B01"
+    },
+    "alternating-deal": {
+      "frames": [
+        {
+          "time": 0,
+          "file": "scene-0001.svg"
+        },
+        {
+          "time": 0.6,
+          "file": "scene-0002.svg"
+        },
+        {
+          "time": 0.6333333333333333,
+          "file": "scene-0003.svg"
+        },
+        {
+          "time": 0.6666666666666666,
+          "file": "scene-0004.svg"
+        },
+        {
+          "time": 0.7,
+          "file": "scene-0005.svg"
+        },
+        {
+          "time": 0.7333333333333333,
+          "file": "scene-0006.svg"
+        },
+        {
+          "time": 0.7666666666666667,
+          "file": "scene-0007.svg"
+        },
+        {
+          "time": 0.8,
+          "file": "scene-0008.svg"
+        },
+        {
+          "time": 0.8333333333333334,
+          "file": "scene-0009.svg"
+        },
+        {
+          "time": 0.8666666666666667,
+          "file": "scene-0010.svg"
+        },
+        {
+          "time": 0.9,
+          "file": "scene-0011.svg"
+        },
+        {
+          "time": 0.9333333333333333,
+          "file": "scene-0012.svg"
+        },
+        {
+          "time": 0.9666666666666667,
+          "file": "scene-0013.svg"
+        },
+        {
+          "time": 1.0,
+          "file": "scene-0014.svg"
+        },
+        {
+          "time": 1.0333333333333334,
+          "file": "scene-0015.svg"
+        },
+        {
+          "time": 1.0666666666666667,
+          "file": "scene-0016.svg"
+        },
+        {
+          "time": 1.1,
+          "file": "scene-0017.svg"
+        },
+        {
+          "time": 1.1333333333333333,
+          "file": "scene-0018.svg"
+        },
+        {
+          "time": 1.1666666666666667,
+          "file": "scene-0019.svg"
+        },
+        {
+          "time": 1.2,
+          "file": "scene-0020.svg"
+        },
+        {
+          "time": 1.2333333333333334,
+          "file": "scene-0021.svg"
+        },
+        {
+          "time": 1.2666666666666666,
+          "file": "scene-0022.svg"
+        },
+        {
+          "time": 1.3,
+          "file": "scene-0023.svg"
+        },
+        {
+          "time": 1.3333333333333333,
+          "file": "scene-0024.svg"
+        },
+        {
+          "time": 1.3666666666666667,
+          "file": "scene-0025.svg"
+        },
+        {
+          "time": 1.4,
+          "file": "scene-0026.svg"
+        },
+        {
+          "time": 1.4333333333333333,
+          "file": "scene-0027.svg"
+        },
+        {
+          "time": 1.4666666666666666,
+          "file": "scene-0028.svg"
+        },
+        {
+          "time": 1.5,
+          "file": "scene-0029.svg"
+        },
+        {
+          "time": 1.5333333333333334,
+          "file": "scene-0030.svg"
+        },
+        {
+          "time": 1.5666666666666667,
+          "file": "scene-0031.svg"
+        },
+        {
+          "time": 1.6,
+          "file": "scene-0032.svg"
+        },
+        {
+          "time": 1.6333333333333333,
+          "file": "scene-0033.svg"
+        },
+        {
+          "time": 1.6666666666666667,
+          "file": "scene-0034.svg"
+        },
+        {
+          "time": 1.7,
+          "file": "scene-0035.svg"
+        },
+        {
+          "time": 1.7333333333333334,
+          "file": "scene-0036.svg"
+        },
+        {
+          "time": 1.7666666666666666,
+          "file": "scene-0037.svg"
+        },
+        {
+          "time": 1.8,
+          "file": "scene-0038.svg"
+        },
+        {
+          "time": 1.8333333333333333,
+          "file": "scene-0039.svg"
+        },
+        {
+          "time": 1.8666666666666667,
+          "file": "scene-0040.svg"
+        },
+        {
+          "time": 1.9,
+          "file": "scene-0041.svg"
+        },
+        {
+          "time": 1.9333333333333333,
+          "file": "scene-0042.svg"
+        },
+        {
+          "time": 1.9666666666666666,
+          "file": "scene-0043.svg"
+        },
+        {
+          "time": 2.0,
+          "file": "scene-0044.svg"
+        },
+        {
+          "time": 2.033333333333333,
+          "file": "scene-0045.svg"
+        },
+        {
+          "time": 2.066666666666667,
+          "file": "scene-0046.svg"
+        },
+        {
+          "time": 2.1,
+          "file": "scene-0047.svg"
+        },
+        {
+          "time": 2.1333333333333333,
+          "file": "scene-0048.svg"
+        },
+        {
+          "time": 2.1666666666666665,
+          "file": "scene-0049.svg"
+        },
+        {
+          "time": 2.2,
+          "file": "scene-0050.svg"
+        },
+        {
+          "time": 2.2333333333333334,
+          "file": "scene-0051.svg"
+        },
+        {
+          "time": 2.2666666666666666,
+          "file": "scene-0052.svg"
+        },
+        {
+          "time": 2.3,
+          "file": "scene-0053.svg"
+        },
+        {
+          "time": 2.3333333333333335,
+          "file": "scene-0054.svg"
+        },
+        {
+          "time": 2.3666666666666667,
+          "file": "scene-0055.svg"
+        },
+        {
+          "time": 2.4,
+          "file": "scene-0056.svg"
+        },
+        {
+          "time": 2.433333333333333,
+          "file": "scene-0057.svg"
+        },
+        {
+          "time": 2.466666666666667,
+          "file": "scene-0058.svg"
+        },
+        {
+          "time": 2.5,
+          "file": "scene-0059.svg"
+        },
+        {
+          "time": 2.533333333333333,
+          "file": "scene-0060.svg"
+        },
+        {
+          "time": 2.566666666666667,
+          "file": "scene-0061.svg"
+        },
+        {
+          "time": 2.6,
+          "file": "scene-0062.svg"
+        },
+        {
+          "time": 2.6333333333333333,
+          "file": "scene-0063.svg"
+        },
+        {
+          "time": 2.6666666666666665,
+          "file": "scene-0064.svg"
+        },
+        {
+          "time": 2.7,
+          "file": "scene-0065.svg"
+        },
+        {
+          "time": 2.7333333333333334,
+          "file": "scene-0066.svg"
+        },
+        {
+          "time": 2.7666666666666666,
+          "file": "scene-0067.svg"
+        },
+        {
+          "time": 2.8,
+          "file": "scene-0068.svg"
+        },
+        {
+          "time": 2.8333333333333335,
+          "file": "scene-0069.svg"
+        },
+        {
+          "time": 2.8666666666666667,
+          "file": "scene-0070.svg"
+        },
+        {
+          "time": 2.9,
+          "file": "scene-0071.svg"
+        },
+        {
+          "time": 2.933333333333333,
+          "file": "scene-0072.svg"
+        },
+        {
+          "time": 2.966666666666667,
+          "file": "scene-0073.svg"
+        },
+        {
+          "time": 3.0,
+          "file": "scene-0074.svg"
+        },
+        {
+          "time": 3.033333333333333,
+          "file": "scene-0075.svg"
+        },
+        {
+          "time": 3.066666666666667,
+          "file": "scene-0076.svg"
+        },
+        {
+          "time": 3.1,
+          "file": "scene-0077.svg"
+        },
+        {
+          "time": 3.1333333333333333,
+          "file": "scene-0078.svg"
+        },
+        {
+          "time": 3.1666666666666665,
+          "file": "scene-0079.svg"
+        },
+        {
+          "time": 3.2,
+          "file": "scene-0080.svg"
+        },
+        {
+          "time": 3.2333333333333334,
+          "file": "scene-0081.svg"
+        },
+        {
+          "time": 3.2666666666666666,
+          "file": "scene-0082.svg"
+        },
+        {
+          "time": 3.3,
+          "file": "scene-0083.svg"
+        },
+        {
+          "time": 3.3333333333333335,
+          "file": "scene-0084.svg"
+        },
+        {
+          "time": 3.3666666666666667,
+          "file": "scene-0085.svg"
+        },
+        {
+          "time": 3.4,
+          "file": "scene-0086.svg"
+        },
+        {
+          "time": 3.433333333333333,
+          "file": "scene-0087.svg"
+        },
+        {
+          "time": 3.466666666666667,
+          "file": "scene-0088.svg"
+        },
+        {
+          "time": 3.5,
+          "file": "scene-0089.svg"
+        },
+        {
+          "time": 3.533333333333333,
+          "file": "scene-0090.svg"
+        },
+        {
+          "time": 3.566666666666667,
+          "file": "scene-0091.svg"
+        },
+        {
+          "time": 3.6,
+          "file": "scene-0092.svg"
+        },
+        {
+          "time": 3.6333333333333333,
+          "file": "scene-0093.svg"
+        },
+        {
+          "time": 3.6666666666666665,
+          "file": "scene-0094.svg"
+        },
+        {
+          "time": 3.7,
+          "file": "scene-0095.svg"
+        },
+        {
+          "time": 3.7333333333333334,
+          "file": "scene-0096.svg"
+        },
+        {
+          "time": 3.7666666666666666,
+          "file": "scene-0097.svg"
+        },
+        {
+          "time": 3.8,
+          "file": "scene-0098.svg"
+        },
+        {
+          "time": 3.8333333333333335,
+          "file": "scene-0099.svg"
+        },
+        {
+          "time": 3.8666666666666667,
+          "file": "scene-0100.svg"
+        },
+        {
+          "time": 3.9,
+          "file": "scene-0101.svg"
+        },
+        {
+          "time": 3.933333333333333,
+          "file": "scene-0102.svg"
+        },
+        {
+          "time": 3.966666666666667,
+          "file": "scene-0103.svg"
+        },
+        {
+          "time": 4.0,
+          "file": "scene-0104.svg"
+        },
+        {
+          "time": 4.033333333333333,
+          "file": "scene-0105.svg"
+        },
+        {
+          "time": 4.066666666666666,
+          "file": "scene-0106.svg"
+        },
+        {
+          "time": 4.1,
+          "file": "scene-0107.svg"
+        },
+        {
+          "time": 4.133333333333334,
+          "file": "scene-0108.svg"
+        },
+        {
+          "time": 4.166666666666667,
+          "file": "scene-0109.svg"
+        },
+        {
+          "time": 4.2,
+          "file": "scene-0110.svg"
+        },
+        {
+          "time": 4.233333333333333,
+          "file": "scene-0111.svg"
+        },
+        {
+          "time": 4.266666666666667,
+          "file": "scene-0112.svg"
+        },
+        {
+          "time": 4.3,
+          "file": "scene-0113.svg"
+        },
+        {
+          "time": 4.333333333333333,
+          "file": "scene-0114.svg"
+        },
+        {
+          "time": 4.366666666666666,
+          "file": "scene-0115.svg"
+        },
+        {
+          "time": 4.4,
+          "file": "scene-0116.svg"
+        },
+        {
+          "time": 4.433333333333334,
+          "file": "scene-0117.svg"
+        },
+        {
+          "time": 4.466666666666667,
+          "file": "scene-0118.svg"
+        },
+        {
+          "time": 4.5,
+          "file": "scene-0119.svg"
+        },
+        {
+          "time": 4.533333333333333,
+          "file": "scene-0120.svg"
+        },
+        {
+          "time": 4.566666666666666,
+          "file": "scene-0121.svg"
+        },
+        {
+          "time": 4.6,
+          "file": "scene-0122.svg"
+        },
+        {
+          "time": 4.633333333333334,
+          "file": "scene-0123.svg"
+        },
+        {
+          "time": 4.666666666666667,
+          "file": "scene-0124.svg"
+        },
+        {
+          "time": 4.7,
+          "file": "scene-0125.svg"
+        },
+        {
+          "time": 4.733333333333333,
+          "file": "scene-0126.svg"
+        },
+        {
+          "time": 4.766666666666667,
+          "file": "scene-0127.svg"
+        },
+        {
+          "time": 4.8,
+          "file": "scene-0128.svg"
+        },
+        {
+          "time": 4.833333333333333,
+          "file": "scene-0129.svg"
+        },
+        {
+          "time": 4.866666666666666,
+          "file": "scene-0130.svg"
+        },
+        {
+          "time": 4.9,
+          "file": "scene-0131.svg"
+        },
+        {
+          "time": 4.933333333333334,
+          "file": "scene-0132.svg"
+        },
+        {
+          "time": 4.966666666666667,
+          "file": "scene-0133.svg"
+        },
+        {
+          "time": 5.0,
+          "file": "scene-0134.svg"
+        },
+        {
+          "time": 5.033333333333333,
+          "file": "scene-0135.svg"
+        },
+        {
+          "time": 5.066666666666666,
+          "file": "scene-0136.svg"
+        },
+        {
+          "time": 5.1,
+          "file": "scene-0137.svg"
+        },
+        {
+          "time": 5.133333333333334,
+          "file": "scene-0138.svg"
+        },
+        {
+          "time": 5.166666666666667,
+          "file": "scene-0139.svg"
+        },
+        {
+          "time": 5.2,
+          "file": "scene-0140.svg"
+        },
+        {
+          "time": 5.233333333333333,
+          "file": "scene-0141.svg"
+        },
+        {
+          "time": 5.266666666666667,
+          "file": "scene-0142.svg"
+        },
+        {
+          "time": 5.3,
+          "file": "scene-0143.svg"
+        },
+        {
+          "time": 5.333333333333333,
+          "file": "scene-0144.svg"
+        },
+        {
+          "time": 5.366666666666666,
+          "file": "scene-0145.svg"
+        },
+        {
+          "time": 5.4,
+          "file": "scene-0146.svg"
+        },
+        {
+          "time": 5.433333333333334,
+          "file": "scene-0147.svg"
+        },
+        {
+          "time": 5.466666666666667,
+          "file": "scene-0148.svg"
+        },
+        {
+          "time": 5.5,
+          "file": "scene-0149.svg"
+        },
+        {
+          "time": 5.533333333333333,
+          "file": "scene-0150.svg"
+        },
+        {
+          "time": 5.566666666666666,
+          "file": "scene-0151.svg"
+        },
+        {
+          "time": 5.6,
+          "file": "scene-0152.svg"
+        },
+        {
+          "time": 5.633333333333334,
+          "file": "scene-0153.svg"
+        },
+        {
+          "time": 5.666666666666667,
+          "file": "scene-0154.svg"
+        },
+        {
+          "time": 5.7,
+          "file": "scene-0155.svg"
+        },
+        {
+          "time": 5.733333333333333,
+          "file": "scene-0156.svg"
+        },
+        {
+          "time": 5.766666666666667,
+          "file": "scene-0157.svg"
+        }
+      ],
+      "duration": 20,
+      "key_second": 0.6,
+      "poster": "variant-alternating-deal.svg",
+      "key_moment": "the first card leaves the deck for Player 1 (0.600 s); it lands at 0.667 s; the 52nd lands at 5.767 s; 26 / 26 holds from there",
+      "serves": "S05-B02 \"Deal it evenly\""
+    },
+    "normal-round": {
+      "frames": [
+        {
+          "time": 0,
+          "file": "scene-0158.svg"
+        },
+        {
+          "time": 0.8,
+          "file": "scene-0159.svg"
+        },
+        {
+          "time": 1.0,
+          "file": "scene-0160.svg"
+        },
+        {
+          "time": 1.2,
+          "file": "scene-0161.svg"
+        },
+        {
+          "time": 1.9,
+          "file": "scene-0162.svg"
+        },
+        {
+          "time": 3.4,
+          "file": "scene-0163.svg"
+        },
+        {
+          "time": 3.5,
+          "file": "scene-0164.svg"
+        },
+        {
+          "time": 3.6,
+          "file": "scene-0165.svg"
+        },
+        {
+          "time": 3.7,
+          "file": "scene-0166.svg"
+        },
+        {
+          "time": 3.8,
+          "file": "scene-0167.svg"
+        },
+        {
+          "time": 3.9,
+          "file": "scene-0168.svg"
+        },
+        {
+          "time": 4.0,
+          "file": "scene-0169.svg"
+        }
+      ],
+      "duration": 16,
+      "key_second": 1.2,
+      "poster": "variant-normal-round.svg",
+      "key_moment": "A♠ and K♥ land face-up at the same instant (1.200 s); gold accent and \"Ace beats King\" at 1.900 s; the pair travels to Player 1's bottom 3.400–3.967 s; 27 / 25, pot 0 from 4.000 s",
+      "serves": "S05-B03 \"Aces are high\""
+    },
+    "single-war": {
+      "frames": [
+        {
+          "time": 0,
+          "file": "scene-0170.svg"
+        },
+        {
+          "time": 0.7,
+          "file": "scene-0171.svg"
+        },
+        {
+          "time": 0.8666666666666667,
+          "file": "scene-0172.svg"
+        },
+        {
+          "time": 1.0,
+          "file": "scene-0173.svg"
+        },
+        {
+          "time": 3.2333333333333334,
+          "file": "scene-0174.svg"
+        },
+        {
+          "time": 3.4,
+          "file": "scene-0175.svg"
+        },
+        {
+          "time": 3.7333333333333334,
+          "file": "scene-0176.svg"
+        },
+        {
+          "time": 3.9,
+          "file": "scene-0177.svg"
+        },
+        {
+          "time": 4.233333333333333,
+          "file": "scene-0178.svg"
+        },
+        {
+          "time": 4.4,
+          "file": "scene-0179.svg"
+        },
+        {
+          "time": 6.0,
+          "file": "scene-0180.svg"
+        },
+        {
+          "time": 6.166666666666667,
+          "file": "scene-0181.svg"
+        },
+        {
+          "time": 6.3,
+          "file": "scene-0182.svg"
+        },
+        {
+          "time": 8.5,
+          "file": "scene-0183.svg"
+        },
+        {
+          "time": 8.6,
+          "file": "scene-0184.svg"
+        },
+        {
+          "time": 8.7,
+          "file": "scene-0185.svg"
+        },
+        {
+          "time": 8.8,
+          "file": "scene-0186.svg"
+        },
+        {
+          "time": 8.9,
+          "file": "scene-0187.svg"
+        },
+        {
+          "time": 9.0,
+          "file": "scene-0188.svg"
+        },
+        {
+          "time": 9.1,
+          "file": "scene-0189.svg"
+        },
+        {
+          "time": 9.2,
+          "file": "scene-0190.svg"
+        },
+        {
+          "time": 9.3,
+          "file": "scene-0191.svg"
+        },
+        {
+          "time": 9.4,
+          "file": "scene-0192.svg"
+        },
+        {
+          "time": 9.5,
+          "file": "scene-0193.svg"
+        },
+        {
+          "time": 9.6,
+          "file": "scene-0194.svg"
+        },
+        {
+          "time": 9.7,
+          "file": "scene-0195.svg"
+        },
+        {
+          "time": 9.8,
+          "file": "scene-0196.svg"
+        },
+        {
+          "time": 9.9,
+          "file": "scene-0197.svg"
+        },
+        {
+          "time": 10.0,
+          "file": "scene-0198.svg"
+        },
+        {
+          "time": 10.1,
+          "file": "scene-0199.svg"
+        },
+        {
+          "time": 10.2,
+          "file": "scene-0200.svg"
+        },
+        {
+          "time": 10.3,
+          "file": "scene-0201.svg"
+        },
+        {
+          "time": 10.4,
+          "file": "scene-0202.svg"
+        },
+        {
+          "time": 10.6,
+          "file": "scene-0203.svg"
+        }
+      ],
+      "duration": 20,
+      "key_second": 1.0,
+      "poster": "variant-single-war.svg",
+      "key_moment": "the tie 4♠ / 4♦ is face-up (1.000 s); burns land 3.400, 3.900, 4.400 s; the deciding 9♦ / A♦ flip at 6.300 s; the ten-card pot travels 8.500–10.400 s; 21 / 31, pot 0 with the closing caption from 10.600 s",
+      "serves": "S05-B04 \"it's War\""
+    },
+    "final-hold": {
+      "frames": [
+        {
+          "time": 0,
+          "file": "scene-0204.svg"
+        }
+      ],
+      "duration": 14,
+      "key_second": 0.0,
+      "poster": "variant-final-hold.svg",
+      "key_moment": "still: the rank-only rule card, Win all 52 cards.",
+      "serves": "S05-B05"
+    }
   },
   "variant_names": [
     "full-rules",
+    "deck-hold",
     "alternating-deal",
     "normal-round",
-    "single-war"
+    "single-war",
+    "final-hold"
   ],
-  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps. Each cutdown is its own frame list starting at its named moment and holding its end state to its duration."
 }
