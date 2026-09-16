@@ -47,7 +47,7 @@ def visual_inputs(v: dict, slot: float, w: int, h: int, fps: int, idx: int) -> t
     elif v.get("kind") == "recording":
         # a screen recording: fill the width, never upscale past 1.6x, hold the last frame after it ends
         args = ["-i", str(f)]
-        chain = (f"[{idx}:v]scale=w='min({w},iw*1.6)':h=-2:flags=lanczos,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:color={BG},setsar=1,fps={fps},format=yuv420p,"
+        chain = (f"[{idx}:v]scale=w='min({w},iw*1.6)':h='min({h},ih*1.6)':force_original_aspect_ratio=decrease:flags=lanczos,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:color={BG},setsar=1,fps={fps},format=yuv420p,"
                  f"tpad=stop_mode=clone:stop_duration={slot:.3f},trim=duration={slot:.3f},setpts=PTS-STARTPTS[v{idx}]")
     elif v.get("poster") and v.get("duration") and v["duration"] < slot - 0.05:
         # motion preview shorter than its slot: play it, then hold its designed poster frame
