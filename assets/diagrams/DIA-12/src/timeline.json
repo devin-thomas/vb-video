@@ -1,23 +1,270 @@
 {
   "id": "DIA-12",
-  "durationSeconds": null,
-  "fps": null,
+  "durationSeconds": 6.0,
+  "fps": 30,
   "width": 1920,
   "height": 1080,
   "beats": [
-    "Static three-column table: row label, Windows, Mac.",
-    "Optional focus state dims all but the GUI-builder row."
+    "0–0.5 s: column headings and table rules only (skeleton).",
+    "0.5–0.9 s: Console app like ours fades in (the \"roughly comparable\" beat, still row-console at 35:25).",
+    "1.5–1.9 s: GUI builder fades in (\"an afternoon\" vs \"a week, minimum\", still row-gui at 35:50).",
+    "2.5–4.9 s: Language, Learning curve and Runtime required fade in 1 s apart.",
+    "4.9–6 s: hold the complete table (still full at 36:18)."
   ],
   "frames": [
     {
-      "time": 0,
+      "time": 0.0,
       "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.5,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 0.533333,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 0.566667,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 0.6,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 0.633333,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 0.666667,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 0.7,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 0.733333,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 0.766667,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 0.8,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 0.833333,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 0.866667,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 1.5,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 1.533333,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 1.566667,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 1.6,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 1.633333,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 1.666667,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 1.7,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 1.733333,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 1.766667,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 1.8,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 1.833333,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 1.866667,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 2.533333,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 2.566667,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 2.6,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 2.633333,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 2.666667,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 2.7,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 2.733333,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 2.766667,
+      "file": "scene-0033.svg"
+    },
+    {
+      "time": 2.8,
+      "file": "scene-0034.svg"
+    },
+    {
+      "time": 2.833333,
+      "file": "scene-0035.svg"
+    },
+    {
+      "time": 2.866667,
+      "file": "scene-0036.svg"
+    },
+    {
+      "time": 3.5,
+      "file": "scene-0037.svg"
+    },
+    {
+      "time": 3.533333,
+      "file": "scene-0038.svg"
+    },
+    {
+      "time": 3.566667,
+      "file": "scene-0039.svg"
+    },
+    {
+      "time": 3.6,
+      "file": "scene-0040.svg"
+    },
+    {
+      "time": 3.633333,
+      "file": "scene-0041.svg"
+    },
+    {
+      "time": 3.666667,
+      "file": "scene-0042.svg"
+    },
+    {
+      "time": 3.7,
+      "file": "scene-0043.svg"
+    },
+    {
+      "time": 3.733333,
+      "file": "scene-0044.svg"
+    },
+    {
+      "time": 3.766667,
+      "file": "scene-0045.svg"
+    },
+    {
+      "time": 3.8,
+      "file": "scene-0046.svg"
+    },
+    {
+      "time": 3.833333,
+      "file": "scene-0047.svg"
+    },
+    {
+      "time": 3.866667,
+      "file": "scene-0048.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0049.svg"
+    },
+    {
+      "time": 4.533333,
+      "file": "scene-0050.svg"
+    },
+    {
+      "time": 4.566667,
+      "file": "scene-0051.svg"
+    },
+    {
+      "time": 4.6,
+      "file": "scene-0052.svg"
+    },
+    {
+      "time": 4.633333,
+      "file": "scene-0053.svg"
+    },
+    {
+      "time": 4.666667,
+      "file": "scene-0054.svg"
+    },
+    {
+      "time": 4.7,
+      "file": "scene-0055.svg"
+    },
+    {
+      "time": 4.733333,
+      "file": "scene-0056.svg"
+    },
+    {
+      "time": 4.766667,
+      "file": "scene-0057.svg"
+    },
+    {
+      "time": 4.8,
+      "file": "scene-0058.svg"
+    },
+    {
+      "time": 4.833333,
+      "file": "scene-0059.svg"
+    },
+    {
+      "time": 4.866667,
+      "file": "scene-0060.svg"
     }
   ],
   "cuts": {},
   "variant_names": [
+    "row-console",
+    "row-gui",
+    "full",
     "full-table",
-    "gui-row-focus"
+    "gui-row-focus",
+    "reveal"
   ],
-  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps. Fades are authored as 12 discrete opacity states per row so renderAt(t) is independent of prior seek position. The named motion variant reveal is exports/preview.mp4."
 }
