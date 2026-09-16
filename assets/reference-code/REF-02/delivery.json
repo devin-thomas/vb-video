@@ -2,10 +2,10 @@
   "id": "REF-02",
   "title": "Windows C Hello World: historical boilerplate comparison",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "authored teaching illustration: representative code written for this production",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": 22,
+  "duration_seconds": 26.8,
   "dimensions": {
     "width": 1920,
     "height": 1080
@@ -15,26 +15,26 @@
     {
       "path": "evidence/browser-tests.json",
       "role": "evidence / QA",
-      "bytes": 447,
-      "sha256": "028be73f06acec1c9d61157425f0d002254ab861219d8ede5686071f6685eb8d"
+      "bytes": 449,
+      "sha256": "7461f5396c920d88da0d48b2564768dcdabbc7251ad4161b14bbf12d1daa7c29"
     },
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 1229,
-      "sha256": "fe34989dc72fb72c5896a319624b61db37b70e1a6ff2e57181976193c5ed6864"
+      "bytes": 2100,
+      "sha256": "b70c31ddbbe9e44a524779007f32cebcace319d06216b3805b3e07900e538c3d"
     },
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 1638,
-      "sha256": "ac75689d11ca50101d284112a3beebcfcd490c781f7cd8a233485b88e5c2822a"
+      "bytes": 2842,
+      "sha256": "5c176e66878d73816c0e8597f96a8ac71803acd010db588240357f9b0fc89998"
     },
     {
       "path": "evidence/render-tests.json",
       "role": "evidence / QA",
-      "bytes": 985,
-      "sha256": "feb1f29c0e0c4a3cb3a07f68d53ed30f273c1ee902769e46f52fc8baaf1e3e52"
+      "bytes": 1101,
+      "sha256": "50163fdc30644bf319f43485e31b6d5a127efc3e9d019731a2a4b6cf058d4efe"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -45,62 +45,122 @@
     {
       "path": "exports/clean.png",
       "role": "rendered still",
-      "bytes": 123522,
-      "sha256": "1f509fd8c83c5a1b0791be6610ccfc8d643a82acaeb7a9622ddada791c1dbb67"
+      "bytes": 142930,
+      "sha256": "fba9a4307fe0ba6e32789a26ba563ee42da3f054186fd85770ae1f438e82c20c"
     },
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 230341,
-      "sha256": "176381f988bbe4c4512bf5ba4c422ce5638c85a4f721e322ea9ba4c7292b42e9"
+      "bytes": 247123,
+      "sha256": "4d653a904c040679ba4170893d8b21715e8370adf58ed00b64d9c02a3e1c3256"
     },
     {
       "path": "exports/keyframes/end.png",
       "role": "rendered still",
-      "bytes": 131244,
-      "sha256": "c7e6de813d214a7b6e6b493ef923d75d25b6b3bc5476c1e3cd0db56d6445634a"
+      "bytes": 147020,
+      "sha256": "964ee1f47c816c86d5c93541eec55e9fe501d5e29e9d71ba3d9ea0c5602e1dda"
     },
     {
       "path": "exports/keyframes/middle.png",
       "role": "rendered still",
-      "bytes": 148944,
-      "sha256": "f70b830e4e36e4494956efcb3deaac2582b19ca50f516c40cb8555df073452f4"
+      "bytes": 140587,
+      "sha256": "74af3197a554e240a53c86faa908baff3f1de0e0198d7145f3068af293bc0350"
     },
     {
       "path": "exports/keyframes/start.png",
       "role": "rendered still",
-      "bytes": 123522,
-      "sha256": "1f509fd8c83c5a1b0791be6610ccfc8d643a82acaeb7a9622ddada791c1dbb67"
+      "bytes": 142930,
+      "sha256": "fba9a4307fe0ba6e32789a26ba563ee42da3f054186fd85770ae1f438e82c20c"
     },
     {
       "path": "exports/poster.png",
       "role": "rendered still",
-      "bytes": 131244,
-      "sha256": "c7e6de813d214a7b6e6b493ef923d75d25b6b3bc5476c1e3cd0db56d6445634a"
+      "bytes": 147020,
+      "sha256": "964ee1f47c816c86d5c93541eec55e9fe501d5e29e9d71ba3d9ea0c5602e1dda"
     },
     {
       "path": "exports/preview.mp4",
       "role": "rendered motion",
-      "bytes": 1629739,
-      "sha256": "bfcc06a19ed811be717040be94b5edec96d0fa47808341e8a5cdbdefabc06f7d"
+      "bytes": 4315333,
+      "sha256": "465ee70a171b5e5b11cfeb15ba4334047f31d7d1a11cb9bceda6235e5c1e6bd8"
     },
     {
       "path": "exports/teaching-focus.png",
       "role": "rendered still",
-      "bytes": 131244,
-      "sha256": "c7e6de813d214a7b6e6b493ef923d75d25b6b3bc5476c1e3cd0db56d6445634a"
+      "bytes": 147020,
+      "sha256": "964ee1f47c816c86d5c93541eec55e9fe501d5e29e9d71ba3d9ea0c5602e1dda"
+    },
+    {
+      "path": "proofs/frames-720/frame-01.png",
+      "role": "evidence / QA",
+      "bytes": 253251,
+      "sha256": "4e6952fe017e18918497fef435f78577066265f1aa688c206122d4caa39f2b15"
+    },
+    {
+      "path": "proofs/frames-720/frame-02.png",
+      "role": "evidence / QA",
+      "bytes": 273912,
+      "sha256": "9edf7b8c4727c90664c74eeb0eb20f08557c03d55303717c02b429e87b94b6be"
+    },
+    {
+      "path": "proofs/frames-720/frame-03.png",
+      "role": "evidence / QA",
+      "bytes": 273074,
+      "sha256": "2eb2fefa976bf47c18e9938440c66169417825e87a2984bee3756ae79d5c85e5"
+    },
+    {
+      "path": "proofs/frames-720/frame-04.png",
+      "role": "evidence / QA",
+      "bytes": 203347,
+      "sha256": "b99432b023290aaba62bf6793bde6c4c3ed323a5f70e714548c7395787dacd85"
+    },
+    {
+      "path": "proofs/frames-720/frame-05.png",
+      "role": "evidence / QA",
+      "bytes": 208836,
+      "sha256": "dfb02df6004328e1e095e9e528f42e7fbeff7aeb7d5f5b4ad5faa0180a86805a"
+    },
+    {
+      "path": "proofs/frames-720/frame-06.png",
+      "role": "evidence / QA",
+      "bytes": 232887,
+      "sha256": "b9bc6cd6471e6284b40890c0adf0eb6e7a896a5bfc8bbaeaac2aa7f0b0699adb"
+    },
+    {
+      "path": "proofs/frames-720/frame-07.png",
+      "role": "evidence / QA",
+      "bytes": 238120,
+      "sha256": "ed46963afb5e94f57e8d469ff38adaf0fc10cb38c6e3692e4033283ac0da3c30"
+    },
+    {
+      "path": "proofs/frames-720/frame-08.png",
+      "role": "evidence / QA",
+      "bytes": 238108,
+      "sha256": "0c0d169bd789925db5f0b0362c3bd846e2d22b64bd35c366c0332c3e70a58e84"
+    },
+    {
+      "path": "proofs/frames-720/frame-09.png",
+      "role": "evidence / QA",
+      "bytes": 231118,
+      "sha256": "60e04739ec61ab5d5b58822a6f0f5adaf46e0e21c4ec7774a9d8c96d64b1de17"
+    },
+    {
+      "path": "proofs/manual-review.json",
+      "role": "evidence / QA",
+      "bytes": 791,
+      "sha256": "c90c96cae87d0bd540524cd43f8c32a38eedeaafe04d353ad15680de8063667c"
     },
     {
       "path": "proofs/poster-720.png",
       "role": "evidence / QA",
-      "bytes": 177738,
-      "sha256": "8623eeeeb753f3ab93f85e2fe8acbf9fcadca94598a896542b16b01eb0c2b472"
+      "bytes": 192187,
+      "sha256": "0cf5d95dd278a4c261d26e9746eb27864016cddbf001556b5a9a80d05dc6529c"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 3424,
-      "sha256": "e423ee3a8169da43d8349ab93e34411e16ae863554c6015a02d92768f6ceea39"
+      "bytes": 12635,
+      "sha256": "791392ef0561af2fb0cc530cea6c4c8dc2742c469526f41e052b7f4567de2d5a"
     },
     {
       "path": "src/brief.json",
@@ -111,410 +171,1310 @@
     {
       "path": "src/build.json",
       "role": "editable source",
-      "bytes": 5446,
-      "sha256": "34173d221e01c788395ca3350538aea4812ba2f563d88f456f260dea9e3c8e08"
+      "bytes": 15808,
+      "sha256": "804276f44a9bb9de068df7fef878c5d3334fbdf6a99d85ea18a537a5d05f8aac"
+    },
+    {
+      "path": "src/build_scenes.py",
+      "role": "editable source",
+      "bytes": 16009,
+      "sha256": "b6040d0e7eacfcb0801cbe17a01f622a6a153b346ab85f7160246809c33c1b3b"
     },
     {
       "path": "src/excerpt.c",
       "role": "editable source",
-      "bytes": 1731,
-      "sha256": "2086da51c9e47964de0eb660f1c1fef744e24a68563c5319f43665e33537dcbc"
+      "bytes": 2500,
+      "sha256": "ab484695e92ef869a5b3c2b10c3150ec29f499b7d83e18cbb3f4349dd5fc42ef"
     },
     {
       "path": "src/hello.def",
       "role": "editable source",
-      "bytes": 300,
-      "sha256": "37a8b6cc9188c6f3c2c9a1f6820c8ef3f7be7f2102a01c68d37fe75cd13b150e"
+      "bytes": 317,
+      "sha256": "7ca32d50c447fe83ab3b8af4ae3b70bc8ef36bcb2209ec477b2ff0261784c5e0"
     },
     {
       "path": "src/index.html",
       "role": "editable source",
-      "bytes": 1227162,
-      "sha256": "73026493cccfdc622662404be1d02201d8a51ef6ef47974fc13527a2a21728e8"
+      "bytes": 4630089,
+      "sha256": "14ab450788b76ccd865ad9a4770407b21bd23c743779949d63c47ba6e8a61847"
     },
     {
       "path": "src/scene-0000.svg",
       "role": "editable source",
-      "bytes": 19429,
-      "sha256": "3093097286e88af7bfe44df3ef2dc75bdc1592371f969359a495eecccaeebf23"
+      "bytes": 20211,
+      "sha256": "553dcedd99dbeaad881938dfffe4e881d76ca5ee1ab0912817a3b301f31d44f7"
     },
     {
       "path": "src/scene-0001.svg",
       "role": "editable source",
-      "bytes": 20053,
-      "sha256": "4a713873c3b90491eb0ccf86933e4807568125c8536a0d7eaf6e4155c0e0e181"
+      "bytes": 20211,
+      "sha256": "96be8a0171e819af109039feadb4985f02ef962310b50d1c050aac36e6c5f4b0"
     },
     {
       "path": "src/scene-0002.svg",
       "role": "editable source",
-      "bytes": 19892,
-      "sha256": "baa7b385728691e5d1de49197bc93980449a99f84ece08d8fc384640726dbf6b"
+      "bytes": 20211,
+      "sha256": "1f73c4f2023dd8e2fc31517c5017393ddd08e29eb7b291f1e20c0339cf2820d7"
     },
     {
       "path": "src/scene-0003.svg",
       "role": "editable source",
-      "bytes": 20917,
-      "sha256": "71136dbfbb2533474156311fce261ed55ccf4899b5b44a19830cf2ec18c02d63"
+      "bytes": 21189,
+      "sha256": "07e0fdd93b11bef227d6d49061857a960f63ae3e18cc41320cac3e3bdde62737"
     },
     {
       "path": "src/scene-0004.svg",
       "role": "editable source",
-      "bytes": 16994,
-      "sha256": "e83298b03babed7fd94d68b5ba8288ce34f6f6399db6b0b02b3fb558fda9fe0e"
+      "bytes": 21189,
+      "sha256": "8e4cccbb0702bd244c8effcf2bfa7eaec645d27dba17cf02dac52416a75505d3"
     },
     {
       "path": "src/scene-0005.svg",
       "role": "editable source",
-      "bytes": 19058,
-      "sha256": "c88408a3e41a20e16e2f5b1dc39c80c8df5321744dd14e52d963ba00018ca505"
+      "bytes": 21189,
+      "sha256": "390542d095b33af05b5f2cc3f5c25b34d1cf0c8851846cd1524f8e8b74040740"
     },
     {
       "path": "src/scene-0006.svg",
       "role": "editable source",
-      "bytes": 18372,
-      "sha256": "e857578868b8bfdd6e38b71bf12e4cef5719e0598ccfec45c1a4c2331a2bc6d0"
+      "bytes": 22167,
+      "sha256": "85bb78a1bc0557163e17c020c15e7963b9a7c9eccf9a93e2cf64cf661b8c3e39"
     },
     {
       "path": "src/scene-0007.svg",
       "role": "editable source",
-      "bytes": 17519,
-      "sha256": "cdb446893a57c4f8bd68fc1487f2fcaf798a719bd6e43710aa4b165cd9e158cd"
+      "bytes": 22167,
+      "sha256": "b459289602e385a06a8bf245342684dfa3c100cdee88dadc9c0ace746e6d6b38"
     },
     {
       "path": "src/scene-0008.svg",
       "role": "editable source",
-      "bytes": 19917,
-      "sha256": "a768b7e39edb07707b39651fbc1613a610bfe7253da1243130d531677a533c3d"
+      "bytes": 22167,
+      "sha256": "10fc2857a262fbf1baeeebd32624e92e54a44c893a365578af78f48c8cc03f43"
     },
     {
       "path": "src/scene-0009.svg",
       "role": "editable source",
-      "bytes": 20617,
-      "sha256": "7028209159564244bc74b1dc5540982550767bff3a240f1121feca9978e96644"
+      "bytes": 23372,
+      "sha256": "74ebabfff9bfb138a005cc1d38ad2e3ddfba530dd293aa9a434dd3105c92af64"
     },
     {
       "path": "src/scene-0010.svg",
       "role": "editable source",
-      "bytes": 20613,
-      "sha256": "149a61a5f1febd27f134feada29c4875942f152a909641b04eaba7e21f16620a"
+      "bytes": 23372,
+      "sha256": "6fa43087a4d8d9c1fcd937f3342d64dbade6efe6dede7693a68d1e58d722717a"
     },
     {
       "path": "src/scene-0011.svg",
       "role": "editable source",
-      "bytes": 21314,
-      "sha256": "ebed06c84d18e3a1c2c3a829c28c6d1a8cd76ed7de6ff26fc7a8e9aa6a2c82f5"
+      "bytes": 23372,
+      "sha256": "5cd711835f8f72b18c4f8de041bd7ef5c47fc563bc8d2fabed55baacc8cefc72"
     },
     {
       "path": "src/scene-0012.svg",
       "role": "editable source",
-      "bytes": 20621,
-      "sha256": "608c4742a13f6b9b9816021f4c5e3b3b3018fd8b9b2cc5ff091697fe26d09a68"
+      "bytes": 23557,
+      "sha256": "4261667ff9a3ec934ffb28790e40369b6a806251b1f95de5946886e7f66920ac"
     },
     {
       "path": "src/scene-0013.svg",
       "role": "editable source",
-      "bytes": 19239,
-      "sha256": "79f866d1712e59b8a9315eeae643acfd15b64208c62414ce4b9e3458c3d47141"
+      "bytes": 23557,
+      "sha256": "7524f2d4aceeec54e326e5644f7bd8d00d11e9bd62eca50aa975b136981c3460"
     },
     {
       "path": "src/scene-0014.svg",
       "role": "editable source",
-      "bytes": 18889,
-      "sha256": "278c04910321c27f74875fb8a9a124779d494a28321f28d595f05bd5e97cc3ff"
+      "bytes": 23557,
+      "sha256": "ff2aeb883453651cf0b07266b5085ffaee88cccd27baa20e73ba8d99e54934b7"
     },
     {
       "path": "src/scene-0015.svg",
       "role": "editable source",
-      "bytes": 17865,
-      "sha256": "654dda68de91370ab3758368c8152775e6d54509971cf322ec8c1e342c86dcc2"
+      "bytes": 25464,
+      "sha256": "63f78f86a4ffd38542c71cb1445806d66d156d46b953d3203f3b5b8906ab80fd"
     },
     {
       "path": "src/scene-0016.svg",
       "role": "editable source",
-      "bytes": 18723,
-      "sha256": "65a617e7068427e5771cc3bdc84ea2e0a6d64b14bcd65ba7ceac48bc314a6cd7"
+      "bytes": 25464,
+      "sha256": "9c89390fba6f0469ee38852329cbed5b0c6e0b610da3fcd916917a08885c8267"
     },
     {
       "path": "src/scene-0017.svg",
       "role": "editable source",
-      "bytes": 18036,
-      "sha256": "d181bf41a96ef171eb2689293fb309964ad181d47f0c233e83e4962bf70c87e0"
+      "bytes": 25464,
+      "sha256": "13dda38e3b8a2ebcacf91f770bbf5d57ee089fc9bee750af22c76fcf84dd5d95"
     },
     {
       "path": "src/scene-0018.svg",
       "role": "editable source",
-      "bytes": 18725,
-      "sha256": "b6d2434014a8d65762ab1e6c07566ca644efc2ad4cb8b9e66c1a82b8e247d315"
+      "bytes": 24300,
+      "sha256": "d25cfb586d3673e5d8c7181cfaad045066dde4500fb95ffb59923fe38b963e7d"
     },
     {
       "path": "src/scene-0019.svg",
       "role": "editable source",
-      "bytes": 18905,
-      "sha256": "e099efc77064a738f5b61c95a048ebc5b3101fd78dc97b29b20f0ba2e9b3e9b5"
+      "bytes": 24300,
+      "sha256": "a9a7371cd62c1da939054d31b35e98103b34ead0abe271670a968408f649e298"
     },
     {
       "path": "src/scene-0020.svg",
       "role": "editable source",
-      "bytes": 19931,
-      "sha256": "70dd2dc98da2cb70a10193d83265c2513574f9bf6235068b21ce97932300421f"
+      "bytes": 24300,
+      "sha256": "df6f2369b01ed1ed9d2a40d109b25d9661751afb5ab79f17b9a71c5cefbc82fa"
     },
     {
       "path": "src/scene-0021.svg",
       "role": "editable source",
-      "bytes": 18898,
-      "sha256": "b25d406f4fdbda2e4f92c6bc79aef4cd573c018a85364eab55d89345243d16c1"
+      "bytes": 25869,
+      "sha256": "044bc7af4a9d155d5eb33ca74cc6f9abf13719c184f635eb5323e0729982e853"
     },
     {
       "path": "src/scene-0022.svg",
       "role": "editable source",
-      "bytes": 19936,
-      "sha256": "405f7fcd3db6e2af12f0bd01c1d82b36a91c2c0246d86770f90813c2f86e81fd"
+      "bytes": 25869,
+      "sha256": "d25f84a1e21f7e6f6158a7a5cd3a1ad6ad83696020b6462b6b01a9a7d78aba23"
     },
     {
       "path": "src/scene-0023.svg",
       "role": "editable source",
-      "bytes": 21833,
-      "sha256": "3d65dffd42c18bd6717e7f41ab0dc59df4e19fb0768244cab5581fca1a1290ca"
+      "bytes": 25869,
+      "sha256": "78fcd10c9c52d1a9b000832f04e6d322b71bfd4f5ed6622d1b7e91b90963316d"
     },
     {
       "path": "src/scene-0024.svg",
       "role": "editable source",
-      "bytes": 21329,
-      "sha256": "1a2fb95ffa98227e589cb6e5b52963abac73f915a60c77a6e7d5d9bbc13bd2c6"
+      "bytes": 24678,
+      "sha256": "85862715f2e57acc9ba1618e29b283533254466524d2096e542f43604454eb7b"
     },
     {
       "path": "src/scene-0025.svg",
       "role": "editable source",
-      "bytes": 21333,
-      "sha256": "d5ea238f5876f47d2648f53d77104aa6fa0a1cfb1f4dc1116951f33734310a0e"
+      "bytes": 24678,
+      "sha256": "99216301cc1ac53152100fbe40a868229def824f0e9783b077deb4a8060ec0c2"
     },
     {
       "path": "src/scene-0026.svg",
       "role": "editable source",
-      "bytes": 22366,
-      "sha256": "df56b5520b58fc64c79865fda1c7a05fedd775f2474834707564dcbacdd84055"
+      "bytes": 24678,
+      "sha256": "ba8efdc3a3e08a179889e35eec5f1db153bcc0c0eeffb407a1dd6cc55821056d"
     },
     {
       "path": "src/scene-0027.svg",
       "role": "editable source",
-      "bytes": 22016,
-      "sha256": "ce7690bdf4971ecc566b479b8aae960c7bca3567cc1d63c6112620ca1148658d"
+      "bytes": 24335,
+      "sha256": "2002987dd7d768b180b48ecf3708117b9597375cf5ce593446a7db46999239f4"
     },
     {
       "path": "src/scene-0028.svg",
       "role": "editable source",
-      "bytes": 21162,
-      "sha256": "55b767b0bed6d2718cd876d2408bfa2df52a3d3d31087adf0ad59957eb5d6c3f"
+      "bytes": 24335,
+      "sha256": "f4e6fd4e03693a6b2ce72c860b03f9d8aca62f2a3ebe46a30a72b90bc2ff3abf"
     },
     {
       "path": "src/scene-0029.svg",
       "role": "editable source",
-      "bytes": 21511,
-      "sha256": "f54ca8d907af567786e8828f98366f3db32b26390ab34cab381aec79b2803dc4"
+      "bytes": 24335,
+      "sha256": "9134d7f41c78098adc0497e7367526912e123ce09984609dd705bf944c026aa7"
     },
     {
       "path": "src/scene-0030.svg",
       "role": "editable source",
-      "bytes": 21516,
-      "sha256": "76672acad3c427c7190052d35aa5f23d650a6f539fd5e36ced02985963f27ca2"
+      "bytes": 24167,
+      "sha256": "8ab430fd507607f711369ad2e36688af4bfa3b8c3fb41f935049b0455bb2a19e"
     },
     {
       "path": "src/scene-0031.svg",
       "role": "editable source",
-      "bytes": 21688,
-      "sha256": "39cf968eff011e61014461cd2e63f0bbaab313d38469adf026d1b14c19189f1a"
+      "bytes": 24167,
+      "sha256": "ef2f261604b74ec5bd9cb0daa26fa793f2b1af4fb5a4d360176768b445662841"
     },
     {
       "path": "src/scene-0032.svg",
       "role": "editable source",
-      "bytes": 20830,
-      "sha256": "9f23f4e5d029e68dee9cd1d76de6fc6fc844ecd610959405a0795ecc7f4c82db"
+      "bytes": 24167,
+      "sha256": "e8d3936e70b895b062285b3e79fc8ecf6e57a4c5ca48782d3e54411f5bdb804e"
     },
     {
       "path": "src/scene-0033.svg",
       "role": "editable source",
-      "bytes": 22226,
-      "sha256": "d2faf87cf07678e589ad510cc6bba1855e212cc2d1044ca2732ed305a4931271"
+      "bytes": 23828,
+      "sha256": "32a41b5b3bfbb0c582a41d3309907a4f9a921a3b36c8f19958a9bad8477d0b5a"
     },
     {
       "path": "src/scene-0034.svg",
       "role": "editable source",
-      "bytes": 21216,
-      "sha256": "41c453f8dc85cefe9f546735f4d10c188165c49a1a74a41c7b76b11f2a5933a0"
+      "bytes": 23828,
+      "sha256": "3460184ccf43e59fa2d0fb1ab8d677c460c6cfd5197f1f14f4dfe4930cba911f"
     },
     {
       "path": "src/scene-0035.svg",
       "role": "editable source",
-      "bytes": 21577,
-      "sha256": "2b616503dfe90bfc06d845e2ae0730206fa2542dfb35f38bedb4abbd82b211bf"
+      "bytes": 23828,
+      "sha256": "9f18af9963175c17522d0d9fc48651c2582b29a8e3d0ac5eb69cec473fa472b4"
     },
     {
       "path": "src/scene-0036.svg",
       "role": "editable source",
-      "bytes": 21938,
-      "sha256": "026637efe7b122cfae7fab58f1db122088c8b4130c9eee500b65faa98c2d0ec3"
+      "bytes": 23832,
+      "sha256": "f0f182f15f646cc84200b7293adadbda63f357d6a2bd58911366f54835bf2ce1"
     },
     {
       "path": "src/scene-0037.svg",
       "role": "editable source",
-      "bytes": 20740,
-      "sha256": "41dd9a0b60ac1e433a34682338995c70dd91e9cbba147e37bcd716eddd1118b5"
+      "bytes": 23832,
+      "sha256": "62a93c4bc39a8a920d80ccc13f35f5392edfc601a88d06b459514b9b81c8b125"
     },
     {
       "path": "src/scene-0038.svg",
       "role": "editable source",
-      "bytes": 20734,
-      "sha256": "540d756da8f0e8fa6ee882933dd3569a65bffa862fffe8bf22a45d18a8438785"
+      "bytes": 23832,
+      "sha256": "2ffda321d497a0754a6da1ff1906a9d5584f25f542c9581767d8b4d53690947c"
     },
     {
       "path": "src/scene-0039.svg",
       "role": "editable source",
-      "bytes": 19695,
-      "sha256": "f4e1531050f6078672e9ec7613634d9deb544a846db010cfc4d5f56ddc37b3c2"
+      "bytes": 23149,
+      "sha256": "5494c35f9207fb0e44fffa6b6525949e2c64ce34fe008197b34f27d9d22303af"
     },
     {
       "path": "src/scene-0040.svg",
       "role": "editable source",
-      "bytes": 17802,
-      "sha256": "82211a5699a9b0b5c44f8fb6319aad0f9de46745c1f3b2294f99f76d42bfc6e5"
+      "bytes": 23149,
+      "sha256": "3d7a2eb85f368612875806694f4044f087ce876127d3d4781c6378840d0e3b9c"
     },
     {
       "path": "src/scene-0041.svg",
       "role": "editable source",
-      "bytes": 18458,
-      "sha256": "8af73f32eb4a58f937cfdc2f76d054d6ac07fbfe09ff376c5d02bb4d9c6875bf"
+      "bytes": 23149,
+      "sha256": "de9929cd3a38d198863ab65dbfd36596ad650d163eaed7af8dcc0f32d0dbdf87"
     },
     {
       "path": "src/scene-0042.svg",
       "role": "editable source",
-      "bytes": 17429,
-      "sha256": "c4b5c1b0a6f2231dd05c0d1f625eb0a864a902f3ebaa15a17400b69d7a107785"
+      "bytes": 22289,
+      "sha256": "88ca64fd44a3c8f8641aaab3265015ddd561beb1536aba013c6158831925c56a"
     },
     {
       "path": "src/scene-0043.svg",
       "role": "editable source",
-      "bytes": 17091,
-      "sha256": "29641c3a9cde5e4869206d251a21e538bdbc95c9f90cbfe00359c2965b178ab6"
+      "bytes": 22289,
+      "sha256": "6f325b3a2c3883889c8b54257a7a3d0c3423deef47aa4e361d8123ebdfc3a479"
     },
     {
       "path": "src/scene-0044.svg",
       "role": "editable source",
-      "bytes": 17960,
-      "sha256": "3bab6eac0652e7e947c686aa1ee904e344f4c559fb95be60bde649801fed64f3"
+      "bytes": 22289,
+      "sha256": "7e68be6421e6817bbcc2401816d8c9960b749e0c0cbbd14746df748c53796369"
     },
     {
       "path": "src/scene-0045.svg",
       "role": "editable source",
-      "bytes": 16927,
-      "sha256": "da458fe98cc6f048e7c41d7d3f46a78503e47ef11a96748e0b6d9d510e36b08c"
+      "bytes": 23704,
+      "sha256": "8ee45128c6e79019311263d745a95636e6b8597cb6b398f98ac37252cc01ee1f"
     },
     {
       "path": "src/scene-0046.svg",
       "role": "editable source",
-      "bytes": 17258,
-      "sha256": "5ad9267cab624d91906091ff5e310dea7b19b6283b9168561aea566f395a4374"
+      "bytes": 23704,
+      "sha256": "dad67ad1cf19795324873545ad38530f3738049b6631fefda6c3f52c17d59c84"
     },
     {
       "path": "src/scene-0047.svg",
       "role": "editable source",
-      "bytes": 17254,
-      "sha256": "56d23a95918dc78280de9f5a041a24493698d7b8120e8077155105d63a0b1862"
+      "bytes": 23704,
+      "sha256": "a0ed31484e9d0d4b544451e7ba34883103c83d0a399860a4bd6ccd73dedc1d01"
     },
     {
       "path": "src/scene-0048.svg",
       "role": "editable source",
-      "bytes": 17171,
-      "sha256": "f16ed9611dfce4864a84089e56bde519c59f62cee0c05dd494bf10ec5437c91a"
+      "bytes": 23383,
+      "sha256": "1440e0778a3c70c31a063f4acb40207874e9e062bc69d22577429c3d96e2a2a9"
     },
     {
       "path": "src/scene-0049.svg",
       "role": "editable source",
-      "bytes": 15833,
-      "sha256": "8575c288f0121fd9faa5c59f9e48090f4648dfec86a71763179e8b2541001389"
+      "bytes": 23383,
+      "sha256": "cc632bd7d481d6c32351add5c5e7159ba420489332914d2c1564a96fa9296bed"
     },
     {
       "path": "src/scene-0050.svg",
       "role": "editable source",
-      "bytes": 15472,
-      "sha256": "7edf96d7e1ab1725b19cfe678441578a9fc052fdba8cb62ed2a45f04df0de085"
+      "bytes": 23383,
+      "sha256": "1423f73b9ee3ea6cf0a1468e4f01dee1a8d840e7d56acba56c059dbfadb1b49a"
     },
     {
       "path": "src/scene-0051.svg",
       "role": "editable source",
-      "bytes": 14112,
-      "sha256": "2c7d6cf4bdcb6dd1071262a14171591996a6bb633f7c2c7b65675ed66f53103f"
+      "bytes": 23958,
+      "sha256": "53b31895c96c7124e632fbd06f548240c1490262a40e04ae6a01beb6d9dfe4e2"
     },
     {
       "path": "src/scene-0052.svg",
       "role": "editable source",
-      "bytes": 12739,
-      "sha256": "c4ac448e77614e9d3d24ac82e3dd5d594cff6e7b1d9a6fd07c533bc455281577"
+      "bytes": 23958,
+      "sha256": "f2b0aebf3c27af1370542449f5e92a465beb1237e87c9ebf98cc522cd5a617f9"
     },
     {
       "path": "src/scene-0053.svg",
       "role": "editable source",
-      "bytes": 12941,
-      "sha256": "ad540901b4aaf11a2da9c1554853527e5f94994212a3f5a1869068025e2d8d2c"
+      "bytes": 23958,
+      "sha256": "68ee8b0390868ce2fd1e2ef1cf15bc52327a8cdaf3e42f1238b1a89ad7315ec2"
     },
     {
       "path": "src/scene-0054.svg",
       "role": "editable source",
-      "bytes": 11948,
-      "sha256": "1e24b69084094b4b0ca345e70603de7cba65f4348b4af1cd5eb3cbceadd5552e"
+      "bytes": 23478,
+      "sha256": "bdccabf930e783009686bf6237056a931b1ba61e8722c83c1f2789e1d39a1d63"
     },
     {
       "path": "src/scene-0055.svg",
       "role": "editable source",
-      "bytes": 11294,
-      "sha256": "3d6bd189ae6ae0b06a6919939d3772df33423d3fbb6d78f8fcaeebd8605c958b"
+      "bytes": 23478,
+      "sha256": "779f95b8b7e12029341f68ff1a4f003440ef52327afe522df5af6ec662774988"
     },
     {
       "path": "src/scene-0056.svg",
       "role": "editable source",
-      "bytes": 11477,
-      "sha256": "0fe83969a73fc63a902488390ef95ab627776eecf1fba6aeb907b66732f7074c"
+      "bytes": 23478,
+      "sha256": "f0f9479d4fa6082373427fcc2a2ca97cf1bcb37fefc289d2bfbf35ce00b102a5"
     },
     {
       "path": "src/scene-0057.svg",
       "role": "editable source",
-      "bytes": 9445,
-      "sha256": "118c84b9f7ecd10bbc48a5b9c28b401616289223c3ff1d88bf4ffddf60c4c2ce"
+      "bytes": 23350,
+      "sha256": "a18b3ce5267045e2e1157727e753e331c8fa04dc12752046a7dea6c85f7f56b0"
     },
     {
       "path": "src/scene-0058.svg",
       "role": "editable source",
-      "bytes": 9460,
-      "sha256": "3f5a59ed40ab4b95ca9a28aeca8b38ac072ee2cf926f2c16781eadc66fbb6aab"
+      "bytes": 23350,
+      "sha256": "18c8aec77c731c4c1519475e441a6266aae180a42c69132a9f209844175fb6ee"
     },
     {
       "path": "src/scene-0059.svg",
       "role": "editable source",
-      "bytes": 16036,
-      "sha256": "c31bca43045fc144f5ebcc10f1c130e8bb625f391a3b1aec0b01424921d0703e"
+      "bytes": 23350,
+      "sha256": "dfe410ffc91db89ce9ec741e220b5642c5b58ec47f1a9c54ffdee394a5189481"
+    },
+    {
+      "path": "src/scene-0060.svg",
+      "role": "editable source",
+      "bytes": 22893,
+      "sha256": "386c5f4f0a1a7026d4f4ea46ce6e6211289e0e9ce6342aabe9843c9756d1d73b"
+    },
+    {
+      "path": "src/scene-0061.svg",
+      "role": "editable source",
+      "bytes": 22893,
+      "sha256": "4da6a08db00892075d10700d5cabfb690c544abdade39fbfc2508559cefc2017"
+    },
+    {
+      "path": "src/scene-0062.svg",
+      "role": "editable source",
+      "bytes": 22893,
+      "sha256": "e15c57b087d8a32b0d03281f19ebc9fdcbd7b2777f127074ea1bbe8df3871188"
+    },
+    {
+      "path": "src/scene-0063.svg",
+      "role": "editable source",
+      "bytes": 22436,
+      "sha256": "78cf8c5a7e71bcd93179ef1b5e9092a0e19db93215c8f2ea9b1be6506c7cf92d"
+    },
+    {
+      "path": "src/scene-0064.svg",
+      "role": "editable source",
+      "bytes": 22436,
+      "sha256": "2b05f41efddf6bd4673ea2aeab09206a651bcd0958f3c7e56e2a431ff1c80b4b"
+    },
+    {
+      "path": "src/scene-0065.svg",
+      "role": "editable source",
+      "bytes": 22436,
+      "sha256": "65259639d537cf8fcd35de0539466c7f64c56f2258c609988c429499e3fdb303"
+    },
+    {
+      "path": "src/scene-0066.svg",
+      "role": "editable source",
+      "bytes": 21971,
+      "sha256": "d013793283c9e8cf577c8115c8840895caa8efda9ce404aa0e3a74dac718694d"
+    },
+    {
+      "path": "src/scene-0067.svg",
+      "role": "editable source",
+      "bytes": 21971,
+      "sha256": "a9fa6102f5c27e905b37c670222994c69a7cc336cf8dda64aa4a5657380fb416"
+    },
+    {
+      "path": "src/scene-0068.svg",
+      "role": "editable source",
+      "bytes": 21971,
+      "sha256": "7844e2ba1dfcf8a14268e7da3e7ecd9b50bc5c108e0432671c85e651fc683feb"
+    },
+    {
+      "path": "src/scene-0069.svg",
+      "role": "editable source",
+      "bytes": 20812,
+      "sha256": "dc5dfe136c59fe8bf4d9166b7e0a9a25e15413a5dedd1e1bde47af45048aac9d"
+    },
+    {
+      "path": "src/scene-0070.svg",
+      "role": "editable source",
+      "bytes": 20812,
+      "sha256": "ba660a8f82d725e59321912442c2c8ebeca0ad20f358b2b5f1989efb48c73c25"
+    },
+    {
+      "path": "src/scene-0071.svg",
+      "role": "editable source",
+      "bytes": 20812,
+      "sha256": "e614bfdd353e24395ba88ede304b1183e61b17dcd870bcbb957ac4db27e1cfab"
+    },
+    {
+      "path": "src/scene-0072.svg",
+      "role": "editable source",
+      "bytes": 18909,
+      "sha256": "fde69e91320423cd18f7ec4a6b446c7e9b37e9897c0aa8e03c843b0ecbe98962"
+    },
+    {
+      "path": "src/scene-0073.svg",
+      "role": "editable source",
+      "bytes": 18909,
+      "sha256": "696cd1c7352eb3b9bcaee5cbd4718e8f03e903374abf49bc3d789a765822998a"
+    },
+    {
+      "path": "src/scene-0074.svg",
+      "role": "editable source",
+      "bytes": 18909,
+      "sha256": "5045ddd58f0e81b7a36e5b17fe8b852b1e6b0454a0aea54448ab0226f28f853b"
+    },
+    {
+      "path": "src/scene-0075.svg",
+      "role": "editable source",
+      "bytes": 18542,
+      "sha256": "708bea938aec612794a8f3e0f71435af3ae802cbbb27c87faa7793f5abdd984c"
+    },
+    {
+      "path": "src/scene-0076.svg",
+      "role": "editable source",
+      "bytes": 18542,
+      "sha256": "a5e28b0d95b68444d188e689c800cca4e29af895a47c117997ec5f9ef7837918"
+    },
+    {
+      "path": "src/scene-0077.svg",
+      "role": "editable source",
+      "bytes": 18542,
+      "sha256": "270de32018e46b91326aa40a74791e8508c9077dfc8b9c0e29f3b21a27f328fb"
+    },
+    {
+      "path": "src/scene-0078.svg",
+      "role": "editable source",
+      "bytes": 18194,
+      "sha256": "14bcd4cded1463a8eff305a38ae32c8146f9d23585e85103ee1db949aa0fbca6"
+    },
+    {
+      "path": "src/scene-0079.svg",
+      "role": "editable source",
+      "bytes": 18194,
+      "sha256": "e8107bb70f180906fb9088f79053890d65acb261c1977d89b853c7877c986979"
+    },
+    {
+      "path": "src/scene-0080.svg",
+      "role": "editable source",
+      "bytes": 18194,
+      "sha256": "5b55ea6499d04495a63ac8fe5afef83a418374130cd370a62cda881124abdea6"
+    },
+    {
+      "path": "src/scene-0081.svg",
+      "role": "editable source",
+      "bytes": 16982,
+      "sha256": "f4dad128e06ce66d6211bef5a3b449b5c3d3ca1606ad7e0614f26e93127872f0"
+    },
+    {
+      "path": "src/scene-0082.svg",
+      "role": "editable source",
+      "bytes": 16982,
+      "sha256": "f75db6f36b08b42db3060cdf1a9abb56ed7d8909c67501a02a6ba8d0709d5285"
+    },
+    {
+      "path": "src/scene-0083.svg",
+      "role": "editable source",
+      "bytes": 16982,
+      "sha256": "dc7d67b05fbf51acddae5135cab0c6163567e3be6fd424a37c100d5ab033f122"
+    },
+    {
+      "path": "src/scene-0084.svg",
+      "role": "editable source",
+      "bytes": 19392,
+      "sha256": "53a5461e2bc808dfeab3caafcb2eb728f559cc5bf5f3e9e8011796c2ff80dfa2"
+    },
+    {
+      "path": "src/scene-0085.svg",
+      "role": "editable source",
+      "bytes": 19392,
+      "sha256": "3fbaa7795f2966b080c3592d6d89108d064a47fa046bc35d86454a1bb5e7d571"
+    },
+    {
+      "path": "src/scene-0086.svg",
+      "role": "editable source",
+      "bytes": 19392,
+      "sha256": "193a786f46a81a696e7298948ed68dade80139a62925a7159a331b2befdf9d67"
+    },
+    {
+      "path": "src/scene-0087.svg",
+      "role": "editable source",
+      "bytes": 18352,
+      "sha256": "ba040bb468b8639e2e6bd6071c5ab136446039592ea7755c04d0eb58d102a9a1"
+    },
+    {
+      "path": "src/scene-0088.svg",
+      "role": "editable source",
+      "bytes": 18352,
+      "sha256": "8f033900b6d691f8a17688cb11dd6369075ff3fe1fd397966d809132d02add84"
+    },
+    {
+      "path": "src/scene-0089.svg",
+      "role": "editable source",
+      "bytes": 18352,
+      "sha256": "bf73accf6c98b7dbd28c9a3f20976eb7b1f80ab5e78d9c2407998ffd252763ed"
+    },
+    {
+      "path": "src/scene-0090.svg",
+      "role": "editable source",
+      "bytes": 18363,
+      "sha256": "9c1947af130bb1931b0ed3fc1a68f7486789fbdf005c6c8f2bbd53ac4a3229b2"
+    },
+    {
+      "path": "src/scene-0091.svg",
+      "role": "editable source",
+      "bytes": 18363,
+      "sha256": "fc95328444ed65e0a75db0d2e46e30536fc4ce622212df950c56745f6170bcba"
+    },
+    {
+      "path": "src/scene-0092.svg",
+      "role": "editable source",
+      "bytes": 18363,
+      "sha256": "c21747d384d7ce057d2bad45c2f306697b55c7483adaea6e36f9ab1241212d96"
+    },
+    {
+      "path": "src/scene-0093.svg",
+      "role": "editable source",
+      "bytes": 19061,
+      "sha256": "7fa814422e52a5951fc475772f52b95a10291f699759ff9bc24a5564aa52fa48"
+    },
+    {
+      "path": "src/scene-0094.svg",
+      "role": "editable source",
+      "bytes": 19061,
+      "sha256": "549242e98a2fa99087d2166659498518bf99afb63072b6b2a7e3718bc84cf7e2"
+    },
+    {
+      "path": "src/scene-0095.svg",
+      "role": "editable source",
+      "bytes": 19061,
+      "sha256": "d912e5338ebc8723f4e7076e96eb52f5d5e82d5ebb07f63be4d2a7cb529250ac"
+    },
+    {
+      "path": "src/scene-0096.svg",
+      "role": "editable source",
+      "bytes": 19233,
+      "sha256": "fa5403f1341f3efd4782a03210701f0071a0254c1cb0d1de4dd984bb92538a76"
+    },
+    {
+      "path": "src/scene-0097.svg",
+      "role": "editable source",
+      "bytes": 19233,
+      "sha256": "ee28a211f2a1d5aa66e3f4181f7e162253b1fad8ee1d811a1ef769dbdc6e977d"
+    },
+    {
+      "path": "src/scene-0098.svg",
+      "role": "editable source",
+      "bytes": 19233,
+      "sha256": "6eece6d124454f24ef87e265e77928256d95c80d1f5fccd693dd181e5241c005"
+    },
+    {
+      "path": "src/scene-0099.svg",
+      "role": "editable source",
+      "bytes": 19009,
+      "sha256": "9c5284c217f843bae1b2835d7c97a1c1d356ab8fad22db39b36a58ed898a35c8"
+    },
+    {
+      "path": "src/scene-0100.svg",
+      "role": "editable source",
+      "bytes": 19009,
+      "sha256": "007a4b12547ef960a5e99fe61a89d2d6b3581e96c7bf96b75911fd1f69d449dc"
+    },
+    {
+      "path": "src/scene-0101.svg",
+      "role": "editable source",
+      "bytes": 19009,
+      "sha256": "afbe8a3d6f3cc3e47090b27615767a5429a8d4627e81a5a203ef1fc46bf7e564"
+    },
+    {
+      "path": "src/scene-0102.svg",
+      "role": "editable source",
+      "bytes": 18420,
+      "sha256": "bd9d0d4a26eea450f186d844bf69239974d7e00e18131bcfe6e84e5e1d0a35dd"
+    },
+    {
+      "path": "src/scene-0103.svg",
+      "role": "editable source",
+      "bytes": 18420,
+      "sha256": "8542add41ba905f61da480b2225dba687991c041e113da26264d99aaa8a57a53"
+    },
+    {
+      "path": "src/scene-0104.svg",
+      "role": "editable source",
+      "bytes": 18420,
+      "sha256": "2ec2e2a97c54b43fac3218ce89a0f9394da0d590f3929ec8a75d439f97d3491f"
+    },
+    {
+      "path": "src/scene-0105.svg",
+      "role": "editable source",
+      "bytes": 17673,
+      "sha256": "5e362f62155183f11bbcd27d6f0276dda755d30a1e5c24461d8e834574388baa"
+    },
+    {
+      "path": "src/scene-0106.svg",
+      "role": "editable source",
+      "bytes": 17673,
+      "sha256": "cae9d76ea60047320fc2514fa8b0301a615267f8af692a31a59fc477b39d374d"
+    },
+    {
+      "path": "src/scene-0107.svg",
+      "role": "editable source",
+      "bytes": 17673,
+      "sha256": "3a82f5da89fae367e826ddb339a2edc5d83b7aac698f573971ff8e756125a572"
+    },
+    {
+      "path": "src/scene-0108.svg",
+      "role": "editable source",
+      "bytes": 19659,
+      "sha256": "421c4839796bc40361039f4eb910e48aa970bed9ee4a49fbe015b565771fc06a"
+    },
+    {
+      "path": "src/scene-0109.svg",
+      "role": "editable source",
+      "bytes": 19659,
+      "sha256": "2e46212c2510fa58654f648397767c366ab5265a02524b37ed2fec8f586ec270"
+    },
+    {
+      "path": "src/scene-0110.svg",
+      "role": "editable source",
+      "bytes": 19659,
+      "sha256": "50ab90390a3fc29fa9ac6a7daeda8490c18aa2fee4b47e64eb92641c85355716"
+    },
+    {
+      "path": "src/scene-0111.svg",
+      "role": "editable source",
+      "bytes": 20144,
+      "sha256": "63fd6293b7104f4abebd115eda38925dd72c01e318426e1d2f9df806fe48770c"
+    },
+    {
+      "path": "src/scene-0112.svg",
+      "role": "editable source",
+      "bytes": 20144,
+      "sha256": "ab70f3a6531907f006f46118a1b30c72ef42b00148fe650f810950a949f63525"
+    },
+    {
+      "path": "src/scene-0113.svg",
+      "role": "editable source",
+      "bytes": 20144,
+      "sha256": "187562fe2007aa084621b79a2c10a2ca4f7e30fe1506c8de41681072bd09bef1"
+    },
+    {
+      "path": "src/scene-0114.svg",
+      "role": "editable source",
+      "bytes": 19565,
+      "sha256": "751fe2284878f2a6fe4303b158b6f981c3b30271ebd767a6fc321afed38d87d6"
+    },
+    {
+      "path": "src/scene-0115.svg",
+      "role": "editable source",
+      "bytes": 19565,
+      "sha256": "76474c202367ad17606861e30fd75f53f7707a1122e20df0d412b7959d2d8901"
+    },
+    {
+      "path": "src/scene-0116.svg",
+      "role": "editable source",
+      "bytes": 19565,
+      "sha256": "eeb8b4ca56c56ad4bab3eb381992491ea3db43e5814546f93558a27590fc1f80"
+    },
+    {
+      "path": "src/scene-0117.svg",
+      "role": "editable source",
+      "bytes": 19673,
+      "sha256": "c817c92c79651017adb6fe6bbe3246241d5fba138dfa63f48f7654ecbd9b4432"
+    },
+    {
+      "path": "src/scene-0118.svg",
+      "role": "editable source",
+      "bytes": 19673,
+      "sha256": "4f7b2bc09e79b97848a4853768cf82688b0dcbea7c4baca3925429f17bef4f27"
+    },
+    {
+      "path": "src/scene-0119.svg",
+      "role": "editable source",
+      "bytes": 19673,
+      "sha256": "f93dce1014e0b21e3a7b28e02ca12dfe6c40b6363cb5f2460b31b0af1791eb64"
+    },
+    {
+      "path": "src/scene-0120.svg",
+      "role": "editable source",
+      "bytes": 19780,
+      "sha256": "b2cc36815f2b7c23b5b0c9ab8f61d9ceb3772280223aa3558d2964a6eb18484f"
+    },
+    {
+      "path": "src/scene-0121.svg",
+      "role": "editable source",
+      "bytes": 19780,
+      "sha256": "d60e672dede108035d33568ebf5769f045ece9c1ffdf78ff6a3540e5a5e7f77c"
+    },
+    {
+      "path": "src/scene-0122.svg",
+      "role": "editable source",
+      "bytes": 19780,
+      "sha256": "05579c6f3abcd59c01592fc01a0f495ee1a52f1a40f641dab4e5b1f8ef318bd7"
+    },
+    {
+      "path": "src/scene-0123.svg",
+      "role": "editable source",
+      "bytes": 19033,
+      "sha256": "e4a8384da9ac115f85bcd570515083c0e355fd119a5932b67e899e0c70735614"
+    },
+    {
+      "path": "src/scene-0124.svg",
+      "role": "editable source",
+      "bytes": 19033,
+      "sha256": "2e96ea92d980a99d6907e10e2bd554d05491063e80aeb65a19a7f253e43a6d7e"
+    },
+    {
+      "path": "src/scene-0125.svg",
+      "role": "editable source",
+      "bytes": 19033,
+      "sha256": "bc8957db11c338314d2a1a5ad5d5e43447903e36ec0504c97cc5d44a27e03ec8"
+    },
+    {
+      "path": "src/scene-0126.svg",
+      "role": "editable source",
+      "bytes": 19888,
+      "sha256": "4f0c9c5cc99397c1d2c37187c437c00cd6b7204d2120a28e6910180223ef76fb"
+    },
+    {
+      "path": "src/scene-0127.svg",
+      "role": "editable source",
+      "bytes": 19888,
+      "sha256": "7d615748f8a37fa750d916c57a4c6f4b8775867469b5614c67cce12c458a38d1"
+    },
+    {
+      "path": "src/scene-0128.svg",
+      "role": "editable source",
+      "bytes": 19888,
+      "sha256": "0f432dd7a25ff3f566c3bc5f911adcb56e0ebc1bc1d84b387e6e92211a984df0"
+    },
+    {
+      "path": "src/scene-0129.svg",
+      "role": "editable source",
+      "bytes": 18859,
+      "sha256": "2723991f8e40361db830143835462316816b6fe8d0ce9ade0b7616371246a525"
+    },
+    {
+      "path": "src/scene-0130.svg",
+      "role": "editable source",
+      "bytes": 18859,
+      "sha256": "99c72e818857cb4eaecc4fefc6bbeec9f50d107e758a78a971248b342e5b77d7"
+    },
+    {
+      "path": "src/scene-0131.svg",
+      "role": "editable source",
+      "bytes": 18859,
+      "sha256": "674f56b4f6255b84af6e0ca0724f3f9fd54a09302ed3fb6b67cd956767fbb13d"
+    },
+    {
+      "path": "src/scene-0132.svg",
+      "role": "editable source",
+      "bytes": 18853,
+      "sha256": "a4b460ba44113ef7d5515247d161164451eb91afa9eb5a2f630084946e5a0944"
+    },
+    {
+      "path": "src/scene-0133.svg",
+      "role": "editable source",
+      "bytes": 18853,
+      "sha256": "0ff24f995bf032a0edda0f44d20fe8c21e68b6bd8e580851ee2f81777c77f587"
+    },
+    {
+      "path": "src/scene-0134.svg",
+      "role": "editable source",
+      "bytes": 18853,
+      "sha256": "27a93b17aac543260af6a8c097a800c27234e21b236a12e2d7de9d6d0f74dfc3"
+    },
+    {
+      "path": "src/scene-0135.svg",
+      "role": "editable source",
+      "bytes": 20397,
+      "sha256": "95a2d96371998a55d1f01eb62b1781ef3c64c7bb0051fc4c04cc99b21277235d"
+    },
+    {
+      "path": "src/scene-0136.svg",
+      "role": "editable source",
+      "bytes": 20397,
+      "sha256": "2ed0a1126347ecb7711be8dbef22739d887cd12d6416b82797a0609fbc19a6dd"
+    },
+    {
+      "path": "src/scene-0137.svg",
+      "role": "editable source",
+      "bytes": 20397,
+      "sha256": "4e2f124d1cd19242689010848a020cd2420311d98b9eb64685f511726592d6df"
+    },
+    {
+      "path": "src/scene-0138.svg",
+      "role": "editable source",
+      "bytes": 20224,
+      "sha256": "bde093e8244b82534d3c81b4c67e4c7a06aec78b6cb896e9ed47efeda29179ae"
+    },
+    {
+      "path": "src/scene-0139.svg",
+      "role": "editable source",
+      "bytes": 20224,
+      "sha256": "eb1caa33151e5be1a3eece5c51ec627ce7b8a56b463f9b37e40b68ed1467047e"
+    },
+    {
+      "path": "src/scene-0140.svg",
+      "role": "editable source",
+      "bytes": 20224,
+      "sha256": "f2acea8711135d3ea236fe5328edb392cae3debe59f24ea2bc536a7d16353e07"
+    },
+    {
+      "path": "src/scene-0141.svg",
+      "role": "editable source",
+      "bytes": 21254,
+      "sha256": "b2516e9368e55acb392aadf47e0f962f8c876acc1e89875a7842dfd07ce9b9f6"
+    },
+    {
+      "path": "src/scene-0142.svg",
+      "role": "editable source",
+      "bytes": 21254,
+      "sha256": "ffa8da01abdc2f33d2f83ed019d60f0ed4b029e4340feddace86d70e3f42bec5"
+    },
+    {
+      "path": "src/scene-0143.svg",
+      "role": "editable source",
+      "bytes": 21254,
+      "sha256": "0f3fa726bd3eb13d70c080821494572d3a4ffb3b2610836317b41e03add763cb"
+    },
+    {
+      "path": "src/scene-0144.svg",
+      "role": "editable source",
+      "bytes": 21235,
+      "sha256": "ba8787f060e267e62c9bec121a8b136ab19e3b6d842c7f41f9a9c25d8697ca3f"
+    },
+    {
+      "path": "src/scene-0145.svg",
+      "role": "editable source",
+      "bytes": 21235,
+      "sha256": "292a64b39913918515ecd76a1eb015905ba2832b0181bd2711284483753db52e"
+    },
+    {
+      "path": "src/scene-0146.svg",
+      "role": "editable source",
+      "bytes": 21235,
+      "sha256": "b4a86131931d79c84b76d4b11de48f472626a194278123ec3aed9d2fdd15a2fa"
+    },
+    {
+      "path": "src/scene-0147.svg",
+      "role": "editable source",
+      "bytes": 20365,
+      "sha256": "2b57fc079e579fefb1c93abee97d6cfeace06f11d62512f23ea293f8e54fe7c2"
+    },
+    {
+      "path": "src/scene-0148.svg",
+      "role": "editable source",
+      "bytes": 20365,
+      "sha256": "7f2959fdf3c8857daff611a8763799cbd1fc48965fe0170a77946112ea75485c"
+    },
+    {
+      "path": "src/scene-0149.svg",
+      "role": "editable source",
+      "bytes": 20365,
+      "sha256": "c47fefc66f0a5b2d86a1ab1ad4afc0a72408c159dd6f87bf87eab4c4cc853947"
+    },
+    {
+      "path": "src/scene-0150.svg",
+      "role": "editable source",
+      "bytes": 21048,
+      "sha256": "7265f859d8a5231e6b16695a7335ae477e87ccf4744f5aa9542717f829dfac65"
+    },
+    {
+      "path": "src/scene-0151.svg",
+      "role": "editable source",
+      "bytes": 21048,
+      "sha256": "c1d0a70e4fd282c33155851d842d33ca6fd3df3ff05a6fd71e8d300b3a11230c"
+    },
+    {
+      "path": "src/scene-0152.svg",
+      "role": "editable source",
+      "bytes": 21048,
+      "sha256": "7fcecddfdbcaea3e705911fcd94a2cdfae9d1fcb97dfa3aa9e2ced2fe25d6c8f"
+    },
+    {
+      "path": "src/scene-0153.svg",
+      "role": "editable source",
+      "bytes": 20720,
+      "sha256": "3ddf919d58d94e9997d5fbe5caec1b0f452bdc63fffc1b52327a7fbec54d01ca"
+    },
+    {
+      "path": "src/scene-0154.svg",
+      "role": "editable source",
+      "bytes": 20720,
+      "sha256": "a7a0ccbbaa88f14db977a621fac0379d411589ad9057d8442f7e98305e310767"
+    },
+    {
+      "path": "src/scene-0155.svg",
+      "role": "editable source",
+      "bytes": 20720,
+      "sha256": "477965dee4a1db52c904a78dbb6259afabcc10881dcbbe53bfb5de2c75866ec3"
+    },
+    {
+      "path": "src/scene-0156.svg",
+      "role": "editable source",
+      "bytes": 21404,
+      "sha256": "c492fde53fa6435f2c59130a0e556016e2985b3ae5c5ced6bd99166bdb202c8e"
+    },
+    {
+      "path": "src/scene-0157.svg",
+      "role": "editable source",
+      "bytes": 21404,
+      "sha256": "f39283373c832cabb11571b727959df91b4b589c3ccf83be0b3f4487519ce037"
+    },
+    {
+      "path": "src/scene-0158.svg",
+      "role": "editable source",
+      "bytes": 21404,
+      "sha256": "0192cc6b10045206cd30f111249ecf864ae689ce3942f0c72f4a75100dafc48d"
+    },
+    {
+      "path": "src/scene-0159.svg",
+      "role": "editable source",
+      "bytes": 21576,
+      "sha256": "a7014f2ade35d39cf9cce42341e8b43d34c1522846f47fc826b9c2cdf14f77af"
+    },
+    {
+      "path": "src/scene-0160.svg",
+      "role": "editable source",
+      "bytes": 21576,
+      "sha256": "5f1b0c075f375fbc1e4e4c07bc0f889510c3ed291fc0b56af171319222534b40"
+    },
+    {
+      "path": "src/scene-0161.svg",
+      "role": "editable source",
+      "bytes": 21576,
+      "sha256": "afb35007bee22d092828aba5e315029fc860b98f27f1dd4a25c490d3e80e5202"
+    },
+    {
+      "path": "src/scene-0162.svg",
+      "role": "editable source",
+      "bytes": 20739,
+      "sha256": "3faa32c5f6ce5065dacbb583afc1bb0de3b65b2f46302211dd6f66905b45da26"
+    },
+    {
+      "path": "src/scene-0163.svg",
+      "role": "editable source",
+      "bytes": 20739,
+      "sha256": "6dfa870aa3d31e24829a179b1dbc76da03ff8acea49d0738e1d954b3669017a8"
+    },
+    {
+      "path": "src/scene-0164.svg",
+      "role": "editable source",
+      "bytes": 20739,
+      "sha256": "a5eba89b2a43e818dce5285359d84c13548da49c2e26ff8eb8595e7f450ae53e"
+    },
+    {
+      "path": "src/scene-0165.svg",
+      "role": "editable source",
+      "bytes": 19340,
+      "sha256": "0ae3762fb56970a0d3e48de98ea53efcee9d695a4fdabc595a8ecbc333393d7b"
+    },
+    {
+      "path": "src/scene-0166.svg",
+      "role": "editable source",
+      "bytes": 19340,
+      "sha256": "f3340521e8f4acbdb59f67745d3154b6020afd54354285bec90c2fb5042dbb72"
+    },
+    {
+      "path": "src/scene-0167.svg",
+      "role": "editable source",
+      "bytes": 19340,
+      "sha256": "358c95ed3e7700ae4ab56beff75aded7668fcbb959dbdd9140f00358b6c2bba7"
+    },
+    {
+      "path": "src/scene-0168.svg",
+      "role": "editable source",
+      "bytes": 19089,
+      "sha256": "8e199e85581242ea50535dcb57283cd7c22603c9daa4b676978450b354eab7d9"
+    },
+    {
+      "path": "src/scene-0169.svg",
+      "role": "editable source",
+      "bytes": 19089,
+      "sha256": "3729a0a9d1263c7281fe2e1a5da8fb03eda188fca781e086b405421754d80b28"
+    },
+    {
+      "path": "src/scene-0170.svg",
+      "role": "editable source",
+      "bytes": 19089,
+      "sha256": "63a8ab11947a6efa9b0025febb056bef175d976e1a3d59dbcaa8ae6fb2e153f5"
+    },
+    {
+      "path": "src/scene-0171.svg",
+      "role": "editable source",
+      "bytes": 18463,
+      "sha256": "de68157168be5258be64f4cb06a0851fbd6546b4cfe353d8c414255dd9f8bea8"
+    },
+    {
+      "path": "src/scene-0172.svg",
+      "role": "editable source",
+      "bytes": 18463,
+      "sha256": "2a81a4cf54769956092eede7156799f4d807515a64ed3051765003089ef38137"
+    },
+    {
+      "path": "src/scene-0173.svg",
+      "role": "editable source",
+      "bytes": 18463,
+      "sha256": "85eca72d9efc58e6b1dedbe4e22003e2219e43563f578d691f48bea51108cb2d"
+    },
+    {
+      "path": "src/scene-0174.svg",
+      "role": "editable source",
+      "bytes": 17775,
+      "sha256": "6f8cd1f9b957dd52594daf784a69113e81eebcb1b4e78d4f94aca186a0e92ad3"
+    },
+    {
+      "path": "src/scene-0175.svg",
+      "role": "editable source",
+      "bytes": 17775,
+      "sha256": "eb9ac9b3f2a396b03be2d0eaed9ddbe91b3bb954e777b502966acafb2705045a"
+    },
+    {
+      "path": "src/scene-0176.svg",
+      "role": "editable source",
+      "bytes": 17775,
+      "sha256": "a66bb628a584e93d61ed8a4fc352dad14000c2e9e68e7428df328977aff04499"
+    },
+    {
+      "path": "src/scene-0177.svg",
+      "role": "editable source",
+      "bytes": 17959,
+      "sha256": "ee512cc41dcdef7152f98f7782f745dbbde9d21a125924b7cdfd86e4f5a6844d"
+    },
+    {
+      "path": "src/scene-0178.svg",
+      "role": "editable source",
+      "bytes": 17959,
+      "sha256": "a17dffb0d46d41ce9a9e19cc74688962e01c31c83e512c2b9d7f4934fa3162fc"
+    },
+    {
+      "path": "src/scene-0179.svg",
+      "role": "editable source",
+      "bytes": 17959,
+      "sha256": "c9250b59e534180ee16bd7421401605eab92273f2a8c9f0c9d4f44ccda146ae9"
+    },
+    {
+      "path": "src/scene-0180.svg",
+      "role": "editable source",
+      "bytes": 17326,
+      "sha256": "1318c4f03fae66fef4fb71324cec70260d43a05dc1feab9d7eac85c07eb14c47"
+    },
+    {
+      "path": "src/scene-0181.svg",
+      "role": "editable source",
+      "bytes": 17326,
+      "sha256": "b552456646faff6daad5cf782d13a929ffa6291467a8a020e29467ba912581cc"
+    },
+    {
+      "path": "src/scene-0182.svg",
+      "role": "editable source",
+      "bytes": 17326,
+      "sha256": "28b952b7fdd650172aa70efddc378f733c720749850b3892051f7818171282aa"
+    },
+    {
+      "path": "src/scene-0183.svg",
+      "role": "editable source",
+      "bytes": 17340,
+      "sha256": "7523cb3f6bd60ac85725b14e0bcca907bb6f010afae87f51949eda984010707c"
+    },
+    {
+      "path": "src/scene-0184.svg",
+      "role": "editable source",
+      "bytes": 17340,
+      "sha256": "c9ae2fb263005aae783fd7373bd5058588a17ed4b93aa4ae97739f93c26f6015"
+    },
+    {
+      "path": "src/scene-0185.svg",
+      "role": "editable source",
+      "bytes": 17340,
+      "sha256": "8d311ddcbbafa29c52e4da21512ce3299e4698d352c0d215af44a33a4dfef882"
+    },
+    {
+      "path": "src/scene-0186.svg",
+      "role": "editable source",
+      "bytes": 16689,
+      "sha256": "38b37c8af8808a5700338cb37b62ba7022f793612b595b0c7d8092a16ea35c15"
+    },
+    {
+      "path": "src/scene-0187.svg",
+      "role": "editable source",
+      "bytes": 16689,
+      "sha256": "fd1b0df2aed490895345c8d5276468fb3c6dd598b2e6126e2b48686da7cafd69"
+    },
+    {
+      "path": "src/scene-0188.svg",
+      "role": "editable source",
+      "bytes": 16689,
+      "sha256": "acd36a604416e1806e495e88ef5350c17795b6a25686e36f1784d3980d5d2806"
+    },
+    {
+      "path": "src/scene-0189.svg",
+      "role": "editable source",
+      "bytes": 15352,
+      "sha256": "7519a2cf757b51b67e0f40ae8750c421a6e5f1856c4bc2467c4c8f1519b15a62"
+    },
+    {
+      "path": "src/scene-0190.svg",
+      "role": "editable source",
+      "bytes": 15352,
+      "sha256": "9b62a793fa1e6390980bc56a0f52592bff7be0608f20e1d6e53a9b04a43b666a"
+    },
+    {
+      "path": "src/scene-0191.svg",
+      "role": "editable source",
+      "bytes": 15352,
+      "sha256": "fa463f03dd93062ddaf79a26779442bfa860b51f1a857e4918f8caa7a560b98c"
+    },
+    {
+      "path": "src/scene-0192.svg",
+      "role": "editable source",
+      "bytes": 13319,
+      "sha256": "405637638de7a0bacdbe8fd06c4f678adad722c5e9b700baf61f4e00a8f00a78"
+    },
+    {
+      "path": "src/scene-0193.svg",
+      "role": "editable source",
+      "bytes": 13319,
+      "sha256": "a994f7111666a391241c4839f1a9300519a5e8ec06f2b7168069b51a0040045a"
+    },
+    {
+      "path": "src/scene-0194.svg",
+      "role": "editable source",
+      "bytes": 13319,
+      "sha256": "38d1d4230edd7410c05e3e360ca25ecb02077547403b6cb55646de81710a92c5"
+    },
+    {
+      "path": "src/scene-0195.svg",
+      "role": "editable source",
+      "bytes": 12300,
+      "sha256": "d2133f2e71a92a93aa463d8d06a2d0dafdcadc8de0b7212de768f87638038178"
+    },
+    {
+      "path": "src/scene-0196.svg",
+      "role": "editable source",
+      "bytes": 12300,
+      "sha256": "666abda91fcad20e7bd9dce7315c8ed0da34389ec96f08d47fb1723dac29340d"
+    },
+    {
+      "path": "src/scene-0197.svg",
+      "role": "editable source",
+      "bytes": 12300,
+      "sha256": "1ee9bd8a763eb02a837a5e9c51b8329a0f3b7c3b279e2b53dc1270f5ffabf96d"
+    },
+    {
+      "path": "src/scene-0198.svg",
+      "role": "editable source",
+      "bytes": 11632,
+      "sha256": "7208d43641ecd8d23a7ed5ddcf9986bd6518c09efdf2089f1658f82fe493b1ce"
+    },
+    {
+      "path": "src/scene-0199.svg",
+      "role": "editable source",
+      "bytes": 11632,
+      "sha256": "9c8c0fb3fd457cd3c91889a1a322690a94e124333bc262a962452627f91cdaf3"
+    },
+    {
+      "path": "src/scene-0200.svg",
+      "role": "editable source",
+      "bytes": 11632,
+      "sha256": "0cd6658dada0f7524f52dd76b399a38d376a6b278fff02147ec29f351f7ce38c"
+    },
+    {
+      "path": "src/scene-0201.svg",
+      "role": "editable source",
+      "bytes": 11819,
+      "sha256": "965de6a42bdd1de8e3f4217b5df2ed2e1bca6fa2754a6ec5863f2a7e68442ff8"
+    },
+    {
+      "path": "src/scene-0202.svg",
+      "role": "editable source",
+      "bytes": 11819,
+      "sha256": "ae90082bc009fe1f9a0bde784e0eccfc8a3a78efafda89fb8a6197511685ade6"
+    },
+    {
+      "path": "src/scene-0203.svg",
+      "role": "editable source",
+      "bytes": 11819,
+      "sha256": "4f72825058119c76ea4f375c8dff9bba747dc9e4edf6141089da541dcac942b1"
+    },
+    {
+      "path": "src/scene-0204.svg",
+      "role": "editable source",
+      "bytes": 10794,
+      "sha256": "66d62b57589d61d97eefa3457f21b9e97c03b574fa35bad70bc32ecba5096a52"
+    },
+    {
+      "path": "src/scene-0205.svg",
+      "role": "editable source",
+      "bytes": 10794,
+      "sha256": "1f5e49091acacc1a53058ef8e47ffb08a2a4439fd296992c8e8af02948fa2a55"
+    },
+    {
+      "path": "src/scene-0206.svg",
+      "role": "editable source",
+      "bytes": 10794,
+      "sha256": "e6f8e8789b21c59e0bafb2f077ee407b7d9552af9bb522ae67dea886e039aeb2"
+    },
+    {
+      "path": "src/scene-0207.svg",
+      "role": "editable source",
+      "bytes": 9761,
+      "sha256": "1216d7a01de295b72b093cf5b34d0a1505ebdd276ad9670bda9943682c8b7b55"
+    },
+    {
+      "path": "src/scene-0208.svg",
+      "role": "editable source",
+      "bytes": 20426,
+      "sha256": "ea400be5b029bd85cd6318128f6ee451246a24321650cc3da286227e08b15dab"
     },
     {
       "path": "src/scene.svg",
       "role": "editable source",
-      "bytes": 16036,
-      "sha256": "c31bca43045fc144f5ebcc10f1c130e8bb625f391a3b1aec0b01424921d0703e"
+      "bytes": 20426,
+      "sha256": "ea400be5b029bd85cd6318128f6ee451246a24321650cc3da286227e08b15dab"
     },
     {
       "path": "src/timeline.json",
       "role": "editable source",
-      "bytes": 4371,
-      "sha256": "c53a0759e3e310cf876c0b8657a316bf1e5ebbe998032400166ca0c6f83d1ebb"
+      "bytes": 14072,
+      "sha256": "9d5f7c3182556cb3fafcd5f6ea69b01b247b4354c7ad653805d1fd5fedf0c032"
     },
     {
       "path": "src/variant-clean.svg",
       "role": "editable source",
-      "bytes": 19429,
-      "sha256": "3093097286e88af7bfe44df3ef2dc75bdc1592371f969359a495eecccaeebf23"
+      "bytes": 20211,
+      "sha256": "553dcedd99dbeaad881938dfffe4e881d76ca5ee1ab0912817a3b301f31d44f7"
     },
     {
       "path": "src/variant-teaching-focus.svg",
       "role": "editable source",
-      "bytes": 16036,
-      "sha256": "c31bca43045fc144f5ebcc10f1c130e8bb625f391a3b1aec0b01424921d0703e"
+      "bytes": 20426,
+      "sha256": "ea400be5b029bd85cd6318128f6ee451246a24321650cc3da286227e08b15dab"
     }
   ],
   "variants": [
@@ -556,38 +1516,45 @@
   "credits": [
     {
       "type": "original graphics",
-      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+      "credit": "Source-based vector graphics and agent-authored representative code for this production; no third-party images, code listings or font files included."
     }
   ],
   "tests": [
     {
       "test": "required outputs and checksums",
-      "result": "Run tools/validate_delivery.py after manifest creation; result is stored in review/delivery-validation.json."
+      "result": "python tools/validate_delivery.py --id REF-02 run after this inventory; result recorded in qa.md."
     },
     {
-      "test": "original source files",
-      "result": "Hash-locked originals retained; validate_pack.py output recorded in review/pack-validation.txt."
+      "test": "line count of src/excerpt.c",
+      "result": "73 lines (wc -l and Python splitlines agree); hello.def 11 lines"
+    },
+    {
+      "test": "Win16 API read-through (no compiler)",
+      "result": "Read line by line against the Windows 3.1 SDK by the producing agent; the checklist is in qa.md. No 16-bit toolchain is installed, so nothing was compiled or run."
     },
     {
       "test": "manual visual review",
       "result": {
-        "mode": "Full-resolution stills, mid-scroll keyframe and 720p proof",
-        "scope": "Viewed exports/clean.png, exports/teaching-focus.png (also the poster), exports/keyframes/middle.png and proofs/poster-720.png. preview.mp4 was probed by the renderer and decoded end to end with ffmpeg without errors; it was not watched frame by frame.",
-        "status": "Code stays readable at 720p. The focus band covers the four message-loop lines, a rule separates hello.c from hello.def, and hello.def line numbers restart at 1."
+        "mode": "Full-resolution stills, five full-size MP4 frames, nine 720p MP4 frames and the 720p poster proof, each opened and read by the producing agent",
+        "scope": "exports/poster.png, exports/clean.png, exports/teaching-focus.png, exports/contact-sheet.png at 1920x1080; preview.mp4 frames at 4.0, 10.0, 15.0, 20.0 and 23.3 s at full size; proofs/frames-720/frame-01..09.png (0.0, 4.0, 10.0, 15.0, 20.0, 22.5, 23.0, 23.3, 26.7 s) at 1280x720; proofs/poster-720.png.",
+        "status": "Code readable at 720p in every frame including mid-scroll; focus band covers lines 46-50; caption no longer collides with the line-count text (moved to the header); the whole .DEF is on screen at the end of the scroll; no overlap or out-of-canvas text. Scroll is 3.33 rows/s for 20.7 s; total 26.8 s."
       }
     },
     {
       "test": "raster dimensions and video codec/fps/duration",
       "evidence": "evidence/render-tests.json",
-      "result": "passed"
+      "result": "passed: exports\\preview.mp4 h264 1920x1080 30/1 804 frames 26.800000 s"
     },
     {
       "test": "offline HTML, deterministic seek, every SVG text bounding box",
       "evidence": "evidence/browser-tests.json",
-      "result": "passed"
+      "result": "passed: 212 SVG files, 23203 text boxes, offline=True, deterministic_seek=True"
     }
   ],
-  "unresolved_gates": [],
+  "unresolved_gates": [
+    "R03",
+    "R15"
+  ],
   "toolchain": {
     "os": "Windows-11-10.0.26200-SP0",
     "python": "3.14.0",
@@ -603,15 +1570,18 @@
     "network_used": false,
     "installs_performed": false,
     "font_files_distributed": false,
-    "browser_note": "HTML tested by in-memory content loading."
+    "browser_note": "HTML tested by in-memory content loading.",
+    "win16_toolchain": null
   },
   "notes": [
-    "Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.",
-    "Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.",
-    "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
-    "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
-    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end.",
+    "Revision 2 (2026-09-16, Devin review note 5): hello.c is now a complete, agent-authored Windows 3.x (Win16) Hello World of exactly 73 lines, as War/SCRIPT.md narrates; hello.def (11 lines) is shown separately after a rule and is not part of the 73.",
+    "API sequence: WinMain(HANDLE, HANDLE, LPSTR, int); WNDCLASS filled field by field and RegisterClass on the first instance only; CreateWindow; ShowWindow; UpdateWindow; the GetMessage/TranslateMessage/DispatchMessage loop; long FAR PASCAL __export WndProc with WM_PAINT (BeginPaint/TextOut/EndPaint), WM_DESTROY (PostQuitMessage) and DefWindowProc. Parameter spellings (UINT message, UINT wParam, LONG lParam) follow the Windows 3.1 SDK windows.h.",
+    "Authored in period style for this production; not copied from a book listing or tutorial and not recovered from a historical source.",
+    "Not compiled: no 16-bit Windows toolchain (Microsoft C 6/7 + Windows 3.1 SDK) is installed on the production machine. The listing was read line by line against the Windows 3.1 SDK API; see qa.md. Technical and era review stays open under R15; R03 also applies.",
+    "Line numbers restart in each file, the rule, the focus band, the caption and the line-count header are display layers; src/excerpt.c and src/hello.def hold the exact text.",
+    "Timing: a 2 s hold on the first 16 rows, then a scroll of one third of a row every 0.1 s (0.3 s per row, 3.33 rows/s, under the 4 rows/s ceiling) through all 85 rows (69 row steps, 20.7 s, ending at 22.7 s), a 0.6 s hold on the last viewport, then the message-loop focus from 23.3 s to 26.8 s.",
+    "src/build_scenes.py regenerates these sources; tools/render/build_assets.py --id REF-02 would overwrite them with the revision-1 fixture and must not be run for this ticket.",
     "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "Revision 2 exports replace the revision-1 package (63-line excerpt) in full; every file in this folder was regenerated on 2026-09-16."
   ]
 }

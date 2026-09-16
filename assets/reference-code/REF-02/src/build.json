@@ -1,246 +1,842 @@
 {
   "id": "REF-02",
-  "duration": 22,
+  "duration": 26.8,
   "frames": [
     {
       "time": 0,
       "file": "scene-0000.svg"
     },
     {
-      "time": 2.75,
+      "time": 2.1,
       "file": "scene-0001.svg"
     },
     {
-      "time": 3.0,
+      "time": 2.2,
       "file": "scene-0002.svg"
     },
     {
-      "time": 3.25,
+      "time": 2.3,
       "file": "scene-0003.svg"
     },
     {
-      "time": 3.5,
+      "time": 2.4,
       "file": "scene-0004.svg"
     },
     {
-      "time": 3.75,
+      "time": 2.5,
       "file": "scene-0005.svg"
     },
     {
-      "time": 4.0,
+      "time": 2.6,
       "file": "scene-0006.svg"
     },
     {
-      "time": 4.25,
+      "time": 2.7,
       "file": "scene-0007.svg"
     },
     {
-      "time": 4.5,
+      "time": 2.8,
       "file": "scene-0008.svg"
     },
     {
-      "time": 4.75,
+      "time": 2.9,
       "file": "scene-0009.svg"
     },
     {
-      "time": 5.0,
+      "time": 3.0,
       "file": "scene-0010.svg"
     },
     {
-      "time": 5.25,
+      "time": 3.1,
       "file": "scene-0011.svg"
     },
     {
-      "time": 5.5,
+      "time": 3.2,
       "file": "scene-0012.svg"
     },
     {
-      "time": 5.75,
+      "time": 3.3,
       "file": "scene-0013.svg"
     },
     {
-      "time": 6.0,
+      "time": 3.4,
       "file": "scene-0014.svg"
     },
     {
-      "time": 6.25,
+      "time": 3.5,
       "file": "scene-0015.svg"
     },
     {
-      "time": 6.5,
+      "time": 3.6,
       "file": "scene-0016.svg"
     },
     {
-      "time": 6.75,
+      "time": 3.7,
       "file": "scene-0017.svg"
     },
     {
-      "time": 7.0,
+      "time": 3.8,
       "file": "scene-0018.svg"
     },
     {
-      "time": 7.25,
+      "time": 3.9,
       "file": "scene-0019.svg"
     },
     {
-      "time": 7.5,
+      "time": 4.0,
       "file": "scene-0020.svg"
     },
     {
-      "time": 7.75,
+      "time": 4.1,
       "file": "scene-0021.svg"
     },
     {
-      "time": 8.0,
+      "time": 4.2,
       "file": "scene-0022.svg"
     },
     {
-      "time": 8.25,
+      "time": 4.3,
       "file": "scene-0023.svg"
     },
     {
-      "time": 8.5,
+      "time": 4.4,
       "file": "scene-0024.svg"
     },
     {
-      "time": 8.75,
+      "time": 4.5,
       "file": "scene-0025.svg"
     },
     {
-      "time": 9.0,
+      "time": 4.6,
       "file": "scene-0026.svg"
     },
     {
-      "time": 9.25,
+      "time": 4.7,
       "file": "scene-0027.svg"
     },
     {
-      "time": 9.5,
+      "time": 4.8,
       "file": "scene-0028.svg"
     },
     {
-      "time": 9.75,
+      "time": 4.9,
       "file": "scene-0029.svg"
     },
     {
-      "time": 10.0,
+      "time": 5.0,
       "file": "scene-0030.svg"
     },
     {
-      "time": 10.25,
+      "time": 5.1,
       "file": "scene-0031.svg"
     },
     {
-      "time": 10.5,
+      "time": 5.2,
       "file": "scene-0032.svg"
     },
     {
-      "time": 10.75,
+      "time": 5.3,
       "file": "scene-0033.svg"
     },
     {
-      "time": 11.0,
+      "time": 5.4,
       "file": "scene-0034.svg"
     },
     {
-      "time": 11.25,
+      "time": 5.5,
       "file": "scene-0035.svg"
     },
     {
-      "time": 11.5,
+      "time": 5.6,
       "file": "scene-0036.svg"
     },
     {
-      "time": 11.75,
+      "time": 5.7,
       "file": "scene-0037.svg"
     },
     {
-      "time": 12.0,
+      "time": 5.8,
       "file": "scene-0038.svg"
     },
     {
-      "time": 12.25,
+      "time": 5.9,
       "file": "scene-0039.svg"
     },
     {
-      "time": 12.5,
+      "time": 6.0,
       "file": "scene-0040.svg"
     },
     {
-      "time": 12.75,
+      "time": 6.1,
       "file": "scene-0041.svg"
     },
     {
-      "time": 13.0,
+      "time": 6.2,
       "file": "scene-0042.svg"
     },
     {
-      "time": 13.25,
+      "time": 6.3,
       "file": "scene-0043.svg"
     },
     {
-      "time": 13.5,
+      "time": 6.4,
       "file": "scene-0044.svg"
     },
     {
-      "time": 13.75,
+      "time": 6.5,
       "file": "scene-0045.svg"
     },
     {
-      "time": 14.0,
+      "time": 6.6,
       "file": "scene-0046.svg"
     },
     {
-      "time": 14.25,
+      "time": 6.7,
       "file": "scene-0047.svg"
     },
     {
-      "time": 14.5,
+      "time": 6.8,
       "file": "scene-0048.svg"
     },
     {
-      "time": 14.75,
+      "time": 6.9,
       "file": "scene-0049.svg"
     },
     {
-      "time": 15.0,
+      "time": 7.0,
       "file": "scene-0050.svg"
     },
     {
-      "time": 15.25,
+      "time": 7.1,
       "file": "scene-0051.svg"
     },
     {
-      "time": 15.5,
+      "time": 7.2,
       "file": "scene-0052.svg"
     },
     {
-      "time": 15.75,
+      "time": 7.3,
       "file": "scene-0053.svg"
     },
     {
-      "time": 16.0,
+      "time": 7.4,
       "file": "scene-0054.svg"
     },
     {
-      "time": 16.25,
+      "time": 7.5,
       "file": "scene-0055.svg"
     },
     {
-      "time": 16.5,
+      "time": 7.6,
       "file": "scene-0056.svg"
     },
     {
-      "time": 16.75,
+      "time": 7.7,
       "file": "scene-0057.svg"
     },
     {
-      "time": 17.0,
+      "time": 7.8,
       "file": "scene-0058.svg"
     },
     {
-      "time": 17.5,
+      "time": 7.9,
       "file": "scene-0059.svg"
+    },
+    {
+      "time": 8.0,
+      "file": "scene-0060.svg"
+    },
+    {
+      "time": 8.1,
+      "file": "scene-0061.svg"
+    },
+    {
+      "time": 8.2,
+      "file": "scene-0062.svg"
+    },
+    {
+      "time": 8.3,
+      "file": "scene-0063.svg"
+    },
+    {
+      "time": 8.4,
+      "file": "scene-0064.svg"
+    },
+    {
+      "time": 8.5,
+      "file": "scene-0065.svg"
+    },
+    {
+      "time": 8.6,
+      "file": "scene-0066.svg"
+    },
+    {
+      "time": 8.7,
+      "file": "scene-0067.svg"
+    },
+    {
+      "time": 8.8,
+      "file": "scene-0068.svg"
+    },
+    {
+      "time": 8.9,
+      "file": "scene-0069.svg"
+    },
+    {
+      "time": 9.0,
+      "file": "scene-0070.svg"
+    },
+    {
+      "time": 9.1,
+      "file": "scene-0071.svg"
+    },
+    {
+      "time": 9.2,
+      "file": "scene-0072.svg"
+    },
+    {
+      "time": 9.3,
+      "file": "scene-0073.svg"
+    },
+    {
+      "time": 9.4,
+      "file": "scene-0074.svg"
+    },
+    {
+      "time": 9.5,
+      "file": "scene-0075.svg"
+    },
+    {
+      "time": 9.6,
+      "file": "scene-0076.svg"
+    },
+    {
+      "time": 9.7,
+      "file": "scene-0077.svg"
+    },
+    {
+      "time": 9.8,
+      "file": "scene-0078.svg"
+    },
+    {
+      "time": 9.9,
+      "file": "scene-0079.svg"
+    },
+    {
+      "time": 10.0,
+      "file": "scene-0080.svg"
+    },
+    {
+      "time": 10.1,
+      "file": "scene-0081.svg"
+    },
+    {
+      "time": 10.2,
+      "file": "scene-0082.svg"
+    },
+    {
+      "time": 10.3,
+      "file": "scene-0083.svg"
+    },
+    {
+      "time": 10.4,
+      "file": "scene-0084.svg"
+    },
+    {
+      "time": 10.5,
+      "file": "scene-0085.svg"
+    },
+    {
+      "time": 10.6,
+      "file": "scene-0086.svg"
+    },
+    {
+      "time": 10.7,
+      "file": "scene-0087.svg"
+    },
+    {
+      "time": 10.8,
+      "file": "scene-0088.svg"
+    },
+    {
+      "time": 10.9,
+      "file": "scene-0089.svg"
+    },
+    {
+      "time": 11.0,
+      "file": "scene-0090.svg"
+    },
+    {
+      "time": 11.1,
+      "file": "scene-0091.svg"
+    },
+    {
+      "time": 11.2,
+      "file": "scene-0092.svg"
+    },
+    {
+      "time": 11.3,
+      "file": "scene-0093.svg"
+    },
+    {
+      "time": 11.4,
+      "file": "scene-0094.svg"
+    },
+    {
+      "time": 11.5,
+      "file": "scene-0095.svg"
+    },
+    {
+      "time": 11.6,
+      "file": "scene-0096.svg"
+    },
+    {
+      "time": 11.7,
+      "file": "scene-0097.svg"
+    },
+    {
+      "time": 11.8,
+      "file": "scene-0098.svg"
+    },
+    {
+      "time": 11.9,
+      "file": "scene-0099.svg"
+    },
+    {
+      "time": 12.0,
+      "file": "scene-0100.svg"
+    },
+    {
+      "time": 12.1,
+      "file": "scene-0101.svg"
+    },
+    {
+      "time": 12.2,
+      "file": "scene-0102.svg"
+    },
+    {
+      "time": 12.3,
+      "file": "scene-0103.svg"
+    },
+    {
+      "time": 12.4,
+      "file": "scene-0104.svg"
+    },
+    {
+      "time": 12.5,
+      "file": "scene-0105.svg"
+    },
+    {
+      "time": 12.6,
+      "file": "scene-0106.svg"
+    },
+    {
+      "time": 12.7,
+      "file": "scene-0107.svg"
+    },
+    {
+      "time": 12.8,
+      "file": "scene-0108.svg"
+    },
+    {
+      "time": 12.9,
+      "file": "scene-0109.svg"
+    },
+    {
+      "time": 13.0,
+      "file": "scene-0110.svg"
+    },
+    {
+      "time": 13.1,
+      "file": "scene-0111.svg"
+    },
+    {
+      "time": 13.2,
+      "file": "scene-0112.svg"
+    },
+    {
+      "time": 13.3,
+      "file": "scene-0113.svg"
+    },
+    {
+      "time": 13.4,
+      "file": "scene-0114.svg"
+    },
+    {
+      "time": 13.5,
+      "file": "scene-0115.svg"
+    },
+    {
+      "time": 13.6,
+      "file": "scene-0116.svg"
+    },
+    {
+      "time": 13.7,
+      "file": "scene-0117.svg"
+    },
+    {
+      "time": 13.8,
+      "file": "scene-0118.svg"
+    },
+    {
+      "time": 13.9,
+      "file": "scene-0119.svg"
+    },
+    {
+      "time": 14.0,
+      "file": "scene-0120.svg"
+    },
+    {
+      "time": 14.1,
+      "file": "scene-0121.svg"
+    },
+    {
+      "time": 14.2,
+      "file": "scene-0122.svg"
+    },
+    {
+      "time": 14.3,
+      "file": "scene-0123.svg"
+    },
+    {
+      "time": 14.4,
+      "file": "scene-0124.svg"
+    },
+    {
+      "time": 14.5,
+      "file": "scene-0125.svg"
+    },
+    {
+      "time": 14.6,
+      "file": "scene-0126.svg"
+    },
+    {
+      "time": 14.7,
+      "file": "scene-0127.svg"
+    },
+    {
+      "time": 14.8,
+      "file": "scene-0128.svg"
+    },
+    {
+      "time": 14.9,
+      "file": "scene-0129.svg"
+    },
+    {
+      "time": 15.0,
+      "file": "scene-0130.svg"
+    },
+    {
+      "time": 15.1,
+      "file": "scene-0131.svg"
+    },
+    {
+      "time": 15.2,
+      "file": "scene-0132.svg"
+    },
+    {
+      "time": 15.3,
+      "file": "scene-0133.svg"
+    },
+    {
+      "time": 15.4,
+      "file": "scene-0134.svg"
+    },
+    {
+      "time": 15.5,
+      "file": "scene-0135.svg"
+    },
+    {
+      "time": 15.6,
+      "file": "scene-0136.svg"
+    },
+    {
+      "time": 15.7,
+      "file": "scene-0137.svg"
+    },
+    {
+      "time": 15.8,
+      "file": "scene-0138.svg"
+    },
+    {
+      "time": 15.9,
+      "file": "scene-0139.svg"
+    },
+    {
+      "time": 16.0,
+      "file": "scene-0140.svg"
+    },
+    {
+      "time": 16.1,
+      "file": "scene-0141.svg"
+    },
+    {
+      "time": 16.2,
+      "file": "scene-0142.svg"
+    },
+    {
+      "time": 16.3,
+      "file": "scene-0143.svg"
+    },
+    {
+      "time": 16.4,
+      "file": "scene-0144.svg"
+    },
+    {
+      "time": 16.5,
+      "file": "scene-0145.svg"
+    },
+    {
+      "time": 16.6,
+      "file": "scene-0146.svg"
+    },
+    {
+      "time": 16.7,
+      "file": "scene-0147.svg"
+    },
+    {
+      "time": 16.8,
+      "file": "scene-0148.svg"
+    },
+    {
+      "time": 16.9,
+      "file": "scene-0149.svg"
+    },
+    {
+      "time": 17.0,
+      "file": "scene-0150.svg"
+    },
+    {
+      "time": 17.1,
+      "file": "scene-0151.svg"
+    },
+    {
+      "time": 17.2,
+      "file": "scene-0152.svg"
+    },
+    {
+      "time": 17.3,
+      "file": "scene-0153.svg"
+    },
+    {
+      "time": 17.4,
+      "file": "scene-0154.svg"
+    },
+    {
+      "time": 17.5,
+      "file": "scene-0155.svg"
+    },
+    {
+      "time": 17.6,
+      "file": "scene-0156.svg"
+    },
+    {
+      "time": 17.7,
+      "file": "scene-0157.svg"
+    },
+    {
+      "time": 17.8,
+      "file": "scene-0158.svg"
+    },
+    {
+      "time": 17.9,
+      "file": "scene-0159.svg"
+    },
+    {
+      "time": 18.0,
+      "file": "scene-0160.svg"
+    },
+    {
+      "time": 18.1,
+      "file": "scene-0161.svg"
+    },
+    {
+      "time": 18.2,
+      "file": "scene-0162.svg"
+    },
+    {
+      "time": 18.3,
+      "file": "scene-0163.svg"
+    },
+    {
+      "time": 18.4,
+      "file": "scene-0164.svg"
+    },
+    {
+      "time": 18.5,
+      "file": "scene-0165.svg"
+    },
+    {
+      "time": 18.6,
+      "file": "scene-0166.svg"
+    },
+    {
+      "time": 18.7,
+      "file": "scene-0167.svg"
+    },
+    {
+      "time": 18.8,
+      "file": "scene-0168.svg"
+    },
+    {
+      "time": 18.9,
+      "file": "scene-0169.svg"
+    },
+    {
+      "time": 19.0,
+      "file": "scene-0170.svg"
+    },
+    {
+      "time": 19.1,
+      "file": "scene-0171.svg"
+    },
+    {
+      "time": 19.2,
+      "file": "scene-0172.svg"
+    },
+    {
+      "time": 19.3,
+      "file": "scene-0173.svg"
+    },
+    {
+      "time": 19.4,
+      "file": "scene-0174.svg"
+    },
+    {
+      "time": 19.5,
+      "file": "scene-0175.svg"
+    },
+    {
+      "time": 19.6,
+      "file": "scene-0176.svg"
+    },
+    {
+      "time": 19.7,
+      "file": "scene-0177.svg"
+    },
+    {
+      "time": 19.8,
+      "file": "scene-0178.svg"
+    },
+    {
+      "time": 19.9,
+      "file": "scene-0179.svg"
+    },
+    {
+      "time": 20.0,
+      "file": "scene-0180.svg"
+    },
+    {
+      "time": 20.1,
+      "file": "scene-0181.svg"
+    },
+    {
+      "time": 20.2,
+      "file": "scene-0182.svg"
+    },
+    {
+      "time": 20.3,
+      "file": "scene-0183.svg"
+    },
+    {
+      "time": 20.4,
+      "file": "scene-0184.svg"
+    },
+    {
+      "time": 20.5,
+      "file": "scene-0185.svg"
+    },
+    {
+      "time": 20.6,
+      "file": "scene-0186.svg"
+    },
+    {
+      "time": 20.7,
+      "file": "scene-0187.svg"
+    },
+    {
+      "time": 20.8,
+      "file": "scene-0188.svg"
+    },
+    {
+      "time": 20.9,
+      "file": "scene-0189.svg"
+    },
+    {
+      "time": 21.0,
+      "file": "scene-0190.svg"
+    },
+    {
+      "time": 21.1,
+      "file": "scene-0191.svg"
+    },
+    {
+      "time": 21.2,
+      "file": "scene-0192.svg"
+    },
+    {
+      "time": 21.3,
+      "file": "scene-0193.svg"
+    },
+    {
+      "time": 21.4,
+      "file": "scene-0194.svg"
+    },
+    {
+      "time": 21.5,
+      "file": "scene-0195.svg"
+    },
+    {
+      "time": 21.6,
+      "file": "scene-0196.svg"
+    },
+    {
+      "time": 21.7,
+      "file": "scene-0197.svg"
+    },
+    {
+      "time": 21.8,
+      "file": "scene-0198.svg"
+    },
+    {
+      "time": 21.9,
+      "file": "scene-0199.svg"
+    },
+    {
+      "time": 22.0,
+      "file": "scene-0200.svg"
+    },
+    {
+      "time": 22.1,
+      "file": "scene-0201.svg"
+    },
+    {
+      "time": 22.2,
+      "file": "scene-0202.svg"
+    },
+    {
+      "time": 22.3,
+      "file": "scene-0203.svg"
+    },
+    {
+      "time": 22.4,
+      "file": "scene-0204.svg"
+    },
+    {
+      "time": 22.5,
+      "file": "scene-0205.svg"
+    },
+    {
+      "time": 22.6,
+      "file": "scene-0206.svg"
+    },
+    {
+      "time": 22.7,
+      "file": "scene-0207.svg"
+    },
+    {
+      "time": 23.3,
+      "file": "scene-0208.svg"
     }
   ],
   "variants": {
@@ -250,11 +846,13 @@
   "poster": "scene.svg",
   "cuts": {},
   "notes": [
-    "Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.",
-    "Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.",
-    "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
-    "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
-    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end."
+    "Revision 2 (2026-09-16, Devin review note 5): hello.c is now a complete, agent-authored Windows 3.x (Win16) Hello World of exactly 73 lines, as War/SCRIPT.md narrates; hello.def (11 lines) is shown separately after a rule and is not part of the 73.",
+    "API sequence: WinMain(HANDLE, HANDLE, LPSTR, int); WNDCLASS filled field by field and RegisterClass on the first instance only; CreateWindow; ShowWindow; UpdateWindow; the GetMessage/TranslateMessage/DispatchMessage loop; long FAR PASCAL __export WndProc with WM_PAINT (BeginPaint/TextOut/EndPaint), WM_DESTROY (PostQuitMessage) and DefWindowProc. Parameter spellings (UINT message, UINT wParam, LONG lParam) follow the Windows 3.1 SDK windows.h.",
+    "Authored in period style for this production; not copied from a book listing or tutorial and not recovered from a historical source.",
+    "Not compiled: no 16-bit Windows toolchain (Microsoft C 6/7 + Windows 3.1 SDK) is installed on the production machine. The listing was read line by line against the Windows 3.1 SDK API; see qa.md. Technical and era review stays open under R15; R03 also applies.",
+    "Line numbers restart in each file, the rule, the focus band, the caption and the line-count header are display layers; src/excerpt.c and src/hello.def hold the exact text.",
+    "Timing: a 2 s hold on the first 16 rows, then a scroll of one third of a row every 0.1 s (0.3 s per row, 3.33 rows/s, under the 4 rows/s ceiling) through all 85 rows (69 row steps, 20.7 s, ending at 22.7 s), a 0.6 s hold on the last viewport, then the message-loop focus from 23.3 s to 26.8 s.",
+    "src/build_scenes.py regenerates these sources; tools/render/build_assets.py --id REF-02 would overwrite them with the revision-1 fixture and must not be run for this ticket."
   ],
   "sources": [
     {

@@ -4,8 +4,8 @@
   "loading_mode": "In-memory HTML",
   "offline": true,
   "deterministic_seek": true,
-  "svg_files_checked": 63,
-  "text_boxes_checked": 6389,
+  "svg_files_checked": 212,
+  "text_boxes_checked": 23203,
   "out_of_canvas": [],
   "errors": [],
   "limitations": [

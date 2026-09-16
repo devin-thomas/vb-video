@@ -1,6 +1,7 @@
-; hello.def -- module definition file that hello.c needs to link
+; HELLO.DEF -- module-definition file for HELLO.C (Windows 3.x)
+
 NAME         HELLO
-DESCRIPTION  'Hello, Windows'
+DESCRIPTION  'Hello, Windows! for Windows 3.x'
 EXETYPE      WINDOWS
 STUB         'WINSTUB.EXE'
 CODE         PRELOAD MOVEABLE DISCARDABLE

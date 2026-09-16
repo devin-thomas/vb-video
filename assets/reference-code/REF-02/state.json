@@ -1,16 +1,17 @@
 {
   "id": "REF-02",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
-  "assigned_agent": null,
+  "assigned_agent": "Claude Fable 5.1 worker, branch ticket/REF-02-r2",
   "updated_at": "2026-09-16",
   "blockers": [],
   "reviewer": "Producer for Devin",
   "notes": [
-    "Rendered/source deliverables, hashes, and executed checks are in delivery.json and qa.md.",
-    "Publication approval is separate from production.",
-    "Release approved 2026-09-15: producer review under Devin's delegation; R14 by Devin's standing ruling.",
-    "Revision 2 opened 2026-09-16 from Devin's review notes 5; previous exports stay until replaced."
+    "Revision 2 (2026-09-16, Devin review note 5) produced: complete 73-line Win16 Hello World in C (src/excerpt.c) plus hello.def (11 lines) shown separately; scroll at 3.33 rows/s over 20.7 s, 26.8 s total; clean and teaching-focus variants re-rendered under the same file names.",
+    "Rendered/source deliverables, hashes and executed checks are in delivery.json and qa.md; validate_delivery.py passed.",
+    "Not compiled: no 16-bit toolchain on the production machine; the listing was read line by line against the Windows 3.1 SDK (qa.md).",
+    "Release is unreviewed: the 2026-09-15 approval covered the revision-1 exports. Review questions in qa.md: 3.0-vs-3.1 SDK spelling, independent second read, stale tools/fixtures copy, stepped vs continuous scroll.",
+    "Publication approval is separate from production."
   ],
-  "owner": "Claude Code \u2014 local production"
+  "owner": "Claude Code — local production"
 }

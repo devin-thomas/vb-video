@@ -22,14 +22,20 @@
     }
   ],
   "authored_additions": [
-    "Agent-authored representative Windows 3.0-style C: HANDLE hPrevInstance, long FAR PASCAL WndProc with WORD/LONG parameters, and the .DEF file a Win16 program needed to link. It is not copied from a tutorial or recovered from a historical source.",
-    "Not compiled for Windows: no 16-bit Windows toolchain is installed on the production machine. Technical and era review stays open under R15; R03 also applies.",
-    "hello.c is 63 lines and hello.def 10: 73 lines in all. The code was not padded toward the script’s “about 80 lines”; by producer decision (2026-09-15), War/SCRIPT.md now says 73 lines to match.",
-    "Line numbers restart in each file and the caption is a display layer; src/excerpt.c and src/hello.def hold the exact text.",
-    "Timing: a 2.5 s hold, a one-line scroll every 0.25 s through all 74 rows, then the focus from 17.5 s to the end."
+    "Revision 2 (2026-09-16, Devin review note 5): hello.c is now a complete, agent-authored Windows 3.x (Win16) Hello World of exactly 73 lines, as War/SCRIPT.md narrates; hello.def (11 lines) is shown separately after a rule and is not part of the 73.",
+    "API sequence: WinMain(HANDLE, HANDLE, LPSTR, int); WNDCLASS filled field by field and RegisterClass on the first instance only; CreateWindow; ShowWindow; UpdateWindow; the GetMessage/TranslateMessage/DispatchMessage loop; long FAR PASCAL __export WndProc with WM_PAINT (BeginPaint/TextOut/EndPaint), WM_DESTROY (PostQuitMessage) and DefWindowProc. Parameter spellings (UINT message, UINT wParam, LONG lParam) follow the Windows 3.1 SDK windows.h.",
+    "Authored in period style for this production; not copied from a book listing or tutorial and not recovered from a historical source.",
+    "Not compiled: no 16-bit Windows toolchain (Microsoft C 6/7 + Windows 3.1 SDK) is installed on the production machine. The listing was read line by line against the Windows 3.1 SDK API; see qa.md. Technical and era review stays open under R15; R03 also applies.",
+    "Line numbers restart in each file, the rule, the focus band, the caption and the line-count header are display layers; src/excerpt.c and src/hello.def hold the exact text.",
+    "Timing: a 2 s hold on the first 16 rows, then a scroll of one third of a row every 0.1 s (0.3 s per row, 3.33 rows/s, under the 4 rows/s ceiling) through all 85 rows (69 row steps, 20.7 s, ending at 22.7 s), a 0.6 s hold on the last viewport, then the message-loop focus from 23.3 s to 26.8 s.",
+    "src/build_scenes.py regenerates these sources; tools/render/build_assets.py --id REF-02 would overwrite them with the revision-1 fixture and must not be run for this ticket."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "2026-09-15: War/SCRIPT.md narration set to 73 lines to match the asset (revision 1: 63-line hello.c + 10-line hello.def).",
+    "2026-09-16 (Devin review note 5, revision 2): hello.c itself is now the complete 73-line program; hello.def is shown separately and not counted."
+  ],
+  "revision": 2
 }
