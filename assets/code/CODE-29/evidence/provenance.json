@@ -1,0 +1,26 @@
+{
+  "id": "CODE-29",
+  "classification": "authored code card; the two lines are the script's own quoted examples, not Program.vb",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        689,
+        689
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (the two quoted lines)"
+    }
+  ],
+  "authored_additions": [
+    "Code lines (verbatim from the script's backticked quotes): If PlayerScore > HighScore Then / For Each Item In Collection — stored in src/example.vb.",
+    "English glosses (ticket requirement 2, production copy): 'if the player's score is higher than the high score, then…' / 'for each item in the collection…'.",
+    "Header 'Visual Basic', top-left label 'Example — not from Program.vb', title 'Reads like English', and the footer label are production copy."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": [],
+  "worker": "Claude Fable 5.1 worker (worktree agent-a1ce4520f7cd8bd1d), branch ticket/CMP-09-CODE-29",
+  "date": "2026-09-16"
+}

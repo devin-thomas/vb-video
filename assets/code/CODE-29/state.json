@@ -1,12 +1,13 @@
 {
   "id": "CODE-29",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
-  "assigned_agent": null,
+  "assigned_agent": "Claude Fable 5.1 worker (worktree agent-a1ce4520f7cd8bd1d), branch ticket/CMP-09-CODE-29",
   "updated_at": "2026-09-16",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "Opened 2026-09-16: Devin approved the producer's proposal from the 17:00\u2013end pass."
+    "Opened 2026-09-16: Devin approved the producer's proposal from the 17:00–end pass.",
+    "Produced 2026-09-16 on branch ticket/CMP-09-CODE-29 (worker: Claude Fable 5.1). Rendered with python tools/render/render_assets.py --id CODE-29; checks in qa.md and delivery.json."
   ]
 }

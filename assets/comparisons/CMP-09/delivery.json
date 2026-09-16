@@ -1,0 +1,284 @@
+{
+  "id": "CMP-09",
+  "title": "A queue in 1995: Queue<Card>, std::queue, and a VB array with ReDim",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration with literal Program.vb excerpts",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 597,
+      "sha256": "54e92412a35d60fa14d052f834934672f6336b3e0877e159d1e5656c90ba3f18"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 18,
+      "sha256": "ed1be178bd7583e82fa8b292e38c589f4d0e2328015f78eaea7f99c79f803247"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2111,
+      "sha256": "45aeff13dde5eac0e742e1ee90f5904a116bdaef76c8558432bd25a450db26b4"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 154,
+      "sha256": "b9921667e43e0bfc781ab7500809a02b1d01df69042ef62f330b7cc1a52d21c0"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1184,
+      "sha256": "697bc74831c04cf0530af2cb5a9300c134f49edd5225f02c43e56eb4d6ef1d08"
+    },
+    {
+      "path": "exports/comparison.png",
+      "role": "rendered still",
+      "bytes": 114137,
+      "sha256": "9f80286cbb9e1cf5f0e4a111a8ade0e407c305bd902cd6e3d99ae0da29a7c364"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 93851,
+      "sha256": "4c1619918d12b7b9f1eb2dcff8a0fa4c437dc41ac3a560008c3790f42b441b7c"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 114137,
+      "sha256": "9f80286cbb9e1cf5f0e4a111a8ade0e407c305bd902cd6e3d99ae0da29a7c364"
+    },
+    {
+      "path": "exports/token-focus.png",
+      "role": "rendered still",
+      "bytes": 116037,
+      "sha256": "2f137535d5c95495649f4056789f41a2a39ceb8b36aceb5e9ec72dd5df66cd33"
+    },
+    {
+      "path": "proofs/comparison-720.png",
+      "role": "evidence / QA",
+      "bytes": 175683,
+      "sha256": "c3679f2974cc5dd1ba89bc8dac60ea88badb00dbaafe202c3251bec3bc33c729"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 175683,
+      "sha256": "c3679f2974cc5dd1ba89bc8dac60ea88badb00dbaafe202c3251bec3bc33c729"
+    },
+    {
+      "path": "proofs/token-focus-720.png",
+      "role": "evidence / QA",
+      "bytes": 177347,
+      "sha256": "5bee1edddc51c7529b70568098e81153d39dd6993daa16ef745cf91913f01501"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 6188,
+      "sha256": "c004d58f1dfcb1c701041460f5520f9299a95b26c252a3fcb4263a6bd263f6b3"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1634,
+      "sha256": "ce3476c8e674b76633e3c300eb4afb95663d61c22ad22f2384122cd7724e0b9f"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2109,
+      "sha256": "fcbfb14846ef6274b80270097d3cfa964eaf7a9e197918a6232df3b2939e5c88"
+    },
+    {
+      "path": "src/excerpt-hand.vb",
+      "role": "editable source",
+      "bytes": 94,
+      "sha256": "ce69f5dee9535d921923db1a2c9007222b98f9661081f4304dbef7f2cb8228af"
+    },
+    {
+      "path": "src/excerpt-redim.vb",
+      "role": "editable source",
+      "bytes": 41,
+      "sha256": "ca7415637d7d1e5cc37e2061d793b6f677fca549aab9af208b8cf00f36c7b882"
+    },
+    {
+      "path": "src/excerpt-shift.vb",
+      "role": "editable source",
+      "bytes": 143,
+      "sha256": "b68c657b9badd31391bc7676c530cec3b659b486a88a050c16574322a5ddd58b"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 30250,
+      "sha256": "fdee5392058a62fe9cca850e9826abc17d2443425f4234e02ed3c42ae1044a5d"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 25687,
+      "sha256": "ba1689be899c9cf8c12a106fabf38279528ec3850e97d1ebd14eb459cdb2f432"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 25687,
+      "sha256": "ba1689be899c9cf8c12a106fabf38279528ec3850e97d1ebd14eb459cdb2f432"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 477,
+      "sha256": "35ccd4de9c122093123da7183dbd67e275b1ad8a4e7d69981b32a00e967de642"
+    },
+    {
+      "path": "src/variant-comparison.svg",
+      "role": "editable source",
+      "bytes": 25687,
+      "sha256": "ba1689be899c9cf8c12a106fabf38279528ec3850e97d1ebd14eb459cdb2f432"
+    },
+    {
+      "path": "src/variant-token-focus.svg",
+      "role": "editable source",
+      "bytes": 26415,
+      "sha256": "1c95fcaec6ae4de511a6e83ac4039e9430d86e7fefae3d7608237ea0922e4504"
+    }
+  ],
+  "variants": [
+    {
+      "name": "comparison",
+      "files": [
+        "exports/comparison.png",
+        "src/variant-comparison.svg"
+      ]
+    },
+    {
+      "name": "token-focus",
+      "files": [
+        "exports/token-focus.png",
+        "src/variant-token-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        317,
+        317
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        23,
+        26
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (Structure Hand)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        130,
+        130
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (ReDim in NewHand)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        160,
+        164
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (DrawTopCard shift loop)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id CMP-09 run after this manifest was written; output recorded in qa.md."
+    },
+    {
+      "test": "original source files",
+      "result": "sources/ untouched; excerpt text compared line-for-line against both sources/Program.vb|SCRIPT.md and War/Program.vb|SCRIPT.md (see qa.md)."
+    },
+    {
+      "test": "raster dimensions",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: poster and every variant 1920 × 1080 PNG via python tools/render/render_assets.py --id CMP-09"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed (4 SVG files, 572 text boxes, no network requests)"
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Standalone inspection of poster.png, comparison.png and token-focus.png at 1920 × 1080 and of proofs/poster-720.png, comparison-720.png and token-focus-720.png at 1280 × 720 (Read tool, this worker)",
+        "scope": "Three columns, headers, labels, all ten VB lines, footer, and the focus rectangles.",
+        "status": "All three columns legible at 1280 wide; code is 25 px at 1080p (about 17 px at 720p), the smallest size that fits the 32-character ReDim line in an equal third; nothing clipped after the excerpt note was split into two lines (first render overran the column and was fixed before delivery). Focus rectangles sit behind Enqueue/Dequeue, push/front/pop, ReDim and the three shift-loop lines without covering any other token."
+      }
+    },
+    {
+      "test": "VB column is a byte-exact Program.vb excerpt",
+      "result": "passed: src/excerpt-hand.vb (23–26), src/excerpt-redim.vb (130), src/excerpt-shift.vb (160–164) equal both War/Program.vb and sources/Program.vb line-for-line (newline-normalized: War/ is CRLF, sources/ is LF); every excerpt line is present in scene.svg text."
+    },
+    {
+      "test": "language validity (reading check, no compiler run)",
+      "result": "C# lines use System.Collections.Generic.Queue<T>; C++ lines use std::queue<T> from <queue>; VB lines are Program.vb as written (VB.NET). Not compiled here; see review question in qa.md about 'Visual Basic (1995)' versus the Structure keyword."
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Playwright bundled Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "cairo_dll": "MSYS2 ucrt64 Cairo via CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin (environment variable only)",
+    "fonts": "Liberation Sans and DejaVu Sans Mono resolved from C:/WINDOWS/fonts through fc-match; no font files distributed",
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "index.html tested by in-memory content loading in Playwright's bundled Chromium with a local copy of tools/render/qa_browser.py limited to this ID."
+  },
+  "notes": [
+    "C# and C++ columns are authored teaching examples from the ticket payload, labelled example; no compile/run is claimed.",
+    "The ticket's one C++ line `Card top = hand.front(); hand.pop();` is shown as its two statements on two lines so the three columns share one code size; no token changed.",
+    "VB column: byte-exact Program.vb lines 23-26, 130 and 160-164 (identical in War/Program.vb and sources/Program.vb), stored in src/excerpt-*.vb; leading indentation common to each block is trimmed for display and relative indentation kept.",
+    "Program.vb is VB.NET (`Structure`); the column header follows the ticket's requirement 'Visual Basic (1995)' and the on-card excerpt label says VB.NET source.",
+    "Code size 25 px in all three columns; headers 40 px; footer 34 px.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

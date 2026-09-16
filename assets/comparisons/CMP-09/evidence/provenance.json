@@ -1,0 +1,54 @@
+{
+  "id": "CMP-09",
+  "classification": "authored comparison; VB column is a literal source-code excerpt",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        317,
+        317
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        23,
+        26
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (Structure Hand)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        130,
+        130
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (ReDim in NewHand)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        160,
+        164
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (DrawTopCard shift loop)"
+    }
+  ],
+  "authored_additions": [
+    "C# column (authored example from the ticket payload): var hand = new Queue<Card>(); / hand.Enqueue(c); / var top = hand.Dequeue();",
+    "C++ column (authored example from the ticket payload): std::queue<Card> hand; / hand.push(c); / Card top = hand.front(); hand.pop(); — the last line displayed as two lines, tokens unchanged.",
+    "Heading 'A queue in 1995', column labels 'example' / 'Program.vb · lines …', the excerpt note, and the ticket's footer sentence are production copy.",
+    "Display trims the leading indentation common to each VB block (4 spaces for lines 23–26, 8 for line 130 and 160–164); relative indentation and every token are kept. src/excerpt-*.vb hold the untrimmed lines."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": [],
+  "worker": "Claude Fable 5.1 worker (worktree agent-a1ce4520f7cd8bd1d), branch ticket/CMP-09-CODE-29",
+  "date": "2026-09-16"
+}

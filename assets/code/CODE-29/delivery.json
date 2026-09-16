@@ -1,0 +1,243 @@
+{
+  "id": "CODE-29",
+  "title": "Reads like English: If PlayerScore > HighScore Then, For Each Item In Collection",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored teaching example (script-quoted lines)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 597,
+      "sha256": "f131d436cfe25ce131db82ec1f7aab2b4de6039ffdaf88a7e9d72329aad7d2f8"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 18,
+      "sha256": "ed1be178bd7583e82fa8b292e38c589f4d0e2328015f78eaea7f99c79f803247"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 1159,
+      "sha256": "047385587c725605fd5d3fc4e90b83aad7368a5c7acc91fc737a7e42e12f45f5"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "d48bff68dd378678b933c9b6d012eba3388a5ec7bd3167db32aecb6f64de570f"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 855,
+      "sha256": "8520c4a704680e92d9070d3da96c78c931e544884527604a8fb7b8e031749840"
+    },
+    {
+      "path": "exports/clean.png",
+      "role": "rendered still",
+      "bytes": 57534,
+      "sha256": "b56586bf11384d6273851efeac8a6188bca0d8573b6dd4b218e1466e8c3de72b"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 53731,
+      "sha256": "875d59949f3a2226194e8f60551d85af6c0b3c38f325f7c61533eaeaba454327"
+    },
+    {
+      "path": "exports/gloss.png",
+      "role": "rendered still",
+      "bytes": 73421,
+      "sha256": "91842633bcdd1e6701b9b0a1fb35f9ce05e6c121f8558b82c3d2d251b568b048"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 57534,
+      "sha256": "b56586bf11384d6273851efeac8a6188bca0d8573b6dd4b218e1466e8c3de72b"
+    },
+    {
+      "path": "proofs/clean-720.png",
+      "role": "evidence / QA",
+      "bytes": 83687,
+      "sha256": "79c078b9ea85270ec1a02fd52cdff4c8b9d2bbe566c4e16b7ff52ea6f687f6ac"
+    },
+    {
+      "path": "proofs/gloss-720.png",
+      "role": "evidence / QA",
+      "bytes": 105147,
+      "sha256": "6241f04929e1afe8a974bcd3befcd35c4a9a58cafa946f188ddbeac381238dba"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 83687,
+      "sha256": "79c078b9ea85270ec1a02fd52cdff4c8b9d2bbe566c4e16b7ff52ea6f687f6ac"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 4916,
+      "sha256": "1766b28aa8d0ac091fe35d46d470036dc00beaf4b85319233130188a212a2488"
+    },
+    {
+      "path": "src/brief.json",
+      "role": "editable source",
+      "bytes": 1045,
+      "sha256": "3ba420c27e68074720e51583324b16851dee4aa2c28c6473151d9651135d72b1"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 993,
+      "sha256": "30aa4fc068595d3de4a6f9b35e2118efbb9a4793199bc9d69185858b96e3d536"
+    },
+    {
+      "path": "src/example.vb",
+      "role": "editable source",
+      "bytes": 60,
+      "sha256": "3387ada0d827ac14e1df3f89eaa374382a8a33bd92817bd6d36a485bce4d651b"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 6704,
+      "sha256": "ee542b73e8d24097e5fed811dd89c1b3f4d74da84c819082a0176f9dfd7dc53a"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 4387,
+      "sha256": "78c98fd8d02951ce66090b7a40c6a140eb641ba2db87dba7c7be568c858ad1bd"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 4387,
+      "sha256": "78c98fd8d02951ce66090b7a40c6a140eb641ba2db87dba7c7be568c858ad1bd"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 476,
+      "sha256": "81da302589ee04250e009e260c9308192d6b38e809ae55e97c174bcad840f6b3"
+    },
+    {
+      "path": "src/variant-clean.svg",
+      "role": "editable source",
+      "bytes": 4387,
+      "sha256": "78c98fd8d02951ce66090b7a40c6a140eb641ba2db87dba7c7be568c858ad1bd"
+    },
+    {
+      "path": "src/variant-gloss.svg",
+      "role": "editable source",
+      "bytes": 5034,
+      "sha256": "caf69e04413bc3a342671f036270238671e6fd26a7cae2b0da04c76add5c6c12"
+    }
+  ],
+  "variants": [
+    {
+      "name": "clean",
+      "files": [
+        "exports/clean.png",
+        "src/variant-clean.svg"
+      ]
+    },
+    {
+      "name": "gloss",
+      "files": [
+        "exports/gloss.png",
+        "src/variant-gloss.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        689,
+        689
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (the two quoted lines)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id CODE-29 run after this manifest was written; output recorded in qa.md."
+    },
+    {
+      "test": "original source files",
+      "result": "sources/ untouched; excerpt text compared line-for-line against both sources/Program.vb|SCRIPT.md and War/Program.vb|SCRIPT.md (see qa.md)."
+    },
+    {
+      "test": "raster dimensions",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: poster and every variant 1920 × 1080 PNG via python tools/render/render_assets.py --id CODE-29"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed (4 SVG files, 82 text boxes, no network requests)"
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Standalone inspection of poster.png, clean.png and gloss.png at 1920 × 1080 and of proofs/poster-720.png, clean-720.png and gloss-720.png at 1280 × 720 (Read tool, this worker)",
+        "scope": "Both code lines, the example labels, and the gloss rows with their margin lead-ins.",
+        "status": "Legible at 1280 wide. Gloss rows sit 62 px below each code baseline on their own rows and enter from the panel's left bar; no gloss pixel overlaps code (code box bottom is baseline+12, gloss box top is baseline+40). The gloss is faint (gold at 72 % opacity) but still readable at 720p."
+      }
+    },
+    {
+      "test": "both lines verbatim from the script",
+      "result": "passed: each line appears backticked in sources/SCRIPT.md line 689 and War/SCRIPT.md line 746; neither string occurs in Program.vb (grep)."
+    },
+    {
+      "test": "gloss does not cross the code",
+      "result": "passed by geometry (separate rows) and by inspection of gloss.png at full size and 720p."
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Playwright bundled Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "cairo_dll": "MSYS2 ucrt64 Cairo via CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin (environment variable only)",
+    "fonts": "Liberation Sans and DejaVu Sans Mono resolved from C:/WINDOWS/fonts through fc-match; no font files distributed",
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "index.html tested by in-memory content loading in Playwright's bundled Chromium with a local copy of tools/render/qa_browser.py limited to this ID."
+  },
+  "notes": [
+    "Both lines are authored teaching examples copied verbatim from the script's own backticked quotes (SCRIPT.md 689); they are not in Program.vb and the card says so.",
+    "The English glosses are a production addition (ticket requirement 2), drawn in a separate layer on their own rows below each line, entering from the panel margin; they never overlap code.",
+    "No line numbers: the card is an example, not an excerpt.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "CMP-09",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "comparison": "variant-comparison.svg",
+    "token-focus": "variant-token-focus.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "C# and C++ columns are authored teaching examples from the ticket payload, labelled example; no compile/run is claimed.",
+    "The ticket's one C++ line `Card top = hand.front(); hand.pop();` is shown as its two statements on two lines so the three columns share one code size; no token changed.",
+    "VB column: byte-exact Program.vb lines 23-26, 130 and 160-164 (identical in War/Program.vb and sources/Program.vb), stored in src/excerpt-*.vb; leading indentation common to each block is trimmed for display and relative indentation kept.",
+    "Program.vb is VB.NET (`Structure`); the column header follows the ticket's requirement 'Visual Basic (1995)' and the on-card excerpt label says VB.NET source.",
+    "Code size 25 px in all three columns; headers 40 px; footer 34 px."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        317,
+        317
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        23,
+        26
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (Structure Hand)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        130,
+        130
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (ReDim in NewHand)"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        160,
+        164
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt (DrawTopCard shift loop)"
+    }
+  ],
+  "kind": "still"
+}

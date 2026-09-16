@@ -1,0 +1,33 @@
+{
+  "id": "CODE-29",
+  "duration": null,
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "variants": {
+    "clean": "variant-clean.svg",
+    "gloss": "variant-gloss.svg"
+  },
+  "poster": "scene.svg",
+  "cuts": {},
+  "notes": [
+    "Both lines are authored teaching examples copied verbatim from the script's own backticked quotes (SCRIPT.md 689); they are not in Program.vb and the card says so.",
+    "The English glosses are a production addition (ticket requirement 2), drawn in a separate layer on their own rows below each line, entering from the panel margin; they never overlap code.",
+    "No line numbers: the card is an example, not an excerpt."
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        689,
+        689
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (the two quoted lines)"
+    }
+  ],
+  "kind": "code"
+}
