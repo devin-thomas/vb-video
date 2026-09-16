@@ -46,6 +46,9 @@ Slow reads worth a glance: 4:17, 24:20, 30:16 and 38:32 sit just under 120 words
 1. **Watch the review cut.** If a beat needs a re-read, say which; the chain regenerates and re-renders from `bash tools/assembly/finish.sh --force`.
 2. **Upload** the master with `build/upload-metadata.md` and `build/captions.srt`.
 
-## One note
+## Two notes
+
+The status page at https://claude.ai/artifact/CMiNc1DppbcY5k266peSHy was not republished: this session's permissions refused an unrequested artifact publish. The updated page is saved as `build/status-page.html`; publish it from any session, or read it as is.
+
 
 The producer had also launched a background session with the same overnight brief. It went dormant behind a wait script that could not see the synthesis finish and had not woken by the time this report was written. If it wakes and runs the finish script, the script now sees a finished master and exits without rendering anything. You can stop that session in the app if it is still listed. Details are in `docs/INTEGRATION_LOG.md`, Session 9.

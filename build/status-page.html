@@ -1,0 +1,332 @@
+<title>VB War Production</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root {
+  --blue: #1B4B8A;
+  --blue-light: #2A6BC4;
+  --amber: #D4952A;
+  --amber-dim: #B07D22;
+  --green: #2D7D46;
+  --green-bg: #e8f3ec;
+  --red: #C45D3E;
+  --red-bg: #fceae5;
+  --surface: #F0EDE8;
+  --surface-raised: #FFFFFF;
+  --surface-sunken: #E4E0D9;
+  --text: #1E1D1A;
+  --text-mid: #5C584E;
+  --text-dim: #8B8578;
+  --border: #D5D0C8;
+  --ring-track: #E4E0D9;
+  --ring-fill: var(--green);
+  --font-mono: 'IBM Plex Mono', 'Consolas', monospace;
+  --font-sans: 'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --blue: #5B9FE8; --blue-light: #7BB8F5; --amber: #E8B44A; --amber-dim: #C9982E;
+    --green: #5DBF78; --green-bg: #1a2e20; --red: #E87A5E; --red-bg: #2e1a15;
+    --surface: #1A1917; --surface-raised: #252420; --surface-sunken: #131210;
+    --text: #E8E5DF; --text-mid: #A9A49A; --text-dim: #767068; --border: #3A3832;
+    --ring-track: #2E2C28; --ring-fill: var(--green);
+  }
+}
+:root[data-theme="dark"] {
+  --blue: #5B9FE8; --blue-light: #7BB8F5; --amber: #E8B44A; --amber-dim: #C9982E;
+  --green: #5DBF78; --green-bg: #1a2e20; --red: #E87A5E; --red-bg: #2e1a15;
+  --surface: #1A1917; --surface-raised: #252420; --surface-sunken: #131210;
+  --text: #E8E5DF; --text-mid: #A9A49A; --text-dim: #767068; --border: #3A3832;
+  --ring-track: #2E2C28; --ring-fill: var(--green);
+}
+
+body {
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-sans);
+  padding-block: 2rem;
+  padding-inline: 1.25rem;
+  max-width: 860px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+code { font-family: var(--font-mono); font-size: 0.92em; }
+
+/* Header */
+.header { display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+.ring-wrap { flex-shrink: 0; position: relative; width: 140px; height: 140px; }
+.ring-wrap svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ring-track { stroke: var(--ring-track); fill: none; stroke-width: 10; }
+.ring-fill { stroke: var(--ring-fill); fill: none; stroke-width: 10; stroke-linecap: round; }
+.ring-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.ring-num { font-family: var(--font-mono); font-size: 2rem; font-weight: 600; color: var(--text); line-height: 1; }
+.ring-label { font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 0.15rem; }
+.header-text { flex: 1; min-width: 200px; }
+.header-text h1 { font-family: var(--font-mono); font-size: 1.15rem; font-weight: 600; margin: 0 0 0.35rem; color: var(--text); text-wrap: balance; }
+.header-text .date { font-size: 0.8rem; color: var(--text-dim); margin-bottom: 0.75rem; }
+.header-text p { font-size: 0.9rem; color: var(--text-mid); margin: 0; }
+.stat-row { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1rem; }
+.stat { display: flex; flex-direction: column; }
+.stat-val { font-family: var(--font-mono); font-size: 1.4rem; font-weight: 600; line-height: 1.15; color: var(--text); font-variant-numeric: tabular-nums; }
+.stat-key { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* Section labels */
+.section-label {
+  font-family: var(--font-mono); font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--text-dim); margin: 2rem 0 0.75rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--border);
+}
+
+/* Next-up strip */
+.next {
+  background: var(--surface-raised); border: 1px solid var(--border); border-left: 4px solid var(--green);
+  border-radius: 6px; padding: 0.9rem 1.1rem; display: grid; gap: 0.5rem;
+}
+.next-title { font-weight: 600; font-size: 0.9rem; color: var(--text); }
+.next-steps { margin: 0; padding-left: 1.2rem; font-size: 0.82rem; color: var(--text-mid); display: grid; gap: 0.3rem; }
+.next-steps strong { color: var(--text); font-weight: 600; }
+
+/* Listen table */
+.listen { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.listen th { text-align: left; font-family: var(--font-mono); font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-dim); padding: 0.3rem 0.6rem 0.3rem 0; border-bottom: 1px solid var(--border); }
+.listen td { padding: 0.3rem 0.6rem 0.3rem 0; border-bottom: 1px solid var(--border); color: var(--text-mid); vertical-align: top; }
+.listen td:first-child { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--text); white-space: nowrap; }
+.listen-wrap { overflow-x: auto; }
+
+/* Department grid */
+.dept-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.75rem; }
+.dept { background: var(--surface-raised); border: 1px solid var(--border); border-radius: 6px; padding: 0.85rem 1rem; display: flex; flex-direction: column; gap: 0.4rem; }
+.dept-head { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+.dept-name { font-weight: 600; font-size: 0.85rem; color: var(--text); }
+.badge { font-family: var(--font-mono); font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 3px; white-space: nowrap; }
+.badge-done { background: var(--green-bg); color: var(--green); }
+.badge-active { background: color-mix(in srgb, var(--blue) 12%, transparent); color: var(--blue); }
+.badge-waiting { background: color-mix(in srgb, var(--amber) 15%, transparent); color: var(--amber-dim); }
+.dept-detail { font-size: 0.8rem; color: var(--text-mid); line-height: 1.45; }
+.dept-bar-wrap { height: 4px; background: var(--ring-track); border-radius: 2px; overflow: hidden; margin-top: 0.15rem; }
+.dept-bar { height: 100%; border-radius: 2px; }
+.dept-bar-done { background: var(--green); }
+.dept-bar-active { background: var(--blue); }
+
+/* Release bar */
+.release-bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; border: 1px solid var(--border); margin-bottom: 0.6rem; }
+.release-bar span { display: block; height: 100%; }
+.rel-approved { background: var(--green); }
+.rel-blocked { background: var(--amber); }
+.rel-unreviewed { background: var(--surface-sunken); }
+.legend { display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: 0.78rem; color: var(--text-mid); }
+.legend span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 0.4rem; vertical-align: middle; }
+.legend .l-approved::before { background: var(--green); }
+.legend .l-blocked::before { background: var(--amber); }
+.legend .l-unreviewed::before { background: var(--surface-sunken); border: 1px solid var(--border); }
+.legend b { font-family: var(--font-mono); font-weight: 600; color: var(--text); font-variant-numeric: tabular-nums; }
+
+/* Lists */
+.needs-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.need-item { background: var(--surface-raised); border: 1px solid var(--border); border-radius: 6px; padding: 0.7rem 1rem; display: grid; grid-template-columns: auto 1fr; gap: 0 0.75rem; align-items: start; }
+.need-tag { font-family: var(--font-mono); font-size: 0.65rem; font-weight: 600; color: var(--amber-dim); background: color-mix(in srgb, var(--amber) 12%, transparent); padding: 0.1rem 0.4rem; border-radius: 2px; white-space: nowrap; margin-top: 0.1rem; }
+.need-tag.done { color: var(--green); background: var(--green-bg); }
+.need-tag.fixed { color: var(--blue); background: color-mix(in srgb, var(--blue) 12%, transparent); }
+.need-text { font-size: 0.82rem; color: var(--text-mid); line-height: 1.45; }
+.need-text strong { color: var(--text); font-weight: 600; }
+
+.handoff-list { display: flex; flex-direction: column; gap: 0.35rem; }
+.handoff { display: flex; align-items: center; gap: 0.65rem; padding: 0.5rem 0; font-size: 0.82rem; color: var(--text-mid); }
+.handoff-id { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 600; color: var(--text-dim); width: 2.2rem; flex-shrink: 0; }
+.handoff-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--border); flex-shrink: 0; }
+.handoff-dot.done { background: var(--green); }
+.handoff-dot.open { background: var(--amber); }
+.handoff-state { margin-left: auto; font-family: var(--font-mono); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); white-space: nowrap; }
+
+.breakdown { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.4rem 1rem; }
+.bk-row { display: flex; justify-content: space-between; align-items: baseline; padding: 0.25rem 0; border-bottom: 1px solid var(--border); font-size: 0.8rem; }
+.bk-label { color: var(--text-mid); }
+.bk-val { font-family: var(--font-mono); font-weight: 600; font-variant-numeric: tabular-nums; color: var(--text); }
+
+.script-note { background: var(--surface-raised); border: 1px solid var(--border); border-radius: 6px; padding: 0.85rem 1rem; font-size: 0.82rem; color: var(--text-mid); line-height: 1.5; }
+.script-note strong { color: var(--text); font-weight: 600; }
+.foot { margin-top: 2.5rem; font-size: 0.75rem; color: var(--text-dim); font-family: var(--font-mono); }
+
+@media (max-width: 500px) {
+  .header { gap: 1.25rem; }
+  .ring-wrap { width: 110px; height: 110px; }
+  .ring-num { font-size: 1.6rem; }
+  .stat-row { gap: 1rem; }
+  .dept-grid { grid-template-columns: 1fr; }
+  .breakdown { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="header">
+  <div class="ring-wrap">
+    <svg viewBox="0 0 140 140" role="img" aria-label="42 minutes rendered, the full cut">
+      <circle class="ring-track" cx="70" cy="70" r="60"/>
+      <circle class="ring-fill" cx="70" cy="70" r="60" stroke-dasharray="377" stroke-dashoffset="0"/>
+    </svg>
+    <div class="ring-center">
+      <span class="ring-num">42:00</span>
+      <span class="ring-label">cut rendered</span>
+    </div>
+  </div>
+  <div class="header-text">
+    <h1>Visual Basic War — Production Status</h1>
+    <div class="date">September 16, 2026 · the cut is rendered · producer: Claude Fable 5.1</div>
+    <p>YouTube video: building a War card game in mid-90s Visual Basic. Asset production finished on the 15th. Overnight, the Video Executive Producer session read all 166 narration beats in Aiden's voice, checked every take by transcription and re-read the doubtful ones, laid all 130 cleared assets on the timeline, mixed your music keeps and the effects under the voice, and rendered a 1080p60 review cut and a 4K60 master. Two things are left, and both are yours.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-val">166</span><span class="stat-key">beats narrated</span></div>
+      <div class="stat"><span class="stat-val">130</span><span class="stat-key">assets in the cut</span></div>
+      <div class="stat"><span class="stat-val">183</span><span class="stat-key">timeline segments</span></div>
+      <div class="stat"><span class="stat-val">553</span><span class="stat-key">caption cues</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="section-label">What happens next</div>
+<div class="next">
+  <div class="next-title">The cut is rendered. Two sittings remain, and only you can do them.</div>
+  <ol class="next-steps">
+    <li><strong>Watch the review cut:</strong> <code>build/review-1080p60-mixed.mp4</code> (42:00, 289 MB). <code>build/MORNING-REPORT.md</code> lists the eleven beats where the transcriber heard a different word, with timestamps, and the four assets placed by producer judgement. If any beat needs a re-read, name it; <code>bash tools/assembly/finish.sh --force</code> regenerates and re-renders.</li>
+    <li><strong>Upload:</strong> <code>build/master-2160p60.mp4</code> (4K60 HEVC, 660 MB) with <code>build/upload-metadata.md</code> (title, description, tags, 17 chapters at the real times) and <code>build/captions.srt</code>. Nothing has been uploaded.</li>
+  </ol>
+</div>
+
+<div class="section-label">Overnight finish — Session 9</div>
+<div class="needs-list">
+  <div class="need-item">
+    <span class="need-tag done">DONE</span>
+    <span class="need-text"><strong>Narration.</strong> 166 of 166 beats synthesized (39.4 min of voice). 63 flagged by the transcription check were read a second time; the better take was chosen by measurement, and 32 second reads made the cut. The mix measures -16.3 LUFS with true peak -0.8 dBFS; captions and the 17 chapter times were checked against the timeline.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag done">DONE</span>
+    <span class="need-text"><strong>Assembly and mix.</strong> 183 segments, no beat without audio, no unmapped cue. Eight beds from your keeps with chapter stings, ducked under the voice; Windows 95 chime at 4:58, shuffles at 9:12, 9:32 and 15:54, card slaps at 21:43 and 22:40. Blast Processor and Inverse Phase untouched.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag fixed">FIXED</span>
+    <span class="need-text"><strong>Four assets had no home.</strong> The placement rules looked for their trigger words in the wrong sections. Placed from the beat text: the Pentium-era PC on "you ran the installer" at 5:45, the runtime fact card on "bundle the runtime" at 29:01, the 1995 tools comparison on the "sweet spot" summary at 32:49, the code scroll-through on "the code is straightforward" at 41:05. Every segment was re-rendered.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag">INFO</span>
+    <span class="need-text"><strong>A second overnight session</strong> was launched by the producer with the same brief and went dormant behind a wait script that could not see the synthesis finish. It had not woken when this page was written. The finish script now refuses to run twice and exits when the master is already newer than the take selection, so if it wakes it renders nothing. Stop it in the app if it is still listed.</span>
+  </div>
+</div>
+
+<div class="section-label">Beats to listen to</div>
+<div class="listen-wrap">
+<table class="listen">
+  <thead><tr><th>Time</th><th>Beat</th><th>What the transcriber heard</th></tr></thead>
+  <tbody>
+    <tr><td>1:49</td><td>S02-B02</td><td>"COBOL" as "cobalt"</td></tr>
+    <tr><td>2:32</td><td>S02-B04</td><td>"learned" as "learn"</td></tr>
+    <tr><td>5:28</td><td>S03-B02</td><td>"disc" as "disk"</td></tr>
+    <tr><td>6:15</td><td>S03-B05</td><td>"BASIC" as "basics"</td></tr>
+    <tr><td>16:44</td><td>S08-B01</td><td>"queue" as "cue", "structures" as "structure's"</td></tr>
+    <tr><td>17:52</td><td>S08-B07</td><td>"data sets" as "datasets"</td></tr>
+    <tr><td>18:53</td><td>S08-B12</td><td>"assign" as "assigned"</td></tr>
+    <tr><td>23:14</td><td>S10-B12</td><td>"pot array" as "potteray"</td></tr>
+    <tr><td>23:23</td><td>S10-B13</td><td>"won" as "one"</td></tr>
+    <tr><td>30:50</td><td>S14-B04</td><td>"preferred" as "prefer"</td></tr>
+    <tr><td>35:25</td><td>S15-B10</td><td>".WriteLine" as "writeline"</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="section-label">Release status across 134 tickets</div>
+<div class="release-bar" role="img" aria-label="134 approved">
+  <span class="rel-approved" style="width:100%"></span>
+</div>
+<div class="legend">
+  <span class="l-approved"><b>134</b> approved · 130 media assets in the cut, 4 coordination records</span>
+</div>
+
+<div class="section-label">Departments</div>
+<div class="dept-grid">
+  <div class="dept">
+    <div class="dept-head"><span class="dept-name">Archive Extras</span><span class="badge badge-done">Complete</span></div>
+    <div class="dept-detail">13/13 produced and merged. Period publications, hardware, archived websites, game screenshots. All release-gated on R14 rights.</div>
+    <div class="dept-bar-wrap"><div class="dept-bar dept-bar-done" style="width:100%"></div></div>
+  </div>
+  <div class="dept">
+    <div class="dept-head"><span class="dept-name">Historical Screenshots</span><span class="badge badge-done">Complete</span></div>
+    <div class="dept-detail">21/21 produced and merged. HIST-12 (Delphi 1.0 IDE, Borland's own reviewer's-guide figure, byte-exact from the Wayback Machine) landed on the 15th. All gated on R14.</div>
+    <div class="dept-bar-wrap"><div class="dept-bar dept-bar-done" style="width:100%"></div></div>
+  </div>
+  <div class="dept">
+    <div class="dept-head"><span class="dept-name">B-roll</span><span class="badge badge-done">Complete</span></div>
+    <div class="dept-detail">6/6 scouted, acquired and merged. Only BROLL-01 (shuffle) and BROLL-05 (floppy) match their brief outright; 02 is a generic card game, 03 a 2021 recreation, 06 a dark-screen cutaway, and 04's CC0 was uploader-applied. You approved all six: 03 keeps its recreation label, 04 runs 6.5 s pillarboxed and muted, 06 is a cutaway with the narration carrying the boot.</div>
+    <div class="dept-bar-wrap"><div class="dept-bar dept-bar-done" style="width:100%"></div></div>
+  </div>
+  <div class="dept">
+    <div class="dept-head"><span class="dept-name">Render Lane</span><span class="badge badge-done">Complete</span></div>
+    <div class="dept-detail">6/6 produced and merged, plus the XTRA-05 revision: script-derived labels and a side-by-side poster, with the on-screen "Loan" project proven to be Microsoft's own VB 4.0 sample.</div>
+    <div class="dept-bar-wrap"><div class="dept-bar dept-bar-done" style="width:100%"></div></div>
+  </div>
+  <div class="dept">
+    <div class="dept-head"><span class="dept-name">Evidence Research</span><span class="badge badge-done">Complete</span></div>
+    <div class="dept-detail">Proved "Visual Basic for Mac" fictional (script corrected). Confirmed Solitaire and Minesweeper "written in C" is accurate.</div>
+    <div class="dept-bar-wrap"><div class="dept-bar dept-bar-done" style="width:100%"></div></div>
+  </div>
+  <div class="dept">
+    <div class="dept-head"><span class="dept-name">Writing Lead</span><span class="badge badge-done">Standing by</span></div>
+    <div class="dept-detail">16 script edits across 4 batches. Last round: the code window is no longer "behind" the form (line 135), "in 2024" became "today" (line 151), and the "Form Designer" label stayed, so no rebuild.</div>
+    <div class="dept-bar-wrap"><div class="dept-bar dept-bar-done" style="width:100%"></div></div>
+  </div>
+</div>
+
+<div class="section-label">Ruled on the 15th</div>
+<div class="needs-list">
+  <div class="need-item">
+    <span class="need-tag done">DONE</span>
+    <span class="need-text"><strong>Delegated review.</strong> You declined the 118-item deck. The producer checked each remaining asset against the script and Program.vb, approved 115, and fixed one: XTRA-15 lost its burned-in provenance caption and keeps only the RECONSTRUCTION label. Nothing was found wrong in the words.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag done">DONE</span>
+    <span class="need-text"><strong>33 R14 rights questions:</strong> keep every asset as delivered, rights risk accepted as documented. Recorded per question in the ledger and as gate decisions in each ticket.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag done">DONE</span>
+    <span class="need-text"><strong>Recreation versus archive:</strong> all three recommendations approved from the options page. BROLL-03 keeps the labeled 2021 recreation; BROLL-04 uses 02:16.0 to 02:22.5, pillarboxed and muted; BROLL-06 uses the room cutaway alone, framed so the ViewSonic mark is not prominent.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag done">DONE</span>
+    <span class="need-text"><strong>Writing calls</strong> went to the Writing Lead, not to you: line 135 narration now matches the VB4 capture, line 151 is undated, and the XTRA-05 labels are unchanged. XTRA-05's credit sits in the end credits, not in the frame.</span>
+  </div>
+  <div class="need-item">
+    <span class="need-tag">INFO</span>
+    <span class="need-text"><strong>HIST-12 presentation.</strong> The only authentic Delphi 1.0 workspace image is a 444×282 GIF. It is shown at an exact 3× upscale on a matte, with visible period pixel structure, rather than stretched to fill 1080p. Say so if you want it treated differently.</span>
+  </div>
+</div>
+
+<div class="section-label">What's been built — by family</div>
+<div class="breakdown">
+  <div class="bk-row"><span class="bk-label">Historical images</span><span class="bk-val">34</span></div>
+  <div class="bk-row"><span class="bk-label">Code walkthroughs</span><span class="bk-val">25</span></div>
+  <div class="bk-row"><span class="bk-label">Chapter cards</span><span class="bk-val">16</span></div>
+  <div class="bk-row"><span class="bk-label">Diagrams</span><span class="bk-val">14</span></div>
+  <div class="bk-row"><span class="bk-label">C#/VB comparisons</span><span class="bk-val">8</span></div>
+  <div class="bk-row"><span class="bk-label">Terminal captures</span><span class="bk-val">7</span></div>
+  <div class="bk-row"><span class="bk-label">Fact cards</span><span class="bk-val">6</span></div>
+  <div class="bk-row"><span class="bk-label">B-roll clips</span><span class="bk-val">6</span></div>
+  <div class="bk-row"><span class="bk-label">Reference code</span><span class="bk-val">5</span></div>
+  <div class="bk-row"><span class="bk-label">Stills</span><span class="bk-val">5</span></div>
+  <div class="bk-row"><span class="bk-label">Mockups</span><span class="bk-val">2</span></div>
+  <div class="bk-row"><span class="bk-label">Title/end cards</span><span class="bk-val">2</span></div>
+  <div class="bk-row"><span class="bk-label">Ops/infrastructure</span><span class="bk-val">2</span></div>
+</div>
+
+<div class="section-label">Script corrections applied</div>
+<div class="script-note">
+  <strong>14 evidence-backed corrections</strong> to War/SCRIPT.md, each verified against primary sources before editing. VB.NET announced around 2000, not 2002. Java 1.0 shipped January 1996, not 1995. "Visual Basic for Mac" never existed, so that passage now turns on QuickBASIC. NeXT left hardware in 1993. The Save VB6 petition was 2005, not 2002. "Shareware card games" were actually bundled with Windows. VB1 had a "properties bar", not a window. The runtime download became "megabyte-plus". Capture output numbers now quote real runs.
+  <br><br>
+  <strong>1 claim verified:</strong> "Solitaire and Minesweeper (written in C)" is accurate. Wes Cherry wrote Solitaire in C; Minesweeper's C source is confirmed from the leaked NT tree.
+</div>
+
+<div class="section-label">Human handoffs</div>
+<div class="handoff-list">
+  <div class="handoff"><span class="handoff-id">H01</span><span class="handoff-dot done"></span> Screen recordings — terminal runs, editor scroll-through, project file<span class="handoff-state">done · in the cut</span></div>
+  <div class="handoff"><span class="handoff-id">H02</span><span class="handoff-dot"></span> Gated stock footage — empty; all six B-roll clips came from free sources<span class="handoff-state">not needed</span></div>
+  <div class="handoff"><span class="handoff-id">H03</span><span class="handoff-dot done"></span> Background music — your keeps as section beds with chapter stings<span class="handoff-state">done · in the mix</span></div>
+  <div class="handoff"><span class="handoff-id">H04</span><span class="handoff-dot done"></span> Sound effects — card shuffle, slap, Windows 95 chime<span class="handoff-state">done · in the mix</span></div>
+  <div class="handoff"><span class="handoff-id">H05</span><span class="handoff-dot done"></span> Final video assembly — narration sync, cuts, pacing<span class="handoff-state">rendered</span></div>
+  <div class="handoff"><span class="handoff-id">H06</span><span class="handoff-dot done"></span> Narration — Aiden, checked by transcription<span class="handoff-state">done</span></div>
+  <div class="handoff"><span class="handoff-id">H07</span><span class="handoff-dot open"></span> YouTube upload — master, metadata and captions are ready<span class="handoff-state">yours</span></div>
+</div>
+
+<div class="foot">main @ ac5dbd7 · Video Executive Producer session vb-video-checkout-2-b3 [4f305e] · records in docs/INTEGRATION_LOG.md, Session 9</div>
