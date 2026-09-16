@@ -1,0 +1,1054 @@
+{
+  "id": "DIA-15",
+  "durationSeconds": 12.0,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–1 s: squared deck.",
+    "1–2 s: split into two tilted halves.",
+    "2–5 s: riffle interleave, cards dropping alternately from both halves; four faces flash.",
+    "5–6 s: the ragged pile squares up.",
+    "6–12 s: hold on the squared deck (poster)."
+  ],
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 1.0333333333333334,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 1.0666666666666667,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 1.1,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 1.1333333333333333,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 1.1666666666666667,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 1.2,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 1.2333333333333334,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 1.2666666666666666,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 1.3,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 1.3333333333333333,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 1.3666666666666667,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 1.4,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 1.4333333333333333,
+      "file": "scene-0013.svg"
+    },
+    {
+      "time": 1.4666666666666666,
+      "file": "scene-0014.svg"
+    },
+    {
+      "time": 1.5,
+      "file": "scene-0015.svg"
+    },
+    {
+      "time": 1.5333333333333334,
+      "file": "scene-0016.svg"
+    },
+    {
+      "time": 1.5666666666666667,
+      "file": "scene-0017.svg"
+    },
+    {
+      "time": 1.6,
+      "file": "scene-0018.svg"
+    },
+    {
+      "time": 1.6333333333333333,
+      "file": "scene-0019.svg"
+    },
+    {
+      "time": 1.6666666666666667,
+      "file": "scene-0020.svg"
+    },
+    {
+      "time": 1.7,
+      "file": "scene-0021.svg"
+    },
+    {
+      "time": 1.7333333333333334,
+      "file": "scene-0022.svg"
+    },
+    {
+      "time": 1.7666666666666666,
+      "file": "scene-0023.svg"
+    },
+    {
+      "time": 1.8,
+      "file": "scene-0024.svg"
+    },
+    {
+      "time": 1.8333333333333333,
+      "file": "scene-0025.svg"
+    },
+    {
+      "time": 1.8666666666666667,
+      "file": "scene-0026.svg"
+    },
+    {
+      "time": 1.9,
+      "file": "scene-0027.svg"
+    },
+    {
+      "time": 1.9333333333333333,
+      "file": "scene-0028.svg"
+    },
+    {
+      "time": 1.9666666666666666,
+      "file": "scene-0029.svg"
+    },
+    {
+      "time": 2.0,
+      "file": "scene-0030.svg"
+    },
+    {
+      "time": 2.033333333333333,
+      "file": "scene-0031.svg"
+    },
+    {
+      "time": 2.066666666666667,
+      "file": "scene-0032.svg"
+    },
+    {
+      "time": 2.1,
+      "file": "scene-0033.svg"
+    },
+    {
+      "time": 2.1333333333333333,
+      "file": "scene-0034.svg"
+    },
+    {
+      "time": 2.1666666666666665,
+      "file": "scene-0035.svg"
+    },
+    {
+      "time": 2.2,
+      "file": "scene-0036.svg"
+    },
+    {
+      "time": 2.2333333333333334,
+      "file": "scene-0037.svg"
+    },
+    {
+      "time": 2.2666666666666666,
+      "file": "scene-0038.svg"
+    },
+    {
+      "time": 2.3,
+      "file": "scene-0039.svg"
+    },
+    {
+      "time": 2.3333333333333335,
+      "file": "scene-0040.svg"
+    },
+    {
+      "time": 2.3666666666666667,
+      "file": "scene-0041.svg"
+    },
+    {
+      "time": 2.4,
+      "file": "scene-0042.svg"
+    },
+    {
+      "time": 2.433333333333333,
+      "file": "scene-0043.svg"
+    },
+    {
+      "time": 2.466666666666667,
+      "file": "scene-0044.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0045.svg"
+    },
+    {
+      "time": 2.533333333333333,
+      "file": "scene-0046.svg"
+    },
+    {
+      "time": 2.566666666666667,
+      "file": "scene-0047.svg"
+    },
+    {
+      "time": 2.6,
+      "file": "scene-0048.svg"
+    },
+    {
+      "time": 2.6333333333333333,
+      "file": "scene-0049.svg"
+    },
+    {
+      "time": 2.6666666666666665,
+      "file": "scene-0050.svg"
+    },
+    {
+      "time": 2.7,
+      "file": "scene-0051.svg"
+    },
+    {
+      "time": 2.7333333333333334,
+      "file": "scene-0052.svg"
+    },
+    {
+      "time": 2.7666666666666666,
+      "file": "scene-0053.svg"
+    },
+    {
+      "time": 2.8,
+      "file": "scene-0054.svg"
+    },
+    {
+      "time": 2.8333333333333335,
+      "file": "scene-0055.svg"
+    },
+    {
+      "time": 2.8666666666666667,
+      "file": "scene-0056.svg"
+    },
+    {
+      "time": 2.9,
+      "file": "scene-0057.svg"
+    },
+    {
+      "time": 2.933333333333333,
+      "file": "scene-0058.svg"
+    },
+    {
+      "time": 2.966666666666667,
+      "file": "scene-0059.svg"
+    },
+    {
+      "time": 3.0,
+      "file": "scene-0060.svg"
+    },
+    {
+      "time": 3.033333333333333,
+      "file": "scene-0061.svg"
+    },
+    {
+      "time": 3.066666666666667,
+      "file": "scene-0062.svg"
+    },
+    {
+      "time": 3.1,
+      "file": "scene-0063.svg"
+    },
+    {
+      "time": 3.1333333333333333,
+      "file": "scene-0064.svg"
+    },
+    {
+      "time": 3.1666666666666665,
+      "file": "scene-0065.svg"
+    },
+    {
+      "time": 3.2,
+      "file": "scene-0066.svg"
+    },
+    {
+      "time": 3.2333333333333334,
+      "file": "scene-0067.svg"
+    },
+    {
+      "time": 3.2666666666666666,
+      "file": "scene-0068.svg"
+    },
+    {
+      "time": 3.3,
+      "file": "scene-0069.svg"
+    },
+    {
+      "time": 3.3333333333333335,
+      "file": "scene-0070.svg"
+    },
+    {
+      "time": 3.3666666666666667,
+      "file": "scene-0071.svg"
+    },
+    {
+      "time": 3.4,
+      "file": "scene-0072.svg"
+    },
+    {
+      "time": 3.433333333333333,
+      "file": "scene-0073.svg"
+    },
+    {
+      "time": 3.466666666666667,
+      "file": "scene-0074.svg"
+    },
+    {
+      "time": 3.5,
+      "file": "scene-0075.svg"
+    },
+    {
+      "time": 3.533333333333333,
+      "file": "scene-0076.svg"
+    },
+    {
+      "time": 3.566666666666667,
+      "file": "scene-0077.svg"
+    },
+    {
+      "time": 3.6,
+      "file": "scene-0078.svg"
+    },
+    {
+      "time": 3.6333333333333333,
+      "file": "scene-0079.svg"
+    },
+    {
+      "time": 3.6666666666666665,
+      "file": "scene-0080.svg"
+    },
+    {
+      "time": 3.7,
+      "file": "scene-0081.svg"
+    },
+    {
+      "time": 3.7333333333333334,
+      "file": "scene-0082.svg"
+    },
+    {
+      "time": 3.7666666666666666,
+      "file": "scene-0083.svg"
+    },
+    {
+      "time": 3.8,
+      "file": "scene-0084.svg"
+    },
+    {
+      "time": 3.8333333333333335,
+      "file": "scene-0085.svg"
+    },
+    {
+      "time": 3.8666666666666667,
+      "file": "scene-0086.svg"
+    },
+    {
+      "time": 3.9,
+      "file": "scene-0087.svg"
+    },
+    {
+      "time": 3.933333333333333,
+      "file": "scene-0088.svg"
+    },
+    {
+      "time": 3.966666666666667,
+      "file": "scene-0089.svg"
+    },
+    {
+      "time": 4.0,
+      "file": "scene-0090.svg"
+    },
+    {
+      "time": 4.033333333333333,
+      "file": "scene-0091.svg"
+    },
+    {
+      "time": 4.066666666666666,
+      "file": "scene-0092.svg"
+    },
+    {
+      "time": 4.1,
+      "file": "scene-0093.svg"
+    },
+    {
+      "time": 4.133333333333334,
+      "file": "scene-0094.svg"
+    },
+    {
+      "time": 4.166666666666667,
+      "file": "scene-0095.svg"
+    },
+    {
+      "time": 4.2,
+      "file": "scene-0096.svg"
+    },
+    {
+      "time": 4.233333333333333,
+      "file": "scene-0097.svg"
+    },
+    {
+      "time": 4.266666666666667,
+      "file": "scene-0098.svg"
+    },
+    {
+      "time": 4.3,
+      "file": "scene-0099.svg"
+    },
+    {
+      "time": 4.333333333333333,
+      "file": "scene-0100.svg"
+    },
+    {
+      "time": 4.366666666666666,
+      "file": "scene-0101.svg"
+    },
+    {
+      "time": 4.4,
+      "file": "scene-0102.svg"
+    },
+    {
+      "time": 4.433333333333334,
+      "file": "scene-0103.svg"
+    },
+    {
+      "time": 4.466666666666667,
+      "file": "scene-0104.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0105.svg"
+    },
+    {
+      "time": 4.533333333333333,
+      "file": "scene-0106.svg"
+    },
+    {
+      "time": 4.566666666666666,
+      "file": "scene-0107.svg"
+    },
+    {
+      "time": 4.6,
+      "file": "scene-0108.svg"
+    },
+    {
+      "time": 4.633333333333334,
+      "file": "scene-0109.svg"
+    },
+    {
+      "time": 5.033333333333333,
+      "file": "scene-0110.svg"
+    },
+    {
+      "time": 5.066666666666666,
+      "file": "scene-0111.svg"
+    },
+    {
+      "time": 5.1,
+      "file": "scene-0112.svg"
+    },
+    {
+      "time": 5.133333333333334,
+      "file": "scene-0113.svg"
+    },
+    {
+      "time": 5.166666666666667,
+      "file": "scene-0114.svg"
+    },
+    {
+      "time": 5.2,
+      "file": "scene-0115.svg"
+    },
+    {
+      "time": 5.233333333333333,
+      "file": "scene-0116.svg"
+    },
+    {
+      "time": 5.266666666666667,
+      "file": "scene-0117.svg"
+    },
+    {
+      "time": 5.3,
+      "file": "scene-0118.svg"
+    },
+    {
+      "time": 5.333333333333333,
+      "file": "scene-0119.svg"
+    },
+    {
+      "time": 5.366666666666666,
+      "file": "scene-0120.svg"
+    },
+    {
+      "time": 5.4,
+      "file": "scene-0121.svg"
+    },
+    {
+      "time": 5.433333333333334,
+      "file": "scene-0122.svg"
+    },
+    {
+      "time": 5.466666666666667,
+      "file": "scene-0123.svg"
+    },
+    {
+      "time": 5.5,
+      "file": "scene-0124.svg"
+    },
+    {
+      "time": 5.533333333333333,
+      "file": "scene-0125.svg"
+    },
+    {
+      "time": 5.566666666666666,
+      "file": "scene-0126.svg"
+    },
+    {
+      "time": 5.6,
+      "file": "scene-0127.svg"
+    },
+    {
+      "time": 5.633333333333334,
+      "file": "scene-0128.svg"
+    },
+    {
+      "time": 5.666666666666667,
+      "file": "scene-0129.svg"
+    },
+    {
+      "time": 5.7,
+      "file": "scene-0130.svg"
+    },
+    {
+      "time": 5.733333333333333,
+      "file": "scene-0131.svg"
+    },
+    {
+      "time": 5.766666666666667,
+      "file": "scene-0132.svg"
+    },
+    {
+      "time": 5.8,
+      "file": "scene-0133.svg"
+    },
+    {
+      "time": 5.833333333333333,
+      "file": "scene-0134.svg"
+    },
+    {
+      "time": 5.866666666666666,
+      "file": "scene-0135.svg"
+    },
+    {
+      "time": 5.9,
+      "file": "scene-0136.svg"
+    },
+    {
+      "time": 5.933333333333334,
+      "file": "scene-0137.svg"
+    },
+    {
+      "time": 5.966666666666667,
+      "file": "scene-0138.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {
+    "riffle": [
+      0,
+      12.0
+    ]
+  },
+  "variant_names": [
+    "riffle",
+    "loop"
+  ],
+  "key_seconds": {
+    "riffle": 2.0,
+    "loop": 0.1
+  },
+  "loops": {
+    "loop": {
+      "durationSeconds": 4.0,
+      "seamless": true,
+      "beats": [
+        "0–0.1 s: halves apart.",
+        "0.1–2.8 s: riffle interleave; four faces flash.",
+        "2.8–3.4 s: square up.",
+        "3.4–3.9 s: split again.",
+        "3.9–4.0 s: halves apart — identical to frame 0."
+      ],
+      "frames": [
+        {
+          "time": 0.0,
+          "file": "loop-0000.svg"
+        },
+        {
+          "time": 0.13333333333333333,
+          "file": "loop-0001.svg"
+        },
+        {
+          "time": 0.16666666666666666,
+          "file": "loop-0002.svg"
+        },
+        {
+          "time": 0.2,
+          "file": "loop-0003.svg"
+        },
+        {
+          "time": 0.23333333333333334,
+          "file": "loop-0004.svg"
+        },
+        {
+          "time": 0.26666666666666666,
+          "file": "loop-0005.svg"
+        },
+        {
+          "time": 0.3,
+          "file": "loop-0006.svg"
+        },
+        {
+          "time": 0.3333333333333333,
+          "file": "loop-0007.svg"
+        },
+        {
+          "time": 0.36666666666666664,
+          "file": "loop-0008.svg"
+        },
+        {
+          "time": 0.4,
+          "file": "loop-0009.svg"
+        },
+        {
+          "time": 0.43333333333333335,
+          "file": "loop-0010.svg"
+        },
+        {
+          "time": 0.4666666666666667,
+          "file": "loop-0011.svg"
+        },
+        {
+          "time": 0.5,
+          "file": "loop-0012.svg"
+        },
+        {
+          "time": 0.5333333333333333,
+          "file": "loop-0013.svg"
+        },
+        {
+          "time": 0.5666666666666667,
+          "file": "loop-0014.svg"
+        },
+        {
+          "time": 0.6,
+          "file": "loop-0015.svg"
+        },
+        {
+          "time": 0.6333333333333333,
+          "file": "loop-0016.svg"
+        },
+        {
+          "time": 0.6666666666666666,
+          "file": "loop-0017.svg"
+        },
+        {
+          "time": 0.7,
+          "file": "loop-0018.svg"
+        },
+        {
+          "time": 0.7333333333333333,
+          "file": "loop-0019.svg"
+        },
+        {
+          "time": 0.7666666666666667,
+          "file": "loop-0020.svg"
+        },
+        {
+          "time": 0.8,
+          "file": "loop-0021.svg"
+        },
+        {
+          "time": 0.8333333333333334,
+          "file": "loop-0022.svg"
+        },
+        {
+          "time": 0.8666666666666667,
+          "file": "loop-0023.svg"
+        },
+        {
+          "time": 0.9,
+          "file": "loop-0024.svg"
+        },
+        {
+          "time": 0.9333333333333333,
+          "file": "loop-0025.svg"
+        },
+        {
+          "time": 0.9666666666666667,
+          "file": "loop-0026.svg"
+        },
+        {
+          "time": 1.0,
+          "file": "loop-0027.svg"
+        },
+        {
+          "time": 1.0333333333333334,
+          "file": "loop-0028.svg"
+        },
+        {
+          "time": 1.0666666666666667,
+          "file": "loop-0029.svg"
+        },
+        {
+          "time": 1.1,
+          "file": "loop-0030.svg"
+        },
+        {
+          "time": 1.1333333333333333,
+          "file": "loop-0031.svg"
+        },
+        {
+          "time": 1.1666666666666667,
+          "file": "loop-0032.svg"
+        },
+        {
+          "time": 1.2,
+          "file": "loop-0033.svg"
+        },
+        {
+          "time": 1.2333333333333334,
+          "file": "loop-0034.svg"
+        },
+        {
+          "time": 1.2666666666666666,
+          "file": "loop-0035.svg"
+        },
+        {
+          "time": 1.3,
+          "file": "loop-0036.svg"
+        },
+        {
+          "time": 1.3333333333333333,
+          "file": "loop-0037.svg"
+        },
+        {
+          "time": 1.3666666666666667,
+          "file": "loop-0038.svg"
+        },
+        {
+          "time": 1.4,
+          "file": "loop-0039.svg"
+        },
+        {
+          "time": 1.4333333333333333,
+          "file": "loop-0040.svg"
+        },
+        {
+          "time": 1.4666666666666666,
+          "file": "loop-0041.svg"
+        },
+        {
+          "time": 1.5,
+          "file": "loop-0042.svg"
+        },
+        {
+          "time": 1.5333333333333334,
+          "file": "loop-0043.svg"
+        },
+        {
+          "time": 1.5666666666666667,
+          "file": "loop-0044.svg"
+        },
+        {
+          "time": 1.6,
+          "file": "loop-0045.svg"
+        },
+        {
+          "time": 1.6333333333333333,
+          "file": "loop-0046.svg"
+        },
+        {
+          "time": 1.6666666666666667,
+          "file": "loop-0047.svg"
+        },
+        {
+          "time": 1.7,
+          "file": "loop-0048.svg"
+        },
+        {
+          "time": 1.7333333333333334,
+          "file": "loop-0049.svg"
+        },
+        {
+          "time": 1.7666666666666666,
+          "file": "loop-0050.svg"
+        },
+        {
+          "time": 1.8,
+          "file": "loop-0051.svg"
+        },
+        {
+          "time": 1.8333333333333333,
+          "file": "loop-0052.svg"
+        },
+        {
+          "time": 1.8666666666666667,
+          "file": "loop-0053.svg"
+        },
+        {
+          "time": 1.9,
+          "file": "loop-0054.svg"
+        },
+        {
+          "time": 1.9333333333333333,
+          "file": "loop-0055.svg"
+        },
+        {
+          "time": 1.9666666666666666,
+          "file": "loop-0056.svg"
+        },
+        {
+          "time": 2.0,
+          "file": "loop-0057.svg"
+        },
+        {
+          "time": 2.033333333333333,
+          "file": "loop-0058.svg"
+        },
+        {
+          "time": 2.066666666666667,
+          "file": "loop-0059.svg"
+        },
+        {
+          "time": 2.1,
+          "file": "loop-0060.svg"
+        },
+        {
+          "time": 2.1333333333333333,
+          "file": "loop-0061.svg"
+        },
+        {
+          "time": 2.1666666666666665,
+          "file": "loop-0062.svg"
+        },
+        {
+          "time": 2.2,
+          "file": "loop-0063.svg"
+        },
+        {
+          "time": 2.2333333333333334,
+          "file": "loop-0064.svg"
+        },
+        {
+          "time": 2.2666666666666666,
+          "file": "loop-0065.svg"
+        },
+        {
+          "time": 2.3,
+          "file": "loop-0066.svg"
+        },
+        {
+          "time": 2.3333333333333335,
+          "file": "loop-0067.svg"
+        },
+        {
+          "time": 2.3666666666666667,
+          "file": "loop-0068.svg"
+        },
+        {
+          "time": 2.4,
+          "file": "loop-0069.svg"
+        },
+        {
+          "time": 2.433333333333333,
+          "file": "loop-0070.svg"
+        },
+        {
+          "time": 2.466666666666667,
+          "file": "loop-0071.svg"
+        },
+        {
+          "time": 2.5,
+          "file": "loop-0072.svg"
+        },
+        {
+          "time": 2.533333333333333,
+          "file": "loop-0073.svg"
+        },
+        {
+          "time": 2.566666666666667,
+          "file": "loop-0074.svg"
+        },
+        {
+          "time": 2.6,
+          "file": "loop-0075.svg"
+        },
+        {
+          "time": 2.6333333333333333,
+          "file": "loop-0076.svg"
+        },
+        {
+          "time": 2.6666666666666665,
+          "file": "loop-0077.svg"
+        },
+        {
+          "time": 2.7,
+          "file": "loop-0078.svg"
+        },
+        {
+          "time": 2.8333333333333335,
+          "file": "loop-0079.svg"
+        },
+        {
+          "time": 2.8666666666666667,
+          "file": "loop-0080.svg"
+        },
+        {
+          "time": 2.9,
+          "file": "loop-0081.svg"
+        },
+        {
+          "time": 2.933333333333333,
+          "file": "loop-0082.svg"
+        },
+        {
+          "time": 2.966666666666667,
+          "file": "loop-0083.svg"
+        },
+        {
+          "time": 3.0,
+          "file": "loop-0084.svg"
+        },
+        {
+          "time": 3.033333333333333,
+          "file": "loop-0085.svg"
+        },
+        {
+          "time": 3.066666666666667,
+          "file": "loop-0086.svg"
+        },
+        {
+          "time": 3.1,
+          "file": "loop-0087.svg"
+        },
+        {
+          "time": 3.1333333333333333,
+          "file": "loop-0088.svg"
+        },
+        {
+          "time": 3.1666666666666665,
+          "file": "loop-0089.svg"
+        },
+        {
+          "time": 3.2,
+          "file": "loop-0090.svg"
+        },
+        {
+          "time": 3.2333333333333334,
+          "file": "loop-0091.svg"
+        },
+        {
+          "time": 3.2666666666666666,
+          "file": "loop-0092.svg"
+        },
+        {
+          "time": 3.3,
+          "file": "loop-0093.svg"
+        },
+        {
+          "time": 3.3333333333333335,
+          "file": "loop-0094.svg"
+        },
+        {
+          "time": 3.3666666666666667,
+          "file": "loop-0095.svg"
+        },
+        {
+          "time": 3.4,
+          "file": "loop-0096.svg"
+        },
+        {
+          "time": 3.433333333333333,
+          "file": "loop-0097.svg"
+        },
+        {
+          "time": 3.466666666666667,
+          "file": "loop-0098.svg"
+        },
+        {
+          "time": 3.5,
+          "file": "loop-0099.svg"
+        },
+        {
+          "time": 3.533333333333333,
+          "file": "loop-0100.svg"
+        },
+        {
+          "time": 3.566666666666667,
+          "file": "loop-0101.svg"
+        },
+        {
+          "time": 3.6,
+          "file": "loop-0102.svg"
+        },
+        {
+          "time": 3.6333333333333333,
+          "file": "loop-0103.svg"
+        },
+        {
+          "time": 3.6666666666666665,
+          "file": "loop-0104.svg"
+        },
+        {
+          "time": 3.7,
+          "file": "loop-0105.svg"
+        },
+        {
+          "time": 3.7333333333333334,
+          "file": "loop-0106.svg"
+        },
+        {
+          "time": 3.7666666666666666,
+          "file": "loop-0107.svg"
+        },
+        {
+          "time": 3.8,
+          "file": "loop-0108.svg"
+        },
+        {
+          "time": 3.8333333333333335,
+          "file": "loop-0109.svg"
+        },
+        {
+          "time": 3.8666666666666667,
+          "file": "loop-0110.svg"
+        },
+        {
+          "time": 3.9,
+          "file": "loop-0000.svg"
+        }
+      ]
+    }
+  },
+  "motion_model": "Per-frame deterministic states (one authored SVG per distinct 1/30 s state) computed from time by src/build_riffle.py; MP4s encode the same states at 30 fps."
+}
