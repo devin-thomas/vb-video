@@ -221,3 +221,11 @@ We build a deck, shuffle it, create two empty hands, and deal — alternating ca
 [Individual delivery inventory](../../assets/diagrams/DIA-02/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-02/qa.md) · [Live state](../../assets/diagrams/DIA-02/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 9 and 11)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/DIA-02-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+The rules explanation must be beat-accurate. Re-cut (or re-render) the sequence into cutdowns that each start at a named moment and hold their end state for as long as the editor needs: `deck-hold` (full squared deck, no motion, loopable), `alternating-deal` (deal to 26/26, ends holding), `normal-round` (A♠ beats K♥, the pot travels, counters 27/25, ends holding), `single-war` (the tie, three face-down each, the deciding flip, the ten-card pot collected, ends holding), and `final-hold` (rank-only rule card). Each cutdown's delivery.json entry records the second at which its key moment occurs (the ace landing, the tie appearing, the deciding flip) so ASM-03 can place it on the word. Use the revised shared card faces (OPS-01) so the cards look like real cards. Anything not named by the narration stays out of the cutdowns.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

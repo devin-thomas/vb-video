@@ -125,3 +125,11 @@ VB:    DrawTopCard = Top
 [Individual delivery inventory](../../assets/comparisons/CMP-05/delivery.json) · [QA and remaining decisions](../../assets/comparisons/CMP-05/qa.md) · [Live state](../../assets/comparisons/CMP-05/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 13)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/CMP-05-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Header the left column "C / C++ / C# / Java" (`return top;` is valid in all four). Re-render both variants.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

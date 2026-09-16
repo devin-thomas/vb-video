@@ -1,27 +1,28 @@
 {
-  "tickets": 134,
+  "tickets": 143,
   "production_status": {
-    "produced": 134
+    "produced": 121,
+    "planned": 22
   },
   "release_status": {
-    "approved": 134
+    "approved": 121,
+    "unreviewed": 22
   },
   "produced_by_family": {
-    "diagrams": 14,
+    "diagrams": 12,
     "cards": 2,
     "chapters": 16,
-    "code": 25,
-    "comparisons": 8,
+    "code": 24,
     "facts": 6,
     "mockups": 2,
-    "reference-code": 5,
+    "reference-code": 4,
     "captures": 7,
     "historical": 34,
     "broll": 6,
     "stills": 5,
-    "ops": 4
+    "ops": 3
   },
-  "gallery_assets": 90,
+  "gallery_assets": 78,
   "mp4_files": 62,
-  "issues_recorded": 134
+  "issues_recorded": 143
 }

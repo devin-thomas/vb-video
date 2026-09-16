@@ -116,3 +116,11 @@ Now, fast-forward to 1991. Microsoft has Windows 3.0, and Windows programming is
 [Individual delivery inventory](../../assets/reference-code/REF-02/delivery.json) · [QA and remaining decisions](../../assets/reference-code/REF-02/qa.md) · [Live state](../../assets/reference-code/REF-02/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 5)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/REF-02-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+The narration promises "a 73-line C Hello World for Windows, scrolling slowly"; the current asset is a 63-line agent-authored excerpt and reads as a fragment. Produce the real thing: a complete, Petzold-style Windows 3.x (Win16) Hello World in C, 73 lines exactly as the narration says, with the genuine API sequence (`WinMain`, `RegisterClass`, `CreateWindow`, `ShowWindow`, the `GetMessage`/`TranslateMessage`/`DispatchMessage` loop, a `WndProc` with `WM_PAINT`/`TextOut` and `WM_DESTROY`/`PostQuitMessage`) plus the `.DEF` file shown separately. Authored by us in period style; do not copy a book listing. It must be code a Win16 compiler would accept in structure; if no 16-bit toolchain is available, say so in qa.md and have a second agent read it line by line for API correctness. The scroll must be slow enough to read at 720p (about 4 lines per second at most), so the motion runs roughly 20–25 s. Re-render `clean` and `teaching-focus`; keep the file names.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

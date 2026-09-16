@@ -159,3 +159,11 @@ Compare that to C#, where you'd write `int rank;` or `char suit;`. In VB, the ty
 [Individual delivery inventory](../../assets/code/CODE-02/delivery.json) · [QA and remaining decisions](../../assets/code/CODE-02/qa.md) · [Live state](../../assets/code/CODE-02/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 12)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/CODE-02-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+In the animated `highlighted` variant the annotation arrows cross the code text on their way to `Dim`. Re-route every annotation to enter from the right margin and stop at the highlight bar's edge, or replace arrows with the highlight bar plus a margin label. Check every keyframe, not only the poster. Re-render `preview.mp4`, `highlighted.png`, `poster.png`.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

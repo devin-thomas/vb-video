@@ -1,0 +1,12 @@
+{
+  "id": "NAR-01",
+  "production_status": "planned",
+  "release_status": "unreviewed",
+  "assigned_agent": null,
+  "updated_at": "2026-09-16",
+  "blockers": [],
+  "reviewer": null,
+  "notes": [
+    "Opened 2026-09-16 from Devin's review of the first cut."
+  ]
+}

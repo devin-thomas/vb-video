@@ -7,8 +7,8 @@
   "source_lock": "sources/LOCK.json",
   "counts": {
     "original_families": 50,
-    "asset_tickets": 130,
-    "coordination_tickets": 4,
+    "asset_tickets": 135,
+    "coordination_tickets": 8,
     "script_only_asset_tickets": 20,
     "chapter_cards": 16,
     "inline_visual_cues": 74,
@@ -673,6 +673,70 @@
       ],
       "tickets": [
         "BROLL-06"
+      ]
+    },
+    {
+      "id": "R2-MIX",
+      "name": "Round 2: mix",
+      "source": [
+        "review/cut-notes-2026-09-16.md",
+        1,
+        7
+      ],
+      "tickets": [
+        "ASM-01",
+        "ASM-02"
+      ]
+    },
+    {
+      "id": "R2-EDIT",
+      "name": "Round 2: timeline",
+      "source": [
+        "review/cut-notes-2026-09-16.md",
+        3,
+        11
+      ],
+      "tickets": [
+        "ASM-03"
+      ]
+    },
+    {
+      "id": "R2-NAR",
+      "name": "Round 2: narration",
+      "source": [
+        "review/cut-notes-2026-09-16.md",
+        19,
+        19
+      ],
+      "tickets": [
+        "NAR-01"
+      ]
+    },
+    {
+      "id": "R2-CODE",
+      "name": "Round 2: new code and reference cards",
+      "source": [
+        "review/cut-notes-2026-09-16.md",
+        6,
+        18
+      ],
+      "tickets": [
+        "CODE-26",
+        "CODE-27",
+        "CODE-28",
+        "REF-05"
+      ]
+    },
+    {
+      "id": "R2-MOTION",
+      "name": "Round 2: new motion",
+      "source": [
+        "review/cut-notes-2026-09-16.md",
+        8,
+        10
+      ],
+      "tickets": [
+        "DIA-15"
       ]
     }
   ],
@@ -1525,7 +1589,7 @@
       "gates": [
         "R05"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 9 and 11: see the ticket.",
       "priority": "required",
       "variants": [
         "full-rules",
@@ -1704,7 +1768,7 @@
       "gates": [
         "R04a"
       ],
-      "notes": "The concrete Integer example is a proposed teaching implementation, not an additional supplied code listing. Verify its VB.NET behavior in a separate harness before release.",
+      "notes": "The concrete Integer example is a proposed teaching implementation, not an additional supplied code listing. Verify its VB.NET behavior in a separate harness before release. Revision 2 (2026-09-16) from Devin's review notes 16: see the ticket.",
       "priority": "required",
       "variants": [],
       "source_hint": "",
@@ -4153,7 +4217,7 @@
       "gates": [
         "R03"
       ],
-      "notes": "This is a VB.NET source-code illustration written in a classic-inspired style, not proof it compiles in VB4. Any additional educational annotation is a proposed production addition.",
+      "notes": "This is a VB.NET source-code illustration written in a classic-inspired style, not proof it compiles in VB4. Any additional educational annotation is a proposed production addition. Revision 2 (2026-09-16) from Devin's review notes 12: see the ticket.",
       "priority": "required",
       "variants": [
         "clean",
@@ -6157,7 +6221,7 @@
         "OPS-01"
       ],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6185,7 +6249,7 @@
       "id": "CMP-02",
       "title": "Void method versus Sub procedure",
       "parent": "T1-S04",
-      "kind": "still",
+      "kind": "motion",
       "lane": "code",
       "sections": [
         7
@@ -6229,7 +6293,7 @@
       "gates": [
         "R04a"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13 and 14: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6242,14 +6306,15 @@
       ],
       "required_outputs": [
         "delivery.json",
-        "qa.md",
+        "evidence/claim-checks.json",
         "evidence/provenance.json",
         "evidence/source-excerpts.md",
-        "evidence/claim-checks.json",
-        "src/index.html",
-        "exports/poster.png",
         "exports/comparison.png",
-        "exports/token-focus.png"
+        "exports/poster.png",
+        "exports/preview.mp4",
+        "exports/token-focus.png",
+        "qa.md",
+        "src/index.html"
       ],
       "asset_dir": "assets/comparisons/CMP-02",
       "github_issue": 89
@@ -6298,7 +6363,7 @@
         "OPS-01"
       ],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13 and 15: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6366,7 +6431,7 @@
         "OPS-01"
       ],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6436,7 +6501,7 @@
         "OPS-01"
       ],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6506,7 +6571,7 @@
         "OPS-01"
       ],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6576,7 +6641,7 @@
       "gates": [
         "R04a"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -6647,7 +6712,7 @@
       "gates": [
         "R03"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 13: see the ticket.",
       "priority": "required",
       "variants": [
         "comparison",
@@ -7362,7 +7427,7 @@
         "R03",
         "R15"
       ],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 5: see the ticket.",
       "priority": "required",
       "variants": [
         "clean",
@@ -11657,7 +11722,7 @@
       "cues": [],
       "deps": [],
       "gates": [],
-      "notes": "",
+      "notes": " Revision 2 (2026-09-16) from Devin's review notes 17: see the ticket.",
       "priority": "required",
       "variants": [
         "shared-system"
@@ -12053,6 +12118,620 @@
       ],
       "asset_dir": "assets/ops/OPS-04",
       "github_issue": 161
+    },
+    {
+      "id": "ASM-01",
+      "title": "Mix: quieter music throughout, and effects that duck the bed to the floor",
+      "parent": "R2-MIX",
+      "kind": "support",
+      "lane": "orchestrator",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          1,
+          809
+        ]
+      ],
+      "brief": "Bring every music bed down across the whole video and make each sound-effect cue push the bed to near silence for the effect's full length.",
+      "requirements": [
+        "Beds are quieter everywhere: under narration the bed sits at least 18 LU below the voice; on chapter cards and in gaps it never exceeds -22 LUFS short-term. Start from a global cut of about 6 dB on every bed in `narration/music-plan.json` and adjust from measurement, not by ear alone.",
+        "Each cue in `narration/sfx.json` drives its own duck: the bed falls to at least -40 dB relative (effectively silent) starting 0.3 s before the cue, holds for the effect file's full duration plus 0.2 s, then returns over about 0.8 s. The voice-driven sidechain duck stays.",
+        "The chapter stings in `narration/sfx-music.json` are music, not effects; ASM-02 decides where they sit. Do not let a sting and a bed sound at once.",
+        "Keep the whole mix at -16 LUFS integrated (±1 LU) with true peak at or below -1 dBTP. The limiter runs with auto-level off (`level=0`), as it does now.",
+        "Change only `tools/assembly/render.py` (the `mix` function), `tools/assembly/music_plan.py` gains and `narration/music-plan.json`. Do not touch takes, the timeline or assets."
+      ],
+      "beats": [
+        "Render `build/review-1080p60-mixed.mp4` with the new mix (the master profile regenerates it).",
+        "Export a 30 s listening excerpt around the Windows 95 chime (4:58) and one around a bed change, as `exports/chime-excerpt.wav` and `exports/join-excerpt.wav`."
+      ],
+      "checks": [
+        "Before/after table in `exports/report.md`: integrated and short-term loudness of the bed-only stem under speech, on a chapter card, and at each effect cue.",
+        "At every effect cue the bed-only stem is at or below -40 dB relative for the effect's full length.",
+        "Whole mix: -16 LUFS ±1 integrated, true peak ≤ -1 dBTP, measured with `ffmpeg -af ebur128=peak=true`."
+      ],
+      "copy": "",
+      "cues": [],
+      "deps": [
+        "ASM-02"
+      ],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "mixed-review",
+        "chime-excerpt",
+        "join-excerpt"
+      ],
+      "source_hint": "support",
+      "ticket": "docs/tickets/ASM-01.md",
+      "owned_paths": [
+        "assets/ops/ASM-01/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "exports/report.md",
+        "exports/chime-excerpt.wav",
+        "exports/join-excerpt.wav"
+      ],
+      "asset_dir": "assets/ops/ASM-01",
+      "github_issue": 171
+    },
+    {
+      "id": "ASM-02",
+      "title": "Bed transitions: fade to silence, a gap, then the next bed; no crossfades",
+      "parent": "R2-MIX",
+      "kind": "support",
+      "lane": "orchestrator",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          1,
+          809
+        ]
+      ],
+      "brief": "Make every music change a clean handover: the outgoing bed fades fully out, silence, then the next bed fades in, with the chapter stings placed so nothing overlaps.",
+      "requirements": [
+        "At each bed change the outgoing bed fades to silence over 3 s and reaches silence at least 1.0 s before the next bed's first audible sample; the next bed fades in over 2 s. No two music sources are audible at the same time anywhere in the video.",
+        "Bed boundaries in `narration/music-plan.json` come from the chapter-card times in `narration/timeline.json`; `tools/assembly/music_plan.py` writes the gap explicitly (`to` of one bed and `from` of the next differ by the gap).",
+        "The chapter stings (`narration/sfx-music.json`) either play inside the gap, ending before the next bed starts, or are dropped for that chapter; record the choice per chapter in `exports/report.md`.",
+        "Render a bed-only stem (`exports/bed-stem.wav`, all music, no voice or effects) and measure a silence window of at least 1.0 s at every join.",
+        "Change only `tools/assembly/render.py` (`mix`), `tools/assembly/music_plan.py`, `narration/music-plan.json` and `narration/sfx-music.json`."
+      ],
+      "beats": [
+        "Bed changes at the chapter cards listed in the timeline (16 joins plus the outro change).",
+        "Bed-only stem for measurement."
+      ],
+      "checks": [
+        "`exports/report.md` lists every join with the outgoing bed's silence time, the next bed's start, the gap length, and the sting decision.",
+        "No join has two music sources audible at once (bed-only stem RMS below -60 dBFS for ≥1.0 s at each join).",
+        "The whole mix still meets ASM-01's loudness targets."
+      ],
+      "copy": "",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "bed-stem"
+      ],
+      "source_hint": "support",
+      "ticket": "docs/tickets/ASM-02.md",
+      "owned_paths": [
+        "assets/ops/ASM-02/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "exports/report.md",
+        "exports/bed-stem.wav"
+      ],
+      "asset_dir": "assets/ops/ASM-02",
+      "github_issue": 169
+    },
+    {
+      "id": "ASM-03",
+      "title": "Timeline stabilisation: one visual per beat, no back-and-forth, beat-accurate section 5, code scroll-through in the cold open",
+      "parent": "R2-EDIT",
+      "kind": "support",
+      "lane": "orchestrator",
+      "sections": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          39,
+          39
+        ],
+        [
+          "SCRIPT.md",
+          178,
+          192
+        ]
+      ],
+      "brief": "Rebuild the editorial timeline so the picture holds steady, changes only when the script gives a reason, and the rules section is locked to the card animations at the words.",
+      "requirements": [
+        "One visual per beat. A beat with several cues shows only the first cue's asset unless the beat is at least 12 s long and each cue has its own asset (then at least 6 s per visual). A beat without a cue holds only the LAST visual of the previous beat, never the whole list.",
+        "No return trips: a visual shown in the previous 60 s is not shown again unless the script cues it by name. Use the 19 rotation hits listed under inputs as the checklist; each must be gone or justified in the report.",
+        "Cold open: S01-B01 (\"Terminal output scrolling\") shows the code scroll-through recording (TERM-03, `recordings/R5`) instead of the PowerShell run (TERM-04). TERM-04 keeps its later slots (S11 and S12-B01).",
+        "Section 5 is locked to the card animations: S05-B01 holds DIA-02's opening (full deck) with no motion until the rules start; S05-B02 \"shuffle it ... deal it evenly\" shows DIA-15 (animated shuffle) then DIA-02 `alternating-deal`; S05-B03 shows DIA-02 `normal-round` so that A♠ beats K♥ lands on \"Aces are high\"; S05-B04 shows DIA-02 `single-war` so the tie, the three face-down cards and the deciding flip land on those words; S05-B05 holds the collected pot; S05-B06 holds the final state. Each cutdown's start is placed at the word it illustrates using the take's word timing (proportional by word count, as captions.py does). No repeats, and no stock footage between S05-B02 and S05-B05.",
+        "Stock footage sits at the edges of technical stretches: BROLL-02 (the card game) moves to the tail of section 5 (S05-B06) or the head (S05-B01), not inside. BROLL-01 leaves the cut (replaced by DIA-15). The same rule applies wherever a B-roll clip currently interrupts code or diagrams.",
+        "A clip shorter than its slot must not freeze: loop a motion asset's action or trim the slot; never hold the last frame for more than 1 s on a motion asset (stills are unaffected).",
+        "New and revised assets go where the words are: CODE-26 at S04-B06 from \"You could just start using a variable\"; CODE-27 at S04-B07; CODE-28 then REF-05 at S07-B13; DIA-04 (revised) on S07-B05/B06 (the ByRef beats) and CMP-03 on S07-B07/B08; CMP-02 (revised) on the Sub/Function beat; REF-02 (revised) at its section 2 cue. When a dependency is not yet produced, place the current asset and mark the slot in the report.",
+        "Change only `tools/assembly/build_timeline.py` and `narration/timeline.json`. Do not edit assets, takes or the script."
+      ],
+      "beats": [
+        "Rebuild the timeline and render a review cut of sections 1, 4, 5 and 7 (`render.py --profile review --sections 1,4,5,7`) for Devin to check the fixes before the full re-render.",
+        "Full review render is the producer's step once every dependency is produced."
+      ],
+      "checks": [
+        "`exports/report.md` lists every beat with its visual and confirms: no beat shows a visual seen in the previous 60 s without a cue; no motion asset holds its last frame over 1 s; section 5 shows only DIA-15 and DIA-02 between S05-B02 and S05-B05, with each cutdown's start time and the word it lands on.",
+        "`narration/timeline.json` reports beats without audio 0 and unmapped cues 0, and still uses every cleared asset that the script cues.",
+        "The sections 1, 4, 5, 7 review cut plays the code scroll-through in the cold open."
+      ],
+      "copy": "",
+      "cues": [],
+      "deps": [
+        "DIA-02",
+        "DIA-15",
+        "DIA-04",
+        "CMP-02",
+        "CMP-03",
+        "CODE-26",
+        "CODE-27",
+        "CODE-28",
+        "REF-05",
+        "REF-02"
+      ],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "sections-1-4-5-7"
+      ],
+      "source_hint": "support",
+      "ticket": "docs/tickets/ASM-03.md",
+      "owned_paths": [
+        "assets/ops/ASM-03/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "exports/report.md"
+      ],
+      "asset_dir": "assets/ops/ASM-03",
+      "github_issue": 177
+    },
+    {
+      "id": "NAR-01",
+      "title": "Narration re-reads: C++ and C# must be heard as spoken",
+      "parent": "R2-NAR",
+      "kind": "support",
+      "lane": "orchestrator",
+      "sections": [
+        8
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          317,
+          317
+        ]
+      ],
+      "brief": "Fix the beats where the voice says the language names wrong (\"Q++\" for C++ at about 17:00) by adjusting the spoken form, re-synthesizing only those beats, and re-selecting.",
+      "requirements": [
+        "Sweep `narration/qa.json`: every take whose spoken text contains \"C plus plus\" or \"C sharp\" and whose transcript does not contain \"c++\", \"c plus plus\", \"c#\" or \"c sharp\" is a candidate; S08-B02 (16:52) is confirmed by Devin.",
+        "Fix the pronunciation in the spoken form only (for example \"see plus plus\", \"see sharp\") in `tools/narration/beats.py`'s spoken-text rules, regenerate `narration/beats.json`, and confirm the written text of every beat is unchanged (diff the `written` fields).",
+        "Synthesize the affected beats as attempt 03 with `tools/narration/synth.py --attempt 3 --only <ids>`, QA them with `tools/narration/qa.py --attempt 3 --only <ids>`, and run `tools/narration/select.py`. Listen to each new take once and record what you heard.",
+        "Owned paths: `tools/narration/beats.py`, `narration/beats.json`, `narration/takes/<beat>/03/`, `narration/qa.json`, `narration/selection.json`. Do not edit `War/SCRIPT.md`."
+      ],
+      "beats": [
+        "For each re-read beat: attempt 03 take, its QA record, and the selection result."
+      ],
+      "checks": [
+        "`exports/report.md` lists every candidate beat with the old transcript, the new transcript, and which attempt is selected.",
+        "Every `written` field in `narration/beats.json` is byte-identical to before the change.",
+        "S08-B02's selected take is heard as \"C plus plus\" by the transcriber."
+      ],
+      "copy": "",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [],
+      "source_hint": "support",
+      "ticket": "docs/tickets/NAR-01.md",
+      "owned_paths": [
+        "assets/ops/NAR-01/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "exports/report.md"
+      ],
+      "asset_dir": "assets/ops/NAR-01",
+      "github_issue": 170
+    },
+    {
+      "id": "CODE-26",
+      "title": "Undeclared variable: created on first use as a Variant",
+      "parent": "R2-CODE",
+      "kind": "motion",
+      "lane": "code",
+      "sections": [
+        4
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          166,
+          166
+        ]
+      ],
+      "brief": "One code card that shows classic VB inventing a variable the moment you use it, and naming the type it gets: Variant.",
+      "requirements": [
+        "Authored teaching example in classic VB style (VB4, `Option Explicit` off, the default). Label it as such in the header (\"Visual Basic 4 · Option Explicit off\"); it is not an excerpt of Program.vb.",
+        "Two lines at most before the reveal. The reveal is a callout attached to the first use of `x`: \"never declared → created here as a Variant\". Keep the narration's word Variant exactly.",
+        "Same code font, size and dark card treatment as the CODE family (copy the frozen shared system locally). No arrows crossing text: callouts enter from the margin.",
+        "Motion: the line appears, then the callout; hold the final state as the poster. About 6 s, loop-safe hold at the end."
+      ],
+      "beats": [
+        "0–1 s: header and empty editor.",
+        "1–2.5 s: `x = 42` types in.",
+        "2.5–4 s: callout from the right margin: \"x was never declared. VB creates it here as a Variant.\"",
+        "4–6 s: hold (poster state)."
+      ],
+      "checks": [
+        "The word \"Variant\" is on screen at the end state.",
+        "No annotation crosses code text at any frame (check the keyframes).",
+        "720p proof legible."
+      ],
+      "copy": "' Visual Basic 4 · Option Explicit off\nx = 42\nPrint x        ' 42",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "clean",
+        "callout"
+      ],
+      "source_hint": "motion",
+      "ticket": "docs/tickets/CODE-26.md",
+      "owned_paths": [
+        "assets/code/CODE-26/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/clean.png",
+        "exports/callout.png",
+        "exports/preview.mp4"
+      ],
+      "asset_dir": "assets/code/CODE-26",
+      "github_issue": 173
+    },
+    {
+      "id": "CODE-27",
+      "title": "Nintendo and Nintendont: the silent typo, and what Option Explicit does about it",
+      "parent": "R2-CODE",
+      "kind": "motion",
+      "lane": "code",
+      "sections": [
+        4
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          166,
+          166
+        ]
+      ],
+      "brief": "One code card in two states: a misspelled variable silently becoming a new empty variable, then the same code refusing to compile under Option Explicit.",
+      "requirements": [
+        "Use exactly these names: `Nintendo` is the declared variable, `Nintendont` is the misspelling. Authored teaching example, labelled \"Visual Basic 4\" and not presented as Program.vb.",
+        "State A (Option Explicit off): `Nintendo` is declared and set; a later line uses `Nintendont`; a callout shows that a new, empty `Nintendont` was created and `Nintendo` is unchanged, with the printed result.",
+        "State B (`Option Explicit On`): the same misspelled line is flagged at edit/compile time with the classic message \"Variable not defined\" pointing at `Nintendont`.",
+        "Callouts and error markers enter from the margin; nothing crosses code text. Same treatment as the CODE family."
+      ],
+      "beats": [
+        "0–2 s: the four lines type in.",
+        "2–5 s: State A callout: \"Nintendont is a new, empty variable. Nintendo is still 1985. Nothing told you.\"",
+        "5–6 s: `Option Explicit On` appears at the top.",
+        "6–9 s: State B: the misspelled line is underlined, error \"Variable not defined: Nintendont\". Hold as poster."
+      ],
+      "checks": [
+        "Both names spelled exactly as given, in both states.",
+        "The error message text is a real classic VB message (\"Variable not defined\").",
+        "No annotation crosses code text; 720p proof legible."
+      ],
+      "copy": "' Visual Basic 4 · Option Explicit off\nDim Nintendo As Integer\nNintendo = 1985\nNintendont = Nintendo + 1   ' typo: creates a NEW empty variable\nPrint Nintendo              ' still 1985\n\n' with Option Explicit On:\n' Nintendont = Nintendo + 1  → Variable not defined: Nintendont",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "typo",
+        "option-explicit"
+      ],
+      "source_hint": "motion",
+      "ticket": "docs/tickets/CODE-27.md",
+      "owned_paths": [
+        "assets/code/CODE-27/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/typo.png",
+        "exports/option-explicit.png",
+        "exports/preview.mp4"
+      ],
+      "asset_dir": "assets/code/CODE-27",
+      "github_issue": 174
+    },
+    {
+      "id": "CODE-28",
+      "title": "Every variable declared at the top: the Dim block of a Program.vb subroutine",
+      "parent": "R2-CODE",
+      "kind": "code",
+      "lane": "code",
+      "sections": [
+        7
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          305,
+          305
+        ],
+        [
+          "Program.vb",
+          114,
+          126
+        ]
+      ],
+      "brief": "A literal Program.vb excerpt showing a subroutine whose `Dim` lines all sit at the top, with the block highlighted, for the \"declared at the top\" beat.",
+      "requirements": [
+        "Literal excerpt of `War/Program.vb` (byte-exact text; the validator checks code cards as excerpts). Choose the subroutine the narration is looking at in section 7 (the shuffle, `Program.vb` lines 114–126 per DIA-06's anchors, or the nearest subroutine whose Dims are all at the top). Record the exact line range.",
+        "Highlight variant: the `Dim` block gets the family's highlight bar; a margin label reads \"all declarations first\". Nothing crosses code text.",
+        "Header shows `Program.vb` and `VB.NET`, as the CODE family does.",
+        "Still with the standard `clean` and `highlighted` variants; the renderer holds it for the beat."
+      ],
+      "beats": [
+        "Still: clean excerpt.",
+        "Still: highlighted Dim block with the margin label."
+      ],
+      "checks": [
+        "Excerpt is byte-identical to the recorded Program.vb line range.",
+        "The Dim block is visibly first in the subroutine.",
+        "720p proof legible."
+      ],
+      "copy": "(literal excerpt; worker records the exact Program.vb line range in delivery.json and evidence/source-excerpts.md)",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "clean",
+        "highlighted"
+      ],
+      "source_hint": "code",
+      "ticket": "docs/tickets/CODE-28.md",
+      "owned_paths": [
+        "assets/code/CODE-28/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/clean.png",
+        "exports/highlighted.png"
+      ],
+      "asset_dir": "assets/code/CODE-28",
+      "github_issue": 175
+    },
+    {
+      "id": "REF-05",
+      "title": "C89: declarations at the top of the block",
+      "parent": "R2-CODE",
+      "kind": "still",
+      "lane": "code",
+      "sections": [
+        7
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          305,
+          305
+        ]
+      ],
+      "brief": "A short C reference card showing what \"like writing C89\" means: every declaration at the top of the block, and the mid-block declaration C89 refuses.",
+      "requirements": [
+        "Authored representative C89 (about 12 lines): a function whose locals are all declared at the top, then a comment-marked line showing a declaration after a statement with the label \"not allowed in C89 (C99 and later only)\". Header: \"C (C89)\".",
+        "Compile-check the C89-valid part with any available C compiler in C89 mode if one is installed; if none is, say so in qa.md. Do not claim a compile that did not run.",
+        "Same reference-code treatment as REF-01..REF-04 (dark card, monospace, margin labels)."
+      ],
+      "beats": [
+        "Still: full card.",
+        "Still: `top-focus` with the declaration block highlighted."
+      ],
+      "checks": [
+        "The C89 rule is stated correctly (declarations precede statements within a block).",
+        "The disallowed line is clearly marked as the contrast, not as valid C89.",
+        "720p proof legible."
+      ],
+      "copy": "/* C (C89): declarations first, then statements */\nvoid shuffle(int *deck, int count)\n{\n    int i;\n    int j;\n    int temp;\n    for (i = count - 1; i > 0; i--) {\n        j = rand() % (i + 1);\n        temp = deck[i]; deck[i] = deck[j]; deck[j] = temp;\n    }\n    /* int late = 0;   <- not allowed in C89 after a statement */\n}",
+      "cues": [],
+      "deps": [],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "clean",
+        "top-focus"
+      ],
+      "source_hint": "still",
+      "ticket": "docs/tickets/REF-05.md",
+      "owned_paths": [
+        "assets/reference-code/REF-05/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/clean.png",
+        "exports/top-focus.png"
+      ],
+      "asset_dir": "assets/reference-code/REF-05",
+      "github_issue": 176
+    },
+    {
+      "id": "DIA-15",
+      "title": "Animated riffle shuffle of a real deck",
+      "parent": "R2-MOTION",
+      "kind": "motion",
+      "lane": "motion",
+      "sections": [
+        5,
+        7
+      ],
+      "refs": [
+        [
+          "SCRIPT.md",
+          180,
+          180
+        ]
+      ],
+      "brief": "An animated shuffle that actually shuffles: a full deck split and riffled together, drawn with the shared card faces, replacing the stock deck-cut clip.",
+      "requirements": [
+        "A recognisable riffle shuffle: the deck splits into two halves, the halves interleave card by card, then square up. Card backs from `assets/shared/cards`; a few faces may flash during the riffle. Keep it legible, not photoreal.",
+        "Deterministic `renderAt(seconds)` at 30 fps, 1920×1080, on the felt background the DIA family uses. Duration about 6 s, plus a seamless 4 s loop variant so the editor can fill any slot without a freeze.",
+        "Depends on OPS-01's card-face revision: build against the revised faces so backs and any visible faces match the rest of the deck assets.",
+        "Also produce a still poster of the squared deck for the timeline builder's hold logic."
+      ],
+      "beats": [
+        "0–1 s: squared deck.",
+        "1–2 s: split into two halves.",
+        "2–5 s: riffle interleave.",
+        "5–6 s: square up; hold (poster)."
+      ],
+      "checks": [
+        "The motion reads as a shuffle at 720p (the halves visibly interleave).",
+        "The loop variant has no visible seam.",
+        "Card art comes from the revised shared faces."
+      ],
+      "copy": "",
+      "cues": [],
+      "deps": [
+        "OPS-01"
+      ],
+      "gates": [],
+      "notes": "Round 2 (2026-09-16) from Devin's review of the first cut.",
+      "priority": "required",
+      "variants": [
+        "riffle",
+        "loop"
+      ],
+      "source_hint": "motion",
+      "ticket": "docs/tickets/DIA-15.md",
+      "owned_paths": [
+        "assets/diagrams/DIA-15/"
+      ],
+      "required_outputs": [
+        "delivery.json",
+        "qa.md",
+        "evidence/provenance.json",
+        "evidence/source-excerpts.md",
+        "src/index.html",
+        "exports/poster.png",
+        "exports/preview.mp4",
+        "exports/riffle.mp4",
+        "exports/loop.mp4"
+      ],
+      "asset_dir": "assets/diagrams/DIA-15",
+      "github_issue": 172
     }
   ],
   "handoff_issues": {

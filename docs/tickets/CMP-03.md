@@ -116,3 +116,11 @@ Third: look at the `For` loop syntax. `For Rank = 2 To 14`. Then at the end: `Ne
 [Individual delivery inventory](../../assets/comparisons/CMP-03/delivery.json) · [QA and remaining decisions](../../assets/comparisons/CMP-03/qa.md) · [Live state](../../assets/comparisons/CMP-03/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 13 and 15)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/CMP-03-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Two changes. (a) The narration says "i"; the screen says `Rank`. Change both columns to `i`: `for (int i = 2; i <= 14; i++) { ... }` and `For i = 2 To 14 ... Next i`. This makes the card an authored teaching example rather than a Program.vb excerpt; label it so in delivery.json and keep the loop bounds. (b) Header the left column "C / C++ / C# / Java". Re-render both variants.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

@@ -118,3 +118,11 @@ VB:    Sub BuildDeck(ByRef Deck() As Card) ... End Sub
 [Individual delivery inventory](../../assets/comparisons/CMP-02/delivery.json) · [QA and remaining decisions](../../assets/comparisons/CMP-02/qa.md) · [Live state](../../assets/comparisons/CMP-02/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 13 and 14)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/CMP-02-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Rework this card into the Sub-versus-Function comparison Devin asked for, animated. Left column headed "C / C++ / C#": `void HelloWorld() { ... }` and `int Add(int a, int b) { return a + b; }`. Right column headed "VB": `Sub HelloWorld() ... End Sub` and `Function Add(a As Integer, b As Integer) As Integer ... End Function`. The point on screen: a Sub returns nothing (like `void`); a Function returns a value. Motion: both rows appear; then a returned value (`7` from `Add(3, 4)`) travels out of the Function/`int` row while the Sub/`void` row shows nothing returned; hold. About 8 s. The BuildDeck example moves to a `byref-note` still variant if you want to keep it; it is no longer the poster. Kind changes from still to motion; add `exports/preview.mp4`.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

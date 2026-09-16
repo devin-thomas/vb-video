@@ -151,3 +151,11 @@ browser, no screenshots, no external services, no downloads.
 [Individual delivery inventory](../../assets/ops/OPS-01/delivery.json) · [QA and remaining decisions](../../assets/ops/OPS-01/qa.md) · [Live state](../../assets/ops/OPS-01/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 17)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/OPS-01-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+The shared card faces draw a single centre pip, so every rank reads as an ace at a glance (seen at 15:58 in DIA-06). Redraw the 52 faces as regular playing cards: corner index and small suit in two corners, the standard pip layout for 2–10 (2 through 10 pips arranged as on a real deck), J/Q/K with the letter and a simple court mark, and the ace alone with one large pip. Keep the card size, colours and back. Bump `VERSION.json` to `win95-workbench-1.1.0`, regenerate `card-atlas.svg`, and list every asset that carries a local copy of the faces so the producer can dispatch their re-renders: DIA-02, DIA-03, DIA-05, DIA-06, DIA-07, DIA-08, DIA-09, CARD-01, MOCK-01 (from a source grep; confirm each). Do not re-render those assets yourself.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

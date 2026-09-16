@@ -129,3 +129,11 @@ Loop
 [Individual delivery inventory](../../assets/comparisons/CMP-07/delivery.json) · [QA and remaining decisions](../../assets/comparisons/CMP-07/qa.md) · [Live state](../../assets/comparisons/CMP-07/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 13)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/CMP-07-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+The left snippet uses the `.Count` property, which is C#-specific; keep the header "C#" and add a small margin note "C++ and Java: `.size()`" so the comparison does not imply the snippet is C. Re-render both variants.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

@@ -145,3 +145,11 @@ Four parameters. The round number is passed `ByVal` because we just read it. The
 [Individual delivery inventory](../../assets/diagrams/DIA-04/delivery.json) · [QA and remaining decisions](../../assets/diagrams/DIA-04/qa.md) · [Live state](../../assets/diagrams/DIA-04/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 16)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/DIA-04-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Replace the diagram with a code-driven demonstration; the current visual does not communicate copy versus reference or why it matters. Left: `Sub Bump(ByVal n As Integer)` / `n = n + 1`, called with `x = 5` → after the call `x` is still 5. Right: `Sub Bump(ByRef n As Integer)` / `n = n + 1`, same call → `x` is now 6. Show the values beside the code updating as the call runs (the ByVal copy appears and is thrown away; the ByRef arrow points back at `x`). Optional third column headed "C++": `void bump(int n)` versus `void bump(int& n)` with the same outcome. Authored teaching example; keep the ticket's original caution about arrays (do not claim ByVal copies an array). About 10 s of motion with a held end state; variants `byval`, `byref`, `cpp`.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

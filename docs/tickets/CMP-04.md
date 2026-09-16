@@ -127,3 +127,11 @@ The VB-specific thing to notice here is `For i = 51 To 1 Step -1`. That `Step -1
 [Individual delivery inventory](../../assets/comparisons/CMP-04/delivery.json) · [QA and remaining decisions](../../assets/comparisons/CMP-04/qa.md) · [Live state](../../assets/comparisons/CMP-04/state.json)
 
 The work order above remains unchanged. See the package gallery for rendered previews. Production does not clear an unresolved historical or editorial gate.
+
+## Revision 2 — 2026-09-16 (Devin's review of the first cut, note 13)
+
+**Status:** production back to `planned`; release back to `unreviewed` until the producer approves the new exports. Work on branch `ticket/CMP-04-r2`; write only inside the ticket's owned paths. Keep every requirement above unless this section changes it.
+
+Header the left column "C / C++ / C# / Java" (the decrementing for-loop is valid in all four). Re-render both variants.
+
+**Origin:** [review/cut-notes-2026-09-16.md](../../review/cut-notes-2026-09-16.md). Report as for any ticket: ID, branch and commit, files, tests run, validator result, review questions.

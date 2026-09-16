@@ -83,7 +83,7 @@ def main() -> int:
         visited.add(node)
     for item in ids: visit(item)
     families = manifest['families']
-    if len(families) != 50: errors.append('Original agent family count is not 50.')
+    if len([f for f in families if not f['id'].startswith('R2-')]) != 50: errors.append('Original agent family count is not 50.')  # round-2 families (R2-*) are additions
     for family in families:
         if not family['tickets']: errors.append(f'Uncovered family {family["id"]}')
         real = sorted(r['id'] for r in rows if r['parent'] == family['id'])
