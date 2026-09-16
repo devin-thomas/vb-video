@@ -1,25 +1,28 @@
 {
   "id": "BROLL-03",
   "title": "1990s office with CRT monitors",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "stock/archive scouting record (no media acquired)",
+  "provenance_type": "stock scouting record plus one acquired modern retro-styled recreation clip (not archive footage)",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": null,
-  "dimensions": null,
-  "fps": null,
+  "duration_seconds": 27.84,
+  "dimensions": {
+    "width": 4096,
+    "height": 2160
+  },
+  "fps": 25,
   "outputs": [
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 5457,
-      "sha256": "597c1790cb966e1f4d80bdddb2b84449d68a2e804efb7fceed1353639a4b95a1"
+      "bytes": 12226,
+      "sha256": "119ba694d64042a042ade74cf94279c1aaa14d9f62db7e3163d0bc99058c4bd0"
     },
     {
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
-      "bytes": 3441,
-      "sha256": "774342106372fd429ded81bdad872206c9316d3001fa706e558bde78071b6f44"
+      "bytes": 5995,
+      "sha256": "a1deb7d9dbe00e220859308eeccf5b71c349e471075d67071e5abbd82d1b1f24"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -30,14 +33,14 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 4943,
-      "sha256": "674024474e02c3c2a115aa97fbbbaa513127e90fda5499254364f88aff0c51c5"
+      "bytes": 7702,
+      "sha256": "ab087f8acc0cf11e176c01dd7a707491b61e16d546378bfa14ce7d7191d3afa5"
     },
     {
       "path": "evidence/candidates.json",
       "role": "structured candidates",
-      "bytes": 18106,
-      "sha256": "0dee4be2f07529d6d9c1f84a9cd5b278690dbc9afb2360edf692e453735994a4"
+      "bytes": 19085,
+      "sha256": "d9e894567e9dfb5e44f29f605825889034ad74370eed3af2a135954a86f271d8"
     },
     {
       "path": "exports/candidates.md",
@@ -47,9 +50,45 @@
     },
     {
       "path": "exports/acquisition-handoff.md",
-      "role": "acquisition handoff (ungated pending approval; H02 none)",
-      "bytes": 4415,
-      "sha256": "d6bf94c382ba700374df899e0e7d1e6c6170651daa06aff1863d8f631909c93b"
+      "role": "acquisition handoff (rank 1 acquired; ranks 2-3 open; H02 none)",
+      "bytes": 5230,
+      "sha256": "cd0c30b7303c2129a506daf1b880194c7581707511591fb8e7078141129d575b"
+    },
+    {
+      "path": "source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+      "role": "acquired native original (modern 2021 retro-styled recreation, not archive footage)",
+      "bytes": 50508990,
+      "sha256": "7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66"
+    },
+    {
+      "path": "source/source.json",
+      "role": "source record for the acquired original",
+      "bytes": 5851,
+      "sha256": "60b5e1dfbb59ca462eb6d3f94885ab8011cd008baadef7780588869042e0d9f7"
+    },
+    {
+      "path": "evidence/frames/frame-01s.png",
+      "role": "inspection still, native 4096x2160, segment in point (1 s)",
+      "bytes": 9605968,
+      "sha256": "2b386fbfbe83a5e136e801466d9584a71b55337c31fb0f24e7eee9ff232b3805"
+    },
+    {
+      "path": "evidence/frames/frame-06s.png",
+      "role": "inspection still, native 4096x2160, segment middle (6 s)",
+      "bytes": 10034644,
+      "sha256": "1cdc95826934c980561c9a175efe4cf172be0d72a610921f58447606451b74cd"
+    },
+    {
+      "path": "evidence/frames/frame-11s.png",
+      "role": "inspection still, native 4096x2160, segment out point (11 s)",
+      "bytes": 10589290,
+      "sha256": "f3323bfd77b0026b262ef30523763356b9acee1444eb12935dbd4e22f437bef4"
+    },
+    {
+      "path": "evidence/frames/frame-06s-720p.png",
+      "role": "inspection still, 1366x720 downscale of the 6 s frame (720p check)",
+      "bytes": 1419757,
+      "sha256": "59f3295383e4aa61ca80ee06da873f224d9bd1ce3c2e13da227d9dabf7251ba1"
     }
   ],
   "variants": [
@@ -57,6 +96,16 @@
       "name": "candidate-report",
       "path": "exports/candidates.md",
       "timeline": null
+    },
+    {
+      "name": "selected-segment",
+      "path": "source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+      "timeline": {
+        "in_seconds": 1.0,
+        "out_seconds": 11.0,
+        "duration_seconds": 10.0,
+        "note": "Proposed editorial in/out inside the acquired original (slow push-in). No trimmed file has been cut; the original is preserved untouched."
+      }
     }
   ],
   "sources": [
@@ -80,9 +129,17 @@
     },
     {
       "url": "https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
-      "relationship": "stock candidate",
+      "relationship": "stock candidate, acquired",
       "rank": 1,
-      "acquired": false
+      "acquired": true,
+      "creator": "MART PRODUCTION",
+      "license_name": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "access_date": "2026-09-15",
+      "local_path": "source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+      "sha256": "7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66",
+      "source_record": "source/source.json",
+      "archive_or_recreation": "MODERN 2021 RETRO-STYLED RECREATION, not genuine 1990s archive footage; set dressing reads more 1970s-80s than 1990s"
     },
     {
       "url": "https://www.pexels.com/video/a-man-talking-on-the-phone-while-using-a-computer-8869644/",
@@ -99,46 +156,74 @@
   ],
   "credits": [
     {
-      "for": "rank 1 and 2 if used",
+      "for": "the acquired rank 1 clip (source/pexels-8869925-...mp4)",
       "text": "Video: MART PRODUCTION / Pexels",
-      "required": false
+      "required": false,
+      "basis": "Pexels License states attribution is not required; this line is a suggested courtesy credit and its final wording is the producer's call."
     },
     {
-      "for": "rank 3 if used",
+      "for": "rank 3 if it were ever used (not acquired, rights unverified)",
       "text": "The Computer Systems in the Japanese Patent Office (Japanese Patent Office, c. 1989), via Internet Archive",
       "required": null
     }
   ],
   "tests": [
     {
-      "name": "Pexels in-page motion sampling, ranks 1 and 2",
-      "result": "done (sampled frames at pane size; not frame-by-frame)"
+      "name": "curl -L download of the approved rank 1 file (generic User-Agent)",
+      "result": "passed: HTTP 302 then 200, Content-Type video/mp4, Content-Length 50508990, effective URL https://videos.pexels.com/video-files/8869925/8869925-uhd_4096_2160_25fps.mp4. No Cloudflare challenge, CAPTCHA, login, payment or terms click-through encountered or bypassed."
     },
     {
-      "name": "Internet Archive in-page playback, rank 3",
-      "result": "failed: player NETWORK_NO_SOURCE; thumbnails only"
+      "name": "Byte size and SHA-256 of the acquired file",
+      "result": "passed: 50,508,990 bytes, sha256 7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66"
+    },
+    {
+      "name": "ffprobe of the acquired file (ffprobe 6.0-essentials_build)",
+      "result": "passed: 27.840000 s, 4096x2160, 25/1 fps, 696 frames, h264 High profile level 52 yuv420p progressive bt709, bit rate 14,511,194; nb_streams 1, so no audio stream. Container creation_time 2021-07-23T06:24:59Z."
+    },
+    {
+      "name": "Match against the scouted candidate",
+      "result": "passed: exact match on dimensions, duration and fps. No mismatch. Newly recorded rather than corrected: the file has no audio stream, and the scouting note calling the desk phone 'rotary' is not confirmable at full resolution."
+    },
+    {
+      "name": "Full-size manual inspection of frames at 1 s, 6 s and 11 s (native 4096x2160)",
+      "result": "done: wood-panelled office, beige CRT on a beige desktop case with a coiled-cable beige keyboard, cream desk phone, orange mushroom lamp, folders, coins, leather-and-chrome chairs, parquet, vertical blinds. Modern-item check: no flat panel, smartphone, laptop, modern keyboard or mouse, or contemporary UI in any of the three frames; the CRT is angled away from camera so no screen content appears at all. No watermark, caption or burn-in. Details in qa.md."
+    },
+    {
+      "name": "720p manual inspection (frame-06s-720p.png, 1366x720)",
+      "result": "done: the shot holds at 720p. CRT, keyboard, phone and lamp all still read as period objects; lost detail is limited to the CRT's vent texture, its small casing badge, and the desk coins/notes. Nothing modern becomes visible and no aliasing on the blinds or vent grille. No fallback needed."
+    },
+    {
+      "name": "Frame-by-frame review of the full 10 s segment",
+      "result": "NOT done: only the in point, middle and out point were extracted. The other ~247 frames were not individually inspected."
     },
     {
       "name": "python tools/validate_delivery.py --id BROLL-03",
       "result": "see qa.md"
     },
     {
-      "name": "1080p/720p export inspection",
-      "result": "not applicable: no media acquired"
+      "name": "Legal clearance (model release; recreation-vs-archive acceptability)",
+      "result": "not performed: these are R14 review questions for the OPS-04 review deck, not worker findings."
     }
   ],
   "unresolved_gates": [
     "R14"
   ],
   "toolchain": {
+    "ffmpeg": "6.0-essentials_build-www.gyan.dev",
+    "ffprobe": "6.0-essentials_build-www.gyan.dev",
+    "curl": "8.18.0 (x86_64-w64-mingw32) libcurl/8.18.0 Schannel",
     "python": "3.14.0",
+    "powershell": "7 (Get-FileHash SHA-256)",
     "git": "2.53.0.windows.1",
-    "browser": "Claude Browser pane (version not exposed)",
-    "fetch": "Claude Code WebFetch/WebSearch"
+    "os": "Windows 11 Pro 10.0.26200",
+    "browser": "Claude Browser pane, scouting pass only (version not exposed)",
+    "fetch": "Claude Code WebFetch/WebSearch, scouting pass only"
   },
   "notes": [
-    "Scouted, not acquired. No files under source/.",
-    "Download approval pending (batched via B-roll Scouting Manager).",
-    "No H02 gated items."
+    "MODERN-RECREATION LABEL: the acquired clip is a modern 2021 retro-styled recreation, NOT genuine 1990s archive footage. Its set dressing (dark wood panelling, orange mushroom desk lamp, cream desk phone with coiled cord, parquet, leather-and-chrome chairs) reads more 1970s-80s than 1990s; only the beige CRT, desktop case and keyboard are plausibly early-1990s hardware. Do not caption or narrate it as archival, and do not attach a year to it.",
+    "duration_seconds, dimensions and fps above describe the acquired original file, not an authored render. The proposed editorial segment is in 00:01 / out 00:11 (10.0 s).",
+    "One file only was downloaded, under Devin's 2026-09-15 approval relayed through the B-roll Scouting Manager. Ranks 2 and 3 were not approved and were not downloaded.",
+    "The original is preserved untouched; no trim, regrade or conversion was made. The PNGs in evidence/frames/ are derived inspection stills, one of them downscaled to 720 px height.",
+    "Produced is not cleared. Release stays blocked and R14 stays open; the release decision belongs to the OPS-04 review deck."
   ]
 }

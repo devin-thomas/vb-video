@@ -1,0 +1,89 @@
+{
+  "id": "BROLL-03",
+  "file": "pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+  "title": "A Man Working at an Office",
+  "creator": "MART PRODUCTION",
+  "creator_profile": "https://www.pexels.com/@mart-production/",
+  "platform": "Pexels",
+  "pexels_id": 8869925,
+  "asset_page_url": "https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
+  "download_url_on_page": "https://www.pexels.com/download/video/8869925/",
+  "download_url_effective": "https://videos.pexels.com/video-files/8869925/8869925-uhd_4096_2160_25fps.mp4",
+  "download_size_chosen": "4K UHD 4096x2160 (native original)",
+  "access_date": "2026-09-15",
+  "original_publication_date": "2021-07-23 (Pexels upload date; container creation_time 2021-07-23T06:24:59Z)",
+  "depicted_event_date": null,
+  "depicted_event_date_note": "Unknown. The footage is a staged set, not a record of a dated real event. Do not caption it with a year.",
+
+  "provenance_label": "MODERN 2021 RETRO-STYLED RECREATION - NOT GENUINE 1990s ARCHIVE FOOTAGE. Its set dressing (dark wood wall panelling, orange mushroom desk lamp, cream desk phone with a coiled cord, parquet floor, leather-and-chrome chairs) reads more 1970s-80s than 1990s. Only the beige CRT monitor, beige desktop case and beige keyboard are plausibly early-1990s hardware. Any on-screen or spoken use must not present this as archive footage of a real 1990s office.",
+
+  "license": {
+    "name": "Pexels License",
+    "url": "https://www.pexels.com/license/",
+    "label_on_page": "License: Free",
+    "attribution_required": false,
+    "suggested_credit": "Video: MART PRODUCTION / Pexels",
+    "terms_summary": "Free to use; attribution not required; modification allowed. Not allowed: showing identifiable people in a bad light or in an offensive way; selling unaltered copies; implying endorsement by depicted people or brands; redistributing or selling on other stock or wallpaper platforms; use in a trademark or business name.",
+    "terms_of_service_url": "https://www.pexels.com/terms-of-service/",
+    "terms_of_service_last_updated_shown": "November 15th, 2024",
+    "warranty_note": "Pexels disclaims any warranty that model releases or other consents were obtained: 'Responsibility for determining whether permissions are needed always rests solely and exclusively with you.' Identifiable actors appear in this clip.",
+    "license_terms_read_on": "2026-09-15"
+  },
+
+  "rights_status": "Downloaded under the Pexels License as shown on the asset page on 2026-09-15. Editorial gate R14 remains open: release clearance is an OPS-04 review-deck decision, not this worker's.",
+
+  "acquisition": {
+    "approved_by": "Devin",
+    "approved_on": "2026-09-15",
+    "approval_relayed_through": "B-roll Scouting Manager (session vb-bf)",
+    "method": "curl -L with a generic 'Mozilla/5.0' User-Agent. No account, login, cookie acceptance, payment, terms click-through, CAPTCHA or bot-check bypass was involved. No personal data, email address or credential was sent.",
+    "http_result": "302 Found at pexels.com/download/video/8869925/ redirecting to videos.pexels.com; then 200 OK, Content-Type video/mp4, Content-Length 50508990. No Cloudflare challenge or interstitial was served.",
+    "downloaded_on": "2026-09-15",
+    "watermark_removal": "none; the delivered file carries no watermark and none was removed",
+    "transformations": "None. This is the untouched native original as served. The PNG frames in evidence/frames/ are derived stills (one 720p-height scaled copy is labelled as such); any editorial trim would be a separate derived copy."
+  },
+
+  "file_verification": {
+    "bytes": 50508990,
+    "sha256": "7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66",
+    "ffprobe": {
+      "tool": "ffprobe version 6.0-essentials_build-www.gyan.dev",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2 (major_brand mp42)",
+      "duration_seconds": 27.84,
+      "width": 4096,
+      "height": 2160,
+      "aspect": "256:135 (horizontal)",
+      "fps": 25,
+      "r_frame_rate": "25/1",
+      "avg_frame_rate": "25/1",
+      "nb_frames": 696,
+      "video_codec": "h264 (High profile, level 52, yuv420p, progressive, bt709)",
+      "video_bit_rate": 14511194,
+      "audio_stream": false,
+      "audio_note": "nb_streams = 1; there is no audio stream at all, so there is no narration or music to clear.",
+      "container_creation_time": "2021-07-23T06:24:59.000000Z",
+      "encoder_tags": "L-SMASH Video Handler / AVC Coding"
+    },
+    "matches_scouted_candidate": true,
+    "mismatches": "None. Scouted expectation was 4096x2160, about 27.84 s, 25 fps; the delivered file is exactly that. The scouting pass read the player's duration as 27.84 s and ffprobe reports 27.840000 s / 696 frames. Two details the scouting pass could not know are recorded here for the first time rather than as corrections: the file carries no audio stream, and the scouting note calling the desk phone 'rotary' is not confirmed at full resolution (the dial face is not visible in the inspected frames; it is described here only as a cream desk phone with a coiled cord)."
+  },
+
+  "selected_segment": {
+    "in": "00:00:01.000",
+    "out": "00:00:11.000",
+    "duration_seconds": 10.0,
+    "description": "Slow push-in from the wide room shot toward the man at the desk. The CRT stays in frame throughout.",
+    "handles": "1.0 s before the in point; about 16.8 s after the out point."
+  },
+
+  "original_dimensions": {
+    "width": 4096,
+    "height": 2160
+  },
+
+  "notes": [
+    "Preserve this file untouched as the clean original.",
+    "The CRT is angled so that no screen content is visible; there is therefore no period-inaccurate on-screen UI in the selected segment.",
+    "R14 is open: recreation-vs-archive acceptability and the model-release question are review-deck decisions."
+  ]
+}

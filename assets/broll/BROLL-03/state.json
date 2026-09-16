@@ -1,18 +1,22 @@
 {
   "id": "BROLL-03",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "assigned_agent": "BROLL-03 scouting worker (subagent of B-roll Scouting Manager, session vb-99)",
+  "assigned_agent": "BROLL-03 acquisition worker (subagent of B-roll Scouting Manager, session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
-    "No media acquired: batched download approval is pending with the B-roll Scouting Manager and Devin.",
-    "R14 open: recreation-vs-archive acceptability, model-release risk on Pexels clips, and the unverified Public Domain Mark on the archive alternative need review-deck decisions.",
-    "Archive alternative (jpo-automation) motion not reviewed: its in-page player did not load in the Browser pane."
+    "R14 open: whether a modern retro-styled recreation may stand in for a 1990s office beat, the 1970s-80s set-dressing read, and Pexels' no-warranty position on model releases for the identifiable actor all need review-deck decisions. Release stays blocked until OPS-04.",
+    "Selected segment not verified frame by frame: frames were inspected at 1 s, 6 s and 11 s (the in point, middle and out point), not across all 250 frames of the 10 s segment.",
+    "Archive alternative (jpo-automation) remains rights-unverified and its motion was never reviewed; it was not approved and not downloaded."
   ],
   "reviewer": null,
   "notes": [
-    "Scouting complete: 3 ranked candidates (2 motion-reviewed Pexels recreations, 1 genuine 1989 archive film triaged from thumbnails only).",
-    "Scouted is not acquired: no source/ media exists for this ticket yet.",
-    "No H02 gated items; best and first alternative are ungated free downloads."
+    "MODERN-RECREATION LABEL: the acquired clip is a modern 2021 retro-styled recreation, NOT genuine 1990s archive footage, and its set dressing (wood panelling, orange mushroom lamp, cream desk phone, parquet) reads more 1970s-80s than 1990s. Only the beige CRT, desktop case and keyboard are plausibly early-1990s. Do not present it as archival.",
+    "Rank 1 acquired 2026-09-15 under Devin's approval relayed through the B-roll Scouting Manager: source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4, 50,508,990 bytes, sha256 7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66.",
+    "ffprobe matches the scouted candidate exactly: 4096x2160, 27.840000 s, 25 fps, h264 High, 696 frames. The file additionally has no audio stream, so there is no narration or music to clear.",
+    "Downloaded with curl -L and a generic User-Agent. No login, account, payment, cookie or terms click-through, CAPTCHA or bot check was encountered or bypassed; no personal data was sent. No watermark present and none removed.",
+    "Selected segment in 00:01, out 00:11 (slow push-in). Frames at 1 s, 6 s and 11 s inspected at full size and the 6 s frame again at 720p height: no flat panel, smartphone, laptop, modern keyboard or mouse, or contemporary UI, and no on-screen content at all because the CRT is angled away from camera.",
+    "Ranks 2 and 3 were not approved and remain not acquired; their handoff rows stay open.",
+    "Produced is not cleared: release approval belongs to the OPS-04 review deck, not this worker."
   ]
 }

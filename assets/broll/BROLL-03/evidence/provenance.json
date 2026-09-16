@@ -1,6 +1,6 @@
 {
   "id": "BROLL-03",
-  "provenance_type": "stock/archive scouting record (no media acquired)",
+  "provenance_type": "stock scouting record plus one acquired modern recreation clip (rank 1 acquired; ranks 2 and 3 not acquired)",
   "source_files": [
     {
       "path": "sources/ASSET_PLAN.md",
@@ -19,33 +19,49 @@
     {
       "url": "https://www.pexels.com/video/a-man-working-at-an-office-8869925/",
       "relationship": "stock candidate (rank 1)",
+      "acquired": true,
       "creator": "MART PRODUCTION",
-      "original_publication_date": "2021-07-23 (Pexels upload)",
-      "depicted_period": "staged retro office, no documented date",
+      "original_publication_date": "2021-07-23 (Pexels upload; container creation_time 2021-07-23T06:24:59Z)",
+      "depicted_period": "staged retro office; no documented date",
+      "archive_or_recreation": "MODERN 2021 RETRO-STYLED RECREATION, not genuine 1990s archive footage. Set dressing reads more 1970s-80s than 1990s; only the beige CRT, desktop case and keyboard are plausibly early-1990s.",
+      "license_name": "Pexels License",
       "license_url": "https://www.pexels.com/license/",
-      "rights_status": "Pexels License shown; not acquired; R14 open",
-      "accessed": "2026-09-15"
+      "rights_status": "Downloaded under the Pexels License shown on the page on 2026-09-15; R14 still open, release decision belongs to the OPS-04 review deck.",
+      "accessed": "2026-09-15",
+      "local_path": "source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+      "sha256": "7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66",
+      "bytes": 50508990,
+      "source_record": "source/source.json",
+      "transformations": "none (untouched native original as served); PNG stills in evidence/frames/ are derived"
     },
     {
       "url": "https://www.pexels.com/video/a-man-talking-on-the-phone-while-using-a-computer-8869644/",
       "relationship": "stock candidate (rank 2)",
+      "acquired": false,
       "creator": "MART PRODUCTION",
       "original_publication_date": "2021-07-23 (Pexels upload)",
       "depicted_period": "staged retro office, no documented date",
+      "archive_or_recreation": "modern 2021 retro-styled recreation, not archive footage",
       "license_url": "https://www.pexels.com/license/",
       "rights_status": "Pexels License shown; not acquired; R14 open",
-      "accessed": "2026-09-15"
+      "accessed": "2026-09-15",
+      "local_path": null,
+      "sha256": null
     },
     {
       "url": "https://archive.org/details/jpo-automation",
       "relationship": "historical original candidate (rank 3)",
+      "acquired": false,
       "creator": "Japanese Patent Office (item creator field); uploader TheHoard",
       "original_publication_date": "1989 (item date)",
       "archive_upload_date": "2025-08-27",
       "depicted_period": "circa 1989 (item description)",
+      "archive_or_recreation": "genuine period archive footage per item metadata",
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "rights_status": "uploader-applied Public Domain Mark, unverified; blocked",
-      "accessed": "2026-09-15"
+      "rights_status": "uploader-applied Public Domain Mark, unverified; blocked; not acquired",
+      "accessed": "2026-09-15",
+      "local_path": null,
+      "sha256": null
     }
   ],
   "terms_pages_consulted": [
@@ -59,8 +75,29 @@
   ],
   "authored_additions": [
     "Candidate ranking, proposed in/out timecodes, visual-fit notes, archive-vs-recreation findings, and suggested credit lines are the scouting worker's editorial proposals, not source facts.",
-    "Local filenames in the acquisition handoff are proposed names; no such files exist."
+    "The PNG stills in evidence/frames/ are derived from the acquired original by this worker for inspection; frame-06s-720p.png is scaled to 720 px height and is not a native-resolution frame.",
+    "Local filenames for ranks 2 and 3 in exports/acquisition-handoff.md remain proposed names; no such files exist."
   ],
-  "producer_decisions": [],
-  "media_acquired": []
+  "producer_decisions": [
+    {
+      "decision": "Download the rank 1 candidate (Pexels 8869925) at 4K UHD 4096x2160.",
+      "approved_by": "Devin",
+      "date": "2026-09-15",
+      "relayed_through": "B-roll Scouting Manager (session vb-bf)",
+      "scope": "This one file only. Ranks 2 and 3 were not approved and were not downloaded."
+    }
+  ],
+  "media_acquired": [
+    {
+      "local_path": "source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4",
+      "sha256": "7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66",
+      "bytes": 50508990,
+      "acquired_on": "2026-09-15",
+      "acquired_from": "https://www.pexels.com/download/video/8869925/ (302 to https://videos.pexels.com/video-files/8869925/8869925-uhd_4096_2160_25fps.mp4)",
+      "method": "curl -L with a generic 'Mozilla/5.0' User-Agent; no login, cookie acceptance, payment, terms click-through, CAPTCHA or bot-check bypass; no personal data sent",
+      "ffprobe": "27.84 s, 4096x2160, 25 fps, h264 High, no audio stream",
+      "label": "MODERN 2021 RETRO-STYLED RECREATION, not genuine 1990s archive footage",
+      "source_record": "source/source.json"
+    }
+  ]
 }

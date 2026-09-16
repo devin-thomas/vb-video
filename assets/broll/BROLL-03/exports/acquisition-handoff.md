@@ -1,6 +1,11 @@
 # BROLL-03 acquisition handoff
 
-**Nothing has been downloaded.** Scouting is complete. Acquisition has not been done and needs one batched download approval. All pages were read on 2026-09-15.
+> **Status update, 2026-09-15 — row 1 is done.** Devin approved the rank 1 download (relayed through the B-roll Scouting Manager), and it was acquired the same day to
+> `assets/broll/BROLL-03/source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4`
+> (50,508,990 bytes, sha256 `7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66`), verified by ffprobe as 4096×2160, 27.84 s, 25 fps, h264, **no audio stream**. It is a **modern 2021 retro-styled recreation, not genuine 1990s archive footage**. Its source record is `source/source.json`; the checks are in `qa.md`.
+> **Rows 2 and 3 below are still open handoffs: neither was approved and neither was downloaded.** The rest of this document is the original pre-acquisition handoff, kept as written.
+
+**As originally written:** Nothing has been downloaded. Scouting is complete. Acquisition has not been done and needs one batched download approval. All pages were read on 2026-09-15.
 
 ## Ungated free acquisition — pending download approval
 
