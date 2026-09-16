@@ -1,63 +1,73 @@
-/* hello.c -- a complete Windows 3.0 program that opens one window */
+/* HELLO.C -- "Hello, Windows!" for Windows 3.x (Win16).
+   A complete program.  Link with HELLO.DEF.              */
+
 #include <windows.h>
 
-long FAR PASCAL WndProc(HWND hWnd, unsigned iMessage, WORD wParam, LONG lParam)
+long FAR PASCAL __export WndProc (HWND, UINT, UINT, LONG);
+
+int PASCAL WinMain (HANDLE hInstance, HANDLE hPrevInstance,
+                    LPSTR lpszCmdLine, int nCmdShow)
 {
-    HDC         hDC;
-    PAINTSTRUCT ps;
-
-    switch (iMessage)
-    {
-        case WM_PAINT:
-            hDC = BeginPaint(hWnd, &ps);
-            TextOut(hDC, 20, 20, "Hello, World!", 13);
-            EndPaint(hWnd, &ps);
-            return 0L;
-
-        case WM_DESTROY:
-            PostQuitMessage(0);
-            return 0L;
-    }
-    return DefWindowProc(hWnd, iMessage, wParam, lParam);
-}
-
-int PASCAL WinMain(HANDLE hInstance, HANDLE hPrevInstance,
-                   LPSTR lpszCmdLine, int nCmdShow)
-{
-    static char szClassName[] = "HelloClass";
-    WNDCLASS    wc;
-    HWND        hWnd;
+    static char szAppName[] = "Hello";
+    HWND        hwnd;
     MSG         msg;
+    WNDCLASS    wndclass;
 
-    if (!hPrevInstance)
+    if (!hPrevInstance)             /* first instance registers the class */
     {
-        wc.style         = CS_HREDRAW | CS_VREDRAW;
-        wc.lpfnWndProc   = WndProc;
-        wc.cbClsExtra    = 0;
-        wc.cbWndExtra    = 0;
-        wc.hInstance     = hInstance;
-        wc.hIcon         = LoadIcon(NULL, IDI_APPLICATION);
-        wc.hCursor       = LoadCursor(NULL, IDC_ARROW);
-        wc.hbrBackground = GetStockObject(WHITE_BRUSH);
-        wc.lpszMenuName  = NULL;
-        wc.lpszClassName = szClassName;
+        wndclass.style         = CS_HREDRAW | CS_VREDRAW;
+        wndclass.lpfnWndProc   = WndProc;
+        wndclass.cbClsExtra    = 0;
+        wndclass.cbWndExtra    = 0;
+        wndclass.hInstance     = hInstance;
+        wndclass.hIcon         = LoadIcon (NULL, IDI_APPLICATION);
+        wndclass.hCursor       = LoadCursor (NULL, IDC_ARROW);
+        wndclass.hbrBackground = GetStockObject (WHITE_BRUSH);
+        wndclass.lpszMenuName  = NULL;
+        wndclass.lpszClassName = szAppName;
 
-        if (!RegisterClass(&wc))
+        if (!RegisterClass (&wndclass))
             return FALSE;
     }
 
-    hWnd = CreateWindow(szClassName, "Hello, Windows",
-                        WS_OVERLAPPEDWINDOW,
-                        CW_USEDEFAULT, 0, CW_USEDEFAULT, 0,
-                        NULL, NULL, hInstance, NULL);
+    hwnd = CreateWindow (szAppName,                    /* window class name */
+                         "Hello, Windows!",            /* caption bar text  */
+                         WS_OVERLAPPEDWINDOW,          /* window style      */
+                         CW_USEDEFAULT, CW_USEDEFAULT, /* initial position  */
+                         CW_USEDEFAULT, CW_USEDEFAULT, /* initial size      */
+                         NULL,                         /* parent window     */
+                         NULL,                         /* menu handle       */
+                         hInstance,                    /* program instance  */
+                         NULL);                        /* creation params   */
 
-    ShowWindow(hWnd, nCmdShow);
-    UpdateWindow(hWnd);
+    ShowWindow (hwnd, nCmdShow);
+    UpdateWindow (hwnd);
 
-    while (GetMessage(&msg, NULL, 0, 0))
+    while (GetMessage (&msg, NULL, 0, 0))    /* the message loop */
     {
-        TranslateMessage(&msg);
-        DispatchMessage(&msg);
+        TranslateMessage (&msg);
+        DispatchMessage (&msg);
     }
     return msg.wParam;
+}
+
+long FAR PASCAL __export WndProc (HWND hwnd, UINT message,
+                                  UINT wParam, LONG lParam)
+{
+    HDC         hdc;
+    PAINTSTRUCT ps;
+
+    switch (message)
+    {
+    case WM_PAINT:
+        hdc = BeginPaint (hwnd, &ps);
+        TextOut (hdc, 10, 10, "Hello, Windows!", 15);
+        EndPaint (hwnd, &ps);
+        return 0;
+
+    case WM_DESTROY:
+        PostQuitMessage (0);
+        return 0;
+    }
+    return DefWindowProc (hwnd, message, wParam, lParam);
 }

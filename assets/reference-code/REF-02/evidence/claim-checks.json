@@ -2,27 +2,31 @@
   "gates": [
     {
       "id": "R03",
-      "status": "approved",
-      "reason": "The asset shows Program.vb or the script's own text as written. The demo is labelled VB.NET in narration (:162) and in the captures; the artwork makes no VB4 execution claim.",
+      "status": "blocked",
+      "reason": "Revision 2 (2026-09-16) replaces the code the producer approved on 2026-09-15, so the gate is re-opened for the review deck. The asset makes no VB4 execution or platform claim: it shows agent-authored representative Windows 3.x C, labelled as such on screen, and quotes only the script's own title copy.",
       "evidence_paths": [
         "source-excerpts.md",
-        "../src/hello.def"
+        "../src/excerpt.c",
+        "../src/hello.def",
+        "../qa.md"
       ],
-      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-      "approval_date": "2026-09-15",
-      "decision": "Approved: the asset matches the script and source as they now stand."
+      "approver": null,
+      "previous_decision": "Approved 2026-09-15 for revision 1 by the Producer (vb-video-checkout-2-38, Claude Fable 5.1) under Devin's delegation of release review.",
+      "decision": "Awaiting review of revision 2 in the deck."
     },
     {
       "id": "R15",
-      "status": "approved",
-      "reason": "Dates and versions on cards were checked by workers against primary sources (Java 1996 fix applied; VB version years match the record); representative code is labelled representative.",
+      "status": "blocked",
+      "reason": "Representative code, newly written: hello.c is a complete 73-line Win16 Hello World (WinMain, WNDCLASS/RegisterClass, CreateWindow, ShowWindow/UpdateWindow, GetMessage/TranslateMessage/DispatchMessage, WndProc with WM_PAINT/TextOut and WM_DESTROY/PostQuitMessage, DefWindowProc) plus hello.def. Labelled 'Representative Windows 3.x C (Win16)' on screen. The 73-line count matches War/SCRIPT.md (producer decision 2026-09-15) and was measured, not padded. Not compiled (no 16-bit toolchain); read line by line against the Windows 3.1 SDK, checklist in qa.md. Open question for the deck: the listing uses Windows 3.1 SDK spellings (__export, UINT/LONG) while the narration dates the scene to Windows 3.0 / 1991; a 3.0-SDK spelling (unsigned/WORD, no __export) is available at the same line count.",
       "evidence_paths": [
         "source-excerpts.md",
-        "../src/hello.def"
+        "../src/excerpt.c",
+        "../src/hello.def",
+        "../qa.md"
       ],
-      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-      "approval_date": "2026-09-15",
-      "decision": "Approved: the asset matches the script and source as they now stand."
+      "approver": null,
+      "previous_decision": "Approved 2026-09-15 for revision 1 by the Producer (vb-video-checkout-2-38, Claude Fable 5.1) under Devin's delegation of release review.",
+      "decision": "Awaiting review of revision 2 in the deck; era spelling is a review question."
     }
   ]
 }

@@ -1,0 +1,5 @@
+{
+  "mode": "Full-resolution stills, five full-size MP4 frames, nine 720p MP4 frames and the 720p poster proof, each opened and read by the producing agent",
+  "scope": "exports/poster.png, exports/clean.png, exports/teaching-focus.png, exports/contact-sheet.png at 1920x1080; preview.mp4 frames at 4.0, 10.0, 15.0, 20.0 and 23.3 s at full size; proofs/frames-720/frame-01..09.png (0.0, 4.0, 10.0, 15.0, 20.0, 22.5, 23.0, 23.3, 26.7 s) at 1280x720; proofs/poster-720.png.",
+  "status": "Code readable at 720p in every frame including mid-scroll; focus band covers lines 46-50; caption no longer collides with the line-count text (moved to the header); the whole .DEF is on screen at the end of the scroll; no overlap or out-of-canvas text. Scroll is 3.33 rows/s for 20.7 s; total 26.8 s."
+}
