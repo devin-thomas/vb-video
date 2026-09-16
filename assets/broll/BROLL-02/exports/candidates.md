@@ -1,12 +1,12 @@
 # BROLL-02 — Two people playing War: candidate report
 
-**Access date:** 2026-09-15 · **Status:** scouted (fallback only) · **Release:** blocked (R14 open)
+**Access date:** 2026-09-15 · **Status:** produced — rank 1 fallback acquired · **Release:** blocked (R14 open)
 
 ## Bottom line
 
 No free-stock or public-archive clip I could find visibly shows **War**, meaning two face-down piles and a simultaneous flip-and-compare. Every ranked candidate below is a **generic card-game fallback** and must not be labeled or described as War in the edit. Genuine War demonstrations exist only as YouTube how-to videos. Those are rights-blocked and listed in the H02 section of `acquisition-handoff.md`.
 
-Nothing has been downloaded. A scouted URL is not acquired or cleared media.
+**Acquisition update, 2026-09-15.** Devin approved downloading rank 1, and it is now held at `source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4` (4,393,818 bytes; sha256 `7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188`). ffprobe on the real file: 1920×1080, 9.634625 s, 23.976 fps (24000/1001), H.264 High, progressive, **no audio stream**. Stills at 1 s, 4 s and 8 s were inspected at full size and at 720p; they confirm the scouting verdict — this is a generic two-person card game, **not War**, and carries no watermark. Ranks 2 and 3 remain not downloaded. Acquiring a fallback does not make it War footage, and acquisition is not release clearance: R14 stays open.
 
 ## Ranked candidates
 
@@ -16,9 +16,10 @@ Nothing has been downloaded. A scouted URL is not acquired or cleared media.
 |---|---|
 | Asset page | https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/ |
 | Creator | Jelly Marketing (https://www.pexels.com/@jellymarketing/) |
-| Duration | 0:09 |
-| Source dimensions / fps | 1920×1080, 23.98 fps (page); horizontal |
-| Proposed in / out | **00:00.0 → 00:09.0** (9.0 s, the whole clip, no handles) |
+| Duration | 0:09 on the page; **9.634625 s measured with ffprobe on the acquired file** |
+| Source dimensions / fps | 1920×1080, 23.976 fps (verified with ffprobe; page said 23.98); horizontal; no audio track |
+| Proposed in / out | **00:00.0 → end** (the whole clip, no handles; 9.634625 s on the acquired file) |
+| Acquired | **Yes, 2026-09-15**, `source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4`, 4,393,818 bytes |
 | License | Pexels License, page label "Free" (https://www.pexels.com/license/) |
 | Login / download barrier | None: Free download without login; size chooser SD 640×360 / SD 960×540 / HD 1280×720 / Full HD 1920×1080 |
 | Motion review | **Reviewed.** In-page playback, frames at about 0:01, 0:04, 0:07 and 0:09 |

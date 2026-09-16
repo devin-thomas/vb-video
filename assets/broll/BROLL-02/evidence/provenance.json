@@ -1,13 +1,27 @@
 {
   "id": "BROLL-02",
-  "provenance_type": "stock candidate scouting record",
+  "provenance_type": "stock candidate scouting record plus one acquired stock original",
   "source_files": [
     {"path": "sources/ASSET_PLAN.md", "lines": [109, 122], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (shot list and suggested sources)"},
     {"path": "sources/ASSET_PLAN.md", "lines": [118, 118], "sha256": "8f1769aacb6f446a00cdb72655a60475f7fa692b2f274effe3c517d33c20eef7", "relationship": "literal excerpt (row 2)"},
     {"path": "sources/SCRIPT.md", "lines": [799, 805], "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb", "relationship": "literal excerpt (B-roll suggestion 2: Two people playing War at a table)"}
   ],
   "external_sources": [
-    {"url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/", "relationship": "stock candidate (rank 1, fallback)", "accessed": "2026-09-15", "acquired": false},
+    {
+      "url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
+      "relationship": "stock candidate (rank 1, labeled generic card-game fallback - not War)",
+      "accessed": "2026-09-15",
+      "acquired": true,
+      "download_url": "https://www.pexels.com/download/video/38810850/",
+      "resolved_file_url": "https://videos.pexels.com/video-files/38810850/16496615_1920_1080_24fps.mp4",
+      "local_path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
+      "sha256": "7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188",
+      "bytes": 4393818,
+      "creator": "Jelly Marketing",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "source_record": "source/source.json"
+    },
     {"url": "https://pixabay.com/videos/card-game-game-cards-gambling-card-254893/", "relationship": "stock candidate (rank 2, fallback)", "accessed": "2026-09-15", "acquired": false},
     {"url": "https://www.pexels.com/video/grandfather-playing-a-card-game-with-his-granddaughter-9058103/", "relationship": "stock candidate (rank 3, fallback, motion not reviewed)", "accessed": "2026-09-15", "acquired": false},
     {"url": "https://www.pexels.com/license/", "relationship": "license evidence", "accessed": "2026-09-15"},
@@ -17,9 +31,43 @@
   ],
   "authored_additions": [
     "Candidate ranking, proposed in/out timecodes, visual-fit and War-evidence notes, and proposed local filenames are authored scouting judgments, not source facts.",
-    "Frame descriptions are the worker's observations from in-page preview playback; no screenshot files were retained in this package."
+    "Frame descriptions from the original scouting pass were the worker's observations from in-page preview playback; no screenshot files were retained from that pass.",
+    "Frame descriptions in qa.md dated 2026-09-15 (acquisition pass) are this worker's observations of the extracted PNG stills listed under derived_media."
   ],
-  "media_acquired": [],
-  "transformations": [],
-  "producer_decisions": []
+  "media_acquired": [
+    {
+      "path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
+      "acquired_on": "2026-09-15",
+      "method": "curl -L with a generic \"Mozilla/5.0\" User-Agent; no login, no credentials, no consent click-through, no bot check encountered",
+      "http": "302 from www.pexels.com to videos.pexels.com, then 200 video/mp4, Content-Length 4393818",
+      "bytes": 4393818,
+      "sha256": "7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188",
+      "dimensions": {"width": 1920, "height": 1080},
+      "duration_seconds": 9.634625,
+      "fps": "24000/1001 (23.976)",
+      "codec": "h264 High profile, yuv420p, progressive",
+      "audio_stream": false,
+      "watermark": "none observed",
+      "content_label": "generic two-person card game - NOT War",
+      "source_record": "source/source.json"
+    }
+  ],
+  "derived_media": [
+    {"path": "evidence/frames/frame-01s.png", "derived_from": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4", "transformation": "ffmpeg -ss 1 -frames:v 1, unscaled 1920x1080 still"},
+    {"path": "evidence/frames/frame-04s.png", "derived_from": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4", "transformation": "ffmpeg -ss 4 -frames:v 1, unscaled 1920x1080 still"},
+    {"path": "evidence/frames/frame-08s.png", "derived_from": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4", "transformation": "ffmpeg -ss 8 -frames:v 1, unscaled 1920x1080 still"},
+    {"path": "evidence/frames/frame-04s-720p.png", "derived_from": "evidence/frames/frame-04s.png", "transformation": "ffmpeg -vf scale=-2:720, 1280x720 still for the 720p review"}
+  ],
+  "transformations": [
+    "The acquired original is stored exactly as served; no re-encode, trim, crop or watermark change.",
+    "PNG stills were extracted and one was downscaled purely for inspection evidence."
+  ],
+  "producer_decisions": [
+    {
+      "date": "2026-09-15",
+      "decision": "Devin approved downloading the rank 1 Pexels candidate (38810850).",
+      "relayed_by": "B-roll Scouting Manager (session vb-bf)",
+      "scope": "Acquisition only. It is not release clearance and does not settle the R14 review questions."
+    }
+  ]
 }

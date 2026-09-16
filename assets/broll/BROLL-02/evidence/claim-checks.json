@@ -10,8 +10,25 @@
       "reason": null,
       "checked_on": "2026-09-15",
       "checked_by": "BROLL-02 scouting worker (Claude, spawned by B-roll Scouting Manager vb-99)",
-      "evidence_paths": ["evidence/candidates.json", "exports/candidates.md", "exports/acquisition-handoff.md", "qa.md"],
-      "findings": "ASSET_PLAN.md:109-122 assumes Pexels and Pixabay are browsable without login. On 2026-09-15 that held for both: asset pages were viewable and free download buttons were visible without login. However, no free candidate visibly shows War, which the SCRIPT.md:801 shot requires. Item-specific license terms and creators are recorded below. No file has been acquired, so no rights record is attached to actual media.",
+      "evidence_paths": ["evidence/candidates.json", "exports/candidates.md", "exports/acquisition-handoff.md", "qa.md", "source/source.json", "evidence/frames/frame-01s.png", "evidence/frames/frame-04s.png", "evidence/frames/frame-08s.png", "evidence/frames/frame-04s-720p.png"],
+      "findings": "ASSET_PLAN.md:109-122 assumes Pexels and Pixabay are browsable without login. On 2026-09-15 that held for both: asset pages were viewable and free download buttons were visible without login. However, no free candidate visibly shows War, which the SCRIPT.md:801 shot requires. Item-specific license terms and creators are recorded below. On 2026-09-15, with Devin's approval relayed by the B-roll Scouting Manager (session vb-bf), the rank 1 candidate was downloaded ungated under the Pexels License and is now held locally with a full source record (source/source.json). Inspecting the real file confirmed the scouting verdict: it is a generic two-person card game, not War. Acquisition does not clear release: no model release is published for the two identifiable people, and the fallback-acceptability question is unresolved, so R14 stays open for the OPS-04 review deck.",
+      "acquisition_evidence": {
+        "acquired_on": "2026-09-15",
+        "approved_by": "Devin, 2026-09-15 (relayed by the B-roll Scouting Manager, session vb-bf)",
+        "approval_scope": "Download of this one Pexels asset only. Not release clearance.",
+        "asset_url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
+        "download_url": "https://www.pexels.com/download/video/38810850/",
+        "resolved_file_url": "https://videos.pexels.com/video-files/38810850/16496615_1920_1080_24fps.mp4",
+        "method": "curl -L with a generic \"Mozilla/5.0\" User-Agent. No login, no account, no payment, no terms click-through, no CAPTCHA or bot check encountered, no personal data sent. HTTP 302 then HTTP 200 video/mp4.",
+        "local_path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
+        "bytes": 4393818,
+        "sha256": "7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188",
+        "ffprobe": "1920x1080, h264 High, yuv420p, progressive, 9.634625 s, 24000/1001 fps (23.976), no audio stream; a QuickTime tmcd timecode track is present",
+        "license": "Pexels License (https://www.pexels.com/license/), attribution optional; credit text 'Jelly Marketing / Pexels'",
+        "watermark": "none observed in the extracted frames at full size or at 720p",
+        "content_verdict_on_real_file": "NOT War. Both players hold fanned hands; there is one shared face-down stock at table centre rather than two per-player face-down piles; a face-up spread sits in front of one player; no simultaneous flip-and-compare occurs in the 9.63 s. Labeled generic card-game fallback only.",
+        "mismatch_vs_scouting_record": "Byte size is about 4.19 MiB, not the roughly 20 MB anticipated in the download approval, and the true duration is 9.634625 s rather than the page's rounded 0:09. Dimensions (1920x1080) and frame rate (23.976) match the scouted values."
+      },
       "per_candidate": [
         {
           "rank": 1,
@@ -21,9 +38,9 @@
           "license_url": "https://www.pexels.com/license/",
           "access_method": "Public page; Free download without login",
           "credit_text_proposed": "Jelly Marketing / Pexels (attribution optional under license)",
-          "rights_status": "stock license terms read; not acquired; no model release shown",
+          "rights_status": "stock license terms read; ACQUIRED 2026-09-15 under the Pexels License with Devin's approval; no model release shown; release clearance still open",
           "shows_war": false,
-          "war_evidence": "Fanned hands, face-up melds and no face-down piles contradict War; two players across a table support only the generic setup."
+          "war_evidence": "Confirmed on the downloaded file at full size and at 720p: fanned hands, a face-up spread in front of one player, a single shared face-down stock instead of two per-player piles, and no simultaneous flip-and-compare. Two players across a table support only the generic setup."
         },
         {
           "rank": 2,
@@ -71,9 +88,10 @@
         }
       ],
       "review_questions": [
-        "No free clip shows War. Should the edit use a labeled generic card-game fallback, request permission for a YouTube War demo (H02), or commission a separately approved staged or AI stand-in?",
+        "Standing question, unchanged by the acquisition: no free clip shows War. Should the edit use a labeled generic card-game fallback, request permission for a YouTube War demo (H02), or commission a separately approved staged or AI stand-in? The acquired file is a fallback, not an answer to this question.",
         "Is a rummy-style elderly-couple game acceptable on screen under narration about War?",
-        "Legal risk: no model releases are shown for identifiable people on the Pexels or Pixabay pages. Are the stock license terms sufficient for this use?"
+        "Legal risk: no model releases are shown for identifiable people on the Pexels or Pixabay pages, including on the clip now acquired. Are the stock license terms sufficient for this use?",
+        "The acquired clip is 9.634625 s end to end with no handles. Is a 9.6 s fallback long enough for the section 5 cutaway, or should a longer clip be sought?"
       ],
       "decision_record": null
     }

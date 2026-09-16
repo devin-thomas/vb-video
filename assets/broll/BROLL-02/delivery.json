@@ -1,25 +1,28 @@
 {
   "id": "BROLL-02",
   "title": "Two people playing War",
-  "production_status": "scouted",
+  "production_status": "produced",
   "release_status": "blocked",
-  "provenance_type": "stock candidate scouting record",
+  "provenance_type": "stock candidate scouting record plus one acquired stock original (labeled generic card-game fallback, not War)",
   "shared_version": "win95-workbench-1.0.0",
-  "duration_seconds": null,
-  "dimensions": null,
-  "fps": null,
+  "duration_seconds": 9.634625,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 23.976023976023978,
   "outputs": [
     {
       "path": "qa.md",
       "role": "qa report",
-      "bytes": 4608,
-      "sha256": "cc740ba7acfb173faecf6e7cd3120fa684e0976f162344037590a96a25073985"
+      "bytes": 13595,
+      "sha256": "ea4f03b833c49d4db844e5022a6edb74750e7d6698b2cc2838b5b0177ba0ad0d"
     },
     {
       "path": "evidence/provenance.json",
       "role": "provenance",
-      "bytes": 2377,
-      "sha256": "111c1a41ff095475f67f618893f5db2d2b310a230f998e7d836b69acee79be35"
+      "bytes": 5415,
+      "sha256": "e5b61b4094fbb362d0aea488d9137ae557e4ea5a4bbd5229ab42763e1858beea"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -30,26 +33,62 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "gate evidence",
-      "bytes": 4730,
-      "sha256": "9c97588b499fbfc0bc76ac5908fb446b24bddbed4bf4a9b504ebf26931b2bf83"
+      "bytes": 7872,
+      "sha256": "89aa2368ab997d0f6edbaa6d3fca69628a04c25230b9a9c94d948d4d75409f83"
     },
     {
       "path": "exports/candidates.md",
       "role": "candidate report",
-      "bytes": 7468,
-      "sha256": "8043b7eaf71f019a10bf83322469d7dccc531a682c7d1efe940533169057115a"
+      "bytes": 8391,
+      "sha256": "b966681e0f3fe91fb18ff949a525f28219c7d063131eff994ee180759d0f9cf7"
     },
     {
       "path": "evidence/candidates.json",
       "role": "structured candidates",
-      "bytes": 11943,
-      "sha256": "a826a6d09e6280b722587c6aa497bda4b508c3833f78257cf2ffbe62eaff2327"
+      "bytes": 12915,
+      "sha256": "7d5ce3b4f7ac10949cb364b96318cfab84755cfa1dd1af87d06f7fb120fc02b5"
     },
     {
       "path": "exports/acquisition-handoff.md",
       "role": "acquisition handoff",
-      "bytes": 5286,
-      "sha256": "0c3d6b5cbc8f5158433152297effa9990f4b4037f36683d27913b90a57337f5e"
+      "bytes": 5978,
+      "sha256": "1e035026b876da51e531825bd2a283fe4e055f58ce0e10b704834ff01519f954"
+    },
+    {
+      "path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
+      "role": "acquired stock original (unmodified)",
+      "bytes": 4393818,
+      "sha256": "7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188"
+    },
+    {
+      "path": "source/source.json",
+      "role": "source record for the acquired original",
+      "bytes": 4465,
+      "sha256": "4dfa08e6b0472e54cfdd694129b4ad772a0e4fe2a4df7306bdd7f419c2cda4ff"
+    },
+    {
+      "path": "evidence/frames/frame-01s.png",
+      "role": "inspection still at about 1 s (1920x1080)",
+      "bytes": 2912061,
+      "sha256": "d3a677eeccbb828e6e72f4b2eea269070385c55a7d1b003079d0522885433510"
+    },
+    {
+      "path": "evidence/frames/frame-04s.png",
+      "role": "inspection still at about 4 s (1920x1080)",
+      "bytes": 3245964,
+      "sha256": "fb37bac3e6f2cb2775964dd61a191b349bc6d8bdeb7ea1d8dcfacf176c8e9459"
+    },
+    {
+      "path": "evidence/frames/frame-08s.png",
+      "role": "inspection still at about 8 s (1920x1080)",
+      "bytes": 3347543,
+      "sha256": "1faaf0ce4fe23545be15fdf5baa05002dcc16c56fc1c8e064e8e1b4a65492f7c"
+    },
+    {
+      "path": "evidence/frames/frame-04s-720p.png",
+      "role": "720p review still (1280x720, downscaled from frame-04s.png)",
+      "bytes": 1765454,
+      "sha256": "09a3c1c726fa9f91e3d3d8121192ad1322b9ba3e4cf1206c4fb5243796db40de"
     }
   ],
   "variants": {
@@ -76,9 +115,15 @@
     },
     {
       "url": "https://www.pexels.com/video/elderly-couple-enjoying-card-game-indoors-38810850/",
-      "relationship": "stock candidate",
+      "download_url": "https://www.pexels.com/download/video/38810850/",
+      "relationship": "stock candidate, acquired original",
       "rank": 1,
-      "acquired": false
+      "acquired": true,
+      "acquired_on": "2026-09-15",
+      "local_path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
+      "source_record": "source/source.json",
+      "sha256": "7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188",
+      "content_label": "generic two-person card game - NOT War; explicitly labeled fallback"
     },
     {
       "url": "https://pixabay.com/videos/card-game-game-cards-gambling-card-254893/",
@@ -96,37 +141,69 @@
   "credits": [
     {
       "asset": "Pexels 38810850",
+      "local_path": "source/pexels-38810850-jellymarketing-elderly-couple-cards-1920x1080.mp4",
       "creator": "Jelly Marketing",
       "platform": "Pexels",
       "license": "Pexels License",
-      "attribution_required": false
+      "license_url": "https://www.pexels.com/license/",
+      "attribution_required": false,
+      "credit_text": "Jelly Marketing / Pexels",
+      "acquired": true
     },
     {
       "asset": "Pixabay 254893",
       "creator": "KamiArtist",
       "platform": "Pixabay",
       "license": "Pixabay Content License",
-      "attribution_required": false
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "attribution_required": false,
+      "acquired": false
     },
     {
       "asset": "Pexels 9058103",
       "creator": "SHVETS production",
       "platform": "Pexels",
       "license": "Pexels License",
-      "attribution_required": false
+      "license_url": "https://www.pexels.com/license/",
+      "attribution_required": false,
+      "acquired": false
     }
   ],
   "tests": [
     {
-      "name": "in-page motion review rank 1",
-      "result": "reviewed; not War (fanned hands, melds)"
+      "name": "approved download of Pexels 38810850",
+      "result": "HTTP 302 then 200 video/mp4, 4393818 bytes received, content_type video/mp4, ungated: no login, payment, terms click-through, CAPTCHA or bot check"
     },
     {
-      "name": "in-page motion review rank 2",
+      "name": "ffprobe on the acquired file",
+      "result": "1920x1080, 9.634625 s, 24000/1001 fps (23.976), h264 High yuv420p progressive, bt709; no audio stream; tmcd timecode track present; probe_score 100"
+    },
+    {
+      "name": "byte size and sha256 of the acquired file",
+      "result": "4393818 bytes; sha256 7b43b09327990d2b6bcd606a47a3646565c3a8788d9bde46142a244952eec188; matches the HTTP Content-Length"
+    },
+    {
+      "name": "match against the scouted candidate",
+      "result": "dimensions and fps match; duration 9.634625 s vs the page's rounded 0:09; MISMATCH on size: 4393818 bytes (about 4.19 MiB) vs the roughly 20 MB anticipated in the download brief"
+    },
+    {
+      "name": "frame extraction and full-size inspection",
+      "result": "PNG stills at about 1 s, 4 s and 8 s extracted with ffmpeg and each viewed at 1920x1080; two players at a round table, fanned hands, one shared face-down stock at centre, face-up spread in front of one player; no watermark, logo or burned-in caption"
+    },
+    {
+      "name": "720p inspection",
+      "result": "frame-04s scaled to 1280x720 and viewed again; players, hands, stock and table cards all still legible; no artefacts, no watermark"
+    },
+    {
+      "name": "is it War?",
+      "result": "NO. No per-player face-down piles (only one shared central stock), both players hold hands, asymmetric face-up spread, and no simultaneous flip-and-compare in 9.63 s. Labeled generic card-game fallback only"
+    },
+    {
+      "name": "in-page motion review rank 2 (scouting pass)",
       "result": "reviewed with currentTime log; not War (3+ players, floor mat)"
     },
     {
-      "name": "in-page motion review rank 3",
+      "name": "in-page motion review rank 3 (scouting pass)",
       "result": "not run - in-page player did not start"
     },
     {
@@ -135,7 +212,7 @@
     },
     {
       "name": "python tools/validate_delivery.py --id BROLL-02",
-      "result": "run after this file was written; result in completion report"
+      "result": "run after this file was written; result in the completion report"
     }
   ],
   "unresolved_gates": [
@@ -144,13 +221,20 @@
   "toolchain": {
     "python": "3.14.0",
     "git": "2.53.0.windows.1",
-    "browser": "Claude Code Browser pane (Claude_Browser MCP)",
-    "fetch": "WebFetch/WebSearch",
+    "ffmpeg": "6.0-essentials_build-www.gyan.dev",
+    "ffprobe": "6.0-essentials_build-www.gyan.dev",
+    "curl": "8.18.0 (x86_64-w64-mingw32) libcurl/8.18.0 Schannel",
+    "shell": "PowerShell 7 on Windows 11 Pro 10.0.26200",
+    "browser": "Claude Code Browser pane (Claude_Browser MCP) - scouting pass only",
+    "fetch": "curl -L with a generic \"Mozilla/5.0\" User-Agent (acquisition); WebFetch/WebSearch (scouting)",
     "reproduce": "python tools/validate_delivery.py --id BROLL-02"
   },
   "notes": [
-    "Scouting only; no media downloaded or cleared.",
-    "No candidate shows War; all ranked candidates are labeled generic card-game fallbacks.",
-    "Ungated free downloads pending batched approval; YouTube War leads rights-blocked (H02)."
+    "FALLBACK, NOT WAR. The acquired clip shows a generic two-person draw-and-discard card game. It must never be described as War in any downstream file, narration or credit.",
+    "One approved download only (Pexels 38810850), acquired 2026-09-15 with Devin's approval relayed by the B-roll Scouting Manager (session vb-bf). Ranks 2 and 3 were not downloaded.",
+    "The original is stored byte-identical to what the server returned: no re-encode, trim, crop or watermark change. The PNG frames are inspection stills derived from it.",
+    "Size mismatch against the download brief (about 4.19 MiB vs roughly 20 MB) is recorded in qa.md; the download was complete and self-consistent.",
+    "Acquisition is not clearance. R14 stays open: no model release is published for the identifiable people, and the standing review question that no free clip shows real War is unresolved.",
+    "duration_seconds, dimensions and fps above describe the acquired MP4, not the candidate-report variant."
   ]
 }
