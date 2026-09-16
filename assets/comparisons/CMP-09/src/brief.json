@@ -1,0 +1,28 @@
+{
+  "id": "CMP-09",
+  "title": "A queue in 1995: Queue<Card>, std::queue, and a VB array with ReDim",
+  "requirements": [
+    "Three equal columns headed \"C#\", \"C++\", \"Visual Basic (1995)\". Left (C#): `var hand = new Queue<Card>();` / `hand.Enqueue(c);` / `var top = hand.Dequeue();`. Middle: `std::queue<Card> hand;` / `hand.push(c);` / `Card top = hand.front(); hand.pop();`. Right: the real program's approach, quoted from Program.vb (the `Hand` structure with `Cards()` and `Count`, and the `ReDim`/shift), marked as the excerpt it is.",
+    "The point on screen: two languages have a queue; VB has an array and a counter. A one-line footer: \"No generic collections, no built-in queue: an array and a counter.\"",
+    "Same comparison treatment as CMP-01..08; language headers per the round-2 rule (each column names exactly the language its snippet is valid in).",
+    "Still with `comparison` and `token-focus` (the queue operations highlighted) variants."
+  ],
+  "beats": [
+    "Still: three columns.",
+    "Still: token-focus on Enqueue/push/ReDim-shift."
+  ],
+  "checks": [
+    "Each column's code is valid in the language its header names.",
+    "The VB column is a byte-exact Program.vb excerpt with its line range recorded.",
+    "720p proof legible with three columns."
+  ],
+  "copy": "C#\nvar hand = new Queue<Card>();\nhand.Enqueue(c);\nvar top = hand.Dequeue();\n\nC++\nstd::queue<Card> hand;\nhand.push(c);\nCard top = hand.front(); hand.pop();\n\nVisual Basic (1995): see Program.vb, the Hand structure and its shift loop",
+  "refs": [
+    [
+      "SCRIPT.md",
+      317,
+      317
+    ]
+  ],
+  "gates": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CODE-29",
+  "title": "Reads like English: If PlayerScore > HighScore Then, For Each Item In Collection",
+  "requirements": [
+    "Exactly the two lines the script quotes, as authored teaching examples (they are not in Program.vb): `If PlayerScore > HighScore Then` and `For Each Item In Collection`. Header \"Visual Basic\". Label the card as an example, not an excerpt.",
+    "Highlight variant: a faint English gloss under each line (\"if the player's score is higher than the high score, then…\" / \"for each item in the collection…\") entering from the margin, never across the code.",
+    "CODE-family treatment."
+  ],
+  "beats": [
+    "Still: the two lines.",
+    "Still: `gloss` with the English reading under each line."
+  ],
+  "checks": [
+    "Both lines are verbatim from the script.",
+    "The gloss does not cross the code.",
+    "720p proof legible."
+  ],
+  "copy": "If PlayerScore > HighScore Then\n\nFor Each Item In Collection",
+  "refs": [
+    [
+      "SCRIPT.md",
+      689,
+      689
+    ]
+  ],
+  "gates": []
+}
