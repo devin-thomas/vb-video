@@ -92,7 +92,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -141,7 +141,7 @@
    "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R15"
    ],
@@ -166,7 +166,7 @@
    "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -202,7 +202,7 @@
    "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [
     "R05",
     "R07"
@@ -444,7 +444,7 @@
    "kind": "motion",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
@@ -1401,7 +1401,7 @@
    "kind": "still",
    "production_status": "produced",
    "release_status": "approved",
-   "reviewer": "Producer for Devin",
+   "reviewer": "Producer (Claude Fable 5.1) under Devin's delegation",
    "manifest_gates": [],
    "gates": [],
    "questions": []
