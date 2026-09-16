@@ -1,0 +1,73 @@
+{
+ "take": "R4-02",
+ "file": "take.mp4",
+ "seconds": 8.1,
+ "fps": 30,
+ "region": [
+  87,
+  80,
+  1318,
+  872
+ ],
+ "events": [
+  {
+   "t": 1.694,
+   "event": "session-start",
+   "pid": 4812,
+   "window_class": "ConsoleWindowClass"
+  },
+  {
+   "t": 2.352,
+   "event": "typed",
+   "text": "dotnet build"
+  },
+  {
+   "t": 5.465,
+   "event": "completed",
+   "text": "dotnet build",
+   "wall_seconds": 3.319
+  },
+  {
+   "t": 6.114,
+   "event": "typed",
+   "text": "Clear-Host"
+  },
+  {
+   "t": 6.967,
+   "event": "completed",
+   "text": "Clear-Host",
+   "wall_seconds": 1.05
+  },
+  {
+   "t": 10.201,
+   "event": "typed",
+   "text": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt"
+  },
+  {
+   "t": 12.413,
+   "event": "completed",
+   "text": "dotnet run --no-build 2> stderr.txt | Tee-Object -FilePath stdout.txt",
+   "wall_seconds": 2.68
+  },
+  {
+   "t": 15.745,
+   "event": "typed",
+   "text": "exit"
+  },
+  {
+   "t": 30.814,
+   "event": "session-end"
+  }
+ ],
+ "recorded_at": "2026-09-15T21:54:07",
+ "commands": [
+  "dotnet build (before recording)",
+  "dotnet run --no-build | Tee-Object stdout.txt"
+ ],
+ "rounds": "240",
+ "wars": "6",
+ "winner": "PLAYER 2 WINS THE WAR!",
+ "double_war": false,
+ "stdout_lines": 503,
+ "stdout.txt_sha256": "611cc324299c81f055727ed4086709ed1b177f25c64fc5e88ec14a6339779b44"
+}

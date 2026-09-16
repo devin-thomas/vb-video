@@ -1,0 +1,258 @@
+=====================================
+   W A R   -   CPU vs CPU Simulator
+=====================================
+
+Cards dealt: Player 1 has 26, Player 2 has 26.
+
+Round 1: Player 1 plays 3 of Clubs, Player 2 plays 3 of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 4 of Diamonds, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (10 cards).
+Round 2: Player 1 plays 10 of Spades, Player 2 plays 10 of Hearts.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays Ace of Spades, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (10 cards).
+Round 3: Player 1 plays 6 of Diamonds, Player 2 plays 8 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 4: Player 1 plays 5 of Hearts, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 5: Player 1 plays 4 of Hearts, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 6: Player 1 plays 6 of Spades, Player 2 plays 7 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 7: Player 1 plays 8 of Clubs, Player 2 plays Queen of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 8: Player 1 plays 4 of Spades, Player 2 plays 5 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 9: Player 1 plays Jack of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 10: Player 1 plays Queen of Hearts, Player 2 plays Queen of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays Queen of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (10 cards).
+Round 11: Player 1 plays 4 of Clubs, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 12: Player 1 plays 8 of Spades, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 13: Player 1 plays Ace of Clubs, Player 2 plays Jack of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 14: Player 1 plays 2 of Diamonds, Player 2 plays Jack of Clubs.
+        Player 2 wins the round (2 cards).
+Round 15: Player 1 plays 10 of Spades, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 16: Player 1 plays 10 of Hearts, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 17: Player 1 plays King of Hearts, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 18: Player 1 plays 9 of Hearts, Player 2 plays 9 of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 10 of Clubs, Player 2 plays King of Clubs.
+        Player 2 wins the round (10 cards).
+Round 19: Player 1 plays Ace of Spades, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 20: Player 1 plays 2 of Clubs, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 21: Player 1 plays 5 of Hearts, Player 2 plays 6 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 22: Player 1 plays 2 of Spades, Player 2 plays 8 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 23: Player 1 plays 4 of Hearts, Player 2 plays 6 of Spades.
+        Player 2 wins the round (2 cards).
+Round 24: Player 1 plays 3 of Hearts, Player 2 plays 7 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 25: Player 1 plays Queen of Hearts, Player 2 plays 8 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 26: Player 1 plays Queen of Spades, Player 2 plays Queen of Diamonds.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 5 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (10 cards).
+Round 27: Player 1 plays 3 of Diamonds, Player 2 plays 4 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 28: Player 1 plays 5 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 29: Player 1 plays Queen of Clubs, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+Round 30: Player 1 plays 2 of Hearts, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 31: Player 1 plays Ace of Clubs, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 32: Player 1 plays Jack of Diamonds, Player 2 plays Jack of Clubs.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 3 of Spades, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (10 cards).
+Round 33: Player 1 plays King of Hearts, Player 2 plays 10 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 34: Player 1 plays 6 of Clubs, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 35: Player 1 plays Ace of Spades, Player 2 plays 7 of Spades.
+        Player 1 wins the round (2 cards).
+Round 36: Player 1 plays 4 of Diamonds, Player 2 plays 6 of Hearts.
+        Player 2 wins the round (2 cards).
+Round 37: Player 1 plays Queen of Hearts, Player 2 plays 10 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 38: Player 1 plays 8 of Clubs, Player 2 plays King of Clubs.
+        Player 2 wins the round (2 cards).
+Round 39: Player 1 plays Queen of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 40: Player 1 plays 8 of Spades, Player 2 plays Ace of Hearts.
+        Player 2 wins the round (2 cards).
+Round 41: Player 1 plays Ace of Clubs, Player 2 plays 5 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 42: Player 1 plays 2 of Diamonds, Player 2 plays 6 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 43: Player 1 plays King of Hearts, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 44: Player 1 plays 10 of Diamonds, Player 2 plays 8 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 45: Player 1 plays Ace of Spades, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 46: Player 1 plays 7 of Spades, Player 2 plays 6 of Spades.
+        Player 1 wins the round (2 cards).
+Round 47: Player 1 plays Queen of Hearts, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 48: Player 1 plays 10 of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 49: Player 1 plays Queen of Clubs, Player 2 plays Queen of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays King of Hearts, Player 2 plays King of Diamonds.
+        ** WAR! ** (war number 2 this round)
+        War card - Player 1 plays Ace of Spades, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (18 cards).
+Round 50: Player 1 plays 4 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 51: Player 1 plays 7 of Spades, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 52: Player 1 plays 6 of Spades, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 53: Player 1 plays Queen of Hearts, Player 2 plays 5 of Spades.
+        Player 1 wins the round (2 cards).
+Round 54: Player 1 plays 3 of Hearts, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 55: Player 1 plays 10 of Clubs, Player 2 plays 2 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 56: Player 1 plays 7 of Hearts, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 57: Player 1 plays Queen of Clubs, Player 2 plays Jack of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 58: Player 1 plays Queen of Spades, Player 2 plays Jack of Clubs.
+        Player 1 wins the round (2 cards).
+Round 59: Player 1 plays 2 of Clubs, Player 2 plays 10 of Spades.
+        Player 2 wins the round (2 cards).
+Round 60: Player 1 plays Queen of Diamonds, Player 2 plays 9 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 61: Player 1 plays Ace of Clubs, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 62: Player 1 plays 9 of Clubs, Player 2 plays 9 of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays King of Diamonds, Player 2 plays 8 of Diamonds.
+        Player 1 wins the round (10 cards).
+Round 63: Player 1 plays 2 of Spades, Player 2 plays 6 of Clubs.
+        Player 2 wins the round (2 cards).
+Round 64: Player 1 plays 5 of Diamonds, Player 2 plays 7 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 65: Player 1 plays 10 of Diamonds, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 66: Player 1 plays 7 of Clubs, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 67: Player 1 plays 8 of Hearts, Player 2 plays 8 of Clubs.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays 7 of Spades, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (10 cards).
+Round 68: Player 1 plays 3 of Diamonds, Player 2 plays 6 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 69: Player 1 plays 6 of Spades, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 70: Player 1 plays 4 of Clubs, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 71: Player 1 plays Queen of Hearts, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 72: Player 1 plays 5 of Spades, Player 2 plays Jack of Spades.
+        Player 2 wins the round (2 cards).
+Round 73: Player 1 plays 10 of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 74: Player 1 plays 2 of Hearts, Player 2 plays 9 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 75: Player 1 plays Queen of Clubs, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 76: Player 1 plays Jack of Diamonds, Player 2 plays 10 of Spades.
+        Player 1 wins the round (2 cards).
+Round 77: Player 1 plays Queen of Spades, Player 2 plays 2 of Spades.
+        Player 1 wins the round (2 cards).
+Round 78: Player 1 plays Jack of Clubs, Player 2 plays 6 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 79: Player 1 plays Queen of Diamonds, Player 2 plays 5 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 80: Player 1 plays 9 of Hearts, Player 2 plays 7 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 81: Player 1 plays Ace of Clubs, Player 2 plays 3 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 82: Player 1 plays 3 of Clubs, Player 2 plays 6 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 83: Player 1 plays 9 of Clubs, Player 2 plays 4 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 84: Player 1 plays 9 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 85: Player 1 plays 5 of Hearts, Player 2 plays 5 of Spades.
+        ** WAR! ** (war number 1 this round)
+        War card - Player 1 plays King of Hearts, Player 2 plays 3 of Clubs.
+        Player 1 wins the round (10 cards).
+Round 86: Player 1 plays 3 of Spades, Player 2 plays 6 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 87: Player 1 plays King of Diamonds, Player 2 plays 9 of Spades.
+        Player 1 wins the round (2 cards).
+Round 88: Player 1 plays 8 of Diamonds, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 89: Player 1 plays 10 of Diamonds, Player 2 plays 3 of Spades.
+        Player 1 wins the round (2 cards).
+Round 90: Player 1 plays 4 of Diamonds, Player 2 plays 6 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 91: Player 1 plays 7 of Clubs, Player 2 plays 8 of Diamonds.
+        Player 2 wins the round (2 cards).
+Round 92: Player 1 plays 6 of Hearts, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 93: Player 1 plays 8 of Hearts, Player 2 plays 4 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 94: Player 1 plays 8 of Clubs, Player 2 plays 6 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 95: Player 1 plays Jack of Hearts, Player 2 plays 7 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 96: Player 1 plays King of Clubs, Player 2 plays 8 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 97: Player 1 plays Ace of Spades, Player 2 plays 6 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 98: Player 1 plays 8 of Spades, Player 2 plays King of Spades.
+        Player 2 wins the round (2 cards).
+Round 99: Player 1 plays 5 of Clubs, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 100: Player 1 plays Ace of Hearts, Player 2 plays King of Spades.
+        Player 1 wins the round (2 cards).
+Round 101: Player 1 plays 7 of Spades, Player 2 plays 5 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 102: Player 1 plays 2 of Diamonds, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 103: Player 1 plays 6 of Spades, Player 2 plays 2 of Diamonds.
+        Player 1 wins the round (2 cards).
+Round 104: Player 1 plays 4 of Hearts, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 105: Player 1 plays Queen of Hearts, Player 2 plays 4 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 106: Player 1 plays 3 of Hearts, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 107: Player 1 plays 10 of Clubs, Player 2 plays 3 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 108: Player 1 plays 7 of Hearts, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 109: Player 1 plays Queen of Clubs, Player 2 plays 7 of Hearts.
+        Player 1 wins the round (2 cards).
+Round 110: Player 1 plays 2 of Clubs, Player 2 plays 8 of Spades.
+        Player 2 wins the round (2 cards).
+Round 111: Player 1 plays Jack of Diamonds, Player 2 plays 2 of Clubs.
+        Player 1 wins the round (2 cards).
+Round 112: Player 1 plays 10 of Spades, Player 2 plays 8 of Spades.
+        Player 1 wins the round (2 cards).
+
+=====================================
+PLAYER 1 WINS THE WAR!
+Total rounds played : 112
+Total wars fought    : 11
+=====================================

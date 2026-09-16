@@ -1,0 +1,2201 @@
+{
+ "source": "War/SCRIPT.md",
+ "glossary": "spoken-glossary.v0.3",
+ "max_words": 65,
+ "min_words": 14,
+ "beats": [
+  {
+   "id": "S01-B01",
+   "section": 1,
+   "section_title": "COLD OPEN / HOOK",
+   "written": "In 1995, there was a programming language that more people used than C, more people used than C++, more people used than Java — which had literally just been invented. It was the single most popular programming language on the planet, and it powered everything from corporate accounting software to shareware games your dad downloaded off a BBS.",
+   "cues": [
+    "Terminal output scrolling — the War simulator running, cards being flipped, \"** WAR! **\" appearing on screen. Fast. Dramatic. The text scrolls like something out of a 90s hacker movie. Cut to black.",
+    "Title card — stylized Windows 95 desktop aesthetic. The title appears in a VB message box: \"I Wrote a Card Game in 1995's Most Controversial Programming Language.\" A cursor clicks OK."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "In nineteen ninety-five, there was a programming language that more people used than C, more people used than C plus plus, more people used than Java, which had literally just been invented. It was the single most popular programming language on the planet, and it powered everything from corporate accounting software to shareware games your dad downloaded off a B B S.",
+   "words": 58,
+   "spoken_sha256": "d43250919495a8ef1d28b78c57a3253f5109b6d238206e7ec525175456f53416"
+  },
+  {
+   "id": "S01-B02",
+   "section": 1,
+   "section_title": "COLD OPEN / HOOK",
+   "written": "That language was Visual Basic.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "That language was Visual Basic.",
+   "words": 5,
+   "spoken_sha256": "6c6fc4a368130c12c057a1b1f8360dc0f44b0e75f63573820a9911eb51e3ce2d"
+  },
+  {
+   "id": "S01-B03",
+   "section": 1,
+   "section_title": "COLD OPEN / HOOK",
+   "written": "And today, almost nobody talks about it. If you're under 30 and you learned to program, you probably learned Python, or JavaScript, or maybe C++. You've probably never written a line of Visual Basic in your life. You might not even know what it is.",
+   "cues": [
+    "Magazine covers — Visual Basic Programmer's Journal, old MSDN ads, screenshots of the VB4 IDE."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "And today, almost nobody talks about it. If you're under thirty and you learned to program, you probably learned Python, or JavaScript, or maybe C plus plus. You've probably never written a line of Visual Basic in your life. You might not even know what it is.",
+   "words": 45,
+   "spoken_sha256": "0fbfd075d011ae380fadac580c77975a8b3e6b00c8ebf74b581d587358863692"
+  },
+  {
+   "id": "S01-B04",
+   "section": 1,
+   "section_title": "COLD OPEN / HOOK",
+   "written": "So I'm going to write something in it. Specifically, I'm going to build a complete simulation of the card game War — two computer players, a full deck of 52 cards, shuffling, dealing, comparing, and the whole \"I declare war\" mechanic — all in Visual Basic, written the way someone would have actually written it in 1995 or 1996.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "So I'm going to write something in it. Specifically, I'm going to build a complete simulation of the card game War, two computer players, a full deck of fifty-two cards, shuffling, dealing, comparing, and the whole \"I declare war\" mechanic, all in Visual Basic, written the way someone would have actually written it in nineteen ninety-five or nineteen ninety-six.",
+   "words": 59,
+   "spoken_sha256": "e037008449d93606ea4b3a43a4921ed704c3dd05dfb7a72a6de1ee370d4a0485"
+  },
+  {
+   "id": "S01-B05",
+   "section": 1,
+   "section_title": "COLD OPEN / HOOK",
+   "written": "And along the way, I'm going to explain what this language was, why it mattered, why millions of people loved it, and why Microsoft eventually put a bullet in it.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "And along the way, I'm going to explain what this language was, why it mattered, why millions of people loved it, and why Microsoft eventually put a bullet in it.",
+   "words": 30,
+   "spoken_sha256": "0530c23ec0b8bd9c8ec3da36b31d8e2da63cac890356788d5f5ac35cdd699796"
+  },
+  {
+   "id": "S01-B06",
+   "section": 1,
+   "section_title": "COLD OPEN / HOOK",
+   "written": "Let's go.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Let's go.",
+   "words": 2,
+   "spoken_sha256": "d35083c931ac17bcaf2bbc3a9bb6107b3214142cae3f9e25914ceabfbf2ef912"
+  },
+  {
+   "id": "S02-B01",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "To understand Visual Basic, you need to understand BASIC. Capital B, capital A, capital everything — it's an acronym. Beginner's All-purpose Symbolic Instruction Code. It was invented in 1964 at Dartmouth College by John Kemeny and Thomas Kurtz, and its entire reason for existing was that programming was too hard.",
+   "cues": [
+    "Black and white photo of Kemeny and Kurtz at Dartmouth, c. 1969 (Kiewit Computation Center). Old terminal hardware. Transition to a green-screen terminal showing BASIC code."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "To understand Visual Basic, you need to understand BASIC. Capital B, capital A, capital everything, it's an acronym. Beginner's All-purpose Symbolic Instruction Code. It was invented in nineteen sixty-four at Dartmouth College by John Kemeny and Thomas Kurtz, and its entire reason for existing was that programming was too hard.",
+   "words": 50,
+   "spoken_sha256": "ed1f0b41697e4ef12cfc884f1e644bfad4bc29917ec2ab7a10d7efcd4dee963d"
+  },
+  {
+   "id": "S02-B02",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "In 1964, if you wanted to write a program, you were probably writing FORTRAN or COBOL or assembly language. You were probably punching cards. The learning curve was brutal. Kemeny and Kurtz wanted something that a college freshman with no technical background could sit down and start using. So they made BASIC.",
+   "cues": [
+    "Side-by-side comparison — a simple program in FORTRAN vs. the same thing in BASIC. The BASIC version is visibly shorter, with less ceremony."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "In nineteen sixty-four, if you wanted to write a program, you were probably writing FORTRAN or COBOL or assembly language. You were probably punching cards. The learning curve was brutal. Kemeny and Kurtz wanted something that a college freshman with no technical background could sit down and start using. So they made BASIC.",
+   "words": 52,
+   "spoken_sha256": "b6fd35c08ab191e7cb670b7915a515ee5defdabe69a5445006d3d87d6fe9a16d"
+  },
+  {
+   "id": "S02-B03",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "And it worked. It worked incredibly well. Through the 1970s and 1980s, BASIC became the language that shipped with almost every home computer. Your Commodore 64 had BASIC. Your Apple II had Applesoft BASIC. Your TRS-80 had BASIC. When you turned on a home computer in 1982, you were usually staring at a BASIC prompt.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "And it worked. It worked incredibly well. Through the nineteen seventies and nineteen eighties, BASIC became the language that shipped with almost every home computer. Your Commodore sixty-four had BASIC. Your Apple two had Applesoft BASIC. Your T R S eighty had BASIC. When you turned on a home computer in nineteen eighty-two, you were usually staring at a BASIC prompt.",
+   "words": 55,
+   "spoken_sha256": "932dc27af33dfac36bd1a640ab53fcb1dcfd245370fd5090629739044c9e8580"
+  },
+  {
+   "id": "S02-B04",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "This is important because it means that an entire generation of programmers — the people who would go on to build the software industry — learned to code by writing things like:",
+   "cues": [
+    "Boot screens of Commodore 64, Apple II, TRS-80 — all showing their BASIC prompts. Maybe a montage."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "This is important because it means that an entire generation of programmers, the people who would go on to build the software industry, learned to code by writing things like:",
+   "words": 32,
+   "spoken_sha256": "e381a69864446a102c0fcf9828cf35dac2c6fc7e8d22655cf3168cc2a379de64"
+  },
+  {
+   "id": "S02-B05",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "BASIC was how you learned. It was the Python of its era, except it came pre-installed on your hardware.",
+   "cues": [
+    "Code on screen, typed out one line at a time in a retro font:"
+   ],
+   "code": [
+    "10 PRINT \"HELLO WORLD\"\n20 GOTO 10"
+   ],
+   "continues": false,
+   "spoken": "BASIC was how you learned. It was the Python of its era, except it came pre-installed on your hardware.",
+   "words": 19,
+   "spoken_sha256": "f0efbf1e9c8824e0adbbea03181b73f69154f3d2401b67274ef12e704f29174b"
+  },
+  {
+   "id": "S02-B06",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "Now, fast-forward to 1991. Microsoft has Windows 3.0, and Windows programming is a nightmare. If you want to write a Windows application in C, you need to understand message loops, window procedures, callback functions, resource files, the entire Win16 API. A \"Hello World\" window in C is 73 lines of code. It's not beginner-friendly. It's barely expert-friendly.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Now, fast-forward to nineteen ninety-one. Microsoft has Windows three point oh, and Windows programming is a nightmare. If you want to write a Windows application in C, you need to understand message loops, window procedures, callback functions, resource files, the entire Win sixteen API. A \"Hello World\" window in C is seventy-three lines of code. It's not beginner-friendly. It's barely expert-friendly.",
+   "words": 57,
+   "spoken_sha256": "320634583317193375e24cdeb404267176a067ed5e3255fa7e18b5d2fc290ede"
+  },
+  {
+   "id": "S02-B07",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "A guy named Alan Cooper had built a prototype of a drag-and-drop interface builder. He called it \"Tripod.\" You could take a blank window and just... drop a button onto it. Drop a text box. Drop a label. And it would wire up the event handling for you.",
+   "cues": [
+    "A 73-line C \"Hello World\" for Windows, scrolling slowly. It should look intimidating."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "A guy named Alan Cooper had built a prototype of a drag-and-drop interface builder. He called it \"Tripod.\" You could take a blank window and just... drop a button onto it. Drop a text box. Drop a label. And it would wire up the event handling for you.",
+   "words": 48,
+   "spoken_sha256": "f79898a76fc7e800b3c69c39c8e01ccd5cd62ecad08cb64271a42534e10044ec"
+  },
+  {
+   "id": "S02-B08",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "Microsoft saw this, bought it, married it to a BASIC dialect, and in May of 1991, Visual Basic 1.0 was born.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "Microsoft saw this, bought it, married it to a BASIC dialect, and in May of nineteen ninety-one, Visual Basic one point oh was born.",
+   "words": 21,
+   "spoken_sha256": "5fa0b6ccac975cc781e565c198ba042e141dd9ef9408866dbe5e6a78d0628827"
+  },
+  {
+   "id": "S02-B09",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "And it changed everything. Here's what made Visual Basic revolutionary: in C, if you wanted a button that said \"Click Me\" and popped up a message, you were writing dozens of lines of boilerplate. In Visual Basic, you drew the button on the form with your mouse, double-clicked it, and typed:",
+   "cues": [
+    "Screenshot of VB 1.0 IDE — the form designer, the toolbox, the properties bar. It looks primitive but recognizable."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "And it changed everything. Here's what made Visual Basic revolutionary: in C, if you wanted a button that said \"Click Me\" and popped up a message, you were writing dozens of lines of boilerplate. In Visual Basic, you drew the button on the form with your mouse, double-clicked it, and typed:",
+   "words": 51,
+   "spoken_sha256": "b851ef8b4ea60578fd49a3cbf9f5aaba8594bdfe444ad21a3e2de74b20dace14"
+  },
+  {
+   "id": "S02-B10",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "That's it. Three lines. You hit F5, the program ran, the button worked. The gap between having an idea and seeing it work on screen was shorter than it had ever been in the history of programming.",
+   "cues": [
+    "Code appearing on screen:"
+   ],
+   "code": [
+    "Sub Command1_Click()\n    MsgBox \"You clicked me!\"\nEnd Sub"
+   ],
+   "continues": false,
+   "spoken": "That's it. Three lines. You hit F five, the program ran, the button worked. The gap between having an idea and seeing it work on screen was shorter than it had ever been in the history of programming.",
+   "words": 37,
+   "spoken_sha256": "76340db554d77e5a00d559b3cf6cd142c15e085c4c12a02ba5a668751e67c0b4"
+  },
+  {
+   "id": "S02-B11",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "VB 1.0 came out in 1991 for Windows 3.0. VB 2.0 in 1992. VB 3.0 in 1993 added database support through something called the Jet engine — yes, the same engine inside Microsoft Access. VB 4.0 in 1995 was the first version that could compile to 32-bit code for Windows 95. And that's right around the era we're talking about today — 1995, 1996.",
+   "cues": [
+    "Timeline showing VB versions:"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "V B one point oh came out in nineteen ninety-one for Windows three point oh. V B two point oh in nineteen ninety-two. V B three point oh in nineteen ninety-three added database support through something called the Jet engine, yes, the same engine inside Microsoft Access. V B four point oh in nineteen ninety-five was the first version that could compile to thirty-two-bit code for Windows ninety-five. And that's right around the era we're talking about today, nineteen ninety-five, nineteen ninety-six.",
+   "words": 64,
+   "spoken_sha256": "f9b0d2cdccb75f1a2a5821704fee612b8ed08a501b595fd0349ae3961510a76b"
+  },
+  {
+   "id": "S02-B12",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "VB4 was the current version. Windows 95 was brand new and everyone was excited about the Start menu.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "V B four was the current version. Windows ninety-five was brand new and everyone was excited about the Start menu.",
+   "words": 18,
+   "spoken_sha256": "a6b618ca998c0cc8c3273e35754eb70ede1f426a8561bd65ab5c0bd6300d2cd5"
+  },
+  {
+   "id": "S02-B13",
+   "section": 2,
+   "section_title": "A VERY BRIEF HISTORY OF BASIC TO VISUAL BASIC",
+   "written": "VB 5.0 would come in 1997 and VB 6.0 in 1998 — that last one became the version people remember most fondly. But the spirit of the language, the way you actually thought about problems and wrote code? That was all established by VB4.",
+   "cues": [
+    "Windows 95 launch footage — Microsoft's Redmond launch event, midnight store lines, the \"Start Me Up\" campaign, the startup sound."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "V B five point oh would come in nineteen ninety-seven and V B six point oh in nineteen ninety-eight, that last one became the version people remember most fondly. But the spirit of the language, the way you actually thought about problems and wrote code? That was all established by V B four.",
+   "words": 44,
+   "spoken_sha256": "828f83c75807b25c3470ba68f0c98d2b474e3a61bed1235baac7cb59723345b5"
+  },
+  {
+   "id": "S03-B01",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "So what did it actually look like to set up a Visual Basic development environment in 1995?",
+   "cues": [
+    "A VB4 install CD or floppy disk set. Maybe a shrink-wrapped box from eBay. The packaging is very mid-90s."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "So what did it actually look like to set up a Visual Basic development environment in nineteen ninety-five?",
+   "words": 17,
+   "spoken_sha256": "61d35c1cc189214583b3f04630398c9b016fe0fe9bb244ffa280390d0de5ca4e"
+  },
+  {
+   "id": "S03-B02",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "You went to a store. A physical store — CompUSA, Egghead Software, maybe a Babbage's in the mall. You bought a box. Inside the box was either a set of 3.5-inch floppy disks or, if you were lucky and had a CD-ROM drive, a single disc.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "You went to a store. A physical store, CompUSA, Egghead Software, maybe a Babbage's in the mall. You bought a box. Inside the box was either a set of three-and-a-half-inch floppy disks or, if you were lucky and had a C D ROM drive, a single disc.",
+   "words": 46,
+   "spoken_sha256": "2a7ca9de6b8a1132de72c23f7dbde1d05550f557d0d269fefec2d53bd5c73bb8"
+  },
+  {
+   "id": "S03-B03",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "You ran the installer, it unpacked onto your hard drive, and you had an integrated development environment — an IDE — that looked like a Windows application.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "You ran the installer, it unpacked onto your hard drive, and you had an integrated development environment, an I D E, that looked like a Windows application.",
+   "words": 27,
+   "spoken_sha256": "7c03f889efd8c6bbc79ed70ce92fb8f9eb19b6309aac97c9779ad44d3376d590"
+  },
+  {
+   "id": "S03-B04",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "This IDE had a few key pieces. On the left, you had a toolbox — a vertical strip of icons for things like buttons, text boxes, labels, picture boxes, timers, scroll bars. In the center was your form — a blank gray window that you designed visually.",
+   "cues": [
+    "Side-by-side — the VB4 IDE with labeled callouts: Form Designer, Toolbox, Properties Window, Code Window, Project Window."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "This I D E had a few key pieces. On the left, you had a toolbox, a vertical strip of icons for things like buttons, text boxes, labels, picture boxes, timers, scroll bars. In the center was your form, a blank gray window that you designed visually.",
+   "words": 47,
+   "spoken_sha256": "7a9a138599f57e996e427238131d6105b0cf2c40b23526d0a7f17195b5ba2ba2"
+  },
+  {
+   "id": "S03-B05",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "On the right was the properties panel, where you could set things like the caption on a button or the font size of a label. And then there was the code window, where you wrote your actual BASIC.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "On the right was the properties panel, where you could set things like the caption on a button or the font size of a label. And then there was the code window, where you wrote your actual BASIC.",
+   "words": 38,
+   "spoken_sha256": "20098713db1ec85221d383bd8b3e7a8961138da164d73a6efdab9b6bf38b254a"
+  },
+  {
+   "id": "S03-B06",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "This was called \"RAD\" — Rapid Application Development. The whole point was speed. You weren't writing code to create a window. The IDE did that for you. You were writing code to respond to events — a button click, a timer tick, a key press.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "This was called \"rad\", Rapid Application Development. The whole point was speed. You weren't writing code to create a window. The I D E did that for you. You were writing code to respond to events, a button click, a timer tick, a key press.",
+   "words": 45,
+   "spoken_sha256": "79d02e8d9c57cf401e0ef29c78bfd3af10a69139b878aa25204e16304c19a862"
+  },
+  {
+   "id": "S03-B07",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "Now, for today's project, we're not going to use any of that visual stuff. War is a console program — two CPUs playing cards against each other in a terminal. No forms, no buttons. But I want you to understand that the form designer was the reason people bought VB. The language itself was just one part of the package.",
+   "cues": [
+    "Animated diagram — \"Event-Driven Programming\" — arrows from user actions (click, type, resize) pointing to Sub procedures in code."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Now, for today's project, we're not going to use any of that visual stuff. War is a console program, two C P Us playing cards against each other in a terminal. No forms, no buttons. But I want you to understand that the form designer was the reason people bought V B. The language itself was just one part of the package.",
+   "words": 60,
+   "spoken_sha256": "25105e66e4b170ce9b8950f67087eed7cdfbd0b28b6f4df9c6a6362dfcfb80b4"
+  },
+  {
+   "id": "S03-B08",
+   "section": 3,
+   "section_title": "THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED",
+   "written": "The drag-and-drop GUI builder was the killer feature.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "The drag-and-drop gooey builder was the killer feature.",
+   "words": 8,
+   "spoken_sha256": "aa462e53c1cb57cfe6cd31264950bb6197fb28cb66077839403b91ca12f2c734"
+  },
+  {
+   "id": "S04-B01",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "Here's a small confession: you cannot legally install Visual Basic 4.0 today. Microsoft stopped selling it decades ago. There's no download. The license doesn't transfer. You could find it on abandonware sites, but I'm making a YouTube video, so let's stay on the right side of copyright law.",
+   "cues": [
+    "Modern terminal — `dotnet new console -lang VB` being typed and executed."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Here's a small confession: you cannot legally install Visual Basic four point oh today. Microsoft stopped selling it decades ago. There's no download. The license doesn't transfer. You could find it on abandonware sites, but I'm making a YouTube video, so let's stay on the right side of copyright law.",
+   "words": 48,
+   "spoken_sha256": "05d6cabe7dc2ecffa7c9dba2965b5b0ba97f83a5ec4332a9abdd8647335215ac"
+  },
+  {
+   "id": "S04-B02",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "What you can do is use VB.NET — the modern descendant of Visual Basic, which ships with every copy of the .NET SDK. When you install .NET, you get a compiler called `vbc` — the Visual Basic compiler. It's the real thing. Microsoft still maintains it.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "What you can do is use V B dot NET, the modern descendant of Visual Basic, which ships with every copy of the dot NET S D K. When you install dot NET, you get a compiler called V B C, the Visual Basic compiler. It's the real thing. Microsoft still maintains it.",
+   "words": 46,
+   "spoken_sha256": "94cdf13a120c1c5a2a9bf58b6bc928b67b83e0c7a726a590d5eb2b9982ce21e8"
+  },
+  {
+   "id": "S04-B03",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "So we create a new console project:",
+   "cues": [
+    "Terminal showing `dotnet --version` returning a version number, then the project creation command."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "So we create a new console project:",
+   "words": 7,
+   "spoken_sha256": "c7e593bffd4d43a8275ea1e23de675b9bdb357c39f511eb831f723bf9f8c6bcd"
+  },
+  {
+   "id": "S04-B04",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "And we get a `.vbproj` file and a `Program.vb` file. That's our canvas. Now, the code I'm going to write uses modern VB.NET syntax, but I'm deliberately writing it in the old style. One module. One `Sub Main`. Structures instead of classes. Manual array management instead of generic collections. `Select Case` instead of pattern matching. `Do While...Loop` instead of LINQ.",
+   "cues": [],
+   "code": [
+    "dotnet new console -lang VB"
+   ],
+   "continues": false,
+   "spoken": "And we get a dot V B proj file and a Program dot V B file. That's our canvas. Now, the code I'm going to write uses modern V B dot NET syntax, but I'm deliberately writing it in the old style. One module. One sub main. Structures instead of classes. Manual array management instead of generic collections. select case instead of pattern matching. do while loop instead of LINQ.",
+   "words": 60,
+   "spoken_sha256": "77dfd7e2bff769d11a7c58785a418f26ccac6a31d28d8e615552f744cad45259"
+  },
+  {
+   "id": "S04-B05",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "If you squint at this code, it should feel like something you'd see in a VB4 textbook from 1996.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "If you squint at this code, it should feel like something you'd see in a V B four textbook from nineteen ninety-six.",
+   "words": 19,
+   "spoken_sha256": "eb85ea29cab679ba43f722a26177fe3d68933b1004a49a63f818c38553de2010"
+  },
+  {
+   "id": "S04-B06",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "Two important settings in the project file: `Option Explicit On` and `Option Strict On`. In classic VB, variables didn't need to be declared. You could just start using a variable called `x` and VB would create it for you on the spot as a Variant — a type that could hold anything.",
+   "cues": [
+    "The War.vbproj file, briefly, with `OptionExplicit` and `OptionStrict` highlighted."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Two important settings in the project file: option explicit on and option strict on. In classic V B, variables didn't need to be declared. You could just start using a variable called x and V B would create it for you on the spot as a Variant, a type that could hold anything.",
+   "words": 52,
+   "spoken_sha256": "dc644ea7888c674280f376ac90397c81504a284fa21c636afd13db295337afd5"
+  },
+  {
+   "id": "S04-B07",
+   "section": 4,
+   "section_title": "HOW WE'RE DOING THIS TODAY",
+   "written": "This was convenient and also the source of approximately ten million bugs, because if you misspelled a variable name, VB would just silently create a new empty variable instead of telling you something was wrong. `Option Explicit` forces you to declare everything. We're being responsible.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "This was convenient and also the source of approximately ten million bugs, because if you misspelled a variable name, V B would just silently create a new empty variable instead of telling you something was wrong. option explicit forces you to declare everything. We're being responsible.",
+   "words": 45,
+   "spoken_sha256": "f19e8a79dea1362c62323509432dabf46357e7cbd41dcf29bd5a5591b767edd2"
+  },
+  {
+   "id": "S05-B01",
+   "section": 5,
+   "section_title": "THE CARD GAME WAR — RULES IN 60 SECONDS",
+   "written": "Before we write any code, let's make sure we all know how War works, because you might not have played it since you were eight. Or maybe you've never played it at all. It's a children's card game — no strategy, no decisions, pure luck — which makes it perfect for a computer simulation, because there are no choices to model.",
+   "cues": [
+    "Animated diagram of a War game — two decks, cards flipping, a \"pot\" in the middle. Simple, clean, maybe hand-drawn style."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Before we write any code, let's make sure we all know how War works, because you might not have played it since you were eight. Or maybe you've never played it at all. It's a children's card game, no strategy, no decisions, pure luck, which makes it perfect for a computer simulation, because there are no choices to model.",
+   "words": 61,
+   "spoken_sha256": "87f7c53b8f449cc546a5b5f5e28e5965a72bd4491ee59d5de8d47419dfa32e87"
+  },
+  {
+   "id": "S05-B02",
+   "section": 5,
+   "section_title": "THE CARD GAME WAR — RULES IN 60 SECONDS",
+   "written": "Here are the rules: One. Take a standard 52-card deck and shuffle it. Deal it evenly — 26 cards to each player, face down. Neither player looks at their cards.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Here are the rules: One. Take a standard fifty-two card deck and shuffle it. Deal it evenly, twenty-six cards to each player, face down. Neither player looks at their cards.",
+   "words": 30,
+   "spoken_sha256": "c9114830884a58032597eb9ecad11e0a9692c21ee1951bebc8fcbcab81b126e7"
+  },
+  {
+   "id": "S05-B03",
+   "section": 5,
+   "section_title": "THE CARD GAME WAR — RULES IN 60 SECONDS",
+   "written": "Two. Each round, both players flip their top card face-up at the same time. Whoever played the higher card takes both cards and puts them at the bottom of their pile. Aces are high — they beat everything.",
+   "cues": [
+    "Animation — deck splits into two piles."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Two. Each round, both players flip their top card face-up at the same time. Whoever played the higher card takes both cards and puts them at the bottom of their pile. Aces are high, they beat everything.",
+   "words": 38,
+   "spoken_sha256": "56be102d107016976fdc398aae3a7dad3aeb26aedfe2dc93aa965711520b8b2b"
+  },
+  {
+   "id": "S05-B04",
+   "section": 5,
+   "section_title": "THE CARD GAME WAR — RULES IN 60 SECONDS",
+   "written": "Three. If both players flip the same rank — two sevens, two kings, whatever — it's War. Each player places three cards face-down, then flips a fourth card face-up. Whoever's face-up card is higher takes the entire pot — all ten cards. If it's another tie, you do it again. War can chain.",
+   "cues": [
+    "Animation — two cards flip, the higher one \"wins\" and both slide to the bottom of a pile."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Three. If both players flip the same rank, two sevens, two kings, whatever, it's War. Each player places three cards face-down, then flips a fourth card face-up. Whoever's face-up card is higher takes the entire pot, all ten cards. If it's another tie, you do it again. War can chain.",
+   "words": 53,
+   "spoken_sha256": "a4f5d1509972bb189d53f7a551d170fa8567e7252543dbf776394f812ad4b97a"
+  },
+  {
+   "id": "S05-B05",
+   "section": 5,
+   "section_title": "THE CARD GAME WAR — RULES IN 60 SECONDS",
+   "written": "Four. You keep playing until one player has all 52 cards. That player wins. If a player runs out of cards during a war, they lose.",
+   "cues": [
+    "Animation — two equal cards appear, then three face-down cards from each player, then two more face-up cards. The pot grows."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Four. You keep playing until one player has all fifty-two cards. That player wins. If a player runs out of cards during a war, they lose.",
+   "words": 26,
+   "spoken_sha256": "4bb0ecbaf0e6bfdf65838e9ca76dd6ee9d4cb699335a3b4b09044c7d289ef215"
+  },
+  {
+   "id": "S05-B06",
+   "section": 5,
+   "section_title": "THE CARD GAME WAR — RULES IN 60 SECONDS",
+   "written": "That's it. No bluffing, no bidding, no trump suits. Just flip, compare, collect. A game a five-year-old can play — and a game that maps beautifully onto about 280 lines of code.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "That's it. No bluffing, no bidding, no trump suits. Just flip, compare, collect. A game a five-year-old can play, and a game that maps beautifully onto about two hundred eighty lines of code.",
+   "words": 32,
+   "spoken_sha256": "32118d75fd1e05367b6990ef63c0d6940f506cabdc7a87c66de9bbb56448c628"
+  },
+  {
+   "id": "S06-B01",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "Let's start building. The first question any card game has to answer is: how do you represent a card?",
+   "cues": [
+    "The `Structure Card` code block, appearing on screen with syntax highlighting. Maybe a dark background with VB syntax colors — blue keywords, black identifiers."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Let's start building. The first question any card game has to answer is: how do you represent a card?",
+   "words": 19,
+   "spoken_sha256": "63a8bbc11f2479b1529538a4476403e261fb2cf5a00a209760435d3aa66be0f8"
+  },
+  {
+   "id": "S06-B02",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "In C++ or C#, you'd probably make a class, or at least a struct. In 1995 Visual Basic, you'd use something called a User-Defined Type — a `Type` block. In VB.NET, the equivalent is `Structure`. Same idea: a container that groups related pieces of data together.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "In C plus plus or C sharp, you'd probably make a class, or at least a struct. In nineteen ninety-five Visual Basic, you'd use something called a User-Defined Type, a type block. In V B dot NET, the equivalent is structure. Same idea: a container that groups related pieces of data together.",
+   "words": 46,
+   "spoken_sha256": "82eac22007ebfc581e32d47494b12c0d9a151ca2c17d698cecd70c56b1202a91"
+  },
+  {
+   "id": "S06-B03",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "A card has two things: a rank and a suit. The rank is an integer from 2 to 14. Two through ten are obvious. Eleven is Jack, twelve is Queen, thirteen is King, and fourteen is Ace. Why not one for Ace?",
+   "cues": [
+    "The structure on screen with annotations pointing to each field."
+   ],
+   "code": [
+    "Structure Card\n    Dim Rank As Integer\n    Dim Suit As Char\nEnd Structure"
+   ],
+   "continues": false,
+   "spoken": "A card has two things: a rank and a suit. The rank is an integer from two to fourteen. Two through ten are obvious. Eleven is Jack, twelve is Queen, thirteen is King, and fourteen is Ace. Why not one for Ace?",
+   "words": 42,
+   "spoken_sha256": "33c17e238791d1684868ea13be17c13513e99eb89143f1ee434466b8944d010f"
+  },
+  {
+   "id": "S06-B04",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "Because in War, Aces are high — they beat everything — and if Ace is 14, then comparing two cards is just comparing two integers. Higher number wins. No special cases needed.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "Because in War, Aces are high, they beat everything, and if Ace is fourteen, then comparing two cards is just comparing two integers. Higher number wins. No special cases needed.",
+   "words": 32,
+   "spoken_sha256": "424188070fc7d1e3e38a607556414d42f54e01d3af4f51bcbd3b48a9c4ba090d"
+  },
+  {
+   "id": "S06-B05",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "The suit is a single character — S, H, D, or C. Spades, Hearts, Diamonds, Clubs. War doesn't actually care about suits. They're there purely so the output looks nice. When the program tells you \"Player 1 plays the Ace of Spades,\" that's the suit doing its job. But the game logic never looks at it.",
+   "cues": [
+    "A visual chart: 2=2, 3=3... 10=10, J=11, Q=12, K=13, A=14"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The suit is a single character, S, H, D, or C. Spades, Hearts, Diamonds, Clubs. War doesn't actually care about suits. They're there purely so the output looks nice. When the program tells you \"Player one plays the Ace of Spades,\" that's the suit doing its job. But the game logic never looks at it.",
+   "words": 56,
+   "spoken_sha256": "9ead5c947996e77a8124ed3e2d3f2bebeab32193385e440f232fcd54dce232a7"
+  },
+  {
+   "id": "S06-B06",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "Now, let's talk about something that might look weird if you're coming from C# or C++: the keyword `Dim`.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Now, let's talk about something that might look weird if you're coming from C sharp or C plus plus: the keyword dim.",
+   "words": 19,
+   "spoken_sha256": "30ce3cbe30ae6a0b52587d85ac7f04ffe0ac69a1c610b277edda6fb671ef8995"
+  },
+  {
+   "id": "S06-B07",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "`Dim` is how you declare a variable in Visual Basic. It stands for \"Dimension\" — as in, dimension an array, allocate space for this thing. That name goes all the way back to the original 1964 BASIC at Dartmouth. In the earliest versions, `DIM` was specifically for declaring the dimensions of arrays. Over time, it got repurposed to declare any variable.",
+   "cues": [
+    "The word `Dim` highlighted, with a thought bubble: \"Dimension?\""
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "dim is how you declare a variable in Visual Basic. It stands for \"Dimension\", as in, dimension an array, allocate space for this thing. That name goes all the way back to the original nineteen sixty-four BASIC at Dartmouth. In the earliest versions, dim was specifically for declaring the dimensions of arrays. Over time, it got repurposed to declare any variable.",
+   "words": 61,
+   "spoken_sha256": "bfbb8e68a5c39bed389f1edb203ba434fad7230f9e607c50fa2e3f74092d42aa"
+  },
+  {
+   "id": "S06-B08",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "Fifty years later, VB programmers are still typing `Dim` and most of them have no idea they're invoking an abbreviation from 1964.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "Fifty years later, V B programmers are still typing dim and most of them have no idea they're invoking an abbreviation from nineteen sixty-four.",
+   "words": 22,
+   "spoken_sha256": "c81d37c4738fe06094f2fda95a72838ec865087f8f98588d9b33f90142d8d491"
+  },
+  {
+   "id": "S06-B09",
+   "section": 6,
+   "section_title": "MODELING A CARD IN VB",
+   "written": "Compare that to C#, where you'd write `int rank;` or `char suit;`. In VB, the type comes after the name: `Dim Rank As Integer`. It reads more like English: \"Dimension a variable called Rank, as an Integer.\" That's very much a deliberate design choice — BASIC was always supposed to read like English.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Compare that to C sharp, where you'd write int rank or char suit. In V B, the type comes after the name: dim rank as integer. It reads more like English: \"Dimension a variable called Rank, as an Integer.\" That's very much a deliberate design choice, BASIC was always supposed to read like English.",
+   "words": 53,
+   "spoken_sha256": "4f247ae12c843b4584e315a3e824b130a44fc1ef4c538d247310481b55f9d41f"
+  },
+  {
+   "id": "S07-B01",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Next, we need a deck. Fifty-two cards: thirteen ranks times four suits.",
+   "cues": [
+    "The `BuildDeck` subroutine on screen."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Next, we need a deck. Fifty-two cards: thirteen ranks times four suits.",
+   "words": 12,
+   "spoken_sha256": "70c796ff1fa2aa3b5682cf88a4654a8c735ad00c9bd115689c9405eb5dcccb30"
+  },
+  {
+   "id": "S07-B02",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Two nested `For` loops. The outer loop walks through ranks 2 to 14. The inner loop walks through the four suits. We drop each card into the array at the current index and bump the index. After both loops finish, we have a perfectly ordered 52-card deck.",
+   "cues": [],
+   "code": [
+    "Sub BuildDeck(ByRef Deck() As Card)\n    Dim Suits() As Char = {\"S\"c, \"H\"c, \"D\"c, \"C\"c}\n    Dim Rank As Integer\n    Dim SuitIndex As Integer\n    Dim Index As Integer\n\n    Index = 0\n    For Rank = 2 To 14\n        For SuitIndex = 0 To 3\n            Deck(Index).Rank = Rank\n            Deck(Index).Suit = Suits(SuitIndex)\n            Index = Index + 1\n        Next SuitIndex\n    Next Rank\nEnd Sub"
+   ],
+   "continues": false,
+   "spoken": "Two nested for loops. The outer loop walks through ranks two to fourteen. The inner loop walks through the four suits. We drop each card into the array at the current index and bump the index. After both loops finish, we have a perfectly ordered fifty-two card deck.",
+   "words": 47,
+   "spoken_sha256": "649e980c38f4af295a58ddaf0997f70bffc79135e349bb7faaca3eda5932f8ab"
+  },
+  {
+   "id": "S07-B03",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Let's pause and look at a few VB-specific things here. First: `Sub`. Not `void`, not `function` — `Sub`. Short for \"subroutine.\" In Visual Basic, there's a hard distinction between a `Sub`, which does something and doesn't return a value, and a `Function`, which does something and gives you back a result.",
+   "cues": [
+    "Animated grid filling in — 4 columns (suits) × 13 rows (ranks), each cell lighting up as the loop hits it."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Let's pause and look at a few V B-specific things here. First: sub. Not void, not function, sub. Short for \"subroutine.\" In Visual Basic, there's a hard distinction between a sub, which does something and doesn't return a value, and a function, which does something and gives you back a result.",
+   "words": 51,
+   "spoken_sha256": "87ca74287a493a2c54f91549a7110b7f522fd583831b2663f34e3d03b42f2afe"
+  },
+  {
+   "id": "S07-B04",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "In C-family languages, a function that returns nothing is just a function with a `void` return type. In VB, it's a completely different keyword.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "In C-family languages, a function that returns nothing is just a function with a void return type. In V B, it's a completely different keyword.",
+   "words": 24,
+   "spoken_sha256": "f449fb19fadaf6a0902187397e97623ddb03fbe99c6b8e3daf385e18e7c05e94"
+  },
+  {
+   "id": "S07-B05",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Second: `ByRef`. See that in the parameter list? In VB, you had to explicitly say whether a parameter was passed by reference or by value. `ByRef` means the subroutine receives a pointer to the original — changes are visible to the caller. `ByVal` means it gets a copy. In classic VB4, the default was `ByRef` for everything, which was efficient but dangerous.",
+   "cues": [
+    "Side-by-side comparison:"
+   ],
+   "code": [
+    "C#:    void BuildDeck(Card[] deck) { ... }\nVB:    Sub BuildDeck(ByRef Deck() As Card) ... End Sub"
+   ],
+   "continues": false,
+   "spoken": "Second: by ref. See that in the parameter list? In V B, you had to explicitly say whether a parameter was passed by reference or by value. by ref means the subroutine receives a pointer to the original, changes are visible to the caller. by val means it gets a copy. In classic V B four, the default was by ref for everything, which was efficient but dangerous.",
+   "words": 62,
+   "spoken_sha256": "f3811458467cbb5a69d9a71ab0c50b80d58a22874febf44da915c8788a49c3d4"
+  },
+  {
+   "id": "S07-B06",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "It meant you could accidentally modify data the caller didn't expect you to touch.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "It meant you could accidentally modify data the caller didn't expect you to touch.",
+   "words": 14,
+   "spoken_sha256": "603eb77de03dfe8baaa4ad281514008cf814617636f026b80e73cde9eba7aa30"
+  },
+  {
+   "id": "S07-B07",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Third: look at the `For` loop syntax. `For Rank = 2 To 14`. Then at the end: `Next Rank`. That `Next Rank` is closing the loop and telling you what variable is being incremented. If you're used to C-style `for (int i = 0; i < 14; i++)`, this is going to look almost quaint.",
+   "cues": [
+    "Diagram — ByRef: arrow pointing from sub back to caller's variable. ByVal: a copy being made, arrow pointing to a separate box."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Third: look at the for loop syntax. for rank equals two to fourteen. Then at the end: next rank. That next rank is closing the loop and telling you what variable is being incremented. If you're used to C-style for, int i equals zero, i less than fourteen, i plus plus, this is going to look almost quaint.",
+   "words": 55,
+   "spoken_sha256": "5a4e8f4b1cf759db58a66ab3e0970b1d1067dd4bd69f0a6e115e2e0f9f7fcd56"
+  },
+  {
+   "id": "S07-B08",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "But there's something kind of nice about it — when you have nested loops, each `Next` names its variable, so you can see at a glance which loop is ending.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "But there's something kind of nice about it, when you have nested loops, each next names its variable, so you can see at a glance which loop is ending.",
+   "words": 30,
+   "spoken_sha256": "4c42b228f62d2b7c9a0a6a1fb454cf5893e44890aedb0b1658b1a77057b389a4"
+  },
+  {
+   "id": "S07-B09",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Now, the shuffle:",
+   "cues": [
+    "The nested loops with colored brackets showing which `Next` closes which `For`."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Now, the shuffle:",
+   "words": 3,
+   "spoken_sha256": "9fd3cf8891114f1ab99e82548873d54aaf11742b5a5914b30e4d1aabbbb145b1"
+  },
+  {
+   "id": "S07-B10",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "This is a Fisher-Yates shuffle — the gold standard for producing an unbiased random permutation. You walk backwards through the array, and for each position, you swap it with a randomly chosen position at or before it. Every possible ordering of the deck is equally likely. This is the same algorithm you'd use in C++ or C# or Python or anything else.",
+   "cues": [],
+   "code": [
+    "Sub ShuffleDeck(ByRef Deck() As Card)\n    Dim Rnd As New Random()\n    Dim i As Integer\n    Dim j As Integer\n    Dim Temp As Card\n\n    For i = 51 To 1 Step -1\n        j = Rnd.Next(0, i + 1)\n        Temp = Deck(i)\n        Deck(i) = Deck(j)\n        Deck(j) = Temp\n    Next i\nEnd Sub"
+   ],
+   "continues": false,
+   "spoken": "This is a Fisher-Yates shuffle, the gold standard for producing an unbiased random permutation. You walk backwards through the array, and for each position, you swap it with a randomly chosen position at or before it. Every possible ordering of the deck is equally likely. This is the same algorithm you'd use in C plus plus or C sharp or Python or anything else.",
+   "words": 62,
+   "spoken_sha256": "a7f9796f8fa928961e2b012b4b5a14f06f1cb0efe429befd8daf9b1913a268a1"
+  },
+  {
+   "id": "S07-B11",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "It's one of those algorithms that's just correct, and has been since 1938 when Fisher and Yates published it.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "It's one of those algorithms that's just correct, and has been since nineteen thirty-eight when Fisher and Yates published it.",
+   "words": 19,
+   "spoken_sha256": "945d14d0647314472b0411e0810b15930d5c5ba1f7215ac69bc0fc9b48c23647"
+  },
+  {
+   "id": "S07-B12",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "The VB-specific thing to notice here is `For i = 51 To 1 Step -1`. That `Step -1` is how you count backwards. C-family languages just use `i--` in the for-loop update. VB makes you spell it out: \"step by negative one.\" Verbose, but unambiguous.",
+   "cues": [
+    "Animation of the shuffle — an array of numbered cards, each step highlighting the swap. The array goes from ordered to shuffled."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The V B-specific thing to notice here is for i equals fifty-one to one, step minus one. That step minus one is how you count backwards. C-family languages just use i minus minus in the for-loop update. V B makes you spell it out: \"step by negative one.\" Verbose, but unambiguous.",
+   "words": 45,
+   "spoken_sha256": "e0d3d788a08265f845e6fe9dd22614424c6262482ab2a1e55a6d04a018367456"
+  },
+  {
+   "id": "S07-B13",
+   "section": 7,
+   "section_title": "BUILDING AND SHUFFLING THE DECK",
+   "written": "Also notice: every single variable is declared at the top of the subroutine with `Dim`. In classic VB, you couldn't declare variables in the middle of the code. Everything went at the top. It's like writing C89 — all declarations before any statements. C# and modern C++ let you declare variables wherever you want. VB was stricter about this.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Also notice: every single variable is declared at the top of the subroutine with dim. In classic V B, you couldn't declare variables in the middle of the code. Everything went at the top. It's like writing C eighty-nine, all declarations before any statements. C sharp and modern C plus plus let you declare variables wherever you want. V B was stricter about this.",
+   "words": 59,
+   "spoken_sha256": "8da3dec9b98567e48cd66db2b196062b680d805a01190926af46e0d17d44e7ab"
+  },
+  {
+   "id": "S08-B01",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "Here's where things get interesting from a data structures perspective. Each player has a hand of cards, and that hand needs to behave like a queue — first in, first out. When you win cards, they go to the bottom of your pile. When you play a card, it comes off the top.",
+   "cues": [
+    "The `Hand` structure and the `AddCardToBottom` / `DrawTopCard` functions."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Here's where things get interesting from a data structures perspective. Each player has a hand of cards, and that hand needs to behave like a queue, first in, first out. When you win cards, they go to the bottom of your pile. When you play a card, it comes off the top.",
+   "words": 53,
+   "spoken_sha256": "1ba9ef6b5070db78f70a6824aaa325bc13bef74fc0a4fcf3f11ccc318272b980"
+  },
+  {
+   "id": "S08-B02",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "In C#, you'd use `Queue<Card>` and call it a day. In C++, you'd use `std::queue`. In 1995 VB? You didn't have generic collections. You didn't even have a built-in queue. You had arrays, and you had `ReDim`, and that was about it.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "In C sharp, you'd use queue of card and call it a day. In C plus plus, you'd use standard queue. In nineteen ninety-five V B? You didn't have generic collections. You didn't even have a built-in queue. You had arrays, and you had re-dim, and that was about it.",
+   "words": 42,
+   "spoken_sha256": "ac2b417740325140a3747cf7946d2f784e41dcfc73eeb8dd198880040b1340de"
+  },
+  {
+   "id": "S08-B03",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "So we fake it:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "So we fake it:",
+   "words": 4,
+   "spoken_sha256": "0ebc8ed5c560006bec8ca8e9004090a109e70427b3681810f58ccc4925745f41"
+  },
+  {
+   "id": "S08-B04",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "The hand is an array of 52 slots — the maximum possible, since you could theoretically hold all the cards — and a counter that tracks how many slots are actually in use. Cards zero through Count-minus-one are live. Everything past Count is garbage.",
+   "cues": [
+    "A visual diagram of the Hand structure — an array of 52 slots, with only the first N filled. An arrow labeled \"Count\" points to the boundary."
+   ],
+   "code": [
+    "Structure Hand\n    Dim Cards() As Card\n    Dim Count As Integer\nEnd Structure"
+   ],
+   "continues": false,
+   "spoken": "The hand is an array of fifty-two slots, the maximum possible, since you could theoretically hold all the cards, and a counter that tracks how many slots are actually in use. Cards zero through Count-minus-one are live. Everything past Count is garbage.",
+   "words": 44,
+   "spoken_sha256": "896002bb9aa091dc011932acf3a74399673608c6bcf1bd17480557063350f1b8"
+  },
+  {
+   "id": "S08-B05",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "Adding a card to the bottom is simple — drop it at position Count and increment:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Adding a card to the bottom is simple, drop it at position Count and increment:",
+   "words": 16,
+   "spoken_sha256": "e1bb9f03790e478701c58d3c50058c853b338e4377033ff4eb04130c49bdb7c6"
+  },
+  {
+   "id": "S08-B06",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "Drawing from the top is more expensive. You take the card at position zero, then shift everything else forward by one slot:",
+   "cues": [],
+   "code": [
+    "Sub AddCardToBottom(ByRef H As Hand, ByVal C As Card)\n    H.Cards(H.Count) = C\n    H.Count = H.Count + 1\nEnd Sub"
+   ],
+   "continues": false,
+   "spoken": "Drawing from the top is more expensive. You take the card at position zero, then shift everything else forward by one slot:",
+   "words": 22,
+   "spoken_sha256": "4095f1fa2df64bdcbbfb6ef43b9652388ca3e86080a6dad05d45fa70e990f19f"
+  },
+  {
+   "id": "S08-B07",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "That shift is O(n) — every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in O(1). But we're writing 1995 VB. Nobody was thinking about algorithmic complexity when they had 26 cards in a hand. Computers were slower, but data sets were tiny.",
+   "cues": [
+    "Animation — cards in a row. The leftmost card is removed, and all the others slide left to fill the gap."
+   ],
+   "code": [
+    "Function DrawTopCard(ByRef H As Hand) As Card\n    Dim Top As Card\n    Dim i As Integer\n\n    Top = H.Cards(0)\n    For i = 1 To H.Count - 1\n        H.Cards(i - 1) = H.Cards(i)\n    Next i\n    H.Count = H.Count - 1\n\n    DrawTopCard = Top\nEnd Function"
+   ],
+   "continues": false,
+   "spoken": "That shift is O(n), every card in the hand moves one position. With a proper circular buffer or a linked list, you could do this in O(one). But we're writing nineteen ninety-five V B. Nobody was thinking about algorithmic complexity when they had twenty-six cards in a hand. Computers were slower, but data sets were tiny.",
+   "words": 55,
+   "spoken_sha256": "28e3a418c05177c7aa2fd4ae3e40e9bb170ff23d968a759cc1fccb6a737ffa34"
+  },
+  {
+   "id": "S08-B08",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "The whole game finishes in a few hundred to a couple of thousand rounds, and each round shifts at most 52 cards. A Pentium 75 could handle this without breaking a sweat.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "The whole game finishes in a few hundred to a couple of thousand rounds, and each round shifts at most fifty-two cards. A Pentium seventy-five could handle this without breaking a sweat.",
+   "words": 32,
+   "spoken_sha256": "022daf0244e1dee0c45a408385e703ad89535a7fde58964b38b84580ce8608fb"
+  },
+  {
+   "id": "S08-B09",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "Now, look at the `Function` return syntax:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Now, look at the function return syntax:",
+   "words": 7,
+   "spoken_sha256": "57669d6c2ab27b701ce00244889f8302a573dec9eb0b6215a09371debdaec6af"
+  },
+  {
+   "id": "S08-B10",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "This is one of the weirdest things in VB if you're coming from any other language. To return a value from a function, you assign to the function's own name. You don't write `return Top;` — you write `DrawTopCard = Top`, where `DrawTopCard` is the name of the function you're inside of.",
+   "cues": [
+    "This line highlighted with a \"wait, what?\" annotation."
+   ],
+   "code": [
+    "DrawTopCard = Top"
+   ],
+   "continues": false,
+   "spoken": "This is one of the weirdest things in V B if you're coming from any other language. To return a value from a function, you assign to the function's own name. You don't write return top, you write draw top card equals top, where draw top card is the name of the function you're inside of.",
+   "words": 52,
+   "spoken_sha256": "ea6ec5d2165e671b8aa40fcfe4e46c597f7a5381e6d6edae727d57c69830e3c6"
+  },
+  {
+   "id": "S08-B11",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "The function name acts as an implicit local variable that holds the return value.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "The function name acts as an implicit local variable that holds the return value.",
+   "words": 14,
+   "spoken_sha256": "6639a50dc8eb5df77203977f0b3783f7d0d07b96b8b75d99a5f089c3a93f32e4"
+  },
+  {
+   "id": "S08-B12",
+   "section": 8,
+   "section_title": "THE PLAYER'S HAND — ARRAYS AS QUEUES",
+   "written": "This is pure old-school BASIC heritage. It's been this way since the 1960s. VB.NET also supports the `Return` keyword, but the assign-to-function-name style is the traditional way, and it's what you would have seen in the 90s.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "This is pure old-school BASIC heritage. It's been this way since the nineteen sixties. V B dot NET also supports the return keyword, but the assign-to-function-name style is the traditional way, and it's what you would have seen in the nineties.",
+   "words": 37,
+   "spoken_sha256": "8b625cecaa509457b04adae5c0f65f9b7265417d1c06b21fd4894ac80d5127ca"
+  },
+  {
+   "id": "S09-B01",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "The main game loop is where everything comes together. Let's walk through `Sub Main`:",
+   "cues": [
+    "The `Sub Main` code, with the `Do While` loop highlighted."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The main game loop is where everything comes together. Let's walk through sub main:",
+   "words": 14,
+   "spoken_sha256": "eba7d1147ac03738ce6f101b234230d270ab5e3d38591eb3d8e2ec2c545d45a2"
+  },
+  {
+   "id": "S09-B02",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "We build a deck, shuffle it, create two empty hands, and deal — alternating cards, one to Player 1, one to Player 2, until all 52 are distributed. Each player gets 26.",
+   "cues": [],
+   "code": [
+    "BuildDeck(Deck)\nShuffleDeck(Deck)\n\nPlayer1 = NewHand()\nPlayer2 = NewHand()\nDealCards(Deck, Player1, Player2)"
+   ],
+   "continues": false,
+   "spoken": "We build a deck, shuffle it, create two empty hands, and deal, alternating cards, one to Player one, one to Player two, until all fifty-two are distributed. Each player gets twenty-six.",
+   "words": 32,
+   "spoken_sha256": "63d6b52a643da1d06d4bc18f44a172ea8702cb8699711985aa30ddd7ecda22ec"
+  },
+  {
+   "id": "S09-B03",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "Then the loop:",
+   "cues": [
+    "Animation — a deck splitting into two piles, cards alternating left and right."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Then the loop:",
+   "words": 3,
+   "spoken_sha256": "3e0117db75aa90954d6765b3e9b372bd61c258969d43780bd13c0bc8d2e1ca70"
+  },
+  {
+   "id": "S09-B04",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "`Do While...Loop`. In C, that's `while (...) { }`. It keeps going as long as both players have at least one card. When either player hits zero, the loop ends and we have a winner.",
+   "cues": [],
+   "code": [
+    "Do While Player1.Count > 0 And Player2.Count > 0\n    RoundNumber = RoundNumber + 1\n    If RoundNumber > MAX_ROUNDS Then\n        ' Safety valve — call it a draw\n        Exit Do\n    End If\n    PlayRound(RoundNumber, Player1, Player2, WarCount)\nLoop"
+   ],
+   "continues": false,
+   "spoken": "do while loop. In C, that's while ( ) { }. It keeps going as long as both players have at least one card. When either player hits zero, the loop ends and we have a winner.",
+   "words": 35,
+   "spoken_sha256": "b50cf8fcea1e73f583c1157df6b865015c3ead8b862c84c551456f30772613a7"
+  },
+  {
+   "id": "S09-B05",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "The `MAX_ROUNDS` check is a safety valve. War is theoretically capable of cycling forever — the same cards going back and forth in a loop. In practice, with a random shuffle, games do end — my recorded runs took anywhere from 150 to 2,008 rounds. But just in case, we cap it at 20,000 rounds and call it a draw.",
+   "cues": [
+    "Flowchart — \"Both have cards?\" → Yes → Play round → loop back. No → Determine winner."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The max rounds check is a safety valve. War is theoretically capable of cycling forever, the same cards going back and forth in a loop. In practice, with a random shuffle, games do end, my recorded runs took anywhere from one hundred fifty to two thousand eight rounds. But just in case, we cap it at twenty thousand rounds and call it a draw.",
+   "words": 60,
+   "spoken_sha256": "4b83bd9af46fa22b0371401c81565d7f43cfe7d10986399359a1a19a97e943d7"
+  },
+  {
+   "id": "S09-B06",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "In my testing, I've never actually hit the cap.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "In my testing, I've never actually hit the cap.",
+   "words": 9,
+   "spoken_sha256": "96f296ed59ee550e44c77c2e05ddb8b79f2dedcfbe19007ab72c4798eadc4ef8"
+  },
+  {
+   "id": "S09-B07",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "Notice the string concatenation operator: `&`. In C# and C++, you use `+` to glue strings together. In VB, you use `&`. The reason is that `+` in VB does different things depending on the types involved — it might add numbers or concatenate strings — and this ambiguity caused enough bugs that Microsoft recommended always using `&` for strings.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Notice the string concatenation operator: the ampersand. In C sharp and C plus plus, you use plus to glue strings together. In V B, you use the ampersand. The reason is that plus in V B does different things depending on the types involved, it might add numbers or concatenate strings, and this ambiguity caused enough bugs that Microsoft recommended always using the ampersand for strings.",
+   "words": 60,
+   "spoken_sha256": "8990ce3059d4bca0e65adcc97498e181c6a5c0100d369506071f19aed5a03ca9"
+  },
+  {
+   "id": "S09-B08",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "It's one of those \"we made it too easy and now we need a rule to prevent the easy thing from biting you\" situations.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "It's one of those \"we made it too easy and now we need a rule to prevent the easy thing from biting you\" situations.",
+   "words": 24,
+   "spoken_sha256": "82721fe5d58d3242c83a892ce64ed49d6718d8d9e8f85e3fcc6e28251d31ebeb"
+  },
+  {
+   "id": "S09-B09",
+   "section": 9,
+   "section_title": "THE GAME LOOP",
+   "written": "Also notice line continuation: the underscore `_` at the end of a line means \"this statement continues on the next line.\" In C-family languages, a statement continues until you hit a semicolon. In VB, every line is its own statement by default — the underscore is the escape hatch when a line gets too long.",
+   "cues": [
+    "Quick comparison chart:"
+   ],
+   "code": [
+    "C#:     \"Hello \" + name\nVB:     \"Hello \" & name"
+   ],
+   "continues": false,
+   "spoken": "Also notice line continuation: the underscore at the end of a line means \"this statement continues on the next line.\" In C-family languages, a statement continues until you hit a semicolon. In V B, every line is its own statement by default, the underscore is the escape hatch when a line gets too long.",
+   "words": 55,
+   "spoken_sha256": "7a72f4602609b862426ac57f1e42d49863f3436d9c5558ef5c8011e0e0293b99"
+  },
+  {
+   "id": "S10-B01",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "The `PlayRound` subroutine is the heart of the game, and it's where the most interesting logic lives. It's also where the War mechanic — the thing the game is named after — actually happens.",
+   "cues": [
+    "The `PlayRound` subroutine, with the inner `Do...Loop` highlighted."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The play round subroutine is the heart of the game, and it's where the most interesting logic lives. It's also where the War mechanic, the thing the game is named after, actually happens.",
+   "words": 34,
+   "spoken_sha256": "399bd47e3e05a9135f53f66702defcda7603290a5b8ca1c11618f54ebd8b237e"
+  },
+  {
+   "id": "S10-B02",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Four parameters. The round number is passed `ByVal` because we just read it. The two hands and the war counter are `ByRef` because this subroutine modifies them.",
+   "cues": [],
+   "code": [
+    "Sub PlayRound(ByVal RoundNumber As Integer, ByRef Player1 As Hand, _\n              ByRef Player2 As Hand, ByRef WarCount As Integer)"
+   ],
+   "continues": false,
+   "spoken": "Four parameters. The round number is passed by val because we just read it. The two hands and the war counter are by ref because this subroutine modifies them.",
+   "words": 27,
+   "spoken_sha256": "e083515d3088513402cf3fdb1afd100cb7a30dc989899e2b069b9b768e2e11a2"
+  },
+  {
+   "id": "S10-B03",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Inside, there's a pot — an array that collects all the cards at stake this round:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Inside, there's a pot, an array that collects all the cards at stake this round:",
+   "words": 16,
+   "spoken_sha256": "8a0385e2f22f4a56f214973780b47eefd93e26216b85f8f90ae83df91d632c79"
+  },
+  {
+   "id": "S10-B04",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "The pot can theoretically hold every card in the game. In a normal round, it holds two cards. In a war, it holds ten. In a double war, eighteen. In theory, wars can chain indefinitely, though in practice it's extremely rare to go past three.",
+   "cues": [
+    "A diagram of the \"pot\" — a growing pile between the two players."
+   ],
+   "code": [
+    "Dim Pot(HAND_CAPACITY * 2 - 1) As Card\nDim PotCount As Integer"
+   ],
+   "continues": false,
+   "spoken": "The pot can theoretically hold every card in the game. In a normal round, it holds two cards. In a war, it holds ten. In a double war, eighteen. In theory, wars can chain indefinitely, though in practice it's extremely rare to go past three.",
+   "words": 45,
+   "spoken_sha256": "5af0379e9bba2753665a41866c76fc6098558b1f0e25a10743594afca532f116"
+  },
+  {
+   "id": "S10-B05",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Then there's an inner `Do...Loop` — not a `Do While`, just `Do...Loop`, which is an infinite loop that we exit with `Exit Sub` when someone wins. Each iteration:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Then there's an inner do loop, not a do while, just do loop, which is an infinite loop that we exit with exit sub when someone wins. Each iteration:",
+   "words": 28,
+   "spoken_sha256": "c89dba43aa9d26fa0871be73d3ad1e891cedb043f394627bd5b4b85f28e60fef"
+  },
+  {
+   "id": "S10-B06",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "One — check if either player is out of cards. If you can't play, you lose, and the other player takes the pot.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "One, check if either player is out of cards. If you can't play, you lose, and the other player takes the pot.",
+   "words": 23,
+   "spoken_sha256": "fe466e4bbf7a02cdb091035a9fcdb756fbdaef91be13ed9d3c38786c60c40655"
+  },
+  {
+   "id": "S10-B07",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Two — both players draw their top card. Both cards go into the pot.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Two, both players draw their top card. Both cards go into the pot.",
+   "words": 14,
+   "spoken_sha256": "d22a13a00845b9167e421594e38cd1106d8d18b9805ae3aae9dae731582400a7"
+  },
+  {
+   "id": "S10-B08",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Three — compare ranks. If Player 1's rank is higher, Player 1 wins the pot. `Exit Sub`. If Player 2's rank is higher, Player 2 wins the pot. `Exit Sub`. If they're equal? War.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Three, compare ranks. If Player one's rank is higher, Player one wins the pot. exit sub. If Player two's rank is higher, Player two wins the pot. exit sub. If they're equal? War.",
+   "words": 34,
+   "spoken_sha256": "3127585d8bd2e0ec87c4da54809c3d791d8e9e108174ea02c5fcd85249f649c0"
+  },
+  {
+   "id": "S10-B09",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Each player burns up to three cards face-down — or fewer, if they don't have three left. Then the loop goes back to the top, draws again, and compares again. If it's another tie, another war. The pot keeps growing.",
+   "cues": [
+    "Step-by-step animation of a War sequence:"
+   ],
+   "code": [
+    "WarNumber = WarNumber + 1\nWarCount = WarCount + 1\n\nBurnCount = Math.Min(3, Math.Min(Player1.Count, Player2.Count))\nFor i = 1 To BurnCount\n    Pot(PotCount) = DrawTopCard(Player1) : PotCount = PotCount + 1\n    Pot(PotCount) = DrawTopCard(Player2) : PotCount = PotCount + 1\nNext i"
+   ],
+   "continues": false,
+   "spoken": "Each player burns up to three cards face-down, or fewer, if they don't have three left. Then the loop goes back to the top, draws again, and compares again. If it's another tie, another war. The pot keeps growing.",
+   "words": 40,
+   "spoken_sha256": "acdeebe855f9f43441937d46e5dcabe46eed0f492f541c2b2be48f6061cc2e71"
+  },
+  {
+   "id": "S10-B10",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "Notice this line:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Notice this line:",
+   "words": 3,
+   "spoken_sha256": "9078591a068021f076b0d2222a81c17b8061e8323e362fd7d55399fe215e93ec"
+  },
+  {
+   "id": "S10-B11",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "That colon `:` is VB's statement separator — it puts two statements on one line. It's the equivalent of putting two lines on one line. Frowned upon by style guides, but convenient for cases like this where the two operations are conceptually atomic.",
+   "cues": [],
+   "code": [
+    "Pot(PotCount) = DrawTopCard(Player1) : PotCount = PotCount + 1"
+   ],
+   "continues": false,
+   "spoken": "That colon : is V B's statement separator, it puts two statements on one line. It's the equivalent of putting two lines on one line. Frowned upon by style guides, but convenient for cases like this where the two operations are conceptually atomic.",
+   "words": 43,
+   "spoken_sha256": "aa3aee9a18008847a2a18c538930f7c8b36856f691512dea234b1ae90117f45d"
+  },
+  {
+   "id": "S10-B12",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "The `GiveCardsToWinner` subroutine at the end is simple — it walks the pot array and adds each card to the bottom of the winner's hand:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "The give cards to winner subroutine at the end is simple, it walks the pot array and adds each card to the bottom of the winner's hand:",
+   "words": 25,
+   "spoken_sha256": "b710c9b0e9d4d0b9a291efbece27fa29085f020ba053448f977a85b54fcddbb7"
+  },
+  {
+   "id": "S10-B13",
+   "section": 10,
+   "section_title": "WAR! THE RECURSION WITHIN THE LOOP",
+   "written": "This is what determines the eventual outcome of the game. The order in which won cards get added to your hand affects what you'll play in future rounds, which affects who wins those rounds. War is deterministic after the shuffle — the outcome is sealed the moment the cards are dealt. There's no randomness during play. The only randomness is in the initial shuffle.",
+   "cues": [
+    "The pot cards sliding into the winner's hand, one at a time, at the bottom of the pile."
+   ],
+   "code": [
+    "Sub GiveCardsToWinner(ByRef Pot() As Card, ByRef PotCount As Integer, ByRef Winner As Hand)\n    Dim i As Integer\n    For i = 0 To PotCount - 1\n        AddCardToBottom(Winner, Pot(i))\n    Next i\n    PotCount = 0\nEnd Sub"
+   ],
+   "continues": false,
+   "spoken": "This is what determines the eventual outcome of the game. The order in which won cards get added to your hand affects what you'll play in future rounds, which affects who wins those rounds. War is deterministic after the shuffle, the outcome is sealed the moment the cards are dealt. There's no randomness during play. The only randomness is in the initial shuffle.",
+   "words": 64,
+   "spoken_sha256": "36772d27a4b11bdcb5e32a7507bdce8e603d0929aaba53e47f20789bc3124698"
+  },
+  {
+   "id": "S11-B01",
+   "section": 11,
+   "section_title": "RUNNING IT — FULL SIMULATION",
+   "written": "Let's run it.",
+   "cues": [
+    "Terminal. The program runs. Full output scrolling, but slowed down enough to read the first few rounds. (Capture: TERM-04 — this whole section follows that one run.)"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Let's run it.",
+   "words": 3,
+   "spoken_sha256": "95b2c09c8eb119ec4c201376be9b025ca2b22e16f51ca886aade7e3a725528ba"
+  },
+  {
+   "id": "S11-B02",
+   "section": 11,
+   "section_title": "RUNNING IT — FULL SIMULATION",
+   "written": "A double war — Ace against Ace, then Queen against Queen, before an Ace finally beat a 2. Eighteen cards in the pot. That's a third of the entire deck changing hands in a single round.",
+   "cues": [
+    "Output appearing on screen:",
+    "Speed up the scrolling — rounds fly by. Pause when a WAR appears:",
+    "Highlight the \"18 cards\" — that's a huge haul."
+   ],
+   "code": [
+    "dotnet run",
+    "=====================================\n   W A R   -   CPU vs CPU Simulator\n=====================================\n\nCards dealt: Player 1 has 26, Player 2 has 26.\n\nRound 1: Player 1 plays Ace of Clubs, Player 2 plays 10 of Clubs.\n        Player 1 wins the round (2 cards).\nRound 2: Player 1 plays 10 of Diamonds, Player 2 plays 6 of Hearts.\n        Player 1 wins the round (2 cards).",
+    "Round 245: Player 1 plays Ace of Hearts, Player 2 plays Ace of Spades.\n        ** WAR! ** (war number 1 this round)\n        War card - Player 1 plays Queen of Diamonds, Player 2 plays Queen of Spades.\n        ** WAR! ** (war number 2 this round)\n        War card - Player 1 plays Ace of Diamonds, Player 2 plays 2 of Clubs.\n        Player 1 wins the round (18 cards)."
+   ],
+   "continues": false,
+   "spoken": "A double war, Ace against Ace, then Queen against Queen, before an Ace finally beat a two. Eighteen cards in the pot. That's a third of the entire deck changing hands in a single round.",
+   "words": 36,
+   "spoken_sha256": "c0e84f2f26d5a5debd5678d958aa99bb12abd067dcbcc34a453bcd64683066c7"
+  },
+  {
+   "id": "S11-B03",
+   "section": 11,
+   "section_title": "RUNNING IT — FULL SIMULATION",
+   "written": "Every run is different because the shuffle is random. Sometimes it's over in 150 rounds. Sometimes it takes more than 2,000. The number of wars varies too — ten in one game, sixty-nine in another. But it always terminates.",
+   "cues": [
+    "Let it run to completion. Show the final summary:",
+    "Run it a few more times, showing the different results: (Captures: TERM-02, TERM-05, TERM-06.)"
+   ],
+   "code": [
+    "=====================================\nPLAYER 1 WINS THE WAR!\nTotal rounds played : 617\nTotal wars fought    : 26\n====================================="
+   ],
+   "continues": false,
+   "spoken": "Every run is different because the shuffle is random. Sometimes it's over in one hundred fifty rounds. Sometimes it takes more than two thousand. The number of wars varies too, ten in one game, sixty-nine in another. But it always terminates.",
+   "words": 39,
+   "spoken_sha256": "337e0459e041a6c5ebb2e54c7aad057a74cb38d073db79f04618873c36991394"
+  },
+  {
+   "id": "S11-B04",
+   "section": 11,
+   "section_title": "RUNNING IT — FULL SIMULATION",
+   "written": "This is about 280 lines of Visual Basic. Not 280 lines of boilerplate and framework code — 280 lines that actually do something. That's the whole game. Build, shuffle, deal, play, win. Done.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "This is about two hundred eighty lines of Visual Basic. Not two hundred eighty lines of boilerplate and framework code, two hundred eighty lines that actually do something. That's the whole game. Build, shuffle, deal, play, win. Done.",
+   "words": 33,
+   "spoken_sha256": "aaeabac3b04e905811daa59bd2d3a434b5ca1a780da93cbc2015c547a35e79a5"
+  },
+  {
+   "id": "S12-B01",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "Rewind to that first run for a moment — 617 rounds, Player 1 wins. We saw the final scoreboard, but not the final play. Here's how the game actually ended:",
+   "cues": [
+    "Return to the TERM-04 terminal output. Scroll back from the final summary to the last round. (Capture: TERM-04 — `TERM-04/source/stdout.txt` lines 1289–1291; screenshot `TERM-04/source/raw/04-end.png`; framed `TERM-04/exports/framed-end.png`.)"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Rewind to that first run for a moment, six hundred seventeen rounds, Player one wins. We saw the final scoreboard, but not the final play. Here's how the game actually ended:",
+   "words": 30,
+   "spoken_sha256": "a0854081b8c8c645c37cf00ca1d5a5d3443bbc7e6abd1ce3eb8c9e7bd2e2e7e2"
+  },
+  {
+   "id": "S12-B02",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "Player 2 didn't just lose a round. Player 2 ran out of cards in the middle of a war.",
+   "cues": [],
+   "code": [
+    "Round 617: Player 1 plays 10 of Diamonds, Player 2 plays 10 of Spades.\n        ** WAR! ** (war number 1 this round)\nPlayer 2 has no cards left for the war - Player 1 takes the pot."
+   ],
+   "continues": false,
+   "spoken": "Player two didn't just lose a round. Player two ran out of cards in the middle of a war.",
+   "words": 19,
+   "spoken_sha256": "2f8a9c4cabcba00296b71b724989fced6214a56657089bc9c468c5c5abf3d4a7"
+  },
+  {
+   "id": "S12-B03",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "Going into round 617, Player 2 had exactly 2 cards left — against Player 1's 50. Both played a 10: tie, war. Normally each player burns three cards face-down and flips a fourth. But Player 2 only had 1 card left after playing that 10. So what does the code do?",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Going into round six hundred seventeen, Player two had exactly two cards left, against Player one's fifty. Both played a ten: tie, war. Normally each player burns three cards face-down and flips a fourth. But Player two only had one card left after playing that ten. So what does the code do?",
+   "words": 51,
+   "spoken_sha256": "50e15c03c7def0976b231ad9fdf855b204a87037cd95796361ad7dec0a8649ef"
+  },
+  {
+   "id": "S12-B04",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "It doesn't demand three. It caps the burn at however many cards the shorter hand can spare. Player 2 had 1, so both players burned 1. After the burn, Player 2's hand was empty. The loop came back to the top, hit the empty-hand check, and that was it — Player 1 took the four-card pot and the game.",
+   "cues": [
+    "`Program.vb` line 264 highlighted, with annotations: \"cap at 3\" → \"cap at the shorter hand\" → \"result: 1\"."
+   ],
+   "code": [
+    "BurnCount = Math.Min(3, Math.Min(Player1.Count, Player2.Count))"
+   ],
+   "continues": false,
+   "spoken": "It doesn't demand three. It caps the burn at however many cards the shorter hand can spare. Player two had one, so both players burned one. After the burn, Player two's hand was empty. The loop came back to the top, hit the empty-hand check, and that was it, Player one took the four-card pot and the game.",
+   "words": 59,
+   "spoken_sha256": "6769fff04f798ec227145bfb33acc3072ef0df748336a117b9cceb7de4bbae43"
+  },
+  {
+   "id": "S12-B05",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "Panel 1: Player 2's hand — 2 cards. Player 1's hand — 50 cards. Panel 2: Both play a 10. 1 card left for Player 2, 49 for Player 1. Panel 3: Both burn 1. Zero cards left for Player 2. Panel 4: \"Player 2 has no cards left for the war — Player 1 takes the pot.\"]**",
+   "cues": [
+    "Step-by-step diagram, four panels:"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Panel one: Player two's hand, two cards. Player one's hand, fifty cards. Panel two: Both play a ten. one card left for Player two, forty-nine for Player one. Panel three: Both burn one. Zero cards left for Player two. Panel four: \"Player two has no cards left for the war, Player one takes the pot.\"]",
+   "words": 58,
+   "spoken_sha256": "866c58b9688511a7b2ec876d0aa77ffac3fc002bb61251289e8c984c09c1fbde"
+  },
+  {
+   "id": "S12-B06",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "And it happened again, in the opposite direction, purely by chance. The longest run — 2,008 rounds:",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "And it happened again, in the opposite direction, purely by chance. The longest run, two thousand eight rounds:",
+   "words": 17,
+   "spoken_sha256": "103627105fac01ebab6e345f99c66ef4fdd3b899c95eed3f48651e36d5999ebd"
+  },
+  {
+   "id": "S12-B07",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "Same mechanic. Player 1 walked into round 2,008 holding 3 cards against 49. Both played an 8, leaving Player 1 with 2. Both burned 2. Player 1's hand was empty, and Player 2 took the six-card pot.",
+   "cues": [
+    "Switch to TERM-02 terminal output. (Capture: TERM-02 — `TERM-02/source/stdout.txt` lines 4157–4159; screenshot `TERM-02/source/raw/04-end.png`; framed `TERM-02/exports/framed.png`.)"
+   ],
+   "code": [
+    "Round 2008: Player 1 plays 8 of Diamonds, Player 2 plays 8 of Clubs.\n        ** WAR! ** (war number 1 this round)\nPlayer 1 has no cards left for the war - Player 2 takes the pot."
+   ],
+   "continues": false,
+   "spoken": "Same mechanic. Player one walked into round two thousand eight holding three cards against forty-nine. Both played an eight, leaving Player one with two. Both burned two. Player one's hand was empty, and Player two took the six-card pot.",
+   "words": 37,
+   "spoken_sha256": "b70b56794f2c1cf2314352dfc6894965020c5e18fa5295fd8d5e15f91289b685"
+  },
+  {
+   "id": "S12-B08",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "TERM-04: 2 cards → play 10 → burn 1 → empty → 4-card pot TERM-02: 3 cards → play 8 → burn 2 → empty → 6-card pot]**",
+   "cues": [
+    "Side-by-side comparison:"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "TERM-four: two cards → play ten → burn one → empty → four-card pot TERM-two: three cards → play eight → burn two → empty → six-card pot]",
+   "words": 28,
+   "spoken_sha256": "587c647eec0ba82681b7dccdede2fb12664926b523e13a602baa1346e113dfa7"
+  },
+  {
+   "id": "S12-B09",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "This is a subtlety worth noticing. The rule isn't \"you need three cards for a war or you forfeit.\" It's \"burn what you have, and if there's nothing left to flip, you're done.\" A player down to two cards going into a war still gets a reduced burn — one card face-down, one card to compete with — and can still win it.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "This is a subtlety worth noticing. The rule isn't \"you need three cards for a war or you forfeit.\" It's \"burn what you have, and if there's nothing left to flip, you're done.\" A player down to two cards going into a war still gets a reduced burn, one card face-down, one card to compete with, and can still win it.",
+   "words": 63,
+   "spoken_sha256": "25e3f17b5137ece345e564a84656a729ae8a2fe72517f2c1f9232a8039379b11"
+  },
+  {
+   "id": "S12-B10",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "They only lose if that flip ties again and the well is truly dry.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "They only lose if that flip ties again and the well is truly dry.",
+   "words": 14,
+   "spoken_sha256": "efe7ca534e460526c4421fc834b735a738495ee57b22e577560f114a53fd0294"
+  },
+  {
+   "id": "S12-B11",
+   "section": 12,
+   "section_title": "WHEN THE CARDS RUN OUT",
+   "written": "Two of our four recorded runs ended exactly this way. Nobody planned it. The shuffle decided.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Two of our four recorded runs ended exactly this way. Nobody planned it. The shuffle decided.",
+   "words": 16,
+   "spoken_sha256": "70232f5f77d98c2ef3688aad8c4d0e6ee932ba501df5af7e53300425e059c24f"
+  },
+  {
+   "id": "S13-B01",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "Okay, so we've built a console War simulator. In 1995, what would have happened next?",
+   "cues": [
+    "Card games that shipped with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x and Windows 95. The classic green felt background."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Okay, so we've built a console War simulator. In nineteen ninety-five, what would have happened next?",
+   "words": 15,
+   "spoken_sha256": "13b61a8f1dbb091a7bd5c6b1aba42b814b9412a4818775c389bcd3c63608da39"
+  },
+  {
+   "id": "S13-B02",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "You would have put a GUI on it. This is where Visual Basic's form designer would have come in.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "You would have put a gooey on it. This is where Visual Basic's form designer would have come in.",
+   "words": 19,
+   "spoken_sha256": "1d8d2d66919f766e79c30c57fe1b358c3efb2acbee3a0bd28977423019325c6c"
+  },
+  {
+   "id": "S13-B03",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "You'd open the IDE, draw a form the size of a card table, drop some `PictureBox` controls on it to represent the card positions, maybe load bitmap images of playing cards from a resource file, and wire up the game logic to a Timer control that advanced the game one round at a time.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "You'd open the I D E, draw a form the size of a card table, drop some picture box controls on it to represent the card positions, maybe load bitmap images of playing cards from a resource file, and wire up the game logic to a Timer control that advanced the game one round at a time.",
+   "words": 54,
+   "spoken_sha256": "ac062310c5308dcce691194f48cebe2cda0ac13181b1452264e9ae77e66b3bf4"
+  },
+  {
+   "id": "S13-B04",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "You'd add a \"Deal\" button, a \"Watch\" button, maybe a speed slider.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "You'd add a \"Deal\" button, a \"Watch\" button, maybe a speed slider.",
+   "words": 12,
+   "spoken_sha256": "ad7e63992afaddd2a82cc0c7335c9eba35bffee7a29bd886644e01071c742050"
+  },
+  {
+   "id": "S13-B05",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "And this is how a lot of actual software got made in the mid-90s. People would start with the logic — get the algorithms working in a console or a simple form — and then layer the visual design on top. Visual Basic made that second step dramatically easier than anything else available.",
+   "cues": [
+    "Mockup of what a VB4 War GUI might look like — a green-felt form with card images, buttons along the bottom. Labeled: \"This is what you'd build next.\""
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "And this is how a lot of actual software got made in the mid-nineties. People would start with the logic, get the algorithms working in a console or a simple form, and then layer the visual design on top. Visual Basic made that second step dramatically easier than anything else available.",
+   "words": 53,
+   "spoken_sha256": "11e5eb6a59b9013476de71eabaea67118ecce07895d7f53e95d7272660e17c91"
+  },
+  {
+   "id": "S13-B06",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "The shareware scene of the 1990s was full of card games, board games, and puzzle games written in Visual Basic. Windows came bundled with Solitaire and Minesweeper (written in C), but the thousands of freeware and shareware alternatives that flooded BBS boards and early web sites? A huge number of those were VB apps.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "The shareware scene of the nineteen nineties was full of card games, board games, and puzzle games written in Visual Basic. Windows came bundled with Solitaire and Minesweeper (written in C), but the thousands of freeware and shareware alternatives that flooded B B S boards and early web sites? A huge number of those were V B apps.",
+   "words": 54,
+   "spoken_sha256": "135d2a105b573bb11df3382b675a522e420f968576916547acd2dca08e1c3b20"
+  },
+  {
+   "id": "S13-B07",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "You'd distribute your game by uploading it to a BBS or a shareware site. Users would download it, but they'd also need the VB runtime — a DLL file called something like `VBRUN300.DLL` that shipped separately from your program. If the user didn't already have it installed, your game wouldn't launch.",
+   "cues": [
+    "Screenshots of shareware download sites — TUCOWS, Download.com circa 1996, maybe a BBS file listing."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "You'd distribute your game by uploading it to a B B S or a shareware site. Users would download it, but they'd also need the V B runtime, a D L L file called something like V B run three hundred dot D L L that shipped separately from your program. If the user didn't already have it installed, your game wouldn't launch.",
+   "words": 51,
+   "spoken_sha256": "d418736f6682368dc18ea3ef273b25e4653821b566ddc04a35e35b1b053bc547"
+  },
+  {
+   "id": "S13-B08",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "So a lot of shareware authors would bundle the runtime with their download, which could turn a 200-kilobyte game into a megabyte-plus download. On a 14.4 modem, that's ten minutes or more of downloading. For a card game.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "So a lot of shareware authors would bundle the runtime with their download, which could turn a two-hundred-kilobyte game into a megabyte-plus download. On a fourteen-four modem, that's ten minutes or more of downloading. For a card game.",
+   "words": 38,
+   "spoken_sha256": "527f75c51ec2e8f5f17fb1258d34c66a729c272d78735d32ef222fdc8116ba20"
+  },
+  {
+   "id": "S13-B09",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "But people did it. And the games worked. And if you were a teenager in 1996 who wanted to make your own version of Solitaire or Hearts or Spades, Visual Basic was the fastest path from \"I have an idea\" to \"my friends are playing my game.\"",
+   "cues": [
+    "A mock-up download progress bar from 1996 — estimated time remaining: 9 minutes 42 seconds."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "But people did it. And the games worked. And if you were a teenager in nineteen ninety-six who wanted to make your own version of Solitaire or Hearts or Spades, Visual Basic was the fastest path from \"I have an idea\" to \"my friends are playing my game.\"",
+   "words": 47,
+   "spoken_sha256": "4e2287dc1a99227104e7fa4cfbe5228011f825e7606b0c783d331fd862b71960"
+  },
+  {
+   "id": "S13-B10",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "This same code — the structures, the shuffle, the deck management — could be adapted for almost any card game. Poker hand evaluation is more complex, but the deck building and shuffling is identical. Blackjack would be simpler than War. Bridge or Hearts would need trick-taking logic, but the card representation is the same.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "This same code, the structures, the shuffle, the deck management, could be adapted for almost any card game. Poker hand evaluation is more complex, but the deck building and shuffling is identical. Blackjack would be simpler than War. Bridge or Hearts would need trick-taking logic, but the card representation is the same.",
+   "words": 54,
+   "spoken_sha256": "31b4cab0e1baab2da67a4c0993f37fab51dcd70c6d23ff73cec01ef683712934"
+  },
+  {
+   "id": "S13-B11",
+   "section": 13,
+   "section_title": "WHAT THIS CODE WOULD HAVE BECOME",
+   "written": "This 280-line program is a seed that could grow into a lot of different things.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "This two hundred eighty-line program is a seed that could grow into a lot of different things.",
+   "words": 15,
+   "spoken_sha256": "2b11789c1577065825538eb28a96643e1de509fe270f7972517301f1e4497b66"
+  },
+  {
+   "id": "S14-B01",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "Visual Basic didn't exist in a vacuum. In 1995, if you wanted to build a Windows application, you had choices. Let's talk about what they were and why VB won the market.",
+   "cues": [
+    "A \"class photo\" lineup of 1995 development tools — boxes/logos for Visual Basic 4, Visual C++ 4, Borland Delphi 1.0, PowerBuilder, Java. Maybe arranged like a bracket tournament."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Visual Basic didn't exist in a vacuum. In nineteen ninety-five, if you wanted to build a Windows application, you had choices. Let's talk about what they were and why V B won the market.",
+   "words": 32,
+   "spoken_sha256": "3cd5b7f8b26401817c57964239525b8658f40f01c6ad6c759abac865392375f3"
+  },
+  {
+   "id": "S14-B02",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "**Visual C++ 4.0** was Microsoft's professional-grade tool. MFC — the Microsoft Foundation Classes — gave you a C++ framework for building Windows apps. It was powerful, fast, and absolutely miserable to learn. MFC was notorious for its deep class hierarchies, its reliance on macros, and its unforgiving error messages. Professional developers used it. Game studios used it.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Visual C plus plus four point oh was Microsoft's professional-grade tool. M F C, the Microsoft Foundation Classes, gave you a C plus plus framework for building Windows apps. It was powerful, fast, and absolutely miserable to learn. M F C was notorious for its deep class hierarchies, its reliance on macros, and its unforgiving error messages. Professional developers used it. Game studios used it.",
+   "words": 57,
+   "spoken_sha256": "dc14280f9cc38424bea4732a6009226bb501de59a1236b6f19adf2f62d54f2eb"
+  },
+  {
+   "id": "S14-B03",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "Nobody starting from scratch would choose MFC if they had another option.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "Nobody starting from scratch would choose M F C if they had another option.",
+   "words": 12,
+   "spoken_sha256": "6716da34f14f0fcc0a675c3a5415c2b6defa3b0177e9481d7b0124ac95f4ee61"
+  },
+  {
+   "id": "S14-B04",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "**Borland Delphi** was the dark horse. Released in 1995, Delphi was basically \"Visual Basic but for Object Pascal.\" It had the same kind of drag-and-drop form designer, the same RAD philosophy, but it compiled to native code from day one and its language — Object Pascal — was genuinely well-designed. A lot of experienced programmers preferred Delphi to VB.",
+   "cues": [
+    "A snippet of MFC code — maybe a message map macro. It should look intimidating."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Borland Delphi was the dark horse. Released in nineteen ninety-five, Delphi was basically \"Visual Basic but for Object Pascal.\" It had the same kind of drag-and-drop form designer, the same rad philosophy, but it compiled to native code from day one and its language, Object Pascal, was genuinely well-designed. A lot of experienced programmers preferred Delphi to V B.",
+   "words": 59,
+   "spoken_sha256": "80d01077bac84c409fa728b7c3fb2b386fe6ac7f2e885acc8c9a9d7e844c3b36"
+  },
+  {
+   "id": "S14-B05",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "It was faster at runtime, it had a real object system with inheritance, and Borland's component model was arguably better than VB's.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "It was faster at runtime, it had a real object system with inheritance, and Borland's component model was arguably better than V B's.",
+   "words": 22,
+   "spoken_sha256": "92b03633d07b084120ac3f8aa51475f4a0325792fac95707c264a89d7100bc24"
+  },
+  {
+   "id": "S14-B06",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "Delphi never caught VB in market share, though. VB had Microsoft behind it, and Microsoft controlled the operating system. VB was the default. If you were a self-taught programmer or a small business writing internal tools, you used VB because everyone else used VB.",
+   "cues": [
+    "Screenshot of the Delphi 1.0 IDE. It looks a lot like the VB IDE."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Delphi never caught V B in market share, though. V B had Microsoft behind it, and Microsoft controlled the operating system. V B was the default. If you were a self-taught programmer or a small business writing internal tools, you used V B because everyone else used V B.",
+   "words": 44,
+   "spoken_sha256": "9d1e7eeb5ef141a12dfe1481fc3828d71b569db76a7e772e3bfd059ffab7422f"
+  },
+  {
+   "id": "S14-B07",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "The ecosystem was bigger — more books, more tutorials, more third-party components, more people on CompuServe forums who could answer your questions.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "The ecosystem was bigger, more books, more tutorials, more third-party components, more people on CompuServe forums who could answer your questions.",
+   "words": 22,
+   "spoken_sha256": "e7ea6ddeb4d8c5e0c42ac4c0d088556c68e452859a071a543f179f8b2fa05808"
+  },
+  {
+   "id": "S14-B08",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "**PowerBuilder** was huge in the corporate database world. If you were building a line-of-business application that talked to an Oracle or Sybase database, PowerBuilder was the tool. It had a thing called DataWindows that made building data-entry forms almost trivially easy. But it was expensive, corporate, and basically invisible outside of IT departments.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "PowerBuilder was huge in the corporate database world. If you were building a line-of-business application that talked to an Oracle or Sybase database, PowerBuilder was the tool. It had a thing called DataWindows that made building data-entry forms almost trivially easy. But it was expensive, corporate, and basically invisible outside of IT departments.",
+   "words": 53,
+   "spoken_sha256": "a9f447158cd2faa726df0091ed7f55de731be07d37e860f687baf9e68663e45e"
+  },
+  {
+   "id": "S14-B09",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "And then there was **Java**, which Sun Microsystems unveiled in 1995 with the slogan \"Write Once, Run Anywhere\" and shipped as version 1.0 in January 1996. Java was the future — everyone knew it. But in 1995, Java was brand new, brutally slow, had almost no libraries, and its GUI toolkit — AWT — was so ugly it could make you cry.",
+   "cues": [
+    "A PowerBuilder DataWindow. Very corporate. Very 1995."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "And then there was Java, which Sun Microsystems unveiled in nineteen ninety-five with the slogan \"Write Once, Run Anywhere\" and shipped as version one point oh in January nineteen ninety-six. Java was the future, everyone knew it. But in nineteen ninety-five, Java was brand new, brutally slow, had almost no libraries, and its gooey toolkit, A W T, was so ugly it could make you cry.",
+   "words": 62,
+   "spoken_sha256": "80c56a3257d4f3c109310126e208946d4cc09fd2ad7fd0ac4ad0ba6f79b8d623"
+  },
+  {
+   "id": "S14-B10",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "Java would eventually eat the world, but not yet. Not in 1995.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "Java would eventually eat the world, but not yet. Not in nineteen ninety-five.",
+   "words": 12,
+   "spoken_sha256": "07aa572c9115118fbd573c647b28686f41ddf95b9ff0ab924ee509e80c07576d"
+  },
+  {
+   "id": "S14-B11",
+   "section": 14,
+   "section_title": "VB vs. THE COMPETITION IN 1995",
+   "written": "So Visual Basic sat in a sweet spot: easier than C++, more established than Delphi, cheaper than PowerBuilder, and more practical than Java. It wasn't the best tool for any single job, but it was a good enough tool for almost every job. And \"good enough for almost everything\" is a very powerful position to be in.",
+   "cues": [
+    "A Java AWT application. The buttons look wrong on every platform."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "So Visual Basic sat in a sweet spot: easier than C plus plus, more established than Delphi, cheaper than PowerBuilder, and more practical than Java. It wasn't the best tool for any single job, but it was a good enough tool for almost every job. And \"good enough for almost everything\" is a very powerful position to be in.",
+   "words": 57,
+   "spoken_sha256": "4febadf3942217eea6a8d1b16beb6a79f120f6ff3fe6a3b3cd2c4d367ac0d2fc"
+  },
+  {
+   "id": "S15-B01",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "What if you wanted to build this same card game in 1995, but you were on a Mac?",
+   "cues": [
+    "A mid-90s Macintosh — maybe a Performa or a PowerBook. System 7 desktop. Apple menu, Finder, the classic Mac OS look."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "What if you wanted to build this same card game in nineteen ninety-five, but you were on a Mac?",
+   "words": 18,
+   "spoken_sha256": "054cc4c30886e44e0084e058f108d2c0d69ad33f843b0e2ea370334e5c22e51b"
+  },
+  {
+   "id": "S15-B02",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "First: you weren't using Visual Basic. Microsoft never actually shipped Visual Basic for the Mac. They had something called QuickBASIC for the Apple Macintosh — released in 1988, last updated in 1992 — but that was a plain BASIC compiler, not the visual, drag-and-drop environment that made VB special on Windows.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "First: you weren't using Visual Basic. Microsoft never actually shipped Visual Basic for the Mac. They had something called QuickBASIC for the Apple Macintosh, released in nineteen eighty-eight, last updated in nineteen ninety-two, but that was a plain BASIC compiler, not the visual, drag-and-drop environment that made V B special on Windows.",
+   "words": 51,
+   "spoken_sha256": "6a2ab983a2f7fa33ba0134bd7e9d7748e20561b909b924fe1c8720a28cd9be82"
+  },
+  {
+   "id": "S15-B03",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "And eventually Mac Office got VBA, the macro language inside Excel and Word, but that was for automating spreadsheets, not building standalone applications.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "And eventually Mac Office got VBA, the macro language inside Excel and Word, but that was for automating spreadsheets, not building standalone applications.",
+   "words": 23,
+   "spoken_sha256": "30282adad5fa8994117d2d3a61c31fe9311da2dd080c265909cd02655937d294"
+  },
+  {
+   "id": "S15-B04",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "On a Mac in 1995, you'd probably be using **Metrowerks CodeWarrior**. This was the dominant development environment for the Mac from the mid-90s onward. It used C and C++ and compiled for both the old Motorola 68k chips and the newer PowerPC architecture.",
+   "cues": [
+    "Text card or graphic noting that Visual Basic for Mac was never released. Alternatively, a screenshot of Microsoft QuickBASIC for Apple Macintosh if a rights-cleared image can be sourced."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "On a Mac in nineteen ninety-five, you'd probably be using Metrowerks CodeWarrior. This was the dominant development environment for the Mac from the mid-nineties onward. It used C and C plus plus and compiled for both the old Motorola sixty-eight K chips and the newer PowerPC architecture.",
+   "words": 43,
+   "spoken_sha256": "e500c6348ee3e57a35bf219163f74a76edfebc361d6d32feb1d9a2521a7858fd"
+  },
+  {
+   "id": "S15-B05",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "The Mac Toolbox API — the equivalent of the Windows API — was C-based, and CodeWarrior was how most Mac developers interacted with it.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "The Mac Toolbox API, the equivalent of the Windows API, was C-based, and CodeWarrior was how most Mac developers interacted with it.",
+   "words": 24,
+   "spoken_sha256": "47875fcdbe7dd89f4abf382ca7055a6a82f3887e83e612b5ccc193a38baf0779"
+  },
+  {
+   "id": "S15-B06",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "Now, here's a misconception I want to address: Objective-C. Some people assume that Mac programming in the 90s meant Objective-C. It didn't. Objective-C was a NeXTSTEP language — it was the language of Steve Jobs's other company, NeXT, and the NeXTSTEP operating system.",
+   "cues": [
+    "Screenshot of CodeWarrior IDE. It looks like a Mac app — more polished than the VB IDE, arguably."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Now, here's a misconception I want to address: Objective-C. Some people assume that Mac programming in the nineties meant Objective-C. It didn't. Objective-C was a next step language, it was the language of Steve Jobs's other company, next, and the next step operating system.",
+   "words": 43,
+   "spoken_sha256": "fea0a37efa42d4ae56c22dc2c59d146a94cc718835f7d8bdec2767e9c5a30150"
+  },
+  {
+   "id": "S15-B07",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "In 1995, NeXT was a niche software company — it had stopped making its famous workstations two years earlier — selling its operating system and developer tools to universities and Wall Street. Regular Mac developers weren't using Objective-C at all.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "In nineteen ninety-five, next was a niche software company, it had stopped making its famous workstations two years earlier, selling its operating system and developer tools to universities and Wall Street. Regular Mac developers weren't using Objective-C at all.",
+   "words": 40,
+   "spoken_sha256": "d24bf2acebf8aa268f8a6851edc4ff1e05fe60fb84ce0ac725d3df268eebbebb"
+  },
+  {
+   "id": "S15-B08",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "Objective-C wouldn't become a Mac language until 2001, when Apple released Mac OS X. OS X was built on NeXTSTEP's foundation, and it brought Objective-C with it. So if someone asks \"would it have been harder in Objective-C in 1995?\" — the question doesn't quite apply.",
+   "cues": [
+    "A NeXT cube. The iconic black magnesium case. Very cool, very expensive, very niche."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Objective-C wouldn't become a Mac language until two thousand one, when Apple released Mac OS X. OS X was built on next step's foundation, and it brought Objective-C with it. So if someone asks \"would it have been harder in Objective-C in nineteen ninety-five?\", the question doesn't quite apply.",
+   "words": 46,
+   "spoken_sha256": "a00e4e0241f71e24e580b0913629f5856c7e0557a77dacab612af10c8f6decc1"
+  },
+  {
+   "id": "S15-B09",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "You wouldn't have been using Objective-C unless you were on a NeXT workstation, and if you were on a NeXT workstation, you were probably doing more interesting things than a card game.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "You wouldn't have been using Objective-C unless you were on a next workstation, and if you were on a next workstation, you were probably doing more interesting things than a card game.",
+   "words": 32,
+   "spoken_sha256": "f164928b6cf721523e6062264809fb50bb75908c7bb67417de998d46199357b9"
+  },
+  {
+   "id": "S15-B10",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "For a console card game like ours — no GUI, just logic and text output — the difficulty would have been roughly comparable. C is a harder language than BASIC, but the actual logic of building a deck, shuffling, and comparing cards is the same in any language. You'd use structs, arrays, and printf instead of structures, arrays, and Console.WriteLine. The algorithm doesn't change.",
+   "cues": [
+    "Side-by-side comparison chart:"
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "For a console card game like ours, no gooey, just logic and text output, the difficulty would have been roughly comparable. C is a harder language than BASIC, but the actual logic of building a deck, shuffling, and comparing cards is the same in any language. You'd use structs, arrays, and printf instead of structures, arrays, and console dot write line. The algorithm doesn't change.",
+   "words": 64,
+   "spoken_sha256": "32b750ed30b6deba599c35013a6e0c03309428a22bf402934988242cd0f97baa"
+  },
+  {
+   "id": "S15-B11",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "Where VB had the massive advantage was in the next step — putting a GUI on it. In VB, that was an afternoon of dragging controls onto a form. On the Mac with CodeWarrior, you'd be writing Carbon or Toolbox API calls, managing window records, handling update events, and doing your own drawing into grafPorts. It was not an afternoon.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Where V B had the massive advantage was in the next step, putting a gooey on it. In V B, that was an afternoon of dragging controls onto a form. On the Mac with CodeWarrior, you'd be writing Carbon or Toolbox API calls, managing window records, handling update events, and doing your own drawing into grafPorts. It was not an afternoon.",
+   "words": 60,
+   "spoken_sha256": "4475d9a4fc3d65932448b7e9d6de7ef4f31387e7ec7fcb65c4aaf64259e45cb3"
+  },
+  {
+   "id": "S15-B12",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "It was a week, minimum, for someone who knew what they were doing.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "It was a week, minimum, for someone who knew what they were doing.",
+   "words": 13,
+   "spoken_sha256": "f483709b39290c5d6fb3dc097ddb131d688e97664476294c330ccc2fe2501c91"
+  },
+  {
+   "id": "S15-B13",
+   "section": 15,
+   "section_title": "WHAT IF YOU WERE ON A MAC?",
+   "written": "That's the real story of Visual Basic's dominance: not that it could do things other tools couldn't, but that it made the common case — put a window on the screen with some buttons and make them do stuff — dramatically faster than anything else.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "That's the real story of Visual Basic's dominance: not that it could do things other tools couldn't, but that it made the common case, put a window on the screen with some buttons and make them do stuff, dramatically faster than anything else.",
+   "words": 45,
+   "spoken_sha256": "eb606423272cb7a1012dbfb1943cf38bce16881a467fce40d76229d7b8a96583"
+  },
+  {
+   "id": "S16-B01",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "Visual Basic mattered because it democratized programming. That's not hyperbole. Before VB, writing a Windows application was a professional skill that required significant training. After VB, a motivated person with a $100 software purchase and a library book could build something real in a weekend. Accountants wrote tools to automate their spreadsheets. Teachers built quiz applications. Small business owners made inventory trackers.",
+   "cues": [
+    "A timeline — VB1 through VB6 on the left, then a big gap, then VB.NET on the right. The gap is labeled \"the great divide.\""
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "Visual Basic mattered because it democratized programming. That's not hyperbole. Before V B, writing a Windows application was a professional skill that required significant training. After V B, a motivated person with a hundred-dollar software purchase and a library book could build something real in a weekend. Accountants wrote tools to automate their spreadsheets. Teachers built quiz applications. Small business owners made inventory trackers.",
+   "words": 62,
+   "spoken_sha256": "bfe06b2eb0d2c517ea22bb2f50582b6c6c2834496c90f8b6dd1975520c6f02e5"
+  },
+  {
+   "id": "S16-B02",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "None of these people would have called themselves programmers. They were people with problems who discovered that Visual Basic was good enough to solve them.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "None of these people would have called themselves programmers. They were people with problems who discovered that Visual Basic was good enough to solve them.",
+   "words": 25,
+   "spoken_sha256": "595a85a892ba31a71bf4cdafec583f291d7092aaca30e679e3924fb6a7cc1330"
+  },
+  {
+   "id": "S16-B03",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "The language was readable in a way that C-based languages aren't. `If PlayerScore > HighScore Then` reads like an English sentence. `For Each Item In Collection` tells you exactly what it's doing. You didn't need to know what a pointer was. You didn't need to manage memory. You didn't need to understand header files or linking or preprocessor directives.",
+   "cues": [
+    "Collage of real-world VB applications — maybe screenshots from old forums or software archives. Internal business tools, data entry forms, simple utilities."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The language was readable in a way that C-based languages aren't. if player score is greater than high score then reads like an English sentence. for each item in collection tells you exactly what it's doing. You didn't need to know what a pointer was. You didn't need to manage memory. You didn't need to understand header files or linking or preprocessor directives.",
+   "words": 59,
+   "spoken_sha256": "00a4394ed07988cc70375cfc360dab3bdd04e892dff1aa6f19ae172880188939"
+  },
+  {
+   "id": "S16-B04",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "You just wrote what you meant, and it worked.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "You just wrote what you meant, and it worked.",
+   "words": 9,
+   "spoken_sha256": "fa8aa317b0fec0a1c96a196a99ed763875af2b4c46d0937c7f87b9ea9475feac"
+  },
+  {
+   "id": "S16-B05",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "Microsoft estimated that by the late 1990s, there were more lines of Visual Basic code in production than any other language. VB6, released in 1998, became one of the most beloved development tools ever made. There are VB6 applications still running today in banks, hospitals, manufacturing plants, and government offices.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "Microsoft estimated that by the late nineteen nineties, there were more lines of Visual Basic code in production than any other language. V B six, released in nineteen ninety-eight, became one of the most beloved development tools ever made. There are V B six applications still running today in banks, hospitals, manufacturing plants, and government offices.",
+   "words": 50,
+   "spoken_sha256": "3da00c6228d823118a83b4b270e1b1718094a702361fc6b912b1fc8373b018ae"
+  },
+  {
+   "id": "S16-B06",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "Software that was written a quarter century ago, still doing its job, and nobody wants to touch it because rewriting it would be expensive and risky.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "Software that was written a quarter century ago, still doing its job, and nobody wants to touch it because rewriting it would be expensive and risky.",
+   "words": 26,
+   "spoken_sha256": "a966708944347a85c0f714b2aed13f1b3468e226ca0963e3bff376976b06a3c8"
+  },
+  {
+   "id": "S16-B07",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "And then Microsoft killed it. Well — they didn't kill it outright. What they did was announce, around 2000, that Visual Basic would become VB.NET — and then ship it in 2002 as a completely new language that shared the name but was fundamentally different under the hood.",
+   "cues": [
+    "An old Windows XP machine in an office setting, running a Visual Basic application. The wallpaper is Bliss. The form has that very specific Visual Basic look — gray controls, 3D borders."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "And then Microsoft killed it. Well, they didn't kill it outright. What they did was announce, around two thousand, that Visual Basic would become V B dot NET, and then ship it in two thousand two as a completely new language that shared the name but was fundamentally different under the hood.",
+   "words": 48,
+   "spoken_sha256": "ba587a935b78b063e70f41afbf608d04fabc9db21f345c939e9ca88c66f60d1f"
+  },
+  {
+   "id": "S16-B08",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "VB.NET ran on the .NET framework, used the Common Language Runtime, and had a different syntax, different semantics, different everything. Code from VB6 did not run in VB.NET. The migration tools were... let's say \"aspirational.\"",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "V B dot NET ran on the dot NET framework, used the Common Language Runtime, and had a different syntax, different semantics, different everything. Code from V B six did not run in V B dot NET. The migration tools were... let's say \"aspirational.\"",
+   "words": 35,
+   "spoken_sha256": "123ddbc661b78582eedc0e6d6f0fdcf89052043648b89cd2709a70ff2ec5e8a3"
+  },
+  {
+   "id": "S16-B09",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "The VB community was furious. They'd been promised that VB was a platform they could build careers on, and now Microsoft was telling them to start over. Many VB6 developers moved to VB.NET and eventually adapted. Many moved to C# instead, figuring that if they had to learn a new .NET language, they might as well learn the one Microsoft clearly favored. And some just...",
+   "cues": [
+    "A migration wizard with a long list of warnings and errors. Maybe a meme-style \"this is fine\" edit."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "The V B community was furious. They'd been promised that V B was a platform they could build careers on, and now Microsoft was telling them to start over. Many V B six developers moved to V B dot NET and eventually adapted. Many moved to C sharp instead, figuring that if they had to learn a new dot NET language, they might as well learn the one Microsoft clearly favored. And some just...",
+   "words": 65,
+   "spoken_sha256": "8b918c6e98ed45ed55c48f816e7f475caea55189dbf174b93b035b66dd77bc7e"
+  },
+  {
+   "id": "S16-B10",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "stayed on VB6. Some are still there.",
+   "cues": [],
+   "code": [],
+   "continues": true,
+   "spoken": "stayed on V B six. Some are still there.",
+   "words": 7,
+   "spoken_sha256": "fce3e0f714d5ec4986e4f38a00caa94b900d279c781a734d19be04dd54d32dfd"
+  },
+  {
+   "id": "S16-B11",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "In 2005, as Microsoft ended mainstream support for VB6, a group of developers and MVPs organized an actual petition to keep unmanaged Visual Basic alive.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "In two thousand five, as Microsoft ended mainstream support for V B six, a group of developers and MVPs organized an actual petition to keep unmanaged Visual Basic alive.",
+   "words": 25,
+   "spoken_sha256": "7d135bc65fd7d516a7c8f76c171fb5f7038d36d8f5f6097a9172569c2b033090"
+  },
+  {
+   "id": "S16-B12",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "VB.NET still exists today — it's the language we wrote this card game in. But it's a niche within a niche. Microsoft has officially stated that they will not add new language features to VB.NET; it will continue to compile and run, but it's in maintenance mode. C# gets all the new toys. VB.NET gets security patches.",
+   "cues": [
+    "The classicvb.org petition page, March 2005 — \"A Petition for the Development of Unmanaged Visual Basic and Visual Basic for Applications.\" Wayback Machine capture. These were real."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "V B dot NET still exists today, it's the language we wrote this card game in. But it's a niche within a niche. Microsoft has officially stated that they will not add new language features to V B dot NET; it will continue to compile and run, but it's in maintenance mode. C sharp gets all the new toys. V B dot NET gets security patches.",
+   "words": 57,
+   "spoken_sha256": "b57efda9941eb3ef7b9efed1995d50f3b6a879883c2a8cd7e9e940d2d3ddb9bf"
+  },
+  {
+   "id": "S16-B13",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "The language that taught a generation to program is, for all practical purposes, finished.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "The language that taught a generation to program is, for all practical purposes, finished.",
+   "words": 14,
+   "spoken_sha256": "ba1fe6581f0db1161988d518b4bcb4226694af37b3d21dc1ee9db5bfc35b481c"
+  },
+  {
+   "id": "S16-B14",
+   "section": 16,
+   "section_title": "WHY VB MATTERED (AND WHY IT DIED)",
+   "written": "But the ideas it pioneered — visual form designers, event-driven programming, RAD tools, components you can drop onto a surface and configure through properties — those ideas won completely. Every modern UI framework, from React to SwiftUI to Flutter, carries DNA that traces back to Alan Cooper's prototype and Microsoft's Visual Basic.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "But the ideas it pioneered, visual form designers, event-driven programming, rad tools, components you can drop onto a surface and configure through properties, those ideas won completely. Every modern UI framework, from React to SwiftUI to Flutter, carries DNA that traces back to Alan Cooper's prototype and Microsoft's Visual Basic.",
+   "words": 52,
+   "spoken_sha256": "b45d2811c83c2ebc5574e146d2a292d7f90c5d9321792fca4c047cda418cc487"
+  },
+  {
+   "id": "S17-B01",
+   "section": 17,
+   "section_title": "OUTRO",
+   "written": "So that's Visual Basic. A language born from the idea that programming should be accessible. A tool that put software development within reach of people who'd never taken a computer science class. A product that dominated the 1990s and then got swept aside by its own successor.",
+   "cues": [
+    "Return to the terminal. The War simulator runs one more time, fast. Cards fly. A winner is declared."
+   ],
+   "code": [],
+   "continues": false,
+   "spoken": "So that's Visual Basic. A language born from the idea that programming should be accessible. A tool that put software development within reach of people who'd never taken a computer science class. A product that dominated the nineteen nineties and then got swept aside by its own successor.",
+   "words": 47,
+   "spoken_sha256": "5328ed5a6d15fdcf234be49b36f23316afa8f670982291553f4e4c8e44d2063c"
+  },
+  {
+   "id": "S17-B02",
+   "section": 17,
+   "section_title": "OUTRO",
+   "written": "And in about 280 lines, we used it to build something that works: a complete card game, with real deck management, a proper shuffle algorithm, and a game loop that handles every edge case — including wars that chain three and four levels deep.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "And in about two hundred eighty lines, we used it to build something that works: a complete card game, with real deck management, a proper shuffle algorithm, and a game loop that handles every edge case, including wars that chain three and four levels deep.",
+   "words": 44,
+   "spoken_sha256": "b5298f3333a3a139942eccd09e731d1168f7014ce4253ccb62c1936581f20010"
+  },
+  {
+   "id": "S17-B03",
+   "section": 17,
+   "section_title": "OUTRO",
+   "written": "If you want to try it yourself, the code is straightforward. Install the .NET SDK — it's free — run `dotnet new console -lang VB`, and start typing. The language will feel strange if you're used to curly braces and semicolons. But give it a few minutes, and you might start to see what millions of people saw in it thirty years ago.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "If you want to try it yourself, the code is straightforward. Install the dot NET S D K, it's free, run dotnet new console -lang vb, and start typing. The language will feel strange if you're used to curly braces and semicolons. But give it a few minutes, and you might start to see what millions of people saw in it thirty years ago.",
+   "words": 63,
+   "spoken_sha256": "1a5af4ddfe9efb04dd5b1525c98db2ff89e72dbfcae8a3c67304a7815123b10a"
+  },
+  {
+   "id": "S17-B04",
+   "section": 17,
+   "section_title": "OUTRO",
+   "written": "It's readable. It's obvious. And it works.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "It's readable. It's obvious. And it works.",
+   "words": 7,
+   "spoken_sha256": "11c5b5daab01efee95168fc7238cf84139db7a98b9dff83ec4f0bfae9a991c48"
+  },
+  {
+   "id": "S17-B05",
+   "section": 17,
+   "section_title": "OUTRO",
+   "written": "Thanks for watching. If you enjoyed this, consider subscribing — I've got more of these retro language deep-dives planned. And if you were around in 1995 and you actually wrote VB4 code, leave a comment and tell me what I got wrong. I want to hear about it.",
+   "cues": [
+    "The final summary output one more time: (Capture: TERM-02.)",
+    "Cut to black. End card with subscribe/like buttons and a suggested next video."
+   ],
+   "code": [
+    "=====================================\nPLAYER 2 WINS THE WAR!\nTotal rounds played : 2008\nTotal wars fought    : 69\n====================================="
+   ],
+   "continues": false,
+   "spoken": "Thanks for watching. If you enjoyed this, consider subscribing, I've got more of these retro language deep-dives planned. And if you were around in nineteen ninety-five and you actually wrote V B four code, leave a comment and tell me what I got wrong. I want to hear about it.",
+   "words": 48,
+   "spoken_sha256": "fd385549cbac9f460b0bf220731fb27b93105cd77ff62bd2b7a41efbca4442a4"
+  },
+  {
+   "id": "S17-B06",
+   "section": 17,
+   "section_title": "OUTRO",
+   "written": "See you in the next one.",
+   "cues": [],
+   "code": [],
+   "continues": false,
+   "spoken": "See you in the next one.",
+   "words": 6,
+   "spoken_sha256": "5f8f573d66b91241e40178205661e6478db091c13df34aa5ebae9c75053e4cd1"
+  }
+ ]
+}

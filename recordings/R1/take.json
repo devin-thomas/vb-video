@@ -1,0 +1,80 @@
+{
+ "take": "R1",
+ "file": "take.mp4",
+ "seconds": 15.69,
+ "fps": 30,
+ "region": [
+  87,
+  80,
+  1318,
+  872
+ ],
+ "events": [
+  {
+   "t": 1.493,
+   "event": "session-start",
+   "pid": 37540,
+   "window_class": "ConsoleWindowClass"
+  },
+  {
+   "t": 3.179,
+   "event": "typed",
+   "text": "dotnet --version"
+  },
+  {
+   "t": 4.031,
+   "event": "completed",
+   "text": "dotnet --version",
+   "wall_seconds": 1.075
+  },
+  {
+   "t": 6.193,
+   "event": "typed",
+   "text": "Get-ChildItem"
+  },
+  {
+   "t": 7.046,
+   "event": "completed",
+   "text": "Get-ChildItem",
+   "wall_seconds": 1.062
+  },
+  {
+   "t": 8.774,
+   "event": "typed",
+   "text": "dotnet new console -lang VB"
+  },
+  {
+   "t": 10.981,
+   "event": "completed",
+   "text": "dotnet new console -lang VB",
+   "wall_seconds": 2.482
+  },
+  {
+   "t": 13.144,
+   "event": "typed",
+   "text": "Get-ChildItem"
+  },
+  {
+   "t": 13.996,
+   "event": "completed",
+   "text": "Get-ChildItem",
+   "wall_seconds": 1.063
+  },
+  {
+   "t": 17.359,
+   "event": "typed",
+   "text": "exit"
+  },
+  {
+   "t": 32.386,
+   "event": "session-end"
+  }
+ ],
+ "recorded_at": "2026-09-15T21:51:30",
+ "commands": [
+  "dotnet --version",
+  "Get-ChildItem",
+  "dotnet new console -lang VB",
+  "Get-ChildItem"
+ ]
+}

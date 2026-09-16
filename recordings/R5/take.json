@@ -1,0 +1,53 @@
+{
+ "take": "R5",
+ "file": "take.mp4",
+ "seconds": 50.07,
+ "fps": 30,
+ "region": [
+  87,
+  80,
+  1422,
+  872
+ ],
+ "events": [
+  {
+   "t": 1.801,
+   "event": "session-start",
+   "pid": 21096,
+   "window_class": "ConsoleWindowClass"
+  },
+  {
+   "t": 2.451,
+   "event": "typed",
+   "text": "Clear-Host"
+  },
+  {
+   "t": 3.305,
+   "event": "completed",
+   "text": "Clear-Host",
+   "wall_seconds": 1.05
+  },
+  {
+   "t": 5.101,
+   "event": "typed",
+   "text": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb"
+  },
+  {
+   "t": 53.865,
+   "event": "typed",
+   "text": "exit"
+  },
+  {
+   "t": 68.929,
+   "event": "session-end"
+  }
+ ],
+ "recorded_at": "2026-09-15T21:56:17",
+ "commands": [
+  "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" Program.vb",
+  "Ctrl-E per line",
+  ":q"
+ ],
+ "source_lines": 285,
+ "program_vb_sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7"
+}

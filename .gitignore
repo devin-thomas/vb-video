@@ -9,3 +9,8 @@ __pycache__/
 .DS_Store
 assets/*/*/work/
 .claude/settings.local.json
+build/
+narration/takes/
+narration/worker.log
+recordings/*/work/
+recordings/*/frame-*.png

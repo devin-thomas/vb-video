@@ -1,0 +1,51 @@
+{
+ "take": "R6",
+ "file": "take.mp4",
+ "seconds": 8.93,
+ "fps": 30,
+ "region": [
+  87,
+  80,
+  1318,
+  592
+ ],
+ "events": [
+  {
+   "t": 1.486,
+   "event": "session-start",
+   "pid": 30216,
+   "window_class": "ConsoleWindowClass"
+  },
+  {
+   "t": 2.133,
+   "event": "typed",
+   "text": "Clear-Host"
+  },
+  {
+   "t": 2.985,
+   "event": "completed",
+   "text": "Clear-Host",
+   "wall_seconds": 1.048
+  },
+  {
+   "t": 4.772,
+   "event": "typed",
+   "text": "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" War.vbproj"
+  },
+  {
+   "t": 12.399,
+   "event": "typed",
+   "text": "exit"
+  },
+  {
+   "t": 27.44,
+   "event": "session-end"
+  }
+ ],
+ "recorded_at": "2026-09-15T21:49:14",
+ "commands": [
+  "vim -u NONE -i NONE -N -n -R -c \"syntax on\" -c \"set number\" War.vbproj",
+  ":q"
+ ],
+ "vbproj_sha256": "cbb8e8dc6f5b4eaf750fbf4fc17e5f76a4f5913bd6ce63a8e3ea8dde14606632"
+}
