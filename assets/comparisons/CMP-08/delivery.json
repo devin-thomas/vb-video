@@ -2,7 +2,7 @@
   "id": "CMP-08",
   "title": "Line continuation",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -81,8 +81,8 @@
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2467,
-      "sha256": "adec7602e47603c389d03a651005958f3c0e70637d679631445267a17d860076"
+      "bytes": 3683,
+      "sha256": "039ec29a5c59c54dac43a20f04c4fd644f08298e114a8e5521abb2cc4e1bf3ec"
     },
     {
       "path": "src/brief.json",
@@ -225,6 +225,7 @@
     "This is a proposed minimal illustration of the narrated underscore contrast, not a screenshot of the supplied program. Retain the explicit underscore; do not claim every modern VB multiline expression always requires one.",
     "No compile/run is claimed for illustrative counterparts.",
     "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "Revision 2 (2026-09-16, Devin's cut note 13): left-column header kept as \"C#\": `Console.WriteLine` is .NET-only (C++ would be `std::cout <<`, Java `System.out.println`), and nothing else in the snippet (`+` concatenation, the wrapped argument) implies another language, so no re-render was needed and the exports are unchanged. Release status reset to unreviewed; see qa.md, section Revision 2.",
+    "Gate R03: the 2026-09-15 decision in evidence/claim-checks.json concerns the code as written, which revision 2 does not change; not listed as unresolved."
   ]
 }

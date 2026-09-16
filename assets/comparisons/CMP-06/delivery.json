@@ -2,7 +2,7 @@
   "id": "CMP-06",
   "title": "String concatenation",
   "production_status": "produced",
-  "release_status": "approved",
+  "release_status": "unreviewed",
   "provenance_type": "original authored source-based illustration",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": null,
@@ -15,8 +15,8 @@
     {
       "path": "evidence/browser-tests.json",
       "role": "evidence / QA",
-      "bytes": 504,
-      "sha256": "be45be397db07a4e3c13969a92ff9978ce2daec73d4c119624795e339be30a01"
+      "bytes": 444,
+      "sha256": "11ee7101f4fb8fd95973f0eaf2f563345585a098d96b0a4dfa3076d7ca32a8af"
     },
     {
       "path": "evidence/claim-checks.json",
@@ -33,8 +33,8 @@
     {
       "path": "evidence/render-tests.json",
       "role": "evidence / QA",
-      "bytes": 148,
-      "sha256": "a06b5654ec233bf8f318c4ad55ff05e0eefa30571a25bd151431eca0ffc18311"
+      "bytes": 154,
+      "sha256": "45d94db061c8105bcef0d5d4304e7991ee177b57a2db74bb8dd724b93342327f"
     },
     {
       "path": "evidence/source-excerpts.md",
@@ -45,26 +45,26 @@
     {
       "path": "exports/comparison.png",
       "role": "rendered still",
-      "bytes": 33244,
-      "sha256": "81bb7fbe3b8d3d4a9ff68dab94efc50ff5ceee7486e1101139b96b454cc5822b"
+      "bytes": 38713,
+      "sha256": "23852c7b7187d107f83494b173ea862c88dbc16026dd74c4d725de8fdfc4c107"
     },
     {
       "path": "exports/contact-sheet.png",
       "role": "rendered still",
-      "bytes": 29972,
-      "sha256": "32ba620bc0ecd06e0820e35a65e628516b0f63ec688eecfb483dfd914ff9d67f"
+      "bytes": 36575,
+      "sha256": "266b122a489b6a1a5778adb56c749cce1301a0f3c8f4ad5767eaf1b135c3a9e3"
     },
     {
       "path": "exports/poster.png",
       "role": "rendered still",
-      "bytes": 33244,
-      "sha256": "81bb7fbe3b8d3d4a9ff68dab94efc50ff5ceee7486e1101139b96b454cc5822b"
+      "bytes": 38713,
+      "sha256": "23852c7b7187d107f83494b173ea862c88dbc16026dd74c4d725de8fdfc4c107"
     },
     {
       "path": "exports/token-focus.png",
       "role": "rendered still",
-      "bytes": 33445,
-      "sha256": "bc23410f5c3172f1307ffed4218928aca9d93fa9a33071ece6f86ed332324d6c"
+      "bytes": 38955,
+      "sha256": "f43cdc8879180ff80161eb9117338e3d0a79a325878d29258d4bd68693e77494"
     },
     {
       "path": "proofs/gallery.jpg",
@@ -75,14 +75,14 @@
     {
       "path": "proofs/poster-720.png",
       "role": "evidence / QA",
-      "bytes": 39016,
-      "sha256": "f59cb25376b4b2f7e838a4bb75eff8586e56cc7057400da3d6ce0674aeb9fa90"
+      "bytes": 50584,
+      "sha256": "232b0b13eb36caeaad151f21d7c7537582a03ca8b91417fc7f9b42abfc63736b"
     },
     {
       "path": "qa.md",
       "role": "evidence / QA",
-      "bytes": 2361,
-      "sha256": "ff46c9c0e6ac58a1a2a4067ddd684508d86b70ae6fe4c9256092add70a7689f1"
+      "bytes": 5673,
+      "sha256": "a293ca30d52759bf782ce865dd8d29ee8d2960b40ecca25122bb2f0f2c421f27"
     },
     {
       "path": "src/brief.json",
@@ -99,20 +99,20 @@
     {
       "path": "src/index.html",
       "role": "editable source",
-      "bytes": 4695,
-      "sha256": "b943dc00b988ca39b52f363f802f2453e091588b19ccc6bfb3bff3935ffb4fe2"
+      "bytes": 4708,
+      "sha256": "ff6be3fc0a2c5d084618d66a5e16bb205916564b813e3e24a87a3ce9e5946c35"
     },
     {
       "path": "src/scene-0000.svg",
       "role": "editable source",
-      "bytes": 2624,
-      "sha256": "c87da9d573ce2ba6e4a3f87b82986ec73318b9e030d013f98c1863849e2624e8"
+      "bytes": 2637,
+      "sha256": "6cc04e3aabbc1b34a4ad7b97dbcaf72a7204cd811820a9b22a2dea11832f0cd0"
     },
     {
       "path": "src/scene.svg",
       "role": "editable source",
-      "bytes": 2624,
-      "sha256": "c87da9d573ce2ba6e4a3f87b82986ec73318b9e030d013f98c1863849e2624e8"
+      "bytes": 2637,
+      "sha256": "6cc04e3aabbc1b34a4ad7b97dbcaf72a7204cd811820a9b22a2dea11832f0cd0"
     },
     {
       "path": "src/timeline.json",
@@ -123,14 +123,14 @@
     {
       "path": "src/variant-comparison.svg",
       "role": "editable source",
-      "bytes": 2624,
-      "sha256": "c87da9d573ce2ba6e4a3f87b82986ec73318b9e030d013f98c1863849e2624e8"
+      "bytes": 2637,
+      "sha256": "6cc04e3aabbc1b34a4ad7b97dbcaf72a7204cd811820a9b22a2dea11832f0cd0"
     },
     {
       "path": "src/variant-token-focus.svg",
       "role": "editable source",
-      "bytes": 2785,
-      "sha256": "002592ca45cc0d103cd1e5408cf2bc94193749bac16acace5df78f69db090bed"
+      "bytes": 2798,
+      "sha256": "66502601cb15839423d200464a6df707f2000f5c1c0ac63392323bfa24f14114"
     }
   ],
   "variants": [
@@ -187,9 +187,9 @@
     {
       "test": "manual visual review",
       "result": {
-        "mode": "Poster contact-sheet review",
-        "scope": "All 71 posters inspected in eight 1920-pixel-wide review sheets, each poster at 640 × 360.",
-        "status": "No obvious title clipping or composition defect remained at overview size. This does not certify every full-resolution motion frame."
+        "mode": "Standalone inspection of the revision 2 exports at 1920 x 1080 and 1280 x 720 (worker, 2026-09-16)",
+        "scope": "poster.png and token-focus.png viewed at full size; comparison.png is byte-identical to poster.png (same source state, verified by SHA-256). The poster was viewed again as an ffmpeg scale=1280:-1 copy made outside the asset, alongside the Pillow proofs/poster-720.png.",
+        "status": "Header \"C++ / C# / Java\" reads on one line inside the left column; layout, code, highlight boxes and footer are unchanged from revision 1; nothing is clipped at either size and punctuation is legible at 720p."
       }
     },
     {
@@ -205,26 +205,26 @@
   ],
   "unresolved_gates": [],
   "toolchain": {
-    "os": "Linux-6.18.44-x86_64-with-glibc2.41",
-    "python": "3.13.5",
-    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
-    "chromium": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
-    "dotnet_path": null,
-    "node": "v22.16.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
     "packages": {
-      "cairosvg": "2.8.2",
+      "cairosvg": "2.9.1",
       "Pillow": "12.3.0",
-      "playwright": "1.57.0"
+      "playwright": "1.63.0"
     },
     "network_used": false,
     "installs_performed": false,
     "font_files_distributed": false,
-    "browser_note": "HTML tested by in-memory content loading; direct file:// navigation is restricted by the execution environment."
+    "browser_note": "HTML tested by in-memory content loading."
   },
   "notes": [
     "Use the exact example and visibly highlight only + versus &. Do not add a blanket claim that + cannot concatenate in VB.",
     "No compile/run is claimed for illustrative counterparts.",
     "Original ticket requirements retained; these exports are not producer publication approval.",
-    "Release approved 2026-09-15 by the producer under Devin's delegation (rights: Devin's standing R14 ruling). Checked against War/SCRIPT.md and Program.vb."
+    "Revision 2 (2026-09-16, Devin's cut note 13): left-column header changed from \"C#\" to \"C++ / C# / Java\" (string concatenation with `+` is valid in those three, not in C, where `+` on a string literal is pointer arithmetic). Release status reset to unreviewed; see qa.md, section Revision 2."
   ]
 }
