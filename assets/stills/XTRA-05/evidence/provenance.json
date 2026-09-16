@@ -1,18 +1,24 @@
 {
   "id": "XTRA-05",
-  "classification": "derivative annotation of a historical source (the whole HIST-02 screenshot, uniformly scaled 1.5x, with authored margin labels, window-frame outlines and leader lines)",
+  "classification": "derivative annotation of a historical source (the whole HIST-02 screenshot, uniformly scaled 1.5x or placed at native 1.0x, with authored labels from the War/SCRIPT.md cue, window-frame outlines, leader lines and gutter rails)",
   "plan_status": "Script-only supplement (original_family SCRIPT-SUPPLEMENT). Not an original asset-plan row.",
+  "revision": {
+    "branch": "ticket/XTRA-05-rev",
+    "based_on": "ticket/XTRA-05 at 8fed9c3 (main 9e6f14a is an ancestor)",
+    "reason": "Implements Devin's rulings of 2026-09-15 on the XTRA-05 review questions (evidence/claim-checks.json devin_rulings)."
+  },
   "script_sources": [
     {
       "path": "../../../sources/SCRIPT.md",
       "lines": [130, 134],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
-      "relationship": "source creative brief: VISUAL cue with the five callout names (130) and the IDE narration (132)"
+      "relationship": "source creative brief: VISUAL cue (130) and the IDE narration (132). Its callout list is superseded by the working script below."
     },
     {
       "path": "../../../War/SCRIPT.md",
       "lines": [133, 137],
-      "relationship": "working script, read only, checked on main 9e6f14a. Narration identical to SCRIPT.md:132-134; the VISUAL cue at 133 now reads 'Project Window' instead of 'Project Explorer' (Writing Lead commit 9e6f14a). Not edited."
+      "commit": "9e6f14a",
+      "relationship": "label authority, read only. src/build.py reads the five callout labels from the VISUAL cue at line 133 ('... Form Designer, Toolbox, Properties Window, Code Window, Project Window.') at build time; the file's SHA-256 at build time is recorded in src/layout.json labels. Narration identical to SCRIPT.md:132-134. Not edited."
     }
   ],
   "upstream_asset": {
@@ -24,66 +30,91 @@
     "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
     "bytes": 13081,
     "native_size": [800, 600],
-    "mode": "P (8-bit palette PNG)",
+    "mode": "P (8-bit palette PNG; chunks IHDR, PLTE, IDAT, IEND only)",
     "origin": "https://winworldpc.com/res/img/screenshots/40-8f8bee2e0d2810b292e13c9917246fdf-Microsoft%20Visual%20Basic%204.0%2032%20bit%20-%20Edit.png (WinWorld caption 'Microsoft Visual Basic 4.0 32 bit - Edit'; acquired upstream 2026-09-15T20:30:12Z)",
     "records_read": ["delivery.json", "qa.md", "state.json", "evidence/source.json", "evidence/rights.json", "evidence/claim-checks.json", "evidence/provenance.json", "evidence/source-excerpts.md"],
-    "upstream_editorial_frame": "exports/editorial-frame.png is a whole-frame 1.8x LANCZOS pillarbox (upstream qa.md). Not used: this asset scales the original directly at 1.5x BOX so the labels fit beside it and no second resample is inherited.",
-    "copies_made": "None. src/build.py and src/verify.py read the original in place and stop if its SHA-256 differs from HIST-02/delivery.json. No HIST-02 file was modified."
+    "upstream_editorial_frame": "exports/editorial-frame.png is a whole-frame 1.8x LANCZOS pillarbox (upstream qa.md). Not used: this asset scales the original directly (1.5x BOX) or embeds it unchanged (1.0x), so no second resample is inherited.",
+    "copies_made": "None as files. src/build.py and src/verify.py read the original in place and stop if its SHA-256 differs from HIST-02/delivery.json. src/variant-side-by-side.svg embeds the original PNG's bytes twice as data: URIs (the SVG is the editable source of a derivative still); no HIST-02 file was modified."
   },
   "transformations": [
-    "Decode the palette PNG to RGB.",
-    "Uniform scale 800x600 -> 1200x900 (exactly 1.5x on both axes, no aspect rounding) with Pillow Image.Resampling.BOX. BOX was chosen after a side-by-side of NEAREST (uneven 1/2-px strokes in pixel text), LANCZOS (softer, faint ringing) and BOX (even, crisp strokes) on the Code and Properties windows.",
-    "Embed the scaled PNG as a data: URI in each variant SVG at x=347, y=90, width 1200, height 900 (1:1 device pixels), inside a 6 px #1b2027 mat and 2 px #343d48 stroke drawn entirely outside the image edges on the #111318 background.",
-    "clean-workspace: nothing else. five-callouts: annotation marks listed below, then labels in the margins.",
-    "No crop, rotation, stretch, retouch, colour change, dimming, zoom-in, watermark removal or partial use in either variant."
+    "clean-workspace and five-callouts: decode the palette PNG to RGB; uniform scale 800x600 -> 1200x900 (exactly 1.5x on both axes, no aspect rounding) with Pillow Image.Resampling.BOX, chosen after comparing NEAREST (uneven 1/2-px strokes in pixel text), LANCZOS (softer, faint ringing) and BOX (even, crisp strokes); embed at x=347, y=90 (1:1 device pixels).",
+    "side-by-side: no resampling. The HIST-02 PNG bytes are embedded unchanged, drawn 1:1 at x=127, y=156 (clean, left) and x=976, y=156 (annotated, right). 1.0x is the largest scale at which both whole screenshots, their frames, gutters and rails fit the 1680 px safe width; it also keeps every pixel of the pixel fonts original.",
+    "Every placement sits inside a 6 px #1b2027 mat and 2 px #343d48 stroke drawn entirely outside the image edges on the #111318 background.",
+    "clean-workspace and the left screenshot of side-by-side: nothing else. five-callouts and the right screenshot of side-by-side: annotation marks listed below; labels outside the screenshots.",
+    "No crop, rotation, stretch, retouch, colour change, dimming, zoom-in, watermark removal or partial use in any variant."
   ],
   "authored_additions": [
-    "Labels: the five exact ticket-copy strings (manifest copy, SCRIPT.md:130), Liberation Sans Bold 40 px, #f1f3f5, in the side margins outside the screenshot and its frame. Multi-word labels are stacked one word per line; words, spelling and capitals are unchanged. Left margin (right-aligned, ending x=291): Toolbox, Form Designer, Code Window. Right margin (left-aligned from x=1603): Project Explorer, Properties Window.",
-    "Outlines: one per target, 5 px thick (1 px #111318 casing, 3 px #eab676 core, 1 px casing), drawn inside each target window's outer boundary so they cover only that window's outer frame bevel. The Form Designer outline follows the form window's visible top, left, right and bottom edges and stops 6 px short of the Code Window outline where the Code window covers the form.",
-    "Leaders: one per target, horizontal, 5 px thick with the same casing/core, from 14 px beyond the label to the target outline, on an original row that is desktop teal between the image edge and the target.",
-    "src/build.py, src/verify.py, src/finalize.py: deterministic authoring, pixel verification and delivery finishing."
+    "Labels: the five War/SCRIPT.md:133 cue strings (Form Designer, Toolbox, Properties Window, Code Window, Project Window), Liberation Sans Bold 40 px, #f1f3f5. five-callouts: side margins outside the screenshot and its frame, multi-word labels stacked one word per line (left column right-aligned at x=291: Toolbox, Form Designer, Code Window; right column from x=1603: Project Window, Properties Window). side-by-side: one line each in a strip below the annotated screenshot (rows at y 777-931), left group starting x=1000 (Code Window, Form Designer, Toolbox), right group ending x=1752 (Properties Window, Project Window).",
+    "five-callouts outlines and leaders: 5 px thick (1 px #111318 casing, 3 px #eab676 core, 1 px casing); outlines inside each target window's outer boundary (about 3.3 original px, the frame bevel); horizontal leaders over desktop teal; the Form Designer outline stops 6 px short of the Code Window outline.",
+    "side-by-side outlines and leaders: 4 px thick (1 px casing, 2 px gold core, 1 px casing) so each outline covers only the 4 px Win95 outer window frame at 1.0x; each leader is an exit segment over desktop teal (original rows leader_y-2 .. leader_y+1) to the image edge, a vertical rail in the dark gutter (left rails at x 942/952/962 for Toolbox/Form Designer/Code Window; right rails at x 1786/1796 for Properties Window/Project Window), and a run below the screenshot to its label. The Form Designer outline stops 5 px short of the Code Window outline.",
+    "src/build.py, src/verify.py, src/finalize.py: deterministic authoring (labels read from the script cue), pixel verification and delivery finishing."
   ],
   "annotation_edit_history": {
-    "applies_to": "five-callouts (exports/five-callouts.png and exports/poster.png). clean-workspace has no annotation edits.",
-    "full_record": "src/layout.json annotation_edits: all 50 filled rectangles (5 targets x outline+leader x casing+core layers) with canvas coordinates, colour and the original pixels each rectangle's footprint touches. evidence/placement-checks.json marks: the original pixels actually changed per mark, measured from the rendered export.",
-    "coordinates": "canvas rectangles [x0, y0, x1, y1) in export pixels; original pixel boxes inclusive in the 800x600 original. Placement: canvas = (347 + 1.5 * ox, 90 + 1.5 * oy).",
-    "marks": [
-      {"target": "Toolbox", "type": "outline (closed)", "canvas_outer_box": [353, 207, 449, 691], "colour": "#eab676 core on #111318 casing", "original_window": [4, 78, 67, 400], "original_pixels_overlaid": 2660, "overlay": "Toolbox window outer frame band only (frame greys, white, black); no icon or text pixels"},
-      {"target": "Toolbox", "type": "leader", "canvas_rect": [305, 448, 353, 453], "colour": "#eab676 core on #111318 casing", "original_pixels_overlaid": 16, "original_bbox": [0, 238, 3, 241], "overlay": "desktop teal #00787f only"},
-      {"target": "Form Designer", "type": "outline (open: top, left, right to y=575, bottom to x=635)", "canvas_outer_box": [461, 204, 1179, 784], "colour": "#eab676 core on #111318 casing", "original_window": [76, 76, 554, 462], "original_pixels_overlaid": 4017, "overlay": "LoanSheet form window outer frame band only; stops short of the Code window"},
-      {"target": "Form Designer", "type": "leader", "canvas_rect": [305, 733, 461, 738], "colour": "#eab676 core on #111318 casing", "original_pixels_overlaid": 304, "original_bbox": [0, 428, 75, 431], "overlay": "desktop teal #00787f only"},
-      {"target": "Code Window", "type": "outline (closed)", "canvas_outer_box": [641, 581, 1230, 934], "colour": "#eab676 core on #111318 casing", "original_window": [196, 327, 588, 562], "original_pixels_overlaid": 4740, "overlay": "Code window outer frame band only; no code text"},
-      {"target": "Code Window", "type": "leader", "canvas_rect": [305, 891, 641, 896], "colour": "#eab676 core on #111318 casing", "original_pixels_overlaid": 588, "original_bbox": [0, 534, 195, 536], "overlay": "desktop teal #00787f only"},
-      {"target": "Project Explorer", "type": "outline (closed)", "canvas_outer_box": [1247, 206, 1544, 372], "colour": "#eab676 core on #111318 casing", "original_window": [600, 77, 797, 187], "original_pixels_overlaid": 2305, "overlay": "Project window outer frame band only"},
-      {"target": "Project Explorer", "type": "leader", "canvas_rect": [1544, 313, 1589, 318], "colour": "#eab676 core on #111318 casing", "original_pixels_overlaid": 8, "original_bbox": [798, 148, 799, 151], "overlay": "desktop teal #00787f only"},
-      {"target": "Properties Window", "type": "outline (closed)", "canvas_outer_box": [1246, 597, 1536, 942], "colour": "#eab676 core on #111318 casing", "original_window": [599, 338, 792, 567], "original_pixels_overlaid": 3142, "overlay": "Properties window outer frame band only"},
-      {"target": "Properties Window", "type": "leader", "canvas_rect": [1536, 793, 1589, 798], "colour": "#eab676 core on #111318 casing", "original_pixels_overlaid": 32, "original_bbox": [792, 468, 799, 471], "overlay": "desktop teal (28 px) and 4 px of the Properties window's own black right edge (x=792)"}
+    "applies_to": "five-callouts (exports/five-callouts.png) and the right screenshot of side-by-side (exports/side-by-side.png and exports/poster.png). clean-workspace and the left screenshot of side-by-side have no annotation edits (0 differing pixels, 0 gold pixels).",
+    "full_record": "src/layout.json annotation_edits: every filled rectangle of both annotated variants (target, mark, layer, part, canvas coordinates, colour, and the original pixels its footprint touches). evidence/placement-checks.json: the original pixels actually changed per mark, measured from the rendered exports, with the overlay rule result. delivery.json annotation_edit_history: per-variant summary.",
+    "coordinates": "canvas rectangles [x0, y0, x1, y1) in export pixels; original pixel boxes inclusive in the 800x600 original. five-callouts: canvas = (347 + 1.5 * ox, 90 + 1.5 * oy). side-by-side annotated: canvas = (976 + ox, 156 + oy).",
+    "marks_five_callouts": [
+      {"target": "Toolbox", "type": "outline (closed)", "canvas_outer_box": [353, 207, 449, 691], "original_window": [4, 78, 67, 400], "overlay": "Toolbox window outer frame band only"},
+      {"target": "Toolbox", "type": "leader", "canvas_rect": [305, 448, 353, 453], "overlay": "desktop teal #00787f only"},
+      {"target": "Form Designer", "type": "outline (open: top, left, right to y=575, bottom to x=635)", "canvas_outer_box": [461, 204, 1179, 784], "original_window": [76, 76, 554, 462], "overlay": "LoanSheet form window outer frame band only; stops short of the Code window"},
+      {"target": "Form Designer", "type": "leader", "canvas_rect": [305, 733, 461, 738], "overlay": "desktop teal #00787f only"},
+      {"target": "Code Window", "type": "outline (closed)", "canvas_outer_box": [641, 581, 1230, 934], "original_window": [196, 327, 588, 562], "overlay": "Code window outer frame band only; no code text"},
+      {"target": "Code Window", "type": "leader", "canvas_rect": [305, 891, 641, 896], "overlay": "desktop teal #00787f only"},
+      {"target": "Project Window", "type": "outline (closed)", "canvas_outer_box": [1247, 206, 1544, 372], "original_window": [600, 77, 797, 187], "overlay": "Project window outer frame band only"},
+      {"target": "Project Window", "type": "leader", "canvas_rect": [1544, 313, 1589, 318], "overlay": "desktop teal #00787f only"},
+      {"target": "Properties Window", "type": "outline (closed)", "canvas_outer_box": [1246, 597, 1536, 942], "original_window": [599, 338, 792, 567], "overlay": "Properties window outer frame band only"},
+      {"target": "Properties Window", "type": "leader", "canvas_rect": [1536, 793, 1589, 798], "overlay": "desktop teal and 4 px of the Properties window's own black right edge (x=792)"}
+    ],
+    "marks_side_by_side": [
+      {"target": "Toolbox", "type": "outline (closed, 4 px)", "canvas_outer_box": [980, 234, 1044, 557], "original_window": [4, 78, 67, 400], "overlay": "Toolbox window outer frame band only"},
+      {"target": "Toolbox", "type": "leader (exit y 394-398 over teal x 0-3; rail x 942-946 down to y 910; run to x 986)", "overlay": "desktop teal only on the image"},
+      {"target": "Form Designer", "type": "outline (open, 4 px; right edge to y 478, bottom edge to x 1167)", "canvas_outer_box": [1052, 232, 1531, 619], "original_window": [76, 76, 554, 462], "overlay": "form window outer frame band only; stops 5 px short of the Code Window outline"},
+      {"target": "Form Designer", "type": "leader (exit y 584-588 over teal x 0-75; rail x 952-956 down to y 856; run to x 986)", "overlay": "desktop teal only on the image"},
+      {"target": "Code Window", "type": "outline (closed, 4 px)", "canvas_outer_box": [1172, 483, 1565, 719], "original_window": [196, 327, 588, 562], "overlay": "Code window outer frame band only; no code text"},
+      {"target": "Code Window", "type": "leader (exit y 689-693 over teal x 0-195; rail x 962-966 down to y 802; run to x 986)", "overlay": "desktop teal only on the image"},
+      {"target": "Project Window", "type": "outline (closed, 4 px)", "canvas_outer_box": [1576, 233, 1774, 344], "original_window": [600, 77, 797, 187], "overlay": "Project window outer frame band only"},
+      {"target": "Project Window", "type": "leader (exit y 304-308 over teal x 798-799; rail x 1796-1800 down to y 856; run from x 1766)", "overlay": "desktop teal only on the image"},
+      {"target": "Properties Window", "type": "outline (closed, 4 px)", "canvas_outer_box": [1575, 494, 1769, 724], "original_window": [599, 338, 792, 567], "overlay": "Properties window outer frame band only"},
+      {"target": "Properties Window", "type": "leader (exit y 624-628 over teal x 793-799; rail x 1786-1790 down to y 802; run from x 1766)", "overlay": "desktop teal only on the image (the core joins the outline on the window's own edge)"}
     ]
   },
   "not_added": [
-    "No painted, redrawn or invented UI, no window title, no caption on the screenshot, no zoom inset, no arrowheads over code, no on-screen credit, no year, no logo."
+    "No painted, redrawn or invented UI, no window title, no caption or label text on any screenshot, no zoom inset, no arrowheads over code, no numbered markers, no on-screen credit, no year, no logo."
   ],
   "rights_carried_forward": {
     "record": "../../historical/HIST-02/evidence/rights.json",
     "rights_status": "unresolved",
     "credit_text": null,
     "proposed_credit_text": "Microsoft Visual Basic 4.0 (32-bit) screenshot via WinWorld, winworldpc.com. Used with permission from Microsoft.",
-    "on_screen": "None. HIST-02 source.json proposed_credit_notes: the Microsoft sentence must not be used before the rights decision (RQ-HIST-02-1).",
-    "open_upstream_questions": ["RQ-HIST-02-1", "RQ-HIST-02-2", "RQ-HIST-02-3", "RQ-HIST-02-4"]
+    "on_screen": "None. HIST-02 source.json proposed_credit_notes: the Microsoft sentence must not be used before the rights decision (RQ-HIST-02-1). Placement routed to the producer (XTRA-05-RQ4).",
+    "loan_project": "Identified by this asset's research as Microsoft's Visual Basic 4.0 Grid sample (\\vb\\samples\\grid\\loan.vbp); evidence/claim-checks.json loan_project_research. Answers RQ-HIST-02-2; the HIST-02 record was not edited.",
+    "open_upstream_questions": ["RQ-HIST-02-1"],
+    "resolved_upstream_questions": {"RQ-HIST-02-2": "Microsoft sample (evidence)", "RQ-HIST-02-3": "marks allowed (Devin, 2026-09-15)", "RQ-HIST-02-4": "label Project Window (War/SCRIPT.md:133)"}
   },
   "remote_assets": [],
   "font_files_distributed": false,
   "ai_generated_content": false,
   "producer_decisions": [
     {
-      "source": "Render Lane Manager hand-off (session vb-97)",
+      "source": "Render Lane Manager hand-off (session vb-97), original production",
       "decisions": [
         "Whole 800x600 screenshot, uniform scale, no crop/rotation/stretch/retouch/zoom in both variants; pixel-verify the clean image region.",
         "Label text outside the screenshot; only thin leaders/outlines may cross onto it; record every mark as annotation edit history.",
-        "Keep the five labels verbatim, including 'Project Explorer'; raise Project Explorer vs Project window for the Writing Lead; no UI painted to fit a label.",
+        "Keep the five labels verbatim, including 'Project Explorer'; raise Project Explorer vs Project window for the Writing Lead; no UI painted to fit a label. (Superseded for the fifth label by Devin's 2026-09-15 ruling below.)",
         "Carry HIST-02 credit/rights forward; 'Used with permission from Microsoft' is proposed only; release blocked on R14 (and R03); never in a cleared-media bin.",
         "Work R03 against the screenshot layout; a mismatch becomes a review question, not a script edit.",
         "No one-panel-at-a-time reveal (editor request only)."
+      ],
+      "approver_of_release": null
+    },
+    {
+      "source": "Devin (project author), rulings of 2026-09-15 relayed by the Render Lane Manager (session vb-8c)",
+      "decisions": [
+        "Q1: callout marks over the Microsoft screenshot are allowed; keep the outline and leader treatment; no fallback.",
+        "Q2: the fifth label is 'Project Window' per War/SCRIPT.md:133 (writing change); build.py reads the five labels from the script cue and asserts exactly five. 'Form Designer' and its VB6-era note unchanged (Writing Lead item).",
+        "Q3 (narration) routed to the Writing Lead and Q4 (credit placement) routed to the producer; no art change.",
+        "Q5: research the Loan project's authorship; only an unresolved or third-party result stays a review question; the research does not clear release.",
+        "Q6: add a named side-by-side variant (clean left, annotated right, whole, same uniform scale, filling the safe width, label text off the image); decide the poster from the 720p review; keep clean-workspace and five-callouts."
       ],
       "approver_of_release": null
     }

@@ -1,6 +1,6 @@
 # XTRA-05 — Source excerpts
 
-Access date for all external material: 2026-09-15 (UTC). Web quotes are kept short; each is attributed to its page.
+Access date for all external material: 2026-09-15 (UTC). Web quotes are kept short; each is attributed to its page. Nothing external was copied into the repository: URLs, short quotes and SHA-256 hashes of fetched pages only.
 
 ## 1. Pack input (verbatim, hash-locked `sources/`)
 
@@ -14,7 +14,7 @@ This IDE had a few key pieces. On the left, you had a toolbox — a vertical str
 This was called "RAD" — Rapid Application Development. The whole point was speed. You weren't writing code to create a window. The IDE did that for you. You were writing code to respond to events — a button click, a timer tick, a key press.
 ~~~~
 
-Ticket copy (manifest `copy`, used verbatim as the labels):
+Ticket copy (manifest `copy`, the ticket's exact-copy payload). **Overridden for the fifth label** by the working script (§2), per Devin's 2026-09-15 ruling (writing change):
 
 ~~~~text
 Form Designer
@@ -24,7 +24,7 @@ Code Window
 Project Explorer
 ~~~~
 
-## 2. Working script (read only, `War/SCRIPT.md` on main 9e6f14a), lines 133–137
+## 2. Working script — label authority (read only, `War/SCRIPT.md` on main 9e6f14a), lines 133–137
 
 ~~~~text
 **[VISUAL: Side-by-side — the VB4 IDE with labeled callouts: Form Designer, Toolbox, Properties Window, Code Window, Project Window.]**
@@ -34,7 +34,7 @@ This IDE had a few key pieces. On the left, you had a toolbox — a vertical str
 This was called "RAD" — Rapid Application Development. The whole point was speed. You weren't writing code to create a window. The IDE did that for you. You were writing code to respond to events — a button click, a timer tick, a key press.
 ~~~~
 
-Commit 9e6f14a ("Apply 6 HIST-sourced script corrections", Writing Lead batch) changed only the cue at line 133: "Project Explorer" became "Project Window". The narration is unchanged.
+Commit 9e6f14a ("Apply 6 HIST-sourced script corrections", Writing Lead batch) changed only the cue at line 133: "Project Explorer" became "Project Window". The narration is unchanged. `src/build.py` reads the five labels from this cue line at build time (the one line containing "VB4 IDE with labeled callouts"), asserts there are exactly five and that each still names its panel in cue order, and records the line, text and the file's SHA-256 in `src/layout.json`. Rendered labels: Form Designer, Toolbox, Properties Window, Code Window, Project Window.
 
 ## 3. Editorial register (`docs/EDITORIAL_REGISTER.md`)
 
@@ -43,14 +43,14 @@ Commit 9e6f14a ("Apply 6 HIST-sourced script corrections", Writing Lead batch) c
 
 ## 4. Upstream original (HIST-02), text visible in the screenshot
 
-Transcribed in HIST-02 `evidence/source-excerpts.md` §3 and re-read here at native size and at 1.5x:
+Transcribed in HIST-02 `evidence/source-excerpts.md` §3 and re-read here at native size, at 1.5x and at 1.0x:
 
 - Title bar: `Loan - Microsoft Visual Basic [design]`
 - Untitled tool window at the left edge with control icons (pointer, PictureBox, Label "A", TextBox "ab|", Frame, CommandButton, CheckBox, OptionButton, ComboBox, ListBox, scroll bars, Timer, drive/dir/file lists, Shape, Line, Image, Data, OLE, Grid)
-- Form window title `LoanSheet`, menu `Options  Down Payment  Loan Length`, design grid dots, a selected grid control with sizing handles
+- Form window title `LoanSheet`, menu `Options  Down Payment  Loan Length`, frames `Years in Loan`, `Interest Rates`, buttons `Show Paymen…`, `Show Amortiza…` (cut off by the Code window), design grid dots, a selected grid control with sizing handles
 - Project window title `Loan`, buttons `View Form`, `View Code`, entry `LOAN.FRM  LoanSheet`
 - Properties window title `Properties - LoanSheet`, object `grdPayments Grid`
-- Code window title `LoanSheet`, `Object: grdPayments`, `Proc: Click`, first line `Private Sub grdPayments_Click()`
+- Code window title `LoanSheet`, `Object: grdPayments`, `Proc: Click`, first line `Private Sub grdPayments_Click()`, `cmdCalcAmort.Enabled = True`
 
 ## 5. Rights record carried forward (HIST-02 `evidence/rights.json`, `evidence/source.json`)
 
@@ -58,6 +58,7 @@ Transcribed in HIST-02 `evidence/source-excerpts.md` §3 and re-read here at nat
 - `proposed_credit_text`: "Microsoft Visual Basic 4.0 (32-bit) screenshot via WinWorld, winworldpc.com. Used with permission from Microsoft."
 - `proposed_credit_notes` (source.json): the Microsoft sentence is correct only if the rights review relies on Microsoft's screenshot permission and "must not be used before that decision".
 - Microsoft screenshot conditions quoted upstream: "Do not alter the screenshot except to resize it." and "Do not use portions of screenshots."
+- Devin, 2026-09-15: callout marks over the whole screenshot are allowed (XTRA-05-RQ1, carries RQ-HIST-02-3). The permission basis itself (RQ-HIST-02-1) is still undecided.
 
 ## 6. Panel-name evidence (Microsoft Knowledge Base, archived copies at jeffpar.github.io/kbarchive)
 
@@ -76,3 +77,22 @@ Later-version terminology, Microsoft Visual Basic 6.0 documentation (archived on
 - [Using the Code Editor](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/aa231233(v=vs.60)) (visual-basic-6): refers readers to "Code Window Keyboard Shortcuts".
 
 Not found: no VB 4.0-applicable Microsoft document using "Project Explorer" or "Form Designer" turned up in the searches. Q150423 (VB 4.0a fixes) and Q142823 (VB Programmer's Guide to Visual SourceSafe, VB 4.0) contain none of the panel names. A web search summary claimed Microsoft renamed the Project window to Project Explorer between versions 4 and 5; the thread it pointed to (microsoft.public.vb.general.discussion, "Project Window", narkive) contains no such statement, so the claim is not used.
+
+## 7. Authorship of the "Loan" project (XTRA-05-RQ5, carries RQ-HIST-02-2)
+
+**Conclusion: Microsoft sample.** The project in the capture is the Visual Basic 4.0 Grid sample (`\vb\samples\grid\loan.vbp`, `loan.frm`, `loan.frx`). Full record with hashes: `evidence/claim-checks.json` → `loan_project_research`.
+
+| # | Source (accessed 2026-09-15) | Short quote / listing row | What it establishes |
+|---|---|---|---|
+| 1 | Microsoft KB [Q150726](https://jeffpar.github.io/kbarchive/kb/150/Q150726/) "INFO: Files Installed with All Editions of Visual Basic 4.0" (VB 4.0 Standard/Professional/Enterprise 32-bit; last modified 11-JAN-2001). Page sha256 `7de9ec92…6e5830`. | Section "F. Samples", "1. All Editions": `loan.frm*  \vb\samples\grid`, `loan.frx*  \vb\samples\grid`, `loan.vbp*  \vb\samples\grid`. Footnote: files "marked with an asterisk (*)" are also installed on a 16-bit platform. | Microsoft lists the Loan project as a sample installed into VB\SAMPLES\GRID by every VB 4.0 edition. Primary evidence. |
+| 2 | archive.org [microsoft-visual-basic-4.0-enterprise](https://archive.org/details/microsoft-visual-basic-4.0-enterprise), disc contents listing page (not the ISO). Page sha256 `cf675658…f229bd`. | `VB/SAMPLES/GRID/LOAN.FRM 1996-01-12 31035`; `LOAN.FRX 2336`; `LOAN.VBP 382` | The files are on a VB 4.0 Enterprise CD beside `VB/SAMPLES/SAMPLES.HLP`. |
+| 3 | archive.org [Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995](https://archive.org/details/Microsoft_Visual_Basic_Enterprise_Edition_Version_4.0_Microsoft_1995), disc contents listing page. Page sha256 `d3a3f80a…ca0040`. | `VB/SAMPLES/GRID/LOAN.FRM 1995-08-15 31035`; `LOAN.FRX 2336`; `LOAN.VBP 382` | An August 1995 pressing carries the same files at identical sizes. |
+| 4 | archive.org [microsoft-visual-basic-4.0-professional-4.00.2422-english-cd](https://archive.org/details/microsoft-visual-basic-4.0-professional-4.00.2422-english-cd), `en_vb40A_pro.iso` contents listing page. Page sha256 `14b99b0c…3e3811`. | `vb/samples/grid/LOAN.FRM 1996-01-11 31035`; `LOAN.FRX 2336`; `LOAN.VBP 382` | The Professional edition (4.0a) has it too, not only Enterprise. |
+| 5 | The capture (HIST-02 `source/original.png`) | `Loan - Microsoft Visual Basic [design]`; `LOAN.FRM  LoanSheet`; `grdPayments Grid` | Project named Loan, form file LOAN.FRM, a Grid control: matches the Grid sample. |
+| 6 | KB [Q153838](https://jeffpar.github.io/kbarchive/kb/153/Q153838/) (page sha256 `4d40c375…3408c5`) | no "loan" text | Search false positive. |
+| 7 | KB [Q173840](https://jeffpar.github.io/kbarchive/kb/173/Q173840/) (page sha256 `452e9c1c…db4d26`) | no "loan" text | Search false positive (no third-party book project named Loan). |
+| 8 | 16 web searches (queries listed in claim-checks) for LOAN.VBP / LOAN.MAK / LOAN.FRM, grdPayments, cmdCalcAmort, LoanSheet, `samples\grid`, VB4 sample listings | — | Found sources 1–4; no attribution of a Loan / LoanSheet project to anyone but Microsoft. No VB3 LOAN.MAK listing found. |
+
+Limit: the text of LOAN.FRM was not compared with the capture's form (LoanSheet, grdPayments, cmdCalcAmort, menus), because that would mean extracting a file from a disc image; that was not done. Effect: no third-party content concern remains, but release still depends on Microsoft's permission basis (RQ-HIST-02-1).
+
+Method: read-only HTTPS GETs of HTML pages (KB articles, archive.org metadata and directory listings) with a generic browser User-Agent into the worker scratchpad; no accounts, no terms, no borrow-gated books, no installers, disc images or files from inside disc images.

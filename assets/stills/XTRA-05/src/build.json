@@ -4,20 +4,23 @@
   "frames": [
     {
       "time": 0,
-      "file": "variant-five-callouts.svg"
+      "file": "variant-side-by-side.svg"
     }
   ],
   "variants": {
     "clean-workspace": "variant-clean-workspace.svg",
-    "five-callouts": "variant-five-callouts.svg"
+    "five-callouts": "variant-five-callouts.svg",
+    "side-by-side": "variant-side-by-side.svg"
   },
-  "poster": "variant-five-callouts.svg",
+  "poster": "variant-side-by-side.svg",
   "cuts": {},
   "notes": [
-    "Whole HIST-02 screenshot (WinWorld \"Microsoft Visual Basic 4.0 32 bit - Edit\", 800x600) at a uniform 1.5x (1200x900, Pillow BOX) in both variants; no crop, rotation, stretch, retouch or zoom-in. Mat and frame sit outside the image edges.",
-    "clean-workspace: framed screenshot only; nothing is drawn over its pixels.",
-    "five-callouts (= poster): the five exact ticket labels sit in the side margins, outside the screenshot. Only 5 px outlines on each target window's own frame and horizontal leaders over empty desktop cross onto the image. Every mark and the original pixels it covers: src/layout.json annotation_edits.",
-    "\"Project Explorer\" is kept verbatim as ticket copy; the VB4 window is titled with the project name and Microsoft calls it the Project window. Review question for the Writing Lead in evidence/claim-checks.json.",
+    "Whole HIST-02 screenshot (WinWorld \"Microsoft Visual Basic 4.0 32 bit - Edit\", 800x600) in every variant; no crop, rotation, stretch, retouch or zoom-in. Mat and frame sit outside the image edges.",
+    "clean-workspace: framed screenshot at 1.5x (1200x900, Pillow BOX); nothing is drawn over its pixels.",
+    "five-callouts: same placement; the five labels sit in the side margins, outside the screenshot. Only 5 px outlines on each target window's own frame and horizontal leaders over empty desktop cross onto the image.",
+    "side-by-side: clean screenshot left, annotated screenshot right, both whole at native 1.0x (the HIST-02 PNG bytes, no resampling). 4 px outlines on window frames and leaders over desktop teal; rails in the dark gutters lead to a label strip below the annotated side. Every mark and the original pixels it covers: src/layout.json annotation_edits.",
+    "Labels are read from the War/SCRIPT.md:133 VISUAL cue (Form Designer, Toolbox, Properties Window, Code Window, Project Window); the ticket copy said \"Project Explorer\" and was overridden by the working script (writing change, Devin 2026-09-15).",
+    "Poster: side-by-side (decision and reason in qa.md).",
     "No on-screen credit: HIST-02 rights.json has credit_text null, and its proposed credit (\"... Used with permission from Microsoft.\") must not be used before RQ-HIST-02-1 is decided. The proposed credit is carried in delivery.json credits, marked proposed.",
     "Release blocked under R03 and R14 until the review deck decides; internal proof only."
   ],
@@ -29,13 +32,22 @@
         134
       ],
       "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
-      "relationship": "source creative brief (VISUAL cue at 130, IDE narration at 132)"
+      "relationship": "source creative brief (VISUAL cue at 130, IDE narration at 132); its callout list is superseded by the working script below"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        133,
+        133
+      ],
+      "sha256": "874e019d002739bb61389329e04cbfc6202d7461782fb947436d90eb1ce2d32c",
+      "relationship": "label authority: the five callout labels are read from this VISUAL cue at build time (working script, narrative authority)"
     },
     {
       "path": "../../historical/HIST-02/source/original.png",
       "asset": "HIST-02",
       "sha256": "065820c55080db7a4d23a2bbba3388d98aa2614837e8dda90b1cf97b82bde565",
-      "relationship": "historical original from a produced upstream asset; read in place, whole image uniformly scaled 1.5x, never cropped or copied"
+      "relationship": "historical original from a produced upstream asset; read in place; whole image uniformly scaled 1.5x (clean-workspace, five-callouts) or embedded byte-identical at 1.0x (side-by-side); never cropped or copied"
     }
   ],
   "kind": "still"

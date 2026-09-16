@@ -11,13 +11,15 @@
   "frames": [
     {
       "time": 0,
-      "file": "variant-five-callouts.svg"
+      "file": "variant-side-by-side.svg"
     }
   ],
   "cuts": {},
   "variant_names": [
     "clean-workspace",
-    "five-callouts"
+    "five-callouts",
+    "side-by-side"
   ],
+  "poster": "side-by-side",
   "motion_model": "Still asset: each variant is a separate still held for editorial timing. The one-panel-at-a-time reveal is editor-request only and was not built."
 }
