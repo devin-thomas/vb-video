@@ -4,12 +4,19 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "open",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "reason": "Devin approved option A with pillarbox and mute on 2026-09-15 from the B-roll Options page. Uploader-applied CC0 accepted as-is (earlier ruling); the R14 rights position stands as documented.",
       "checked_on": "2026-09-15",
       "plan_assumption_checked": "ASSET_PLAN.md:120 says the shot 'may need YouTube archival footage or AI-generated stand-in'. Checked: a YouTube-hosted clip carries no reuse permission, so YouTube leads are rights-blocked. Free stock (Pexels, Pixabay, Mixkit, Coverr) has no genuine 1990s software store footage. Archive-hosted home video exists with an uploader-asserted CC0.",
-      "evidence_paths": ["exports/candidates.md", "evidence/candidates.json", "exports/acquisition-handoff.md", "evidence/provenance.json", "source/source.json", "qa.md"],
+      "evidence_paths": [
+        "exports/candidates.md",
+        "evidence/candidates.json",
+        "exports/acquisition-handoff.md",
+        "evidence/provenance.json",
+        "source/source.json",
+        "qa.md"
+      ],
       "producer_ruling": {
         "date": "2026-09-15",
         "decided_by": "Devin (sole human reviewer), relayed through the B-roll Scouting Manager",
@@ -66,7 +73,9 @@
         "Audio: the file carries an opus stereo track, not auditioned. Use the segment mute, or audition it first for speech, music or store PA that may carry separate rights?",
         "Cost: is licensing the 1993 KXAS broadcast clip (beginning rate $90/second, not viewed) still worth pursuing now that candidate 1 is acquired? Presumed no.",
         "Scope: if the acquired footage is rejected on review, does Devin want a separately approved and labeled AI stand-in or staged reenactment assignment? (Not commissioned by this ticket.)"
-      ]
+      ],
+      "approval_date": "2026-09-15",
+      "decision": "Option A: 6.5 s cut 00:02:16.0-00:02:22.5 ending before the handshake; pillarbox the upscaled 4:3 picture on the 1080p timeline; segment muted (audio track not auditioned)."
     }
   ]
 }

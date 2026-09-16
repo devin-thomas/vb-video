@@ -2,7 +2,7 @@
   "id": "BROLL-04",
   "title": "Browsing a 1990s software store",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "stock/archive scouting report plus one acquired archival original (real camcorder footage, 1995; not a reenactment and not AI-generated)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 230.621,
@@ -48,8 +48,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "editorial gate record (R14 open; Devin's 2026-09-15 ruling recorded)",
-      "bytes": 8017,
-      "sha256": "e2f2267f4b8d62bf9f297671905c0b502469c6f90fda755e68242f43786b7719"
+      "bytes": 8540,
+      "sha256": "84cf5bed9d70a6eef5261e290f72299a987bfe13043d2146b8c4a91a065f72ae"
     },
     {
       "path": "exports/candidates.md",
@@ -227,9 +227,7 @@
       "result": "passed (see worker report)"
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "curl": "8.18.0",
     "ffmpeg": "6.0-essentials_build-www.gyan.dev",
@@ -248,6 +246,7 @@
     "The source is SD: 854x480 with a 632x480 active picture, so a 1080p timeline needs upscaling or a framing treatment. None was produced here.",
     "The file carries an opus stereo audio track. It was probed but not auditioned; audio rights and content are unchecked.",
     "The original is stored unmodified. The only derived files are the four PNG verification frames in evidence/frames/.",
-    "Genuine archival footage; no reenactment and no AI stand-in was created or commissioned."
+    "Genuine archival footage; no reenactment and no AI stand-in was created or commissioned.",
+    "Release approved by Devin 2026-09-15. Edit instruction: Option A: 6.5 s cut 00:02:16.0-00:02:22.5 ending before the handshake; pillarbox the upscaled 4:3 picture on the 1080p timeline; segment muted (audio track not auditioned)."
   ]
 }

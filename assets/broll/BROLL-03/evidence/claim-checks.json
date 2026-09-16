@@ -4,9 +4,9 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "open",
-      "approver": null,
-      "reason": null,
+      "status": "approved",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "reason": "Devin approved option A on 2026-09-15 from the B-roll Options page. The clip serves the beat as atmosphere; the record keeps the recreation label so the edit never presents it as period footage.",
       "checked_by": "BROLL-03 scouting worker (agent), 2026-09-15; acquisition verified by the BROLL-03 acquisition worker (agent), 2026-09-15",
       "evidence_paths": [
         "evidence/candidates.json",
@@ -82,7 +82,9 @@
         "Legal risk: is the uploader-applied Public Domain Mark on the 1989 Japanese Patent Office film enough to use it, given Internet Archive disclaims rights guarantees? If not, it stays blocked.",
         "Credit wording: attribution is not required by the Pexels License. Should 'Video: MART PRODUCTION / Pexels' still appear in the credits? (Credit wording is the producer's call.)"
       ],
-      "note": "Acquisition evidence is recorded and the file is verified, but release is not approved by this worker and the gate stays open. The release decision belongs to the OPS-04 review deck."
+      "note": "Acquisition evidence is recorded and the file is verified, but release is not approved by this worker and the gate stays open. The release decision belongs to the OPS-04 review deck.",
+      "approval_date": "2026-09-15",
+      "decision": "Option A: keep the acquired 2021 recreation (Pexels 8869925), labeled 'modern recreation' in every record; 10 s cut 00:01.000-00:11.000 as delivered."
     }
   ]
 }

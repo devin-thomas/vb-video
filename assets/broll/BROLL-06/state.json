@@ -1,7 +1,7 @@
 {
   "id": "BROLL-06",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "BROLL-06 acquisition worker subagent (spawned by the B-roll Scouting Manager, session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
@@ -12,13 +12,14 @@
     "Leads that show an actual period boot (LGR AST Advantage 622; 'Old computer boot up Windows 95') remain YouTube, rights-blocked, routed to H02.",
     "R14 open; review questions pending in the OPS-04 deck. Acquisition is not clearance."
   ],
-  "reviewer": null,
+  "reviewer": "Devin",
   "notes": [
     "Acquisition pass 2026-09-15: Devin approved one download and it succeeded. Pexels 8888818 was fetched with curl and a generic Mozilla/5.0 User-Agent; HTTP 302 then 200, no Cloudflare check, no login, no terms click-through, no CAPTCHA, nothing bypassed, no personal data sent.",
     "The real file matches the asset page: 4096x2160, 25 fps, 11.8 s, h264 High, video stream only with no audio. 29,243,915 bytes, sha256 5aa6828fb8a25cc46c24a0d8229f0f1e9db6c1fb7cab7df8aa68563543107f0f. The 2732x1440 figure from the scouting pass was an in-page preview rendition, not the delivered file.",
     "Frames at 0.5 s, 5 s and 10.5 s were extracted and viewed at native 4096x2160, and one frame was viewed again at 720p. The clip reads as a period-setting cutaway at both sizes; the bezel markings are legible only at full resolution.",
     "No watermark or baked-in caption; nothing was removed. The original is preserved byte-identical as downloaded.",
     "The Wikimedia Commons BIOS POST clip was NOT approved and was NOT downloaded. Pixabay 126935 stays rejected.",
-    "Earlier passes: candidates motion-reviewed in-page at preview resolution. An earlier Cloudflare security-verification page on Pexels was not bypassed; none appeared in the rework or acquisition passes."
+    "Earlier passes: candidates motion-reviewed in-page at preview resolution. An earlier Cloudflare security-verification page on Pexels was not bypassed; none appeared in the rework or acquisition passes.",
+    "Release approved by Devin 2026-09-15 (B-roll Options page, option A). Edit instruction recorded in delivery.json notes."
   ]
 }

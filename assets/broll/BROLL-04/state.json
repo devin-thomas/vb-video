@@ -1,7 +1,7 @@
 {
   "id": "BROLL-04",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "claude-worker ticket/BROLL-04-media (acquisition worker, B-roll Scouting Manager session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
@@ -9,7 +9,7 @@
     "Privacy / recognizable people unresolved: the footage shows identifiable members of the public and a CompUSA employee with a visible name badge, most clearly in the last 1.5 s of the scouted segment. Review question.",
     "Out point unresolved: the scouted out 00:02:24.0 does not hold against the real file. Recommended out is 00:02:22.5 (6.5 s), which is under the ticket's preferred 8-12 s. Editorial decision needed."
   ],
-  "reviewer": null,
+  "reviewer": "Devin",
   "notes": [
     "Acquired 2026-09-15 on Devin's approval of this one file: source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4, 32,302,815 bytes (the expected size), sha256 f6d309c70d1eccbc9e3af3ba124bf123724e0427dca83789635e74310baeccb6. The sha1 and md5 both match the values published by the Internet Archive metadata API, so the file is byte-identical to the published original.",
     "ffprobe on the real file: 854x480, h264 Main, 29.97 fps (30000/1001), 6911 frames, 230.621 s, plus an opus stereo audio track (present, not auditioned) and a 640x480 attached_pic PNG cover-art stream.",
@@ -18,6 +18,7 @@
     "Only this one file was downloaded. No account, login, payment, terms click-through, CAPTCHA or bot-check bypass, and no watermark removal. A generic browser User-Agent was used and no personal data was sent.",
     "The raw Internet Archive metadata JSON was deliberately not committed: its uploader field carries a third party's personal email address.",
     "Candidate 2 (670 MB) and the gated KXAS candidate 3 remain not acquired.",
-    "Still a genuine archival source; no reenactment or AI stand-in was created or commissioned."
+    "Still a genuine archival source; no reenactment or AI stand-in was created or commissioned.",
+    "Release approved by Devin 2026-09-15 (B-roll Options page, option A). Edit instruction recorded in delivery.json notes."
   ]
 }

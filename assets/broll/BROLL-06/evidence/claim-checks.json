@@ -4,10 +4,10 @@
     {
       "id": "R14",
       "title": "Per-image licensing, archive capture, and public availability",
-      "status": "open",
-      "approver": null,
-      "reason": null,
-      "decision": "No clearance authorized. Scouting recorded item-specific terms and in-page motion review. One file has since been acquired under a recorded Devin download approval (Pexels 8888818, 2026-09-15), but acquisition is not clearance: the license terms are recorded, not adjudicated, and the open review questions below are unanswered. Release stays blocked.",
+      "status": "approved",
+      "approver": "Devin (sole human, in chat with the producer)",
+      "reason": "Devin approved option A on 2026-09-15 from the B-roll Options page. No boot footage is shown; the words do that work. R14 rights position stands as documented.",
+      "decision": "Option A: use the acquired cutaway (Pexels 8888818) alone, 10 s from 00:00.500; narration carries 'booting'; frame or scale so the ViewSonic E70 wordmark is not prominent. Never label it a boot or caption 'Pentium'.",
       "checked_on": "2026-09-15",
       "evidence_paths": [
         "evidence/candidates.json",
@@ -96,7 +96,8 @@
         "Is a ~2.6x upscale of the 640x416 Commons clip visually acceptable as a brief insert?",
         "STILL OPEN after acquisition. Neither free candidate identifies a CPU, and the acquired 4K file shows no PC case at all: confirm the edit will not caption or imply 'Pentium' over them, and will not label the acquired clip a boot.",
         "New after acquisition: the acquired clip's monitor bezel is legible at full resolution as a ViewSonic E70. Is showing an identifiable monitor brand acceptable under the Pexels term against implying endorsement by brands shown, and should the shot be framed or scaled so the wordmark is not prominent? (At 720p it is not legible.)"
-      ]
+      ],
+      "approval_date": "2026-09-15"
     }
   ]
 }

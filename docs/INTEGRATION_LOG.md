@@ -130,6 +130,7 @@ Devin ruled on the review ledger in chat with the producer, ahead of the OPS-04 
 - **Writing Lead round** (branch `writing/2026-09-15-r03`, commit `542f37e`, merged): `War/SCRIPT.md:135` no longer says the code window was "behind all of it" (the accepted VB4 capture shows it in front); `:151` says "today" instead of "in 2024"; the "Form Designer" label at `:133` is kept, so XTRA-05 needs no rebuild. Credit placement for XTRA-05 (RQ4) is a producer decision: end credits, nothing burned in.
 - **Manifest:** BROLL-01 to BROLL-06 reclassed from kind `scout` to `archive`. Each ticket permitted ungated acquisition and now holds a verified original with provenance; `validate_delivery.py` refuses to approve a `scout` row.
 - **Process:** the Writing Lead session ran inside the producer's checkout and its `git switch` moved the producer's working tree. No damage (the commit touched only the script), but `docs/roles/WRITING_LEAD.md` now requires a worktree.
+- **B-roll choices (later the same evening):** Devin approved all three recommendations from the options page. BROLL-03 keeps the labeled recreation; BROLL-04 uses the 6.5 s cut 02:16.0 to 02:22.5, pillarboxed and muted; BROLL-06 uses the cutaway alone with narration carrying the boot. All three release-approved; release now stands at 16 approved.
 - **Open in the ledger:** only HIST-12 RQ-2, an information item about presenting the 444×282 Delphi GIF at an exact 3× upscale on a matte rather than stretched.
 
 ## Mapping: original GitHub issues → tickets

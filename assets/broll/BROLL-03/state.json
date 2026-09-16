@@ -1,7 +1,7 @@
 {
   "id": "BROLL-03",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "assigned_agent": "BROLL-03 acquisition worker (subagent of B-roll Scouting Manager, session vb-bf)",
   "updated_at": "2026-09-15",
   "blockers": [
@@ -9,7 +9,7 @@
     "Selected segment not verified frame by frame: frames were inspected at 1 s, 6 s and 11 s (the in point, middle and out point), not across all 250 frames of the 10 s segment.",
     "Archive alternative (jpo-automation) remains rights-unverified and its motion was never reviewed; it was not approved and not downloaded."
   ],
-  "reviewer": null,
+  "reviewer": "Devin",
   "notes": [
     "MODERN-RECREATION LABEL: the acquired clip is a modern 2021 retro-styled recreation, NOT genuine 1990s archive footage, and its set dressing (wood panelling, orange mushroom lamp, cream desk phone, parquet) reads more 1970s-80s than 1990s. Only the beige CRT, desktop case and keyboard are plausibly early-1990s. Do not present it as archival.",
     "Rank 1 acquired 2026-09-15 under Devin's approval relayed through the B-roll Scouting Manager: source/pexels-8869925-mart-production-man-working-at-an-office-4096x2160-25fps.mp4, 50,508,990 bytes, sha256 7713cf4fd887bacdba027f82dc2d39323deddac57d350ea2c6e3c4a369cf3d66.",
@@ -17,6 +17,7 @@
     "Downloaded with curl -L and a generic User-Agent. No login, account, payment, cookie or terms click-through, CAPTCHA or bot check was encountered or bypassed; no personal data was sent. No watermark present and none removed.",
     "Selected segment in 00:01, out 00:11 (slow push-in). Frames at 1 s, 6 s and 11 s inspected at full size and the 6 s frame again at 720p height: no flat panel, smartphone, laptop, modern keyboard or mouse, or contemporary UI, and no on-screen content at all because the CRT is angled away from camera.",
     "Ranks 2 and 3 were not approved and remain not acquired; their handoff rows stay open.",
-    "Produced is not cleared: release approval belongs to the OPS-04 review deck, not this worker."
+    "Produced is not cleared: release approval belongs to the OPS-04 review deck, not this worker.",
+    "Release approved by Devin 2026-09-15 (B-roll Options page, option A). Edit instruction recorded in delivery.json notes."
   ]
 }

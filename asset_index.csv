@@ -105,10 +105,10 @@ HIST-20,Windows 95 Solitaire,historical,archive,research,T2-H13,12,OPS-01,R14,as
 HIST-21,System 7 desktop,historical,archive,research,T2-H14,14,OPS-01,R14,assets/historical/HIST-21,docs/tickets/HIST-21.md,134,produced,blocked
 BROLL-01,Hands shuffling physical cards,broll,archive,research,T2-B01,5,,R14,assets/broll/BROLL-01,docs/tickets/BROLL-01.md,135,produced,approved
 BROLL-02,Two people playing War,broll,archive,research,T2-B02,5,,R14,assets/broll/BROLL-02,docs/tickets/BROLL-02.md,136,produced,approved
-BROLL-03,1990s office with CRT monitors,broll,archive,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,produced,blocked
-BROLL-04,Browsing a 1990s software store,broll,archive,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,produced,blocked
+BROLL-03,1990s office with CRT monitors,broll,archive,research,T2-B03,"3,12",,R14,assets/broll/BROLL-03,docs/tickets/BROLL-03.md,137,produced,approved
+BROLL-04,Browsing a 1990s software store,broll,archive,research,T2-B04,"3,12",,R14,assets/broll/BROLL-04,docs/tickets/BROLL-04.md,138,produced,approved
 BROLL-05,Floppy disk insertion close-up,broll,archive,research,T2-B05,"3,12",,R14,assets/broll/BROLL-05,docs/tickets/BROLL-05.md,139,produced,approved
-BROLL-06,Pentium-era PC booting,broll,archive,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,produced,blocked
+BROLL-06,Pentium-era PC booting,broll,archive,research,T2-B06,"3,12",,R14,assets/broll/BROLL-06,docs/tickets/BROLL-06.md,140,produced,approved
 XTRA-01,Visual Basic Programmer's Journal cover,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-01,docs/tickets/XTRA-01.md,141,produced,blocked
 XTRA-02,Period MSDN advertisement,historical,archive,research,SCRIPT-SUPPLEMENT,1,OPS-01,R14,assets/historical/XTRA-02,docs/tickets/XTRA-02.md,142,produced,blocked
 XTRA-03,Early BASIC-era terminal hardware,historical,archive,research,SCRIPT-SUPPLEMENT,2,OPS-01,R14,assets/historical/XTRA-03,docs/tickets/XTRA-03.md,143,produced,blocked

@@ -2,7 +2,7 @@
   "id": "BROLL-03",
   "title": "1990s office with CRT monitors",
   "production_status": "produced",
-  "release_status": "blocked",
+  "release_status": "approved",
   "provenance_type": "stock scouting record plus one acquired modern retro-styled recreation clip (not archive footage)",
   "shared_version": "win95-workbench-1.0.0",
   "duration_seconds": 27.84,
@@ -33,8 +33,8 @@
     {
       "path": "evidence/claim-checks.json",
       "role": "evidence / QA",
-      "bytes": 7702,
-      "sha256": "ab087f8acc0cf11e176c01dd7a707491b61e16d546378bfa14ce7d7191d3afa5"
+      "bytes": 8149,
+      "sha256": "6214aa132f7f06f6898812d97bf7058f6fdc2efde832de4b23f904773e172ad7"
     },
     {
       "path": "evidence/candidates.json",
@@ -205,9 +205,7 @@
       "result": "not performed: these are R14 review questions for the OPS-04 review deck, not worker findings."
     }
   ],
-  "unresolved_gates": [
-    "R14"
-  ],
+  "unresolved_gates": [],
   "toolchain": {
     "ffmpeg": "6.0-essentials_build-www.gyan.dev",
     "ffprobe": "6.0-essentials_build-www.gyan.dev",
@@ -224,6 +222,7 @@
     "duration_seconds, dimensions and fps above describe the acquired original file, not an authored render. The proposed editorial segment is in 00:01 / out 00:11 (10.0 s).",
     "One file only was downloaded, under Devin's 2026-09-15 approval relayed through the B-roll Scouting Manager. Ranks 2 and 3 were not approved and were not downloaded.",
     "The original is preserved untouched; no trim, regrade or conversion was made. The PNGs in evidence/frames/ are derived inspection stills, one of them downscaled to 720 px height.",
-    "Produced is not cleared. Release stays blocked and R14 stays open; the release decision belongs to the OPS-04 review deck."
+    "Produced is not cleared. Release stays blocked and R14 stays open; the release decision belongs to the OPS-04 review deck.",
+    "Release approved by Devin 2026-09-15. Edit instruction: Option A: keep the acquired 2021 recreation (Pexels 8869925), labeled 'modern recreation' in every record; 10 s cut 00:01.000-00:11.000 as delivered."
   ]
 }
