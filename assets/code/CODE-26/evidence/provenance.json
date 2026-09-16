@@ -1,0 +1,52 @@
+{
+  "id": "CODE-26",
+  "classification": "authored teaching example (VB4-style illustration; not a Program.vb excerpt)",
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        166,
+        166
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (beat S04-B06 narration)"
+    },
+    {
+      "path": "../../../docs/tickets/CODE-26.md",
+      "lines": [
+        36,
+        38
+      ],
+      "sha256": "c9579af15fdf90ea2123fd9277a51d2251f48df175d21087e572d23368dd2429",
+      "relationship": "teaching illustration (authored copy from the ticket)"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        12,
+        12
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "source creative brief (Devin's review note 6)"
+    }
+  ],
+  "authored_additions": [
+    "Two-line VB4-style example from the ticket: `x = 42` and `Print x        ' 42`. The ticket's header comment line is shown as the card header \"Visual Basic 4 · Option Explicit off\"; the top-right label reads \"Teaching example\".",
+    "Callout copy (from the ticket's composition section): \"x was never declared. VB creates it here as a Variant.\" The word Variant is set bold.",
+    "Title line \"Undeclared variable: created on first use as a Variant\" is the ticket title.",
+    "Authored teaching example in classic VB4 style with Option Explicit off; not an excerpt of Program.vb.",
+    "The ticket's header comment line is carried by the card header (\"Visual Basic 4 · Option Explicit off\"); the two code lines are the exact ticket copy.",
+    "Callout enters from the right margin and stops at the end of line 1; no annotation crosses code text.",
+    "Discrete deterministic step states: typing 1–2.35 s, callout 2.5–2.9 s, hold to 6 s (loop-safe; last state is the poster)."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": [
+    "Names, copy and timing follow docs/tickets/CODE-26.md; no producer decision was needed."
+  ],
+  "not_program_vb": true,
+  "fact_notes": [
+    "Classic VB (through VB6, Option Explicit off) creates an undeclared variable on first use with the Variant type. This is the narration's own statement (SCRIPT.md:166) and is the teaching claim of the card; no separate primary source is stored in the repository."
+  ]
+}

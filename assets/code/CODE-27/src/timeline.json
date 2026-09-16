@@ -1,0 +1,77 @@
+{
+  "id": "CODE-27",
+  "durationSeconds": 9,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "0–2 s: the four lines type in.",
+    "2–5 s: State A callout from the right margin: Nintendont is a new, empty variable; Nintendo is still 1985; nothing told you. Output 1985.",
+    "5–6 s: Option Explicit On types in at the top; header switches to Option Explicit on.",
+    "6–9 s: State B: Nintendont underlined in red, error \"Variable not defined\" pointing at Nintendont. Hold as poster."
+  ],
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "scene-0000.svg"
+    },
+    {
+      "time": 0.4,
+      "file": "scene-0001.svg"
+    },
+    {
+      "time": 0.8,
+      "file": "scene-0002.svg"
+    },
+    {
+      "time": 1.2,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 1.6,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 2.0,
+      "file": "scene-0005.svg"
+    },
+    {
+      "time": 2.25,
+      "file": "scene-0006.svg"
+    },
+    {
+      "time": 2.5,
+      "file": "scene-0007.svg"
+    },
+    {
+      "time": 5.0,
+      "file": "scene-0008.svg"
+    },
+    {
+      "time": 5.3,
+      "file": "scene-0009.svg"
+    },
+    {
+      "time": 5.6,
+      "file": "scene-0010.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0011.svg"
+    },
+    {
+      "time": 6.3,
+      "file": "scene-0012.svg"
+    },
+    {
+      "time": 6.6,
+      "file": "scene-0013.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "typo",
+    "option-explicit"
+  ],
+  "motion_model": "Explicit deterministic step states with readable holds; MP4 encodes the same scene changes at 30 fps."
+}

@@ -1,0 +1,346 @@
+{
+  "id": "CODE-27",
+  "title": "Nintendo and Nintendont: the silent typo, and what Option Explicit does about it",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "authored teaching example (VB4-style illustration; not a Program.vb excerpt)",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": 9,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": 30,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 447,
+      "sha256": "ba143ce3313cd981b647ef43c0abab253722735a7d62f209b3f1537d474878a1"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 295,
+      "sha256": "4d9b925d3dac6436f20f2da0669600caa0b37db03ca0dd9f61e5b8ba39908de7"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 3205,
+      "sha256": "915161419dc2f1fa1f29185f8e9ed42021593cceb68ca4b27f588a90ad7d8115"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 1082,
+      "sha256": "15b28227f857611f0e5800ee36fab65a1ed121599578a6b831414e54486eb338"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 1773,
+      "sha256": "8397d8954b6f6989fe01af95e04306f1709ee297cc0728c49d0fd7f3f2d0a577"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 126235,
+      "sha256": "e578383336bac9e5780aa9d33b0a1f3bc23951661c46f845079ad65394091469"
+    },
+    {
+      "path": "exports/keyframes/end.png",
+      "role": "rendered still",
+      "bytes": 89420,
+      "sha256": "f88ab3f7d27e9273ca4be57008589d6f8a776fecf8c0f98ae6792c730074836e"
+    },
+    {
+      "path": "exports/keyframes/middle.png",
+      "role": "rendered still",
+      "bytes": 94279,
+      "sha256": "170da11b2bbe0b78279401ac8331050aff6792d93b301b68c0f1f3cc27fc97ba"
+    },
+    {
+      "path": "exports/keyframes/start.png",
+      "role": "rendered still",
+      "bytes": 33930,
+      "sha256": "d2d6f106491738db85a1f3e6435ac438e4361f61e082602ecb07373861e16baa"
+    },
+    {
+      "path": "exports/option-explicit.png",
+      "role": "rendered still",
+      "bytes": 89420,
+      "sha256": "f88ab3f7d27e9273ca4be57008589d6f8a776fecf8c0f98ae6792c730074836e"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 89420,
+      "sha256": "f88ab3f7d27e9273ca4be57008589d6f8a776fecf8c0f98ae6792c730074836e"
+    },
+    {
+      "path": "exports/preview.mp4",
+      "role": "rendered motion",
+      "bytes": 162321,
+      "sha256": "289bbfe3bf31de0b5cd0e00978169364c65740d7c6631e102752c701435a5bea"
+    },
+    {
+      "path": "exports/typo.png",
+      "role": "rendered still",
+      "bytes": 94279,
+      "sha256": "170da11b2bbe0b78279401ac8331050aff6792d93b301b68c0f1f3cc27fc97ba"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 128156,
+      "sha256": "9198a3959b03e977166b98170bec1c1fa2bbc2f34bef2d8a4b8cd132ff5d0425"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 3560,
+      "sha256": "6002b25d97de7cf62b13b8889e7e0b23876098d0523065cc922917b683d8f06f"
+    },
+    {
+      "path": "src/author.py",
+      "role": "editable source",
+      "bytes": 11450,
+      "sha256": "71d2c13176026dd9aa144bbc5f51cfbbaa845c8402dafdd63fcb255c016f3278"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2877,
+      "sha256": "1d141cd18f8c6ef6d029a708ea56f4988d7f92f1655c04dfd9ca333836bd05c2"
+    },
+    {
+      "path": "src/example.vb",
+      "role": "editable source",
+      "bytes": 280,
+      "sha256": "e63b59ecac9fec240a0cf9562fb1d57c6d938f46bcf50aacc6493e38b256a986"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 95427,
+      "sha256": "7a38e36e18dd21b5be09933a8e2e77ce6befc59970f092da004766d97a45f293"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 2172,
+      "sha256": "a846f56419c452fddade32b67fe4bcbb7f59f6539f2d935f0b1cd9323feb1eec"
+    },
+    {
+      "path": "src/scene-0001.svg",
+      "role": "editable source",
+      "bytes": 3364,
+      "sha256": "40b05ffc371c9ca2e00ecfbaec16dd4c59126fd3c9267b39193b1c7deff60088"
+    },
+    {
+      "path": "src/scene-0002.svg",
+      "role": "editable source",
+      "bytes": 3880,
+      "sha256": "5a1875b18daed0f5746e5bdf5a090d25397eb7f7eaf26a292af3ccbad26de7c3"
+    },
+    {
+      "path": "src/scene-0003.svg",
+      "role": "editable source",
+      "bytes": 5118,
+      "sha256": "9d71ae0c008dc6e55673fabb75767b5767aa6d5fa7fa27df96bcd8b157ccd290"
+    },
+    {
+      "path": "src/scene-0004.svg",
+      "role": "editable source",
+      "bytes": 5903,
+      "sha256": "e93c984985fe7ae323f2df33d49045938923e298d102af8aa101058bd3dee6ab"
+    },
+    {
+      "path": "src/scene-0005.svg",
+      "role": "editable source",
+      "bytes": 6160,
+      "sha256": "b8955288096994b63a62c1f4bb7d6304f78115ab2514fd47490604d35f44bae0"
+    },
+    {
+      "path": "src/scene-0006.svg",
+      "role": "editable source",
+      "bytes": 6333,
+      "sha256": "c32b2f62ed033d1698e27c60b0edb2c817179e787375f6b4a87f5e320983e340"
+    },
+    {
+      "path": "src/scene-0007.svg",
+      "role": "editable source",
+      "bytes": 7245,
+      "sha256": "350888aced46e5eb73c55cf907fd138a51d75f62f30a46e302ef8840eff96e16"
+    },
+    {
+      "path": "src/scene-0008.svg",
+      "role": "editable source",
+      "bytes": 6340,
+      "sha256": "325f9a255b6bc8b2641e70e2bdf8421b52e0f15942f29f83e6e678b886dc93c9"
+    },
+    {
+      "path": "src/scene-0009.svg",
+      "role": "editable source",
+      "bytes": 6683,
+      "sha256": "91bfe78988e59507b0b13e23f1537ddc62e3b0589313e7357355f929afb41fa2"
+    },
+    {
+      "path": "src/scene-0010.svg",
+      "role": "editable source",
+      "bytes": 7019,
+      "sha256": "026c14066ae7a0815f21ecb4686ad9591bd67318b78bdae7ade2a2b669b22e00"
+    },
+    {
+      "path": "src/scene-0011.svg",
+      "role": "editable source",
+      "bytes": 7628,
+      "sha256": "3a59e536caf53c65f6b0777b1cc2eb1e2426fe9d2549de5c47417f7020eef900"
+    },
+    {
+      "path": "src/scene-0012.svg",
+      "role": "editable source",
+      "bytes": 7801,
+      "sha256": "d38871aa01d0242ec87cf8eeb9e8ef350e4628660e19b7987709ea066b2104f5"
+    },
+    {
+      "path": "src/scene-0013.svg",
+      "role": "editable source",
+      "bytes": 8340,
+      "sha256": "1ad3616eb9b5b29215c00bcf657789a8749915561cc1f0ad2127601a5444ed01"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 8340,
+      "sha256": "1ad3616eb9b5b29215c00bcf657789a8749915561cc1f0ad2127601a5444ed01"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 1617,
+      "sha256": "3489cf99841e8e5cbe546c48dc8fd7915bc6db62c4a03e037da7a94437b8ca05"
+    },
+    {
+      "path": "src/variant-option-explicit.svg",
+      "role": "editable source",
+      "bytes": 8340,
+      "sha256": "1ad3616eb9b5b29215c00bcf657789a8749915561cc1f0ad2127601a5444ed01"
+    },
+    {
+      "path": "src/variant-typo.svg",
+      "role": "editable source",
+      "bytes": 7245,
+      "sha256": "350888aced46e5eb73c55cf907fd138a51d75f62f30a46e302ef8840eff96e16"
+    }
+  ],
+  "variants": [
+    {
+      "name": "typo",
+      "files": [
+        "exports/typo.png",
+        "src/variant-typo.svg"
+      ]
+    },
+    {
+      "name": "option-explicit",
+      "files": [
+        "exports/option-explicit.png",
+        "src/variant-option-explicit.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        166,
+        166
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief (beat S04-B07 narration)"
+    },
+    {
+      "path": "../../../docs/tickets/CODE-27.md",
+      "lines": [
+        36,
+        43
+      ],
+      "sha256": "c135d0f77ea39f3ff9a224ccce7b96a87e1c6ba79eda9baee74439639fadd869",
+      "relationship": "teaching illustration (authored copy from the ticket)"
+    },
+    {
+      "path": "../../../review/cut-notes-2026-09-16.md",
+      "lines": [
+        12,
+        12
+      ],
+      "sha256": "f32b0e1da0d5fdaf274a6b1e2fe13acf8d34184abb8bf53fee3542e25d8cdb83",
+      "relationship": "source creative brief (Devin's review note 6: the names Nintendo and Nintendont)"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Vector graphics authored for this production with the shared win95-workbench system; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id CODE-27: run after this manifest was written; see qa.md for the recorded output."
+    },
+    {
+      "test": "raster dimensions and video codec/fps/duration",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: PNGs 1920x1080; preview.mp4 h264 yuv420p 30/1, 270 frames, 9.000 s (ffprobe)"
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: 17 SVG files, 500 text boxes, no out-of-canvas text, no network request, seek deterministic (installed Chromium 153.0.8010.12)"
+    },
+    {
+      "test": "copy check",
+      "result": "src/author.py asserts the required names/words are present in the poster and variant SVGs; the exact code lines equal the ticket payload (src/example.vb)."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-size and 1280-wide inspection of every poster, variant PNG and extracted preview frames",
+        "scope": "All named states; three or more MP4 frames per preview extracted with ffmpeg.",
+        "status": "Poster, typo.png, option-explicit.png and preview frames at 1.0 s, 3.0 s, 5.3 s, 6.3 s and 8.9 s inspected at 1920 × 1080 and at 1280 × 720 (proofs/poster-720.png plus 1280-wide downsizes made in a scratch folder). Both names are spelled exactly in both states; the error reads \"Variable not defined\" with Nintendont beneath it; connectors run down the right-margin lane and end 24 px right of the line-3 comment, crossing no code; the red squiggle sits under the token only. A first render had the typing caret over the O of Option at 5.3 s; fixed (row-0 line end recorded) and re-rendered before finishing."
+      }
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": null,
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "cairo_dll": "MSYS2 ucrt64 via CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin",
+    "fonts": "DejaVu Sans Mono and Liberation Sans installed locally; not distributed",
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading in Playwright's bundled Chromium."
+  },
+  "notes": [
+    "Authored teaching example in classic VB4 style; not an excerpt of Program.vb. Names are exactly Nintendo (declared) and Nintendont (misspelled).",
+    "State A (Option Explicit off): the misspelled line silently creates a new, empty Nintendont; Nintendo stays 1985 and Print Nintendo outputs 1985.",
+    "State B (Option Explicit On): the same line is flagged with the classic VB message \"Variable not defined\", pointing at Nintendont. The card header switches to \"Option Explicit on\".",
+    "The long line 3 leaves no room beside the code, so both callouts sit below the code and their connectors enter from the right-margin lane (x=1745, right of every line end); no annotation crosses code text.",
+    "Discrete deterministic step states: lines type in 0.4–1.6 s, State A callout 2–2.5 s, Option Explicit On types in 5–5.6 s, State B error 6–6.6 s, hold to 9 s (poster).",
+    "Authored teaching example, labelled as such on the card; not a Program.vb excerpt.",
+    "Original ticket requirements retained; these exports are not producer publication approval."
+  ]
+}
