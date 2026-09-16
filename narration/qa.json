@@ -2069,20 +2069,6 @@
  "S12-B05/01": {
   "beat": "S12-B05",
   "attempt": 1,
-  "duration_s": 23.68,
-  "wpm": 147.0,
-  "peak": 0.7422,
-  "lead_silence_s": 0.09,
-  "trail_silence_s": 0.04,
-  "transcript": "Panel 1. Player 2's hand, 2 cards. Player 1's hand, 50 cards. Panel 2, both play a 10. 1 card left for Player 2, 49 for Player 1. Panel 3, both burn 1. 0 cards left for Player 2. Panel 4 Player 2 has no cards left for the war Player 1 takes the pot",
-  "word_diff_ratio": 0.0,
-  "diffs": [],
-  "flags": [],
-  "asr_seconds": 23.2
- },
- "S12-B06/01": {
-  "beat": "S12-B06",
-  "attempt": 1,
   "duration_s": 7.76,
   "wpm": 131.4,
   "peak": 0.6758,
@@ -2102,8 +2088,8 @@
   ],
   "asr_seconds": 11.1
  },
- "S12-B07/01": {
-  "beat": "S12-B07",
+ "S12-B06/01": {
+  "beat": "S12-B06",
   "attempt": 1,
   "duration_s": 14.72,
   "wpm": 150.8,
@@ -2116,22 +2102,8 @@
   "flags": [],
   "asr_seconds": 15.3
  },
- "S12-B08/01": {
-  "beat": "S12-B08",
-  "attempt": 1,
-  "duration_s": 12.16,
-  "wpm": 138.2,
-  "peak": 0.7773,
-  "lead_silence_s": 0.08,
-  "trail_silence_s": 0.07,
-  "transcript": "Term 4. Two cards play ten. Burn one empty. Four card pot. Term 2. Three cards play eight. Burn two empty. Six card pot.",
-  "word_diff_ratio": 0.0,
-  "diffs": [],
-  "flags": [],
-  "asr_seconds": 12.0
- },
- "S12-B09/01": {
-  "beat": "S12-B09",
+ "S12-B07/01": {
+  "beat": "S12-B07",
   "attempt": 1,
   "duration_s": 23.2,
   "wpm": 162.9,
@@ -2144,8 +2116,8 @@
   "flags": [],
   "asr_seconds": 27.9
  },
- "S12-B10/01": {
-  "beat": "S12-B10",
+ "S12-B08/01": {
+  "beat": "S12-B08",
   "attempt": 1,
   "duration_s": 4.64,
   "wpm": 181.0,
@@ -2158,8 +2130,8 @@
   "flags": [],
   "asr_seconds": 10.1
  },
- "S12-B11/01": {
-  "beat": "S12-B11",
+ "S12-B09/01": {
+  "beat": "S12-B09",
   "attempt": 1,
   "duration_s": 5.76,
   "wpm": 166.7,
@@ -4311,8 +4283,8 @@
   ],
   "asr_seconds": 13.2
  },
- "S12-B06/02": {
-  "beat": "S12-B06",
+ "S12-B05/02": {
+  "beat": "S12-B05",
   "attempt": 2,
   "duration_s": 8.16,
   "wpm": 125.0,
@@ -5040,5 +5012,37 @@
    "fast (265 wpm)"
   ],
   "asr_seconds": 7.3
+ },
+ "S08-B02/03": {
+  "beat": "S08-B02",
+  "attempt": 3,
+  "duration_s": 17.52,
+  "wpm": 143.8,
+  "peak": 0.8281,
+  "lead_silence_s": 0.09,
+  "trail_silence_s": 0.06,
+  "transcript": "In C-sharp, you'd use queue of card and call it a day. In C++, you'd use standard queue. In 1995 VB, you didn't have generic collections. You didn't even have a built-in queue. You had arrays, and you had redim, and that was about it.",
+  "word_diff_ratio": 0.0769,
+  "diffs": [
+   {
+    "op": "replace",
+    "expected": "see",
+    "heard": "c"
+   },
+   {
+    "op": "replace",
+    "expected": "v b",
+    "heard": "vb"
+   },
+   {
+    "op": "replace",
+    "expected": "re dim",
+    "heard": "redim"
+   }
+  ],
+  "flags": [
+   "content words not heard: see dim"
+  ],
+  "asr_seconds": 20.0
  }
 }

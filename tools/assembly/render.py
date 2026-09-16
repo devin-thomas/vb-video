@@ -44,6 +44,11 @@ def visual_inputs(v: dict, slot: float, w: int, h: int, fps: int, idx: int) -> t
         args = ["-ss", f"{start:.3f}", "-to", f"{end:.3f}", "-i", str(f)]
         chain = f"[{idx}:v]{fit(w, h, fps)},tpad=stop_mode=clone:stop_duration={slot:.3f},trim=duration={slot:.3f},setpts=PTS-STARTPTS[v{idx}]"
         return args, chain, 1
+    elif v.get("kind") == "archive" and not v.get("still"):
+        # a stock clip never freezes (Devin, 2026-09-16): loop the whole clip inside its slot
+        args = ["-stream_loop", "-1", "-i", str(f)]
+        chain = f"[{idx}:v]{fit(w, h, fps)},trim=duration={slot:.3f},setpts=PTS-STARTPTS[v{idx}]"
+        return args, chain, 1
     elif v.get("kind") == "recording":
         # a screen recording: fill the width, never upscale past 1.6x, hold the last frame after it ends
         args = ["-i", str(f)]
@@ -64,7 +69,8 @@ def visual_inputs(v: dict, slot: float, w: int, h: int, fps: int, idx: int) -> t
 def render_segment(seg: dict, length: float, w: int, h: int, fps: int, out: Path, vcodec: list[str]) -> None:
     visuals = [v for v in seg["visuals"] if v]
     n = len(visuals)
-    slots = [length / n] * n
+    given = [float(v.get("slot") or 0) for v in visuals]
+    slots = [g * length / sum(given) for g in given] if all(g > 0 for g in given) else [length / n] * n  # timeline slots, scaled to the segment
     args, chains, labels, idx = [], [], [], 0
     for v, slot in zip(visuals, slots):
         a, c, used = visual_inputs(v, slot, w, h, fps, idx); args += a; chains.append(c); labels.append(f"[v{idx}]"); idx += used

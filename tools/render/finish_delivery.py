@@ -7,7 +7,7 @@ from pathlib import Path
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[2]
 MAN=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8'));ROWS={r['id']:r for r in MAN['tickets']}
-VERSION='win95-workbench-1.0.0'
+VERSION='win95-workbench-1.1.0'
 def dump(path,data):
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf-8',newline='\n')
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -36,7 +36,7 @@ def ops():
  cairosvg.svg2png(bytestring=atlas.finish().encode(),write_to=str(ob/'exports/card-atlas.png'))
  cap=capabilities();dump(ob/'exports/capabilities.json',cap)
  dump(shared/'VERSION.json',{'version':VERSION,'canvas':[1920,1080],'fps':30,'renderer':'studio.py / build_assets.py / diagrams.py','font_families':['Liberation Sans','DejaVu Sans Mono'],'fonts_included':False,'date_utc':datetime.now(timezone.utc).isoformat()})
- (ob/'exports/template-contract.md').write_text('''# Shared contract — win95-workbench-1.0.0
+ (ob/'exports/template-contract.md').write_text('''# Shared contract — win95-workbench-1.1.0
 
 The media canvas is 1920 × 1080. Motion is 30 fps, H.264, yuv420p, silent. Color roles and drawing primitives live in `tools/render/studio.py`. Each asset owns its own scene files, timeline, variants, evidence, and exports. No network resources or font files are included.
 

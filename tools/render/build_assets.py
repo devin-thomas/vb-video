@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parents[2]
 MAN=json.loads((ROOT/'manifest.json').read_text(encoding='utf-8')); ROWS={r['id']:r for r in MAN['tickets']}
 PROGRAM=(ROOT/'sources/Program.vb').read_text(encoding='utf-8').splitlines()
 WAR=json.loads((ROOT/'tools/fixtures/war_storyboard.json').read_text(encoding='utf-8'));SHUF=json.loads((ROOT/'tools/fixtures/shuffle_storyboard.json').read_text(encoding='utf-8'))
-VERSION='win95-workbench-1.0.0'
+VERSION='win95-workbench-1.1.0'
 REGISTRY={}
 def scene(id,duration,frames,variants,poster=None,notes=None,cuts=None,source_text=None,files=None):
  """frames: sorted (seconds, SVG) pairs. This explicit timeline is seekable and offline.

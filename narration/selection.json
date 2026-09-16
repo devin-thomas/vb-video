@@ -910,6 +910,11 @@
     2,
     145.8,
     "content words not heard: queue queue queue dim"
+   ],
+   [
+    3,
+    143.8,
+    "content words not heard: see dim"
    ]
   ]
  },
@@ -1486,18 +1491,6 @@
   ]
  },
  "S12-B05": {
-  "attempt": 1,
-  "wpm": 147.0,
-  "flags": [],
-  "candidates": [
-   [
-    1,
-    147.0,
-    ""
-   ]
-  ]
- },
- "S12-B06": {
   "attempt": 2,
   "wpm": 125.0,
   "flags": [],
@@ -1514,7 +1507,7 @@
    ]
   ]
  },
- "S12-B07": {
+ "S12-B06": {
   "attempt": 1,
   "wpm": 150.8,
   "flags": [],
@@ -1526,19 +1519,7 @@
    ]
   ]
  },
- "S12-B08": {
-  "attempt": 1,
-  "wpm": 138.2,
-  "flags": [],
-  "candidates": [
-   [
-    1,
-    138.2,
-    ""
-   ]
-  ]
- },
- "S12-B09": {
+ "S12-B07": {
   "attempt": 1,
   "wpm": 162.9,
   "flags": [],
@@ -1550,7 +1531,7 @@
    ]
   ]
  },
- "S12-B10": {
+ "S12-B08": {
   "attempt": 1,
   "wpm": 181.0,
   "flags": [],
@@ -1562,7 +1543,7 @@
    ]
   ]
  },
- "S12-B11": {
+ "S12-B09": {
   "attempt": 1,
   "wpm": 166.7,
   "flags": [],
