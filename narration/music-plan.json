@@ -3,7 +3,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/shady.flac",
   "from": 0.0,
   "to": 326.39,
-  "gain_db": -15,
+  "gain_db": -9,
   "why": "opening; Devin: let it run a few seconds before the voice, then duck",
   "title": "Shady Business (YM2612)"
  },
@@ -11,7 +11,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/auldjack.wav",
   "from": 326.39,
   "to": 559.06,
-  "gain_db": -16,
+  "gain_db": -11,
   "why": "toolchain and setup",
   "title": "Auld Jack"
  },
@@ -19,7 +19,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/crypto.flac",
   "from": 559.06,
   "to": 1158.1,
-  "gain_db": -16,
+  "gain_db": -11,
   "why": "rules, card, deck, hand",
   "title": "Cryptosphere (Gameboy)"
  },
@@ -27,7 +27,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/chipper.mp3",
   "from": 1158.1,
   "to": 1488.28,
-  "gain_db": -16,
+  "gain_db": -11,
   "why": "game loop, war, runs",
   "title": "Chipper Doodle v2"
  },
@@ -35,7 +35,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/gravebyte.flac",
   "from": 1488.28,
   "to": 1818.411,
-  "gain_db": -16,
+  "gain_db": -11,
   "why": "what it would have become, competition",
   "title": "Gravebyte (Gameboy)"
  },
@@ -43,7 +43,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/crypto.flac",
   "from": 1818.411,
   "to": 2196.442,
-  "gain_db": -16,
+  "gain_db": -11,
   "why": "Mac, why it mattered",
   "title": "Cryptosphere (Gameboy)"
  },
@@ -51,7 +51,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/hexel.flac",
   "from": 2196.442,
   "to": 2413.026,
-  "gain_db": -20,
+  "gain_db": -15,
   "why": "why it died; Devin: spooky, very loud, so 4 dB lower",
   "title": "Hexel (Gameboy)"
  },
@@ -59,7 +59,7 @@
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/shady.flac",
   "from": 2413.026,
   "to": 2506.4,
-  "gain_db": -13,
+  "gain_db": -8,
   "why": "outro and end card, a touch more forward",
   "title": "Shady Business (YM2612)"
  }

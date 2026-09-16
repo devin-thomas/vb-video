@@ -27,14 +27,14 @@ SOURCES = {  # key -> (source file, title, artist, licence, page)
 }
 # section ranges -> bed key and gain (dB relative to the loudness-matched bed)
 PLAN = [
-    ((1, 2), "shady", -15, "opening; Devin: let it run a few seconds before the voice, then duck"),
-    ((3, 4), "auldjack", -16, "toolchain and setup"),
-    ((5, 8), "crypto", -16, "rules, card, deck, hand"),
-    ((9, 11), "chipper", -16, "game loop, war, runs"),
-    ((12, 13), "gravebyte", -16, "what it would have become, competition"),
-    ((14, 15), "crypto", -16, "Mac, why it mattered"),
-    ((16, 16), "hexel", -20, "why it died; Devin: spooky, very loud, so 4 dB lower"),
-    ((17, 17), "shady", -13, "outro and end card, a touch more forward"),
+    ((1, 2), "shady", -9, "opening; Devin: let it run a few seconds before the voice, then duck"),
+    ((3, 4), "auldjack", -11, "toolchain and setup"),
+    ((5, 8), "crypto", -11, "rules, card, deck, hand"),
+    ((9, 11), "chipper", -11, "game loop, war, runs"),
+    ((12, 13), "gravebyte", -11, "what it would have become, competition"),
+    ((14, 15), "crypto", -11, "Mac, why it mattered"),
+    ((16, 16), "hexel", -15, "why it died; Devin: spooky, very loud, so 4 dB lower"),
+    ((17, 17), "shady", -8, "outro and end card, a touch more forward"),
 ]
 
 def sha(p: Path) -> str: return hashlib.sha256(p.read_bytes()).hexdigest()

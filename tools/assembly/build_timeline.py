@@ -98,8 +98,11 @@ def visual_record(tid: str) -> dict | None:
     return {"id": tid, "kind": r["kind"], "file": f, "duration": dur, "segment": seg, "still": f.endswith(".png"),
             "in_out": m[:2] if f.endswith(".mp4") and "/source/" in f else None, "poster": poster}
 
+SELECTION = json.loads((ROOT / "narration/selection.json").read_text(encoding="utf-8")) if (ROOT / "narration/selection.json").exists() else {}
+def take_attempt(beat_id: str) -> str:
+    return f"{SELECTION.get(beat_id, {}).get('attempt', 1):02d}"
 def take_duration(beat_id: str) -> float | None:
-    p = TAKES / beat_id / "01" / "metadata.json"
+    p = TAKES / beat_id / take_attempt(beat_id) / "metadata.json"
     return json.loads(p.read_text(encoding="utf-8"))["duration_s"] if p.exists() else None
 
 def main() -> int:
@@ -133,7 +136,7 @@ def main() -> int:
         if not visuals: visuals = [visual_record("CARD-01")]
         share = dur / len(visuals)
         segments.append({"kind": "beat", "id": b["id"], "section": b["section"], "start": round(t, 3), "duration": round(dur, 3),
-                         "audio": f"narration/takes/{b['id']}/01/native-audio.wav" if take_duration(b["id"]) else None,
+                         "audio": f"narration/takes/{b['id']}/{take_attempt(b['id'])}/native-audio.wav" if take_duration(b["id"]) else None,
                          "written": b["written"], "visuals": [dict(v, slot=round(share, 3)) for v in visuals], "held": not ordered})
         t += dur + GAP_BEAT; last_visuals = visuals
     end = visual_record("CARD-02")
