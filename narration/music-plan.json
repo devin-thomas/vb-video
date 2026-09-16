@@ -18,47 +18,47 @@
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/crypto.flac",
   "from": 557.08,
-  "to": 1147.42,
+  "to": 1147.9,
   "gain_db": -17,
   "why": "rules, card, deck, hand",
   "title": "Cryptosphere (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/chipper.mp3",
-  "from": 1156.92,
-  "to": 1477.04,
+  "from": 1157.4,
+  "to": 1477.52,
   "gain_db": -17,
   "why": "game loop, war, runs",
   "title": "Chipper Doodle v2"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/gravebyte.flac",
-  "from": 1486.54,
-  "to": 1800.54,
+  "from": 1487.02,
+  "to": 1764.28,
   "gain_db": -17,
   "why": "what it would have become, competition",
   "title": "Gravebyte (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/crypto.flac",
-  "from": 1810.04,
-  "to": 2191.82,
+  "from": 1773.78,
+  "to": 2155.56,
   "gain_db": -17,
   "why": "Mac, why it mattered",
   "title": "Cryptosphere (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/hexel.flac",
-  "from": 2201.32,
-  "to": 2428.3,
+  "from": 2165.06,
+  "to": 2392.04,
   "gain_db": -21,
   "why": "why it died; Devin: spooky, very loud, so 4 dB lower",
   "title": "Hexel (Gameboy)"
  },
  {
   "file": "C:/dev/youtube/vb-video-checkout-2/assets/audio/music/shady.flac",
-  "from": 2429.3,
-  "to": 2519.5,
+  "from": 2393.04,
+  "to": 2483.3,
   "gain_db": -14,
   "why": "outro and end card, a touch more forward",
   "title": "Shady Business (YM2612)"

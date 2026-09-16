@@ -1,24 +1,10 @@
 [
  {
-  "effect": "win95",
-  "at": 298.18,
-  "file": "assets/audio/sfx/windows95-startup.wav",
-  "gain_db": -10,
-  "trigger": "S02-B13:HIST-08"
- },
- {
   "effect": "shuffle",
   "at": 552.58,
   "file": "assets/audio/sfx/card-shuffle.wav",
   "gain_db": -8,
   "trigger": "S05-B01:DIA-02"
- },
- {
-  "effect": "shuffle",
-  "at": 572.15,
-  "file": "assets/audio/sfx/card-shuffle.wav",
-  "gain_db": -8,
-  "trigger": "S05-B02:BROLL-01"
  },
  {
   "effect": "shuffle",
@@ -29,14 +15,14 @@
  },
  {
   "effect": "slap",
-  "at": 1303.1,
+  "at": 1307.704,
   "file": "assets/audio/sfx/card-slap.wav",
   "gain_db": -6,
   "trigger": "S10-B04:DIA-09"
  },
  {
   "effect": "slap",
-  "at": 1360.55,
+  "at": 1361.03,
   "file": "assets/audio/sfx/card-slap.wav",
   "gain_db": -6,
   "trigger": "S10-B09:DIA-08"
