@@ -52,7 +52,7 @@
     "Both columns are the script cue (War/SCRIPT.md:625-626) word for word, with the ticket's Run 1 / Run 4 labels in place of the capture IDs; each step on its own line, drawn arrows as connectors, the final step emphasised.",
     "Checked against the captured stdout of both runs by src/compose.py: the played rank and the \"no cards left\" line are read directly; hand sizes, burn and pot are reconstructed from the transcript (src/cells.json, evidence/endgame-check.json). The reconstruction agrees with the script on every step.",
     "The two columns share one baseline grid so the steps align row by row; step-focus boxes the final step of each column and dims the earlier steps.",
-    "Kicker \"When the cards run out\" is the script's section 12 title (War/SCRIPT.md:581); \"Two endgames side by side\" is the ticket title."
+    "Kicker \"When the cards run out\" is the script's section 12 title (War/SCRIPT.md:580); \"Two endgames side by side\" is the ticket title."
   ],
   "source_unchanged": true,
   "remote_assets": [],

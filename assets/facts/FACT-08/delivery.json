@@ -34,7 +34,7 @@
       "path": "evidence/provenance.json",
       "role": "evidence / QA",
       "bytes": 2282,
-      "sha256": "fa2e21e750d3ffd286754bcd08a762cdbe5021b1557c8f8afa17f62fb24a34bd"
+      "sha256": "a3b419ab5bdb194780352215511868de99e3f52507e3886497dee23bf8fd818f"
     },
     {
       "path": "evidence/render-tests.json",
@@ -45,8 +45,8 @@
     {
       "path": "evidence/source-excerpts.md",
       "role": "evidence / QA",
-      "bytes": 2603,
-      "sha256": "d72cc56ed2c6acff9a1104b2e562dbb9df47c7528db161a8acb2bb1b4392505a"
+      "bytes": 2640,
+      "sha256": "5d79ed68a0483199bed4b2ff13eb053d4158c3f1cb533062807e8c8d52dc97bc"
     },
     {
       "path": "exports/comparison.png",
@@ -82,13 +82,13 @@
       "path": "qa.md",
       "role": "evidence / QA",
       "bytes": 5626,
-      "sha256": "8e8ef1edb09ab9c82f5e0b4ad8b4333aad74a66a98cada01dc52f5bf96c89a5a"
+      "sha256": "f9013a7ce528f846abdb3c970c5c8390f0d460e5c34df808686cbf37337cd46b"
     },
     {
       "path": "src/build.json",
       "role": "editable source",
       "bytes": 2353,
-      "sha256": "c9f2f56f0a011014dddb8e0d15ddecbe9bda4303ecfeba61973c8600c2727275"
+      "sha256": "42dd3688c32b9b7fda50d9b0a79ce594ff5e89923d25411bab864fe89ff66e70"
     },
     {
       "path": "src/cells.json",
@@ -99,8 +99,8 @@
     {
       "path": "src/compose.py",
       "role": "editable source",
-      "bytes": 14538,
-      "sha256": "a2218c709e8a94778d59c7a72d6a144b015783e42566b074e8010370dce5963f"
+      "bytes": 14641,
+      "sha256": "c166c196c838e302cebface96269f2e3ab82d9f615917c727a0def539bf26931"
     },
     {
       "path": "src/index.html",
@@ -272,7 +272,7 @@
     "Both columns are the script cue (War/SCRIPT.md:625-626) word for word, with the ticket's Run 1 / Run 4 labels in place of the capture IDs; each step on its own line, drawn arrows as connectors, the final step emphasised.",
     "Checked against the captured stdout of both runs by src/compose.py: the played rank and the \"no cards left\" line are read directly; hand sizes, burn and pot are reconstructed from the transcript (src/cells.json, evidence/endgame-check.json). The reconstruction agrees with the script on every step.",
     "The two columns share one baseline grid so the steps align row by row; step-focus boxes the final step of each column and dims the earlier steps.",
-    "Kicker \"When the cards run out\" is the script's section 12 title (War/SCRIPT.md:581); \"Two endgames side by side\" is the ticket title.",
+    "Kicker \"When the cards run out\" is the script's section 12 title (War/SCRIPT.md:580); \"Two endgames side by side\" is the ticket title.",
     "Original ticket requirements retained; these exports are not producer publication approval.",
     "Review questions for the deck are listed in evidence/claim-checks.json."
   ]

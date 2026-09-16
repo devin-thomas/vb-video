@@ -19,7 +19,8 @@ Each figure on the card, with the captured stdout line it was read from (1-based
 | Wars | 10 | 2143 | `Total wars fought    : 10` |
 | Winner | Player 2 | 2141 | `PLAYER 2 WINS THE WAR!` |
 | How it ended | Normal round win | 2137 | `Round 1056: Player 1 plays 4 of Spades, Player 2 plays 5 of Spades.` |
-| (last round) | — | 2137 | `Round 1056: Player 1 plays 4 of Spades, Player 2 plays 5 of Spades.` |
+
+Normal ending: the last round (line 2137) is an ordinary win and no "has no cards left for the war" line follows it before the summary (line 2141).
 
 ## Run 3 — TERM-06 — `assets/captures/TERM-06/source/stdout.txt` (332 lines, sha256 7db51b66f27a01d32325f366ec184ecd19a1ca2000e712e29a21a42438f091ce)
 
@@ -29,7 +30,8 @@ Each figure on the card, with the captured stdout line it was read from (1-based
 | Wars | 10 | 331 | `Total wars fought    : 10` |
 | Winner | Player 2 | 329 | `PLAYER 2 WINS THE WAR!` |
 | How it ended | Normal round win | 325 | `Round 150: Player 1 plays 5 of Clubs, Player 2 plays 6 of Spades.` |
-| (last round) | — | 325 | `Round 150: Player 1 plays 5 of Clubs, Player 2 plays 6 of Spades.` |
+
+Normal ending: the last round (line 325) is an ordinary win and no "has no cards left for the war" line follows it before the summary (line 329).
 
 ## Run 4 — TERM-02 — `assets/captures/TERM-02/source/stdout.txt` (4165 lines, sha256 eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6)
 

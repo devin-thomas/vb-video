@@ -24,7 +24,7 @@ from studio import SVG, FG, MUTED, LINE, BLUE, PANEL, width  # noqa: E402
 
 ID = 'FACT-08'
 TITLE = 'Two endgames side by side'
-KICKER = 'When the cards run out'  # section 12 title, War/SCRIPT.md:581
+KICKER = 'When the cards run out'  # section 12 title, War/SCRIPT.md:580
 # Verbatim from docs/tickets/FACT-08.md "Exact copy"; the script cue (War/SCRIPT.md:625-626) labels the
 # same sequences TERM-04 and TERM-02.
 COLUMNS = [
@@ -155,7 +155,7 @@ def main() -> None:
         'Checked against the captured stdout of both runs by src/compose.py: the played rank and the "no cards left" line are read directly; hand sizes, burn and pot are reconstructed from the transcript (src/cells.json, evidence/endgame-check.json). '
         + ('The reconstruction agrees with the script on every step.' if agree else 'DISAGREEMENT with the script recorded in evidence/endgame-check.json; the card keeps the script wording.'),
         'The two columns share one baseline grid so the steps align row by row; step-focus boxes the final step of each column and dims the earlier steps.',
-        'Kicker "When the cards run out" is the script\'s section 12 title (War/SCRIPT.md:581); "Two endgames side by side" is the ticket title.',
+        'Kicker "When the cards run out" is the script\'s section 12 title (War/SCRIPT.md:580); "Two endgames side by side" is the ticket title.',
     ]
     build = {'id': ID, 'duration': None, 'frames': [{'time': 0, 'file': 'scene-0000.svg'}],
              'variants': {'comparison': 'variant-comparison.svg', 'step-focus': 'variant-step-focus.svg'}, 'poster': 'scene.svg', 'cuts': {},
@@ -187,7 +187,8 @@ def main() -> None:
                f'| pot | {c["steps"][4]} | 2 played + 2 × {c["burn"]} burned = {c["pot"]} | same lines; Player {e["winner"]} takes the pot |',
                f'| rounds | {c["header"].split("· ")[1]} | total | line {e["total_line"]}: `{e["total_text"]}` |', '',
                f'Reconstruction: {" → ".join(c["derived_steps"])} — {"matches the script" if c["matches_script"] else "DOES NOT match the script"}.', '']
-    ex += ['## War/SCRIPT.md:581 (section title used as the kicker)', '', '```text', sl[580], '```', '',
+    assert 'WHEN THE CARDS RUN OUT' in sl[579], 'section 12 heading moved; update the kicker citation'
+    ex += ['## War/SCRIPT.md:580 (section title used as the kicker)', '', '```text', sl[579], '```', '',
            '## sources/SCRIPT.md:267 (frozen source, manifest reference)', '', '```text', frozen.read_text(encoding='utf-8').splitlines()[266], '```', '']
     write(BASE / 'evidence/source-excerpts.md', '\n'.join(ex))
     dump(BASE / 'evidence/provenance.json', {'id': ID, 'classification': 'original authored source-based illustration', 'sources': sources,

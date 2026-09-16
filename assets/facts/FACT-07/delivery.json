@@ -39,8 +39,8 @@
     {
       "path": "evidence/source-excerpts.md",
       "role": "evidence / QA",
-      "bytes": 3111,
-      "sha256": "4afee1aedd0574e0d5cc37fda2ac30a8532b23dc3fbaaf72e6e8b8881045d644"
+      "bytes": 3206,
+      "sha256": "27cb1524e11616c62dce99467516faf0c9e26f7e615a0b2835688088e1fbdc1d"
     },
     {
       "path": "exports/contact-sheet.png",
@@ -93,8 +93,8 @@
     {
       "path": "src/compose.py",
       "role": "editable source",
-      "bytes": 13803,
-      "sha256": "c5c6ad681d1d1bd530b47ce7b2f9c0fa36c8a1f72a77b07957bfd964642e011a"
+      "bytes": 13907,
+      "sha256": "7c40ebf33c530ac3d88b4a5a0fe657902464d999044f19ebc6b3f3bd5bcc387f"
     },
     {
       "path": "src/index.html",

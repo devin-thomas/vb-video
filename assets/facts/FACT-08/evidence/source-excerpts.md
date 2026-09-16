@@ -36,10 +36,10 @@ Reconstruction: 2 cards → play 10 → burn 1 → empty → 4-card pot — matc
 
 Reconstruction: 3 cards → play 8 → burn 2 → empty → 6-card pot — matches the script.
 
-## War/SCRIPT.md:581 (section title used as the kicker)
+## War/SCRIPT.md:580 (section title used as the kicker)
 
 ```text
-
+## SECTION 12: WHEN THE CARDS RUN OUT
 ```
 
 ## sources/SCRIPT.md:267 (frozen source, manifest reference)

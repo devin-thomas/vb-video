@@ -193,7 +193,7 @@ def main() -> None:
                f'| Winner | {r["winner"]} | {r["winner_line"]} | `{r["winner_source"]}` |',
                f'| How it ended | {r["ending"]["text"]} | {r["ending"]["line"]} | `{r["ending"]["source"]}` |']
         if 'last_round' in r['ending']:
-            ex += [f'| (last round) | — | {r["ending"]["last_round_line"]} | `{r["ending"]["last_round"]}` |']
+            ex += ['', f'Normal ending: the last round (line {r["ending"]["last_round_line"]}) is an ordinary win and no "has no cards left for the war" line follows it before the summary (line {r["winner_line"]}).']
         ex += ['']
     ex += ['## Footer', '', f'Shortest run: {fmt(lo["rounds"])} rounds ({lo["run"]}, {lo["capture"]} line {lo["rounds_line"]}); longest run: {fmt(hi["rounds"])} rounds ({hi["run"]}, {hi["capture"]} line {hi["rounds_line"]}).', '',
            '## War/SCRIPT.md:574 (narration this card sits under)', '', '```text', script.read_text(encoding='utf-8').splitlines()[573], '```', '',

@@ -38,7 +38,7 @@ Do not run `tools/render/build_assets.py` for this ID; the shared authoring scri
 ## Remaining decisions
 No R gate is assigned. Review questions (in `evidence/claim-checks.json`):
 1. No capture disagreement was found; the derived hand sizes, burn counts and pot sizes are reconstructions from the transcript and Program.vb:264, recorded line by line, not lines the program printed.
-2. The card carries a kicker ("When the cards run out", the script's section 12 title, War/SCRIPT.md:581) and the ticket title above the two verbatim columns; drop either if the cut wants the columns alone.
+2. The card carries a kicker ("When the cards run out", the script's section 12 title, War/SCRIPT.md:580) and the ticket title above the two verbatim columns; drop either if the cut wants the columns alone.
 
 No narration sync, sound design, final video assembly or full independent editorial clearance is certified here. Produced is intentionally different from release-approved.
 
