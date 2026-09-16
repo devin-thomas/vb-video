@@ -1,0 +1,8 @@
+{
+  "gates": [],
+  "note": "No R gate is assigned to this ticket in manifest.json. Figures were checked against the captured stdout; see evidence/source-excerpts.md.",
+  "review_questions": [
+    "Run numbering. The ticket copy for FACT-08 fixes Run 1 = 617 rounds and Run 4 = 2,008 rounds; this card follows that and numbers the remaining two captures in script order (Run 2 = TERM-05, 1,056 rounds; Run 3 = TERM-06, 150 rounds). Evidence cannot settle the order of runs 2 and 3; swap them if the cut prefers ascending length.",
+    "Source scope. The ticket names both the TERM-02/04/05/06 captures and recordings R4-01..R4-04 (plus R2, R3a, R3b) as sources. Those recordings are different games (685, 240, 169, 112, 338, 190 and 557 rounds); none contains the 617-round or 2,008-round run the narration names, so the card is built from the four captures only."
+  ]
+}

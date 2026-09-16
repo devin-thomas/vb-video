@@ -1,0 +1,279 @@
+{
+  "id": "FACT-08",
+  "title": "Two endgames side by side: run 1 and run 4",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 618,
+      "sha256": "d9cc4732523ff8ac9d005eb4e3845c61268458957545cabf4d9a959e1a934419"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 748,
+      "sha256": "8dffaaea24839623bc6be91c4a05f7cbf8ce925fd2e9bb55c1bbcc40f3bce2ab"
+    },
+    {
+      "path": "evidence/endgame-check.json",
+      "role": "evidence / QA",
+      "bytes": 2650,
+      "sha256": "838049abcdde74ee1bf755f2c48547ad9c8d7b4acbeac92748c4dfb983590a85"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2282,
+      "sha256": "a3b419ab5bdb194780352215511868de99e3f52507e3886497dee23bf8fd818f"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "261501b506be6e2ee0c5a8f91b97ad31d64224b2999e6f3564dedf5580b0d558"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 2640,
+      "sha256": "5d79ed68a0483199bed4b2ff13eb053d4158c3f1cb533062807e8c8d52dc97bc"
+    },
+    {
+      "path": "exports/comparison.png",
+      "role": "rendered still",
+      "bytes": 73958,
+      "sha256": "ee95f07e2f5874029d4725fdbbb127f1fac619830a10134b1036189d4f3963d3"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 56008,
+      "sha256": "7c92a50318a62c2cdd7f7da7672c1c08da3d4a26963bef9c5238c945068b9b10"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 73958,
+      "sha256": "ee95f07e2f5874029d4725fdbbb127f1fac619830a10134b1036189d4f3963d3"
+    },
+    {
+      "path": "exports/step-focus.png",
+      "role": "rendered still",
+      "bytes": 75505,
+      "sha256": "7785c69e88dc759b2f86efbc772bc0e9e9eea000e9297a03ca4f4649ec06307e"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 106271,
+      "sha256": "fd6307ac931535bd6ed9ccf965eb82909ca83790941966387a1d6106acb1dc5d"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5626,
+      "sha256": "f9013a7ce528f846abdb3c970c5c8390f0d460e5c34df808686cbf37337cd46b"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2353,
+      "sha256": "42dd3688c32b9b7fda50d9b0a79ce594ff5e89923d25411bab864fe89ff66e70"
+    },
+    {
+      "path": "src/cells.json",
+      "role": "editable source",
+      "bytes": 1048,
+      "sha256": "7e3223d2ebb417b758c055822d041f3dfb8be3e75c0c26ec069ad344917162c7"
+    },
+    {
+      "path": "src/compose.py",
+      "role": "editable source",
+      "bytes": 14641,
+      "sha256": "c166c196c838e302cebface96269f2e3ab82d9f615917c727a0def539bf26931"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 7439,
+      "sha256": "ccfe0a8914f03f370bb9330c3bda8a43f174ecb950c3a008e95a8d98aa71e2fb"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 5240,
+      "sha256": "f6b04a6ee517935332fdda8c8c250e675ebcb6852b91b5a719b3d79d36ea2f5e"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 5240,
+      "sha256": "f6b04a6ee517935332fdda8c8c250e675ebcb6852b91b5a719b3d79d36ea2f5e"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 457,
+      "sha256": "fbb8849e178db630cf6c5076e05e9b670b78bf250f075de8361f7ecca05ad5b9"
+    },
+    {
+      "path": "src/variant-comparison.svg",
+      "role": "editable source",
+      "bytes": 5240,
+      "sha256": "f6b04a6ee517935332fdda8c8c250e675ebcb6852b91b5a719b3d79d36ea2f5e"
+    },
+    {
+      "path": "src/variant-step-focus.svg",
+      "role": "editable source",
+      "bytes": 5471,
+      "sha256": "93463b897df1b9503cb62c58dbecef8cfd79d5b90f58db75b994160319f126c1"
+    }
+  ],
+  "variants": [
+    {
+      "name": "comparison",
+      "files": [
+        "exports/comparison.png",
+        "src/variant-comparison.svg"
+      ]
+    },
+    {
+      "name": "step-focus",
+      "files": [
+        "exports/step-focus.png",
+        "src/variant-step-focus.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../captures/TERM-04/source/stdout.txt",
+      "lines": [
+        1289,
+        1295
+      ],
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-02/source/stdout.txt",
+      "lines": [
+        4157,
+        4163
+      ],
+      "sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        624,
+        626
+      ],
+      "sha256": "7ba0621316aca8092c31c1f839b169d26eb9ea7469376f47c1763ce9600a82f6",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        267,
+        267
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/Program.vb",
+      "lines": [
+        264,
+        264
+      ],
+      "sha256": "8069f62bfb24bbd792cda04a6eefa9745f9d9ffb8d879e523b95454cafb06ce7",
+      "relationship": "literal excerpt"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id FACT-08 run after this inventory was written; output recorded in qa.md."
+    },
+    {
+      "test": "figures parsed from captured stdout",
+      "evidence": "src/cells.json, evidence/source-excerpts.md",
+      "result": "passed: every figure on the card is read from the capture transcripts by src/compose.py, which aborts if a summary line is missing or a draw/cap message is present."
+    },
+    {
+      "test": "script cue against the captures",
+      "evidence": "evidence/endgame-check.json",
+      "result": "passed: both reconstructed sequences equal the script cue step for step."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution exports and 720p proof, viewed by the worker",
+        "scope": "Viewed exports/poster.png, exports/step-focus.png (exports/comparison.png is byte-identical to the poster) and proofs/poster-720.png at full size.",
+        "status": "Two columns share one baseline grid: each of the five steps sits on the same row in both columns, with drawn arrows between steps and the final \"4-card pot\" / \"6-card pot\" in bold blue. step-focus boxes the final steps and dims the earlier ones. Readable at 720p."
+      }
+    },
+    {
+      "test": "raster dimensions",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: all exports 1920 × 1080 (PIL), proof 1280 × 720."
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: 4 SVG files, 56 text boxes in canvas, no network requests."
+    },
+    {
+      "test": "safe-area check of every text run (x 120…1800, y 72…1008) with the studio font metrics",
+      "evidence": "src/compose.py check_bounds",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading.",
+    "render_command": "python tools/render/render_assets.py --id FACT-08",
+    "cairo_dll_directories": "CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin (environment variable; PATH unchanged)",
+    "fonts": "Liberation Sans and DejaVu Sans Mono resolved from C:/WINDOWS/fonts through MSYS2 fc-match; no font files distributed"
+  },
+  "notes": [
+    "Both columns are the script cue (War/SCRIPT.md:625-626) word for word, with the ticket's Run 1 / Run 4 labels in place of the capture IDs; each step on its own line, drawn arrows as connectors, the final step emphasised.",
+    "Checked against the captured stdout of both runs by src/compose.py: the played rank and the \"no cards left\" line are read directly; hand sizes, burn and pot are reconstructed from the transcript (src/cells.json, evidence/endgame-check.json). The reconstruction agrees with the script on every step.",
+    "The two columns share one baseline grid so the steps align row by row; step-focus boxes the final step of each column and dims the earlier steps.",
+    "Kicker \"When the cards run out\" is the script's section 12 title (War/SCRIPT.md:580); \"Two endgames side by side\" is the ticket title.",
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Review questions for the deck are listed in evidence/claim-checks.json."
+  ]
+}

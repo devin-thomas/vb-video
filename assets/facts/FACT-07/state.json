@@ -1,12 +1,15 @@
 {
   "id": "FACT-07",
-  "production_status": "planned",
+  "production_status": "produced",
   "release_status": "unreviewed",
-  "assigned_agent": null,
+  "assigned_agent": "Claude Fable 5.1 — worker session (worktree agent-a529c0b7050d61333, branch ticket/FACT-07-08)",
   "updated_at": "2026-09-16",
   "blockers": [],
   "reviewer": null,
   "notes": [
-    "Opened 2026-09-16: Devin approved the producer's proposal from the 17:00\u2013end pass."
-  ]
+    "Opened 2026-09-16: Devin approved the producer's proposal from the 17:00–end pass.",
+    "Produced 2026-09-16: rendered/source deliverables, hashes and executed checks are in delivery.json and qa.md.",
+    "Release stays unreviewed until the OPS-04 review deck; review questions are in evidence/claim-checks.json."
+  ],
+  "owner": "Claude Fable 5.1 — worker session (worktree agent-a529c0b7050d61333, branch ticket/FACT-07-08)"
 }

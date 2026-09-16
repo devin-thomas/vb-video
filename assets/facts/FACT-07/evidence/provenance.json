@@ -1,0 +1,70 @@
+{
+  "id": "FACT-07",
+  "classification": "original authored source-based illustration",
+  "sources": [
+    {
+      "path": "../../captures/TERM-04/source/stdout.txt",
+      "lines": [
+        1291,
+        1296
+      ],
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-05/source/stdout.txt",
+      "lines": [
+        2137,
+        2143
+      ],
+      "sha256": "a94ee70d34f82f9aafa6f7732dc994fa27c6db5260c0d7162c9dc99932f88603",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-06/source/stdout.txt",
+      "lines": [
+        325,
+        331
+      ],
+      "sha256": "7db51b66f27a01d32325f366ec184ecd19a1ca2000e712e29a21a42438f091ce",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-02/source/stdout.txt",
+      "lines": [
+        4159,
+        4164
+      ],
+      "sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        574,
+        574
+      ],
+      "sha256": "7ba0621316aca8092c31c1f839b169d26eb9ea7469376f47c1763ce9600a82f6",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        571,
+        571
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "authored_additions": [
+    "Every figure is parsed from the captured stdout of the four recorded runs by src/compose.py; src/cells.json records the file and line of each.",
+    "Run numbering is a production choice from the producer's proposal (Run 1 = the 617-round game the narration calls \"that first run\", Run 4 = the 2,008-round game); runs 2 and 3 follow script order.",
+    "Fact-card treatment: dark card, one bold line per row, right-aligned tabular figures; highlight marks the two runs the narration singles out and dims the other two.",
+    "The recordings under recordings/ (R2, R3a, R3b, R4-01..R4-04) are different games from these four captures and are not on this card."
+  ],
+  "source_unchanged": true,
+  "remote_assets": [],
+  "font_files_distributed": false,
+  "producer_decisions": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "FACT-08",
+  "durationSeconds": null,
+  "fps": null,
+  "width": 1920,
+  "height": 1080,
+  "beats": [
+    "Still: both columns.",
+    "Still: step-focus with the final step of each column highlighted."
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "file": "scene-0000.svg"
+    }
+  ],
+  "cuts": {},
+  "variant_names": [
+    "comparison",
+    "step-focus"
+  ],
+  "motion_model": "Still asset; renderAt(t) always shows the single authored state."
+}

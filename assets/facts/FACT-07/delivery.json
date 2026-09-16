@@ -1,0 +1,277 @@
+{
+  "id": "FACT-07",
+  "title": "Four recorded runs: rounds, wars, winner",
+  "production_status": "produced",
+  "release_status": "unreviewed",
+  "provenance_type": "original authored source-based illustration",
+  "shared_version": "win95-workbench-1.0.0",
+  "duration_seconds": null,
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "fps": null,
+  "outputs": [
+    {
+      "path": "evidence/browser-tests.json",
+      "role": "evidence / QA",
+      "bytes": 619,
+      "sha256": "fec79957de69eef58bac491621ff02badb3e8d0bc02a765a87df9de66dbb93a9"
+    },
+    {
+      "path": "evidence/claim-checks.json",
+      "role": "evidence / QA",
+      "bytes": 870,
+      "sha256": "98f2fb213c548d703f9945142a48ed5196a8ebaf77d779b7c1c94dad6079b047"
+    },
+    {
+      "path": "evidence/provenance.json",
+      "role": "evidence / QA",
+      "bytes": 2370,
+      "sha256": "1223d6ef389bca9d82c2a857f1e0b38bdc14cf1777630b1f784509ebc4b0d9f2"
+    },
+    {
+      "path": "evidence/render-tests.json",
+      "role": "evidence / QA",
+      "bytes": 155,
+      "sha256": "afc164f76be196e29545481fc6208b915cd0b8f82ff1ed95e70cbc955a55d98e"
+    },
+    {
+      "path": "evidence/source-excerpts.md",
+      "role": "evidence / QA",
+      "bytes": 3206,
+      "sha256": "27cb1524e11616c62dce99467516faf0c9e26f7e615a0b2835688088e1fbdc1d"
+    },
+    {
+      "path": "exports/contact-sheet.png",
+      "role": "rendered still",
+      "bytes": 80850,
+      "sha256": "50a581c116794ff58506b0d67f9b27875625d85ae0f7d870b9757d67850b7142"
+    },
+    {
+      "path": "exports/highlight.png",
+      "role": "rendered still",
+      "bytes": 103713,
+      "sha256": "a0020165c0e7ab963d41bc3441de3c196d8965c6b4c5fa6350be89911e3ed970"
+    },
+    {
+      "path": "exports/poster.png",
+      "role": "rendered still",
+      "bytes": 102028,
+      "sha256": "c2afb4fc1b1021959c9facaa4fdf1eb44710ee5971f618f4210dbe107e3a1782"
+    },
+    {
+      "path": "exports/table.png",
+      "role": "rendered still",
+      "bytes": 102028,
+      "sha256": "c2afb4fc1b1021959c9facaa4fdf1eb44710ee5971f618f4210dbe107e3a1782"
+    },
+    {
+      "path": "proofs/poster-720.png",
+      "role": "evidence / QA",
+      "bytes": 154387,
+      "sha256": "2de140595282f3a0fa386274c591f952a8df57701dec40b6827d954c164ce459"
+    },
+    {
+      "path": "qa.md",
+      "role": "evidence / QA",
+      "bytes": 5180,
+      "sha256": "3c6dc637128734f32238753fdfae5601479fa5e3d9a7b07da7f28a4a65b8f2bc"
+    },
+    {
+      "path": "src/build.json",
+      "role": "editable source",
+      "bytes": 2429,
+      "sha256": "de88d0da8c6ef4a7ef78fcba2dab7c2a3a986d83edc32b18827a60a5e056a74f"
+    },
+    {
+      "path": "src/cells.json",
+      "role": "editable source",
+      "bytes": 3515,
+      "sha256": "67a05b75df44c4fcb6bc6d143ef084b0db733dc4237c5c0e1ee39a3689c1e2db"
+    },
+    {
+      "path": "src/compose.py",
+      "role": "editable source",
+      "bytes": 13907,
+      "sha256": "7c40ebf33c530ac3d88b4a5a0fe657902464d999044f19ebc6b3f3bd5bcc387f"
+    },
+    {
+      "path": "src/index.html",
+      "role": "editable source",
+      "bytes": 8254,
+      "sha256": "1482689d46856d8895fdf2af919e83ae79f6743f809267c9b192dec5543af276"
+    },
+    {
+      "path": "src/scene-0000.svg",
+      "role": "editable source",
+      "bytes": 5950,
+      "sha256": "cdba20205b8169c9a736c4127ce8409e05c2c15aeebb20d7e39f15ca1af77142"
+    },
+    {
+      "path": "src/scene.svg",
+      "role": "editable source",
+      "bytes": 5950,
+      "sha256": "cdba20205b8169c9a736c4127ce8409e05c2c15aeebb20d7e39f15ca1af77142"
+    },
+    {
+      "path": "src/timeline.json",
+      "role": "editable source",
+      "bytes": 440,
+      "sha256": "d44f7887d115ace044fcc30a0a7a823676d14e038fa64adc31a92fade5a88e83"
+    },
+    {
+      "path": "src/variant-highlight.svg",
+      "role": "editable source",
+      "bytes": 6276,
+      "sha256": "5081da28371949d2dc6b670cb63eba9336a91746880158f0a8a1c264194bbb6e"
+    },
+    {
+      "path": "src/variant-table.svg",
+      "role": "editable source",
+      "bytes": 5950,
+      "sha256": "cdba20205b8169c9a736c4127ce8409e05c2c15aeebb20d7e39f15ca1af77142"
+    }
+  ],
+  "variants": [
+    {
+      "name": "table",
+      "files": [
+        "exports/table.png",
+        "src/variant-table.svg"
+      ]
+    },
+    {
+      "name": "highlight",
+      "files": [
+        "exports/highlight.png",
+        "src/variant-highlight.svg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../captures/TERM-04/source/stdout.txt",
+      "lines": [
+        1291,
+        1296
+      ],
+      "sha256": "026ce1d7f0c592aab22d5f788b2a8b1ac37223dcad7fca3e44fbbd898c7a4fa0",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-05/source/stdout.txt",
+      "lines": [
+        2137,
+        2143
+      ],
+      "sha256": "a94ee70d34f82f9aafa6f7732dc994fa27c6db5260c0d7162c9dc99932f88603",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-06/source/stdout.txt",
+      "lines": [
+        325,
+        331
+      ],
+      "sha256": "7db51b66f27a01d32325f366ec184ecd19a1ca2000e712e29a21a42438f091ce",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../captures/TERM-02/source/stdout.txt",
+      "lines": [
+        4159,
+        4164
+      ],
+      "sha256": "eea4e8792c7a2714316e23d2dd16b46320042b992bbb58e7b2dc4f7f59a397b6",
+      "relationship": "real capture"
+    },
+    {
+      "path": "../../../War/SCRIPT.md",
+      "lines": [
+        574,
+        574
+      ],
+      "sha256": "7ba0621316aca8092c31c1f839b169d26eb9ea7469376f47c1763ce9600a82f6",
+      "relationship": "source creative brief"
+    },
+    {
+      "path": "../../../sources/SCRIPT.md",
+      "lines": [
+        571,
+        571
+      ],
+      "sha256": "3821db546c8b3d64423336d73d8ed2b891611f39cadc51b04db4b4f547919acb",
+      "relationship": "source creative brief"
+    }
+  ],
+  "credits": [
+    {
+      "type": "original graphics",
+      "credit": "Source-based vector graphics authored for this production; no third-party images or font files included."
+    }
+  ],
+  "tests": [
+    {
+      "test": "required outputs and checksums",
+      "result": "python tools/validate_delivery.py --id FACT-07 run after this inventory was written; output recorded in qa.md."
+    },
+    {
+      "test": "figures parsed from captured stdout",
+      "evidence": "src/cells.json, evidence/source-excerpts.md",
+      "result": "passed: every figure on the card is read from the capture transcripts by src/compose.py, which aborts if a summary line is missing or a draw/cap message is present."
+    },
+    {
+      "test": "manual visual review",
+      "result": {
+        "mode": "Full-resolution exports and 720p proof, viewed by the worker",
+        "scope": "Viewed exports/poster.png, exports/highlight.png (exports/table.png is byte-identical to the poster) and proofs/poster-720.png at full size.",
+        "status": "Four rows, five columns; the Rounds and Wars figures are right-aligned and line up digit for digit (617 / 1,056 / 150 / 2,008 and 26 / 10 / 10 / 69); the footer names the 150-round and 2,008-round runs. highlight panels Run 1 and Run 4 with a blue bar and dims Runs 2 and 3, which stay legible. Everything is readable at 720p."
+      }
+    },
+    {
+      "test": "raster dimensions",
+      "evidence": "evidence/render-tests.json",
+      "result": "passed: all exports 1920 × 1080 (PIL), proof 1280 × 720."
+    },
+    {
+      "test": "offline HTML, deterministic seek, every SVG text bounding box",
+      "evidence": "evidence/browser-tests.json",
+      "result": "passed: 4 SVG files, 112 text boxes in canvas, no network requests."
+    },
+    {
+      "test": "safe-area check of every text run (x 120…1800, y 72…1008) with the studio font metrics",
+      "evidence": "src/compose.py check_bounds",
+      "result": "passed"
+    }
+  ],
+  "unresolved_gates": [],
+  "toolchain": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "ffmpeg": "ffmpeg version 6.0-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers",
+    "chromium": "Chromium 153.0.8010.12",
+    "dotnet_path": "C:\\Program Files\\dotnet\\dotnet.EXE",
+    "node": "v25.0.0",
+    "packages": {
+      "cairosvg": "2.9.1",
+      "Pillow": "12.3.0",
+      "playwright": "1.63.0"
+    },
+    "network_used": false,
+    "installs_performed": false,
+    "font_files_distributed": false,
+    "browser_note": "HTML tested by in-memory content loading.",
+    "render_command": "python tools/render/render_assets.py --id FACT-07",
+    "cairo_dll_directories": "CAIROCFFI_DLL_DIRECTORIES=C:\\msys64\\ucrt64\\bin (environment variable; PATH unchanged)",
+    "fonts": "Liberation Sans and DejaVu Sans Mono resolved from C:/WINDOWS/fonts through MSYS2 fc-match; no font files distributed"
+  },
+  "notes": [
+    "Every figure is parsed from the captured stdout of the four recorded runs by src/compose.py; src/cells.json records the file and line of each.",
+    "Run numbering is a production choice from the producer's proposal (Run 1 = the 617-round game the narration calls \"that first run\", Run 4 = the 2,008-round game); runs 2 and 3 follow script order.",
+    "Fact-card treatment: dark card, one bold line per row, right-aligned tabular figures; highlight marks the two runs the narration singles out and dims the other two.",
+    "The recordings under recordings/ (R2, R3a, R3b, R4-01..R4-04) are different games from these four captures and are not on this card.",
+    "Original ticket requirements retained; these exports are not producer publication approval.",
+    "Review questions for the deck are listed in evidence/claim-checks.json."
+  ]
+}
