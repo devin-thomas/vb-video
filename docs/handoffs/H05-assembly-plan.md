@@ -26,13 +26,13 @@ Open with **CH-02** (assets/chapters/CH-02/exports/preview.mp4). Script chapter 
 | 2 | Side-by-side comparison — a simple program in FORTRAN vs. the same thing in BASIC. The BASIC version is visibly shorter, with less ceremony. | XTRA-04 | `assets/reference-code/XTRA-04/exports/poster.png` |
 | 3 | Boot screens of Commodore 64, Apple II, TRS-80 — all showing their BASIC prompts. Maybe a montage. | HIST-05, HIST-06, HIST-07 | `assets/historical/HIST-05/exports/editorial-frame.png`<br>`assets/historical/HIST-06/exports/editorial-frame.png`<br>`assets/historical/HIST-07/exports/editorial-frame.png` |
 | 4 | Code on screen, typed out one line at a time in a retro font: | REF-04 | `assets/reference-code/REF-04/exports/preview.mp4` |
-| 5 | A 73-line C "Hello World" for Windows, scrolling slowly. It should look intimidating. | (section assets below) | — |
+| 5 | A 73-line C "Hello World" for Windows, scrolling slowly. It should look intimidating. | REF-02 | `assets/reference-code/REF-02/exports/preview.mp4` |
 | 6 | Screenshot of VB 1.0 IDE — the form designer, the toolbox, the properties bar. It looks primitive but recognizable. | HIST-01 | `assets/historical/HIST-01/exports/editorial-frame.png` |
 | 7 | Code appearing on screen: | REF-03 | `assets/reference-code/REF-03/exports/preview.mp4` |
 | 8 | Timeline showing VB versions: | DIA-14 | `assets/diagrams/DIA-14/exports/poster.png` |
-| 9 | Windows 95 launch footage — Microsoft's Redmond launch event, midnight store lines, the "Start Me Up" campaign, the startup sound. | (section assets below) | — |
+| 9 | Windows 95 launch footage — Microsoft's Redmond launch event, midnight store lines, the "Start Me Up" campaign, the startup sound. | HIST-08, BROLL-04 | `assets/historical/HIST-08/exports/editorial-frame.png`<br>`assets/broll/BROLL-04/source/1995-08-23_compusa-norwalk_dan-lynch_original.mp4` |
 
-Also assigned to this section: **FACT-01** (still, `assets/facts/FACT-01/exports/poster.png`), **FACT-04** (still, `assets/facts/FACT-04/exports/poster.png`), **HIST-08** (archive, `assets/historical/HIST-08/exports/editorial-frame.png`), **OPS-01** (support, ``), **OPS-03** (support, ``), **OPS-04** (support, ``), **REF-02** (motion, `assets/reference-code/REF-02/exports/preview.mp4`)
+Also assigned to this section: **FACT-01** (still, `assets/facts/FACT-01/exports/poster.png`), **FACT-04** (still, `assets/facts/FACT-04/exports/poster.png`), **OPS-01** (support, ``), **OPS-03** (support, ``), **OPS-04** (support, ``)
 
 ## Section 3: THE TOOLCHAIN — WHAT YOU ACTUALLY INSTALLED
 
@@ -161,8 +161,8 @@ Open with **CH-12** (assets/chapters/CH-12/exports/preview.mp4). Script chapter 
 | # | Cue (from the script) | Ticket(s) | File |
 |---|---|---|---|
 | 1 | Return to the TERM-04 terminal output. Scroll back from the final summary to the last round. (Capture: TERM-04 — `TERM-04/source/stdout.txt` lines 1289–1291; screenshot `… | TERM-04 | `assets/captures/TERM-04/exports/framed-end.png` |
-| 2 | `Program.vb` line 264 highlighted, with annotations: "cap at 3" → "cap at the shorter hand" → "result: 1". | (section assets below) | — |
-| 3 | Step-by-step diagram, four panels: | (section assets below) | — |
+| 2 | `Program.vb` line 264 highlighted, with annotations: "cap at 3" → "cap at the shorter hand" → "result: 1". | CODE-20 | `assets/code/CODE-20/exports/preview.mp4` |
+| 3 | Step-by-step diagram, four panels: | DIA-08, CODE-17 | `assets/diagrams/DIA-08/exports/preview.mp4`<br>`assets/code/CODE-17/exports/preview.mp4` |
 | 4 | Switch to TERM-02 terminal output. (Capture: TERM-02 — `TERM-02/source/stdout.txt` lines 4157–4159; screenshot `TERM-02/source/raw/04-end.png`; framed `TERM-02/exports/fr… | TERM-02 | `assets/captures/TERM-02/exports/framed-first-war.png` |
 | 5 | Side-by-side comparison: | CMP-02 | `assets/comparisons/CMP-02/exports/poster.png` |
 
@@ -174,7 +174,7 @@ Open with **CH-13** (assets/chapters/CH-13/exports/preview.mp4). Script chapter 
 
 | # | Cue (from the script) | Ticket(s) | File |
 |---|---|---|---|
-| 1 | Card games that shipped with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x and Windows 95. The classic green felt background. | (section assets below) | — |
+| 1 | Card games that shipped with Windows — Solitaire, Hearts, FreeCell — as they looked on Windows 3.x and Windows 95. The classic green felt background. | HIST-19, HIST-20, XTRA-18, XTRA-19 | `assets/historical/HIST-19/exports/editorial-frame.png`<br>`assets/historical/HIST-20/exports/editorial-frame.png`<br>`assets/historical/XTRA-18/exports/editorial-frame.png`<br>`assets/historical/XTRA-19/exports/editorial-frame.png` |
 | 2 | Mockup of what a VB4 War GUI might look like — a green-felt form with card images, buttons along the bottom. Labeled: "This is what you'd build next." | MOCK-01 | `assets/mockups/MOCK-01/exports/poster.png` |
 | 3 | Screenshots of shareware download sites — TUCOWS, Download.com circa 1996, maybe a BBS file listing. | HIST-17, HIST-18, XTRA-20 | `assets/historical/HIST-17/exports/editorial-frame.png`<br>`assets/historical/HIST-18/exports/editorial-frame.png`<br>`assets/historical/XTRA-20/exports/editorial-frame.png` |
 | 4 | A mock-up download progress bar from 1996 — estimated time remaining: 9 minutes 42 seconds. | MOCK-02 | `assets/mockups/MOCK-02/exports/preview.mp4` |
@@ -202,7 +202,7 @@ Open with **CH-15** (assets/chapters/CH-15/exports/preview.mp4). Script chapter 
 | # | Cue (from the script) | Ticket(s) | File |
 |---|---|---|---|
 | 1 | A mid-90s Macintosh — maybe a Performa or a PowerBook. System 7 desktop. Apple menu, Finder, the classic Mac OS look. | HIST-21, XTRA-09 | `assets/historical/HIST-21/exports/editorial-frame.png`<br>`assets/historical/XTRA-09/exports/editorial-frame.png` |
-| 2 | Text card or graphic noting that Visual Basic for Mac was never released. Alternatively, a screenshot of Microsoft QuickBASIC for Apple Macintosh if a rights-cleared imag… | (section assets below) | — |
+| 2 | Text card or graphic noting that Visual Basic for Mac was never released. Alternatively, a screenshot of Microsoft QuickBASIC for Apple Macintosh if a rights-cleared imag… | XTRA-10 | `assets/stills/XTRA-10/exports/poster.png` |
 | 3 | Screenshot of CodeWarrior IDE. It looks like a Mac app — more polished than the VB IDE, arguably. | HIST-13 | `assets/historical/HIST-13/exports/editorial-frame.png` |
 | 4 | A NeXT cube. The iconic black magnesium case. Very cool, very expensive, very niche. | HIST-14 | `assets/historical/HIST-14/exports/editorial-frame.png` |
 | 5 | Side-by-side comparison chart: | DIA-12 | `assets/diagrams/DIA-12/exports/poster.png` |
@@ -219,7 +219,7 @@ Open with **CH-16** (assets/chapters/CH-16/exports/preview.mp4). Script chapter 
 | 2 | Collage of real-world VB applications — maybe screenshots from old forums or software archives. Internal business tools, data entry forms, simple utilities. | XTRA-11, XTRA-12, XTRA-13, XTRA-14 | `assets/historical/XTRA-11/exports/editorial-frame.png`<br>`assets/historical/XTRA-12/exports/editorial-frame.png`<br>`assets/historical/XTRA-13/exports/editorial-frame.png`<br>`assets/stills/XTRA-14/exports/poster.png` |
 | 3 | An old Windows XP machine in an office setting, running a Visual Basic application. The wallpaper is Bliss. The form has that very specific Visual Basic look — gray contr… | XTRA-15 | `assets/stills/XTRA-15/exports/poster.png` |
 | 4 | A migration wizard with a long list of warnings and errors. Maybe a meme-style "this is fine" edit. | XTRA-16 | `assets/historical/XTRA-16/exports/editorial-frame.png` |
-| 5 | The classicvb.org petition page, March 2005 — "A Petition for the Development of Unmanaged Visual Basic and Visual Basic for Applications." Wayback Machine capture. These… | (section assets below) | — |
+| 5 | The classicvb.org petition page, March 2005 — "A Petition for the Development of Unmanaged Visual Basic and Visual Basic for Applications." Wayback Machine capture. These… | XTRA-17 | `assets/historical/XTRA-17/exports/editorial-frame.png` |
 | 6 | A lineage diagram showing VB's influence: VB → Delphi → .NET WinForms → WPF → modern frameworks. The form-designer concept flowing through all of them. | DIA-13 | `assets/diagrams/DIA-13/exports/poster.png` |
 
 Also assigned to this section: **CARD-02** (motion, `assets/cards/CARD-02/exports/preview.mp4`), **CODE-25** (code, `assets/code/CODE-25/exports/preview.mp4`), **OPS-01** (support, ``), **OPS-03** (support, ``), **OPS-04** (support, ``), **TERM-02** (capture, `assets/captures/TERM-02/exports/framed-first-war.png`)
@@ -236,6 +236,6 @@ Open with **CH-17** (). Script chapter estimate: 45:00.
 
 ## Notes
 
-- 7 cue lines could not be matched to a ticket by text (the cue was reworded during production); their assets are listed under 'also assigned to this section'.
+- 0 cue lines could not be matched to a ticket by text (the cue was reworded during production); their assets are listed under 'also assigned to this section'.
 - The 62 MP4 previews are deterministic renders; play them at speed or scrub, both are frame-accurate.
 - Credits: the list in `exceptions.md` goes in the end credits and the description; XTRA-14 carries its own on-screen credit line and it must stay.

@@ -78,7 +78,16 @@ for r in rows:
         sec_assets[n].append(r["id"])
 
 ID_RE = re.compile(r"\b(?:TERM|CODE|DIA|HIST|XTRA|BROLL|CH|CARD|CMP|FACT|MOCK|REF|OPS)-\d{2}\b")
+OVERRIDES = [  # cues reworded during production, mapped by hand
+    ("73-line C", ["REF-02"]), ("Windows 95 launch footage", ["HIST-08", "BROLL-04"]),
+    ("line 264 highlighted", ["CODE-20"]), ("Step-by-step diagram, four panels", ["DIA-08", "CODE-17"]),
+    ("Card games that shipped with Windows", ["HIST-19", "HIST-20", "XTRA-18", "XTRA-19"]),
+    ("Visual Basic for Mac was never released", ["XTRA-10"]), ("classicvb.org petition", ["XTRA-17"]),
+]
 def ids_for_visual(text):
+    for key, ids in OVERRIDES:
+        if key in text:
+            return ids
     named = sorted(set(ID_RE.findall(text)))
     if named:
         return named
