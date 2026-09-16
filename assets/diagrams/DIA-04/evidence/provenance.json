@@ -49,11 +49,15 @@
     }
   ],
   "authored_additions": [
-    "Scoped authored Integer example only; no claim of automatic deep copying for arrays.",
-    "No .NET SDK is installed; the separate VB validation harness requested by R04a was not executed. This is a produced internal proof, not a closed semantic gate."
+    "The Bump / bump example (Sub Bump(ByVal n As Integer) / Sub Bump(ByRef n As Integer) with n = n + 1, called with x = 5; void bump(int n) / void bump(int& n) in C++) is an authored teaching example written for this production. It is not in the supplied script or Program.vb; the canvas labels it as such.",
+    "Value boxes, the copy arrow, the back-pointing reference arrow, the struck-through discarded copy, the step notes and the result lines are authored explanatory layers.",
+    "Scoped to one Integer: no claim of automatic deep copying for arrays, and no historical default-passing statement.",
+    "The example's behaviour was executed in VB.NET and C++ harnesses on the production machine; see harness-runs.md. Those runs are evidence for the Integer example only."
   ],
   "source_unchanged": true,
   "remote_assets": [],
   "font_files_distributed": false,
-  "producer_decisions": []
+  "producer_decisions": [
+    "2026-09-16, Devin's cut note 16 (review/cut-notes-2026-09-16.md): replace the diagram with a code-driven demonstration; optional C++ column included."
+  ]
 }

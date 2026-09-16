@@ -2,14 +2,28 @@
   "gates": [
     {
       "id": "R04a",
-      "status": "approved",
-      "reason": "Only DIA-04's scoped Integer illustration makes a passing-mode claim, and it was verified in the harness. Code cards render the source as written.",
+      "status": "review_requested",
+      "reason": "Revision 2 replaces the diagram with an authored code demonstration (Bump adds one; x = 5; ByVal leaves x at 5, ByRef makes it 6; C++ int n versus int& n with the same outcome). The example's behaviour was executed in a VB.NET harness and a C++ harness on this machine (evidence/harness-runs.md) and matches the canvas. The canvas is labelled as an authored teaching example with one Integer and states that it shows nothing about what ByVal does with an array; no historical default-passing statement appears. The previous approval (2026-09-15) covered the old diagram, so the new exports need the producer's look before release.",
       "evidence_paths": [
-        "source-excerpts.md"
+        "harness-runs.md",
+        "source-excerpts.md",
+        "../src/scene-0005.svg",
+        "../src/variant-byval.svg",
+        "../src/variant-byref.svg",
+        "../src/variant-cpp.svg"
       ],
-      "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
-      "approval_date": "2026-09-15",
-      "decision": "Approved: the asset matches the script and source as they now stand."
+      "approver": null,
+      "approval_date": null,
+      "decision": null,
+      "history": [
+        {
+          "date": "2026-09-15",
+          "status": "approved",
+          "approver": "Producer (vb-video-checkout-2-38, Claude Fable 5.1), under Devin's 2026-09-15 delegation of release review",
+          "decision": "Approved: the asset matches the script and source as they now stand.",
+          "note": "Applied to the revision-1 diagram, since replaced."
+        }
+      ]
     }
   ]
 }

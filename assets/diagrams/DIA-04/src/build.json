@@ -1,26 +1,44 @@
 {
   "id": "DIA-04",
-  "duration": 12,
+  "duration": 10,
   "frames": [
     {
       "time": 0,
       "file": "scene-0000.svg"
     },
     {
-      "time": 4,
+      "time": 1.5,
       "file": "scene-0001.svg"
     },
     {
-      "time": 8,
+      "time": 3.0,
       "file": "scene-0002.svg"
+    },
+    {
+      "time": 4.5,
+      "file": "scene-0003.svg"
+    },
+    {
+      "time": 6.0,
+      "file": "scene-0004.svg"
+    },
+    {
+      "time": 7.5,
+      "file": "scene-0005.svg"
     }
   ],
-  "variants": {},
+  "variants": {
+    "byval": "variant-byval.svg",
+    "byref": "variant-byref.svg",
+    "cpp": "variant-cpp.svg"
+  },
   "poster": "scene.svg",
   "cuts": {},
   "notes": [
-    "Scoped authored Integer example only; no claim of automatic deep copying for arrays.",
-    "No .NET SDK is installed; the separate VB validation harness requested by R04a was not executed. This is a produced internal proof, not a closed semantic gate."
+    "Revision 2 (2026-09-16, Devin’s cut note 16): the diagram is replaced by a code-driven demonstration. Bump adds one to its parameter; x = 5 before the call; ByVal leaves x at 5, ByRef makes it 6. The C++ column shows int n versus int& n with the same outcome.",
+    "The Bump / bump example is an authored teaching example, not supplied code; the canvas says so. Scoped to one Integer: no claim of automatic deep copying for arrays, and no historical default-passing statement.",
+    "Timing: steps at 0, 1.5, 3, 4.5, 6 and 7.5 s (x holds 5; the call; the parameter appears; n = n + 1 runs; the Sub ends; the result), and the result holds from 7.5 s to 10 s.",
+    "Annotations (current-line marker, copy arrow, back-pointing reference arrow, labels) sit in the margins and value area, never over code text."
   ],
   "sources": [
     {
