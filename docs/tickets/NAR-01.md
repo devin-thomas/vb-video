@@ -76,3 +76,9 @@ Return this ID, branch and commit, concrete output paths, variant/duration infor
 ~~~~text
 In C#, you'd use `Queue<Card>` and call it a day. In C++, you'd use `std::queue`. In 1995 VB? You didn't have generic collections. You didn't even have a built-in queue. You had arrays, and you had `ReDim`, and that was about it.
 ~~~~
+
+## Addendum — stage directions read aloud (2026-09-16, producer's pass over 17:00–end)
+
+Two beats are not narration at all: **S12-B05** (25:43, 23.7 s: "Panel 1: Player 2's hand — 2 cards ... Panel 4: ...") and **S12-B08** (26:31, 12.2 s: "TERM-04: 2 cards → play 10 → burn 1 → empty → 4-card pot TERM-02: ...]**"). Both are the continuation lines of multi-line `**[VISUAL: ...]**` blocks in `War/SCRIPT.md` (the "Step-by-step diagram, four panels:" and "Side-by-side comparison:" cues) that `tools/narration/beats.py` treated as spoken text, and Aiden read them.
+
+Required: fix the cue parser so a `**[VISUAL:` block runs until its closing `]**` across lines, with the continuation lines attached to the cue (so the timeline builder can use them), never to the narration; regenerate `narration/beats.json`; confirm the two beats are gone and every other `written` field is unchanged; remove their takes from `narration/selection.json`; scan every beat for `]**`, `**[`, `Panel \d`, or an asset ID at the start of the text and report zero hits. The timeline builder (ASM-03) picks the change up from beats.json.

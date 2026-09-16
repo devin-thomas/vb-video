@@ -6323,7 +6323,7 @@
       "id": "CMP-03",
       "title": "For loop and named Next",
       "parent": "T1-S04",
-      "kind": "still",
+      "kind": "motion",
       "lane": "code",
       "sections": [
         7
@@ -6367,7 +6367,8 @@
       "priority": "required",
       "variants": [
         "comparison",
-        "token-focus"
+        "token-focus",
+        "transform"
       ],
       "source_hint": "comparison",
       "ticket": "docs/tickets/CMP-03.md",
@@ -6376,13 +6377,15 @@
       ],
       "required_outputs": [
         "delivery.json",
-        "qa.md",
         "evidence/provenance.json",
         "evidence/source-excerpts.md",
-        "src/index.html",
-        "exports/poster.png",
         "exports/comparison.png",
-        "exports/token-focus.png"
+        "exports/poster.png",
+        "exports/preview.mp4",
+        "exports/token-focus.png",
+        "exports/transform.png",
+        "qa.md",
+        "src/index.html"
       ],
       "asset_dir": "assets/comparisons/CMP-03",
       "github_issue": 90
@@ -12371,7 +12374,8 @@
       "kind": "support",
       "lane": "orchestrator",
       "sections": [
-        8
+        8,
+        12
       ],
       "refs": [
         [
@@ -12385,7 +12389,8 @@
         "Sweep `narration/qa.json`: every take whose spoken text contains \"C plus plus\" or \"C sharp\" and whose transcript does not contain \"c++\", \"c plus plus\", \"c#\" or \"c sharp\" is a candidate; S08-B02 (16:52) is confirmed by Devin.",
         "Fix the pronunciation in the spoken form only (for example \"see plus plus\", \"see sharp\") in `tools/narration/beats.py`'s spoken-text rules, regenerate `narration/beats.json`, and confirm the written text of every beat is unchanged (diff the `written` fields).",
         "Synthesize the affected beats as attempt 03 with `tools/narration/synth.py --attempt 3 --only <ids>`, QA them with `tools/narration/qa.py --attempt 3 --only <ids>`, and run `tools/narration/select.py`. Listen to each new take once and record what you heard.",
-        "Owned paths: `tools/narration/beats.py`, `narration/beats.json`, `narration/takes/<beat>/03/`, `narration/qa.json`, `narration/selection.json`. Do not edit `War/SCRIPT.md`."
+        "Owned paths: `tools/narration/beats.py`, `narration/beats.json`, `narration/takes/<beat>/03/`, `narration/qa.json`, `narration/selection.json`. Do not edit `War/SCRIPT.md`.",
+        "Fix the multi-line VISUAL cue parsing in tools/narration/beats.py so stage directions never become beats; S12-B05 and S12-B08 are removed from the narration (see the ticket addendum)."
       ],
       "beats": [
         "For each re-read beat: attempt 03 take, its QA record, and the selection result."
@@ -12393,7 +12398,8 @@
       "checks": [
         "`exports/report.md` lists every candidate beat with the old transcript, the new transcript, and which attempt is selected.",
         "Every `written` field in `narration/beats.json` is byte-identical to before the change.",
-        "S08-B02's selected take is heard as \"C plus plus\" by the transcriber."
+        "S08-B02's selected take is heard as \"C plus plus\" by the transcriber.",
+        "No beat in narration/beats.json contains ']**', '**[', 'Panel <n>' or starts with an asset ID; S12-B05 and S12-B08 no longer exist."
       ],
       "copy": "",
       "cues": [],
