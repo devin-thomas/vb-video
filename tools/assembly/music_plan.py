@@ -67,7 +67,10 @@ def main() -> int:
     # transition sting: first 8 s of 2038 D.M.G. over every chapter card except the first (the opening bed covers it)
     sting = OUT_DIR / "dmg-sting-8s.mp3"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-t", "8", "-i", str(files["dmg"]), "-af", "afade=t=out:st=6.5:d=1.5", "-c:a", "libmp3lame", "-b:a", "192k", str(sting)], check=True)
-    cues = [{"effect": "chapter-sting", "at": round(t, 3), "file": "assets/audio/music/dmg-sting-8s.mp3", "gain_db": -12, "trigger": f"CH-{n:02d}"} for n, t in sorted(starts.items()) if n not in (1, 17)]
+    # Devin (2026-09-16): no two pieces of music at once. The sting plays only where a bed change already leaves the card
+    # silent (the first section of each bed range); inside a bed's range the bed simply continues under the card.
+    boundaries = {a for (a, b), *_ in PLAN if a not in (1, 17)}
+    cues = [{"effect": "chapter-sting", "at": round(t, 3), "file": "assets/audio/music/dmg-sting-8s.mp3", "gain_db": -12, "trigger": f"CH-{n:02d}"} for n, t in sorted(starts.items()) if n in boundaries]
     (ROOT / "narration/sfx-music.json").write_text(json.dumps(cues, indent=1) + LF, encoding="utf-8", newline=LF)
     print(f"{len(plan)} beds, {len(cues)} chapter stings; plan -> narration/music-plan.json")
     for p in plan: print(f"  {p['from']/60:6.2f}-{p['to']/60:6.2f} min  {p['title']:24s} {p['gain_db']} dB  {p['why']}")

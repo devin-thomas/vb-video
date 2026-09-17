@@ -1,24 +1,10 @@
 [
  {
   "effect": "chapter-sting",
-  "at": 82.06,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-02"
- },
- {
-  "effect": "chapter-sting",
   "at": 317.19,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-03"
- },
- {
-  "effect": "chapter-sting",
-  "at": 431.67,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-04"
  },
  {
   "effect": "chapter-sting",
@@ -29,45 +15,10 @@
  },
  {
   "effect": "chapter-sting",
-  "at": 642.24,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-06"
- },
- {
-  "effect": "chapter-sting",
-  "at": 793.17,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-07"
- },
- {
-  "effect": "chapter-sting",
-  "at": 1000.06,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-08"
- },
- {
-  "effect": "chapter-sting",
   "at": 1148.9,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-09"
- },
- {
-  "effect": "chapter-sting",
-  "at": 1270.63,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-10"
- },
- {
-  "effect": "chapter-sting",
-  "at": 1427.84,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-11"
  },
  {
   "effect": "chapter-sting",
@@ -78,24 +29,10 @@
  },
  {
   "effect": "chapter-sting",
-  "at": 1602.73,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-13"
- },
- {
-  "effect": "chapter-sting",
   "at": 1765.28,
   "file": "assets/audio/music/dmg-sting-8s.mp3",
   "gain_db": -12,
   "trigger": "CH-14"
- },
- {
-  "effect": "chapter-sting",
-  "at": 1953.51,
-  "file": "assets/audio/music/dmg-sting-8s.mp3",
-  "gain_db": -12,
-  "trigger": "CH-15"
  },
  {
   "effect": "chapter-sting",
