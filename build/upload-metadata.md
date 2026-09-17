@@ -1,4 +1,4 @@
-# Upload metadata (generated from the timeline, 42.0 min)
+# Upload metadata (generated from the timeline, 41.4 min)
 
 ## Title
 
@@ -18,15 +18,15 @@ Chapters:
 10:42 Modeling a Card in VB
 13:13 Building and Shuffling the Deck
 16:40 The Player's Hand: Arrays as Queues
-19:08 The Game Loop
-21:10 War! The Recursion Within the Loop
-23:47 Running It: Full Simulation
-24:38 When the Cards Run Out
-27:19 What This Code Would Have Become
-30:02 VB vs. The Competition in 1995
-33:10 What If You Were on a Mac?
-36:33 Why VB Mattered (and Why It Died)
-40:29 Outro
+19:09 The Game Loop
+21:11 War! The Recursion Within the Loop
+23:48 Running It: Full Simulation
+24:39 When the Cards Run Out
+26:43 What This Code Would Have Become
+29:25 VB vs. The Competition in 1995
+32:34 What If You Were on a Mac?
+35:57 Why VB Mattered (and Why It Died)
+39:53 Outro
 
 Credits:
 XTRA-01  Visual Basic Programmer's Journal, March 1996 (Vol. 6, No. 3), © Fawcette Technical Publications. Scan via Internet Archive.
@@ -77,15 +77,15 @@ visual basic, vb6, vb4, retro programming, 1990s programming, card game tutorial
 10:42 Modeling a Card in VB
 13:13 Building and Shuffling the Deck
 16:40 The Player's Hand: Arrays as Queues
-19:08 The Game Loop
-21:10 War! The Recursion Within the Loop
-23:47 Running It: Full Simulation
-24:38 When the Cards Run Out
-27:19 What This Code Would Have Become
-30:02 VB vs. The Competition in 1995
-33:10 What If You Were on a Mac?
-36:33 Why VB Mattered (and Why It Died)
-40:29 Outro
+19:09 The Game Loop
+21:11 War! The Recursion Within the Loop
+23:48 Running It: Full Simulation
+24:39 When the Cards Run Out
+26:43 What This Code Would Have Become
+29:25 VB vs. The Competition in 1995
+32:34 What If You Were on a Mac?
+35:57 Why VB Mattered (and Why It Died)
+39:53 Outro
 
 ## Checklist
 

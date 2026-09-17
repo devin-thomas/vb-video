@@ -51,7 +51,7 @@
 | 9:12 | S05-B01 | 19.1 | placement map | DIA-02:deck-hold (19.1 s) |
 | 9:32 | S05-B02 | 10.4 | placement map | DIA-15:riffle (3.9 s), DIA-02:alternating-deal (6.5 s) |
 | 9:43 | S05-B03 | 13.5 | placement map | DIA-02:normal-round (13.5 s) |
-| 9:56 | S05-B04 | 20.9 | placement map | DIA-02:poster (4.9 s), DIA-02:single-war (16.0 s) |
+| 9:56 | S05-B04 | 20.9 | placement map | DIA-02:normal-round-hold (4.9 s), DIA-02:single-war (16.0 s) |
 | 10:18 | S05-B05 | 10.2 | placement map | DIA-02:final-hold (10.2 s) |
 | 10:28 | S05-B06 | 12.8 | placement map | BROLL-02 (12.8 s) |
 | 10:46 | S06-B01 | 6.3 | cue | CODE-02 (6.3 s) |
@@ -81,8 +81,8 @@
 | 17:18 | S08-B03 | 1.2 | placement map | CMP-09 (1.2 s) |
 | 17:20 | S08-B04 | 17.4 | placement map | CODE-06 (8.7 s), CODE-07 (8.7 s) |
 | 17:38 | S08-B05 | 6.0 | placement map | CODE-07:poster (3.5 s), DIA-05:append (2.5 s) |
-| 17:44 | S08-B06 | 7.5 | placement map | CODE-08 (7.5 s) |
-| 17:52 | S08-B07 | 20.2 | placement map | DIA-05:draw-shift (0.6 s), DIA-05:cost (19.5 s) |
+| 17:44 | S08-B06 | 7.5 | placement map | CODE-08 (3.9 s), DIA-05:draw-shift (3.6 s) |
+| 17:52 | S08-B07 | 20.2 | placement map | DIA-05:cost (20.2 s) |
 | 18:13 | S08-B08 | 11.0 | placement map | CODE-09 (11.0 s) |
 | 18:24 | S08-B09 | 2.4 | placement map | CODE-09:poster (2.4 s) |
 | 18:27 | S08-B10 | 20.3 | placement map | CODE-10 (10.2 s), CMP-05 (10.2 s) |

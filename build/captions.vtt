@@ -841,1234 +841,1211 @@ they go to the bottom of your pile.
 When you play a card,
 it comes off the top.
 
-00:17:00.910 --> 00:17:06.946
+00:17:00.910 --> 00:17:07.117
 In C#, you'd use Queue<Card> and call
 it a day. In C++, you'd use std::queue.
 
-00:17:06.996 --> 00:17:10.191
+00:17:07.167 --> 00:17:10.454
 In 1995 VB? You didn't
 have generic collections.
 
-00:17:10.241 --> 00:17:13.031
+00:17:10.504 --> 00:17:13.374
 You didn't even have a built-in queue.
 
-00:17:13.081 --> 00:17:17.900
+00:17:13.424 --> 00:17:18.380
 You had arrays, and you had
 ReDim, and that was about it.
 
-00:17:18.400 --> 00:17:19.550
+00:17:18.880 --> 00:17:20.030
 So we fake it:
 
-00:17:20.050 --> 00:17:25.945
+00:17:20.530 --> 00:17:26.425
 The hand is an array of 52 slots —
 the maximum possible, since you could
 
-00:17:25.995 --> 00:17:31.891
+00:17:26.475 --> 00:17:32.371
 theoretically hold all the cards — and
 a counter that tracks how many slots are
 
-00:17:31.941 --> 00:17:35.458
+00:17:32.421 --> 00:17:35.938
 actually in use. Cards zero
 through Count-minus-one are live.
 
-00:17:35.508 --> 00:17:37.440
+00:17:35.988 --> 00:17:37.920
 Everything past Count is garbage.
 
-00:17:37.940 --> 00:17:43.890
+00:17:38.420 --> 00:17:44.370
 Adding a card to the bottom is simple —
 drop it at position Count and increment:
 
-00:17:44.390 --> 00:17:46.733
+00:17:44.870 --> 00:17:47.213
 Drawing from the top is more expensive.
 
-00:17:46.783 --> 00:17:51.860
+00:17:47.263 --> 00:17:52.340
 You take the card at position zero, then
 shift everything else forward by one slot:
 
-00:17:52.360 --> 00:17:57.075
+00:17:52.840 --> 00:17:57.555
 That shift is O(n) — every card
 in the hand moves one position.
 
-00:17:57.125 --> 00:18:02.573
+00:17:57.605 --> 00:18:03.053
 With a proper circular buffer or a
 linked list, you could do this in O(1).
 
-00:18:02.623 --> 00:18:04.406
+00:18:03.103 --> 00:18:04.886
 But we're writing 1995 VB.
 
-00:18:04.456 --> 00:18:09.538
+00:18:04.936 --> 00:18:10.018
 Nobody was thinking about algorithmic
 complexity when they had 26 cards in a hand.
 
-00:18:09.588 --> 00:18:12.470
+00:18:10.068 --> 00:18:12.950
 Computers were slower,
 but data sets were tiny.
 
-00:18:12.970 --> 00:18:18.400
+00:18:13.450 --> 00:18:18.880
 The whole game finishes in a few hundred
 to a couple of thousand rounds, and each
 
-00:18:18.450 --> 00:18:20.455
+00:18:18.930 --> 00:18:20.935
 round shifts at most 52 cards.
 
-00:18:20.505 --> 00:18:23.880
+00:18:20.985 --> 00:18:24.360
 A Pentium 75 could handle
 this without breaking a sweat.
 
-00:18:24.380 --> 00:18:26.730
+00:18:24.860 --> 00:18:27.210
 Now, look at the Function return syntax:
 
-00:18:27.230 --> 00:18:33.432
+00:18:27.710 --> 00:18:33.912
 This is one of the weirdest things in VB
 if you're coming from any other language.
 
-00:18:33.482 --> 00:18:38.903
+00:18:33.962 --> 00:18:39.383
 To return a value from a function,
 you assign to the function's own name.
 
-00:18:38.953 --> 00:18:44.765
+00:18:39.433 --> 00:18:45.245
 You don't write return Top; — you write
 DrawTopCard = Top, where DrawTopCard is the
 
-00:18:44.815 --> 00:18:47.500
+00:18:45.295 --> 00:18:47.980
 name of the function you're inside of.
 
-00:18:48.000 --> 00:18:52.750
+00:18:48.480 --> 00:18:53.230
 The function name acts as an implicit
 local variable that holds the return value.
 
-00:18:53.250 --> 00:18:58.372
+00:18:53.730 --> 00:18:58.852
 This is pure old-school BASIC heritage.
 It's been this way since the 1960s.
 
-00:18:58.422 --> 00:19:02.748
+00:18:58.902 --> 00:19:03.228
 VB.NET also supports the Return keyword,
 but the assign-to-function-name style is
 
-00:19:02.798 --> 00:19:07.920
+00:19:03.278 --> 00:19:08.400
 the traditional way, and it's what
 you would have seen in the 90s.
 
-00:19:12.420 --> 00:19:17.330
+00:19:12.900 --> 00:19:17.810
 The main game loop is where everything
 comes together. Let's walk through Sub Main:
 
-00:19:17.830 --> 00:19:23.817
+00:19:18.310 --> 00:19:24.297
 We build a deck, shuffle it, create two
 empty hands, and deal — alternating cards,
 
-00:19:23.867 --> 00:19:30.660
+00:19:24.347 --> 00:19:31.140
 one to Player 1, one to Player 2, until all
 52 are distributed. Each player gets 26.
 
-00:19:31.160 --> 00:19:31.830
+00:19:31.640 --> 00:19:32.310
 Then the loop:
 
-00:19:32.330 --> 00:19:35.057
+00:19:32.810 --> 00:19:35.537
 Do While...Loop. In C,
 that's while (...) { }.
 
-00:19:35.107 --> 00:19:39.069
+00:19:35.587 --> 00:19:39.549
 It keeps going as long as both
 players have at least one card.
 
-00:19:39.119 --> 00:19:43.080
+00:19:39.599 --> 00:19:43.560
 When either player hits zero, the
 loop ends and we have a winner.
 
-00:19:43.580 --> 00:19:46.143
+00:19:44.060 --> 00:19:46.623
 The MAX_ROUNDS check is a safety valve.
 
-00:19:46.193 --> 00:19:51.370
+00:19:46.673 --> 00:19:51.850
 War is theoretically capable of cycling
 forever — the same cards going back and
 
-00:19:51.420 --> 00:19:52.863
+00:19:51.900 --> 00:19:53.343
 forth in a loop.
 
-00:19:52.913 --> 00:19:58.463
+00:19:53.393 --> 00:19:58.943
 In practice, with a random shuffle, games
 do end — my recorded runs took anywhere
 
-00:19:58.513 --> 00:20:00.330
+00:19:58.993 --> 00:20:00.810
 from 150 to 2,008 rounds.
 
-00:20:00.380 --> 00:20:05.930
+00:20:00.860 --> 00:20:06.410
 But just in case, we cap it at
 20,000 rounds and call it a draw.
 
-00:20:06.430 --> 00:20:09.580
+00:20:06.910 --> 00:20:10.060
 In my testing, I've never
 actually hit the cap.
 
-00:20:10.080 --> 00:20:12.718
+00:20:10.560 --> 00:20:13.198
 Notice the string
 concatenation operator: &.
 
-00:20:12.768 --> 00:20:19.886
+00:20:13.248 --> 00:20:20.366
 In C# and C++, you use + to glue
 strings together. In VB, you use &.
 
-00:20:19.936 --> 00:20:27.054
+00:20:20.416 --> 00:20:27.534
 The reason is that + in VB does different
 things depending on the types involved —
 
-00:20:27.104 --> 00:20:33.326
+00:20:27.584 --> 00:20:33.806
 it might add numbers or concatenate strings
 — and this ambiguity caused enough bugs
 
-00:20:33.376 --> 00:20:36.910
+00:20:33.856 --> 00:20:37.390
 that Microsoft recommended
 always using & for strings.
 
-00:20:37.410 --> 00:20:43.060
+00:20:37.890 --> 00:20:43.540
 It's one of those "we made it too easy
 and now we need a rule to prevent the easy
 
-00:20:43.110 --> 00:20:44.560
+00:20:43.590 --> 00:20:45.040
 thing from biting you" situations.
 
-00:20:45.060 --> 00:20:51.730
+00:20:45.540 --> 00:20:52.210
 Also notice line continuation: the
 underscore _ at the end of a line means "this
 
-00:20:51.780 --> 00:20:57.106
+00:20:52.260 --> 00:20:57.586
 statement continues on the next line." In
 C-family languages, a statement continues
 
-00:20:57.156 --> 00:20:59.346
+00:20:57.636 --> 00:20:59.826
 until you hit a semicolon.
 
-00:20:59.396 --> 00:21:06.514
+00:20:59.876 --> 00:21:06.994
 In VB, every line is its own statement
 by default — the underscore is the escape
 
-00:21:06.564 --> 00:21:09.650
+00:21:07.044 --> 00:21:10.130
 hatch when a line gets too long.
 
-00:21:14.150 --> 00:21:19.502
+00:21:14.630 --> 00:21:19.982
 The PlayRound subroutine is the heart
 of the game, and it's where the most
 
-00:21:19.552 --> 00:21:20.660
+00:21:20.032 --> 00:21:21.140
 interesting logic lives.
 
-00:21:20.710 --> 00:21:26.834
+00:21:21.190 --> 00:21:27.314
 It's also where the War mechanic — the
 thing the game is named after — actually
 
-00:21:26.884 --> 00:21:27.220
+00:21:27.364 --> 00:21:27.700
 happens.
 
-00:21:27.720 --> 00:21:32.446
+00:21:28.200 --> 00:21:32.926
 Four parameters. The round number is
 passed ByVal because we just read it.
 
-00:21:32.496 --> 00:21:37.590
+00:21:32.976 --> 00:21:38.070
 The two hands and the war counter are ByRef
 because this subroutine modifies them.
 
-00:21:38.090 --> 00:21:42.600
+00:21:38.570 --> 00:21:43.080
 Inside, there's a pot — an array that
 collects all the cards at stake this round:
 
-00:21:43.100 --> 00:21:47.174
+00:21:43.580 --> 00:21:47.654
 The pot can theoretically
 hold every card in the game.
 
-00:21:47.224 --> 00:21:52.949
+00:21:47.704 --> 00:21:53.429
 In a normal round, it holds two
 cards. In a war, it holds ten.
 
-00:21:52.999 --> 00:21:55.011
+00:21:53.479 --> 00:21:55.491
 In a double war, eighteen.
 
-00:21:55.061 --> 00:22:00.785
+00:21:55.541 --> 00:22:01.265
 In theory, wars can chain indefinitely,
 though in practice it's extremely rare to go
 
-00:22:00.835 --> 00:22:01.610
+00:22:01.315 --> 00:22:02.090
 past three.
 
-00:22:02.110 --> 00:22:08.274
+00:22:02.590 --> 00:22:08.754
 Then there's an inner Do...Loop — not
 a Do While, just Do...Loop, which is an
 
-00:22:08.324 --> 00:22:13.660
+00:22:08.804 --> 00:22:14.140
 infinite loop that we exit with Exit
 Sub when someone wins. Each iteration:
 
-00:22:14.160 --> 00:22:17.171
+00:22:14.640 --> 00:22:17.651
 One — check if either
 player is out of cards.
 
-00:22:17.221 --> 00:22:21.150
+00:22:17.701 --> 00:22:21.630
 If you can't play, you lose, and
 the other player takes the pot.
 
-00:22:21.650 --> 00:22:26.320
+00:22:22.130 --> 00:22:26.800
 Two — both players draw their top
 card. Both cards go into the pot.
 
-00:22:26.820 --> 00:22:32.629
+00:22:27.300 --> 00:22:33.109
 Three — compare ranks. If Player 1's
 rank is higher, Player 1 wins the pot.
 
-00:22:32.679 --> 00:22:38.488
+00:22:33.159 --> 00:22:38.968
 Exit Sub. If Player 2's rank is higher,
 Player 2 wins the pot. Exit Sub.
 
-00:22:38.538 --> 00:22:40.050
+00:22:39.018 --> 00:22:40.530
 If they're equal? War.
 
-00:22:40.550 --> 00:22:46.228
+00:22:41.030 --> 00:22:46.708
 Each player burns up to three cards face-down
 — or fewer, if they don't have three
 
-00:22:46.278 --> 00:22:51.240
+00:22:46.758 --> 00:22:51.720
 left. Then the loop goes back to the
 top, draws again, and compares again.
 
-00:22:51.290 --> 00:22:54.820
+00:22:51.770 --> 00:22:55.300
 If it's another tie, another
 war. The pot keeps growing.
 
-00:22:55.320 --> 00:22:56.390
+00:22:55.800 --> 00:22:56.870
 Notice this line:
 
-00:22:56.890 --> 00:23:02.673
+00:22:57.370 --> 00:23:03.153
 That colon : is VB's statement separator
 — it puts two statements on one line.
 
-00:23:02.723 --> 00:23:06.561
+00:23:03.203 --> 00:23:07.041
 It's the equivalent of
 putting two lines on one line.
 
-00:23:06.611 --> 00:23:12.005
+00:23:07.091 --> 00:23:12.485
 Frowned upon by style guides, but
 convenient for cases like this where the two
 
-00:23:12.055 --> 00:23:13.560
+00:23:12.535 --> 00:23:14.040
 operations are conceptually atomic.
 
-00:23:14.060 --> 00:23:19.242
+00:23:14.540 --> 00:23:19.722
 The GiveCardsToWinner subroutine at the
 end is simple — it walks the pot array and
 
-00:23:19.292 --> 00:23:22.730
+00:23:19.772 --> 00:23:23.210
 adds each card to the
 bottom of the winner's hand:
 
-00:23:23.230 --> 00:23:26.880
+00:23:23.710 --> 00:23:27.360
 This is what determines the
 eventual outcome of the game.
 
-00:23:26.930 --> 00:23:32.800
+00:23:27.410 --> 00:23:33.280
 The order in which won cards get added
 to your hand affects what you'll play in
 
-00:23:32.850 --> 00:23:35.760
+00:23:33.330 --> 00:23:36.240
 future rounds, which affects
 who wins those rounds.
 
-00:23:35.810 --> 00:23:41.310
+00:23:36.290 --> 00:23:41.790
 War is deterministic after the shuffle —
 the outcome is sealed the moment the cards
 
-00:23:41.360 --> 00:23:43.900
+00:23:41.840 --> 00:23:44.380
 are dealt. There's no
 randomness during play.
 
-00:23:43.950 --> 00:23:46.860
+00:23:44.430 --> 00:23:47.340
 The only randomness is
 in the initial shuffle.
 
-00:23:51.360 --> 00:23:51.950
+00:23:51.840 --> 00:23:52.430
 Let's run it.
 
-00:23:52.450 --> 00:23:58.267
+00:23:52.930 --> 00:23:58.747
 A double war — Ace against Ace, then Queen
 against Queen, before an Ace finally beat
 
-00:23:58.317 --> 00:24:00.833
+00:23:58.797 --> 00:24:01.313
 a 2. Eighteen cards in the pot.
 
-00:24:00.883 --> 00:24:05.600
+00:24:01.363 --> 00:24:06.080
 That's a third of the entire deck
 changing hands in a single round.
 
-00:24:06.100 --> 00:24:09.373
+00:24:06.580 --> 00:24:09.853
 Every run is different
 because the shuffle is random.
 
-00:24:09.423 --> 00:24:13.804
+00:24:09.903 --> 00:24:14.284
 Sometimes it's over in 150 rounds.
 Sometimes it takes more than 2,000.
 
-00:24:13.854 --> 00:24:18.973
+00:24:14.334 --> 00:24:19.453
 The number of wars varies too — ten
 in one game, sixty-nine in another.
 
-00:24:19.023 --> 00:24:20.450
+00:24:19.503 --> 00:24:20.930
 But it always terminates.
 
-00:24:20.950 --> 00:24:24.934
+00:24:21.430 --> 00:24:25.414
 This is about 280 lines of Visual Basic.
 
-00:24:24.984 --> 00:24:31.993
+00:24:25.464 --> 00:24:32.473
 Not 280 lines of boilerplate and framework
 code — 280 lines that actually do
 
-00:24:32.043 --> 00:24:37.540
+00:24:32.523 --> 00:24:38.020
 something. That's the whole game.
 Build, shuffle, deal, play, win. Done.
 
-00:24:42.040 --> 00:24:47.291
+00:24:42.520 --> 00:24:47.771
 Rewind to that first run for a
 moment — 617 rounds, Player 1 wins.
 
-00:24:47.341 --> 00:24:51.078
+00:24:47.821 --> 00:24:51.558
 We saw the final scoreboard,
 but not the final play.
 
-00:24:51.128 --> 00:24:53.350
+00:24:51.608 --> 00:24:53.830
 Here's how the game actually ended:
 
-00:24:53.850 --> 00:24:59.720
+00:24:54.330 --> 00:25:00.200
 Player 2 didn't just lose a round. Player
 2 ran out of cards in the middle of a war.
 
-00:25:00.220 --> 00:25:06.796
+00:25:00.700 --> 00:25:07.276
 Going into round 617, Player 2 had exactly
 2 cards left — against Player 1's 50.
 
-00:25:06.846 --> 00:25:09.281
+00:25:07.326 --> 00:25:09.761
 Both played a 10: tie, war.
 
-00:25:09.331 --> 00:25:13.836
+00:25:09.811 --> 00:25:14.316
 Normally each player burns three
 cards face-down and flips a fourth.
 
-00:25:13.886 --> 00:25:21.290
+00:25:14.366 --> 00:25:21.770
 But Player 2 only had 1 card left after
 playing that 10. So what does the code do?
 
-00:25:21.790 --> 00:25:23.183
+00:25:22.270 --> 00:25:23.663
 It doesn't demand three.
 
-00:25:23.233 --> 00:25:27.872
+00:25:23.713 --> 00:25:28.352
 It caps the burn at however many
 cards the shorter hand can spare.
 
-00:25:27.922 --> 00:25:34.003
+00:25:28.402 --> 00:25:34.483
 Player 2 had 1, so both players burned 1.
 After the burn, Player 2's hand was empty.
 
-00:25:34.053 --> 00:25:40.495
+00:25:34.533 --> 00:25:40.975
 The loop came back to the top, hit the
 empty-hand check, and that was it — Player 1
 
-00:25:40.545 --> 00:25:43.020
+00:25:41.025 --> 00:25:43.500
 took the four-card pot and the game.
 
-00:25:43.520 --> 00:25:49.186
-Panel 1: Player 2's hand — 2
-cards. Player 1's hand — 50 cards.
-
-00:25:49.236 --> 00:25:55.718
-Panel 2: Both play a 10. 1 card
-left for Player 2, 49 for Player 1.
-
-00:25:55.768 --> 00:26:00.209
-Panel 3: Both burn 1. Zero
-cards left for Player 2.
-
-00:26:00.259 --> 00:26:07.150
-Panel 4: "Player 2 has no cards left
-for the war — Player 1 takes the pot."]
-
-00:26:07.650 --> 00:26:12.880
+00:25:44.000 --> 00:25:49.230
 And it happened again, in the
 opposite direction, purely by chance.
 
-00:26:12.930 --> 00:26:15.760
+00:25:49.280 --> 00:25:52.110
 The longest run — 2,008 rounds:
 
-00:26:16.260 --> 00:26:21.382
+00:25:52.610 --> 00:25:57.732
 Same mechanic. Player 1 walked into
 round 2,008 holding 3 cards against 49.
 
-00:26:21.432 --> 00:26:26.156
+00:25:57.782 --> 00:26:02.506
 Both played an 8, leaving
 Player 1 with 2. Both burned 2.
 
-00:26:26.206 --> 00:26:30.930
+00:26:02.556 --> 00:26:07.280
 Player 1's hand was empty, and
 Player 2 took the six-card pot.
 
-00:26:31.430 --> 00:26:40.500
-TERM-04: 2 cards → play 10 → burn 1 → empty
-→ 4-card pot TERM-02: 3 cards → play 8 →
-
-00:26:40.550 --> 00:26:43.540
-burn 2 → empty → 6-card pot]
-
-00:26:44.040 --> 00:26:46.200
+00:26:07.780 --> 00:26:09.940
 This is a subtlety worth noticing.
 
-00:26:46.250 --> 00:26:52.460
+00:26:09.990 --> 00:26:16.200
 The rule isn't "you need three cards for
 a war or you forfeit." It's "burn what you
 
-00:26:52.510 --> 00:26:58.352
+00:26:16.250 --> 00:26:22.092
 have, and if there's nothing left to flip,
 you're done." A player down to two cards
 
-00:26:58.402 --> 00:27:04.612
+00:26:22.142 --> 00:26:28.352
 going into a war still gets a reduced burn
 — one card face-down, one card to compete
 
-00:27:04.662 --> 00:27:07.190
+00:26:28.402 --> 00:26:30.930
 with — and can still win it.
 
-00:27:07.690 --> 00:27:12.280
+00:26:31.430 --> 00:26:36.020
 They only lose if that flip ties
 again and the well is truly dry.
 
-00:27:12.780 --> 00:27:17.410
+00:26:36.520 --> 00:26:41.150
 Two of our four recorded runs ended
 exactly this way. Nobody planned it.
 
-00:27:17.460 --> 00:27:18.490
+00:26:41.200 --> 00:26:42.230
 The shuffle decided.
 
-00:27:22.990 --> 00:27:26.225
+00:26:46.730 --> 00:26:49.965
 Okay, so we've built a
 console War simulator.
 
-00:27:26.275 --> 00:27:29.100
+00:26:50.015 --> 00:26:52.840
 In 1995, what would have happened next?
 
-00:27:29.600 --> 00:27:31.807
+00:26:53.340 --> 00:26:55.547
 You would have put a GUI on it.
 
-00:27:31.857 --> 00:27:34.910
+00:26:55.597 --> 00:26:58.650
 This is where Visual Basic's
 form designer would have come in.
 
-00:27:35.410 --> 00:27:40.836
+00:26:59.150 --> 00:27:04.576
 You'd open the IDE, draw a form the size
 of a card table, drop some PictureBox
 
-00:27:40.886 --> 00:27:45.627
+00:27:04.626 --> 00:27:09.367
 controls on it to represent the card
 positions, maybe load bitmap images of playing
 
-00:27:45.677 --> 00:27:51.102
+00:27:09.417 --> 00:27:14.842
 cards from a resource file, and wire up
 the game logic to a Timer control that
 
-00:27:51.152 --> 00:27:53.840
+00:27:14.892 --> 00:27:17.580
 advanced the game one round at a time.
 
-00:27:54.340 --> 00:27:58.210
+00:27:18.080 --> 00:27:21.950
 You'd add a "Deal" button, a "Watch"
 button, maybe a speed slider.
 
-00:27:58.710 --> 00:28:03.774
+00:27:22.450 --> 00:27:27.514
 And this is how a lot of actual
 software got made in the mid-90s.
 
-00:28:03.824 --> 00:28:09.618
+00:27:27.564 --> 00:27:33.358
 People would start with the logic — get
 the algorithms working in a console or a
 
-00:28:09.668 --> 00:28:13.637
+00:27:33.408 --> 00:27:37.377
 simple form — and then layer
 the visual design on top.
 
-00:28:13.687 --> 00:28:18.020
+00:27:37.427 --> 00:27:41.760
 Visual Basic made that second step dramatically easier than anything else available.
 
-00:28:18.520 --> 00:28:24.337
+00:27:42.260 --> 00:27:48.077
 The shareware scene of the 1990s was full
 of card games, board games, and puzzle
 
-00:28:24.387 --> 00:28:26.292
+00:27:48.127 --> 00:27:50.032
 games written in Visual Basic.
 
-00:28:26.342 --> 00:28:30.986
+00:27:50.082 --> 00:27:54.726
 Windows came bundled with Solitaire
 and Minesweeper (written in C), but the
 
-00:28:31.036 --> 00:28:35.679
+00:27:54.776 --> 00:27:59.419
 thousands of freeware and shareware
 alternatives that flooded BBS boards and early
 
-00:28:35.729 --> 00:28:39.590
+00:27:59.469 --> 00:28:03.330
 web sites? A huge number
 of those were VB apps.
 
-00:28:40.090 --> 00:28:45.552
+00:28:03.830 --> 00:28:09.292
 You'd distribute your game by uploading
 it to a BBS or a shareware site.
 
-00:28:45.602 --> 00:28:51.852
+00:28:09.342 --> 00:28:15.592
 Users would download it, but they'd also
 need the VB runtime — a DLL file called
 
-00:28:51.902 --> 00:28:55.395
+00:28:15.642 --> 00:28:19.135
 something like VBRUN300.DLL that
 shipped separately from your program.
 
-00:28:55.445 --> 00:29:00.120
+00:28:19.185 --> 00:28:23.860
 If the user didn't already have it
 installed, your game wouldn't launch.
 
-00:29:00.620 --> 00:29:06.376
+00:28:24.360 --> 00:28:30.116
 So a lot of shareware authors would bundle
 the runtime with their download, which
 
-00:29:06.426 --> 00:29:10.109
+00:28:30.166 --> 00:28:33.849
 could turn a 200-kilobyte game
 into a megabyte-plus download.
 
-00:29:10.159 --> 00:29:16.330
+00:28:33.899 --> 00:28:40.070
 On a 14.4 modem, that's ten minutes or
 more of downloading. For a card game.
 
-00:29:16.830 --> 00:29:19.599
+00:28:40.570 --> 00:28:43.339
 But people did it. And the games worked.
 
-00:29:19.649 --> 00:29:25.589
+00:28:43.389 --> 00:28:49.329
 And if you were a teenager in 1996 who
 wanted to make your own version of Solitaire
 
-00:29:25.639 --> 00:29:31.578
+00:28:49.379 --> 00:28:55.318
 or Hearts or Spades, Visual Basic was the
 fastest path from "I have an idea" to "my
 
-00:29:31.628 --> 00:29:33.340
+00:28:55.368 --> 00:28:57.080
 friends are playing my game."
 
-00:29:33.840 --> 00:29:39.701
+00:28:57.580 --> 00:29:03.441
 This same code — the structures, the shuffle,
 the deck management — could be adapted
 
-00:29:39.751 --> 00:29:41.671
+00:29:03.491 --> 00:29:05.411
 for almost any card game.
 
-00:29:41.721 --> 00:29:46.794
+00:29:05.461 --> 00:29:10.534
 Poker hand evaluation is more complex,
 but the deck building and shuffling is
 
-00:29:46.844 --> 00:29:49.553
+00:29:10.584 --> 00:29:13.293
 identical. Blackjack
 would be simpler than War.
 
-00:29:49.603 --> 00:29:54.676
+00:29:13.343 --> 00:29:18.416
 Bridge or Hearts would need trick-taking
 logic, but the card representation is the
 
-00:29:54.726 --> 00:29:55.070
+00:29:18.466 --> 00:29:18.810
 same.
 
-00:29:55.570 --> 00:30:01.040
+00:29:19.310 --> 00:29:24.780
 This 280-line program is a seed that
 could grow into a lot of different things.
 
-00:30:05.540 --> 00:30:07.800
+00:29:29.280 --> 00:29:31.540
 Visual Basic didn't exist in a vacuum.
 
-00:30:07.850 --> 00:30:12.090
+00:29:31.590 --> 00:29:35.830
 In 1995, if you wanted to build a
 Windows application, you had choices.
 
-00:30:12.140 --> 00:30:16.050
+00:29:35.880 --> 00:29:39.790
 Let's talk about what they
 were and why VB won the market.
 
-00:30:16.550 --> 00:30:20.007
+00:29:40.290 --> 00:29:43.747
 Visual C++ 4.0 was Microsoft's
 professional-grade tool.
 
-00:30:20.057 --> 00:30:27.022
+00:29:43.797 --> 00:29:50.762
 MFC — the Microsoft Foundation Classes
 — gave you a C++ framework for building
 
-00:30:27.072 --> 00:30:32.534
+00:29:50.812 --> 00:29:56.274
 Windows apps. It was powerful, fast,
 and absolutely miserable to learn.
 
-00:30:32.584 --> 00:30:39.548
+00:29:56.324 --> 00:30:03.288
 MFC was notorious for its deep class
 hierarchies, its reliance on macros, and its
 
-00:30:39.598 --> 00:30:45.060
+00:30:03.338 --> 00:30:08.800
 unforgiving error messages. Professional
 developers used it. Game studios used it.
 
-00:30:45.560 --> 00:30:49.670
+00:30:09.300 --> 00:30:13.410
 Nobody starting from scratch would
 choose MFC if they had another option.
 
-00:30:50.170 --> 00:30:52.683
+00:30:13.910 --> 00:30:16.423
 Borland Delphi was the dark horse.
 
-00:30:52.733 --> 00:30:58.662
+00:30:16.473 --> 00:30:22.402
 Released in 1995, Delphi was basically
 "Visual Basic but for Object Pascal." It had
 
-00:30:58.712 --> 00:31:04.215
+00:30:22.452 --> 00:30:27.955
 the same kind of drag-and-drop form
 designer, the same RAD philosophy, but it
 
-00:31:04.265 --> 00:31:10.622
+00:30:28.005 --> 00:30:34.362
 compiled to native code from day one
 and its language — Object Pascal — was
 
-00:31:10.672 --> 00:31:15.320
+00:30:34.412 --> 00:30:39.060
 genuinely well-designed. A lot of experienced
 programmers preferred Delphi to VB.
 
-00:31:15.820 --> 00:31:20.861
+00:30:39.560 --> 00:30:44.601
 It was faster at runtime, it had a real
 object system with inheritance, and
 
-00:31:20.911 --> 00:31:23.770
+00:30:44.651 --> 00:30:47.510
 Borland's component model was
 arguably better than VB's.
 
-00:31:24.270 --> 00:31:27.289
+00:30:48.010 --> 00:30:51.029
 Delphi never caught VB
 in market share, though.
 
-00:31:27.339 --> 00:31:31.509
+00:30:51.079 --> 00:30:55.249
 VB had Microsoft behind it, and Microsoft
 controlled the operating system.
 
-00:31:31.559 --> 00:31:33.044
+00:30:55.299 --> 00:30:56.784
 VB was the default.
 
-00:31:33.094 --> 00:31:38.415
+00:30:56.834 --> 00:31:02.155
 If you were a self-taught programmer or a
 small business writing internal tools, you
 
-00:31:38.465 --> 00:31:41.100
+00:31:02.205 --> 00:31:04.840
 used VB because everyone else used VB.
 
-00:31:41.600 --> 00:31:46.917
+00:31:05.340 --> 00:31:10.657
 The ecosystem was bigger — more books, more
 tutorials, more third-party components,
 
-00:31:46.967 --> 00:31:51.390
+00:31:10.707 --> 00:31:15.130
 more people on CompuServe forums
 who could answer your questions.
 
-00:31:51.890 --> 00:31:55.137
+00:31:15.630 --> 00:31:18.877
 PowerBuilder was huge in the
 corporate database world.
 
-00:31:55.187 --> 00:32:00.494
+00:31:18.927 --> 00:31:24.234
 If you were building a line-of-business
 application that talked to an Oracle or
 
-00:32:00.544 --> 00:32:02.966
+00:31:24.284 --> 00:31:26.706
 Sybase database,
 PowerBuilder was the tool.
 
-00:32:03.016 --> 00:32:07.911
+00:31:26.756 --> 00:31:31.651
 It had a thing called DataWindows that
 made building data-entry forms almost
 
-00:32:07.961 --> 00:32:08.735
+00:31:31.701 --> 00:31:32.475
 trivially easy.
 
-00:32:08.785 --> 00:32:13.680
+00:31:32.525 --> 00:31:37.420
 But it was expensive, corporate, and
 basically invisible outside of IT departments.
 
-00:32:14.180 --> 00:32:20.416
+00:31:37.920 --> 00:31:44.156
 And then there was Java, which Sun
 Microsystems unveiled in 1995 with the slogan
 
-00:32:20.466 --> 00:32:25.805
+00:31:44.206 --> 00:31:49.545
 "Write Once, Run Anywhere" and shipped
 as version 1.0 in January 1996.
 
-00:32:25.855 --> 00:32:29.397
+00:31:49.595 --> 00:31:53.137
 Java was the future — everyone knew it.
 
-00:32:29.447 --> 00:32:36.582
+00:31:53.187 --> 00:32:00.322
 But in 1995, Java was brand new, brutally
 slow, had almost no libraries, and its GUI
 
-00:32:36.632 --> 00:32:41.970
+00:32:00.372 --> 00:32:05.710
 toolkit — AWT — was so
 ugly it could make you cry.
 
-00:32:42.470 --> 00:32:48.420
+00:32:06.210 --> 00:32:12.160
 Java would eventually eat the
 world, but not yet. Not in 1995.
 
-00:32:48.920 --> 00:32:54.238
+00:32:12.660 --> 00:32:17.978
 So Visual Basic sat in a sweet spot: easier
 than C++, more established than Delphi,
 
-00:32:54.288 --> 00:32:57.102
+00:32:18.028 --> 00:32:20.842
 cheaper than PowerBuilder,
 and more practical than Java.
 
-00:32:57.152 --> 00:33:03.544
+00:32:20.892 --> 00:32:27.284
 It wasn't the best tool for any single job,
 but it was a good enough tool for almost
 
-00:33:03.594 --> 00:33:04.259
+00:32:27.334 --> 00:32:27.999
 every job.
 
-00:33:04.309 --> 00:33:09.270
+00:32:28.049 --> 00:32:33.010
 And "good enough for almost everything"
 is a very powerful position to be in.
 
-00:33:13.770 --> 00:33:19.320
+00:32:37.510 --> 00:32:43.060
 What if you wanted to build this same
 card game in 1995, but you were on a Mac?
 
-00:33:19.820 --> 00:33:22.161
+00:32:43.560 --> 00:32:45.901
 First: you weren't using Visual Basic.
 
-00:33:22.211 --> 00:33:25.746
+00:32:45.951 --> 00:32:49.486
 Microsoft never actually shipped
 Visual Basic for the Mac.
 
-00:33:25.796 --> 00:33:30.926
+00:32:49.536 --> 00:32:54.666
 They had something called QuickBASIC for
 the Apple Macintosh — released in 1988,
 
-00:33:30.976 --> 00:33:36.903
+00:32:54.716 --> 00:33:00.643
 last updated in 1992 — but that was a
 plain BASIC compiler, not the visual,
 
-00:33:36.953 --> 00:33:40.090
+00:33:00.693 --> 00:33:03.830
 drag-and-drop environment that
 made VB special on Windows.
 
-00:33:40.590 --> 00:33:46.870
+00:33:04.330 --> 00:33:10.610
 And eventually Mac Office got VBA, the
 macro language inside Excel and Word, but
 
-00:33:46.920 --> 00:33:50.940
+00:33:10.660 --> 00:33:14.680
 that was for automating spreadsheets,
 not building standalone applications.
 
-00:33:51.440 --> 00:33:56.138
+00:33:15.180 --> 00:33:19.878
 On a Mac in 1995, you'd probably
 be using Metrowerks CodeWarrior.
 
-00:33:56.188 --> 00:34:01.749
+00:33:19.928 --> 00:33:25.489
 This was the dominant development environment
 for the Mac from the mid-90s onward.
 
-00:34:01.799 --> 00:34:09.087
+00:33:25.539 --> 00:33:32.827
 It used C and C++ and compiled for both
 the old Motorola 68k chips and the newer
 
-00:34:09.137 --> 00:34:09.950
+00:33:32.877 --> 00:33:33.690
 PowerPC architecture.
 
-00:34:10.450 --> 00:34:16.400
+00:33:34.190 --> 00:33:40.140
 The Mac Toolbox API — the equivalent
 of the Windows API — was C-based, and
 
-00:34:16.450 --> 00:34:20.000
+00:33:40.190 --> 00:33:43.740
 CodeWarrior was how most Mac
 developers interacted with it.
 
-00:34:20.500 --> 00:34:24.318
+00:33:44.240 --> 00:33:48.058
 Now, here's a misconception I
 want to address: Objective-C.
 
-00:34:24.368 --> 00:34:29.905
+00:33:48.108 --> 00:33:53.645
 Some people assume that Mac programming
 in the 90s meant Objective-C. It didn't.
 
-00:34:29.955 --> 00:34:35.922
+00:33:53.695 --> 00:33:59.662
 Objective-C was a NeXTSTEP language — it
 was the language of Steve Jobs's other
 
-00:34:35.972 --> 00:34:38.930
+00:33:59.712 --> 00:34:02.670
 company, NeXT, and the
 NeXTSTEP operating system.
 
-00:34:39.430 --> 00:34:45.710
+00:34:03.170 --> 00:34:09.450
 In 1995, NeXT was a niche software
 company — it had stopped making its famous
 
-00:34:45.760 --> 00:34:51.196
+00:34:09.500 --> 00:34:14.936
 workstations two years earlier — selling
 its operating system and developer tools to
 
-00:34:51.246 --> 00:34:52.884
+00:34:14.986 --> 00:34:16.624
 universities and Wall Street.
 
-00:34:52.934 --> 00:34:56.260
+00:34:16.674 --> 00:34:20.000
 Regular Mac developers weren't
 using Objective-C at all.
 
-00:34:56.760 --> 00:35:02.018
+00:34:20.500 --> 00:34:25.758
 Objective-C wouldn't become a Mac language
 until 2001, when Apple released Mac OS X.
 
-00:35:02.068 --> 00:35:06.947
+00:34:25.808 --> 00:34:30.687
 OS X was built on NeXTSTEP's foundation,
 and it brought Objective-C with it.
 
-00:35:06.997 --> 00:35:12.633
+00:34:30.737 --> 00:34:36.373
 So if someone asks "would it have been
 harder in Objective-C in 1995?" — the
 
-00:35:12.683 --> 00:35:14.150
+00:34:36.423 --> 00:34:37.890
 question doesn't quite apply.
 
-00:35:14.650 --> 00:35:19.360
+00:34:38.390 --> 00:34:43.100
 You wouldn't have been using Objective-C
 unless you were on a NeXT workstation, and
 
-00:35:19.410 --> 00:35:24.120
+00:34:43.150 --> 00:34:47.860
 if you were on a NeXT workstation, you
 were probably doing more interesting things
 
-00:35:24.170 --> 00:35:25.480
+00:34:47.910 --> 00:34:49.220
 than a card game.
 
-00:35:25.980 --> 00:35:32.305
+00:34:49.720 --> 00:34:56.045
 For a console card game like ours — no
 GUI, just logic and text output — the
 
-00:35:32.355 --> 00:35:34.555
+00:34:56.095 --> 00:34:58.295
 difficulty would have
 been roughly comparable.
 
-00:35:34.605 --> 00:35:40.180
+00:34:58.345 --> 00:35:03.920
 C is a harder language than BASIC, but
 the actual logic of building a deck,
 
-00:35:40.230 --> 00:35:43.930
+00:35:03.970 --> 00:35:07.670
 shuffling, and comparing cards
 is the same in any language.
 
-00:35:43.980 --> 00:35:48.055
+00:35:07.720 --> 00:35:11.795
 You'd use structs, arrays, and printf
 instead of structures, arrays, and
 
-00:35:48.105 --> 00:35:49.930
+00:35:11.845 --> 00:35:13.670
 Console.WriteLine. The
 algorithm doesn't change.
 
-00:35:50.430 --> 00:35:57.021
+00:35:14.170 --> 00:35:20.761
 Where VB had the massive advantage was
 in the next step — putting a GUI on it.
 
-00:35:57.071 --> 00:36:01.709
+00:35:20.811 --> 00:35:25.449
 In VB, that was an afternoon of
 dragging controls onto a form.
 
-00:36:01.759 --> 00:36:07.179
+00:35:25.499 --> 00:35:30.919
 On the Mac with CodeWarrior, you'd be
 writing Carbon or Toolbox API calls, managing
 
-00:36:07.229 --> 00:36:11.867
+00:35:30.969 --> 00:35:35.607
 window records, handling update events,
 and doing your own drawing into grafPorts.
 
-00:36:11.917 --> 00:36:13.820
+00:35:35.657 --> 00:35:37.560
 It was not an afternoon.
 
-00:36:14.320 --> 00:36:17.550
+00:35:38.060 --> 00:35:41.290
 It was a week, minimum, for someone
 who knew what they were doing.
 
-00:36:18.050 --> 00:36:22.773
+00:35:41.790 --> 00:35:46.513
 That's the real story of Visual Basic's
 dominance: not that it could do things other
 
-00:36:22.823 --> 00:36:28.183
+00:35:46.563 --> 00:35:51.923
 tools couldn't, but that it made the common
 case — put a window on the screen with
 
-00:36:28.233 --> 00:36:32.320
+00:35:51.973 --> 00:35:56.060
 some buttons and make them do stuff —
 dramatically faster than anything else.
 
-00:36:36.820 --> 00:36:41.209
+00:36:00.560 --> 00:36:04.949
 Visual Basic mattered because it democratized
 programming. That's not hyperbole.
 
-00:36:41.259 --> 00:36:46.535
+00:36:04.999 --> 00:36:10.275
 Before VB, writing a Windows application
 was a professional skill that required
 
-00:36:46.585 --> 00:36:47.423
+00:36:10.325 --> 00:36:11.163
 significant training.
 
-00:36:47.473 --> 00:36:54.081
+00:36:11.213 --> 00:36:17.821
 After VB, a motivated person with a $100
 software purchase and a library book could
 
-00:36:54.131 --> 00:36:56.744
+00:36:17.871 --> 00:36:20.484
 build something real in a weekend.
 
-00:36:56.794 --> 00:36:59.851
+00:36:20.534 --> 00:36:23.591
 Accountants wrote tools to
 automate their spreadsheets.
 
-00:36:59.901 --> 00:37:04.290
+00:36:23.641 --> 00:36:28.030
 Teachers built quiz applications. Small
 business owners made inventory trackers.
 
-00:37:04.790 --> 00:37:07.850
+00:36:28.530 --> 00:36:31.590
 None of these people would have
 called themselves programmers.
 
-00:37:07.900 --> 00:37:12.689
+00:36:31.640 --> 00:36:36.429
 They were people with problems who discovered
 that Visual Basic was good enough to
 
-00:37:12.739 --> 00:37:13.380
+00:36:36.479 --> 00:36:37.120
 solve them.
 
-00:37:13.880 --> 00:37:18.170
+00:36:37.620 --> 00:36:41.910
 The language was readable in a
 way that C-based languages aren't.
 
-00:37:18.220 --> 00:37:22.116
+00:36:41.960 --> 00:36:45.856
 If PlayerScore > HighScore Then
 reads like an English sentence.
 
-00:37:22.166 --> 00:37:26.456
+00:36:45.906 --> 00:36:50.196
 For Each Item In Collection tells
 you exactly what it's doing.
 
-00:37:26.506 --> 00:37:32.375
+00:36:50.246 --> 00:36:56.115
 You didn't need to know what a pointer
 was. You didn't need to manage memory.
 
-00:37:32.425 --> 00:37:37.110
+00:36:56.165 --> 00:37:00.850
 You didn't need to understand header files
 or linking or preprocessor directives.
 
-00:37:37.610 --> 00:37:40.040
+00:37:01.350 --> 00:37:03.780
 You just wrote what you
 meant, and it worked.
 
-00:37:40.540 --> 00:37:46.941
+00:37:04.280 --> 00:37:10.681
 Microsoft estimated that by the late 1990s,
 there were more lines of Visual Basic
 
-00:37:46.991 --> 00:37:50.167
+00:37:10.731 --> 00:37:13.907
 code in production than
 any other language.
 
-00:37:50.217 --> 00:37:56.618
+00:37:13.957 --> 00:37:20.358
 VB6, released in 1998, became one of the
 most beloved development tools ever made.
 
-00:37:56.668 --> 00:38:01.687
+00:37:20.408 --> 00:37:25.427
 There are VB6 applications still running
 today in banks, hospitals, manufacturing
 
-00:38:01.737 --> 00:38:03.530
+00:37:25.477 --> 00:37:27.270
 plants, and government offices.
 
-00:38:04.030 --> 00:38:09.149
+00:37:27.770 --> 00:37:32.889
 Software that was written a quarter century
 ago, still doing its job, and nobody
 
-00:38:09.199 --> 00:38:13.580
+00:37:32.939 --> 00:37:37.320
 wants to touch it because rewriting
 it would be expensive and risky.
 
-00:38:14.080 --> 00:38:18.450
+00:37:37.820 --> 00:37:42.190
 And then Microsoft killed it. Well
 — they didn't kill it outright.
 
-00:38:18.500 --> 00:38:23.975
+00:37:42.240 --> 00:37:47.715
 What they did was announce, around 2000,
 that Visual Basic would become VB.NET — and
 
-00:38:24.025 --> 00:38:29.868
+00:37:47.765 --> 00:37:53.608
 then ship it in 2002 as a completely new
 language that shared the name but was
 
-00:38:29.918 --> 00:38:31.710
+00:37:53.658 --> 00:37:55.450
 fundamentally different under the hood.
 
-00:38:32.210 --> 00:38:39.328
+00:37:55.950 --> 00:38:03.068
 VB.NET ran on the .NET framework, used
 the Common Language Runtime, and had a
 
-00:38:39.378 --> 00:38:42.400
+00:38:03.118 --> 00:38:06.140
 different syntax, different
 semantics, different everything.
 
-00:38:42.450 --> 00:38:48.544
+00:38:06.190 --> 00:38:12.284
 Code from VB6 did not run in
 VB.NET. The migration tools were...
 
-00:38:48.594 --> 00:38:50.080
+00:38:12.334 --> 00:38:13.820
 let's say "aspirational."
 
-00:38:50.580 --> 00:38:52.487
+00:38:14.320 --> 00:38:16.227
 The VB community was furious.
 
-00:38:52.537 --> 00:38:58.358
+00:38:16.277 --> 00:38:22.098
 They'd been promised that VB was a platform
 they could build careers on, and now
 
-00:38:58.408 --> 00:39:01.097
+00:38:22.148 --> 00:38:24.837
 Microsoft was telling them to start over.
 
-00:39:01.147 --> 00:39:04.620
+00:38:24.887 --> 00:38:28.360
 Many VB6 developers moved to
 VB.NET and eventually adapted.
 
-00:39:04.670 --> 00:39:10.882
+00:38:28.410 --> 00:38:34.622
 Many moved to C# instead, figuring that
 if they had to learn a new .NET language,
 
-00:39:10.932 --> 00:39:15.970
+00:38:34.672 --> 00:38:39.710
 they might as well learn the one Microsoft
 clearly favored. And some just...
 
-00:39:16.470 --> 00:39:19.540
+00:38:40.210 --> 00:38:43.280
 stayed on VB6. Some are still there.
 
-00:39:20.040 --> 00:39:26.844
+00:38:43.780 --> 00:38:50.584
 In 2005, as Microsoft ended mainstream
 support for VB6, a group of developers and
 
-00:39:26.894 --> 00:39:32.230
+00:38:50.634 --> 00:38:55.970
 MVPs organized an actual petition to
 keep unmanaged Visual Basic alive.
 
-00:39:32.730 --> 00:39:38.378
+00:38:56.470 --> 00:39:02.118
 VB.NET still exists today — it's the
 language we wrote this card game in.
 
-00:39:38.428 --> 00:39:41.227
+00:39:02.168 --> 00:39:04.967
 But it's a niche within a niche.
 
-00:39:41.277 --> 00:39:46.519
+00:39:05.017 --> 00:39:10.259
 Microsoft has officially stated that they
 will not add new language features to
 
-00:39:46.569 --> 00:39:51.810
+00:39:10.309 --> 00:39:15.550
 VB.NET; it will continue to compile
 and run, but it's in maintenance mode.
 
-00:39:51.860 --> 00:39:55.880
+00:39:15.600 --> 00:39:19.620
 C# gets all the new toys.
 VB.NET gets security patches.
 
-00:39:56.380 --> 00:40:02.050
+00:39:20.120 --> 00:39:25.790
 The language that taught a generation to
 program is, for all practical purposes,
 
-00:40:02.100 --> 00:40:02.490
+00:39:25.840 --> 00:39:26.230
 finished.
 
-00:40:02.990 --> 00:40:08.700
+00:39:26.730 --> 00:39:32.440
 But the ideas it pioneered — visual form
 designers, event-driven programming, RAD
 
-00:40:08.750 --> 00:40:14.940
+00:39:32.490 --> 00:39:38.680
 tools, components you can drop onto a
 surface and configure through properties —
 
-00:40:14.990 --> 00:40:16.860
+00:39:38.730 --> 00:39:40.600
 those ideas won completely.
 
-00:40:16.910 --> 00:40:23.580
+00:39:40.650 --> 00:39:47.320
 Every modern UI framework, from React to
 SwiftUI to Flutter, carries DNA that traces
 
-00:40:23.630 --> 00:40:27.900
+00:39:47.370 --> 00:39:51.640
 back to Alan Cooper's prototype
 and Microsoft's Visual Basic.
 
-00:40:29.300 --> 00:40:30.755
+00:39:53.040 --> 00:39:54.495
 So that's Visual Basic.
 
-00:40:30.805 --> 00:40:34.893
+00:39:54.545 --> 00:39:58.633
 A language born from the idea that
 programming should be accessible.
 
-00:40:34.943 --> 00:40:40.159
+00:39:58.683 --> 00:40:03.899
 A tool that put software development
 within reach of people who'd never taken a
 
-00:40:40.209 --> 00:40:41.287
+00:40:03.949 --> 00:40:05.027
 computer science class.
 
-00:40:41.337 --> 00:40:46.930
+00:40:05.077 --> 00:40:10.670
 A product that dominated the 1990s and
 then got swept aside by its own successor.
 
-00:40:47.430 --> 00:40:53.460
+00:40:11.170 --> 00:40:17.200
 And in about 280 lines, we used it to
 build something that works: a complete card
 
-00:40:53.510 --> 00:40:58.780
+00:40:17.250 --> 00:40:22.520
 game, with real deck management, a proper
 shuffle algorithm, and a game loop that
 
-00:40:58.830 --> 00:41:04.100
+00:40:22.570 --> 00:40:27.840
 handles every edge case — including wars
 that chain three and four levels deep.
 
-00:41:04.600 --> 00:41:08.727
+00:40:28.340 --> 00:40:32.467
 If you want to try it yourself,
 the code is straightforward.
 
-00:41:08.777 --> 00:41:14.801
+00:40:32.517 --> 00:40:38.541
 Install the .NET SDK — it's free — run
 dotnet new console -lang VB, and start
 
-00:41:14.851 --> 00:41:15.181
+00:40:38.591 --> 00:40:38.921
 typing.
 
-00:41:15.231 --> 00:41:20.117
+00:40:38.971 --> 00:40:43.857
 The language will feel strange if you're
 used to curly braces and semicolons.
 
-00:41:20.167 --> 00:41:26.951
+00:40:43.907 --> 00:40:50.691
 But give it a few minutes, and you might
 start to see what millions of people saw in
 
-00:41:27.001 --> 00:41:28.470
+00:40:50.741 --> 00:40:52.210
 it thirty years ago.
 
-00:41:28.970 --> 00:41:31.880
+00:40:52.710 --> 00:40:55.620
 It's readable. It's obvious. And it works.
 
-00:41:32.380 --> 00:41:33.385
+00:40:56.120 --> 00:40:57.125
 Thanks for watching.
 
-00:41:33.435 --> 00:41:38.308
+00:40:57.175 --> 00:41:02.048
 If you enjoyed this, consider subscribing
 — I've got more of these retro language
 
-00:41:38.358 --> 00:41:39.012
+00:41:02.098 --> 00:41:02.752
 deep-dives planned.
 
-00:41:39.062 --> 00:41:44.990
+00:41:02.802 --> 00:41:08.730
 And if you were around in 1995 and you
 actually wrote VB4 code, leave a comment and
 
-00:41:45.040 --> 00:41:49.210
+00:41:08.780 --> 00:41:12.950
 tell me what I got wrong.
 I want to hear about it.
 
-00:41:49.710 --> 00:41:51.020
+00:41:13.450 --> 00:41:14.760
 See you in the next one.
 

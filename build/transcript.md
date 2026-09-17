@@ -232,13 +232,9 @@ Going into round 617, Player 2 had exactly 2 cards left — against Player 1's 5
 
 It doesn't demand three. It caps the burn at however many cards the shorter hand can spare. Player 2 had 1, so both players burned 1. After the burn, Player 2's hand was empty. The loop came back to the top, hit the empty-hand check, and that was it — Player 1 took the four-card pot and the game.
 
-Panel 1: Player 2's hand — 2 cards. Player 1's hand — 50 cards. Panel 2: Both play a 10. 1 card left for Player 2, 49 for Player 1. Panel 3: Both burn 1. Zero cards left for Player 2. Panel 4: "Player 2 has no cards left for the war — Player 1 takes the pot."]
-
 And it happened again, in the opposite direction, purely by chance. The longest run — 2,008 rounds:
 
 Same mechanic. Player 1 walked into round 2,008 holding 3 cards against 49. Both played an 8, leaving Player 1 with 2. Both burned 2. Player 1's hand was empty, and Player 2 took the six-card pot.
-
-TERM-04: 2 cards → play 10 → burn 1 → empty → 4-card pot TERM-02: 3 cards → play 8 → burn 2 → empty → 6-card pot]
 
 This is a subtlety worth noticing. The rule isn't "you need three cards for a war or you forfeit." It's "burn what you have, and if there's nothing left to flip, you're done." A player down to two cards going into a war still gets a reduced burn — one card face-down, one card to compete with — and can still win it.
 
