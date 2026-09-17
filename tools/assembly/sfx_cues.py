@@ -18,9 +18,9 @@ SFX_DIR = ROOT / "assets/audio/sfx"
 LF = "\n"
 FILES = {"shuffle": "card-shuffle.wav", "slap": "card-slap.wav", "win95": "windows95-startup.wav"}
 RULES = [  # (effect, asset ids that trigger it, once-only, gain dB)
-    ("shuffle", {"DIA-02", "DIA-06", "BROLL-01"}, False, -8),
+    ("shuffle", {"DIA-15", "DIA-02", "DIA-06", "BROLL-01"}, False, -8),
     ("slap", {"DIA-08", "DIA-09"}, False, -6),
-    ("win95", {"HIST-08"}, True, -10),
+    ("win95", {"BROLL-04", "HIST-08"}, True, -10),
 ]
 
 def main() -> int:

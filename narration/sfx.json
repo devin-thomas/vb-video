@@ -1,10 +1,24 @@
 [
  {
+  "effect": "win95",
+  "at": 298.18,
+  "file": "assets/audio/sfx/windows95-startup.wav",
+  "gain_db": -10,
+  "trigger": "S02-B13:BROLL-04"
+ },
+ {
   "effect": "shuffle",
   "at": 552.58,
   "file": "assets/audio/sfx/card-shuffle.wav",
   "gain_db": -8,
   "trigger": "S05-B01:DIA-02"
+ },
+ {
+  "effect": "shuffle",
+  "at": 572.15,
+  "file": "assets/audio/sfx/card-shuffle.wav",
+  "gain_db": -8,
+  "trigger": "S05-B02:DIA-15"
  },
  {
   "effect": "shuffle",
